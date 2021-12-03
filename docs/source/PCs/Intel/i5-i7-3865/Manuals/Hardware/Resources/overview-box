@@ -1,0 +1,26 @@
+Product Overview
+=================
+
+The |product| is a rugged, high-quality mountable multifunctional industrial PC without a display. Thanks to the integrated brackets and its light-weight construction, it can be firmly attached to any flat surface, such as industrial cabinets or walls.
+
+|product| is powered by the high-performance |Intel| |Core| i7 10510U quad-core (8 threads) CPU, but it can be scaled down to i5 7200U or |Celeron| 3865U, depending on  application requirements. |Product| also features a broad range of connectivity options, allowing it to meet even the most demanding requirements in harsh industrial or outdoor environments.
+
+.. sidebar:: Key Applications
+   
+  + Industrial Automation
+  + Process Control
+  + Smart Grid Management
+  + CNC Manufacturing
+  + Environmental Monitoring
+  + Machine Vision Inspection
+  + Predictive Maintenance
+
+
+Despite their cutting-edge performances, the offered CPUs consume very little power: their TDP is only 15W at respective base clock frequencies. From the ground-up, these CPUs are built for low power consumption. As such, they are best suited for mobile and power-constrained industrial or field applications.
+
+A specially designed aluminum alloy housing with fins for increased heat dissipation serves as a passive cooler, eliminating the need for built-in fans. 
+The fan-less design reduces noise, as well as the maintenance costs and efforts, increasing reliability at the same time.
+
+.. caution::
+
+   Be careful when handling the product while it is operating: it might become hot under heavy CPU load.

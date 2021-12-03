@@ -1,0 +1,20 @@
+Touch screen
+============
+
+|Product| can be equipped with either a resistive or capacitive touch screen, as per request.
+
+A resistive touch screen is an ideal option for harsh industrial conditions due to its high immunity against high temperature, dirt, and dust. In addition, it does not require any special material to be operated; the resistive touch screen can be used with regular rubber gloves, fingers, or a plastic stylus.
+
+The multi-point capacitive touch screen offers high precision and enables implementation of some advanced GUI operations, such as two-finger zoom or rotation. It can be operated by fingers, gloves with a special coating, or a conductive stylus. It offers a slightly higher light transmittance and screen surface hardness than the resistive screen.
+
+.. container:: hatnote hatnote-yellow
+
+  **Size/Type:** |dispsize| multi-point capacitive touch screen |br|
+  **Surface Hardness:** 7H |br|
+  **Service Life (MTBF):** 50 million touch events |br|
+  **Light Transmittance:** > 92% |br|
+  |br|
+  **Size/Type:** |dispsize| five-wire analog resistive touch screen |br|
+  **Surface Hardness:** 3H |br| 
+  **Service Life (MTBF):** 35 million click events |br| 
+  **Light Transmittance:** > 81% |br|

@@ -1,0 +1,57 @@
+Expansion Port
+--------------
+
+|Product| has 1 x **Expansion Port** as shown in *Figure 7*. It is an unpopulated PCB footprint with the standard 2.54mm (1") pitch holes,
+labeled as P21 on the PCB. The Expansion Port provides direct access to some of the processor pins, as described in *Table 3* below.
+
+.. figure:: /Media/ARM/A9/CS10600F070/expansion_IO.png
+   :align: center
+   :figclass: align-center
+
+   *Figure 7: Expansion Port*
+
+
+.. table:: Table 3: Expansion Connector Pinout
+   :align: center
+   :width: 100%
+
+   +------------------------------------------------------------------------------+
+   | .. centered:: Expansion Connector Pinout                                     |
+   +----------+--------------+-------------+---------+--------------+-------------+
+   | **PIN**  | **Function** | **CPU PIN** | **PIN** | **Function** | **CPU PIN** |
+   +==========+==============+=============+=========+==============+=============+
+   | 1        | I2C2_SDA     | T7          | 2       | I2C2_SCL     | U5          |
+   +----------+--------------+-------------+---------+--------------+-------------+
+   | 3        | GPIO7_13     | P6          | 4       | GPIO7_12     | R1          |
+   +----------+--------------+-------------+---------+--------------+-------------+
+   | 5        | CSI0_PIXCLK  | P1          | 6       | CSI0_HSYNCH  | P4          |
+   +----------+--------------+-------------+---------+--------------+-------------+
+   | 7        | CSI0_VSYNCH  | N2          | 8       | CLKO         | T5          |
+   +----------+--------------+-------------+---------+--------------+-------------+
+   | 9        | CSI0_DAT19   | L6          | 10      | CSI0_DAT18   | M6          |
+   +----------+--------------+-------------+---------+--------------+-------------+
+   | 11       | CSI0_DAT17   | L3          | 12      | CSI0_DAT16   | L4          |
+   +----------+--------------+-------------+---------+--------------+-------------+
+   | 13       | CSI0_DAT15   | M5          | 14      | CSI0_DAT14   | M4          |
+   +----------+--------------+-------------+---------+--------------+-------------+
+   | 15       | CSI0_DAT13   | L1          | 16      | CSI0_DAT12   | M2          |
+   +----------+--------------+-------------+---------+--------------+-------------+
+   | 17       | VDD_5V0      | 5.0V Output | 18      | VDD_3V3      | 3.3V Output |
+   +----------+--------------+-------------+---------+--------------+-------------+
+   | 19       | GND          | Ground      | 20      | GND          | Ground      |
+   +----------+--------------+-------------+---------+--------------+-------------+
+   | 21       | GPIO1_29     | W20         | 22      | GPIO4_10     | W4          |
+   +----------+--------------+-------------+---------+--------------+-------------+
+   | 23       | GPIO1_28     | V21         | 24      | GPIO1_30     | U20         |
+   +----------+--------------+-------------+---------+--------------+-------------+
+   | 25       | I2C3_SDA     | D24         | 26      | I2C3_SCL     | F21         |
+   +----------+--------------+-------------+---------+--------------+-------------+
+   | 27       | GPIO5_2      | H19         | 28      | GPIO3_23     | D25         |
+   +----------+--------------+-------------+---------+--------------+-------------+
+   | 29       | GPIO3_30     | J20         | 30      | GPIO3_31     | H21         |
+   +----------+--------------+-------------+---------+--------------+-------------+
+
+
+.. warning::   
+
+   Since the PCB traces of the port are connected to the processor directly, be careful not to cause electrostatic discharge or overvoltage on the pins, as it may damage the processor. Take all the necessary precautions while working with electrostatic-sensitive equipment.

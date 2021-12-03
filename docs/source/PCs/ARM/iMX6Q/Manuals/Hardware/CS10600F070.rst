@@ -1,0 +1,116 @@
+.. |product| replace:: EPC/PPC-A9-70-C
+
+.. |productE| replace:: EPC-A9-70-C
+
+.. |productP| replace:: PPC-A9-70-C
+
+.. |PN| replace:: PN: CS10600F070
+
+.. |Product| replace:: The |product| Industrial Panel PC 
+
+.. |dispsize| replace:: 7.0"
+
+.. |res| replace:: 1024 x 600
+
+.. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
+
+.. |dimE| replace:: 	190 x 107.8 x 27.7mm
+
+.. |dimP| replace:: 206 x 135 x 30.1mm
+
+.. |weightE| replace:: 380g
+
+.. |weightP| replace:: 680 g
+
+.. |RAM| replace:: 2GB DDR3
+
+.. |eMMC| replace:: 8GB
+
+.. |tscreen| replace:: Capacitive Multi-Point Touch Screen
+
+.. |USB| replace:: 3 x USB 2.0 HOST, 1 x USB OTG
+
+.. |LAN| replace:: 1 x RJ45, GbE
+
+.. |GPIO| replace:: N/A
+
+.. |expansions| replace:: 1 x 30-pin, 2.54mm DIL Header (PCB Footprint)
+
+.. |opt1| replace:: N/A
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |vin_rng| replace:: From 6V to 36V
+
+.. |cur| replace:: 600mA Max
+
+.. |pwr| replace:: 6W Typical
+
+.. |temp| replace:: From -20°C to +70°C   
+
+.. _EPC/PPC-A9-70-C:
+
+.. sectnum::
+   :start: 1
+   :suffix: .
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. figure:: /Media/ARM/A9/CS10600F070/PPC-A9-70-C-Front.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Panel Mounting Variant)
+
+.. figure:: /Media/ARM/A9/CS10600F070/PPC-A9-70-C-Back.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Panel Mounting Variant)  
+
+.. figure:: /Media/ARM/A9/CS10600F070/EPC-A9-70-C-Front.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Embedded Variant)
+
+.. figure:: /Media/ARM/A9/CS10600F070/EPC-A9-70-C-Back.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Embedded Variant)
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/connectivity
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi
+
+.. include:: Resources/expansion_IO
+
+.. include:: Resources/TF_Card
+
+.. include:: Resources/Audio_IO
+
+.. include:: Resources/HDMI
+
+.. include:: Resources/Boot_SW
+
+.. include:: Resources/support

@@ -1,0 +1,22 @@
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial PC. It has 4 x USB Type A connectors configured as HOSTS, 1 x HDMI port, 2 x RJ45 connectors supporting 
+Gigabit Ethernet (GbE), and up to 4 x RS232 connectors, of which two can be configured in RS485 mode.
+
+RS232/485 Connectors
+-------------------------
+
+Product has 4 x 9-pin D-sub connectors *(Figure 2 and 2a)* which are configured as RS232 interfaces by default. The two 9-pin D-sub connectors labeled **COM1** and **COM2** can be configured as either RS232 or RS485 communication interfaces. If different configuration is required, please get in touch with Chipsee technical support at |email|_
+
+.. figure:: /Media/Intel/i5-i7-3865/Sub-D(COM12).png
+   :align: center
+   :figclass: align-center
+ 
+   *Figure 2: 2 x D-sub Connectors: RS232 or RS485*
+
+.. figure:: /Media/Intel/i5-i7-3865/150/Sub-D(COM34).png
+   :align: center
+   :figclass: align-center
+ 
+   *Figure 2a: 2 x D-sub Connectors: RS232*

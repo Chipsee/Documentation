@@ -1,0 +1,15 @@
+WiFi & BT Module
+----------------
+
+|Product| does not include an embedded WiFi/BT module. However, it has an onboard footprint accommodating for easy installation of the popular **Realtek RTL8723 WiFi/BT module** that supports BT/BLE 4.0 (with backward compatibility), as well as 802.11bgn 2.4 GHz Wireless LAN (WLAN).
+
+.. figure:: /Media/ARM/A7/CS10600U070/WiFi_BT_PCBF.png
+   :align: center
+   :figclass: align-center
+
+   *Figure 6: RTL8273 WiFi/BT Module PCB Footprint*
+
+The enclosed (PPC) variant of the product has a specially designed connector hole for a standard SMA connector, allowing an external WiFi antenna to be connected.
+
+
+

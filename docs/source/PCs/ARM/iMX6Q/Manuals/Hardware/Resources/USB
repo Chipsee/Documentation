@@ -1,0 +1,24 @@
+USB Connectors
+--------------
+
+There are 3 x Type A **USB HOST connectors** onboard, as shown on *Figure 4*. 
+
+.. Figure:: /Media/ARM/A9/CS10600F070/USB.png
+  :align: center
+  :figclass: align-center
+  
+  *Figure 4: USB HOST Connectors (embedded/enclosed PC version)*
+
+There is also 1 x Type Mini B **USB OTG connector**, configured as slave by 
+default *(Figure 4a)*.
+
+.. Figure:: /Media/ARM/A9/CS10600F070/USB_OTG.png
+  :align: center
+  :figclass: align-center
+  
+  *Figure 4a: USB OTG Connector (embedded/enclosed PC version)*
+  
+
+.. warning:: 
+ 
+  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.

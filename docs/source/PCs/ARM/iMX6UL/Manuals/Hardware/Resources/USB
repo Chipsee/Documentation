@@ -1,0 +1,20 @@
+USB HOST Connectors
+-------------------
+
+There are 2 x Type A **USB HOST connectors** onboard, as shown on *Figure 4*.
+
+.. Figure:: /Media/ARM/A7/CS10600U070/USB.png
+  :align: center
+  :figclass: align-center
+  
+  *Figure 4: USB Connectors (embedded/enclosed PC version)*
+  
+
+.. warning:: 
+ 
+  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
+
+ 
+
+
+

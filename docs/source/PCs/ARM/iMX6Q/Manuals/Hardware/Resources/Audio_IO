@@ -1,0 +1,21 @@
+Audio Connectors
+================
+
+
+|Product| features some audio peripherals, as well. It has 1 x **3.5mm audio input jack** and 1 x **3.5mm audio output jack**.
+
+On the embedded panel PC version, the pink connector is the audio input jack (line-in) and the blue connector is the audio output jack (line-out, typically around -10 dBV). On the enclosed panel PC version, both audio input and audio output are clearly marked (*Figure 9)* 
+
+.. figure:: /Media/ARM/A9/CS10600F070/Audio.png
+  :figclass: align-center
+  :align: center
+
+  *Figure 9: Audio I/O (embedded/enclosed PC version)*
+
+In addition, |product| features a miniature 2W embedded speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds *(Figure 9a)*.
+
+.. figure:: /Media/ARM/A9/CS10600F070/Speaker_Buzzer.png
+  :figclass: align-center
+  :align: center
+  
+  *Figure 9a: 2W Micro Speaker and Buzzer*

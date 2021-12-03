@@ -1,0 +1,15 @@
+
+USB HOST Connectors 
+--------------------
+
+|product| is equipped with 3 x USB 2.0 connectors and 1 x USB 3.0 HOST connector. The **USB** connectors are configured as shown in *Figure 3*. The data throughput of the USB 3.0 
+interface can reach up to 4.8 Gbps, while the USB 2.0 interfaces are limited to 480 Mbps.
+
+Although fully compatible with USB 2.0 devices, the USB 3.0 interface provides 10 times more data transfer bandwidth than USB 2.0, making it best suited for fast peripherals that 
+can utilize its full potential.
+
+.. figure:: /Media/Intel/J1900/PPC-J1900-USB.png
+   :align: center
+   :figclass: align-center
+
+   *Figure 3: USB HOST Connectors*

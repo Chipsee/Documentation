@@ -1,0 +1,72 @@
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial PC. It has 2 x HOST USB Type A connectors, 1 x network connector (RJ45) supporting up to
+100 Mbps, and 5 x UART terminals (RS232/485). This device also features two CAN interfaces, and a set of opto-isolated GPIO pins for various purposes.
+
+.. _RS232/485/CAN_A7_70C:
+
+RS232/485/CAN
+--------------
+
+The serial communication interfaces (RS485, RS482, and CAN) are routed to a **16-pin 3.81mm terminal**, as illustrated on *Figure 3*. 
+Serial communication on both RS485 and RS422 interfaces can reach up to 115200 kbps.
+
+.. figure:: /Media/ARM/A7/CS10600U070/IO-Peripheras.png
+   :align: center
+   :figclass: align-center
+
+   *Figure 3: Relation between serial pins on embedded vs. enclosed version of the A7-70HB-C IPC*
+
+The table below offers more detailed description of every pin and its definition:
+  
+.. table:: Table 2: Connectivity Section
+   :align: center
+   :width: 100%
+
+   +----------------------------------------------------------------------+
+   | **RS232 / RS485 / CAN Pin Definition:**                              |
+   +================+================+====================================+
+   | **Pin Number** | **Definition** | **Description**                    |
+   +----------------+----------------+------------------------------------+
+   | Pin 16         | CAN2_H         | CPU CAN Channel 2 H signal         |
+   +----------------+----------------+------------------------------------+
+   | Pin 15         | CAN2_L         | CPU CAN Channel 2 L signal         |
+   +----------------+----------------+------------------------------------+
+   | Pin 14         | CAN1_H         | CPU CAN Channel 1 H signal         |
+   +----------------+----------------+------------------------------------+
+   | Pin 13         | CAN1_L         | CPU CAN Channel 1 L signal         |
+   +----------------+----------------+------------------------------------+
+   | Pin 12         | RS485_5-       | CPU UART5, RS485 –(B) signal       |
+   +----------------+----------------+------------------------------------+
+   | Pin 11         | RS485_5+       | CPU UART5, RS485 +(A) signal       |
+   +----------------+----------------+------------------------------------+
+   | Pin 10         | RS485_4-       | CPU UART4, RS485 –(B) signal       |
+   +----------------+----------------+------------------------------------+
+   | Pin 9          | RS485_4+       | CPU UART4, RS485 +(A) signal       |
+   +----------------+----------------+------------------------------------+
+   | Pin 8          | RS485_3-       | CPU UART3, RS485 –(B) signal       |
+   +----------------+----------------+------------------------------------+
+   | Pin 7          | RS485_3+       | CPU UART3, RS485 +(A) signal       |
+   +----------------+----------------+------------------------------------+
+   | Pin 6          | RS232_2_RXD    | CPU UART2, RS232 RXD signal [#f]_  |
+   +----------------+----------------+------------------------------------+
+   | Pin 5          | RS232_2_TXD    | CPU UART2, RS232 TXD signal [#f]_  |
+   +----------------+----------------+------------------------------------+
+   | Pin 4          | RS232_1_RXD    | CPU UART1, RS232 RXD signal        |
+   +----------------+----------------+------------------------------------+
+   | Pin 3          | RS232_1_TXD    | CPU UART1, RS232 TXD signal        |
+   +----------------+----------------+------------------------------------+
+   | Pin 2          | GND            | System Ground                      |
+   +----------------+----------------+------------------------------------+
+   | Pin 1          | +5V            | System Power Output 5V, up to 1A   |
+   +----------------+----------------+------------------------------------+
+     
+-----
+
+.. [#f] UART2 signal is used by the onboard WiFi/BT module, so the I/O port function is disabled by default. If you 
+        need the I/O port function instead, please contact Chipsee Technical Support at |email|_ for assistance.
+
+.. note:: 
+
+   120Ω termination resistors are not mounted or included with the device.

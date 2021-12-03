@@ -1,0 +1,116 @@
+.. |product| replace:: EPC/PPC-A9-97-C
+
+.. |productE| replace:: EPC-A9-97-C
+
+.. |productP| replace:: PPC-A9-97-C
+
+.. |PN| replace:: PN: CS10768F097
+
+.. |Product| replace:: The |product| Industrial Panel PC 
+
+.. |dispsize| replace:: 9.7"
+
+.. |res| replace:: 1024 x 768
+
+.. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
+
+.. |dimE| replace:: 	226 x 172 x 26mm
+
+.. |dimP| replace:: 256 x 207 x 29mm
+
+.. |weightE| replace:: 550g
+
+.. |weightP| replace:: 1370g
+
+.. |RAM| replace:: 2GB DDR3
+
+.. |eMMC| replace:: 8GB
+
+.. |tscreen| replace:: Capacitive Multi-Point Touch Screen
+
+.. |USB| replace:: 2 x USB 2.0 HOST, 1 x USB OTG
+
+.. |LAN| replace:: 2 x RJ45: 1 x GbE, Optional PoE Support; 1 x 100Mbps, Optional
+
+.. |GPIO| replace:: 8 x General Purpose I/O (GPIO) channels
+
+.. |expansions| replace:: Mini PCIe Connector
+
+.. |opt1| replace:: Optional, module available from the Chipsee store
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |vin_rng| replace:: From 12V to 36V
+
+.. |cur| replace:: 600mA Max (w/o 4G Module)
+
+.. |pwr| replace:: 7W Typical
+
+.. |temp| replace:: From -20°C to +70°C
+
+.. _EPC/PPC-A9-97-C:
+
+.. sectnum::
+   :start: 1
+   :suffix: .
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. figure:: /Media/ARM/A9/CS10768F097/PPC-A9-97-C-Front.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Panel Mounting Variant)
+
+.. figure:: /Media/ARM/A9/CS10768F097/PPC-A9-97-C-Back.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Panel Mounting Variant)  
+
+.. figure:: /Media/ARM/A9/CS10768F097/EPC-A9-97-C-Front.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Embedded Variant)
+
+.. figure:: /Media/ARM/A9/CS10768F097/EPC-A9-97-C-Back.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Embedded Variant)
+
+.. include:: Resources/overview
+
+.. include:: A9_97_resources/ordering
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: A9_97_resources/power
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/connectivity
+
+.. include:: A9_97_resources/USB
+
+.. include:: A9_97_resources/LAN
+
+.. include:: Resources/WiFi
+
+.. include:: A9_97_resources/expansion_IO
+
+.. include:: Resources/TF_Card
+
+.. include:: A9_97_resources/Audio_IO
+
+.. include:: Resources/HDMI
+
+.. include:: A9_97_resources/Boot_SW
+
+.. include:: Resources/support

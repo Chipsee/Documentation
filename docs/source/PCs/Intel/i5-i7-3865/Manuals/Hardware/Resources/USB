@@ -1,0 +1,13 @@
+
+USB HOST Connectors 
+--------------------
+
+|product| is equipped with 4 x *USB 3.0* HOST connectors *(Figure 3)*. Although fully compatible with USB 2.0 devices, the USB 3.0 interface provides 10 times more data transfer 
+bandwidth than USB 2.0, making it best suited for fast peripherals that can utilize its full potential.
+
+
+.. figure:: /Media/Intel/i5-i7-3865/USB.png
+   :align: center
+   :figclass: align-center
+
+   *Figure 3: 4 x USB 3.0 HOST Connectors*

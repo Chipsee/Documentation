@@ -1,0 +1,17 @@
+Ordering Options
+=================
+
+Chipsee products can be customized during the ordering process. The product will be shipped with the pre-installed factory defaults if no extra requirements are specified. The table in the `Hardware Features`_ section provides information about the default options bundled with the product.
+
+.. note::
+  
+  You can order |Product| from the official |cstore|_ or from your nearest distributor.
+
+Operating System
+-----------------
+
+This product comes with a pre-installed OS of your choice. It supports Linux Qt5.5 and Debian 8.10, which can be obtained from the :ref:`Software Documentation <CS10600U070_OS>` section, along with the detailed installation instructions.
+
+.. warning::
+
+  The Software Documentation provides a detailed instruction how to install different OS on your own. However, bear in mind that Chipsee cannot take the responsibility of inadequate installation procedure. If you "brick" your device, please contact Chipsee Technical Support at |email|_ and ask for help

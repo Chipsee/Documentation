@@ -1,0 +1,27 @@
+Product Overview
+=================
+
+The |Cortex|-A7 series |product| (|PN|) is a rugged, high-quality industrial panel PC. It features a |disp_des|.
+
+.. sidebar:: Key Applications
+   
+  + Process Control
+  + Process Monitoring
+  + HMI
+  + IIoT node
+  + Environmental Monitoring
+  + PLC
+  + Automotive applications
+  + ATM...
+
+It is available both as an embedded solution and as a device hosed in an aluminum casing with bezels, thus facilitating different installation options:
+
++ Installation on an industrial cabinet
++ Integration with the existing equipment
+
+|Product| offers a very low power consumption, despite its high-speed processing capabilities. It is powered by the i.MX6UL |Arm| |Cortex|-A7, an ultra-low power Application Processor Unit (APU) from NXP, running at up to 528 MHz. 
+
+This product also features a broad range of connectivity options, providing a high level of scalability for various use cases. It is the perfect solution for power-constrained applications on the Edge, acting as a robust control unit for collecting, processing, and aggregating field data. The 
+i.MX6Q APU is part of NXP's EdgeVerse™ edge computing platform.
+
+The NXP i.MX6UL APU does not generate extensive heat, so even the thin aluminum housing on PPC version delivers sufficient thermal dissipation. With its junction temperature from -20 to +140°C, the APU itself is well suited for extended temperature range in both automotive and factory environments.
