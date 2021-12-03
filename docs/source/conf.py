@@ -13,17 +13,16 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import sphinx_material, sphinx_rtd_dark_mode, sphinx_rtd_theme
-
+import sphinx_material
 # -- Project information -----------------------------------------------------
 
-project = 'Chipsee Documentation Drafts'
+project = 'Chipsee Documentation Sample'
 copyright = '2021, Chipsee'
-author = 'Darko'
+author = 'Randy'
 version = '1.0'
 
 # The full version, including alpha/beta/rc tags
-release = '03'
+release = '05'
 
 # -- General configuration ---------------------------------------------------
 # Add any Sphinx extension module names here, as strings. They can be
