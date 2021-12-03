@@ -84,7 +84,6 @@ html_sidebars = {
 
 html_style = 'css/material_custom.css'
 file_insertion_enabled = True
-# html_show_sourcelink = False
 # html_js_files = ['js/expand_tabs.js']
 
 # Add any paths that contain custom static files (such as style sheets) here,
