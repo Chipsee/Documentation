@@ -31,7 +31,7 @@ release = '05'
 extensions = []
 
 # Add any paths that contain templates here, relative to this directory.
-# templates_path = ['_templates']
+templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -70,8 +70,8 @@ html_theme_options = {
     # If True, show hidden TOC entries
     'globaltoc_includehidden': True,
     'html_minify': True,
-    'css_minify': True
-}
+    'css_minify': True,
+ }
 html_sidebars = {
     "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
 }
