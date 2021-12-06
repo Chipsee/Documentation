@@ -4,8 +4,6 @@ Connectivity
 There are many connectivity options available on the |product| industrial PC. It has 3 x HOST USB Type A connectors,1 x USB OTG Type Mini B, 1 x network connector (RJ45) supporting up to
 1 Gbps, and 5 x UART terminals (RS232/485). This device also features two CAN interfaces.
 
-.. _RS232/485/CAN_A9_70C:
-
 RS232/485/CAN
 --------------
 

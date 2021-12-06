@@ -1,0 +1,204 @@
+.. |product| replace:: EPC/PPC-A8-50-C
+
+.. |productE| replace:: EPC-A8-50-C
+
+.. |productP| replace:: PPC-A8-50-C
+
+.. |PN| replace:: PN: CS80480T050
+
+.. |Product| replace:: The |product| Industrial PC
+
+.. |dispsize| replace:: 5.0"
+
+.. |res| replace:: 800 x 480
+
+.. |disp_des| replace:: |dispsize| ten-point capacitive and resistive touch screen with a resolution of |res| pixels
+
+.. |dimE| replace:: 134.2 x 86.82 x 28mm
+
+.. |dimP| replace:: 150 x 110 x 26.5mm
+
+.. |weightE| replace:: 210g
+
+.. |weightP| replace:: 440g
+
+.. |RAM| replace:: 512MB DDR3
+
+.. |eMMC| replace:: 4GB
+
+.. |tscreen| replace:: 10-point capacitive and resistive touch
+
+.. |USB| replace:: 1 x USB 2.0 Host, 1 x USB OTG
+
+.. |LAN| replace:: 1 x Channel 100M LAN
+
+.. |GPIO| replace:: 8 Channels
+
+.. |expansions| replace:: 1 x 20-pin (PCB Footprint)
+
+.. |opt1| replace:: N/A
+
+.. |opt2| replace:: USB WiFi (optional)
+
+.. |vin_rng| replace:: From 6V to 36V
+
+.. |cur| replace:: 400mA Max
+
+.. |pwr| replace:: 3.5W Typical
+
+.. |temp| replace:: From -20°C to +70°C
+
+.. |audio| replace:: 3.5mm Audio In/Out Connector
+
+.. _EPC/PPC-A8-50-C:
+
+.. sectnum::
+   :start: 1
+   :suffix: .
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. figure:: /Media/ARM/A8/CS80480T050/PPC-A8-50-C-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Panel Mounting Variant)
+
+.. figure:: /Media/ARM/A8/CS80480T050/PPC-A8-50-C-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Panel Mounting Variant)
+
+.. figure:: /Media/ARM/A8/CS80480T050/EPC-A8-50-C-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Embedded Variant)
+
+.. figure:: /Media/ARM/A8/CS80480T050/EPC-A8-50-C-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Embedded Variant)
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features_2
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen
+
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial PC. It has |USB| (can be customized to 2 x Host), |LAN| (RJ45) Ethernet connector supporting up to
+1 Gbps, and 5 x UART terminals (RS232/RS485).
+
+RS232/485/CAN
+--------------
+
+The serial communication interfaces (RS485, RS482, and CAN) are routed to a **12-pin 3.81mm terminal**, as illustrated on *Figure 3*.
+
+.. figure:: /Media/ARM/A8/AM3354/IO-Peripherals.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Figure 3: Relation between serial pins on embedded vs. enclosed version of the* |product| *Industrial PC*
+
+The table below offers more detailed description of every pin and its definition:
+
+.. table:: Table 3: Connectivity Section
+   :align: center
+   :width: 100%
+
+   +-----------------------------------------------------------------------------------------------------------+
+   | **RS232 / RS485 / CAN Pin Definition:**                                                                   |
+   +================+================+=========================================================================+
+   | **Pin Number** | **Definition** | **Description**                                                         |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 12         | +5V	     | Isolated +5V Power Output, No more than 200mA Current output            |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 11         | RXD1           | UART0 of CPU, RS232 RXD Signal                                          |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 10         | TXD1           | UART0 of CPU, RS232 TXD Signal                                          |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 9          | RXD2           | UART1 of CPU, RS232 RXD Signal                                          |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 8          | TXD2           | UART1 of CPU, RS232 TXD Signal                                          |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 7          | B1             | UART2 of CPU, RS485 B Signal                                            |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 6          | A1             | UART2 of CPU, RS485 A Signal                                            |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 5          | B2             | UART4 of CPU, RS485 B Signal                                            |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 4          | A2             | UART4 of CPU, RS485 A Signal                                            |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 3          | CAN_H          | DCAN0 of CPU, CAN H Signal                                              |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 2          | CAN_L          | DCAN0 of CPU, CAN L Signal                                              |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 1          | GND            | Isolated Ground Output                                                  |
+   +----------------+----------------+-------------------------------------------------------------------------+
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/expansion_IO
+
+.. include:: Resources/TF_Card
+
+Audio Connectors
+================
+
+|Product| features some audio peripherals, as well. It has 1 x **3.5mm audio input jack** and 1 x **3.5mm audio output jack**.
+
+On the embedded panel PC version, the pink connector is the audio input jack (line-in) and the blue connector is the audio output jack (line-out, typically around -10 dBV). On the enclosed panel PC version, both audio input and audio output are clearly marked (*Figure 8)*
+
+.. figure:: /Media/ARM/A8/AM3354/Audio.jpeg
+  :figclass: align-center
+  :align: center
+
+  *Figure 8: Audio I/O (embedded/enclosed PC version)*
+
+.. include:: Resources/Boot_SW
+
+.. include:: Resources/mounting
+
+Mechanical Specifications
+=========================
+
+|productE|
+----------
+
+The outer mechanical dimensions of |productE| are |dimE| (W x L x H) and |productP| are |dimP| (W x L x H). Please refer to the technical drawing in *Figure 10a* for details related to the specific
+product measurements.
+
+.. figure:: /Media/ARM/A8/CS80480T050/EPC-A8-50-C-TD.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Figure 10:* |productE| *Technical Drawing*
+
+|productP|
+----------
+For |productP|, the outer mechanical dimensions are |dimP| (W x L x H). Please refer to the technical drawing in *Figure 10b* for details related to the specific
+product measurements.
+
+.. include:: Resources/mount_set
+
+.. include:: Resources/support
+
+

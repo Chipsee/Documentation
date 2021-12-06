@@ -1,3 +1,9 @@
 .md-header, .md-tabs{
     background: #d8322f!important;
 }
+.align-center{
+    text-align: center!important;
+}
+.align-center > figcaption{
+    text-align: center!important;
+}

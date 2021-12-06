@@ -85,7 +85,7 @@
 
 .. include:: Resources/overview
 
-.. include:: A9_97_resources/ordering
+.. include:: Resources/ordering
 
 .. include:: Resources/HW_features
 

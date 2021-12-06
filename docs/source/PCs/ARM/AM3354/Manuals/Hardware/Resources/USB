@@ -1,0 +1,17 @@
+USB Connectors
+--------------
+
+There are 2 x Type A **USB HOST connectors** onboard, as shown on *Figure 4*.
+
+.. Figure:: /Media/ARM/A8/AM3354/USB_OTG.jpeg
+  :align: center
+  :figclass: align-center
+  
+  *Figure 4: USB HOST Connectors (embedded/enclosed PC version)*
+
+.. note::
+  The OTG Connector is defined as HOST by default. If customer needs it work as OTG (slave), please remove 0Ω Resistor R119 and R121 as shown in Figure 4.
+  
+.. warning::
+ 
+  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded Industrial PC version.

@@ -48,3 +48,17 @@ the repository much easier.
    RK3399 OS Downloads <RK3399/OS_Downloads/index>
 
 
+.. toctree::
+   :hidden:
+
+   spacer
+
+.. rubric:: Products by platform: |Cortex|-A8 (CS-SOM335X-V3)
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   AM3354 Hardware Documentation <AM3354/Manuals/Hardware/index>
+   AM3354 Software Documentation <AM3354/Manuals/Software/index>
+   AM3354 OS Downloads <AM3354/OS_Downloads/index>
