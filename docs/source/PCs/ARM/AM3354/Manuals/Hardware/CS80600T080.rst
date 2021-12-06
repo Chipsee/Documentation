@@ -1,0 +1,4 @@
+.. |product| replace:: EPC/PPC-A8-80-R
+
+|product|
+#########

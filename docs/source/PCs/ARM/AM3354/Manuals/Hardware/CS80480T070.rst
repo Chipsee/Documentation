@@ -1,0 +1,4 @@
+.. |product| replace:: PPC/EPC-A8-70-HB-R
+
+|product|
+#########

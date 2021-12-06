@@ -1,0 +1,137 @@
+.. |product| replace:: EPC/PPC-A8-101-R
+
+.. |productE| replace:: EPC-A8-101-R
+
+.. |productP| replace:: PPC-A8-101-R
+
+.. |PN| replace:: PN: CS10600T101
+
+.. |Product| replace:: The |product| Industrial PC
+
+.. |dispsize| replace:: 10.1"
+
+.. |res| replace:: 1024 x 600
+
+.. |disp_des| replace:: |dispsize| ten-point capacitive and resistive touch screen with a resolution of |res| pixels
+
+.. |dimE| replace:: 252 x 150 x 26mm
+
+.. |dimP| replace:: 280 x 187 x 29.5mm
+
+.. |weightE| replace:: 530g
+
+.. |weightP| replace:: 1240g
+
+.. |RAM| replace:: 512MB DDR3
+
+.. |eMMC| replace:: 4GB
+
+.. |tscreen| replace:: 10-point capacitive and resistive touch
+
+.. |USB| replace:: 2 x USB 2.0 Host, 1 x USB 2.0 OTG
+
+.. |LAN| replace:: 1 x Channel 100M LAN
+
+.. |GPIO| replace:: 8 Channels, 4 Input, 4 Output
+
+.. |expansions| replace:: N/A
+
+.. |opt1| replace:: Onboard 4G (optional)
+
+.. |opt2| replace:: Onboard WiFi/BT (optional)
+
+.. |vin_rng| replace:: From 6V to 42V
+
+.. |cur| replace:: 500mA Max
+
+.. |pwr| replace:: 10W Typical
+
+.. |temp| replace:: From -20°C to +70°C
+
+.. |audio| replace:: 3.5mm output/input connector, 2W Internal Speaker
+
+.. _EPC/PPC-A8-101-R:
+
+.. sectnum::
+   :start: 1
+   :suffix: .
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. figure:: /Media/ARM/A8/CS10600T101/PPC-A8-101-R-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Panel Mounting Variant)
+
+.. figure:: /Media/ARM/A8/CS10600T101/PPC-A8-101-R-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Panel Mounting Variant)
+
+.. figure:: /Media/ARM/A8/CS10600T101/EPC-A8-101-R-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Embedded Variant)
+
+.. figure:: /Media/ARM/A8/CS10600T101/EPC-A8-101-R-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Embedded Variant)
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features_1
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/connectivity
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/GP_IO
+
+.. include:: Resources/TF_Card
+
+.. include:: Resources/Audio_IO
+
+.. include:: Resources/Boot_SW
+
+.. include:: Resources/mounting
+
+Mechanical Specifications
+=========================
+
+|productE|
+----------
+
+The outer mechanical dimensions of |productE| are |dimE| (W x L x H).
+
+|productP|
+----------
+
+For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+
+.. include:: Resources/mount_set
+
+.. include:: Resources/support

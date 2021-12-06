@@ -1,0 +1,46 @@
+Expansion Port
+--------------
+
+|Product| has 1 x **Expansion Port** as shown in *Figure 6*. It is an unpopulated PCB footprint with the standard 2.54mm (1") pitch holes. The Expansion Port provides direct access to some of the processor pins, as described in *Table 4* below.
+
+.. figure:: /Media/ARM/A8/AM3354/expansion_IO.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Figure 6: Expansion Port*
+
+
+.. table:: Table 4: Expansion Connector Pinout
+   :align: center
+   :width: 100%
+
+   +--------------------------------------------------------------------------------+
+   | .. centered:: Expansion Connector Pinout                                       |
+   +==========+==============+===============+=========+==============+=============+
+   | **PIN**  | **Function** | **CPU PIN**   | **PIN** | **Function** | **CPU PIN** |
+   +----------+--------------+---------------+---------+--------------+-------------+
+   | 1        | GND          | Power Ground  | 2       | VDD_5V0      | +5V Power   |
+   +----------+--------------+---------------+---------+--------------+-------------+
+   | 3        | GND          | Power Ground  | 4       | VDD_3V3      | +3.3V Power |
+   +----------+--------------+---------------+---------+--------------+-------------+
+   | 5        | GPMC_A1      | V14           | 6       | GPMC_A3      | T14         |
+   +----------+--------------+---------------+---------+--------------+-------------+
+   | 7        | GPMC_A2      | U14           | 8       | GPMC_A5      | V15         |
+   +----------+--------------+---------------+---------+--------------+-------------+
+   | 9        | GPMC_A4      | R14           | 10      | GPMC_A7      | T15         |
+   +----------+--------------+---------------+---------+--------------+-------------+
+   | 11       | GPMC_A6      | U15           | 12      | GPMC_A8      | V16         |
+   +----------+--------------+---------------+---------+--------------+-------------+
+   | 13       | SPI0_D1      | B16           | 14      | SPI0_D0      | B17         |
+   +----------+--------------+---------------+---------+--------------+-------------+
+   | 15       | SPI0_CS0     | A16           | 16      | SPI0_CLK     | A17         |
+   +----------+--------------+---------------+---------+--------------+-------------+
+   | 17       | AIN4         | C8            | 18      | AIN5         | B8          |
+   +----------+--------------+---------------+---------+--------------+-------------+
+   | 19       | AIN6         | A8            | 20      | AIN7         | C9          |
+   +----------+--------------+---------------+---------+--------------+-------------+
+
+
+.. warning::   
+
+   Since the PCB traces of the port are connected to the processor directly, be careful not to cause electrostatic discharge or over voltage on the pins, as it may damage the processor. Take all the necessary precautions while working with electrostatic-sensitive equipment.

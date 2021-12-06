@@ -1,0 +1,27 @@
+Product Overview
+=================
+
+The |Cortex|-A8 series |product| (|PN|) is a high-quality industrial PC. It features a |disp_des|.
+
+.. sidebar:: Key Applications
+   
+  + Process Control
+  + Process Monitoring
+  + HMI
+  + Infotainment
+  + Predictive Maintenance
+  + Machine Learning
+  + Machine Vision
+  + Automotive applications
+  + Gaming...
+
+It is available both as an embedded solution and as a device hosed in an aluminum casing with bezels, thus facilitating different installation options:
+
++ Installation on an industrial cabinet
++ Integration with the existing equipment
+
+|Product| is based around the powerful CS-SOM335X-V3 System on Module (SoM), powered by the AM3354 |Arm| |Cortex|-A8 microprocessor unit (MPU). The AM33554 MPU is enhanced with image, graphics processing, peripherals and industrial interface options such as EtherCAT and PROFIBUS. The devices support high-level operating systems (HLOS).
+
+The microprocessor unit (MPU) subsystem is based on the ARM Cortex-A8 processor and the PowerVR SGX™ Graphics Accelerator subsystem provides 3D graphics acceleration to support display and gaming effects.
+
+The AM33554 MPU does not generate extensive heat, so even the thin aluminum housing on PPC version delivers sufficient thermal dissipation.
