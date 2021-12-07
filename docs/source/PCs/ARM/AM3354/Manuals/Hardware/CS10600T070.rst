@@ -12,7 +12,9 @@
 
 .. |res| replace:: 1024 x 600
 
-.. |disp_des| replace:: |dispsize| five-point capacitive and four-wire resistive touch screen with a resolution of |res| pixels
+.. |bright| replace:: 500 |cd|
+
+.. |disp_des| replace:: |dispsize| five-point capacitive and four-wire resistive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |dimE| replace:: 190 x 107.8 x 29mm
 
@@ -52,9 +54,6 @@
 
 .. _PPC/EPC-A8-70-HB-C:
 
-.. sectnum::
-   :start: 1
-   :suffix: .
 
 |product|
 #########

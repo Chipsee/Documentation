@@ -1,14 +1,13 @@
 Touch Screen
 ============
 
-|Product| uses a |tscreen| screen. *Figure 2* shows the capacitive or resistive screen connected to the motherboard via the **FPC connector**.
-
+|Product| uses a |tscreen| screen. The figure below shows the capacitive or resistive screen connected to the motherboard via the **FPC connector**.
 
 .. Figure:: /Media/ARM/A8/AM3354/TS_CON.jpeg
   :figclass: align-center
   :align: center
   
-  *Figure 2: Capacitive or Resistive Touch Connector*
+  *Capacitive or Resistive Touch Connector*
 
 
 .. attention::

@@ -46,8 +46,9 @@ exclude_patterns = []
 
 # Required theme setup
 html_theme = 'sphinx_material'
-# Set the logo icon
+# Set the logo and favicon
 html_logo = 'logo_header.png'
+html_favicon = 'favicon.webp'
 # Set link name generated in the top bar.
 html_title = 'Chipsee'
 # Material theme options (see theme.conf for more information)
@@ -90,12 +91,13 @@ file_insertion_enabled = True
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-#numfig = True
-#numfig_secnum_depth = 1
-# numfig_format = {'figure': '',
-#                  'table': '',
-#                  'code-block': '',
-#                 }
+numfig = True
+numfig_secnum_depth = 1
+
+numfig_format = {'figure': 'Figure %s: ',
+                 'table': 'Table %s: ',
+                 'code-block': 'Codes %s: ',
+                }
 html_show_sphinx = False    # shows sphinx footer link
 html_show_sourcelink = False    # shows link to rst file that generates page
 

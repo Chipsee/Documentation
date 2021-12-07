@@ -1,24 +1,24 @@
-4G Module
----------
+3G/4G/LTE Module
+----------------
 
-|Product| is equipped with a **mini-PCIe connector** that can connect to a 4G module.
-The customer will also need a SIM Card Holder and a 4G Antenna Connector to ensure 4G works on the |product|.
+|Product| is equipped with a **mini-PCIe connector** that can connect to a 3G/4G module.
+The customer will also need a SIM Card Holder and a 3G/4G Antenna Connector to ensure 3G/4G works on the |product|.
 
 .. figure:: /Media/ARM/A8/AM3354/4G_module.jpeg
    :align: center
    :figclass: align-center
 
-   *Figure 13a: 4G Module*
+   *3G/4G Module*
 
 
 .. figure:: /Media/ARM/A8/AM3354/4G_com.jpeg
    :align: center
    :figclass: align-center
 
-   *Figure 13b: SIM Card Holder and 4G Antenna Connector*
+   *SIM Card Holder and 3G/4G Antenna Connector*
 
 
 .. attention::
 
-    #) The product does not come shipped with the 4G module by default.
-    #) Currently, the driver available for the 4G module only supports product that has Android 4.1 OS installed on it.
+    #) The product does not come shipped with the 3G/4G module by default.
+    #) Currently, the driver available for the 3G/4G module only supports product that has Android 4.1 OS installed on it.

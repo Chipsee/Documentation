@@ -3,18 +3,18 @@ Audio Connectors
 
 |Product| features some audio peripherals, as well. It has 1 x **3.5mm audio input jack** and 1 x **3.5mm audio output jack**.
 
-On the embedded panel PC version, the pink connector is the audio input jack (line-in) and the blue connector is the audio output jack (line-out, typically around -10 dBV). On the enclosed panel PC version, both audio input and audio output are clearly marked (*Figure 8a)*
+On the embedded panel PC version, the pink connector is the audio input jack (line-in) and the blue connector is the audio output jack (line-out, typically around -10 dBV). On the enclosed panel PC version, both audio input and audio output are clearly marked on the figure below.
 
 .. figure:: /Media/ARM/A8/AM3354/Audio.jpeg
   :figclass: align-center
   :align: center
 
-  *Figure 8a: Audio I/O (embedded/enclosed PC version)*
+  *Audio I/O (embedded/enclosed PC version)*
 
-In addition, |product| features a miniature 2W embedded speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds *(Figure 8b)*.
+In addition, |product| features a miniature 2W embedded speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds.
 
 .. figure:: /Media/ARM/A8/AM3354/Speaker_Buzzer.jpeg
   :figclass: align-center
   :align: center
   
-  *Figure 8b: 2W Micro Speaker and Buzzer*
+  *2W Micro Speaker and Buzzer*

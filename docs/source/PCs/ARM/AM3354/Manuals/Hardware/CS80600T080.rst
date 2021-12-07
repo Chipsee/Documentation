@@ -1,4 +1,167 @@
 .. |product| replace:: EPC/PPC-A8-80-R
 
+.. |productE| replace:: EPC-A8-80-R
+
+.. |productP| replace:: PPC-A8-80-R
+
+.. |PN| replace:: PN: CS80600T080
+
+.. |Product| replace:: The |product| Industrial PC
+
+.. |dispsize| replace:: 8.0"
+
+.. |res| replace:: 800 x 600
+
+.. |bright| replace:: 250 |cd|
+
+.. |disp_des| replace:: |dispsize| resistive touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |dimE| replace:: 199 x 149 x 29mm
+
+.. |dimP| replace:: 226 x 175 x 31mm
+
+.. |weightE| replace:: 580g
+
+.. |weightP| replace:: 1070g
+
+.. |RAM| replace:: 512MB DDR3
+
+.. |eMMC| replace:: 4GB
+
+.. |tscreen| replace:: Resistive touch
+
+.. |USB| replace:: 4 x USB 2.0 Host
+
+.. |LAN| replace:: 1 x Channel 100M LAN
+
+.. |GPIO| replace:: 8 Channels, 4 Input, 4 Output, 1000V DC Isolated
+
+.. |expansions| replace:: N/A
+
+.. |opt1| replace:: Onboard 3G (optional)
+
+.. |opt2| replace:: Onboard WiFi/BT (optional)
+
+.. |vin_rng| replace:: From 6V to 42V
+
+.. |cur| replace:: 400mA Max
+
+.. |pwr| replace:: 6W Typical
+
+.. |temp| replace:: From -20°C to +70°C
+
+.. |audio| replace:: 3.5mm output/input connector, 2W Internal Speaker
+
+.. _EPC/PPC-A8-80-R:
+
+
 |product|
 #########
+
+.. rubric:: *Version 1.0*
+
+.. figure:: /Media/ARM/A8/CS80600T080/PPC-A8-80-R-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Panel Mounting Variant)
+
+.. figure:: /Media/ARM/A8/CS80600T080/PPC-A8-80-R-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Panel Mounting Variant)
+
+.. figure:: /Media/ARM/A8/CS80600T080/EPC-A8-80-R-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Embedded Variant)
+
+.. figure:: /Media/ARM/A8/CS80600T080/EPC-A8-80-R-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Embedded Variant)
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+Optional Features
+-----------------
+
+|Product| does not include WiFi/BT and/or 3G/4G modules by default.
+Both the Wi-Fi/BT and 3G/4G LTE module module are optional and can be selected during the ordering process.
+
+.. warning::
+
+   | Installation, repair, and maintenance tasks should be performed by trained personnel only.
+   | Chipsee does not bear any responsibility for damage caused by inadequate handling of the product.
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/res_screen
+
+.. include:: Resources/connectivity
+
+USB Connectors
+--------------
+
+There are 4 x Type A **USB HOST connectors** onboard, as shown on the figure below.
+
+.. Figure:: /Media/ARM/A8/AM3354/USB_OTG_2.jpeg
+  :align: center
+  :figclass: align-center
+
+  *USB HOST Connectors (embedded/enclosed PC version)*
+
+.. note::
+  The USB Connectors are defined as HOST by default. If customer needs it work as OTG (slave), please remove the 0Ω Resistors **R119** and **R121**.
+
+.. warning::
+
+  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded Industrial PC version.
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/GP_IO
+
+.. include:: Resources/TF_Card
+
+.. include:: Resources/Audio_IO
+
+.. include:: Resources/Boot_SW
+
+Mounting Procedure
+==================
+
+|Product| can be mounted with 8 x M4 screws, enabling simplified installation onto any standard mounting fixture. Other mounting options
+might also be supported according to the table in the `Hardware Features`_ section.
+
+You can find detailed information about mounting in the |mguide|_ on the Chipsee official website.
+
+Mechanical Specifications
+=========================
+
+|productE|
+----------
+
+The outer mechanical dimensions of |productE| are |dimE| (W x L x H).
+
+|productP|
+----------
+
+For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+
+.. include:: Resources/mount_set
+
+.. include:: Resources/support

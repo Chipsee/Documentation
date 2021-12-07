@@ -17,6 +17,6 @@ This documentation repository contains all products marketing collateral (manual
 * Systems on Module
 
 
-    NOTE
-    - For a product-specific software documentation, visit the related product link
+**Note**
+* For a product-specific software documentation, visit the related product link
 

@@ -3,6 +3,12 @@ Touch screen
 
 |product| is equipped with a resistive touch screen. The resistive touch screen is an ideal option for harsh industrial conditions due to its high immunity against high temperature, dirt, and dust. In addition, it does not require any special material to be operated; the resistive touch screen can be used with regular rubber gloves, fingers, or a plastic stylus.
 
+.. Figure:: /Media/ARM/A8/AM3354/TS_CON_2.jpeg
+  :figclass: align-center
+  :align: center
+
+  *Resistive Touch Connector*
+
 .. container:: hatnote hatnote-yellow
 
   **Size/Type:** |dispsize| high-temperature resistant, five-wire analog resistive touch screen |br|
