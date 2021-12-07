@@ -2,18 +2,21 @@ Boot DIP Switch
 ===============
 
 |Product| supports boot from SD card. If you want to reflash the Operating System (OS), you can use the TF card for that purpose, combined with 
-the **DIP switch** settings *(Figure 9)*.
+the **DIP switch** settings as illustrated in the figure below.
 
-There is no need to alter the DIP switch settings during regular operation. However, if you need to reinstall the OS, please refer to *Table 5* below.
-Detailed information on how to re-flash the OS can be found in the :ref:`Software Documentation <CS10600U070_OS>`.
+There is no need to alter the DIP switch settings during regular operation. However, if you need to reinstall the OS, please refer to the :ref:`table <boot-sw-table>` below.
+Detailed information on how to re-flash the OS can be found in the :ref:`Software Documentation <AM3354_OS>`.
 
 .. figure:: /Media/ARM/A8/AM3354/BootSW.jpeg
   :figclass: align-center
   :align: center
 
-  *Figure 9: Boot DIP Switch*
+  *Boot DIP Switch*
 
-.. table:: Table 5: Boot Configuration Selection
+
+.. _boot-sw-table:
+
+.. table:: Boot Configuration Selection
     :align: center
     :width: 35%
 

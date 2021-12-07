@@ -3,19 +3,24 @@ Power Input
 
 |Product| can be powered by a wide range of input voltages: |vin_rng| DC. The power input connector is a **3-pin, 3.81mm terminal**.
 The polarity and the pinout is clearly marked on the housing of the PPC version, as well as on the PCB itself of the EPC version, as shown
-in *Figure 1*.
+in the figure below.
+
+.. _power-fig:
 
 .. Figure:: /Media/ARM/A8/AM3354/Power.jpeg
   :align: center
   :figclass: align-center
 
-  *Figure 1: Power Input Section (embedded/enclosed version)* 
+  *Power Input (embedded/enclosed version)*
 
 Note that the "**+**" sign represents the positive power input, and it is printed both at the casing and as a silk-screen on a PCB of the embedded version. The "**-**" terminal is shorted to the ground.
 
-.. table:: Table 2: Power Connector
+.. _power-table:
+
+.. table:: Power Connector
    :align: center
    :width: 80%
+   :class: align-center
 
    +-------------------------------------------------------------------------+
    | Power Input Definition                                                  |
@@ -30,6 +35,5 @@ Note that the "**+**" sign represents the positive power input, and it is printe
    +----------------+----------------+---------------------------------------+
 
 .. note:: 
-
 
   The system ground “**G**” is connected to power negative “**-**” on board.

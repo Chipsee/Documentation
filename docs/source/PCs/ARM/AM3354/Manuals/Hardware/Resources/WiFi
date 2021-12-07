@@ -9,13 +9,13 @@ WiFi & BT Module
 
    *Figure 12a: RTL8273 WiFi/BT Module*
 
-The enclosed (PPC) variant of the product also includes an SMA connector for an external WiFi/BT antenna, as illustrated in *Figure 12b* below.
+The enclosed (PPC) variant of the product also includes an SMA connector for an external WiFi/BT antenna, as illustrated in the figure below.
 
 .. figure:: /Media/ARM/A8/AM3354/Antenna.jpeg
    :align: center
    :figclass: align-center
 
-   *Figure 12b: RTL8273 WiFi/BT Module*
+   *RTL8273 WiFi/BT Module*
 
 
 .. note::

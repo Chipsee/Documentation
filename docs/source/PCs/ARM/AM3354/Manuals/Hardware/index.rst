@@ -4,6 +4,8 @@ Hardware Documentation
 .. toctree::
    :maxdepth: 1
    :titlesonly:
+   :numbered:
+
 
    EPC/PPC-A8-50-C <CS80480T050>
    EPC/PPC-A8-80-R <CS80600T080>
