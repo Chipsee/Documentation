@@ -1,0 +1,10 @@
+EPC/PPC-A8-101-R (PN: CS10600T101)
+##################################
+
+LinuxQt4.8
+----------
+
+| **FT5X06 Touchscreen**
+
+| :download:`prebuilt-som-v3-cs10600t101-v1-ezsdk-emmc-20180122.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/10/LinuxQt4/prebuilt-som-v3-cs10600t101-v1-ezsdk-emmc-20180122.tar.gz>`
+

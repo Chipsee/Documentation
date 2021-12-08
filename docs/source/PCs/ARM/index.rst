@@ -59,6 +59,6 @@ the repository much easier.
    :maxdepth: 1
    :titlesonly:
 
-   AM3354 Hardware Documentation <AM3354/Manuals/Hardware/index>
-   AM3354 Software Documentation <AM3354/Manuals/Software/index>
-   AM3354 OS Downloads <AM3354/OS_Downloads/index>
+   AM335X Hardware Documentation <AM335X/Manuals/Hardware/index>
+   AM335X Software Documentation <AM335X/Manuals/Software/index>
+   AM335X OS Downloads <AM335X/OS_Downloads/index>

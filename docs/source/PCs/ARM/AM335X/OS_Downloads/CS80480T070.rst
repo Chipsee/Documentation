@@ -1,0 +1,42 @@
+PPC/EPC-A8-70-HB-R (PN: CS80480T070)
+####################################
+
+Android4.1
+----------
+
+| **FT5X06 Touchscreen**
+
+| :download:`prebuilt-som-v3-cs80480t070-v3-android-emmc-20190810.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7L/Android4.1/prebuilt-som-v3-cs80480t070-v3-android-emmc-20190810.tar.gz>`
+
+LinuxQt4.8
+----------
+
+| **FT5X06 Touchscreen**
+
+| :download:`prebuilt-som-v3-cs80480t070-v31-ezsdk-emmc-20160511.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7L/Debian7.4/prebuilt-som-v3-cs80480t70-v31-debian-emmc-20200416.tar.gz>`
+
+
+LinuxQt5.5
+----------
+
+| **FT5X06 Touchscreen**
+
+| :download:`prebuilt-som-v3-cs80480t070-v1-tisdk-emmc-20201010.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7L/LinuxQt4.8/prebuilt-som-v3-cs80480t070-v31-ezsdk-emmc-20160511.tar.gz>`
+
+Debian7.4
+---------
+
+| **FT5X06 Touchscreen**
+
+| :download:`prebuilt-som-v3-cs80480t70-v31-debian-emmc-20200416.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7L/LinuxQt5.5/prebuilt-som-v3-cs80480t070-v1-tisdk-emmc-20201010.tar.gz>`
+
+Debian8.4
+---------
+
+| **FT5X06 Touchscreen eMMC boot version**
+
+| :download:`prebuilt-som-v3-cs80480t070-v3-debian-emmc-20210315.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7L/Debian8.4/prebuilt-som-v3-cs80480t070-v3-debian-emmc-20210315.tar.gz>`
+
+| **FT5X06 Touchscreen SD boot version**
+
+| :download:`prebuilt-som-v3-cs80480t070-v3-debian-sd-20210315.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7L/Debian8.4/prebuilt-som-v3-cs80480t070-v3-debian-sd-20210315.tar.gz>`

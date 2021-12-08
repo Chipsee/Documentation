@@ -60,6 +60,10 @@
 
 .. rubric:: *Version 1.0*
 
+.. note::
+
+    **EOL PRODUCT:** This product has been discontinued, due to market demand and shifts in technology. Please |contact|_ if you would like to purchase it.
+
 .. figure:: /Media/ARM/A8/CS10600T101/PPC-A8-101-R-Front.jpeg
    :figclass: align-center
    :class: no-scaled-link

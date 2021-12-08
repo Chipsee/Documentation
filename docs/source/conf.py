@@ -136,12 +136,21 @@ rst_epilog = """
 
 .. |r| replace:: :sup:`®`
 
+.. _contact: https://chipsee.com/contact/
+
+.. |contact| replace:: **Contact us**
+
 """
 
 html_last_updated_fmt = '%b %d, %Y'
-#html_context = {
-#"display_github": True, # Add 'Edit on Github' link instead of 'View page source'
-#"commit": False,
+# html_context = {
+# "display_github": True, # Add 'Edit on Github' link instead of 'View page source'
+# "commit": False,
 #}
 
 tablecaption = 'below'
+
+# Sphinx internationalization details
+# language = "zh_CN"
+# locale_dirs = ['locale/']   # path is example but recommended.
+# gettext_compact = False     # optional
