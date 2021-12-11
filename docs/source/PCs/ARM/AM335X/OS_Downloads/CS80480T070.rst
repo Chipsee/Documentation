@@ -1,12 +1,16 @@
 PPC/EPC-A8-70-HB-R (PN: CS80480T070)
 ####################################
 
+.. _CS80480T070-android:
+
 Android4.1
 ----------
 
 | **FT5X06 Touchscreen**
 
 | :download:`prebuilt-som-v3-cs80480t070-v3-android-emmc-20190810.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7L/Android4.1/prebuilt-som-v3-cs80480t070-v3-android-emmc-20190810.tar.gz>`
+
+.. _CS80480T070-linuxQt:
 
 LinuxQt4.8
 ----------
@@ -22,6 +26,8 @@ LinuxQt5.5
 | **FT5X06 Touchscreen**
 
 | :download:`prebuilt-som-v3-cs80480t070-v1-tisdk-emmc-20201010.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7L/LinuxQt4.8/prebuilt-som-v3-cs80480t070-v31-ezsdk-emmc-20160511.tar.gz>`
+
+.. _CS80480T070-debian:
 
 Debian7.4
 ---------

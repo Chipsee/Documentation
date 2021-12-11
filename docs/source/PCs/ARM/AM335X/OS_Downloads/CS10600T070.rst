@@ -1,6 +1,9 @@
 PPC/EPC-A8-70-HB-C (PN: CS10600T070)
 ####################################
 
+
+.. _CS10600T070-android:
+
 Android4.1
 ----------
 
@@ -12,6 +15,8 @@ Android4.1
 
 | :download:`prebuilt-som-v3-cs10600t70-v3-android-gt911-emmc-20190327.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7/Android4.1/prebuilt-som-v3-cs10600t70-v3-android-gt911-emmc-20190327.tar.gz>`
 
+
+.. _CS10600T070-linuxQt:
 
 LinuxQt4.8
 ----------
@@ -36,6 +41,8 @@ LinuxQt5.5
 
 | :download:`prebuilt-som-v3-cs10600t070-v3-tisdk-emmc-gt911-20190723.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7/LinuxQt5.5/prebuilt-som-v3-cs10600t070-v3-tisdk-emmc-gt911-20190723.tar.gz>`
 
+
+.. _CS10600T070-debian:
 
 Debian7.4
 ---------
@@ -67,6 +74,8 @@ Debian8.4
 
 | :download:`prebuilt-som-v3-cs10600t070-v3-debian-sd-gt911-20191210.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7/Debian8.4/prebuilt-som-v3-cs10600t070-v3-debian-sd-gt911-20191210.tar.gz>`
 
+
+.. _CS10600T070-angstrom:
 
 Angstrom2012
 ------------

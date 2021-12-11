@@ -1,12 +1,16 @@
 PPC/EPC-A8-97-C (PN: CS10768T097)
 #################################
 
+.. _CS10768T097-android:
+
 Android4.1
 ----------
 
 | **FT5X06 Touchscreen**
 
 | :download:`prebuilt-som-v3-cs10768t097-v3-android-emmc-20210709.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/9.7/Android4.1/prebuilt-som-v3-cs10768t097-v3-android-emmc-20210709.tar.gz>`
+
+.. _CS10768T097-linuxQt:
 
 LinuxQt4.8
 ----------
@@ -22,6 +26,8 @@ LinuxQt5.5
 
 | :download:`prebuilt-som-v3-cs10768t097-v3-tisdk-emmc-20190915.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/9.7/LinuxQt5.5/prebuilt-som-v3-cs10768t097-v3-tisdk-emmc-20190915.tar.gz>`
 
+.. _CS10768T097-debian:
+
 Debian7.4
 ---------
 
@@ -35,6 +41,8 @@ Debian8.4
 | **FT5X06 Touchscreen**
 
 | :download:`prebuilt-som-v3-cs10768t097-v3-debian-20200903.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/9.7/Debian8.4/prebuilt-som-v3-cs10768t097-v3-debian-20200903.tar.gz>`
+
+.. _CS10768T097-angstrom:
 
 Angstrom2012
 ------------

@@ -1,9 +1,17 @@
 .md-header, .md-tabs{
     background: #d8322f!important;
 }
+@media only screen and (max-width: 76.1875em){
+    nav > label.md-nav__title.md-nav__title--site{
+        background: #d8322f!important;
+    }
+}
 .align-center{
     text-align: center!important;
 }
 .align-center > figcaption{
+    text-align: center!important;
+}
+p.centered{
     text-align: center!important;
 }

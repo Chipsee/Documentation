@@ -1,6 +1,8 @@
 EPC/PPC-A8-80-R (PN: CS80600T080)
 #################################
 
+.. _CS80600T080-android:
+
 Android4.1
 ----------
 
@@ -8,12 +10,16 @@ Android4.1
 
 | :download:`prebuilt-som-v3-cs80600t080-v3-android-emmc-20190810.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/8/Android4.1/prebuilt-som-v3-cs80600t080-v3-android-emmc-20190810.tar.gz>`
 
+.. _CS80600T080-linuxQt:
+
 LinuxQt4.8
 ----------
 
 | **FT5X06 Touchscreen**
 
 | :download:`prebuilt-som-v3-cs80600t080-v3-ezsdk-emmc-20200624.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/8/LinuxQt4.8/prebuilt-som-v3-cs80600t080-v3-ezsdk-emmc-20200624.tar.gz>`
+
+.. _CS80600T080-debian:
 
 Debian8.4
 ---------

@@ -14,6 +14,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_material
+
 # -- Project information -----------------------------------------------------
 
 project = 'Chipsee Documentation Sample'
@@ -28,7 +29,8 @@ release = '05'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = []
+# sphinx-prompt must be the first of these two.
+extensions = ['sphinx-prompt', 'sphinx_substitution_extensions']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -37,7 +39,6 @@ templates_path = ['_templates']
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
-
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -72,7 +73,8 @@ html_theme_options = {
     'globaltoc_includehidden': True,
     'html_minify': True,
     'css_minify': True,
- }
+    'theme_color': 'd8322f'
+}
 html_sidebars = {
     "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
 }
@@ -92,19 +94,18 @@ file_insertion_enabled = True
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 numfig = True
-numfig_secnum_depth = 1
+numfig_secnum_depth = 2
 
 numfig_format = {'figure': 'Figure %s: ',
                  'table': 'Table %s: ',
                  'code-block': 'Codes %s: ',
-                }
-html_show_sphinx = False    # shows sphinx footer link
-html_show_sourcelink = False    # shows link to rst file that generates page
-
-
-
+                 }
+html_show_sphinx = False  # shows sphinx footer link
+html_show_sourcelink = False  # shows link to rst file that generates page
 
 rst_epilog = """
+
+.. |Chipsee| replace:: Chipsee\ :sup:`®`
 
 .. |Intel| replace:: Intel\ :sup:`®`
 
@@ -146,7 +147,7 @@ html_last_updated_fmt = '%b %d, %Y'
 # html_context = {
 # "display_github": True, # Add 'Edit on Github' link instead of 'View page source'
 # "commit": False,
-#}
+# }
 
 tablecaption = 'below'
 

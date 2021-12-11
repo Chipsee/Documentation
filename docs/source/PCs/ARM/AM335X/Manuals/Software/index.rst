@@ -10,10 +10,10 @@ If you have questions not covered in this documentation, please consult Chipsee 
    :maxdepth: 1
    :titlesonly:
 
-   Android 4.1 <Android_41>
-   Chipsee Linux <LinuxQt>
-   Debian <Ubuntu_12>
-   Angstorm <Ubuntu_14>
+   Android <Android>
+   LinuxQt <LinuxQt>
+   Debian <Debian>
+   Angstrom <Angstrom>
 
 .. warning::
 
