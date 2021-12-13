@@ -12,31 +12,31 @@ products portfolio.
 
 .. rubric:: Robust Industrial Monitors
 
-* :ref:`IM`
+* :ref:`Monitors with Capacitive Touch <IM>`
 
 .. rubric:: High-performance System on Modules (SOMs)
 
-* :ref:`SOM`   
+* :ref:`SOM`
 
 .. note::
-   
+
    For a product-specific software documentation, visit the related product link
 
 .. toctree::
    :maxdepth: 1
    :caption: Industrial Panel PC
    :hidden:
-    
+
    Powered by Arm <PCs/ARM/index>
    Powered by Intel <PCs/Intel/index>
    Powered by Raspberry Pi <PCs/Pi/index>
 
 .. toctree::
    :maxdepth: 1
-   :caption: Industrial Monitors 
+   :caption: Industrial Monitors
    :hidden:
 
-   Monitors/index
+   Industrial Monitors <Monitors/index>
 
 .. toctree::
    :maxdepth: 1

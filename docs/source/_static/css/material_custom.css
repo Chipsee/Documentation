@@ -15,3 +15,12 @@
 p.centered{
     text-align: center!important;
 }
+
+.md-header-nav__button.md-logo{
+    margin: 0.1rem 0.2rem!important;
+}
+
+.navheader > div.md-flex__cell:first-of-type {
+    background-color: #ffffff!important;
+    height: inherit!important;
+}

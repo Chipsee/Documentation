@@ -4,7 +4,7 @@ Industrial Panel PCs Powered by |Arm|
 #####################################
 
 This section contains marketing collateral and OS downloads for the Industrial Panel PCs based on |Arm| |Cortex| platforms. Chipsee Product Naming Scheme allows for 
-quick extraction of the key features from the product numbers (PN) direclty, so familiarize yourself with the :ref:`naming-rules-Arm` to make navigating through 
+quick extraction of the key features from the product numbers (PN) directly, so familiarize yourself with the :ref:`naming-rules-Arm` to make navigating through
 the repository much easier.
 
 .. rubric:: Products by platform: |Cortex|-A9 (CS-SOM-iMX6Q)
