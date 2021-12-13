@@ -4,84 +4,91 @@
 
 .. |Product| replace:: The |product| Industrial PC
 
-.. |dispsize| replace:: 7.0"
+.. |dispsize| replace:: 17"
 
-.. |res| replace:: 1024 x 600
+.. |res| replace:: 1280 x 1024 (4:3)
 
-.. |bright| replace:: 500 |cd|
+.. |bright| replace:: 250 |cd|
 
-.. |disp_des| replace:: |dispsize| five-point capacitive and four-wire resistive touch screen with a resolution of |res| pixels and brightness of |bright|
+.. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |dimE| replace:: 190 x 107.8 x 29mm
+.. |con_ratio| replace:: 1000:1
 
-.. |dimP| replace:: 206 x 135 x 29.8mm
+.. |v_angle| replace:: 	Horizontal: 170° / Vertical: 160°
 
-.. |weightE| replace:: 340g
+.. |res_time| replace:: 5ms (GTG)
 
-.. |weightP| replace:: 680g
+.. |disp_col| replace:: 16.7M Colors
 
-.. |RAM| replace:: 512MB DDR3
+.. |in_res| replace:: |res| @ 60Hz
 
-.. |eMMC| replace:: 4GB
+.. |connector| replace:: VGA / DVI / HDMI
 
-.. |tscreen| replace:: 5-point capacitive and resistive touch
+.. |dim| replace:: 385.3 x 317.8 x 47.1mm
 
-.. |USB| replace:: 2 x USB 2.0 Host
+.. |pkg_size| replace:: 505 x 460 x 165mm
 
-.. |LAN| replace:: 1 x Channel 100M LAN
+.. |weight| replace:: 5000g / 7000g
 
-.. |GPIO| replace:: 8 Channels
+.. |mount| replace:: VESA, MIS-D, 100, C
 
-.. |expansions| replace:: 1 x 20-pin (PCB Footprint)
+.. |pwr| replace:: ≤ 15W
 
-.. |opt1| replace:: N/A
+.. |standby| replace:: ≤ 2W
 
-.. |opt2| replace:: Onboard WiFi/BT (optional)
+.. _product_link: https://chipsee.com/product/pim170c/
 
-.. |vin_rng| replace:: From 6V to 42V
+.. |product_link| replace:: PIM-170-C
 
-.. |cur| replace:: 600mA Max
-
-.. |pwr| replace:: 6W Typical
-
-.. |temp| replace:: From -20°C to +70°C
-
-.. |audio| replace:: 3.5mm output/input connector, 2W Internal Speaker
 
 .. _PIM-170-C:
-
 
 |product|
 #########
 
 .. rubric:: *Version 1.0*
 
-.. figure:: /Media/ARM/A8/CS10600T070/PPC-A8-70-HB-C-Front.jpeg
+.. figure:: /Media/Monitors/PIM-170-C/pim-170-front.jpeg
    :figclass: align-center
    :class: no-scaled-link
 
-   Front View (Panel Mounting Variant)
+   Front View
 
-.. figure:: /Media/ARM/A8/CS10600T070/PPC-A8-70-HB-C-Back.jpeg
+.. figure:: /Media/Monitors/PIM-170-C/pim-170-back.jpeg
    :figclass: align-center
    :class: no-scaled-link
 
-   Back View (Panel Mounting Variant)
+   Back View
 
-.. figure:: /Media/ARM/A8/CS10600T070/EPC-A8-70-HB-C-Front.jpeg
+.. figure:: /Media/Monitors/PIM-170-C/pim-170-bottom.jpeg
    :figclass: align-center
    :class: no-scaled-link
 
-   Front View (Embedded Variant)
+   Bottom View
 
-.. figure:: /Media/ARM/A8/CS10600T070/EPC-A8-70-HB-C-Back.jpeg
-   :figclass: align-center
-   :class: no-scaled-link
-
-   Back View (Embedded Variant)
 
 .. include:: Resources/overview
 
 .. include:: Resources/ordering
 
+Specification
+=============
+
+.. include:: Resources/table
+
+.. include:: Resources/mounting
+
+.. include:: Resources/mechspecs
+
+.. figure:: /Media/Monitors/PIM-170-C/pim-170-sd.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+.. figure:: /Media/Monitors/PIM-170-C/pim-170-sd-2.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Technical Drawing
+
 .. include:: Resources/support
+
