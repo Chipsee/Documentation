@@ -1,0 +1,14 @@
+Boot DIP Switch
+===============
+
+|Product| has one switch on the board marked as SW1, shown in the figure below. It has two positions USB and eMMC. |br|
+When switch is in the USB position, the Raspberry Pi will boot from the USB connector. You can use this function to download the OS software to the internal eMMC. |br|
+When switch is in the eMMC position, the Raspberry Pi will boot from internal eMMC.
+
+There is no need to alter the DIP switch settings during regular operation. However, if you need to reinstall the OS, please refer to the detailed information on how to re-flash the OS from the :ref:`Software Documentation <Pi_OS>`.
+
+.. figure:: /Media/Pi/A53/Others/BootSW.jpeg
+  :figclass: align-center
+  :align: center
+
+  *Boot DIP Switch*

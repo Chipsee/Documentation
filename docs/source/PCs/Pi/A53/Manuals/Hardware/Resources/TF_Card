@@ -1,0 +1,15 @@
+TF Card Slot
+============
+
+|Product| features 2 x **TF Card (micro SD) slot**: SD0 and SD1. Both slots can address up to 32GB of memory. |br|
+The SD0 is used only for the Lite version of Compute Module that has no internal eMMC. The SD1 is used for external storage.
+
+.. figure:: /Media/Pi/A53/Others/TF_Card.jpeg
+  :align: center
+  :figclass: align-center
+
+  *TF (micro SD) Card Slot*
+
+.. note::
+
+  The product does not come shipped with the TF Card by default.

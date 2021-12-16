@@ -16,6 +16,7 @@ The :ref:`table <gpio-table>` below gives details about the definition of every 
 .. table:: GPIO Connector Pin-out
    :align: center
    :width: 100%
+   :widths: auto
 
    +---------------------------------------------------------------------------------------------------------------------------------+
    | .. centered:: GPIO Connector Pin Definition:                                                                                    |

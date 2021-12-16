@@ -18,6 +18,7 @@ This manual is used to provide users with a fast guide of Chipsee Industrial Com
 .. table::
    :align: center
    :width: 100%
+   :widths: auto
 
    +----------+-----------+--------+-----------------+
    | Revision |    Date   | Author |   Description   |
@@ -52,6 +53,7 @@ Below are the links to the prebuilt files for each industrial PC model.
 .. table::
    :align: center
    :width: 100%
+   :widths: auto
 
    +---------------+----------------------------------+
    | Feature       | Comment                          |

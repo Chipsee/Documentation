@@ -1,0 +1,23 @@
+3G/4G/LTE Module
+----------------
+
+|Product| is equipped with a **mini-PCIe connector** that can connect to a 3G/4G module.
+The customer will also need a SIM Card Holder and a 3G/4G Antenna Connector to ensure 3G/4G works on the |product|.
+
+.. figure:: /Media/Pi/A53/Others/4G_module.jpeg
+   :align: center
+   :figclass: align-center
+
+   *3G/4G Module*
+
+
+.. figure:: /Media/Pi/A53/Others/4G_com.jpeg
+   :align: center
+   :figclass: align-center
+
+   *SIM Card Holder and 3G/4G Antenna Connector*
+
+
+.. attention::
+
+    The product does not come shipped with the 3G/4G module by default.

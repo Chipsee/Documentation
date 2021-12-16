@@ -1,0 +1,15 @@
+Ordering Options
+=================
+
+Chipsee products can be customized during the ordering process. The product will be shipped with the pre-installed factory defaults if no extra requirements are specified. The table in the `Specifications`_ section provides information about the default options bundled with the product.
+
+.. note::
+  
+  You can order |product_link|_ from the official |cstore|_ or from your nearest distributor.
+
+Operating System
+----------------
+
+This product comes with a pre-installed Debian OS. Chipsee software engineers have created all the drivers, so every hardware feature is readily available for any standard development tool.
+
+If your project requires a different OS, please |contact|_, and we’ll make a |custom_order|_ that suits your needs.

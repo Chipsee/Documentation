@@ -1,0 +1,73 @@
+Getting Started and Tests
+=========================
+
+DIP Switch Configuration
+------------------------
+
+Set the boot DIP switch, as shown in the figure below, to boot the system from the external SD Card.
+
+.. figure:: /Media/ARM/A8/AM3354/Boot_SW2.jpeg
+   :align: center
+   :figclass: align-center
+
+   Boot Mode Setup
+
+
+Downloading Images
+------------------
+
+Chipsee IPC supports booting from an integrated eMMC or an external TF Card (also known as the micro SD card).
+Booting from the external TF Card allows flashing the system OS.
+
+.. note::
+    The operator should use the prebuilt file we provided in the CD to test the hardware before re-flashing the system.
+
+
+Prebuilt Files Package
+----------------------
+
+You can get the Prebuilt Files Package for each model from links mentioned at the beginning of this documentation.
+You can also get the Prebuilt Files Package from the DVD in /|systemType|/Prebuilds folder. However, it may be outdated so always
+compare the versions (the last number in the filename is the release date).
+
+The prebuilt package has the following content:
+
+.. table:: Prebuilt Files Package
+  :width: 100%
+  :widths: auto
+  :align: center
+
+  +----------------------------------------+--------------------------------------+
+  | Contents                               | Comment                              |
+  +========================================+======================================+
+  | boot/imx6ulipc.dtb                     | TF Card boot dtb file                |
+  +----------------------------------------+--------------------------------------+
+  | boot/u-boot.imx                        | TF Card boot bootloader              |
+  +----------------------------------------+--------------------------------------+
+  | boot/zImage                            | TF Card boot kernel file             |
+  +----------------------------------------+--------------------------------------+
+  | filesystem/rootfs-emmc-flasher.tar.bz2 | TF Card boot rootFS                  |
+  +----------------------------------------+--------------------------------------+
+  | mksdcard.sh                            | Shell tools to make bootable TF Card |
+  +----------------------------------------+--------------------------------------+
+  | README                                 | Simple guidelines                    |
+  +----------------------------------------+--------------------------------------+
+  | S1.jpg                                 | Boot Switch Config Figure            |
+  +----------------------------------------+--------------------------------------+
+  | emmc-flash/emmc/rootfs.tar.gz          | RootFS in target eMMC                |
+  +----------------------------------------+--------------------------------------+
+  | emmc-flash/emmc/u-boot.imx             | Bootloader in target eMMC            |
+  +----------------------------------------+--------------------------------------+
+  | emmc-flash/emmc/zImage                 | Kernel file in target eMMC           |
+  +----------------------------------------+--------------------------------------+
+  | emmc-flash/emmc/imx6ul-eisd.dtb        | dtb file in target eMMC              |
+  +----------------------------------------+--------------------------------------+
+  | emmc-flash/mkemmc.sh                   | Shell tools to download images       |
+  +----------------------------------------+--------------------------------------+
+
+.. note::
+
+   The default ``zImage`` and ``imx6q-sabresd.dtb`` files support *'keep the logo from uboot to kernel'* but do not support framebuffer.
+   Chipsee provides ``zImage_framebuffer`` and ``imx6q-eisd.dtb_framebuffer`` file versions that support the framebuffer function but do
+   not support the *'keep the logo from uboot kernel'* feature. If you need the framebufer, just rename these two files to ``zImage``
+   and ``imx6q-eisd.dtb``.

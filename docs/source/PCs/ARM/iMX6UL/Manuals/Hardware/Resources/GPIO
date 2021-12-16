@@ -19,6 +19,7 @@ isolated Ground Input. Each GPIO output can drive loads up to 500mA, enough to d
 .. table:: Table 3: GPIO Pinout
    :align: center
    :width: 60%
+   :widths: auto
    
    +----------------------------------------------+
    | **GPIO Pin Definition:**                     |

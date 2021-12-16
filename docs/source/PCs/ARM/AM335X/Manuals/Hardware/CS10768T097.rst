@@ -108,8 +108,8 @@ Connectivity
 There are many connectivity options available on the |product| industrial PC. It has |USB| (can be customized to 2 x Host), |LAN| (RJ45) Ethernet connector supporting up to
 1 Gbps, and 5 x UART terminals (RS232/RS485).
 
-RS232/485/CAN
---------------
+RS232/RS485/CAN
+---------------
 
 The serial communication interfaces (RS485, RS482, and CAN) are routed to a **12-pin 3.81mm terminal**, as illustrated on the figure below.
 
@@ -125,6 +125,7 @@ The table below offers more detailed description of every pin and its definition
    :align: center
    :width: 100%
    :class: align-center
+   :widths: auto
 
 
    +-----------------------------------------------------------------------------------------------------------+

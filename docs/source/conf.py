@@ -115,6 +115,8 @@ rst_epilog = """
 
 .. |Cortex| replace:: Cortex\ :sup:`®`
 
+.. |Pi| replace:: Pi\ :sup:`®`
+
 .. |Core| replace:: Core™
 
 .. |br| raw:: html 
@@ -140,6 +142,10 @@ rst_epilog = """
 .. _contact: https://chipsee.com/contact/
 
 .. |contact| replace:: **Contact us**
+
+.. _custom_order: https://chipsee.com/custom/
+
+.. |custom_order| replace:: customized version
 
 """
 

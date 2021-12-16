@@ -19,6 +19,7 @@ This manual provides users with a fast guide of Chipsee Industrial Computer (Abb
 .. table::
    :align: center
    :width: 100%
+   :widths: auto
 
    +----------+-----------+--------+-----------------+
    | Revision |    Date   | Author |   Description   |
@@ -54,6 +55,7 @@ Below are the links to the prebuilt files for each industrial PC model.
 .. table::
    :align: center
    :width: 100%
+   :widths: auto
 
    +---------------+----------------------------------+
    | Feature       | Comment                          |

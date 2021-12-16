@@ -18,7 +18,8 @@ Detailed information on how to re-flash the OS can be found in the :ref:`Softwar
 
 .. table:: Boot Configuration Selection
     :align: center
-    :width: 35%
+    :width: 50%
+    :widths: auto
 
     +----------------------------------------------+
     | .. centered:: Boot Config Select             |

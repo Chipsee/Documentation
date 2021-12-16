@@ -4,10 +4,10 @@ Connectivity
 There are many connectivity options available on the |product| industrial PC. It has 2 x HOST USB Type A connectors, 1 x network connector (RJ45) supporting up to
 100 Mbps, and 5 x UART terminals (RS232/485). This device also features two CAN interfaces, and a set of opto-isolated GPIO pins for various purposes.
 
-.. _RS232/485/CAN_A7_70C:
+.. _RS232/RS485/CAN_A7_70C:
 
-RS232/485/CAN
---------------
+RS232/RS485/CAN
+---------------
 
 The serial communication interfaces (RS485, RS482, and CAN) are routed to a **16-pin 3.81mm terminal**, as illustrated on *Figure 3*. 
 Serial communication on both RS485 and RS422 interfaces can reach up to 115200 kbps.
@@ -23,6 +23,7 @@ The table below offers more detailed description of every pin and its definition
 .. table:: Table 2: Connectivity Section
    :align: center
    :width: 100%
+   :widths: auto
 
    +----------------------------------------------------------------------+
    | **RS232 / RS485 / CAN Pin Definition:**                              |

@@ -36,7 +36,7 @@ products portfolio.
    :caption: Industrial Monitors
    :hidden:
 
-   Industrial Monitors <Monitors/index>
+   Monitors with Capacitive Touch <Monitors/index>
 
 .. toctree::
    :maxdepth: 1

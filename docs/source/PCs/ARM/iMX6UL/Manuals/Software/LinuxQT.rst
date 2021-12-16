@@ -13,6 +13,7 @@ Chipsee Linux QT 5.5
 .. table::
    :align: center
    :width: 100%
+   :widths: auto
 
    +----------+-----------+--------+-----------------+
    | Revision |    Date   | Author |   Description   |

@@ -21,6 +21,7 @@ Note that the "**+**" sign represents the positive power input, and it is printe
    :align: center
    :width: 80%
    :class: align-center
+   :widths: auto
 
    +-------------------------------------------------------------------------+
    | Power Input Definition                                                  |

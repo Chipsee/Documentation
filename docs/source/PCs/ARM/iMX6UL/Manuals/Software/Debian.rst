@@ -11,6 +11,7 @@ Debian 8.10
 .. table::
    :align: center
    :width: 100%
+   :widths: auto
 
    +----------+-----------+--------+-----------------+
    | Revision |    Date   | Author |   Description   |
@@ -37,6 +38,7 @@ CS10600U070-V1.0
 .. table::
    :align: center
    :width: 100%
+   :widths: auto
 
    +---------------+----------------------------------+
    | Feature       | Comment                          |
@@ -99,7 +101,7 @@ Serial Debug
 ------------
 
 The first serial port is used for debugging (serial port 1). It consists of *RS232_1_TXD*, *RS232_1_RXD* and, *GND* terminals. 
-Please refer to :ref:`1.6.1. RS232/485/CAN <RS232/485/CAN_A7_70C>` chapter in the EPC/PPC-A7-70HB-C Hardware Documentation for additional information on serial ports.
+Please refer to :ref:`1.6.1. RS232/RS485/CAN <RS232/RS485/CAN_A7_70C>` chapter in the EPC/PPC-A7-70HB-C Hardware Documentation for additional information on serial ports.
 
 .. note::
   | More information on how to connect different Chipsee IPCs to a personal computer (PC) via a serial connection can be found in the PDF document below: 
@@ -222,7 +224,8 @@ The prebuilt package has the following content (*Table 1*):
 
 .. table:: Table 1: Prebuilt Files Package
   :width: 100%
-  :align: center  
+  :align: center
+  :widths: auto
 
   +----------------------------------------+--------------------------------------+
   | Contents                               | Comment                              |
