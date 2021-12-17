@@ -1,0 +1,44 @@
+VNC Debug
+---------
+
+You can use VNC-Viewer in Windows to control Chipsee Raspberry Pi product over Ethernet.
+
+Continue the debugging by follow these steps:
+
+* Enable the VNC feature in the Chipsee Raspberry |Pi| product by running the following command in debug console:
+    .. code:: bash
+
+        $ sudo raspi-config
+
+        Interfacing Options -> VNC -> Yes
+
+* If you don’t have a debug console, you can also use the GUI feature to enable VNC.
+    .. figure:: /Media/Pi/Software/VNC_Debug.jpeg
+       :align: center
+       :figclass: align-center
+
+    .. figure:: /Media/Pi/Software/VNC_Debug_2.jpeg
+       :align: center
+       :figclass: align-center
+
+       Enabling VNC (GUI)
+
+* Use VNC-Viewer in Windows to control it over Ethernet, as shown in the figures below.
+    .. figure:: /Media/Pi/Software/VNC_Debug_3.jpeg
+       :align: center
+       :figclass: align-center
+
+       Vnc-Viewer Connect
+
+    .. figure:: /Media/Pi/Software/VNC_Debug_4.jpeg
+       :align: center
+       :figclass: align-center
+
+       Authentications
+
+    .. figure:: /Media/Pi/Software/VNC_Debug_5.jpeg
+       :align: center
+       :figclass: align-center
+
+       VNC Desktop
+

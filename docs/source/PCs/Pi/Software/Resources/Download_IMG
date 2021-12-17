@@ -1,0 +1,80 @@
+Downloading images
+==================
+
+Boot Switch Configuration
+-------------------------
+
+Chipsee RPC supports booting from an integrated eMMC or an external TF Card (also known as the micro SD card).
+
+.. note::
+
+    CS12800RA4101 only supports eMMC boot
+
+The Compute Module (CM) version will determine the boot modes your product supports.
+If you use CM with eMMC, you can only use eMMC boot. If you use CM Lite which has no eMMC, you can only use SD boot. |br|
+To boot from the SD Card, you must place the SD Card in **SD0** slot. You can use the **SD1** slot as external storage.
+
+
+For **CS10600RA070**, **CS12800RA101**, and **CS10600RA4070** products, you can download a new system to eMMC by: configuring the boot switch to USB position, inserting Mini-B USB cable, and then power the board. This will enable eMMC to work as a USB storage. |br|
+After the eMMC flash, you need to configure the boot switch to the eMMC position again. |br|
+If you need to use SD boot, you should configure the boot switch to the eMMC position.
+
+
+For the **CS12800RA4101** product, you can download a new system to eMMC by: inserting a Micro-B USB cable, pressing the power button, and then power the board to enable eMMC to work as a USB storage. |br|
+The next sections explain in detail the steps in downloading a new system to eMMC.
+
+Prebuilt image
+--------------
+
+Chipsee Raspberry Pi products use the Raspberry Pi official system as a base and add some modules and drivers. You can get the driver and latest image by referring to `<https://github.com/Chipsee/industrial-pi#latest-system-images>`_. |br|
+If you’re not using balenaEtcher, you’ll need to unzip the `.img.xz` file and get the image file `(.img)` to write to your SD card.
+
+Writing images to the SD Card
+-----------------------------
+
+Before you start, don’t forget to check your SD card size (at least 16GB). |br|
+You will need to use an image writing tool to install the downloaded image on your SD card.
+
+**Using balenaEtcher Tool** |br|
+
+*balenaEtcher* is a graphical SD card writing tool that works on Mac OS, Linux and Windows, and is the easiest option for most users.
+balenaEtcher also supports writing images directly from the .img.xz file, without any unzipping required. |br|
+To write your image with balenaEtcher, follow these steps:
+
+* Download and install the latest version of `balenaEtcher <https://www.balena.io/etcher/>`_.
+* Connect an SD card reader with the SD card inside.
+* Open balenaEtcher and select from your hard drive the Raspberry Pi® .img.xz file you want to write to the SD card.
+* Select the SD card you want to write your image to.
+* Review your selections and click ‘Flash!’ to begin writing data to the SD card.
+    .. note::
+
+        For Linux users, **zenity** might need to be installed on your machine for balenaEtcher to be able to write the image on your SD card.
+
+Writing images to the eMMC
+--------------------------
+
+Before you start, don’t forget to check your eMMC size, and select one image. You also need to install :download:`rpiboot <https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe>` to enable eMMC to work as one USB storage in your PC. |br|
+Under Windows, an installer is available to install the required drivers and boot tool automatically.|br|
+For those who just want to enable the Compute Module eMMC as a mass storage device under Windows, the stand-alone installer is the recommended option.
+
+The write images to the eMMC, follow these steps:
+
+* Download and run the Windows installer **rpitools** to install the drivers and boot tool.
+* For **CS10600RA070**, **CS12800RA101**, and **CS10600RA40** products, plug your host PC Mini-B USB into the USB Downloader port, making sure the boot switch is set to the USB position.
+* For **CS12800RA4101** product, plug your host PC Micro-B USB into the USB Slave port (can be also called USB Download Port), press and hold the power button.
+* Power ON the board. Windows should now find the hardware and install the driver. For CS12800RA4101, you can release the power button now.
+* Once the driver installation is complete, run the **RPiBoot.exe** tool that was previously installed. You can run **RPiBoot.exe** in Windows PowerShell, as shown in the figure below.
+    .. figure:: /Media/Pi/Software/rpiboot.jpeg
+       :align: center
+       :figclass: align-center
+
+       RPIboot tool
+
+* After a few seconds, the Compute Module eMMC will pop up under Windows as a disk (USB mass storage device).
+* Refer to `Writing images to the SD Card`_ to flash system to eMMC (like the SD card in Windows).
+* If process completes, power OFF the board and ensure the boot switch is set to eMMC position. Power ON to use the new system. |br| For **CS12800RA4101**, ignore repositioning the boot switch, a reboot will be ok. |br| To learn more, visit the following link: `<https://www.raspberrypi.org/documentation/hardware/computemodule/cm-emmc-flashing.md>`_
+
+Booting from the external TF Card allows flashing the system OS.
+
+.. note::
+    The operator should use the prebuilt file we provided in the CD to test the hardware before re-flashing the system.

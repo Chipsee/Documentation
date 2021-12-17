@@ -1,0 +1,343 @@
+System Resource
+===============
+
+SD Card/USB
+-----------
+
+SD Card is for external storage and needs to be placed in the **SD1** port. The **SD0** port is used by boot.|br|
+SD Card and USB Storage support hot plug. They will be automatically mounted on `/media/pi/`. For **CS12800RA4101**, there is only one SD slot.
+
+Serial Port
+-----------
+
+Chipsee Raspberry |Pi| boards support RS232 and RS485. Check the table below to know more about the serial port on different boards.
+
+.. table:: CS10600RA070-C111
+   :align: center
+   :width: 100%
+   :widths: 50 50
+
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | Ports                       | Name                          | Node                          | Protocol                      |
+   +=============================+===============================+===============================+===============================+
+   | 1                           | RS232_0                       | /dev/ttyAMA0                  | RS232                         |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | 2                           | RS232_1/RS485_1               | /dev/S0                       | RS232/RS485                   |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+
+.. note::
+
+    RS232_1/RS485_1 uses the same UART pins from the CPU, so they use the same device node. You can only use one at a time. RS485 signal has been mounted on the 120Ω Matched Resistor.
+
+There is one GPIO that is used by RS485. You can control it to enable and disable RS485 to send and receive. Check the tables below.
+
+.. table:: RS485 control GPIO
+   :align: center
+   :width: 100%
+   :widths: 50 50
+
+   +-----------+-----------------------------------------------------+-------------------------------------------------------+-------------------------------+
+   | GPIO      | Initial                                             | Control                                               | Function                      |
+   +===========+=====================================================+=======================================================+===============================+
+   | GPIO34    | `$ echo 34 > /sys/class/gpio/export`   |br| |br|    |                                                       | Enable send                   |
+   |           |                                                     | `$ echo 1 > /dev/rs485con`                            +-------------------------------+
+   |           | `$ echo out > /sys/class/gpio/gpio34/direction`     |                                                       | Disable receive               |
+   |           +-----------------------------------------------------+-------------------------------------------------------+-------------------------------+
+   |           |                                                     |                                                       | Enable receive                |
+   |           | `$ ln -s /sys/class/gpio/gpio34/value /dev/rs485con`| `$ echo 0 > /dev/rs485con`                            +-------------------------------+
+   |           |                                                     |                                                       | Disable send                  |
+   +-----------+-----------------------------------------------------+-------------------------------------------------------+-------------------------------+
+
+.. table:: CS12800RA101
+   :align: center
+   :width: 100%
+   :widths: 50 50
+
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | Ports                       | Name                          | Node                          | Protocol                      |
+   +=============================+===============================+===============================+===============================+
+   | 1                           | CPU_RS232_0                   | /dev/ttyAMA0                  | RS232                         |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | 2                           | CPU_RS232_1                   | /dev/ttyS0                    | RS232                         |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | 3                           | RS232_1                       | /dev/ttyUSB0                  | RS232                         |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | 4                           | RS232_2                       | /dev/ttyUSB1                  | RS232                         |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | 5                           | RS485_3                       | /dev/ttyUSB2                  | RS485                         |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | 6                           | RS485_4                       | /dev/ttyUSB3                  | RS485                         |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+
+.. table:: CS10600RA4070-C111
+   :align: center
+   :width: 100%
+   :widths: 50 50
+
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | Ports                       | Name                          | Node                          | Protocol                      |
+   +=============================+===============================+===============================+===============================+
+   | 1                           | RS232_0                       | /dev/ttyAMA0                  | RS232                         |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | 2                           | RS232_2                       | /dev/ttyAMA1                  | RS232                         |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | 3                           | RS232_3                       | /dev/ttyAMA2                  | [#sr]_                        |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | 4                           | RS485_3                       | /dev/ttyAMA2                  | RS485                         |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | 5                           | RS232_5                       | /dev/ttyAMA3                  | [#sr]_                        |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | 6                           | RS485_5                       | /dev/ttyAMA3                  | RS485                         |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+
+-----
+
+.. [#sr] There is no date from this two channel default. Can be costumed to RS232 and disable port 4 and port 6.
+
+
+.. table:: CS12800RA4101
+   :align: center
+   :width: 100%
+   :widths: 50 50
+
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | Ports                       | Name                          | Node                          | Protocol                      |
+   +=============================+===============================+===============================+===============================+
+   | 1                           | RS232_0                       | /dev/ttyAMA0                  | RS232                         |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | 2                           | RS232_1                       | /dev/ttyAMA1                  | RS232                         |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | 3                           | RS485_2                       | /dev/ttyAMA2                  | RS485                         |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+
+You can install **cutecom** to test the serial port:
+
+.. code: bash
+
+   $ sudo apt-get install cutecom
+
+Only root user and use the serial port:
+
+.. code: bash
+
+   $ sudo cutecom
+
+GPIO
+----
+
+There are 8 GPIOs, 4 Output, and 4 Input, they are all isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V. Refer to the tables below for a detailed port definition:
+
+.. include:: Resources/gpio_table
+
+Relay
+-----
+
+There is one Relay on CS12800RA4101. For a detailed port definition, please refer to the table below.
+
+.. table:: CS12800RA4101 Relay on P10
+   :align: center
+   :width: 100%
+   :widths: 50 50
+
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | Ports                       | Name                          | Node                          | Protocol                      |
+   +=============================+===============================+===============================+===============================+
+   | 8                           | Relay_NO                      | GPIO17                        | Normal Open                   |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | 9                           | Relay_COM                     | GPIO17                        | GND                           |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | 10                          | Relay_NC                      | GPIO17                        | Normal Close                  |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
+
+* Initialize `GPIO17` to output
+    .. code:: bash
+
+        $ echo 17 > /sys/class/gpio/export
+
+        $ echo out > /sys/class/gpio/gpio17/direction
+
+* Enable Relay NO short-circuit Relay COM
+    .. code:: bash
+
+        $ echo 1 > /sys/class/gpio/gpio17/value
+
+* Enable Relay NC short-circuit Relay COM
+    .. code:: bash
+
+        $ echo 0 > /sys/class/gpio/gpio17/value
+
+BUZZER
+------
+
+The Chipsee Raspberry Pi boards have one buzzer. We have created one symbol link to `/dev/buzzer`. You can control it as follows:
+
+.. code:: bash
+
+    $ echo 1 > /dev/buzzer    //enable buzzer
+
+    $ echo 0 > /dev/buzzer    // disable buzzer
+
+Backlight
+---------
+
+We use one GPIO to control the backlight for Chipsee Raspberry Pi boards, the GPIO is different for different boards. Find more details below.
+
+.. table:: Backlight GPIO
+   :align: center
+   :width: 100%
+   :widths: 50 50
+
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | Board                       | GPIO                          | GPIO Config in config.txt     | PWM                           | PWM Function                  |
+   +=============================+===============================+===============================+===============================+===============================+
+   | CS10600RA070                | 41                            | gpio=41=op,dh                 | Pwm1                          | 4                             |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | CS12800RA101                | 41                            | gpio=41=op,dh                 | Pwm1                          | 4                             |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | CS10600RA4070               | 18                            | gpio=18=op,dh                 | Pwm0                          | 2                             |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+   | CS12800RA4101               | 13                            | gpio=13=op,dh                 | Pwm1                          | 4                             |
+   +-----------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
+
+* We use `gpio==op,dh` in `/boot/config.txt` to enable the backlight by default. You can open and close backlight as follows. GPIO41 is used as an example:
+    .. code:: bash
+
+        $ echo 41 > /sys/class/gpio/export
+        $ echo out > /sys/class/gpio/gpio41/direction
+        $ echo 1 > /sys/class/gpio/gpio41/value //enable backlight
+        $ echo 0 > /sys/class/gpio/gpio41/value //disable backlight
+
+* If you want to use PWM to control the backlight, you need to remove `gpio==op,dh`, and add `dtoverlay=pwm, pin=, func=` in `/boot/config.txt`. You can do it in the following way. GPIO13 is used as an example |br| Remove this line in /boot/config.txt:
+    .. code:: text
+
+        gpio=13=op,dh
+
+* And add the following line to `/boot/config.txt`:
+    .. code:: text
+
+        dtoverlay=pwm,pin=13,func=4
+
+* Reboot, after that, Config and enable pwm
+    .. code:: bash
+
+        $ cd /sys/class/pwm/pwmchip0/
+        $ echo 1 > export //GPIO13 is pwm1, so we use 1
+        $ echo 10000000 > pwm1/period //set period to 10ms,100Hz
+        $ echo 8000000 > pwm1/duty_cycle // set duty to 8ms
+        $ echo 1 > pwm1/enable // enable pwm1
+
+4G
+--
+
+* You can use 4G on Chipsee Raspberry Pi products. If the 4G module is Quectel EC20, you can use the following tools to connect to internet.
+    .. code:: bash
+
+        $ sudo install udhcpc
+        $ sudo ifconfig wwan0 down
+        $ sudo quectel-CM –s 3gnet / cmnet / ctnet & // select different network base on your SIM
+        card, 3gnet is used by China-unicom and cmnet is used by China-mobile, ctnet is used by China
+        Telecom
+
+* If you use EC20 with GPS function, you can enable and get data in the following way. |br| Open one terminal to catch data:
+    .. code:: bash
+
+        cat /dev/ttyUSB1
+
+* Open another terminal to config and enable:
+    .. code:: bash
+
+        $ microcom –s 9600 /dev/ttyUSB2
+        AT+QGPSCFG=”gpsnmeatype”,1
+        AT+QGPS=1 // enable GPS, wait some minutes, you can get date from fist terminal.
+        AT+QGPSEND // disable GPS
+
+* Don’t forget to use one GPS ANT.
+
+CAN Bus
+-------
+
+There is one channel CAN bus on **CS12800RA101/CS10600RA4070**. You can install `can-utils` and use them to test CAN. But you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown in the figure below.
+
+.. note::
+
+     All CAN signals have mounted on the 120Ω Matched Resistor by default on Chipsee Raspberry Pi boards.
+
+.. figure:: /Media/Pi/Software/CAN.jpeg
+   :align: center
+   :figclass: align-center
+
+   Connecting CAN
+
+Here are a few examples to test CAN by using CAN units
+
+* Install `can-utils`
+    .. code:: bash
+
+        $ sudo apt install can-utils
+
+* Set the bit-rate to **50Kbits/sec** with triple sampling using the following command (use ROOT user):
+    .. code:: bash
+
+        $ sudo ip link set can0 type can bitrate 50000 triple-sampling on
+
+* Bring up the device using the command:
+    .. code:: bash
+
+        $ sudo ip link set can0 up
+
+* Transfer packets
+    + Transmit 8 bytes with standard packet id number as 0x10
+
+    .. code:: bash
+
+        $ sudo cansend can0 -i 0x10 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88
+
+    + Transmit 8 bytes with extended packet id number as 0x800
+
+    .. code:: bash
+
+        $ sudo cansend can0 -i 0x800 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88 - e
+
+    + Transmit 20 8 bytes with extended packet id number as 0xFFFFF
+
+    .. code:: bash
+
+        $ sudo cansend can0 -i 0xFFFFF 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88 -e --loop=20
+
+* Receive data from CAN bus
+    .. code:: bash
+
+        $ sudo candump can0
+
+* Bring down the device
+    .. code:: bash
+
+        $ sudo ip link set can0 down
+
+Wi-Fi
+-----
+
+The Chipsee Raspberry Pi boards support *RTL8723BU/RTL8723DU* chip Wi-Fi.
+The **CS10600RA070/CS12800RA101** have an onboard `RTL8723BU` Wi-Fi chip.
+The **CS10600RA4070/CS12800RA4101** have no onboard Wi-Fi by default so you can use the USB Wi-Fi dongle to enable the Wi-Fi.
+
+Zigbee
+------
+
+The **CS10600RA4070/CS12800RA4101** boards have an onboard ZigBee chip *CC2531*.
+Its device node in the system is `/dev/ttyACM0`.
+We use `zigbee2mqtt` project firmware by default.
+Check the following link to learn more about this project: `Zigbee2mqtt <https://www.zigbee2mqtt.io>`_
+
+Camera
+------
+
+The camera port CAM is compatible with Raspberry pi.
+Please refer to the following link to learn how to attach a camera: `<https://www.raspberrypi.org/documentation/hardware/computemodule/cmio-camera.md>`_
+
+Chipsee-init shell
+------------------
+
+We use one **chipsee-init.sh** as an initial shell which is placed in `/opt/chipsee/chipsee-init.sh`.
+We initialize the GPIO/Buzzer and other configs in it. If you want to change it, please be careful. |br|
+Do a backup first before you modify anything.

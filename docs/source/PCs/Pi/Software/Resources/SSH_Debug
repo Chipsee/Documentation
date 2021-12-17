@@ -1,0 +1,40 @@
+SSH Debug
+---------
+
+To perform SSH debugging on the Chipsee Raspberry |Pi| product, you must first connect the product to the Internet.
+
+Continue the debugging by follow these steps:
+
+* Get the IP address of the Chipsee Raspberry |Pi| product.
+* Enable the SSH feature in the Chipsee Raspberry |Pi| product by running the following command in debug console:
+    .. code:: bash
+
+        $ sudo raspi-config
+
+        Interfacing Options -> SSH -> Yes
+
+* If you don’t have a debug console, you can also use the GUI feature to enable SSH.
+    .. figure:: /Media/Pi/Software/SSH_Debug.jpeg
+       :align: center
+       :figclass: align-center
+
+    .. figure:: /Media/Pi/Software/SSH_Debug_2.jpeg
+       :align: center
+       :figclass: align-center
+
+       Enabling SSH (GUI)
+
+* Open and configure XShell or use ssh tool in the PC directly
+* In XShell, add a new session and set it as shown in the figure below.
+    .. figure:: /Media/Pi/Software/SSH_Debug_3.jpeg
+       :align: center
+       :figclass: align-center
+
+       SSH Setting on Xshell
+
+* Now we can perform SSH debugging using XShell
+    .. figure:: /Media/Pi/Software/SSH_Debug_4.jpeg
+       :align: center
+       :figclass: align-center
+
+       SSH Debug

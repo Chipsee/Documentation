@@ -1,9 +1,10 @@
 Hardware Requirements
 ---------------------
 
-* Chipsee Industrial PC
+* Chipsee Raspberry |Pi|
 * PSU according to the instructions above
-* USB-to-serial or other serial cable for debugging
-* TF Card (at least 4GB) and card reader
-* USB A-A cable (used only if the hardware configured as OTG)
-* Windows 7 PC
+* Mini-B USB OTG and MicroB USB Cable to download system images to CM3/CM3+/CM4 based IPC's.
+* USB to RS232 serial cable for serial debugging the Chipsee Raspberry |Pi| product.
+* TF Card (SD Card) to create a bootable storage for re-flashing the system. Use the prebuilt files :ref:`link above <db_pkg_pi_debian>` to re-flash the system.
+* If you use CM3 Lite/CM3 Lite+/CM4 Lite, you also need one SD card, 16GB at least.
+

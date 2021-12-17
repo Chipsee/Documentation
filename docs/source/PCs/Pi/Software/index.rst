@@ -10,7 +10,7 @@ If you have questions not covered in this documentation, please consult Chipsee 
    :maxdepth: 1
    :titlesonly:
 
-   Debian <Debian>
+   Debian 10 (buster) <Debian>
 
 .. warning::
 
