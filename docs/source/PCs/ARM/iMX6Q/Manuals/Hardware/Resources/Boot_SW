@@ -1,19 +1,19 @@
 Boot DIP Switch
 ===============
 
-|Product| supports boot from SD card. If you want to reflash the Operating System (OS), you can use the TF card for that purpose, combined with 
-the **DIP switch** settings *(Figure 11)*.
+|Product| supports boot from SD card. If you want to re-flash the Operating System (OS), you can use the TF card for that purpose, combined with
+the **DIP switch** settings.
 
-There is no need to alter the DIP switch settings during regular operation. However, if you need to reinstall the OS, please refer to *Table 4* below. 
-Detailed information on how to re-flash the OS can be found in the :ref:`Software Documentation <CS10600U070_OS>`.
+There is no need to alter the DIP switch settings during regular operation. However, if you need to reinstall the OS, please refer to the table below.
+Detailed information on how to re-flash the OS can be found in the :ref:`Software Documentation <IMX6Q_OS>`.
 
-.. figure:: /Media/ARM/A9/CS10600F070/BootSW.png
+.. figure:: /Media/ARM/A9/Others/BootSW.png
   :figclass: align-center
   :align: center
 
-  *Figure 11: Boot DIP Switch*
+  *Boot DIP Switch*
 
-.. table:: Table 4: Boot Configuration Selection
+.. table:: Boot Configuration Selection
     :align: center
     :width: 50%
     :widths: auto

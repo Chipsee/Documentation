@@ -1,0 +1,23 @@
+Product Overview
+=================
+
+The |Cortex|-A9 series |product| (|PN|) is a rugged, high-quality industrial panel PC. It features a |disp_des|.
+
+.. sidebar:: Key Applications
+
+  + Process Control
+  + Process Monitoring
+  + HMI
+  + Infotainment
+  + Predictive Maintenance
+  + Machine Learning
+  + Machine Vision
+  + Automotive applications
+  + ATM...
+
+|Product| is based around the powerful CS-SOM-iMX6Q System on Module (SoM), powered by the i.MX6Q |Arm| |Cortex|-A9 quad-core Application Processor (APU). The i.MX6Q APU represents the latest achievement in integrated multimedia applications processors, delivering high-performance computing, an abundance of integrated peripherals, and high power efficiency.
+
+This product also features a broad range of connectivity options, providing a high level of scalability for various use cases. It is the perfect solution for power-constrained applications on the Edge, acting as a robust control unit for collecting, processing, and aggregating field data. The
+i.MX6Q APU is part of NXP's EdgeVerse™ edge computing platform.
+
+The NXP i.MX6UL APU does not generate extensive heat, so even the thin aluminum housing on PPC version delivers sufficient thermal dissipation. With its junction temperature from -40 to +125°C, the APU itself is well suited for extended temperature range in both automotive and factory environments.

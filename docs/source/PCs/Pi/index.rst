@@ -15,11 +15,6 @@ the repository much easier.
 
    Cortex-A53 Hardware Documentation <A53/Manuals/Hardware/index>
 
-.. toctree::
-   :hidden:
-
-   spacer
-
 .. rubric:: Products by platform: |Cortex|-A72 (Raspberry-Pi CM4)
 
 .. toctree::
@@ -28,11 +23,6 @@ the repository much easier.
 
    Cortex-A72 Hardware Documentation <A72/Manuals/Hardware/index>
 
-.. toctree::
-   :hidden:
-
-   spacer
-
 .. rubric:: Products by platform: All-In-One (Raspberry-Pi CM4)
 
 .. toctree::
@@ -40,11 +30,6 @@ the repository much easier.
    :titlesonly:
 
    All-In-One Hardware Documentation <AIO/Manuals/Hardware/index>
-
-.. toctree::
-   :hidden:
-
-   spacer
 
 .. rubric:: Industrial Pi Software Manual and OS Downloads
 

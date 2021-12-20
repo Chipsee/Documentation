@@ -4,7 +4,7 @@ Software Documentation
 This section contains the software documentation for flashing new operating systems (OS) on products based on |Cortex|-A9 architecture.
 If you have questions not covered in this documentation, please consult Chipsee Technical Support at |email|_.
 
-.. _CS10600F070_OS:
+.. _IMX6Q_OS:
 
 .. toctree::
    :maxdepth: 1

@@ -1,13 +1,6 @@
 EPC/PPC-A9-97-C (PN: CS10768F097)
 #################################
 
-
-Android4.4
-----------
-
-| **GT9271 Touchscreen**
-| :download:`prebuilt-imx6qv1-cs12800f010v3-android4-emmc-20190410.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/9.7/Android4.4/prebuilt-imx6qv1-cs12800f010v3-android4-emmc-20190410.tar.gz>`
-
 Android6.0
 ----------
 
@@ -19,6 +12,10 @@ Android8.0
 
 | **GT9271 Touchscreen**
 | :download:`prebuilt-imxv1-cs10768f097v1-android8-emmc-20190425.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/9.7/Android8.0/prebuilt-imxv1-cs10768f097v1-android8-emmc-20190425.tar.gz>`
+| :download:`prebuilt-imxv1-cs10768f097v1-android8-sd-16g-20190425.img.xz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/9.7/Android8.0/prebuilt-imxv1-cs10768f097v1-android8-sd-16g-20190425.img.xz>`
+| :download:`prebuilt-imxv1-cs10768f097v1-android8-sd-20190425.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/9.7/Android8.0/prebuilt-imxv1-cs10768f097v1-android8-sd-20190425.tar.gz>`
+
+
 
 LinuxQt5.5
 ----------
