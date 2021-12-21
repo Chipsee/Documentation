@@ -1,0 +1,38 @@
+Expansion Port
+--------------
+
+|Product| has 1 x **Expansion Port** as shown in the figure below. It is an unpopulated PCB footprint with the standard 2.54mm (1") pitch holes. This connector has connected to isolated GPIO signals.
+
+.. figure:: /Media/ARM/A9/PPC_Others/expansion_IO.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Expansion Port*
+
+.. table:: Expansion Connector Pinout
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +--------------------------------------------------------------------------------------------------------+
+   | .. centered:: Expansion Connector Pinout                                                               |
+   +==========+==========================+===============+=========+==========================+=============+
+   | **PIN**  | **Function**             | **CPU PIN**   | **PIN** | **Function**             | **CPU PIN** |
+   +----------+--------------------------+---------------+---------+--------------------------+-------------+
+   | 1        | VDD_3.3V                 | Power Output  | 2       | GND                      | Power Ground|
+   +----------+--------------------------+---------------+---------+--------------------------+-------------+
+   | 3        | GPIO4_10(KEY_COL2)	 | W4            | 4       | GPIO1_30(ENET_TXD0)      | U20         |
+   +----------+--------------------------+---------------+---------+--------------------------+-------------+
+   | 5        | I2C3_SCL(EIM_D17)	 | F21           | 6       | GPIO3_31(EIM_D31)	      | H21         |
+   +----------+--------------------------+---------------+---------+--------------------------+-------------+
+   | 7        | GPIO3_23(EIM_D23)	 | D25           | 8       | GPIO1_29(ENET_TXD1)      | W20         |
+   +----------+--------------------------+---------------+---------+--------------------------+-------------+
+   | 9        | GPIO1_28(ENET_TX_EN)     | V21           | 10      | I2C3_SDA(EIM_D18)	      | D24         |
+   +----------+--------------------------+---------------+---------+--------------------------+-------------+
+   | 11       | GPIO3_30(EIM_D30)	 | J20           | 12      | GPIO5_2(EIM_A25)	      | H19         |
+   +----------+--------------------------+---------------+---------+--------------------------+-------------+
+
+.. warning::
+
+   Since the PCB traces of the port are connected to the processor directly, be careful not to cause electrostatic discharge or over voltage on the pins, as it may damage the processor. Take all the necessary precautions while working with electrostatic-sensitive equipment.
+

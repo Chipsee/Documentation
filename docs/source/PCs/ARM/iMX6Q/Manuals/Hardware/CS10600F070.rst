@@ -14,7 +14,7 @@
 
 .. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
 
-.. |dimE| replace:: 	190 x 107.8 x 27.7mm
+.. |dimE| replace:: 190 x 107.8 x 27.7mm
 
 .. |dimP| replace:: 206 x 135 x 30.1mm
 
@@ -46,13 +46,11 @@
 
 .. |pwr| replace:: 6W Typical
 
-.. |temp| replace:: From -20°C to +70°C   
+.. |temp| replace:: From -20°C to +70°C
+
+.. |rs485| replace:: 2
 
 .. _EPC/PPC-A9-70-C:
-
-.. sectnum::
-   :start: 1
-   :suffix: .
 
 |product|
 #########
@@ -87,6 +85,8 @@
 
 .. include:: Resources/ordering
 
+.. include:: Resources/opt_features_2
+
 .. include:: Resources/HW_features
 
 .. include:: Resources/table
@@ -95,9 +95,101 @@
 
 .. include:: Resources/cap_screen
 
-.. include:: Resources/connectivity
+Connectivity
+============
 
-.. include:: Resources/USB
+There are many connectivity options available on the |product| industrial PC. It has 3 x HOST USB Type A connectors, 1 x USB OTG Type Mini B, 1 x network connector (RJ45) supporting up to
+1 Gbps, and 5 x UART terminals (RS232/485). This device also features two CAN interfaces.
+
+RS232/RS485/CAN
+---------------
+
+The serial communication interfaces (RS485, RS482, and CAN) are routed to a **16-pin 3.81mm terminal**, as illustrated in the figure below.
+Serial communication on both RS485 and RS422 interfaces can reach up to 115200 kbps.
+
+.. figure:: /Media/ARM/A9/Others/IO-Peripherals.png
+   :align: center
+   :figclass: align-center
+
+   *Relation between serial pins on embedded vs. enclosed version*
+
+The table below offers more detailed description of every pin and its definition:
+
+.. table:: Connectivity Section
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +----------------------------------------------------------------------+
+   | **RS232 / RS485 / CAN Pin Definition:**                              |
+   +----------------+----------------+------------------------------------+
+   | **Pin Number** | **Definition** | **Description**                    |
+   +----------------+----------------+------------------------------------+
+   | Pin 1          | CAN2_H         | CPU CAN Channel 2 H signal         |
+   +----------------+----------------+------------------------------------+
+   | Pin 2          | CAN2_L         | CPU CAN Channel 2 L signal         |
+   +----------------+----------------+------------------------------------+
+   | Pin 3          | CAN1_H         | CPU CAN Channel 1 H signal         |
+   +----------------+----------------+------------------------------------+
+   | Pin 4          | CAN1_L         | CPU CAN Channel 1 L signal         |
+   +----------------+----------------+------------------------------------+
+   | Pin 5          | RS485_2-       | CPU UART2, RS485 –(B) signal [#h]_ |
+   +----------------+----------------+------------------------------------+
+   | Pin 6          | RS485_2+       | CPU UART2, RS485 +(A) signal [#h]_ |
+   +----------------+----------------+------------------------------------+
+   | Pin 7          | RS485_5-       | CPU UART5, RS485 –(B) signal       |
+   +----------------+----------------+------------------------------------+
+   | Pin 8          | RS485_5+       | CPU UART5, RS485 +(A) signal       |
+   +----------------+----------------+------------------------------------+
+   | Pin 9          | RS485_4-       | CPU UART4, RS485 –(B) signal       |
+   +----------------+----------------+------------------------------------+
+   | Pin 10         | RS485_4+       | CPU UART4, RS485 +(A) signal       |
+   +----------------+----------------+------------------------------------+
+   | Pin 11         | RS232_3_RXD    | CPU UART3, RS232 RXD signal        |
+   +----------------+----------------+------------------------------------+
+   | Pin 12         | RS232_3_TXD    | CPU UART3, RS232 TXD signal        |
+   +----------------+----------------+------------------------------------+
+   | Pin 13         | RS232_1_RXD    | CPU UART1, RS232 RXD signal        |
+   +----------------+----------------+------------------------------------+
+   | Pin 14         | RS232_1_TXD    | CPU UART1, RS232 TXD signal        |
+   +----------------+----------------+------------------------------------+
+   | Pin 15         | GND            | System Ground                      |
+   +----------------+----------------+------------------------------------+
+   | Pin 16         | +5V            | System 5V output, up to 1A         |
+   +----------------+----------------+------------------------------------+
+
+-----
+
+.. [#h] UART2 signal is used by the onboard WiFi/BT module, so the I/O port function is disabled by default. If you
+        need the I/O port function instead, please contact Chipsee Technical Support at |email|_ for assistance.
+
+.. note::
+
+   120Ω termination resistors are not mounted or included with the device.
+
+USB Connectors
+--------------
+
+There are 3 x Type A **USB HOST connectors** onboard, as shown in the figure below.
+
+.. Figure:: /Media/ARM/A9/Others/USB3.png
+  :align: center
+  :figclass: align-center
+
+  *USB HOST Connectors (embedded/enclosed PC version)*
+
+There is also 1 x Type Mini B **USB OTG connector**, configured as slave by
+default.
+
+.. Figure:: /Media/ARM/A9/Others/USB_OTG.png
+  :align: center
+  :figclass: align-center
+
+  *USB OTG Connector (embedded/enclosed PC version)*
+
+.. warning::
+
+  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
 
 .. include:: Resources/LAN
 
@@ -112,5 +204,39 @@
 .. include:: Resources/HDMI
 
 .. include:: Resources/Boot_SW
+
+Mounting Procedure
+==================
+
+|Product| can be mounted with 4 x M4 screws, enabling simplified installation onto any standard mounting fixture. Other mounting options
+might also be supported according to the table in the `Hardware Features`_ section.
+
+You can find detailed information about mounting in the |mguide|_ on the Chipsee official website.
+
+Mechanical Specifications
+=========================
+
+|productE|
+----------
+
+The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+product measurements.
+
+.. figure:: /Media/ARM/A9/CS10600F070/EPC-A9-70-C-TD.jpeg
+   :align: center
+   :figclass: align-center
+
+   |productE| *Technical Drawing*
+
+|productP|
+----------
+For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+
+.. include:: Resources/mount_set
+
+.. caution::
+
+    * When you use product |productE|, you should not touch the circuit board on the back of the product if the product is powered ON.
+    * Also, when the product is powered OFF, please take anti-static measures before touching the circuit board.
 
 .. include:: Resources/support
