@@ -122,25 +122,25 @@ Mechanical Specifications
 |productE|
 ----------
 
-The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in *Figure 10a* for details related to the specific
+The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
 .. figure:: /Media/ARM/A8/CS10600T070/EPC-A8-70-HB-C-TD.jpeg
    :align: center
    :figclass: align-center
 
-   *Figure 10a:* |productE| *Technical Drawing*
+   |productE| *Technical Drawing*
 
 |productP|
 ----------
-For |productP|, the outer mechanical dimensions are |dimP| (W x L x H). Please refer to the technical drawing in *Figure 10b* for details related to the specific
+For |productP|, the outer mechanical dimensions are |dimP| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
 .. figure:: /Media/ARM/A8/CS10600T070/EPC-A8-70-HB-C-TD.jpeg
    :align: center
    :figclass: align-center
 
-   *Figure 10b:* |productP| *Technical Drawing*
+   |productP| *Technical Drawing*
 
 .. include:: Resources/mount_set
 

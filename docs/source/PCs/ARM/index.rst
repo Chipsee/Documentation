@@ -17,11 +17,6 @@ the repository much easier.
    i.MX6Q Software Documentation <iMX6Q/Manuals/Software/index>
    i.MX6Q OS Downloads <iMX6Q/OS_Downloads/index>
 
-.. toctree::
-   :hidden:
-   
-   spacer
-
 .. rubric:: Products by platform: |Cortex|-A7 (NXP i.MX6UL)
 
 .. toctree::
@@ -30,12 +25,6 @@ the repository much easier.
 
    i.MX6UL Hardware Documentation <iMX6UL/Manuals/Hardware/index> 
    i.MX6UL Software Documentation <iMX6UL/Manuals/Software/index>
-
-
-.. toctree::
-   :hidden:
-   
-   spacer
 
 .. rubric:: Products by platform: |Cortex|-A72/53 (Rockit RK3399)
 
@@ -46,12 +35,6 @@ the repository much easier.
    RK3399 Hardware Documentation <RK3399/Manuals/Hardware/index> 
    RK3399 Software Documentation <RK3399/Manuals/Software/index>
    RK3399 OS Downloads <RK3399/OS_Downloads/index>
-
-
-.. toctree::
-   :hidden:
-
-   spacer
 
 .. rubric:: Products by platform: |Cortex|-A8 (CS-SOM335X-V3)
 

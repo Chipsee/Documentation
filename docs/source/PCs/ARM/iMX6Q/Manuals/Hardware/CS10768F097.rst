@@ -14,7 +14,7 @@
 
 .. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
 
-.. |dimE| replace:: 	226 x 172 x 26mm
+.. |dimE| replace:: 226 x 172 x 26mm
 
 .. |dimP| replace:: 256 x 207 x 29mm
 
@@ -34,9 +34,9 @@
 
 .. |GPIO| replace:: 8 x General Purpose I/O (GPIO) channels
 
-.. |expansions| replace:: Mini PCIe Connector
+.. |expansions| replace:: N/A
 
-.. |opt1| replace:: Optional, module available from the Chipsee store
+.. |opt1| replace:: Optional, Not mounted by default
 
 .. |opt2| replace:: Integrated WiFi/BT Module
 
@@ -48,11 +48,9 @@
 
 .. |temp| replace:: From -20°C to +70°C
 
-.. _EPC/PPC-A9-97-C:
+.. |rs485| replace:: 3
 
-.. sectnum::
-   :start: 1
-   :suffix: .
+.. _EPC/PPC-A9-97-C:
 
 |product|
 #########
@@ -87,30 +85,69 @@
 
 .. include:: Resources/ordering
 
+Optional Features
+-----------------
+
+|Product| does not include 4G/LTE module by default. The module is optional and can be selected at the Chipsee store during the ordering process.
+
+.. warning::
+
+   | Installation, repair, and maintenance tasks should be performed by trained personnel only.
+   | Chipsee does not bear any responsibility for damage caused by inadequate handling of the product.
+
 .. include:: Resources/HW_features
 
 .. include:: Resources/table
 
-.. include:: A9_97_resources/power
+.. include:: Resources/power
 
 .. include:: Resources/cap_screen
 
 .. include:: Resources/connectivity
 
-.. include:: A9_97_resources/USB
+.. include:: Resources/USB
 
-.. include:: A9_97_resources/LAN
+.. include:: Resources/LAN
 
 .. include:: Resources/WiFi
 
-.. include:: A9_97_resources/expansion_IO
+.. include:: Resources/4G_com
+
+.. include:: Resources/GP_IO
 
 .. include:: Resources/TF_Card
 
-.. include:: A9_97_resources/Audio_IO
+.. include:: Resources/Audio_IO
 
 .. include:: Resources/HDMI
 
-.. include:: A9_97_resources/Boot_SW
+.. include:: Resources/Boot_SW
+
+Mounting Procedure
+==================
+
+|Product| can be mounted with 8 x M4 screws, enabling simplified installation onto any standard mounting fixture. Other mounting options
+might also be supported according to the table in the `Hardware Features`_ section.
+
+You can find detailed information about mounting in the |mguide|_ on the Chipsee official website.
+
+Mechanical Specifications
+=========================
+
+|productE|
+----------
+
+The outer mechanical dimensions of |productE| are |dimE| (W x L x H).
+
+|productP|
+----------
+For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+
+.. include:: Resources/mount_set
+
+.. caution::
+
+    * When you use product |productE|, you should not touch the circuit board on the back of the product if the product is powered ON.
+    * Also, when the product is powered OFF, please take anti-static measures before touching the circuit board.
 
 .. include:: Resources/support
