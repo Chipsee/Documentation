@@ -20,7 +20,7 @@
 
 .. |weightE| replace:: 380g
 
-.. |weightP| replace:: 680 g
+.. |weightP| replace:: 680g
 
 .. |RAM| replace:: 2GB DDR3
 

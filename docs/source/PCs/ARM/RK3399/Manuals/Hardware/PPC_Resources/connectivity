@@ -1,0 +1,15 @@
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial PC. It has |USB|, |LAN| Ethernet connector, and 6 x DB9 connectors.
+
+DB9 Connectors
+--------------
+
+|Product| has 6 x DB9 connectors that are configured as RS232 by default as shown in the figure below. You can configure **COM3/COM4/COM5/COM6** as RS485. If you need different RS232/RS485 configuration, contact the Chipsee Technical Support at |email|_.
+
+.. figure:: /Media/ARM/A72/PPC_Others/DB9.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   DB9 Connectors

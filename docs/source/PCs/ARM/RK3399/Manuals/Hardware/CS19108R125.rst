@@ -1,0 +1,120 @@
+.. |product| replace:: PPC-A72-125-C
+
+.. |PN| replace:: PN: CS19108R125
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |dispsize| replace:: 12.5"
+
+.. |res| replace:: 1920 x 1080
+
+.. |bright| replace:: 250 |cd|
+
+.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |dim| replace:: 306 x 187 x 37mm
+
+.. |weight| replace:: 1700g
+
+.. |RAM| replace:: 4GB DDR3
+
+.. |eMMC| replace:: 16GB
+
+.. |tscreen| replace:: 10-point capacitive touch screen
+
+.. |USB| replace:: 4 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |LAN| replace:: 1 x RJ45, GbE
+
+.. |GPIO| replace:: 8 Channels
+
+.. |opt1| replace:: Supported, Optional
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |vin_rng| replace:: From 15V to 36V
+
+.. |cur| replace:: 800mA Max
+
+.. |pwr| replace:: 12W Typical
+
+.. |temp| replace:: From 0°C to +70°C
+
+.. |rs232| replace:: 5 x RS232
+
+.. |rs485| replace:: 2 x RS485 ( 4 at most, 1 debug port)
+
+
+.. _PPC-A72-125-C:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. figure:: /Media/ARM/A72/CS19108R125/PPC-A72-125-C-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View
+
+.. figure:: /Media/ARM/A72/CS19108R125/PPC-A72-125-C-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features_2
+
+.. include:: Resources/HW_features
+
+.. include:: PPC_Resources/table
+
+.. include:: PPC_Resources/power
+
+.. include:: PPC_Resources/cap_screen
+
+.. include:: PPC_Resources/connectivity
+
+.. include:: PPC_Resources/USB
+
+.. include:: PPC_Resources/LAN
+
+.. include:: PPC_Resources/WiFi
+
+.. include:: PPC_Resources/4G_com
+
+.. include:: PPC_Resources/expansion_IO
+
+.. include:: PPC_Resources/TF_Card
+
+.. include:: PPC_Resources/Audio_IO
+
+.. include:: PPC_Resources/HDMI
+
+.. include:: PPC_Resources/power_btn
+
+Measurements and Mounting Procedure
+===================================
+
+The outer mechanical dimensions of |product| are |dim| (W x L x H).
+
+|Product| can be mounted with 8 x M4 screws or 4 x M4 screws using the VESA (100x100cm or 75x75cm) and Panel mounting methods, enabling simplified installation onto any standard mounting fixture.
+
+.. Figure:: /Media/ARM/A72/CS19108R125/PPC-A72-125-C-TD.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Mounting Method*
+
+.. note::
+
+    Please make sure the display is not exposed to high pressure when mounting into an enclosure.
+
+You can find detailed information about mounting in the |mguide|_ on the Chipsee official website.
+
+.. include:: Resources/support

@@ -1,0 +1,190 @@
+.. |product| replace:: PPC-A72-150-C
+
+.. |PN| replace:: PN: CS10768R150
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |dispsize| replace:: 15"
+
+.. |res| replace:: 1024 x 768
+
+.. |bright| replace:: 250 |cd|
+
+.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |dim| replace:: 377 x 307 x 58mm
+
+.. |weight| replace:: 4100g
+
+.. |RAM| replace:: 4GB DDR3
+
+.. |eMMC| replace:: 16GB
+
+.. |tscreen| replace:: 10-point capacitive touch screen
+
+.. |USB| replace:: 4 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |LAN| replace:: 1 x RJ45, GbE
+
+.. |GPIO| replace:: 8 Channels
+
+.. |opt1| replace:: Supported, Optional
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |vin_rng| replace:: From 12V to 36V
+
+.. |cur| replace:: 1000mA Max
+
+.. |pwr| replace:: 15W Typical
+
+.. |temp| replace:: From 0°C to +70°C
+
+.. |rs232| replace:: 6 x RS232
+
+.. |rs485| replace:: 1 x RS485 (4 at most, 1 debug port)
+
+
+.. _PPC-A72-150-C:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. figure:: /Media/ARM/A72/CS10768R150/PPC-A72-150-C-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View
+
+.. figure:: /Media/ARM/A72/CS10768R150/PPC-A72-150-C-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features_2
+
+.. include:: Resources/HW_features
+
+.. include:: PPC_Resources/table
+
+.. include:: PPC_Resources/power
+
+.. include:: PPC_Resources/cap_screen
+
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial PC. It has |USB|, |LAN| Ethernet connector, 6 x UART terminals (RS232/485), and 1 x DB9 connector.
+
+DB9 Connectors
+--------------
+
+|Product| has 1 x DB9 connector that is configured for debugging by default as shown in the figure below.
+
+.. figure:: /Media/ARM/A72/CS10768R150/DB9.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   DB9 Connector
+
+RS232+RS485 Connector
+---------------------
+
+The serial communication interfaces (RS485 and RS482) are routed to a **16-pin 3.81mm terminal**, as illustrated in the figure below.
+Serial communication on both RS485 and RS422 interfaces can reach up to 115200 kbps.
+
+.. figure:: /Media/ARM/A72/CS10768R150/IO_Peripherals.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Serial pins connector*
+
+The table below offers more detailed description of every pin and its definition:
+
+.. table:: Connectivity Section
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +----------------------------------------------------------------------+
+   | **RS232 / RS485 / CAN Pin Definition:**                              |
+   +----------------+----------------+------------------------------------+
+   | **Pin Number** | **Definition** | **Description**                    |
+   +----------------+----------------+------------------------------------+
+   | Pin 1          | RS232_4_RXD    | USB RS232 4 RXD signal             |
+   +----------------+----------------+------------------------------------+
+   | Pin 2          | RS232_4_TXD    | USB RS232 4 TXD signal             |
+   +----------------+----------------+------------------------------------+
+   | Pin 3          | RS232_3_RXD    | USB RS232 3 RXD signal             |
+   +----------------+----------------+------------------------------------+
+   | Pin 4          | RS232_3_TXD    | USB RS232 3 TXD signal             |
+   +----------------+----------------+------------------------------------+
+   | Pin 5          | RS232_2_RXD    | USB RS232 2 RXD signal             |
+   +----------------+----------------+------------------------------------+
+   | Pin 6          | RS232_2_TXD    | USB RS232 2 TXD signal             |
+   +----------------+----------------+------------------------------------+
+   | Pin 7          | RS232_1_RXD    | USB RS232 1 RXD signal             |
+   +----------------+----------------+------------------------------------+
+   | Pin 8          | RS232_1_TXD    | USB RS232 1 TXD signal             |
+   +----------------+----------------+------------------------------------+
+   | Pin 9          | CPU_RS232_4_RXD| CPU UART4, RS232 RXD signal        |
+   +----------------+----------------+------------------------------------+
+   | Pin 10         | CPU_RS232_4_TXD| CPU UART4, RS232 TXD signal        |
+   +----------------+----------------+------------------------------------+
+   | Pin 11         | CPU_RS232_0_RXD| CPU UART0, RS232 RXD signal        |
+   +----------------+----------------+------------------------------------+
+   | Pin 12         | CPU_RS232_0_TXD| CPU UART0, RS232 TXD signal        |
+   +----------------+----------------+------------------------------------+
+   | Pin 13         | CPU_RS232_2_RXD| CPU UART2, RS232 RXD signal        |
+   +----------------+----------------+------------------------------------+
+   | Pin 14         | CPU_RS232_2_TXD| CPU UART2, RS232 TXD signal        |
+   +----------------+----------------+------------------------------------+
+   | Pin 15         | GND            | System Ground                      |
+   +----------------+----------------+------------------------------------+
+   | Pin 16         | VCC5V          | System +5V output, up to 1A        |
+   +----------------+----------------+------------------------------------+
+
+.. note::
+
+   If you need different RS232/RS485 configuration, contact the Chipsee Technical Support at |email|_.
+
+.. include:: PPC_Resources/USB
+
+.. include:: PPC_Resources/LAN
+
+.. include:: PPC_Resources/WiFi
+
+.. include:: PPC_Resources/4G_com
+
+.. include:: PPC_Resources/expansion_IO
+
+.. include:: PPC_Resources/TF_Card
+
+.. include:: PPC_Resources/Audio_IO
+
+.. include:: PPC_Resources/HDMI
+
+.. include:: PPC_Resources/power_btn
+
+Measurements and Mounting Procedure
+===================================
+
+The outer mechanical dimensions of |product| are |dim| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+product measurements.
+
+.. Figure:: /Media/ARM/A72/CS10768R150/PPC-A72-150-C-TD.jpeg
+  :align: center
+  :figclass: align-center
+
+  |product| *Technical Drawing*
+
+.. include:: PPC_Resources/mounting
+
+.. include:: Resources/support

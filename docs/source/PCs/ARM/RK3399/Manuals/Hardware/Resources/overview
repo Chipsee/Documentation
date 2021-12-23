@@ -1,0 +1,24 @@
+Product Overview
+=================
+
+The |Cortex|-A72/53 series |product| (|PN|) is a high-quality industrial panel PC. It features a |disp_des|.
+
+.. sidebar:: Key Applications
+
+  + Mobile Applications
+  + Video Processing
+  + Machine Learning
+  + Video Gaming
+  + Process Control
+  + Process Monitoring
+  + ATM...
+
+
+It is available both as an embedded solution and as a device hosed in an aluminum casing with bezels, thus facilitating different installation options:
+
++ Installation on an industrial cabinet
++ Integration with the existing equipment
+
+|Product| is based around the powerful CS-SOM-RK3399 System on Module (SoM), powered by the Rokchip RK3399 low-power processor which integrates a dual-core |Cortex|-A72 and a quad-core |Cortex|-A53 with a separate NEON coprocessor.
+
+The RK3399 supports multi-format video decoders and has a high-performance dual-channel external memory interface (DDR3/DDR3L/LPDDR3/LPDDR4) capable of sustaining demanding memory bandwidths. It also provides a complete set of peripheral interfaces.

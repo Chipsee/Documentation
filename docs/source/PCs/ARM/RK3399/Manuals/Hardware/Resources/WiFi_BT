@@ -1,0 +1,18 @@
+WiFi & BT Module
+----------------
+
+|Product| is equipped with the popular **Realtek RTL8723 WiFi/BT module** that supports BT/BLE 4.0 (with backward compatibility), as well as 802.11bgn 2.4 GHz Wireless LAN (WLAN).
+
+.. figure:: /Media/ARM/A72/Others/WiFi_BT.jpeg
+   :align: center
+   :figclass: align-center
+
+   *RTL8273 WiFi/BT Module*
+
+The product includes an SMA connector for an external WiFi/BT antenna, as illustrated in the figure below.
+
+.. figure:: /Media/ARM/A72/Others/Antenna.jpeg
+   :align: center
+   :figclass: align-center
+
+   *WiFi+BT Antenna*

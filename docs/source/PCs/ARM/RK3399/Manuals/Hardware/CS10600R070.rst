@@ -1,36 +1,36 @@
-.. |product| replace:: EPC/PPC-A72-101-C
+.. |product| replace:: EPC-PPC-A72-70-C
 
-.. |productE| replace:: EPC-A72-101-C
+.. |productE| replace:: EPC-A72-70-C
 
-.. |productP| replace:: PPC-A72-101-C                                                                                                                                             -70-C
+.. |productP| replace:: PPC-A72-70-C                                                                                                                                             -70-C
 
-.. |PN| replace:: PN: CS12800R101
+.. |PN| replace:: PN: CS10600R070
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 10.1"
+.. |dispsize| replace:: 7.0"
 
-.. |res| replace:: 1280 x 800
+.. |res| replace:: 1024 x 600
 
-.. |bright| replace:: 250 |cd|
+.. |bright| replace:: 500 |cd|
 
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+.. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |dimE| replace:: 245 x 155 x 11mm
+.. |dimE| replace:: 190 x 107 x 27.7mm
 
-.. |dimP| replace:: 280 x 185.5 x 27.5mm
+.. |dimP| replace:: 205.5 x 135.5 x 27.5mm
 
-.. |weightE| replace:: 600g
+.. |weightE| replace:: 345g
 
-.. |weightP| replace:: 1500g
+.. |weightP| replace:: 580g
 
 .. |RAM| replace:: 4GB DDR3
 
 .. |eMMC| replace:: 16GB
 
-.. |tscreen| replace:: 10-point capacitive touch screen
+.. |tscreen| replace:: 5-point capacitive touch screen
 
-.. |USB| replace:: 2 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
 
 .. |LAN| replace:: 1 x RJ45, GbE
 
@@ -40,45 +40,45 @@
 
 .. |opt2| replace:: Integrated WiFi/BT Module
 
-.. |vin_rng| replace:: From 15V to 36V
+.. |vin_rng| replace:: From 12V to 36V
 
-.. |cur| replace:: 500mA Max
+.. |cur| replace:: 800mA Max
 
-.. |pwr| replace:: 7.5W Typical
+.. |pwr| replace:: 8W Typical
 
 .. |temp| replace:: From -20°C to +70°C
 
-.. |rs232| replace:: 5 x RS232
+.. |rs232| replace:: 4 x RS232
 
-.. |rs485| replace:: 2 x RS485 (Optional 4 x RS485 at most, 1 debug port)
+.. |rs485| replace:: 2 x RS485 (1 debug port)
 
 
-.. _EPC/PPC-A72-101-C:
+.. _EPC-PPC-A72-70-C:
 
 |product|
 #########
 
 .. rubric:: *Version 1.0*
 
-.. figure:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Front.jpeg
+.. figure:: /Media/ARM/A72/CS10600R070/PPC-A72-70-C-Front.jpeg
    :figclass: align-center
    :class: no-scaled-link
 
    Front View (Panel Mounting Variant)
 
-.. figure:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Back.jpeg
+.. figure:: /Media/ARM/A72/CS10600R070/PPC-A72-70-C-Back.jpeg
    :figclass: align-center
    :class: no-scaled-link
 
    Back View (Panel Mounting Variant)
 
-.. figure:: /Media/ARM/A72/CS12800R101/EPC-A72-101-C-Front.jpeg
+.. figure:: /Media/ARM/A72/CS10600R070/EPC-A72-70-C-Front.jpeg
    :figclass: align-center
    :class: no-scaled-link
 
    Front View (Embedded Variant)
 
-.. figure:: /Media/ARM/A72/CS12800R101/EPC-A72-101-C-Back.jpeg
+.. figure:: /Media/ARM/A72/CS10600R070/EPC-A72-70-C-Back.jpeg
    :figclass: align-center
    :class: no-scaled-link
 
@@ -103,19 +103,13 @@
 USB Connectors
 --------------
 
-There are 4 x **USB HOST connectors** onboard which includes 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, and 1 x USB Type-C, as shown in the figures below.
+There are 3 x **USB HOST connectors** onboard which includes 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, and 1 x USB Type-C, as shown in the figures below.
 
-.. Figure:: /Media/ARM/A72/CS12800R101/USB2.jpeg
+.. Figure:: /Media/ARM/A72/CS10600R070/USB.jpeg
   :align: center
   :figclass: align-center
 
-  *USB 2.0 HOST Connectors (embedded/enclosed PC version)*
-
-.. Figure:: /Media/ARM/A72/CS12800R101/USB3.jpeg
-  :align: center
-  :figclass: align-center
-
-  *USB 3.0 HOST Connectors (embedded/enclosed PC version)*
+  *USB 2.0 HOST and USB 3.0 HOST Connectors (embedded/enclosed PC version)*
 
 .. Figure:: /Media/ARM/A72/Others/USB-C.jpeg
   :align: center
@@ -146,7 +140,7 @@ There are 4 x **USB HOST connectors** onboard which includes 1 x USB 2.0 HOST, 1
 Mounting Procedure
 ==================
 
-|Product| can be mounted with 8 x M4 screws, enabling simplified installation onto any standard mounting fixture. Other mounting options
+|Product| can be mounted with 4 x M4 screws, enabling simplified installation onto any standard mounting fixture. Other mounting options
 might also be supported according to the table in the `Hardware Features`_ section.
 
 |productE|
@@ -185,7 +179,7 @@ Mechanical Specifications
 The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
-.. figure:: /Media/ARM/A72/CS12800R101/EPC-A72-101-C-TD.jpeg
+.. figure:: /Media/ARM/A72/CS10600R070/EPC-A72-70-C-TD.png
    :align: center
    :figclass: align-center
 
@@ -196,7 +190,7 @@ product measurements.
 For |productP|, the outer mechanical dimensions are |dimP| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
-.. figure:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-TD.jpeg
+.. figure:: /Media/ARM/A72/CS10600R070/PPC-A72-70-C-TD.png
    :align: center
    :figclass: align-center
 
