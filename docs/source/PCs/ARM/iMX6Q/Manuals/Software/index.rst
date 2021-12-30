@@ -10,12 +10,11 @@ If you have questions not covered in this documentation, please consult Chipsee 
    :maxdepth: 1
    :titlesonly:
    
-   Android 4.3
-   Android 6.0
-   Android 8.0
-   Chipsee Linux Qt 5.5
-   Ubuntu 12.04
-   Ubuntu 14.04
+   Android 4.3 <Android_43>
+   Android 6.0 <Android_60>
+   Linux Qt 5.5 <Linux_Qt55>
+   Ubuntu 12.04 <Ubuntu_12>
+   Ubuntu 14.04 <Ubuntu_14>
 
 .. warning::
 

@@ -5,16 +5,19 @@ Android6.0
 ----------
 
 | **GT911 Touchscreen**
+
 :download:`prebuilt-imxv1-cs10768f120v3-android6-emmc-20200414.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/12_15/Android6.0/prebuilt-imxv1-cs10768f120v3-android6-emmc-20200414.tar.gz>`
 
 Android8.0
 ----------
 
 | **GT911 Touchscreen**
+
 :download:`prebuilt-imxv1-cs10768f120v3-android8-emmc-20201123.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/12_15/Android8.0/prebuilt-imxv1-cs10768f120v3-android8-emmc-20201123.tar.gz>`
 
 Ubuntu14.04
 -----------
 
 | **GT911 Touchscreen**
+
 :download:`prebuilt-imxv1-cs10768f120v3-u1404-emmc-20200326.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/12_15/Ubuntu1404/prebuilt-imxv1-cs10768f120v3-u1404-emmc-20200326.tar.gz>`
