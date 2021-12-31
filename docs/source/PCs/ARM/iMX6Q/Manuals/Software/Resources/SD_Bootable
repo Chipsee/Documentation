@@ -41,4 +41,3 @@ Use the SD Card to download the bootable system image onto the Linux platform an
 #) Connect the industrial PC to PC via COM1. Power ON the IPC.
 #) After 20 minutes, if the LED on industrial PC stays lit, flashing is completed. Using COM1, you can also find this message **>>>>>>> eMMC Flashing Completed <<<<<<<** which indicates that the system image was downloaded correctly to the eMMC.
 #) Power OFF the IPC and set the DIP switch to eMMC BOOT mode. (refer to `DIP Switch Configuration`_ above)
-

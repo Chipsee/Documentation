@@ -57,7 +57,7 @@ You will need to prepare the following items before you can start using the Preb
 
 Power Supply Unit (PSU) with the appropriate voltages, as follows:
 
-+ These products: CS14900F190 and CS19108F215 requires a 15V to 36V power adapter. You must provide the power adapter since Chipsee does not ship these products with a power adapter.
++ These products: CS14900F190 and CS19108F215 requires a 15V to 36V power adapter.
 + The CS10600F070 product needs a 6V to 36V power adapter.
 + The CS12800F101 product needs a 12V to 36V power adapter.
 
@@ -133,8 +133,8 @@ The manufacturing tool, referred to as **MFGTool**, is a tool that runs on a Win
     | **12V-2A power adapter**                        | One                                 |
     +-------------------------------------------------+-------------------------------------+
 
-Downloading Images
-------------------
+Downloading Images by using MFGTool
+-----------------------------------
 
 Chipsee IPC supports booting from an integrated eMMC.
 
@@ -147,7 +147,7 @@ Configuring MFGTool
 To configure MFGTool, follow these steps:
 
 * Unzip ``Mfgtools-Rel-xxx_xxxxxx_MX6Q_UPDATER_Vxx.tar.gz`` file.
-* Open the extracted folder ``Mfgtools-Rel-xxx_xxxxxx_MX6Q_UPDATER_Vxx`` file.
+* Open the extracted folder ``Mfgtools-Rel-xxx_xxxxxx_MX6Q_UPDATER_Vxx`` and edit ``cfg.ini`` file.
 
 .. figure:: /Media/ARM/A9/Software/Android_43/mfgtools_1.jpeg
    :align: center
@@ -324,7 +324,7 @@ Sound Card Test
 
 Please open an audio file to test the Sound Card.
 
-.. figure:: /Media/ARM/A9/Software/Android_43/network.png
+.. figure:: /Media/ARM/A9/Software/Android_43/sound.png
    :align: center
    :figclass: align-center
 
@@ -492,7 +492,7 @@ You can install the **SecureCRT** or **Putty** software on a Windows 7 PC to tes
        :align: center
        :figclass: align-center
 
-   *Serial settings*
+       *Serial settings*
 
 * Push the button with the label "Send 01010101", you will see something on the Windows 7 PC that looks similar to the figure below.
     .. figure:: /Media/ARM/A8/Software/Android/Serial_Port_Settings_2.jpeg
