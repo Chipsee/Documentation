@@ -42,10 +42,6 @@ Below are the links to the prebuilt images for the Raspbian Buster operating sys
 + :download:`Raspbian Buster Lite V2 <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-lite-chipsee-v2.img.xz>` |br| |br|
 
 
-.. sectnum::
-   :start: 1
-   :suffix: .
-
 .. rubric:: System Features
 
 .. table::
@@ -79,11 +75,10 @@ Preparation
 
 You will need to prepare the following items before you can start using the Prebuilt Images Package to re-flash the system.
 
-* Power Supply Unit (PSU) with the appropriate voltages, as follows:
+Power Supply Unit (PSU) with the appropriate voltages, as follows:
 
-   + These products: CS10600RA070, CS10600RA4070, and CS12800RA101 requires a 6V to 36V power adapter. You must provide the power adapter since Chipsee does not ship these products with a power adapter.
-   + The CS12800RA4101 RPC needs a 12V power adapter. Chipsee provides the power adapter.
-
++ These products: CS10600RA070, CS10600RA4070, and CS12800RA101 requires a 6V to 36V power adapter. You must provide the power adapter since Chipsee does not ship these products with a power adapter.
++ The CS12800RA4101 RPC needs a 12V power adapter. Chipsee provides the power adapter.
 
 .. include:: Resources/Hardware_Req
 

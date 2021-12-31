@@ -1,0 +1,8 @@
+Hardware Requirements
+---------------------
+
+* Chipsee Industrial PC
+* PSU according to the instructions above
+* USB-to-serial or other serial cable for debugging
+* USB A-A cable (used only if the hardware configured as OTG)
+* Windows 7 PC

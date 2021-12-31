@@ -25,3 +25,13 @@ p.centered{
 .underline {
   text-decoration: underline;
 }
+span.pre{
+    background-color: rgb(204 204 204 / 38%) !important;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+cite{
+    background-color: rgb(204 204 204 / 38%) !important;
+    padding: 3px 6px;
+    border-radius: 5px;
+}

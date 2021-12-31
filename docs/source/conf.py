@@ -38,7 +38,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = []
+exclude_patterns = ['build', 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -155,7 +155,8 @@ html_last_updated_fmt = '%b %d, %Y'
 # "commit": False,
 # }
 
-tablecaption = 'below'
+# tablecaption = 'below'
+pygments_style = "sphinx"
 
 # Sphinx internationalization details
 # language = "zh_CN"

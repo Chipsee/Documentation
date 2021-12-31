@@ -44,10 +44,6 @@ Below are the links to the prebuilt files for each industrial PC model.
 + :ref:`CS10768T097 <CS10768T097-android>`
 
 
-.. sectnum::
-   :start: 1
-   :suffix: .
-
 .. rubric:: System Features
 
 .. table::
@@ -64,12 +60,12 @@ Below are the links to the prebuilt files for each industrial PC model.
 Preparation
 ===========
 
-You will need to prepare the following items before you can start using the Prebuilt Files Package to reflash the system.
+You will need to prepare the following items before you can start using the Prebuilt Files Package to re-flash the system.
 
-* Power Supply Unit (PSU) with the appropriate voltages, as follows:
+Power Supply Unit (PSU) with the appropriate voltages, as follows:
 
-   + Products with 5" display panel require 6V to 36V PSU
-   + Products with 7" to 10.1" display panel and larger require 6V to 42V PSU
++ Products with 5" display panel require 6V to 36V PSU
++ Products with 7" to 10.1" display panel and larger require 6V to 42V PSU
 
 * USB to serial cable for debugging Chipsee Industrial Embedded Computers (Chipsee IPC)
 * TF Card to create a bootable storage for re-flashing the system. Use the prebuilt files :ref:`link above <db_pkg_android>` to re-flash the system.
@@ -422,7 +418,7 @@ Adb connect via internet
         lo       UP    127.0.0.1       255.0.0.0       0x00000049
         eth0     UP    192.168.1.117/24   255.255.252.0   0x00001043
 
-#) If the industrial PC's Ethernet is not configured, configure the Ethernet using the``ifconfig``/``netcfg`` command as shown below.
+#) If the industrial PC's Ethernet is not configured, configure the Ethernet using the ``ifconfig``/``netcfg`` command as shown below.
     .. code:: powershell
 
         # netcfg eth0 dhcp
@@ -443,7 +439,7 @@ Adb connect via internet
 
         $ adb kill-server
         $ adb start-server
-        $ adb connect :5555d
+        $ adb connect :5555
 
 #) Verify the device connectivity, by executing the following commands. If connected, find the device name listed as``IPADDRESS:PORT``.
     .. code:: powershell

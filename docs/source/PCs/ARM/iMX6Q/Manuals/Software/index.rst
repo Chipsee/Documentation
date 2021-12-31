@@ -10,7 +10,7 @@ If you have questions not covered in this documentation, please consult Chipsee 
    :maxdepth: 1
    :titlesonly:
    
-   Android 4.3 <Android_43>
+   Android 4 <Android_43>
    Android 6.0 <Android_60>
    Linux Qt 5.5 <Linux_Qt55>
    Ubuntu 12.04 <Ubuntu_12>

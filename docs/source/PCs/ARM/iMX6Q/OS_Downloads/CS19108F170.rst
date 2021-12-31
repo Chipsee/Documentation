@@ -1,24 +1,26 @@
 PPC-A9-170-C (PN: CS19108F170)
 ##############################
 
+.. _CS19108F170-android:
+
 Android6.0
 ----------
 
-| **GT911 Touchscreen**
+| **FT5X06 Touchscreen**
+| :download:`prebuilt-imx6qv1-cs19108fb170-android6-emmc-20200305.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/17/Android6.0/prebuilt-imx6qv1-cs19108fb170-android6-emmc-20200305.tar.gz>`
 
-:download:`prebuilt-imx6qv1-cs19108fb170-android6-emmc-20200305.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/17/Android6.0/prebuilt-imx6qv1-cs19108fb170-android6-emmc-20200305.tar.gz>`
-
+.. _CS19108F170-linuxQt:
 
 LinuxQt5.5
 ----------
 
-| **GT911 Touchscreen**
+| **FT5X06 Touchscreen**
+| :download:`prebuilt-imx6qv1-cs19108fb170-linux-emmc-20200320.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/17/LinuxQt5.5/prebuilt-imx6qv1-cs19108fb170-linux-emmc-20200320.tar.gz>`
 
-:download:`prebuilt-imx6qv1-cs19108fb170-linux-emmc-20200320.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/17/LinuxQt5.5/prebuilt-imx6qv1-cs19108fb170-linux-emmc-20200320.tar.gz>`
+.. _CS19108F170-ubuntu:
 
 Ubuntu14.04
 -----------
 
-| **GT911 Touchscreen**
-
-:download:`prebuilt-imx6qv1-cs19108fb170-u1404-emmc-20200320.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/17/Ubuntu1404/prebuilt-imx6qv1-cs19108fb170-u1404-emmc-20200320.tar.gz>`
+| **FT5X06 Touchscreen**
+| :download:`prebuilt-imx6qv1-cs19108fb170-u1404-emmc-20200320.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/17/Ubuntu1404/prebuilt-imx6qv1-cs19108fb170-u1404-emmc-20200320.tar.gz>`
