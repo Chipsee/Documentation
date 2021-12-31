@@ -1,7 +1,7 @@
 Expansion Port
 --------------
 
-|Product| has 1 x **Expansion Port** as shown in the figure below. It is an unpopulated PCB footprint with the standard 2.54mm (1") pitch holes,
+|Product| has 1 x **Expansion Port** as shown on the figure below. It is an unpopulated PCB footprint with the standard 2.54mm (1") pitch holes,
 labeled as P21 on the PCB. The Expansion Port provides direct access to some of the processor pins, as described in the table below.
 
 .. figure:: /Media/ARM/A9/Others/expansion_IO.png

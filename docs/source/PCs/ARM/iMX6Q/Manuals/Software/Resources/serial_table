@@ -1,7 +1,7 @@
 .. table:: Serial Ports Nodes on the System
    :align: center
    :width: 100%
-   :widths: 50 50
+   :widths: auto
 
    +-----------------------------+-------------------------------+
    | Ports                       | Device Node                   |
@@ -19,4 +19,4 @@
 
 .. note::
 
-    If you use COM2(RS485), you can’t use Bluetooth because COM2(RS485）share pin with Bluetooth.
+    If you use COM2(RS485), you can’t use Bluetooth because COM2(RS485) share pin with Bluetooth.

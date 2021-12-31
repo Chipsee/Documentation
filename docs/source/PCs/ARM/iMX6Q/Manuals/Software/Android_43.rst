@@ -81,7 +81,7 @@ Getting Started and Tests
 Boot Switch Configuration
 -------------------------
 
-CS-IMX6 has a boot configuration select switch, as shown in the figure below. You can use the boot select switch to change between two modes, namely：
+CS-IMX6 has a boot configuration select switch, as shown on the figure below. You can use the boot select switch to change between two modes, namely：
 
 + eMMC Boot
 + Download
@@ -155,7 +155,7 @@ To configure MFGTool, follow these steps:
 
    *Extracted folder content*
 
-* In the ``cfg.ini`` file, ensure the ``name`` variable is set to ``Android-SabreSD-eMMC``, as shown in the figure below.
+* In the ``cfg.ini`` file, ensure the ``name`` variable is set to ``Android-SabreSD-eMMC``, as shown on the figure below.
 
 .. figure:: /Media/ARM/A9/Software/Android_43/mfgtools_2.jpeg
    :align: center
@@ -181,7 +181,7 @@ Using MFGTool
 ^^^^^^^^^^^^^
 
 #) Connect a USB OTG cable from a Windows PC to the USB OTG port on the IPC.
-#) Change the boot select configuration to **0 1 1 0**, as shown in the figure below.
+#) Change the boot select configuration to **0 1 1 0**, as shown on the figure below.
     .. figure:: /Media/ARM/A9/Software/Android_43/use_mfgtool_1.png
        :align: center
        :figclass: align-center
@@ -189,7 +189,7 @@ Using MFGTool
        *Boot Switch Config*
 
 #) Connect a 12V-2A power adapter to the IPC and power ON.
-#) On your Windows PC, open the ``Mfgtools-Rel-XXX_XXXXXX_MX6Q_UPDATER_VXX`` directory and run the ``MfgTool2.exe`` file, as shown in the figure below.
+#) On your Windows PC, open the ``Mfgtools-Rel-XXX_XXXXXX_MX6Q_UPDATER_VXX`` directory and run the ``MfgTool2.exe`` file, as shown on the figure below.
     .. figure:: /Media/ARM/A9/Software/Android_43/use_mfgtool_2.png
        :align: center
        :figclass: align-center
@@ -344,7 +344,7 @@ Please open a video file to test the Video.
 HDMI Test
 ^^^^^^^^^
 
-You can reference this document, :download:`IMX6Q\ U-boot\ Setting\ HDMI\ Output\ For\ Android.pdf <https://chipsee-tmp.s3.amazonaws.com/DVD/IMX6Q/7/Android4.3/Documents/IMX6Q U-boot Setting Hdmi Output For Android.pdf>`, to learn about performing HDMI tests.
+You can reference this document, :download:`IMX6Q U-boot Setting HDMI Output For Android.pdf <https://chipsee-tmp.s3.amazonaws.com/DVD/IMX6Q/7/Android4.3/Documents/IMX6Q U-boot Setting Hdmi Output For Android.pdf>`, to learn about performing HDMI tests.
 
 .. note::
 
@@ -361,12 +361,12 @@ ADB Test
 You must enable USB debugging on IPC before performing ADB test.|br|
 Follow these steps to enable USB debugging.
 
-* Goto the **Settings** and tap on **About tablet** tab, as shown in the figure below.
+* Goto the **Settings** and tap on **About tablet** tab, as shown on the figure below.
     .. figure:: /Media/ARM/A9/Software/Android_43/adb_test_1.png
        :align: center
        :figclass: align-center
 
-* Tap on the **Build number** repeatedly until you enable **Developer Options**, as shown in the figure below.
+* Tap on the **Build number** repeatedly until you enable **Developer Options**, as shown on the figure below.
     .. figure:: /Media/ARM/A9/Software/Android_43/adb_test_2.png
        :align: center
        :figclass: align-center
@@ -388,7 +388,7 @@ Follow these steps to enable USB debugging.
 
 Also, you can use the ADB tool in the tools directory to test the ADB.
 
-* Unzip it to the root directory of your Windows PC (Drive C), as shown in the figure below.
+* Unzip it to the root directory of your Windows PC (Drive C), as shown on the figure below.
     .. figure:: /Media/ARM/A9/Software/Android_43/adb_test_5.png
        :align: center
        :figclass: align-center
@@ -412,9 +412,9 @@ Also, you can use the ADB tool in the tools directory to test the ADB.
        :align: center
        :figclass: align-center
 
-       *Add path of the ADB directory to the **Path** system variable*
+       *Add path of the ADB directory to the* **Path** *system variable*
 
-* Open the command-prompt on Windows and enter this command `adb version`, as shown in the figure below. The process is successful, if the command-prompt displays the version number of ADB.
+* Open the command-prompt on Windows and enter this command `adb version`, as shown on the figure below. The process is successful, if the command-prompt displays the version number of ADB.
     .. figure:: /Media/ARM/A9/Software/Android_43/adb_test_9.png
        :align: center
        :figclass: align-center
@@ -476,14 +476,14 @@ The screen will show the number and position of the touch point when touching th
 Serial Test
 ^^^^^^^^^^^
 
-There are five serial ports on the Chipsee IPC: 2 X RS232 and 3 X RS485 (can be customised). Refer to the table below for the available serial device nodes.
+There are five serial ports on the Chipsee IPC: 2 x RS232 and 3 x RS485 (can be customised). Refer to the table below for the available serial device nodes.
 
 .. include:: Resources/serial_table
 
 You can install the **SecureCRT** or **Putty** software on a Windows 7 PC to test the serial ports by following these steps:
 
 * Connect COM1 on industrial PC board to Windows 7 PC.
-* Run **Serial Port API** App to communicate with Windows 7 PC, as shown in the figure below.
+* Run **Serial Port API** App to communicate with Windows 7 PC, as shown on the figure below.
     .. figure:: /Media/ARM/A9/Software/Android_43/serial_test_1.png
        :align: center
        :figclass: align-center
@@ -501,7 +501,7 @@ You can install the **SecureCRT** or **Putty** software on a Windows 7 PC to tes
 
        *Serial send test*
 
-* Push the button with the label "Console", to send whatever you like as shown in the figure below.
+* Push the button with the label "Console", to send whatever you like as shown on the figure below.
     .. figure:: /Media/ARM/A8/Software/Android/Serial_Port_Settings_3.jpeg
        :align: center
        :figclass: align-center
@@ -517,7 +517,7 @@ Please check the **GPIO Connector** section in :ref:`CS12800F101 <EPC/PPC-A9-101
 .. table:: GPIO Nodes on the System
    :align: center
    :width: 100%
-   :widths: 50 50
+   :widths: auto
 
    +-----------------------------+-------------------------------+
    | PIN Number                  | GPIO Number                   |
@@ -575,14 +575,14 @@ Install the **SecureCRT** or **Putty** software on a Windows 7 PC to view the |s
 Follow these steps to view |systemType| system via the serial port:
 
 * Connect COM1 on the industrial PC board to Windows 7 PC.
-* Open the **SecureCRT** or **Putty** software on the Windows 7 PC and configure it as shown in the figure below.
+* Open the **SecureCRT** or **Putty** software on the Windows 7 PC and configure it as shown on the figure below.
     .. figure:: /Media/ARM/A9/Software/Android_43/android_debug_1.png
        :align: center
        :figclass: align-center
 
        *SecureCRT configuration*
 
-* Power ON the industrial PC. You will see the serial output information as shown in the figure below.
+* Power ON the industrial PC. You will see the serial output information as shown on the figure below.
     .. figure:: /Media/ARM/A9/Software/Android_43/android_debug_2.png
        :align: center
        :figclass: align-center
@@ -610,7 +610,7 @@ You can use the following command to log in to the board and communicate with it
 Use ADB command to install user APP
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Use the ``adb`` command to install an Android App: for example SogouInput.apk. If there is a **SUCCESS** message, as shown in the figure below, then the app installation was successful.
+Use the ``adb`` command to install an Android App: for example SogouInput.apk. If there is a **SUCCESS** message, as shown on the figure below, then the app installation was successful.
 
 .. code:: powershell
 
@@ -632,7 +632,7 @@ Use ``adb`` command to uninstall an Android app: for example AngryBirds.apk. Fol
     > adb shell pm list packages
     > adb uninstall com.rovio.angrybirds
 
-* The `pm list` command gets the full name of the app, as shown in the figure below.
+* The `pm list` command gets the full name of the app, as shown on the figure below.
 
 .. figure:: /Media/ARM/A9/Software/Android_43/android_debug_4.png
    :align: center

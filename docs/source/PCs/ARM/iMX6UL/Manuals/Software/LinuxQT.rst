@@ -1,6 +1,3 @@
-.. sectnum::
-   :start: 1
-   :suffix: .
 
 Chipsee Linux QT 5.5
 ####################

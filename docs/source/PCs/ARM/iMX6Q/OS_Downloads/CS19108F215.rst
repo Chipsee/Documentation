@@ -21,7 +21,7 @@ Android8.0
 | **FT5X06 Touchscreen**
 | :download:`prebuilt-imxv1-cs19108fbv1-android8-emmc-20191122.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/21/Android8.0/prebuilt-imxv1-cs19108fbv1-android8-emmc-20191122.tar.gz>`
 
-.. _CS19108F215-linux:
+.. _CS19108F215-linuxQt:
 
 LinuxQt5.5
 ----------

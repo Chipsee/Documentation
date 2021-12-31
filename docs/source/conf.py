@@ -150,10 +150,6 @@ rst_epilog = """
 """
 
 html_last_updated_fmt = '%b %d, %Y'
-# html_context = {
-# "display_github": True, # Add 'Edit on Github' link instead of 'View page source'
-# "commit": False,
-# }
 
 # tablecaption = 'below'
 pygments_style = "sphinx"

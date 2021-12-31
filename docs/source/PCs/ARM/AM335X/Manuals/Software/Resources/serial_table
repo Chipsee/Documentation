@@ -1,7 +1,7 @@
 .. table:: Serial Ports Nodes on the System
    :align: center
    :width: 100%
-   :widths: 50 50
+   :widths: auto
 
    +-----------------------------+-------------------------------+
    | Ports                       | Device Node                   |

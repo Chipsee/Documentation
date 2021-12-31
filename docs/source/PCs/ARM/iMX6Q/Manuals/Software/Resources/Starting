@@ -4,7 +4,7 @@ Getting Started and Tests
 DIP Switch Configuration
 ------------------------
 
-Set the boot DIP switch, as shown in the figure below, to boot the system from the external SD Card.
+Set the boot DIP switch, as shown on the figure below, to boot the system from the external SD Card.
 
 .. figure:: /Media/ARM/A8/AM3354/Boot_SW2.jpeg
    :align: center
@@ -67,7 +67,7 @@ The prebuilt package has the following content:
 
 .. note::
 
-   The default ``zImage`` and ``imx6q-sabresd.dtb`` files support *'keep the logo from uboot to kernel'* but do not support framebuffer.
-   Chipsee provides ``zImage_framebuffer`` and ``imx6q-eisd.dtb_framebuffer`` file versions that support the framebuffer function but do
+   * The default ``zImage`` and ``imx6q-sabresd.dtb`` files support *'keep the logo from uboot to kernel'* feature but do not support framebuffer.
+   * Chipsee provides ``zImage_framebuffer`` and ``imx6q-eisd.dtb_framebuffer`` file versions that support the framebuffer function but do
    not support the *'keep the logo from uboot kernel'* feature. If you need the framebufer, just rename these two files to ``zImage``
    and ``imx6q-eisd.dtb``.

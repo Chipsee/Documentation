@@ -6,9 +6,6 @@
 
 .. _CS86-BOX:
 
-.. sectnum::
-   :start: 1
-   :suffix: .
 
 |product|
 #########

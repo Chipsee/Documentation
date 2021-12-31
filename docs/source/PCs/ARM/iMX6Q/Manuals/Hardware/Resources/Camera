@@ -1,7 +1,7 @@
 Camera Connector
 ----------------
 
-|Product| supports a one channel CMOS camera, as shown in the figure below. The camera connector supports camera OV2659 and OV5640.
+|Product| supports a one channel CMOS camera, as shown on the figure below. The camera connector supports camera OV2659 and OV5640.
 It is labeled as P26 on the PCB.
 
 .. figure:: /Media/ARM/A9/Others/Camera.jpeg

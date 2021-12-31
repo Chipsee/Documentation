@@ -6,7 +6,7 @@ Follow these steps to view |systemType| system via the serial port:
 
 * Connect COM1 on the industrial PC board to Windows 7 PC.
 * Open the **SecureCRT** or **Putty** software on the Windows 7 PC.
-* Power ON the industrial PC. You will see the serial output information as shown in the figure below.
+* Power ON the industrial PC. You will see the serial output information as shown on the figure below.
 * When the system is fully booted, you can communicate with it by logging in with these details: user= |user| and password= |pswd|.
 
 .. figure:: /Media/ARM/A8/Software/Android/Serial_Debug.jpeg

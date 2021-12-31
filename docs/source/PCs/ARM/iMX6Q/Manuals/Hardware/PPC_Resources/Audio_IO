@@ -3,7 +3,7 @@ Audio Connectors
 
 |Product| features some audio peripherals, as well. It has 1 x **3.5mm audio input jack** and 1 x **3.5mm audio output jack**.
 
-The pink connector is the audio input jack (line-in) and the blue connector is the audio output jack (line-out, typically around -10 dBV) as shown in the figure below.
+The pink connector is the audio input jack (line-in) and the blue connector is the audio output jack (line-out, typically around -10 dBV) as shown on the figure below.
 
 .. figure:: /Media/ARM/A9/PPC_Others/Audio.jpeg
   :figclass: align-center

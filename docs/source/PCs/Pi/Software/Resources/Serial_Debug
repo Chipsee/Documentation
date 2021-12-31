@@ -2,7 +2,7 @@ Serial Debug
 ------------
 
 The RS232_0 is configured as debug console by default on all Chipsee Raspberry Pi products. You can use it to debug directly, and the default user and password is [ |user| / |pswd| ].
-Use the session properties as shown in the figure below.
+Use the session properties as shown on the figure below.
 
 .. figure:: /Media/Pi/Software/Serial_Debug.jpeg
    :align: center

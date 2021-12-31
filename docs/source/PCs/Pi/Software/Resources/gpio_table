@@ -1,7 +1,7 @@
 .. table:: CS10600RA070 P19 Port
    :align: center
    :width: 100%
-   :widths: 50 50
+   :widths: auto
 
    +-----------------------------+-------------------------------+-----------------------------+-------------------------------+
    | Pin Number                  | GPIO Number                   | Function                    | Device Node                   |
@@ -31,7 +31,7 @@
 .. table:: CS12800RA101 P2 Port / CS10600RA4070 P19 Port
    :align: center
    :width: 100%
-   :widths: 50 50
+   :widths: auto
 
    +-----------------------------+-------------------------------+-----------------------------+-------------------------------+
    | Pin Number                  | GPIO Number                   | Function                    | Device Node                   |

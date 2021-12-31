@@ -30,6 +30,11 @@ span.pre{
     padding: 3px 6px;
     border-radius: 5px;
 }
+code.download > span.pre{
+    background-color: transparent !important;
+    padding: 0;
+    border-radius: 0;
+}
 cite{
     background-color: rgb(204 204 204 / 38%) !important;
     padding: 3px 6px;
