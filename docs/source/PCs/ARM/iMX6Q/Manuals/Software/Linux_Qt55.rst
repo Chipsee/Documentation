@@ -864,7 +864,7 @@ We will use **MFGTools** and the **Logoflasher** apps to change the logo.
 
 **Use Logoflasher to Change Logo**
 
-You can get the ``prebuilt-imx6qdl-bootfile-update-xxx.tar.gz`` file from `DVD\\Android6.0\\Tools` and use these tools to make one bootable TF card. |br|
+You can get the ``prebuilt-imx6qdl-bootfile-update-xxx.tar.gz`` file from `DVD\\Linux_Qt5.5\\Tools` and use these tools to make one bootable TF card. |br|
 Follow the steps below to change logo
 
 * Use the following commands to make bootable TF card.
