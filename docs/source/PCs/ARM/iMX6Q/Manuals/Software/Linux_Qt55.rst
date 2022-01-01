@@ -351,7 +351,7 @@ Using MFGTool
        :align: center
        :figclass: align-center
 
-       *Run **MfgTools2.exe** file*
+       *Run* **MfgTools2.exe** *file*
 
     .. figure:: /Media/ARM/A9/Software/Android_43/use_mfgtool_3.png
        :align: center

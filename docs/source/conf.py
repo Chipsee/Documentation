@@ -20,7 +20,7 @@ import sphinx_material
 project = 'Chipsee Documentation Sample'
 copyright = '2021, Chipsee'
 author = 'Randy'
-version = '1.0'
+version = '1.1'
 
 # The full version, including alpha/beta/rc tags
 release = '05'
@@ -78,12 +78,6 @@ html_theme_options = {
 html_sidebars = {
     "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
 }
-# html_theme_options = {
-#     'prev_next_buttons_location': 'none',
-#     'collapse_navigation': True,
-#     'sticky_navigation': True,
-#     'navigation_depth': 5,
-# }
 
 html_style = 'css/material_custom.css'
 file_insertion_enabled = True

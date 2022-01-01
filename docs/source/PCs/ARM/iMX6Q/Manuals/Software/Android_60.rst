@@ -215,7 +215,7 @@ Using MFGTool
        :align: center
        :figclass: align-center
 
-       *Run **MfgTools2.exe** file*
+       *Run* **MfgTools2.exe** *file*
 
     .. figure:: /Media/ARM/A9/Software/Android_43/use_mfgtool_3.png
        :align: center
@@ -325,7 +325,7 @@ The IPC will mounts the SD Card to `/mnt/media_rw/` and `/storage/` directory.
 USB Flash Disk Test
 ^^^^^^^^^^^^^^^^^^^
 
-The USB Flash Disk is like the SD Car. The IPC mounts the USB Flash Disk to `/mnt/media_rw/` and `/storage/` directory.
+The USB Flash Disk is like the SD Card. The IPC mounts the USB Flash Disk to `/mnt/media_rw/` and `/storage/` directory.
 
 .. figure:: /Media/ARM/A9/Software/Android_60/udisk_1.png
    :align: center
