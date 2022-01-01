@@ -1,0 +1,224 @@
+.. |product| replace:: PPC/EPC-A8-97-C
+
+.. |productE| replace:: EPC-A8-97-C
+
+.. |productP| replace:: PPC-A8-97-C
+
+.. |PN| replace:: PN: CS10768T097
+
+.. |Product| replace:: The |product| Industrial PC
+
+.. |dispsize| replace:: 9.7"
+
+.. |res| replace:: 1024 x 768
+
+.. |bright| replace:: 350 |cd|
+
+.. |disp_des| replace:: |dispsize| resistive touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |dimE| replace:: 226 x 172 x 28mm
+
+.. |dimP| replace:: 252 x 205 x 33mm
+
+.. |weightE| replace:: 610g
+
+.. |weightP| replace:: 1260g
+
+.. |RAM| replace:: 512MB DDR3
+
+.. |eMMC| replace:: 4GB
+
+.. |tscreen| replace:: 5-point capacitive touch screen
+
+.. |USB| replace:: 3 x USB 2.0 Host, 1 x USB OTG
+
+.. |LAN| replace:: 1 x Channel 100M LAN
+
+.. |GPIO| replace:: 8 Channels
+
+.. |expansions| replace:: N/A
+
+.. |opt1| replace:: WCDMA+GPS Module (optional)
+
+.. |opt2| replace:: Onboard WiFi/BT (optional)
+
+.. |vin_rng| replace:: From 6V to 42V
+
+.. |cur| replace:: 800mA Max
+
+.. |pwr| replace:: 7W Typical
+
+.. |temp| replace:: From -20°C to +70°C
+
+.. |audio| replace:: 3.5mm output/input connector, 2W Internal Speaker
+
+.. _PPC/EPC-A8-97-C:
+
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. note::
+
+    **EOL PRODUCT:** This product has been discontinued, due to market demand and shifts in technology. Please |contact|_ if you would like to purchase it.
+
+.. figure:: /Media/ARM/A8/CS10768T097/PPC-A8-97-C-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Panel Mounting Variant)
+
+.. figure:: /Media/ARM/A8/CS10768T097/PPC-A8-97-C-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Panel Mounting Variant)
+
+.. figure:: /Media/ARM/A8/CS10768T097/EPC-A8-97-C-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Embedded Variant)
+
+.. figure:: /Media/ARM/A8/CS10768T097/EPC-A8-97-C-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Embedded Variant)
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features_1
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen
+
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial PC. It has |USB| (can be customized to 2 x Host), |LAN| (RJ45) Ethernet connector supporting up to
+1 Gbps, and 5 x UART terminals (RS232/RS485).
+
+RS232/RS485/CAN
+---------------
+
+The serial communication interfaces (RS485, RS482, and CAN) are routed to a **12-pin 3.81mm terminal**, as illustrated on the figure below.
+
+.. figure:: /Media/ARM/A8/AM3354/IO-Peripherals.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Relation between serial pins on embedded vs. enclosed version of the* |product| *Industrial PC*
+
+The table below offers more detailed description of every pin and its definition:
+
+.. table:: Connectivity Section
+   :align: center
+   :width: 100%
+   :class: align-center
+   :widths: auto
+
+
+   +-----------------------------------------------------------------------------------------------------------+
+   | **RS232 / RS485 / CAN Pin Definition:**                                                                   |
+   +================+================+=========================================================================+
+   | **Pin Number** | **Definition** | **Description**                                                         |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 12         | +5V	     | Isolated +5V Power Output, No more than 200mA Current output            |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 11         | RXD1           | UART0 of CPU, RS232 RXD Signal                                          |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 10         | TXD1           | UART0 of CPU, RS232 TXD Signal                                          |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 9          | RXD2           | UART1 of CPU, RS232 RXD Signal                                          |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 8          | TXD2           | UART1 of CPU, RS232 TXD Signal                                          |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 7          | B1             | UART2 of CPU, RS485 B Signal                                            |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 6          | A1             | UART2 of CPU, RS485 A Signal                                            |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 5          | B2             | UART4 of CPU, RS485 B Signal                                            |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 4          | A2             | UART4 of CPU, RS485 A Signal                                            |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 3          | CAN_H          | DCAN0 of CPU, CAN H Signal                                              |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 2          | CAN_L          | DCAN0 of CPU, CAN L Signal                                              |
+   +----------------+----------------+-------------------------------------------------------------------------+
+   | Pin 1          | GND            | Isolated Ground Output                                                  |
+   +----------------+----------------+-------------------------------------------------------------------------+
+
+USB Connectors
+--------------
+
+There are 4 x Type A **USB HOST connectors** onboard, as shown on the figure below.
+
+.. Figure:: /Media/ARM/A8/AM3354/USB_OTG_3.jpeg
+  :align: center
+  :figclass: align-center
+
+  *USB HOST Connectors (embedded/enclosed PC version)*
+
+.. note::
+  The USB Connectors are defined as HOST by default. If customer needs it work as OTG (slave), please solder a 0Ω 0603 Package Resistor to **R140** and **R138**.
+
+.. warning::
+
+  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded Industrial PC version.
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/GP_IO
+
+.. include:: Resources/TF_Card
+
+.. include:: Resources/Audio_IO
+
+.. include:: Resources/Boot_SW
+
+Mounting Procedure
+==================
+
+|Product| can be mounted with 8 x M4 screws, enabling simplified installation onto any standard mounting fixture. Other mounting options
+might also be supported according to the table in the `Hardware Features`_ section.
+
+You can find detailed information about mounting in the |mguide|_ on the Chipsee official website.
+
+Mechanical Specifications
+=========================
+
+|productE|
+----------
+
+The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+product measurements.
+
+.. figure:: /Media/ARM/A8/CS10768T097/PPC-A8-97-C-TD.jpeg
+   :align: center
+   :figclass: align-center
+
+   |productE| *Technical Drawing*
+
+
+|productP|
+----------
+
+For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+
+.. include:: Resources/mount_set
+
+.. include:: Resources/support

@@ -1,0 +1,85 @@
+.. |product| replace:: EPC/PPC-A7-70HB-C
+
+.. |PN| replace:: PN: CS10600U070
+   
+.. |Product| replace:: The |product| Industrial Panel PC 
+
+.. |dispsize| replace:: 7.0"
+
+.. |res| replace:: 1024 x 600
+
+.. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
+
+.. |dime| replace:: 190 x 112 x 28mm
+
+.. |dimh| replace:: 205 x 135 x 28mm
+
+.. |weighte| replace:: 340g
+
+.. |weighth| replace:: 730g
+
+.. |power| replace:: 5W Typical
+
+.. _EPC/PPC-A7-70HB-C:
+
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. figure:: /Media/ARM/A7/CS10600U070/PPC-A7-70HB-C-Front.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Panel Mounting Variant)
+
+.. figure:: /Media/ARM/A7/CS10600U070/PPC-A7-70HB-C-Back.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Panel Mounting Variant)  
+
+.. figure:: /Media/ARM/A7/CS10600U070/EPC-A7-70HB-C-Front.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Embedded Variant)
+
+.. figure:: /Media/ARM/A7/CS10600U070/EPC-A7-70HB-C-Back.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Embedded Variant)
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features
+   
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/connectivity
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi
+
+.. include:: Resources/GPIO
+
+.. include:: Resources/TF_Card
+
+.. include:: Resources/Audio_IO
+
+.. include:: Resources/Boot_SW
+
+.. include:: Resources/support

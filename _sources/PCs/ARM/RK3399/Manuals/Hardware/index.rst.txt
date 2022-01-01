@@ -1,0 +1,16 @@
+Hardware Documentation
+######################
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+
+   EPC-PPC-A72-70-C <CS10600R070>
+   EPC/PPC-A72-101-C <CS12800R101>
+   PPC-A72-125-C <CS19108R125>
+   PPC-A72-133-C <CS19108R133>
+   PPC-A72-150-C <CS10768R150>
+   PPC-A72-156-C <CS19108R156>
+   PPC-A72-173-C <CS19108R173>
+   PPC-A72-215-C <CS19108R215>

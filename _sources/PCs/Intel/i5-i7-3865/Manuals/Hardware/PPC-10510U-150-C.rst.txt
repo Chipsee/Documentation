@@ -1,0 +1,86 @@
+.. |product| replace:: PPC-10510U-150-C
+
+.. |Product| replace:: The |product| Industrial Panel PC 
+
+.. |weight| replace:: 4500g
+
+.. |dim| replace:: 376 x 300 x 61.7mm
+
+.. |dispsize| replace:: 15.0"
+  
+.. |res| replace:: 1024 x 768
+
+.. |bright| replace:: 350 |cd|
+
+.. |tscreen| replace:: Multi-point capacitive or resistive touch screen
+
+.. |opt_1| replace:: Optional, module available from the Chipsee store
+
+.. |opt_2| replace:: Optional, module available from the Chipsee store
+
+.. |pwr| replace:: 27W
+
+.. |disp_des| replace:: Touch sensitive |dispsize| with a resolution of |res| pixels
+
+.. _PPC-10510U-150-C:
+
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. figure:: /Media/Intel/i5-i7-3865/150/PPC-10510U-150-C-Front.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View
+
+.. figure:: /Media/Intel/i5-i7-3865/150/PPC-10510U-150-C-Back.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View   
+
+.. figure:: /Media/Intel/i5-i7-3865/150/PPC-10510U-150-C-Side.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Side View  
+
+.. include:: Resources/overview
+
+.. include:: /PCs/Intel/J1900/Manuals/Hardware/Resources/ordering
+
+.. include:: Resources/opt_features
+
+.. include:: /PCs/Intel/J1900/Manuals/Hardware/Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/touch_screen
+
+.. include:: Resources/connectivity
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/HDMI
+
+.. include:: /PCs/Intel/J1900/Manuals/Hardware/Resources/mounting
+
+.. include:: /PCs/Intel/J1900/Manuals/Hardware/Resources/mechspecs
+
+.. figure:: /Media/Intel/i5-i7-3865/150/PPC-10510U-150-C-TD.jpg
+   :align: center
+   :figclass: align-center
+   :target: ../../../../../_images/PPC-10510U-150-C-TD.jpg
+ 
+   *Figure 6: PPC-10510U-150-C Technical Drawing*
+
+.. include:: /PCs/Intel/J1900/Manuals/Hardware/Resources/support
+
+

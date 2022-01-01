@@ -1,0 +1,199 @@
+.. |product| replace:: EPC/PPC-A9-101-C
+
+.. |productE| replace:: EPC-A9-101-C
+
+.. |productP| replace:: PPC-A9-101-C
+
+.. |PN| replace:: PN: CS12800F101
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |dispsize| replace:: 10.1"
+
+.. |res| replace:: 1280 x 800
+
+.. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
+
+.. |dimE| replace:: 245 x 155 x 11mm
+
+.. |dimP| replace:: 280 x 185.5 x 27.5mm
+
+.. |weightE| replace:: 600g
+
+.. |weightP| replace:: 1410g
+
+.. |RAM| replace:: 2GB DDR3
+
+.. |eMMC| replace:: 8GB
+
+.. |tscreen| replace:: Capacitive Multi-Point Touch Screen
+
+.. |USB| replace:: 2 x USB 2.0 HOST, 1 x USB OTG
+
+.. |LAN| replace:: 2 x RJ45: 1 x GbE, Optional PoE Support; 1 x 100Mbps, Optional
+
+.. |GPIO| replace:: 8 x General Purpose I/O (GPIO) channels
+
+.. |expansions| replace:: N/A
+
+.. |opt1| replace:: Optional, Not mounted by default
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |vin_rng| replace:: From 12V to 36V
+
+.. |cur| replace:: 600mA Max (w/o 4G Module)
+
+.. |pwr| replace:: 7W Typical
+
+.. |temp| replace:: From -20°C to +70°C
+
+.. |rs485| replace:: 3
+
+.. _EPC/PPC-A9-101-C:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. figure:: /Media/ARM/A9/CS12800F101/PPC-A9-101-C-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Panel Mounting Variant)
+
+.. figure:: /Media/ARM/A9/CS12800F101/PPC-A9-101-C-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Panel Mounting Variant)
+
+.. figure:: /Media/ARM/A9/CS12800F101/EPC-A9-101-C-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Embedded Variant)
+
+.. figure:: /Media/ARM/A9/CS12800F101/EPC-A9-101-C-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Embedded Variant)
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+Optional Features
+-----------------
+
+|Product| does not include 4G/LTE module by default. The module is optional and can be selected at the Chipsee store during the ordering process.
+
+.. warning::
+
+   | Installation, repair, and maintenance tasks should be performed by trained personnel only.
+   | Chipsee does not bear any responsibility for damage caused by inadequate handling of the product.
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/connectivity
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/GP_IO
+
+.. include:: Resources/Camera
+
+.. include:: Resources/TF_Card
+
+.. include:: Resources/Audio_IO
+
+.. include:: Resources/HDMI
+
+.. include:: Resources/Boot_SW
+
+Mounting Procedure
+==================
+
+|Product| can be mounted with 8 x M4 screws, enabling simplified installation onto any standard mounting fixture.
+
+|productE|
+----------
+You can mount |productE| with the Embedded mounting method, as shown on the figure below.
+
+.. Figure:: /Media/ARM/A9/Others/embedded_mount.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Embedded mounting*
+
+|productP|
+----------
+You can mount |productP| with the Panel mounting method, as shown on the figure below.
+
+.. Figure:: /Media/ARM/A8/AM3354/Mount.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Panel mounting*
+
+.. note::
+
+    With the |productP| industrial PC, the operator can fix the PC into the panel by pushing it from the front inside the panel as described in the figure above. The recommended maximum thickness of the panel material is 8mm.
+
+    #) Make sure the Panel PC is configured correctly. The Boot Switch is sitting inside the housing. To use it, the Panel PC has to be unmounted from the panel.
+    #) Push the Panel PC straight into the Panel Hole until the unit sits flat on the panel as shown in the figure above.
+    #) Use the mounting fixtures to lock the Panel PC into it’s place.
+
+.. attention::
+
+    Please make sure the display is not exposed to high pressure when mounting into an enclosure.
+
+You can find detailed information about mounting in the |mguide|_ on the Chipsee official website.
+
+Mechanical Specifications
+=========================
+
+|productE|
+----------
+
+The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+product measurements.
+
+.. figure:: /Media/ARM/A9/CS12800F101/EPC-A9-101-C-TD.jpeg
+   :align: center
+   :figclass: align-center
+
+   |productE| *Technical Drawing*
+
+
+|productP|
+----------
+For |productP|, the outer mechanical dimensions are |dimP| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+product measurements.
+
+.. figure:: /Media/ARM/A9/CS12800F101/PPC-A9-101-C-TD.jpeg
+   :align: center
+   :figclass: align-center
+
+   |productP| *Technical Drawing*
+
+.. caution::
+
+    * When you use product |productE|, you should not touch the circuit board on the back of the product if the product is powered ON.
+    * Also, when the product is powered OFF, please take anti-static measures before touching the circuit board.
+
+.. include:: Resources/support

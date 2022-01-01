@@ -1,0 +1,90 @@
+PPC/EPC-A8-70-HB-C (PN: CS10600T070)
+####################################
+
+
+.. _CS10600T070-android:
+
+Android4.1
+----------
+
+| **FT5X06 Touchscreen**
+
+| :download:`prebuilt-som-v3-cs10600t70-v3-android-emmc-20190810.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7/Android4.1/prebuilt-som-v3-cs10600t70-v3-android-emmc-20190810.tar.gz>`
+
+| **GT911 Touchscreen**
+
+| :download:`prebuilt-som-v3-cs10600t70-v3-android-gt911-emmc-20190327.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7/Android4.1/prebuilt-som-v3-cs10600t70-v3-android-gt911-emmc-20190327.tar.gz>`
+
+
+.. _CS10600T070-linuxQt:
+
+LinuxQt4.8
+----------
+
+| **FT5X06 Touchscreen**
+
+| :download:`prebuilt-som-v3-cs10600t70-v3-ezsdk-emmc-20190219.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7/LinuxQt4.8/prebuilt-som-v3-cs10600t70-v3-ezsdk-emmc-20190219.tar.gz>`
+
+| **GT911 Touchscreen**
+
+| :download:`prebuilt-som-v3-cs10600t70-v3-ezsdk-emmc-gt911-20171119.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7/LinuxQt4.8/prebuilt-som-v3-cs10600t70-v3-ezsdk-emmc-gt911-20171119.tar.gz>`
+
+
+LinuxQt5.5
+----------
+
+| **FT5X06 Touchscreen**
+
+| :download:`prebuilt-som-v3-cs10600t070-v3-tisdk-emmc-20190920.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7/LinuxQt5.5/prebuilt-som-v3-cs10600t070-v3-tisdk-emmc-20190920.tar.gz>`
+
+| **GT911 Touchscreen**
+
+| :download:`prebuilt-som-v3-cs10600t070-v3-tisdk-emmc-gt911-20190723.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7/LinuxQt5.5/prebuilt-som-v3-cs10600t070-v3-tisdk-emmc-gt911-20190723.tar.gz>`
+
+
+.. _CS10600T070-debian:
+
+Debian7.4
+---------
+
+| **FT5X06 Touchscreen**
+
+| :download:`prebuilt-som-v3-cs10600t70-v3-debian7-emmc-20200416.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7/Debian7.4/prebuilt-som-v3-cs10600t70-v3-debian7-emmc-20200416.tar.gz>`
+
+| **GT911 Touchscreen**
+
+| :download:`prebuilt-som-v3-cs10600t70-v3-debian7-gt911-emmc-20180122.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7/Debian7.4/prebuilt-som-v3-cs10600t70-v3-debian7-gt911-emmc-20180122.tar.gz>`
+
+Debian8.4
+---------
+
+| **FT5X06 Touchscreen eMMC Boot Version**
+
+| :download:`prebuilt-som-v3-cs10600t070-v3-debian-emmc-20210720.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7/Debian8.4/prebuilt-som-v3-cs10600t070-v3-debian-emmc-20210720.tar.gz>`
+
+| **FT5X06 Touchscreen SD Boot Version**
+
+| :download:`prebuilt-som-v3-cs10600t070-v3-debian-sd-20210720.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7/Debian8.4/prebuilt-som-v3-cs10600t070-v3-debian-sd-20210720.tar.gz>`
+
+| **GT911 Touchscreen eMMC Boot Version**
+
+| :download:`prebuilt-som-v3-cs10600t070-v3-debian-emmc-gt911-20191210.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7/Debian8.4/prebuilt-som-v3-cs10600t070-v3-debian-emmc-gt911-20191210.tar.gz>`
+
+| **GT911 Touchscreen SD Boot Version**
+
+| :download:`prebuilt-som-v3-cs10600t070-v3-debian-sd-gt911-20191210.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7/Debian8.4/prebuilt-som-v3-cs10600t070-v3-debian-sd-gt911-20191210.tar.gz>`
+
+
+.. _CS10600T070-angstrom:
+
+Angstrom2012
+------------
+
+| **FT5X06 Touchscreen 1 CAN Channel Version**
+
+| :download:`prebuilt-som-v3-cs10600t70-v3-angstrom-emmc-20200721.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7/Angstrom2012/prebuilt-som-v3-cs10600t70-v3-angstrom-emmc-20200721.tar.gz>`
+
+| **FT5X06 Touchscreen 2 CAN Channel Version**
+
+| :download:`prebuilt-som-v3-cs10600t70-v3-angstrom-2can-emmc-20200721.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/7/Angstrom2012/prebuilt-som-v3-cs10600t70-v3-angstrom-2can-emmc-20200721.tar.gz>`
+

@@ -1,0 +1,68 @@
+EPC/PPC-A9-101-C (PN: CS12800F101)
+##################################
+
+.. _CS12800F101-android:
+
+Android4.4
+----------
+
+| **FT5X06 Touchscreen**
+| :download:`prebuilt-imx6qv1-cs12800f010v3-android4-emmc-20190410.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/10/Android4.4/prebuilt-imx6qv1-cs12800f010v3-android4-emmc-20190410.tar.gz>`
+
+Android6.0
+----------
+
+| **FT5X06 Touchscreen**
+| :download:`prebuilt-imxv1-cs12800f010v3-android6-emmc-20210909.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/10/Android6.0/prebuilt-imxv1-cs12800f010v3-android6-emmc-20210909.tar.gz>`
+
+| **GT9271 Touchscreen**
+| :download:`prebuilt-imxv1-cs12800f010v3-gt9271-android6-emmc-20210909.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/10/Android6.0/prebuilt-imxv1-cs12800f010v3-gt9271-android6-emmc-20210909.tar.gz>`
+
+| **GT9271 Touchscreen (no bar)**
+| :download:`prebuilt-imxv1-cs12800f010v3-gt9271-android6-emmc-nobar-20210224.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/10/Android6.0/prebuilt-imxv1-cs12800f010v3-gt9271-android6-emmc-nobar-20210224.tar.gz>`
+
+Android8.0
+----------
+
+| **FT5X06 Touchscreen**
+| :download:`prebuilt-imxv1-cs12800f101v3-android8-emmc-20210108.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/10/Android8.0/prebuilt-imxv1-cs12800f101v3-android8-emmc-20210108.tar.gz>`
+
+.. _CS12800F101-linuxQt:
+
+LinuxQt5.5
+----------
+
+| **FT5526 Touchscreen**
+| :download:`prebuilt-imxv1-cs12800f010v3-linux-ft5526-emmc-20200526.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/10/LinuxQt5/prebuilt-imxv1-cs12800f010v3-linux-ft5526-emmc-20200526.tar.gz>`
+
+| **GT9271 Touchscreen**
+| :download:`prebuilt-imxv1-cs12800f010v3-linux-gt9271-emmc-20200526.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/10/LinuxQt5/prebuilt-imxv1-cs12800f010v3-linux-gt9271-emmc-20200526.tar.gz>`
+
+.. _CS12800F101-ubuntu:
+
+Ubuntu12.04
+-----------
+
+| **FT5526 Touchscreen SD Boot Version**
+| :download:`prebuilt-cs12800f010-v2-ubuntu1204-qt4.8-sd-20170424.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/10/Ubuntu1204/prebuilt-cs12800f010-v2-ubuntu1204-qt4.8-sd-20170424.tar.gz>`
+
+| **GT9271 Touchscreen eMMC Boot Version**
+| :download:`prebuilt-cs12800f010-v2-ubuntu1204-qt4.8-gt9271-emmc-20171223.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/10/Ubuntu1204/prebuilt-cs12800f010-v2-ubuntu1204-qt4.8-gt9271-emmc-20171223.tar.gz>`
+
+Ubuntu14.04
+-----------
+
+| **FT5526 Touchscreen**
+| :download:`prebuilt-imxv1-cs12800f101v3-u1404-ft5526-emmc-20190807.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/10/Ubuntu1404/prebuilt-imxv1-cs12800f101v3-u1404-ft5526-emmc-20190807.tar.gz>`
+
+| **GT9271 Touchscreen eMMC Boot Version**
+| :download:`prebuilt-imxv1-cs12800f101v3-u1404-gt9271-emmc-20200306.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/10/Ubuntu1404/prebuilt-imxv1-cs12800f101v3-u1404-gt9271-emmc-20200306.tar.gz>`
+
+| **GT9271 Touchscreen SD Boot Version**
+| :download:`prebuilt-imxv1-cs12800f101v3-u1404-gt9271-sd-20190807.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/10/Ubuntu1404/prebuilt-imxv1-cs12800f101v3-u1404-gt9271-sd-20190807.tar.gz>`
+
+Ubuntu18.04
+-----------
+
+| **GT9271 Touchscreen**
+| :download:`prebuilt-imxv1-cs12800f101v4-linux-emmc-20200710.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/10/Ubuntu1804/prebuilt-imxv1-cs12800f101v4-linux-emmc-20200710.tar.gz>`

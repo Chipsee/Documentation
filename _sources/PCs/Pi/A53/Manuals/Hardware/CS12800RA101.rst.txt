@@ -1,0 +1,225 @@
+.. |product| replace:: CM3-101-EM-PA
+
+.. |productE| replace:: CS12800RA101E
+
+.. |productP| replace:: CS12800RA101P
+
+.. |PN| replace:: PN: CS12800RA101
+
+.. |Product| replace:: The |product| industrial Pi PC
+
+.. |dispsize| replace:: 10.1"
+
+.. |res| replace:: 1280 x 800
+
+.. |bright| replace:: 500 |cd|
+
+.. |disp_des| replace:: |dispsize| five-point capacitive a touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |dimE| replace:: 245 x 155 x 11mm
+
+.. |dimP| replace:: 280 x 185 x 27.5mm
+
+.. |weightE| replace:: 600g
+
+.. |weightP| replace:: 1500g
+
+.. |tscreen| replace:: 5-point capacitive touch
+
+.. |USB| replace:: 3 x USB 2.0 Host
+
+.. |LAN| replace:: 1 x Channel 100M LAN
+
+.. |GPIO| replace:: 8 Channels, 4 Input, 4 Output
+
+.. |opt1| replace:: Supported, not mounted by default
+
+.. |opt2| replace:: Onboard WiFi/BT
+
+.. |vin_rng| replace:: From 6V to 36V
+
+.. |cur| replace:: 700mA Max
+
+.. |pwr| replace:: 7W Typical
+
+.. |temp| replace:: From -20°C to +70°C
+
+.. _product_link: https://chipsee.com/product/industrial-pi-cm3-101/
+
+.. |product_link| replace:: CM3-101-EM-PA
+
+
+.. _CM3-101-EM-PA:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. figure:: /Media/Pi/A53/CS12800RA101/CS12800RA101E-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Embedded Mounting Variant)
+
+.. figure:: /Media/Pi/A53/CS12800RA101/CS12800RA101E-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Embedded Mounting Variant)
+
+.. figure:: /Media/Pi/A53/CS12800RA101/CS12800RA101P-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Panel Variant)
+
+.. figure:: /Media/Pi/A53/CS12800RA101/CS12800RA101P-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Panel Variant)
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features_2
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table_box
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen
+
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial Pi PC. It has |USB| (can be customized to Host or OTG), |LAN| (RJ45) Ethernet connector supporting up to
+1 Gbps, and 5 x UART terminals (RS232/RS485).
+
+RS232/RS485/CAN
+---------------
+
+The serial communication interfaces (RS485, RS482, and CAN) are routed to a **16-pin 3.81mm terminal**, as illustrated on the figure below.
+
+.. figure:: /Media/Pi/A53/Others/CM3-101-IO-Peripherals.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Relation between serial pins on embedded vs. enclosed version of the* |product| *Industrial PC*
+
+The table below offers more detailed description of every pin and its definition:
+
+.. table:: Connectivity Section
+   :align: center
+   :width: 100%
+   :class: align-center
+   :widths: auto
+
+   +---------------------------------------------------------------------------------------------------------------+
+   | **RS232 / RS485 / CAN Pin Definition:**                                                                       |
+   +================+===============================+==============================================================+
+   | **Pin Number** | **Definition**                | **Description**                                              |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 1          | CAN1_L                        | USB CAN Channel 1L signal                                    |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 2          | CAN1_H                        | USB CAN Channel 1H signal                                    |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 3          | RS485_4+                      | USB UART4, RS485 +(A) signal                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 4          | RS485_4-                      | USB UART4, RS485 -(B) signal                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 5          | RS485_3+                      | USB UART3, RS485 +(A) signal                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 6          | RS485_3-                      | USB UART3, RS485 -(B) signal                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 7          | RS232_2_RXD                   | USB UART2, RS232 RXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 8          | RS232_2_TXD                   | USB UART2, RS232 TXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 9          | RS232_1_RXD                   | USB UART1, RS232 RXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 10         | RS232_1_TXD                   | USB UART1, RS232 TXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 11         | CPU_RS232_1_RXD               | CPU UART1, CPU RS232 RXD signal                              |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 12         | CPU_RS232_1_TXD               | CPU UART1, CPU RS232 TXD signal                              |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 13         | CPU_RS232_0_RXD               | CPU UART0, CPU RS232 RXD signal                              |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 14         | CPU_RS232_0_TXD               | CPU UART0, CPU RS232 TXD signal                              |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 15         | GND                           | System Ground                                                |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 16         | +5V                           | System +5V Power Output, No more than 1A Current output      |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+
+.. include:: Resources/GP_IO
+
+USB Connectors
+--------------
+
+There are 3 x Type A **USB HOST connectors** onboard, as shown on the figure below.
+
+.. Figure:: /Media/Pi/A53/Others/CM3-101-USB.jpeg
+  :align: center
+  :figclass: align-center
+
+  *USB HOST Connectors (embedded/enclosed PC version)*
+
+The product has one USB OTG connector that works as a slave by default. You can use it to establish a connection with the host PC and for downloading the system to the eMMC of CM3/CM3+.
+
+.. Figure:: /Media/Pi/A53/Others/USB_OTG.jpeg
+  :align: center
+  :figclass: align-center
+
+  *USB OTG Connector*
+
+.. warning::
+
+  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded Industrial PC version.
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/TF_Card
+
+.. include:: Resources/Audio_IO
+
+.. include:: Resources/Boot_SW
+
+.. include:: Resources/mounting
+
+Mechanical Specifications
+=========================
+
+|productE|
+----------
+
+The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+product measurements.
+
+.. figure:: /Media/Pi/A53/CS12800RA101/CS12800RA101E-TD.jpeg
+   :align: center
+   :figclass: align-center
+
+   |productE| *Technical Drawing*
+
+|productP|
+----------
+For |productP|, the outer mechanical dimensions are |dimP| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+product measurements.
+
+.. figure:: /Media/Pi/A53/CS12800RA101/CS12800RA101P-TD.jpeg
+   :align: center
+   :figclass: align-center
+
+   |productP| *Technical Drawing*
+
+.. include:: Resources/support

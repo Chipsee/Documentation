@@ -1,0 +1,72 @@
+EPC/PPC-A8-50-C (PN: CS80480T050)
+#################################
+
+
+.. _CS80480T050-android:
+
+Android4.1
+----------
+
+| **FT5X06 Touchscreen**
+| :download:`prebuilt-som-v3-cs80480t050-v3-android-otg-emmc-20190413.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/5/Android4.1/prebuilt-som-v3-cs80480t050-v3-android-otg-emmc-20190413.tar.gz>`
+
+| **GT911 Touchscreen**
+| :download:`prebuilt-som-v3-cs80480t050-v5-android-gt911-otg-emmc-20190413.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/5/Android4.1/prebuilt-som-v3-cs80480t050-v5-android-gt911-otg-emmc-20190413.tar.gz>`
+
+
+.. _CS80480T050-linuxQt:
+
+LinuxQt4.8
+----------
+
+| **FT5X06 Touchscreen**
+| :download:`prebuilt-som-v3-cs80480t050-v3-ezsdk-emmc-20190418.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/5/LinuxQt4.8/prebuilt-som-v3-cs80480t050-v3-ezsdk-emmc-20190418.tar.gz>`
+
+| **GT911 Touchscreen**
+| :download:`prebuilt-som-v3-cs80480t050-v3-ezsdk-emmc-gt911-20190926.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/5/LinuxQt4.8/prebuilt-som-v3-cs80480t050-v3-ezsdk-emmc-gt911-20190926.tar.gz>`
+
+LinuxQt5.5
+----------
+
+| **FT5X06 Touchscreen**
+| :download:`prebuilt-som-v3-cs80480t050-v1-tisdk-emmc-20170511.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/5/LinuxQt5.5/prebuilt-som-v3-cs80480t050-v1-tisdk-emmc-20170511.tar.gz>`
+
+| **GT911 Touchscreen**
+| :download:`prebuilt-som-v3-cs80480t050-v1-tisdk-gt911-emmc-20210517.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/5/LinuxQt5.5/prebuilt-som-v3-cs80480t050-v1-tisdk-gt911-emmc-20210517.tar.gz>`
+| :download:`prebuilt-som-v3-cs80480t050-v1-tisdk-gt911-emmc-20210817.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/5/LinuxQt5.5/prebuilt-som-v3-cs80480t050-v1-tisdk-gt911-emmc-20210817.tar.gz>`
+
+
+.. _CS80480T050-debian:
+
+Debian7.4
+---------
+
+| **FT5X06 Touchscreen**
+| :download:`prebuilt-som-v3-cs80480t50-v3-debian-emmc-20191231.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/5/Debian7.4/prebuilt-som-v3-cs80480t50-v3-debian-emmc-20191231.tar.gz>`
+
+| **GT911 Touchscreen**
+| :download:`prebuilt-som-v3-cs80480t50-v3-debian-gt911-emmc-20190810.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/5/Debian7.4/prebuilt-som-v3-cs80480t50-v3-debian-gt911-emmc-20190810.tar.gz>`
+
+Debian8.4
+---------
+
+| **FT5X06 Touchscreen eMMC Boot Version**
+| :download:`prebuilt-som-v3-cs80480t050-v5-debian-emmc-20190115.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/5/Debian8.4/prebuilt-som-v3-cs80480t050-v5-debian-emmc-20190115.tar.gz>`
+
+| **FT5X06 Touchscreen SD Boot Version**
+| :download:`prebuilt-som-v3-cs80480t050-v5-debian-sd-20201124.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/5/Debian8.4/prebuilt-som-v3-cs80480t050-v5-debian-sd-20201124.tar.gz>`
+
+| **GT911 Touchscreen eMMC Boot Version**
+| :download:`prebuilt-som-v3-cs80480t050-v5-debian-emmc-gt911-20210223.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/5/Debian8.4/prebuilt-som-v3-cs80480t050-v5-debian-emmc-gt911-20210223.tar.gz>`
+
+| **GT911 Touchscreen SD Boot Version**
+| :download:`prebuilt-som-v3-cs80480t050-v5-debian-sd-gt911-20210223.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/5/Debian8.4/prebuilt-som-v3-cs80480t050-v5-debian-sd-gt911-20210223.tar.gz>`
+
+
+.. _CS80480T050-angstrom:
+
+Angstrom2012
+------------
+
+| **FT5X06 Touchscreen**
+| :download:`prebuilt-som-v3-cs80480t050-v5-angstrom-emmc-20200717.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/5/Angstrom2012/prebuilt-som-v3-cs80480t050-v5-angstrom-emmc-20200717.tar.gz>`

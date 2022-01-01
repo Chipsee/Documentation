@@ -1,0 +1,79 @@
+EPC/PPC-A9-70-C (PN: CS10600F070)
+#################################
+
+.. _CS10600F070-android:
+
+Android4.4
+----------
+
+| **FT5X06 Touchscreen**
+| :download:`prebuilt-imx6qv1-cs10600f070v3-android4-emmc-20190306.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/Android4.4/prebuilt-imx6qv1-cs10600f070v3-android4-emmc-20190306.tar.gz>`
+
+| **GT911 Touchscreen**
+| :download:`prebuilt-imx6qv1-cs10600f070v3-android4-emmc-gt911-20200402.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/Android4.4/prebuilt-imx6qv1-cs10600f070v3-android4-emmc-gt911-20200402.tar.gz>`
+
+Android6.0
+----------
+
+| **FT5X06 Touchscreen**
+| :download:`prebuilt-imxv1-cs10600f070v3-android6-emmc-20200305.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/Android6.0/prebuilt-imxv1-cs10600f070v3-android6-emmc-20200305.tar.gz>`
+
+| **GT911 Touchscreen**
+| :download:`prebuilt-imxv1-cs10600f070v3-android6-gt911-emmc-20200305.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/Android6.0/prebuilt-imxv1-cs10600f070v3-android6-gt911-emmc-20200305.tar.gz>`
+
+| **GT911 Touchscreen (Beta)**
+| :download:`prebuilt-imxv1-cs10600f070v3-android6-gt911-emmc-20211110-beta.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/Android6.0/prebuilt-imxv1-cs10600f070v3-android6-gt911-emmc-20211110-beta.tar.gz>`
+
+Android8.0
+----------
+
+| **FT5X06 Touchscreen**
+| :download:`prebuilt-imxv1-cs10600f070v3-android8-ft-emmc-20191219.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/Android8.0/prebuilt-imxv1-cs10600f070v3-android8-ft-emmc-20191219.tar.gz>`
+
+| **GT911 Touchscreen**
+| :download:`prebuilt-imxv1-cs10600f070v3-android8-emmc-20210709.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/Android8.0/prebuilt-imxv1-cs10600f070v3-android8-emmc-20210709.tar.gz>`
+
+.. _CS10600F070-linuxQt:
+
+LinuxQt5.5
+----------
+
+| **FT5X06 Touchscreen**
+| :download:`prebuilt-imxv1-cs10600f070v3-linux-emmc-20200320.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/LinuxQt5.5/prebuilt-imxv1-cs10600f070v3-linux-emmc-20200320.tar.gz>`
+
+| **GT911 Touchscreen**
+| :download:`prebuilt-imxv1-cs10600f070v3-linux-gt911-emmc-20200320.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/LinuxQt5.5/prebuilt-imxv1-cs10600f070v3-linux-gt911-emmc-20200320.tar.gz>`
+| :download:`prebuilt-imxv1-cs10600f070v3-linux-gt911-fb-emmc-20200511.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/LinuxQt5.5/prebuilt-imxv1-cs10600f070v3-linux-gt911-fb-emmc-20200511.tar.gz>`
+
+.. _CS10600F070-ubuntu:
+
+Ubuntu12.04
+-----------
+
+| **FT5X06 Touchscreen eMMC Boot Version**
+| :download:`prebuilt-imxv1-cs10600f070v2-ubuntu1204-qt4.8-emmc-20180127.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/Ubuntu1204/prebuilt-imxv1-cs10600f070v2-ubuntu1204-qt4.8-emmc-20180127.tar.gz>`
+
+| **FT5X06 Touchscreen SD Boot Version**
+| :download:`prebuilt-imxv1-cs10600f070v2-ubuntu1204-qt4.8-sd-20170620.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/Ubuntu1204/prebuilt-imxv1-cs10600f070v2-ubuntu1204-qt4.8-sd-20170620.tar.gz>`
+
+Ubuntu14.04
+-----------
+
+| **FT5X06 Touchscreen**
+| :download:`prebuilt-imxv1-cs10600f070v3-u1404-emmc-20200306.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/Ubuntu1404/prebuilt-imxv1-cs10600f070v3-u1404-emmc-20200306.tar.gz>`
+
+| **GT911 Touchscreen**
+| :download:`prebuilt-imxv1-cs10600f070v3-u1404-gt911-emmc-20200306.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/Ubuntu1404/prebuilt-imxv1-cs10600f070v3-u1404-gt911-emmc-20200306.tar.gz>`
+
+| **GT911 Touchscreen (ttymxc4)**
+| :download:`prebuilt-imxv1-cs10600f070v3-u1404-gt911-ttymxc4-emmc-20200819.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/Ubuntu1404/prebuilt-imxv1-cs10600f070v3-u1404-gt911-ttymxc4-emmc-20200819.tar.gz>`
+
+
+Ubuntu18.04
+-----------
+
+| **FT5X06 Touchscreen**
+| :download:`prebuilt-imxv1-cs10600f070v3-u1804-emmc-20200710.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/Ubuntu1804/prebuilt-imxv1-cs10600f070v3-u1804-emmc-20200710.tar.gz>`
+
+| **FT5X06 Touchscreen (console)**
+| :download:`prebuilt-imxv1-cs10600f070v3-u1804-console-emmc-20211015.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/Ubuntu1804/prebuilt-imxv1-cs10600f070v3-u1804-console-emmc-20211015.tar.gz>`

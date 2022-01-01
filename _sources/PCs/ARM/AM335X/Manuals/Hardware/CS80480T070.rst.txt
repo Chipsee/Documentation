@@ -1,0 +1,140 @@
+.. |product| replace:: PPC/EPC-A8-70-HB-R
+
+.. |productE| replace:: EPC-A8-70-HB-R
+
+.. |productP| replace:: PPC-A8-70-HB-R
+
+.. |PN| replace:: PN: CS80480T070
+
+.. |Product| replace:: The |product| Industrial PC
+
+.. |dispsize| replace:: 7.0"
+
+.. |res| replace:: 800 x 480
+
+.. |bright| replace:: 400 |cd|
+
+.. |disp_des| replace:: |dispsize| resistive touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |dimE| replace:: 190 x 112 x 28mm
+
+.. |dimP| replace:: 206 x 139 x 33mm
+
+.. |weightE| replace:: 410g
+
+.. |weightP| replace:: 830g
+
+.. |RAM| replace:: 512MB DDR3
+
+.. |eMMC| replace:: 4GB
+
+.. |tscreen| replace:: Resistive touch
+
+.. |USB| replace:: 2 x USB 2.0 Host
+
+.. |LAN| replace:: 1 x Channel 100M LAN
+
+.. |GPIO| replace:: 8 Channels, 4 Input, 4 Output, 1000V DC Isolated
+
+.. |expansions| replace:: N/A
+
+.. |opt1| replace:: N/A
+
+.. |opt2| replace:: External USB WiFi/BT (optional)
+
+.. |vin_rng| replace:: From 6V to 42V
+
+.. |cur| replace:: 400mA Max
+
+.. |pwr| replace:: 5W Typical
+
+.. |temp| replace:: From -20°C to +70°C
+
+.. |audio| replace:: 3.5mm output/input connector, 2W Internal Speaker
+
+.. _PPC/EPC-A8-70-HB-R:
+
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. figure:: /Media/ARM/A8/CS80480T070/PPC-A8-70-HB-R-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Panel Mounting Variant)
+
+.. figure:: /Media/ARM/A8/CS80480T070/PPC-A8-70-HB-R-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Panel Mounting Variant)
+
+.. figure:: /Media/ARM/A8/CS80480T070/EPC-A8-70-HB-R-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Embedded Variant)
+
+.. figure:: /Media/ARM/A8/CS80480T070/EPC-A8-70-HB-R-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Embedded Variant)
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features_2
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/res_screen
+
+.. include:: Resources/connectivity
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/GP_IO
+
+.. include:: Resources/TF_Card
+
+.. include:: Resources/Audio_IO
+
+.. include:: Resources/Boot_SW
+
+.. include:: Resources/mounting
+
+Mechanical Specifications
+=========================
+
+|productE|
+----------
+
+The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+product measurements.
+
+.. figure:: /Media/ARM/A8/CS80480T070/EPC-A8-70-HB-R-TD.jpeg
+   :align: center
+   :figclass: align-center
+
+   |productE| *Technical Drawing*
+
+
+|productP|
+----------
+
+For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+
+.. include:: Resources/mount_set
+
+.. include:: Resources/support

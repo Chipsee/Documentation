@@ -1,0 +1,84 @@
+.. |product| replace:: PPC-J1900-101-C
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |weight| replace:: 2000g
+
+.. |dim| replace:: 284 X 203 X 52.5mm
+
+.. |dispsize| replace:: 10.1"
+  
+.. |res| replace:: 1280 x 800
+
+.. |bright| replace:: 350 |cd|
+
+.. |tscreen| replace:: Capacitive Touch Screen
+
+.. |opt_1| replace:: Optional, module available from other manufacturers/stores
+
+.. |opt_2| replace:: Optional, module available from the Chipsee store
+
+.. |pwr| replace:: 17W
+
+.. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
+
+.. _PPC-J1900-101-C:
+
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. figure:: /Media/Intel/J1900/101/PPC-J1900-101-C-Front.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View
+
+.. figure:: /Media/Intel/J1900/101/PPC-J1900-101-C-Back.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View   
+
+.. figure:: /Media/Intel/J1900/101/PPC-J1900-101-C-Side.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Side View
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features_1
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/connectivity
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/HDMI
+
+.. include:: Resources/mounting
+
+.. include:: Resources/mechspecs
+
+.. figure:: /Media/Intel/J1900/101/PPC-J1900-101-C-TD.jpg
+   :align: center
+   :figclass: align-center
+
+
+   *Figure 6: PPC-J1900-101-C Technical Drawing*
+
+.. include:: Resources/support
