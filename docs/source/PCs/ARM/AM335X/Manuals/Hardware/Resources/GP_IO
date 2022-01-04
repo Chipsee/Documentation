@@ -1,7 +1,7 @@
 GPIO Port
 --------------
 
-|Product| has a 10 Pin 3.81mm **GPIO Connector**, as shown in the figure below, that is labeled as P18 on the PCB.
+|Product| has a 10 Pin 3.81mm **GPIO Connector**, as shown on the figure below, that is labeled as P18 on the PCB.
 The :ref:`table <gpio-table>` below gives details about the definition of every Pin.
 
 .. figure:: /Media/ARM/A8/AM3354/GP_IO.jpeg

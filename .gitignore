@@ -147,4 +147,3 @@ cython_debug/
 .idea/
 .idea/.gitignore
 .vscode/
-docs/source/locale/*

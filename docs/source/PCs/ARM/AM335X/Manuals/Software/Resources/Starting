@@ -4,7 +4,7 @@ Getting Started and Tests
 DIP Switch Configuration
 ------------------------
 
-Set the boot DIP switch, as shown in the figure below, to boot the system from the external SD Card.
+Set the boot DIP switch, as shown on the figure below, to boot the system from the external SD Card.
 
 .. figure:: /Media/ARM/A8/AM3354/Boot_SW2.jpeg
    :align: center

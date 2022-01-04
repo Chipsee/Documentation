@@ -24,9 +24,6 @@
 
 .. _PPC-J1900-190-R:
 
-.. sectnum::
-   :start: 1
-   :suffix: .
 
 |product|
 #########

@@ -20,7 +20,7 @@ import sphinx_material
 project = 'Chipsee Documentation Sample'
 copyright = '2021, Chipsee'
 author = 'Randy'
-version = '1.0'
+version = '1.1'
 
 # The full version, including alpha/beta/rc tags
 release = '05'
@@ -38,7 +38,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = []
+exclude_patterns = ['build', 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -78,12 +78,6 @@ html_theme_options = {
 html_sidebars = {
     "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
 }
-# html_theme_options = {
-#     'prev_next_buttons_location': 'none',
-#     'collapse_navigation': True,
-#     'sticky_navigation': True,
-#     'navigation_depth': 5,
-# }
 
 html_style = 'css/material_custom.css'
 file_insertion_enabled = True
@@ -150,12 +144,9 @@ rst_epilog = """
 """
 
 html_last_updated_fmt = '%b %d, %Y'
-# html_context = {
-# "display_github": True, # Add 'Edit on Github' link instead of 'View page source'
-# "commit": False,
-# }
 
-tablecaption = 'below'
+# tablecaption = 'below'
+pygments_style = "sphinx"
 
 # Sphinx internationalization details
 # language = "zh_CN"

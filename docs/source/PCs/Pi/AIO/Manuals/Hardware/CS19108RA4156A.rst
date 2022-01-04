@@ -221,7 +221,7 @@ up to 1 Gbps data throughput. These Giga LAN signals come from the CM4 module di
 TF Card Slot
 ------------
 
-|Product| features 1 x **TF Card (micro SD) slot** that can only be used with CM4 Lite modules, as shown in the figure below.
+|Product| features 1 x **TF Card (micro SD) slot** that can only be used with CM4 Lite modules, as shown on the figure below.
 
 .. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-TF-Card.jpeg
   :align: center
@@ -237,7 +237,7 @@ TF Card Slot
 Audio Out Connector
 -------------------
 
-The product features audio Out connector as shown in the figure below.
+The product features audio Out connector as shown on the figure below.
 
 .. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-Audio.jpeg
   :align: center

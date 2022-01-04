@@ -1,6 +1,8 @@
 OS Downloads
 ############
 
+.. _IMX6Q_OSDownloads:
+
 Please note that not all the products use the same model of touch panel. Be sure to download the correct OS according to the touch panel installed in your product.
 For additional information, contact |email|_
 
@@ -14,7 +16,7 @@ For additional information, contact |email|_
    PPC-A9-120-C <CS10768F120>
    PPC-A9-121-C <CS10768F121>
    PPC-A9-150-C <CS10768F150>
-   PPC-A9-170-C <CS19108F170>
+   PPC-A9-170-C <CS12102F170>
    PPC-A9-190-C <CS14900F190>
    PPC-A9-215-C <CS19108F215>
 

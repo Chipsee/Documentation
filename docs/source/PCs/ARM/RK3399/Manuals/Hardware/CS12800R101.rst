@@ -151,7 +151,7 @@ might also be supported according to the table in the `Hardware Features`_ secti
 
 |productE|
 ----------
-You can mount |productE| with the Embedded mounting method, as shown in the figure below.
+You can mount |productE| with the Embedded mounting method, as shown on the figure below.
 
 .. Figure:: /Media/ARM/A72/Others/mountE.jpeg
   :align: center
@@ -161,7 +161,7 @@ You can mount |productE| with the Embedded mounting method, as shown in the figu
 
 |productP|
 ----------
-You can mount |productP| with the Panel mounting methods, as shown in the figure below.
+You can mount |productP| with the Panel mounting methods, as shown on the figure below.
 
 .. Figure:: /Media/ARM/A72/Others/mountP.jpeg
   :align: center

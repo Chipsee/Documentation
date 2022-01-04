@@ -1,7 +1,7 @@
 Expansion Connector
 -------------------
 
-|Product| has 1 x **Expansion Connector** (closed by default), as shown in the figure below. This connector has connected to isolated GPIO signals. |br|
+|Product| has 1 x **Expansion Connector** (closed by default), as shown on the figure below. This connector has connected to isolated GPIO signals. |br|
 The table below gives details about the definition of every Pin.
 
 .. figure:: /Media/ARM/A72/PPC_Others/GP_IO.jpeg

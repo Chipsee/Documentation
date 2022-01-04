@@ -147,7 +147,7 @@ Power Input
 ===========
 
 |Product| can be powered by a wide range of input voltages: |vin_rng| DC. The power input connector is a **3-pin, 3.81mm terminal**.
-The polarity and the pinout is clearly marked on the housing of the product as shown in the figure below.
+The polarity and the pinout is clearly marked on the housing of the product as shown on the figure below.
 
 .. Figure:: /Media/ARM/A9/CS14900F190/Power.jpeg
   :align: center
@@ -188,7 +188,7 @@ Note that the "**+**" sign represents the positive power input, and it is printe
 USB Connectors
 --------------
 
-There are 2 x dual Type A **USB HOST connectors** onboard, as shown in the figure below.
+There are 2 x dual Type A **USB HOST connectors** onboard, as shown on the figure below.
 
 .. Figure:: /Media/ARM/A9/CS14900F190/USB.jpeg
   :align: center
@@ -242,7 +242,7 @@ The product includes an SMA connector for an external WiFi/BT antenna, as illust
 GPIO Connector
 --------------
 
-|Product| has a 10 Pin 3.81mm **GPIO Connector**, as shown in the figure below, that is labeled as P28 on the PCB.
+|Product| has a 10 Pin 3.81mm **GPIO Connector**, as shown on the figure below, that is labeled as P28 on the PCB.
 The :ref:`table <gpio-table>` below gives details about the definition of every Pin.
 
 .. figure:: /Media/ARM/A9/CS14900F190/GP_IO.jpeg
@@ -296,7 +296,7 @@ Audio Connectors
 
 |Product| features some audio peripherals, as well. It has 1 x **3.5mm audio input jack** and 1 x **3.5mm audio output jack**.
 
-The pink connector is the audio input jack (line-in) and the blue connector is the audio output jack (line-out, typically around -10 dBV) as shown in the figure below.
+The pink connector is the audio input jack (line-in) and the blue connector is the audio output jack (line-out, typically around -10 dBV) as shown on the figure below.
 
 .. figure:: /Media/ARM/A9/CS14900F190/Audio.jpeg
   :figclass: align-center
