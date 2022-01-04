@@ -1,4 +1,4 @@
-## Chipsee Documentation Sample
+## Chipsee Documentation
 This documentation repository contains all products marketing collateral (manuals, certifications, 3D files, brochures, whitepapers) and custom OS downloads related to the Chipsee products portfolio.
 
 ### Industrial Panel & Embedded PCs :
