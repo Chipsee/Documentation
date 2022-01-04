@@ -45,9 +45,6 @@ Below are the links to the prebuilt files for each industrial PC model.
 + :ref:`CS10768T097 <CS10768T097-debian>`
 
 
-.. sectnum::
-   :start: 1
-   :suffix: .
 
 .. rubric:: System Features
 

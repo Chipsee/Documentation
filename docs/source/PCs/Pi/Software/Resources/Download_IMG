@@ -63,7 +63,7 @@ The write images to the eMMC, follow these steps:
 * For **CS10600RA070**, **CS12800RA101**, and **CS10600RA40** products, plug your host PC Mini-B USB into the USB Downloader port, making sure the boot switch is set to the USB position.
 * For **CS12800RA4101** product, plug your host PC Micro-B USB into the USB Slave port (can be also called USB Download Port), press and hold the power button.
 * Power ON the board. Windows should now find the hardware and install the driver. For CS12800RA4101, you can release the power button now.
-* Once the driver installation is complete, run the **RPiBoot.exe** tool that was previously installed. You can run **RPiBoot.exe** in Windows PowerShell, as shown in the figure below.
+* Once the driver installation is complete, run the **RPiBoot.exe** tool that was previously installed. You can run **RPiBoot.exe** in Windows PowerShell, as shown on the figure below.
     .. figure:: /Media/Pi/Software/rpiboot.jpeg
        :align: center
        :figclass: align-center

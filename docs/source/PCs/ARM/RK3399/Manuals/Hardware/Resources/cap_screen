@@ -1,0 +1,24 @@
+Touch Screen
+============
+
+|Product| uses a |tscreen|.
+
+.. figure:: /Media/ARM/A72/Others/TS_CON.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Capacitive Touch Screen Connector*
+
+.. attention::
+
+   A capacitive touch screen is susceptible to power noise and Electromagnetic Radiation (EMR). It may cause LCD ripples or even capacitive
+   touch malfunction. If using a capacitive multi-touch test application, you might notice the touch points float erratically across the display.
+   There are several solutions to this problem:
+
+   #) Use a high-quality Power Adapter Unit (PSU) with low EMR. You can also provide power from a battery.
+   #) Make sure that the |product| Power Input connector (pin 3) is properly connected to the Power System Ground to provide sufficient EMI shielding and eliminate the problem entirely.
+   #) Bad GND problem can also be confirmed by touching pin 3 of the Power Input connector with one hand while operating the capacitive touch screen
+      with the other hand. In this case, the operator's body acts as the Power System Ground.
+
+
+

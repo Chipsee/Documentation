@@ -44,10 +44,6 @@ Below are the links to the prebuilt files for each industrial PC model.
 + :ref:`CS10768T097 <CS10768T097-android>`
 
 
-.. sectnum::
-   :start: 1
-   :suffix: .
-
 .. rubric:: System Features
 
 .. table::
@@ -64,12 +60,12 @@ Below are the links to the prebuilt files for each industrial PC model.
 Preparation
 ===========
 
-You will need to prepare the following items before you can start using the Prebuilt Files Package to reflash the system.
+You will need to prepare the following items before you can start using the Prebuilt Files Package to re-flash the system.
 
-* Power Supply Unit (PSU) with the appropriate voltages, as follows:
+Power Supply Unit (PSU) with the appropriate voltages, as follows:
 
-   + Products with 5" display panel require 6V to 36V PSU
-   + Products with 7" to 10.1" display panel and larger require 6V to 42V PSU
++ Products with 5" display panel require 6V to 36V PSU
++ Products with 7" to 10.1" display panel and larger require 6V to 42V PSU
 
 * USB to serial cable for debugging Chipsee Industrial Embedded Computers (Chipsee IPC)
 * TF Card to create a bootable storage for re-flashing the system. Use the prebuilt files :ref:`link above <db_pkg_android>` to re-flash the system.
@@ -181,7 +177,7 @@ Gravity sensor test
 You can test the gravity sensor by whirling the screen.
 
 * Run **SensorList** App.
-* In the *"Analog Device 3 axis accelerometer"* option, you can see real-time changes of the three-axis acceleration value curve, as shown in the figure below.
+* In the *"Analog Device 3 axis accelerometer"* option, you can see real-time changes of the three-axis acceleration value curve, as shown on the figure below.
 
 .. figure:: /Media/ARM/A8/Software/Android/Gravity_Sensor_Test.jpeg
    :align: center
@@ -208,7 +204,7 @@ There are four serial ports on the Chipsee IPC: 2 X RS232 and 2 X RS485. Refer t
 You can install the **SecureCRT** or **Putty** software on a Windows 7 PC to test the serial ports by following these steps:
 
 * Connect COM1 on industrial PC board to Windows 7 PC.
-* Run **Serial Port API** App to communicate with Windows 7 PC, as shown in the figure below.
+* Run **Serial Port API** App to communicate with Windows 7 PC, as shown on the figure below.
 
 .. figure:: /Media/ARM/A8/Software/Android/Serial_Port_Settings.jpeg
    :align: center
@@ -224,7 +220,7 @@ You can install the **SecureCRT** or **Putty** software on a Windows 7 PC to tes
 
    Serial send test
 
-* Push the button with the label "Console", to send whatever you like as shown in the figure below.
+* Push the button with the label "Console", to send whatever you like as shown on the figure below.
 
 .. figure:: /Media/ARM/A8/Software/Android/Serial_Port_Settings_3.jpeg
    :align: center
@@ -238,7 +234,7 @@ USB device test
 
 **USB-WiFi**
 
-The |systemType| OS supports USB-WiFi (RTL8188). You can find the device in settings, as shown in the figure below.
+The |systemType| OS supports USB-WiFi (RTL8188). You can find the device in settings, as shown on the figure below.
 
 .. figure:: /Media/ARM/A8/Software/Android/USB_WiFi_Settings.jpeg
    :align: center
@@ -248,7 +244,7 @@ The |systemType| OS supports USB-WiFi (RTL8188). You can find the device in sett
 
 **USB-Camera**
 
-The |systemType| OS supports USB-Camera. You can find the device in settings, as shown in the figure below.
+The |systemType| OS supports USB-Camera. You can find the device in settings, as shown on the figure below.
 
 .. figure:: /Media/ARM/A8/Software/Android/USB_Camera_Settings.jpeg
    :align: center
@@ -293,7 +289,7 @@ Follow these steps to view |systemType| system via the serial port:
 
 * Connect COM1 on the industrial PC board to Windows 7 PC.
 * Open the **SecureCRT** or **Putty** software on the Windows 7 PC.
-* Power ON the industrial PC. You will see the serial output information as shown in the figure below.
+* Power ON the industrial PC. You will see the serial output information as shown on the figure below.
 
 .. figure:: /Media/ARM/A8/Software/Android/Serial_Debug.jpeg
    :align: center
@@ -332,7 +328,7 @@ Adb connect via USB OTG
     * Select **Android ADB Interface** then click the **Next** button.
     * A warning will appear, answer **Yes** but read the warning, anyway.
     * When the wizard finishes, click the **Close** button .
-    * Now you can see it installed the driver successfully, as shown in the figure below.
+    * Now you can see it installed the driver successfully, as shown on the figure below.
 
     .. figure:: /Media/ARM/A8/Software/Android/ADB_Driver.jpeg
        :align: center
@@ -353,7 +349,7 @@ Adb connect via USB OTG
         > adb devices
         > adb shell
 
-    * If the ``#`` prompt appears at the beginning of the command line, it means we connected the industrial PC with the Windows 7 PC successfully as shown in the figure below.
+    * If the ``#`` prompt appears at the beginning of the command line, it means we connected the industrial PC with the Windows 7 PC successfully as shown on the figure below.
 
     .. figure:: /Media/ARM/A8/Software/Android/ADB_Shell.jpeg
        :align: center
@@ -363,7 +359,7 @@ Adb connect via USB OTG
 
     * Now you can use Linux commands like ``ls``, ``cd`` and so on. Press **Ctrl + C** to exit the shell and return to the Windows system.
 
-#) Use the ``adb`` command to install an Android App: for example SogouInput.apk. If there is a **SUCCESS** message, as shown in the figure below, then the app installation was successful.
+#) Use the ``adb`` command to install an Android App: for example SogouInput.apk. If there is a **SUCCESS** message, as shown on the figure below, then the app installation was successful.
     .. code:: powershell
 
         > adb install SogouInput.apk
@@ -380,7 +376,7 @@ Adb connect via USB OTG
         > adb shell pm list packages
         > adb uninstall com.sohu.inputmethod.sogou
 
-    * The ``pm list`` command gets the full name of the app, as shown in the figure below.
+    * The ``pm list`` command gets the full name of the app, as shown on the figure below.
 
     .. figure:: /Media/ARM/A8/Software/Android/App_Installed.jpeg
        :align: center
@@ -422,7 +418,7 @@ Adb connect via internet
         lo       UP    127.0.0.1       255.0.0.0       0x00000049
         eth0     UP    192.168.1.117/24   255.255.252.0   0x00001043
 
-#) If the industrial PC's Ethernet is not configured, configure the Ethernet using the``ifconfig``/``netcfg`` command as shown below.
+#) If the industrial PC's Ethernet is not configured, configure the Ethernet using the ``ifconfig``/``netcfg`` command as shown below.
     .. code:: powershell
 
         # netcfg eth0 dhcp
@@ -443,7 +439,7 @@ Adb connect via internet
 
         $ adb kill-server
         $ adb start-server
-        $ adb connect :5555d
+        $ adb connect :5555
 
 #) Verify the device connectivity, by executing the following commands. If connected, find the device name listed as``IPADDRESS:PORT``.
     .. code:: powershell

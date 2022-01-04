@@ -46,10 +46,6 @@ Below are the links to the prebuilt files for each industrial PC model.
 + :ref:`CS10768T097 <CS10768T097-linuxQt>`
 
 
-.. sectnum::
-   :start: 1
-   :suffix: .
-
 .. rubric:: System Features
 
 .. table::
@@ -69,7 +65,6 @@ Preparation
 You will need to prepare the following items before you can start using the Prebuilt Files Package to re-flash the system.
 
 * Power Supply Unit (PSU) with the appropriate voltages, as follows:
-
    + Products with 5" display panel require 6V to 36V PSU
    + Products with 7" to 10.1" display panel and larger require 6V to 42V PSU
 
@@ -182,7 +177,7 @@ Audio and video test
 ^^^^^^^^^^^^^^^^^^^^
 
 Insert the microphone and earphones into the Audio IO interface (Audio IN coloured pink, Audio OUT coloured light blue). |br|
-As shown in the figure below, click the **Multimedia** icon on desktop then choose the **MPEG-4+AAC Dec** codec to test.
+as shown on the figure below, click the **Multimedia** icon on desktop then choose the **MPEG-4+AAC Dec** codec to test.
 
 .. figure:: /Media/ARM/A8/Software/Linux/Audio_Video_Test.jpeg
    :align: center
@@ -193,7 +188,7 @@ As shown in the figure below, click the **Multimedia** icon on desktop then choo
 3D Test
 ^^^^^^^
 
-Click the **3D** icon on desktop, then choose **Film TV** to test perform 3D testing as shown in the figure below.
+Click the **3D** icon on desktop, then choose **Film TV** to test perform 3D testing as shown on the figure below.
 
 .. figure:: /Media/ARM/A8/Software/Linux/3D_Test.jpeg
    :align: center
@@ -223,7 +218,7 @@ If you want to use COM1 as a normal serial port, you can re-configure the port b
 * Run a serial test:
     + Install **SecureCRT** or **Putty** software on a Windows 7 PC and use it to perform the serial port testing.
     + Click on the **Chipsee** icon on desktop, select **ChipseeTest** to run the **SerialTest** app to communicate with Windows 7 PC.
-    + From the **ChipseeTest** app, search for the serial area then configure the following settings, as shown in the figure below.
+    + From the **ChipseeTest** app, search for the serial area then configure the following settings, as shown on the figure below.
         - set Com to COM2
         - set Baud to 115200
         - click on the **Open** button
@@ -304,7 +299,7 @@ The figure below is an illustration of the network information on the industrial
 Date and Time
 ^^^^^^^^^^^^^
 
-Click the **Edit** icon at the time display area to set the time and date, as shown in the figure below.
+Click the **Edit** icon at the time display area to set the time and date, as shown on the figure below.
 
 .. figure:: /Media/ARM/A8/Software/Linux/Date_Time_Test.jpeg
     :align: center
@@ -502,7 +497,7 @@ New development kit
         Succeed
 
     Click the **Finish** button to test the connection between the Ubuntu Linux system and the industrial PC via internet. |br|
-    Then click the **Build & Run** tab to select and apply a compiler, as shown in the figure below.
+    Then click the **Build & Run** tab to select and apply a compiler, as shown on the figure below.
 
     .. figure:: /Media/ARM/A8/Software/Linux/Dev_Kit_4.jpeg
         :align: center

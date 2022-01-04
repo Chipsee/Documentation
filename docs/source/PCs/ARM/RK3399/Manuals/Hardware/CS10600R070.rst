@@ -1,0 +1,205 @@
+.. |product| replace:: EPC-PPC-A72-70-C
+
+.. |productE| replace:: EPC-A72-70-C
+
+.. |productP| replace:: PPC-A72-70-C                                                                                                                                             -70-C
+
+.. |PN| replace:: PN: CS10600R070
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |dispsize| replace:: 7.0"
+
+.. |res| replace:: 1024 x 600
+
+.. |bright| replace:: 500 |cd|
+
+.. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |dimE| replace:: 190 x 107 x 27.7mm
+
+.. |dimP| replace:: 205.5 x 135.5 x 27.5mm
+
+.. |weightE| replace:: 345g
+
+.. |weightP| replace:: 580g
+
+.. |RAM| replace:: 4GB DDR3
+
+.. |eMMC| replace:: 16GB
+
+.. |tscreen| replace:: 5-point capacitive touch screen
+
+.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |LAN| replace:: 1 x RJ45, GbE
+
+.. |GPIO| replace:: 8 Channels
+
+.. |opt1| replace:: Supported, Optional
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |vin_rng| replace:: From 12V to 36V
+
+.. |cur| replace:: 800mA Max
+
+.. |pwr| replace:: 8W Typical
+
+.. |temp| replace:: From -20°C to +70°C
+
+.. |rs232| replace:: 4 x RS232
+
+.. |rs485| replace:: 2 x RS485 (1 debug port)
+
+
+.. _EPC-PPC-A72-70-C:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. figure:: /Media/ARM/A72/CS10600R070/PPC-A72-70-C-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Panel Mounting Variant)
+
+.. figure:: /Media/ARM/A72/CS10600R070/PPC-A72-70-C-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Panel Mounting Variant)
+
+.. figure:: /Media/ARM/A72/CS10600R070/EPC-A72-70-C-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Embedded Variant)
+
+.. figure:: /Media/ARM/A72/CS10600R070/EPC-A72-70-C-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Embedded Variant)
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features_2
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/connectivity
+
+USB Connectors
+--------------
+
+There are 3 x **USB HOST connectors** onboard which includes 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, and 1 x USB Type-C, as shown in the figures below.
+
+.. Figure:: /Media/ARM/A72/CS10600R070/USB.jpeg
+  :align: center
+  :figclass: align-center
+
+  *USB 2.0 HOST and USB 3.0 HOST Connectors (embedded/enclosed PC version)*
+
+.. Figure:: /Media/ARM/A72/Others/USB-C.jpeg
+  :align: center
+  :figclass: align-center
+
+  *USB Type-C Connector (embedded/enclosed PC version)*
+
+.. warning::
+
+  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi_BT
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/expansion_IO
+
+.. include:: Resources/TF_Card
+
+.. include:: Resources/Audio_IO
+
+.. include:: Resources/HDMI
+
+.. include:: Resources/power_btn
+
+Mounting Procedure
+==================
+
+|Product| can be mounted with 4 x M4 screws, enabling simplified installation onto any standard mounting fixture. Other mounting options
+might also be supported according to the table in the `Hardware Features`_ section.
+
+|productE|
+----------
+You can mount |productE| with the Embedded mounting method, as shown on the figure below.
+
+.. Figure:: /Media/ARM/A72/Others/mountE.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Embedded mounting*
+
+|productP|
+----------
+You can mount |productP| with the Panel mounting methods, as shown on the figure below.
+
+.. Figure:: /Media/ARM/A72/Others/mountP.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Panel mounting*
+
+.. attention::
+
+    Please make sure the display is not exposed to high pressure when mounting into an enclosure.
+
+
+You can find detailed information about mounting in the |mguide|_ on the Chipsee official website.
+
+Mechanical Specifications
+=========================
+
+|productE|
+----------
+
+The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+product measurements.
+
+.. figure:: /Media/ARM/A72/CS10600R070/EPC-A72-70-C-TD.png
+   :align: center
+   :figclass: align-center
+
+   |productE| *Technical Drawing*
+
+|productP|
+----------
+For |productP|, the outer mechanical dimensions are |dimP| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+product measurements.
+
+.. figure:: /Media/ARM/A72/CS10600R070/PPC-A72-70-C-TD.png
+   :align: center
+   :figclass: align-center
+
+   |productP| *Technical Drawing*
+
+.. caution::
+
+    * When you use product |productE|, you should not touch the circuit board on the back of the product if the product is powered ON.
+    * Also, when the product is powered OFF, please take anti-static measures before touching the circuit board.
+
+.. include:: Resources/support
+

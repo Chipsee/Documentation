@@ -201,7 +201,7 @@ You can use the SIM card slot when you mount the 4G/LTE module.
 Audio In/Out Connector
 ----------------------
 
-The product features audio In/Out connector as shown in the figure below.
+The product features audio In/Out connector as shown on the figure below.
 
 .. figure:: /Media/Pi/AIO/CS12800RA4101A/101-Audio.jpeg
   :align: center
@@ -274,7 +274,7 @@ The table below offers more detailed description of every pin and its definition
 Camera and Mic Input
 --------------------
 
-|Product| has a camera and an integrated microphone on the front panel, as shown in the figure below.
+|Product| has a camera and an integrated microphone on the front panel, as shown on the figure below.
 
 .. figure:: /Media/Pi/AIO/CS12800RA4101A/101-Cam_Mic.jpeg
    :align: center

@@ -20,7 +20,7 @@
 
 .. |weightE| replace:: 380g
 
-.. |weightP| replace:: 680 g
+.. |weightP| replace:: 680g
 
 .. |RAM| replace:: 2GB DDR3
 
@@ -170,7 +170,7 @@ The table below offers more detailed description of every pin and its definition
 USB Connectors
 --------------
 
-There are 3 x Type A **USB HOST connectors** onboard, as shown in the figure below.
+There are 3 x Type A **USB HOST connectors** onboard, as shown on the figure below.
 
 .. Figure:: /Media/ARM/A9/Others/USB3.png
   :align: center

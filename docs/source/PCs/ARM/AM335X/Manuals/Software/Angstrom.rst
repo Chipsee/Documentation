@@ -42,9 +42,6 @@ Below are the links to the prebuilt files for each industrial PC model.
 + :ref:`CS10768T097 <CS10768T097-angstrom>`
 
 
-.. sectnum::
-   :start: 1
-   :suffix: .
 
 .. rubric:: System Features
 
@@ -241,7 +238,7 @@ Refer to the table below for the available serial device nodes.
 
         # systemctl start serial-getty@ttyO0.service
 
-2) From the **ChipseeTest** app, search for the serial area then configure the following settings, as shown in the figure below.
+2) From the **ChipseeTest** app, search for the serial area then configure the following settings, as shown on the figure below.
     - set Com to COM2
     - set Baud to 115200
     - click on the **Open** button
@@ -301,7 +298,7 @@ The figure below is an illustration of the network information on the industrial
 Date and Time
 ^^^^^^^^^^^^^
 
-Click the **Edit** icon at the time display area to set the time and date, as shown in the figure below.
+Click the **Edit** icon at the time display area to set the time and date, as shown on the figure below.
 
 .. figure:: /Media/ARM/A8/Software/Linux/Date_Time_Test.jpeg
     :align: center

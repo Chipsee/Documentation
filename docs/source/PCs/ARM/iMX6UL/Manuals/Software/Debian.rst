@@ -29,9 +29,6 @@ CS10600U070-V1.0
 
 :download:`prebuilt-cs10600u070v1-debian-emmc-20210201.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6UL/7/Debian8.10/prebuilt-cs10600u070v1-debian-emmc-20210201.tar.gz>`
 
-.. sectnum::
-   :start: 1
-   :suffix: .
 
 .. centered:: System Features
 
@@ -350,7 +347,7 @@ There are five serial ports on the Chipsee IPC: 2 X RS232 and 3 X RS485. Refer t
 .. table:: Table 2: Serial Ports Device Nodes
    :align: center
    :width: 60%
-   :widths: 50 50
+   :widths: auto
   
    +---------+--------------+
    | Ports   | Device Node  |
@@ -436,7 +433,7 @@ The following example can be used to perform testing:
 GPIO Ports
 ----------
 
-There are 8 GPIO ports on the Chipsee IPC, as explained in the :ref:`1.6.2. GPIO <GPIO>` chapter of the EPC/PPC-A7-70HB-C Hardware
+There are 8 GPIO ports on the Chipsee IPC, as explained in the :ref:`GPIO <GPIO>` chapter of the EPC/PPC-A7-70HB-C Hardware
 Documentation. The table below contains the related device nodes:
 
 .. table:: Table 3: GPIO Ports

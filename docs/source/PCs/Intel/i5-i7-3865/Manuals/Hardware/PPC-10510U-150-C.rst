@@ -24,9 +24,6 @@
 
 .. _PPC-10510U-150-C:
 
-.. sectnum::
-   :start: 1
-   :suffix: .
 
 |product|
 #########

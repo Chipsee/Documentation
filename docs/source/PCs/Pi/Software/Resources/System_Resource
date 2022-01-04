@@ -15,7 +15,7 @@ Chipsee Raspberry |Pi| boards support RS232 and RS485. Check the table below to 
 .. table:: CS10600RA070-C111
    :align: center
    :width: 100%
-   :widths: 50 50
+   :widths: auto
 
    +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
    | Ports                       | Name                          | Node                          | Protocol                      |
@@ -34,7 +34,7 @@ There is one GPIO that is used by RS485. You can control it to enable and disabl
 .. table:: RS485 control GPIO
    :align: center
    :width: 100%
-   :widths: 50 50
+   :widths: auto
 
    +-----------+-----------------------------------------------------+-------------------------------------------------------+-------------------------------+
    | GPIO      | Initial                                             | Control                                               | Function                      |
@@ -51,7 +51,7 @@ There is one GPIO that is used by RS485. You can control it to enable and disabl
 .. table:: CS12800RA101
    :align: center
    :width: 100%
-   :widths: 50 50
+   :widths: auto
 
    +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
    | Ports                       | Name                          | Node                          | Protocol                      |
@@ -72,7 +72,7 @@ There is one GPIO that is used by RS485. You can control it to enable and disabl
 .. table:: CS10600RA4070-C111
    :align: center
    :width: 100%
-   :widths: 50 50
+   :widths: auto
 
    +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
    | Ports                       | Name                          | Node                          | Protocol                      |
@@ -98,7 +98,7 @@ There is one GPIO that is used by RS485. You can control it to enable and disabl
 .. table:: CS12800RA4101
    :align: center
    :width: 100%
-   :widths: 50 50
+   :widths: auto
 
    +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
    | Ports                       | Name                          | Node                          | Protocol                      |
@@ -137,7 +137,7 @@ There is one Relay on CS12800RA4101. For a detailed port definition, please refe
 .. table:: CS12800RA4101 Relay on P10
    :align: center
    :width: 100%
-   :widths: 50 50
+   :widths: auto
 
    +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
    | Ports                       | Name                          | Node                          | Protocol                      |
@@ -185,7 +185,7 @@ We use one GPIO to control the backlight for Chipsee Raspberry Pi boards, the GP
 .. table:: Backlight GPIO
    :align: center
    :width: 100%
-   :widths: 50 50
+   :widths: auto
 
    +-----------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+
    | Board                       | GPIO                          | GPIO Config in config.txt     | PWM                           | PWM Function                  |
@@ -256,11 +256,11 @@ We use one GPIO to control the backlight for Chipsee Raspberry Pi boards, the GP
 CAN Bus
 -------
 
-There is one channel CAN bus on **CS12800RA101/CS10600RA4070**. You can install `can-utils` and use them to test CAN. But you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown in the figure below.
+There is one channel CAN bus on **CS12800RA101/CS10600RA4070**. You can install `can-utils` and use them to test CAN. But you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown on the figure below.
 
 .. note::
 
-     All CAN signals have mounted on the 120Ω Matched Resistor by default on Chipsee Raspberry Pi boards.
+   The Chipsee IPC does not mount the 120Ω matched resistor on all CAN signals by default.
 
 .. figure:: /Media/Pi/Software/CAN.jpeg
    :align: center

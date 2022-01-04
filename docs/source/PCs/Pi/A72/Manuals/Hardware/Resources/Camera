@@ -1,7 +1,7 @@
 Camera Connector
 ----------------
 
-|Product| has a 15 Pin **Camera Connector**, as shown in the figure below. The camera signals come from CAM1.
+|Product| has a 15 Pin **Camera Connector**, as shown on the figure below. The camera signals come from CAM1.
 The :ref:`table <camera-table>` below gives details about the definition of every Pin.
 
 .. figure:: /Media/Pi/A72/Others/Camera.jpeg
