@@ -1,0 +1,1221 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Chipsee
+# This file is distributed under the same license as the Chipsee
+# Documentation Sample package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Chipsee Documentation Sample 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-08 04:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:59
+msgid "|product|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:62
+msgid "*Version 1.0*"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:67
+msgid "Front View (Panel Mounting Variant)"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:73
+msgid "Back View (Panel Mounting Variant)"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:79
+msgid "Front View (Embedded Variant)"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:85
+msgid "Back View (Embedded Variant)"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/overview:2
+msgid "Product Overview"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/overview:4
+msgid ""
+"The |Cortex|-A8 series |product| (|PN|) is a high-quality industrial PC. "
+"It features a |disp_des|."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/overview:8
+msgid "Process Control"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/overview:9
+msgid "Process Monitoring"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/overview:10
+msgid "HMI"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/overview:11
+msgid "Infotainment"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/overview:12
+msgid "Predictive Maintenance"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/overview:13
+msgid "Machine Learning"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/overview:14
+msgid "Machine Vision"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/overview:15
+msgid "Automotive applications"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/overview:16
+msgid "Gaming..."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/overview:18
+msgid ""
+"It is available both as an embedded solution and as a device hosed in an "
+"aluminum casing with bezels, thus facilitating different installation "
+"options:"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/overview:20
+msgid "Installation on an industrial cabinet"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/overview:21
+msgid "Integration with the existing equipment"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/overview:23
+msgid ""
+"|Product| is based around the powerful CS-SOM335X-V3 System on Module "
+"(SoM), powered by the AM3354 |Arm| |Cortex|-A8 microprocessor unit (MPU)."
+" The AM33554 MPU is enhanced with image, graphics processing, peripherals"
+" and industrial interface options such as EtherCAT and PROFIBUS. The "
+"devices support high-level operating systems (HLOS)."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/overview:25
+msgid ""
+"The microprocessor unit (MPU) subsystem is based on the ARM Cortex-A8 "
+"processor and the PowerVR SGX™ Graphics Accelerator subsystem provides 3D"
+" graphics acceleration to support display and gaming effects."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/overview:27
+msgid ""
+"The AM33554 MPU does not generate extensive heat, so even the thin "
+"aluminum housing on PPC version delivers sufficient thermal dissipation."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/ordering:2
+msgid "Ordering Options"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/ordering:4
+msgid ""
+"Chipsee products can be customized during the ordering process. The "
+"product will be shipped with the pre-installed factory defaults if no "
+"extra requirements are specified. The table in the `Hardware Features`_ "
+"section provides information about the default options bundled with the "
+"product."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/ordering:8
+msgid ""
+"You can order |Product| from the official |cstore|_ or from your nearest "
+"distributor."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/ordering:11
+msgid "Operating System"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/ordering:13
+msgid ""
+"This product comes with a pre-installed OS of your choice. Please see the"
+" list below for the supported OSes, which can be also obtained from the "
+":ref:`Software Documentation <AM335X_OS>` section, along with the "
+"detailed installation instructions."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/ordering:15
+msgid "Android 4.1"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/ordering:16
+msgid "Linux with Qt 4.8"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/ordering:17
+msgid "Linux with Qt 5.5"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/ordering:18
+msgid "Debian 7.4"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/ordering:19
+msgid "Debian 8.4"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/ordering:20
+msgid "Angstorm v2012.12"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/ordering:24
+msgid ""
+"The :ref:`Software Documentation <AM335X_OS>` section provides a detailed"
+" instruction how to install different OS on your own. However, bear in "
+"mind that Chipsee can't take the responsibility of inadequate "
+"installation procedure. If you \"brick\" your device, please contact "
+"Chipsee Technical Support at |email|_ for further assistance"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:92
+msgid "Optional Features"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:94
+msgid ""
+"|Product| does not include WiFi/BT and/or 3G/4G modules by default. Both "
+"the Wi-Fi/BT and 3G/4G LTE module module are optional and can be selected"
+" during the ordering process."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst
+msgid ""
+"Installation, repair, and maintenance tasks should be performed by "
+"trained personnel only."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst
+msgid ""
+"Chipsee does not bear any responsibility for damage caused by inadequate "
+"handling of the product."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/HW_features:2
+msgid "Hardware Features"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/HW_features:4
+msgid ""
+"|Product| offers a board range of performance and connectivity options "
+"for scalable integration, providing expandability according to future "
+"needs. Some of the key features are listed in the :ref:`table <hardware-"
+"table>` below."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:3
+msgid "Key Features"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:11
+msgid "**CPU**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:11
+msgid "AM3354ZCZ100, |Arm| |Cortex|-A8, 1GHz"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:13
+msgid "**RAM**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:13
+msgid "|RAM|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:30
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:15
+msgid "**eMMC**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:15
+msgid "|eMMC|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:17
+msgid "**Storage**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:17
+msgid "TF Card, Supports up to 32GB SDHC"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:19
+msgid "**Display**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:19
+msgid "|dispsize| LCD, |res| resolution \\px, brightness |bright|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:21
+msgid "**Touch**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:21
+msgid "|tscreen|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:23
+msgid "**USB**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:23
+msgid "|USB|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:25
+msgid "**LAN**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:25
+msgid "|LAN|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:27
+msgid "**Audio**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:27
+msgid "|audio|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:29
+msgid "**Buzzer**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:29
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:31
+msgid "Yes"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:31
+msgid "**RTC**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:33
+msgid "**RS232**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:33
+msgid "2 x RS232"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:35
+msgid "**RS485**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:35
+msgid "2 x RS485\\ [#at]_"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:37
+msgid "**CAN**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:37
+msgid "1 x CAN\\ [#at]_"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:39
+msgid "**GPIO**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:39
+msgid "|GPIO|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:41
+msgid "**WiFi/BT**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:41
+msgid "|opt2|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:43
+msgid "**Expansion Port**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:43
+msgid "|expansions|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:45
+msgid "**3G/4G/LTE**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:45
+msgid "|opt1|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:47
+msgid "**Power Input**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:47
+msgid "|vin_rng|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:49
+msgid "**Current at 15V**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:49
+msgid "|cur|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:51
+msgid "**Power Consumption**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:51
+msgid "|pwr|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:53
+msgid "**Working Temperature**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:53
+msgid "|temp|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:55
+msgid "**OS**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:55
+msgid "Multiple Choices (`Operating System`_)"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:57
+msgid "**Dimensions**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:57
+msgid "|productE| (|PN|\\ E): |dimE|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:59
+msgid "|productP| (|PN|\\ P): |dimP|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:61
+msgid "**Weight**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:61
+msgid "|productE| (|PN|\\ E): |weightE|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:63
+msgid "|productP| (|PN|\\ P): |weightP|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:65
+msgid "**Mounting**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:65
+msgid "|productE| (|PN|\\ E): Embedded"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:67
+msgid "|productP| (|PN|\\ P): Panel"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:72
+msgid "The RS485 and CAN channels may be customized to the following arrangement:"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:74
+msgid "2 x RS485, 1 x CAN (Default)"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/table:75
+msgid "1 x RS485, 2 x CAN"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:2
+msgid "Power Input"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:4
+msgid ""
+"|Product| can be powered by a wide range of input voltages: |vin_rng| DC."
+" The power input connector is a **3-pin, 3.81mm terminal**. The polarity "
+"and the pinout is clearly marked on the housing of the PPC version, as "
+"well as on the PCB itself of the EPC version, as shown in the figure "
+"below."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:14
+msgid "*Power Input (embedded/enclosed version)*"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:16
+msgid ""
+"Note that the \"**+**\" sign represents the positive power input, and it "
+"is printed both at the casing and as a silk-screen on a PCB of the "
+"embedded version. The \"**-**\" terminal is shorted to the ground."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:20
+msgid "Power Connector"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:26
+msgid "Power Input Definition"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:23
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:28
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:28
+msgid "**Pin Number**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:23
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:28
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:28
+msgid "**Definition**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:23
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:28
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:28
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:25
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:52
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:30
+msgid "Pin 1"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:30
+msgid "Positive Input"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:30
+msgid "DC Power **Positive Terminal**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:27
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:50
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:32
+msgid "Pin 2"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:32
+msgid "Negative Input"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:32
+msgid "DC Power **Negative Terminal**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:29
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:48
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:34
+msgid "Pin 3"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:34
+msgid "Ground"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:34
+msgid "**Power System Ground**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/power:39
+msgid "The system ground “**G**” is connected to power negative “**-**” on board."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/res_screen:2
+msgid "Touch screen"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/res_screen:4
+msgid ""
+"|product| is equipped with a resistive touch screen. The resistive touch "
+"screen is an ideal option for harsh industrial conditions due to its high"
+" immunity against high temperature, dirt, and dust. In addition, it does "
+"not require any special material to be operated; the resistive touch "
+"screen can be used with regular rubber gloves, fingers, or a plastic "
+"stylus."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/res_screen:10
+msgid "*Resistive Touch Connector*"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/res_screen:14
+msgid ""
+"**Size/Type:** |dispsize| high-temperature resistant, five-wire analog "
+"resistive touch screen |br| **Surface Hardness:** 3H |br| **Service Life "
+"(MTBF):** 35 million click events |br| **Light Transmittance:** > 81% "
+"|br|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:2
+msgid "Connectivity"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:4
+msgid ""
+"There are many connectivity options available on the |product| industrial"
+" PC. It has |USB| (can be customized to Host or OTG), |LAN| (RJ45) "
+"Ethernet connector supporting up to 1 Gbps, and 5 x UART terminals "
+"(RS232/RS485)."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:8
+msgid "RS232/485/CAN"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:10
+msgid ""
+"The serial communication interfaces (RS485, RS482, and CAN) are routed to"
+" a **12-pin 3.81mm terminal**, as illustrated on the figure below."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:16
+msgid ""
+"*Relation between serial pins on embedded vs. enclosed version of the* "
+"|product| *Industrial PC*"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:18
+msgid ""
+"The table below offers more detailed description of every pin and its "
+"definition:"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:20
+msgid "Connectivity Section"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:26
+msgid "**RS232 / RS485 / CAN Pin Definition:**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:30
+msgid "Pin 12"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:30
+msgid "+5V"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:30
+msgid "System +5V Power Output, No more than 1A Current output"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:32
+msgid "Pin 11"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:32
+msgid "RXD1"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:32
+msgid "UART0 of CPU, RS232 RXD Signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:43
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:34
+msgid "Pin 10"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:34
+msgid "TXD1"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:34
+msgid "UART0 of CPU, RS232 TXD Signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:41
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:36
+msgid "Pin 9"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:36
+msgid "RXD2"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:36
+msgid "UART1 of CPU, RS232 RXD Signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:39
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:38
+msgid "Pin 8"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:38
+msgid "TXD2"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:38
+msgid "UART1 of CPU, RS232 TXD Signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:37
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:40
+msgid "Pin 7"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:40
+msgid "B1"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:40
+msgid "UART2 of CPU, RS485 B Signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:35
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:42
+msgid "Pin 6"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:42
+msgid "A1"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:42
+msgid "UART2 of CPU, RS485 A Signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:33
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:44
+msgid "Pin 5"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:44
+msgid "B2"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:44
+msgid "UART4 of CPU, RS485 B Signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:31
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:46
+msgid "Pin 4"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:46
+msgid "A2"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:46
+msgid "UART4 of CPU, RS485 A Signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:48
+msgid "CAN_H"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:48
+msgid "DCAN0 of CPU, CAN H Signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:50
+msgid "CAN_L"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:50
+msgid "DCAN0 of CPU, CAN L Signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:27
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:52
+msgid "GND"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/connectivity:52
+msgid "Isolated Ground Output"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:113
+msgid "USB Connectors"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:115
+msgid ""
+"There are 4 x Type A **USB HOST connectors** onboard, as shown on the "
+"figure below."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:121
+msgid "*USB HOST Connectors (embedded/enclosed PC version)*"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:124
+msgid ""
+"The USB Connectors are defined as HOST by default. If customer needs it "
+"work as OTG (slave), please solder a 0Ω 0603 Package Resistor to **R119**"
+" and **R121**."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:128
+msgid ""
+"Be careful not to touch surrounding electronic components accidentally "
+"while plugging in USB devices into the embedded Industrial PC version."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/LAN:2
+msgid "LAN Connectors"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/LAN:4
+msgid ""
+"**LAN (RJ45) connector** provides Ethernet connectivity over standardized"
+" Ethernet cables as shown the figure below. The integrated Ethernet "
+"interface supports up to 1 Gbps data throughput."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/LAN:11
+msgid "*RJ45 LAN Connectors (embedded/enclosed PC version)*"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/LAN:15
+msgid ""
+"Use CAT5 or better cables to achieve full data throughput over maximum "
+"distance defined by the 1000BASE-T standard (100m)."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/WiFi:2
+msgid "WiFi & BT Module"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/WiFi:4
+msgid ""
+"|Product| is equipped with the popular **Realtek RTL8723 WiFi/BT module**"
+" that supports BT/BLE 4.0 (with backward compatibility), as well as "
+"802.11bgn 2.4 GHz Wireless LAN (WLAN)."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/WiFi:10
+msgid "*Figure 12a: RTL8273 WiFi/BT Module*"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/WiFi:12
+msgid ""
+"The enclosed (PPC) variant of the product also includes an SMA connector "
+"for an external WiFi/BT antenna, as illustrated in the figure below."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/WiFi:18
+msgid "*RTL8273 WiFi/BT Module*"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/WiFi:23
+msgid "The product does not come shipped with the WiFi/BT module by default."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/WiFi:24
+msgid ""
+"If the operator mounts the WiFi/BT module on the |product| industrial PC,"
+" the module uses the USB1 channel to communicate with CPU, so it will "
+"occupy the USB1 channel."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/4G_com:2
+msgid "3G/4G/LTE Module"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/4G_com:4
+msgid ""
+"|Product| is equipped with a **mini-PCIe connector** that can connect to "
+"a 3G/4G module. The customer will also need a SIM Card Holder and a 3G/4G"
+" Antenna Connector to ensure 3G/4G works on the |product|."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/4G_com:11
+msgid "*3G/4G Module*"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/4G_com:18
+msgid "*SIM Card Holder and 3G/4G Antenna Connector*"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/4G_com:23
+msgid "The product does not come shipped with the 3G/4G module by default."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/4G_com:24
+msgid ""
+"Currently, the driver available for the 3G/4G module only supports "
+"product that has Android 4.1 OS installed on it."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:2
+msgid "GPIO Port"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:4
+msgid ""
+"|Product| has a 10 Pin 3.81mm **GPIO Connector**, as shown in the figure "
+"below, that is labeled as P18 on the PCB. The :ref:`table <gpio-table>` "
+"below gives details about the definition of every Pin."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:11
+msgid "*GPIO Connector*"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:16
+msgid "GPIO Connector Pin-out"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:25
+msgid "VCC"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:25
+msgid "Isolated Power +5V Output"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:27
+msgid "Isolated Ground"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:29
+msgid "OUT1"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:29
+msgid "Isolated Output 1"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:31
+msgid "OUT2"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:31
+msgid "Isolated Output 2"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:33
+msgid "OUT3"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:33
+msgid "Isolated Output 3"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:35
+msgid "OUT4"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:35
+msgid "Isolated Output 4"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:37
+msgid "IN1"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:37
+msgid "Isolated Input 1"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:39
+msgid "IN2"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:39
+msgid "Isolated Input 2"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:41
+msgid "IN3"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:41
+msgid "Isolated Input 3"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:43
+msgid "IN4"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:43
+msgid "Isolated Input 4"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:48
+msgid ""
+"The GPIO has been Opt-Isolated and it uses the 5V Logic by default. You "
+"can use an external isolated power input but the power input range should"
+" be from 5V to 24V DC."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:49
+msgid "The 4 output channels can drive at most 500mA current on each channel."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:50
+msgid ""
+"The operator can use the power input that connects to Power Input "
+"Connector, if the operator doesn't want to use an isolated power input."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/GP_IO:51
+msgid ""
+"Also, you can use the 5V voltage on-board as power input. The operator "
+"must solder a 0Ω resistor on R292 & R293 then you can connect the 5V "
+"voltage onboard to the **Isolated Power Input** Pin."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/TF_Card:2
+msgid "TF Card Slot"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/TF_Card:4
+msgid ""
+"|Product| features 1 x **TF Card (micro SD) slot**. It can address up to "
+"32GB of memory."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/TF_Card:10
+msgid "*TF (micro SD) Card Slot*"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/TF_Card:14
+msgid "The product does not come shipped with the TF Card by default."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Audio_IO:2
+msgid "Audio Connectors"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Audio_IO:4
+msgid ""
+"|Product| features some audio peripherals, as well. It has 1 x **3.5mm "
+"audio input jack** and 1 x **3.5mm audio output jack**."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Audio_IO:6
+msgid ""
+"On the embedded panel PC version, the pink connector is the audio input "
+"jack (line-in) and the blue connector is the audio output jack (line-out,"
+" typically around -10 dBV). On the enclosed panel PC version, both audio "
+"input and audio output are clearly marked on the figure below."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Audio_IO:12
+msgid "*Audio I/O (embedded/enclosed PC version)*"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Audio_IO:14
+msgid ""
+"In addition, |product| features a miniature 2W embedded speaker for audio"
+" reproduction, as well as a small buzzer for alarm/notification sounds."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Audio_IO:20
+msgid "*2W Micro Speaker and Buzzer*"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:2
+msgid "Boot DIP Switch"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:4
+msgid ""
+"|Product| supports boot from SD card. If you want to reflash the "
+"Operating System (OS), you can use the TF card for that purpose, combined"
+" with the **DIP switch** settings as illustrated in the figure below."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:7
+msgid ""
+"There is no need to alter the DIP switch settings during regular "
+"operation. However, if you need to reinstall the OS, please refer to the "
+":ref:`table <boot-sw-table>` below. Detailed information on how to re-"
+"flash the OS can be found in the :ref:`Software Documentation "
+"<AM335X_OS>`."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:14
+msgid "*Boot DIP Switch*"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:19
+msgid "Boot Configuration Selection"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:26
+msgid "**DIP SW**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:26
+msgid "**1**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:26
+msgid "**2**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:26
+msgid "**3**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:26
+msgid "**4**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:28
+msgid "**SD**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:28
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:30
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:32
+msgid "1"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:28
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:30
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:32
+msgid "0"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/Boot_SW:32
+msgid "**Download**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:145
+msgid "Mounting Procedure"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:147
+msgid ""
+"|Product| can be mounted with 8 x M4 screws, enabling simplified "
+"installation onto any standard mounting fixture. Other mounting options "
+"might also be supported according to the table in the `Hardware "
+"Features`_ section."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:150
+msgid ""
+"You can find detailed information about mounting in the |mguide|_ on the "
+"Chipsee official website."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:153
+msgid "Mechanical Specifications"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:156
+msgid "|productE|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:158
+msgid "The outer mechanical dimensions of |productE| are |dimE| (W x L x H)."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:161
+msgid "|productP|"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/CS80600T080.rst:163
+msgid "For |productP|, the outer mechanical dimensions are |dimP| (W x L x H)."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/mount_set:1
+msgid "**Panel Mounting**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/mount_set:7
+msgid "*Fixing* |productP| *industrial PC into panel*"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/mount_set:11
+msgid ""
+"With the |productP| industrial PC, the operator can fix the PC into the "
+"panel by pushing it from the front inside the panel as described in the "
+"figure above. The recommended maximum thickness of the panel material is "
+"8mm."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/mount_set:13
+msgid ""
+"Make sure the Panel PC is configured correctly. The Boot Switch is "
+"sitting inside the housing. To use it, the Panel PC has to be unmounted "
+"from the panel."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/mount_set:14
+msgid ""
+"Push the Panel PC straight into the Panel Hole until the unit sits flat "
+"on the panel as shown in the figure above."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/mount_set:15
+msgid "Use the mounting fixtures to lock the Panel PC into it’s place."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/support:2
+msgid "Technical Support"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/support:5
+msgid "Please feel free to contact us with any questions, queries or suggestions."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/support:7
+msgid ""
+"If your question is related to technical support or troubleshooting for "
+"one of our products, we kindly ask you to check our documentation for a "
+"possible solution first."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/support:9
+msgid ""
+"If you still cannot find the solution you are looking for, please write "
+"to Chipsee Technical Support at |email|_, providing all relevant "
+"information."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/support:24
+msgid "**Disclaimer:**"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/Manuals/Hardware/Resources/support:26
+msgid ""
+":sup:`Chipsee assumes no responsibility for any errors that may occur in "
+"this manual. Furthermore, Chipsee reserves the right to alter hardware, "
+"software, and/or specifications set forth herein at any time without "
+"prior notice, and undertakes no obligation to update the information "
+"contained in this document. Chipsee products are not authorized for use "
+"as critical components in life support devices or systems.`"
+msgstr ""
+

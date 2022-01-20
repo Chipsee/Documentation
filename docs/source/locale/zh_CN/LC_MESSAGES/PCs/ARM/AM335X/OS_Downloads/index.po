@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Chipsee
+# This file is distributed under the same license as the Chipsee
+# Documentation Sample package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Chipsee Documentation Sample 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-08 04:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/PCs/ARM/AM335X/OS_Downloads/index.rst:7
+msgid "EPC/PPC-A8-50-C"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/OS_Downloads/index.rst:7
+msgid "EPC/PPC-A8-80-R"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/OS_Downloads/index.rst:7
+msgid "EPC/PPC-A8-101-R"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/OS_Downloads/index.rst:7
+msgid "PPC/EPC-A8-70-HB-C"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/OS_Downloads/index.rst:7
+msgid "PPC/EPC-A8-70-HB-R"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/OS_Downloads/index.rst:7
+msgid "PPC/EPC-A8-97-C"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/OS_Downloads/index.rst:2
+msgid "OS Downloads"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/OS_Downloads/index.rst:4
+msgid ""
+"Please note that not all the products use the same model of touch panel. "
+"Be sure to download the correct OS according to the touch panel installed"
+" in your product. For additional information, contact |email|_"
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/OS_Downloads/index.rst
+msgid ""
+"All Chipsee products come with the pre-installed OS selected upon "
+"ordering."
+msgstr ""
+
+#: ../../source/PCs/ARM/AM335X/OS_Downloads/index.rst
+msgid ""
+"Chipsee assumes no liability for the damage caused due to improper "
+"installation by the third parties."
+msgstr ""
+
