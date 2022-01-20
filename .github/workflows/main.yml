@@ -24,6 +24,7 @@ jobs:
     - name: Build and Commit
       uses: sphinx-notes/pages@v2
       with:
+        documentation_path: ./docs/source
         target_branch: docs-build
         sphinx_version: 4.3.1
     - name: Push changes
