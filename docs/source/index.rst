@@ -1,5 +1,5 @@
-Chipsee Documentation
-=====================
+Chipsee Documentation by Randy
+==============================
 
 This documentation repository contains all products marketing collateral (manuals, certifications, 3D files, brochures, whitepapers) and custom OS downloads related to the Chipsee 
 products portfolio. 
