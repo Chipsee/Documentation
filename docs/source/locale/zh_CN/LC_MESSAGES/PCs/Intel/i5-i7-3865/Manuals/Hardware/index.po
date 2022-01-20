@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Chipsee
+# This file is distributed under the same license as the Chipsee
+# Documentation Sample package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Chipsee Documentation Sample 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-08 04:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/PCs/Intel/i5-i7-3865/Manuals/Hardware/index.rst
+#: ../../source/PCs/Intel/i5-i7-3865/Manuals/Hardware/index.rst:34
+msgid "PPC-10510U-150-C"
+msgstr ""
+
+#: ../../source/PCs/Intel/i5-i7-3865/Manuals/Hardware/index.rst:34
+msgid "CS86-BOX"
+msgstr ""
+
+#: ../../source/PCs/Intel/i5-i7-3865/Manuals/Hardware/index.rst:2
+msgid "Hardware Documentation"
+msgstr ""
+
+#: ../../source/PCs/Intel/i5-i7-3865/Manuals/Hardware/index.rst:8
+msgid "|PPC-10510U-150-C|"
+msgstr ""
+
+#: ../../source/PCs/Intel/i5-i7-3865/Manuals/Hardware/index.rst:8
+msgid ":ref:`PPC-10510U-150-C User Manual <PPC-10510U-150-C>` |br| |br|"
+msgstr ""
+
+#: ../../source/PCs/Intel/i5-i7-3865/Manuals/Hardware/index.rst:10
+msgid "15.0\", 1024x768, resistive, 4GB RAM, 64GB SSD |br|"
+msgstr ""
+
+#: ../../source/PCs/Intel/i5-i7-3865/Manuals/Hardware/index.rst:12
+#: ../../source/PCs/Intel/i5-i7-3865/Manuals/Hardware/index.rst:27
+msgid "2.5\" SATA, WiFi/WAN (optional), RS232/485, GPIO"
+msgstr ""
+
+#: ../../source/PCs/Intel/i5-i7-3865/Manuals/Hardware/index.rst:23
+msgid "|CS86-Box|"
+msgstr ""
+
+#: ../../source/PCs/Intel/i5-i7-3865/Manuals/Hardware/index.rst
+msgid "CS86-Box"
+msgstr ""
+
+#: ../../source/PCs/Intel/i5-i7-3865/Manuals/Hardware/index.rst:23
+msgid ":ref:`CS86-Box User Manual <CS86-Box>` |br| |br|"
+msgstr ""
+
+#: ../../source/PCs/Intel/i5-i7-3865/Manuals/Hardware/index.rst:25
+msgid "Wall/Panel Mounted Industrial PC, 4GB, 32GB SSD"
+msgstr ""
+

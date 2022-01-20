@@ -1,0 +1,885 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Chipsee
+# This file is distributed under the same license as the Chipsee
+# Documentation Sample package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Chipsee Documentation Sample 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-08 04:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F097.rst:58
+msgid "|product|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F097.rst:61
+msgid "*Version 1.0*"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F097.rst:66
+msgid "Front View (Panel Mounting Variant)"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F097.rst:72
+msgid "Back View (Panel Mounting Variant)"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F097.rst:78
+msgid "Front View (Embedded Variant)"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F097.rst:84
+msgid "Back View (Embedded Variant)"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/overview:2
+msgid "Product Overview"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/overview:4
+msgid ""
+"The |Cortex|-A9 series |product| (|PN|) is a rugged, high-quality "
+"industrial panel PC. It features a |disp_des|."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/overview:8
+msgid "Process Control"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/overview:9
+msgid "Process Monitoring"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/overview:10
+msgid "HMI"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/overview:11
+msgid "Infotainment"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/overview:12
+msgid "Predictive Maintenance"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/overview:13
+msgid "Machine Learning"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/overview:14
+msgid "Machine Vision"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/overview:15
+msgid "Automotive applications"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/overview:16
+msgid "ATM..."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/overview:18
+msgid ""
+"It is available both as an embedded solution and as a device hosed in an "
+"aluminum casing with bezels, thus facilitating different installation "
+"options:"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/overview:20
+msgid "Installation on an industrial cabinet"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/overview:21
+msgid "Integration with the existing equipment"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/overview:23
+msgid ""
+"|Product| is based around the powerful CS-SOM-iMX6Q System on Module "
+"(SoM), powered by the i.MX6Q |Arm| |Cortex|-A9 quad-core Application "
+"Processor (APU). The i.MX6Q APU represents the latest achievement in "
+"integrated multimedia applications processors, delivering high-"
+"performance computing, an abundance of integrated peripherals, and high "
+"power efficiency."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/overview:25
+msgid ""
+"This product also features a broad range of connectivity options, "
+"providing a high level of scalability for various use cases. It is the "
+"perfect solution for power-constrained applications on the Edge, acting "
+"as a robust control unit for collecting, processing, and aggregating "
+"field data. The i.MX6Q APU is part of NXP's EdgeVerse™ edge computing "
+"platform."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/overview:28
+msgid ""
+"The NXP i.MX6UL APU does not generate extensive heat, so even the thin "
+"aluminum housing on PPC version delivers sufficient thermal dissipation. "
+"With its junction temperature from -40 to +125°C, the APU itself is well "
+"suited for extended temperature range in both automotive and factory "
+"environments."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:2
+msgid "Ordering Options"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:4
+msgid ""
+"Chipsee products can be customized during the ordering process. The "
+"product will be shipped with the pre-installed factory defaults if no "
+"extra requirements are specified. The table in the `Hardware Features`_ "
+"section provides information about the default options bundled with the "
+"product."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:8
+msgid ""
+"You can order |Product| from the official |cstore|_ or from your nearest "
+"distributor."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:11
+msgid "Operating System"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:13
+msgid ""
+"This product comes with a pre-installed OS of your choice. Please see the"
+" list below for the supported OSes, which can be also obtained from the "
+":ref:`Software Documentation <CS10600F070_OS>` section, along with the "
+"detailed installation instructions."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:15
+msgid "Chipsee Linux\\ [*]_"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:16
+msgid "Android 4.3"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:17
+msgid "Android 6.0"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:18
+msgid "Android 8.0"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:19
+msgid "Ubuntu 12.04"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:20
+msgid "Ubuntu 14.04"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:21
+msgid "Debian"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:25
+msgid ""
+"Chipsee Linux is based on NXP Yocto framework that has been integrated "
+"with:"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:27
+msgid "Chipsee Hardware Test Application"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:29
+msgid "An initialization script for GPIO/Buzzer/Audio"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:31
+msgid ""
+"Multiple libraries, such as the ``libQt5Sql`` to develop Qt application "
+"with SQL"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:33
+msgid "Various packages, such as the ``ntfs-3g`` to use NTFS file system"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/ordering:37
+msgid ""
+"The :ref:`Software Documentation <CS10600F070_OS>` section provides a "
+"detailed instruction how to install different OS on your own. However, "
+"bear in mind that Chipsee can't take the responsibility of inadequate "
+"installation procedure. If you \"brick\" your device, please contact "
+"Chipsee Technical Support at |email|_ for further assistance"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/HW_features:2
+msgid "Hardware Features"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/HW_features:4
+msgid ""
+"|Product| offers a board range of performance and connectivity options "
+"for scalable integration, providing expandability according to future "
+"needs. Some of the key features are listed in the table below."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:1
+msgid "Table 1:  Key Features"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:8
+msgid "**CPU**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:8
+msgid "iMX6Q, |Arm| |Cortex|-A9, 1GHz"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:10
+msgid "**RAM**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:10
+msgid "|RAM|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:12
+msgid "**eMMC**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:12
+msgid "|eMMC|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:14
+msgid "**Storage**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:14
+msgid "TF Card, Supports up to 32GB SDHC"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:16
+msgid "**Display**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:16
+msgid "|dispsize| LCD, |res|, High Brightness: 500cd/m\\ :sup:`2`"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:18
+msgid "**Touch**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:18
+msgid "|tscreen|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:20
+msgid "**USB**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:20
+msgid "|USB|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:22
+msgid "**LAN**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:22
+msgid "|LAN|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:24
+msgid "**Audio**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:24
+msgid "3.5mm Audio In/Out Connector, Internal 2W Speaker"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:26
+msgid "**Buzzer**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:26
+msgid "Yes"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:28
+msgid "**RTC**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:28
+msgid "Yes, Powered by CR2032 Button Battery"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:30
+msgid "**RS232**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:30
+msgid "2 x RS232"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:32
+msgid "**RS485**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:32
+msgid "2 x RS485\\ [#at]_"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:34
+msgid "**CAN**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:34
+msgid "2 x CAN"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:36
+msgid "**GPIO**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:36
+msgid "|GPIO|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:38
+msgid "**WiFi/BT**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:38
+msgid "|opt2|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:40
+msgid "**HDMI**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:40
+msgid "1 x HDMI"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:42
+msgid "**SATA**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:42
+msgid "1 x SATA II"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:44
+msgid "**Expansion Port**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:44
+msgid "|expansions|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:46
+msgid "**4G/LTE**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:46
+msgid "|opt1|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:48
+msgid "**Power Input**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:48
+msgid "|vin_rng|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:50
+msgid "**Current at 15V**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:50
+msgid "|cur|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:52
+msgid "**Power Consumption**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:52
+msgid "|pwr|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:54
+msgid "**Working Temperature**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:54
+msgid "|temp|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:56
+msgid "**OS**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:56
+msgid "Multiple Choices (`Operating System`_)"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:58
+msgid "**Dimensions**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:58
+msgid "|productE| (|PN|\\ E): |dimE|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:60
+msgid "|productP| (|PN|\\ P): |dimP|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:62
+msgid "**Weight**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:62
+msgid "|productE| (|PN|\\ E): |weightE|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:64
+msgid "|productP| (|PN|\\ P): |weightP|"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:66
+msgid "**Mounting**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:66
+msgid "|productE| (|PN|\\ E): Embedded"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:68
+msgid "|productP| (|PN|\\ P): Panel"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/table:73
+msgid ""
+"This product has 5 x UART channels in total. The default configuration is"
+" 2 x RS232, 2 x RS485, and 1 x UART for WiFi/BT module. UART can be "
+"swapped between RS232 and RS485 modes easily, so if you need different "
+"RS232/RS485 configuration, please get in touch with the Chipsee Technical"
+" Support at |email|_"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/cap_screen:2
+msgid "Touch Screen"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/cap_screen:5
+msgid ""
+"|Product| uses a ten-point multitouch capacitive screen. *Figure 2* shows"
+" the capacitive screen connected to the motherboard via the **FPC "
+"connector**."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/cap_screen:12
+msgid "*Figure 2: Capacitive Screen Connector*"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/cap_screen:17
+msgid ""
+"A capacitive touch screen is susceptible to power noise and "
+"Electromagnetic Radiation (EMR). It may cause LCD ripples or even "
+"capacitive touch malfunction. If using a capacitive multitouch test "
+"application, you might notice the touch points float erratically across "
+"the display. There are several solutions to this problem:"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/cap_screen:21
+msgid ""
+"Use a high-quality Power Adapter Unit (PSU) with low EMR. You can also "
+"provide power from a battery."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/cap_screen:22
+msgid ""
+"Make sure that the |product| Power Input connector (pin 3) is properly "
+"connected to the Power System Ground to provide sufficient EMI shielding "
+"and eliminate the problem entirely."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/cap_screen:23
+msgid ""
+"Bad GND problem can also be confirmed by touching pin 3 of the Power "
+"Input connector with one hand while operating the capacitive touch screen"
+" with the other hand. In this case, the operator's body acts as the Power"
+" System Ground."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:2
+msgid "Connectivity"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:4
+msgid ""
+"There are many connectivity options available on the |product| industrial"
+" PC. It has 3 x HOST USB Type A connectors,1 x USB OTG Type Mini B, 1 x "
+"network connector (RJ45) supporting up to 1 Gbps, and 5 x UART terminals "
+"(RS232/485). This device also features two CAN interfaces."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:8
+msgid "RS232/485/CAN"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:10
+msgid ""
+"The serial communication interfaces (RS485, RS482, and CAN) are routed to"
+" a **16-pin 3.81mm terminal**, as illustrated on *Figure 3*. Serial "
+"communication on both RS485 and RS422 interfaces can reach up to 115200 "
+"kbps."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:17
+msgid ""
+"*Figure 3: Relation between serial pins on embedded vs. enclosed version "
+"of the A9-70-C IPC*"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:19
+msgid ""
+"The table below offers more detailed description of every pin and its "
+"definition:"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:21
+msgid "Table 2: Connectivity Section"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:26
+msgid "**RS232 / RS485 / CAN Pin Definition:**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:28
+msgid "**Pin Number**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:28
+msgid "**Definition**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:28
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:30
+msgid "Pin 16"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:30
+msgid "CAN2_H"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:30
+msgid "CPU CAN Channel 2 H signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:32
+msgid "Pin 15"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:32
+msgid "CAN2_L"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:32
+msgid "CPU CAN Channel 2 L signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:34
+msgid "Pin 14"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:34
+msgid "CAN1_H"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:34
+msgid "CPU CAN Channel 1 H signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:36
+msgid "Pin 13"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:36
+msgid "CAN1_L"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:36
+msgid "CPU CAN Channel 1 L signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:38
+msgid "Pin 12"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:38
+msgid "RS485_2-"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:38
+msgid "CPU UART2, RS485 –(B) signal [#h]_"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:40
+msgid "Pin 11"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:40
+msgid "RS485_2+"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:40
+msgid "CPU UART2, RS485 +(A) signal [#h]_"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:42
+msgid "Pin 10"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:42
+msgid "RS485_5-"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:42
+msgid "CPU UART5, RS485 –(B) signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:44
+msgid "Pin 9"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:44
+msgid "RS485_5+"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:44
+msgid "CPU UART5, RS485 +(A) signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:46
+msgid "Pin 8"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:46
+msgid "RS485_4-"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:46
+msgid "CPU UART4, RS485 –(B) signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:48
+msgid "Pin 7"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:48
+msgid "RS485_4+"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:48
+msgid "CPU UART4, RS485 +(A) signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:50
+msgid "Pin 6"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:50
+msgid "RS232_3_RXD"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:50
+msgid "CPU UART3, RS232 RXD signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:52
+msgid "Pin 5"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:52
+msgid "RS232_3_TXD"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:52
+msgid "CPU UART3, RS232 TXD signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:54
+msgid "Pin 4"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:54
+msgid "RS232_1_RXD"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:54
+msgid "CPU UART1, RS232 RXD signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:56
+msgid "Pin 3"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:56
+msgid "RS232_1_TXD"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:56
+msgid "CPU UART1, RS232 TXD signal"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:58
+msgid "Pin 2"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:58
+msgid "GND"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:58
+msgid "System Ground"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:60
+msgid "Pin 1"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:60
+msgid "+5V"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:60
+msgid "System 5V output, up to 1A"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:65
+msgid ""
+"UART2 signal is used by the onboard WiFi/BT module, so the I/O port "
+"function is disabled by default. If you need the I/O port function "
+"instead, please contact Chipsee Technical Support at |email|_ for "
+"assistance."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/connectivity:70
+msgid "120Ω termination resistors are not mounted or included with the device."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/WiFi:2
+msgid "WiFi & BT Module"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/WiFi:4
+msgid ""
+"|Product| is equipped with the popular **Realtek RTL8723 WiFi/BT module**"
+" that supports BT/BLE 4.0 (with backward compatibility), as well as "
+"802.11bgn 2.4 GHz Wireless LAN (WLAN)."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/WiFi:10
+msgid "*Figure 6: RTL8273 WiFi/BT Module*"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/WiFi:12
+msgid ""
+"The enclosed (PPC) variant of the product also includes an SMA connector "
+"for an external WiFi/BT antenna, as illustrated in *Figure 6a* below."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/WiFi:18
+msgid "*Figure 6a: RTL8273 WiFi/BT Module*"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/TF_Card:2
+msgid "TF Card Slot"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/TF_Card:4
+msgid ""
+"|Product| features 1 x **TF Card (micro SD) slot**. It can address up to "
+"32GB of memory."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/TF_Card:10
+msgid "*Figure 8: TF (micro SD) Card Slot*"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/TF_Card:14
+msgid "The product does not come shipped with the TF Card by default"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/HDMI:2
+msgid "HDMI Connector"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/HDMI:4
+msgid ""
+"|Product| is equipped with 1 x **HDMI connector** *(Figure 10)*. The HDMI"
+" connector allows connecting an additional (external) monitor. HDMI "
+"output resolution can be configured by the software."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/HDMI:11
+msgid "*Figure 10: HDMI Connectors*"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/support:2
+msgid "Technical Support"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/support:5
+msgid "Please feel free to contact us with any questions, queries or suggestions."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/support:7
+msgid ""
+"If your question is related to technical support or troubleshooting for "
+"one of our products, we kindly ask you to check our documentation for a "
+"possible solution first."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/support:9
+msgid ""
+"If you still cannot find the solution you are looking for, please write "
+"to Chipsee Technical Support at |email|_, providing all relevant "
+"information."
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/support:24
+msgid "**Disclaimer:**"
+msgstr ""
+
+#: ../../source/PCs/ARM/iMX6Q/Manuals/Hardware/Resources/support:26
+msgid ""
+":sup:`Chipsee assumes no responsibility for any errors that may occur in "
+"this manual. Furthermore, Chipsee reserves the right to alter hardware, "
+"software, and/or specifications set forth herein at any time without "
+"prior notice, and undertakes no obligation to update the information "
+"contained in this document. Chipsee products are not authorized for use "
+"as critical components in life support devices or systems.`"
+msgstr ""
+
