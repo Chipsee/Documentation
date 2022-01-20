@@ -25,7 +25,7 @@ This manual provides users with a fast guide of Chipsee Raspberry Pi Computer (A
 
 **SUPPORTED BOARDS:**
 
-   *CS10600RA4070*   *CS10600RA070*   *CS12800RA101*   *CS12800RA4101A*   *CS19108RA4156A*
+   *CS10600RA4070*   *CS10600RA070*   *CS12800RA101*   *CS12800RA4101A* 
 
 .. _db_pkg_pi_debian:
 
@@ -36,10 +36,18 @@ Below are the links to the prebuilt images for the Raspbian Buster operating sys
 + :download:`Raspbian Buster with desktop and recommended software <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-full-chipsee.img.xz>`
 + :download:`Raspbian Buster with desktop and recommended software V2 <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-full-chipsee-v2.img.xz>`
 + :download:`Raspbian Buster with desktop and recommended software V3 <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-full-chipsee-v3.img.xz>` |br| |br|
++ :download:`Raspbian Buster with desktop and recommended software V4 <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-full-chipsee-v4.img.xz>` |br| |br|
++ :download:`Raspbian Buster with desktop and recommended software V5 <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-full-chipsee-v5.img.xz>` |br| |br|
 + :download:`Raspbian Buster with desktop <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-chipsee.img.xz>`
 + :download:`Raspbian Buster with desktop V2 <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-chipsee-v2.img.xz>` |br| |br|
++ :download:`Raspbian Buster with desktop V3 <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-chipsee-v3.img.xz>` |br| |br|
++ :download:`Raspbian Buster with desktop V4 <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-chipsee-v4.img.xz>` |br| |br|
++ :download:`Raspbian Buster with desktop V5 <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-chipsee-v5.img.xz>` |br| |br|
 + :download:`Raspbian Buster Lite <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-lite-chipsee.img.xz>`
 + :download:`Raspbian Buster Lite V2 <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-lite-chipsee-v2.img.xz>` |br| |br|
++ :download:`Raspbian Buster Lite V3 <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-lite-chipsee-v3.img.xz>` |br| |br|
++ :download:`Raspbian Buster Lite V4 <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-lite-chipsee-v4.img.xz>` |br| |br|
++ :download:`Raspbian Buster Lite V5 <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-lite-chipsee-v5.img.xz>` |br| |br|
 
 
 .. rubric:: System Features
