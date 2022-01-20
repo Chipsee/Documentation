@@ -15,19 +15,10 @@ on:
       - main
     paths:
       - docs/source/**
-  pull_request_target:
-    branches:
-      - main
-    paths:
-      - docs/source/**
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  
-permissions:
-  contents: read
-  pull-requests: write
-  
+    
 jobs:
   build:
     runs-on: ubuntu-latest
