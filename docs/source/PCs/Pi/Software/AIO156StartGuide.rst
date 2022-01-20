@@ -125,7 +125,6 @@ to control volume, brightness, power, act led, buzzer.
    :width: 700px
    :height: 460px
 
-
 .. links
 .. _Raspberry Pi Imager: https://www.raspberrypi.org/software/
 .. _operating system: https://www.raspberrypi.org/software/operating-systems/
