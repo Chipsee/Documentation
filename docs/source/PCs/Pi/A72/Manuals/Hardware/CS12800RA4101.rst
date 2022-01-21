@@ -50,7 +50,7 @@
 
 .. |pwr| replace:: 5W Typical
 
-.. |temp| replace:: From -20°C to +60°C
+.. |temp| replace:: From 0°C to +60°C
 
 .. _product_link: https://chipsee.com/product/industrial-pi-cm4-101/
 
@@ -96,7 +96,7 @@
 
 .. include:: Resources/HW_features
 
-.. include:: Resources/table
+.. include:: Resources/table_cs12800ra4101
 
 .. include:: Resources/power_cs12800ra4101
 
