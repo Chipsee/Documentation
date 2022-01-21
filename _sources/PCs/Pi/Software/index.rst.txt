@@ -11,7 +11,9 @@ If you have questions not covered in this documentation, please consult Chipsee 
    :titlesonly:
 
    Debian 10 (buster) <Debian>
-   AIO-156 Start Guide <AIO156StartGuide>
+
+   AIO-CM4-156 Start Guide <AIO156StartGuide>
+
 
 .. warning::
 
