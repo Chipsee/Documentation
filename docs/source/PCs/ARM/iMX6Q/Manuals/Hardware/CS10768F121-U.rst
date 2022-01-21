@@ -1,0 +1,347 @@
+.. |product| replace:: PPC-A9-121-U-C
+
+.. |PN| replace:: PN: CS10768F121-U
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |dispsize| replace:: 12.1"
+
+.. |res| replace:: 1024 x 768
+
+.. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
+
+.. |dim| replace:: 359 x 274 x 23mm
+
+.. |weight| replace:: 4000g
+
+.. |RAM| replace:: 2GB DDR3
+
+.. |eMMC| replace:: 8GB
+
+.. |tscreen| replace:: Capacitive Multi-Point Touch Screen
+
+.. |USB| replace:: 2 x USB 2.0 HOST, 1 x USB OTG
+
+.. |LAN| replace:: 1 x Channel 1000Mbps LAN
+
+.. |GPIO| replace:: 8 x Channels
+
+.. |opt1| replace:: Optional, Not mounted by default
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |vin_rng| replace:: From 15V to 36V
+
+.. |cur| replace:: 2000mA Max
+
+.. |pwr| replace:: 10W Typical
+
+.. |temp| replace:: From -20°C to +70°C
+
+
+.. _PPC-A9-121-U-C:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. figure:: /Media/ARM/A9/CS10768F121-U/PPC-A9-121-U-C-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View
+
+.. figure:: /Media/ARM/A9/CS10768F121-U/PPC-A9-121-U-C-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View
+
+.. figure:: /Media/ARM/A9/CS10768F121-U/PPC-A9-121-U-C-Side-A.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Side View
+
+.. figure:: /Media/ARM/A9/CS10768F121-U/PPC-A9-121-U-C-Side-B.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Side View
+
+.. include:: PPC_Resources/overview
+
+.. include:: PPC_Resources/ordering
+
+Optional Features
+-----------------
+
+|Product| does not include 4G/LTE module by default. The module is optional and can be selected at the Chipsee store during the ordering process.
+
+.. warning::
+
+   | Installation, repair, and maintenance tasks should be performed by trained personnel only.
+   | Chipsee does not bear any responsibility for damage caused by inadequate handling of the product.
+
+.. include:: PPC_Resources/HW_features
+
+.. table:: Key Features
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +---------------------------------------------------------------------------------------+
+   | .. centered:: |product|                                                               |
+   +=========================+=============================================================+
+   | **CPU**                 | iMX6Q, |Arm| |Cortex|-A9, 1GHz                              |
+   +-------------------------+-------------------------------------------------------------+
+   | **RAM**                 | |RAM|                                                       |
+   +-------------------------+-------------------------------------------------------------+
+   | **eMMC**                | |eMMC|                                                      |
+   +-------------------------+-------------------------------------------------------------+
+   | **Storage**             | TF Card, Supports up to 32GB SDHC                           |
+   +-------------------------+-------------------------------------------------------------+
+   | **Display**             | |dispsize| LCD, |res|, High Brightness: 500|cd|             |
+   +-------------------------+-------------------------------------------------------------+
+   | **Touch**               | |tscreen|                                                   |
+   +-------------------------+-------------------------------------------------------------+
+   | **USB**                 | |USB|                                                       |
+   +-------------------------+-------------------------------------------------------------+
+   | **LAN**                 | |LAN|                                                       |
+   +-------------------------+-------------------------------------------------------------+
+   | **Audio**               | Mic input, 3.5mm Audio Out Connector, 2W Internal Speaker   |
+   +-------------------------+-------------------------------------------------------------+
+   | **Buzzer**              | Yes                                                         |
+   +-------------------------+-------------------------------------------------------------+
+   | **Camera**              | Yes, Front USB -500 ten thousand pixel                      |
+   +-------------------------+-------------------------------------------------------------+
+   | **Fingerprint**         | Zaz-070S                                                    |
+   +-------------------------+-------------------------------------------------------------+
+   | **RTC**                 | Yes, Powered by CR2032 Button Battery                       |
+   +-------------------------+-------------------------------------------------------------+
+   | **RS232**               | 4 x RS232                                                   |
+   +-------------------------+-------------------------------------------------------------+
+   | **RS485**               | 2 x RS485 (Optional)\ [#at]_                                |
+   +-------------------------+-------------------------------------------------------------+
+   | **CAN**                 | 2 x CAN (Optional)                                          |
+   +-------------------------+-------------------------------------------------------------+
+   | **GPIO**                | |GPIO|                                                      |
+   +-------------------------+-------------------------------------------------------------+
+   | **WiFi/BT**             | |opt2|                                                      |
+   +-------------------------+-------------------------------------------------------------+
+   | **HDMI**                | 1 x HDMI                                                    |
+   +-------------------------+-------------------------------------------------------------+
+   | **SATA**                | 1 x SATA II                                                 |
+   +-------------------------+-------------------------------------------------------------+
+   | **4G/LTE**              | |opt1|                                                      |
+   +-------------------------+-------------------------------------------------------------+
+   | **Power Input**         | |vin_rng|                                                   |
+   +-------------------------+-------------------------------------------------------------+
+   | **Current at 15V**      | |cur|                                                       |
+   +-------------------------+-------------------------------------------------------------+
+   | **Power Consumption**   | |pwr|                                                       |
+   +-------------------------+-------------------------------------------------------------+
+   | **Working Temperature** | |temp|                                                      |
+   +-------------------------+-------------------------------------------------------------+
+   | **OS**                  | Multiple Choices (`Operating System`_)                      |
+   +-------------------------+-------------------------------------------------------------+
+   | **Dimensions**          | |dim|                                                       |
+   +-------------------------+-------------------------------------------------------------+
+   | **Weight**              | |weight|                                                    |
+   +-------------------------+-------------------------------------------------------------+
+   | **Mounting**            | Panel & VESA                                                |
+   +-------------------------+-------------------------------------------------------------+
+
+-----
+
+.. [#at] This product has 5 x UART channels in total. The default configuration is 2 x RS232, 2 x RS485, and 1 x UART for WiFi/BT module.
+       UART can be swapped between RS232 and RS485 modes easily, so if you need different RS232/RS485 configuration, please get in touch
+       with the Chipsee Technical Support at |email|_
+
+Power Input
+===========
+
+|Product| can be powered by a wide range of input voltages: |vin_rng| DC. The power input connector is a **3-pin, 3.81mm terminal**.
+The polarity and the pinout is clearly marked on the housing of the product as shown on the figure below.
+
+.. Figure:: /Media/ARM/A9/CS10768F121-U/Power.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Power Input*
+
+Note that the "**+**" sign represents the positive power input, and it is printed both at the casing and as a silk-screen on a PCB of the embedded version. The "**-**" terminal is shorted to the ground.
+
+.. _power-table:
+
+.. table:: Power Connector
+   :align: center
+   :width: 80%
+   :class: align-center
+   :widths: auto
+
+   +-------------------------------------------------------------------------+
+   | Power Input Definition                                                  |
+   +================+================+=======================================+
+   | **Pin Number** | **Definition** | **Description**                       |
+   +----------------+----------------+---------------------------------------+
+   | Pin 1          | Positive Input | DC Power **Positive Terminal**        |
+   +----------------+----------------+---------------------------------------+
+   | Pin 2          | Negative Input | DC Power **Negative Terminal**        |
+   +----------------+----------------+---------------------------------------+
+   | Pin 3          | Ground         | **Power System Ground**               |
+   +----------------+----------------+---------------------------------------+
+
+.. note::
+
+  The system ground “**G**” is connected to power negative “**-**” on board.
+
+.. include:: PPC_Resources/cap_screen
+
+.. include:: Resources/connectivity
+
+USB Connectors
+--------------
+
+There are 2 x Type A **USB HOST connectors** onboard, as shown on the figure below.
+
+.. Figure:: /Media/ARM/A9/CS10768F121-U/USB.jpeg
+  :align: center
+  :figclass: align-center
+
+  *USB HOST Connectors*
+
+.. note::
+
+    The USB HOST connectors can drive at most 500mA current on each dual port.
+
+There is also 1 x Type Mini B **USB OTG connector**, configured as slave by
+default.
+
+.. Figure:: /Media/ARM/A9/CS14900F190/USB_OTG.jpeg
+  :align: center
+  :figclass: align-center
+
+  *USB OTG Connector*
+
+LAN Connectors
+--------------
+
+**LAN (RJ45) connector** provides Ethernet connectivity over standardized Ethernet cables. The integrated Ethernet interface supports
+up to 1 Gbps data throughput. Power over Ethernet (PoE) is not supported.
+
+.. figure:: /Media/ARM/A9/CS14900F190/LAN.jpeg
+  :align: center
+  :figclass: align-center
+
+  *RJ45 LAN Connector*
+
+.. note::
+
+   Use CAT5 or better cables to achieve full data throughput over maximum distance defined by the 1000BASE-T standard (100m).
+
+WiFi & BT Module
+----------------
+
+|Product| is equipped with the popular **Realtek RTL8723 WiFi/BT module** that supports BT/BLE 4.0 (with backward compatibility), as well as 802.11bgn 2.4 GHz Wireless LAN (WLAN).
+The product includes an SMA connector for an external WiFi/BT antenna, as illustrated in the figure below.
+
+.. figure:: /Media/ARM/A9/CS14900F190/Antenna.jpeg
+   :align: center
+   :figclass: align-center
+
+   *WiFi+BT Antenna*
+
+.. include:: PPC_Resources/4G_com
+
+Camera, Microphone, and Fingerprint Module
+------------------------------------------
+
+|Product| supports a camera, a Microphone audio input, and a Zaz-070S fingerprint module as shown on the figure below.
+
+.. figure:: /Media/ARM/A9/CS10768F121-U/Cam_Mic_Finger.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Camera, Mic, and Fingerprint module*
+
+.. attention::
+
+    The camera is not mounted by default.
+
+Audio Connector
+===============
+
+|Product| features some audio peripherals, as well. It has 1 x **3.5mm audio output jack**.
+
+
+.. figure:: /Media/ARM/A9/CS10768F121-U/Audio.jpeg
+  :figclass: align-center
+  :align: center
+
+  *Audio Out Connector*
+
+HDMI Connector
+==============
+
+|Product| is equipped with 1 x **HDMI connector**. The HDMI connector allows connecting an additional (external) monitor. HDMI output resolution
+can be configured by the software.
+
+.. figure:: /Media/ARM/A9/CS14900F190/HDMI.jpeg
+   :align: center
+   :figclass: align-center
+
+   *HDMI Connector*
+
+.. include:: PPC_Resources/Boot_SW
+
+Mounting Procedure
+==================
+
+|Product| can be mounted using the VESA (100x100mm or 75x75mm) and Panel mounting methods with a 4 x M4 screws, enabling simplified installation onto any standard mounting fixture.
+|br| |br|
+
+You can mount |product| with the VESA mounting method, as shown on the figure below.
+
+.. Figure:: /Media/ARM/A9/CS10768F121-U/VMount.jpeg
+  :align: center
+  :figclass: align-center
+
+  *VESA mounting*
+
+You can mount |product| with the Panel mounting method, as shown on the figure below.
+
+.. Figure:: /Media/ARM/A9/CS10768F121-U/PMount.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Panel mounting*
+
+.. note::
+
+    The operator can fix the PC into the panel by pushing it from the front inside the panel as described in the figure above. The recommended maximum thickness of the panel material is 8mm.
+
+    #) Make sure the Panel PC is configured correctly. The Boot Switch is sitting inside the housing. To use it, the Panel PC has to be unmounted from the panel.
+    #) Push the Panel PC straight into the Panel Hole until the unit sits flat on the panel as shown in the figure above.
+    #) Use the mounting fixtures to lock the Panel PC into it’s place.
+
+.. attention::
+
+    Please make sure the display is not exposed to high pressure when mounting into an enclosure.
+
+You can find detailed information about mounting in the |mguide|_ on the Chipsee official website.
+
+Mechanical Specifications
+=========================
+
+The outer mechanical dimensions of |product| are |dim| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+product measurements.
+
+.. figure:: /Media/ARM/A9/CS10768F121-U/PPC-A9-121-U-C-TD.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Technical Drawing*
+
+.. include:: PPC_Resources/support

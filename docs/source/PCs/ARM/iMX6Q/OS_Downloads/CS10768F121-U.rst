@@ -1,7 +1,7 @@
-PPC-A9-120-C (PN: CS10768F120)
+PPC-A9-121-U-C (PN: CS10768F121-U)
 ##############################
 
-.. _CS10768F120-android:
+.. _CS10768F121-U-android:
 
 Android6.0
 ----------
@@ -15,7 +15,7 @@ Android8.0
 | **FT5X06 Touchscreen**
 | :download:`prebuilt-imxv1-cs10768f120v3-android8-emmc-20201123.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/12_15/Android8.0/prebuilt-imxv1-cs10768f120v3-android8-emmc-20201123.tar.gz>`
 
-.. _CS10768F120-linuxQt:
+.. _CS10768F121-U-linuxQt:
 
 LinuxQt5.5
 ----------
@@ -23,7 +23,7 @@ LinuxQt5.5
 | **FT5X06 Touchscreen**
 | :download:`prebuilt-imx6qv1-cs19108fb120-linux-emmc-20200320.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/12_15/LinuxQt5/prebuilt-imx6qv1-cs19108fb120-linux-emmc-20200320.tar.gz>`
 
-.. _CS10768F120-ubuntu:
+.. _CS10768F121-U-ubuntu:
 
 Ubuntu14.04
 -----------

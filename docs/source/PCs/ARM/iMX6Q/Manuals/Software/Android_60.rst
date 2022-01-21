@@ -23,7 +23,7 @@ This manual is used to provide users with a fast guide of Chipsee Industrial Com
 
 **SUPPORTED BOARDS:**
 
-   *CS10600F070*    *CS10768F097*   *CS12800F101*   *CS10768F120*   *CS10768F121*   *CS10768F150*   *CS12102F170*   *CS14900F190*   *CS19108F215*
+   *CS10600F070*    *CS10768F097*   *CS12800F101*   *CS10768F121*   *CS10768F121-U*   *CS10768F150*   *CS12102F170*   *CS14900F190*   *CS19108F215*
 
 .. _db_pkg_android_60:
 
@@ -35,8 +35,8 @@ Below are the links to the prebuilt files for each industrial PC model.
 + :ref:`CS10600F070 <CS10600F070-android>`
 + :ref:`CS10768F097 <CS10768F097-android>`
 + :ref:`CS12800F101 <CS12800F101-android>`
-+ :ref:`CS10768F120 <CS10768F120-android>`
 + :ref:`CS10768F121 <CS10768F121-android>`
++ :ref:`CS10768F121-U <CS10768F121-U-android>`
 + :ref:`CS10768F150 <CS10768F150-android>`
 + :ref:`CS12102F170 <CS12102F170-android>`
 + :ref:`CS14900F190 <CS14900F190-android>`
@@ -62,7 +62,7 @@ You will need to prepare the following items before you can start using the Preb
 
 Power Supply Unit (PSU) with the appropriate voltages, as follows:
 
-+ These products: CS10768F120, CS10768F121, CS10768F150, CS12102F170, CS14900F190, and CS19108F215 requires a 15V to 36V power adapter.
++ These products: CS10768F121, CS10768F121-U, CS10768F150, CS12102F170, CS14900F190, and CS19108F215 requires a 15V to 36V power adapter.
 + These products: CS10768F097 and CS12800F101 product needs a 12V to 36V power adapter.
 + The CS10600F070 product needs a 6V to 36V power adapter.
 
