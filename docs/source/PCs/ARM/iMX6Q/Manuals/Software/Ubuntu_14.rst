@@ -25,7 +25,7 @@ This manual provides users with a fast guide of Chipsee Industrial Computer (Abb
 
 **SUPPORTED BOARDS:**
 
-   *CS10600F070*    *CS10768F097*   *CS12800F101*   *CS10768F120*   *CS10768F121*   *CS10768F150*   *CS12102F170*   *CS19108F215*
+   *CS10600F070*    *CS10768F097*   *CS12800F101*   *CS10768F121*   *CS10768F121-U*   *CS10768F150*   *CS12102F170*   *CS19108F215*
 
 .. _db_pkg_ubuntu_14:
 
@@ -37,8 +37,8 @@ Below are the links to the prebuilt files for each industrial PC model.
 + :ref:`CS10600F070 <CS10600F070-ubuntu>`
 + :ref:`CS10768F097 <CS10768F097-ubuntu>`
 + :ref:`CS12800F101 <CS12800F101-ubuntu>`
-+ :ref:`CS10768F120 <CS10768F120-ubuntu>`
 + :ref:`CS10768F121 <CS10768F121-ubuntu>`
++ :ref:`CS10768F121-U <CS10768F121-U-ubuntu>`
 + :ref:`CS10768F150 <CS10768F150-ubuntu>`
 + :ref:`CS12102F170 <CS12102F170-ubuntu>`
 + :ref:`CS19108F215 <CS19108F215-ubuntu>`
@@ -77,7 +77,7 @@ You will need to prepare the following items before you can start using the Preb
 
 Power Supply Unit (PSU) with the appropriate voltages, as follows:
 
-+ These products: CS10768F120, CS10768F121, CS10768F150, CS12102F170, and CS19108F215 requires a 15V to 36V power adapter.
++ These products: CS10768F121, CS10768F121-U, CS10768F150, CS12102F170, and CS19108F215 requires a 15V to 36V power adapter.
 + These products: CS10768F097 and CS12800F101 product needs a 12V to 36V power adapter.
 + The CS10600F070 product needs a 6V to 36V power adapter.
 
