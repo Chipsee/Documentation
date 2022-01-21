@@ -8,6 +8,10 @@
 
 .. |Product| replace:: The |product| industrial Pi PC
 
+.. |TFNum| replace:: 2
+
+.. |tf_des| replace:: Chipsee designed one of the TF card slots for Lite version which have no eMMC. We designed the other one for storage expansion, as the TF card for storage expansion use same pins with WiFi, it can't be used with WiFi at same time
+
 .. |dispsize| replace:: 7"
 
 .. |res| replace:: 1024 x 600
@@ -32,6 +36,10 @@
 
 .. |GPIO| replace:: 8 Channels, 4 Input, 4 Output
 
+.. |hdmi_des| replace:: 1 Channel, not mounted by default
+
+.. |sata_des| replace:: Not Supported
+
 .. |opt1| replace:: Supported, not mounted by default
 
 .. |opt2| replace:: Supported but depending on the CM4 selected
@@ -42,7 +50,7 @@
 
 .. |pwr| replace:: 5W Typical
 
-.. |temp| replace:: From -20°C to +60°C
+.. |temp| replace:: From 0°C to +60°C
 
 .. _product_link: https://chipsee.com/product/industrial-pi-cm4-70/
 
@@ -89,6 +97,12 @@
 .. include:: Resources/HW_features
 
 .. include:: Resources/table
+
+.. attention::
+
+    Chipsee does not install a lithium battery by default, as we cannot ship products with batteries. We recommend you buy it locally and install it by yourself. The lithium battery part number is CR1220. Please |contact|_ if you need help.
+
+.. include:: Resources/power_cs10600ra4070
 
 .. include:: Resources/power
 

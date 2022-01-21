@@ -12,6 +12,9 @@ If you have questions not covered in this documentation, please consult Chipsee 
 
    Debian 10 (buster) <Debian>
 
+   AIO-CM4-156 Start Guide <AIO156StartGuide>
+
+
 .. warning::
 
   | All Chipsee products come with the pre-installed OS selected upon ordering.

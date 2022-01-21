@@ -10,15 +10,10 @@ on:
       - main
     paths:
       - docs/source/**
-  pull_request:
-    branches:
-      - main
-    paths:
-      - docs/source/**
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
+    
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -27,11 +22,27 @@ jobs:
     - uses: actions/checkout@master
       with:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+    - name: Update pip
+      run: |
+        pip install -U wheel
+        pip install -U setuptools
+        python -m pip install -U pip
+    - name: Get pip cache dir
+      id: pip-cache
+      run: |
+        echo "::set-output name=dir::$(pip cache dir)"
+    - name: Pip cache
+      uses: actions/cache@v2
+      with:
+        path: ${{ steps.pip-cache.outputs.dir }}
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
     - name: Build and Commit
       uses: sphinx-notes/pages@v2
       with:
         documentation_path: ./docs/source
-        requirements_path: ./requirements.txt
+        requirements_path: ./docs/source/requirements.txt
         target_branch: docs-build
         sphinx_version: 4.3.1
     - name: Push changes

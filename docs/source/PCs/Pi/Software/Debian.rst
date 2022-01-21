@@ -25,7 +25,7 @@ This manual provides users with a fast guide of Chipsee Raspberry Pi Computer (A
 
 **SUPPORTED BOARDS:**
 
-   *CS10600RA4070*   *CS10600RA070*   *CS12800RA101*   *CS12800RA4101A*   *CS19108RA4156A*
+   *CS10600RA4070*   *CS10600RA070*   *CS12800RA101*   *AIO-CM4-101*
 
 .. _db_pkg_pi_debian:
 
@@ -33,13 +33,9 @@ This manual provides users with a fast guide of Chipsee Raspberry Pi Computer (A
 
 Below are the links to the prebuilt images for the Raspbian Buster operating system on the various industrial Pi PC's.
 
-+ :download:`Raspbian Buster with desktop and recommended software <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-full-chipsee.img.xz>`
-+ :download:`Raspbian Buster with desktop and recommended software V2 <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-full-chipsee-v2.img.xz>`
-+ :download:`Raspbian Buster with desktop and recommended software V3 <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-full-chipsee-v3.img.xz>` |br| |br|
-+ :download:`Raspbian Buster with desktop <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-chipsee.img.xz>`
-+ :download:`Raspbian Buster with desktop V2 <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-chipsee-v2.img.xz>` |br| |br|
-+ :download:`Raspbian Buster Lite <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-lite-chipsee.img.xz>`
-+ :download:`Raspbian Buster Lite V2 <https://chipsee-tmp.s3.amazonaws.com/RaspberryPi/20200213/2020-02-13-raspbian-buster-lite-chipsee-v2.img.xz>` |br| |br|
++ :download:`Raspbian Buster with desktop and recommended software V5 <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RaspberryPi/20201202/2020-12-02-raspios-buster-armhf-full-chipsee-v5.img.xz>` |br| |br|
++ :download:`Raspbian Buster with desktop V5 <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RaspberryPi/20201202/2020-12-02-raspios-buster-armhf-chipsee-v5.img.xz>` |br| |br|
++ :download:`Raspbian Buster Lite V5 <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RaspberryPi/20201202/2020-12-02-raspios-buster-armhf-lite-chipsee-v5.img.xz>` |br| |br|
 
 
 .. rubric:: System Features
@@ -78,7 +74,7 @@ You will need to prepare the following items before you can start using the Preb
 Power Supply Unit (PSU) with the appropriate voltages, as follows:
 
 + These products: CS10600RA070, CS10600RA4070, and CS12800RA101 requires a 6V to 36V power adapter. You must provide the power adapter since Chipsee does not ship these products with a power adapter.
-+ The CS12800RA4101 RPC needs a 12V power adapter. Chipsee provides the power adapter.
++ The AIO-CM4-101 RPC needs a 12V power adapter. Chipsee provides the power adapter.
 
 .. include:: Resources/Hardware_Req
 
