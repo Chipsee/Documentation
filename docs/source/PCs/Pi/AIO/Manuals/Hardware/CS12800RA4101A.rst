@@ -1,4 +1,4 @@
-.. |product| replace:: AIO-CM4-101
+.. |product| replace:: AIO-CM4-10
 
 .. |PN| replace:: PN: CS12800RA4101A
 
