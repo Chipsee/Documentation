@@ -1,10 +1,12 @@
+AIO-CM4-156 Start Guide
+#######################
 
-.. centered:: Setting up your AIO-156
+.. centered:: Setting up your AIO-CM4-156
 
 .. image:: /Media/Chipsee_Logo_Full.png
    :align: center
 
-This manual provides users with a fast guide of Chipsee Raspberry Pi Computer (Abbreviated as RPC) after reflashed Raspberry latest rleased OS. Through this manual, users can quickly setting up their AIO-156.
+This manual provides users with a fast guide of Chipsee Raspberry Pi Computer (Abbreviated as RPC) after reflashed Raspberry Official latest rleased OS. Through this manual, users can quickly setting up their AIO-CM4-156 to run Raspberry Official latest released OS.
 
 .. table::
    :align: center
@@ -31,14 +33,14 @@ What you will need
 .. Warning::
    This device only support 12V Power Supply.
 
-Set up your SD card
--------------------
-You can reference `Installing operating system images`_ to know how to set up you SD card.
+Installing the Operating System
+-------------------------------
+You can reference `Installing operating system images`_ to know how to install the Operating System on your SD card.
 
-Start up your CS19108RA4156
----------------------------
+Start up your AIO-CM4-156
+-------------------------
 
-1. Insert the SD card to SD Slot of CS19108RA4156.
+1. Insert the SD card to SD Slot of AIO-CM4-156.
 
 2. Power On.
 
@@ -91,7 +93,9 @@ Install CMhelper
 How to use CMHelper
 -------------------
 
-|AIO156helper|
+.. figure:: /Media/Pi/Software/AIO156helper.jpg
+   :align: center
+   :figclass: align-center
 
 The CMHelper can help customer to use keys and onboard buzzer, led, you can use it
 to control volume, brightness, power, act led, buzzer.
@@ -121,9 +125,6 @@ to control volume, brightness, power, act led, buzzer.
     $ gcc -o cmhelper_test -lcmhelper cmhelper_test.c
     
 
-.. |AIO156helper| image:: Resources/AIO156helper
-   :width: 700px
-   :height: 460px
 
 .. links
 .. _Raspberry Pi Imager: https://www.raspberrypi.org/software/
