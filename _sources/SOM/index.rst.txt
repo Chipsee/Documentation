@@ -3,7 +3,7 @@
 Systems on Module
 =================
 
-.. centered:: *A single circuit board designed with everything you need and built around a powerful microprocessor – the Chipsee System-on-Module. |br| Our System-on-modules offer the power of a computer and the power consumption of a hand-held device.*
+.. centered:: *A single circuit board designed with everything you need and built around a powerful microprocessor – the Chipsee System-on-Module.* |br| *Our System-on-modules offer the power of a computer and the power consumption of a hand-held device.*
 
 
 .. |iMX6Q| replace:: Power efficient, powerful graphics, 1080p video processing, Quad |Arm| |Cortex|-A9.
