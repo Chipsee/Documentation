@@ -26,7 +26,7 @@ the repository much easier.
    i.MX6UL Hardware Documentation <iMX6UL/Manuals/Hardware/index> 
    i.MX6UL Software Documentation <iMX6UL/Manuals/Software/index>
 
-.. rubric:: Products by platform: |Cortex|-A72/53 (Rockit RK3399)
+.. rubric:: Products by platform: |Cortex|-A72/53 (Rockchip RK3399)
 
 .. toctree::
    :maxdepth: 1
@@ -43,3 +43,13 @@ the repository much easier.
    AM335X Hardware Documentation <AM335X/Manuals/Hardware/index>
    AM335X Software Documentation <AM335X/Manuals/Software/index>
    AM335X OS Downloads <AM335X/OS_Downloads/index>
+
+.. rubric:: Products by platform: All-In-One (Rockchip PX30)
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   All-In-One Hardware Documentation <PX30/AIO/Manuals/Hardware/index>
+   All-In-One Software Documentation <PX30/Manuals/Software/index>
+   All-In-One OS Downloads <PX30/OS_Downloads/index>
