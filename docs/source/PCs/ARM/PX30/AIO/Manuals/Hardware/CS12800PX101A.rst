@@ -1,0 +1,347 @@
+.. |product| replace:: AIO-PX30-101
+
+.. |PN| replace:: PN: CS12800PX101A
+
+.. |Product| replace:: The |product| Industrial PC
+
+.. |dispsize| replace:: 10.1"
+
+.. |res| replace:: 1280 x 800
+
+.. |bright| replace:: 350 |cd|
+
+.. |dim| replace:: 260.54 x 178.54 x 26.9mm
+
+.. |weight| replace:: 620g
+
+.. |tscreen| replace:: 10-point capacitive touch with 1.0mm Armored Glass
+
+.. |USB| replace:: 2 x USB 2.0 Host, 1 x mini USB OTG
+
+.. |LAN| replace:: 1 x Channel 100Mbps LAN
+
+.. |GPIO| replace:: N/A
+
+.. |opt1| replace:: Internal 4G/LTE module supported, not mounted by default
+
+.. |vin_rng| replace:: From 9V to 36V
+
+.. |cur| replace:: 500mA Max
+
+.. |pwr| replace:: 6W Typical
+
+.. |temp| replace:: From 0°C to +50°C
+
+.. |storage| replace:: 1 x TF card slot designed for storage expansion
+
+.. |audio| replace:: Mic input on the front panel, 2W internal stereo speaker, 3.5mm audio In/Out connector
+
+.. |rs232| replace:: 1 x RS232 default, 2 Channels at most.
+
+.. |rs485| replace:: 1 x RS485 default, 2 Channels at most. The RS485 circuit automatically controls the Input and Output direction (no need for software control)
+
+.. |can| replace:: 1 x CAN Bus.
+
+.. |relay| replace:: 1 x relay with "Normally Connected" and "Normally Open" output
+
+.. |zigbee| replace:: Internal Zigbee supported, not mounted by default
+
+.. |hdmi| replace:: N/A
+
+.. |hat| replace:: N/A
+
+.. |sd_socket| replace:: N/A
+
+.. |case_color| replace:: Black, White
+
+.. _product_link: https://chipsee.com/product/aio-px30-101/
+
+.. |product_link| replace:: AIO-PX30-101
+
+
+.. _AIO-PX30-101:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. figure:: /Media/ARM/A35/AIO/CS12800PX101A/CS12800PX101A-Front.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View
+
+.. figure:: /Media/ARM/A35/AIO/CS12800PX101A/CS12800PX101A-Back.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View
+
+.. figure:: /Media/ARM/A35/AIO/CS12800PX101A/CS12800PX101A-Side.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Side View
+
+.. figure:: /Media/ARM/A35/AIO/CS12800PX101A/101-Embedded-Front.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Embedded PCB Front
+
+.. figure:: /Media/ARM/A35/AIO/CS12800PX101A/101-Embedded-Bottom.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Embedded PCB Bottom 
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features_2
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+Power Input
+===========
+
+|Product| can be powered by a wide range of input voltages: |vin_rng| DC.
+The total power consumption is typically about 6W. The power input connector is a 4.0/1.7mm DC connector. For a proper DC power adapter, refer to the figure below.
+
+.. Figure:: /Media/ARM/A35/AIO/CS12800PX101A/101-Power.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Power Adapter*
+
+Buttons and Status LED
+======================
+
+Status LED
+----------
+
+This product has an LED status indicator on the backside, as the figure below shows. The LED turns GREEN when the device is turned on and flashes YELLOW when the CPU is working.
+
+.. Figure:: /Media/ARM/A35/AIO/CS12800PX101A/101-LED.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Status LED*
+
+Buttons
+-------
+
+There are three (3) buttons on the backside of the case: Volume +, Volume -, and Power, as the figure below shows.
+
+.. Figure:: /Media/ARM/A35/AIO/CS12800PX101A/101-Buttons.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Buttons*
+
+|Product| will boot automaticlly after power on, don't need to press Power button. After system booted, we can use Power button to sleep and awake system.
+
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to
+100Mbps, and RS232+RS485+CAN+Relay connector.
+
+USB HOST and USB OTG
+--------------------
+
+There are 2 x Type A **USB HOST connectors** and 1 x **USB-OTG Connector** onboard, as shown on the figures below.
+
+.. Figure:: /Media/ARM/A35/AIO/CS12800PX101A/101-USB.jpeg
+  :align: center
+  :figclass: align-center
+
+.. Figure:: /Media/ARM/A35/AIO/CS12800PX101A/101-OTG.jpeg
+  :align: center
+  :figclass: align-center
+
+  *USB HOST and USB OTG Connectors*
+
+.. note::
+
+    * External USB peripherals like a USB disk or USB mouse or keyboard can connect to the USB HOST.
+    * You can download software to the eMMC using the USB OTG.
+
+LAN Connectors
+---------------
+
+**LAN (RJ45) connector** provides Ethernet connectivity over standardized Ethernet cables as shown the figure below. The integrated Ethernet interface supports
+up to 100Mbps data throughput.
+
+.. figure:: /Media/ARM/A35/AIO/CS12800PX101A/101-LAN.jpeg
+  :align: center
+  :figclass: align-center
+
+  *RJ45 LAN Connectors*
+
+.. note::
+
+   Use CAT5 or better cables to achieve full data throughput over maximum distance defined by the 1000BASE-T standard (100m).
+
+TF Card and SIM Card Slots
+--------------------------
+
+|Product| features 1 x **TF Card (micro SD) slot** and 1 x **SIM Card slot**.
+You can use the SIM card slot when you mount the 4G/LTE module.
+
+.. figure:: /Media/ARM/A35/AIO/CS12800PX101A/101-TF_SIM_Cards.jpeg
+  :align: center
+  :figclass: align-center
+
+  *TF Card Slot (upper) and SIM Card Slot (lower)*
+
+.. note::
+
+  #) The product does not come shipped with the TF Card and the SIM Card by default.
+
+
+Audio In/Out Connector
+----------------------
+
+The product features audio In/Out connector as shown on the figure below.
+
+.. figure:: /Media/ARM/A35/AIO/CS12800PX101A/101-Audio.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Audio IO Connector*
+
+ZIGBEE Module
+-------------
+
+|Product| supports an onboard Zigbee module. The Zigbee controller is TI CC2531, and the Raspberry Pi forum supports it.
+
+.. attention::
+
+    The product does not come with the Zigbee module by default.
+
+RS232/RS485/CAN/Relay Connector
+-------------------------------
+
+The serial communication interfaces (RS485, RS482, CAN and Relay) are routed to a **10-pin 2.5mm connector**, as illustrated on the figure below.
+
+.. figure:: /Media/ARM/A35/AIO/CS12800PX101A/101-RS232_CON.jpeg
+   :align: center
+   :figclass: align-center
+
+   *RS232/RS485/CAN/Relay Connector*
+
+The table below offers more detailed description of every pin and its definition:
+
+.. table:: RS232/RS485/CAN/Relay Connector
+   :align: center
+   :width: 100%
+   :class: align-center
+   :widths: auto
+
+   +---------------------------------------------------------------------------------------------------------------+
+   | **RS232 / RS485 / CAN / Relay Pin Definition:**                                                               |
+   +================+===============================+==============================================================+
+   | **Pin Number** | **Definition**                | **Description**                                              |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 1          | GND                           | System Ground                                                |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 2          | RS232_1_RXD                   | CPU UART3, RS232 RXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 3          | RS232_1_TXD                   | CPU UART3, RS232 TXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 4          | RS485_1+                      | CPU UART5, RS485 +(A) signal                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 5          | RS485_1-	                    | CPU UART5, RS485 –(B) signal                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 6          | CAN1_H                        | CPU CAN Channel 1 H signal                                   |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 7          | CAN1_L 	                    | CPU CAN Channel 1 L signal                                   |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 8          | Relay NO	                    | Relay Normally Open                                          |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 9          | Relay COM	                    | Relay Common                                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 10         | Relay NC	                    | Relay Normally Connected                                     |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+
+.. attention::
+
+    #) The RS232_1 can be set as the RS485 signal. If you need it to work as RS485, please |contact|_ before shipping.
+    #) The RS485_1 can be set as the RS232 signal. If you need it to work as RS232, please |contact|_ before shipping.
+    #) RS485 automatically controls input/output direction. It does not need software control.
+    #) The 120Ω match resistor for the RS485 is mounted by default.
+    #) The Relay Max switching voltage is 125VAC or 60VDC. The maximum switching current is 1A. Rated load is 0.3A at 125VAC and 1A at 30VDC.
+
+Camera and Mic Input
+--------------------
+
+|Product| has a camera and an integrated microphone on the front panel, as shown on the figure below.
+
+.. figure:: /Media/ARM/A35/AIO/CS12800PX101A/101-Cam_Mic.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Camera and Microphone Input*
+
+.. attention::
+
+    The product does not come with the camera and integrated microphone mounted by default.
+
+.. warning::
+
+    The Camera driver also need to be added if you need it. please |contact|_ before shipping.
+
+Mounting Procedure
+==================
+
+You can mount |product| with the Vesa (75 x 75mm) and Stand mounting methods, as shown in the figures below.
+
+.. Figure:: /Media/ARM/A35/AIO/CS12800PX101A/101-VMount.jpeg
+  :align: center
+  :figclass: align-center
+
+  *VESA mounting*
+
+.. Figure:: /Media/ARM/A35/AIO/CS12800PX101A/101-SMount.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Stand mounting*
+
+.. attention::
+
+    Please make sure the display is not exposed to high pressure when mounting into an enclosure.
+
+You can find detailed information about mounting in the |mguide|_ on the Chipsee official website.
+
+Mechanical Specifications
+=========================
+
+The outer mechanical dimensions of |product| are |dim| (W x L x H). Please refer to the technical drawing in the figures below for details related to the specific
+product measurements.
+
+.. figure:: /Media/ARM/A35/AIO/CS12800PX101A/CS12800PX101A-TD-Front.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Front Panel Dimension Technical Drawing*
+
+.. figure:: /Media/ARM/A35/AIO/CS12800PX101A/CS12800PX101A-TD-Back.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Backside Dimension Technical Drawing*
+
+.. figure:: /Media/ARM/A35/AIO/CS12800PX101A/CS12800PX101A-TD-Side.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Side Dimension Technical Drawing*
+
+
+.. include:: Resources/support
