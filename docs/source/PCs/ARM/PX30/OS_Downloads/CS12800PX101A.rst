@@ -1,0 +1,10 @@
+AIO-PX30-101 (PN: CS12800PX101A)
+################################
+
+
+.. _CS12800PX101A-android:
+
+Android9.0
+----------
+
+| :download:`prebuilt-px30-cs12800px-lvds-android9-ota-emmc-20220106.img <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/PX30/Android9.0/prebuilt-px30-cs12800px-lvds-android9-ota-emmc-20220106.img>`
