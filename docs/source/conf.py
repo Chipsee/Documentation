@@ -23,7 +23,7 @@ author = 'Randy'
 version = '1.1'
 
 # The full version, including alpha/beta/rc tags
-release = '05'
+release = '1.1'
 
 # -- General configuration ---------------------------------------------------
 # Add any Sphinx extension module names here, as strings. They can be
@@ -149,6 +149,10 @@ html_last_updated_fmt = '%b %d, %Y'
 
 # tablecaption = 'below'
 pygments_style = "sphinx"
+
+# PDF output
+latex_engine = 'pdflatex'
+latex_logo = './Media/Chipsee_Logo_Full.png'
 
 # Sphinx internationalization details
 # language = "zh_CN"
