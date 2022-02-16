@@ -52,6 +52,10 @@
 
 .. |audio| replace:: 3.5mm output/input connector, 2W Internal Speaker
 
+.. _product_link: https://chipsee.com/product/epca870hbr/
+
+.. |product_link| replace:: PPC/EPC-A8-70-HB-R
+
 .. _PPC/EPC-A8-70-HB-R:
 
 
