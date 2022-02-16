@@ -52,6 +52,10 @@
 
 .. |audio| replace:: 3.5mm Audio In/Out Connector
 
+.. _product_link: https://chipsee.com/product/epca850c/
+
+.. |product_link| replace:: EPC/PPC-A8-50-C
+
 .. _EPC/PPC-A8-50-C:
 
 
