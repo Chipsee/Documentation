@@ -307,7 +307,7 @@ You can mount |product| with the Vesa (75 x 75mm) and Stand mounting methods, as
 
     Please make sure the display is not exposed to high pressure when mounting into an enclosure.
 
-You can find detailed information about mounting in the |mguide|_ on the Chipsee official website.
+You can find detailed information about mounting in the |mguide|.
 
 Mechanical Specifications
 =========================
