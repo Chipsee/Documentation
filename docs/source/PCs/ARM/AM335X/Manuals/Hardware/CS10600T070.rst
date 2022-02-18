@@ -1,8 +1,8 @@
 .. |product| replace:: EPC/PPC-A8-70H-C
 
-.. |productE| replace:: EPC-A8-70-HB-C
+.. |productE| replace:: EPC-A8-70H-C
 
-.. |productP| replace:: PPC-A8-70-HB-C
+.. |productP| replace:: PPC-A8-70H-C
 
 .. |PN| replace:: PN: CS10600T070
 

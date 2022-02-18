@@ -2,14 +2,7 @@ WiFi & BT Module
 ----------------
 
 The default |product| without the CM4 does not include a Wi-Fi/BT module. |br|
-If you include a CM4 that has the Wi-Fi/BT module, the product will be equipped with a **Realtek RTL8723 WiFi/BT module** that supports BT/BLE 4.0 (with backward compatibility), as well as 802.11bgn 2.4 GHz Wireless LAN (WLAN).
-
-.. figure:: /Media/Pi/A53/Others/WiFi_BT.jpeg
-   :align: center
-   :figclass: align-center
-
-   *RTL8273 WiFi/BT Module*
-
+If you include a CM4 that has the Wi-Fi/BT module, the product will have Wi-Fi/BT feature.
 The enclosed (|productP|) variant of the product also includes an SMA connector for an external WiFi/BT antenna, as illustrated in the figure below.
 
 .. figure:: /Media/Pi/A53/Others/Antenna.jpeg
