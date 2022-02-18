@@ -18,6 +18,10 @@ products portfolio.
 
 * :ref:`SOM`
 
+.. rubric:: IPC Mounting Guide
+
+* :ref:`MIPCG`
+
 .. note::
 
    For a product-specific software documentation, visit the related product link
@@ -44,3 +48,10 @@ products portfolio.
    :hidden:
 
    SOM/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: IPC Mounting Guide
+   :hidden:
+
+   MountGuide/index
