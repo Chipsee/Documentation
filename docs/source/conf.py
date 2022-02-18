@@ -123,9 +123,7 @@ rst_epilog = """
 
 .. |cstore| replace:: **Chipsee Store**
 
-.. _mguide: https://chipsee.com/mount-ipc-guide/
-
-.. |mguide| replace:: **Mount IPC Guide**
+.. |mguide| replace:: :ref:`Mount IPC Guide <MIPCG>`
 
 .. _email: service@chipsee.com
 

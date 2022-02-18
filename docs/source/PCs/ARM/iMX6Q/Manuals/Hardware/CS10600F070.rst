@@ -211,7 +211,7 @@ Mounting Procedure
 |Product| can be mounted with 4 x M4 screws, enabling simplified installation onto any standard mounting fixture. Other mounting options
 might also be supported according to the table in the `Hardware Features`_ section.
 
-You can find detailed information about mounting in the |mguide|_ on the Chipsee official website.
+You can find detailed information about mounting in the |mguide|.
 
 Mechanical Specifications
 =========================
