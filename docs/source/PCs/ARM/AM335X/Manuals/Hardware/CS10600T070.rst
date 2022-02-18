@@ -1,8 +1,8 @@
-.. |product| replace:: PPC/EPC-A8-70-HB-C
+.. |product| replace:: EPC/PPC-A8-70H-C
 
-.. |productE| replace:: EPC-A8-70-HB-C
+.. |productE| replace:: EPC-A8-70H-C
 
-.. |productP| replace:: PPC-A8-70-HB-C
+.. |productP| replace:: PPC-A8-70H-C
 
 .. |PN| replace:: PN: CS10600T070
 
@@ -52,7 +52,11 @@
 
 .. |audio| replace:: 3.5mm output/input connector, 2W Internal Speaker
 
-.. _PPC/EPC-A8-70-HB-C:
+.. _product_link: https://chipsee.com/product/epca870hbc/
+
+.. |product_link| replace:: EPC/PPC-A8-70H-C
+
+.. _EPC/PPC-A8-70H-C:
 
 
 |product|
