@@ -252,22 +252,7 @@ The product has one USB OTG connector that works as a slave by default. You can 
 
 .. include:: Resources/LAN
 
-WiFi & BT Module
-----------------
-
-The default |product| without the CM4 does not include a Wi-Fi/BT module. |br|
-If you include a CM4 that has the Wi-Fi/BT module, the product will have Wi-Fi/BT feature. 
-The enclosed (|productP|) variant of the product also includes an SMA connector for an external WiFi/BT antenna, as illustrated in the figure below.
-
-.. figure:: /Media/Pi/A53/Others/Antenna.jpeg
-   :align: center
-   :figclass: align-center
-
-   *WiFi+BT Antenna*
-
-.. attention::
-
-    The product does not come shipped with the Wi-Fi/BT module by default.
+.. include:: Resources/WiFi
 
 .. include:: Resources/4G_com
 
