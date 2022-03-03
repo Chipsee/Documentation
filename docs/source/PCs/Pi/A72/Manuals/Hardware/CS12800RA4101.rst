@@ -22,11 +22,11 @@
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 274.75 x 192.75 x 43.20mm
+.. |dimP| replace:: 275.5 x 193.5 x 46.0mm
 
 .. |weightE| replace:: NULL
 
-.. |weightP| replace:: 700g
+.. |weightP| replace:: 1600g
 
 .. |tscreen| replace:: 10-point capacitive touch
 
@@ -46,9 +46,9 @@
 
 .. |vin_rng| replace:: From 6V to 36V
 
-.. |cur| replace:: 420mA Max
+.. |cur| replace:: 800mA Max
 
-.. |pwr| replace:: 5W Typical
+.. |pwr| replace:: 9.6W Typical
 
 .. |temp| replace:: From 0°C to +60°C
 
