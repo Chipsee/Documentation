@@ -73,7 +73,7 @@ html_theme_options = {
     'theme_color': '2D445E'
 }
 html_sidebars = {
-    "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
+    "**": ["globaltoc.html", "localtoc.html", "searchbox.html"]
 }
 
 html_style = 'css/material_custom.css'
