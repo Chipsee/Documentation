@@ -52,7 +52,7 @@
 
 .. |temp| replace:: From 0°C to +60°C
 
-.. _product_link: https://chipsee.com/product/industrial-pi-cm4-101/
+.. _product_link: https://chipsee.com/product/cm4-101-pa/
 
 .. |product_link| replace:: CM4-101-PA
 
