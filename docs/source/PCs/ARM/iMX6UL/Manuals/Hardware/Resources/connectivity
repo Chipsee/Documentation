@@ -50,9 +50,9 @@ The table below offers more detailed description of every pin and its definition
    +----------------+----------------+------------------------------------+
    | Pin 7          | RS485_3+       | CPU UART3, RS485 +(A) signal       |
    +----------------+----------------+------------------------------------+
-   | Pin 6          | RS232_2_RXD    | CPU UART2, RS232 RXD signal [#f]_  |
+   | Pin 6          | RS232_2_RXD    | CPU UART2, RS232 RXD signal        |
    +----------------+----------------+------------------------------------+
-   | Pin 5          | RS232_2_TXD    | CPU UART2, RS232 TXD signal [#f]_  |
+   | Pin 5          | RS232_2_TXD    | CPU UART2, RS232 TXD signal        |
    +----------------+----------------+------------------------------------+
    | Pin 4          | RS232_1_RXD    | CPU UART1, RS232 RXD signal        |
    +----------------+----------------+------------------------------------+
@@ -64,9 +64,6 @@ The table below offers more detailed description of every pin and its definition
    +----------------+----------------+------------------------------------+
      
 -----
-
-.. [#f] UART2 signal is used by the onboard WiFi/BT module, so the I/O port function is disabled by default. If you 
-        need the I/O port function instead, please contact Chipsee Technical Support at |email|_ for assistance.
 
 .. note:: 
 
