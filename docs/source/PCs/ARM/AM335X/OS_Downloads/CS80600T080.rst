@@ -26,4 +26,4 @@ Debian8.4
 
 | **FT5X06 Touchscreen**
 
-| :download:`prebuilt-som-v3-cs80600t080-v3-debian-emmc-20201123.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/8/Debian8.4/prebuilt-som-v3-cs80600t080-v3-debian-emmc-20201123.tar.gz>`
+| :download:`prebuilt-som-v3-cs80600t080-v3-debian-emmc-20211129.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/8/Debian8.4/prebuilt-som-v3-cs80600t080-v3-debian-emmc-20211129.tar.gz>`
