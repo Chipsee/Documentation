@@ -150,3 +150,57 @@ a.md-source, .md-tabs__inner.md-grid > ul.md-tabs__list > li.md-tabs__item > a {
         background: #2D445E !important;
     }
 }
+
+
+/* --- BEGIN: crop images --- */
+/* Optional CSS for cropping images that aren't all the same size. */
+
+
+// Crop thumbnail images.
+
+
+#gallery > div > img.img-thumbnail {
+    height: 150px!important;
+    object-fit: contain;
+}
+
+#gallery > div > img.img-thumbnail:hover {
+    transform: scale(0.8);
+    transition: ease-in-out 0.2s;
+    transition-delay: 0.1s;
+    transform-origin: center;
+}
+
+@media (max-width: 375px) {
+    #gallery > div > img.img-thumbnail {
+        height: 200px;
+        width: 250px;
+    }
+}
+
+.modal-dialog {
+    max-width: fit-content;
+    margin: 1.75rem auto;
+}
+
+.carousel-item img {
+    width: 45vw;
+    object-fit: contain;
+}
+
+@media (max-width: 576px) {
+    .carousel-item img {
+        width: 80vw;
+    }
+}
+/* --- END: crop images --- */
+
+  .carousel-control-prev, .carousel-control-next {
+    font-size: 2em;
+    opacity: 1;
+  }
+
+  .carousel-control-next-icon,  .carousel-control-prev-icon {
+    height: 30px;
+    width: 30px;
+  }

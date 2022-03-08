@@ -57,29 +57,21 @@
 
 .. rubric:: *Version 1.0*
 
-.. figure:: /Media/ARM/A9/CS10600F070/PPC-A9-70-C-Front.jpg
-   :figclass: align-center
-   :class: no-scaled-link
+.. image:: /Media/ARM/A9/CS10600F070/PPC-A9-70-C-Front.jpg
+   :class: no-scaled-link product-img
+   :alt: Front View (Panel Mounting Variant)
 
-   Front View (Panel Mounting Variant)
+.. image:: /Media/ARM/A9/CS10600F070/PPC-A9-70-C-Back.jpg
+   :class: no-scaled-link product-img
+   :alt: Back View (Panel Mounting Variant)
 
-.. figure:: /Media/ARM/A9/CS10600F070/PPC-A9-70-C-Back.jpg
-   :figclass: align-center
-   :class: no-scaled-link
+.. image:: /Media/ARM/A9/CS10600F070/EPC-A9-70-C-Front.jpg
+   :class: no-scaled-link product-img
+   :alt: Front View (Embedded Variant)
 
-   Back View (Panel Mounting Variant)  
-
-.. figure:: /Media/ARM/A9/CS10600F070/EPC-A9-70-C-Front.jpg
-   :figclass: align-center
-   :class: no-scaled-link
-
-   Front View (Embedded Variant)
-
-.. figure:: /Media/ARM/A9/CS10600F070/EPC-A9-70-C-Back.jpg
-   :figclass: align-center
-   :class: no-scaled-link
-
-   Back View (Embedded Variant)
+.. image:: /Media/ARM/A9/CS10600F070/EPC-A9-70-C-Back.jpg
+   :class: no-scaled-link product-img
+   :alt: Back View (Embedded Variant)
 
 .. include:: Resources/overview
 

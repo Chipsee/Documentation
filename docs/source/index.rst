@@ -6,9 +6,7 @@ products portfolio.
 
 .. rubric:: Industrial Panel & Embedded PCs :
 
-* :ref:`Powered by Arm® Cortex® <PBA>`
-* :ref:`Powered by Intel <PBI>`
-* :ref:`Powered by Raspberry PI <PBPI>`
+* :ref:`Powered by Arm® Cortex®, Intel®, and Raspberry PI® platforms <IP>`
 
 .. rubric:: Robust Industrial Monitors
 
@@ -31,9 +29,7 @@ products portfolio.
    :caption: Industrial Panel PC
    :hidden:
 
-   Powered by Arm <PCs/ARM/index>
-   Powered by Intel <PCs/Intel/index>
-   Powered by Raspberry Pi <PCs/Pi/index>
+   Powered by Arm Cortex, Intel, and Raspberry PI platforms <PCs/index>
 
 .. toctree::
    :maxdepth: 1
