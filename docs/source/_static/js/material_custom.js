@@ -65,7 +65,7 @@ function thumbnails(pr_items) {
     var tb_row = "";
     for ( var i = 0; i < imgs.length; i++ ) {
         var pr_item = pr_items[i];
-        tb_row += `<div class="col-12 col-sm-6 col-lg-3 gy-2"><img class="img-thumbnail mx-auto d-block" style="height: 150px;width: 200px;" src="${pr_item[1]}" alt="${pr_item[0]}" data-bs-target="#carouselExample" data-bs-slide-to="${i}"></div>`;
+        tb_row += `<div class="col-12 col-sm-6 col-lg-3 gy-2" style="cursor: pointer;"><img class="img-thumbnail mx-auto d-block" style="height: 150px;width: 200px;" src="${pr_item[1]}" alt="${pr_item[0]}" data-bs-target="#carouselExample" data-bs-slide-to="${i}"></div>`;
     }
     return tb_row
 }

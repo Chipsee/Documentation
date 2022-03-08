@@ -201,6 +201,8 @@ a.md-source, .md-tabs__inner.md-grid > ul.md-tabs__list > li.md-tabs__item > a {
   }
 
   .carousel-control-next-icon,  .carousel-control-prev-icon {
-    height: 30px;
-    width: 30px;
+    height: 30px!important;
+    width: 30px!important;
+    background-color: #ef3d30b8;
+    border-radius: 50%;
   }

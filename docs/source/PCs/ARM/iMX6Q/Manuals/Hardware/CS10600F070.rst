@@ -57,6 +57,8 @@
 
 .. rubric:: *Version 1.0*
 
+.. Add the `product-img` word to the image class directive in order for the thumbnail feature to work
+
 .. image:: /Media/ARM/A9/CS10600F070/PPC-A9-70-C-Front.jpg
    :class: no-scaled-link product-img
    :alt: Front View (Panel Mounting Variant)
