@@ -119,7 +119,7 @@ RS232/RS485/CAN
 
 The serial communication interfaces (RS485, RS482, and CAN) are routed to a **16-pin 3.81mm terminal**, as illustrated on the figure below.
 
-.. figure:: /Media/Pi/A53/Others/CM3-101-IO-Peripherals.jpeg
+.. figure:: /Media/Pi/A72/CS10600RA4070/CM4-7-IO-Peripherals.jpg
    :align: center
    :figclass: align-center
 
