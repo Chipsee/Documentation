@@ -16,9 +16,9 @@ products portfolio.
 
 * :ref:`SOM`
 
-.. rubric:: IPC Mounting Guide
+.. rubric:: IPC Tutorials and Guides
 
-* :ref:`MIPCG`
+* :ref:`ITG`
 
 .. note::
 
@@ -47,7 +47,7 @@ products portfolio.
 
 .. toctree::
    :maxdepth: 1
-   :caption: IPC Mounting Guide
+   :caption: Tutorials and Guides
    :hidden:
 
-   MountGuide/index
+   TutorialGuide/index

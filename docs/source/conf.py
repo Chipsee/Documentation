@@ -63,13 +63,13 @@ html_theme_options = {
     'color_primary': 'deep-orange',
     'color_accent': 'deep-orange',
     # Visible levels of the global TOC; -1 means unlimited
-    'globaltoc_depth': 3,
+    'globaltoc_depth': 4,
     # If False, expand all TOC entries
     'globaltoc_collapse': True,
     # If True, show hidden TOC entries
     'globaltoc_includehidden': True,
-    # 'html_minify': True,
-    # 'css_minify': True,
+    'html_minify': True,
+    'css_minify': True,
     'theme_color': '2D445E'
 }
 html_sidebars = {
