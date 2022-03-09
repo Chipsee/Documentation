@@ -1,45 +1,1356 @@
-<!DOCTYPE html> <meta charset=utf-8  /> <meta name=viewport  content="width=device-width, initial-scale=1.0" /><meta name=generator  content="Docutils 0.17.1: http://docutils.sourceforge.net/" /> <meta name=viewport  content="width=device-width,initial-scale=1"> <meta http-equiv=x-ua-compatible  content="ie=edge"> <meta name="lang:clipboard.copy" content="Copy to clipboard"> <meta name="lang:clipboard.copied" content="Copied to clipboard"> <meta name="lang:search.language" content=en > <meta name="lang:search.pipeline.stopwords" content=True > <meta name="lang:search.pipeline.trimmer" content=True > <meta name="lang:search.result.none" content="No matching documents"> <meta name="lang:search.result.one" content="1 matching document"> <meta name="lang:search.result.other" content="# matching documents"> <meta name="lang:search.tokenizer" content="[\s\-]+"> <link href="https://fonts.gstatic.com/" rel=preconnect  crossorigin> <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto:300,400,400i,700&display=fallback" rel=stylesheet > <style> body, input { font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif } code, kbd, pre { font-family: "Roboto Mono", "Courier New", Courier, monospace } </style> <link rel=stylesheet  href="../../../../../_static/stylesheets/application.css"/> <link rel=stylesheet  href="../../../../../_static/stylesheets/application-palette.css"/> <link rel=stylesheet  href="../../../../../_static/stylesheets/application-fixes.css"/> <link rel=stylesheet  href="../../../../../_static/fonts/material-icons.css"/> <meta name=theme-color  content=2D445E > <script src="../../../../../_static/javascripts/modernizr.js"></script> <title>Angstrom OS &#8212; Chipsee</title> <link rel=stylesheet  type="text/css" href="../../../../../_static/pygments.css" /> <link rel=stylesheet  type="text/css" href="../../../../../_static/css/material_custom.css" /> <script data-url_root="../../../../../" id=documentation_options  src="../../../../../_static/documentation_options.js"></script> <script src="../../../../../_static/jquery.js"></script> <script src="../../../../../_static/underscore.js"></script> <script src="../../../../../_static/doctools.js"></script> <link rel="shortcut icon" href="../../../../../_static/favicon.webp"/> <link rel=index  title=Index  href="../../../../../genindex.html" /> <link rel=search  title=Search  href="../../../../../search.html" /> <link rel=next  title="OS Downloads" href="../../OS_Downloads/index.html" /> <link rel=prev  title="Debian OS" href=Debian.html  /> <body dir=ltr data-md-color-primary=deep-orange data-md-color-accent=deep-orange> <svg class=md-svg > <defs data-children-count=0 > <svg xmlns="http://www.w3.org/2000/svg" width=416  height=448  viewBox="0 0 416 448" id=__github ><path fill=currentColor  d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg> </defs> </svg> <input class=md-toggle  data-md-toggle=drawer  type=checkbox  id=__drawer > <input class=md-toggle  data-md-toggle=search  type=checkbox  id=__search > <label class=md-overlay  data-md-component=overlay  for=__drawer ></label> <a href="#PCs/ARM/AM335X/Manuals/Software/Angstrom" tabindex=1  class=md-skip > Skip to content </a> <header class=md-header  data-md-component=header > <nav class="md-header-nav md-grid"> <div class="md-flex navheader"> <div class="md-flex__cell md-flex__cell--shrink"> <a href="../../../../../index.html" title=Chipsee  class="md-header-nav__button md-logo"> <img src="../../../../../_static/logo-chipsee-white.png" height=26  alt="Chipsee logo"> </a> </div> <div class="md-flex__cell md-flex__cell--shrink"> <label class="md-icon md-icon--menu md-header-nav__button" for=__drawer ></label> </div> <div class="md-flex__cell md-flex__cell--stretch"> <div class="md-flex__ellipsis md-header-nav__title" data-md-component=title > <span class=md-header-nav__topic >Home</span> <span class=md-header-nav__topic > Angstrom OS </span> </div> </div> <div class="md-flex__cell md-flex__cell--shrink"> <label class="md-icon md-icon--search md-header-nav__button" for=__search ></label> <div class=md-search  data-md-component=search  role=dialog > <label class=md-search__overlay  for=__search ></label> <div class=md-search__inner  role=search > <form class=md-search__form  action="../../../../../search.html" method=get  name=search > <input type=text  class=md-search__input  name=q  placeholder=Search  autocapitalize=off  autocomplete=off  spellcheck=false  data-md-component=query  data-md-state=active > <label class="md-icon md-search__icon" for=__search ></label> <button type=reset  class="md-icon md-search__icon" data-md-component=reset  tabindex=-1 > &#xE5CD; </button> </form> <div class=md-search__output > <div class=md-search__scrollwrap  data-md-scrollfix> <div class=md-search-result  data-md-component=result > <div class=md-search-result__meta > Type to start searching </div> <ol class=md-search-result__list ></ol> </div> </div> </div> </div> </div> </div> <script src="../../../../../_static/javascripts/version_dropdown.js"></script> <script> var json_loc = "../../../../../"versions.json"", target_loc = "../../../../../../", text = "Versions"; $( document ).ready( add_version_dropdown(json_loc, target_loc, text)); </script> </div> </nav> </header> <div class=md-container > <nav class=md-tabs  data-md-component=tabs > <div class="md-tabs__inner md-grid"> <ul class=md-tabs__list > <li class=md-tabs__item ><a href="../../../../../index.html" class=md-tabs__link >Chipsee</a> <li class=md-tabs__item ><a href="../../../index.html" class=md-tabs__link >Industrial Panel PCs Powered by Arm<sup>®</sup></a> <li class=md-tabs__item ><a href=index.html  class=md-tabs__link >Software Documentation</a> </ul> </div> </nav> <main class=md-main > <div class="md-main__inner md-grid" data-md-component=container > <div class="md-sidebar md-sidebar--primary" data-md-component=navigation > <div class=md-sidebar__scrollwrap > <div class=md-sidebar__inner > <nav class="md-nav md-nav--primary" data-md-level=0 > <label class="md-nav__title md-nav__title--site" for=__drawer > <a href="../../../../../index.html" title=Chipsee  class="md-nav__button md-logo"> <img src="../../../../../_static/logo-chipsee-white.png" alt=" logo" width=48  height=48 > </a> <a href="../../../../../index.html" title=Chipsee >Home</a> </label> <ul class=md-nav__list > <li class=md-nav__item > <span class="md-nav__link caption"><span class=caption-text >Industrial Panel PC</span></span> <li class=md-nav__item > <a href="../../../index.html" class=md-nav__link >Powered by Arm</a> <ul class=md-nav__list > <li class=md-nav__item > <a href="../../../iMX6Q/Manuals/Hardware/index.html" class=md-nav__link >i.MX6Q Hardware Documentation</a> <li class=md-nav__item > <a href="../../../iMX6Q/Manuals/Software/index.html" class=md-nav__link >i.MX6Q Software Documentation</a> <li class=md-nav__item > <a href="../../../iMX6Q/OS_Downloads/index.html" class=md-nav__link >i.MX6Q OS Downloads</a> <li class=md-nav__item > <a href="../../../iMX6UL/Manuals/Hardware/index.html" class=md-nav__link >i.MX6UL Hardware Documentation</a> <li class=md-nav__item > <a href="../../../iMX6UL/Manuals/Software/index.html" class=md-nav__link >i.MX6UL Software Documentation</a> <li class=md-nav__item > <a href="../../../RK3399/Manuals/Hardware/index.html" class=md-nav__link >RK3399 Hardware Documentation</a> <li class=md-nav__item > <a href="../Hardware/index.html" class=md-nav__link >AM335X Hardware Documentation</a> <li class=md-nav__item > <a href=index.html  class=md-nav__link >AM335X Software Documentation</a> <ul class=md-nav__list > <li class=md-nav__item > <a href=Android.html  class=md-nav__link >Android</a> <li class=md-nav__item > <a href=LinuxQt.html  class=md-nav__link >LinuxQt</a> <li class=md-nav__item > <a href=Debian.html  class=md-nav__link >Debian</a> <li class=md-nav__item > <input class="md-toggle md-nav__toggle" data-md-toggle=toc  type=checkbox  id=__toc > <label class="md-nav__link md-nav__link--active" for=__toc > Angstrom </label> <a href="#" class="md-nav__link md-nav__link--active">Angstrom</a> <nav class="md-nav md-nav--secondary"> <label class=md-nav__title  for=__toc >Contents</label> <ul class=md-nav__list  data-md-scrollfix=""> <li class=md-nav__item ><a href="#pcs-arm-am335x-manuals-software-angstrom--page-root" class=md-nav__link >Angstrom OS</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#preparation" class=md-nav__link >Preparation</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#hardware-requirements" class=md-nav__link >Hardware Requirements</a> <li class=md-nav__item ><a href="#software-requirements" class=md-nav__link >Software Requirements</a> </ul> </nav> <li class=md-nav__item ><a href="#getting-started-and-tests" class=md-nav__link >Getting Started and Tests</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#dip-switch-configuration" class=md-nav__link >DIP Switch Configuration</a> <li class=md-nav__item ><a href="#downloading-images" class=md-nav__link >Downloading Images</a> <li class=md-nav__item ><a href="#prebuilt-files-package" class=md-nav__link >Prebuilt Files Package</a> <li class=md-nav__item ><a href="#how-to-make-a-bootable-sd-card" class=md-nav__link >How to make a bootable SD card</a> <li class=md-nav__item ><a href="#how-to-flash-linux-to-emmc" class=md-nav__link >How to flash Linux to eMMC</a> <li class=md-nav__item ><a href="#start-systemtype-os" class=md-nav__link >Start Angstrom OS</a> <li class=md-nav__item ><a href="#tests" class=md-nav__link >Tests</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#touch-screen-and-buzzer-test" class=md-nav__link >Touch screen and buzzer test</a> <li class=md-nav__item ><a href="#audio-io-test" class=md-nav__link >Audio IO test</a> <li class=md-nav__item ><a href="#serial-test" class=md-nav__link >Serial test</a> <li class=md-nav__item ><a href="#gpio-test" class=md-nav__link >GPIO test</a> <li class=md-nav__item ><a href="#network" class=md-nav__link >Network</a> <li class=md-nav__item ><a href="#date-and-time" class=md-nav__link >Date and Time</a> <li class=md-nav__item ><a href="#backlight" class=md-nav__link >Backlight</a> <li class=md-nav__item ><a href="#usb-device-test" class=md-nav__link >USB device test</a> </ul> </nav> <li class=md-nav__item ><a href="#modify-os-start-up-logo" class=md-nav__link >Modify OS Start up Logo</a> </ul> </nav> <li class=md-nav__item ><a href="#systemtype-os-debug" class=md-nav__link >Angstrom OS debug</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#view-systemtype-system-via-the-serial-port" class=md-nav__link >View Angstrom system via the serial port</a> <li class=md-nav__item ><a href="#debug-via-nfs" class=md-nav__link >Debug via NFS</a> </ul> </nav> <li class=md-nav__item ><a href="#technical-support" class=md-nav__link >Technical Support</a> </ul> </nav> </ul> </nav> </ul> <li class=md-nav__item > <a href="../../OS_Downloads/index.html" class=md-nav__link >AM335X OS Downloads</a> <li class=md-nav__item > <a href="../../../PX30/AIO/Manuals/Hardware/index.html" class=md-nav__link >All-In-One Hardware Documentation</a> <li class=md-nav__item > <a href="../../../PX30/Manuals/Software/index.html" class=md-nav__link >All-In-One Software Documentation</a> <li class=md-nav__item > <a href="../../../PX30/OS_Downloads/index.html" class=md-nav__link >All-In-One OS Downloads</a> </ul> <li class=md-nav__item > <a href="../../../../Intel/index.html" class=md-nav__link >Powered by Intel</a> <li class=md-nav__item > <a href="../../../../Pi/index.html" class=md-nav__link >Powered by Raspberry Pi</a> <li class=md-nav__item > <span class="md-nav__link caption"><span class=caption-text >Industrial Monitors</span></span> <li class=md-nav__item > <a href="../../../../../Monitors/index.html" class=md-nav__link >Monitors with Capacitive Touch</a> <li class=md-nav__item > <span class="md-nav__link caption"><span class=caption-text >Systems on Module</span></span> <li class=md-nav__item > <a href="../../../../../SOM/index.html" class=md-nav__link >Systems on Module</a> <li class=md-nav__item > <span class="md-nav__link caption"><span class=caption-text >IPC Mounting Guide</span></span> <li class=md-nav__item > <a href="../../../../../MountGuide/index.html" class=md-nav__link >Mounting Guide</a> </ul> </nav> </div> </div> </div> <div class="md-sidebar md-sidebar--secondary" data-md-component=toc > <div class=md-sidebar__scrollwrap > <div class=md-sidebar__inner > <nav class="md-nav md-nav--secondary"> <label class=md-nav__title  for=__toc >Contents</label> <ul class=md-nav__list  data-md-scrollfix=""> <li class=md-nav__item ><a href="#pcs-arm-am335x-manuals-software-angstrom--page-root" class=md-nav__link >Angstrom OS</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#preparation" class=md-nav__link >Preparation</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#hardware-requirements" class=md-nav__link >Hardware Requirements</a> <li class=md-nav__item ><a href="#software-requirements" class=md-nav__link >Software Requirements</a> </ul> </nav> <li class=md-nav__item ><a href="#getting-started-and-tests" class=md-nav__link >Getting Started and Tests</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#dip-switch-configuration" class=md-nav__link >DIP Switch Configuration</a> <li class=md-nav__item ><a href="#downloading-images" class=md-nav__link >Downloading Images</a> <li class=md-nav__item ><a href="#prebuilt-files-package" class=md-nav__link >Prebuilt Files Package</a> <li class=md-nav__item ><a href="#how-to-make-a-bootable-sd-card" class=md-nav__link >How to make a bootable SD card</a> <li class=md-nav__item ><a href="#how-to-flash-linux-to-emmc" class=md-nav__link >How to flash Linux to eMMC</a> <li class=md-nav__item ><a href="#start-systemtype-os" class=md-nav__link >Start Angstrom OS</a> <li class=md-nav__item ><a href="#tests" class=md-nav__link >Tests</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#touch-screen-and-buzzer-test" class=md-nav__link >Touch screen and buzzer test</a> <li class=md-nav__item ><a href="#audio-io-test" class=md-nav__link >Audio IO test</a> <li class=md-nav__item ><a href="#serial-test" class=md-nav__link >Serial test</a> <li class=md-nav__item ><a href="#gpio-test" class=md-nav__link >GPIO test</a> <li class=md-nav__item ><a href="#network" class=md-nav__link >Network</a> <li class=md-nav__item ><a href="#date-and-time" class=md-nav__link >Date and Time</a> <li class=md-nav__item ><a href="#backlight" class=md-nav__link >Backlight</a> <li class=md-nav__item ><a href="#usb-device-test" class=md-nav__link >USB device test</a> </ul> </nav> <li class=md-nav__item ><a href="#modify-os-start-up-logo" class=md-nav__link >Modify OS Start up Logo</a> </ul> </nav> <li class=md-nav__item ><a href="#systemtype-os-debug" class=md-nav__link >Angstrom OS debug</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#view-systemtype-system-via-the-serial-port" class=md-nav__link >View Angstrom system via the serial port</a> <li class=md-nav__item ><a href="#debug-via-nfs" class=md-nav__link >Debug via NFS</a> </ul> </nav> <li class=md-nav__item ><a href="#technical-support" class=md-nav__link >Technical Support</a> </ul> </nav> </ul> </nav> </div> </div> </div> <div class=md-content > <article class="md-content__inner md-typeset" role=main > <section id=systemtype-os > <h1 id=pcs-arm-am335x-manuals-software-angstrom--page-root >Angstrom OS<a class=headerlink  href="#pcs-arm-am335x-manuals-software-angstrom--page-root" title="Permalink to this headline">¶</a></h1> <p class=centered > <strong>Chipsee Angstrom OS User Manual</strong></p><img alt="../../../../../_images/Chipsee_Logo_Full.png" class=align-center  src="../../../../../_images/Chipsee_Logo_Full.png"/> <p>This manual provides users with a fast guide of Chipsee Industrial Computer (Abbreviated as IPC) about Angstrom OS development. Through this manual, users can quickly understand the hardware resources; users can debug Angstrom OS via serial and Internet.</p> <table style="width: 100%"> <colgroup> <col style="width: 22%"/> <col style="width: 24%"/> <col style="width: 17%"/> <col style="width: 37%"/> <thead> <tr class=row-odd ><th class=head ><p>Revision</p> <th class=head ><p>Date</p> <th class=head ><p>Author</p> <th class=head ><p>Description</p> <tr class=row-even ><td><p>V1.0</p> <td><p>2021-12-09</p> <td><p>Randy</p> <td><p>Initial Version</p> </table> <p><strong>SUPPORTED BOARDS:</strong></p> <blockquote> <div><p><em>CS80480T050</em> <em>CS10600T070</em> <em>CS10768T097</em></p> </div></blockquote> <p id=db-pkg-angstrom ><strong>PREBUILT FILES PACKAGE:</strong></p> <p>Prebuilt files for the various industrial PCs can be found in the <a class="reference internal" href="../../OS_Downloads/index.html#am335x-osdownloads"><span class="std std-ref">OS Downloads</span></a>. <br/> Below are the links to the prebuilt files for each industrial PC model.</p> <ul class=simple > <li><p><a class="reference internal" href="../../OS_Downloads/CS80480T050.html#cs80480t050-angstrom"><span class="std std-ref">CS80480T050</span></a></p> <li><p><a class="reference internal" href="../../OS_Downloads/CS10600T070.html#cs10600t070-angstrom"><span class="std std-ref">CS10600T070</span></a></p> <li><p><a class="reference internal" href="../../OS_Downloads/CS10768T097.html#cs10768t097-angstrom"><span class="std std-ref">CS10768T097</span></a></p> </ul> <p class=rubric >System Features</p> <table style="width: 100%"> <colgroup> <col style="width: 31%"/> <col style="width: 69%"/> <thead> <tr class=row-odd ><th class=head ><p>Feature</p> <th class=head ><p>Comment</p> <tr class=row-even ><td><p>System</p> <td><p>Angstrom 2012</p> </table> <section id=preparation > <h2 id=preparation >Preparation<a class=headerlink  href="#preparation" title="Permalink to this headline">¶</a></h2> <p>You will need to prepare the following items before you can start using the Prebuilt Files Package to re-flash the system.</p> <ul> <li><p>Power Supply Unit (PSU) with the appropriate voltages, as follows:</p> <blockquote> <div><ul class=simple > <li><p>Products with 5” display panel require 6V to 36V PSU</p> <li><p>Products with 7” to 10.1” display panel and larger require 6V to 42V PSU</p> </ul> </div></blockquote> <li><p>USB to serial cable for debugging Chipsee Industrial Embedded Computers (Chipsee IPC)</p> <li><p>TF Card to create a bootable storage for re-flashing the system. Use the prebuilt files <a class="reference internal" href="#db-pkg-angstrom"><span class="std std-ref">link above</span></a> to re-flash the system.</p> </ul> <section id=hardware-requirements > <h3 id=hardware-requirements >Hardware Requirements<a class=headerlink  href="#hardware-requirements" title="Permalink to this headline">¶</a></h3> <ul class=simple > <li><p>Chipsee Industrial PC</p> <li><p>PSU according to the instructions above</p> <li><p>USB-to-serial or other serial cable for debugging</p> <li><p>TF Card (at least 4GB) and card reader</p> <li><p>USB A-A cable (used only if the hardware configured as OTG)</p> <li><p>Windows 7 PC</p> </ul> </section> <section id=software-requirements > <h3 id=software-requirements >Software Requirements<a class=headerlink  href="#software-requirements" title="Permalink to this headline">¶</a></h3> <ul class=simple > <li><p>Angstrom OS Prebuilt Files Package (from the link above)</p> </ul> <div class="admonition note"> <p class=admonition-title >Note</p> <p>In this documentation, all the commands are executed with <code class="docutils literal notranslate"><span class=pre >root</span></code> user privileges.</p> </div> </section> </section> <section id=getting-started-and-tests > <h2 id=getting-started-and-tests >Getting Started and Tests<a class=headerlink  href="#getting-started-and-tests" title="Permalink to this headline">¶</a></h2> <section id=dip-switch-configuration > <h3 id=dip-switch-configuration >DIP Switch Configuration<a class=headerlink  href="#dip-switch-configuration" title="Permalink to this headline">¶</a></h3> <p>Set the boot DIP switch, as shown on the figure below, to boot the system from the external SD Card.</p> <figure class=align-center  id=id1 > <img alt="../../../../../_images/Boot_SW2.jpeg" src="../../../../../_images/Boot_SW2.jpeg"/> <figcaption> <p><span class=caption-number >Figure 746: </span><span class=caption-text >Boot Mode Setup</span><a class=headerlink  href="#id1" title="Permalink to this image">¶</a></p> </figcaption> </figure> </section> <section id=downloading-images > <h3 id=downloading-images >Downloading Images<a class=headerlink  href="#downloading-images" title="Permalink to this headline">¶</a></h3> <p>Chipsee IPC supports booting from an integrated eMMC or an external TF Card (also known as the micro SD card). Booting from the external TF Card allows flashing the system OS.</p> <div class="admonition note"> <p class=admonition-title >Note</p> <p>The operator should use the prebuilt file we provided in the CD to test the hardware before re-flashing the system.</p> </div> </section> <section id=prebuilt-files-package > <h3 id=prebuilt-files-package >Prebuilt Files Package<a class=headerlink  href="#prebuilt-files-package" title="Permalink to this headline">¶</a></h3> <p>You can get the Prebuilt Files Package for each model from links mentioned at the beginning of this documentation. You can also get the Prebuilt Files Package from the DVD in /Angstrom/Prebuilds folder. However, it may be outdated so always compare the versions (the last number in the filename is the release date).</p> <p>The prebuilt package has the following content:</p> <table id=id2  style="width: 100%"> <caption><span class=caption-number >Table 145: </span><span class=caption-text >Prebuilt Files Package</span><a class=headerlink  href="#id2" title="Permalink to this table">¶</a></caption> <thead> <tr class=row-odd ><th class=head ><p>Contents</p> <th class=head ><p>Comment</p> <tr class=row-even ><td><p>boot/imx6ulipc.dtb</p> <td><p>TF Card boot dtb file</p> <tr class=row-odd ><td><p>boot/u-boot.imx</p> <td><p>TF Card boot bootloader</p> <tr class=row-even ><td><p>boot/zImage</p> <td><p>TF Card boot kernel file</p> <tr class=row-odd ><td><p>filesystem/rootfs-emmc-flasher.tar.bz2</p> <td><p>TF Card boot rootFS</p> <tr class=row-even ><td><p>mksdcard.sh</p> <td><p>Shell tools to make bootable TF Card</p> <tr class=row-odd ><td><p>README</p> <td><p>Simple guidelines</p> <tr class=row-even ><td><p>S1.jpg</p> <td><p>Boot Switch Config Figure</p> <tr class=row-odd ><td><p>emmc-flash/emmc/rootfs.tar.gz</p> <td><p>RootFS in target eMMC</p> <tr class=row-even ><td><p>emmc-flash/emmc/u-boot.imx</p> <td><p>Bootloader in target eMMC</p> <tr class=row-odd ><td><p>emmc-flash/emmc/zImage</p> <td><p>Kernel file in target eMMC</p> <tr class=row-even ><td><p>emmc-flash/emmc/imx6ul-eisd.dtb</p> <td><p>dtb file in target eMMC</p> <tr class=row-odd ><td><p>emmc-flash/mkemmc.sh</p> <td><p>Shell tools to download images</p> </table> <div class="admonition note"> <p class=admonition-title >Note</p> <p>The default <code class="docutils literal notranslate"><span class=pre >zImage</span></code> and <code class="docutils literal notranslate"><span class=pre >imx6q-sabresd.dtb</span></code> files support <em>‘keep the logo from uboot to kernel’</em> but do not support framebuffer. Chipsee provides <code class="docutils literal notranslate"><span class=pre >zImage_framebuffer</span></code> and <code class="docutils literal notranslate"><span class=pre >imx6q-eisd.dtb_framebuffer</span></code> file versions that support the framebuffer function but do not support the <em>‘keep the logo from uboot kernel’</em> feature. If you need the framebufer, just rename these two files to <code class="docutils literal notranslate"><span class=pre >zImage</span></code> and <code class="docutils literal notranslate"><span class=pre >imx6q-eisd.dtb</span></code>.</p> </div> </section> <section id=how-to-make-a-bootable-sd-card > <h3 id=how-to-make-a-bootable-sd-card >How to make a bootable SD card<a class=headerlink  href="#how-to-make-a-bootable-sd-card" title="Permalink to this headline">¶</a></h3> <p>The Prebuilt Files Package has a shell tool that can help create a bootable SD card using a Linux platform (such as desktop PC or Virtual Machine running Ubuntu 14.04 distribution). <br/> Use the SD Card to download the bootable system image onto the Linux platform and follow the steps below to create a bootable SD card:</p> <ol class=arabic > <li><p>Copy the Prebuilt Files Package to a Linux environment (such as Ubuntu 14.04).</p> <li><p>Insert the SD card into your computer. If you are using virtual machines, please ensure the SD card is mounted to the Linux operating system.</p> <li><dl> <dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class=pre >/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class=pre >/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class=pre >/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo fdisk –l
-</pre></div> </div> </dl> <li><p>Copy the <code class="code docutils literal notranslate"><span class=pre >prebuilt-angstrom-XXXXXX.tar.gz</span></code> to somewhere(such as $HOME).</p> <li><dl> <dt>Extract the <code class="code docutils literal notranslate"><span class=pre >prebuilt-angstrom-XXXXXX.tar.gz</span></code><dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ tar -xzvf prebuilt-angstrom-XXXXXX.tar.gz
-</pre></div> </div> </dl> <li><dl> <dt>Go to the folder<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ <span class=nb >cd</span> ~/prebuilt-angstrom-XXXXXX
-</pre></div> </div> </dl> <li><dl> <dt>Use the following command to flash the Angstrom OS to the SD card<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo ./mksdcard.sh --device /dev/sd&lt;?&gt;
-</pre></div> </div> <div class="admonition note"> <p class=admonition-title >Note</p> <ul class=simple > <li><p>sd&lt;?&gt; means the SD card mount point, (e.g., <code class="docutils literal notranslate"><span class=pre >/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class=pre >/dev/sdb</span></code>) in Ubuntu system.</p> <li><p>The recommended SD card should be Sandisk Class4 level SD card or above.</p> </ul> </div> </dl> <li><p>The bootable SD Card is now ready. Power OFF the industrial PC and insert the SD Card.</p> <li><p>Set the DIP switch to uSD BOOT mode. (refer to <a class="reference internal" href="#dip-switch-configuration">DIP Switch Configuration</a> above)</p> <li><p>Connect the industrial PC to PC via COM1. Power ON the IPC.</p> <li><p>After 20 minutes, if the LED on industrial PC stays lit, flashing is completed. Using COM1, you can also find this message <strong>&gt;&gt;&gt;&gt;&gt;&gt;&gt; eMMC Flashing Completed &lt;&lt;&lt;&lt;&lt;&lt;&lt;</strong> which indicates that the system image was downloaded correctly to the eMMC.</p> <li><p>Power OFF the IPC and set the DIP switch to eMMC BOOT mode. (refer to <a class="reference internal" href="#dip-switch-configuration">DIP Switch Configuration</a> above)</p> </ol> </section> <section id=how-to-flash-linux-to-emmc > <h3 id=how-to-flash-linux-to-emmc >How to flash Linux to eMMC<a class=headerlink  href="#how-to-flash-linux-to-emmc" title="Permalink to this headline">¶</a></h3> <p>The Prebuilt Files Package has a shell tool that can help create a bootable SD card using a Linux platform (such as desktop PC or Virtual Machine running Ubuntu 14.04 distribution). <br/> Follow the steps below to create a bootable SD card:</p> <ol class=arabic > <li><p>Copy the Prebuilt Files Package to a Linux environment (such as Ubuntu 14.04).</p> <li><p>Insert the SD card into your computer. If you are using virtual machines, please ensure the SD card is mounted to the Linux operating system.</p> <li><dl> <dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class=pre >/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class=pre >/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class=pre >/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo fdisk –l
-</pre></div> </div> </dl> <li><p>Copy the prebuilt file <code class="docutils literal notranslate"><span class=pre >prebuilt-som-v3-csxxxxxtxx-v3-ezsdk-emmc-yyyymmdd.tar.gz</span></code> to somewhere(such as $HOME).</p> <li><dl> <dt>Extract the prebuilt file <code class="docutils literal notranslate"><span class=pre >prebuilt-som-v3-csxxxxxtxx-v3-ezsdk-emmc-yyyymmdd.tar.gz</span></code><dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ tar -xzvf prebuilt-som-v3-csxxxxxtxx-v3-ezsdk-emmc-yyyymmdd.tar.gz
-</pre></div> </div> </dl> <li><dl> <dt>Go to the folder <code class="docutils literal notranslate"><span class=pre >prebuilt-som-v3-csxxxxxtxx-v3-ezsdk-emmc-yyyymmdd</span></code><dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ <span class=nb >cd</span> ~/prebuilt-som-v3-csxxxxxtxx-v3-ezsdk-emmc-yyyymmdd
-</pre></div> </div> </dl> <li><dl> <dt>Use the following command to flash the Angstrom OS to the SD card<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo ./mksdcard.sh --device  /dev/sd&lt;?&gt;
-</pre></div> </div> <div class="admonition note"> <p class=admonition-title >Note</p> <ul class=simple > <li><p>sd&lt;?&gt; means the SD card mount point, (e.g., <code class="docutils literal notranslate"><span class=pre >/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class=pre >/dev/sdb</span></code>) in Ubuntu system.</p> <li><p>The recommended SD card should be Sandisk Class4 level SD card or above.</p> </ul> </div> </dl> <li><p>The bootable SD Card is now ready. Power OFF the industrial PC and insert the SD Card.</p> <li><p>Set the DIP switch to SD BOOT mode. (refer to <a class="reference internal" href="#dip-switch-configuration">DIP Switch Configuration</a> above)</p> <li><p>Connect the industrial PC to PC via COM1. Power ON the IPC.</p> <li><p>After 20 minutes, if the LED on industrial PC stays lit, flashing is completed. Using COM1, you can also find this message <strong>&gt;&gt;&gt;&gt;&gt;&gt;&gt; eMMC Flashing Completed &lt;&lt;&lt;&lt;&lt;&lt;&lt;</strong> which indicates that the system image was downloaded correctly to the eMMC.</p> <li><p>Remove the SD card and Power OFF the IPC.</p> <li><p>Set the DIP switch to eMMC BOOT mode (refer to <a class="reference internal" href="#dip-switch-configuration">DIP Switch Configuration</a> above) and Power ON the IPC.</p> </ol> </section> <section id=start-systemtype-os > <h3 id=start-systemtype-os >Start Angstrom OS<a class=headerlink  href="#start-systemtype-os" title="Permalink to this headline">¶</a></h3> <p>The first time you start Angstrom OS on the industrial PC will take a little time. But after the first time, Angstrom OS will start quickly. When the Angstrom OS starts up, you will see the Chipsee Logo on the LCD screen. It is a successful start if you see the Angstrom OS desktop such as the one shown in the figure below:</p> <figure class=align-center  id=id3 > <img alt="../../../../../_images/Startup_Screen1.jpeg" src="../../../../../_images/Startup_Screen1.jpeg"/> <figcaption> <p><span class=caption-number >Figure 747: </span><span class=caption-text >Angstrom OS start-up screen</span><a class=headerlink  href="#id3" title="Permalink to this image">¶</a></p> </figcaption> </figure> </section> <section id=tests > <h3 id=tests >Tests<a class=headerlink  href="#tests" title="Permalink to this headline">¶</a></h3> <section id=touch-screen-and-buzzer-test > <h4 id=touch-screen-and-buzzer-test >Touch screen and buzzer test<a class=headerlink  href="#touch-screen-and-buzzer-test" title="Permalink to this headline">¶</a></h4> <p>Click on the screen, the mouse arrow stays in a position that triggers the buzzer sounds, indicating that touch and buzzer work properly. <br/> After working for some time, the resistive touch screen may not be accurate. The user must run a touch screen calibration test. <br/> Firstly delete the file <code class="docutils literal notranslate"><span class=pre >/etc/pointercal.xinput</span></code> using the command below.</p> <div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo rm /etc/pointercal.xinput
-</pre></div> </div> <p>Click on the System–&gt;Administration–&gt;Calibrate Touchscreen app on desktop to recalibrate. <br/> Reboot the system. You will see the calibrate app upon boot up before you access the system. Just calibrate, the result will be saved.</p> <p>The buzzer will sound when the screen is touched, if you want to disable it, you can do this:</p> <ul> <li><dl> <dt>On capacitive touchscreen:<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># echo 0 &gt; /sys/devices/ocp.3/44e0b000.i2c/i2c-0/0-0038/buzopen</span>
-</pre></div> </div> </dl> <li><dl> <dt>On resistive touchscreen:<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># echo 1 &gt; /sys/devices/ocp.3/44e0d000.tscadc/tsc/buzopen</span>
-</pre></div> </div> <dl class=simple > <dt>where:<dd><ul class=simple > <li><p>0 = disable</p> <li><p>1 = enable</p> </ul> </dl> </dl> </ul> </section> <section id=audio-io-test > <h4 id=audio-io-test >Audio IO test<a class=headerlink  href="#audio-io-test" title="Permalink to this headline">¶</a></h4> <p>Start the terminal, then use the <code class="docutils literal notranslate"><span class=pre >mplayer</span></code> command to play an audio file.</p> <div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># mplayer FILENAME  //such as: mplayer ~/Music/test.mp3</span>
-</pre></div> </div> </section> <section id=serial-test > <h4 id=serial-test >Serial test<a class=headerlink  href="#serial-test" title="Permalink to this headline">¶</a></h4> <p>There are four serial ports on the Chipsee IPC: 2 X RS232 and 2 X RS485. The COM1(RS232) is used as the debug serial port. Users can communicate with the OS via COM1. Refer to the table below for the available serial device nodes.</p> <table id=id4  style="width: 100%"> <caption><span class=caption-number >Table 146: </span><span class=caption-text >Serial Ports Nodes on the System</span><a class=headerlink  href="#id4" title="Permalink to this table">¶</a></caption> <thead> <tr class=row-odd ><th class=head ><p>Ports</p> <th class=head ><p>Device Node</p> <tr class=row-even ><td><p>COM1(RS232, Debug)</p> <td><p>/dev/ttyO0</p> <tr class=row-odd ><td><p>COM2(RS232)</p> <td><p>/dev/ttyO1</p> <tr class=row-even ><td><p>COM3(RS485)</p> <td><p>/dev/ttyO2</p> <tr class=row-odd ><td><p>COM4(RS485)</p> <td><p>/dev/ttyO4</p> </table> <ol class=arabic > <li><dl> <dt>Run a serial test:<dd><ul class=simple > <li><p>Install <strong>SecureCRT</strong> or <strong>Putty</strong> software on a Windows 7 PC and use it to perform the serial port testing.</p> <li><p>Connect keyboard and mouse to the IPC. Then press <strong>Ctrl+Alt+F1 (or F3~F6)</strong> to get into <strong>tty1(tty3~tty6)</strong>. Enter username: :substitution-code:<code class="docutils literal notranslate"><span class=pre >|user|</span></code>, no password.</p> </ul> <div class="admonition note"> <p class=admonition-title >Note</p> <p>Notes: The system is not QtE by default, follow the steps in the CD(Angstrom/Documents/Qt-Angstrom) to set the environment. The QtE in Angstrom OS is not working well, by now user only can use mouse for the Qt apps.</p> </div> <ul class=simple > <li><p>Launch the <strong>ChipseeTest</strong> app by using the commands below.</p> </ul> <div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># cd chipsee</span>
-<span class=c1 ># ./ChipseeTest -qws</span>
-</pre></div> </div> <figure class=align-center  id=id5 > <img alt="../../../../../_images/ChipseeTest_Screen.jpeg" src="../../../../../_images/ChipseeTest_Screen.jpeg"/> <figcaption> <p><span class=caption-number >Figure 748: </span><span class=caption-text >ChipseeTest</span><a class=headerlink  href="#id5" title="Permalink to this image">¶</a></p> </figcaption> </figure> </dl> <li><dl> <dt>If you want to use COM1 as a normal serial port, you can re-configure the port by following these steps:<dd><ul class=simple > <li><p>Open and edit the <code class="docutils literal notranslate"><span class=pre >uEnv.txt</span></code> file which can be found in the boot partition with any text editor.</p> </ul> <div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=nv >bootargs</span><span class=o >=</span><span class=nv >console</span><span class=o >=</span>ttyO0,115200n8 <span class=nv >root</span><span class=o >=</span>/dev/mmcblk0p2
-</pre></div> </div> <ul class=simple > <li><p>At the end of the file, edit this line <code class="docutils literal notranslate"><span class=pre >bootargs=console=ttyO0,115200n8</span> <span class=pre >root=/dev/mmcblk0p2</span></code> to</p> </ul> <div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=nv >bootargs</span><span class=o >=</span><span class=nv >root</span><span class=o >=</span>/dev/mmcblk0p2
-</pre></div> </div> <ul class=simple > <li><p>This will change ttyO0 (COM1) to ttyO1, ttyO2 or ttyO4(RS232_2, RS485_1 and RS485_2) and makes it possible to use all the four serial ports as normal serial ports.</p> <li><p>Stop the service in Angstrom.</p> </ul> <div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># systemctl disable serial-getty@ttyO0.service</span>
-<span class=c1 ># systemctl stop serial-getty@ttyO0.service</span>
-</pre></div> </div> <p>Now you can use the COM1 as normal serial port.</p> </dl> </ol> <ol class=arabic > <li><dl> <dt>If you want to use COM1 as debug serial port, you have to edit the <code class="docutils literal notranslate"><span class=pre >uEnv.txt</span></code> file which you can find in the boot partition. And start the service by running this command:<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># systemctl start serial-getty@ttyO0.service</span>
-</pre></div> </div> </dl> <li><dl class=simple > <dt>From the <strong>ChipseeTest</strong> app, search for the serial area then configure the following settings, as shown on the figure below.<dd><ul class=simple > <li><p>set Com to COM2</p> <li><p>set Baud to 115200</p> <li><p>click on the <strong>Open</strong> button</p> <li><p>It will send the string <em>Succeed in sending message!!!</em> every two seconds through the serial port to the Windows 7 PC.</p> <li><p>Click on the <strong>SendMSG</strong> button to send the string <em>Succeed in sending message-manual!!!</em>.</p> <li><p>Every two seconds, it will read the received buffer and show the result to the received area.</p> </ul> </dl> </ol> </section> <section id=gpio-test > <h4 id=gpio-test >GPIO test<a class=headerlink  href="#gpio-test" title="Permalink to this headline">¶</a></h4> <p>There are (4) four input and (4) four output pins. LOW is 0V, HIGH is 5V. <br/> The GPIO input terminals connect to the GPIO output terminals, respectively. IN1-4 corresponds to OUT1-4. <br/> As a result, if you set the GPIO_OUT area, you will see the GPIO_IN region change as well. <br/> You can control the LED light on the industrial PC by setting the LED <strong>ON</strong> or <strong>OFF</strong>.</p> <table id=id6  style="width: 100%"> <caption><span class=caption-number >Table 147: </span><span class=caption-text >GPIO Nodes on the System</span><a class=headerlink  href="#id6" title="Permalink to this table">¶</a></caption> <thead> <tr class=row-odd ><th class=head ><p>GPIO</p> <th class=head ><p>GPIO In System</p> <tr class=row-even ><td><p>OUT1</p> <td><p>gpio49</p> <tr class=row-odd ><td><p>OUT2</p> <td><p>gpio50</p> <tr class=row-even ><td><p>OUT3</p> <td><p>gpio51</p> <tr class=row-odd ><td><p>OUT4</p> <td><p>gpio52</p> <tr class=row-even ><td><p>IN1</p> <td><p>gpio53</p> <tr class=row-odd ><td><p>IN2</p> <td><p>gpio54</p> <tr class=row-even ><td><p>IN3</p> <td><p>gpio55</p> <tr class=row-odd ><td><p>IN4</p> <td><p>gpio56</p> <tr class=row-even ><td><p>USER_LED</p> <td><p>gpio19</p> </table> <p>You can read and write the GPIO by following the steps below. For this example, we are going to use <strong>gpio49</strong> (OUT1).</p> <ul> <li><dl> <dt>Use this command to export gpio.<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># echo 49 &gt; /sys/class/gpio/export</span>
-</pre></div> </div> </dl> <li><dl> <dt>Use this command to check if the directory <code class="docutils literal notranslate"><span class=pre >/sys/class/gpio/gpio49/</span></code> exist before writing to it<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># find /sys/class/gpio/gpio49/</span>
-</pre></div> </div> </dl> <li><dl> <dt>Use this command to write gpio<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># echo 1 &gt; /sys/class/gpio/gpio49/value</span>
-</pre></div> </div> </dl> <li><dl> <dt>Use this command to read gpio<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># cat /sys/class/gpio/gpio49/value</span>
-</pre></div> </div> </dl> </ul> </section> <section id=network > <h4 id=network >Network<a class=headerlink  href="#network" title="Permalink to this headline">¶</a></h4> <p>To view the network information on the industrial PC, follow these steps:</p> <ul class=simple > <li><p>Click on the <strong>Network</strong> tab, then click the <strong>Ifconfig</strong> button to view the network information on the industrial PC.</p> <li><p>Click on the <strong>Refresh</strong> button to restart the network service which will take five or six seconds to finish.</p> </ul> <p>The figure below is an illustration of the network information on the industrial PC.</p> <figure class=align-center  id=id7 > <img alt="../../../../../_images/Network_Test.jpeg" src="../../../../../_images/Network_Test.jpeg"/> <figcaption> <p><span class=caption-number >Figure 749: </span><span class=caption-text >View Network Information</span><a class=headerlink  href="#id7" title="Permalink to this image">¶</a></p> </figcaption> </figure> </section> <section id=date-and-time > <h4 id=date-and-time >Date and Time<a class=headerlink  href="#date-and-time" title="Permalink to this headline">¶</a></h4> <p>Click the <strong>Edit</strong> icon at the time display area to set the time and date, as shown on the figure below.</p> <figure class=align-center  id=id8 > <img alt="../../../../../_images/Date_Time_Test.jpeg" src="../../../../../_images/Date_Time_Test.jpeg"/> <figcaption> <p><span class=caption-number >Figure 750: </span><span class=caption-text >Set Date and Time</span><a class=headerlink  href="#id8" title="Permalink to this image">¶</a></p> </figcaption> </figure> <ul> <li><dl> <dt>Check the system time<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># date</span>
-</pre></div> </div> </dl> <li><dl> <dt>Set the system time<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># date –s "2014-03-15 10:30:30"</span>
-</pre></div> </div> </dl> <li><dl> <dt>Check RTC<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># hwclock</span>
-</pre></div> </div> </dl> <li><dl> <dt>Write RTC<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># hwclock -w</span>
-</pre></div> </div> </dl> <li><dl> <dt>Modify the time zone to a different timezone, such as China<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># ln -sf /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime</span>
-</pre></div> </div> </dl> </ul> </section> <section id=backlight > <h4 id=backlight >Backlight<a class=headerlink  href="#backlight" title="Permalink to this headline">¶</a></h4> <p>Modify this file <code class="docutils literal notranslate"><span class=pre >/sys/class/backlight/backlight</span></code> to adjust the screen brightness. Brightness ranges from 0 to 100 where 0 means no backlight, and 100 is the MAX brightness value. <br/> For example, you can adjust the screen brightness using this command:</p> <div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># echo 50 &gt; /sys/class/backlight/backlight.10/Brightness</span>
-</pre></div> </div> </section> <section id=usb-device-test > <h4 id=usb-device-test >USB device test<a class=headerlink  href="#usb-device-test" title="Permalink to this headline">¶</a></h4> <ul> <li><dl> <dt>USB-WiFi<dd><ol class="arabic simple"> <li><p>The Angstrom OS supports USB-WiFi module. If you want to use the USB-Wifi module in the system, you need to edit the <code class="docutils literal notranslate"><span class=pre >/var/lib/connman/wifi.config</span></code> file.</p> <li><p>Modify the router, the login name, and password in the config file, as shown in the code-block below.</p> </ol> <div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=linenos >1</span><span class=nv >Type</span> <span class=o >=</span> wifi
-<span class=hll ><span class=linenos >2</span><span class=nv >Name</span> <span class=o >=</span> chipsee  //router’s name
-</span><span class=hll ><span class=linenos >3</span><span class=nv >Security</span> <span class=o >=</span> AES  //security mode
-</span><span class=hll ><span class=linenos >4</span><span class=nv >Passphrase</span> <span class=o >=</span> <span class=m >1234567890</span> //password
-</span></pre></div> </div> <ol class="arabic simple" start=3 > <li><p>Save and reboot. The system will automatically connect to the WiFi the next time you start.</p> </ol> </dl> <li><dl class=simple > <dt>USB-Webcam<dd><ol class="arabic simple"> <li><p>The Angstrom OS supports USB-Camera. If you want to use the USB webcam, you need to connect the webcam to the IPC before power ON.</p> <li><p>Then choose Application–&gt;Sound&amp;Video–&gt;Cheese Webcam Booth to take pictures.</p> </ol> </dl> </ul> </section> </section> <section id=modify-os-start-up-logo > <h3 id=modify-os-start-up-logo >Modify OS Start up Logo<a class=headerlink  href="#modify-os-start-up-logo" title="Permalink to this headline">¶</a></h3> <p>Chipsee<sup>®</sup> provides a software to change the OS boot up logo. The software <code class="docutils literal notranslate"><span class=pre >ChipSee_LOGO_MOD_EN.exe</span></code> is provided on the CD for a product. <br/> To change the logo, follow these steps:</p> <ol class=arabic > <li><dl> <dt>Open the software: <code class="docutils literal notranslate"><span class=pre >Chipsee_LOGO_MOD_EN.exe</span></code> in Windows<dd><figure class=align-center  id=id9 > <img alt="../../../../../_images/Logo_Modify_1.jpeg" src="../../../../../_images/Logo_Modify_1.jpeg"/> <figcaption> <p><span class=caption-number >Figure 751: </span><span class=caption-text >Chipsee OS Boot-up Logo Modify Software</span><a class=headerlink  href="#id9" title="Permalink to this image">¶</a></p> </figcaption> </figure> </dl> <li><dl> <dt>Click the first Browse button. Select the picture file you want to use as the logo.<dd><figure class=align-center  id=id10 > <img alt="../../../../../_images/Logo_Modify_2.jpeg" src="../../../../../_images/Logo_Modify_2.jpeg"/> <figcaption> <p><span class=caption-number >Figure 752: </span><span class=caption-text >Choose the Logo you want</span><a class=headerlink  href="#id10" title="Permalink to this image">¶</a></p> </figcaption> </figure> </dl> <li><dl> <dt>Click the second Browse button. Select the <code class="docutils literal notranslate"><span class=pre >u-boot.img</span></code> file you want to use.<dd><figure class=align-center  id=id11 > <img alt="../../../../../_images/Logo_Modify_3.jpeg" src="../../../../../_images/Logo_Modify_3.jpeg"/> <figcaption> <p><span class=caption-number >Figure 753: </span><span class=caption-text >Choose the u-boot.img file</span><a class=headerlink  href="#id11" title="Permalink to this image">¶</a></p> </figcaption> </figure> </dl> <li><dl> <dt>Choose the correct resolution for your product, then click <strong>Execute</strong>.<dd><figure class=align-center  id=id12 > <img alt="../../../../../_images/Logo_Modify_4.jpeg" src="../../../../../_images/Logo_Modify_4.jpeg"/> <figcaption> <p><span class=caption-number >Figure 754: </span><span class=caption-text >Change the Logo successful</span><a class=headerlink  href="#id12" title="Permalink to this image">¶</a></p> </figcaption> </figure> </dl> <li><p>Insert the SD card into the IPC. Power ON the IPC and the Logo will be replaced.</p> </ol> </section> </section> <section id=systemtype-os-debug > <h2 id=systemtype-os-debug >Angstrom OS debug<a class=headerlink  href="#systemtype-os-debug" title="Permalink to this headline">¶</a></h2> <p>In this section, we will discover how to view the Angstrom system via the serial port on a Windows 7 PC. <br/> Also, we will discover how to debug using NFS on a Ubuntu Linux PC. <br/></p> <section id=view-systemtype-system-via-the-serial-port > <h3 id=view-systemtype-system-via-the-serial-port >View Angstrom system via the serial port<a class=headerlink  href="#view-systemtype-system-via-the-serial-port" title="Permalink to this headline">¶</a></h3> <p>Install the <strong>SecureCRT</strong> or <strong>Putty</strong> software on a Windows 7 PC to view the Angstrom system via the serial ports. <br/> Follow these steps to view Angstrom system via the serial port:</p> <ul class=simple > <li><p>Connect COM1 on the industrial PC board to Windows 7 PC.</p> <li><p>Open the <strong>SecureCRT</strong> or <strong>Putty</strong> software on the Windows 7 PC.</p> <li><p>Power ON the industrial PC. You will see the serial output information as shown on the figure below.</p> <li><p>When the system is fully booted, you can communicate with it by logging in with these details: user= root and password= empty.</p> </ul> <figure class=align-center  id=id13 > <img alt="../../../../../_images/Serial_Debug.jpeg" src="../../../../../_images/Serial_Debug.jpeg"/> <figcaption> <p><span class=caption-number >Figure 755: </span><span class=caption-text >Serial output information</span><a class=headerlink  href="#id13" title="Permalink to this image">¶</a></p> </figcaption> </figure> </section> <section id=debug-via-nfs > <h3 id=debug-via-nfs >Debug via NFS<a class=headerlink  href="#debug-via-nfs" title="Permalink to this headline">¶</a></h3> <ol class=arabic > <li><dl> <dt>Install NFS on Ubuntu Linux PC.<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo apt-get install nfs-kernel-server
-</pre></div> </div> </dl> <li><dl> <dt>Configure the file <code class="docutils literal notranslate"><span class=pre >/etc/exports</span></code>, by adding this line at the end of the file.<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>/qtprojects *<span class=o >(</span>rw, sync, insecure, no_subtree_check<span class=o >)</span>
-</pre></div> </div> <div class="admonition note"> <p class=admonition-title >Note</p> <ul class=simple > <li><p><code class="docutils literal notranslate"><span class=pre >/qtprojects</span></code>: the shared folder in Ubuntu system</p> <li><p><code class="docutils literal notranslate"><span class=pre >*</span></code>: allows all other PC to get access to this system</p> <li><p><code class="docutils literal notranslate"><span class=pre >rw</span></code>: means this folder can be read and write by NFS client</p> <li><p><code class="docutils literal notranslate"><span class=pre >sync</span></code>: synchronous write memory and hard disk</p> <li><p><code class="docutils literal notranslate"><span class=pre >insecure</span></code>: sent message through the port above 1024</p> <li><p><code class="docutils literal notranslate"><span class=pre >no_subtree_check</span></code>: no check the parent directory permissions</p> </ul> </div> </dl> <li><dl> <dt>Restart NFS service.<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo /etc/init.d/portmap restart
+
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="lang:clipboard.copy" content="Copy to clipboard">
+  <meta name="lang:clipboard.copied" content="Copied to clipboard">
+  <meta name="lang:search.language" content="en">
+  <meta name="lang:search.pipeline.stopwords" content="True">
+  <meta name="lang:search.pipeline.trimmer" content="True">
+  <meta name="lang:search.result.none" content="No matching documents">
+  <meta name="lang:search.result.one" content="1 matching document">
+  <meta name="lang:search.result.other" content="# matching documents">
+  <meta name="lang:search.tokenizer" content="[\s\-]+">
+
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto:300,400,400i,700&display=fallback" rel="stylesheet">
+
+    <style>
+      body,
+      input {
+        font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif
+      }
+
+      code,
+      kbd,
+      pre {
+        font-family: "Roboto Mono", "Courier New", Courier, monospace
+      }
+    </style>
+  
+
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/application.css"/>
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/application-palette.css"/>
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/application-fixes.css"/>
+  
+  <link rel="stylesheet" href="../../../../../_static/fonts/material-icons.css"/>
+  
+  <meta name="theme-color" content="2D445E">
+  <script src="../../../../../_static/javascripts/modernizr.js"></script>
+  
+  
+  
+    <title>Angstrom OS &#8212; Chipsee</title>
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/material.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/css/material_custom.css" />
+    <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
+    <script src="../../../../../_static/jquery.js"></script>
+    <script src="../../../../../_static/underscore.js"></script>
+    <script src="../../../../../_static/doctools.js"></script>
+    <link rel="shortcut icon" href="../../../../../_static/favicon.webp"/>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="OS Downloads" href="../../OS_Downloads/index.html" />
+    <link rel="prev" title="Debian OS" href="Debian.html" />
+  
+   
+
+  </head>
+  <body dir=ltr
+        data-md-color-primary=deep-orange data-md-color-accent=deep-orange>
+  
+  <svg class="md-svg">
+    <defs data-children-count="0">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+      
+    </defs>
+  </svg>
+  
+  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">
+  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">
+  <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+  <a href="#PCs/ARM/AM335X/Manuals/Software/Angstrom" tabindex="1" class="md-skip"> Skip to content </a>
+  <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex navheader">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../../../../../index.html" title="Chipsee"
+           class="md-header-nav__button md-logo">
+          
+              <img src="../../../../../_static/logo-chipsee-white.png" height="26"
+                   alt="Chipsee logo">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          <span class="md-header-nav__topic">Home</span>
+          <span class="md-header-nav__topic"> Angstrom OS </span>
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+        
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" action="../../../../../search.html" method="get" name="search">
+      <input type="text" class="md-search__input" name="q" placeholder="Search"
+             autocapitalize="off" autocomplete="off" spellcheck="false"
+             data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+      
+      
+  
+  <script src="../../../../../_static/javascripts/version_dropdown.js"></script>
+  <script>
+    var json_loc = "../../../../../"versions.json"",
+        target_loc = "../../../../../../",
+        text = "Versions";
+    $( document ).ready( add_version_dropdown(json_loc, target_loc, text));
+  </script>
+  
+
+    </div>
+  </nav>
+</header>
+
+  
+  <div class="md-container">
+    
+    
+    
+  <nav class="md-tabs" data-md-component="tabs">
+    <div class="md-tabs__inner md-grid">
+      <ul class="md-tabs__list">
+          <li class="md-tabs__item"><a href="../../../../../index.html" class="md-tabs__link">Chipsee</a></li>
+          <li class="md-tabs__item"><a href="../../../../index.html" class="md-tabs__link">Industrial Panel &amp; Embedded PCs</a></li>
+          <li class="md-tabs__item"><a href="../../../index.html" class="md-tabs__link">Industrial Panel PCs Powered by Arm<sup>®</sup></a></li>
+          <li class="md-tabs__item"><a href="index.html" class="md-tabs__link">Software Documentation</a></li>
+      </ul>
+    </div>
+  </nav>
+    <main class="md-main">
+      <div class="md-main__inner md-grid" data-md-component="container">
+        
+          <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../../../../../index.html" title="Chipsee" class="md-nav__button md-logo">
+      
+        <img src="../../../../../_static/logo-chipsee-white.png" alt=" logo" width="48" height="48">
+      
+    </a>
+    <a href="../../../../../index.html"
+       title="Chipsee">Home</a>
+  </label>
+
+  
+
+  
+  <ul class="md-nav__list">
+    <li class="md-nav__item">
+    
+      <span class="md-nav__link caption"><span class="caption-text">Industrial Panel PC</span></span>
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../../index.html" class="md-nav__link">Powered by Arm Cortex, Intel, and Raspberry PI platforms</a>
+      <ul class="md-nav__list"> 
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../index.html" class="md-nav__link">Powered by Arm</a>
+      <ul class="md-nav__list"> 
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../iMX6Q/Manuals/Hardware/index.html" class="md-nav__link">i.MX6Q Hardware Documentation</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../iMX6Q/Manuals/Software/index.html" class="md-nav__link">i.MX6Q Software Documentation</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../iMX6Q/OS_Downloads/index.html" class="md-nav__link">i.MX6Q OS Downloads</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../iMX6UL/Manuals/Hardware/index.html" class="md-nav__link">i.MX6UL Hardware Documentation</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../iMX6UL/Manuals/Software/index.html" class="md-nav__link">i.MX6UL Software Documentation</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../RK3399/Manuals/Hardware/index.html" class="md-nav__link">RK3399 Hardware Documentation</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../Hardware/index.html" class="md-nav__link">AM335X Hardware Documentation</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="index.html" class="md-nav__link">AM335X Software Documentation</a>
+      <ul class="md-nav__list"> 
+    <li class="md-nav__item">
+    
+    
+      <a href="Android.html" class="md-nav__link">Android</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="LinuxQt.html" class="md-nav__link">LinuxQt</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="Debian.html" class="md-nav__link">Debian</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    <label class="md-nav__link md-nav__link--active" for="__toc"> Angstrom </label>
+    
+      <a href="#" class="md-nav__link md-nav__link--active">Angstrom</a>
+      
+        
+<nav class="md-nav md-nav--secondary">
+    <label class="md-nav__title" for="__toc">Contents</label>
+  <ul class="md-nav__list" data-md-scrollfix="">
+        <li class="md-nav__item"><a href="#pcs-arm-am335x-manuals-software-angstrom--page-root" class="md-nav__link">Angstrom OS</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#preparation" class="md-nav__link">Preparation</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#hardware-requirements" class="md-nav__link">Hardware Requirements</a>
+        </li>
+        <li class="md-nav__item"><a href="#software-requirements" class="md-nav__link">Software Requirements</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#getting-started-and-tests" class="md-nav__link">Getting Started and Tests</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#dip-switch-configuration" class="md-nav__link">DIP Switch Configuration</a>
+        </li>
+        <li class="md-nav__item"><a href="#downloading-images" class="md-nav__link">Downloading Images</a>
+        </li>
+        <li class="md-nav__item"><a href="#prebuilt-files-package" class="md-nav__link">Prebuilt Files Package</a>
+        </li>
+        <li class="md-nav__item"><a href="#how-to-make-a-bootable-sd-card" class="md-nav__link">How to make a bootable SD card</a>
+        </li>
+        <li class="md-nav__item"><a href="#how-to-flash-linux-to-emmc" class="md-nav__link">How to flash Linux to eMMC</a>
+        </li>
+        <li class="md-nav__item"><a href="#start-systemtype-os" class="md-nav__link">Start Angstrom OS</a>
+        </li>
+        <li class="md-nav__item"><a href="#tests" class="md-nav__link">Tests</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#touch-screen-and-buzzer-test" class="md-nav__link">Touch screen and buzzer test</a>
+        </li>
+        <li class="md-nav__item"><a href="#audio-io-test" class="md-nav__link">Audio IO test</a>
+        </li>
+        <li class="md-nav__item"><a href="#serial-test" class="md-nav__link">Serial test</a>
+        </li>
+        <li class="md-nav__item"><a href="#gpio-test" class="md-nav__link">GPIO test</a>
+        </li>
+        <li class="md-nav__item"><a href="#network" class="md-nav__link">Network</a>
+        </li>
+        <li class="md-nav__item"><a href="#date-and-time" class="md-nav__link">Date and Time</a>
+        </li>
+        <li class="md-nav__item"><a href="#backlight" class="md-nav__link">Backlight</a>
+        </li>
+        <li class="md-nav__item"><a href="#usb-device-test" class="md-nav__link">USB device test</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#modify-os-start-up-logo" class="md-nav__link">Modify OS Start up Logo</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#systemtype-os-debug" class="md-nav__link">Angstrom OS debug</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#view-systemtype-system-via-the-serial-port" class="md-nav__link">View Angstrom system via the serial port</a>
+        </li>
+        <li class="md-nav__item"><a href="#debug-via-nfs" class="md-nav__link">Debug via NFS</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#technical-support" class="md-nav__link">Technical Support</a>
+        </li></ul>
+            </nav>
+        </li>
+  </ul>
+</nav>
+      
+    
+    </li></ul>
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../OS_Downloads/index.html" class="md-nav__link">AM335X OS Downloads</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../PX30/AIO/Manuals/Hardware/index.html" class="md-nav__link">All-In-One Hardware Documentation</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../PX30/Manuals/Software/index.html" class="md-nav__link">All-In-One Software Documentation</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../PX30/OS_Downloads/index.html" class="md-nav__link">All-In-One OS Downloads</a>
+      
+    
+    </li></ul>
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../../Intel/index.html" class="md-nav__link">Powered by Intel</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../../Pi/index.html" class="md-nav__link">Powered by Raspberry Pi</a>
+      
+    
+    </li></ul>
+    
+    </li>
+    <li class="md-nav__item">
+    
+      <span class="md-nav__link caption"><span class="caption-text">Industrial Monitors</span></span>
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../../../Monitors/index.html" class="md-nav__link">Monitors with Capacitive Touch</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+      <span class="md-nav__link caption"><span class="caption-text">Systems on Module</span></span>
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../../../SOM/index.html" class="md-nav__link">Systems on Module</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+      <span class="md-nav__link caption"><span class="caption-text">Tutorials and Guides</span></span>
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../../../TutorialGuide/index.html" class="md-nav__link">Tutorials and Guides</a>
+      
+    
+    </li>
+  </ul>
+  
+
+</nav>
+              </div>
+            </div>
+          </div>
+          <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                
+<nav class="md-nav md-nav--secondary">
+    <label class="md-nav__title" for="__toc">Contents</label>
+  <ul class="md-nav__list" data-md-scrollfix="">
+        <li class="md-nav__item"><a href="#pcs-arm-am335x-manuals-software-angstrom--page-root" class="md-nav__link">Angstrom OS</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#preparation" class="md-nav__link">Preparation</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#hardware-requirements" class="md-nav__link">Hardware Requirements</a>
+        </li>
+        <li class="md-nav__item"><a href="#software-requirements" class="md-nav__link">Software Requirements</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#getting-started-and-tests" class="md-nav__link">Getting Started and Tests</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#dip-switch-configuration" class="md-nav__link">DIP Switch Configuration</a>
+        </li>
+        <li class="md-nav__item"><a href="#downloading-images" class="md-nav__link">Downloading Images</a>
+        </li>
+        <li class="md-nav__item"><a href="#prebuilt-files-package" class="md-nav__link">Prebuilt Files Package</a>
+        </li>
+        <li class="md-nav__item"><a href="#how-to-make-a-bootable-sd-card" class="md-nav__link">How to make a bootable SD card</a>
+        </li>
+        <li class="md-nav__item"><a href="#how-to-flash-linux-to-emmc" class="md-nav__link">How to flash Linux to eMMC</a>
+        </li>
+        <li class="md-nav__item"><a href="#start-systemtype-os" class="md-nav__link">Start Angstrom OS</a>
+        </li>
+        <li class="md-nav__item"><a href="#tests" class="md-nav__link">Tests</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#touch-screen-and-buzzer-test" class="md-nav__link">Touch screen and buzzer test</a>
+        </li>
+        <li class="md-nav__item"><a href="#audio-io-test" class="md-nav__link">Audio IO test</a>
+        </li>
+        <li class="md-nav__item"><a href="#serial-test" class="md-nav__link">Serial test</a>
+        </li>
+        <li class="md-nav__item"><a href="#gpio-test" class="md-nav__link">GPIO test</a>
+        </li>
+        <li class="md-nav__item"><a href="#network" class="md-nav__link">Network</a>
+        </li>
+        <li class="md-nav__item"><a href="#date-and-time" class="md-nav__link">Date and Time</a>
+        </li>
+        <li class="md-nav__item"><a href="#backlight" class="md-nav__link">Backlight</a>
+        </li>
+        <li class="md-nav__item"><a href="#usb-device-test" class="md-nav__link">USB device test</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#modify-os-start-up-logo" class="md-nav__link">Modify OS Start up Logo</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#systemtype-os-debug" class="md-nav__link">Angstrom OS debug</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#view-systemtype-system-via-the-serial-port" class="md-nav__link">View Angstrom system via the serial port</a>
+        </li>
+        <li class="md-nav__item"><a href="#debug-via-nfs" class="md-nav__link">Debug via NFS</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#technical-support" class="md-nav__link">Technical Support</a>
+        </li></ul>
+            </nav>
+        </li>
+  </ul>
+</nav>
+              </div>
+            </div>
+          </div>
+        
+        <div class="md-content">
+          <article class="md-content__inner md-typeset" role="main">
+            
+  <section id="systemtype-os">
+<h1 id="pcs-arm-am335x-manuals-software-angstrom--page-root">Angstrom OS<a class="headerlink" href="#pcs-arm-am335x-manuals-software-angstrom--page-root" title="Permalink to this headline">¶</a></h1>
+<p class="centered">
+<strong>Chipsee Angstrom OS User Manual</strong></p><img alt="../../../../../_images/Chipsee_Logo_Full.png" class="align-center" src="../../../../../_images/Chipsee_Logo_Full.png"/>
+<p>This manual provides users with a fast guide of Chipsee Industrial Computer (Abbreviated as IPC) about Angstrom OS development. Through this manual, users can quickly understand the hardware resources; users can debug Angstrom OS via serial and Internet.</p>
+<table style="width: 100%">
+<colgroup>
+<col style="width: 22%"/>
+<col style="width: 24%"/>
+<col style="width: 17%"/>
+<col style="width: 37%"/>
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Revision</p></th>
+<th class="head"><p>Date</p></th>
+<th class="head"><p>Author</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>V1.0</p></td>
+<td><p>2021-12-09</p></td>
+<td><p>Randy</p></td>
+<td><p>Initial Version</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>SUPPORTED BOARDS:</strong></p>
+<blockquote>
+<div><p><em>CS80480T050</em> <em>CS10600T070</em> <em>CS10768T097</em></p>
+</div></blockquote>
+<p id="db-pkg-angstrom"><strong>PREBUILT FILES PACKAGE:</strong></p>
+<p>Prebuilt files for the various industrial PCs can be found in the <a class="reference internal" href="../../OS_Downloads/index.html#am335x-osdownloads"><span class="std std-ref">OS Downloads</span></a>. <br/>
+Below are the links to the prebuilt files for each industrial PC model.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="../../OS_Downloads/CS80480T050.html#cs80480t050-angstrom"><span class="std std-ref">CS80480T050</span></a></p></li>
+<li><p><a class="reference internal" href="../../OS_Downloads/CS10600T070.html#cs10600t070-angstrom"><span class="std std-ref">CS10600T070</span></a></p></li>
+<li><p><a class="reference internal" href="../../OS_Downloads/CS10768T097.html#cs10768t097-angstrom"><span class="std std-ref">CS10768T097</span></a></p></li>
+</ul>
+<p class="rubric">System Features</p>
+<table style="width: 100%">
+<colgroup>
+<col style="width: 31%"/>
+<col style="width: 69%"/>
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Feature</p></th>
+<th class="head"><p>Comment</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>System</p></td>
+<td><p>Angstrom 2012</p></td>
+</tr>
+</tbody>
+</table>
+<section id="preparation">
+<h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permalink to this headline">¶</a></h2>
+<p>You will need to prepare the following items before you can start using the Prebuilt Files Package to re-flash the system.</p>
+<ul>
+<li><p>Power Supply Unit (PSU) with the appropriate voltages, as follows:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Products with 5” display panel require 6V to 36V PSU</p></li>
+<li><p>Products with 7” to 10.1” display panel and larger require 6V to 42V PSU</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>USB to serial cable for debugging Chipsee Industrial Embedded Computers (Chipsee IPC)</p></li>
+<li><p>TF Card to create a bootable storage for re-flashing the system. Use the prebuilt files <a class="reference internal" href="#db-pkg-angstrom"><span class="std std-ref">link above</span></a> to re-flash the system.</p></li>
+</ul>
+<section id="hardware-requirements">
+<h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Chipsee Industrial PC</p></li>
+<li><p>PSU according to the instructions above</p></li>
+<li><p>USB-to-serial or other serial cable for debugging</p></li>
+<li><p>TF Card (at least 4GB) and card reader</p></li>
+<li><p>USB A-A cable (used only if the hardware configured as OTG)</p></li>
+<li><p>Windows 7 PC</p></li>
+</ul>
+</section>
+<section id="software-requirements">
+<h3 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Angstrom OS Prebuilt Files Package (from the link above)</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In this documentation, all the commands are executed with <code class="docutils literal notranslate"><span class="pre">root</span></code> user privileges.</p>
+</div>
+</section>
+</section>
+<section id="getting-started-and-tests">
+<h2 id="getting-started-and-tests">Getting Started and Tests<a class="headerlink" href="#getting-started-and-tests" title="Permalink to this headline">¶</a></h2>
+<section id="dip-switch-configuration">
+<h3 id="dip-switch-configuration">DIP Switch Configuration<a class="headerlink" href="#dip-switch-configuration" title="Permalink to this headline">¶</a></h3>
+<p>Set the boot DIP switch, as shown on the figure below, to boot the system from the external SD Card.</p>
+<figure class="align-center" id="id1">
+<img alt="../../../../../_images/Boot_SW2.jpeg" src="../../../../../_images/Boot_SW2.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 731:  </span><span class="caption-text">Boot Mode Setup</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="downloading-images">
+<h3 id="downloading-images">Downloading Images<a class="headerlink" href="#downloading-images" title="Permalink to this headline">¶</a></h3>
+<p>Chipsee IPC supports booting from an integrated eMMC or an external TF Card (also known as the micro SD card).
+Booting from the external TF Card allows flashing the system OS.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The operator should use the prebuilt file we provided in the CD to test the hardware before re-flashing the system.</p>
+</div>
+</section>
+<section id="prebuilt-files-package">
+<h3 id="prebuilt-files-package">Prebuilt Files Package<a class="headerlink" href="#prebuilt-files-package" title="Permalink to this headline">¶</a></h3>
+<p>You can get the Prebuilt Files Package for each model from links mentioned at the beginning of this documentation.
+You can also get the Prebuilt Files Package from the DVD in /Angstrom/Prebuilds folder. However, it may be outdated so always
+compare the versions (the last number in the filename is the release date).</p>
+<p>The prebuilt package has the following content:</p>
+<table id="id2" style="width: 100%">
+<caption><span class="caption-number">Table 145:  </span><span class="caption-text">Prebuilt Files Package</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Contents</p></th>
+<th class="head"><p>Comment</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>boot/imx6ulipc.dtb</p></td>
+<td><p>TF Card boot dtb file</p></td>
+</tr>
+<tr class="row-odd"><td><p>boot/u-boot.imx</p></td>
+<td><p>TF Card boot bootloader</p></td>
+</tr>
+<tr class="row-even"><td><p>boot/zImage</p></td>
+<td><p>TF Card boot kernel file</p></td>
+</tr>
+<tr class="row-odd"><td><p>filesystem/rootfs-emmc-flasher.tar.bz2</p></td>
+<td><p>TF Card boot rootFS</p></td>
+</tr>
+<tr class="row-even"><td><p>mksdcard.sh</p></td>
+<td><p>Shell tools to make bootable TF Card</p></td>
+</tr>
+<tr class="row-odd"><td><p>README</p></td>
+<td><p>Simple guidelines</p></td>
+</tr>
+<tr class="row-even"><td><p>S1.jpg</p></td>
+<td><p>Boot Switch Config Figure</p></td>
+</tr>
+<tr class="row-odd"><td><p>emmc-flash/emmc/rootfs.tar.gz</p></td>
+<td><p>RootFS in target eMMC</p></td>
+</tr>
+<tr class="row-even"><td><p>emmc-flash/emmc/u-boot.imx</p></td>
+<td><p>Bootloader in target eMMC</p></td>
+</tr>
+<tr class="row-odd"><td><p>emmc-flash/emmc/zImage</p></td>
+<td><p>Kernel file in target eMMC</p></td>
+</tr>
+<tr class="row-even"><td><p>emmc-flash/emmc/imx6ul-eisd.dtb</p></td>
+<td><p>dtb file in target eMMC</p></td>
+</tr>
+<tr class="row-odd"><td><p>emmc-flash/mkemmc.sh</p></td>
+<td><p>Shell tools to download images</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The default <code class="docutils literal notranslate"><span class="pre">zImage</span></code> and <code class="docutils literal notranslate"><span class="pre">imx6q-sabresd.dtb</span></code> files support <em>‘keep the logo from uboot to kernel’</em> but do not support framebuffer.
+Chipsee provides <code class="docutils literal notranslate"><span class="pre">zImage_framebuffer</span></code> and <code class="docutils literal notranslate"><span class="pre">imx6q-eisd.dtb_framebuffer</span></code> file versions that support the framebuffer function but do
+not support the <em>‘keep the logo from uboot kernel’</em> feature. If you need the framebufer, just rename these two files to <code class="docutils literal notranslate"><span class="pre">zImage</span></code>
+and <code class="docutils literal notranslate"><span class="pre">imx6q-eisd.dtb</span></code>.</p>
+</div>
+</section>
+<section id="how-to-make-a-bootable-sd-card">
+<h3 id="how-to-make-a-bootable-sd-card">How to make a bootable SD card<a class="headerlink" href="#how-to-make-a-bootable-sd-card" title="Permalink to this headline">¶</a></h3>
+<p>The Prebuilt Files Package has a shell tool that can help create a bootable SD card using a Linux platform (such as desktop PC or Virtual
+Machine running Ubuntu 14.04 distribution). <br/>
+Use the SD Card to download the bootable system image onto the Linux platform and follow the steps below to create a bootable SD card:</p>
+<ol class="arabic">
+<li><p>Copy the Prebuilt Files Package to a Linux environment (such as Ubuntu 14.04).</p></li>
+<li><p>Insert the SD card into your computer. If you are using virtual machines, please ensure the SD card is mounted to the Linux operating system.</p></li>
+<li><dl>
+<dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo fdisk –l
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><p>Copy the <code class="code docutils literal notranslate"><span class="pre">prebuilt-angstrom-XXXXXX.tar.gz</span></code> to somewhere(such as $HOME).</p></li>
+<li><dl>
+<dt>Extract the <code class="code docutils literal notranslate"><span class="pre">prebuilt-angstrom-XXXXXX.tar.gz</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ tar -xzvf prebuilt-angstrom-XXXXXX.tar.gz
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Go to the folder</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ~/prebuilt-angstrom-XXXXXX
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Use the following command to flash the Angstrom OS to the SD card</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ./mksdcard.sh --device /dev/sd&lt;?&gt;
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>sd&lt;?&gt; means the SD card mount point, (e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>) in Ubuntu system.</p></li>
+<li><p>The recommended SD card should be Sandisk Class4 level SD card or above.</p></li>
+</ul>
+</div>
+</dd>
+</dl>
+</li>
+<li><p>The bootable SD Card is now ready. Power OFF the industrial PC and insert the SD Card.</p></li>
+<li><p>Set the DIP switch to uSD BOOT mode. (refer to <a class="reference internal" href="#dip-switch-configuration">DIP Switch Configuration</a> above)</p></li>
+<li><p>Connect the industrial PC to PC via COM1. Power ON the IPC.</p></li>
+<li><p>After 20 minutes, if the LED on industrial PC stays lit, flashing is completed. Using COM1, you can also find this message <strong>&gt;&gt;&gt;&gt;&gt;&gt;&gt; eMMC Flashing Completed &lt;&lt;&lt;&lt;&lt;&lt;&lt;</strong> which indicates that the system image was downloaded correctly to the eMMC.</p></li>
+<li><p>Power OFF the IPC and set the DIP switch to eMMC BOOT mode. (refer to <a class="reference internal" href="#dip-switch-configuration">DIP Switch Configuration</a> above)</p></li>
+</ol>
+</section>
+<section id="how-to-flash-linux-to-emmc">
+<h3 id="how-to-flash-linux-to-emmc">How to flash Linux to eMMC<a class="headerlink" href="#how-to-flash-linux-to-emmc" title="Permalink to this headline">¶</a></h3>
+<p>The Prebuilt Files Package has a shell tool that can help create a bootable SD card using a Linux platform (such as desktop PC or Virtual
+Machine running Ubuntu 14.04 distribution). <br/>
+Follow the steps below to create a bootable SD card:</p>
+<ol class="arabic">
+<li><p>Copy the Prebuilt Files Package to a Linux environment (such as Ubuntu 14.04).</p></li>
+<li><p>Insert the SD card into your computer. If you are using virtual machines, please ensure the SD card is mounted to the Linux operating system.</p></li>
+<li><dl>
+<dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo fdisk –l
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><p>Copy the prebuilt file <code class="docutils literal notranslate"><span class="pre">prebuilt-som-v3-csxxxxxtxx-v3-ezsdk-emmc-yyyymmdd.tar.gz</span></code> to somewhere(such as $HOME).</p></li>
+<li><dl>
+<dt>Extract the prebuilt file <code class="docutils literal notranslate"><span class="pre">prebuilt-som-v3-csxxxxxtxx-v3-ezsdk-emmc-yyyymmdd.tar.gz</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ tar -xzvf prebuilt-som-v3-csxxxxxtxx-v3-ezsdk-emmc-yyyymmdd.tar.gz
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Go to the folder <code class="docutils literal notranslate"><span class="pre">prebuilt-som-v3-csxxxxxtxx-v3-ezsdk-emmc-yyyymmdd</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ~/prebuilt-som-v3-csxxxxxtxx-v3-ezsdk-emmc-yyyymmdd
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Use the following command to flash the Angstrom OS to the SD card</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ./mksdcard.sh --device  /dev/sd&lt;?&gt;
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>sd&lt;?&gt; means the SD card mount point, (e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>) in Ubuntu system.</p></li>
+<li><p>The recommended SD card should be Sandisk Class4 level SD card or above.</p></li>
+</ul>
+</div>
+</dd>
+</dl>
+</li>
+<li><p>The bootable SD Card is now ready. Power OFF the industrial PC and insert the SD Card.</p></li>
+<li><p>Set the DIP switch to SD BOOT mode. (refer to <a class="reference internal" href="#dip-switch-configuration">DIP Switch Configuration</a> above)</p></li>
+<li><p>Connect the industrial PC to PC via COM1. Power ON the IPC.</p></li>
+<li><p>After 20 minutes, if the LED on industrial PC stays lit, flashing is completed. Using COM1, you can also find this message <strong>&gt;&gt;&gt;&gt;&gt;&gt;&gt; eMMC Flashing Completed &lt;&lt;&lt;&lt;&lt;&lt;&lt;</strong> which indicates that the system image was downloaded correctly to the eMMC.</p></li>
+<li><p>Remove the SD card and Power OFF the IPC.</p></li>
+<li><p>Set the DIP switch to eMMC BOOT mode (refer to <a class="reference internal" href="#dip-switch-configuration">DIP Switch Configuration</a> above) and Power ON the IPC.</p></li>
+</ol>
+</section>
+<section id="start-systemtype-os">
+<h3 id="start-systemtype-os">Start Angstrom OS<a class="headerlink" href="#start-systemtype-os" title="Permalink to this headline">¶</a></h3>
+<p>The first time you start Angstrom OS on the industrial PC will take a little time. But after the first time, Angstrom OS will start quickly.
+When the Angstrom OS starts up, you will see the Chipsee Logo on the LCD screen.
+It is a successful start if you see the Angstrom OS desktop such as the one shown in the figure below:</p>
+<figure class="align-center" id="id3">
+<img alt="../../../../../_images/Startup_Screen1.jpeg" src="../../../../../_images/Startup_Screen1.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 732:  </span><span class="caption-text">Angstrom OS start-up screen</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="tests">
+<h3 id="tests">Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h3>
+<section id="touch-screen-and-buzzer-test">
+<h4 id="touch-screen-and-buzzer-test">Touch screen and buzzer test<a class="headerlink" href="#touch-screen-and-buzzer-test" title="Permalink to this headline">¶</a></h4>
+<p>Click on the screen, the mouse arrow stays in a position that triggers the buzzer sounds, indicating that touch and buzzer work properly. <br/>
+After working for some time, the resistive touch screen may not be accurate. The user must run a touch screen calibration test. <br/>
+Firstly delete the file <code class="docutils literal notranslate"><span class="pre">/etc/pointercal.xinput</span></code> using the command below.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo rm /etc/pointercal.xinput
+</pre></div>
+</div>
+<p>Click on the System–&gt;Administration–&gt;Calibrate Touchscreen app on desktop to recalibrate. <br/>
+Reboot the system. You will see the calibrate app upon boot up before you access the system.
+Just calibrate, the result will be saved.</p>
+<p>The buzzer will sound when the screen is touched, if you want to disable it, you can do this:</p>
+<ul>
+<li><dl>
+<dt>On capacitive touchscreen:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># echo 0 &gt; /sys/devices/ocp.3/44e0b000.i2c/i2c-0/0-0038/buzopen</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>On resistive touchscreen:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># echo 1 &gt; /sys/devices/ocp.3/44e0d000.tscadc/tsc/buzopen</span>
+</pre></div>
+</div>
+<dl class="simple">
+<dt>where:</dt><dd><ul class="simple">
+<li><p>0 = disable</p></li>
+<li><p>1 = enable</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="audio-io-test">
+<h4 id="audio-io-test">Audio IO test<a class="headerlink" href="#audio-io-test" title="Permalink to this headline">¶</a></h4>
+<p>Start the terminal, then use the <code class="docutils literal notranslate"><span class="pre">mplayer</span></code> command to play an audio file.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># mplayer FILENAME  //such as: mplayer ~/Music/test.mp3</span>
+</pre></div>
+</div>
+</section>
+<section id="serial-test">
+<h4 id="serial-test">Serial test<a class="headerlink" href="#serial-test" title="Permalink to this headline">¶</a></h4>
+<p>There are four serial ports on the Chipsee IPC: 2 X RS232 and 2 X RS485. The COM1(RS232) is used as the debug serial port. Users can communicate with the OS via COM1.
+Refer to the table below for the available serial device nodes.</p>
+<table id="id4" style="width: 100%">
+<caption><span class="caption-number">Table 146:  </span><span class="caption-text">Serial Ports Nodes on the System</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Ports</p></th>
+<th class="head"><p>Device Node</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>COM1(RS232, Debug)</p></td>
+<td><p>/dev/ttyO0</p></td>
+</tr>
+<tr class="row-odd"><td><p>COM2(RS232)</p></td>
+<td><p>/dev/ttyO1</p></td>
+</tr>
+<tr class="row-even"><td><p>COM3(RS485)</p></td>
+<td><p>/dev/ttyO2</p></td>
+</tr>
+<tr class="row-odd"><td><p>COM4(RS485)</p></td>
+<td><p>/dev/ttyO4</p></td>
+</tr>
+</tbody>
+</table>
+<ol class="arabic">
+<li><dl>
+<dt>Run a serial test:</dt><dd><ul class="simple">
+<li><p>Install <strong>SecureCRT</strong> or <strong>Putty</strong> software on a Windows 7 PC and use it to perform the serial port testing.</p></li>
+<li><p>Connect keyboard and mouse to the IPC. Then press <strong>Ctrl+Alt+F1 (or F3~F6)</strong> to get into <strong>tty1(tty3~tty6)</strong>. Enter username: :substitution-code:<code class="docutils literal notranslate"><span class="pre">|user|</span></code>, no password.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Notes: The system is not QtE by default, follow the steps in the CD(Angstrom/Documents/Qt-Angstrom) to set the environment. The QtE in Angstrom OS is not working well, by now user only can use mouse for the Qt apps.</p>
+</div>
+<ul class="simple">
+<li><p>Launch the <strong>ChipseeTest</strong> app by using the commands below.</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># cd chipsee</span>
+<span class="c1"># ./ChipseeTest -qws</span>
+</pre></div>
+</div>
+<figure class="align-center" id="id5">
+<img alt="../../../../../_images/ChipseeTest_Screen.jpeg" src="../../../../../_images/ChipseeTest_Screen.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 733:  </span><span class="caption-text">ChipseeTest</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>If you want to use COM1 as a normal serial port, you can re-configure the port by following these steps:</dt><dd><ul class="simple">
+<li><p>Open and edit the <code class="docutils literal notranslate"><span class="pre">uEnv.txt</span></code> file which can be found in the boot partition with any text editor.</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">bootargs</span><span class="o">=</span><span class="nv">console</span><span class="o">=</span>ttyO0,115200n8 <span class="nv">root</span><span class="o">=</span>/dev/mmcblk0p2
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>At the end of the file, edit this line <code class="docutils literal notranslate"><span class="pre">bootargs=console=ttyO0,115200n8</span> <span class="pre">root=/dev/mmcblk0p2</span></code> to</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">bootargs</span><span class="o">=</span><span class="nv">root</span><span class="o">=</span>/dev/mmcblk0p2
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>This will change ttyO0 (COM1) to ttyO1, ttyO2 or ttyO4(RS232_2, RS485_1 and RS485_2) and makes it possible to use all the four serial ports as normal serial ports.</p></li>
+<li><p>Stop the service in Angstrom.</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># systemctl disable serial-getty@ttyO0.service</span>
+<span class="c1"># systemctl stop serial-getty@ttyO0.service</span>
+</pre></div>
+</div>
+<p>Now you can use the COM1 as normal serial port.</p>
+</dd>
+</dl>
+</li>
+</ol>
+<ol class="arabic">
+<li><dl>
+<dt>If you want to use COM1 as debug serial port, you have to edit the <code class="docutils literal notranslate"><span class="pre">uEnv.txt</span></code> file which you can find in the boot partition. And start the service by running this command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># systemctl start serial-getty@ttyO0.service</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>From the <strong>ChipseeTest</strong> app, search for the serial area then configure the following settings, as shown on the figure below.</dt><dd><ul class="simple">
+<li><p>set Com to COM2</p></li>
+<li><p>set Baud to 115200</p></li>
+<li><p>click on the <strong>Open</strong> button</p></li>
+<li><p>It will send the string <em>Succeed in sending message!!!</em> every two seconds through the serial port to the Windows 7 PC.</p></li>
+<li><p>Click on the <strong>SendMSG</strong> button to send the string <em>Succeed in sending message-manual!!!</em>.</p></li>
+<li><p>Every two seconds, it will read the received buffer and show the result to the received area.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+</section>
+<section id="gpio-test">
+<h4 id="gpio-test">GPIO test<a class="headerlink" href="#gpio-test" title="Permalink to this headline">¶</a></h4>
+<p>There are (4) four input and (4) four output pins. LOW is 0V, HIGH is 5V. <br/>
+The GPIO input terminals connect to the GPIO output terminals, respectively. IN1-4 corresponds to OUT1-4. <br/>
+As a result, if you set the GPIO_OUT area, you will see the GPIO_IN region change as well. <br/>
+You can control the LED light on the industrial PC by setting the LED <strong>ON</strong> or <strong>OFF</strong>.</p>
+<table id="id6" style="width: 100%">
+<caption><span class="caption-number">Table 147:  </span><span class="caption-text">GPIO Nodes on the System</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>GPIO</p></th>
+<th class="head"><p>GPIO In System</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>OUT1</p></td>
+<td><p>gpio49</p></td>
+</tr>
+<tr class="row-odd"><td><p>OUT2</p></td>
+<td><p>gpio50</p></td>
+</tr>
+<tr class="row-even"><td><p>OUT3</p></td>
+<td><p>gpio51</p></td>
+</tr>
+<tr class="row-odd"><td><p>OUT4</p></td>
+<td><p>gpio52</p></td>
+</tr>
+<tr class="row-even"><td><p>IN1</p></td>
+<td><p>gpio53</p></td>
+</tr>
+<tr class="row-odd"><td><p>IN2</p></td>
+<td><p>gpio54</p></td>
+</tr>
+<tr class="row-even"><td><p>IN3</p></td>
+<td><p>gpio55</p></td>
+</tr>
+<tr class="row-odd"><td><p>IN4</p></td>
+<td><p>gpio56</p></td>
+</tr>
+<tr class="row-even"><td><p>USER_LED</p></td>
+<td><p>gpio19</p></td>
+</tr>
+</tbody>
+</table>
+<p>You can read and write the GPIO by following the steps below. For this example, we are going to use <strong>gpio49</strong> (OUT1).</p>
+<ul>
+<li><dl>
+<dt>Use this command to export gpio.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># echo 49 &gt; /sys/class/gpio/export</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Use this command to check if the directory <code class="docutils literal notranslate"><span class="pre">/sys/class/gpio/gpio49/</span></code> exist before writing to it</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># find /sys/class/gpio/gpio49/</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Use this command to write gpio</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># echo 1 &gt; /sys/class/gpio/gpio49/value</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Use this command to read gpio</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># cat /sys/class/gpio/gpio49/value</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="network">
+<h4 id="network">Network<a class="headerlink" href="#network" title="Permalink to this headline">¶</a></h4>
+<p>To view the network information on the industrial PC, follow these steps:</p>
+<ul class="simple">
+<li><p>Click on the <strong>Network</strong> tab, then click the <strong>Ifconfig</strong> button to view the network information on the industrial PC.</p></li>
+<li><p>Click on the <strong>Refresh</strong> button to restart the network service which will take five or six seconds to finish.</p></li>
+</ul>
+<p>The figure below is an illustration of the network information on the industrial PC.</p>
+<figure class="align-center" id="id7">
+<img alt="../../../../../_images/Network_Test.jpeg" src="../../../../../_images/Network_Test.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 734:  </span><span class="caption-text">View Network Information</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="date-and-time">
+<h4 id="date-and-time">Date and Time<a class="headerlink" href="#date-and-time" title="Permalink to this headline">¶</a></h4>
+<p>Click the <strong>Edit</strong> icon at the time display area to set the time and date, as shown on the figure below.</p>
+<figure class="align-center" id="id8">
+<img alt="../../../../../_images/Date_Time_Test.jpeg" src="../../../../../_images/Date_Time_Test.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 735:  </span><span class="caption-text">Set Date and Time</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<ul>
+<li><dl>
+<dt>Check the system time</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># date</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Set the system time</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># date –s "2014-03-15 10:30:30"</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Check RTC</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># hwclock</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Write RTC</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># hwclock -w</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Modify the time zone to a different timezone, such as China</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># ln -sf /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="backlight">
+<h4 id="backlight">Backlight<a class="headerlink" href="#backlight" title="Permalink to this headline">¶</a></h4>
+<p>Modify this file <code class="docutils literal notranslate"><span class="pre">/sys/class/backlight/backlight</span></code> to adjust the screen brightness. Brightness ranges from 0 to 100 where 0 means no backlight, and 100 is the MAX brightness value. <br/>
+For example, you can adjust the screen brightness using this command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># echo 50 &gt; /sys/class/backlight/backlight.10/Brightness</span>
+</pre></div>
+</div>
+</section>
+<section id="usb-device-test">
+<h4 id="usb-device-test">USB device test<a class="headerlink" href="#usb-device-test" title="Permalink to this headline">¶</a></h4>
+<ul>
+<li><dl>
+<dt>USB-WiFi</dt><dd><ol class="arabic simple">
+<li><p>The Angstrom OS supports USB-WiFi module. If you want to use the USB-Wifi module in the system, you need to edit the <code class="docutils literal notranslate"><span class="pre">/var/lib/connman/wifi.config</span></code> file.</p></li>
+<li><p>Modify the router, the login name, and password in the config file, as shown in the code-block below.</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="nv">Type</span> <span class="o">=</span> wifi
+<span class="hll"><span class="linenos">2</span><span class="nv">Name</span> <span class="o">=</span> chipsee  //router’s name
+</span><span class="hll"><span class="linenos">3</span><span class="nv">Security</span> <span class="o">=</span> AES  //security mode
+</span><span class="hll"><span class="linenos">4</span><span class="nv">Passphrase</span> <span class="o">=</span> <span class="m">1234567890</span> //password
+</span></pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Save and reboot. The system will automatically connect to the WiFi the next time you start.</p></li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>USB-Webcam</dt><dd><ol class="arabic simple">
+<li><p>The Angstrom OS supports USB-Camera. If you want to use the USB webcam, you need to connect the webcam to the IPC before power ON.</p></li>
+<li><p>Then choose Application–&gt;Sound&amp;Video–&gt;Cheese Webcam Booth to take pictures.</p></li>
+</ol>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+</section>
+<section id="modify-os-start-up-logo">
+<h3 id="modify-os-start-up-logo">Modify OS Start up Logo<a class="headerlink" href="#modify-os-start-up-logo" title="Permalink to this headline">¶</a></h3>
+<p>Chipsee<sup>®</sup> provides a software to change the OS boot up logo. The software <code class="docutils literal notranslate"><span class="pre">ChipSee_LOGO_MOD_EN.exe</span></code> is provided on the CD for a product. <br/>
+To change the logo, follow these steps:</p>
+<ol class="arabic">
+<li><dl>
+<dt>Open the software: <code class="docutils literal notranslate"><span class="pre">Chipsee_LOGO_MOD_EN.exe</span></code> in Windows</dt><dd><figure class="align-center" id="id9">
+<img alt="../../../../../_images/Logo_Modify_1.jpeg" src="../../../../../_images/Logo_Modify_1.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 736:  </span><span class="caption-text">Chipsee OS Boot-up Logo Modify Software</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Click the first Browse button. Select the picture file you want to use as the logo.</dt><dd><figure class="align-center" id="id10">
+<img alt="../../../../../_images/Logo_Modify_2.jpeg" src="../../../../../_images/Logo_Modify_2.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 737:  </span><span class="caption-text">Choose the Logo you want</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Click the second Browse button. Select the <code class="docutils literal notranslate"><span class="pre">u-boot.img</span></code> file you want to use.</dt><dd><figure class="align-center" id="id11">
+<img alt="../../../../../_images/Logo_Modify_3.jpeg" src="../../../../../_images/Logo_Modify_3.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 738:  </span><span class="caption-text">Choose the u-boot.img file</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Choose the correct resolution for your product, then click <strong>Execute</strong>.</dt><dd><figure class="align-center" id="id12">
+<img alt="../../../../../_images/Logo_Modify_4.jpeg" src="../../../../../_images/Logo_Modify_4.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 739:  </span><span class="caption-text">Change the Logo successful</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</dd>
+</dl>
+</li>
+<li><p>Insert the SD card into the IPC. Power ON the IPC and the Logo will be replaced.</p></li>
+</ol>
+</section>
+</section>
+<section id="systemtype-os-debug">
+<h2 id="systemtype-os-debug">Angstrom OS debug<a class="headerlink" href="#systemtype-os-debug" title="Permalink to this headline">¶</a></h2>
+<p>In this section, we will discover how to view the Angstrom system via the serial port on a Windows 7 PC. <br/>
+Also, we will discover how to debug using NFS on a Ubuntu Linux PC. <br/></p>
+<section id="view-systemtype-system-via-the-serial-port">
+<h3 id="view-systemtype-system-via-the-serial-port">View Angstrom system via the serial port<a class="headerlink" href="#view-systemtype-system-via-the-serial-port" title="Permalink to this headline">¶</a></h3>
+<p>Install the <strong>SecureCRT</strong> or <strong>Putty</strong> software on a Windows 7 PC to view the Angstrom system via the serial ports. <br/>
+Follow these steps to view Angstrom system via the serial port:</p>
+<ul class="simple">
+<li><p>Connect COM1 on the industrial PC board to Windows 7 PC.</p></li>
+<li><p>Open the <strong>SecureCRT</strong> or <strong>Putty</strong> software on the Windows 7 PC.</p></li>
+<li><p>Power ON the industrial PC. You will see the serial output information as shown on the figure below.</p></li>
+<li><p>When the system is fully booted, you can communicate with it by logging in with these details: user= root and password= empty.</p></li>
+</ul>
+<figure class="align-center" id="id13">
+<img alt="../../../../../_images/Serial_Debug.jpeg" src="../../../../../_images/Serial_Debug.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 740:  </span><span class="caption-text">Serial output information</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="debug-via-nfs">
+<h3 id="debug-via-nfs">Debug via NFS<a class="headerlink" href="#debug-via-nfs" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><dl>
+<dt>Install NFS on Ubuntu Linux PC.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get install nfs-kernel-server
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Configure the file <code class="docutils literal notranslate"><span class="pre">/etc/exports</span></code>, by adding this line at the end of the file.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/qtprojects *<span class="o">(</span>rw, sync, insecure, no_subtree_check<span class="o">)</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">/qtprojects</span></code>: the shared folder in Ubuntu system</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">*</span></code>: allows all other PC to get access to this system</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rw</span></code>: means this folder can be read and write by NFS client</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sync</span></code>: synchronous write memory and hard disk</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">insecure</span></code>: sent message through the port above 1024</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">no_subtree_check</span></code>: no check the parent directory permissions</p></li>
+</ul>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Restart NFS service.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo /etc/init.d/portmap restart
 $ sudo /etc/init.d/nfs-kernel-server restart
-</pre></div> </div> </dl> <li><dl> <dt>Test<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ showmount -e
-</pre></div> </div> <p>or mount the shared folder to <code class="docutils literal notranslate"><span class=pre >/mnt</span></code>:</p> <div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo mount -t nfs –o nolock localhost:/qtprojects /mnt
-</pre></div> </div> <p>Use the command <code class="docutils literal notranslate"><span class=pre >df</span></code> to check out the result, then umount.</p> <div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ df -h
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Test</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ showmount -e
+</pre></div>
+</div>
+<p>or mount the shared folder to <code class="docutils literal notranslate"><span class="pre">/mnt</span></code>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo mount -t nfs –o nolock localhost:/qtprojects /mnt
+</pre></div>
+</div>
+<p>Use the command <code class="docutils literal notranslate"><span class="pre">df</span></code> to check out the result, then umount.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ df -h
 $ sudo umount /mnt
-</pre></div> </div> </dl> <li><dl> <dt>Mount NFS on the industrial PC running Angstrom OS.<dd><p>Create the <code class="docutils literal notranslate"><span class=pre >nfsdir</span></code> directory</p> <div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># mkdir /nfsdir</span>
-</pre></div> </div> <p>Mount the folder <code class="docutils literal notranslate"><span class=pre >/qtprojects</span></code> on the Ubuntu Linux PC to <code class="docutils literal notranslate"><span class=pre >/nfsdir</span></code> on the industrial PC.</p> <div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># mount –t nfs :/qtprojects /nfsdir</span>
-</pre></div> </div> <p>If you have an executable program like <strong>SerialTest</strong> under folder <code class="docutils literal notranslate"><span class=pre >/qtprojects</span></code>, you can run it directly on the industrial PC.</p> <div class="highlight-bash notranslate"><div class=highlight ><pre><span></span><span class=c1 ># /nfsdir/SerialTest</span>
-</pre></div> </div> </dl> </ol> </section> </section> <section id=technical-support > <h2 id=technical-support >Technical Support<a class=headerlink  href="#technical-support" title="Permalink to this headline">¶</a></h2> <p>Please feel free to contact us with any questions, queries or suggestions.</p> <p>If your question is related to technical support or troubleshooting for one of our products, we kindly ask you to check our documentation for a possible solution first.</p> <p>If you still cannot find the solution you are looking for, please write to Chipsee Technical Support at <a class="reference external" href="mailto:service%40chipsee.com"><strong>service<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information.</p> <div class=line-block > <div class=line ><br/></div> <div class=line ><br/></div> <div class=line ><br/></div> <div class=line ><br/></div> </div> <img alt="../../../../../_images/Chipsee_Logo.jpg" class=align-center  src="../../../../../_images/Chipsee_Logo.jpg"/> <div class=line-block > <div class=line ><br/></div> <div class=line ><br/></div> <div class=line ><br/></div> <div class=line ><br/></div> </div> <p><strong>Disclaimer:</strong></p> <p><sup>Chipsee assumes no responsibility for any errors that may occur in this manual. Furthermore, Chipsee reserves the right to alter hardware, software, and/or specifications set forth herein at any time without prior notice, and undertakes no obligation to update the information contained in this document. Chipsee products are not authorized for use as critical components in life support devices or systems.</sup></p> </section> </section> </article> </div> </div> </main> </div> <footer class=md-footer > <div class=md-footer-nav > <nav class="md-footer-nav__inner md-grid"> <a href=Debian.html  title="Debian OS" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel=prev > <div class="md-flex__cell md-flex__cell--shrink"> <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i> </div> <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"> <span class=md-flex__ellipsis > <span class=md-footer-nav__direction > Previous </span> Debian OS </span> </div> </a> <a href="../../OS_Downloads/index.html" title="OS Downloads" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel=next > <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span class=md-flex__ellipsis > <span class=md-footer-nav__direction > Next </span> OS Downloads </span> </div> <div class="md-flex__cell md-flex__cell--shrink"><i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i> </div> </a> </nav> </div> <div class="md-footer-meta md-typeset"> <div class="md-footer-meta__inner md-grid"> <div class=md-footer-copyright > <div class=md-footer-copyright__highlight > &#169; Copyright 2021, Chipsee. </div> Last updated on Mar 04, 2022. <br/> </div> </div> </div> </footer> <script src="../../../../../_static/javascripts/application.js"></script> <script>app.initialize({version: "1.0.4", url: {base: ".."}})</script>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Mount NFS on the industrial PC running Angstrom OS.</dt><dd><p>Create the <code class="docutils literal notranslate"><span class="pre">nfsdir</span></code> directory</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># mkdir /nfsdir</span>
+</pre></div>
+</div>
+<p>Mount the folder <code class="docutils literal notranslate"><span class="pre">/qtprojects</span></code> on the Ubuntu Linux PC to <code class="docutils literal notranslate"><span class="pre">/nfsdir</span></code> on the industrial PC.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># mount –t nfs :/qtprojects /nfsdir</span>
+</pre></div>
+</div>
+<p>If you have an executable program like <strong>SerialTest</strong> under folder <code class="docutils literal notranslate"><span class="pre">/qtprojects</span></code>, you can run it directly on the industrial PC.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># /nfsdir/SerialTest</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ol>
+</section>
+</section>
+<section id="technical-support">
+<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this headline">¶</a></h2>
+<p>Please feel free to contact us with any questions, queries or suggestions.</p>
+<p>If your question is related to technical support or troubleshooting for one of our products, we kindly ask you to check our documentation for a possible solution first.</p>
+<p>If you still cannot find the solution you are looking for, please write to Chipsee Technical Support at <a class="reference external" href="mailto:service%40chipsee.com"><strong>service<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information.</p>
+<div class="line-block">
+<div class="line"><br/></div>
+<div class="line"><br/></div>
+<div class="line"><br/></div>
+<div class="line"><br/></div>
+</div>
+<img alt="../../../../../_images/Chipsee_Logo.jpg" class="align-center" src="../../../../../_images/Chipsee_Logo.jpg"/>
+<div class="line-block">
+<div class="line"><br/></div>
+<div class="line"><br/></div>
+<div class="line"><br/></div>
+<div class="line"><br/></div>
+</div>
+<p><strong>Disclaimer:</strong></p>
+<p><sup>Chipsee assumes no responsibility for any errors that may occur in this manual. Furthermore, Chipsee reserves the right to alter hardware, software,
+and/or specifications set forth herein at any time without prior notice, and undertakes no obligation to update the information contained in this document.
+Chipsee products are not authorized for use as critical components in life support devices or systems.</sup></p>
+</section>
+</section>
+
+
+          </article>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="md-footer">
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+          
+            <a href="Debian.html" title="Debian OS"
+               class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+               rel="prev">
+              <div class="md-flex__cell md-flex__cell--shrink">
+                <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+              </div>
+              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+                <span class="md-flex__ellipsis">
+                  <span
+                      class="md-footer-nav__direction"> Previous </span> Debian OS </span>
+              </div>
+            </a>
+          
+          
+            <a href="../../OS_Downloads/index.html" title="OS Downloads"
+               class="md-flex md-footer-nav__link md-footer-nav__link--next"
+               rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span
+                class="md-flex__ellipsis"> <span
+                class="md-footer-nav__direction"> Next </span> OS Downloads </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink"><i
+                class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          
+        </a>
+        
+      </nav>
+    </div>
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-footer-copyright">
+          <div class="md-footer-copyright__highlight">
+              &#169; Copyright 2021, Chipsee.
+              
+          </div>
+            Last updated on
+              Mar 09, 2022.
+            <br/>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script async src="../../../../../_static/js/material_custom.js"></script>
+    
+  <script src="../../../../../_static/javascripts/application.js"></script>
+  <script>app.initialize({version: "1.0.4", url: {base: ".."}})</script>
+  </body>
+</html>
