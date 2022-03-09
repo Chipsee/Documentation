@@ -57,68 +57,29 @@
 
 .. rubric:: *Version 1.0*
 
-.. Add the `product-img img-thumbnail mx-auto d-block` word to the image class directive in order for the thumbnail feature to work
+.. figure:: /Media/ARM/A9/CS10600F070/PPC-A9-70-C-Front.jpg
+   :figclass: align-center
+   :class: no-scaled-link
 
-.. raw:: html
+   Front View (Panel Mounting Variant)
 
-    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
+.. figure:: /Media/ARM/A9/CS10600F070/PPC-A9-70-C-Back.jpg
+   :figclass: align-center
+   :class: no-scaled-link
 
-.. Image thumbnail 1
-.. raw:: html
+   Back View (Panel Mounting Variant)  
 
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+.. figure:: /Media/ARM/A9/CS10600F070/EPC-A9-70-C-Front.jpg
+   :figclass: align-center
+   :class: no-scaled-link
 
-.. image:: /Media/ARM/A9/CS10600F070/PPC-A9-70-C-Front.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Front View (Panel Mounting Variant)
+   Front View (Embedded Variant)
 
-.. raw:: html
+.. figure:: /Media/ARM/A9/CS10600F070/EPC-A9-70-C-Back.jpg
+   :figclass: align-center
+   :class: no-scaled-link
 
-    </div>
-
-.. Image thumbnail 2
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A9/CS10600F070/PPC-A9-70-C-Back.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View (Panel Mounting Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 3
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A9/CS10600F070/EPC-A9-70-C-Front.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Front View (Embedded Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 4
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A9/CS10600F070/EPC-A9-70-C-Back.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View (Embedded Variant)
-
-.. raw:: html
-
-    </div>
-
-.. raw:: html
-
-    </div>
-
+   Back View (Embedded Variant)
 
 .. include:: Resources/overview
 

@@ -53,19 +53,23 @@
 
 .. rubric:: *Version 1.0*
 
-.. Add the `product-img` word to the image class directive in order for the thumbnail feature to work
+.. figure:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Front.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
 
-.. image:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Front.jpeg
-   :class: no-scaled-link product-img
-   :alt: Front View
+   Front View
 
-.. image:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Back.jpeg
-   :class: no-scaled-link product-img
-   :alt:  Back View
+.. figure:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Back.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
 
-.. image:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Side.jpeg
-   :class: no-scaled-link product-img
-   :alt: Side Views
+   Back View
+
+.. figure:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Side.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Side Views
 
 .. include:: PPC_Resources/overview
 

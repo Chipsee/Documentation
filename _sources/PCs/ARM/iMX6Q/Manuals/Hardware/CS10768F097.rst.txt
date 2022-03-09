@@ -57,23 +57,29 @@
 
 .. rubric:: *Version 1.0*
 
-.. Add the `product-img` word to the image class directive in order for the thumbnail feature to work
+.. figure:: /Media/ARM/A9/CS10768F097/PPC-A9-97-C-Front.jpg
+   :figclass: align-center
+   :class: no-scaled-link
 
-.. image:: /Media/ARM/A9/CS10768F097/PPC-A9-97-C-Front.jpg
-   :class: no-scaled-link product-img
-   :alt: Front View (Panel Mounting Variant)
+   Front View (Panel Mounting Variant)
 
-.. image:: /Media/ARM/A9/CS10768F097/PPC-A9-97-C-Back.jpg
-   :class: no-scaled-link product-img
-   :alt: Back View (Panel Mounting Variant)
+.. figure:: /Media/ARM/A9/CS10768F097/PPC-A9-97-C-Back.jpg
+   :figclass: align-center
+   :class: no-scaled-link
 
-.. image:: /Media/ARM/A9/CS10768F097/EPC-A9-97-C-Front.jpg
-   :class: no-scaled-link product-img
-   :alt: Front View (Embedded Variant)
+   Back View (Panel Mounting Variant)  
 
-.. image:: /Media/ARM/A9/CS10768F097/EPC-A9-97-C-Back.jpg
-   :class: no-scaled-link product-img
-   :alt: Back View (Embedded Variant)
+.. figure:: /Media/ARM/A9/CS10768F097/EPC-A9-97-C-Front.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Front View (Embedded Variant)
+
+.. figure:: /Media/ARM/A9/CS10768F097/EPC-A9-97-C-Back.jpg
+   :figclass: align-center
+   :class: no-scaled-link
+
+   Back View (Embedded Variant)
 
 .. include:: Resources/overview
 
