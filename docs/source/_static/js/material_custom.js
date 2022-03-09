@@ -26,15 +26,9 @@ function pr_inner(pr_items) {
     for ( var i = 0; i < imgs.length; i++ ) {
         var pr_item = pr_items[i];
         if (i==0){
-            inner += `<div class="carousel-item active"><img src="${pr_item[1]}" class="d-block img-fluid" alt="${pr_item[0]}">
-      <div class="carousel-caption d-none d-md-block">
-        <h5 style="color: #fff!important; text-shadow: 2px 2px 7px #000;">${pr_item[0]}</h5>
-      </div></div>`;
+            inner += `<div class="carousel-item active"><h6 style="color:#000!important;text-align:center;">${pr_item[0]}</h6><img src="${pr_item[1]}" class="d-block img-fluid" alt="${pr_item[0]}"></div>`;
         }else{
-            inner += `<div class="carousel-item"><img src="${pr_item[1]}" class="d-block img-fluid" alt="${pr_item[0]}">
-      <div class="carousel-caption d-none d-md-block">
-        <h5 style="color: #fff!important; text-shadow: 2px 2px 7px #000;">${pr_item[0]}</h5>
-      </div></div>`;
+            inner += `<div class="carousel-item"><h6 style="color:#000!important;text-align:center;">${pr_item[0]}</h6><img src="${pr_item[1]}" class="d-block img-fluid" alt="${pr_item[0]}"></div>`;
         }
     }
     inner += "</div>";
@@ -61,21 +55,21 @@ function pr_modal(carousel) {
     var pr_modal = `<div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header" style="padding: 0 1rem;background-color: #2D445E;"><button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size: 1.5rem;color:#fff;">&times;</span></button></div><div class="modal-body">${carousel}</div></div></div>`;
     return pr_modal
 }
-function thumbnails(pr_items) {
-    var tb_row = "";
+function thumbnails() {
     for ( var i = 0; i < imgs.length; i++ ) {
-        var pr_item = pr_items[i];
-        tb_row += `<div class="col-12 col-sm-6 col-lg-3 gy-2" style="cursor: pointer;"><img class="img-thumbnail mx-auto d-block" style="height: 150px;width: 200px;" src="${pr_item[1]}" alt="${pr_item[0]}" data-bs-target="#carouselExample" data-bs-slide-to="${i}"></div>`;
+        let img_thumbnail = imgs[i];
+        img_thumbnail.setAttribute('data-bs-target', '#carouselExample');
+        img_thumbnail.setAttribute('data-bs-slide-to', `${i}`);
+        img_thumbnail.style.width = "200px";
+        img_thumbnail.style.height = "140px";
     }
-    return tb_row
 }
 
-var listItems = document.querySelectorAll("#product img.product-img");
-var listItem = listItems[listItems.length - 1];
-var footer = document.querySelector("footer.md-footer");
+// Update thumbnails
+thumbnails();
 
+var footer = document.querySelector("footer.md-footer");
 const newModal = pr_modal(pr_carousel(pr_indicators(), pr_inner(imgs_list)));
-const newThumbnail = thumbnails(imgs_list);
 
 const ModalNode = document.createElement('div');
 ModalNode.setAttribute('class', 'modal fade');
@@ -85,24 +79,10 @@ ModalNode.setAttribute('role', 'dialog');
 ModalNode.setAttribute('aria-hidden', 'true');
 ModalNode.innerHTML = newModal;
 
-const ThumbnailNode = document.createElement('div');
-ThumbnailNode.setAttribute('class', 'row');
-ThumbnailNode.setAttribute('id', 'gallery');
-ThumbnailNode.setAttribute('data-bs-toggle', 'modal');
-ThumbnailNode.setAttribute('data-bs-target', '#imageModal');
-ThumbnailNode.innerHTML = newThumbnail;
-
 
 function insertAfter(newNode, existingNode) {
     existingNode.parentNode.insertBefore(newNode, existingNode.nextElementSibling);
 }
 // Insert modal after footer
 insertAfter(ModalNode, footer);
-// Insert thumbnail
-insertAfter(ThumbnailNode, listItem);
-
-
-listItems.forEach(element => {
-    element.remove()
-});
 

@@ -160,38 +160,41 @@ a.md-source, .md-tabs__inner.md-grid > ul.md-tabs__list > li.md-tabs__item > a {
 
 
 #gallery > div > img.img-thumbnail {
-    height: 150px!important;
     object-fit: contain;
 }
 
 #gallery > div > img.img-thumbnail:hover {
-    transform: scale(0.8);
-    transition: ease-in-out 0.2s;
-    transition-delay: 0.1s;
-    transform-origin: center;
+    border: 1.5px solid #EF3D30;
 }
 
 @media (max-width: 375px) {
     #gallery > div > img.img-thumbnail {
-        height: 200px;
-        width: 250px;
+        height: 180px!important;
+        width: 250px!important;
     }
-}
-
-.modal-dialog {
-    max-width: fit-content;
-    margin: 1.75rem auto;
 }
 
 .carousel-item img {
-    width: 45vw;
+    width: 60vw;
+    height: 350px;
     object-fit: contain;
 }
 
+.modal-dialog {
+    max-width: 50%;
+    margin: 1.75rem auto;
+}
+
 @media (max-width: 576px) {
+     .modal-dialog {
+        max-width: 80%;
+    }
+
     .carousel-item img {
         width: 80vw;
+        height: 250px;
     }
+
 }
 /* --- END: crop images --- */
 
