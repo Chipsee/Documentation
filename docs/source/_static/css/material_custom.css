@@ -32,6 +32,12 @@ cite{
     border-radius: 5px;
 }
 
+.md-typeset pre {
+    border-radius: .3rem!important;
+    padding: 10px!important;
+    overflow-x: auto!important;
+    margin: auto!important;
+}
 html .md-nav--primary .md-nav__title--site .md-nav__button {
     width: 8.5rem !important;
 }
@@ -209,3 +215,27 @@ a.md-source, .md-tabs__inner.md-grid > ul.md-tabs__list > li.md-tabs__item > a {
     background-color: #ef3d30b8;
     border-radius: 50%;
   }
+
+code,
+kbd,
+pre{
+    color: #2D445E;
+    font-size: 1em;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    /* To handle variable font */
+    font-weight: 400;
+    font-variation-settings: "MONO" 1, "CASL" 0, "slnt" 0, "ital" 0.5;
+    line-height: 1.5;
+    /* Change tab size to 2*/
+    tab-size: 2;
+    hyphens: none;
+}
+
+body
+{
+
+}
