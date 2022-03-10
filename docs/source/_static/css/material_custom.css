@@ -2,6 +2,7 @@
 
 .align-center{
     text-align: center!important;
+    margin: auto;
 }
 .align-center > figcaption{
     text-align: center!important;
@@ -85,7 +86,7 @@ button[data-md-color-primary=deep-orange] {
 
 @media only screen and (max-width:76.1875em) {
      html [data-md-color-primary=deep-orange] .md-nav--primary .md-nav__title--site {
-        background-color: #EF3D30!important;
+        background-color: #2D445E!important;
         }
     }
 }
@@ -235,7 +236,4 @@ pre{
     hyphens: none;
 }
 
-body
-{
-
-}
+/*TODO: Check localtoc showing current section styles*/
