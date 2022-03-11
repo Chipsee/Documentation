@@ -98,7 +98,6 @@
 
     </div>
 
-
 .. include:: Resources/overview
 
 .. include:: Resources/ordering

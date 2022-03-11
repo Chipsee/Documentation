@@ -48,24 +48,55 @@
 
 .. rubric:: *Version 1.0*
 
-.. figure:: /Media/Monitors/PIM-156-C/pim-156-front.jpeg
-   :figclass: align-center
-   :class: no-scaled-link
+.. You must add the `product-img img-thumbnail mx-auto d-block` word
+.. to the image class directive in order for the thumbnail feature to work
 
-   Front View
+.. raw:: html
 
-.. figure:: /Media/Monitors/PIM-156-C/pim-156-back.jpeg
-   :figclass: align-center
-   :class: no-scaled-link
+    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
 
-   Back View
+.. Image thumbnail 1
+.. raw:: html
 
-.. figure:: /Media/Monitors/PIM-156-C/pim-156-bottom.jpeg
-   :figclass: align-center
-   :class: no-scaled-link
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-   Bottom View
+.. image:: /Media/Monitors/PIM-156-C/pim-156-front.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Front View
 
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 2
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/Monitors/PIM-156-C/pim-156-back.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Back View
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 3
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/Monitors/PIM-156-C/pim-156-bottom.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Bottom View
+
+.. raw:: html
+
+    </div>
+
+.. raw:: html
+
+    </div>
 
 .. include:: Resources/overview
 
