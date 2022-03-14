@@ -159,12 +159,8 @@ a.md-source, .md-tabs__inner.md-grid > ul.md-tabs__list > li.md-tabs__item > a {
 }
 
 
-/* --- BEGIN: crop images --- */
+/* --- BEGIN: crop thumbnail images --- */
 /* Optional CSS for cropping images that aren't all the same size. */
-
-
-// Crop thumbnail images.
-
 
 #gallery > div > img.img-thumbnail {
     object-fit: contain;
@@ -235,5 +231,3 @@ pre{
     tab-size: 2;
     hyphens: none;
 }
-
-/*TODO: Check localtoc showing current section styles*/

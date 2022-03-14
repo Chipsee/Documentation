@@ -26,9 +26,9 @@ function pr_inner(pr_items) {
     for ( var i = 0; i < imgs.length; i++ ) {
         var pr_item = pr_items[i];
         if (i==0){
-            inner += `<div class="carousel-item active"><h6 style="color:#000!important;text-align:center;">${pr_item[0]}</h6><img src="${pr_item[1]}" class="d-block img-fluid" alt="${pr_item[0]}"></div>`;
+            inner += `<div class="carousel-item active"><h6 style="color:#444444!important;text-align:center;">${pr_item[0]}</h6><img src="${pr_item[1]}" class="d-block img-fluid" alt="${pr_item[0]}"></div>`;
         }else{
-            inner += `<div class="carousel-item"><h6 style="color:#000!important;text-align:center;">${pr_item[0]}</h6><img src="${pr_item[1]}" class="d-block img-fluid" alt="${pr_item[0]}"></div>`;
+            inner += `<div class="carousel-item"><h6 style="color:#444444!important;text-align:center;">${pr_item[0]}</h6><img src="${pr_item[1]}" class="d-block img-fluid" alt="${pr_item[0]}"></div>`;
         }
     }
     inner += "</div>";
@@ -86,3 +86,9 @@ function insertAfter(newNode, existingNode) {
 // Insert modal after footer
 insertAfter(ModalNode, footer);
 
+const sidebar_menu = document.querySelector(".md-sidebar.md-sidebar--secondary");
+const sidebar_item = document.querySelector(".md-nav.md-nav--secondary > .md-nav__list > li.md-nav__item");
+
+if (sidebar_item != null){
+    sidebar_menu.style.backgroundColor = "#f4f7f7";
+}
