@@ -1,4 +1,4 @@
-.. |product| replace:: EPC-PPC-A72-70-C
+.. |product| replace:: EPC/PPC-A72-70-C
 
 .. |productE| replace:: EPC-A72-70-C
 
@@ -53,7 +53,7 @@
 .. |rs485| replace:: 2 x RS485 (1 debug port)
 
 
-.. _EPC-PPC-A72-70-C:
+.. _EPC/PPC-A72-70-C:
 
 |product|
 #########
