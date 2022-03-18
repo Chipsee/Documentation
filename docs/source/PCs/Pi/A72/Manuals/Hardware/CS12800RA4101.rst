@@ -57,7 +57,7 @@
 .. |product_link| replace:: CM4-101-PA
 
 
-.. _CM4-101-EM-PA:
+.. _CM4-101-PA:
 
 |product|
 #########
