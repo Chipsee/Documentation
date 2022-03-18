@@ -1,4 +1,4 @@
-.. |product| replace:: EPC/PPC-A8-70H-C
+.. |product| replace:: PPC/EPC-A8-70H-C
 
 .. |productE| replace:: EPC-A8-70H-C
 
@@ -56,7 +56,7 @@
 
 .. |product_link| replace:: EPC/PPC-A8-70H-C
 
-.. _EPC/PPC-A8-70H-C:
+.. _PPC/EPC-A8-70H-C:
 
 
 |product|
