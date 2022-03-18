@@ -51,7 +51,7 @@ html_theme = 'sphinx_material'
 html_logo = 'logo-chipsee-white.png'
 html_favicon = 'favicon.webp'
 # Set link name generated in the top bar.
-html_title = 'Chipsee'
+html_title = 'Home'
 # Material theme options (see theme.conf for more information)
 html_theme_options = {
     # Set the name of the project to appear in the navigation.

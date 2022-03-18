@@ -3,7 +3,8 @@ Hardware Documentation
 
 .. table::
    :widths: 10 40
-   
+   :name: hwdocstable_1
+
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-104|  |   :ref:`PPC-J1900-104-R User Manual <PPC-J1900-104-R>` |br| |br|       |
    |                   |                                                                        |                                 
@@ -18,7 +19,8 @@ Hardware Documentation
 
 .. table::
    :widths: 10 40
-   
+   :name: hwdocstable_2
+
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-121|  |   :ref:`PPC-J1900-121-R User Manual <PPC-J1900-121-R>` |br| |br|       |
    |                   |                                                                        |                                 
@@ -33,6 +35,7 @@ Hardware Documentation
 
 .. table::
    :widths: 10 40
+   :name: hwdocstable_3
    
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-170|  |   :ref:`PPC-J1900-170-R User Manual <PPC-J1900-170-R>` |br| |br|       |
@@ -48,6 +51,7 @@ Hardware Documentation
 
 .. table::
    :widths: 10 40
+   :name: hwdocstable_4
    
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-190|  |   :ref:`PPC-J1900-190-R User Manual <PPC-J1900-190-R>` |br| |br|       |
@@ -63,6 +67,7 @@ Hardware Documentation
 
 .. table::
    :widths: 10 40
+   :name: hwdocstable_5
    
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-101|  |   :ref:`PPC-J1900-101-C User Manual <PPC-J1900-101-C>` |br| |br|       |
@@ -78,6 +83,7 @@ Hardware Documentation
 
 .. table::
    :widths: 10 40
+   :name: hwdocstable_6
 
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-133|  |   :ref:`PPC-J1900-133-C User Manual <PPC-J1900-133-C>` |br| |br|       |
@@ -93,6 +99,7 @@ Hardware Documentation
 
 .. table::
    :widths: 10 40
+   :name: hwdocstable_7
 
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-150|  |   :ref:`PPC-J1900-150-C User Manual <PPC-J1900-150-C>` |br| |br|       |
@@ -108,6 +115,7 @@ Hardware Documentation
 
 .. table::
    :widths: 10 40
+   :name: hwdocstable_8
 
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-156|  |   :ref:`PPC-J1900-156-C User Manual <PPC-J1900-156-C>` |br| |br|       |
@@ -123,6 +131,7 @@ Hardware Documentation
 
 .. table::
    :widths: 10 40
+   :name: hwdocstable_9
 
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-215|  |   :ref:`PPC-J1900-215-C User Manual <PPC-J1900-215-C>` |br| |br|       |

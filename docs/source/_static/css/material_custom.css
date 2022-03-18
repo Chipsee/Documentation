@@ -231,3 +231,33 @@ pre{
     tab-size: 2;
     hyphens: none;
 }
+
+table[id|=hwdocstable] {
+    border: 1px solid #666666 !important;
+    box-shadow: none !important;
+}
+
+/* Larger desktops */
+@media only screen and (min-width: 1024px) {
+    table[id|=hwdocstable] {
+        width: 35vw!important;
+    }
+}
+/* Laptops and larger tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    table[id|=hwdocstable] {
+        width: 45vw!important;
+    }
+}
+/* Tablets and larger smartphones */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    table[id|=hwdocstable] {
+        width: 65vw!important;
+    }
+}
+/* Smaller smartphones */
+@media only screen and (max-width: 480px) {
+    table[id|=hwdocstable] {
+        width: 85vw!important;
+    }
+}
