@@ -19,7 +19,7 @@ import sphinx_material
 
 project = 'Chipsee Documentation Sample'
 copyright = '2021, Chipsee'
-author = 'Randy'
+author = 'Chipsee'
 version = '1.1'
 
 # The full version, including alpha/beta/rc tags
