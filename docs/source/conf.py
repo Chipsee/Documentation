@@ -146,8 +146,8 @@ html_last_updated_fmt = '%b %d, %Y'
 pygments_style = "sphinx"
 
 # PDF output
-latex_engine = 'pdflatex'
-latex_logo = './Media/Chipsee_Logo_Full.png'
+# latex_engine = 'pdflatex'
+# latex_logo = './Media/Chipsee_Logo_Full.png'
 
 # Sphinx internationalization details
 # language = "zh_CN"
