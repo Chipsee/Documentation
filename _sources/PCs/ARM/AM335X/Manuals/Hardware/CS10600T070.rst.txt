@@ -1,4 +1,4 @@
-.. |product| replace:: EPC/PPC-A8-70H-C
+.. |product| replace:: PPC/EPC-A8-70H-C
 
 .. |productE| replace:: EPC-A8-70H-C
 
@@ -56,7 +56,7 @@
 
 .. |product_link| replace:: EPC/PPC-A8-70H-C
 
-.. _EPC/PPC-A8-70H-C:
+.. _PPC/EPC-A8-70H-C:
 
 
 |product|
@@ -64,29 +64,69 @@
 
 .. rubric:: *Version 1.0*
 
-.. figure:: /Media/ARM/A8/CS10600T070/PPC-A8-70-HB-C-Front.jpeg
-   :figclass: align-center
-   :class: no-scaled-link
+.. You must add the `product-img img-thumbnail mx-auto d-block` word
+.. to the image class directive in order for the thumbnail feature to work
 
-   Front View (Panel Mounting Variant)
+.. raw:: html
 
-.. figure:: /Media/ARM/A8/CS10600T070/PPC-A8-70-HB-C-Back.jpeg
-   :figclass: align-center
-   :class: no-scaled-link
+    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
 
-   Back View (Panel Mounting Variant)
+.. Image thumbnail 1
+.. raw:: html
 
-.. figure:: /Media/ARM/A8/CS10600T070/EPC-A8-70-HB-C-Front.jpeg
-   :figclass: align-center
-   :class: no-scaled-link
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-   Front View (Embedded Variant)
+.. image:: /Media/ARM/A8/CS10600T070/PPC-A8-70H-C-Front.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Front View (Panel Mounting Variant)
 
-.. figure:: /Media/ARM/A8/CS10600T070/EPC-A8-70-HB-C-Back.jpeg
-   :figclass: align-center
-   :class: no-scaled-link
+.. raw:: html
 
-   Back View (Embedded Variant)
+    </div>
+
+.. Image thumbnail 2
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/ARM/A8/CS10600T070/PPC-A8-70H-C-Back.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Back View (Panel Mounting Variant)
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 3
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/ARM/A8/CS10600T070/EPC-A8-70H-C-Front.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Front View (Embedded Variant)
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 4
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/ARM/A8/CS10600T070/EPC-A8-70H-C-Back.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Back View (Embedded Variant)
+
+.. raw:: html
+
+    </div>
+
+.. raw:: html
+
+    </div>
+
 
 .. include:: Resources/overview
 
@@ -129,7 +169,7 @@ Mechanical Specifications
 The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
-.. figure:: /Media/ARM/A8/CS10600T070/EPC-A8-70-HB-C-TD.jpeg
+.. figure:: /Media/ARM/A8/CS10600T070/EPC-A8-70H-C-TD.jpeg
    :align: center
    :figclass: align-center
 
@@ -140,7 +180,7 @@ product measurements.
 For |productP|, the outer mechanical dimensions are |dimP| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
-.. figure:: /Media/ARM/A8/CS10600T070/EPC-A8-70-HB-C-TD.jpeg
+.. figure:: /Media/ARM/A8/CS10600T070/EPC-A8-70H-C-TD.jpeg
    :align: center
    :figclass: align-center
 

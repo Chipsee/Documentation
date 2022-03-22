@@ -1,4 +1,4 @@
-.. |product| replace:: EPC-PPC-A72-70-C
+.. |product| replace:: EPC/PPC-A72-70-C
 
 .. |productE| replace:: EPC-A72-70-C
 
@@ -53,36 +53,76 @@
 .. |rs485| replace:: 2 x RS485 (1 debug port)
 
 
-.. _EPC-PPC-A72-70-C:
+.. _EPC/PPC-A72-70-C:
 
 |product|
 #########
 
 .. rubric:: *Version 1.0*
 
-.. figure:: /Media/ARM/A72/CS10600R070/PPC-A72-70-C-Front.jpeg
-   :figclass: align-center
-   :class: no-scaled-link
+.. You must add the `product-img img-thumbnail mx-auto d-block` word
+.. to the image class directive in order for the thumbnail feature to work
 
-   Front View (Panel Mounting Variant)
+.. raw:: html
 
-.. figure:: /Media/ARM/A72/CS10600R070/PPC-A72-70-C-Back.jpeg
-   :figclass: align-center
-   :class: no-scaled-link
+    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
 
-   Back View (Panel Mounting Variant)
+.. Image thumbnail 1
+.. raw:: html
 
-.. figure:: /Media/ARM/A72/CS10600R070/EPC-A72-70-C-Front.jpeg
-   :figclass: align-center
-   :class: no-scaled-link
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-   Front View (Embedded Variant)
+.. image:: /Media/ARM/A72/CS10600R070/PPC-A72-70-C-Front.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Front View (Panel Mounting Variant)
 
-.. figure:: /Media/ARM/A72/CS10600R070/EPC-A72-70-C-Back.jpeg
-   :figclass: align-center
-   :class: no-scaled-link
+.. raw:: html
 
-   Back View (Embedded Variant)
+    </div>
+
+.. Image thumbnail 2
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/ARM/A72/CS10600R070/PPC-A72-70-C-Back.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Back View (Panel Mounting Variant)
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 3
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/ARM/A72/CS10600R070/EPC-A72-70-C-Front.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Front View (Embedded Variant)
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 4
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/ARM/A72/CS10600R070/EPC-A72-70-C-Back.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Back View (Embedded Variant)
+
+.. raw:: html
+
+    </div>
+
+.. raw:: html
+
+    </div>
+
 
 .. include:: Resources/overview
 

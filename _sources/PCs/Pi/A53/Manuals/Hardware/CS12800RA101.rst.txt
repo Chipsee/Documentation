@@ -56,29 +56,69 @@
 
 .. rubric:: *Version 1.0*
 
-.. figure:: /Media/Pi/A53/CS12800RA101/CS12800RA101E-Front.jpeg
-   :figclass: align-center
-   :class: no-scaled-link
+.. You must add the `product-img img-thumbnail mx-auto d-block` word
+.. to the image class directive in order for the thumbnail feature to work
 
-   Front View (Embedded Mounting Variant)
+.. raw:: html
 
-.. figure:: /Media/Pi/A53/CS12800RA101/CS12800RA101E-Back.jpeg
-   :figclass: align-center
-   :class: no-scaled-link
+    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
 
-   Back View (Embedded Mounting Variant)
+.. Image thumbnail 1
+.. raw:: html
 
-.. figure:: /Media/Pi/A53/CS12800RA101/CS12800RA101P-Front.jpeg
-   :figclass: align-center
-   :class: no-scaled-link
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-   Front View (Panel Variant)
+.. image:: /Media/Pi/A53/CS12800RA101/CS12800RA101P-Front.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Front View (Panel Mounting Variant)
 
-.. figure:: /Media/Pi/A53/CS12800RA101/CS12800RA101P-Back.jpeg
-   :figclass: align-center
-   :class: no-scaled-link
+.. raw:: html
 
-   Back View (Panel Variant)
+    </div>
+
+.. Image thumbnail 2
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/Pi/A53/CS12800RA101/CS12800RA101P-Back.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Back View (Panel Mounting Variant)
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 3
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/Pi/A53/CS12800RA101/CS12800RA101E-Front.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Front View (Embedded Variant)
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 4
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/Pi/A53/CS12800RA101/CS12800RA101E-Back.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Back View (Embedded Variant)
+
+.. raw:: html
+
+    </div>
+
+.. raw:: html
+
+    </div>
+
 
 .. include:: Resources/overview
 

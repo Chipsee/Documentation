@@ -1,48 +1,1509 @@
-<!DOCTYPE html> <meta charset=utf-8  /> <meta name=viewport  content="width=device-width, initial-scale=1.0" /><meta name=generator  content="Docutils 0.17.1: http://docutils.sourceforge.net/" /> <meta name=viewport  content="width=device-width,initial-scale=1"> <meta http-equiv=x-ua-compatible  content="ie=edge"> <meta name="lang:clipboard.copy" content="Copy to clipboard"> <meta name="lang:clipboard.copied" content="Copied to clipboard"> <meta name="lang:search.language" content=en > <meta name="lang:search.pipeline.stopwords" content=True > <meta name="lang:search.pipeline.trimmer" content=True > <meta name="lang:search.result.none" content="No matching documents"> <meta name="lang:search.result.one" content="1 matching document"> <meta name="lang:search.result.other" content="# matching documents"> <meta name="lang:search.tokenizer" content="[\s\-]+"> <link href="https://fonts.gstatic.com/" rel=preconnect  crossorigin> <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto:300,400,400i,700&display=fallback" rel=stylesheet > <style> body, input { font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif } code, kbd, pre { font-family: "Roboto Mono", "Courier New", Courier, monospace } </style> <link rel=stylesheet  href="../../../_static/stylesheets/application.css"/> <link rel=stylesheet  href="../../../_static/stylesheets/application-palette.css"/> <link rel=stylesheet  href="../../../_static/stylesheets/application-fixes.css"/> <link rel=stylesheet  href="../../../_static/fonts/material-icons.css"/> <meta name=theme-color  content=2D445E > <script src="../../../_static/javascripts/modernizr.js"></script> <title>Debian 10 (buster) OS &#8212; Chipsee</title> <link rel=stylesheet  type="text/css" href="../../../_static/pygments.css" /> <link rel=stylesheet  type="text/css" href="../../../_static/css/material_custom.css" /> <script data-url_root="../../../" id=documentation_options  src="../../../_static/documentation_options.js"></script> <script src="../../../_static/jquery.js"></script> <script src="../../../_static/underscore.js"></script> <script src="../../../_static/doctools.js"></script> <link rel="shortcut icon" href="../../../_static/favicon.webp"/> <link rel=index  title=Index  href="../../../genindex.html" /> <link rel=search  title=Search  href="../../../search.html" /> <link rel=next  title="AIO-CM4-156 Start Guide" href=AIO156StartGuide.html  /> <link rel=prev  title="Software Documentation" href=index.html  /> <body dir=ltr data-md-color-primary=deep-orange data-md-color-accent=deep-orange> <svg class=md-svg > <defs data-children-count=0 > <svg xmlns="http://www.w3.org/2000/svg" width=416  height=448  viewBox="0 0 416 448" id=__github ><path fill=currentColor  d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg> </defs> </svg> <input class=md-toggle  data-md-toggle=drawer  type=checkbox  id=__drawer > <input class=md-toggle  data-md-toggle=search  type=checkbox  id=__search > <label class=md-overlay  data-md-component=overlay  for=__drawer ></label> <a href="#PCs/Pi/Software/Debian" tabindex=1  class=md-skip > Skip to content </a> <header class=md-header  data-md-component=header > <nav class="md-header-nav md-grid"> <div class="md-flex navheader"> <div class="md-flex__cell md-flex__cell--shrink"> <a href="../../../index.html" title=Chipsee  class="md-header-nav__button md-logo"> <img src="../../../_static/logo-chipsee-white.png" height=26  alt="Chipsee logo"> </a> </div> <div class="md-flex__cell md-flex__cell--shrink"> <label class="md-icon md-icon--menu md-header-nav__button" for=__drawer ></label> </div> <div class="md-flex__cell md-flex__cell--stretch"> <div class="md-flex__ellipsis md-header-nav__title" data-md-component=title > <span class=md-header-nav__topic >Home</span> <span class=md-header-nav__topic > Debian 10 (buster) OS </span> </div> </div> <div class="md-flex__cell md-flex__cell--shrink"> <label class="md-icon md-icon--search md-header-nav__button" for=__search ></label> <div class=md-search  data-md-component=search  role=dialog > <label class=md-search__overlay  for=__search ></label> <div class=md-search__inner  role=search > <form class=md-search__form  action="../../../search.html" method=get  name=search > <input type=text  class=md-search__input  name=q  placeholder=Search  autocapitalize=off  autocomplete=off  spellcheck=false  data-md-component=query  data-md-state=active > <label class="md-icon md-search__icon" for=__search ></label> <button type=reset  class="md-icon md-search__icon" data-md-component=reset  tabindex=-1 > &#xE5CD; </button> </form> <div class=md-search__output > <div class=md-search__scrollwrap  data-md-scrollfix> <div class=md-search-result  data-md-component=result > <div class=md-search-result__meta > Type to start searching </div> <ol class=md-search-result__list ></ol> </div> </div> </div> </div> </div> </div> <script src="../../../_static/javascripts/version_dropdown.js"></script> <script> var json_loc = "../../../"versions.json"", target_loc = "../../../../", text = "Versions"; $( document ).ready( add_version_dropdown(json_loc, target_loc, text)); </script> </div> </nav> </header> <div class=md-container > <nav class=md-tabs  data-md-component=tabs > <div class="md-tabs__inner md-grid"> <ul class=md-tabs__list > <li class=md-tabs__item ><a href="../../../index.html" class=md-tabs__link >Chipsee</a> <li class=md-tabs__item ><a href="../index.html" class=md-tabs__link >Industrial PCs Powered by Raspberry Pi</a> <li class=md-tabs__item ><a href=index.html  class=md-tabs__link >Software Documentation</a> </ul> </div> </nav> <main class=md-main > <div class="md-main__inner md-grid" data-md-component=container > <div class="md-sidebar md-sidebar--primary" data-md-component=navigation > <div class=md-sidebar__scrollwrap > <div class=md-sidebar__inner > <nav class="md-nav md-nav--primary" data-md-level=0 > <label class="md-nav__title md-nav__title--site" for=__drawer > <a href="../../../index.html" title=Chipsee  class="md-nav__button md-logo"> <img src="../../../_static/logo-chipsee-white.png" alt=" logo" width=48  height=48 > </a> <a href="../../../index.html" title=Chipsee >Home</a> </label> <ul class=md-nav__list > <li class=md-nav__item > <span class="md-nav__link caption"><span class=caption-text >Industrial Panel PC</span></span> <li class=md-nav__item > <a href="../../ARM/index.html" class=md-nav__link >Powered by Arm</a> <li class=md-nav__item > <a href="../../Intel/index.html" class=md-nav__link >Powered by Intel</a> <li class=md-nav__item > <a href="../index.html" class=md-nav__link >Powered by Raspberry Pi</a> <ul class=md-nav__list > <li class=md-nav__item > <a href="../A53/Manuals/Hardware/index.html" class=md-nav__link >Cortex-A53 Hardware Documentation</a> <li class=md-nav__item > <a href="../A72/Manuals/Hardware/index.html" class=md-nav__link >Cortex-A72 Hardware Documentation</a> <li class=md-nav__item > <a href="../AIO/Manuals/Hardware/index.html" class=md-nav__link >All-In-One Hardware Documentation</a> <li class=md-nav__item > <a href=index.html  class=md-nav__link >Software Documentation</a> <ul class=md-nav__list > <li class=md-nav__item > <input class="md-toggle md-nav__toggle" data-md-toggle=toc  type=checkbox  id=__toc > <label class="md-nav__link md-nav__link--active" for=__toc > Debian 10 (buster) </label> <a href="#" class="md-nav__link md-nav__link--active">Debian 10 (buster)</a> <nav class="md-nav md-nav--secondary"> <label class=md-nav__title  for=__toc >Contents</label> <ul class=md-nav__list  data-md-scrollfix=""> <li class=md-nav__item ><a href="#pcs-pi-software-debian--page-root" class=md-nav__link >Debian 10 (buster) OS</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#preparation" class=md-nav__link >Preparation</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#hardware-requirements" class=md-nav__link >Hardware Requirements</a> <li class=md-nav__item ><a href="#software-requirements" class=md-nav__link >Software Requirements</a> </ul> </nav> <li class=md-nav__item ><a href="#debug" class=md-nav__link >Debug</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#serial-debug" class=md-nav__link >Serial Debug</a> <li class=md-nav__item ><a href="#ssh-debug" class=md-nav__link >SSH Debug</a> <li class=md-nav__item ><a href="#vnc-debug" class=md-nav__link >VNC Debug</a> </ul> </nav> <li class=md-nav__item ><a href="#downloading-images" class=md-nav__link >Downloading images</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#boot-switch-configuration" class=md-nav__link >Boot Switch Configuration</a> <li class=md-nav__item ><a href="#prebuilt-image" class=md-nav__link >Prebuilt image</a> <li class=md-nav__item ><a href="#writing-images-to-the-sd-card" class=md-nav__link >Writing images to the SD Card</a> <li class=md-nav__item ><a href="#writing-images-to-the-emmc" class=md-nav__link >Writing images to the eMMC</a> </ul> </nav> <li class=md-nav__item ><a href="#system-resource" class=md-nav__link >System Resource</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#sd-card-usb" class=md-nav__link >SD Card/USB</a> <li class=md-nav__item ><a href="#serial-port" class=md-nav__link >Serial Port</a> <li class=md-nav__item ><a href="#gpio" class=md-nav__link >GPIO</a> <li class=md-nav__item ><a href="#relay" class=md-nav__link >Relay</a> <li class=md-nav__item ><a href="#buzzer" class=md-nav__link >BUZZER</a> <li class=md-nav__item ><a href="#backlight" class=md-nav__link >Backlight</a> <li class=md-nav__item ><a href="#g" class=md-nav__link >4G</a> <li class=md-nav__item ><a href="#can-bus" class=md-nav__link >CAN Bus</a> <li class=md-nav__item ><a href="#wi-fi" class=md-nav__link >Wi-Fi</a> <li class=md-nav__item ><a href="#zigbee" class=md-nav__link >Zigbee</a> <li class=md-nav__item ><a href="#camera" class=md-nav__link >Camera</a> <li class=md-nav__item ><a href="#chipsee-init-shell" class=md-nav__link >Chipsee-init shell</a> </ul> </nav> <li class=md-nav__item ><a href="#technical-support" class=md-nav__link >Technical Support</a> </ul> </nav> </ul> </nav> <li class=md-nav__item > <a href=AIO156StartGuide.html  class=md-nav__link >AIO-CM4-156 Start Guide</a> </ul> </ul> <li class=md-nav__item > <span class="md-nav__link caption"><span class=caption-text >Industrial Monitors</span></span> <li class=md-nav__item > <a href="../../../Monitors/index.html" class=md-nav__link >Monitors with Capacitive Touch</a> <li class=md-nav__item > <span class="md-nav__link caption"><span class=caption-text >Systems on Module</span></span> <li class=md-nav__item > <a href="../../../SOM/index.html" class=md-nav__link >Systems on Module</a> <li class=md-nav__item > <span class="md-nav__link caption"><span class=caption-text >IPC Mounting Guide</span></span> <li class=md-nav__item > <a href="../../../MountGuide/index.html" class=md-nav__link >Mounting Guide</a> </ul> </nav> </div> </div> </div> <div class="md-sidebar md-sidebar--secondary" data-md-component=toc > <div class=md-sidebar__scrollwrap > <div class=md-sidebar__inner > <nav class="md-nav md-nav--secondary"> <label class=md-nav__title  for=__toc >Contents</label> <ul class=md-nav__list  data-md-scrollfix=""> <li class=md-nav__item ><a href="#pcs-pi-software-debian--page-root" class=md-nav__link >Debian 10 (buster) OS</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#preparation" class=md-nav__link >Preparation</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#hardware-requirements" class=md-nav__link >Hardware Requirements</a> <li class=md-nav__item ><a href="#software-requirements" class=md-nav__link >Software Requirements</a> </ul> </nav> <li class=md-nav__item ><a href="#debug" class=md-nav__link >Debug</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#serial-debug" class=md-nav__link >Serial Debug</a> <li class=md-nav__item ><a href="#ssh-debug" class=md-nav__link >SSH Debug</a> <li class=md-nav__item ><a href="#vnc-debug" class=md-nav__link >VNC Debug</a> </ul> </nav> <li class=md-nav__item ><a href="#downloading-images" class=md-nav__link >Downloading images</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#boot-switch-configuration" class=md-nav__link >Boot Switch Configuration</a> <li class=md-nav__item ><a href="#prebuilt-image" class=md-nav__link >Prebuilt image</a> <li class=md-nav__item ><a href="#writing-images-to-the-sd-card" class=md-nav__link >Writing images to the SD Card</a> <li class=md-nav__item ><a href="#writing-images-to-the-emmc" class=md-nav__link >Writing images to the eMMC</a> </ul> </nav> <li class=md-nav__item ><a href="#system-resource" class=md-nav__link >System Resource</a><nav class=md-nav > <ul class=md-nav__list > <li class=md-nav__item ><a href="#sd-card-usb" class=md-nav__link >SD Card/USB</a> <li class=md-nav__item ><a href="#serial-port" class=md-nav__link >Serial Port</a> <li class=md-nav__item ><a href="#gpio" class=md-nav__link >GPIO</a> <li class=md-nav__item ><a href="#relay" class=md-nav__link >Relay</a> <li class=md-nav__item ><a href="#buzzer" class=md-nav__link >BUZZER</a> <li class=md-nav__item ><a href="#backlight" class=md-nav__link >Backlight</a> <li class=md-nav__item ><a href="#g" class=md-nav__link >4G</a> <li class=md-nav__item ><a href="#can-bus" class=md-nav__link >CAN Bus</a> <li class=md-nav__item ><a href="#wi-fi" class=md-nav__link >Wi-Fi</a> <li class=md-nav__item ><a href="#zigbee" class=md-nav__link >Zigbee</a> <li class=md-nav__item ><a href="#camera" class=md-nav__link >Camera</a> <li class=md-nav__item ><a href="#chipsee-init-shell" class=md-nav__link >Chipsee-init shell</a> </ul> </nav> <li class=md-nav__item ><a href="#technical-support" class=md-nav__link >Technical Support</a> </ul> </nav> </ul> </nav> </div> </div> </div> <div class=md-content > <article class="md-content__inner md-typeset" role=main > <section id=systemtype-os > <h1 id=pcs-pi-software-debian--page-root >Debian 10 (buster) OS<a class=headerlink  href="#pcs-pi-software-debian--page-root" title="Permalink to this headline">¶</a></h1> <p class=centered > <strong>Debian 10 (buster) OS User Manual</strong></p><img alt="../../../_images/Chipsee_Logo_Full.png" class=align-center  src="../../../_images/Chipsee_Logo_Full.png"/> <p>This manual provides users with a fast guide of Chipsee Raspberry Pi Computer (Abbreviated as RPC) running a Debian 10 (buster) OS. Through this manual, users can quickly understand the hardware resources; users can debug Debian 10 (buster) OS via serial, SSH, and VNC.</p> <table style="width: 100%"> <colgroup> <col style="width: 22%"/> <col style="width: 24%"/> <col style="width: 17%"/> <col style="width: 37%"/> <thead> <tr class=row-odd ><th class=head ><p>Revision</p> <th class=head ><p>Date</p> <th class=head ><p>Author</p> <th class=head ><p>Description</p> <tr class=row-even ><td><p>V2.1</p> <td><p>2021-04-28</p> <td><p>Chipsee</p> <td><p>Revision</p> </table> <p><strong>SUPPORTED BOARDS:</strong></p> <blockquote> <div><p><em>CS10600RA4070</em> <em>CS10600RA070</em> <em>CS12800RA101</em> <em>AIO-CM4-101</em></p> </div></blockquote> <p id=db-pkg-pi-debian ><strong>PREBUILT IMAGES PACKAGE:</strong></p> <p>Below are the links to the prebuilt images for the Raspbian Buster operating system on the various industrial Pi PC’s.</p> <ul class=simple > <li><p><a class="reference download external" download="" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RaspberryPi/20201202/2020-12-02-raspios-buster-armhf-full-chipsee-v5.img.xz"><code class="xref download docutils literal notranslate"><span class=pre >Raspbian</span> <span class=pre >Buster</span> <span class=pre >with</span> <span class=pre >desktop</span> <span class=pre >and</span> <span class=pre >recommended</span> <span class=pre >software</span> <span class=pre >V5</span></code></a> <br/> <br/></p> <li><p><a class="reference download external" download="" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RaspberryPi/20201202/2020-12-02-raspios-buster-armhf-chipsee-v5.img.xz"><code class="xref download docutils literal notranslate"><span class=pre >Raspbian</span> <span class=pre >Buster</span> <span class=pre >with</span> <span class=pre >desktop</span> <span class=pre >V5</span></code></a> <br/> <br/></p> <li><p><a class="reference download external" download="" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RaspberryPi/20201202/2020-12-02-raspios-buster-armhf-lite-chipsee-v5.img.xz"><code class="xref download docutils literal notranslate"><span class=pre >Raspbian</span> <span class=pre >Buster</span> <span class=pre >Lite</span> <span class=pre >V5</span></code></a> <br/> <br/></p> </ul> <p class=rubric >System Features</p> <table style="width: 100%"> <colgroup> <col style="width: 31%"/> <col style="width: 69%"/> <thead> <tr class=row-odd ><th class=head ><p>Feature</p> <th class=head ><p>Comment</p> <tr class=row-even ><td><p>Kernel</p> <td><p>Kernel 5.4.79</p> <tr class=row-odd ><td><p>System<a class="footnote-reference brackets" href="#d" id=id1 >1</a></p> <td><p>Based on raspios 2020-12-02</p> <tr class=row-even ><td><p>Python</p> <td><p>Python 2.7.16 / Python 3.7.3</p> <tr class=row-odd ><td><p>Qt</p> <td><p>Needs to be installed by the user</p> <tr class=row-even ><td><p>GCC</p> <td><p>8.3.0</p> <tr class=row-odd ><td><p>Debian Version</p> <td><p>Debian 10 (Buster)</p> <tr class=row-even ><td><p>User/Password</p> <td><p>[pi/raspberry]</p> </table> <hr class=docutils /> <dl class="footnote brackets"> <dt class=label  id=d ><span class=brackets ><a class=fn-backref  href="#id1">1</a></span> <dd><p>Chipsee uses the Raspberry official OS on the product. We add Chipsee hardware drivers to the Raspberry official system. For more information, please refer to <a class="reference external" href="https://github.com/Chipsee/industrial-pi">Industrial Pi</a>.</p> </dl> <section id=preparation > <h2 id=preparation >Preparation<a class=headerlink  href="#preparation" title="Permalink to this headline">¶</a></h2> <p>You will need to prepare the following items before you can start using the Prebuilt Images Package to re-flash the system.</p> <p>Power Supply Unit (PSU) with the appropriate voltages, as follows:</p> <ul class=simple > <li><p>These products: CS10600RA070, CS10600RA4070, and CS12800RA101 requires a 6V to 36V power adapter. You must provide the power adapter since Chipsee does not ship these products with a power adapter.</p> <li><p>The AIO-CM4-101 RPC needs a 12V power adapter. Chipsee provides the power adapter.</p> </ul> <section id=hardware-requirements > <h3 id=hardware-requirements >Hardware Requirements<a class=headerlink  href="#hardware-requirements" title="Permalink to this headline">¶</a></h3> <ul class=simple > <li><p>Chipsee Raspberry Pi<sup>®</sup></p> <li><p>PSU according to the instructions above</p> <li><p>Mini-B USB OTG and MicroB USB Cable to download system images to CM3/CM3+/CM4 based IPC’s.</p> <li><p>USB to RS232 serial cable for serial debugging the Chipsee Raspberry Pi<sup>®</sup> product.</p> <li><p>TF Card (SD Card) to create a bootable storage for re-flashing the system. Use the prebuilt files <a class="reference internal" href="#db-pkg-pi-debian"><span class="std std-ref">link above</span></a> to re-flash the system.</p> <li><p>If you use CM3 Lite/CM3 Lite+/CM4 Lite, you also need one SD card, 16GB at least.</p> </ul> </section> <section id=software-requirements > <h3 id=software-requirements >Software Requirements<a class=headerlink  href="#software-requirements" title="Permalink to this headline">¶</a></h3> <ul class=simple > <li><p>Debian 10 (buster) OS Prebuilt Images Package (from the link above)</p> <li><p><a class="reference external" href="https://www.7-zip.org/download.html">7zip</a></p> <li><p><a class="reference external" href="https://xshell.en.softonic.com/">XShell</a> or other terminal emulation software</p> <li><p><a class="reference external" href="https://www.realvnc.com/en/connect/download/viewer/">VNC Viewer</a></p> <li><p><a class="reference external" href="https://www.balena.io/etcher/">BalenaEtcher</a></p> <li><p><a class="reference download external" download="" href="https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe"><code class="xref download docutils literal notranslate"><span class=pre >Rpiboot</span></code></a></p> </ul> <div class="admonition note"> <p class=admonition-title >Note</p> <ul class=simple > <li><p>If you want to change the system, you need 7zip, a Prebuilt image, balenaEtcher, and rpiboot.</p> <li><p>You can use Xshell or other terminal emulation software to debug Chipsee Raspberry Pi products in Windows.</p> <li><p>You can use VNC-Viewer to control Chipsee Raspberry Pi products over Ethernet.</p> </ul> </div> <div class="admonition note"> <p class=admonition-title >Note</p> <p>In this documentation, all the commands are executed with <code class="docutils literal notranslate"><span class=pre >root</span></code> user privileges.</p> </div> </section> </section> <section id=debug > <h2 id=debug >Debug<a class=headerlink  href="#debug" title="Permalink to this headline">¶</a></h2> <p>In this document, we use Xshell to debug the Chipsee Raspberry Pi products. You can also use other tools such as Putty or another terminal emulation software.</p> <section id=serial-debug > <h3 id=serial-debug >Serial Debug<a class=headerlink  href="#serial-debug" title="Permalink to this headline">¶</a></h3> <p>The RS232_0 is configured as debug console by default on all Chipsee Raspberry Pi products. You can use it to debug directly, and the default user and password is [ pi / raspberry ]. Use the session properties as shown on the figure below.</p> <figure class=align-center  id=id5 > <img alt="../../../_images/Serial_Debug1.jpeg" src="../../../_images/Serial_Debug1.jpeg"/> <figcaption> <p><span class=caption-number >Figure 1002: </span><span class=caption-text >Session Properties</span><a class=headerlink  href="#id5" title="Permalink to this image">¶</a></p> </figcaption> </figure> <p>If you need to change the debug serial to normal serial, follow these steps:</p> <ul class=simple > <li><p>Open and edit <cite>/boot/cmdline.txt</cite> file.</p> <li><p>In the file, remove the line <cite>console=ttyAMA0, 115200</cite>. Save and close file.</p> <li><p>Reboot the RPC.</p> </ul> </section> <section id=ssh-debug > <h3 id=ssh-debug >SSH Debug<a class=headerlink  href="#ssh-debug" title="Permalink to this headline">¶</a></h3> <p>To perform SSH debugging on the Chipsee Raspberry Pi<sup>®</sup> product, you must first connect the product to the Internet.</p> <p>Continue the debugging by follow these steps:</p> <ul> <li><p>Get the IP address of the Chipsee Raspberry Pi<sup>®</sup> product.</p> <li><dl> <dt>Enable the SSH feature in the Chipsee Raspberry Pi<sup>®</sup> product by running the following command in debug console:<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo raspi-config
+
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="lang:clipboard.copy" content="Copy to clipboard">
+  <meta name="lang:clipboard.copied" content="Copied to clipboard">
+  <meta name="lang:search.language" content="en">
+  <meta name="lang:search.pipeline.stopwords" content="True">
+  <meta name="lang:search.pipeline.trimmer" content="True">
+  <meta name="lang:search.result.none" content="No matching documents">
+  <meta name="lang:search.result.one" content="1 matching document">
+  <meta name="lang:search.result.other" content="# matching documents">
+  <meta name="lang:search.tokenizer" content="[\s\-]+">
+
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Open+Sans:ital@0;1&display=swap');
+      body,
+      input {
+        font-family: 'Open Sans', sans-serif!important;
+        color: #444444 !important;
+        font-size: 16px !important;
+        font-weight: 400;
+        line-height: 1.5 !important;
+      }
+      .md-typeset, .md-nav, .md-typeset table:not([class])  {
+            font-size: 16px!important;
+            line-height: 1.5!important;
+      }
+
+      h1, h2, h3{
+        font-family: 'Montserrat', sans-serif !important;
+        font-weight: 500!important;
+        color: #2D445E !important;
+        line-height: 1.4 !important;
+      }
+
+      h1{
+        font-size: 34px !important;
+        margin-bottom: 20px !important;
+      }
+      h2{
+        font-size: 24px !important;
+        margin-bottom: 10px !important;
+      }
+      h3{
+        font-size: 18px !important;
+        margin-bottom: 10px !important;
+      }
+
+      code,
+      kbd,
+      pre {
+        font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important;
+        background-color: #2d445e1c!important;
+      }
+      /*localtoc showing current section styles*/
+      .md-nav__link[data-md-state=blur] {
+            color: rgb(187 187 187)!important;
+        }
+
+      a:hover {
+        color: #2D445E!important;
+      }
+    </style>
+
+  <link rel="stylesheet" href="../../../_static/stylesheets/application.css"/>
+  <link rel="stylesheet" href="../../../_static/stylesheets/application-palette.css"/>
+  <link rel="stylesheet" href="../../../_static/stylesheets/application-fixes.css"/>
+  
+  <link rel="stylesheet" href="../../../_static/fonts/material-icons.css"/>
+  
+  <meta name="theme-color" content="2D445E">
+  <script src="../../../_static/javascripts/modernizr.js"></script>
+  
+  
+  
+    <title>Debian 10 (buster) OS &#8212; Home</title>
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/material.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/material_custom.css" />
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <link rel="shortcut icon" href="../../../_static/favicon.webp"/>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="AIO-CM4-156 Start Guide" href="AIO156StartGuide.html" />
+    <link rel="prev" title="Software Documentation" href="index.html" />
+  
+   
+
+  </head>
+  <body dir=ltr
+        data-md-color-primary=deep-orange data-md-color-accent=deep-orange>
+  
+  <svg class="md-svg">
+    <defs data-children-count="0">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+      
+    </defs>
+  </svg>
+  
+  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">
+  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">
+  <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+  <a href="#PCs/Pi/Software/Debian" tabindex="1" class="md-skip"> Skip to content </a>
+  <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex navheader">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../../../index.html" title="Home"
+           class="md-header-nav__button md-logo">
+          
+              <img src="../../../_static/logo-chipsee-white.png" height="26"
+                   alt="Home logo">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+            <span class="md-header-nav__topic"> Debian 10 (buster) OS </span>
+            <span class="md-header-nav__topic"> Debian 10 (buster) OS </span>
+
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+        
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" action="../../../search.html" method="get" name="search">
+      <input type="text" class="md-search__input" name="q" placeholder="Search"
+             autocapitalize="off" autocomplete="off" spellcheck="false"
+             data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+      
+      
+  
+  <script src="../../../_static/javascripts/version_dropdown.js"></script>
+  <script>
+    var json_loc = "../../../"versions.json"",
+        target_loc = "../../../../",
+        text = "Versions";
+    $( document ).ready( add_version_dropdown(json_loc, target_loc, text));
+  </script>
+  
+
+    </div>
+  </nav>
+</header>
+
+  
+  <div class="md-container">
+    
+    
+    
+  <nav class="md-tabs" data-md-component="tabs">
+    <div class="md-tabs__inner md-grid">
+      <ul class="md-tabs__list">
+          <li class="md-tabs__item"><a href="../../../index.html" class="md-tabs__link">Home</a></li>
+          &gt; <li class="md-tabs__item"><a href="../../index.html" class="md-tabs__link">Industrial Panel &amp; Embedded PCs</a></li>
+          &gt; <li class="md-tabs__item"><a href="../index.html" class="md-tabs__link">Industrial PCs Powered by Raspberry Pi</a></li>
+          &gt; <li class="md-tabs__item"><a href="index.html" class="md-tabs__link">Software Documentation</a></li>
+          &gt; <li class="md-tabs__item"><p class="md-tabs__link" style="opacity:1;">Debian 10 (buster) OS</p></li>
+
+      </ul>
+    </div>
+  </nav>
+    <main class="md-main">
+      <div class="md-main__inner md-grid" data-md-component="container">
+        
+          <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../../../index.html" title="Home" class="md-nav__button md-logo">
+      
+        <img src="../../../_static/logo-chipsee-white.png" alt=" logo" width="48" height="48">
+      
+    </a>
+    <a href="../../../index.html"
+       title="Home">Home</a>
+  </label>
+
+  
+
+  
+  <ul class="md-nav__list">
+    <li class="md-nav__item">
+    
+      <span class="md-nav__link caption"><span class="caption-text">Industrial Panel PC</span></span>
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../index.html" class="md-nav__link">Powered by Arm Cortex, Intel, and Raspberry PI platforms</a>
+      <ul class="md-nav__list"> 
+    <li class="md-nav__item">
+    
+    
+      <a href="../../ARM/index.html" class="md-nav__link">Powered by Arm</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../Intel/index.html" class="md-nav__link">Powered by Intel</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../index.html" class="md-nav__link">Powered by Raspberry Pi</a>
+      <ul class="md-nav__list"> 
+    <li class="md-nav__item">
+    
+    
+      <a href="../A53/Manuals/Hardware/index.html" class="md-nav__link">Cortex-A53 Hardware Documentation</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../A72/Manuals/Hardware/index.html" class="md-nav__link">Cortex-A72 Hardware Documentation</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../AIO/Manuals/Hardware/index.html" class="md-nav__link">All-In-One Hardware Documentation</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="index.html" class="md-nav__link">Software Documentation</a>
+      <ul class="md-nav__list"> 
+    <li class="md-nav__item">
+    
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    <label class="md-nav__link md-nav__link--active" for="__toc"> Debian 10 (buster) </label>
+    
+      <a href="#" class="md-nav__link md-nav__link--active">Debian 10 (buster)</a>
+      
+        
+<nav class="md-nav md-nav--secondary">
+    <label class="md-nav__title" for="__toc">Contents</label>
+  <ul class="md-nav__list" data-md-scrollfix="">
+        <li class="md-nav__item"><a href="#pcs-pi-software-debian--page-root" class="md-nav__link">Debian 10 (buster) OS</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#preparation" class="md-nav__link">Preparation</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#hardware-requirements" class="md-nav__link">Hardware Requirements</a>
+        </li>
+        <li class="md-nav__item"><a href="#software-requirements" class="md-nav__link">Software Requirements</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#debug" class="md-nav__link">Debug</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#serial-debug" class="md-nav__link">Serial Debug</a>
+        </li>
+        <li class="md-nav__item"><a href="#ssh-debug" class="md-nav__link">SSH Debug</a>
+        </li>
+        <li class="md-nav__item"><a href="#vnc-debug" class="md-nav__link">VNC Debug</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#downloading-images" class="md-nav__link">Downloading images</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#boot-switch-configuration" class="md-nav__link">Boot Switch Configuration</a>
+        </li>
+        <li class="md-nav__item"><a href="#prebuilt-image" class="md-nav__link">Prebuilt image</a>
+        </li>
+        <li class="md-nav__item"><a href="#writing-images-to-the-sd-card" class="md-nav__link">Writing images to the SD Card</a>
+        </li>
+        <li class="md-nav__item"><a href="#writing-images-to-the-emmc" class="md-nav__link">Writing images to the eMMC</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#system-resource" class="md-nav__link">System Resource</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#sd-card-usb" class="md-nav__link">SD Card/USB</a>
+        </li>
+        <li class="md-nav__item"><a href="#serial-port" class="md-nav__link">Serial Port</a>
+        </li>
+        <li class="md-nav__item"><a href="#gpio" class="md-nav__link">GPIO</a>
+        </li>
+        <li class="md-nav__item"><a href="#relay" class="md-nav__link">Relay</a>
+        </li>
+        <li class="md-nav__item"><a href="#buzzer" class="md-nav__link">BUZZER</a>
+        </li>
+        <li class="md-nav__item"><a href="#backlight" class="md-nav__link">Backlight</a>
+        </li>
+        <li class="md-nav__item"><a href="#g" class="md-nav__link">4G</a>
+        </li>
+        <li class="md-nav__item"><a href="#can-bus" class="md-nav__link">CAN Bus</a>
+        </li>
+        <li class="md-nav__item"><a href="#wi-fi" class="md-nav__link">Wi-Fi</a>
+        </li>
+        <li class="md-nav__item"><a href="#zigbee" class="md-nav__link">Zigbee</a>
+        </li>
+        <li class="md-nav__item"><a href="#camera" class="md-nav__link">Camera</a>
+        </li>
+        <li class="md-nav__item"><a href="#chipsee-init-shell" class="md-nav__link">Chipsee-init shell</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#technical-support" class="md-nav__link">Technical Support</a>
+        </li></ul>
+            </nav>
+        </li>
+  </ul>
+</nav>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="AIO156StartGuide.html" class="md-nav__link">AIO-CM4-156 Start Guide</a>
+      
+    
+    </li></ul>
+    
+    </li></ul>
+    
+    </li></ul>
+    
+    </li>
+    <li class="md-nav__item">
+    
+      <span class="md-nav__link caption"><span class="caption-text">Industrial Monitors</span></span>
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../Monitors/index.html" class="md-nav__link">Monitors with Capacitive Touch</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+      <span class="md-nav__link caption"><span class="caption-text">Systems on Module</span></span>
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../SOM/index.html" class="md-nav__link">Systems on Module</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+      <span class="md-nav__link caption"><span class="caption-text">Tutorials and Guides</span></span>
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../../../TutorialGuide/index.html" class="md-nav__link">Tutorials and Guides</a>
+      
+    
+    </li>
+  </ul>
+  
+
+</nav>
+              </div>
+            </div>
+          </div>
+          <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                
+<nav class="md-nav md-nav--secondary">
+    <label class="md-nav__title" for="__toc">Contents</label>
+  <ul class="md-nav__list" data-md-scrollfix="">
+        <li class="md-nav__item"><a href="#pcs-pi-software-debian--page-root" class="md-nav__link">Debian 10 (buster) OS</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#preparation" class="md-nav__link">Preparation</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#hardware-requirements" class="md-nav__link">Hardware Requirements</a>
+        </li>
+        <li class="md-nav__item"><a href="#software-requirements" class="md-nav__link">Software Requirements</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#debug" class="md-nav__link">Debug</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#serial-debug" class="md-nav__link">Serial Debug</a>
+        </li>
+        <li class="md-nav__item"><a href="#ssh-debug" class="md-nav__link">SSH Debug</a>
+        </li>
+        <li class="md-nav__item"><a href="#vnc-debug" class="md-nav__link">VNC Debug</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#downloading-images" class="md-nav__link">Downloading images</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#boot-switch-configuration" class="md-nav__link">Boot Switch Configuration</a>
+        </li>
+        <li class="md-nav__item"><a href="#prebuilt-image" class="md-nav__link">Prebuilt image</a>
+        </li>
+        <li class="md-nav__item"><a href="#writing-images-to-the-sd-card" class="md-nav__link">Writing images to the SD Card</a>
+        </li>
+        <li class="md-nav__item"><a href="#writing-images-to-the-emmc" class="md-nav__link">Writing images to the eMMC</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#system-resource" class="md-nav__link">System Resource</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#sd-card-usb" class="md-nav__link">SD Card/USB</a>
+        </li>
+        <li class="md-nav__item"><a href="#serial-port" class="md-nav__link">Serial Port</a>
+        </li>
+        <li class="md-nav__item"><a href="#gpio" class="md-nav__link">GPIO</a>
+        </li>
+        <li class="md-nav__item"><a href="#relay" class="md-nav__link">Relay</a>
+        </li>
+        <li class="md-nav__item"><a href="#buzzer" class="md-nav__link">BUZZER</a>
+        </li>
+        <li class="md-nav__item"><a href="#backlight" class="md-nav__link">Backlight</a>
+        </li>
+        <li class="md-nav__item"><a href="#g" class="md-nav__link">4G</a>
+        </li>
+        <li class="md-nav__item"><a href="#can-bus" class="md-nav__link">CAN Bus</a>
+        </li>
+        <li class="md-nav__item"><a href="#wi-fi" class="md-nav__link">Wi-Fi</a>
+        </li>
+        <li class="md-nav__item"><a href="#zigbee" class="md-nav__link">Zigbee</a>
+        </li>
+        <li class="md-nav__item"><a href="#camera" class="md-nav__link">Camera</a>
+        </li>
+        <li class="md-nav__item"><a href="#chipsee-init-shell" class="md-nav__link">Chipsee-init shell</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#technical-support" class="md-nav__link">Technical Support</a>
+        </li></ul>
+            </nav>
+        </li>
+  </ul>
+</nav>
+              </div>
+            </div>
+          </div>
+        
+        <div class="md-content">
+          <article class="md-content__inner md-typeset" role="main">
+            
+  <section id="systemtype-os">
+<h1 id="pcs-pi-software-debian--page-root">Debian 10 (buster) OS<a class="headerlink" href="#pcs-pi-software-debian--page-root" title="Permalink to this headline">¶</a></h1>
+<p class="centered">
+<strong>Debian 10 (buster) OS User Manual</strong></p><img alt="../../../_images/Chipsee_Logo_Full.png" class="align-center" src="../../../_images/Chipsee_Logo_Full.png"/>
+<p>This manual provides users with a fast guide of Chipsee Raspberry Pi Computer (Abbreviated as RPC) running a Debian 10 (buster) OS. Through this manual, users can quickly understand the hardware resources; users can debug Debian 10 (buster) OS via serial, SSH, and VNC.</p>
+<table style="width: 100%">
+<colgroup>
+<col style="width: 22%"/>
+<col style="width: 24%"/>
+<col style="width: 17%"/>
+<col style="width: 37%"/>
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Revision</p></th>
+<th class="head"><p>Date</p></th>
+<th class="head"><p>Author</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>V2.1</p></td>
+<td><p>2021-04-28</p></td>
+<td><p>Chipsee</p></td>
+<td><p>Revision</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>SUPPORTED BOARDS:</strong></p>
+<blockquote>
+<div><p><em>CS10600RA4070</em> <em>CS10600RA070</em> <em>CS12800RA101</em> <em>AIO-CM4-101</em></p>
+</div></blockquote>
+<p id="db-pkg-pi-debian"><strong>PREBUILT IMAGES PACKAGE:</strong></p>
+<p>Below are the links to the prebuilt images for the Raspbian Buster operating system on the various industrial Pi PC’s.</p>
+<ul class="simple">
+<li><p><a class="reference download external" download="" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RaspberryPi/20201202/2020-12-02-raspios-buster-armhf-full-chipsee-v5.img.xz"><code class="xref download docutils literal notranslate"><span class="pre">Raspbian</span> <span class="pre">Buster</span> <span class="pre">with</span> <span class="pre">desktop</span> <span class="pre">and</span> <span class="pre">recommended</span> <span class="pre">software</span> <span class="pre">V5</span></code></a> <br/> <br/></p></li>
+<li><p><a class="reference download external" download="" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RaspberryPi/20201202/2020-12-02-raspios-buster-armhf-chipsee-v5.img.xz"><code class="xref download docutils literal notranslate"><span class="pre">Raspbian</span> <span class="pre">Buster</span> <span class="pre">with</span> <span class="pre">desktop</span> <span class="pre">V5</span></code></a> <br/> <br/></p></li>
+<li><p><a class="reference download external" download="" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RaspberryPi/20201202/2020-12-02-raspios-buster-armhf-lite-chipsee-v5.img.xz"><code class="xref download docutils literal notranslate"><span class="pre">Raspbian</span> <span class="pre">Buster</span> <span class="pre">Lite</span> <span class="pre">V5</span></code></a> <br/> <br/></p></li>
+</ul>
+<p class="rubric">System Features</p>
+<table style="width: 100%">
+<colgroup>
+<col style="width: 31%"/>
+<col style="width: 69%"/>
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Feature</p></th>
+<th class="head"><p>Comment</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Kernel</p></td>
+<td><p>Kernel 5.4.79</p></td>
+</tr>
+<tr class="row-odd"><td><p>System<a class="footnote-reference brackets" href="#d" id="id1">1</a></p></td>
+<td><p>Based on raspios 2020-12-02</p></td>
+</tr>
+<tr class="row-even"><td><p>Python</p></td>
+<td><p>Python 2.7.16 / Python 3.7.3</p></td>
+</tr>
+<tr class="row-odd"><td><p>Qt</p></td>
+<td><p>Needs to be installed by the user</p></td>
+</tr>
+<tr class="row-even"><td><p>GCC</p></td>
+<td><p>8.3.0</p></td>
+</tr>
+<tr class="row-odd"><td><p>Debian Version</p></td>
+<td><p>Debian 10 (Buster)</p></td>
+</tr>
+<tr class="row-even"><td><p>User/Password</p></td>
+<td><p>[pi/raspberry]</p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils"/>
+<dl class="footnote brackets">
+<dt class="label" id="d"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>Chipsee uses the Raspberry official OS on the product. We add Chipsee hardware drivers to the Raspberry official system. For more information, please refer to <a class="reference external" href="https://github.com/Chipsee/industrial-pi">Industrial Pi</a>.</p>
+</dd>
+</dl>
+<section id="preparation">
+<h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permalink to this headline">¶</a></h2>
+<p>You will need to prepare the following items before you can start using the Prebuilt Images Package to re-flash the system.</p>
+<p>Power Supply Unit (PSU) with the appropriate voltages, as follows:</p>
+<ul class="simple">
+<li><p>These products: CS10600RA070, CS10600RA4070, and CS12800RA101 requires a 6V to 36V power adapter. You must provide the power adapter since Chipsee does not ship these products with a power adapter.</p></li>
+<li><p>The AIO-CM4-101 RPC needs a 12V power adapter. Chipsee provides the power adapter.</p></li>
+</ul>
+<section id="hardware-requirements">
+<h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Chipsee Raspberry Pi<sup>®</sup></p></li>
+<li><p>PSU according to the instructions above</p></li>
+<li><p>Mini-B USB OTG and MicroB USB Cable to download system images to CM3/CM3+/CM4 based IPC’s.</p></li>
+<li><p>USB to RS232 serial cable for serial debugging the Chipsee Raspberry Pi<sup>®</sup> product.</p></li>
+<li><p>TF Card (SD Card) to create a bootable storage for re-flashing the system. Use the prebuilt files <a class="reference internal" href="#db-pkg-pi-debian"><span class="std std-ref">link above</span></a> to re-flash the system.</p></li>
+<li><p>If you use CM3 Lite/CM3 Lite+/CM4 Lite, you also need one SD card, 16GB at least.</p></li>
+</ul>
+</section>
+<section id="software-requirements">
+<h3 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Debian 10 (buster) OS Prebuilt Images Package (from the link above)</p></li>
+<li><p><a class="reference external" href="https://www.7-zip.org/download.html">7zip</a></p></li>
+<li><p><a class="reference external" href="https://xshell.en.softonic.com/">XShell</a> or other terminal emulation software</p></li>
+<li><p><a class="reference external" href="https://www.realvnc.com/en/connect/download/viewer/">VNC Viewer</a></p></li>
+<li><p><a class="reference external" href="https://www.balena.io/etcher/">BalenaEtcher</a></p></li>
+<li><p><a class="reference download external" download="" href="https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe"><code class="xref download docutils literal notranslate"><span class="pre">Rpiboot</span></code></a></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>If you want to change the system, you need 7zip, a Prebuilt image, balenaEtcher, and rpiboot.</p></li>
+<li><p>You can use Xshell or other terminal emulation software to debug Chipsee Raspberry Pi products in Windows.</p></li>
+<li><p>You can use VNC-Viewer to control Chipsee Raspberry Pi products over Ethernet.</p></li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In this documentation, all the commands are executed with <code class="docutils literal notranslate"><span class="pre">root</span></code> user privileges.</p>
+</div>
+</section>
+</section>
+<section id="debug">
+<h2 id="debug">Debug<a class="headerlink" href="#debug" title="Permalink to this headline">¶</a></h2>
+<p>In this document, we use Xshell to debug the Chipsee Raspberry Pi products. You can also use other tools such as Putty or another terminal emulation software.</p>
+<section id="serial-debug">
+<h3 id="serial-debug">Serial Debug<a class="headerlink" href="#serial-debug" title="Permalink to this headline">¶</a></h3>
+<p>The RS232_0 is configured as debug console by default on all Chipsee Raspberry Pi products. You can use it to debug directly, and the default user and password is [ pi / raspberry ].
+Use the session properties as shown on the figure below.</p>
+<figure class="align-center" id="id5">
+<img alt="../../../_images/Serial_Debug1.jpeg" src="../../../_images/Serial_Debug1.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 865:  </span><span class="caption-text">Session Properties</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>If you need to change the debug serial to normal serial, follow these steps:</p>
+<ul class="simple">
+<li><p>Open and edit <cite>/boot/cmdline.txt</cite> file.</p></li>
+<li><p>In the file, remove the line <cite>console=ttyAMA0, 115200</cite>. Save and close file.</p></li>
+<li><p>Reboot the RPC.</p></li>
+</ul>
+</section>
+<section id="ssh-debug">
+<h3 id="ssh-debug">SSH Debug<a class="headerlink" href="#ssh-debug" title="Permalink to this headline">¶</a></h3>
+<p>To perform SSH debugging on the Chipsee Raspberry Pi<sup>®</sup> product, you must first connect the product to the Internet.</p>
+<p>Continue the debugging by follow these steps:</p>
+<ul>
+<li><p>Get the IP address of the Chipsee Raspberry Pi<sup>®</sup> product.</p></li>
+<li><dl>
+<dt>Enable the SSH feature in the Chipsee Raspberry Pi<sup>®</sup> product by running the following command in debug console:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo raspi-config
 
 Interfacing Options -&gt; SSH -&gt; Yes
-</pre></div> </div> </dl> <li><dl> <dt>If you don’t have a debug console, you can also use the GUI feature to enable SSH.<dd><figure class=align-center > <img alt="../../../_images/SSH_Debug.jpeg" src="../../../_images/SSH_Debug.jpeg"/> </figure> <figure class=align-center  id=id6 > <img alt="../../../_images/SSH_Debug_21.jpeg" src="../../../_images/SSH_Debug_21.jpeg"/> <figcaption> <p><span class=caption-number >Figure 1003: </span><span class=caption-text >Enabling SSH (GUI)</span><a class=headerlink  href="#id6" title="Permalink to this image">¶</a></p> </figcaption> </figure> </dl> <li><p>Open and configure XShell or use ssh tool in the PC directly</p> <li><dl> <dt>In XShell, add a new session and set it as shown on the figure below.<dd><figure class=align-center  id=id7 > <img alt="../../../_images/SSH_Debug_3.jpeg" src="../../../_images/SSH_Debug_3.jpeg"/> <figcaption> <p><span class=caption-number >Figure 1004: </span><span class=caption-text >SSH Setting on Xshell</span><a class=headerlink  href="#id7" title="Permalink to this image">¶</a></p> </figcaption> </figure> </dl> <li><dl> <dt>Now we can perform SSH debugging using XShell<dd><figure class=align-center  id=id8 > <img alt="../../../_images/SSH_Debug_4.jpeg" src="../../../_images/SSH_Debug_4.jpeg"/> <figcaption> <p><span class=caption-number >Figure 1005: </span><span class=caption-text >SSH Debug</span><a class=headerlink  href="#id8" title="Permalink to this image">¶</a></p> </figcaption> </figure> </dl> </ul> </section> <section id=vnc-debug > <h3 id=vnc-debug >VNC Debug<a class=headerlink  href="#vnc-debug" title="Permalink to this headline">¶</a></h3> <p>You can use VNC-Viewer in Windows to control Chipsee Raspberry Pi product over Ethernet.</p> <p>Continue the debugging by follow these steps:</p> <ul> <li><dl> <dt>Enable the VNC feature in the Chipsee Raspberry Pi<sup>®</sup> product by running the following command in debug console:<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo raspi-config
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>If you don’t have a debug console, you can also use the GUI feature to enable SSH.</dt><dd><figure class="align-center">
+<img alt="../../../_images/SSH_Debug.jpeg" src="../../../_images/SSH_Debug.jpeg"/>
+</figure>
+<figure class="align-center" id="id6">
+<img alt="../../../_images/SSH_Debug_21.jpeg" src="../../../_images/SSH_Debug_21.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 866:  </span><span class="caption-text">Enabling SSH (GUI)</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</dd>
+</dl>
+</li>
+<li><p>Open and configure XShell or use ssh tool in the PC directly</p></li>
+<li><dl>
+<dt>In XShell, add a new session and set it as shown on the figure below.</dt><dd><figure class="align-center" id="id7">
+<img alt="../../../_images/SSH_Debug_3.jpeg" src="../../../_images/SSH_Debug_3.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 867:  </span><span class="caption-text">SSH Setting on Xshell</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Now we can perform SSH debugging using XShell</dt><dd><figure class="align-center" id="id8">
+<img alt="../../../_images/SSH_Debug_4.jpeg" src="../../../_images/SSH_Debug_4.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 868:  </span><span class="caption-text">SSH Debug</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="vnc-debug">
+<h3 id="vnc-debug">VNC Debug<a class="headerlink" href="#vnc-debug" title="Permalink to this headline">¶</a></h3>
+<p>You can use VNC-Viewer in Windows to control Chipsee Raspberry Pi product over Ethernet.</p>
+<p>Continue the debugging by follow these steps:</p>
+<ul>
+<li><dl>
+<dt>Enable the VNC feature in the Chipsee Raspberry Pi<sup>®</sup> product by running the following command in debug console:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo raspi-config
 
 Interfacing Options -&gt; VNC -&gt; Yes
-</pre></div> </div> </dl> <li><dl> <dt>If you don’t have a debug console, you can also use the GUI feature to enable VNC.<dd><figure class=align-center > <img alt="../../../_images/VNC_Debug.jpeg" src="../../../_images/VNC_Debug.jpeg"/> </figure> <figure class=align-center  id=id9 > <img alt="../../../_images/VNC_Debug_21.jpeg" src="../../../_images/VNC_Debug_21.jpeg"/> <figcaption> <p><span class=caption-number >Figure 1006: </span><span class=caption-text >Enabling VNC (GUI)</span><a class=headerlink  href="#id9" title="Permalink to this image">¶</a></p> </figcaption> </figure> </dl> <li><dl> <dt>Use VNC-Viewer in Windows to control it over Ethernet, as shown in the figures below.<dd><figure class=align-center  id=id10 > <img alt="../../../_images/VNC_Debug_31.jpeg" src="../../../_images/VNC_Debug_31.jpeg"/> <figcaption> <p><span class=caption-number >Figure 1007: </span><span class=caption-text >Vnc-Viewer Connect</span><a class=headerlink  href="#id10" title="Permalink to this image">¶</a></p> </figcaption> </figure> <figure class=align-center  id=id11 > <img alt="../../../_images/VNC_Debug_41.jpeg" src="../../../_images/VNC_Debug_41.jpeg"/> <figcaption> <p><span class=caption-number >Figure 1008: </span><span class=caption-text >Authentications</span><a class=headerlink  href="#id11" title="Permalink to this image">¶</a></p> </figcaption> </figure> <figure class=align-center  id=id12 > <img alt="../../../_images/VNC_Debug_5.jpeg" src="../../../_images/VNC_Debug_5.jpeg"/> <figcaption> <p><span class=caption-number >Figure 1009: </span><span class=caption-text >VNC Desktop</span><a class=headerlink  href="#id12" title="Permalink to this image">¶</a></p> </figcaption> </figure> </dl> </ul> </section> </section> <section id=downloading-images > <h2 id=downloading-images >Downloading images<a class=headerlink  href="#downloading-images" title="Permalink to this headline">¶</a></h2> <section id=boot-switch-configuration > <h3 id=boot-switch-configuration >Boot Switch Configuration<a class=headerlink  href="#boot-switch-configuration" title="Permalink to this headline">¶</a></h3> <p>Chipsee RPC supports booting from an integrated eMMC or an external TF Card (also known as the micro SD card).</p> <div class="admonition note"> <p class=admonition-title >Note</p> <p>CS12800RA4101 only supports eMMC boot</p> </div> <p>The Compute Module (CM) version will determine the boot modes your product supports. If you use CM with eMMC, you can only use eMMC boot. If you use CM Lite which has no eMMC, you can only use SD boot. <br/> To boot from the SD Card, you must place the SD Card in <strong>SD0</strong> slot. You can use the <strong>SD1</strong> slot as external storage.</p> <p>For <strong>CS10600RA070</strong>, <strong>CS12800RA101</strong>, and <strong>CS10600RA4070</strong> products, you can download a new system to eMMC by: configuring the boot switch to USB position, inserting Mini-B USB cable, and then power the board. This will enable eMMC to work as a USB storage. <br/> After the eMMC flash, you need to configure the boot switch to the eMMC position again. <br/> If you need to use SD boot, you should configure the boot switch to the eMMC position.</p> <p>For the <strong>CS12800RA4101</strong> product, you can download a new system to eMMC by: inserting a Micro-B USB cable, pressing the power button, and then power the board to enable eMMC to work as a USB storage. <br/> The next sections explain in detail the steps in downloading a new system to eMMC.</p> </section> <section id=prebuilt-image > <h3 id=prebuilt-image >Prebuilt image<a class=headerlink  href="#prebuilt-image" title="Permalink to this headline">¶</a></h3> <p>Chipsee Raspberry Pi products use the Raspberry Pi official system as a base and add some modules and drivers. You can get the driver and latest image by referring to <a class="reference external" href="https://github.com/Chipsee/industrial-pi#latest-system-images">https://github.com/Chipsee/industrial-pi#latest-system-images</a>. <br/> If you’re not using balenaEtcher, you’ll need to unzip the <cite>.img.xz</cite> file and get the image file <cite>(.img)</cite> to write to your SD card.</p> </section> <section id=writing-images-to-the-sd-card > <h3 id=writing-images-to-the-sd-card >Writing images to the SD Card<a class=headerlink  href="#writing-images-to-the-sd-card" title="Permalink to this headline">¶</a></h3> <p>Before you start, don’t forget to check your SD card size (at least 16GB). <br/> You will need to use an image writing tool to install the downloaded image on your SD card.</p> <p><strong>Using balenaEtcher Tool</strong> <br/></p> <p><em>balenaEtcher</em> is a graphical SD card writing tool that works on Mac OS, Linux and Windows, and is the easiest option for most users. balenaEtcher also supports writing images directly from the .img.xz file, without any unzipping required. <br/> To write your image with balenaEtcher, follow these steps:</p> <ul> <li><p>Download and install the latest version of <a class="reference external" href="https://www.balena.io/etcher/">balenaEtcher</a>.</p> <li><p>Connect an SD card reader with the SD card inside.</p> <li><p>Open balenaEtcher and select from your hard drive the Raspberry Pi® .img.xz file you want to write to the SD card.</p> <li><p>Select the SD card you want to write your image to.</p> <li><dl> <dt>Review your selections and click ‘Flash!’ to begin writing data to the SD card.<dd><div class="admonition note"> <p class=admonition-title >Note</p> <p>For Linux users, <strong>zenity</strong> might need to be installed on your machine for balenaEtcher to be able to write the image on your SD card.</p> </div> </dl> </ul> </section> <section id=writing-images-to-the-emmc > <h3 id=writing-images-to-the-emmc >Writing images to the eMMC<a class=headerlink  href="#writing-images-to-the-emmc" title="Permalink to this headline">¶</a></h3> <p>Before you start, don’t forget to check your eMMC size, and select one image. You also need to install <a class="reference download external" download="" href="https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe"><code class="xref download docutils literal notranslate"><span class=pre >rpiboot</span></code></a> to enable eMMC to work as one USB storage in your PC. <br/> Under Windows, an installer is available to install the required drivers and boot tool automatically.|br| For those who just want to enable the Compute Module eMMC as a mass storage device under Windows, the stand-alone installer is the recommended option.</p> <p>The write images to the eMMC, follow these steps:</p> <ul> <li><p>Download and run the Windows installer <strong>rpitools</strong> to install the drivers and boot tool.</p> <li><p>For <strong>CS10600RA070</strong>, <strong>CS12800RA101</strong>, and <strong>CS10600RA40</strong> products, plug your host PC Mini-B USB into the USB Downloader port, making sure the boot switch is set to the USB position.</p> <li><p>For <strong>CS12800RA4101</strong> product, plug your host PC Micro-B USB into the USB Slave port (can be also called USB Download Port), press and hold the power button.</p> <li><p>Power ON the board. Windows should now find the hardware and install the driver. For CS12800RA4101, you can release the power button now.</p> <li><dl> <dt>Once the driver installation is complete, run the <strong>RPiBoot.exe</strong> tool that was previously installed. You can run <strong>RPiBoot.exe</strong> in Windows PowerShell, as shown on the figure below.<dd><figure class=align-center  id=id13 > <img alt="../../../_images/rpiboot.jpeg" src="../../../_images/rpiboot.jpeg"/> <figcaption> <p><span class=caption-number >Figure 1010: </span><span class=caption-text >RPIboot tool</span><a class=headerlink  href="#id13" title="Permalink to this image">¶</a></p> </figcaption> </figure> </dl> <li><p>After a few seconds, the Compute Module eMMC will pop up under Windows as a disk (USB mass storage device).</p> <li><p>Refer to <a class="reference internal" href="#writing-images-to-the-sd-card">Writing images to the SD Card</a> to flash system to eMMC (like the SD card in Windows).</p> <li><p>If process completes, power OFF the board and ensure the boot switch is set to eMMC position. Power ON to use the new system. <br/> For <strong>CS12800RA4101</strong>, ignore repositioning the boot switch, a reboot will be ok. <br/> To learn more, visit the following link: <a class="reference external" href="https://www.raspberrypi.org/documentation/hardware/computemodule/cm-emmc-flashing.md">https://www.raspberrypi.org/documentation/hardware/computemodule/cm-emmc-flashing.md</a></p> </ul> <p>Booting from the external TF Card allows flashing the system OS.</p> <div class="admonition note"> <p class=admonition-title >Note</p> <p>The operator should use the prebuilt file we provided in the CD to test the hardware before re-flashing the system.</p> </div> </section> </section> <section id=system-resource > <h2 id=system-resource >System Resource<a class=headerlink  href="#system-resource" title="Permalink to this headline">¶</a></h2> <section id=sd-card-usb > <h3 id=sd-card-usb >SD Card/USB<a class=headerlink  href="#sd-card-usb" title="Permalink to this headline">¶</a></h3> <p>SD Card is for external storage and needs to be placed in the <strong>SD1</strong> port. The <strong>SD0</strong> port is used by boot.|br| SD Card and USB Storage support hot plug. They will be automatically mounted on <cite>/media/pi/</cite>. For <strong>CS12800RA4101</strong>, there is only one SD slot.</p> </section> <section id=serial-port > <h3 id=serial-port >Serial Port<a class=headerlink  href="#serial-port" title="Permalink to this headline">¶</a></h3> <p>Chipsee Raspberry Pi<sup>®</sup> boards support RS232 and RS485. Check the table below to know more about the serial port on different boards.</p> <table id=id14  style="width: 100%"> <caption><span class=caption-number >Table 184: </span><span class=caption-text >CS10600RA070-C111</span><a class=headerlink  href="#id14" title="Permalink to this table">¶</a></caption> <thead> <tr class=row-odd ><th class=head ><p>Ports</p> <th class=head ><p>Name</p> <th class=head ><p>Node</p> <th class=head ><p>Protocol</p> <tr class=row-even ><td><p>1</p> <td><p>RS232_0</p> <td><p>/dev/ttyAMA0</p> <td><p>RS232</p> <tr class=row-odd ><td><p>2</p> <td><p>RS232_1/RS485_1</p> <td><p>/dev/S0</p> <td><p>RS232/RS485</p> </table> <div class="admonition note"> <p class=admonition-title >Note</p> <p>RS232_1/RS485_1 uses the same UART pins from the CPU, so they use the same device node. You can only use one at a time. RS485 signal has been mounted on the 120Ω Matched Resistor.</p> </div> <p>There is one GPIO that is used by RS485. You can control it to enable and disable RS485 to send and receive. Check the tables below.</p> <table id=id15  style="width: 100%"> <caption><span class=caption-number >Table 185: </span><span class=caption-text >RS485 control GPIO</span><a class=headerlink  href="#id15" title="Permalink to this table">¶</a></caption> <thead> <tr class=row-odd ><th class=head ><p>GPIO</p> <th class=head ><p>Initial</p> <th class=head ><p>Control</p> <th class=head ><p>Function</p> <tr class=row-even ><td rowspan=4 ><p>GPIO34</p> <td rowspan=2 ><p><cite>$ echo 34 &gt; /sys/class/gpio/export</cite> <br/> <br/></p> <p><cite>$ echo out &gt; /sys/class/gpio/gpio34/direction</cite></p> <td rowspan=2 ><p><cite>$ echo 1 &gt; /dev/rs485con</cite></p> <td><p>Enable send</p> <tr class=row-odd ><td><p>Disable receive</p> <tr class=row-even ><td rowspan=2 ><p><cite>$ ln -s /sys/class/gpio/gpio34/value /dev/rs485con</cite></p> <td rowspan=2 ><p><cite>$ echo 0 &gt; /dev/rs485con</cite></p> <td><p>Enable receive</p> <tr class=row-odd ><td><p>Disable send</p> </table> <table id=id16  style="width: 100%"> <caption><span class=caption-number >Table 186: </span><span class=caption-text >CS12800RA101</span><a class=headerlink  href="#id16" title="Permalink to this table">¶</a></caption> <thead> <tr class=row-odd ><th class=head ><p>Ports</p> <th class=head ><p>Name</p> <th class=head ><p>Node</p> <th class=head ><p>Protocol</p> <tr class=row-even ><td><p>1</p> <td><p>CPU_RS232_0</p> <td><p>/dev/ttyAMA0</p> <td><p>RS232</p> <tr class=row-odd ><td><p>2</p> <td><p>CPU_RS232_1</p> <td><p>/dev/ttyS0</p> <td><p>RS232</p> <tr class=row-even ><td><p>3</p> <td><p>RS232_1</p> <td><p>/dev/ttyUSB0</p> <td><p>RS232</p> <tr class=row-odd ><td><p>4</p> <td><p>RS232_2</p> <td><p>/dev/ttyUSB1</p> <td><p>RS232</p> <tr class=row-even ><td><p>5</p> <td><p>RS485_3</p> <td><p>/dev/ttyUSB2</p> <td><p>RS485</p> <tr class=row-odd ><td><p>6</p> <td><p>RS485_4</p> <td><p>/dev/ttyUSB3</p> <td><p>RS485</p> </table> <table id=id17  style="width: 100%"> <caption><span class=caption-number >Table 187: </span><span class=caption-text >CS10600RA4070-C111</span><a class=headerlink  href="#id17" title="Permalink to this table">¶</a></caption> <thead> <tr class=row-odd ><th class=head ><p>Ports</p> <th class=head ><p>Name</p> <th class=head ><p>Node</p> <th class=head ><p>Protocol</p> <tr class=row-even ><td><p>1</p> <td><p>RS232_0</p> <td><p>/dev/ttyAMA0</p> <td><p>RS232</p> <tr class=row-odd ><td><p>2</p> <td><p>RS232_2</p> <td><p>/dev/ttyAMA1</p> <td><p>RS232</p> <tr class=row-even ><td><p>3</p> <td><p>RS232_3</p> <td><p>/dev/ttyAMA2</p> <td><p><a class="footnote-reference brackets" href="#sr" id=id3 >2</a></p> <tr class=row-odd ><td><p>4</p> <td><p>RS485_3</p> <td><p>/dev/ttyAMA2</p> <td><p>RS485</p> <tr class=row-even ><td><p>5</p> <td><p>RS232_5</p> <td><p>/dev/ttyAMA3</p> <td><p><a class="footnote-reference brackets" href="#sr" id=id4 >2</a></p> <tr class=row-odd ><td><p>6</p> <td><p>RS485_5</p> <td><p>/dev/ttyAMA3</p> <td><p>RS485</p> </table> <hr class=docutils /> <dl class="footnote brackets"> <dt class=label  id=sr ><span class=brackets >2</span><span class=fn-backref >(<a href="#id3">1</a>,<a href="#id4">2</a>)</span> <dd><p>There is no date from this two channel default. Can be costumed to RS232 and disable port 4 and port 6.</p> </dl> <table id=id18  style="width: 100%"> <caption><span class=caption-number >Table 188: </span><span class=caption-text >CS12800RA4101</span><a class=headerlink  href="#id18" title="Permalink to this table">¶</a></caption> <thead> <tr class=row-odd ><th class=head ><p>Ports</p> <th class=head ><p>Name</p> <th class=head ><p>Node</p> <th class=head ><p>Protocol</p> <tr class=row-even ><td><p>1</p> <td><p>RS232_0</p> <td><p>/dev/ttyAMA0</p> <td><p>RS232</p> <tr class=row-odd ><td><p>2</p> <td><p>RS232_1</p> <td><p>/dev/ttyAMA1</p> <td><p>RS232</p> <tr class=row-even ><td><p>3</p> <td><p>RS485_2</p> <td><p>/dev/ttyAMA2</p> <td><p>RS485</p> </table> <p>You can install <strong>cutecom</strong> to test the serial port:</p> <p>Only root user and use the serial port:</p> </section> <section id=gpio > <h3 id=gpio >GPIO<a class=headerlink  href="#gpio" title="Permalink to this headline">¶</a></h3> <p>There are 8 GPIOs, 4 Output, and 4 Input, they are all isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V. Refer to the tables below for a detailed port definition:</p> <table id=id19  style="width: 100%"> <caption><span class=caption-number >Table 189: </span><span class=caption-text >CS10600RA070 P19 Port</span><a class=headerlink  href="#id19" title="Permalink to this table">¶</a></caption> <thead> <tr class=row-odd ><th class=head ><p>Pin Number</p> <th class=head ><p>GPIO Number</p> <th class=head ><p>Function</p> <th class=head ><p>Device Node</p> <tr class=row-even ><td><p>1</p> <td><p>GPIO11</p> <td><p>IN4</p> <td><p>/dev/chipsee-gpio8</p> <tr class=row-odd ><td><p>2</p> <td><p>GPIO10</p> <td><p>IN3</p> <td><p>/dev/chipsee-gpio7</p> <tr class=row-even ><td><p>3</p> <td><p>GPIO9</p> <td><p>IN2</p> <td><p>/dev/chipsee-gpio6</p> <tr class=row-odd ><td><p>4</p> <td><p>GPIO8</p> <td><p>IN1</p> <td><p>/dev/chipsee-gpio5</p> <tr class=row-even ><td><p>5</p> <td><p>GPIO7</p> <td><p>OUT4</p> <td><p>/dev/chipsee-gpio4</p> <tr class=row-odd ><td><p>6</p> <td><p>GPIO6</p> <td><p>OUT3</p> <td><p>/dev/chipsee-gpio3</p> <tr class=row-even ><td><p>7</p> <td><p>GPIO5</p> <td><p>OUT2</p> <td><p>/dev/chipsee-gpio2</p> <tr class=row-odd ><td><p>8</p> <td><p>GPIO4</p> <td><p>OUT1</p> <td><p>/dev/chipsee-gpio1</p> <tr class=row-even ><td><p>9</p> <td><p>GND_ISO</p> <td><p>Isolated GND</p> <td><p>NC</p> <tr class=row-odd ><td><p>10</p> <td><p>GND_ISO</p> <td><p>Isolated VDD(5V-24V)</p> <td><p>NC</p> </table> <table id=id20  style="width: 100%"> <caption><span class=caption-number >Table 190: </span><span class=caption-text >CS12800RA101 P2 Port / CS10600RA4070 P19 Port</span><a class=headerlink  href="#id20" title="Permalink to this table">¶</a></caption> <thead> <tr class=row-odd ><th class=head ><p>Pin Number</p> <th class=head ><p>GPIO Number</p> <th class=head ><p>Function</p> <th class=head ><p>Device Node</p> <tr class=row-even ><td><p>1</p> <td><p>GPIO499</p> <td><p>IN4</p> <td><p>/dev/chipsee-gpio8</p> <tr class=row-odd ><td><p>2</p> <td><p>GPIO498</p> <td><p>IN3</p> <td><p>/dev/chipsee-gpio7</p> <tr class=row-even ><td><p>3</p> <td><p>GPIO497</p> <td><p>IN2</p> <td><p>/dev/chipsee-gpio6</p> <tr class=row-odd ><td><p>4</p> <td><p>GPIO496</p> <td><p>IN1</p> <td><p>/dev/chipsee-gpio5</p> <tr class=row-even ><td><p>5</p> <td><p>GPIO500</p> <td><p>OUT4</p> <td><p>/dev/chipsee-gpio4</p> <tr class=row-odd ><td><p>6</p> <td><p>GPIO501</p> <td><p>OUT3</p> <td><p>/dev/chipsee-gpio3</p> <tr class=row-even ><td><p>7</p> <td><p>GPIO502</p> <td><p>OUT2</p> <td><p>/dev/chipsee-gpio2</p> <tr class=row-odd ><td><p>8</p> <td><p>GPIO503</p> <td><p>OUT1</p> <td><p>/dev/chipsee-gpio1</p> <tr class=row-even ><td><p>9</p> <td><p>GND_ISO</p> <td><p>Isolated GND</p> <td><p>NC</p> <tr class=row-odd ><td><p>10</p> <td><p>GND_ISO</p> <td><p>Isolated VDD(5V-24V)</p> <td><p>NC</p> </table> <ul> <li><dl> <dt>Control <cite>OUT1</cite> by setting it high or low<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ <span class=nb >echo</span> <span class=m >1</span> &gt; /dev/chipsee-gpio1    // <span class=nb >set</span> OUT1 high
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>If you don’t have a debug console, you can also use the GUI feature to enable VNC.</dt><dd><figure class="align-center">
+<img alt="../../../_images/VNC_Debug.jpeg" src="../../../_images/VNC_Debug.jpeg"/>
+</figure>
+<figure class="align-center" id="id9">
+<img alt="../../../_images/VNC_Debug_21.jpeg" src="../../../_images/VNC_Debug_21.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 869:  </span><span class="caption-text">Enabling VNC (GUI)</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Use VNC-Viewer in Windows to control it over Ethernet, as shown in the figures below.</dt><dd><figure class="align-center" id="id10">
+<img alt="../../../_images/VNC_Debug_31.jpeg" src="../../../_images/VNC_Debug_31.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 870:  </span><span class="caption-text">Vnc-Viewer Connect</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id11">
+<img alt="../../../_images/VNC_Debug_41.jpeg" src="../../../_images/VNC_Debug_41.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 871:  </span><span class="caption-text">Authentications</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id12">
+<img alt="../../../_images/VNC_Debug_5.jpeg" src="../../../_images/VNC_Debug_5.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 872:  </span><span class="caption-text">VNC Desktop</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+</section>
+<section id="downloading-images">
+<h2 id="downloading-images">Downloading images<a class="headerlink" href="#downloading-images" title="Permalink to this headline">¶</a></h2>
+<section id="boot-switch-configuration">
+<h3 id="boot-switch-configuration">Boot Switch Configuration<a class="headerlink" href="#boot-switch-configuration" title="Permalink to this headline">¶</a></h3>
+<p>Chipsee RPC supports booting from an integrated eMMC or an external TF Card (also known as the micro SD card).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>CS12800RA4101 only supports eMMC boot</p>
+</div>
+<p>The Compute Module (CM) version will determine the boot modes your product supports.
+If you use CM with eMMC, you can only use eMMC boot. If you use CM Lite which has no eMMC, you can only use SD boot. <br/>
+To boot from the SD Card, you must place the SD Card in <strong>SD0</strong> slot. You can use the <strong>SD1</strong> slot as external storage.</p>
+<p>For <strong>CS10600RA070</strong>, <strong>CS12800RA101</strong>, and <strong>CS10600RA4070</strong> products, you can download a new system to eMMC by: configuring the boot switch to USB position, inserting Mini-B USB cable, and then power the board. This will enable eMMC to work as a USB storage. <br/>
+After the eMMC flash, you need to configure the boot switch to the eMMC position again. <br/>
+If you need to use SD boot, you should configure the boot switch to the eMMC position.</p>
+<p>For the <strong>CS12800RA4101</strong> product, you can download a new system to eMMC by: inserting a Micro-B USB cable, pressing the power button, and then power the board to enable eMMC to work as a USB storage. <br/>
+The next sections explain in detail the steps in downloading a new system to eMMC.</p>
+</section>
+<section id="prebuilt-image">
+<h3 id="prebuilt-image">Prebuilt image<a class="headerlink" href="#prebuilt-image" title="Permalink to this headline">¶</a></h3>
+<p>Chipsee Raspberry Pi products use the Raspberry Pi official system as a base and add some modules and drivers. You can get the driver and latest image by referring to <a class="reference external" href="https://github.com/Chipsee/industrial-pi#latest-system-images">https://github.com/Chipsee/industrial-pi#latest-system-images</a>. <br/>
+If you’re not using balenaEtcher, you’ll need to unzip the <cite>.img.xz</cite> file and get the image file <cite>(.img)</cite> to write to your SD card.</p>
+</section>
+<section id="writing-images-to-the-sd-card">
+<h3 id="writing-images-to-the-sd-card">Writing images to the SD Card<a class="headerlink" href="#writing-images-to-the-sd-card" title="Permalink to this headline">¶</a></h3>
+<p>Before you start, don’t forget to check your SD card size (at least 16GB). <br/>
+You will need to use an image writing tool to install the downloaded image on your SD card.</p>
+<p><strong>Using balenaEtcher Tool</strong> <br/></p>
+<p><em>balenaEtcher</em> is a graphical SD card writing tool that works on Mac OS, Linux and Windows, and is the easiest option for most users.
+balenaEtcher also supports writing images directly from the .img.xz file, without any unzipping required. <br/>
+To write your image with balenaEtcher, follow these steps:</p>
+<ul>
+<li><p>Download and install the latest version of <a class="reference external" href="https://www.balena.io/etcher/">balenaEtcher</a>.</p></li>
+<li><p>Connect an SD card reader with the SD card inside.</p></li>
+<li><p>Open balenaEtcher and select from your hard drive the Raspberry Pi® .img.xz file you want to write to the SD card.</p></li>
+<li><p>Select the SD card you want to write your image to.</p></li>
+<li><dl>
+<dt>Review your selections and click ‘Flash!’ to begin writing data to the SD card.</dt><dd><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For Linux users, <strong>zenity</strong> might need to be installed on your machine for balenaEtcher to be able to write the image on your SD card.</p>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="writing-images-to-the-emmc">
+<h3 id="writing-images-to-the-emmc">Writing images to the eMMC<a class="headerlink" href="#writing-images-to-the-emmc" title="Permalink to this headline">¶</a></h3>
+<p>Before you start, don’t forget to check your eMMC size, and select one image. You also need to install <a class="reference download external" download="" href="https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe"><code class="xref download docutils literal notranslate"><span class="pre">rpiboot</span></code></a> to enable eMMC to work as one USB storage in your PC. <br/>
+Under Windows, an installer is available to install the required drivers and boot tool automatically.|br|
+For those who just want to enable the Compute Module eMMC as a mass storage device under Windows, the stand-alone installer is the recommended option.</p>
+<p>The write images to the eMMC, follow these steps:</p>
+<ul>
+<li><p>Download and run the Windows installer <strong>rpitools</strong> to install the drivers and boot tool.</p></li>
+<li><p>For <strong>CS10600RA070</strong>, <strong>CS12800RA101</strong>, and <strong>CS10600RA40</strong> products, plug your host PC Mini-B USB into the USB Downloader port, making sure the boot switch is set to the USB position.</p></li>
+<li><p>For <strong>CS12800RA4101</strong> product, plug your host PC Micro-B USB into the USB Slave port (can be also called USB Download Port), press and hold the power button.</p></li>
+<li><p>Power ON the board. Windows should now find the hardware and install the driver. For CS12800RA4101, you can release the power button now.</p></li>
+<li><dl>
+<dt>Once the driver installation is complete, run the <strong>RPiBoot.exe</strong> tool that was previously installed. You can run <strong>RPiBoot.exe</strong> in Windows PowerShell, as shown on the figure below.</dt><dd><figure class="align-center" id="id13">
+<img alt="../../../_images/rpiboot.jpeg" src="../../../_images/rpiboot.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 873:  </span><span class="caption-text">RPIboot tool</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</dd>
+</dl>
+</li>
+<li><p>After a few seconds, the Compute Module eMMC will pop up under Windows as a disk (USB mass storage device).</p></li>
+<li><p>Refer to <a class="reference internal" href="#writing-images-to-the-sd-card">Writing images to the SD Card</a> to flash system to eMMC (like the SD card in Windows).</p></li>
+<li><p>If process completes, power OFF the board and ensure the boot switch is set to eMMC position. Power ON to use the new system. <br/> For <strong>CS12800RA4101</strong>, ignore repositioning the boot switch, a reboot will be ok. <br/> To learn more, visit the following link: <a class="reference external" href="https://www.raspberrypi.org/documentation/hardware/computemodule/cm-emmc-flashing.md">https://www.raspberrypi.org/documentation/hardware/computemodule/cm-emmc-flashing.md</a></p></li>
+</ul>
+<p>Booting from the external TF Card allows flashing the system OS.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The operator should use the prebuilt file we provided in the CD to test the hardware before re-flashing the system.</p>
+</div>
+</section>
+</section>
+<section id="system-resource">
+<h2 id="system-resource">System Resource<a class="headerlink" href="#system-resource" title="Permalink to this headline">¶</a></h2>
+<section id="sd-card-usb">
+<h3 id="sd-card-usb">SD Card/USB<a class="headerlink" href="#sd-card-usb" title="Permalink to this headline">¶</a></h3>
+<p>SD Card is for external storage and needs to be placed in the <strong>SD1</strong> port. The <strong>SD0</strong> port is used by boot.|br|
+SD Card and USB Storage support hot plug. They will be automatically mounted on <cite>/media/pi/</cite>. For <strong>CS12800RA4101</strong>, there is only one SD slot.</p>
+</section>
+<section id="serial-port">
+<h3 id="serial-port">Serial Port<a class="headerlink" href="#serial-port" title="Permalink to this headline">¶</a></h3>
+<p>Chipsee Raspberry Pi<sup>®</sup> boards support RS232 and RS485. Check the table below to know more about the serial port on different boards.</p>
+<table id="id14" style="width: 100%">
+<caption><span class="caption-number">Table 184:  </span><span class="caption-text">CS10600RA070-C111</span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Ports</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Node</p></th>
+<th class="head"><p>Protocol</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>RS232_0</p></td>
+<td><p>/dev/ttyAMA0</p></td>
+<td><p>RS232</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>RS232_1/RS485_1</p></td>
+<td><p>/dev/S0</p></td>
+<td><p>RS232/RS485</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>RS232_1/RS485_1 uses the same UART pins from the CPU, so they use the same device node. You can only use one at a time. RS485 signal has been mounted on the 120Ω Matched Resistor.</p>
+</div>
+<p>There is one GPIO that is used by RS485. You can control it to enable and disable RS485 to send and receive. Check the tables below.</p>
+<table id="id15" style="width: 100%">
+<caption><span class="caption-number">Table 185:  </span><span class="caption-text">RS485 control GPIO</span><a class="headerlink" href="#id15" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>GPIO</p></th>
+<th class="head"><p>Initial</p></th>
+<th class="head"><p>Control</p></th>
+<th class="head"><p>Function</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td rowspan="4"><p>GPIO34</p></td>
+<td rowspan="2"><p><cite>$ echo 34 &gt; /sys/class/gpio/export</cite> <br/> <br/></p>
+<p><cite>$ echo out &gt; /sys/class/gpio/gpio34/direction</cite></p>
+</td>
+<td rowspan="2"><p><cite>$ echo 1 &gt; /dev/rs485con</cite></p></td>
+<td><p>Enable send</p></td>
+</tr>
+<tr class="row-odd"><td><p>Disable receive</p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p><cite>$ ln -s /sys/class/gpio/gpio34/value /dev/rs485con</cite></p></td>
+<td rowspan="2"><p><cite>$ echo 0 &gt; /dev/rs485con</cite></p></td>
+<td><p>Enable receive</p></td>
+</tr>
+<tr class="row-odd"><td><p>Disable send</p></td>
+</tr>
+</tbody>
+</table>
+<table id="id16" style="width: 100%">
+<caption><span class="caption-number">Table 186:  </span><span class="caption-text">CS12800RA101</span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Ports</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Node</p></th>
+<th class="head"><p>Protocol</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>CPU_RS232_0</p></td>
+<td><p>/dev/ttyAMA0</p></td>
+<td><p>RS232</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>CPU_RS232_1</p></td>
+<td><p>/dev/ttyS0</p></td>
+<td><p>RS232</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>RS232_1</p></td>
+<td><p>/dev/ttyUSB0</p></td>
+<td><p>RS232</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>RS232_2</p></td>
+<td><p>/dev/ttyUSB1</p></td>
+<td><p>RS232</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>RS485_3</p></td>
+<td><p>/dev/ttyUSB2</p></td>
+<td><p>RS485</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>RS485_4</p></td>
+<td><p>/dev/ttyUSB3</p></td>
+<td><p>RS485</p></td>
+</tr>
+</tbody>
+</table>
+<table id="id17" style="width: 100%">
+<caption><span class="caption-number">Table 187:  </span><span class="caption-text">CS10600RA4070-C111</span><a class="headerlink" href="#id17" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Ports</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Node</p></th>
+<th class="head"><p>Protocol</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>RS232_0</p></td>
+<td><p>/dev/ttyAMA0</p></td>
+<td><p>RS232</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>RS232_2</p></td>
+<td><p>/dev/ttyAMA1</p></td>
+<td><p>RS232</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>RS232_3</p></td>
+<td><p>/dev/ttyAMA2</p></td>
+<td><p><a class="footnote-reference brackets" href="#sr" id="id3">2</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>RS485_3</p></td>
+<td><p>/dev/ttyAMA2</p></td>
+<td><p>RS485</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>RS232_5</p></td>
+<td><p>/dev/ttyAMA3</p></td>
+<td><p><a class="footnote-reference brackets" href="#sr" id="id4">2</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>RS485_5</p></td>
+<td><p>/dev/ttyAMA3</p></td>
+<td><p>RS485</p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils"/>
+<dl class="footnote brackets">
+<dt class="label" id="sr"><span class="brackets">2</span><span class="fn-backref">(<a href="#id3">1</a>,<a href="#id4">2</a>)</span></dt>
+<dd><p>There is no date from this two channel default. Can be costumed to RS232 and disable port 4 and port 6.</p>
+</dd>
+</dl>
+<table id="id18" style="width: 100%">
+<caption><span class="caption-number">Table 188:  </span><span class="caption-text">CS12800RA4101</span><a class="headerlink" href="#id18" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Ports</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Node</p></th>
+<th class="head"><p>Protocol</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>RS232_0</p></td>
+<td><p>/dev/ttyAMA0</p></td>
+<td><p>RS232</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>RS232_1</p></td>
+<td><p>/dev/ttyAMA1</p></td>
+<td><p>RS232</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>RS485_2</p></td>
+<td><p>/dev/ttyAMA2</p></td>
+<td><p>RS485</p></td>
+</tr>
+</tbody>
+</table>
+<p>You can install <strong>cutecom</strong> to test the serial port:</p>
+<p>Only root user and use the serial port:</p>
+</section>
+<section id="gpio">
+<h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this headline">¶</a></h3>
+<p>There are 8 GPIOs, 4 Output, and 4 Input, they are all isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V. Refer to the tables below for a detailed port definition:</p>
+<table id="id19" style="width: 100%">
+<caption><span class="caption-number">Table 189:  </span><span class="caption-text">CS10600RA070 P19 Port</span><a class="headerlink" href="#id19" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Pin Number</p></th>
+<th class="head"><p>GPIO Number</p></th>
+<th class="head"><p>Function</p></th>
+<th class="head"><p>Device Node</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>GPIO11</p></td>
+<td><p>IN4</p></td>
+<td><p>/dev/chipsee-gpio8</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>GPIO10</p></td>
+<td><p>IN3</p></td>
+<td><p>/dev/chipsee-gpio7</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>GPIO9</p></td>
+<td><p>IN2</p></td>
+<td><p>/dev/chipsee-gpio6</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>GPIO8</p></td>
+<td><p>IN1</p></td>
+<td><p>/dev/chipsee-gpio5</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>GPIO7</p></td>
+<td><p>OUT4</p></td>
+<td><p>/dev/chipsee-gpio4</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>GPIO6</p></td>
+<td><p>OUT3</p></td>
+<td><p>/dev/chipsee-gpio3</p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>GPIO5</p></td>
+<td><p>OUT2</p></td>
+<td><p>/dev/chipsee-gpio2</p></td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>GPIO4</p></td>
+<td><p>OUT1</p></td>
+<td><p>/dev/chipsee-gpio1</p></td>
+</tr>
+<tr class="row-even"><td><p>9</p></td>
+<td><p>GND_ISO</p></td>
+<td><p>Isolated GND</p></td>
+<td><p>NC</p></td>
+</tr>
+<tr class="row-odd"><td><p>10</p></td>
+<td><p>GND_ISO</p></td>
+<td><p>Isolated VDD(5V-24V)</p></td>
+<td><p>NC</p></td>
+</tr>
+</tbody>
+</table>
+<table id="id20" style="width: 100%">
+<caption><span class="caption-number">Table 190:  </span><span class="caption-text">CS12800RA101 P2 Port / CS10600RA4070 P19 Port</span><a class="headerlink" href="#id20" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Pin Number</p></th>
+<th class="head"><p>GPIO Number</p></th>
+<th class="head"><p>Function</p></th>
+<th class="head"><p>Device Node</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>GPIO499</p></td>
+<td><p>IN4</p></td>
+<td><p>/dev/chipsee-gpio8</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>GPIO498</p></td>
+<td><p>IN3</p></td>
+<td><p>/dev/chipsee-gpio7</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>GPIO497</p></td>
+<td><p>IN2</p></td>
+<td><p>/dev/chipsee-gpio6</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>GPIO496</p></td>
+<td><p>IN1</p></td>
+<td><p>/dev/chipsee-gpio5</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>GPIO500</p></td>
+<td><p>OUT4</p></td>
+<td><p>/dev/chipsee-gpio4</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>GPIO501</p></td>
+<td><p>OUT3</p></td>
+<td><p>/dev/chipsee-gpio3</p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>GPIO502</p></td>
+<td><p>OUT2</p></td>
+<td><p>/dev/chipsee-gpio2</p></td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>GPIO503</p></td>
+<td><p>OUT1</p></td>
+<td><p>/dev/chipsee-gpio1</p></td>
+</tr>
+<tr class="row-even"><td><p>9</p></td>
+<td><p>GND_ISO</p></td>
+<td><p>Isolated GND</p></td>
+<td><p>NC</p></td>
+</tr>
+<tr class="row-odd"><td><p>10</p></td>
+<td><p>GND_ISO</p></td>
+<td><p>Isolated VDD(5V-24V)</p></td>
+<td><p>NC</p></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><dl>
+<dt>Control <cite>OUT1</cite> by setting it high or low</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">echo</span> <span class="m">1</span> &gt; /dev/chipsee-gpio1    // <span class="nb">set</span> OUT1 high
 
-$ <span class=nb >echo</span> <span class=m >0</span> &gt; /dev/chipsee-gpio1    // <span class=nb >set</span> OUT1 low
-</pre></div> </div> </dl> <li><dl> <dt>Get <cite>INT1</cite> value<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ cat /dev/chipsee-gpio5    // value <span class=m >1</span> indicate high, value <span class=m >0</span> indicate low
-</pre></div> </div> </dl> </ul> </section> <section id=relay > <h3 id=relay >Relay<a class=headerlink  href="#relay" title="Permalink to this headline">¶</a></h3> <p>There is one Relay on CS12800RA4101. For a detailed port definition, please refer to the table below.</p> <table id=id21  style="width: 100%"> <caption><span class=caption-number >Table 191: </span><span class=caption-text >CS12800RA4101 Relay on P10</span><a class=headerlink  href="#id21" title="Permalink to this table">¶</a></caption> <thead> <tr class=row-odd ><th class=head ><p>Ports</p> <th class=head ><p>Name</p> <th class=head ><p>Node</p> <th class=head ><p>Protocol</p> <tr class=row-even ><td><p>8</p> <td><p>Relay_NO</p> <td><p>GPIO17</p> <td><p>Normal Open</p> <tr class=row-odd ><td><p>9</p> <td><p>Relay_COM</p> <td><p>GPIO17</p> <td><p>GND</p> <tr class=row-even ><td><p>10</p> <td><p>Relay_NC</p> <td><p>GPIO17</p> <td><p>Normal Close</p> </table> <ul> <li><dl> <dt>Initialize <cite>GPIO17</cite> to output<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ <span class=nb >echo</span> <span class=m >17</span> &gt; /sys/class/gpio/export
+$ <span class="nb">echo</span> <span class="m">0</span> &gt; /dev/chipsee-gpio1    // <span class="nb">set</span> OUT1 low
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Get <cite>INT1</cite> value</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ cat /dev/chipsee-gpio5    // value <span class="m">1</span> indicate high, value <span class="m">0</span> indicate low
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="relay">
+<h3 id="relay">Relay<a class="headerlink" href="#relay" title="Permalink to this headline">¶</a></h3>
+<p>There is one Relay on CS12800RA4101. For a detailed port definition, please refer to the table below.</p>
+<table id="id21" style="width: 100%">
+<caption><span class="caption-number">Table 191:  </span><span class="caption-text">CS12800RA4101 Relay on P10</span><a class="headerlink" href="#id21" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Ports</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Node</p></th>
+<th class="head"><p>Protocol</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>8</p></td>
+<td><p>Relay_NO</p></td>
+<td><p>GPIO17</p></td>
+<td><p>Normal Open</p></td>
+</tr>
+<tr class="row-odd"><td><p>9</p></td>
+<td><p>Relay_COM</p></td>
+<td><p>GPIO17</p></td>
+<td><p>GND</p></td>
+</tr>
+<tr class="row-even"><td><p>10</p></td>
+<td><p>Relay_NC</p></td>
+<td><p>GPIO17</p></td>
+<td><p>Normal Close</p></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><dl>
+<dt>Initialize <cite>GPIO17</cite> to output</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">echo</span> <span class="m">17</span> &gt; /sys/class/gpio/export
 
-$ <span class=nb >echo</span> out &gt; /sys/class/gpio/gpio17/direction
-</pre></div> </div> </dl> <li><dl> <dt>Enable Relay NO short-circuit Relay COM<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ <span class=nb >echo</span> <span class=m >1</span> &gt; /sys/class/gpio/gpio17/value
-</pre></div> </div> </dl> <li><dl> <dt>Enable Relay NC short-circuit Relay COM<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ <span class=nb >echo</span> <span class=m >0</span> &gt; /sys/class/gpio/gpio17/value
-</pre></div> </div> </dl> </ul> </section> <section id=buzzer > <h3 id=buzzer >BUZZER<a class=headerlink  href="#buzzer" title="Permalink to this headline">¶</a></h3> <p>The Chipsee Raspberry Pi boards have one buzzer. We have created one symbol link to <cite>/dev/buzzer</cite>. You can control it as follows:</p> <div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ <span class=nb >echo</span> <span class=m >1</span> &gt; /dev/buzzer    //enable buzzer
+$ <span class="nb">echo</span> out &gt; /sys/class/gpio/gpio17/direction
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Enable Relay NO short-circuit Relay COM</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">echo</span> <span class="m">1</span> &gt; /sys/class/gpio/gpio17/value
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Enable Relay NC short-circuit Relay COM</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">echo</span> <span class="m">0</span> &gt; /sys/class/gpio/gpio17/value
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="buzzer">
+<h3 id="buzzer">BUZZER<a class="headerlink" href="#buzzer" title="Permalink to this headline">¶</a></h3>
+<p>The Chipsee Raspberry Pi boards have one buzzer. We have created one symbol link to <cite>/dev/buzzer</cite>. You can control it as follows:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">echo</span> <span class="m">1</span> &gt; /dev/buzzer    //enable buzzer
 
-$ <span class=nb >echo</span> <span class=m >0</span> &gt; /dev/buzzer    // disable buzzer
-</pre></div> </div> </section> <section id=backlight > <h3 id=backlight >Backlight<a class=headerlink  href="#backlight" title="Permalink to this headline">¶</a></h3> <p>We use one GPIO to control the backlight for Chipsee Raspberry Pi boards, the GPIO is different for different boards. Find more details below.</p> <table id=id22  style="width: 100%"> <caption><span class=caption-number >Table 192: </span><span class=caption-text >Backlight GPIO</span><a class=headerlink  href="#id22" title="Permalink to this table">¶</a></caption> <thead> <tr class=row-odd ><th class=head ><p>Board</p> <th class=head ><p>GPIO</p> <th class=head ><p>GPIO Config in config.txt</p> <th class=head ><p>PWM</p> <th class=head ><p>PWM Function</p> <tr class=row-even ><td><p>CS10600RA070</p> <td><p>41</p> <td><p>gpio=41=op,dh</p> <td><p>Pwm1</p> <td><p>4</p> <tr class=row-odd ><td><p>CS12800RA101</p> <td><p>41</p> <td><p>gpio=41=op,dh</p> <td><p>Pwm1</p> <td><p>4</p> <tr class=row-even ><td><p>CS10600RA4070</p> <td><p>18</p> <td><p>gpio=18=op,dh</p> <td><p>Pwm0</p> <td><p>2</p> <tr class=row-odd ><td><p>CS12800RA4101</p> <td><p>13</p> <td><p>gpio=13=op,dh</p> <td><p>Pwm1</p> <td><p>4</p> </table> <ul> <li><dl> <dt>We use <cite>gpio==op,dh</cite> in <cite>/boot/config.txt</cite> to enable the backlight by default. You can open and close backlight as follows. GPIO41 is used as an example:<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ <span class=nb >echo</span> <span class=m >41</span> &gt; /sys/class/gpio/export
-$ <span class=nb >echo</span> out &gt; /sys/class/gpio/gpio41/direction
-$ <span class=nb >echo</span> <span class=m >1</span> &gt; /sys/class/gpio/gpio41/value //enable backlight
-$ <span class=nb >echo</span> <span class=m >0</span> &gt; /sys/class/gpio/gpio41/value //disable backlight
-</pre></div> </div> </dl> <li><dl> <dt>If you want to use PWM to control the backlight, you need to remove <cite>gpio==op,dh</cite>, and add <cite>dtoverlay=pwm, pin=, func=</cite> in <cite>/boot/config.txt</cite>. You can do it in the following way. GPIO13 is used as an example <br/> Remove this line in /boot/config.txt:<dd><div class="highlight-text notranslate"><div class=highlight ><pre><span></span>gpio=13=op,dh
-</pre></div> </div> </dl> <li><dl> <dt>And add the following line to <cite>/boot/config.txt</cite>:<dd><div class="highlight-text notranslate"><div class=highlight ><pre><span></span>dtoverlay=pwm,pin=13,func=4
-</pre></div> </div> </dl> <li><dl> <dt>Reboot, after that, Config and enable pwm<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ <span class=nb >cd</span> /sys/class/pwm/pwmchip0/
-$ <span class=nb >echo</span> <span class=m >1</span> &gt; <span class=nb >export</span> //GPIO13 is pwm1, so we use <span class=m >1</span>
-$ <span class=nb >echo</span> <span class=m >10000000</span> &gt; pwm1/period //set period to 10ms,100Hz
-$ <span class=nb >echo</span> <span class=m >8000000</span> &gt; pwm1/duty_cycle // <span class=nb >set</span> duty to 8ms
-$ <span class=nb >echo</span> <span class=m >1</span> &gt; pwm1/enable // <span class=nb >enable</span> pwm1
-</pre></div> </div> </dl> </ul> </section> <section id=g > <h3 id=g >4G<a class=headerlink  href="#g" title="Permalink to this headline">¶</a></h3> <ul> <li><dl> <dt>You can use 4G on Chipsee Raspberry Pi products. If the 4G module is Quectel EC20, you can use the following tools to connect to internet.<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo install udhcpc
+$ <span class="nb">echo</span> <span class="m">0</span> &gt; /dev/buzzer    // disable buzzer
+</pre></div>
+</div>
+</section>
+<section id="backlight">
+<h3 id="backlight">Backlight<a class="headerlink" href="#backlight" title="Permalink to this headline">¶</a></h3>
+<p>We use one GPIO to control the backlight for Chipsee Raspberry Pi boards, the GPIO is different for different boards. Find more details below.</p>
+<table id="id22" style="width: 100%">
+<caption><span class="caption-number">Table 192:  </span><span class="caption-text">Backlight GPIO</span><a class="headerlink" href="#id22" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Board</p></th>
+<th class="head"><p>GPIO</p></th>
+<th class="head"><p>GPIO Config in config.txt</p></th>
+<th class="head"><p>PWM</p></th>
+<th class="head"><p>PWM Function</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>CS10600RA070</p></td>
+<td><p>41</p></td>
+<td><p>gpio=41=op,dh</p></td>
+<td><p>Pwm1</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>CS12800RA101</p></td>
+<td><p>41</p></td>
+<td><p>gpio=41=op,dh</p></td>
+<td><p>Pwm1</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-even"><td><p>CS10600RA4070</p></td>
+<td><p>18</p></td>
+<td><p>gpio=18=op,dh</p></td>
+<td><p>Pwm0</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-odd"><td><p>CS12800RA4101</p></td>
+<td><p>13</p></td>
+<td><p>gpio=13=op,dh</p></td>
+<td><p>Pwm1</p></td>
+<td><p>4</p></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><dl>
+<dt>We use <cite>gpio==op,dh</cite> in <cite>/boot/config.txt</cite> to enable the backlight by default. You can open and close backlight as follows. GPIO41 is used as an example:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">echo</span> <span class="m">41</span> &gt; /sys/class/gpio/export
+$ <span class="nb">echo</span> out &gt; /sys/class/gpio/gpio41/direction
+$ <span class="nb">echo</span> <span class="m">1</span> &gt; /sys/class/gpio/gpio41/value //enable backlight
+$ <span class="nb">echo</span> <span class="m">0</span> &gt; /sys/class/gpio/gpio41/value //disable backlight
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>If you want to use PWM to control the backlight, you need to remove <cite>gpio==op,dh</cite>, and add <cite>dtoverlay=pwm, pin=, func=</cite> in <cite>/boot/config.txt</cite>. You can do it in the following way. GPIO13 is used as an example <br/> Remove this line in /boot/config.txt:</dt><dd><div class="highlight-text notranslate"><div class="highlight"><pre><span></span>gpio=13=op,dh
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>And add the following line to <cite>/boot/config.txt</cite>:</dt><dd><div class="highlight-text notranslate"><div class="highlight"><pre><span></span>dtoverlay=pwm,pin=13,func=4
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Reboot, after that, Config and enable pwm</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> /sys/class/pwm/pwmchip0/
+$ <span class="nb">echo</span> <span class="m">1</span> &gt; <span class="nb">export</span> //GPIO13 is pwm1, so we use <span class="m">1</span>
+$ <span class="nb">echo</span> <span class="m">10000000</span> &gt; pwm1/period //set period to 10ms,100Hz
+$ <span class="nb">echo</span> <span class="m">8000000</span> &gt; pwm1/duty_cycle // <span class="nb">set</span> duty to 8ms
+$ <span class="nb">echo</span> <span class="m">1</span> &gt; pwm1/enable // <span class="nb">enable</span> pwm1
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="g">
+<h3 id="g">4G<a class="headerlink" href="#g" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><dl>
+<dt>You can use 4G on Chipsee Raspberry Pi products. If the 4G module is Quectel EC20, you can use the following tools to connect to internet.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo install udhcpc
 $ sudo ifconfig wwan0 down
-$ sudo quectel-CM –s 3gnet / cmnet / ctnet <span class=p >&amp;</span> // <span class=k >select</span> different network base on your SIM
+$ sudo quectel-CM –s 3gnet / cmnet / ctnet <span class="p">&amp;</span> // <span class="k">select</span> different network base on your SIM
 card, 3gnet is used by China-unicom and cmnet is used by China-mobile, ctnet is used by China
 Telecom
-</pre></div> </div> </dl> <li><dl> <dt>If you use EC20 with GPS function, you can enable and get data in the following way. <br/> Open one terminal to catch data:<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>cat /dev/ttyUSB1
-</pre></div> </div> </dl> <li><dl> <dt>Open another terminal to config and enable:<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ microcom –s <span class=m >9600</span> /dev/ttyUSB2
-AT+QGPSCFG<span class=o >=</span>”gpsnmeatype”,1
-AT+QGPS<span class=o >=</span><span class=m >1</span> // <span class=nb >enable</span> GPS, <span class=nb >wait</span> some minutes, you can get date from fist terminal.
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>If you use EC20 with GPS function, you can enable and get data in the following way. <br/> Open one terminal to catch data:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>cat /dev/ttyUSB1
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Open another terminal to config and enable:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ microcom –s <span class="m">9600</span> /dev/ttyUSB2
+AT+QGPSCFG<span class="o">=</span>”gpsnmeatype”,1
+AT+QGPS<span class="o">=</span><span class="m">1</span> // <span class="nb">enable</span> GPS, <span class="nb">wait</span> some minutes, you can get date from fist terminal.
 AT+QGPSEND // disable GPS
-</pre></div> </div> </dl> <li><p>Don’t forget to use one GPS ANT.</p> </ul> </section> <section id=can-bus > <h3 id=can-bus >CAN Bus<a class=headerlink  href="#can-bus" title="Permalink to this headline">¶</a></h3> <p>There is one channel CAN bus on <strong>CS12800RA101/CS10600RA4070</strong>. You can install <cite>can-utils</cite> and use them to test CAN. But you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown on the figure below.</p> <div class="admonition note"> <p class=admonition-title >Note</p> <p>The Chipsee IPC does not mount the 120Ω matched resistor on all CAN signals by default.</p> </div> <figure class=align-center  id=id23 > <img alt="../../../_images/CAN.jpeg" src="../../../_images/CAN.jpeg"/> <figcaption> <p><span class=caption-number >Figure 1011: </span><span class=caption-text >Connecting CAN</span><a class=headerlink  href="#id23" title="Permalink to this image">¶</a></p> </figcaption> </figure> <p>Here are a few examples to test CAN by using CAN units</p> <ul> <li><dl> <dt>Install <cite>can-utils</cite><dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo apt install can-utils
-</pre></div> </div> </dl> <li><dl> <dt>Set the bit-rate to <strong>50Kbits/sec</strong> with triple sampling using the following command (use ROOT user):<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo ip link <span class=nb >set</span> can0 <span class=nb >type</span> can bitrate <span class=m >50000</span> triple-sampling on
-</pre></div> </div> </dl> <li><dl> <dt>Bring up the device using the command:<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo ip link <span class=nb >set</span> can0 up
-</pre></div> </div> </dl> <li><dl> <dt>Transfer packets<dd><ul class=simple > <li><p>Transmit 8 bytes with standard packet id number as 0x10</p> </ul> <div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo cansend can0 -i 0x10 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88
-</pre></div> </div> <ul class=simple > <li><p>Transmit 8 bytes with extended packet id number as 0x800</p> </ul> <div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo cansend can0 -i 0x800 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88 - e
-</pre></div> </div> <ul class=simple > <li><p>Transmit 20 8 bytes with extended packet id number as 0xFFFFF</p> </ul> <div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo cansend can0 -i 0xFFFFF 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88 -e --loop<span class=o >=</span><span class=m >20</span>
-</pre></div> </div> </dl> <li><dl> <dt>Receive data from CAN bus<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo candump can0
-</pre></div> </div> </dl> <li><dl> <dt>Bring down the device<dd><div class="highlight-bash notranslate"><div class=highlight ><pre><span></span>$ sudo ip link <span class=nb >set</span> can0 down
-</pre></div> </div> </dl> </ul> </section> <section id=wi-fi > <h3 id=wi-fi >Wi-Fi<a class=headerlink  href="#wi-fi" title="Permalink to this headline">¶</a></h3> <p>The Chipsee Raspberry Pi boards support <em>RTL8723BU/RTL8723DU</em> chip Wi-Fi. The <strong>CS10600RA070/CS12800RA101</strong> have an onboard <cite>RTL8723BU</cite> Wi-Fi chip. The <strong>CS10600RA4070/CS12800RA4101</strong> have no onboard Wi-Fi by default so you can use the USB Wi-Fi dongle to enable the Wi-Fi.</p> </section> <section id=zigbee > <h3 id=zigbee >Zigbee<a class=headerlink  href="#zigbee" title="Permalink to this headline">¶</a></h3> <p>The <strong>CS10600RA4070/CS12800RA4101</strong> boards have an onboard ZigBee chip <em>CC2531</em>. Its device node in the system is <cite>/dev/ttyACM0</cite>. We use <cite>zigbee2mqtt</cite> project firmware by default. Check the following link to learn more about this project: <a class="reference external" href="https://www.zigbee2mqtt.io">Zigbee2mqtt</a></p> </section> <section id=camera > <h3 id=camera >Camera<a class=headerlink  href="#camera" title="Permalink to this headline">¶</a></h3> <p>The camera port CAM is compatible with Raspberry pi. Please refer to the following link to learn how to attach a camera: <a class="reference external" href="https://www.raspberrypi.org/documentation/hardware/computemodule/cmio-camera.md">https://www.raspberrypi.org/documentation/hardware/computemodule/cmio-camera.md</a></p> </section> <section id=chipsee-init-shell > <h3 id=chipsee-init-shell >Chipsee-init shell<a class=headerlink  href="#chipsee-init-shell" title="Permalink to this headline">¶</a></h3> <p>We use one <strong>chipsee-init.sh</strong> as an initial shell which is placed in <cite>/opt/chipsee/chipsee-init.sh</cite>. We initialize the GPIO/Buzzer and other configs in it. If you want to change it, please be careful. <br/> Do a backup first before you modify anything.</p> </section> </section> <section id=technical-support > <h2 id=technical-support >Technical Support<a class=headerlink  href="#technical-support" title="Permalink to this headline">¶</a></h2> <p>Please feel free to contact us with any questions, queries or suggestions.</p> <p>If your question is related to technical support or troubleshooting for one of our products, we kindly ask you to check our documentation for a possible solution first.</p> <p>If you still cannot find the solution you are looking for, please write to Chipsee Technical Support at <a class="reference external" href="mailto:service%40chipsee.com"><strong>service<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information.</p> <div class=line-block > <div class=line ><br/></div> <div class=line ><br/></div> <div class=line ><br/></div> <div class=line ><br/></div> </div> <img alt="../../../_images/Chipsee_Logo.jpg" class=align-center  src="../../../_images/Chipsee_Logo.jpg"/> <div class=line-block > <div class=line ><br/></div> <div class=line ><br/></div> <div class=line ><br/></div> <div class=line ><br/></div> </div> <p><strong>Disclaimer:</strong></p> <p><sup>Chipsee assumes no responsibility for any errors that may occur in this manual. Furthermore, Chipsee reserves the right to alter hardware, software, and/or specifications set forth herein at any time without prior notice, and undertakes no obligation to update the information contained in this document. Chipsee products are not authorized for use as critical components in life support devices or systems.</sup></p> </section> </section> </article> </div> </div> </main> </div> <footer class=md-footer > <div class=md-footer-nav > <nav class="md-footer-nav__inner md-grid"> <a href=index.html  title="Software Documentation" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel=prev > <div class="md-flex__cell md-flex__cell--shrink"> <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i> </div> <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"> <span class=md-flex__ellipsis > <span class=md-footer-nav__direction > Previous </span> Software Documentation </span> </div> </a> <a href=AIO156StartGuide.html  title="AIO-CM4-156 Start Guide" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel=next > <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span class=md-flex__ellipsis > <span class=md-footer-nav__direction > Next </span> AIO-CM4-156 Start Guide </span> </div> <div class="md-flex__cell md-flex__cell--shrink"><i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i> </div> </a> </nav> </div> <div class="md-footer-meta md-typeset"> <div class="md-footer-meta__inner md-grid"> <div class=md-footer-copyright > <div class=md-footer-copyright__highlight > &#169; Copyright 2021, Chipsee. </div> Last updated on Mar 09, 2022. <br/> </div> </div> </div> </footer> <script src="../../../_static/javascripts/application.js"></script> <script>app.initialize({version: "1.0.4", url: {base: ".."}})</script>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><p>Don’t forget to use one GPS ANT.</p></li>
+</ul>
+</section>
+<section id="can-bus">
+<h3 id="can-bus">CAN Bus<a class="headerlink" href="#can-bus" title="Permalink to this headline">¶</a></h3>
+<p>There is one channel CAN bus on <strong>CS12800RA101/CS10600RA4070</strong>. You can install <cite>can-utils</cite> and use them to test CAN. But you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown on the figure below.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The Chipsee IPC does not mount the 120Ω matched resistor on all CAN signals by default.</p>
+</div>
+<figure class="align-center" id="id23">
+<img alt="../../../_images/CAN.jpeg" src="../../../_images/CAN.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 874:  </span><span class="caption-text">Connecting CAN</span><a class="headerlink" href="#id23" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Here are a few examples to test CAN by using CAN units</p>
+<ul>
+<li><dl>
+<dt>Install <cite>can-utils</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt install can-utils
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Set the bit-rate to <strong>50Kbits/sec</strong> with triple sampling using the following command (use ROOT user):</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 <span class="nb">type</span> can bitrate <span class="m">50000</span> triple-sampling on
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Bring up the device using the command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 up
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Transfer packets</dt><dd><ul class="simple">
+<li><p>Transmit 8 bytes with standard packet id number as 0x10</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0x10 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Transmit 8 bytes with extended packet id number as 0x800</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0x800 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88 - e
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Transmit 20 8 bytes with extended packet id number as 0xFFFFF</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0xFFFFF 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88 -e --loop<span class="o">=</span><span class="m">20</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Receive data from CAN bus</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo candump can0
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Bring down the device</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 down
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="wi-fi">
+<h3 id="wi-fi">Wi-Fi<a class="headerlink" href="#wi-fi" title="Permalink to this headline">¶</a></h3>
+<p>The Chipsee Raspberry Pi boards support <em>RTL8723BU/RTL8723DU</em> chip Wi-Fi.
+The <strong>CS10600RA070/CS12800RA101</strong> have an onboard <cite>RTL8723BU</cite> Wi-Fi chip.
+The <strong>CS10600RA4070/CS12800RA4101</strong> have no onboard Wi-Fi by default so you can use the USB Wi-Fi dongle to enable the Wi-Fi.</p>
+</section>
+<section id="zigbee">
+<h3 id="zigbee">Zigbee<a class="headerlink" href="#zigbee" title="Permalink to this headline">¶</a></h3>
+<p>The <strong>CS10600RA4070/CS12800RA4101</strong> boards have an onboard ZigBee chip <em>CC2531</em>.
+Its device node in the system is <cite>/dev/ttyACM0</cite>.
+We use <cite>zigbee2mqtt</cite> project firmware by default.
+Check the following link to learn more about this project: <a class="reference external" href="https://www.zigbee2mqtt.io">Zigbee2mqtt</a></p>
+</section>
+<section id="camera">
+<h3 id="camera">Camera<a class="headerlink" href="#camera" title="Permalink to this headline">¶</a></h3>
+<p>The camera port CAM is compatible with Raspberry pi.
+Please refer to the following link to learn how to attach a camera: <a class="reference external" href="https://www.raspberrypi.org/documentation/hardware/computemodule/cmio-camera.md">https://www.raspberrypi.org/documentation/hardware/computemodule/cmio-camera.md</a></p>
+</section>
+<section id="chipsee-init-shell">
+<h3 id="chipsee-init-shell">Chipsee-init shell<a class="headerlink" href="#chipsee-init-shell" title="Permalink to this headline">¶</a></h3>
+<p>We use one <strong>chipsee-init.sh</strong> as an initial shell which is placed in <cite>/opt/chipsee/chipsee-init.sh</cite>.
+We initialize the GPIO/Buzzer and other configs in it. If you want to change it, please be careful. <br/>
+Do a backup first before you modify anything.</p>
+</section>
+</section>
+<section id="technical-support">
+<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this headline">¶</a></h2>
+<p>Please feel free to contact us with any questions, queries or suggestions.</p>
+<p>If your question is related to technical support or troubleshooting for one of our products, we kindly ask you to check our documentation for a possible solution first.</p>
+<p>If you still cannot find the solution you are looking for, please write to Chipsee Technical Support at <a class="reference external" href="mailto:service%40chipsee.com"><strong>service<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information.</p>
+<div class="line-block">
+<div class="line"><br/></div>
+<div class="line"><br/></div>
+<div class="line"><br/></div>
+<div class="line"><br/></div>
+</div>
+<img alt="../../../_images/Chipsee_Logo.jpg" class="align-center" src="../../../_images/Chipsee_Logo.jpg"/>
+<div class="line-block">
+<div class="line"><br/></div>
+<div class="line"><br/></div>
+<div class="line"><br/></div>
+<div class="line"><br/></div>
+</div>
+<p><strong>Disclaimer:</strong></p>
+<p><sup>Chipsee assumes no responsibility for any errors that may occur in this manual. Furthermore, Chipsee reserves the right to alter hardware, software,
+and/or specifications set forth herein at any time without prior notice, and undertakes no obligation to update the information contained in this document.
+Chipsee products are not authorized for use as critical components in life support devices or systems.</sup></p>
+</section>
+</section>
+
+
+          </article>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="md-footer">
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+          
+            <a href="index.html" title="Software Documentation"
+               class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+               rel="prev">
+              <div class="md-flex__cell md-flex__cell--shrink">
+                <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+              </div>
+              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+                <span class="md-flex__ellipsis">
+                  <span
+                      class="md-footer-nav__direction"> Previous </span> Software Documentation </span>
+              </div>
+            </a>
+          
+          
+            <a href="AIO156StartGuide.html" title="AIO-CM4-156 Start Guide"
+               class="md-flex md-footer-nav__link md-footer-nav__link--next"
+               rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span
+                class="md-flex__ellipsis"> <span
+                class="md-footer-nav__direction"> Next </span> AIO-CM4-156 Start Guide </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink"><i
+                class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          
+        </a>
+        
+      </nav>
+    </div>
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-footer-copyright">
+          <div class="md-footer-copyright__highlight">
+              &#169; Copyright 2021, Chipsee.
+              
+          </div>
+            Last updated on
+              Mar 22, 2022.
+            <br/>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script async src="../../../_static/js/material_custom.js"></script>
+    
+  <script src="../../../_static/javascripts/application.js"></script>
+  <script>app.initialize({version: "1.0.4", url: {base: ".."}})</script>
+  </body>
+</html>
