@@ -1,8 +1,8 @@
-Hardware Documentation
-######################
+All-In-One Hardware Documentation
+#################################
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_1
 
    +---------------------+------------------------------------------------------------------------+
@@ -12,12 +12,12 @@ Hardware Documentation
    |                     |   10.1", 1280 x 800, 10-point capacitive touch screen                  |
    +---------------------+------------------------------------------------------------------------+
 
-.. |AIO-CM4-101| image:: /Media/Pi/thumbnails/CS12800RA4101A-Front.png
+.. |AIO-CM4-101| image:: /Media/Pi/AIO/CS12800RA4101A/CS12800RA4101A-Front.jpeg
    :class: no-scaled-link
    :target: CS12800RA4101A.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_2
 
    +---------------------+------------------------------------------------------------------------+
@@ -27,7 +27,7 @@ Hardware Documentation
    |                     |   15.6", 1920 x 1080, 10-point capacitive touch screen                 |
    +---------------------+------------------------------------------------------------------------+
 
-.. |AIO-CM4-156| image:: /Media/Pi/thumbnails/CS19108RA4156A-Front.png
+.. |AIO-CM4-156| image:: /Media/Pi/AIO/CS19108RA4156A/CS19108RA4156A-Front.jpeg
    :class: no-scaled-link
    :target: CS19108RA4156A.html
 

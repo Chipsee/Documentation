@@ -242,6 +242,10 @@ table[id|=hwdocstable] {
     table[id|=hwdocstable] {
         width: 35vw!important;
     }
+
+    div.md-header-nav__title span.md-header-nav__topic{
+        display: none!important;
+    }
 }
 /* Laptops and larger tablets */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -260,4 +264,9 @@ table[id|=hwdocstable] {
     table[id|=hwdocstable] {
         width: 85vw!important;
     }
+}
+
+.md-tabs__item {
+    padding-right: .2rem!important;
+    padding-left: .2rem!important;
 }

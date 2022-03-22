@@ -1,8 +1,8 @@
-Hardware Documentation
-######################
+Cortex-A72 Hardware Documentation
+#################################
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_1
 
    +---------------------+------------------------------------------------------------------------+
@@ -12,12 +12,12 @@ Hardware Documentation
    |                     |   7.0", 1024 x 600, 5-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
-.. |CM4-70-EM-PA| image:: /Media/Pi/thumbnails/CS10600RA4070E-Front.png
+.. |CM4-70-EM-PA| image:: /Media/Pi/A72/CS10600RA4070/CS10600RA4070P-Front.jpeg
    :class: no-scaled-link
    :target: CS10600RA4070.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_2
 
    +---------------------+------------------------------------------------------------------------+
@@ -27,7 +27,7 @@ Hardware Documentation
    |                     |   10", 1280 x 800, 10-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
-.. |CM4-101-PA| image:: /Media/Pi/thumbnails/CS12800RA4101P-Front.png
+.. |CM4-101-PA| image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-Front.jpg
    :class: no-scaled-link
    :target: CS12800RA4101.html
 

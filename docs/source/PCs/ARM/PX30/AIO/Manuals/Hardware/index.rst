@@ -1,8 +1,8 @@
-Hardware Documentation
-######################
+All-In-One Hardware Documentation
+#################################
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_1
 
    +---------------------+------------------------------------------------------------------------+
@@ -12,7 +12,7 @@ Hardware Documentation
    |                     |   10.1", 1280 x 800, 10-point capacitive touch screen                  |
    +---------------------+------------------------------------------------------------------------+
 
-.. |AIO-PX30-101| image:: /Media/ARM/thumbnails/CS12800PX101A-Front.png
+.. |AIO-PX30-101| image:: /Media/ARM/A35/AIO/CS12800PX101A/CS12800PX101A-Front.jpg
    :class: no-scaled-link
    :target: CS12800PX101A.html
 

@@ -1,8 +1,8 @@
-Hardware Documentation
-######################
+AM335X Hardware Documentation
+#############################
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_1
 
    +---------------------+------------------------------------------------------------------------+
@@ -12,12 +12,12 @@ Hardware Documentation
    |                     |   5.0", 800 x 480, 10-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
-.. |EPC/PPC-A8-50-C| image:: /Media/ARM/thumbnails/PPC-A8-50-C-Front.png
+.. |EPC/PPC-A8-50-C| image:: /Media/ARM/A8/CS80480T050/PPC-A8-50-C-Front.jpeg
    :class: no-scaled-link
    :target: CS80480T050.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_2
 
    +---------------------+------------------------------------------------------------------------+
@@ -27,12 +27,12 @@ Hardware Documentation
    |                     |   8.0", 800 x 600, resistive touch screen                              |
    +---------------------+------------------------------------------------------------------------+
 
-.. |EPC/PPC-A8-80-R| image:: /Media/ARM/thumbnails/PPC-A8-80-R-Front.png
+.. |EPC/PPC-A8-80-R| image:: /Media/ARM/A8/CS80600T080/PPC-A8-80-R-Front.jpeg
    :class: no-scaled-link
    :target: CS80600T080.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_3
 
    +---------------------+------------------------------------------------------------------------+
@@ -42,12 +42,12 @@ Hardware Documentation
    |                     |   10.1", 1024 x 600, 10-point capacitive touch screen                  |
    +---------------------+------------------------------------------------------------------------+
 
-.. |EPC/PPC-A8-101-R| image:: /Media/ARM/thumbnails/PPC-A8-101-R-Front.png
+.. |EPC/PPC-A8-101-R| image:: /Media/ARM/A8/CS10600T101/PPC-A8-101-R-Front.jpeg
    :class: no-scaled-link
    :target: CS10600T101.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_4
 
    +---------------------+------------------------------------------------------------------------+
@@ -57,12 +57,12 @@ Hardware Documentation
    |                     |   7.0", 1024 x 600, 5-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC/EPC-A8-70H-C| image:: /Media/ARM/thumbnails/PPC-A8-70H-C-Front.png
+.. |PPC/EPC-A8-70H-C| image:: /Media/ARM/A8/CS10600T070/PPC-A8-70H-C-Front.jpeg
    :class: no-scaled-link
    :target: CS10600T070.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_5
 
    +---------------------+------------------------------------------------------------------------+
@@ -72,12 +72,12 @@ Hardware Documentation
    |                     |   7.0", 800 x 480, resistive touch screen                              |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC-A8-70-HB-R| image:: /Media/ARM/thumbnails/PPC-A8-70-HB-R-Front.png
+.. |PPC-A8-70-HB-R| image:: /Media/ARM/A8/CS80480T070/PPC-A8-70-HB-R-Front.jpeg
    :class: no-scaled-link
    :target: CS80480T070.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_6
 
    +---------------------+------------------------------------------------------------------------+
@@ -87,7 +87,7 @@ Hardware Documentation
    |                     |   9.7", 1024 x 768, resistive touch screen                             |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC/EPC-A8-97-C| image:: /Media/ARM/thumbnails/PPC-A8-97-C-Front.png
+.. |PPC/EPC-A8-97-C| image:: /Media/ARM/A8/CS10768T097/PPC-A8-97-C-Front.jpeg
    :class: no-scaled-link
    :target: CS10768T097.html
 

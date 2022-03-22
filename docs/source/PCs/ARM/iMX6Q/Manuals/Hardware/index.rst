@@ -1,8 +1,8 @@
-Hardware Documentation
-######################
+i.MX6Q Hardware Documentation
+#############################
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_1
 
    +-------------------+------------------------------------------------------------------------+
@@ -12,12 +12,12 @@ Hardware Documentation
    |                   |   7.0", 1024 x 600, multi-point capacitive touch screen                |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-A9-70-C| image:: /Media/ARM/thumbnails/PPC-A9-70-C-Front.png
+.. |PPC-A9-70-C| image:: /Media/ARM/A9/CS10600F070/PPC-A9-70-C-Front.jpg
    :class: no-scaled-link
    :target: CS10600F070.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_2
 
    +-------------------+------------------------------------------------------------------------+
@@ -27,12 +27,12 @@ Hardware Documentation
    |                   |   9.7", 1024 x 768, multi-point capacitive touch screen                |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-A9-97-C| image:: /Media/ARM/thumbnails/PPC-A9-97-C-Front.png
+.. |PPC-A9-97-C| image:: /Media/ARM/A9/CS10768F097/PPC-A9-97-C-Front.jpg
    :class: no-scaled-link
    :target: CS10768F097.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_3
 
    +-------------------+------------------------------------------------------------------------+
@@ -42,12 +42,12 @@ Hardware Documentation
    |                   |   10.1", 1280 x 800, multi-point capacitive touch screen               |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-A9-101-C| image:: /Media/ARM/thumbnails/PPC-A9-101-C-Front.png
+.. |PPC-A9-101-C| image:: /Media/ARM/A9/CS12800F101/PPC-A9-101-C-Front.jpeg
    :class: no-scaled-link
    :target: CS12800F101.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_4
 
    +-------------------+------------------------------------------------------------------------+
@@ -57,12 +57,12 @@ Hardware Documentation
    |                   |   12", 1024 x 768, multi-point capacitive touch screen                 |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-A9-121-C| image:: /Media/ARM/thumbnails/PPC-A9-121-C-Front.png
+.. |PPC-A9-121-C| image:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Front.jpeg
    :class: no-scaled-link
    :target: CS10768F121.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_5
 
    +-------------------+------------------------------------------------------------------------+
@@ -72,12 +72,12 @@ Hardware Documentation
    |                   |   12.1", 1024 x 768, multi-point capacitive touch screen               |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-A9-121-U-C| image:: /Media/ARM/thumbnails/PPC-A9-121-U-C-Front.png
+.. |PPC-A9-121-U-C| image:: /Media/ARM/A9/CS10768F121-U/PPC-A9-121-U-C-Front.jpeg
    :class: no-scaled-link
    :target: CS10768F121-U.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_6
 
    +-------------------+------------------------------------------------------------------------+
@@ -87,12 +87,12 @@ Hardware Documentation
    |                   |   15", 1024 x 768, multi-point capacitive touch screen                 |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-A9-150-C| image:: /Media/ARM/thumbnails/PPC-A9-150-C-Front.png
+.. |PPC-A9-150-C| image:: /Media/ARM/A9/CS10768F150/PPC-A9-150-C-Front.jpeg
    :class: no-scaled-link
    :target: CS10768F150.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_7
 
    +-------------------+------------------------------------------------------------------------+
@@ -102,12 +102,12 @@ Hardware Documentation
    |                   |   17", 1280 x 1024, multi-point capacitive touch screen                |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-A9-170-C| image:: /Media/ARM/thumbnails/PPC-A9-170-C-Front.png
+.. |PPC-A9-170-C| image:: /Media/ARM/A9/CS12102F170/PPC-A9-170-C-Front.jpeg
    :class: no-scaled-link
    :target: CS12102F170.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_8
 
    +-------------------+------------------------------------------------------------------------+
@@ -117,12 +117,12 @@ Hardware Documentation
    |                   |   19", 1440 x 900, multi-point capacitive touch screen                 |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-A9-190-C| image:: /Media/ARM/thumbnails/PPC-A9-190-C-Front.png
+.. |PPC-A9-190-C| image:: /Media/ARM/A9/CS14900F190/PPC-A9-190-C-Front.jpeg
    :class: no-scaled-link
    :target: CS14900F190.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_9
 
    +-------------------+------------------------------------------------------------------------+
@@ -132,7 +132,7 @@ Hardware Documentation
    |                   |   21.5", 1920 x 1080, multi-point capacitive touch screen              |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-A9-215-C| image:: /Media/ARM/thumbnails/PPC-A9-215-C-Front.png
+.. |PPC-A9-215-C| image:: /Media/ARM/A9/CS19108F215/PPC-A9-215-C-Front.jpeg
    :class: no-scaled-link
    :target: CS19108F215.html
 

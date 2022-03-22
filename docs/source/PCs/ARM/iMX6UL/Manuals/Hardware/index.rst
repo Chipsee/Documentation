@@ -1,8 +1,8 @@
-Hardware Documentation
-######################
+i.MX6UL Hardware Documentation
+##############################
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_1
 
    +---------------------+------------------------------------------------------------------------+
@@ -12,7 +12,7 @@ Hardware Documentation
    |                     |   7.0", 1024 x 600, multi-point capacitive touch screen                |
    +---------------------+------------------------------------------------------------------------+
 
-.. |EPC/PPC-A7-70HB-C| image:: /Media/ARM/thumbnails/PPC-A7-70HB-C-Front.png
+.. |EPC/PPC-A7-70HB-C| image:: /Media/ARM/A7/CS10600U070/PPC-A7-70HB-C-Front.jpg
    :class: no-scaled-link
    :target: CS10600U070.html
 

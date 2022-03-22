@@ -1,8 +1,8 @@
-Hardware Documentation
-######################
+i5/i7/3865  Hardware Documentation
+##################################
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_1
    
    +--------------------+------------------------------------------------------------------------+
@@ -13,12 +13,12 @@ Hardware Documentation
    |                    |   2.5" SATA, WiFi/WAN (optional), RS232/485, GPIO                      |
    +--------------------+------------------------------------------------------------------------+
 
-.. |PPC-10510U-150-C| image:: /Media/Intel/i5-i7-3865/150/PPC-10510U-150-C-Front-Small.png
+.. |PPC-10510U-150-C| image:: /Media/Intel/i5-i7-3865/150/PPC-10510U-150-C-Front.jpg
    :class: no-scaled-link
    :target: PPC-10510U-150-C.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_2
    
    +--------------------+------------------------------------------------------------------------+
@@ -29,7 +29,7 @@ Hardware Documentation
    |                    |   2.5" SATA, WiFi/WAN (optional), RS232/485, GPIO                      |
    +--------------------+------------------------------------------------------------------------+
 
-.. |CS86-Box| image:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-Angle-Small.png
+.. |CS86-Box| image:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-Front.jpg
    :class: no-scaled-link
    :target: CS86-BOX.html
 

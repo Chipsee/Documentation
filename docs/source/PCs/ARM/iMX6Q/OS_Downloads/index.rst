@@ -1,5 +1,5 @@
-OS Downloads
-############
+i.MX6Q OS Downloads
+###################
 
 .. _IMX6Q_OSDownloads:
 

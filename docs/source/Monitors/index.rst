@@ -7,7 +7,7 @@ This section contains marketing collateral for Chipsee Industrial Monitors.
 Chipsee industrial monitors provide a solid and durable solution that customers can use for manufacturing, commercial, or industrial purposes.
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_1
 
    +-------------------+------------------------------------------------------------------------+
@@ -17,12 +17,12 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
    |                   |   10.1", 1280x800, 10-point capacitive touchscreen                     |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PIM-101-C| image:: /Media/Monitors/PIM-101-C/PIM-101-C-Front-Small.png
+.. |PIM-101-C| image:: /Media/Monitors/PIM-101-C/pim-101-front.jpeg
    :class: no-scaled-link
    :target: PIM-101-C.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_2
 
    +-------------------+------------------------------------------------------------------------+
@@ -32,12 +32,12 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
    |                   |   10.1", 1280x800, 10-point capacitive touchscreen                     |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PIM-125-C| image:: /Media/Monitors/PIM-125-C/PIM-125-C-Front-Small.png
+.. |PIM-125-C| image:: /Media/Monitors/PIM-125-C/pim-125-front.jpeg
    :class: no-scaled-link
    :target: PIM-125-C.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_3
 
    +-------------------+------------------------------------------------------------------------+
@@ -47,12 +47,12 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
    |                   |   10.1", 1280x800, 10-point capacitive touchscreen                     |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PIM-150-C| image:: /Media/Monitors/PIM-150-C/PIM-150-C-Front-Small.png
+.. |PIM-150-C| image:: /Media/Monitors/PIM-150-C/pim-150-front.jpeg
    :class: no-scaled-link
    :target: PIM-150-C.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_4
 
    +-------------------+------------------------------------------------------------------------+
@@ -62,12 +62,12 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
    |                   |   10.1", 1280x800, 10-point capacitive touchscreen                     |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PIM-156-C| image:: /Media/Monitors/PIM-156-C/PIM-156-C-Front-Small.png
+.. |PIM-156-C| image:: /Media/Monitors/PIM-156-C/pim-156-front.jpeg
    :class: no-scaled-link
    :target: PIM-156-C.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_5
 
    +-------------------+------------------------------------------------------------------------+
@@ -77,12 +77,12 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
    |                   |   10.1", 1280x800, 10-point capacitive touchscreen                     |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PIM-170-C| image:: /Media/Monitors/PIM-170-C/PIM-170-C-Front-Small.png
+.. |PIM-170-C| image:: /Media/Monitors/PIM-170-C/pim-170-front.jpeg
    :class: no-scaled-link
    :target: PIM-170-C.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_6
 
    +-------------------+------------------------------------------------------------------------+
@@ -92,12 +92,12 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
    |                   |   10.1", 1280x800, 10-point capacitive touchscreen                     |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PIM-185-C| image:: /Media/Monitors/PIM-185-C/PIM-185-C-Front-Small.png
+.. |PIM-185-C| image:: /Media/Monitors/PIM-185-C/pim-185-front.jpeg
    :class: no-scaled-link
    :target: PIM-185-C.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_7
 
    +-------------------+------------------------------------------------------------------------+
@@ -107,12 +107,12 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
    |                   |   10.1", 1280x800, 10-point capacitive touchscreen                     |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PIM-190-C| image:: /Media/Monitors/PIM-190-C/PIM-190-C-Front-Small.png
+.. |PIM-190-C| image:: /Media/Monitors/PIM-190-C/pim-190-front.jpeg
    :class: no-scaled-link
    :target: PIM-190-C.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_8
 
    +-------------------+------------------------------------------------------------------------+
@@ -122,12 +122,12 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
    |                   |   10.1", 1280x800, 10-point capacitive touchscreen                     |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PIM-215-C| image:: /Media/Monitors/PIM-215-C/PIM-215-C-Front-Small.png
+.. |PIM-215-C| image:: /Media/Monitors/PIM-215-C/pim-215-front.jpeg
    :class: no-scaled-link
    :target: PIM-215-C.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_9
 
    +-------------------+------------------------------------------------------------------------+
@@ -137,12 +137,12 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
    |                   |   10.1", 1280x800, 10-point capacitive touchscreen                     |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PIM-236-C| image:: /Media/Monitors/PIM-236-C/PIM-236-C-Front-Small.png
+.. |PIM-236-C| image:: /Media/Monitors/PIM-236-C/pim-236-front.jpeg
    :class: no-scaled-link
    :target: PIM-236-C.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_10
 
    +-------------------+------------------------------------------------------------------------+
@@ -152,7 +152,7 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
    |                   |   10.1", 1280x800, 10-point capacitive touchscreen                     |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PIM-270-C| image:: /Media/Monitors/PIM-270-C/PIM-270-C-Front-Small.png
+.. |PIM-270-C| image:: /Media/Monitors/PIM-270-C/pim-270-front.jpeg
    :class: no-scaled-link
    :target: PIM-270-C.html
 

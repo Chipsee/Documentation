@@ -147,3 +147,4 @@ cython_debug/
 .idea/
 .idea/.gitignore
 .vscode/
+../.vscode/

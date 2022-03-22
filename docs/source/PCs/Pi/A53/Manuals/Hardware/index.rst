@@ -1,8 +1,8 @@
-Hardware Documentation
-######################
+Cortex-A53 Hardware Documentation
+#################################
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_1
 
    +---------------------+------------------------------------------------------------------------+
@@ -12,12 +12,12 @@ Hardware Documentation
    |                     |   7.0", 1024 x 600, 5-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
-.. |CM3-70-EM-PA| image:: /Media/Pi/thumbnails/CS10600RA070E-Front.png
+.. |CM3-70-EM-PA| image:: /Media/Pi/A53/CS10600RA070/CS10600RA070P-Front.jpeg
    :class: no-scaled-link
    :target: CS10600RA070.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
    :name: hwdocstable_2
 
    +---------------------+------------------------------------------------------------------------+
@@ -27,7 +27,7 @@ Hardware Documentation
    |                     |   10.1", 1280 x 800, 5-point capacitive touch screen                   |
    +---------------------+------------------------------------------------------------------------+
 
-.. |CM3-101-EM-PA| image:: /Media/Pi/thumbnails/CS12800RA101E-Front.png
+.. |CM3-101-EM-PA| image:: /Media/Pi/A53/CS12800RA101/CS12800RA101P-Front.jpeg
    :class: no-scaled-link
    :target: CS12800RA101.html
 
