@@ -1,5 +1,5 @@
-Software Documentation
-######################
+AM335X Software Documentation
+#############################
 
 This section contains the software documentation for flashing new operating systems (OS) on products based on |Cortex|-A8 architecture.
 If you have questions not covered in this documentation, please consult Chipsee Technical Support at |email|_.

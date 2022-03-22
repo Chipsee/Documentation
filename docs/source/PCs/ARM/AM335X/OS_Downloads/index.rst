@@ -1,5 +1,5 @@
-OS Downloads
-############
+AM335X OS Downloads
+###################
 
 .. _AM335X_OSDownloads:
 

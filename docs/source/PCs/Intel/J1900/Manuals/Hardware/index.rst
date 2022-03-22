@@ -1,9 +1,10 @@
-Hardware Documentation
-######################
+J1900 Hardware Documentation
+############################
 
 .. table::
-   :widths: 10 40
-   
+   :widths: 20 30
+   :name: hwdocstable_1
+
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-104|  |   :ref:`PPC-J1900-104-R User Manual <PPC-J1900-104-R>` |br| |br|       |
    |                   |                                                                        |                                 
@@ -12,13 +13,14 @@ Hardware Documentation
    |                   |   2.5" SATA, WiFi/WAN (optional), RS232/485, GPIO                      |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-J1900-104| image:: /Media/Intel/J1900/104/PPC-J1900-104-R-Front-Small.png
+.. |PPC-J1900-104| image:: /Media/Intel/J1900/104/PPC-J1900-104-R-Front.jpg
    :class: no-scaled-link
    :target: PPC-J1900-104-R.html
 
 .. table::
-   :widths: 10 40
-   
+   :widths: 20 30
+   :name: hwdocstable_2
+
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-121|  |   :ref:`PPC-J1900-121-R User Manual <PPC-J1900-121-R>` |br| |br|       |
    |                   |                                                                        |                                 
@@ -27,12 +29,13 @@ Hardware Documentation
    |                   |   2.5" SATA, WiFi/WAN (optional), RS232/485, GPIO                      |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-J1900-121| image:: /Media/Intel/J1900/121/PPC-J1900-121-R-Front-Small.png
+.. |PPC-J1900-121| image:: /Media/Intel/J1900/121/PPC-J1900-121-R-Front.jpg
    :class: no-scaled-link
    :target: PPC-J1900-121-R.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
+   :name: hwdocstable_3
    
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-170|  |   :ref:`PPC-J1900-170-R User Manual <PPC-J1900-170-R>` |br| |br|       |
@@ -42,12 +45,13 @@ Hardware Documentation
    |                   |   2.5" SATA, WiFi/WAN (optional), RS232/485, GPIO                      |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-J1900-170| image:: /Media/Intel/J1900/170/PPC-J1900-170-R-Front-Small.png
+.. |PPC-J1900-170| image:: /Media/Intel/J1900/170/PPC-J1900-170-R-Front.jpg
    :class: no-scaled-link
    :target: PPC-J1900-170-R.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
+   :name: hwdocstable_4
    
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-190|  |   :ref:`PPC-J1900-190-R User Manual <PPC-J1900-190-R>` |br| |br|       |
@@ -57,12 +61,13 @@ Hardware Documentation
    |                   |   2.5" SATA, WiFi/WAN (optional), RS232/485, GPIO                      |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-J1900-190| image:: /Media/Intel/J1900/190/PPC-J1900-190-R-Front-Small.png
+.. |PPC-J1900-190| image:: /Media/Intel/J1900/190/PPC-J1900-190-R-Front.jpg
    :class: no-scaled-link
    :target: PPC-J1900-190-R.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
+   :name: hwdocstable_5
    
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-101|  |   :ref:`PPC-J1900-101-C User Manual <PPC-J1900-101-C>` |br| |br|       |
@@ -72,12 +77,13 @@ Hardware Documentation
    |                   |   2.5" SATA, WiFi/WAN (optional), RS232/485, GPIO                      |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-J1900-101| image:: /Media/Intel/J1900/101/PPC-J1900-101-C-Front-Small.png
+.. |PPC-J1900-101| image:: /Media/Intel/J1900/101/PPC-J1900-101-C-Front.jpg
    :class: no-scaled-link
    :target: PPC-J1900-101-C.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
+   :name: hwdocstable_6
 
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-133|  |   :ref:`PPC-J1900-133-C User Manual <PPC-J1900-133-C>` |br| |br|       |
@@ -87,12 +93,13 @@ Hardware Documentation
    |                   |   2.5" SATA, WiFi/WAN (optional), RS232/485, GPIO                      |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-J1900-133| image:: /Media/Intel/J1900/133/PPC-J1900-133-C-Front-Small.png
+.. |PPC-J1900-133| image:: /Media/Intel/J1900/133/PPC-J1900-133-C-Front.jpg
    :class: no-scaled-link
    :target: PPC-J1900-133-C.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
+   :name: hwdocstable_7
 
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-150|  |   :ref:`PPC-J1900-150-C User Manual <PPC-J1900-150-C>` |br| |br|       |
@@ -102,12 +109,13 @@ Hardware Documentation
    |                   |   2.5" SATA, WiFi/WAN (optional), RS232/485, GPIO                      |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-J1900-150| image:: /Media/Intel/J1900/150/PPC-J1900-150-C-Front-Small.png
+.. |PPC-J1900-150| image:: /Media/Intel/J1900/150/PPC-J1900-150-C-Front.jpg
    :class: no-scaled-link
    :target: PPC-J1900-150-C.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
+   :name: hwdocstable_8
 
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-156|  |   :ref:`PPC-J1900-156-C User Manual <PPC-J1900-156-C>` |br| |br|       |
@@ -117,12 +125,13 @@ Hardware Documentation
    |                   |   2.5" SATA, WiFi/WAN (optional), RS232/485, GPIO                      |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-J1900-156| image:: /Media/Intel/J1900/156/PPC-J1900-156-C-Front-Small.png
+.. |PPC-J1900-156| image:: /Media/Intel/J1900/156/PPC-J1900-156-C-Front.jpg
    :class: no-scaled-link
    :target: PPC-J1900-156-C.html
 
 .. table::
-   :widths: 10 40
+   :widths: 20 30
+   :name: hwdocstable_9
 
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J1900-215|  |   :ref:`PPC-J1900-215-C User Manual <PPC-J1900-215-C>` |br| |br|       |
@@ -132,7 +141,7 @@ Hardware Documentation
    |                   |   2.5" SATA, WiFi/WAN (optional), RS232/485, GPIO                      |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-J1900-215| image:: /Media/Intel/J1900/215/PPC-J1900-215-C-Front-Small.png
+.. |PPC-J1900-215| image:: /Media/Intel/J1900/215/PPC-J1900-215-C-Front.jpg
    :class: no-scaled-link
    :target: PPC-J1900-215-C.html
 

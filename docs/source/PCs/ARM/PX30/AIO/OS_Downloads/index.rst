@@ -1,5 +1,5 @@
-OS Downloads
-############
+All-In-One OS Downloads
+#######################
 
 .. _PX30_OSDownloads:
 

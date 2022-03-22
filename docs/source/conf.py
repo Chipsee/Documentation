@@ -19,7 +19,7 @@ import sphinx_material
 
 project = 'Chipsee Documentation Sample'
 copyright = '2021, Chipsee'
-author = 'Randy'
+author = 'Chipsee'
 version = '1.1'
 
 # The full version, including alpha/beta/rc tags
@@ -30,7 +30,7 @@ release = '1.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 # sphinx-prompt must be the first of these two.
-extensions = ['sphinx-prompt', 'sphinx_substitution_extensions']
+extensions = ['sphinx-prompt', 'sphinx_substitution_extensions', 'sphinx_material']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -51,7 +51,7 @@ html_theme = 'sphinx_material'
 html_logo = 'logo-chipsee-white.png'
 html_favicon = 'favicon.webp'
 # Set link name generated in the top bar.
-html_title = 'Chipsee'
+html_title = 'Home'
 # Material theme options (see theme.conf for more information)
 html_theme_options = {
     # Set the name of the project to appear in the navigation.
@@ -63,22 +63,22 @@ html_theme_options = {
     'color_primary': 'deep-orange',
     'color_accent': 'deep-orange',
     # Visible levels of the global TOC; -1 means unlimited
-    'globaltoc_depth': 3,
+    'globaltoc_depth': 4,
     # If False, expand all TOC entries
     'globaltoc_collapse': True,
     # If True, show hidden TOC entries
     'globaltoc_includehidden': True,
-    'html_minify': True,
-    'css_minify': True,
+    # 'html_minify': True,
+    # 'css_minify': True,
     'theme_color': '2D445E'
 }
 html_sidebars = {
-    "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
+    "**": ["globaltoc.html", "localtoc.html", "searchbox.html"]
 }
 
-html_style = 'css/material_custom.css'
+html_css_files = ['css/material_custom.css']
+# html_js_files = [('js/material_custom.js', {'async': 'async'},)]
 file_insertion_enabled = True
-# html_js_files = ['js/expand_tabs.js']
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

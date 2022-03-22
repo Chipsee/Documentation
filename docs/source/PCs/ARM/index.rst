@@ -51,5 +51,5 @@ the repository much easier.
    :titlesonly:
 
    All-In-One Hardware Documentation <PX30/AIO/Manuals/Hardware/index>
-   All-In-One Software Documentation <PX30/Manuals/Software/index>
-   All-In-One OS Downloads <PX30/OS_Downloads/index>
+   All-In-One Software Documentation <PX30/AIO/Manuals/Software/index>
+   All-In-One OS Downloads <PX30/AIO/OS_Downloads/index>
