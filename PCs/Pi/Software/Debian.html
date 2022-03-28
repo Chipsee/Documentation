@@ -522,7 +522,7 @@
 </table>
 <p><strong>SUPPORTED BOARDS:</strong></p>
 <blockquote>
-<div><p><em>CS10600RA4070</em> <em>CS10600RA070</em> <em>CS12800RA101</em> <em>AIO-CM4-101</em></p>
+<div><p><em>CS10600RA4070</em> <em>CS10600RA070</em> <em>CS12800RA101</em> <em>CS12800RA4101A</em> <em>CS12800RA4101P</em></p>
 </div></blockquote>
 <p id="db-pkg-pi-debian"><strong>PREBUILT IMAGES PACKAGE:</strong></p>
 <p>Below are the links to the prebuilt images for the Raspbian Buster operating system on the various industrial Pi PC’s.</p>
@@ -578,7 +578,8 @@
 <p>Power Supply Unit (PSU) with the appropriate voltages, as follows:</p>
 <ul class="simple">
 <li><p>These products: CS10600RA070, CS10600RA4070, and CS12800RA101 requires a 6V to 36V power adapter. You must provide the power adapter since Chipsee does not ship these products with a power adapter.</p></li>
-<li><p>The AIO-CM4-101 RPC needs a 12V power adapter. Chipsee provides the power adapter.</p></li>
+<li><p>The CS12800RA4101A RPC needs a 12V power adapter. Chipsee provides the power adapter.</p></li>
+<li><p>The CS12800RA4101P RPC needs a 12V to 36V power adapter.</p></li>
 </ul>
 <section id="hardware-requirements">
 <h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permalink to this headline">¶</a></h3>
@@ -745,7 +746,7 @@ Interfacing Options -&gt; VNC -&gt; Yes
 <p>Chipsee RPC supports booting from an integrated eMMC or an external TF Card (also known as the micro SD card).</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>CS12800RA4101 only supports eMMC boot</p>
+<p>CS12800RA4101A and CS12800RA4101P only supports eMMC boot</p>
 </div>
 <p>The Compute Module (CM) version will determine the boot modes your product supports.
 If you use CM with eMMC, you can only use eMMC boot. If you use CM Lite which has no eMMC, you can only use SD boot. <br/>
@@ -753,8 +754,9 @@ To boot from the SD Card, you must place the SD Card in <strong>SD0</strong> slo
 <p>For <strong>CS10600RA070</strong>, <strong>CS12800RA101</strong>, and <strong>CS10600RA4070</strong> products, you can download a new system to eMMC by: configuring the boot switch to USB position, inserting Mini-B USB cable, and then power the board. This will enable eMMC to work as a USB storage. <br/>
 After the eMMC flash, you need to configure the boot switch to the eMMC position again. <br/>
 If you need to use SD boot, you should configure the boot switch to the eMMC position.</p>
-<p>For the <strong>CS12800RA4101</strong> product, you can download a new system to eMMC by: inserting a Micro-B USB cable, pressing the power button, and then power the board to enable eMMC to work as a USB storage. <br/>
-The next sections explain in detail the steps in downloading a new system to eMMC.</p>
+<p>For the <strong>CS12800RA4101A</strong> product, you can download a new system to eMMC by: inserting a Micro-B USB cable, pressing the VOL+ button, and then power the board to enable eMMC to work as a USB storage. If you use C111 Version, you should press Boot Mode button. <br/></p>
+<p>For the <strong>CS12800RA4101P</strong> product, you can download a new system to eMMC by: inserting a Micro-B USB cable, pressing the Boot DIP button, and then power the board to enable eMMC to work as a USB storage. <br/></p>
+<p>The next sections explain in detail the steps in downloading a new system to eMMC.</p>
 </section>
 <section id="prebuilt-image">
 <h3 id="prebuilt-image">Prebuilt image<a class="headerlink" href="#prebuilt-image" title="Permalink to this headline">¶</a></h3>
@@ -792,9 +794,10 @@ For those who just want to enable the Compute Module eMMC as a mass storage devi
 <p>The write images to the eMMC, follow these steps:</p>
 <ul>
 <li><p>Download and run the Windows installer <strong>rpitools</strong> to install the drivers and boot tool.</p></li>
-<li><p>For <strong>CS10600RA070</strong>, <strong>CS12800RA101</strong>, and <strong>CS10600RA40</strong> products, plug your host PC Mini-B USB into the USB Downloader port, making sure the boot switch is set to the USB position.</p></li>
-<li><p>For <strong>CS12800RA4101</strong> product, plug your host PC Micro-B USB into the USB Slave port (can be also called USB Download Port), press and hold the power button.</p></li>
-<li><p>Power ON the board. Windows should now find the hardware and install the driver. For CS12800RA4101, you can release the power button now.</p></li>
+<li><p>For <strong>CS10600RA070</strong>, <strong>CS12800RA101</strong>, and <strong>CS10600RA4070</strong> products, plug your host PC Mini-B USB into the USB Downloader port, making sure the boot switch is set to the USB position.</p></li>
+<li><p>For <strong>CS12800RA4101A</strong> product, plug your host PC Micro-B USB into the USB Slave port (can be also called USB Download Port), press and hold the VOL+ button, if you use C111 Version, press Boot Mode button.</p></li>
+<li><p>For <strong>CS12800RA4101P</strong> product, plug your host PC Micro-B USB into the USB Slave port (can be also called USB Download Port), press and hold the Boot DIP button.</p></li>
+<li><p>Power ON the board. Windows should now find the hardware and install the driver. For CS12800RA4101A and CS12800RA4101P, you can release the button now.</p></li>
 <li><dl>
 <dt>Once the driver installation is complete, run the <strong>RPiBoot.exe</strong> tool that was previously installed. You can run <strong>RPiBoot.exe</strong> in Windows PowerShell, as shown on the figure below.</dt><dd><figure class="align-center" id="id13">
 <img alt="../../../_images/rpiboot.jpeg" src="../../../_images/rpiboot.jpeg"/>
@@ -807,7 +810,7 @@ For those who just want to enable the Compute Module eMMC as a mass storage devi
 </li>
 <li><p>After a few seconds, the Compute Module eMMC will pop up under Windows as a disk (USB mass storage device).</p></li>
 <li><p>Refer to <a class="reference internal" href="#writing-images-to-the-sd-card">Writing images to the SD Card</a> to flash system to eMMC (like the SD card in Windows).</p></li>
-<li><p>If process completes, power OFF the board and ensure the boot switch is set to eMMC position. Power ON to use the new system. <br/> For <strong>CS12800RA4101</strong>, ignore repositioning the boot switch, a reboot will be ok. <br/> To learn more, visit the following link: <a class="reference external" href="https://www.raspberrypi.org/documentation/hardware/computemodule/cm-emmc-flashing.md">https://www.raspberrypi.org/documentation/hardware/computemodule/cm-emmc-flashing.md</a></p></li>
+<li><p>If process completes, power OFF the board and ensure the boot switch is set to eMMC position. Power ON to use the new system. <br/> For <strong>CS12800RA4101A</strong>, ignore repositioning the boot switch, a reboot will be ok. <br/> To learn more, visit the following link: <a class="reference external" href="https://www.raspberrypi.org/documentation/hardware/computemodule/cm-emmc-flashing.md">https://www.raspberrypi.org/documentation/hardware/computemodule/cm-emmc-flashing.md</a></p></li>
 </ul>
 <p>Booting from the external TF Card allows flashing the system OS.</p>
 <div class="admonition note">
@@ -821,7 +824,7 @@ For those who just want to enable the Compute Module eMMC as a mass storage devi
 <section id="sd-card-usb">
 <h3 id="sd-card-usb">SD Card/USB<a class="headerlink" href="#sd-card-usb" title="Permalink to this headline">¶</a></h3>
 <p>SD Card is for external storage and needs to be placed in the <strong>SD1</strong> port. The <strong>SD0</strong> port is used by boot.|br|
-SD Card and USB Storage support hot plug. They will be automatically mounted on <cite>/media/pi/</cite>. For <strong>CS12800RA4101</strong>, there is only one SD slot.</p>
+SD Card and USB Storage support hot plug. They will be automatically mounted on <cite>/media/pi/</cite>. For <strong>CS12800RA4101A</strong> and <strong>CS12800RA4101P</strong>, there is only one SD slot.</p>
 </section>
 <section id="serial-port">
 <h3 id="serial-port">Serial Port<a class="headerlink" href="#serial-port" title="Permalink to this headline">¶</a></h3>
@@ -971,7 +974,7 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 </dd>
 </dl>
 <table id="id18" style="width: 100%">
-<caption><span class="caption-number">Table 188:  </span><span class="caption-text">CS12800RA4101</span><a class="headerlink" href="#id18" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 188:  </span><span class="caption-text">CS12800RA4101A</span><a class="headerlink" href="#id18" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Name</p></th>
@@ -997,14 +1000,46 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 </tr>
 </tbody>
 </table>
+<table id="id19" style="width: 100%">
+<caption><span class="caption-number">Table 189:  </span><span class="caption-text">CS12800RA4101P</span><a class="headerlink" href="#id19" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Ports</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Node</p></th>
+<th class="head"><p>Protocol</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>RS232_0</p></td>
+<td><p>/dev/ttyAMA0</p></td>
+<td><p>RS232</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>RS232_2</p></td>
+<td><p>/dev/ttyAMA1</p></td>
+<td><p>RS232</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>RS232_3</p></td>
+<td><p>/dev/ttyAMA2</p></td>
+<td><p>RS485</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>RS232_5</p></td>
+<td><p>/dev/ttyAMA3</p></td>
+<td><p>RS485</p></td>
+</tr>
+</tbody>
+</table>
 <p>You can install <strong>cutecom</strong> to test the serial port:</p>
 <p>Only root user and use the serial port:</p>
 </section>
 <section id="gpio">
 <h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this headline">¶</a></h3>
 <p>There are 8 GPIOs, 4 Output, and 4 Input, they are all isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V. Refer to the tables below for a detailed port definition:</p>
-<table id="id19" style="width: 100%">
-<caption><span class="caption-number">Table 189:  </span><span class="caption-text">CS10600RA070 P19 Port</span><a class="headerlink" href="#id19" title="Permalink to this table">¶</a></caption>
+<table id="id20" style="width: 100%">
+<caption><span class="caption-number">Table 190:  </span><span class="caption-text">CS10600RA070 P19 Port</span><a class="headerlink" href="#id20" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Pin Number</p></th>
 <th class="head"><p>GPIO Number</p></th>
@@ -1065,8 +1100,8 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 </tr>
 </tbody>
 </table>
-<table id="id20" style="width: 100%">
-<caption><span class="caption-number">Table 190:  </span><span class="caption-text">CS12800RA101 P2 Port / CS10600RA4070 P19 Port</span><a class="headerlink" href="#id20" title="Permalink to this table">¶</a></caption>
+<table id="id21" style="width: 100%">
+<caption><span class="caption-number">Table 191:  </span><span class="caption-text">CS12800RA101 P2 Port / CS10600RA4070 P19 Port</span><a class="headerlink" href="#id21" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Pin Number</p></th>
 <th class="head"><p>GPIO Number</p></th>
@@ -1148,9 +1183,9 @@ $ <span class="nb">echo</span> <span class="m">0</span> &gt; /dev/chipsee-gpio1 
 </section>
 <section id="relay">
 <h3 id="relay">Relay<a class="headerlink" href="#relay" title="Permalink to this headline">¶</a></h3>
-<p>There is one Relay on CS12800RA4101. For a detailed port definition, please refer to the table below.</p>
-<table id="id21" style="width: 100%">
-<caption><span class="caption-number">Table 191:  </span><span class="caption-text">CS12800RA4101 Relay on P10</span><a class="headerlink" href="#id21" title="Permalink to this table">¶</a></caption>
+<p>There is one Relay on CS12800RA4101A. For a detailed port definition, please refer to the table below.</p>
+<table id="id22" style="width: 100%">
+<caption><span class="caption-number">Table 192:  </span><span class="caption-text">CS12800RA4101A Relay on P10</span><a class="headerlink" href="#id22" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Name</p></th>
@@ -1213,75 +1248,17 @@ $ <span class="nb">echo</span> <span class="m">0</span> &gt; /dev/buzzer    // d
 </section>
 <section id="backlight">
 <h3 id="backlight">Backlight<a class="headerlink" href="#backlight" title="Permalink to this headline">¶</a></h3>
-<p>We use one GPIO to control the backlight for Chipsee Raspberry Pi boards, the GPIO is different for different boards. Find more details below.</p>
-<table id="id22" style="width: 100%">
-<caption><span class="caption-number">Table 192:  </span><span class="caption-text">Backlight GPIO</span><a class="headerlink" href="#id22" title="Permalink to this table">¶</a></caption>
-<thead>
-<tr class="row-odd"><th class="head"><p>Board</p></th>
-<th class="head"><p>GPIO</p></th>
-<th class="head"><p>GPIO Config in config.txt</p></th>
-<th class="head"><p>PWM</p></th>
-<th class="head"><p>PWM Function</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>CS10600RA070</p></td>
-<td><p>41</p></td>
-<td><p>gpio=41=op,dh</p></td>
-<td><p>Pwm1</p></td>
-<td><p>4</p></td>
-</tr>
-<tr class="row-odd"><td><p>CS12800RA101</p></td>
-<td><p>41</p></td>
-<td><p>gpio=41=op,dh</p></td>
-<td><p>Pwm1</p></td>
-<td><p>4</p></td>
-</tr>
-<tr class="row-even"><td><p>CS10600RA4070</p></td>
-<td><p>18</p></td>
-<td><p>gpio=18=op,dh</p></td>
-<td><p>Pwm0</p></td>
-<td><p>2</p></td>
-</tr>
-<tr class="row-odd"><td><p>CS12800RA4101</p></td>
-<td><p>13</p></td>
-<td><p>gpio=13=op,dh</p></td>
-<td><p>Pwm1</p></td>
-<td><p>4</p></td>
-</tr>
-</tbody>
-</table>
+<p>We use one PWM to control the backlight for Chipsee Raspberry Pi boards, You can use follow commands to control the backlight.</p>
 <ul>
 <li><dl>
-<dt>We use <cite>gpio==op,dh</cite> in <cite>/boot/config.txt</cite> to enable the backlight by default. You can open and close backlight as follows. GPIO41 is used as an example:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">echo</span> <span class="m">41</span> &gt; /sys/class/gpio/export
-$ <span class="nb">echo</span> out &gt; /sys/class/gpio/gpio41/direction
-$ <span class="nb">echo</span> <span class="m">1</span> &gt; /sys/class/gpio/gpio41/value //enable backlight
-$ <span class="nb">echo</span> <span class="m">0</span> &gt; /sys/class/gpio/gpio41/value //disable backlight
+<dt>Get the supported max brightness:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ cat  /sys/class/backlight/backlight/max_brightness
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>If you want to use PWM to control the backlight, you need to remove <cite>gpio==op,dh</cite>, and add <cite>dtoverlay=pwm, pin=, func=</cite> in <cite>/boot/config.txt</cite>. You can do it in the following way. GPIO13 is used as an example <br/> Remove this line in /boot/config.txt:</dt><dd><div class="highlight-text notranslate"><div class="highlight"><pre><span></span>gpio=13=op,dh
-</pre></div>
-</div>
-</dd>
-</dl>
-</li>
-<li><dl>
-<dt>And add the following line to <cite>/boot/config.txt</cite>:</dt><dd><div class="highlight-text notranslate"><div class="highlight"><pre><span></span>dtoverlay=pwm,pin=13,func=4
-</pre></div>
-</div>
-</dd>
-</dl>
-</li>
-<li><dl>
-<dt>Reboot, after that, Config and enable pwm</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> /sys/class/pwm/pwmchip0/
-$ <span class="nb">echo</span> <span class="m">1</span> &gt; <span class="nb">export</span> //GPIO13 is pwm1, so we use <span class="m">1</span>
-$ <span class="nb">echo</span> <span class="m">10000000</span> &gt; pwm1/period //set period to 10ms,100Hz
-$ <span class="nb">echo</span> <span class="m">8000000</span> &gt; pwm1/duty_cycle // <span class="nb">set</span> duty to 8ms
-$ <span class="nb">echo</span> <span class="m">1</span> &gt; pwm1/enable // <span class="nb">enable</span> pwm1
+<dt>Set brightness:</dt><dd><div class="highlight-text notranslate"><div class="highlight"><pre><span></span>$ echo 50 &gt; /sys/class/backlight/backlight/brightness
 </pre></div>
 </div>
 </dd>
@@ -1293,11 +1270,21 @@ $ <span class="nb">echo</span> <span class="m">1</span> &gt; pwm1/enable // <spa
 <h3 id="g">4G<a class="headerlink" href="#g" title="Permalink to this headline">¶</a></h3>
 <ul>
 <li><dl>
-<dt>You can use 4G on Chipsee Raspberry Pi products. If the 4G module is Quectel EC20, you can use the following tools to connect to internet.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo install udhcpc
+<dt>You can use 4G on Chipsee Raspberry Pi products. If the 4G module is Quectel EC20, you can use <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/Tools/linux-ppp-scripts.tar.gz">linux-ppp-scripts</a> to connect to internet.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt update
+$ sudo apt install ppp
 $ sudo ifconfig wwan0 down
-$ sudo quectel-CM –s 3gnet / cmnet / ctnet <span class="p">&amp;</span> // <span class="k">select</span> different network base on your SIM
-card, 3gnet is used by China-unicom and cmnet is used by China-mobile, ctnet is used by China
-Telecom
+$ <span class="nb">cd</span> linux-ppp-scripts/
+$ sudo ./quectel-pppd.sh &lt;Serial Port&gt; &lt;APN&gt; &lt;username&gt; &lt;password&gt;
+
+For example,
+$ sudo ./quectel-pppd.sh /dev/ttyUSB3 3gnet <span class="nb">test</span> <span class="nb">test</span>
+
+or no username and password
+$ sudo ./quectel-pppd.sh /dev/ttyUSB3 3gnet
+
+disconnect 4g
+$ <span class="nb">cd</span> linux-ppp-scripts/
+$ ./quectel-ppp-kill
 </pre></div>
 </div>
 </dd>
@@ -1325,7 +1312,7 @@ AT+QGPSEND // disable GPS
 </section>
 <section id="can-bus">
 <h3 id="can-bus">CAN Bus<a class="headerlink" href="#can-bus" title="Permalink to this headline">¶</a></h3>
-<p>There is one channel CAN bus on <strong>CS12800RA101/CS10600RA4070</strong>. You can install <cite>can-utils</cite> and use them to test CAN. But you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown on the figure below.</p>
+<p>There is one channel CAN bus on <strong>CS12800RA101/CS10600RA4070/CS12800RA4101P</strong>. You can install <cite>can-utils</cite> and use them to test CAN. But you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown on the figure below.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The Chipsee IPC does not mount the 120Ω matched resistor on all CAN signals by default.</p>
@@ -1401,14 +1388,18 @@ AT+QGPSEND // disable GPS
 <h3 id="wi-fi">Wi-Fi<a class="headerlink" href="#wi-fi" title="Permalink to this headline">¶</a></h3>
 <p>The Chipsee Raspberry Pi boards support <em>RTL8723BU/RTL8723DU</em> chip Wi-Fi.
 The <strong>CS10600RA070/CS12800RA101</strong> have an onboard <cite>RTL8723BU</cite> Wi-Fi chip.
-The <strong>CS10600RA4070/CS12800RA4101</strong> have no onboard Wi-Fi by default so you can use the USB Wi-Fi dongle to enable the Wi-Fi.</p>
+The <strong>CS10600RA4070/CS12800RA4101A/CS12800RA4101P</strong> have no onboard Wi-Fi by default so you can use the USB Wi-Fi dongle to enable the Wi-Fi.</p>
 </section>
 <section id="zigbee">
 <h3 id="zigbee">Zigbee<a class="headerlink" href="#zigbee" title="Permalink to this headline">¶</a></h3>
-<p>The <strong>CS10600RA4070/CS12800RA4101</strong> boards have an onboard ZigBee chip <em>CC2531</em>.
+<p>The <strong>CS10600RA4070/CS12800RA4101A/CS12800RA4101P</strong> boards have an onboard ZigBee chip <em>CC2531</em>.
 Its device node in the system is <cite>/dev/ttyACM0</cite>.
 We use <cite>zigbee2mqtt</cite> project firmware by default.
 Check the following link to learn more about this project: <a class="reference external" href="https://www.zigbee2mqtt.io">Zigbee2mqtt</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The Zigbee module is not mounted by default.</p>
+</div>
 </section>
 <section id="camera">
 <h3 id="camera">Camera<a class="headerlink" href="#camera" title="Permalink to this headline">¶</a></h3>
@@ -1419,7 +1410,8 @@ Please refer to the following link to learn how to attach a camera: <a class="re
 <h3 id="chipsee-init-shell">Chipsee-init shell<a class="headerlink" href="#chipsee-init-shell" title="Permalink to this headline">¶</a></h3>
 <p>We use one <strong>chipsee-init.sh</strong> as an initial shell which is placed in <cite>/opt/chipsee/chipsee-init.sh</cite>.
 We initialize the GPIO/Buzzer and other configs in it. If you want to change it, please be careful. <br/>
-Do a backup first before you modify anything.</p>
+Do a backup first before you modify anything. This script will generaged one log file which located on /var/log/chipsee-init.sh.log.
+If you device have boot issue, you can send this file to use to help find what happen.</p>
 </section>
 </section>
 <section id="technical-support">
@@ -1494,7 +1486,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Mar 24, 2022.
+              Mar 28, 2022.
             <br/>
         </div>
       </div>
