@@ -8,7 +8,7 @@ Chipsee RPC supports booting from an integrated eMMC or an external TF Card (als
 
 .. note::
 
-    CS12800RA4101 only supports eMMC boot
+    CS12800RA4101A and CS12800RA4101P only supports eMMC boot
 
 The Compute Module (CM) version will determine the boot modes your product supports.
 If you use CM with eMMC, you can only use eMMC boot. If you use CM Lite which has no eMMC, you can only use SD boot. |br|
@@ -20,7 +20,10 @@ After the eMMC flash, you need to configure the boot switch to the eMMC position
 If you need to use SD boot, you should configure the boot switch to the eMMC position.
 
 
-For the **CS12800RA4101** product, you can download a new system to eMMC by: inserting a Micro-B USB cable, pressing the power button, and then power the board to enable eMMC to work as a USB storage. |br|
+For the **CS12800RA4101A** product, you can download a new system to eMMC by: inserting a Micro-B USB cable, pressing the VOL+ button, and then power the board to enable eMMC to work as a USB storage. If you use C111 Version, you should press Boot Mode button. |br|
+
+For the **CS12800RA4101P** product, you can download a new system to eMMC by: inserting a Micro-B USB cable, pressing the Boot DIP button, and then power the board to enable eMMC to work as a USB storage. |br|
+
 The next sections explain in detail the steps in downloading a new system to eMMC.
 
 Prebuilt image
@@ -60,9 +63,10 @@ For those who just want to enable the Compute Module eMMC as a mass storage devi
 The write images to the eMMC, follow these steps:
 
 * Download and run the Windows installer **rpitools** to install the drivers and boot tool.
-* For **CS10600RA070**, **CS12800RA101**, and **CS10600RA40** products, plug your host PC Mini-B USB into the USB Downloader port, making sure the boot switch is set to the USB position.
-* For **CS12800RA4101** product, plug your host PC Micro-B USB into the USB Slave port (can be also called USB Download Port), press and hold the power button.
-* Power ON the board. Windows should now find the hardware and install the driver. For CS12800RA4101, you can release the power button now.
+* For **CS10600RA070**, **CS12800RA101**, and **CS10600RA4070** products, plug your host PC Mini-B USB into the USB Downloader port, making sure the boot switch is set to the USB position.
+* For **CS12800RA4101A** product, plug your host PC Micro-B USB into the USB Slave port (can be also called USB Download Port), press and hold the VOL+ button, if you use C111 Version, press Boot Mode button.
+* For **CS12800RA4101P** product, plug your host PC Micro-B USB into the USB Slave port (can be also called USB Download Port), press and hold the Boot DIP button.
+* Power ON the board. Windows should now find the hardware and install the driver. For CS12800RA4101A and CS12800RA4101P, you can release the button now.
 * Once the driver installation is complete, run the **RPiBoot.exe** tool that was previously installed. You can run **RPiBoot.exe** in Windows PowerShell, as shown on the figure below.
     .. figure:: /Media/Pi/Software/rpiboot.jpeg
        :align: center
@@ -72,7 +76,7 @@ The write images to the eMMC, follow these steps:
 
 * After a few seconds, the Compute Module eMMC will pop up under Windows as a disk (USB mass storage device).
 * Refer to `Writing images to the SD Card`_ to flash system to eMMC (like the SD card in Windows).
-* If process completes, power OFF the board and ensure the boot switch is set to eMMC position. Power ON to use the new system. |br| For **CS12800RA4101**, ignore repositioning the boot switch, a reboot will be ok. |br| To learn more, visit the following link: `<https://www.raspberrypi.org/documentation/hardware/computemodule/cm-emmc-flashing.md>`_
+* If process completes, power OFF the board and ensure the boot switch is set to eMMC position. Power ON to use the new system. |br| For **CS12800RA4101A**, ignore repositioning the boot switch, a reboot will be ok. |br| To learn more, visit the following link: `<https://www.raspberrypi.org/documentation/hardware/computemodule/cm-emmc-flashing.md>`_
 
 Booting from the external TF Card allows flashing the system OS.
 
