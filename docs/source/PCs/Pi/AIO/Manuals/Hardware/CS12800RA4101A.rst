@@ -177,6 +177,7 @@ There are three (3) buttons on the backside of the case: Volume +, Volume -, and
   *Buttons*
 
 |Product| boots from the internal eMMC by default. If you want it to boot from the USB OTG connector, please press the Boot Mode button before power ON, and release it 3 seconds after power ON.
+If you use CS12800RA4101A_C121, the Boot Mode button had been changed to VOL+, you should press VOL+ to enter USB download mode.
 
 
 Connectivity
