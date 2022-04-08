@@ -89,10 +89,7 @@ html_extra_path = ['./index.php']
 numfig = True
 numfig_secnum_depth = 1
 
-numfig_format = {'figure': 'Figure %s: ',
-                 'table': 'Table %s: ',
-                 'code-block': 'Codes %s: ',
-                 }
+numfig_format = {'figure': 'Figure %s: '}
 html_show_sphinx = False  # shows sphinx footer link
 html_show_sourcelink = False  # shows link to rst file that generates page
 
