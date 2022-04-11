@@ -323,7 +323,7 @@ The product |Product| has an integrated microphone on the front panel, as shown 
 
 .. attention::
 
-    The product does not come with the camera and integrated microphone mounted by default.
+    The product does not come with the integrated microphone mounted by default.
 
 Mounting Procedure
 ==================
