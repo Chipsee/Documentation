@@ -1,4 +1,4 @@
-.. |product| replace:: AIO-CM4-10
+.. |product| replace:: AIO-CM4-101
 
 .. |PN| replace:: PN: CS12800RA4101A
 
@@ -104,7 +104,7 @@
 
 .. image:: /Media/Pi/AIO/CS12800RA4101A/CS12800RA4101A-Side.jpeg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Side View
+   :alt: Side View, Connector Function
 
 .. raw:: html
 
@@ -115,9 +115,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Pi/AIO/CS12800RA4101A/101-Embedded.jpeg
+.. image:: /Media/Pi/AIO/CS12800RA4101A/101-Side.jpeg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Embedded PCB
+   :alt: Side View
 
 .. raw:: html
 
@@ -149,7 +149,7 @@ We also provide a customzied power cable of 3.4/1.7mm to 5.5/2.1mm for customer.
   :align: center
   :figclass: align-center
 
-  *Power Adapter*
+  *Power Adapter Connector*
 
 Buttons and Status LED
 ======================
@@ -313,20 +313,20 @@ The table below offers more detailed description of every pin and its definition
     #) The 120Ω match resistor for the RS485 is not mounted by default.
     #) The Relay Max switching voltage is 125VAC or 60VDC. The maximum switching current is 1A. Rated load is 0.3A at 125VAC and 1A at 30VDC.
 
-Camera and Mic Input
---------------------
+Mic Input
+---------
 
-|Product| has a camera and an integrated microphone on the front panel, as shown on the figure below.
+The product |Product| has an integrated microphone on the front panel, as shown on the figure below.
 
-.. figure:: /Media/Pi/AIO/CS12800RA4101A/101-Cam_Mic.jpeg
+.. figure:: /Media/Pi/AIO/CS12800RA4101A/101-Mic.jpeg
    :align: center
    :figclass: align-center
 
-   *Camera and Microphone Input*
+   *Microphone Input*
 
 .. attention::
 
-    The product does not come with the camera and integrated microphone mounted by default.
+    The product does not come with the integrated microphone mounted by default.
 
 Mounting Procedure
 ==================
