@@ -48,6 +48,8 @@
 
 .. |hdmi| replace:: N/A
 
+.. |camera| replace:: N/A
+
 .. |hat| replace:: N/A
 
 .. |sd_socket| replace:: N/A
@@ -312,24 +314,17 @@ The table below offers more detailed description of every pin and its definition
     #) The 120Ω match resistor for the RS485 is mounted by default.
     #) The Relay Max switching voltage is 125VAC or 60VDC. The maximum switching current is 1A. Rated load is 0.3A at 125VAC and 1A at 30VDC.
 
-Camera and Mic Input
---------------------
+Mic Input
+---------
 
-|Product| has a camera and an integrated microphone on the front panel, as shown on the figure below.
+|Product| has an integrated microphone on the front panel, as shown on the figure below.
 
 .. figure:: /Media/ARM/A35/AIO/CS12800PX101A/101-Cam_Mic.jpeg
    :align: center
    :figclass: align-center
 
-   *Camera and Microphone Input*
+   *Microphone Input*
 
-.. attention::
-
-    The product does not come with the camera and integrated microphone mounted by default.
-
-.. warning::
-
-    The Camera driver also need to be added if you need it. please |contact|_ before shipping.
 
 Mounting Procedure
 ==================
