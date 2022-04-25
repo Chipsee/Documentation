@@ -237,6 +237,10 @@ table[id|=hwdocstable] {
     box-shadow: none !important;
 }
 
+ul#mobile_menu{
+    display: none!important;
+}
+
 /* Larger desktops */
 @media only screen and (min-width: 1024px) {
     table[id|=hwdocstable] {
@@ -283,10 +287,6 @@ table[id|=hwdocstable] {
     padding-left: .2rem!important;
 }
 
-#mobile_menu{
-	padding: .25rem 1rem;
-}
-
 #mobile_menu.list-group {
     border-radius: 0px!important;
     background-color: #2D445E!important;
@@ -310,7 +310,4 @@ table[id|=hwdocstable] {
 }
 #desktop_menu li a.nav-link:focus, #desktop_menu li a.nav-link:hover, #desktop_menu li a.nav-link:active {
     color: #fff!important;
-}
-ul#mobile_menu{
-    display: none!important;
 }
