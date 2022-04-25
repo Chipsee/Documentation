@@ -26,28 +26,24 @@ products portfolio.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Industrial Panel PC
    :hidden:
 
-   Powered by Arm Cortex, Intel, and Raspberry PI platforms <PCs/index>
+   Industrial PC <PCs/index>
 
 .. toctree::
    :maxdepth: 1
-   :caption: Industrial Monitors
    :hidden:
 
-   Monitors with Capacitive Touch <Monitors/index>
+   Industrial Monitor <Monitors/index>
 
 .. toctree::
    :maxdepth: 1
-   :caption: Systems on Module
    :hidden:
 
-   SOM/index
+   SOM (Systems on Module) <SOM/index>
 
 .. toctree::
    :maxdepth: 1
-   :caption: Tutorials and Guides
    :hidden:
 
-   TutorialGuide/index
+   Tutorials and Guides <TutorialGuide/index>

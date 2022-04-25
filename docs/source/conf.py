@@ -32,6 +32,13 @@ release = '1.1'
 # sphinx-prompt must be the first of these two.
 extensions = ['sphinx-prompt', 'sphinx_substitution_extensions', 'sphinx_material']
 
+# Sphinx-Jinja Options
+# jinja_filters = {
+#     # 'pg_first': lambda value: str(value).split("/")[0],
+#     # 'sp_href': lambda value: str(value).split("/")
+#     'bold': lambda value: f'**{value}**'
+# }
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 

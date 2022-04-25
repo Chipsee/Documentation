@@ -1,24 +1,19 @@
 {%- if nav_bar_tabs %}
   <nav class="md-tabs" data-md-component="tabs">
     <div class="md-tabs__inner md-grid">
-      <ul class="md-tabs__list">
-        {%- block rootrellink %}
-          {%- if theme_master_doc %}
-          <li class="md-tabs__item"><a href="{{ pathto(master_doc)|e }}" class="md-tabs__link">{{ shorttitle }}</a></li>
-          {%- endif %}
-        {%- endblock %}
-        {%- for item in theme_nav_links %}
-            {% set localhref=pathto( item.href ) if item.internal else item.href|e %}
-            &gt; <li class="md-tabs__item"><a href="{{ localhref|e }}" class="md-tabs__link">{{ item.title }}</a></li>
-        {%- endfor %}
-        {%- for parent in parents %}
-          &gt; <li class="md-tabs__item"><a href="{{ parent.link|e }}" class="md-tabs__link">{{ parent.title }}</a></li>
-        {%- endfor %}
-
-        {%- if sourcename != 'index.rst.txt' %}
-          &gt; <li class="md-tabs__item"><p class="md-tabs__link" style="opacity:1;">{{ title|striptags|e }}</p></li>
-        {%- endif %}
-
+      <ul class="nav justify-content-center pb-2" id="desktop_menu">
+        <li class="nav-item">
+          <a class="nav-link" href="{{ pathto('PCs/index.html', 1) }}">Industrial PC</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ pathto('Monitors/index.html', 1) }}">Industrial Monitor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ pathto('SOM/index.html', 1) }}">SOM (Systems on Module)</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ pathto('TutorialGuide/index.html', 1) }}">Tutorials and Guides</a>
+        </li>
       </ul>
     </div>
   </nav>
