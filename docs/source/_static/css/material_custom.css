@@ -238,7 +238,7 @@ table[id|=hwdocstable] {
 }
 
 ul#mobile_menu{
-    display: none!important;
+    display: none;
 }
 
 /* Larger desktops */
