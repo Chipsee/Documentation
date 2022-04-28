@@ -20,8 +20,6 @@
 
 .. |LAN| replace:: 1 x Channel 100Mbps LAN
 
-.. |GPIO| replace:: N/A
-
 .. |opt1| replace:: Internal 4G/LTE module supported, not mounted by default
 
 .. |vin_rng| replace:: From 9V to 36V
@@ -45,14 +43,6 @@
 .. |relay| replace:: 1 x relay with "Normally Connected" and "Normally Open" output
 
 .. |zigbee| replace:: Internal Zigbee supported, not mounted by default
-
-.. |hdmi| replace:: N/A
-
-.. |camera| replace:: N/A
-
-.. |hat| replace:: N/A
-
-.. |sd_socket| replace:: N/A
 
 .. |case_color| replace:: Black, White
 
