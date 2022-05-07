@@ -32,7 +32,7 @@
         :columns: 12 6 3 3
         :link: PBA
         :link-type: ref
-        :img-top: /Media/homepage/ARM_IPC_Pi.jpg
+        :img-top: /Media/homepage/Product_1_Chipsee.jpg
         :class-card: border
         :text-align: center
 
@@ -49,7 +49,7 @@
         :columns: 12 6 3 3
         :link: PBPI
         :link-type: ref
-        :img-top: /Media/homepage/ARM_IPC_Pi.jpg
+        :img-top: /Media/homepage/Product_2_Chipsee.jpg
         :class-card: border
         :text-align: center
 
@@ -66,7 +66,7 @@
         :columns: 12 6 3 3
         :link: PBI
         :link-type: ref
-        :img-top: /Media/homepage/ARM_IPC_Pi.jpg
+        :img-top: /Media/homepage/Product_3_Chipsee.jpg
         :class-card: border
         :text-align: center
 
@@ -83,7 +83,7 @@
         :columns: 12 6 3 3
         :link: IM
         :link-type: ref
-        :img-top: /Media/homepage/ARM_IPC_Pi.jpg
+        :img-top: /Media/homepage/Product_4_Chipsee.jpg
         :class-card: border
         :text-align: center
 
