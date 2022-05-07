@@ -13,7 +13,6 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import sphinx_material
 
 # -- Project information -----------------------------------------------------
 
@@ -30,14 +29,9 @@ release = '1.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 # sphinx-prompt must be the first of these two.
-extensions = ['sphinx-prompt', 'sphinx_substitution_extensions', 'sphinx_material']
+extensions = ['sphinx-prompt', 'sphinx_substitution_extensions',
+              'sphinx_material', 'sphinx_design']
 
-# Sphinx-Jinja Options
-# jinja_filters = {
-#     # 'pg_first': lambda value: str(value).split("/")[0],
-#     # 'sp_href': lambda value: str(value).split("/")
-#     'bold': lambda value: f'**{value}**'
-# }
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -91,7 +85,7 @@ file_insertion_enabled = True
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-html_extra_path = ['./index.php']
+html_extra_path = ['./index.html', './index.php']
 
 numfig = True
 numfig_secnum_depth = 1

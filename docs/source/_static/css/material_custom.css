@@ -311,3 +311,54 @@ ul#mobile_menu{
 #desktop_menu li a.nav-link:focus, #desktop_menu li a.nav-link:hover, #desktop_menu li a.nav-link:active {
     color: #fff!important;
 }
+
+img.welcome-img{
+	max-width: 100%;
+	height: auto;
+	width: 80%!important;
+}
+
+.welcome_div {
+	padding: 2rem!important;
+}
+
+.welcome_div > h1 {
+	font-weight: 600 !important;
+	font-size: 2em !important;
+}
+
+.welcome_div > h4 {
+	line-height: 1cm!important;
+}
+
+.md-main__inner {
+    padding-top: 0 !important;
+}
+
+.md-footer-socialmedia {
+	float: right;
+	margin: 0 .6rem;
+	max-width: 50%;
+}
+
+.sd-card-body p.sd-card-text {
+    text-align: left!important;
+}
+
+
+@media only screen and (min-width: 76.25em){
+    .md-new-content {
+        margin-left: 1rem!important;
+    }
+}
+
+@media only screen and (min-width: 60em){
+    .md-new-content {
+        margin-right: 1rem!important;
+    }
+}
+
+div.welcome_hero {
+    background-color: #c9c9c94d!important;
+    padding: 1rem!important;
+}
