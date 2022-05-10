@@ -324,11 +324,13 @@ img.welcome-img{
 
 .welcome_div > h1 {
 	font-weight: 600 !important;
-	font-size: 2em !important;
+	font-size: 3em !important;
+	color: #ef3d30!important;
 }
 
-.welcome_div > h4 {
-	line-height: 1cm!important;
+.welcome_div > p {
+	line-height: 33px!important;
+	color: #fff!important;
 }
 
 .md-main__inner {
@@ -359,6 +361,6 @@ img.welcome-img{
 }
 
 div.welcome_hero {
-    background-color: #c9c9c94d!important;
+    background-color: #2d445ee6!important;
     padding: 1rem!important;
 }
