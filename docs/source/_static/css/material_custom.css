@@ -389,6 +389,7 @@ img.welcome-img{
 	float: right;
 	margin: 0 .6rem;
 	max-width: 50%;
+	padding: .4rem 0;
 }
 
 .sd-card-body p.sd-card-text {
