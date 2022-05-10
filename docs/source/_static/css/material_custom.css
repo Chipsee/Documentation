@@ -41,8 +41,8 @@ body,
     background-color: #2d445e1c!important;
   }
   /*localtoc showing current section styles*/
-  .md-nav__link[data-md-state=blur] {
-        color: rgb(187 187 187)!important;
+    .md-nav__link[data-md-state=blur] {
+        color: #bbbbbb!important;
     }
 a:hover {
         color: #2D445E!important;

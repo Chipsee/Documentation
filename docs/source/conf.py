@@ -70,8 +70,7 @@ html_theme_options = {
     # If True, show hidden TOC entries
     'globaltoc_includehidden': True,
     'html_minify': True,
-    'css_minify': True,
-    'theme_color': '2D445E'
+    'css_minify': True
 }
 html_sidebars = {
     "**": ["globaltoc.html", "localtoc.html", "searchbox.html"]
