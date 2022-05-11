@@ -1,3 +1,6 @@
+Home
+====
+
 .. grid:: 2
 
     .. grid-item::

@@ -301,6 +301,11 @@ ul#mobile_menu{
     #mobile_menu{
         display: none!important;
     }
+    .welcome_div > h1 {
+        font-weight: 600 !important;
+        font-size: 3em !important;
+        color: #ef3d30!important;
+    }
 }
 /* Laptops and larger tablets */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -309,6 +314,12 @@ ul#mobile_menu{
     }
     #mobile_menu{
         display: block!important;
+    }
+    #desktop_menu{
+        display: none!important;
+    }
+    .welcome_div > h1 {
+        font-size: 2em !important;
     }
 }
 /* Tablets and larger smartphones */
@@ -319,6 +330,12 @@ ul#mobile_menu{
     #mobile_menu{
         display: block!important;
     }
+    #desktop_menu{
+        display: none!important;
+    }
+    .welcome_div > h1 {
+        font-size: 2em !important;
+    }
 }
 /* Smaller smartphones */
 @media only screen and (max-width: 480px) {
@@ -327,6 +344,12 @@ ul#mobile_menu{
     }
     #mobile_menu{
         display: block!important;
+    }
+    #desktop_menu{
+        display: none!important;
+    }
+    .welcome_div > h1 {
+        font-size: 2em !important;
     }
 }
 
@@ -355,6 +378,7 @@ ul#mobile_menu{
 #desktop_menu li a.nav-link {
 	color: #bfbfbf!important;
     font-weight: 600!important;
+    padding: 0 1rem;
 }
 #desktop_menu li a.nav-link:focus, #desktop_menu li a.nav-link:hover, #desktop_menu li a.nav-link:active {
     color: #fff!important;
@@ -366,14 +390,9 @@ img.welcome-img{
 	width: 80%!important;
 }
 
-.welcome_div {
-	padding: 2rem!important;
-}
-
 .welcome_div > h1 {
-	font-weight: 600 !important;
-	font-size: 3em !important;
-	color: #ef3d30!important;
+    font-weight: 600 !important;
+    color: #ef3d30!important;
 }
 
 .welcome_div > p {
@@ -399,17 +418,36 @@ img.welcome-img{
 
 @media only screen and (min-width: 76.25em){
     .md-new-content {
-        margin-left: 1rem!important;
+        margin-left: auto !important;
     }
 }
 
 @media only screen and (min-width: 60em){
     .md-new-content {
-        margin-right: 1rem!important;
+        margin-right: auto !important;
     }
 }
 
 div.welcome_hero {
     background-color: #2d445ee6!important;
-    padding: 1rem!important;
+	background-image: url("https://chipsee.com/wp-content/uploads/2022/02/page_header_image.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-width: 0px 0px 0px 0px;
+	border-color: #eae9e9;
+	border-style: solid;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    padding: 1rem 0!important;
+}
+
+.sd-row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+nav.md-tabs{
+    display: none;
 }

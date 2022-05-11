@@ -69,7 +69,7 @@ html_theme_options = {
     'globaltoc_collapse': True,
     # If True, show hidden TOC entries
     'globaltoc_includehidden': True,
-    'html_minify': True,
+    # 'html_minify': True,
     'css_minify': True
 }
 html_sidebars = {
