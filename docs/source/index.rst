@@ -14,12 +14,6 @@ Home
                 <p style="font-size: 20px!important;">Our offer also includes customized products that can be tailor-made to fit your needs.</p>
             </div>
 
-    .. grid-item::
-        :columns: 12 6 6 6
-
-        .. image:: /Media/homepage/home_svg.png
-            :class: welcome-img
-         
 
 .. raw:: html
 
