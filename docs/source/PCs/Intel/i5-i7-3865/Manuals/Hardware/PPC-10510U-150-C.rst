@@ -112,7 +112,7 @@
    :figclass: align-center
    :target: ../../../../../_images/PPC-10510U-150-C-TD.jpg
  
-   *Figure 6: PPC-10510U-150-C Technical Drawing*
+   *PPC-10510U-150-C Technical Drawing*
 
 .. include:: /PCs/Intel/J1900/Manuals/Hardware/Resources/support
 

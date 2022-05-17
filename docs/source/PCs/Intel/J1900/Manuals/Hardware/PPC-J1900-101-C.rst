@@ -124,6 +124,6 @@
    :figclass: align-center
 
 
-   *Figure 6: PPC-J1900-101-C Technical Drawing*
+   *PPC-J1900-101-C Technical Drawing*
 
 .. include:: Resources/support
