@@ -91,6 +91,6 @@
    :figclass: align-center
    :target: ../../../../../_images/CS86-BOX-TD.jpg
  
-   *Figure 6: PPC-10510U-150-C Technical Drawing*
+   *CS86-BOX Technical Drawing*
 
 .. include:: /PCs/Intel/J1900/Manuals/Hardware/Resources/support
