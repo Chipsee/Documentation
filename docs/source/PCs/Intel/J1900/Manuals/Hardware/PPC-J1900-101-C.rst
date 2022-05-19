@@ -2,9 +2,9 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |weight| replace:: 2000g
+.. |weight| replace:: 1200g
 
-.. |dim| replace:: 284 X 203 X 52.5mm
+.. |dim| replace:: 253.20 X 171.83 X 35mm
 
 .. |dispsize| replace:: 10.1"
   
@@ -124,6 +124,6 @@
    :figclass: align-center
 
 
-   *Figure 6: PPC-J1900-101-C Technical Drawing*
+   *PPC-J1900-101-C Technical Drawing*
 
 .. include:: Resources/support

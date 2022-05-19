@@ -390,7 +390,7 @@ Two devices can be interconnected as on the *Figure 6* below:
    :figclass: align-center
    :target: ../../../../../_images/Debian_Shot_13.jpg
    
-   Figure 6: CAN connection
+   CAN connection
 
 The following example can be used to perform testing:
 

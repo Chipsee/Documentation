@@ -110,6 +110,6 @@
    :align: center
    :figclass: align-center
 
-   *Feature 6: PPC-J1900-150-C Technical Drawing*
+   *PPC-J1900-150-C Technical Drawing*
 
 .. include:: Resources/support
