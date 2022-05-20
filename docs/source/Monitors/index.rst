@@ -17,7 +17,7 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
    |                   |   10.1", 1280x800, 10-point capacitive touchscreen                     |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PIM-101-C| image:: /Media/Monitors/PIM-101-C/pim-101-front.jpeg
+.. |PIM-101-C| image:: /Media/Monitors/PIM-101-C/pim-101-side.jpg
    :class: no-scaled-link
    :target: PIM-101-C.html
 
