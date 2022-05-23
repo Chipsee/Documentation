@@ -30,7 +30,7 @@
 
 .. |weight| replace:: 1.1kg
 
-.. |mount| replace:: VESA, MIS-D, 100, C
+.. |mount| replace:: VESA, Panel
 
 .. |pwr| replace:: ≤ 14W
 
