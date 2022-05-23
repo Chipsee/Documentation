@@ -24,7 +24,7 @@
 
 .. |connector| replace:: VGA / DVI / HDMI
 
-.. |dim| replace:: 	253.20 x 171.8 x 335mm
+.. |dim| replace:: 	253.20 x 171.8 x 35mm
 
 .. |pkg_size| replace:: 332 x 225 x 60mm
 
