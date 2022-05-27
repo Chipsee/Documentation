@@ -69,14 +69,14 @@ Software Requirements
 * |systemType| OS Prebuilt Files Package (from the link above)
 * ADT for Windows
 * Android USB driver (for Windows)
-* MFGTools
+* `MFGTools <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K3035-V2.1.zip>`_
 
 Getting Started and Tests
 =========================
 
 .. note::
 
-    Throughout this section, the user can use both the pre-built |systemType| image files and the **MFGTools** software to burn files to the system, boot system and perform necessary software and hardware test.
+    Throughout this section, the user can use both the pre-built |systemType| image files and the `MFGTools <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K3035-V2.1.zip>`_ software to burn files to the system, boot system and perform necessary software and hardware test.
 
 Boot Switch Configuration
 -------------------------
@@ -138,13 +138,10 @@ Downloading Images by using MFGTool
 
 Chipsee IPC supports booting from an integrated eMMC.
 
-.. note::
-    The operator should use the prebuilt file we provided in the CD to test the hardware before re-flashing the system.
-
 Configuring MFGTool
 ^^^^^^^^^^^^^^^^^^^
 
-To configure MFGTool, follow these steps:
+To configure `MFGTools <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K3035-V2.1.zip>`_, follow these steps:
 
 * Unzip ``Mfgtools-Rel-xxx_xxxxxx_MX6Q_UPDATER_Vxx.tar.gz`` file.
 * Open the extracted folder ``Mfgtools-Rel-xxx_xxxxxx_MX6Q_UPDATER_Vxx`` and edit ``cfg.ini`` file.
