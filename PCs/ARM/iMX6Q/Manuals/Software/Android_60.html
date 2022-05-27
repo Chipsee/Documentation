@@ -343,7 +343,7 @@
         </li>
         <li class="md-nav__item"><a href="#use-adb-command-to-uninstall-default-app" class="md-nav__link">Use ADB command to uninstall default APP</a>
         </li>
-        <li class="md-nav__item"><a href="#id1" class="md-nav__link">Use ADB command to uninstall default APP</a>
+        <li class="md-nav__item"><a href="#id2" class="md-nav__link">Use ADB command to uninstall default APP</a>
         </li></ul>
             </nav>
         </li>
@@ -603,7 +603,7 @@
         </li>
         <li class="md-nav__item"><a href="#use-adb-command-to-uninstall-default-app" class="md-nav__link">Use ADB command to uninstall default APP</a>
         </li>
-        <li class="md-nav__item"><a href="#id1" class="md-nav__link">Use ADB command to uninstall default APP</a>
+        <li class="md-nav__item"><a href="#id2" class="md-nav__link">Use ADB command to uninstall default APP</a>
         </li></ul>
             </nav>
         </li>
@@ -716,7 +716,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 <h2 id="getting-started-and-tests">Getting Started and Tests<a class="headerlink" href="#getting-started-and-tests" title="Permalink to this headline">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Throughout this section, the user can use both the pre-built Android 6.0 image files and the <strong>MFGTools</strong> software to burn files to the system, boot system and perform necessary software and hardware test.</p>
+<p>Throughout this section, the user can use both the pre-built Android 6.0 image files and the <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K31452-V1.3.zip">MFGTools</a> software to burn files to the system, boot system and perform necessary software and hardware test.</p>
 </div>
 <section id="boot-switch-configuration">
 <h3 id="boot-switch-configuration">Boot Switch Configuration<a class="headerlink" href="#boot-switch-configuration" title="Permalink to this headline">¶</a></h3>
@@ -726,14 +726,14 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 <li><p>eMMC Boot</p></li>
 <li><p>Download</p></li>
 </ul>
-<figure class="align-center" id="id2">
+<figure class="align-center" id="id3">
 <img alt="../../../../../_images/BootSW.png" src="../../../../../_images/BootSW.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 176:  </span><span class="caption-text">Boot Mode Setup</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 176:  </span><span class="caption-text">Boot Mode Setup</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
-<table id="id3" style="width: 100%">
-<caption><span class="caption-number">Table 44 </span><span class="caption-text">Boot Configuration Selection</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<table id="id4" style="width: 100%">
+<caption><span class="caption-number">Table 44 </span><span class="caption-text">Boot Configuration Selection</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p><strong>SW Mode</strong></p></th>
 <th class="head"><p><strong>1</strong></p></th>
@@ -766,7 +766,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </section>
 <section id="prepare-manufacturing-tool-and-image">
 <h3 id="prepare-manufacturing-tool-and-image">Prepare Manufacturing Tool and Image<a class="headerlink" href="#prepare-manufacturing-tool-and-image" title="Permalink to this headline">¶</a></h3>
-<p>The manufacturing tool, referred to as <strong>MFGTool</strong>, is a tool that runs on a Windows PC. You can use it to download pre-built images to the eMMC on a Chipsee board. The tools directory contains the <code class="docutils literal notranslate"><span class="pre">tar.gz</span></code> file.</p>
+<p>The manufacturing tool, referred to as <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K31452-V1.3.zip">MFGTools</a>, is a tool that runs on a Windows PC. You can use it to download pre-built images to the eMMC on a Chipsee board. The tools directory contains the <code class="docutils literal notranslate"><span class="pre">tar.gz</span></code> file.</p>
 <table style="width: 100%">
 <thead>
 <tr class="row-odd"><th class="head"><p class="centered">
@@ -806,17 +806,9 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 <h3 id="downloading-images">Downloading Images<a class="headerlink" href="#downloading-images" title="Permalink to this headline">¶</a></h3>
 <p>Chipsee IPC supports booting from an integrated eMMC or an external TF Card (also known as the micro SD card).
 Booting from the external TF Card allows flashing the system OS.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The operator should use the prebuilt file we provided in the CD to test the hardware before re-flashing the system.</p>
-</div>
 <section id="downloading-images-by-using-mfgtool">
 <h4 id="downloading-images-by-using-mfgtool">Downloading Images by using MFGTool<a class="headerlink" href="#downloading-images-by-using-mfgtool" title="Permalink to this headline">¶</a></h4>
 <p>Chipsee IPC supports booting from an integrated eMMC.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The operator should use the prebuilt file we provided in the CD to test the hardware before re-flashing the system.</p>
-</div>
 <section id="configuring-mfgtool">
 <h5 id="configuring-mfgtool">Configuring MFGTool<a class="headerlink" href="#configuring-mfgtool" title="Permalink to this headline">¶</a></h5>
 <p>To configure MFGTool, follow these steps:</p>
@@ -824,19 +816,19 @@ Booting from the external TF Card allows flashing the system OS.</p>
 <li><p>Unzip <code class="docutils literal notranslate"><span class="pre">Mfgtools_Kernel3.14.52_V1.0.rar</span></code> file.</p></li>
 <li><p>Open the extracted folder <code class="docutils literal notranslate"><span class="pre">Mfgtools_Kernel3.14.52_V1.0</span></code> and edit <code class="docutils literal notranslate"><span class="pre">cfg.ini</span></code> file.</p></li>
 </ul>
-<figure class="align-center" id="id4">
+<figure class="align-center" id="id5">
 <img alt="../../../../../_images/mfgtools_1.png" src="../../../../../_images/mfgtools_1.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 177:  </span><span class="caption-text"><em>Extracted folder content</em></span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 177:  </span><span class="caption-text"><em>Extracted folder content</em></span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <ul class="simple">
 <li><p>In the <code class="docutils literal notranslate"><span class="pre">cfg.ini</span></code> file, ensure the <code class="docutils literal notranslate"><span class="pre">name</span></code> variable is set to <code class="docutils literal notranslate"><span class="pre">eMMC-Android</span></code>, as shown on the figure below.</p></li>
 </ul>
-<figure class="align-center" id="id5">
+<figure class="align-center" id="id6">
 <img alt="../../../../../_images/mfgtools_2.png" src="../../../../../_images/mfgtools_2.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 178:  </span><span class="caption-text"><em>Cfg.ini file</em></span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 178:  </span><span class="caption-text"><em>Cfg.ini file</em></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -847,10 +839,10 @@ Booting from the external TF Card allows flashing the system OS.</p>
 <li><p>Unzip <code class="docutils literal notranslate"><span class="pre">prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz</span></code> file. The extracted folder will contain these files: <code class="docutils literal notranslate"><span class="pre">boot-imx6q.img</span></code>, <code class="docutils literal notranslate"><span class="pre">recovery-imx6q.img,</span></code>, <code class="docutils literal notranslate"><span class="pre">system.img</span></code>, and <code class="docutils literal notranslate"><span class="pre">u-boot-imx6q.imx</span></code>. The logo file, <code class="docutils literal notranslate"><span class="pre">android6_xxx.bmp</span></code>, is located in the <cite>emmc-flash/emmc</cite> directory.</p></li>
 <li><p>Copy the files listed above from the extracted folder to <cite>Mfgtools_Kernel3.14.52_V1.0\Profiles\Linux\OS Firmware\files\android</cite> directory.</p></li>
 </ul>
-<figure class="align-center" id="id6">
+<figure class="align-center" id="id7">
 <img alt="../../../../../_images/mfgtools_3.png" src="../../../../../_images/mfgtools_3.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 179:  </span><span class="caption-text"><em>Extracted folder with files</em></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 179:  </span><span class="caption-text"><em>Extracted folder with files</em></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -859,10 +851,10 @@ Booting from the external TF Card allows flashing the system OS.</p>
 <ol class="arabic">
 <li><p>Connect a USB OTG cable from a Windows PC to the USB OTG port on the IPC.</p></li>
 <li><dl>
-<dt>Change the boot select configuration to <strong>0 1 1 0</strong>, as shown on the figure below.</dt><dd><figure class="align-center" id="id7">
+<dt>Change the boot select configuration to <strong>0 1 1 0</strong>, as shown on the figure below.</dt><dd><figure class="align-center" id="id8">
 <img alt="../../../../../_images/use_mfgtool_1.png" src="../../../../../_images/use_mfgtool_1.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 180:  </span><span class="caption-text"><em>Boot Switch Config</em></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 180:  </span><span class="caption-text"><em>Boot Switch Config</em></span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -870,25 +862,25 @@ Booting from the external TF Card allows flashing the system OS.</p>
 </li>
 <li><p>Connect a 12V-2A power adapter to the IPC and power ON.</p></li>
 <li><dl>
-<dt>On your Windows PC, open the <code class="docutils literal notranslate"><span class="pre">Mfgtools-Rel-XXX_XXXXXX_MX6Q_UPDATER_VXX</span></code> directory and run the <code class="docutils literal notranslate"><span class="pre">MfgTool2.exe</span></code> file, as shown on the figure below.</dt><dd><figure class="align-center" id="id8">
+<dt>On your Windows PC, open the <code class="docutils literal notranslate"><span class="pre">Mfgtools-Rel-XXX_XXXXXX_MX6Q_UPDATER_VXX</span></code> directory and run the <code class="docutils literal notranslate"><span class="pre">MfgTool2.exe</span></code> file, as shown on the figure below.</dt><dd><figure class="align-center" id="id9">
 <img alt="../../../../../_images/use_mfgtool_21.png" src="../../../../../_images/use_mfgtool_21.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 181:  </span><span class="caption-text"><em>Run</em> <strong>MfgTools2.exe</strong> <em>file</em></span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 181:  </span><span class="caption-text"><em>Run</em> <strong>MfgTools2.exe</strong> <em>file</em></span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
-<figure class="align-center" id="id9">
+<figure class="align-center" id="id10">
 <img alt="../../../../../_images/use_mfgtool_3.png" src="../../../../../_images/use_mfgtool_3.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 182:  </span><span class="caption-text"><em>Prepare to start</em></span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 182:  </span><span class="caption-text"><em>Prepare to start</em></span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>If you get a message saying <em>No Device Connected</em>, check the USB-OTG cable to ensure it is ready. <br/></p>
-<figure class="align-center" id="id10">
+<figure class="align-center" id="id11">
 <img alt="../../../../../_images/use_mfgtool_4.png" src="../../../../../_images/use_mfgtool_4.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 183:  </span><span class="caption-text"><em>The USB-OTG cable is not connected correctly.</em></span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 183:  </span><span class="caption-text"><em>The USB-OTG cable is not connected correctly.</em></span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </div>
@@ -896,10 +888,10 @@ Booting from the external TF Card allows flashing the system OS.</p>
 </dl>
 </li>
 <li><dl>
-<dt>Click on <strong>Start</strong> button to download the Image.</dt><dd><figure class="align-center" id="id11">
+<dt>Click on <strong>Start</strong> button to download the Image.</dt><dd><figure class="align-center" id="id12">
 <img alt="../../../../../_images/use_mfgtool_5.png" src="../../../../../_images/use_mfgtool_5.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 184:  </span><span class="caption-text"><em>Loading Kernel and Formatting rootfs partition</em></span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 184:  </span><span class="caption-text"><em>Loading Kernel and Formatting rootfs partition</em></span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -913,10 +905,10 @@ Booting from the external TF Card allows flashing the system OS.</p>
 </dl>
 </li>
 <li><dl>
-<dt>When the process is complete, you click the <strong>Stop</strong> button to stop downloading Image and exit.</dt><dd><figure class="align-center" id="id12">
+<dt>When the process is complete, you click the <strong>Stop</strong> button to stop downloading Image and exit.</dt><dd><figure class="align-center" id="id13">
 <img alt="../../../../../_images/use_mfgtool_7.png" src="../../../../../_images/use_mfgtool_7.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 185:  </span><span class="caption-text"><em>Download Image is finished</em></span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 185:  </span><span class="caption-text"><em>Download Image is finished</em></span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -979,40 +971,40 @@ Booting from the external TF Card allows flashing the system OS.</p>
 <h3 id="booting-android-os-and-test-using-7inch-as-example">Booting Android OS And Test(Using 7inch as example)<a class="headerlink" href="#booting-android-os-and-test-using-7inch-as-example" title="Permalink to this headline">¶</a></h3>
 <p>The first time you start Android 6.0 OS on the industrial PC will take a little time. But after the first time, Android 6.0 OS will start quickly.
 It is a successful start if you see the Android 6.0 OS desktop such as the one shown in the figure below:</p>
-<figure class="align-center" id="id13">
+<figure class="align-center" id="id14">
 <img alt="../../../../../_images/android_screen.png" src="../../../../../_images/android_screen.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 186:  </span><span class="caption-text"><em>Android Desktop Screen</em></span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 186:  </span><span class="caption-text"><em>Android Desktop Screen</em></span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <section id="sd-test">
 <h4 id="sd-test">SD Test<a class="headerlink" href="#sd-test" title="Permalink to this headline">¶</a></h4>
 <p>The IPC supports SD card hot-plug. The figure below shows the message when you plug the SD card into IPC.
 The IPC will mounts the SD Card to <cite>/mnt/media_rw/</cite> and <cite>/storage/</cite> directory.</p>
-<figure class="align-center" id="id14">
+<figure class="align-center" id="id15">
 <img alt="../../../../../_images/sd_11.png" src="../../../../../_images/sd_11.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 187:  </span><span class="caption-text"><em>Serial Message</em></span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 187:  </span><span class="caption-text"><em>Serial Message</em></span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="usb-flash-disk-test">
 <h4 id="usb-flash-disk-test">USB Flash Disk Test<a class="headerlink" href="#usb-flash-disk-test" title="Permalink to this headline">¶</a></h4>
 <p>The USB Flash Disk is like the SD Card. The IPC mounts the USB Flash Disk to <cite>/mnt/media_rw/</cite> and <cite>/storage/</cite> directory.</p>
-<figure class="align-center" id="id15">
+<figure class="align-center" id="id16">
 <img alt="../../../../../_images/udisk_11.png" src="../../../../../_images/udisk_11.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 188:  </span><span class="caption-text"><em>USB flash disk test</em></span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 188:  </span><span class="caption-text"><em>USB flash disk test</em></span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="network-test">
 <h4 id="network-test">Network Test<a class="headerlink" href="#network-test" title="Permalink to this headline">¶</a></h4>
 <p>The network uses DHCP to get IP Addresses. You can use the <strong>ethernet app</strong> to set a static IP, to check the obtained IP from the router, and to set the proxy. <br/></p>
-<figure class="align-center" id="id16">
+<figure class="align-center" id="id17">
 <img alt="../../../../../_images/network1.png" src="../../../../../_images/network1.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 189:  </span><span class="caption-text"><em>Ethernet App</em></span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 189:  </span><span class="caption-text"><em>Ethernet App</em></span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -1052,52 +1044,52 @@ You just need to insert the OTG cable into the IPC, and allow USB debugging. <br
 <p>Also, you can use the ADB tool in the tools directory to test the ADB.</p>
 <ul>
 <li><dl>
-<dt>Unzip it to the root directory of your Windows PC (Drive C), as shown on the figure below.</dt><dd><figure class="align-center" id="id17">
+<dt>Unzip it to the root directory of your Windows PC (Drive C), as shown on the figure below.</dt><dd><figure class="align-center" id="id18">
 <img alt="../../../../../_images/adb_test_5.png" src="../../../../../_images/adb_test_5.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 190:  </span><span class="caption-text"><em>Unzip adb.rar to c:\</em></span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 190:  </span><span class="caption-text"><em>Unzip adb.rar to c:\</em></span><a class="headerlink" href="#id18" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>You need to add path of the ADB directory to system’s environment variable. Follow the steps described in the figures below to set the environment variable.</dt><dd><figure class="align-center" id="id18">
+<dt>You need to add path of the ADB directory to system’s environment variable. Follow the steps described in the figures below to set the environment variable.</dt><dd><figure class="align-center" id="id19">
 <img alt="../../../../../_images/adb_test_6.png" src="../../../../../_images/adb_test_6.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 191:  </span><span class="caption-text"><em>Open Advance system settings</em></span><a class="headerlink" href="#id18" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
-<figure class="align-center" id="id19">
-<img alt="../../../../../_images/adb_test_7.png" src="../../../../../_images/adb_test_7.png"/>
-<figcaption>
-<p><span class="caption-number">Figure 192:  </span><span class="caption-text"><em>Open and edit the **Path*</em> system variable*</span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 191:  </span><span class="caption-text"><em>Open Advance system settings</em></span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id20">
+<img alt="../../../../../_images/adb_test_7.png" src="../../../../../_images/adb_test_7.png"/>
+<figcaption>
+<p><span class="caption-number">Figure 192:  </span><span class="caption-text"><em>Open and edit the **Path*</em> system variable*</span><a class="headerlink" href="#id20" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id21">
 <img alt="../../../../../_images/adb_test_8.png" src="../../../../../_images/adb_test_8.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 193:  </span><span class="caption-text"><em>Add path of the ADB directory to the</em> <strong>Path</strong> <em>system variable</em></span><a class="headerlink" href="#id20" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 193:  </span><span class="caption-text"><em>Add path of the ADB directory to the</em> <strong>Path</strong> <em>system variable</em></span><a class="headerlink" href="#id21" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Open the command-prompt on Windows and enter this command <cite>adb version</cite>, as shown on the figure below. The process is successful, if the command-prompt displays the version number of ADB.</dt><dd><figure class="align-center" id="id21">
+<dt>Open the command-prompt on Windows and enter this command <cite>adb version</cite>, as shown on the figure below. The process is successful, if the command-prompt displays the version number of ADB.</dt><dd><figure class="align-center" id="id22">
 <img alt="../../../../../_images/adb_test_9.png" src="../../../../../_images/adb_test_9.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 194:  </span><span class="caption-text"><em>ADB tool is working</em></span><a class="headerlink" href="#id21" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 194:  </span><span class="caption-text"><em>ADB tool is working</em></span><a class="headerlink" href="#id22" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Connect the USB-OTG cable from the Windows PC to IPC. You will get a message <strong>Allow USB debugging?</strong>. Please select <strong>Always allow from this computer</strong> and click <strong>Ok</strong>.</dt><dd><figure class="align-center" id="id22">
+<dt>Connect the USB-OTG cable from the Windows PC to IPC. You will get a message <strong>Allow USB debugging?</strong>. Please select <strong>Always allow from this computer</strong> and click <strong>Ok</strong>.</dt><dd><figure class="align-center" id="id23">
 <img alt="../../../../../_images/adb_test_101.png" src="../../../../../_images/adb_test_101.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 195:  </span><span class="caption-text"><em>Enable USB debugging</em></span><a class="headerlink" href="#id22" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 195:  </span><span class="caption-text"><em>Enable USB debugging</em></span><a class="headerlink" href="#id23" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -1108,10 +1100,10 @@ You just need to insert the OTG cable into the IPC, and allow USB debugging. <br
 <div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="p">$</span> <span class="n">adb</span> <span class="n">devices</span>
 </pre></div>
 </div>
-<figure class="align-center" id="id23">
+<figure class="align-center" id="id24">
 <img alt="../../../../../_images/adb_test_11.png" src="../../../../../_images/adb_test_11.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 196:  </span><span class="caption-text"><em>Checking devices attached</em></span><a class="headerlink" href="#id23" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 196:  </span><span class="caption-text"><em>Checking devices attached</em></span><a class="headerlink" href="#id24" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p>You can install an android app from the Windows PC onto the IPC with this command.</p>
@@ -1121,10 +1113,10 @@ You just need to insert the OTG cable into the IPC, and allow USB debugging. <br
 <figure class="align-center">
 <img alt="../../../../../_images/adb_test_12.png" src="../../../../../_images/adb_test_12.png"/>
 </figure>
-<figure class="align-center" id="id24">
+<figure class="align-center" id="id25">
 <img alt="../../../../../_images/adb_test_13.png" src="../../../../../_images/adb_test_13.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 197:  </span><span class="caption-text"><em>Install android app</em></span><a class="headerlink" href="#id24" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 197:  </span><span class="caption-text"><em>Install android app</em></span><a class="headerlink" href="#id25" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -1139,18 +1131,18 @@ The screen will show the number and position of the touch point when touching th
 <li><p>The 21.5”, 19”, and 17” capacitive screen supports a ten-point touch.</p></li>
 </ul>
 </div>
-<figure class="align-center" id="id25">
+<figure class="align-center" id="id26">
 <img alt="../../../../../_images/Touch_Test.jpeg" src="../../../../../_images/Touch_Test.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 198:  </span><span class="caption-text">Touch screen test (Capacitive touch)</span><a class="headerlink" href="#id25" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 198:  </span><span class="caption-text">Touch screen test (Capacitive touch)</span><a class="headerlink" href="#id26" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="serial-test">
 <h4 id="serial-test">Serial Test<a class="headerlink" href="#serial-test" title="Permalink to this headline">¶</a></h4>
 <p>There are five serial ports on the Chipsee IPC: 2 x RS232 and 3 x RS485 (can be customised). Refer to the table below for the available serial device nodes.</p>
-<table id="id26" style="width: 100%">
-<caption><span class="caption-number">Table 45 </span><span class="caption-text">Serial Ports Nodes on the System</span><a class="headerlink" href="#id26" title="Permalink to this table">¶</a></caption>
+<table id="id27" style="width: 100%">
+<caption><span class="caption-number">Table 45 </span><span class="caption-text">Serial Ports Nodes on the System</span><a class="headerlink" href="#id27" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Device Node</p></th>
@@ -1185,30 +1177,30 @@ The screen will show the number and position of the touch point when touching th
 <dt>Run <strong>Serial Port API</strong> App to communicate with Windows 7 PC, as shown on the figure below.</dt><dd><figure class="align-center">
 <img alt="../../../../../_images/serial_test_1.png" src="../../../../../_images/serial_test_1.png"/>
 </figure>
-<figure class="align-center" id="id27">
+<figure class="align-center" id="id28">
 <img alt="../../../../../_images/serial_test_2.png" src="../../../../../_images/serial_test_2.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 199:  </span><span class="caption-text"><em>Serial settings</em></span><a class="headerlink" href="#id27" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 199:  </span><span class="caption-text"><em>Serial settings</em></span><a class="headerlink" href="#id28" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Push the button with the label “Send 01010101”, you will see something on the Windows 7 PC that looks similar to the figure below.</dt><dd><figure class="align-center" id="id28">
+<dt>Push the button with the label “Send 01010101”, you will see something on the Windows 7 PC that looks similar to the figure below.</dt><dd><figure class="align-center" id="id29">
 <img alt="../../../../../_images/Serial_Port_Settings_2.jpeg" src="../../../../../_images/Serial_Port_Settings_2.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 200:  </span><span class="caption-text"><em>Serial send test</em></span><a class="headerlink" href="#id28" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 200:  </span><span class="caption-text"><em>Serial send test</em></span><a class="headerlink" href="#id29" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Push the button with the label “Console”, to send whatever you like as shown on the figure below.</dt><dd><figure class="align-center" id="id29">
+<dt>Push the button with the label “Console”, to send whatever you like as shown on the figure below.</dt><dd><figure class="align-center" id="id30">
 <img alt="../../../../../_images/Serial_Port_Settings_3.jpeg" src="../../../../../_images/Serial_Port_Settings_3.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 201:  </span><span class="caption-text"><em>Serial receive test</em></span><a class="headerlink" href="#id29" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 201:  </span><span class="caption-text"><em>Serial receive test</em></span><a class="headerlink" href="#id30" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -1227,10 +1219,10 @@ Please check the <strong>GPIO Connector</strong> section in <a class="reference 
 <p>The V1 and V2 of CS10600F070 GPIO is not same.</p>
 </div>
 <p>You can use <strong>GPIODemo</strong> app to test the GPIO.</p>
-<figure class="align-center" id="id30">
+<figure class="align-center" id="id31">
 <img alt="../../../../../_images/gpio.png" src="../../../../../_images/gpio.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 202:  </span><span class="caption-text"><em>GPIODemo app</em></span><a class="headerlink" href="#id30" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 202:  </span><span class="caption-text"><em>GPIODemo app</em></span><a class="headerlink" href="#id31" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <section id="modify-logo">
@@ -1259,8 +1251,8 @@ Please check the <strong>GPIO Connector</strong> section in <a class="reference 
 </dl>
 </li>
 </ul>
-<table id="id31" style="width: 100%">
-<caption><span class="caption-number">Table 46 </span><span class="caption-text">CS12800F101 P18</span><a class="headerlink" href="#id31" title="Permalink to this table">¶</a></caption>
+<table id="id32" style="width: 100%">
+<caption><span class="caption-number">Table 46 </span><span class="caption-text">CS12800F101 P18</span><a class="headerlink" href="#id32" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>PIN Number</p></th>
 <th class="head"><p>GPIO Number</p></th>
@@ -1311,60 +1303,60 @@ Please check the <strong>GPIO Connector</strong> section in <a class="reference 
 </tr>
 </tbody>
 </table>
-<table id="id32" style="width: 100%">
-<caption><span class="caption-number">Table 47 </span><span class="caption-text">CS10600F070V1 P21</span><a class="headerlink" href="#id32" title="Permalink to this table">¶</a></caption>
-<thead>
-<tr class="row-odd"><th class="head"><p>PIN Number</p></th>
-<th class="head"><p>GPIO Number</p></th>
-<th class="head"><p>Devices File</p></th>
-<th class="head"><p>Direction</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>21</p></td>
-<td><p>gpio106</p></td>
-<td><p>/dev/chipsee-gpio7</p></td>
-<td><p>IN</p></td>
-</tr>
-<tr class="row-odd"><td><p>22</p></td>
-<td><p>gpio29</p></td>
-<td><p>/dev/chipsee-gpio1</p></td>
-<td><p>OUT</p></td>
-</tr>
-<tr class="row-even"><td><p>23</p></td>
-<td><p>gpio30</p></td>
-<td><p>/dev/chipsee-gpio3</p></td>
-<td><p>OUT</p></td>
-</tr>
-<tr class="row-odd"><td><p>24</p></td>
-<td><p>gpio28</p></td>
-<td><p>/dev/chipsee-gpio2</p></td>
-<td><p>OUT</p></td>
-</tr>
-<tr class="row-even"><td><p>27</p></td>
-<td><p>gpio95</p></td>
-<td><p>/dev/chipsee-gpio6</p></td>
-<td><p>IN</p></td>
-</tr>
-<tr class="row-odd"><td><p>28</p></td>
-<td><p>gpio94</p></td>
-<td><p>/dev/chipsee-gpio5</p></td>
-<td><p>IN</p></td>
-</tr>
-<tr class="row-even"><td><p>29</p></td>
-<td><p>gpio87</p></td>
-<td><p>/dev/chipsee-gpio4</p></td>
-<td><p>OUT</p></td>
-</tr>
-<tr class="row-odd"><td><p>30</p></td>
-<td><p>gpio130</p></td>
-<td><p>/dev/chipsee-gpio8</p></td>
-<td><p>IN</p></td>
-</tr>
-</tbody>
-</table>
 <table id="id33" style="width: 100%">
-<caption><span class="caption-number">Table 48 </span><span class="caption-text">CS10600F070V2 P21</span><a class="headerlink" href="#id33" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 47 </span><span class="caption-text">CS10600F070V1 P21</span><a class="headerlink" href="#id33" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>PIN Number</p></th>
+<th class="head"><p>GPIO Number</p></th>
+<th class="head"><p>Devices File</p></th>
+<th class="head"><p>Direction</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>21</p></td>
+<td><p>gpio106</p></td>
+<td><p>/dev/chipsee-gpio7</p></td>
+<td><p>IN</p></td>
+</tr>
+<tr class="row-odd"><td><p>22</p></td>
+<td><p>gpio29</p></td>
+<td><p>/dev/chipsee-gpio1</p></td>
+<td><p>OUT</p></td>
+</tr>
+<tr class="row-even"><td><p>23</p></td>
+<td><p>gpio30</p></td>
+<td><p>/dev/chipsee-gpio3</p></td>
+<td><p>OUT</p></td>
+</tr>
+<tr class="row-odd"><td><p>24</p></td>
+<td><p>gpio28</p></td>
+<td><p>/dev/chipsee-gpio2</p></td>
+<td><p>OUT</p></td>
+</tr>
+<tr class="row-even"><td><p>27</p></td>
+<td><p>gpio95</p></td>
+<td><p>/dev/chipsee-gpio6</p></td>
+<td><p>IN</p></td>
+</tr>
+<tr class="row-odd"><td><p>28</p></td>
+<td><p>gpio94</p></td>
+<td><p>/dev/chipsee-gpio5</p></td>
+<td><p>IN</p></td>
+</tr>
+<tr class="row-even"><td><p>29</p></td>
+<td><p>gpio87</p></td>
+<td><p>/dev/chipsee-gpio4</p></td>
+<td><p>OUT</p></td>
+</tr>
+<tr class="row-odd"><td><p>30</p></td>
+<td><p>gpio130</p></td>
+<td><p>/dev/chipsee-gpio8</p></td>
+<td><p>IN</p></td>
+</tr>
+</tbody>
+</table>
+<table id="id34" style="width: 100%">
+<caption><span class="caption-number">Table 48 </span><span class="caption-text">CS10600F070V2 P21</span><a class="headerlink" href="#id34" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>PIN Number</p></th>
 <th class="head"><p>GPIO Number</p></th>
@@ -1415,14 +1407,14 @@ Please check the <strong>GPIO Connector</strong> section in <a class="reference 
 </tr>
 </tbody>
 </table>
-<figure class="align-center" id="id34">
+<figure class="align-center" id="id35">
 <img alt="../../../../../_images/logo_1.png" src="../../../../../_images/logo_1.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 203:  </span><span class="caption-text"><em>Logo Modify with MFGTool</em></span><a class="headerlink" href="#id34" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 203:  </span><span class="caption-text"><em>Logo Modify with MFGTool</em></span><a class="headerlink" href="#id35" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p><strong>Use Logoflasher to Change Logo</strong></p>
-<p>You can get the <code class="docutils literal notranslate"><span class="pre">prebuilt-imx6qdl-bootfile-update-xxx.tar.gz</span></code> file from <cite>DVD\Android6.0\Tools</cite> and use these tools to make one bootable TF card. <br/>
+<p>You can get the <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/prebuilt-imx6qdl-bootfile-update-20220323.tar.gz">Logoflasher</a> file  and use these tools to make one bootable TF card. <br/>
 Follow the steps below to change logo</p>
 <ul>
 <li><dl>
@@ -1454,20 +1446,20 @@ Follow these steps to view Android 6.0 system via the serial port:</p>
 <ul>
 <li><p>Connect COM1 on the industrial PC board to Windows 7 PC.</p></li>
 <li><dl>
-<dt>Open the <strong>SecureCRT</strong> or <strong>Putty</strong> software on the Windows 7 PC and configure it as shown on the figure below.</dt><dd><figure class="align-center" id="id35">
+<dt>Open the <strong>SecureCRT</strong> or <strong>Putty</strong> software on the Windows 7 PC and configure it as shown on the figure below.</dt><dd><figure class="align-center" id="id36">
 <img alt="../../../../../_images/android_debug_1.png" src="../../../../../_images/android_debug_1.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 204:  </span><span class="caption-text"><em>SecureCRT configuration</em></span><a class="headerlink" href="#id35" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 204:  </span><span class="caption-text"><em>SecureCRT configuration</em></span><a class="headerlink" href="#id36" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Power ON the industrial PC. You will see the serial output information as shown on the figure below.</dt><dd><figure class="align-center" id="id36">
+<dt>Power ON the industrial PC. You will see the serial output information as shown on the figure below.</dt><dd><figure class="align-center" id="id37">
 <img alt="../../../../../_images/android_debug_21.png" src="../../../../../_images/android_debug_21.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 205:  </span><span class="caption-text"><em>Serial output information</em></span><a class="headerlink" href="#id36" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 205:  </span><span class="caption-text"><em>Serial output information</em></span><a class="headerlink" href="#id37" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -1483,10 +1475,10 @@ You can use the following command to log in to the board and communicate with it
 <div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="p">&gt;</span> <span class="n">adb</span> <span class="n">shell</span>
 </pre></div>
 </div>
-<figure class="align-center" id="id37">
+<figure class="align-center" id="id38">
 <img alt="../../../../../_images/android_debug_3.png" src="../../../../../_images/android_debug_3.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 206:  </span><span class="caption-text"><em>ADB Shell</em></span><a class="headerlink" href="#id37" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 206:  </span><span class="caption-text"><em>ADB Shell</em></span><a class="headerlink" href="#id38" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <section id="use-adb-command-to-install-user-app">
@@ -1495,10 +1487,10 @@ You can use the following command to log in to the board and communicate with it
 <div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="p">&gt;</span> <span class="n">adb</span> <span class="n">install</span> <span class="n">SogouInput</span><span class="p">.</span><span class="n">apk</span>
 </pre></div>
 </div>
-<figure class="align-center" id="id38">
+<figure class="align-center" id="id39">
 <img alt="../../../../../_images/App_Installed.jpeg" src="../../../../../_images/App_Installed.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 207:  </span><span class="caption-text">Install App</span><a class="headerlink" href="#id38" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 207:  </span><span class="caption-text">Install App</span><a class="headerlink" href="#id39" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -1512,10 +1504,10 @@ You can use the following command to log in to the board and communicate with it
 <ul class="simple">
 <li><p>The <cite>pm list</cite> command gets the full name of the app, as shown on the figure below.</p></li>
 </ul>
-<figure class="align-center" id="id39">
+<figure class="align-center" id="id40">
 <img alt="../../../../../_images/android_debug_4.png" src="../../../../../_images/android_debug_4.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 208:  </span><span class="caption-text"><em>Uninstall user app</em></span><a class="headerlink" href="#id39" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 208:  </span><span class="caption-text"><em>Uninstall user app</em></span><a class="headerlink" href="#id40" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <ul class="simple">
@@ -1546,15 +1538,15 @@ su
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># rm Email.apk</span>
 </pre></div>
 </div>
-<figure class="align-center" id="id40">
+<figure class="align-center" id="id41">
 <img alt="../../../../../_images/android_debug_5.png" src="../../../../../_images/android_debug_5.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 209:  </span><span class="caption-text"><em>Uninstall default app</em></span><a class="headerlink" href="#id40" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 209:  </span><span class="caption-text"><em>Uninstall default app</em></span><a class="headerlink" href="#id41" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
-<section id="id1">
-<h4 id="id1">Use ADB command to uninstall default APP<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<section id="id2">
+<h4 id="id2">Use ADB command to uninstall default APP<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
 <p>Use <code class="docutils literal notranslate"><span class="pre">adb</span></code> command to transport files between the industrial PC and Windows 7 PC.</p>
 <ul>
 <li><dl>
@@ -1655,70 +1647,70 @@ su
 <h3 id="example-develop-a-helloworld-program">Example — Develop a <code class="docutils literal notranslate"><span class="pre">HelloWorld</span></code> Program<a class="headerlink" href="#example-develop-a-helloworld-program" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic">
 <li><dl>
-<dt>Start a new Android Studio project</dt><dd><figure class="align-center" id="id41">
+<dt>Start a new Android Studio project</dt><dd><figure class="align-center" id="id42">
 <img alt="../../../../../_images/app_dev_11.png" src="../../../../../_images/app_dev_11.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 210:  </span><span class="caption-text"><em>New Project</em></span><a class="headerlink" href="#id41" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 210:  </span><span class="caption-text"><em>New Project</em></span><a class="headerlink" href="#id42" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Configure your new project</dt><dd><figure class="align-center" id="id42">
+<dt>Configure your new project</dt><dd><figure class="align-center" id="id43">
 <img alt="../../../../../_images/app_dev_21.png" src="../../../../../_images/app_dev_21.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 211:  </span><span class="caption-text"><em>Project Configuration</em></span><a class="headerlink" href="#id42" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 211:  </span><span class="caption-text"><em>Project Configuration</em></span><a class="headerlink" href="#id43" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Select the form factors your application will run on</dt><dd><figure class="align-center" id="id43">
+<dt>Select the form factors your application will run on</dt><dd><figure class="align-center" id="id44">
 <img alt="../../../../../_images/app_dev_31.png" src="../../../../../_images/app_dev_31.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 212:  </span><span class="caption-text"><em>App form factor</em></span><a class="headerlink" href="#id43" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 212:  </span><span class="caption-text"><em>App form factor</em></span><a class="headerlink" href="#id44" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Select one Empty Activity</dt><dd><figure class="align-center" id="id44">
+<dt>Select one Empty Activity</dt><dd><figure class="align-center" id="id45">
 <img alt="../../../../../_images/app_dev_41.png" src="../../../../../_images/app_dev_41.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 213:  </span><span class="caption-text"><em>Add Activity</em></span><a class="headerlink" href="#id44" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 213:  </span><span class="caption-text"><em>Add Activity</em></span><a class="headerlink" href="#id45" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Customize the Activity</dt><dd><figure class="align-center" id="id45">
+<dt>Customize the Activity</dt><dd><figure class="align-center" id="id46">
 <img alt="../../../../../_images/app_dev_51.png" src="../../../../../_images/app_dev_51.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 214:  </span><span class="caption-text"><em>Customize Activity</em></span><a class="headerlink" href="#id45" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 214:  </span><span class="caption-text"><em>Customize Activity</em></span><a class="headerlink" href="#id46" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Develop the App</dt><dd><figure class="align-center" id="id46">
+<dt>Develop the App</dt><dd><figure class="align-center" id="id47">
 <img alt="../../../../../_images/app_dev_61.png" src="../../../../../_images/app_dev_61.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 215:  </span><span class="caption-text"><em>App Development Interface</em></span><a class="headerlink" href="#id46" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 215:  </span><span class="caption-text"><em>App Development Interface</em></span><a class="headerlink" href="#id47" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Run app on target IPC</dt><dd><figure class="align-center" id="id47">
+<dt>Run app on target IPC</dt><dd><figure class="align-center" id="id48">
 <img alt="../../../../../_images/app_dev_71.png" src="../../../../../_images/app_dev_71.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 216:  </span><span class="caption-text"><em>HelloWorld Program</em></span><a class="headerlink" href="#id47" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 216:  </span><span class="caption-text"><em>HelloWorld Program</em></span><a class="headerlink" href="#id48" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
