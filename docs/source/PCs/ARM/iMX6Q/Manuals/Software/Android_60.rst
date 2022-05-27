@@ -83,7 +83,7 @@ Getting Started and Tests
 
 .. note::
 
-    Throughout this section, the user can use both the pre-built |systemType| image files and the **MFGTools** software to burn files to the system, boot system and perform necessary software and hardware test.
+    Throughout this section, the user can use both the pre-built |systemType| image files and the `MFGTools <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K31452-V1.3.zip>`_ software to burn files to the system, boot system and perform necessary software and hardware test.
 
 Boot Switch Configuration
 -------------------------
@@ -118,7 +118,7 @@ CS-IMX6 has a boot configuration select switch, as shown on the figure below. Yo
 Prepare Manufacturing Tool and Image
 ------------------------------------
 
-The manufacturing tool, referred to as **MFGTool**, is a tool that runs on a Windows PC. You can use it to download pre-built images to the eMMC on a Chipsee board. The tools directory contains the ``tar.gz`` file.
+The manufacturing tool, referred to as `MFGTools <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K31452-V1.3.zip>`_, is a tool that runs on a Windows PC. You can use it to download pre-built images to the eMMC on a Chipsee board. The tools directory contains the ``tar.gz`` file.
 
 .. table::
     :align: center
@@ -151,16 +151,10 @@ Downloading Images
 Chipsee IPC supports booting from an integrated eMMC or an external TF Card (also known as the micro SD card).
 Booting from the external TF Card allows flashing the system OS.
 
-.. note::
-    The operator should use the prebuilt file we provided in the CD to test the hardware before re-flashing the system.
-
 Downloading Images by using MFGTool
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Chipsee IPC supports booting from an integrated eMMC.
-
-.. note::
-    The operator should use the prebuilt file we provided in the CD to test the hardware before re-flashing the system.
 
 Configuring MFGTool
 +++++++++++++++++++
@@ -640,7 +634,7 @@ We will use **MFGTools** and the **Logoflasher** apps to change the logo.
 
 **Use Logoflasher to Change Logo**
 
-You can get the ``prebuilt-imx6qdl-bootfile-update-xxx.tar.gz`` file from `DVD\\Android6.0\\Tools` and use these tools to make one bootable TF card. |br|
+You can get the `Logoflasher <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/prebuilt-imx6qdl-bootfile-update-20220323.tar.gz>`_ file  and use these tools to make one bootable TF card. |br|
 Follow the steps below to change logo
 
 * Use the following commands to make bootable TF card.
