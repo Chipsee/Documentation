@@ -8,7 +8,7 @@
 
 .. |res| replace:: 1280 x 800 (4:3)
 
-.. |bright| replace:: 300 |cd|
+.. |bright| replace:: 350 |cd|
 
 .. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
@@ -24,13 +24,13 @@
 
 .. |connector| replace:: VGA / DVI / HDMI
 
-.. |dim| replace:: 	249.83 x 168.43 x 31.45mm
+.. |dim| replace:: 	253.20 x 171.8 x 35mm
 
 .. |pkg_size| replace:: 332 x 225 x 60mm
 
-.. |weight| replace:: 1100g
+.. |weight| replace:: 1.1kg
 
-.. |mount| replace:: VESA, MIS-D, 100, C
+.. |mount| replace:: VESA, Panel
 
 .. |pwr| replace:: ≤ 14W
 
@@ -60,7 +60,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-101-C/pim-101-front.jpeg
+.. image:: /Media/Monitors/PIM-101-C/pim-101-side.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View
 
@@ -73,7 +73,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-101-C/pim-101-back.jpeg
+.. image:: /Media/Monitors/PIM-101-C/pim-101-back.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View
 
@@ -86,7 +86,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-101-C/pim-101-bottom.jpeg
+.. image:: /Media/Monitors/PIM-101-C/pim-101-bottom.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Bottom View
 

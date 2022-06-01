@@ -93,13 +93,13 @@ Software Requirements
 * `Xshell <https://xshell.en.softonic.com/>`_ or other terminal emulation software
 * `VNC-Viewer <https://www.realvnc.com/en/connect/download/viewer/>`_
 * `Cross-toolchain <https://bit.ly/3FNAjeM>`_
-* MFGTools
+* `MFGTools <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K31452-V1.3.zip>`_
 * Useful tools for Qt development
 
 .. note::
 
     * If you want to re-flash the system, you need the Prebuilt image package.
-    * You can use MFGTools on the Windows PC to download system images to the IPC. The MFGTools is in `DVD/Linux+QT5/Tools` directory.
+    * You can use MFGTools on the Windows PC to download system images to the IPC.
     * You can use Xshell or other terminal emulation software to debug Chipsee Industrial PC products in Windows.
     * You can use VNC-Viewer to to remote control Chipsee Industrial PC over Ethernet.
     * The cross-toolchain can compile a program for Chipsee Industrial PC.
@@ -233,7 +233,7 @@ CS-IMX6 has a boot configuration select switch, as shown on the figure below. Yo
 
 .. note::
 
-    The user can use both the pre-built |systemType| image files and the **MFGTools** software to download new images to the system, boot system and perform necessary software and hardware test.
+    The user can use both the pre-built |systemType| image files and the `MFGTools <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K31452-V1.3.zip>`_ software to download new images to the system, boot system and perform necessary software and hardware test.
 
 Prebuilt Files Package
 ----------------------
@@ -293,13 +293,13 @@ The prebuilt package has the following content:
 Downloading Images by using MFGTool
 -----------------------------------
 
-The MFGTools can be used to download images into a target device.
-It is a quick and easy tool for downloading images. You can get it from DVD and use it on a Windows Platform device.
+The `MFGTools <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K31452-V1.3.zip>`_ can be used to download images into a target device.
+It is a quick and easy tool for downloading images. 
 
 .. note::
     The operator should use the prebuilt file we provided in the CD to test the hardware before re-flashing the system.
 
-Before downloading images with the MFGTools, set the boot switch to download mode. (refer to `Boot Switch Configuration`_ above)
+Before downloading images with the `MFGTools <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K31452-V1.3.zip>`_, set the boot switch to download mode. (refer to `Boot Switch Configuration`_ above)
 
 Configuring MFGTool
 ^^^^^^^^^^^^^^^^^^^
@@ -864,7 +864,7 @@ We will use **MFGTools** and the **Logoflasher** apps to change the logo.
 
 **Use Logoflasher to Change Logo**
 
-You can get the ``prebuilt-imx6qdl-bootfile-update-xxx.tar.gz`` file from `DVD\\Linux_Qt5.5\\Tools` and use these tools to make one bootable TF card. |br|
+You can get the `Logoflasher <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/prebuilt-imx6qdl-bootfile-update-20220323.tar.gz>`_ file and use this tool to make one bootable TF card. |br|
 Follow the steps below to change logo
 
 * Use the following commands to make bootable TF card.
@@ -887,7 +887,7 @@ Preparation
 -----------
 
 #) Download `QT5.5.1 <https://download.qt.io/archive/qt/5.5/5.5.1/>`_ and install it on the system. Install it in the `/home/<user>/program` directory.
-#) Install SDK. Get the SDK from `DVD/Linux+QT5/Tools/fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh` and install it using this command:
+#) Install SDK. Get the `SDK <https://chipsee-tmp.s3.amazonaws.com/DVD/IMX6Q/Tools/fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh>`_ and install it using this command:
     .. code-block:: bash
 
        # chmod +x fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh
@@ -1005,7 +1005,7 @@ How to Change psplash's
        $ sudo  apt-get  install  autoconf  libgdk-pixbuf2.0-dev
 
 * Generate psplash of your own.
-    + Get ``psplash.tar.gz`` from `DVD/Linux+QT5/Tools/` and extract it.
+    + Get `psplash <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/psplash_imx6.zip>`_ and extract it.
         .. code-block:: bash
 
            $ sudo tar zxvf psplash.tar.gz

@@ -94,13 +94,13 @@ Software Requirements
 * `Xshell <https://xshell.en.softonic.com/>`_ or other terminal emulation software
 * `VNC-Viewer <https://www.realvnc.com/en/connect/download/viewer/>`_
 * `Cross-toolchain <https://bit.ly/3FNAjeM>`_
-* MFGTools
+* `MFGTools <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K31452-V1.3.zip>`_
 * Useful tools for Qt development
 
 .. note::
 
     * If you want to re-flash the system, you need the Prebuilt image package.
-    * You can use MFGTools on the Windows PC to download system images to the IPC. The MFGTools is in `DVD/Linux+QT5/Tools` directory.
+    * You can use MFGTools on the Windows PC to download system images to the IPC.
     * You can use Xshell or other terminal emulation software to debug Chipsee Industrial PC products in Windows.
     * You can use VNC-Viewer to to remote control Chipsee Industrial PC over Ethernet.
     * The cross-toolchain can compile a program for Chipsee Industrial PC.
@@ -257,7 +257,7 @@ CS-IMX6 has a boot configuration select switch, as shown on the figure below. Yo
 
 .. note::
 
-    The user can use both the pre-built |systemType| image files and the **MFGTools** software to download new images to the system, boot system and perform necessary software and hardware test.
+    The user can use both the pre-built |systemType| image files and the `MFGTools <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K31452-V1.3.zip>`_ software to download new images to the system, boot system and perform necessary software and hardware test.
 
 Prebuilt Files Package
 ----------------------
@@ -317,11 +317,8 @@ The prebuilt package has the following content:
 Downloading Images by using MFGTool
 -----------------------------------
 
-The MFGTools can be used to download images into a target device.
-It is a quick and easy tool for downloading images. You can get it from DVD and use it on a Windows Platform device.
-
-.. note::
-    The operator should use the prebuilt file we provided in the CD to test the hardware before re-flashing the system.
+The `MFGTools <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K31452-V1.3.zip>`_ can be used to download images into a target device.
+It is a quick and easy tool for downloading images. 
 
 Before downloading images with the MFGTools, set the boot switch to download mode. (refer to `Boot Switch Configuration`_ above)
 
@@ -903,7 +900,7 @@ We will use **MFGTools** and the **Logoflasher** apps to change the logo.
 
 **Use Logoflasher to Change Logo**
 
-You can get the ``prebuilt-imx6qdl-bootfile-update-xxx.tar.gz`` file from `DVD\\Ubuntu14.04\\Tools` and use these tools to make one bootable TF card. |br|
+You can get the `Logoflasher <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/prebuilt-imx6qdl-bootfile-update-20220323.tar.gz>`_ file and use these tools to make one bootable TF card. |br|
 Follow the steps below to change logo
 
 * Use the following commands to make bootable TF card.
@@ -984,8 +981,7 @@ There is no Qt environment and build environment in this system, you need to ins
        $ sudo apt-get install qt5-default // or qt4-default if you want to use qt4
        $ sudo apt-get clean
 
-* There are some QT packages source demo in `DVD/Ubuntu14.04/QT/`, use ssh to put them to the Chipsee IPC board.
-* We use ``hardwaretest_serial_ok_20170223.tar.gz`` file to demonstrate this development exercise. To perform this demo, we need to install ``qtserialport`` support first using this commands:
+* We use `hardwaretest_serial <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Demos/hardwaretest_serial_ok_20170223.tar.gz>`_  to demonstrate this development exercise. To perform this demo, we need to install ``qtserialport`` support first using this commands:
     .. code-block:: bash
 
        $ cd ~

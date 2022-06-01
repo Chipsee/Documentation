@@ -91,7 +91,7 @@ Getting Started and Tests
 
 .. note::
 
-    Throughout this section, the user can use both the pre-built |systemType| image files and the **MFGTools** software to burn files to the system, boot system and perform necessary software and hardware test.
+    Throughout this section, the user can use both the pre-built |systemType| image files and the `MFGTools <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K3035-V2.1.zip>`_ software to burn files to the system, boot system and perform necessary software and hardware test.
 
 
 Downloading images
@@ -189,11 +189,8 @@ The prebuilt package has the following content:
 Downloading Images by using MFGTool
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The MFGTools can be used to download images into a target device.
-It is a quick and easy tool for downloading images. You can get it from DVD and use it on a Windows Platform device.
-
-.. note::
-    The operator should use the prebuilt file we provided in the CD to test the hardware before re-flashing the system.
+The `MFGTools <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K3035-V2.1.zip>`_ can be used to download images into a target device.
+It is a quick and easy tool for downloading images.
 
 Before downloading images with the MFGTools, set the boot switch to download mode. (refer to `Boot Switch Configuration`_ above)
 
