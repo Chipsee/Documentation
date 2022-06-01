@@ -1,53 +1,107 @@
-Chipsee Documentation
-=====================
+Home
+====
 
-This documentation repository contains all products marketing collateral (manuals, certifications, 3D files, brochures, whitepapers) and custom OS downloads related to the Chipsee 
-products portfolio. 
+.. grid:: 2
 
-.. rubric:: Industrial Panel & Embedded PCs :
+    .. grid-item::
+        :columns: 12 6 6 6
 
-* :ref:`Powered by Arm® Cortex®, Intel®, and Raspberry PI® platforms <IP>`
+        .. raw:: html
 
-.. rubric:: Robust Industrial Monitors
+            <div class="welcome_div">
+                <h1>Chipsee Documentation</h1>
+                <p style="font-size: 20px!important;">Chipsee offers industrial PCs based on ARM and X86 CPUs, industrial monitors, and various SOM.</p>
+                <p style="font-size: 20px!important;">Our offer also includes customized products that can be tailor-made to fit your needs.</p>
+            </div>
 
-* :ref:`Monitors with Capacitive Touch <IM>`
 
-.. rubric:: High-performance System on Modules (SOMs)
+.. raw:: html
 
-* :ref:`SOM`
+    <div style="margin-bottom: 30px;border-bottom: 1px dashed #ef3d30;">
+        <h2>Product Categories</h2>
+    </div>
 
-.. rubric:: IPC Tutorials and Guides
 
-* :ref:`ITG`
+.. grid:: 4
+    :gutter: 2
 
-.. note::
+    .. grid-item-card::
+        :columns: 12 6 3 3
+        :link: PBA
+        :link-type: ref
+        :img-top: /Media/homepage/Product_1_Chipsee.jpg
+        :class-card: border
+        :text-align: center
 
-   For a product-specific software documentation, visit the related product link
+        .. raw:: html
+
+            <p class="card-head">
+                <b> <span style="color: #ef3d30;">ARM</span> Industrial PC</b> <br> NXP - TI - Rockchip
+            </p>
+
+    .. grid-item-card::
+        :columns: 12 6 3 3
+        :link: PBPI
+        :link-type: ref
+        :img-top: /Media/homepage/Product_2_Chipsee.jpg
+        :class-card: border
+        :text-align: center
+
+        .. raw:: html
+
+            <p class="card-head">
+                <b> <span style="color: #ef3d30;">ARM</span> Industrial PC</b> <br> Raspberry Pi
+            </p>
+
+    .. grid-item-card::
+        :columns: 12 6 3 3
+        :link: PBI
+        :link-type: ref
+        :img-top: /Media/homepage/Product_3_Chipsee.jpg
+        :class-card: border
+        :text-align: center
+
+        .. raw:: html
+
+            <p class="card-head">
+                <b> <span style="color: #ef3d30;">X86</span> Industrial PC</b> <br> Intel, AMD
+            </p>
+
+    .. grid-item-card::
+        :columns: 12 6 3 3
+        :link: IM
+        :link-type: ref
+        :img-top: /Media/homepage/Product_4_Chipsee.jpg
+        :class-card: border
+        :text-align: center
+
+        .. raw:: html
+
+            <p class="card-head">
+                Industrial Monitors with <br> Touch Screen
+            </p>
+
 
 .. toctree::
    :maxdepth: 1
-   :caption: Industrial Panel PC
    :hidden:
 
-   Powered by Arm Cortex, Intel, and Raspberry PI platforms <PCs/index>
+   Industrial PC <PCs/index>
 
 .. toctree::
    :maxdepth: 1
-   :caption: Industrial Monitors
    :hidden:
 
-   Monitors with Capacitive Touch <Monitors/index>
+   Industrial Monitor <Monitors/index>
 
 .. toctree::
    :maxdepth: 1
-   :caption: Systems on Module
    :hidden:
 
-   SOM/index
+   SOM (Systems on Module) <SOM/index>
 
 .. toctree::
    :maxdepth: 1
-   :caption: Tutorials and Guides
    :hidden:
 
-   TutorialGuide/index
+   Tutorials and Guides <TutorialGuide/index>

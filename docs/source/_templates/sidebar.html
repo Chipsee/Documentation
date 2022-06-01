@@ -10,6 +10,22 @@
     <a href="{{ pathto(master_doc)|e }}"
        title="{{ docstitle|striptags|e }}">{{ theme_nav_title or shorttitle }}</a>
   </label>
+
+  <ul class="list-group" id="mobile_menu">
+    <li class="list-group-item">
+      <a href="{{ pathto('PCs/index.html', 1) }}">Industrial PC</a>
+    </li>
+    <li class="list-group-item">
+      <a href="{{ pathto('Monitors/index.html', 1) }}">Industrial Monitor</a>
+    </li>
+    <li class="list-group-item">
+      <a href="{{ pathto('SOM/index.html', 1) }}">SOM (Systems on Module)</a>
+    </li>
+    <li class="list-group-item">
+      <a href="{{ pathto('TutorialGuide/index.html', 1) }}">Tutorials and Guides</a>
+    </li>
+  </ul>
+
   {%- if theme_repo_url %}
     <div class="md-nav__source">
       {% include "repo.html" %}
@@ -17,4 +33,5 @@
   {% endif %}
 
   {% include "globaltoc.html" %}
+
 </nav>

@@ -19,6 +19,49 @@
       </div>
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          <ul class="nav justify-content-center" id="desktop_menu">
+            {% set s_pg_name = pagename.split('/')[0] %}
+            {% if s_pg_name == "PCs" %}
+              <li class="nav-item">
+                <a class="nav-link" style="color:#fff!important;" href="{{ pathto('PCs/index.html', 1) }}">Industrial PC</a>
+              </li>
+            {% else %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ pathto('PCs/index.html', 1) }}">Industrial PC</a>
+              </li>
+            {% endif %}
+
+            {% if s_pg_name == "Monitors" %}
+              <li class="nav-item">
+                <a class="nav-link" style="color:#fff!important;" href="{{ pathto('Monitors/index.html', 1) }}">Industrial Monitor</a>
+              </li>
+            {% else %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ pathto('Monitors/index.html', 1) }}">Industrial Monitor</a>
+              </li>
+            {% endif %}
+
+            {% if s_pg_name == "SOM" %}
+              <li class="nav-item">
+                <a class="nav-link" style="color:#fff!important;" href="{{ pathto('SOM/index.html', 1) }}">SOM (Systems on Module)</a>
+              </li>
+            {% else %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ pathto('SOM/index.html', 1) }}">SOM (Systems on Module)</a>
+              </li>
+            {% endif %}
+
+            {% if s_pg_name == "TutorialGuide" %}
+              <li class="nav-item">
+                <a class="nav-link" style="color:#fff!important;" href="{{ pathto('TutorialGuide/index.html', 1) }}">Tutorials and Guides</a>
+              </li>
+            {% else %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ pathto('TutorialGuide/index.html', 1) }}">Tutorials and Guides</a>
+              </li>
+            {% endif %}
+        </ul>
+
           {%- if sourcename == 'index.rst.txt' %}
             <span class="md-header-nav__topic">{{ theme_nav_title or shorttitle }}</span>
             <span class="md-header-nav__topic"> {{ title|striptags|e }} </span>
