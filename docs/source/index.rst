@@ -38,9 +38,6 @@ Home
             <p class="card-head">
                 <b> <span style="color: #ef3d30;">ARM</span> Industrial PC</b> <br> NXP - TI - Rockchip
             </p>
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-        We have selected the most reliable ARM CPU from NXP, TI, and Rockchip for our ARM Industrial PC range, available for panel mounting or ready to be embedded in any other product. They offer multiple options for touch screens, connectivity, and industrial interfaces.
 
     .. grid-item-card::
         :columns: 12 6 3 3
@@ -55,9 +52,6 @@ Home
             <p class="card-head">
                 <b> <span style="color: #ef3d30;">ARM</span> Industrial PC</b> <br> Raspberry Pi
             </p>
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-        The Industrial Pi line comprises industrial computers designed for the **Raspberry Pi Compute Module 3 and 4**. Ranging from 7-inch to 15.6-inch IPS displays with 5-point or 10-point capacitive touch panels, they are available in embedded, panel, and all-in-one desktop form-factors.
 
     .. grid-item-card::
         :columns: 12 6 3 3
@@ -72,9 +66,6 @@ Home
             <p class="card-head">
                 <b> <span style="color: #ef3d30;">X86</span> Industrial PC</b> <br> Intel, AMD
             </p>
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-        We offer a complete range of x86 industrial panel and box PCs based on Intel or AMD CPUs that support multiple Windows and Linux platforms. Available in box or panel mounting format, they offer multiple options for connectivity, and industrial interfaces.
 
     .. grid-item-card::
         :columns: 12 6 3 3
@@ -89,9 +80,6 @@ Home
             <p class="card-head">
                 Industrial Monitors with <br> Touch Screen
             </p>
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-        Chipsee Industrial Monitors are a solid and durable solution for all environments. They range from 10" to 24", include a capacitive touch screen, can be mounted on a panel or wall, thanks to the VESA mount, and can withstand high temperatures and harsh conditions.
 
 
 .. toctree::

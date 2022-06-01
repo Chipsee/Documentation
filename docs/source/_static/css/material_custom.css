@@ -410,11 +410,11 @@ img.welcome-img{
 	max-width: 50%;
 	padding: .4rem 0;
 }
-
+/*
 .sd-card-body p.sd-card-text {
     text-align: left!important;
 }
-
+*/
 
 @media only screen and (min-width: 76.25em){
     .md-new-content {
@@ -450,4 +450,8 @@ div.welcome_hero {
 
 nav.md-tabs{
     display: none;
+}
+
+p.card-head {
+    font-size: x-large!important;
 }
