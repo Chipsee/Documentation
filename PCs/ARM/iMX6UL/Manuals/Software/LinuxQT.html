@@ -21,57 +21,7 @@
 
   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Open+Sans:ital@0;1&display=swap');
-      body,
-      input {
-        font-family: 'Open Sans', sans-serif!important;
-        color: #444444 !important;
-        font-size: 16px !important;
-        font-weight: 400;
-        line-height: 1.5 !important;
-      }
-      .md-typeset, .md-nav, .md-typeset table:not([class])  {
-            font-size: 16px!important;
-            line-height: 1.5!important;
-      }
-
-      h1, h2, h3{
-        font-family: 'Montserrat', sans-serif !important;
-        font-weight: 500!important;
-        color: #2D445E !important;
-        line-height: 1.4 !important;
-      }
-
-      h1{
-        font-size: 34px !important;
-        margin-bottom: 20px !important;
-      }
-      h2{
-        font-size: 24px !important;
-        margin-bottom: 10px !important;
-      }
-      h3{
-        font-size: 18px !important;
-        margin-bottom: 10px !important;
-      }
-
-      code,
-      kbd,
-      pre {
-        font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important;
-        background-color: #2d445e1c!important;
-      }
-      /*localtoc showing current section styles*/
-      .md-nav__link[data-md-state=blur] {
-            color: rgb(187 187 187)!important;
-        }
-
-      a:hover {
-        color: #2D445E!important;
-      }
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
   <link rel="stylesheet" href="../../../../../_static/stylesheets/application.css"/>
   <link rel="stylesheet" href="../../../../../_static/stylesheets/application-palette.css"/>
@@ -79,7 +29,7 @@
   
   <link rel="stylesheet" href="../../../../../_static/fonts/material-icons.css"/>
   
-  <meta name="theme-color" content="2D445E">
+  <meta name="theme-color" content="#3f51b5">
   <script src="../../../../../_static/javascripts/modernizr.js"></script>
   
   
@@ -87,11 +37,13 @@
     <title>Linux Qt 5.5 OS &#8212; Home</title>
     <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/material.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/css/material_custom.css" />
     <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
     <script src="../../../../../_static/jquery.js"></script>
     <script src="../../../../../_static/underscore.js"></script>
     <script src="../../../../../_static/doctools.js"></script>
+    <script src="../../../../../_static/design-tabs.js"></script>
     <link rel="shortcut icon" href="../../../../../_static/favicon.webp"/>
     <link rel="index" title="Index" href="../../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../../search.html" />
@@ -133,6 +85,32 @@
       </div>
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          <ul class="nav justify-content-center" id="desktop_menu">
+            
+            
+              <li class="nav-item">
+                <a class="nav-link" style="color:#fff!important;" href="../../../../index.html">Industrial PC</a>
+              </li>
+            
+
+            
+              <li class="nav-item">
+                <a class="nav-link" href="../../../../../Monitors/index.html">Industrial Monitor</a>
+              </li>
+            
+
+            
+              <li class="nav-item">
+                <a class="nav-link" href="../../../../../SOM/index.html">SOM (Systems on Module)</a>
+              </li>
+            
+
+            
+              <li class="nav-item">
+                <a class="nav-link" href="../../../../../TutorialGuide/index.html">Tutorials and Guides</a>
+              </li>
+            
+        </ul>
             <span class="md-header-nav__topic"> Linux Qt 5.5 OS </span>
             <span class="md-header-nav__topic"> Linux Qt 5.5 OS </span>
 
@@ -192,11 +170,9 @@
     <div class="md-tabs__inner md-grid">
       <ul class="md-tabs__list">
           <li class="md-tabs__item"><a href="../../../../../index.html" class="md-tabs__link">Home</a></li>
-          &gt; <li class="md-tabs__item"><a href="../../../../index.html" class="md-tabs__link">Industrial Panel &amp; Embedded PCs</a></li>
-          &gt; <li class="md-tabs__item"><a href="../../../index.html" class="md-tabs__link">Industrial Panel PCs Powered by Arm<sup>®</sup></a></li>
-          &gt; <li class="md-tabs__item"><a href="index.html" class="md-tabs__link">i.MX6UL Software Documentation</a></li>
-          &gt; <li class="md-tabs__item"><p class="md-tabs__link" style="opacity:1;">Linux Qt 5.5 OS</p></li>
-
+          <li class="md-tabs__item"><a href="../../../../index.html" class="md-tabs__link">Industrial Panel &amp; Embedded PCs</a></li>
+          <li class="md-tabs__item"><a href="../../../index.html" class="md-tabs__link">Industrial Panel PCs Powered by Arm<sup>®</sup></a></li>
+          <li class="md-tabs__item"><a href="index.html" class="md-tabs__link">i.MX6UL Software Documentation</a></li>
       </ul>
     </div>
   </nav>
@@ -217,74 +193,88 @@
        title="Home">Home</a>
   </label>
 
+  <ul class="list-group" id="mobile_menu">
+    <li class="list-group-item">
+      <a href="../../../../index.html">Industrial PC</a>
+    </li>
+    <li class="list-group-item">
+      <a href="../../../../../Monitors/index.html">Industrial Monitor</a>
+    </li>
+    <li class="list-group-item">
+      <a href="../../../../../SOM/index.html">SOM (Systems on Module)</a>
+    </li>
+    <li class="list-group-item">
+      <a href="../../../../../TutorialGuide/index.html">Tutorials and Guides</a>
+    </li>
+  </ul>
+
   
 
   
-  <ul class="md-nav__list">
-    <li class="md-nav__item">
-    
-      <span class="md-nav__link caption"><span class="caption-text">Industrial Panel PC</span></span>
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="../../../../index.html" class="md-nav__link">Powered by Arm Cortex, Intel, and Raspberry PI platforms</a>
-      <ul class="md-nav__list"> 
-    <li class="md-nav__item">
-    
-    
-      <a href="../../../index.html" class="md-nav__link">Powered by Arm</a>
-      <ul class="md-nav__list"> 
-    <li class="md-nav__item">
-    
-    
-      <a href="../../../iMX6Q/Manuals/Hardware/index.html" class="md-nav__link">i.MX6Q Hardware Documentation</a>
+  
+  
+
+  
+    <ul class="md-nav__list">
+      <li class="md-nav__item">
       
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="../../../iMX6Q/Manuals/Software/index.html" class="md-nav__link">i.MX6Q Software Documentation</a>
       
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="../../../iMX6Q/OS_Downloads/index.html" class="md-nav__link">i.MX6Q OS Downloads</a>
+        <a href="../../../../index.html" class="md-nav__link">Industrial PC</a>
+        <ul class="md-nav__list"> 
+      <li class="md-nav__item">
       
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="../Hardware/index.html" class="md-nav__link">i.MX6UL Hardware Documentation</a>
       
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="index.html" class="md-nav__link">i.MX6UL Software Documentation</a>
-      <ul class="md-nav__list"> 
-    <li class="md-nav__item">
-    
-    
-      <a href="Debian.html" class="md-nav__link">Debian 8.10</a>
+        <a href="../../../index.html" class="md-nav__link">Powered by Arm</a>
+        <ul class="md-nav__list"> 
+      <li class="md-nav__item">
       
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    <label class="md-nav__link md-nav__link--active" for="__toc"> LinuxQt5.5 </label>
-    
-      <a href="#" class="md-nav__link md-nav__link--active">LinuxQt5.5</a>
       
+        <a href="../../../iMX6Q/Manuals/Hardware/index.html" class="md-nav__link">i.MX6Q Hardware Documentation</a>
         
+      
+      </li>
+      <li class="md-nav__item">
+      
+      
+        <a href="../../../iMX6Q/Manuals/Software/index.html" class="md-nav__link">i.MX6Q Software Documentation</a>
+        
+      
+      </li>
+      <li class="md-nav__item">
+      
+      
+        <a href="../../../iMX6Q/OS_Downloads/index.html" class="md-nav__link">i.MX6Q OS Downloads</a>
+        
+      
+      </li>
+      <li class="md-nav__item">
+      
+      
+        <a href="../Hardware/index.html" class="md-nav__link">i.MX6UL Hardware Documentation</a>
+        
+      
+      </li>
+      <li class="md-nav__item">
+      
+      
+        <a href="index.html" class="md-nav__link">i.MX6UL Software Documentation</a>
+        <ul class="md-nav__list"> 
+      <li class="md-nav__item">
+      
+      
+        <a href="Debian.html" class="md-nav__link">Debian 8.10</a>
+        
+      
+      </li>
+      <li class="md-nav__item">
+      
+      
+      <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      <label class="md-nav__link md-nav__link--active" for="__toc"> LinuxQt5.5 </label>
+      
+        <a href="#" class="md-nav__link md-nav__link--active">LinuxQt5.5</a>
+        
+          
 <nav class="md-nav md-nav--secondary">
     <label class="md-nav__title" for="__toc">Contents</label>
   <ul class="md-nav__list" data-md-scrollfix="">
@@ -362,116 +352,84 @@
         </li>
   </ul>
 </nav>
+        
       
-    
-    </li></ul>
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="../../../RK3399/Manuals/Hardware/index.html" class="md-nav__link">RK3399 Hardware Documentation</a>
+      </li></ul>
       
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="../../../AM335X/Manuals/Hardware/index.html" class="md-nav__link">AM335X Hardware Documentation</a>
+      </li>
+      <li class="md-nav__item">
       
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="../../../AM335X/Manuals/Software/index.html" class="md-nav__link">AM335X Software Documentation</a>
       
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="../../../AM335X/OS_Downloads/index.html" class="md-nav__link">AM335X OS Downloads</a>
+        <a href="../../../RK3399/Manuals/Hardware/index.html" class="md-nav__link">RK3399 Hardware Documentation</a>
+        
       
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="../../../PX30/AIO/Manuals/Hardware/index.html" class="md-nav__link">All-In-One Hardware Documentation</a>
+      </li>
+      <li class="md-nav__item">
       
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="../../../PX30/AIO/Manuals/Software/index.html" class="md-nav__link">All-In-One Software Documentation</a>
       
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="../../../PX30/AIO/OS_Downloads/index.html" class="md-nav__link">All-In-One OS Downloads</a>
+        <a href="../../../AM335X/Manuals/Hardware/index.html" class="md-nav__link">AM335X Hardware Documentation</a>
+        
       
-    
-    </li></ul>
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="../../../../Intel/index.html" class="md-nav__link">Powered by Intel</a>
+      </li>
+      <li class="md-nav__item">
       
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="../../../../Pi/index.html" class="md-nav__link">Powered by Raspberry Pi</a>
       
-    
-    </li></ul>
-    
-    </li>
-    <li class="md-nav__item">
-    
-      <span class="md-nav__link caption"><span class="caption-text">Industrial Monitors</span></span>
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="../../../../../Monitors/index.html" class="md-nav__link">Monitors with Capacitive Touch</a>
+        <a href="../../../AM335X/Manuals/Software/index.html" class="md-nav__link">AM335X Software Documentation</a>
+        
       
-    
-    </li>
-    <li class="md-nav__item">
-    
-      <span class="md-nav__link caption"><span class="caption-text">Systems on Module</span></span>
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="../../../../../SOM/index.html" class="md-nav__link">Systems on Module</a>
+      </li>
+      <li class="md-nav__item">
       
-    
-    </li>
-    <li class="md-nav__item">
-    
-      <span class="md-nav__link caption"><span class="caption-text">Tutorials and Guides</span></span>
-    
-    </li>
-    <li class="md-nav__item">
-    
-    
-      <a href="../../../../../TutorialGuide/index.html" class="md-nav__link">Tutorials and Guides</a>
       
-    
-    </li>
-  </ul>
+        <a href="../../../AM335X/OS_Downloads/index.html" class="md-nav__link">AM335X OS Downloads</a>
+        
+      
+      </li>
+      <li class="md-nav__item">
+      
+      
+        <a href="../../../PX30/AIO/Manuals/Hardware/index.html" class="md-nav__link">All-In-One Hardware Documentation</a>
+        
+      
+      </li>
+      <li class="md-nav__item">
+      
+      
+        <a href="../../../PX30/AIO/Manuals/Software/index.html" class="md-nav__link">All-In-One Software Documentation</a>
+        
+      
+      </li>
+      <li class="md-nav__item">
+      
+      
+        <a href="../../../PX30/AIO/OS_Downloads/index.html" class="md-nav__link">All-In-One OS Downloads</a>
+        
+      
+      </li></ul>
+      
+      </li>
+      <li class="md-nav__item">
+      
+      
+        <a href="../../../../Intel/index.html" class="md-nav__link">Powered by Intel</a>
+        
+      
+      </li>
+      <li class="md-nav__item">
+      
+      
+        <a href="../../../../Pi/index.html" class="md-nav__link">Powered by Raspberry Pi</a>
+        
+      
+      </li></ul>
+      
+      </li>
+    </ul>
   
+
+  
+  
+
 
 </nav>
               </div>
@@ -1623,7 +1581,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              May 27, 2022.
+              Jun 01, 2022.
             <br/>
         </div>
       </div>
