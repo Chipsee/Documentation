@@ -16,7 +16,7 @@
 
 .. |tscreen| replace:: 10-point capacitive touch with 1.0mm Armored Glass
 
-.. |USB| replace:: 2 x USB 2.0 Host, 1 x mini USB OTG
+.. |USB| replace:: 2 x USB 2.0 Host, 1 x USB TYPE-C
 
 .. |LAN| replace:: 1 x Channel Giga LAN
 
@@ -176,7 +176,7 @@ There are three (3) buttons on the backside of the case: Volume +, Volume -, and
 
   *Buttons*
 
-|Product| boots from the internal eMMC by default. If you want it to boot from the USB OTG connector, please press the Boot Mode button before power ON, and release it 3 seconds after power ON.
+|Product| boots from the internal eMMC by default. If you want it to boot from the USB TYPE-C connector, please press the Boot Mode button before power ON, and release it 3 seconds after power ON.
 If you use CS12800RA4101A_C121, the Boot Mode button had been changed to VOL+, you should press VOL+ to enter USB download mode.
 
 
@@ -186,26 +186,26 @@ Connectivity
 There are many connectivity options available on the |product| industrial Pi PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to
 1 Gbps, and RS232+RS485+Relay connector.
 
-USB HOST and USB OTG
---------------------
+USB HOST and USB TYPE-C
+-----------------------
 
-There are 2 x Type A **USB HOST connectors** and 1 x **USB-OTG Connector** onboard, as shown on the figures below.
+There are 2 x Type A **USB HOST connectors** and 1 x **USB TYPE-C Connector** onboard, as shown on the figures below.
 
 .. Figure:: /Media/Pi/AIO/CS12800RA4101A/101-USB.jpeg
   :align: center
   :figclass: align-center
 
-.. Figure:: /Media/Pi/AIO/CS12800RA4101A/101-OTG.jpeg
+.. Figure:: /Media/Pi/AIO/CS12800RA4101A/101-TYPE_C.jpg
   :align: center
   :figclass: align-center
 
-  *USB HOST and USB OTG Connectors*
+  *USB HOST and USB TYPE-C Connectors*
 
 .. note::
 
     * External USB peripherals like a USB disk or USB mouse or keyboard can connect to the USB HOST.
-    * You can download software to the Raspberry Pi CM4 eMMC using the USB OTG.
-    * When you connect the USB OTG to a device, it will disable the USB HOST.
+    * You can download software to the Raspberry Pi CM4 eMMC using the USB TYPE-C.
+    * When you connect the USB TYPE-C to a device, it will disable the USB HOST.
 
 LAN Connectors
 ---------------
@@ -237,7 +237,7 @@ You can use the SIM card slot when you mount the 4G/LTE module.
 
 .. note::
 
-  #) The product does not come shipped with the TF Card and the SIM Card by default.
+  The product does not come shipped with the TF Card and the SIM Card by default.
 
 
 Audio In/Out Connector
@@ -276,7 +276,6 @@ The table below offers more detailed description of every pin and its definition
 .. table:: RS232/RS485/Relay Connector
    :align: center
    :width: 100%
-   :class: align-center
    :widths: auto
 
    +---------------------------------------------------------------------------------------------------------------+
