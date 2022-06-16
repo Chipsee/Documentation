@@ -22,7 +22,7 @@
 
 .. |opt1| replace:: Internal 4G/LTE module supported, not mounted by default
 
-.. |vin_rng| replace:: From 9V to 36V
+.. |vin_rng| replace:: 12V DC
 
 .. |cur| replace:: 500mA Max
 
