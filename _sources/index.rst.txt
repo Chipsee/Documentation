@@ -22,12 +22,12 @@ Home
     </div>
 
 
-.. grid:: 4
+.. grid:: 2 2 2 3
     :gutter: 2
 
     .. grid-item-card::
-        :columns: 12 6 3 3
-        :link: PBA
+        :columns: 12 6 6 4
+        :link: pba
         :link-type: ref
         :img-top: /Media/homepage/Product_1_Chipsee.jpg
         :class-card: border
@@ -40,8 +40,8 @@ Home
             </p>
 
     .. grid-item-card::
-        :columns: 12 6 3 3
-        :link: PBPI
+        :columns: 12 6 6 4
+        :link: pbpi
         :link-type: ref
         :img-top: /Media/homepage/Product_2_Chipsee.jpg
         :class-card: border
@@ -54,8 +54,8 @@ Home
             </p>
 
     .. grid-item-card::
-        :columns: 12 6 3 3
-        :link: PBI
+        :columns: 12 6 6 4
+        :link: pbi
         :link-type: ref
         :img-top: /Media/homepage/Product_3_Chipsee.jpg
         :class-card: border
@@ -68,8 +68,8 @@ Home
             </p>
 
     .. grid-item-card::
-        :columns: 12 6 3 3
-        :link: IM
+        :columns: 12 6 6 4
+        :link: im
         :link-type: ref
         :img-top: /Media/homepage/Product_4_Chipsee.jpg
         :class-card: border
@@ -79,6 +79,35 @@ Home
 
             <p class="card-head">
                 Industrial Monitors with <br> Touch Screen
+            </p>
+
+    .. grid-item-card::
+        :columns: 12 6 6 4
+        :link: som
+        :link-type: ref
+        :img-top: /Media/homepage/Product_6_Chipsee.jpg
+        :class-card: border
+        :text-align: center
+
+        .. raw:: html
+
+            <p class="card-head">
+                <b>SOM</b> <br> Systems on Module
+            </p>
+
+
+    .. grid-item-card::
+        :columns: 12 6 6 4
+        :link: mipcg
+        :link-type: ref
+        :img-top: /Media/homepage/Product_5_Chipsee.jpg
+        :class-card: border
+        :text-align: center
+
+        .. raw:: html
+
+            <p class="card-head">
+                Industrial PC <br> Mounting Guide
             </p>
 
 
