@@ -285,7 +285,14 @@ table[id|=hwdocstable] {
     box-shadow: none !important;
 }
 
+ul#desktop_menu{
+    width: initial!important;
+}
 ul#mobile_menu{
+    display: none;
+}
+
+div#mobile_menu{
     display: none;
 }
 
@@ -306,6 +313,9 @@ ul#mobile_menu{
         font-size: 3em !important;
         color: #ef3d30!important;
     }
+    #home_mobile_menu {
+        display: none !important;
+    }
 }
 /* Laptops and larger tablets */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -315,11 +325,15 @@ ul#mobile_menu{
     #mobile_menu{
         display: block!important;
     }
-    #desktop_menu{
+    #desktop_menu, #home_desktop_menu{
         display: none!important;
     }
     .welcome_div > h1 {
         font-size: 2em !important;
+    }
+    #home_mobile_menu {
+        display: flex !important;
+        flex-direction: column;
     }
 }
 /* Tablets and larger smartphones */
@@ -330,11 +344,15 @@ ul#mobile_menu{
     #mobile_menu{
         display: block!important;
     }
-    #desktop_menu{
+    #desktop_menu, #home_desktop_menu{
         display: none!important;
     }
     .welcome_div > h1 {
         font-size: 2em !important;
+    }
+    #home_mobile_menu {
+        display: flex !important;
+        flex-direction: column;
     }
 }
 /* Smaller smartphones */
@@ -345,11 +363,15 @@ ul#mobile_menu{
     #mobile_menu{
         display: block!important;
     }
-    #desktop_menu{
+    #desktop_menu, #home_desktop_menu{
         display: none!important;
     }
     .welcome_div > h1 {
         font-size: 2em !important;
+    }
+    #home_mobile_menu {
+        display: flex !important;
+        flex-direction: column;
     }
 }
 
@@ -454,4 +476,26 @@ nav.md-tabs{
 
 p.card-head {
     font-size: x-large!important;
+}
+/* Homepage styles */
+#home_mobile_menu {
+	padding-left: 0;
+	margin-bottom: 0;
+	border-radius: 0 !important;
+	background-color: #2D445E !important;
+}
+
+.btn-chipsee {
+	color: #fff;
+	background-color: #ef3d30;
+	border-color: #ef3d30;
+	padding: .275rem .55rem;
+	font-size: .80rem;
+	border-radius: .1rem;
+}
+
+.btn-chipsee:hover {
+	color: #fff!important;
+	background-color: #db3030!important;
+	border-color: #db3030!important;
 }
