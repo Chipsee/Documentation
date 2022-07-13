@@ -308,6 +308,8 @@
         </li>
         <li class="md-nav__item"><a href="#specifications" class="md-nav__link">Specifications</a>
         </li>
+        <li class="md-nav__item"><a href="#power-input" class="md-nav__link">Power Input</a>
+        </li>
         <li class="md-nav__item"><a href="#touch-screen" class="md-nav__link">Touch Screen</a>
         </li>
         <li class="md-nav__item"><a href="#connectivity" class="md-nav__link">Connectivity</a><nav class="md-nav">
@@ -407,6 +409,8 @@
         </li>
         <li class="md-nav__item"><a href="#specifications" class="md-nav__link">Specifications</a>
         </li>
+        <li class="md-nav__item"><a href="#power-input" class="md-nav__link">Power Input</a>
+        </li>
         <li class="md-nav__item"><a href="#touch-screen" class="md-nav__link">Touch Screen</a>
         </li>
         <li class="md-nav__item"><a href="#connectivity" class="md-nav__link">Connectivity</a><nav class="md-nav">
@@ -505,7 +509,7 @@ The CM4-156-PA industrial Pi PC does not include the CM4 Raspberry Pi<sup>®</su
 <section id="specifications">
 <h2 id="specifications">Specifications<a class="headerlink" href="#specifications" title="Permalink to this headline">¶</a></h2>
 <p>The CM4-156-PA industrial Pi PC offers a board range of performance and connectivity options for scalable integration, providing expandability according to future needs.
-Some of the key features are listed in the <a class="reference internal" href="../../../AIO/Manuals/Hardware/CS19108RA4156A.html#hardware-table"><span class="std std-ref">table</span></a> below.</p>
+Some of the key features are listed in the table below.</p>
 <span id="hardware-table"></span><table id="id4" style="width: 100%">
 <caption><span class="caption-number">Table 189:  </span><span class="caption-text">Key Features</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
 <thead>
@@ -612,9 +616,20 @@ Some of the key features are listed in the <a class="reference internal" href=".
 <dd><p>This TF card is designed for storage expansion, as the TF card use same pins with WiFi, it can’t be used with WiFi at same time.</p>
 </dd>
 </dl>
+</section>
+<section id="power-input">
+<h2 id="power-input">Power Input<a class="headerlink" href="#power-input" title="Permalink to this headline">¶</a></h2>
+<p>The CM4-156-PA industrial Pi PC can be powered by a wide range of input voltages: From 12V to 36V DC. It is a <strong>3 Pin, 3.81mm screw terminal</strong> connector.
+The polarity and the pinout is clearly marked on the housing of the CS19108RA4156P version, as shown in the figures below.</p>
+<figure class="align-center" id="id5">
+<img alt="Media/Pi/A72/CS19108RA4133/Power.jpg" src="Media/Pi/A72/CS19108RA4133/Power.jpg"/>
+<figcaption>
+<p><span class="caption-number">Figure 870:  </span><span class="caption-text"><em>Power Input</em></span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
 <p>Note that the “<strong>+</strong>” sign represents the positive power input, and it is printed both at the casing and as a silk-screen on the board of the embedded version. The “<strong>-</strong>” terminal is shorted to the ground.</p>
-<table id="id5" style="width: 100%">
-<caption><span class="caption-number">Table 190:  </span><span class="caption-text">Power Connector</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
+<table id="id6" style="width: 100%">
+<caption><span class="caption-number">Table 190:  </span><span class="caption-text">Power Connector</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head" colspan="3"><p>Power Input Definition</p></th>
 </tr>
@@ -648,10 +663,10 @@ The central pin is positive.</p>
 <h2 id="touch-screen">Touch Screen<a class="headerlink" href="#touch-screen" title="Permalink to this headline">¶</a></h2>
 <p>The CM4-156-PA industrial Pi PC uses a 10-point capacitive touch screen. However, the Debian OS supports only One-Point touch. <br/>
 The figure below shows the capacitive touch screen connected to the motherboard via the <strong>USB connector</strong>.</p>
-<figure class="align-center" id="id6">
+<figure class="align-center" id="id7">
 <img alt="../../../../../_images/USB_Touch.jpg" src="../../../../../_images/USB_Touch.jpg"/>
 <figcaption>
-<p><span class="caption-number">Figure 868:  </span><span class="caption-text"><em>Capacitive Touch Connector</em></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 871:  </span><span class="caption-text"><em>Capacitive Touch Connector</em></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition attention">
@@ -674,15 +689,15 @@ with the other hand. In this case, the operator’s body acts as the Power Syste
 <section id="rs232-rs485-can">
 <h3 id="rs232-rs485-can">RS232/RS485/CAN<a class="headerlink" href="#rs232-rs485-can" title="Permalink to this headline">¶</a></h3>
 <p>The serial communication interfaces (RS485, RS482, and CAN) are routed to a <strong>12-pin 3.81mm terminal</strong>, as illustrated on the figure below.</p>
-<figure class="align-center" id="id7">
-<img alt="../../../../../_images/RS232-RS485-CAN.jpg" src="../../../../../_images/RS232-RS485-CAN.jpg"/>
+<figure class="align-center" id="id8">
+<img alt="../../../../../_images/RS232-RS485-CANbig.jpg" src="../../../../../_images/RS232-RS485-CANbig.jpg"/>
 <figcaption>
-<p><span class="caption-number">Figure 869:  </span><span class="caption-text"><em>RS232-RS485-CAN on the</em> CM4-156-PA <em>Industrial PC</em></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 872:  </span><span class="caption-text"><em>RS232-RS485-CAN on the</em> CM4-156-PA <em>Industrial PC</em></span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p>The table below offers more detailed description of every pin and its definition:</p>
-<table id="id8" style="width: 100%">
-<caption><span class="caption-number">Table 191:  </span><span class="caption-text">Connectivity Section</span><a class="headerlink" href="#id8" title="Permalink to this table">¶</a></caption>
+<table id="id9" style="width: 100%">
+<caption><span class="caption-number">Table 191:  </span><span class="caption-text">Connectivity Section</span><a class="headerlink" href="#id9" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head" colspan="3"><p><strong>RS232 / RS485 / CAN Pin Definition:</strong></p></th>
 </tr>
@@ -754,14 +769,14 @@ with the other hand. In this case, the operator’s body acts as the Power Syste
 <h3 id="gpio-port">GPIO Port<a class="headerlink" href="#gpio-port" title="Permalink to this headline">¶</a></h3>
 <p>The CM4-156-PA industrial Pi PC has a 10 Pin 3.81mm <strong>GPIO Connector</strong>, as shown on the figure below.
 The <a class="reference internal" href="#gpio-table"><span class="std std-ref">table</span></a> below gives details about the definition of every Pin.</p>
-<figure class="align-center" id="id9">
-<img alt="../../../../../_images/GPIO.jpg" src="../../../../../_images/GPIO.jpg"/>
+<figure class="align-center" id="id10">
+<img alt="../../../../../_images/GPIObig.jpg" src="../../../../../_images/GPIObig.jpg"/>
 <figcaption>
-<p><span class="caption-number">Figure 870:  </span><span class="caption-text"><em>GPIO Connector</em></span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 873:  </span><span class="caption-text"><em>GPIO Connector</em></span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
-<span id="gpio-table"></span><table id="id10" style="width: 100%">
-<caption><span class="caption-number">Table 192:  </span><span class="caption-text">GPIO Connector Pin-out</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
+<span id="gpio-table"></span><table id="id11" style="width: 100%">
+<caption><span class="caption-number">Table 192:  </span><span class="caption-text">GPIO Connector Pin-out</span><a class="headerlink" href="#id11" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head" colspan="3"><p class="centered">
 <strong>GPIO Connector Pin Definition:</strong></p></th>
@@ -814,10 +829,10 @@ The <a class="reference internal" href="#gpio-table"><span class="std std-ref">t
 </tr>
 </tbody>
 </table>
-<figure class="align-center" id="id11">
+<figure class="align-center" id="id12">
 <img alt="../../../../../_images/GP_IO_2.jpeg" src="../../../../../_images/GP_IO_2.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 871:  </span><span class="caption-text"><em>Isolated GPIO reduced schematic</em></span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 874:  </span><span class="caption-text"><em>Isolated GPIO reduced schematic</em></span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition attention">
@@ -832,10 +847,10 @@ The <a class="reference internal" href="#gpio-table"><span class="std std-ref">t
 <section id="usb-connectors">
 <h3 id="usb-connectors">USB Connectors<a class="headerlink" href="#usb-connectors" title="Permalink to this headline">¶</a></h3>
 <p>There are 2 x Type A <strong>USB3.0 HOST connectors</strong> onboard, as shown on the figure below.</p>
-<figure class="align-center" id="id12">
-<img alt="../../../../../_images/USB1.jpg" src="../../../../../_images/USB1.jpg"/>
+<figure class="align-center" id="id13">
+<img alt="../../../../../_images/USBbig.jpg" src="../../../../../_images/USBbig.jpg"/>
 <figcaption>
-<p><span class="caption-number">Figure 872:  </span><span class="caption-text"><em>USB HOST Connectors (enclosed PC version)</em></span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 875:  </span><span class="caption-text"><em>USB HOST Connectors (enclosed PC version)</em></span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition attention">
@@ -846,10 +861,10 @@ The <a class="reference internal" href="#gpio-table"><span class="std std-ref">t
 </ol>
 </div>
 <p>The product has one USB OTG connector that works as a slave by default. You can use it to establish a connection with the host PC and for downloading the system to the eMMC of CM4 module.</p>
-<figure class="align-center" id="id13">
-<img alt="../../../../../_images/TYPE-C.jpg" src="../../../../../_images/TYPE-C.jpg"/>
+<figure class="align-center" id="id14">
+<img alt="../../../../../_images/TYPE-Cbig.jpg" src="../../../../../_images/TYPE-Cbig.jpg"/>
 <figcaption>
-<p><span class="caption-number">Figure 873:  </span><span class="caption-text"><em>USB OTG Connector</em></span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 876:  </span><span class="caption-text"><em>USB OTG Connector</em></span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition warning">
@@ -861,10 +876,10 @@ The <a class="reference internal" href="#gpio-table"><span class="std std-ref">t
 <h3 id="lan-connectors">LAN Connectors<a class="headerlink" href="#lan-connectors" title="Permalink to this headline">¶</a></h3>
 <p><strong>LAN (RJ45) connector</strong> provides Ethernet connectivity over standardized Ethernet cables as shown the figure below. The integrated Ethernet interface supports
 up to 1 Gbps data throughput. These Giga LAN signals come from the CM4 module directly.</p>
-<figure class="align-center" id="id14">
-<img alt="../../../../../_images/LAN.jpg" src="../../../../../_images/LAN.jpg"/>
+<figure class="align-center" id="id15">
+<img alt="Media/Pi/A72/CS19108RA4133/LAN.jpg" src="Media/Pi/A72/CS19108RA4133/LAN.jpg"/>
 <figcaption>
-<p><span class="caption-number">Figure 874:  </span><span class="caption-text"><em>RJ45 LAN Connectors (embedded/enclosed PC version)</em></span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 877:  </span><span class="caption-text"><em>RJ45 LAN Connectors (embedded/enclosed PC version)</em></span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -877,10 +892,10 @@ up to 1 Gbps data throughput. These Giga LAN signals come from the CM4 module di
 <p>The default CM4-156-PA without the CM4 does not include a Wi-Fi/BT module. <br/>
 If you include a CM4 that has the Wi-Fi/BT module, the product will have Wi-Fi/BT feature.
 The enclosed (CS19108RA4156P) variant of the product also includes an SMA connector for an external WiFi/BT antenna, as illustrated in the figure below.</p>
-<figure class="align-center" id="id15">
+<figure class="align-center" id="id16">
 <img alt="../../../../../_images/ANT.jpg" src="../../../../../_images/ANT.jpg"/>
 <figcaption>
-<p><span class="caption-number">Figure 875:  </span><span class="caption-text"><em>WiFi+BT Antenna</em></span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 878:  </span><span class="caption-text"><em>WiFi+BT Antenna</em></span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition attention">
@@ -892,16 +907,16 @@ The enclosed (CS19108RA4156P) variant of the product also includes an SMA connec
 <h3 id="g-4g-lte-module">3G/4G/LTE Module<a class="headerlink" href="#g-4g-lte-module" title="Permalink to this headline">¶</a></h3>
 <p>The CM4-156-PA industrial Pi PC is equipped with a <strong>mini-PCIe connector</strong> that can connect to a 3G/4G module.
 The customer will also need a SIM Card Holder and a 3G/4G Antenna Connector to ensure 3G/4G works on the CM4-156-PA.</p>
-<figure class="align-center" id="id16">
+<figure class="align-center" id="id17">
 <img alt="../../../../../_images/4G_module.jpeg" src="../../../../../_images/4G_module.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 876:  </span><span class="caption-text"><em>3G/4G Module</em></span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 879:  </span><span class="caption-text"><em>3G/4G Module</em></span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
-<figure class="align-center" id="id17">
+<figure class="align-center" id="id18">
 <img alt="../../../../../_images/4G_com.jpeg" src="../../../../../_images/4G_com.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 877:  </span><span class="caption-text"><em>SIM Card Holder and 3G/4G Antenna Connector</em></span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 880:  </span><span class="caption-text"><em>SIM Card Holder and 3G/4G Antenna Connector</em></span><a class="headerlink" href="#id18" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition attention">
@@ -913,16 +928,16 @@ The customer will also need a SIM Card Holder and a 3G/4G Antenna Connector to e
 <h3 id="zigbee-module">Zigbee Module<a class="headerlink" href="#zigbee-module" title="Permalink to this headline">¶</a></h3>
 <p>The CM4-156-PA industrial Pi PC supports an onboard Zigbee module. The Zigbee controller is TI CC2531, and the Raspberry Pi forum supports it. <br/> <br/>
 For CS19108RA4156P, there is a connector on the backside of the case that you can use to connect the external Zigbee antenna, as described in the figure below.</p>
-<figure class="align-center" id="id18">
+<figure class="align-center" id="id19">
 <img alt="../../../../../_images/ZigBee_Con.jpeg" src="../../../../../_images/ZigBee_Con.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 878:  </span><span class="caption-text"><em>Zigbee controller</em></span><a class="headerlink" href="#id18" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 881:  </span><span class="caption-text"><em>Zigbee controller</em></span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
-<figure class="align-center" id="id19">
+<figure class="align-center" id="id20">
 <img alt="../../../../../_images/ANT.jpg" src="../../../../../_images/ANT.jpg"/>
 <figcaption>
-<p><span class="caption-number">Figure 879:  </span><span class="caption-text"><em>Zigbee Antenna</em></span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 882:  </span><span class="caption-text"><em>Zigbee Antenna</em></span><a class="headerlink" href="#id20" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition attention">
@@ -934,14 +949,14 @@ For CS19108RA4156P, there is a connector on the backside of the case that you ca
 <h3 id="camera-connector">Camera Connector<a class="headerlink" href="#camera-connector" title="Permalink to this headline">¶</a></h3>
 <p>The CM4-156-PA industrial Pi PC has a 15 Pin <strong>Camera Connector</strong>, as shown on the figure below. The camera signals come from CAM1.
 The <a class="reference internal" href="#camera-table"><span class="std std-ref">table</span></a> below gives details about the definition of every Pin.</p>
-<figure class="align-center" id="id20">
+<figure class="align-center" id="id21">
 <img alt="../../../../../_images/Camera2.jpeg" src="../../../../../_images/Camera2.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 880:  </span><span class="caption-text"><em>Camera Connector</em></span><a class="headerlink" href="#id20" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 883:  </span><span class="caption-text"><em>Camera Connector</em></span><a class="headerlink" href="#id21" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
-<span id="camera-table"></span><table id="id21" style="width: 100%">
-<caption><span class="caption-number">Table 193:  </span><span class="caption-text">Camera Connector Pin-out</span><a class="headerlink" href="#id21" title="Permalink to this table">¶</a></caption>
+<span id="camera-table"></span><table id="id22" style="width: 100%">
+<caption><span class="caption-number">Table 193:  </span><span class="caption-text">Camera Connector Pin-out</span><a class="headerlink" href="#id22" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head" colspan="3"><p><strong>Camera Connector Pin Definition:</strong></p></th>
 </tr>
@@ -1024,10 +1039,10 @@ The <a class="reference internal" href="#camera-table"><span class="std std-ref"
 <section id="tf-card-slot">
 <h2 id="tf-card-slot">TF Card Slot<a class="headerlink" href="#tf-card-slot" title="Permalink to this headline">¶</a></h2>
 <p>The CM4-156-PA industrial Pi PC features 1 x <strong>TF Card (micro SD) slot</strong>. It can address up to 32GB of memory.</p>
-<figure class="align-center" id="id22">
-<img alt="../../../../../_images/TF_Card.jpg" src="../../../../../_images/TF_Card.jpg"/>
+<figure class="align-center" id="id23">
+<img alt="../../../../../_images/TF_Cardbig.jpg" src="../../../../../_images/TF_Cardbig.jpg"/>
 <figcaption>
-<p><span class="caption-number">Figure 881:  </span><span class="caption-text"><em>TF (micro SD) Card Slot</em></span><a class="headerlink" href="#id22" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 884:  </span><span class="caption-text"><em>TF (micro SD) Card Slot</em></span><a class="headerlink" href="#id23" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition attention">
@@ -1043,10 +1058,10 @@ The <a class="reference internal" href="#camera-table"><span class="std std-ref"
 <h2 id="audio-connectors">Audio Connectors<a class="headerlink" href="#audio-connectors" title="Permalink to this headline">¶</a></h2>
 <p>The CM4-156-PA industrial Pi PC features some audio peripherals. It has 1 x <strong>3.5mm audio output jack</strong>. <br/>
 Also, the CM4-156-PA industrial Pi PC has a miniature 2W internal speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds.</p>
-<figure class="align-center" id="id23">
-<img alt="../../../../../_images/Audio.jpg" src="../../../../../_images/Audio.jpg"/>
+<figure class="align-center" id="id24">
+<img alt="../../../../../_images/Audiobig.jpg" src="../../../../../_images/Audiobig.jpg"/>
 <figcaption>
-<p><span class="caption-number">Figure 882:  </span><span class="caption-text"><em>Audio Connector (enclosed PC version)</em></span><a class="headerlink" href="#id23" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 885:  </span><span class="caption-text"><em>Audio Connector (enclosed PC version)</em></span><a class="headerlink" href="#id24" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition attention">
@@ -1060,10 +1075,10 @@ Also, the CM4-156-PA industrial Pi PC has a miniature 2W internal speaker for au
 When pressed the button, the Raspberry Pi will boot from the USB connector. You can use this function to download the OS software to the internal eMMC. <br/>
 When released the button, the Raspberry Pi will boot from internal eMMC.</p>
 <p>There is no need to alter the Boot DIP Button during regular operation. However, if you need to reinstall the OS, please refer to the detailed information on how to re-flash the OS from the <a class="reference internal" href="../../../Software/index.html#pi-os"><span class="std std-ref">Software Documentation</span></a>.</p>
-<figure class="align-center" id="id24">
-<img alt="../../../../../_images/BootButton.jpg" src="../../../../../_images/BootButton.jpg"/>
+<figure class="align-center" id="id25">
+<img alt="../../../../../_images/BootButtonbig.jpg" src="../../../../../_images/BootButtonbig.jpg"/>
 <figcaption>
-<p><span class="caption-number">Figure 883:  </span><span class="caption-text"><em>Boot DIP Button</em></span><a class="headerlink" href="#id24" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 886:  </span><span class="caption-text"><em>Boot DIP Button</em></span><a class="headerlink" href="#id25" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
