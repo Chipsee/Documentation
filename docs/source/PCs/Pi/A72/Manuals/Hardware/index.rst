@@ -39,7 +39,7 @@ Cortex-A72 Hardware Documentation
    | |CM4-133-PA|        |   :ref:`CM4-133-PA User Manual <CM4-133-PA>` |br|                      |
    |                     |   PN: CS19108RA4133 |br| |br|                                          |
    |                     |                                                                        |
-   |                     |   13.3", 1920 x 1080, 10-point capacitive touch screen                    |
+   |                     |   13.3", 1920 x 1080, 10-point capacitive touch screen                 |
    +---------------------+------------------------------------------------------------------------+
 
 .. |CM4-133-PA| image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Front.jpg
@@ -69,7 +69,7 @@ Cortex-A72 Hardware Documentation
    | |CM4-156-PA|        |   :ref:`CM4-156-PA User Manual <CM4-156-PA>` |br|                      |
    |                     |   PN: CS19108RA4156 |br| |br|                                          |
    |                     |                                                                        |
-   |                     |   15.6", 1920 x 1080, 10-point capacitive touch screen                    |
+   |                     |   15.6", 1920 x 1080, 10-point capacitive touch screen                 |
    +---------------------+------------------------------------------------------------------------+
 
 .. |CM4-156-PA| image:: /Media/Pi/A72/CS19108RA4156/PPC-CM4-156-Front.jpg
