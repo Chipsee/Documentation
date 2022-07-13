@@ -138,7 +138,7 @@
 
 .. include:: Resources/cap_screen
 
-.. include:: Resources/connectivity
+.. include:: Resources/connectivity_7
 
 USB Connectors
 --------------
