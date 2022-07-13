@@ -137,7 +137,7 @@
 
 .. include:: Resources/table_cs12800ra4101
 
-.. include:: Resources/power_CS19108ra4133
+.. include:: Resources/power_cs19108ra4133
 
 .. include:: Resources/power
 
@@ -154,7 +154,7 @@ RS232/RS485/CAN
 
 The serial communication interfaces (RS485, RS482, and CAN) are routed to a **12-pin 3.81mm terminal**, as illustrated on the figure below.
 
-.. figure:: /Media/Pi/A72/CS19108RA4133/RS232-RS485-CAN.jpg
+.. figure:: /Media/Pi/A72/CS19108RA4133/RS232-RS485-CANbig.jpg
    :align: center
    :figclass: align-center
 
@@ -209,7 +209,7 @@ GPIO Port
 |Product| has a 10 Pin 3.81mm **GPIO Connector**, as shown on the figure below.
 The :ref:`table <gpio-table>` below gives details about the definition of every Pin.
 
-.. figure:: /Media/Pi/A72/CS19108RA4133/GPIO.jpg
+.. figure:: /Media/Pi/A72/CS19108RA4133/GPIObig.jpg
    :align: center
    :figclass: align-center
 
@@ -266,7 +266,7 @@ USB Connectors
 
 There are 2 x Type A **USB3.0 HOST connectors** onboard, as shown on the figure below.
 
-.. Figure:: /Media/Pi/A72/CS19108RA4133/USB.jpg
+.. Figure:: /Media/Pi/A72/CS19108RA4133/USBbig.jpg
   :align: center
   :figclass: align-center
 
@@ -279,7 +279,7 @@ There are 2 x Type A **USB3.0 HOST connectors** onboard, as shown on the figure 
 
 The product has one USB OTG connector that works as a slave by default. You can use it to establish a connection with the host PC and for downloading the system to the eMMC of CM4 module.
 
-.. Figure:: /Media/Pi/A72/CS19108RA4133/TYPE-C.jpg
+.. Figure:: /Media/Pi/A72/CS19108RA4133/TYPE-Cbig.jpg
   :align: center
   :figclass: align-center
 
@@ -304,7 +304,7 @@ TF Card Slot
 
 |Product| features 1 x **TF Card (micro SD) slot**. It can address up to 32GB of memory.
 
-.. figure:: /Media/Pi/A72/CS19108RA4133/TF_Card.jpg
+.. figure:: /Media/Pi/A72/CS19108RA4133/TF_Cardbig.jpg
   :align: center
   :figclass: align-center
 
@@ -323,7 +323,7 @@ Audio Connectors
 |Product| features some audio peripherals. It has 1 x **3.5mm audio output jack**. |br|
 Also, the |product| industrial Pi PC has a miniature 2W internal speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds.
 
-.. figure:: /Media/Pi/A72/CS19108RA4133/Audio.jpg
+.. figure:: /Media/Pi/A72/CS19108RA4133/Audiobig.jpg
   :figclass: align-center
   :align: center
 
@@ -342,7 +342,7 @@ When released the button, the Raspberry Pi will boot from internal eMMC.
 
 There is no need to alter the Boot DIP Button during regular operation. However, if you need to reinstall the OS, please refer to the detailed information on how to re-flash the OS from the :ref:`Software Documentation <Pi_OS>`.
 
-.. figure:: /Media/Pi/A72/CS19108RA4133/BootButton.jpg
+.. figure:: /Media/Pi/A72/CS19108RA4133/BootButtonbig.jpg
   :figclass: align-center
   :align: center
 
