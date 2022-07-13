@@ -795,7 +795,7 @@ with the other hand. In this case, the operator’s body acts as the Power Syste
 <p>The serial communication interfaces (RS485 and RS232) are routed to a <strong>16-pin 3.81mm terminal</strong>, as illustrated in the figure below.
 Serial communication on both RS485 and RS232 interfaces can reach up to 115200 kbps.</p>
 <figure class="align-center" id="id11">
-<img alt="../../../../../_images/IO_Peripherals.jpeg" src="../../../../../_images/IO_Peripherals.jpeg"/>
+<img alt="../../../../../_images/Serial.jpg" src="../../../../../_images/Serial.jpg"/>
 <figcaption>
 <p><span class="caption-number">Figure 393:  </span><span class="caption-text"><em>Relation between serial pins on embedded vs. enclosed version</em></span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
 </figcaption>
@@ -813,28 +813,28 @@ Serial communication on both RS485 and RS232 interfaces can reach up to 115200 k
 <td><p><strong>Description</strong></p></td>
 </tr>
 <tr class="row-odd"><td><p>Pin 1</p></td>
-<td><p>RS485_4+</p></td>
-<td><p>USB UART4, RS485 +(A) signal</p></td>
+<td><p>NULL</p></td>
+<td><p>NULL</p></td>
 </tr>
 <tr class="row-even"><td><p>Pin 2</p></td>
-<td><p>RS485_4-</p></td>
-<td><p>USB UART4, RS485 -(B) signal</p></td>
+<td><p>NULL</p></td>
+<td><p>NULL</p></td>
 </tr>
 <tr class="row-odd"><td><p>Pin 3</p></td>
-<td><p>RS485_3+</p></td>
-<td><p>USB UART3, RS485 +(A) signal</p></td>
-</tr>
-<tr class="row-even"><td><p>Pin 4</p></td>
 <td><p>RS485_3-</p></td>
 <td><p>USB UART3, RS485 -(B) signal</p></td>
 </tr>
+<tr class="row-even"><td><p>Pin 4</p></td>
+<td><p>RS485_3+</p></td>
+<td><p>USB UART3, RS485 +(A) signal</p></td>
+</tr>
 <tr class="row-odd"><td><p>Pin 5</p></td>
-<td><p>RS232_2_RXD</p></td>
-<td><p>USB UART2, RS232 RXD signal</p></td>
+<td><p>RS485_2-</p></td>
+<td><p>USB UART2, RS485 -(B) signal</p></td>
 </tr>
 <tr class="row-even"><td><p>Pin 6</p></td>
-<td><p>RS232_2_TXD</p></td>
-<td><p>USB UART2, RS232 TXD signal</p></td>
+<td><p>RS485_2+</p></td>
+<td><p>USB UART2, RS485 +(A) signal</p></td>
 </tr>
 <tr class="row-odd"><td><p>Pin 7</p></td>
 <td><p>RS232_1_RXD</p></td>
@@ -845,20 +845,20 @@ Serial communication on both RS485 and RS232 interfaces can reach up to 115200 k
 <td><p>USB UART1, RS232 TXD signal</p></td>
 </tr>
 <tr class="row-odd"><td><p>Pin 9</p></td>
+<td><p>RS232_0_RXD</p></td>
+<td><p>USB UART0, RS232 RXD signal</p></td>
+</tr>
+<tr class="row-even"><td><p>Pin 10</p></td>
+<td><p>RS232_0_TXD</p></td>
+<td><p>USB UART0, RS232 TXD signal</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pin 11</p></td>
 <td><p>CPU_RS232_4_RXD</p></td>
 <td><p>CPU UART4, CPU RS232 RXD signal</p></td>
 </tr>
-<tr class="row-even"><td><p>Pin 10</p></td>
+<tr class="row-even"><td><p>Pin 12</p></td>
 <td><p>CPU_RS232_4_TXD</p></td>
 <td><p>CPU UART4, CPU RS232 TXD signal</p></td>
-</tr>
-<tr class="row-odd"><td><p>Pin 11</p></td>
-<td><p>CPU_RS232_0_RXD</p></td>
-<td><p>CPU UART0, CPU RS232 RXD signal</p></td>
-</tr>
-<tr class="row-even"><td><p>Pin 12</p></td>
-<td><p>CPU_RS232_0_TXD</p></td>
-<td><p>CPU UART0, CPU RS232 TXD signal</p></td>
 </tr>
 <tr class="row-odd"><td><p>Pin 13</p></td>
 <td><p>CPU_RS232_2_RXD</p></td>
