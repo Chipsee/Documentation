@@ -207,7 +207,7 @@ GPIO Port
 --------------
 
 |Product| has a 10 Pin 3.81mm **GPIO Connector**, as shown on the figure below.
-The :ref:`table <gpio-table>` below gives details about the definition of every Pin.
+The table below gives details about the definition of every Pin.
 
 .. figure:: /Media/Pi/A72/CS19108RA4133/GPIObig.jpg
    :align: center
