@@ -1,4 +1,4 @@
-.. |product| replace:: CM4-70-EM-PA
+.. |product| replace:: EPC/PPC-CM4-70
 
 .. |productE| replace:: CS10600RA4070E
 
@@ -52,12 +52,12 @@
 
 .. |temp| replace:: From 0°C to +60°C
 
-.. _product_link: https://chipsee.com/product/industrial-pi-cm4-70/
+.. _product_link: https://chipsee.com/product/PPC-CM4-70/
 
-.. |product_link| replace:: CM4-70-EM-PA
+.. |product_link| replace:: EPC/PPC-CM4-70
 
 
-.. _CM4-70-EM-PA:
+.. _EPC/PPC-CM4-70:
 
 |product|
 #########

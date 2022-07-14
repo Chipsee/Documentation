@@ -1,4 +1,4 @@
-.. |product| replace:: CM4-133-PA
+.. |product| replace:: PPC-CM4-133
 
 .. |productE| replace:: CS19108RA4133E
 
@@ -52,12 +52,12 @@
 
 .. |temp| replace:: From 0°C to +60°C
 
-.. _product_link: https://chipsee.com/product/CM4-133-PA/
+.. _product_link: https://chipsee.com/product/PPC-CM4-133/
 
-.. |product_link| replace:: CM4-133-PA
+.. |product_link| replace:: PPC-CM4-133
 
 
-.. _CM4-133-PA:
+.. _PPC-CM4-133:
 
 |product|
 #########
