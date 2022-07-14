@@ -1,4 +1,4 @@
-.. |product| replace:: CM4-156-PA
+.. |product| replace:: PPC-CM4-156
 
 .. |productE| replace:: CS19108RA4156E
 
@@ -52,12 +52,12 @@
 
 .. |temp| replace:: From 0°C to +60°C
 
-.. _product_link: https://chipsee.com/product/cm4-156-pa/
+.. _product_link: https://chipsee.com/product/PPC-CM4-156/
 
-.. |product_link| replace:: CM4-156-PA
+.. |product_link| replace:: PPC-CM4-156
 
 
-.. _CM4-156-PA:
+.. _PPC-CM4-156:
 
 |product|
 #########
