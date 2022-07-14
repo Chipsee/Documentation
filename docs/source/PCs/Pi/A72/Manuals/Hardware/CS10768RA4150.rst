@@ -1,4 +1,4 @@
-.. |product| replace:: CM4-150-PA
+.. |product| replace:: PPC-CM4-150
 
 .. |productE| replace:: CS10768RA4150E
 
@@ -52,12 +52,12 @@
 
 .. |temp| replace:: From 0°C to +60°C
 
-.. _product_link: https://chipsee.com/product/cm4-150-pa/
+.. _product_link: https://chipsee.com/product/PPC-CM4-150/
 
-.. |product_link| replace:: CM4-150-PA
+.. |product_link| replace:: PPC-CM4-150
 
 
-.. _CM4-150-PA:
+.. _PPC-CM4-150:
 
 |product|
 #########

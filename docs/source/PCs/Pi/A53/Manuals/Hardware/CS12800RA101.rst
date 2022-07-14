@@ -1,4 +1,4 @@
-.. |product| replace:: CM3-101-EM-PA
+.. |product| replace:: EPC/PPC-CM3-101
 
 .. |productE| replace:: CS12800RA101E
 
@@ -44,12 +44,12 @@
 
 .. |temp| replace:: From -20°C to +70°C
 
-.. _product_link: https://chipsee.com/product/industrial-pi-cm3-101/
+.. _product_link: https://chipsee.com/product/ppc-cm3-101/
 
-.. |product_link| replace:: CM3-101-EM-PA
+.. |product_link| replace:: EPC/PPC-CM3-101
 
 
-.. _CM3-101-EM-PA:
+.. _EPC/PPC-CM3-101:
 
 |product|
 #########
