@@ -16,30 +16,34 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Chipsee Documentation Sample'
-copyright = '2021, Chipsee'
-author = 'Chipsee'
-version = '1.1'
+project = "Chipsee Documentation Sample"
+copyright = "2021, Chipsee"
+author = "Chipsee"
+version = "1.1"
 
 # The full version, including alpha/beta/rc tags
-release = '1.1'
+release = "1.1"
 
 # -- General configuration ---------------------------------------------------
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 # sphinx-prompt must be the first of these two.
-extensions = ['sphinx-prompt', 'sphinx_substitution_extensions',
-              'sphinx_material', 'sphinx_design']
+extensions = [
+    "sphinx-prompt",
+    "sphinx_substitution_extensions",
+    "sphinx_material",
+    "sphinx_design",
+]
 
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ["_templates"]
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ["build", "Thumbs.db", ".DS_Store"]
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -47,49 +51,47 @@ exclude_patterns = ['build', 'Thumbs.db', '.DS_Store']
 # a list of builtin themes.
 
 # Required theme setup
-html_theme = 'sphinx_material'
+html_theme = "sphinx_material"
 # Set the logo and favicon
-html_logo = 'logo-chipsee-white.png'
-html_favicon = 'favicon.webp'
+html_logo = "logo-chipsee-white.png"
+html_favicon = "favicon.webp"
 # Set link name generated in the top bar.
-html_title = 'Home'
+html_title = "Home"
 # Material theme options (see theme.conf for more information)
 html_theme_options = {
     # Set the name of the project to appear in the navigation.
-    'nav_title': 'Home',
+    "nav_title": "Home",
     # Specify a base_url used to generate sitemap.xml. If not
     # specified, then no sitemap will be built.
-    'base_url': 'https://docs.chipsee.com',
+    "base_url": "https://docs.chipsee.com",
     # Set the color and the accent color
-    'color_primary': 'deep-orange',
-    'color_accent': 'deep-orange',
+    "color_primary": "deep-orange",
+    "color_accent": "deep-orange",
     # Visible levels of the global TOC; -1 means unlimited
-    'globaltoc_depth': 4,
+    "globaltoc_depth": 4,
     # If False, expand all TOC entries
-    'globaltoc_collapse': True,
+    "globaltoc_collapse": True,
     # If True, show hidden TOC entries
-    'globaltoc_includehidden': True,
+    "globaltoc_includehidden": True,
     # 'html_minify': True,
-    'css_minify': True
+    "css_minify": True,
 }
-html_sidebars = {
-    "**": ["globaltoc.html", "localtoc.html", "searchbox.html"]
-}
+html_sidebars = {"**": ["globaltoc.html", "localtoc.html", "searchbox.html"]}
 
-html_css_files = ['css/material_custom.css']
+html_css_files = ["css/material_custom.css"]
 # html_js_files = [('js/material_custom.js', {'async': 'async'},)]
 file_insertion_enabled = True
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
-html_extra_path = ['./index.html', './index.php']
+html_static_path = ["_static"]
+html_extra_path = ["./index.html", "./index.php"]
 
 numfig = True
 numfig_secnum_depth = 1
 
-numfig_format = {'figure': 'Figure %s: ', 'table': 'Table %s: '}
+numfig_format = {"figure": "Figure %s: "}
 html_show_sphinx = False  # shows sphinx footer link
 html_show_sourcelink = False  # shows link to rst file that generates page
 
@@ -137,7 +139,7 @@ rst_epilog = """
 
 """
 
-html_last_updated_fmt = '%b %d, %Y'
+html_last_updated_fmt = "%b %d, %Y"
 
 # tablecaption = 'below'
 pygments_style = "sphinx"
