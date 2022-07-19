@@ -1,10 +1,10 @@
-.. |product| replace:: PPC-CM4-101
+.. |product| replace:: PPC-CM4-133
 
-.. |productE| replace:: CS12800RA4101E
+.. |productE| replace:: CS19108RA4133E
 
-.. |productP| replace:: CS12800RA4101P
+.. |productP| replace:: CS19108RA4133P
 
-.. |PN| replace:: PN: CS12800RA4101
+.. |PN| replace:: PN: CS19108RA4133
 
 .. |Product| replace:: The |product| industrial Pi PC
 
@@ -12,9 +12,9 @@
 
 .. |tf_des| replace:: This TF card is designed for storage expansion, as the TF card use same pins with WiFi, it can't be used with WiFi at same time.
 
-.. |dispsize| replace:: 10"
+.. |dispsize| replace:: 13.3"
 
-.. |res| replace:: 1280 x 800
+.. |res| replace:: 1920 x 1080
 
 .. |bright| replace:: 400 |cd|
 
@@ -22,11 +22,11 @@
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 275.5 x 193.5 x 46.0mm
+.. |dimP| replace:: 355 x 225 x 55mm
 
 .. |weightE| replace:: NULL
 
-.. |weightP| replace:: 1600g
+.. |weightP| replace:: 3000g
 
 .. |tscreen| replace:: 10-point capacitive touch
 
@@ -46,18 +46,18 @@
 
 .. |vin_rng| replace:: From 12V to 36V
 
-.. |cur| replace:: 800mA Max
+.. |cur| replace:: 1333mA Max
 
-.. |pwr| replace:: 9.6W Typical
+.. |pwr| replace:: 16W Typical
 
 .. |temp| replace:: From 0°C to +60°C
 
-.. _product_link: https://chipsee.com/product/PPC-CM4-101/
+.. _product_link: https://chipsee.com/product/PPC-CM4-133/
 
-.. |product_link| replace:: PPC-CM4-101
+.. |product_link| replace:: PPC-CM4-133
 
 
-.. _PPC-CM4-101:
+.. _PPC-CM4-133:
 
 |product|
 #########
@@ -76,7 +76,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-Front.jpg
+.. image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Front.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Panel Variant)
 
@@ -89,7 +89,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-Back.jpg
+.. image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Back.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View (Panel Variant)
 
@@ -102,7 +102,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-Side.jpg
+.. image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Side.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Side View (Panel Variant)
 
@@ -137,11 +137,11 @@
 
 .. include:: Resources/table_cs12800ra4101
 
-.. include:: Resources/power_cs12800ra4101
+.. include:: Resources/power_cs19108ra4133
 
 .. include:: Resources/power
 
-.. include:: Resources/cap_screen
+.. include:: Resources/cap_screen_usb
 
 Connectivity
 ============
@@ -154,7 +154,7 @@ RS232/RS485/CAN
 
 The serial communication interfaces (RS485, RS482, and CAN) are routed to a **12-pin 3.81mm terminal**, as illustrated on the figure below.
 
-.. figure:: /Media/Pi/A72/CS12800RA4101/RS232-RS485-CAN.jpg
+.. figure:: /Media/Pi/A72/CS19108RA4133/RS232-RS485-CANbig.jpg
    :align: center
    :figclass: align-center
 
@@ -201,15 +201,15 @@ The table below offers more detailed description of every pin and its definition
 .. attention::
 
     #) RS485_3 and RS485_5 can control the input and output direction automatically. There’s no need to control it from within the software.
-    #) The 120Ω match resistor for the RS232 and CAN bus is NOT mounted by default.
+    #) The 120Ω match resistor for the RS485 and CAN bus is NOT mounted by default.
 
 GPIO Port
 --------------
 
 |Product| has a 10 Pin 3.81mm **GPIO Connector**, as shown on the figure below.
-The :ref:`table <gpio-table>` below gives details about the definition of every Pin.
+The table below gives details about the definition of every Pin.
 
-.. figure:: /Media/Pi/A72/CS12800RA4101/GPIO.jpg
+.. figure:: /Media/Pi/A72/CS19108RA4133/GPIObig.jpg
    :align: center
    :figclass: align-center
 
@@ -266,7 +266,7 @@ USB Connectors
 
 There are 2 x Type A **USB3.0 HOST connectors** onboard, as shown on the figure below.
 
-.. Figure:: /Media/Pi/A72/CS12800RA4101/USB.jpg
+.. Figure:: /Media/Pi/A72/CS19108RA4133/USBbig.jpg
   :align: center
   :figclass: align-center
 
@@ -279,7 +279,7 @@ There are 2 x Type A **USB3.0 HOST connectors** onboard, as shown on the figure 
 
 The product has one USB OTG connector that works as a slave by default. You can use it to establish a connection with the host PC and for downloading the system to the eMMC of CM4 module.
 
-.. Figure:: /Media/Pi/A72/CS12800RA4101/TYPE-C.jpg
+.. Figure:: /Media/Pi/A72/CS19108RA4133/TYPE-Cbig.jpg
   :align: center
   :figclass: align-center
 
@@ -289,13 +289,13 @@ The product has one USB OTG connector that works as a slave by default. You can 
 
   Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded Industrial PC version.
 
-.. include:: Resources/LAN
+.. include:: Resources/LAN_cs19108ra4133
 
-.. include:: Resources/WiFi
+.. include:: Resources/WiFi_cs19108ra4133
 
 .. include:: Resources/4G_com
 
-.. include:: Resources/Zigbee
+.. include:: Resources/Zigbee_cs19108ra4133
 
 .. include:: Resources/Camera_cs12800ra4101
 
@@ -304,7 +304,7 @@ TF Card Slot
 
 |Product| features 1 x **TF Card (micro SD) slot**. It can address up to 32GB of memory.
 
-.. figure:: /Media/Pi/A72/CS12800RA4101/TF_Card.jpg
+.. figure:: /Media/Pi/A72/CS19108RA4133/TF_Cardbig.jpg
   :align: center
   :figclass: align-center
 
@@ -323,7 +323,7 @@ Audio Connectors
 |Product| features some audio peripherals. It has 1 x **3.5mm audio output jack**. |br|
 Also, the |product| industrial Pi PC has a miniature 2W internal speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds.
 
-.. figure:: /Media/Pi/A72/CS12800RA4101/Audio.jpg
+.. figure:: /Media/Pi/A72/CS19108RA4133/Audiobig.jpg
   :figclass: align-center
   :align: center
 
@@ -342,7 +342,7 @@ When released the button, the Raspberry Pi will boot from internal eMMC.
 
 There is no need to alter the Boot DIP Button during regular operation. However, if you need to reinstall the OS, please refer to the detailed information on how to re-flash the OS from the :ref:`Software Documentation <Pi_OS>`.
 
-.. figure:: /Media/Pi/A72/CS12800RA4101/BootButton.jpg
+.. figure:: /Media/Pi/A72/CS19108RA4133/BootButtonbig.jpg
   :figclass: align-center
   :align: center
 
@@ -351,17 +351,7 @@ There is no need to alter the Boot DIP Button during regular operation. However,
 Mounting Procedure
 ==================
 
-|Product| can be mounted with 4 x M4 screws, enabling simplified installation onto any standard mounting fixture.
-
-|productP|
-----------
-You can mount |productP| with the Vesa (75 x 75mm) and Panel mounting methods, as shown on the figure below.
-
-.. Figure:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-TD.png
-  :align: center
-  :figclass: align-center
-
-  *Panel mounting*
+|Product| can be mounted with 8 x M4 screws or 4 x M4 screws using the VESA (100x100cm or 75x75cm) and Panel mounting methods, enabling simplified installation onto any standard mounting fixture.
 
 .. attention::
 

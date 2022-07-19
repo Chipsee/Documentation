@@ -1,0 +1,11 @@
+Power Input
+===========
+
+|Product| can be powered by a wide range of input voltages: |vin_rng| DC. It is a **3 Pin, 3.81mm screw terminal** connector.
+The polarity and the pinout is clearly marked on the housing of the |productP| version, as shown in the figures below.
+
+.. Figure:: /Media/Pi/A72/CS19108RA4133/Powerbig.jpg
+  :align: center
+  :figclass: align-center
+
+  *Power Input*

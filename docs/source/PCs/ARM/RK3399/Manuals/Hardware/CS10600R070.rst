@@ -134,11 +134,11 @@
 
 .. include:: Resources/table
 
-.. include:: Resources/power
+.. include:: Resources/power_7
 
 .. include:: Resources/cap_screen
 
-.. include:: Resources/connectivity
+.. include:: Resources/connectivity_7
 
 USB Connectors
 --------------
