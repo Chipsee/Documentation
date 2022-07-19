@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
@@ -42,6 +42,7 @@
     <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
     <script src="../../../../../_static/jquery.js"></script>
     <script src="../../../../../_static/underscore.js"></script>
+    <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../../../_static/doctools.js"></script>
     <script src="../../../../../_static/design-tabs.js"></script>
     <link rel="shortcut icon" href="../../../../../_static/favicon.webp"/>
@@ -524,7 +525,7 @@
           <article class="md-content__inner md-typeset" role="main">
             
   <section id="systemtype-os">
-<h1 id="pcs-arm-imx6ul-manuals-software-linuxqt--page-root">Linux Qt 5.5 OS<a class="headerlink" href="#pcs-arm-imx6ul-manuals-software-linuxqt--page-root" title="Permalink to this headline">¶</a></h1>
+<h1 id="pcs-arm-imx6ul-manuals-software-linuxqt--page-root">Linux Qt 5.5 OS<a class="headerlink" href="#pcs-arm-imx6ul-manuals-software-linuxqt--page-root" title="Permalink to this heading">¶</a></h1>
 <p class="centered">
 <strong>Chipsee Linux Qt 5.5 OS User Manual</strong></p><img alt="../../../../../_images/Chipsee_Logo_Full.png" class="align-center" src="../../../../../_images/Chipsee_Logo_Full.png"/>
 <p>This manual provides users with a fast guide of Chipsee Industrial Computer (Abbreviate as IPC) about Linux Qt 5.5 OS development. Through this manual, users can quickly understand the hardware resources; users can build a complete compilation of Linux development environment; users can debug Linux Qt 5.5 OS via serial and Internet.</p>
@@ -588,7 +589,7 @@
 </tbody>
 </table>
 <section id="preparation">
-<h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permalink to this headline">¶</a></h2>
+<h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permalink to this heading">¶</a></h2>
 <p>You will need to prepare the following items before you can start using the Prebuilt Files Package to re-flash the system.</p>
 <p>Power Supply Unit (PSU) with the appropriate voltages, as follows:</p>
 <ul class="simple">
@@ -596,7 +597,7 @@
 </ul>
 <p>You need to prepare the Power Adapter by yourself</p>
 <section id="hardware-requirements">
-<h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permalink to this headline">¶</a></h3>
+<h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>Chipsee Industrial PC</p></li>
 <li><p>PSU according to the instructions above</p></li>
@@ -608,7 +609,7 @@
 </ul>
 </section>
 <section id="software-requirements">
-<h3 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Permalink to this headline">¶</a></h3>
+<h3 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>Linux Qt 5.5 OS Prebuilt Files Package (from the link above)</p></li>
 <li><p><a class="reference external" href="https://xshell.en.softonic.com/">Xshell</a> or other terminal emulation software</p></li>
@@ -632,10 +633,10 @@
 </section>
 </section>
 <section id="debug">
-<h2 id="debug">Debug<a class="headerlink" href="#debug" title="Permalink to this headline">¶</a></h2>
+<h2 id="debug">Debug<a class="headerlink" href="#debug" title="Permalink to this heading">¶</a></h2>
 <p>In this document, we use Xshell to debug the Chipsee Industrial Computer. You can also use other tools such as Putty, Minicom, SecureCRT or any terminal emulation software.</p>
 <section id="serial-debug">
-<h3 id="serial-debug">Serial Debug<a class="headerlink" href="#serial-debug" title="Permalink to this headline">¶</a></h3>
+<h3 id="serial-debug">Serial Debug<a class="headerlink" href="#serial-debug" title="Permalink to this heading">¶</a></h3>
 <p>You can refer to the RS232/RS485/CAN Connector section under the <a class="reference internal" href="../Hardware/CS10600U070.html#epc-ppc-a7-70hb-c"><span class="std std-ref">EPC/PPC-A7-70HB-C</span></a> manual to understand the serial ports of the IPC.
 The debug serial port of Chipsee Industrial Computer is the first RS232 port. You can use it to debug directly, and the default user and password is [root/root].
 You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
@@ -667,7 +668,7 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 </ul>
 </section>
 <section id="ssh-debug">
-<h3 id="ssh-debug">SSH Debug<a class="headerlink" href="#ssh-debug" title="Permalink to this headline">¶</a></h3>
+<h3 id="ssh-debug">SSH Debug<a class="headerlink" href="#ssh-debug" title="Permalink to this heading">¶</a></h3>
 <p>To perform SSH debugging on the Chipsee IPC, you must first connect the product to the Internet.</p>
 <p>Continue the debugging by follow these steps:</p>
 <ul>
@@ -696,7 +697,7 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 </ul>
 </section>
 <section id="vnc-debug">
-<h3 id="vnc-debug">VNC Debug<a class="headerlink" href="#vnc-debug" title="Permalink to this headline">¶</a></h3>
+<h3 id="vnc-debug">VNC Debug<a class="headerlink" href="#vnc-debug" title="Permalink to this heading">¶</a></h3>
 <p>You can use the VNC-Viewer software in Windows to control Chipsee IPC over Ethernet.</p>
 <ul>
 <li><dl>
@@ -739,9 +740,9 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 </section>
 </section>
 <section id="downloading-images">
-<h2 id="downloading-images">Downloading images<a class="headerlink" href="#downloading-images" title="Permalink to this headline">¶</a></h2>
+<h2 id="downloading-images">Downloading images<a class="headerlink" href="#downloading-images" title="Permalink to this heading">¶</a></h2>
 <section id="boot-switch-configuration">
-<h3 id="boot-switch-configuration">Boot Switch Configuration<a class="headerlink" href="#boot-switch-configuration" title="Permalink to this headline">¶</a></h3>
+<h3 id="boot-switch-configuration">Boot Switch Configuration<a class="headerlink" href="#boot-switch-configuration" title="Permalink to this heading">¶</a></h3>
 <p>CS-IMX6 has a boot configuration select switch, as shown on the figure below. You can use the boot select switch to change between three modes, namely：</p>
 <ul class="simple">
 <li><p>TF Card</p></li>
@@ -755,7 +756,7 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 </figcaption>
 </figure>
 <table id="id12" style="width: 100%">
-<caption><span class="caption-number">Table 76:  </span><span class="caption-text">Boot Configuration Selection</span><a class="headerlink" href="#id12" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 76 </span><span class="caption-text">Boot Configuration Selection</span><a class="headerlink" href="#id12" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p><strong>SW Mode</strong></p></th>
 <th class="head"><p><strong>1</strong></p></th>
@@ -791,13 +792,13 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 </div>
 </section>
 <section id="prebuilt-files-package">
-<h3 id="prebuilt-files-package">Prebuilt Files Package<a class="headerlink" href="#prebuilt-files-package" title="Permalink to this headline">¶</a></h3>
+<h3 id="prebuilt-files-package">Prebuilt Files Package<a class="headerlink" href="#prebuilt-files-package" title="Permalink to this heading">¶</a></h3>
 <p>You can get the Prebuilt Files Package for each model from links mentioned at the beginning of this documentation.
 You can also get the Prebuilt Files Package from the DVD in /Linux Qt 5.5/Prebuilds folder. However, it may be outdated so always
 compare the versions (the last number in the filename is the release date).</p>
 <p>The prebuilt package has the following content:</p>
 <table id="id13" style="width: 100%">
-<caption><span class="caption-number">Table 77:  </span><span class="caption-text">Prebuilt Files Package</span><a class="headerlink" href="#id13" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 77 </span><span class="caption-text">Prebuilt Files Package</span><a class="headerlink" href="#id13" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Contents</p></th>
 <th class="head"><p>Comment</p></th>
@@ -863,7 +864,7 @@ compare the versions (the last number in the filename is the release date).</p>
 </div>
 </section>
 <section id="downloading-images-by-using-the-tf-card">
-<h3 id="downloading-images-by-using-the-tf-card">Downloading Images by using the TF card<a class="headerlink" href="#downloading-images-by-using-the-tf-card" title="Permalink to this headline">¶</a></h3>
+<h3 id="downloading-images-by-using-the-tf-card">Downloading Images by using the TF card<a class="headerlink" href="#downloading-images-by-using-the-tf-card" title="Permalink to this heading">¶</a></h3>
 <p>Follow the steps below to download images onto the eMMC by using the TF Card:</p>
 <ol class="arabic">
 <li><p>Copy the Prebuilt Files Package to a Linux environment (such as Ubuntu 14.04).</p></li>
@@ -913,9 +914,9 @@ compare the versions (the last number in the filename is the release date).</p>
 </section>
 </section>
 <section id="system-resource">
-<h2 id="system-resource">System Resource<a class="headerlink" href="#system-resource" title="Permalink to this headline">¶</a></h2>
+<h2 id="system-resource">System Resource<a class="headerlink" href="#system-resource" title="Permalink to this heading">¶</a></h2>
 <section id="tf-card-usb-disk">
-<h3 id="tf-card-usb-disk">TF Card/USB Disk<a class="headerlink" href="#tf-card-usb-disk" title="Permalink to this headline">¶</a></h3>
+<h3 id="tf-card-usb-disk">TF Card/USB Disk<a class="headerlink" href="#tf-card-usb-disk" title="Permalink to this heading">¶</a></h3>
 <p>The TF Card and USB Storage supports hot-plug.
 These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>, as shown in the figure.</p>
 <figure class="align-center" id="id14">
@@ -930,10 +931,10 @@ These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>
 </div>
 </section>
 <section id="network">
-<h3 id="network">Network<a class="headerlink" href="#network" title="Permalink to this headline">¶</a></h3>
+<h3 id="network">Network<a class="headerlink" href="#network" title="Permalink to this heading">¶</a></h3>
 <p>This system uses a networking service to control Ethernet and uses <code class="docutils literal notranslate"><span class="pre">wpa_supplicant</span></code> to control the WIFI network.</p>
 <section id="wired-ethernet">
-<h4 id="wired-ethernet">Wired Ethernet<a class="headerlink" href="#wired-ethernet" title="Permalink to this headline">¶</a></h4>
+<h4 id="wired-ethernet">Wired Ethernet<a class="headerlink" href="#wired-ethernet" title="Permalink to this heading">¶</a></h4>
 <p>You can get the IP address from the following application, as shown on the figure below.</p>
 <figure class="align-center" id="id15">
 <img alt="../../../../../_images/wired_1.jpeg" src="../../../../../_images/wired_1.jpeg"/>
@@ -949,7 +950,7 @@ These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>
 </figure>
 </section>
 <section id="wi-fi">
-<h4 id="wi-fi">Wi-Fi<a class="headerlink" href="#wi-fi" title="Permalink to this headline">¶</a></h4>
+<h4 id="wi-fi">Wi-Fi<a class="headerlink" href="#wi-fi" title="Permalink to this heading">¶</a></h4>
 <p>You can configure the Wi-Fi using these methods:</p>
 <ul class="simple">
 <li><p>Config Wi-Fi by GUI</p></li>
@@ -1034,7 +1035,7 @@ These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>
 </section>
 </section>
 <section id="sound-test">
-<h3 id="sound-test">Sound Test<a class="headerlink" href="#sound-test" title="Permalink to this headline">¶</a></h3>
+<h3 id="sound-test">Sound Test<a class="headerlink" href="#sound-test" title="Permalink to this heading">¶</a></h3>
 <p>You can use the command below to record music. The <code class="docutils literal notranslate"><span class="pre">-d</span></code> parameter means <em>interrupt after # seconds</em>. In this example, <code class="docutils literal notranslate"><span class="pre">-d</span></code> is equal to 18 seconds.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo  arecord  -N  -M  -r  <span class="m">44100</span>  -f  S16_LE  -c  <span class="m">2</span>  -d  <span class="m">18</span>  test.wav
 </pre></div>
@@ -1060,12 +1061,12 @@ These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>
 </figure>
 </section>
 <section id="serial-port">
-<h3 id="serial-port">Serial Port<a class="headerlink" href="#serial-port" title="Permalink to this headline">¶</a></h3>
+<h3 id="serial-port">Serial Port<a class="headerlink" href="#serial-port" title="Permalink to this heading">¶</a></h3>
 <p>There are five serial ports on the Chipsee IPC: 2 x RS232 and 3 x RS485 (can be customised). Refer to the table below for the available serial device nodes.</p>
 <p>The default serial port configuration is 2 x RS232, 2 x RS485, 1 x RS485 which is shared with Bluetooth. <br/>
 <strong>Contact us</strong> if you need help with changing the default serial port configuration</p>
 <table id="id21" style="width: 100%">
-<caption><span class="caption-number">Table 78:  </span><span class="caption-text">Serial Ports Nodes on the System</span><a class="headerlink" href="#id21" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 78 </span><span class="caption-text">Serial Ports Nodes on the System</span><a class="headerlink" href="#id21" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Device Node</p></th>
@@ -1108,7 +1109,7 @@ These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>
 </figure>
 </section>
 <section id="can-bus">
-<h3 id="can-bus">CAN Bus<a class="headerlink" href="#can-bus" title="Permalink to this headline">¶</a></h3>
+<h3 id="can-bus">CAN Bus<a class="headerlink" href="#can-bus" title="Permalink to this heading">¶</a></h3>
 <p>Chipsee Industrial PC is equipped with two CAN busses (CAN1 and CAN2). Two devices can be interconnected.
 You can test the CAN buses by using the <strong>HT application</strong> but you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown on the figure below.</p>
 <figure class="align-center" id="id24">
@@ -1196,10 +1197,10 @@ Follow these steps to perform the CAN test:</p>
 </figure>
 </section>
 <section id="gpio">
-<h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this headline">¶</a></h3>
+<h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this heading">¶</a></h3>
 <p>There are 8 GPIOs, 4 Output, and 4 Input, they are all isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V. Refer to the tables below for a detailed port definition:</p>
 <table id="id26" style="width: 100%">
-<caption><span class="caption-number">Table 79:  </span><span class="caption-text">CS10600F070 – V1.0 P23 Port</span><a class="headerlink" href="#id26" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 79 </span><span class="caption-text">CS10600F070 – V1.0 P23 Port</span><a class="headerlink" href="#id26" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Pin Number</p></th>
 <th class="head"><p>Definition</p></th>
@@ -1270,7 +1271,7 @@ Follow these steps to perform the GPIO test:</p>
 </div>
 </section>
 <section id="buzzer">
-<h3 id="buzzer">Buzzer<a class="headerlink" href="#buzzer" title="Permalink to this headline">¶</a></h3>
+<h3 id="buzzer">Buzzer<a class="headerlink" href="#buzzer" title="Permalink to this heading">¶</a></h3>
 <p>You can control the buzzer easily, with the following command:</p>
 <ul>
 <li><dl>
@@ -1298,10 +1299,10 @@ Follow these steps to perform the GPIO test:</p>
 </section>
 </section>
 <section id="development">
-<h2 id="development">Development<a class="headerlink" href="#development" title="Permalink to this headline">¶</a></h2>
+<h2 id="development">Development<a class="headerlink" href="#development" title="Permalink to this heading">¶</a></h2>
 <p>In this chapter, you will learn how to set up the QT development environment, and develop the first QT application on Chipsee IPC boards.</p>
 <section id="id1">
-<h3 id="id1">Preparation<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<h3 id="id1">Preparation<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic">
 <li><p>Download <a class="reference external" href="https://download.qt.io/archive/qt/5.5/5.5.1/">QT5.5.1</a> and install it on the system. Install it in the <cite>/home/&lt;user&gt;/program</cite> directory.</p></li>
 <li><dl>
@@ -1378,7 +1379,7 @@ Follow these steps to perform the GPIO test:</p>
 </ol>
 </section>
 <section id="example-develop-a-helloworld-program">
-<h3 id="example-develop-a-helloworld-program">Example — Develop a <code class="docutils literal notranslate"><span class="pre">HelloWorld</span></code> Program<a class="headerlink" href="#example-develop-a-helloworld-program" title="Permalink to this headline">¶</a></h3>
+<h3 id="example-develop-a-helloworld-program">Example — Develop a <code class="docutils literal notranslate"><span class="pre">HelloWorld</span></code> Program<a class="headerlink" href="#example-develop-a-helloworld-program" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic">
 <li><dl>
 <dt>Use QtCreator to create a new Qt Widgets Application, named <code class="docutils literal notranslate"><span class="pre">HelloWorld</span></code>, as shown on the figure below.</dt><dd><figure class="align-center" id="id34">
@@ -1443,10 +1444,10 @@ Follow these steps to perform the GPIO test:</p>
 </section>
 </section>
 <section id="q-a">
-<h2 id="q-a">Q&amp;A<a class="headerlink" href="#q-a" title="Permalink to this headline">¶</a></h2>
+<h2 id="q-a">Q&amp;A<a class="headerlink" href="#q-a" title="Permalink to this heading">¶</a></h2>
 <p>In this chapter, you can learn how to set up the QT development environment, and develop the first QT application on Chipsee IPC boards.</p>
 <section id="how-to-change-psplash-s">
-<h3 id="how-to-change-psplash-s">How to Change psplash’s<a class="headerlink" href="#how-to-change-psplash-s" title="Permalink to this headline">¶</a></h3>
+<h3 id="how-to-change-psplash-s">How to Change psplash’s<a class="headerlink" href="#how-to-change-psplash-s" title="Permalink to this heading">¶</a></h3>
 <ul>
 <li><dl>
 <dt>Install IMX SDK and some Packages. Reference the install SDK point under the <strong>Preparation</strong> section above to install IMX SDK and install some recommends packages using this command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo  apt-get  install  autoconf  libgdk-pixbuf2.0-dev
@@ -1510,7 +1511,7 @@ $ make  // you will generate the file psplash
 </section>
 </section>
 <section id="technical-support">
-<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this headline">¶</a></h2>
+<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this heading">¶</a></h2>
 <p>Please feel free to contact us with any questions, queries or suggestions.</p>
 <p>If your question is related to technical support or troubleshooting for one of our products, we kindly ask you to check our documentation for a possible solution first.</p>
 <p>If you still cannot find the solution you are looking for, please write to Chipsee Technical Support at <a class="reference external" href="mailto:service%40chipsee.com"><strong>service<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information.</p>
@@ -1581,7 +1582,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Jul 15, 2022.
+              Jul 19, 2022.
             <br/>
         </div>
       </div>

@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
@@ -42,6 +42,7 @@
     <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
     <script src="../../../../../_static/jquery.js"></script>
     <script src="../../../../../_static/underscore.js"></script>
+    <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../../../_static/doctools.js"></script>
     <script src="../../../../../_static/design-tabs.js"></script>
     <link rel="shortcut icon" href="../../../../../_static/favicon.webp"/>
@@ -542,7 +543,7 @@
           <article class="md-content__inner md-typeset" role="main">
             
   <section id="systemtype-os">
-<h1 id="pcs-arm-am335x-manuals-software-linuxqt--page-root">Linux QT OS<a class="headerlink" href="#pcs-arm-am335x-manuals-software-linuxqt--page-root" title="Permalink to this headline">¶</a></h1>
+<h1 id="pcs-arm-am335x-manuals-software-linuxqt--page-root">Linux QT OS<a class="headerlink" href="#pcs-arm-am335x-manuals-software-linuxqt--page-root" title="Permalink to this heading">¶</a></h1>
 <p class="centered">
 <strong>Linux QT OS User Manual</strong></p><img alt="../../../../../_images/Chipsee_Logo_Full.png" class="align-center" src="../../../../../_images/Chipsee_Logo_Full.png"/>
 <p>This manual provides users with a fast guide of Chipsee Industrial Computer (Abbreviate as IPC) about Linux QT OS development. Through this manual, users can quickly understand the hardware resources; users can build a complete compilation of Linux development environment; users can debug Linux QT OS via serial and Internet.</p>
@@ -591,7 +592,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </tbody>
 </table>
 <section id="preparation">
-<h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permalink to this headline">¶</a></h2>
+<h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permalink to this heading">¶</a></h2>
 <p>You will need to prepare the following items before you can start using the Prebuilt Files Package to re-flash the system.</p>
 <ul class="simple">
 <li><dl class="simple">
@@ -606,7 +607,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 <li><p>TF Card to create a bootable storage for re-flashing the system. Use the prebuilt files <a class="reference internal" href="#db-pkg-linux"><span class="std std-ref">link above</span></a> to re-flash the system.</p></li>
 </ul>
 <section id="hardware-requirements">
-<h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permalink to this headline">¶</a></h3>
+<h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>Chipsee Industrial PC</p></li>
 <li><p>PSU according to the instructions above</p></li>
@@ -617,7 +618,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </ul>
 </section>
 <section id="software-requirements">
-<h3 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Permalink to this headline">¶</a></h3>
+<h3 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>Linux QT OS Prebuilt Files Package (from the link above)</p></li>
 <li><p>Useful tools for Qt development</p></li>
@@ -629,9 +630,9 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </section>
 </section>
 <section id="getting-started-and-tests">
-<h2 id="getting-started-and-tests">Getting Started and Tests<a class="headerlink" href="#getting-started-and-tests" title="Permalink to this headline">¶</a></h2>
+<h2 id="getting-started-and-tests">Getting Started and Tests<a class="headerlink" href="#getting-started-and-tests" title="Permalink to this heading">¶</a></h2>
 <section id="dip-switch-configuration">
-<h3 id="dip-switch-configuration">DIP Switch Configuration<a class="headerlink" href="#dip-switch-configuration" title="Permalink to this headline">¶</a></h3>
+<h3 id="dip-switch-configuration">DIP Switch Configuration<a class="headerlink" href="#dip-switch-configuration" title="Permalink to this heading">¶</a></h3>
 <p>Set the boot DIP switch, as shown on the figure below, to boot the system from the external SD Card.</p>
 <figure class="align-center" id="id2">
 <img alt="../../../../../_images/Boot_SW2.jpeg" src="../../../../../_images/Boot_SW2.jpeg"/>
@@ -641,7 +642,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </figure>
 </section>
 <section id="downloading-images">
-<h3 id="downloading-images">Downloading Images<a class="headerlink" href="#downloading-images" title="Permalink to this headline">¶</a></h3>
+<h3 id="downloading-images">Downloading Images<a class="headerlink" href="#downloading-images" title="Permalink to this heading">¶</a></h3>
 <p>Chipsee IPC supports booting from an integrated eMMC or an external TF Card (also known as the micro SD card).
 Booting from the external TF Card allows flashing the system OS.</p>
 <div class="admonition note">
@@ -650,13 +651,13 @@ Booting from the external TF Card allows flashing the system OS.</p>
 </div>
 </section>
 <section id="prebuilt-files-package">
-<h3 id="prebuilt-files-package">Prebuilt Files Package<a class="headerlink" href="#prebuilt-files-package" title="Permalink to this headline">¶</a></h3>
+<h3 id="prebuilt-files-package">Prebuilt Files Package<a class="headerlink" href="#prebuilt-files-package" title="Permalink to this heading">¶</a></h3>
 <p>You can get the Prebuilt Files Package for each model from links mentioned at the beginning of this documentation.
 You can also get the Prebuilt Files Package from the DVD in /Linux QT/Prebuilds folder. However, it may be outdated so always
 compare the versions (the last number in the filename is the release date).</p>
 <p>The prebuilt package has the following content:</p>
 <table id="id3" style="width: 100%">
-<caption><span class="caption-number">Table 139:  </span><span class="caption-text">Prebuilt Files Package</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 139 </span><span class="caption-text">Prebuilt Files Package</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Contents</p></th>
 <th class="head"><p>Comment</p></th>
@@ -710,7 +711,7 @@ and <code class="docutils literal notranslate"><span class="pre">imx6q-eisd.dtb<
 </div>
 </section>
 <section id="how-to-make-a-bootable-sd-card">
-<h3 id="how-to-make-a-bootable-sd-card">How to make a bootable SD card<a class="headerlink" href="#how-to-make-a-bootable-sd-card" title="Permalink to this headline">¶</a></h3>
+<h3 id="how-to-make-a-bootable-sd-card">How to make a bootable SD card<a class="headerlink" href="#how-to-make-a-bootable-sd-card" title="Permalink to this heading">¶</a></h3>
 <p>The Prebuilt Files Package has a shell tool that can help create a bootable SD card using a Linux platform (such as desktop PC or Virtual
 Machine running Ubuntu 14.04 distribution). <br/>
 Use the SD Card to download the bootable system image onto the Linux platform and follow the steps below to create a bootable SD card:</p>
@@ -761,7 +762,7 @@ Use the SD Card to download the bootable system image onto the Linux platform an
 </ol>
 </section>
 <section id="how-to-flash-linux-to-emmc">
-<h3 id="how-to-flash-linux-to-emmc">How to flash Linux to eMMC<a class="headerlink" href="#how-to-flash-linux-to-emmc" title="Permalink to this headline">¶</a></h3>
+<h3 id="how-to-flash-linux-to-emmc">How to flash Linux to eMMC<a class="headerlink" href="#how-to-flash-linux-to-emmc" title="Permalink to this heading">¶</a></h3>
 <p>The Prebuilt Files Package has a shell tool that can help create a bootable SD card using a Linux platform (such as desktop PC or Virtual
 Machine running Ubuntu 14.04 distribution). <br/>
 Follow the steps below to create a bootable SD card:</p>
@@ -813,7 +814,7 @@ Follow the steps below to create a bootable SD card:</p>
 </ol>
 </section>
 <section id="start-systemtype-os">
-<h3 id="start-systemtype-os">Start Linux QT OS<a class="headerlink" href="#start-systemtype-os" title="Permalink to this headline">¶</a></h3>
+<h3 id="start-systemtype-os">Start Linux QT OS<a class="headerlink" href="#start-systemtype-os" title="Permalink to this heading">¶</a></h3>
 <p>The first time you start Linux QT OS on the industrial PC will take a little time. But after the first time, Linux QT OS will start quickly.
 When the Linux QT OS starts up, you will see the Chipsee Logo on the LCD screen.
 It is a successful start if you see the Linux QT OS desktop such as the one shown in the figure below:</p>
@@ -825,9 +826,9 @@ It is a successful start if you see the Linux QT OS desktop such as the one show
 </figure>
 </section>
 <section id="tests">
-<h3 id="tests">Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h3>
+<h3 id="tests">Tests<a class="headerlink" href="#tests" title="Permalink to this heading">¶</a></h3>
 <section id="touch-screen-and-buzzer-test">
-<h4 id="touch-screen-and-buzzer-test">Touch screen and buzzer test<a class="headerlink" href="#touch-screen-and-buzzer-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="touch-screen-and-buzzer-test">Touch screen and buzzer test<a class="headerlink" href="#touch-screen-and-buzzer-test" title="Permalink to this heading">¶</a></h4>
 <p>Click on the screen, the mouse arrow stays in a position that triggers the buzzer sounds, indicating that touch and buzzer work properly. <br/>
 After working for some time, the resistive touch screen may not be accurate. The user must run a touch screen calibration test. <br/>
 Click on the <strong>Chipsee</strong> icon on the desktop. Select <strong>Calibrate Screen</strong> to calibrate it, just as described in the figure below.</p>
@@ -863,7 +864,7 @@ Click on the <strong>Chipsee</strong> icon on the desktop. Select <strong>Calibr
 </ul>
 </section>
 <section id="audio-and-video-test">
-<h4 id="audio-and-video-test">Audio and video test<a class="headerlink" href="#audio-and-video-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="audio-and-video-test">Audio and video test<a class="headerlink" href="#audio-and-video-test" title="Permalink to this heading">¶</a></h4>
 <p>Insert the microphone and earphones into the Audio IO interface (Audio IN coloured pink, Audio OUT coloured light blue). <br/>
 as shown on the figure below, click the <strong>Multimedia</strong> icon on desktop then choose the <strong>MPEG-4+AAC Dec</strong> codec to test.</p>
 <figure class="align-center" id="id6">
@@ -874,7 +875,7 @@ as shown on the figure below, click the <strong>Multimedia</strong> icon on desk
 </figure>
 </section>
 <section id="d-test">
-<h4 id="d-test">3D Test<a class="headerlink" href="#d-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="d-test">3D Test<a class="headerlink" href="#d-test" title="Permalink to this heading">¶</a></h4>
 <p>Click the <strong>3D</strong> icon on desktop, then choose <strong>Film TV</strong> to test perform 3D testing as shown on the figure below.</p>
 <figure class="align-center" id="id7">
 <img alt="../../../../../_images/3D_Test.jpeg" src="../../../../../_images/3D_Test.jpeg"/>
@@ -884,11 +885,11 @@ as shown on the figure below, click the <strong>Multimedia</strong> icon on desk
 </figure>
 </section>
 <section id="serial-test">
-<h4 id="serial-test">Serial test<a class="headerlink" href="#serial-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="serial-test">Serial test<a class="headerlink" href="#serial-test" title="Permalink to this heading">¶</a></h4>
 <p>There are four serial ports on the Chipsee IPC: 2 X RS232 and 2 X RS485. The COM1(RS232) is used as the debug serial port. Users can communicate with the OS via COM1.
 Refer to the table below for the available serial device nodes.</p>
 <table id="id8" style="width: 100%">
-<caption><span class="caption-number">Table 140:  </span><span class="caption-text">Serial Ports Nodes on the System</span><a class="headerlink" href="#id8" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 140 </span><span class="caption-text">Serial Ports Nodes on the System</span><a class="headerlink" href="#id8" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Device Node</p></th>
@@ -949,7 +950,7 @@ Refer to the table below for the available serial device nodes.</p>
 </ul>
 </section>
 <section id="can-test">
-<h4 id="can-test">CAN test<a class="headerlink" href="#can-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="can-test">CAN test<a class="headerlink" href="#can-test" title="Permalink to this heading">¶</a></h4>
 <p>To perform the test, the user will need the following: <strong>2 x Embedded Industrial Computers, 2 x CAN bus connectors, 1 x 120Ω resistor, and oscillometer.</strong></p>
 <ul>
 <li><p>The user will connect the two CAN bus connectors directly to each other for testing.</p>
@@ -963,13 +964,13 @@ Refer to the table below for the available serial device nodes.</p>
 </ul>
 </section>
 <section id="gpio-test">
-<h4 id="gpio-test">GPIO test<a class="headerlink" href="#gpio-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="gpio-test">GPIO test<a class="headerlink" href="#gpio-test" title="Permalink to this heading">¶</a></h4>
 <p>There are (4) four input and (4) four output pins. LOW is 0V, HIGH is 5V. <br/>
 The GPIO input terminals connect to the GPIO output terminals, respectively. IN1-4 corresponds to OUT1-4. <br/>
 As a result, if you set the GPIO_OUT area, you will see the GPIO_IN region change as well. <br/>
 You can control the LED light on the industrial PC by setting the LED <strong>ON</strong> or <strong>OFF</strong>.</p>
 <table id="id10" style="width: 100%">
-<caption><span class="caption-number">Table 141:  </span><span class="caption-text">GPIO Nodes on the System</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 141 </span><span class="caption-text">GPIO Nodes on the System</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>GPIO</p></th>
 <th class="head"><p>GPIO In System</p></th>
@@ -1038,7 +1039,7 @@ You can control the LED light on the industrial PC by setting the LED <strong>ON
 </ul>
 </section>
 <section id="network">
-<h4 id="network">Network<a class="headerlink" href="#network" title="Permalink to this headline">¶</a></h4>
+<h4 id="network">Network<a class="headerlink" href="#network" title="Permalink to this heading">¶</a></h4>
 <p>To view the network information on the industrial PC, follow these steps:</p>
 <ul class="simple">
 <li><p>Click on the <strong>Network</strong> tab, then click the <strong>Ifconfig</strong> button to view the network information on the industrial PC.</p></li>
@@ -1053,7 +1054,7 @@ You can control the LED light on the industrial PC by setting the LED <strong>ON
 </figure>
 </section>
 <section id="date-and-time">
-<h4 id="date-and-time">Date and Time<a class="headerlink" href="#date-and-time" title="Permalink to this headline">¶</a></h4>
+<h4 id="date-and-time">Date and Time<a class="headerlink" href="#date-and-time" title="Permalink to this heading">¶</a></h4>
 <p>Click the <strong>Edit</strong> icon at the time display area to set the time and date, as shown on the figure below.</p>
 <figure class="align-center" id="id12">
 <img alt="../../../../../_images/Date_Time_Test.jpeg" src="../../../../../_images/Date_Time_Test.jpeg"/>
@@ -1100,7 +1101,7 @@ You can control the LED light on the industrial PC by setting the LED <strong>ON
 </ul>
 </section>
 <section id="backlight">
-<h4 id="backlight">Backlight<a class="headerlink" href="#backlight" title="Permalink to this headline">¶</a></h4>
+<h4 id="backlight">Backlight<a class="headerlink" href="#backlight" title="Permalink to this heading">¶</a></h4>
 <p>Modify this file <code class="docutils literal notranslate"><span class="pre">/sys/class/backlight/backlight</span></code> to adjust the screen brightness. Brightness ranges from 0 to 100 where 0 means no backlight, and 100 is the MAX brightness value. <br/>
 For example, you can adjust the screen brightness using this command:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># echo 50 &gt; /sys/class/backlight/backlight.10/Brightness</span>
@@ -1108,7 +1109,7 @@ For example, you can adjust the screen brightness using this command:</p>
 </div>
 </section>
 <section id="wifi">
-<h4 id="wifi">WiFi<a class="headerlink" href="#wifi" title="Permalink to this headline">¶</a></h4>
+<h4 id="wifi">WiFi<a class="headerlink" href="#wifi" title="Permalink to this heading">¶</a></h4>
 <p>The Linux QT OS has a WiFi module. If you want to get Wifi module to work, you need to edit the configuration file: <code class="docutils literal notranslate"><span class="pre">/etc/wpa_supplicant.conf</span></code>.</p>
 <ol class="arabic">
 <li><dl>
@@ -1143,7 +1144,7 @@ For example, you can adjust the screen brightness using this command:</p>
 </section>
 </section>
 <section id="modify-os-start-up-logo">
-<h3 id="modify-os-start-up-logo">Modify OS Start up Logo<a class="headerlink" href="#modify-os-start-up-logo" title="Permalink to this headline">¶</a></h3>
+<h3 id="modify-os-start-up-logo">Modify OS Start up Logo<a class="headerlink" href="#modify-os-start-up-logo" title="Permalink to this heading">¶</a></h3>
 <p>Chipsee<sup>®</sup> provides a software to change the OS boot up logo. The software <code class="docutils literal notranslate"><span class="pre">ChipSee_LOGO_MOD_EN.exe</span></code> is provided on the CD for a product. <br/>
 To change the logo, follow these steps:</p>
 <ol class="arabic">
@@ -1203,11 +1204,11 @@ Rewrite the <code class="docutils literal notranslate"><span class="pre">u-boot.
 </section>
 </section>
 <section id="systemtype-os-debug">
-<h2 id="systemtype-os-debug">Linux QT OS debug<a class="headerlink" href="#systemtype-os-debug" title="Permalink to this headline">¶</a></h2>
+<h2 id="systemtype-os-debug">Linux QT OS debug<a class="headerlink" href="#systemtype-os-debug" title="Permalink to this heading">¶</a></h2>
 <p>In this section, we will discover how to view the Linux QT system via the serial port on a Windows 7 PC. <br/>
 Also, we will discover how to debug using NFS on a Ubuntu Linux PC. <br/></p>
 <section id="view-systemtype-system-via-the-serial-port">
-<h3 id="view-systemtype-system-via-the-serial-port">View Linux QT system via the serial port<a class="headerlink" href="#view-systemtype-system-via-the-serial-port" title="Permalink to this headline">¶</a></h3>
+<h3 id="view-systemtype-system-via-the-serial-port">View Linux QT system via the serial port<a class="headerlink" href="#view-systemtype-system-via-the-serial-port" title="Permalink to this heading">¶</a></h3>
 <p>Install the <strong>SecureCRT</strong> or <strong>Putty</strong> software on a Windows 7 PC to view the Linux QT system via the serial ports. <br/>
 Follow these steps to view Linux QT system via the serial port:</p>
 <ul class="simple">
@@ -1224,7 +1225,7 @@ Follow these steps to view Linux QT system via the serial port:</p>
 </figure>
 </section>
 <section id="debug-via-nfs">
-<h3 id="debug-via-nfs">Debug via NFS<a class="headerlink" href="#debug-via-nfs" title="Permalink to this headline">¶</a></h3>
+<h3 id="debug-via-nfs">Debug via NFS<a class="headerlink" href="#debug-via-nfs" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic">
 <li><dl>
 <dt>Install NFS on Ubuntu Linux PC.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get install nfs-kernel-server
@@ -1295,10 +1296,10 @@ $ sudo umount /mnt
 </section>
 </section>
 <section id="linux-app-development">
-<h2 id="linux-app-development">Linux App Development<a class="headerlink" href="#linux-app-development" title="Permalink to this headline">¶</a></h2>
+<h2 id="linux-app-development">Linux App Development<a class="headerlink" href="#linux-app-development" title="Permalink to this heading">¶</a></h2>
 <p>In this section, we will introduce how to develop applications for the industrial computer in Linux.</p>
 <section id="id1">
-<h3 id="id1">Preparation<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<h3 id="id1">Preparation<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h3>
 <p><strong>Software</strong>:</p>
 <ol class="arabic simple">
 <li><p>Ubuntu system, we suggest Ubuntu 14.04.5 LTS x64</p></li>
@@ -1307,7 +1308,7 @@ $ sudo umount /mnt
 </ol>
 </section>
 <section id="steps">
-<h3 id="steps">Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h3>
+<h3 id="steps">Steps<a class="headerlink" href="#steps" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic">
 <li><p>We assume you have created a GUI program using Qtcreator, such as <code class="docutils literal notranslate"><span class="pre">HelloWorld</span></code>.</p></li>
 <li><dl>
@@ -1362,7 +1363,7 @@ $ make
 </ol>
 </section>
 <section id="new-development-kit">
-<h3 id="new-development-kit">New development kit<a class="headerlink" href="#new-development-kit" title="Permalink to this headline">¶</a></h3>
+<h3 id="new-development-kit">New development kit<a class="headerlink" href="#new-development-kit" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic">
 <li><dl>
 <dt>Open a Terminal in Ubuntu using the <strong>CTRL + ALT + T</strong> key combination. Enter the command below.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># source /usr/local/ti-sdk-am335x-evm/linux-devkit/environment-setup</span>
@@ -1447,7 +1448,7 @@ INSTALLS += target
 </section>
 </section>
 <section id="technical-support">
-<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this headline">¶</a></h2>
+<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this heading">¶</a></h2>
 <p>Please feel free to contact us with any questions, queries or suggestions.</p>
 <p>If your question is related to technical support or troubleshooting for one of our products, we kindly ask you to check our documentation for a possible solution first.</p>
 <p>If you still cannot find the solution you are looking for, please write to Chipsee Technical Support at <a class="reference external" href="mailto:service%40chipsee.com"><strong>service<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information.</p>
@@ -1518,7 +1519,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Jul 15, 2022.
+              Jul 19, 2022.
             <br/>
         </div>
       </div>

@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
@@ -42,6 +42,7 @@
     <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
     <script src="../../../../../_static/jquery.js"></script>
     <script src="../../../../../_static/underscore.js"></script>
+    <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../../../_static/doctools.js"></script>
     <script src="../../../../../_static/design-tabs.js"></script>
     <link rel="shortcut icon" href="../../../../../_static/favicon.webp"/>
@@ -577,7 +578,7 @@
           <article class="md-content__inner md-typeset" role="main">
             
   <section id="systemtype-os">
-<h1 id="pcs-arm-imx6q-manuals-software-android-43--page-root">Android 4 OS<a class="headerlink" href="#pcs-arm-imx6q-manuals-software-android-43--page-root" title="Permalink to this headline">¶</a></h1>
+<h1 id="pcs-arm-imx6q-manuals-software-android-43--page-root">Android 4 OS<a class="headerlink" href="#pcs-arm-imx6q-manuals-software-android-43--page-root" title="Permalink to this heading">¶</a></h1>
 <p class="centered">
 <strong>Android 4 OS User Manual</strong></p><img alt="../../../../../_images/Chipsee_Logo_Full.png" class="align-center" src="../../../../../_images/Chipsee_Logo_Full.png"/>
 <p>This manual is used to provide users with a fast guide of Chipsee Industrial Computers (Abbreviated as IPC) about Android 4 OS development. Through this manual, users can quickly understand the hardware resources; users can build a complete compilation of Android development environment; users can debug Android 4 OS via serial, USB OTG and Internet.</p>
@@ -624,7 +625,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </tbody>
 </table>
 <section id="preparation">
-<h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permalink to this headline">¶</a></h2>
+<h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permalink to this heading">¶</a></h2>
 <p>You will need to prepare the following items before you can start using the Prebuilt Files Package to re-flash the system.</p>
 <p>Power Supply Unit (PSU) with the appropriate voltages, as follows:</p>
 <ul class="simple">
@@ -633,7 +634,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 <li><p>The CS12800F101 product needs a 12V to 36V power adapter.</p></li>
 </ul>
 <section id="hardware-requirements">
-<h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permalink to this headline">¶</a></h3>
+<h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>Chipsee Industrial PC</p></li>
 <li><p>PSU according to the instructions above</p></li>
@@ -643,7 +644,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </ul>
 </section>
 <section id="software-requirements">
-<h3 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Permalink to this headline">¶</a></h3>
+<h3 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>Android 4 OS Prebuilt Files Package (from the link above)</p></li>
 <li><p>ADT for Windows</p></li>
@@ -653,13 +654,13 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </section>
 </section>
 <section id="getting-started-and-tests">
-<h2 id="getting-started-and-tests">Getting Started and Tests<a class="headerlink" href="#getting-started-and-tests" title="Permalink to this headline">¶</a></h2>
+<h2 id="getting-started-and-tests">Getting Started and Tests<a class="headerlink" href="#getting-started-and-tests" title="Permalink to this heading">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Throughout this section, the user can use both the pre-built Android 4 image files and the <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K3035-V2.1.zip">MFGTools</a> software to burn files to the system, boot system and perform necessary software and hardware test.</p>
 </div>
 <section id="boot-switch-configuration">
-<h3 id="boot-switch-configuration">Boot Switch Configuration<a class="headerlink" href="#boot-switch-configuration" title="Permalink to this headline">¶</a></h3>
+<h3 id="boot-switch-configuration">Boot Switch Configuration<a class="headerlink" href="#boot-switch-configuration" title="Permalink to this heading">¶</a></h3>
 <p>CS-IMX6 has a boot configuration select switch, as shown on the figure below. You can use the boot select switch to change between two modes, namely：</p>
 <ul class="simple">
 <li><p>eMMC Boot</p></li>
@@ -672,7 +673,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </figcaption>
 </figure>
 <table id="id6" style="width: 100%">
-<caption><span class="caption-number">Table 41:  </span><span class="caption-text">Boot Configuration Selection</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 41 </span><span class="caption-text">Boot Configuration Selection</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p><strong>SW Mode</strong></p></th>
 <th class="head"><p><strong>1</strong></p></th>
@@ -698,7 +699,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </table>
 </section>
 <section id="prepare-manufacturing-tool-and-image">
-<h3 id="prepare-manufacturing-tool-and-image">Prepare Manufacturing Tool and Image<a class="headerlink" href="#prepare-manufacturing-tool-and-image" title="Permalink to this headline">¶</a></h3>
+<h3 id="prepare-manufacturing-tool-and-image">Prepare Manufacturing Tool and Image<a class="headerlink" href="#prepare-manufacturing-tool-and-image" title="Permalink to this heading">¶</a></h3>
 <p>The manufacturing tool, referred to as <strong>MFGTool</strong>, is a tool that runs on a Windows PC. You can use it to download pre-built images to the eMMC on a Chipsee board. The tools directory contains the <code class="docutils literal notranslate"><span class="pre">tar.gz</span></code> file.</p>
 <table style="width: 100%">
 <thead>
@@ -733,10 +734,10 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </table>
 </section>
 <section id="downloading-images-by-using-mfgtool">
-<h3 id="downloading-images-by-using-mfgtool">Downloading Images by using MFGTool<a class="headerlink" href="#downloading-images-by-using-mfgtool" title="Permalink to this headline">¶</a></h3>
+<h3 id="downloading-images-by-using-mfgtool">Downloading Images by using MFGTool<a class="headerlink" href="#downloading-images-by-using-mfgtool" title="Permalink to this heading">¶</a></h3>
 <p>Chipsee IPC supports booting from an integrated eMMC.</p>
 <section id="configuring-mfgtool">
-<h4 id="configuring-mfgtool">Configuring MFGTool<a class="headerlink" href="#configuring-mfgtool" title="Permalink to this headline">¶</a></h4>
+<h4 id="configuring-mfgtool">Configuring MFGTool<a class="headerlink" href="#configuring-mfgtool" title="Permalink to this heading">¶</a></h4>
 <p>To configure <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K3035-V2.1.zip">MFGTools</a>, follow these steps:</p>
 <ul class="simple">
 <li><p>Unzip <code class="docutils literal notranslate"><span class="pre">Mfgtools-Rel-xxx_xxxxxx_MX6Q_UPDATER_Vxx.tar.gz</span></code> file.</p></li>
@@ -759,7 +760,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </figure>
 </section>
 <section id="copy-image-to-android-directory">
-<h4 id="copy-image-to-android-directory">Copy Image To Android Directory<a class="headerlink" href="#copy-image-to-android-directory" title="Permalink to this headline">¶</a></h4>
+<h4 id="copy-image-to-android-directory">Copy Image To Android Directory<a class="headerlink" href="#copy-image-to-android-directory" title="Permalink to this heading">¶</a></h4>
 <p>Follow these steps to copy image to Android directory:</p>
 <ul class="simple">
 <li><p>Unzip <code class="docutils literal notranslate"><span class="pre">prebuilt-csXXXXXfXXX-vX-android-YYYYMMDD.rar</span></code> file. The extracted folder will contain these files: <code class="docutils literal notranslate"><span class="pre">boot.img</span></code>, <code class="docutils literal notranslate"><span class="pre">recovery.img</span></code>, <code class="docutils literal notranslate"><span class="pre">system.img</span></code>, and <code class="docutils literal notranslate"><span class="pre">u-boot.bin</span></code>.</p></li>
@@ -773,7 +774,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </figure>
 </section>
 <section id="using-mfgtool">
-<h4 id="using-mfgtool">Using MFGTool<a class="headerlink" href="#using-mfgtool" title="Permalink to this headline">¶</a></h4>
+<h4 id="using-mfgtool">Using MFGTool<a class="headerlink" href="#using-mfgtool" title="Permalink to this heading">¶</a></h4>
 <ol class="arabic">
 <li><p>Connect a USB OTG cable from a Windows PC to the USB OTG port on the IPC.</p></li>
 <li><dl>
@@ -844,7 +845,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </section>
 </section>
 <section id="booting-android-os-and-test-using-7inch-as-example">
-<h3 id="booting-android-os-and-test-using-7inch-as-example">Booting Android OS And Test(Using 7inch as example)<a class="headerlink" href="#booting-android-os-and-test-using-7inch-as-example" title="Permalink to this headline">¶</a></h3>
+<h3 id="booting-android-os-and-test-using-7inch-as-example">Booting Android OS And Test(Using 7inch as example)<a class="headerlink" href="#booting-android-os-and-test-using-7inch-as-example" title="Permalink to this heading">¶</a></h3>
 <p>The first time you start Android 4 OS on the industrial PC will take a little time. But after the first time, Android 4 OS will start quickly.
 It is a successful start if you see the Android 4 OS desktop such as the one shown in the figure below:</p>
 <figure class="align-center" id="id16">
@@ -854,7 +855,7 @@ It is a successful start if you see the Android 4 OS desktop such as the one sho
 </figcaption>
 </figure>
 <section id="sd-test">
-<h4 id="sd-test">SD Test<a class="headerlink" href="#sd-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="sd-test">SD Test<a class="headerlink" href="#sd-test" title="Permalink to this heading">¶</a></h4>
 <p>The IPC supports SD card hot-plug. The figure below shows the message when you plug the SD card into IPC, but the IPC will not mount the SD Card.</p>
 <figure class="align-center" id="id17">
 <img alt="../../../../../_images/sd_1.png" src="../../../../../_images/sd_1.png"/>
@@ -871,7 +872,7 @@ It is a successful start if you see the Android 4 OS desktop such as the one sho
 </figure>
 </section>
 <section id="usb-flash-disk-test">
-<h4 id="usb-flash-disk-test">USB Flash Disk Test<a class="headerlink" href="#usb-flash-disk-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="usb-flash-disk-test">USB Flash Disk Test<a class="headerlink" href="#usb-flash-disk-test" title="Permalink to this heading">¶</a></h4>
 <p>The USB Flash Disk is like the SD Card, except for the mount point. The IPC mounts the USB Flash Disk to <cite>/mnt/udisk</cite>.</p>
 <figure class="align-center">
 <img alt="../../../../../_images/udisk_1.png" src="../../../../../_images/udisk_1.png"/>
@@ -884,7 +885,7 @@ It is a successful start if you see the Android 4 OS desktop such as the one sho
 </figure>
 </section>
 <section id="sata-test">
-<h4 id="sata-test">SATA Test<a class="headerlink" href="#sata-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="sata-test">SATA Test<a class="headerlink" href="#sata-test" title="Permalink to this heading">¶</a></h4>
 <p>The SATA does not support hot-plug, but the Android 4 OS supports NTFS. You can use the NTFS-3g tool to mount SATA disk partitions by running this command:</p>
 <div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="c"># ntfs-3g /dev/block/sda1 /mnt/shm/</span>
 </pre></div>
@@ -903,7 +904,7 @@ It is a successful start if you see the Android 4 OS desktop such as the one sho
 </figure>
 </section>
 <section id="network-test">
-<h4 id="network-test">Network Test<a class="headerlink" href="#network-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="network-test">Network Test<a class="headerlink" href="#network-test" title="Permalink to this heading">¶</a></h4>
 <p>The network uses DHCP to get IP Addresses. You can get network access if you connect a LAN cable from the IPC to a router. <br/>
 You can change the IP Address with this command.</p>
 <div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="c"># netcfg eth0 dhcp</span>
@@ -914,14 +915,14 @@ You can change the IP Address with this command.</p>
 </figure>
 </section>
 <section id="sound-card-test">
-<h4 id="sound-card-test">Sound Card Test<a class="headerlink" href="#sound-card-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="sound-card-test">Sound Card Test<a class="headerlink" href="#sound-card-test" title="Permalink to this heading">¶</a></h4>
 <p>Please open an audio file to test the Sound Card.</p>
 <figure class="align-center">
 <img alt="../../../../../_images/sound.png" src="../../../../../_images/sound.png"/>
 </figure>
 </section>
 <section id="video-test">
-<h4 id="video-test">Video Test<a class="headerlink" href="#video-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="video-test">Video Test<a class="headerlink" href="#video-test" title="Permalink to this heading">¶</a></h4>
 <p>Please open a video file to test the Video.</p>
 <figure class="align-center">
 <img alt="../../../../../_images/vid_1.png" src="../../../../../_images/vid_1.png"/>
@@ -931,7 +932,7 @@ You can change the IP Address with this command.</p>
 </figure>
 </section>
 <section id="hdmi-test">
-<h4 id="hdmi-test">HDMI Test<a class="headerlink" href="#hdmi-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="hdmi-test">HDMI Test<a class="headerlink" href="#hdmi-test" title="Permalink to this heading">¶</a></h4>
 <p>You can reference this document, <a class="reference download external" download="" href="https://chipsee-tmp.s3.amazonaws.com/DVD/IMX6Q/7/Android4.3/Documents/IMX6Q U-boot Setting Hdmi Output For Android.pdf"><code class="xref download docutils literal notranslate"><span class="pre">IMX6Q</span> <span class="pre">U-boot</span> <span class="pre">Setting</span> <span class="pre">HDMI</span> <span class="pre">Output</span> <span class="pre">For</span> <span class="pre">Android.pdf</span></code></a>, to learn about performing HDMI tests.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -939,11 +940,11 @@ You can change the IP Address with this command.</p>
 </div>
 </section>
 <section id="wifi-test">
-<h4 id="wifi-test">WIFI Test<a class="headerlink" href="#wifi-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="wifi-test">WIFI Test<a class="headerlink" href="#wifi-test" title="Permalink to this heading">¶</a></h4>
 <p>You must ensure the IPC has an SDIO Wi-Fi module integrated before performing the Wi-Fi test. If the IPC has an SDIO Wi-Fi Module, you can connect to the Wi-Fi and open a browser to test.</p>
 </section>
 <section id="adb-test">
-<h4 id="adb-test">ADB Test<a class="headerlink" href="#adb-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="adb-test">ADB Test<a class="headerlink" href="#adb-test" title="Permalink to this heading">¶</a></h4>
 <p>You must enable USB debugging on IPC before performing ADB test.|br|
 Follow these steps to enable USB debugging.</p>
 <ul>
@@ -1061,7 +1062,7 @@ Follow these steps to enable USB debugging.</p>
 </figure>
 </section>
 <section id="touch-screen-test">
-<h4 id="touch-screen-test">Touch Screen Test<a class="headerlink" href="#touch-screen-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="touch-screen-test">Touch Screen Test<a class="headerlink" href="#touch-screen-test" title="Permalink to this heading">¶</a></h4>
 <p>Run <strong>MultiTouch</strong> Tester App. <br/>
 The screen will show the number and position of the touch point when touching the screen.</p>
 <div class="admonition note">
@@ -1079,10 +1080,10 @@ The screen will show the number and position of the touch point when touching th
 </figure>
 </section>
 <section id="serial-test">
-<h4 id="serial-test">Serial Test<a class="headerlink" href="#serial-test" title="Permalink to this headline">¶</a></h4>
+<h4 id="serial-test">Serial Test<a class="headerlink" href="#serial-test" title="Permalink to this heading">¶</a></h4>
 <p>There are five serial ports on the Chipsee IPC: 2 x RS232 and 3 x RS485 (can be customised). Refer to the table below for the available serial device nodes.</p>
 <table id="id32" style="width: 100%">
-<caption><span class="caption-number">Table 42:  </span><span class="caption-text">Serial Ports Nodes on the System</span><a class="headerlink" href="#id32" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 42 </span><span class="caption-text">Serial Ports Nodes on the System</span><a class="headerlink" href="#id32" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Device Node</p></th>
@@ -1149,11 +1150,11 @@ The screen will show the number and position of the touch point when touching th
 </ul>
 </section>
 <section id="gpio">
-<h4 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this headline">¶</a></h4>
+<h4 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this heading">¶</a></h4>
 <p>For the <strong>CS12800F101</strong> IPC, there are 8 GPIO ports that you can set as output or input with LOW as 0V; the HIGH as 3.3V. <br/>
 Please check the <strong>GPIO Connector</strong> section in <a class="reference internal" href="../Hardware/CS12800F101.html#epc-ppc-a9-101-c"><span class="std std-ref">CS12800F101</span></a> to know the position of the GPIO Connector. Refer to the table below for the available GPIO nodes on system.</p>
 <table id="id36" style="width: 100%">
-<caption><span class="caption-number">Table 43:  </span><span class="caption-text">GPIO Nodes on the System</span><a class="headerlink" href="#id36" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 43 </span><span class="caption-text">GPIO Nodes on the System</span><a class="headerlink" href="#id36" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>PIN Number</p></th>
 <th class="head"><p>GPIO Number</p></th>
@@ -1206,12 +1207,12 @@ Please check the <strong>GPIO Connector</strong> section in <a class="reference 
 </section>
 </section>
 <section id="systemtype-system-debug-in-windows">
-<h2 id="systemtype-system-debug-in-windows">Android 4 system debug in Windows<a class="headerlink" href="#systemtype-system-debug-in-windows" title="Permalink to this headline">¶</a></h2>
+<h2 id="systemtype-system-debug-in-windows">Android 4 system debug in Windows<a class="headerlink" href="#systemtype-system-debug-in-windows" title="Permalink to this heading">¶</a></h2>
 <p>In this section, we will discover how to view the Android 4 system via the serial port and debug the system via USB OTG. <br/>
 Also, we will discover how to install and uninstall applications via USB OTG. <br/>
 The following operation is under the Windows 7 x64 environment, similar to other Windows platforms.</p>
 <section id="view-systemtype-system-via-the-serial-port">
-<h3 id="view-systemtype-system-via-the-serial-port">View Android 4 system via the serial port<a class="headerlink" href="#view-systemtype-system-via-the-serial-port" title="Permalink to this headline">¶</a></h3>
+<h3 id="view-systemtype-system-via-the-serial-port">View Android 4 system via the serial port<a class="headerlink" href="#view-systemtype-system-via-the-serial-port" title="Permalink to this heading">¶</a></h3>
 <p>Install the <strong>SecureCRT</strong> or <strong>Putty</strong> software on a Windows 7 PC to view the Android 4 system via the serial ports. <br/>
 Follow these steps to view Android 4 system via the serial port:</p>
 <ul>
@@ -1240,7 +1241,7 @@ Follow these steps to view Android 4 system via the serial port:</p>
 </ul>
 </section>
 <section id="adb-connect-via-usb-otg">
-<h3 id="adb-connect-via-usb-otg">Adb connect via USB OTG<a class="headerlink" href="#adb-connect-via-usb-otg" title="Permalink to this headline">¶</a></h3>
+<h3 id="adb-connect-via-usb-otg">Adb connect via USB OTG<a class="headerlink" href="#adb-connect-via-usb-otg" title="Permalink to this heading">¶</a></h3>
 <p>Please refer to the <a class="reference internal" href="#adb-test">ADB Test</a> chapter to learn how to set the ADB, how to install an app via ADB, and how to debug with ADB. <br/>
 You can use the following command to log in to the board and communicate with it.</p>
 <div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="p">&gt;</span> <span class="n">adb</span> <span class="n">shell</span>
@@ -1253,7 +1254,7 @@ You can use the following command to log in to the board and communicate with it
 </figcaption>
 </figure>
 <section id="use-adb-command-to-install-user-app">
-<h4 id="use-adb-command-to-install-user-app">Use ADB command to install user APP<a class="headerlink" href="#use-adb-command-to-install-user-app" title="Permalink to this headline">¶</a></h4>
+<h4 id="use-adb-command-to-install-user-app">Use ADB command to install user APP<a class="headerlink" href="#use-adb-command-to-install-user-app" title="Permalink to this heading">¶</a></h4>
 <p>Use the <code class="docutils literal notranslate"><span class="pre">adb</span></code> command to install an Android App: for example SogouInput.apk. If there is a <strong>SUCCESS</strong> message, as shown on the figure below, then the app installation was successful.</p>
 <div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="p">&gt;</span> <span class="n">adb</span> <span class="n">install</span> <span class="n">SogouInput</span><span class="p">.</span><span class="n">apk</span>
 </pre></div>
@@ -1266,7 +1267,7 @@ You can use the following command to log in to the board and communicate with it
 </figure>
 </section>
 <section id="use-adb-command-to-uninstall-user-app">
-<h4 id="use-adb-command-to-uninstall-user-app">Use ADB command to uninstall user APP<a class="headerlink" href="#use-adb-command-to-uninstall-user-app" title="Permalink to this headline">¶</a></h4>
+<h4 id="use-adb-command-to-uninstall-user-app">Use ADB command to uninstall user APP<a class="headerlink" href="#use-adb-command-to-uninstall-user-app" title="Permalink to this heading">¶</a></h4>
 <p>Use <code class="docutils literal notranslate"><span class="pre">adb</span></code> command to uninstall an Android app: for example AngryBirds.apk. Follow these commands to uninstall an app.</p>
 <div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="p">&gt;</span> <span class="n">adb</span> <span class="n">shell</span> <span class="n">pm</span> <span class="n">list</span> <span class="n">packages</span>
 <span class="p">&gt;</span> <span class="n">adb</span> <span class="n">uninstall</span> <span class="n">com</span><span class="p">.</span><span class="n">rovio</span><span class="p">.</span><span class="n">angrybirds</span>
@@ -1293,7 +1294,7 @@ You can use the following command to log in to the board and communicate with it
 </div>
 </section>
 <section id="use-adb-command-to-uninstall-default-app">
-<h4 id="use-adb-command-to-uninstall-default-app">Use ADB command to uninstall default APP<a class="headerlink" href="#use-adb-command-to-uninstall-default-app" title="Permalink to this headline">¶</a></h4>
+<h4 id="use-adb-command-to-uninstall-default-app">Use ADB command to uninstall default APP<a class="headerlink" href="#use-adb-command-to-uninstall-default-app" title="Permalink to this heading">¶</a></h4>
 <p>Use <code class="docutils literal notranslate"><span class="pre">adb</span></code> command to uninstall an Android app: for example <em>Email.apk</em>. Follow these commands to uninstall a default app.</p>
 <div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="p">&gt;</span> <span class="n">adb</span> <span class="n">shell</span>
 </pre></div>
@@ -1317,7 +1318,7 @@ su
 </figure>
 </section>
 <section id="id3">
-<h4 id="id3">Use ADB command to uninstall default APP<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<h4 id="id3">Use ADB command to uninstall default APP<a class="headerlink" href="#id3" title="Permalink to this heading">¶</a></h4>
 <p>Use <code class="docutils literal notranslate"><span class="pre">adb</span></code> command to transport files between the industrial PC and Windows 7 PC.</p>
 <ul>
 <li><dl>
@@ -1346,7 +1347,7 @@ su
 </section>
 </section>
 <section id="adb-connect-via-internet">
-<h3 id="adb-connect-via-internet">Adb connect via internet<a class="headerlink" href="#adb-connect-via-internet" title="Permalink to this headline">¶</a></h3>
+<h3 id="adb-connect-via-internet">Adb connect via internet<a class="headerlink" href="#adb-connect-via-internet" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic">
 <li><dl>
 <dt>The Ethernet port on the industrial PC and the host machine (Windows 7 PC) should connect to the network. Check Ethernet configuration for the industrial PC using the command below.</dt><dd><div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="c"># netcfg</span>
@@ -1412,10 +1413,10 @@ su
 </section>
 </section>
 <section id="android-app-development">
-<h2 id="android-app-development">Android App Development<a class="headerlink" href="#android-app-development" title="Permalink to this headline">¶</a></h2>
+<h2 id="android-app-development">Android App Development<a class="headerlink" href="#android-app-development" title="Permalink to this heading">¶</a></h2>
 <p>In this section, we will introduce the development of an Android app with Eclipse on Windows. We assume that the USB is OTG model and the driver is already installed. (See <a class="reference internal" href="#adb-connect-via-usb-otg">Adb connect via USB OTG</a>)</p>
 <section id="id4">
-<h3 id="id4">Preparation<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<h3 id="id4">Preparation<a class="headerlink" href="#id4" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic">
 <li><p>Download and install <a class="reference external" href="https://www.eclipse.org/downloads/packages/release/2021-12/r/eclipse-ide-java-developers">Eclipse IDE</a>.</p></li>
 <li><dl>
@@ -1462,7 +1463,7 @@ su
 </ol>
 </section>
 <section id="example-develop-a-helloworld-program">
-<h3 id="example-develop-a-helloworld-program">Example — Develop a <code class="docutils literal notranslate"><span class="pre">HelloWorld</span></code> Program<a class="headerlink" href="#example-develop-a-helloworld-program" title="Permalink to this headline">¶</a></h3>
+<h3 id="example-develop-a-helloworld-program">Example — Develop a <code class="docutils literal notranslate"><span class="pre">HelloWorld</span></code> Program<a class="headerlink" href="#example-develop-a-helloworld-program" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic">
 <li><dl>
 <dt>Click File–&gt;New–&gt;Android Application Project</dt><dd><figure class="align-center" id="id47">
@@ -1530,7 +1531,7 @@ su
 </section>
 </section>
 <section id="technical-support">
-<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this headline">¶</a></h2>
+<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this heading">¶</a></h2>
 <p>Please feel free to contact us with any questions, queries or suggestions.</p>
 <p>If your question is related to technical support or troubleshooting for one of our products, we kindly ask you to check our documentation for a possible solution first.</p>
 <p>If you still cannot find the solution you are looking for, please write to Chipsee Technical Support at <a class="reference external" href="mailto:service%40chipsee.com"><strong>service<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information.</p>
@@ -1601,7 +1602,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Jul 15, 2022.
+              Jul 19, 2022.
             <br/>
         </div>
       </div>

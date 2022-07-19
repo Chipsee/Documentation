@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
@@ -42,6 +42,7 @@
     <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
     <script src="../../../_static/jquery.js"></script>
     <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../_static/doctools.js"></script>
     <script src="../../../_static/design-tabs.js"></script>
     <link rel="shortcut icon" href="../../../_static/favicon.webp"/>
@@ -452,7 +453,7 @@
           <article class="md-content__inner md-typeset" role="main">
             
   <section id="systemtype-os">
-<h1 id="pcs-pi-software-debian--page-root">Debian 10 (buster) OS<a class="headerlink" href="#pcs-pi-software-debian--page-root" title="Permalink to this headline">¶</a></h1>
+<h1 id="pcs-pi-software-debian--page-root">Debian 10 (buster) OS<a class="headerlink" href="#pcs-pi-software-debian--page-root" title="Permalink to this heading">¶</a></h1>
 <p class="centered">
 <strong>Debian 10 (buster) OS User Manual</strong></p><img alt="../../../_images/Chipsee_Logo_Full.png" class="align-center" src="../../../_images/Chipsee_Logo_Full.png"/>
 <p>This manual provides users with a fast guide of Chipsee Raspberry Pi Computer (Abbreviated as RPC) running a Debian 10 (buster) OS. Through this manual, users can quickly understand the hardware resources; users can debug Debian 10 (buster) OS via serial, SSH, and VNC.</p>
@@ -531,7 +532,7 @@
 </dd>
 </dl>
 <section id="preparation">
-<h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permalink to this headline">¶</a></h2>
+<h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permalink to this heading">¶</a></h2>
 <p>You will need to prepare the following items before you can start using the Prebuilt Images Package to re-flash the system.</p>
 <p>Power Supply Unit (PSU) with the appropriate voltages, as follows:</p>
 <ul class="simple">
@@ -540,7 +541,7 @@
 <li><p>The CS12800RA4101P RPC needs a 12V to 36V power adapter.</p></li>
 </ul>
 <section id="hardware-requirements">
-<h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permalink to this headline">¶</a></h3>
+<h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>Chipsee Raspberry Pi<sup>®</sup></p></li>
 <li><p>PSU according to the instructions above</p></li>
@@ -551,7 +552,7 @@
 </ul>
 </section>
 <section id="software-requirements">
-<h3 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Permalink to this headline">¶</a></h3>
+<h3 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>Debian 10 (buster) OS Prebuilt Images Package (from the link above)</p></li>
 <li><p><a class="reference external" href="https://www.7-zip.org/download.html">7zip</a></p></li>
@@ -575,10 +576,10 @@
 </section>
 </section>
 <section id="debug">
-<h2 id="debug">Debug<a class="headerlink" href="#debug" title="Permalink to this headline">¶</a></h2>
+<h2 id="debug">Debug<a class="headerlink" href="#debug" title="Permalink to this heading">¶</a></h2>
 <p>In this document, we use Xshell to debug the Chipsee Raspberry Pi products. You can also use other tools such as Putty or another terminal emulation software.</p>
 <section id="serial-debug">
-<h3 id="serial-debug">Serial Debug<a class="headerlink" href="#serial-debug" title="Permalink to this headline">¶</a></h3>
+<h3 id="serial-debug">Serial Debug<a class="headerlink" href="#serial-debug" title="Permalink to this heading">¶</a></h3>
 <p>The RS232_0 is configured as debug console by default on all Chipsee Raspberry Pi products. You can use it to debug directly, and the default user and password is [ pi / raspberry ].
 Use the session properties as shown on the figure below.</p>
 <figure class="align-center" id="id5">
@@ -595,7 +596,7 @@ Use the session properties as shown on the figure below.</p>
 </ul>
 </section>
 <section id="ssh-debug">
-<h3 id="ssh-debug">SSH Debug<a class="headerlink" href="#ssh-debug" title="Permalink to this headline">¶</a></h3>
+<h3 id="ssh-debug">SSH Debug<a class="headerlink" href="#ssh-debug" title="Permalink to this heading">¶</a></h3>
 <p>To perform SSH debugging on the Chipsee Raspberry Pi<sup>®</sup> product, you must first connect the product to the Internet.</p>
 <p>Continue the debugging by follow these steps:</p>
 <ul>
@@ -646,7 +647,7 @@ Interfacing Options -&gt; SSH -&gt; Yes
 </ul>
 </section>
 <section id="vnc-debug">
-<h3 id="vnc-debug">VNC Debug<a class="headerlink" href="#vnc-debug" title="Permalink to this headline">¶</a></h3>
+<h3 id="vnc-debug">VNC Debug<a class="headerlink" href="#vnc-debug" title="Permalink to this heading">¶</a></h3>
 <p>You can use VNC-Viewer in Windows to control Chipsee Raspberry Pi product over Ethernet.</p>
 <p>Continue the debugging by follow these steps:</p>
 <ul>
@@ -698,9 +699,9 @@ Interfacing Options -&gt; VNC -&gt; Yes
 </section>
 </section>
 <section id="downloading-images">
-<h2 id="downloading-images">Downloading images<a class="headerlink" href="#downloading-images" title="Permalink to this headline">¶</a></h2>
+<h2 id="downloading-images">Downloading images<a class="headerlink" href="#downloading-images" title="Permalink to this heading">¶</a></h2>
 <section id="boot-switch-configuration">
-<h3 id="boot-switch-configuration">Boot Switch Configuration<a class="headerlink" href="#boot-switch-configuration" title="Permalink to this headline">¶</a></h3>
+<h3 id="boot-switch-configuration">Boot Switch Configuration<a class="headerlink" href="#boot-switch-configuration" title="Permalink to this heading">¶</a></h3>
 <p>Chipsee RPC supports booting from an integrated eMMC or an external TF Card (also known as the micro SD card).</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -717,12 +718,12 @@ If you need to use SD boot, you should configure the boot switch to the eMMC pos
 <p>The next sections explain in detail the steps in downloading a new system to eMMC.</p>
 </section>
 <section id="prebuilt-image">
-<h3 id="prebuilt-image">Prebuilt image<a class="headerlink" href="#prebuilt-image" title="Permalink to this headline">¶</a></h3>
+<h3 id="prebuilt-image">Prebuilt image<a class="headerlink" href="#prebuilt-image" title="Permalink to this heading">¶</a></h3>
 <p>Chipsee Raspberry Pi products use the Raspberry Pi official system as a base and add some modules and drivers. You can get the driver and latest image by referring to <a class="reference external" href="https://github.com/Chipsee/industrial-pi#latest-system-images">https://github.com/Chipsee/industrial-pi#latest-system-images</a>. <br/>
 If you’re not using balenaEtcher, you’ll need to unzip the <cite>.img.xz</cite> file and get the image file <cite>(.img)</cite> to write to your SD card.</p>
 </section>
 <section id="writing-images-to-the-sd-card">
-<h3 id="writing-images-to-the-sd-card">Writing images to the SD Card<a class="headerlink" href="#writing-images-to-the-sd-card" title="Permalink to this headline">¶</a></h3>
+<h3 id="writing-images-to-the-sd-card">Writing images to the SD Card<a class="headerlink" href="#writing-images-to-the-sd-card" title="Permalink to this heading">¶</a></h3>
 <p>Before you start, don’t forget to check your SD card size (at least 16GB). <br/>
 You will need to use an image writing tool to install the downloaded image on your SD card.</p>
 <p><strong>Using balenaEtcher Tool</strong> <br/></p>
@@ -745,7 +746,7 @@ To write your image with balenaEtcher, follow these steps:</p>
 </ul>
 </section>
 <section id="writing-images-to-the-emmc">
-<h3 id="writing-images-to-the-emmc">Writing images to the eMMC<a class="headerlink" href="#writing-images-to-the-emmc" title="Permalink to this headline">¶</a></h3>
+<h3 id="writing-images-to-the-emmc">Writing images to the eMMC<a class="headerlink" href="#writing-images-to-the-emmc" title="Permalink to this heading">¶</a></h3>
 <p>Before you start, don’t forget to check your eMMC size, and select one image. You also need to install <a class="reference download external" download="" href="https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe"><code class="xref download docutils literal notranslate"><span class="pre">rpiboot</span></code></a> to enable eMMC to work as one USB storage in your PC. <br/>
 Under Windows, an installer is available to install the required drivers and boot tool automatically.|br|
 For those who just want to enable the Compute Module eMMC as a mass storage device under Windows, the stand-alone installer is the recommended option.</p>
@@ -778,17 +779,17 @@ For those who just want to enable the Compute Module eMMC as a mass storage devi
 </section>
 </section>
 <section id="system-resource">
-<h2 id="system-resource">System Resource<a class="headerlink" href="#system-resource" title="Permalink to this headline">¶</a></h2>
+<h2 id="system-resource">System Resource<a class="headerlink" href="#system-resource" title="Permalink to this heading">¶</a></h2>
 <section id="sd-card-usb">
-<h3 id="sd-card-usb">SD Card/USB<a class="headerlink" href="#sd-card-usb" title="Permalink to this headline">¶</a></h3>
+<h3 id="sd-card-usb">SD Card/USB<a class="headerlink" href="#sd-card-usb" title="Permalink to this heading">¶</a></h3>
 <p>SD Card is for external storage and needs to be placed in the <strong>SD1</strong> port. The <strong>SD0</strong> port is used by boot.|br|
 SD Card and USB Storage support hot plug. They will be automatically mounted on <cite>/media/pi/</cite>. For <strong>CS12800RA4101A</strong> and <strong>CS12800RA4101P</strong>, there is only one SD slot.</p>
 </section>
 <section id="serial-port">
-<h3 id="serial-port">Serial Port<a class="headerlink" href="#serial-port" title="Permalink to this headline">¶</a></h3>
+<h3 id="serial-port">Serial Port<a class="headerlink" href="#serial-port" title="Permalink to this heading">¶</a></h3>
 <p>Chipsee Raspberry Pi<sup>®</sup> boards support RS232 and RS485. Check the table below to know more about the serial port on different boards.</p>
 <table id="id14" style="width: 100%">
-<caption><span class="caption-number">Table 199:  </span><span class="caption-text">CS10600RA070-C111</span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 199 </span><span class="caption-text">CS10600RA070-C111</span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Name</p></th>
@@ -815,7 +816,7 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 </div>
 <p>There is one GPIO that is used by RS485. You can control it to enable and disable RS485 to send and receive. Check the tables below.</p>
 <table id="id15" style="width: 100%">
-<caption><span class="caption-number">Table 200:  </span><span class="caption-text">RS485 control GPIO</span><a class="headerlink" href="#id15" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 200 </span><span class="caption-text">RS485 control GPIO</span><a class="headerlink" href="#id15" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>GPIO</p></th>
 <th class="head"><p>Initial</p></th>
@@ -842,7 +843,7 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 </tbody>
 </table>
 <table id="id16" style="width: 100%">
-<caption><span class="caption-number">Table 201:  </span><span class="caption-text">CS12800RA101</span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 201 </span><span class="caption-text">CS12800RA101</span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Name</p></th>
@@ -884,7 +885,7 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 </tbody>
 </table>
 <table id="id17" style="width: 100%">
-<caption><span class="caption-number">Table 202:  </span><span class="caption-text">CS10600RA4070-C111</span><a class="headerlink" href="#id17" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 202 </span><span class="caption-text">CS10600RA4070-C111</span><a class="headerlink" href="#id17" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Name</p></th>
@@ -932,7 +933,7 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 </dd>
 </dl>
 <table id="id18" style="width: 100%">
-<caption><span class="caption-number">Table 203:  </span><span class="caption-text">CS12800RA4101A</span><a class="headerlink" href="#id18" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 203 </span><span class="caption-text">CS12800RA4101A</span><a class="headerlink" href="#id18" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Name</p></th>
@@ -959,7 +960,7 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 </tbody>
 </table>
 <table id="id19" style="width: 100%">
-<caption><span class="caption-number">Table 204:  </span><span class="caption-text">CS12800RA4101P</span><a class="headerlink" href="#id19" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 204 </span><span class="caption-text">CS12800RA4101P</span><a class="headerlink" href="#id19" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Name</p></th>
@@ -994,10 +995,10 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 <p>Only root user and use the serial port:</p>
 </section>
 <section id="gpio">
-<h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this headline">¶</a></h3>
+<h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this heading">¶</a></h3>
 <p>There are 8 GPIOs, 4 Output, and 4 Input, they are all isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V. Refer to the tables below for a detailed port definition:</p>
 <table id="id20" style="width: 100%">
-<caption><span class="caption-number">Table 205:  </span><span class="caption-text">CS10600RA070 P19 Port</span><a class="headerlink" href="#id20" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 205 </span><span class="caption-text">CS10600RA070 P19 Port</span><a class="headerlink" href="#id20" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Pin Number</p></th>
 <th class="head"><p>GPIO Number</p></th>
@@ -1059,7 +1060,7 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 </tbody>
 </table>
 <table id="id21" style="width: 100%">
-<caption><span class="caption-number">Table 206:  </span><span class="caption-text">CS12800RA101 P2 Port / CS10600RA4070 P19 Port</span><a class="headerlink" href="#id21" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 206 </span><span class="caption-text">CS12800RA101 P2 Port / CS10600RA4070 P19 Port</span><a class="headerlink" href="#id21" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Pin Number</p></th>
 <th class="head"><p>GPIO Number</p></th>
@@ -1140,10 +1141,10 @@ $ <span class="nb">echo</span> <span class="m">0</span> &gt; /dev/chipsee-gpio1 
 </ul>
 </section>
 <section id="relay">
-<h3 id="relay">Relay<a class="headerlink" href="#relay" title="Permalink to this headline">¶</a></h3>
+<h3 id="relay">Relay<a class="headerlink" href="#relay" title="Permalink to this heading">¶</a></h3>
 <p>There is one Relay on CS12800RA4101A. For a detailed port definition, please refer to the table below.</p>
 <table id="id22" style="width: 100%">
-<caption><span class="caption-number">Table 207:  </span><span class="caption-text">CS12800RA4101A Relay on P10</span><a class="headerlink" href="#id22" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 207 </span><span class="caption-text">CS12800RA4101A Relay on P10</span><a class="headerlink" href="#id22" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Name</p></th>
@@ -1196,7 +1197,7 @@ $ <span class="nb">echo</span> out &gt; /sys/class/gpio/gpio17/direction
 </ul>
 </section>
 <section id="buzzer">
-<h3 id="buzzer">BUZZER<a class="headerlink" href="#buzzer" title="Permalink to this headline">¶</a></h3>
+<h3 id="buzzer">BUZZER<a class="headerlink" href="#buzzer" title="Permalink to this heading">¶</a></h3>
 <p>The Chipsee Raspberry Pi boards have one buzzer. We have created one symbol link to <cite>/dev/buzzer</cite>. You can control it as follows:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">echo</span> <span class="m">1</span> &gt; /dev/buzzer    //enable buzzer
 
@@ -1205,7 +1206,7 @@ $ <span class="nb">echo</span> <span class="m">0</span> &gt; /dev/buzzer    // d
 </div>
 </section>
 <section id="backlight">
-<h3 id="backlight">Backlight<a class="headerlink" href="#backlight" title="Permalink to this headline">¶</a></h3>
+<h3 id="backlight">Backlight<a class="headerlink" href="#backlight" title="Permalink to this heading">¶</a></h3>
 <p>We use one PWM to control the backlight for Chipsee Raspberry Pi boards, You can use follow commands to control the backlight.</p>
 <ul>
 <li><dl>
@@ -1225,7 +1226,7 @@ $ <span class="nb">echo</span> <span class="m">0</span> &gt; /dev/buzzer    // d
 </ul>
 </section>
 <section id="g">
-<h3 id="g">4G<a class="headerlink" href="#g" title="Permalink to this headline">¶</a></h3>
+<h3 id="g">4G<a class="headerlink" href="#g" title="Permalink to this heading">¶</a></h3>
 <ul>
 <li><dl>
 <dt>You can use 4G on Chipsee Raspberry Pi products. If the 4G module is Quectel EC20, you can use <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/Tools/linux-ppp-scripts.tar.gz">linux-ppp-scripts</a> to connect to internet.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt update
@@ -1269,7 +1270,7 @@ AT+QGPSEND // disable GPS
 </ul>
 </section>
 <section id="can-bus">
-<h3 id="can-bus">CAN Bus<a class="headerlink" href="#can-bus" title="Permalink to this headline">¶</a></h3>
+<h3 id="can-bus">CAN Bus<a class="headerlink" href="#can-bus" title="Permalink to this heading">¶</a></h3>
 <p>There is one channel CAN bus on <strong>CS12800RA101/CS10600RA4070/CS12800RA4101P</strong>. You can install <cite>can-utils</cite> and use them to test CAN. But you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown on the figure below.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -1343,13 +1344,13 @@ AT+QGPSEND // disable GPS
 </ul>
 </section>
 <section id="wi-fi">
-<h3 id="wi-fi">Wi-Fi<a class="headerlink" href="#wi-fi" title="Permalink to this headline">¶</a></h3>
+<h3 id="wi-fi">Wi-Fi<a class="headerlink" href="#wi-fi" title="Permalink to this heading">¶</a></h3>
 <p>The Chipsee Raspberry Pi boards support <em>RTL8723BU/RTL8723DU</em> chip Wi-Fi.
 The <strong>CS10600RA070/CS12800RA101</strong> have an onboard <cite>RTL8723BU</cite> Wi-Fi chip.
 The <strong>CS10600RA4070/CS12800RA4101A/CS12800RA4101P</strong> have no onboard Wi-Fi by default so you can use the USB Wi-Fi dongle to enable the Wi-Fi.</p>
 </section>
 <section id="zigbee">
-<h3 id="zigbee">Zigbee<a class="headerlink" href="#zigbee" title="Permalink to this headline">¶</a></h3>
+<h3 id="zigbee">Zigbee<a class="headerlink" href="#zigbee" title="Permalink to this heading">¶</a></h3>
 <p>The <strong>CS10600RA4070/CS12800RA4101A/CS12800RA4101P</strong> boards have an onboard ZigBee chip <em>CC2531</em>.
 Its device node in the system is <cite>/dev/ttyACM0</cite>.
 We use <cite>zigbee2mqtt</cite> project firmware by default.
@@ -1360,12 +1361,12 @@ Check the following link to learn more about this project: <a class="reference e
 </div>
 </section>
 <section id="camera">
-<h3 id="camera">Camera<a class="headerlink" href="#camera" title="Permalink to this headline">¶</a></h3>
+<h3 id="camera">Camera<a class="headerlink" href="#camera" title="Permalink to this heading">¶</a></h3>
 <p>The camera port CAM is compatible with Raspberry pi.
 Please refer to the following link to learn how to attach a camera: <a class="reference external" href="https://www.raspberrypi.org/documentation/hardware/computemodule/cmio-camera.md">https://www.raspberrypi.org/documentation/hardware/computemodule/cmio-camera.md</a></p>
 </section>
 <section id="chipsee-init-shell">
-<h3 id="chipsee-init-shell">Chipsee-init shell<a class="headerlink" href="#chipsee-init-shell" title="Permalink to this headline">¶</a></h3>
+<h3 id="chipsee-init-shell">Chipsee-init shell<a class="headerlink" href="#chipsee-init-shell" title="Permalink to this heading">¶</a></h3>
 <p>We use one <strong>chipsee-init.sh</strong> as an initial shell which is placed in <cite>/opt/chipsee/chipsee-init.sh</cite>.
 We initialize the GPIO/Buzzer and other configs in it. If you want to change it, please be careful. <br/>
 Do a backup first before you modify anything. This script will generaged one log file which located on /var/log/chipsee-init.sh.log.
@@ -1373,7 +1374,7 @@ If you device have boot issue, you can send this file to use to help find what h
 </section>
 </section>
 <section id="technical-support">
-<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this headline">¶</a></h2>
+<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this heading">¶</a></h2>
 <p>Please feel free to contact us with any questions, queries or suggestions.</p>
 <p>If your question is related to technical support or troubleshooting for one of our products, we kindly ask you to check our documentation for a possible solution first.</p>
 <p>If you still cannot find the solution you are looking for, please write to Chipsee Technical Support at <a class="reference external" href="mailto:service%40chipsee.com"><strong>service<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information.</p>
@@ -1444,7 +1445,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Jul 15, 2022.
+              Jul 19, 2022.
             <br/>
         </div>
       </div>

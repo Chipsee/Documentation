@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
@@ -42,6 +42,7 @@
     <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
     <script src="../../../../../_static/jquery.js"></script>
     <script src="../../../../../_static/underscore.js"></script>
+    <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../../../_static/doctools.js"></script>
     <script src="../../../../../_static/design-tabs.js"></script>
     <link rel="shortcut icon" href="../../../../../_static/favicon.webp"/>
@@ -496,7 +497,7 @@
           <article class="md-content__inner md-typeset" role="main">
             
   <section id="debian-8-10">
-<h1 id="pcs-arm-imx6ul-manuals-software-debian--page-root">Debian 8.10<a class="headerlink" href="#pcs-arm-imx6ul-manuals-software-debian--page-root" title="Permalink to this headline">¶</a></h1>
+<h1 id="pcs-arm-imx6ul-manuals-software-debian--page-root">Debian 8.10<a class="headerlink" href="#pcs-arm-imx6ul-manuals-software-debian--page-root" title="Permalink to this heading">¶</a></h1>
 <p class="centered">
 <strong>Chipsee Debian8.10 User Manual</strong></p><img alt="../../../../../_images/Chipsee_Logo_Full.png" class="align-center" src="../../../../../_images/Chipsee_Logo_Full.png"/>
 <table style="width: 100%">
@@ -551,7 +552,7 @@
 </tbody>
 </table>
 <section id="preparation">
-<h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permalink to this headline">¶</a></h2>
+<h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permalink to this heading">¶</a></h2>
 <p>You will need to prepare the following items before you can start using the Prebuilt Files Package to reflash the system.</p>
 <ul>
 <li><p>Power Supply Unit (PSU) with the appropriate voltages, as follows:</p>
@@ -569,7 +570,7 @@
 in Windows. You can also use VNC<sup>®</sup> Viewer to control Chipsee IPC remotely, over Ethernet.
 The Cross-toolchain software is used to compile the software for flashing.</p>
 <section id="hardware-requirements">
-<h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permalink to this headline">¶</a></h3>
+<h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>Chipsee Industrial (Embedded) Panel PC</p></li>
 <li><p>PSU according to the instructions above</p></li>
@@ -578,7 +579,7 @@ The Cross-toolchain software is used to compile the software for flashing.</p>
 </ul>
 </section>
 <section id="software-requirements">
-<h3 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Permalink to this headline">¶</a></h3>
+<h3 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>Prebuilt Files Package (from the link above)</p></li>
 <li><p>XShell or similar terminal emulation software</p></li>
@@ -588,11 +589,11 @@ The Cross-toolchain software is used to compile the software for flashing.</p>
 </section>
 </section>
 <section id="debug">
-<h2 id="debug">Debug<a class="headerlink" href="#debug" title="Permalink to this headline">¶</a></h2>
+<h2 id="debug">Debug<a class="headerlink" href="#debug" title="Permalink to this heading">¶</a></h2>
 <p>This documentation covers the use of XShell terminal emulation software to debug Chipsee IPC. However, you can use other tools as well,
 such as SecureCRT or Minicom.</p>
 <section id="serial-debug">
-<h3 id="serial-debug">Serial Debug<a class="headerlink" href="#serial-debug" title="Permalink to this headline">¶</a></h3>
+<h3 id="serial-debug">Serial Debug<a class="headerlink" href="#serial-debug" title="Permalink to this heading">¶</a></h3>
 <p>The first serial port is used for debugging (serial port 1). It consists of <em>RS232_1_TXD</em>, <em>RS232_1_RXD</em> and, <em>GND</em> terminals.
 Please refer to <a class="reference internal" href="../Hardware/CS10600U070.html#rs232-rs485-can-a7-70c"><span class="std std-ref">1.6.1. RS232/RS485/CAN</span></a> chapter in the EPC/PPC-A7-70HB-C Hardware Documentation for additional information on serial ports.</p>
 <div class="admonition note">
@@ -624,7 +625,7 @@ Please refer to <a class="reference internal" href="../Hardware/CS10600U070.html
 </figure>
 </section>
 <section id="ssh-debug">
-<h3 id="ssh-debug">SSH Debug<a class="headerlink" href="#ssh-debug" title="Permalink to this headline">¶</a></h3>
+<h3 id="ssh-debug">SSH Debug<a class="headerlink" href="#ssh-debug" title="Permalink to this heading">¶</a></h3>
 <p>Connect Chipsee IPC to the Internet and get the IP address. Then config XShell or use the SSH tool on the Linux PC host directly.
 In this documentation, we will cover XShell SSH debugging procedure.</p>
 <p>You must first add a new session, as shown in <em>Figure 1</em>. The new session should be set as in <em>Figure 2</em> below.</p>
@@ -642,7 +643,7 @@ In this documentation, we will cover XShell SSH debugging procedure.</p>
 </figure>
 </section>
 <section id="vcn-debug">
-<h3 id="vcn-debug">VCN Debug<a class="headerlink" href="#vcn-debug" title="Permalink to this headline">¶</a></h3>
+<h3 id="vcn-debug">VCN Debug<a class="headerlink" href="#vcn-debug" title="Permalink to this heading">¶</a></h3>
 <p>You can use VNC Viewer in Windows to control Chipsee IPC over Ethernet, as mentioned above.</p>
 <ul class="simple">
 <li><p>Use XShell serial or SSH to connect to Chipsee IPC</p></li>
@@ -678,11 +679,11 @@ $x11vnc -display :0 -forever -bg -rfbauth /home/chipsee/.vnc/passwd -rfbport 590
 </section>
 </section>
 <section id="downloading-images">
-<h2 id="downloading-images">Downloading Images<a class="headerlink" href="#downloading-images" title="Permalink to this headline">¶</a></h2>
+<h2 id="downloading-images">Downloading Images<a class="headerlink" href="#downloading-images" title="Permalink to this heading">¶</a></h2>
 <p>Chipsee IPC supports booting from an integrated eMMC or an external TF Card (also known as the micro SD card).
 Booting from the external TF Card allows flashing the system OS.</p>
 <section id="dip-switch-configuration">
-<h3 id="dip-switch-configuration">DIP Switch Configuration<a class="headerlink" href="#dip-switch-configuration" title="Permalink to this headline">¶</a></h3>
+<h3 id="dip-switch-configuration">DIP Switch Configuration<a class="headerlink" href="#dip-switch-configuration" title="Permalink to this heading">¶</a></h3>
 <p>Set the boot DIP switch as shown in <em>Figure 3</em> to boot the system from the external TF Card.</p>
 <span class="target" id="f3"></span><figure class="align-center" id="id9">
 <a class="reference external image-reference" href="../../../../../_images/Debian_Shot_09.jpg"><img alt="../../../../../_images/Debian_Shot_09.jpg" src="../../../../../_images/Debian_Shot_09.jpg"/></a>
@@ -692,13 +693,13 @@ Booting from the external TF Card allows flashing the system OS.</p>
 </figure>
 </section>
 <section id="prebuilt-files-package">
-<h3 id="prebuilt-files-package">Prebuilt Files Package<a class="headerlink" href="#prebuilt-files-package" title="Permalink to this headline">¶</a></h3>
+<h3 id="prebuilt-files-package">Prebuilt Files Package<a class="headerlink" href="#prebuilt-files-package" title="Permalink to this heading">¶</a></h3>
 <p>You can get the Prebuilt Files Package from the <a class="reference internal" href="#db-pkg"><span class="std std-ref">Prebuilt Files Package link</span></a> mentioned at the beginning of this documentation.
 You can also get the Prebuilt Files Package from the DVD in /Debian8.10/Prebuilds folder. However, it may be outdated so always
 compare the versions (the last number in the filename is the release date).</p>
 <p>The prebuilt package has the following content (<em>Table 1</em>):</p>
 <table id="id10" style="width: 100%">
-<caption><span class="caption-number">Table 73:  </span><span class="caption-text">Table 1: Prebuilt Files Package</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 73 </span><span class="caption-text">Table 1: Prebuilt Files Package</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Contents</p></th>
 <th class="head"><p>Comment</p></th>
@@ -752,7 +753,7 @@ and <code class="docutils literal notranslate"><span class="pre">imx6q-eisd.dtb<
 </div>
 </section>
 <section id="downloading-images-onto-the-tf-card">
-<h3 id="downloading-images-onto-the-tf-card">Downloading images onto the TF Card<a class="headerlink" href="#downloading-images-onto-the-tf-card" title="Permalink to this headline">¶</a></h3>
+<h3 id="downloading-images-onto-the-tf-card">Downloading images onto the TF Card<a class="headerlink" href="#downloading-images-onto-the-tf-card" title="Permalink to this heading">¶</a></h3>
 <p>The Prebuilt Files Package has a shell tool that can help create a bootable TF card on the Linux platform (such as desktop PC or Virtual
 Machine running Ubuntu 14.04 distribution). Use the TF Card to download the bootable system image onto it:</p>
 <ul class="simple">
@@ -777,10 +778,10 @@ Machine running Ubuntu 14.04 distribution). Use the TF Card to download the boot
 </section>
 </section>
 <section id="system-resources">
-<h2 id="system-resources">System Resources<a class="headerlink" href="#system-resources" title="Permalink to this headline">¶</a></h2>
+<h2 id="system-resources">System Resources<a class="headerlink" href="#system-resources" title="Permalink to this heading">¶</a></h2>
 <p>This chapter covers the resources available on Chipsee IPC.</p>
 <section id="tf-card-usb-storage">
-<h3 id="tf-card-usb-storage">TF Card/USB Storage<a class="headerlink" href="#tf-card-usb-storage" title="Permalink to this headline">¶</a></h3>
+<h3 id="tf-card-usb-storage">TF Card/USB Storage<a class="headerlink" href="#tf-card-usb-storage" title="Permalink to this heading">¶</a></h3>
 <p>Both the TF Card and USB storage support the hot plug functionality. They will be automatically mounted on <code class="docutils literal notranslate"><span class="pre">/media/chipsee/</span></code>, as in <em>Figure 4</em>.
 Also, both storage types support NTFS and FAT32 file system.</p>
 <figure class="align-center" id="id11">
@@ -791,7 +792,7 @@ Also, both storage types support NTFS and FAT32 file system.</p>
 </figure>
 </section>
 <section id="network">
-<h3 id="network">Network<a class="headerlink" href="#network" title="Permalink to this headline">¶</a></h3>
+<h3 id="network">Network<a class="headerlink" href="#network" title="Permalink to this heading">¶</a></h3>
 <p>The system uses WICD Network Manager to control Ethernet configuration. You can get the assigned IP address from DHCP, or you can set static IP.
 After you set the static IP, reboot the system to enable it (<em>Figure 5a</em> and <em>Figure 5b</em>):</p>
 <figure class="align-center" id="id12">
@@ -808,7 +809,7 @@ After you set the static IP, reboot the system to enable it (<em>Figure 5a</em> 
 </figure>
 </section>
 <section id="sound">
-<h3 id="sound">Sound<a class="headerlink" href="#sound" title="Permalink to this headline">¶</a></h3>
+<h3 id="sound">Sound<a class="headerlink" href="#sound" title="Permalink to this heading">¶</a></h3>
 <p>The following command example is used to record sound:</p>
 <div class="hatnote hatnote-gray docutils container">
 <p>$ arecord  -N  -M  -r  44100  -f  S16_LE  -c  2  -d  18  test.wav</p>
@@ -821,10 +822,10 @@ After you set the static IP, reboot the system to enable it (<em>Figure 5a</em> 
 </div>
 </section>
 <section id="serial-port">
-<h3 id="serial-port">Serial Port<a class="headerlink" href="#serial-port" title="Permalink to this headline">¶</a></h3>
+<h3 id="serial-port">Serial Port<a class="headerlink" href="#serial-port" title="Permalink to this heading">¶</a></h3>
 <p>There are five serial ports on the Chipsee IPC: 2 X RS232 and 3 X RS485. Refer to <em>Table 2</em> below for the available serial device nodes.</p>
 <table id="id14" style="width: 60%">
-<caption><span class="caption-number">Table 74:  </span><span class="caption-text">Table 2: Serial Ports Device Nodes</span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 74 </span><span class="caption-text">Table 2: Serial Ports Device Nodes</span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Device Node</p></th>
@@ -866,7 +867,7 @@ After you set the static IP, reboot the system to enable it (<em>Figure 5a</em> 
 </div>
 </section>
 <section id="can">
-<h3 id="can">CAN<a class="headerlink" href="#can" title="Permalink to this headline">¶</a></h3>
+<h3 id="can">CAN<a class="headerlink" href="#can" title="Permalink to this heading">¶</a></h3>
 <p>Chipsee Industrial PC is equipped with two CAN busses (CAN1 and CAN2). You can test the CAN busses by using the HT application.
 Two devices can be interconnected as on the <em>Figure 6</em> below:</p>
 <figure class="align-center" id="id15">
@@ -914,11 +915,11 @@ Two devices can be interconnected as on the <em>Figure 6</em> below:</p>
 </div>
 </section>
 <section id="gpio-ports">
-<h3 id="gpio-ports">GPIO Ports<a class="headerlink" href="#gpio-ports" title="Permalink to this headline">¶</a></h3>
+<h3 id="gpio-ports">GPIO Ports<a class="headerlink" href="#gpio-ports" title="Permalink to this heading">¶</a></h3>
 <p>There are 8 GPIO ports on the Chipsee IPC, as explained in the <a class="reference internal" href="../Hardware/CS10600U070.html#gpio"><span class="std std-ref">GPIO</span></a> chapter of the EPC/PPC-A7-70HB-C Hardware
 Documentation. The table below contains the related device nodes:</p>
 <table id="id16" style="width: 80%">
-<caption><span class="caption-number">Table 75:  </span><span class="caption-text">Table 3: GPIO Ports</span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 75 </span><span class="caption-text">Table 3: GPIO Ports</span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 30%"/>
 <col style="width: 70%"/>
@@ -983,10 +984,10 @@ Documentation. The table below contains the related device nodes:</p>
 </section>
 </section>
 <section id="development">
-<h2 id="development">Development<a class="headerlink" href="#development" title="Permalink to this headline">¶</a></h2>
+<h2 id="development">Development<a class="headerlink" href="#development" title="Permalink to this heading">¶</a></h2>
 <p>In this chapter, you can learn how to set up QT development environment and develop the first QT application on CS10600U070 IPC.</p>
 <section id="set-environment">
-<h3 id="set-environment">Set Environment<a class="headerlink" href="#set-environment" title="Permalink to this headline">¶</a></h3>
+<h3 id="set-environment">Set Environment<a class="headerlink" href="#set-environment" title="Permalink to this heading">¶</a></h3>
 <p>By default, there is no Qt and build  environment set up in the system. Before you start the development, you need to install the environments
 by using the following set of commands:</p>
 <div class="hatnote hatnote-gray docutils container">
@@ -997,12 +998,12 @@ $ sudo apt-get clean</p>
 </div>
 </section>
 <section id="prepare-source-packages">
-<h3 id="prepare-source-packages">Prepare Source Packages<a class="headerlink" href="#prepare-source-packages" title="Permalink to this headline">¶</a></h3>
+<h3 id="prepare-source-packages">Prepare Source Packages<a class="headerlink" href="#prepare-source-packages" title="Permalink to this heading">¶</a></h3>
 <p>There are some Qt source demo packages on the provided DVD in the <code class="docutils literal notranslate"><span class="pre">/Debian8.10/QT/</span></code> folder. You can use SSH or USB storage to transfer them to
 Chipsee IPC.</p>
 </section>
 <section id="build-run">
-<h3 id="build-run">Build &amp; Run<a class="headerlink" href="#build-run" title="Permalink to this headline">¶</a></h3>
+<h3 id="build-run">Build &amp; Run<a class="headerlink" href="#build-run" title="Permalink to this heading">¶</a></h3>
 <p>We will use the <code class="docutils literal notranslate"><span class="pre">hardwarewaretest_serial_ok_20170223.tar.gz</span></code> demo package to demonstrate how to build and run Qt applications and projects. This
 demo requires Qt serial port support support before it can be used. You can install it as follows:</p>
 <div class="hatnote hatnote-gray docutils container">
@@ -1094,7 +1095,7 @@ $ ./hardwaretest_serial</p>
               
           </div>
             Last updated on
-              Jul 15, 2022.
+              Jul 19, 2022.
             <br/>
         </div>
       </div>
