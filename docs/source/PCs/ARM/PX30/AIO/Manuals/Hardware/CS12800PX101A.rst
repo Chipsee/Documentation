@@ -22,7 +22,7 @@
 
 .. |opt1| replace:: Internal 4G/LTE module supported, not mounted by default
 
-.. |vin_rng| replace:: From 9V to 36V
+.. |vin_rng| replace:: 12V DC
 
 .. |cur| replace:: 500mA Max
 
@@ -135,7 +135,7 @@
 Power Input
 ===========
 
-|Product| can be powered by a wide range of input voltages: |vin_rng| DC.
+|Product| can be powered by a wide range of input voltages: |vin_rng|.
 The total power consumption is typically about 6W. The power input connector is a 3.4/1.7mm DC connector. For a proper DC power adapter, refer to the figure below.
 We also provide a customzied power cable of 3.4/1.7mm to 5.5/2.1mm for customer.
 
