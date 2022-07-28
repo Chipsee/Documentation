@@ -26,7 +26,7 @@
 
 .. |weightE| replace:: NULL
 
-.. |weightP| replace:: 4200g
+.. |weightP| replace:: 4500g
 
 .. |tscreen| replace:: 10-point capacitive touch
 
