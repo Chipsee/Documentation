@@ -1,0 +1,210 @@
+.. |product| replace:: PPC-A72-101-C
+
+.. |productP| replace:: PPC-A72-101-C
+
+.. |PN| replace:: PN: CS12800R101P
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |dispsize| replace:: 10.1"
+
+.. |res| replace:: 1280 x 800
+
+.. |bright| replace:: 400 |cd|
+
+.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |dimE| replace:: NULL
+
+.. |dimP| replace:: 275.5 x 193.5 x 46.0mm
+
+.. |weightE| replace:: NULL
+
+.. |weightP| replace:: 1600g
+
+.. |RAM| replace:: 4GB DDR3
+
+.. |eMMC| replace:: 16GB
+
+.. |tscreen| replace:: 10-point capacitive touch screen
+
+.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |LAN| replace:: 1 x RJ45, GbE
+
+.. |GPIO| replace:: 8 Channels
+
+.. |opt1| replace:: Supported, Optional
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |vin_rng| replace:: From 9V to 36V
+
+.. |cur| replace:: 700mA Max
+
+.. |pwr| replace:: 12W Typical
+
+.. |temp| replace:: From 0°C to +60°C
+
+.. |rs232| replace:: 3 x RS232 (Optional 5 x RS232 at most, 1 debug port)
+
+.. |rs485| replace:: 2 x RS485
+
+
+.. _PPC-A72-101-C:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. You must add the `product-img img-thumbnail mx-auto d-block` word
+.. to the image class directive in order for the thumbnail feature to work
+
+.. raw:: html
+
+    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
+
+.. Image thumbnail 1
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/ARM/A72/CS12800R101P/PPC-A72-101-C-Front.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Front View (Panel Mounting Variant)
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 2
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/ARM/A72/CS12800R101P/PPC-A72-101-C-Back.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Back View (Panel Mounting Variant)
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 3
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/ARM/A72/CS12800R101P/PPC-A72-101-C-Side.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Side View (Panel Mounting Variant)
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 4
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/ARM/A72/CS12800R101P/PCB.jpeg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: inter View (Embedded Variant)
+
+.. raw:: html
+
+    </div>
+
+.. raw:: html
+
+    </div>
+
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features_2
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table_cs12800r101p
+
+.. include:: Resources/power_cs12800r101p
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/connectivity_cs12800r101p
+
+USB Connectors
+--------------
+
+There are 2 x **USB HOST connectors** onboard which includes 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, and 1 x USB Type-C, as shown in the figures below.
+
+.. Figure:: /Media/ARM/A72/CS12800R101P/USB2.jpg
+  :align: center
+  :figclass: align-center
+
+  *USB 2.0 HOST Connectors (embedded/enclosed PC version)*
+
+.. Figure:: /Media/ARM/A72/CS12800R101P/USB3.jpg
+  :align: center
+  :figclass: align-center
+
+  *USB 3.0 HOST Connectors (embedded/enclosed PC version)*
+
+.. Figure:: /Media/ARM/A72/CS12800R101P/TYPE-C.jpg
+  :align: center
+  :figclass: align-center
+
+  *USB Type-C Connector (embedded/enclosed PC version)*
+
+.. warning::
+
+  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi_BT
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/TF_Card_cs12800r101p
+
+.. include:: Resources/Audio_IO_cs12800r101p
+
+.. include:: Resources/power_btn
+
+Mounting Procedure
+==================
+
+|Product| can be mounted with 4 x M4 screws, enabling simplified installation onto any standard mounting fixture.
+
+|productP|
+----------
+You can mount |productP| with the Vesa (75 x 75mm) and Panel mounting methods, as shown on the figure below.
+
+.. Figure:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-TD.png
+  :align: center
+  :figclass: align-center
+
+  *Panel mounting*
+
+.. attention::
+
+    Please make sure the display is not exposed to high pressure when mounting into an enclosure.
+
+You can find detailed information about mounting in the |mguide|.
+
+
+Mechanical Specifications
+=========================
+
+|productP|
+----------
+For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+
+.. include:: Resources/support
+

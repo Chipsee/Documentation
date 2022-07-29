@@ -2,7 +2,7 @@
 
 .. |productE| replace:: EPC-A72-101-C
 
-.. |productP| replace:: PPC-A72-101-C                                                                                                                                             -70-C
+.. |productP| replace:: PPC-A72-101-C
 
 .. |PN| replace:: PN: CS12800R101
 

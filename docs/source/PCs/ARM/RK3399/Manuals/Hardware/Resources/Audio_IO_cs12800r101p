@@ -1,0 +1,23 @@
+Audio Connectors
+================
+
+|Product| features some audio peripherals. It has 1 x **3.5mm audio output jack**. |br|
+Also, the |product| industrial Pi PC has a miniature 2W internal speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds.
+
+.. figure:: /Media/Pi/A72/CS12800RA4101/Audio.jpg
+  :figclass: align-center
+  :align: center
+
+  *Audio Connector (enclosed PC version)*
+
+.. attention::
+
+    By plugging in the headphone cable, the internal speaker will be disabled automatically.
+
+In addition, |product| features a miniature 2W embedded speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds.
+
+.. figure:: /Media/ARM/A8/AM3354/Speaker_Buzzer.jpeg
+  :figclass: align-center
+  :align: center
+
+  *2W Micro Speaker and Buzzer*
