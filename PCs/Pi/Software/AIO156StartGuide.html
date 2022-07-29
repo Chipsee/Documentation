@@ -441,6 +441,9 @@ use follow commands to receive key from ubuntu key server.</p>
 run follow commands instead.</p>
 <p>$ sudo gpg –no-default-keyring –keyring gnupg-ring:/etc/apt/trusted.gpg.d/cmhelper.gpg –keyserver keyserver.ubuntu.com –recv 06D92B49B9078A87
 $ sudo chmod 644 /etc/apt/trusted.gpg.d/cmhelper.gpg</p>
+<p>or use follow commands if above commands don’t work
+$ sudo sudo gpg –keyserver keyserver.ubuntu.com –recv 06D92B49B9078A87
+$ sudo gpg –export –armor 06D92B49B9078A87 | sudo apt-key add -</p>
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -542,7 +545,7 @@ $ gcc -o cmhelper_test -lcmhelper cmhelper_test.c
               
           </div>
             Last updated on
-              Jul 28, 2022.
+              Jul 29, 2022.
             <br/>
         </div>
       </div>

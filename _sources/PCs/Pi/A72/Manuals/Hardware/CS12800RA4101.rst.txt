@@ -200,8 +200,7 @@ The table below offers more detailed description of every pin and its definition
 
 .. attention::
 
-    #) RS485_3 and RS485_5 can control the input and output direction automatically. There’s no need to control it from within the software.
-    #) The 120Ω match resistor for the RS232 and CAN bus is NOT mounted by default.
+    #) The 120Ω match resistor for the RS485 and CAN bus is NOT mounted by default.
 
 GPIO Port
 --------------
