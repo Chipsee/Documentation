@@ -38,7 +38,7 @@
 
 .. |opt2| replace:: Integrated WiFi/BT Module
 
-.. |vin_rng| replace:: From 9V to 36V
+.. |vin_rng| replace:: From 12V to 36V
 
 .. |cur| replace:: 700mA Max
 
