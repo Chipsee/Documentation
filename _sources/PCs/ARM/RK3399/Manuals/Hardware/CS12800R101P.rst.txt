@@ -72,7 +72,7 @@
 
 .. image:: /Media/ARM/A72/CS12800R101P/PPC-A72-101-C-Front.jpeg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Front View (Panel Mounting Variant)
+   :alt: Front View (Grey Color Variant)
 
 .. raw:: html
 
@@ -85,7 +85,7 @@
 
 .. image:: /Media/ARM/A72/CS12800R101P/PPC-A72-101-C-Back.jpeg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View (Panel Mounting Variant)
+   :alt: Back View (Grey Color Variant)
 
 .. raw:: html
 
@@ -98,7 +98,7 @@
 
 .. image:: /Media/ARM/A72/CS12800R101P/PPC-A72-101-C-Side.jpeg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Side View (Panel Mounting Variant)
+   :alt: Side View (Black Color Variant)
 
 .. raw:: html
 
@@ -111,7 +111,7 @@
 
 .. image:: /Media/ARM/A72/CS12800R101P/PPC-A72-101-B-Side.png
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: inter View (Embedded Variant)
+   :alt: Side View (Black Color Variant)
 
 .. raw:: html
 
