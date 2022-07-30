@@ -109,7 +109,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A72/CS12800R101P/PCB.jpeg
+.. image:: /Media/ARM/A72/CS12800R101P/PPC-A72-101-B-Side.png
    :class: product-img img-thumbnail mx-auto d-block
    :alt: inter View (Embedded Variant)
 
@@ -141,7 +141,8 @@
 USB Connectors
 --------------
 
-There are 2 x **USB HOST connectors** onboard which includes 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, and 1 x USB Type-C, as shown in the figures below.
+There are 2 x **USB HOST connectors** onboard which includes |USB|
+, as shown in the figures below.
 
 .. Figure:: /Media/ARM/A72/CS12800R101P/USB2.jpg
   :align: center
