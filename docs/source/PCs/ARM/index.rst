@@ -34,6 +34,7 @@ the repository much easier.
    :titlesonly:
 
    RK3399 Hardware Documentation <RK3399/Manuals/Hardware/index>
+   RK3399 OS Downloads <RK3399/OS_Downloads/index>
 
 .. rubric:: Products by platform: |Cortex|-A8 (CS-SOM335X-V3)
 
