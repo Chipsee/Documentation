@@ -25,6 +25,7 @@ the repository much easier.
 
    i.MX6UL Hardware Documentation <iMX6UL/Manuals/Hardware/index> 
    i.MX6UL Software Documentation <iMX6UL/Manuals/Software/index>
+   i.MX6UL OS Downloads <iMX6UL/OS_Downloads/index>
 
 .. rubric:: Products by platform: |Cortex|-A72/53 (Rockchip RK3399)
 
