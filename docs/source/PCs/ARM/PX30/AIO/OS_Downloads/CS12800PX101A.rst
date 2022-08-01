@@ -8,3 +8,13 @@ Android9.0
 ----------
 
 | :download:`prebuilt-px30-cs12800px-lvds-android9-ota-emmc-20220106.img <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/PX30/Android9.0/prebuilt-px30-cs12800px-lvds-android9-ota-emmc-20220106.img>`
+
+Debian10
+--------
+
+| :download:`prebuilt-px30-cs12800px-lvds-debian10-emmc-20220325.img <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/PX30/10/Debian10/prebuilt-px30-cs12800px-lvds-debian10-emmc-20220325.img>`
+
+Buildroot Linux Qt5.14
+----------------------
+
+| :download:`prebuilt-px30-cs12800px-lvds-linux-emmc-20220217.img <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/PX30/10/LinuxQt5.14/prebuilt-px30-cs12800px-lvds-linux-emmc-20220217.img>`
