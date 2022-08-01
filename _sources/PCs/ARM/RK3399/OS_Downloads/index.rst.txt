@@ -1,7 +1,7 @@
-i.MX6UL OS Downloads
-####################
+RK3399 OS Downloads
+###################
 
-.. _IMX6UL_OSDownloads:
+.. _RK3399_OSDownloads:
 
 Please note that not all the products use the same model of touch panel. Be sure to download the correct OS according to the touch panel installed in your product.
 For additional information, contact |email|_
@@ -10,7 +10,7 @@ For additional information, contact |email|_
    :maxdepth: 1
    :titlesonly:
 
-   EPC/PPC-A7-70HB-C <CS10600U070>
+   EPC/PPC-A72-70-C <CS10600R070>
 
 .. warning::
 

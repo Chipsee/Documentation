@@ -1,0 +1,23 @@
+EPC/PPC-A72-70-C (PN: CS10600R070)
+##################################
+
+.. _CS10600R070-android:
+
+Android7.1
+----------
+
+| :download:`prebuilt-rk3399v1-cs10600r-mipi-android7-ota-emmc-20211201.img <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3399/7/Android7.1/prebuilt-rk3399v1-cs10600r-mipi-android7-ota-emmc-20211201.img>`
+
+.. _CS10600R070-debian:
+
+Debian8.10
+----------
+
+| :download:`prebuilt-rk3399v1-cs10600r-mipi-debian10-emmc-20220721.img <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3399/7/Debian10/prebuilt-rk3399v1-cs10600r-mipi-debian10-emmc-20220721.img>`
+
+.. _CS10600R070-linuxQt:
+
+LinuxQt5.14
+-----------
+
+| :download:`prebuilt-rk3399v1-cs10600r-mipi-linux-emmc-20220801.img <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3399/7/LinuxQt5.14/prebuilt-rk3399v1-cs10600r-mipi-linux-emmc-20220801.img>`
