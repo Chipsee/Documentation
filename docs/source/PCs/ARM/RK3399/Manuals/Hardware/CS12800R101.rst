@@ -60,10 +60,6 @@
 
 .. rubric:: *Version 1.0*
 
-.. note::
-
-    **EOL PRODUCT:** This product has been discontinued, due to market demand and shifts in technology. Please |contact|_ if you would like to purchase it.
-
 .. You must add the `product-img img-thumbnail mx-auto d-block` word
 .. to the image class directive in order for the thumbnail feature to work
 
