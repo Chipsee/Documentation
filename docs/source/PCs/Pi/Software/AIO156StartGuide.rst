@@ -75,6 +75,7 @@ Install CMhelper
    $ sudo chmod 644 /etc/apt/trusted.gpg.d/cmhelper.gpg
    
    or use follow commands if above commands don't work::
+
    $ sudo gpg --keyserver keyserver.ubuntu.com --recv 06D92B49B9078A87
    $ sudo gpg --export --armor 06D92B49B9078A87 | sudo apt-key add -
 
