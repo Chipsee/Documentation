@@ -63,20 +63,19 @@ Install CMhelper
 
     $ sudo apt update
 
-.. Note::
    You will get error "the public key is not available: NO_PUBKEY 06D92B49B9078A87", you should
-   use follow commands to receive key from ubuntu key server.
+   use follow commands to receive key from ubuntu key server::
 
    $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 06D92B49B9078A87
 
    If the above commands is not useable and get warning "apt-key is deprecated. Manage keyring files in trusted.gpg.d instead"
-   run follow commands instead.
+   run follow commands instead::
 
    $ sudo gpg --no-default-keyring --keyring gnupg-ring:/etc/apt/trusted.gpg.d/cmhelper.gpg --keyserver keyserver.ubuntu.com --recv 06D92B49B9078A87
    $ sudo chmod 644 /etc/apt/trusted.gpg.d/cmhelper.gpg
    
-   or use follow commands if above commands don't work
-   $ sudo sudo gpg --keyserver keyserver.ubuntu.com --recv 06D92B49B9078A87
+   or use follow commands if above commands don't work::
+   $ sudo gpg --keyserver keyserver.ubuntu.com --recv 06D92B49B9078A87
    $ sudo gpg --export --armor 06D92B49B9078A87 | sudo apt-key add -
 
 

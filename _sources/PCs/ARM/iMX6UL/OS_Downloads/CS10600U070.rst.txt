@@ -13,4 +13,4 @@ LinuxQt5.5
 Debian8.10
 ----------
 
-| :download:`prebuilt-cs10600u070v1-debian-emmc-20220321.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6UL/7/Debian8.10/prebuilt-cs10600u070v1-debian-emmc-20220321.tar.gz>`
+| :download:`prebuilt-cs10600u070v1-debian-emmc-20220808.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6UL/7/Debian8.10/prebuilt-cs10600u070v1-debian-emmc-20220808.tar.gz>`
