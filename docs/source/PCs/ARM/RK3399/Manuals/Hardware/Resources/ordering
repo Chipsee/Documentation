@@ -10,7 +10,7 @@ Chipsee products can be customized during the ordering process. The product will
 Operating System
 ----------------
 
-This product comes with a pre-installed OS of your choice. Please see the list below for the supported OSes, which can be also obtained from the :ref:`Software Documentation <RK3399_OS>` section, along with the detailed installation instructions.
+This product comes with a pre-installed OS of your choice. Please see the list below for the supported OSes, which can be also obtained from the :ref:`Software Documentation <RK3399_OSDownloads>` section, along with the detailed installation instructions.
 
 * Chipsee Linux\ [*]_
 * Android 7.1
@@ -30,4 +30,4 @@ This product comes with a pre-installed OS of your choice. Please see the list b
 
 .. warning::
 
-  The :ref:`Software Documentation <RK3399_OS>` section provides a detailed instruction how to install different OS on your own. However, bear in mind that Chipsee can't take the responsibility of inadequate installation procedure. If you "brick" your device, please contact Chipsee Technical Support at |email|_ for further assistance
+  The :ref:`Software Documentation <RK3399_OSDownloads>` section provides a detailed instruction how to install different OS on your own. However, bear in mind that Chipsee can't take the responsibility of inadequate installation procedure. If you "brick" your device, please contact Chipsee Technical Support at |email|_ for further assistance
