@@ -72,8 +72,8 @@ Ubuntu14.04
 Ubuntu18.04
 -----------
 
-| **FT5X06 Touchscreen**
+| **GT911 Touchscreen**
 | :download:`prebuilt-imxv1-cs10600f070v3-u1804-emmc-20200710.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/Ubuntu1804/prebuilt-imxv1-cs10600f070v3-u1804-emmc-20200710.tar.gz>`
 
-| **FT5X06 Touchscreen (console)**
+| **GT911 Touchscreen (console)**
 | :download:`prebuilt-imxv1-cs10600f070v3-u1804-console-emmc-20211015.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/7/Ubuntu1804/prebuilt-imxv1-cs10600f070v3-u1804-console-emmc-20211015.tar.gz>`
