@@ -34,6 +34,8 @@
 
 .. |pwr| replace:: ≤ 20W
 
+.. |vin_rng| replace:: 9V - 30V
+
 .. |standby| replace:: ≤ 2W
 
 .. _product_link: https://chipsee.com/product/pim215c/

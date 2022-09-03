@@ -28,7 +28,7 @@
 
 .. |cur| replace:: 500mA Max
 
-.. |pwr| replace:: 6W Typical
+.. |pwr| replace:: 8W Typical
 
 .. |temp| replace:: From 0°C to +50°C
 

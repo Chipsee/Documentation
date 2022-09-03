@@ -34,6 +34,8 @@
 
 .. |pwr| replace:: ≤ 16W
 
+.. |vin_rng| replace:: 9V - 30V
+
 .. |standby| replace:: ≤ 2W
 
 .. _product_link: https://chipsee.com/product/pim190c/
