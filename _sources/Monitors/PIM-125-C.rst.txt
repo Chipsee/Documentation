@@ -36,6 +36,8 @@
 
 .. |standby| replace:: ≤ 2W
 
+.. |vin_rng| replace:: 9V - 30V
+
 .. _product_link: https://chipsee.com/product/pim-125-c/
 
 .. |product_link| replace:: PIM-125-C

@@ -28,7 +28,7 @@
 
 .. |cur| replace:: 700mA Max
 
-.. |pwr| replace:: 8.4W Typical
+.. |pwr| replace:: 10W Typical
 
 .. |temp| replace:: From 0°C to +50°C
 

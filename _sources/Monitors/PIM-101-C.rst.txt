@@ -36,6 +36,8 @@
 
 .. |standby| replace:: ≤ 2W
 
+.. |vin_rng| replace:: 12V - 24V
+
 .. _product_link: https://chipsee.com/product/pim-101-c/
 
 .. |product_link| replace:: PIM-101-C
