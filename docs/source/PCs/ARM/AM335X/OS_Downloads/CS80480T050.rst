@@ -11,7 +11,7 @@ Android4.1
 | :download:`prebuilt-som-v3-cs80480t050-v3-android-otg-emmc-20190413.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/5/Android4.1/prebuilt-som-v3-cs80480t050-v3-android-otg-emmc-20190413.tar.gz>`
 
 | **GT911 Touchscreen**
-| :download:`prebuilt-som-v3-cs80480t050-v5-android-gt911-otg-emmc-20190413.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/5/Android4.1/prebuilt-som-v3-cs80480t050-v5-android-gt911-otg-emmc-20190413.tar.gz>`
+| :download:`prebuilt-som-v3-cs80480t050-v5-android-gt911-otg-emmc-20220211.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/5/Android4.1/prebuilt-som-v3-cs80480t050-v5-android-gt911-otg-emmc-20220211.tar.gz>`
 
 
 .. _CS80480T050-linuxQt:
