@@ -155,7 +155,7 @@ There are many connectivity options available on the |product| industrial Pi PC.
 RS232/RS485/CAN
 ---------------
 
-The serial communication interfaces (RS485, RS482, and CAN) are routed to a **16-pin 3.81mm terminal**, as illustrated on the figure below.
+The serial communication interfaces (RS485, RS482, and CAN) are routed to a **12-pin 3.81mm terminal**, as illustrated on the figure below.
 
 .. figure:: /Media/Pi/A72/CS12720RA4050/CM4-5-IO-Peripherals.jpg
    :align: center
@@ -180,9 +180,9 @@ The table below offers more detailed description of every pin and its definition
    +----------------+-------------------------------+--------------------------------------------------------------+
    | Pin 11         | CAN1_L                        | CAN L signal                                                 |
    +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 10         | RS485_5-                      | CPU UART5, RS485 RXD signal                                  |
+   | Pin 10         | RS485_5-                      | CPU UART5, RS485 –(B) signal                                 |
    +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 9          | RS485_5+                      | CPU UART5, RS485 TXD signal                                  |
+   | Pin 9          | RS485_5+                      | CPU UART5, RS485 +(A) signal                                 |
    +----------------+-------------------------------+--------------------------------------------------------------+
    | Pin 8          | RS485_3-                      | CPU UART3, RS485 –(B) signal                                 |
    +----------------+-------------------------------+--------------------------------------------------------------+
@@ -264,7 +264,7 @@ Audio Connectors
 |Product| features some audio peripherals. It has 1 x **3.5mm audio output jack**. |br|
 Also, the |product| industrial Pi PC has a miniature 2W internal speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds.
 
-.. figure:: /Media/Pi/CS12720RA4050/CM4-5-Audio.jpg
+.. figure:: /Media/Pi/A72/CS12720RA4050/CM4-5-Audio.jpg
   :figclass: align-center
   :align: center
 
@@ -284,7 +284,7 @@ When button is released before power, the Raspberry Pi will boot from internal e
 
 There is no need to press the button during regular operation. However, if you need to reinstall the OS, please refer to the detailed information on how to re-flash the OS from the :ref:`Software Documentation <Pi_OS>`.
 
-.. figure:: /Media/Pi/CS12720RA4050/CM4-5-DIP.jpg
+.. figure:: /Media/Pi/A72/CS12720RA4050/CM4-5-DIP.jpg
   :figclass: align-center
   :align: center
 
@@ -294,7 +294,7 @@ There is no need to press the button during regular operation. However, if you n
 Mounting Procedure 
 ==================
 
-|Product| can be mounted with 2 x M4 screws, enabling simplified installation onto any standard mounting fixture.
+|Product| can be mounted with 4 x M4 screws, enabling simplified installation onto any standard mounting fixture.
 
 |productE|
 ----------
