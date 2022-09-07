@@ -11,6 +11,9 @@ For additional information, contact |email|_
    :titlesonly:
 
    EPC/PPC-A72-70-C <CS10600R070>
+   EPC/PPC-A72-125-C <CS19108R125>
+   EPC/PPC-A72-133-C <CS19108R133>
+   EPC/PPC-A72-156-C <CS19108R156>
 
 .. warning::
 

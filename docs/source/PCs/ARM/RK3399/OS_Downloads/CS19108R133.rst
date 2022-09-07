@@ -1,0 +1,4 @@
+EPC/PPC-A72-133-C (PN: CS19108R133)
+##################################
+
+.. include:: Resources/CS19108R125_R133_R156_OS_Download
