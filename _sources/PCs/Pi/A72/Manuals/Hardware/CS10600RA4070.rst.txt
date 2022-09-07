@@ -151,8 +151,8 @@
 Connectivity
 ============
 
-There are many connectivity options available on the |product| industrial Pi PC. It has |USB| (can be customized to Host or OTG), |LAN| (RJ45) Ethernet connector supporting up to
-1 Gbps, and 5 x UART terminals (RS232/RS485/CAN).
+There are many connectivity options available on the |product| industrial Pi PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to
+1 Gbps, and 4 x UART terminals (RS232/RS485/CAN).
 
 RS232/RS485/CAN
 ---------------

@@ -1,0 +1,344 @@
+.. |product| replace:: EPC/PPC-CM4-50
+
+.. |productE| replace:: CS12720RA4050E
+
+.. |productP| replace:: CS12720RA4050P
+
+.. |PN| replace:: PN: CS12720RA4050
+
+.. |Product| replace:: The |product| industrial Pi PC
+
+.. |TFNum| replace:: 1
+
+.. |tf_des| replace:: Chipsee designed TF card slots for storage expansion, as the TF card for storage expansion use same pins with WiFi, it can't be used with WiFi at same time
+
+.. |dispsize| replace:: 5"
+
+.. |res| replace:: 1280 x 720
+
+.. |bright| replace:: 400 |cd|
+
+.. |disp_des| replace:: |dispsize| five-point capacitive a touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |dimE| replace:: 141.2 x 77.6 x 25.8mm
+
+.. |dimP| replace:: 157.1 x 98.1 x 27.7mm
+
+.. |weightE| replace:: 200g
+
+.. |weightP| replace:: 400g
+
+.. |tscreen| replace:: 5-point capacitive touch
+
+.. |USB| replace:: 2 x USB 2.0 Host, 1 x Type-C
+
+.. |LAN| replace:: 1 x Channel Giga LAN
+
+.. |GPIO| replace:: Not Supported
+
+.. |hdmi_des| replace:: Not Supported
+
+.. |sata_des| replace:: Not Supported
+
+.. |opt1| replace:: Not Supported
+
+.. |opt2| replace:: Supported but depending on the CM4 selected
+
+.. |vin_rng| replace:: From 9V to 36V
+
+.. |cur| replace:: 500mA Max
+
+.. |pwr| replace:: 6W Typical
+
+.. |temp| replace:: From 0°C to +60°C
+
+.. _product_link: https://chipsee.com/product/PPC-CM4-50/
+
+.. |product_link| replace:: EPC/PPC-CM4-50
+
+
+.. _EPC/PPC-CM4-50:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. You must add the `product-img img-thumbnail mx-auto d-block` word
+.. to the image class directive in order for the thumbnail feature to work
+
+.. raw:: html
+
+    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
+
+.. Image thumbnail 1
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.png
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Front View (Panel Mounting Variant)
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 2
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Back.png
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Back View (Panel Mounting Variant)
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 3
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-Front.png
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Front View (Embedded Variant)
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 4
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-Back.png
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Back View (Embedded Variant)
+
+.. raw:: html
+
+    </div>
+
+.. raw:: html
+
+    </div>
+
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table_cs12720ra4050
+
+.. attention::
+
+    Chipsee does not install a lithium battery by default, as we cannot ship products with batteries. We recommend you buy it locally and install it by yourself. The lithium battery part number is CR1220. Please |contact|_ if you need help.
+
+.. include:: Resources/power_cs12720ra4050
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen
+
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial Pi PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to
+1 Gbps, and 4 x UART terminals (RS232/RS485/CAN).
+
+RS232/RS485/CAN
+---------------
+
+The serial communication interfaces (RS485, RS482, and CAN) are routed to a **16-pin 3.81mm terminal**, as illustrated on the figure below.
+
+.. figure:: /Media/Pi/A72/CS12720RA4050/CM4-5-IO-Peripherals.jpg
+   :align: center
+   :figclass: align-center
+
+   *Relation between serial pins on embedded vs. enclosed version of the* |product| *Industrial PC*
+
+The table below offers more detailed description of every pin and its definition:
+
+.. table:: Connectivity Section
+   :align: center
+   :width: 100%
+   :class: align-center
+   :widths: auto
+
+   +---------------------------------------------------------------------------------------------------------------+
+   | **RS232 / RS485 / CAN Pin Definition:**                                                                       |
+   +================+===============================+==============================================================+
+   | **Pin Number** | **Definition**                | **Description**                                              |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 12         | CAN1_H                        | CAN H signal                                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 11         | CAN1_L                        | CAN L signal                                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 10         | RS485_5-                      | CPU UART5, RS485 RXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 9          | RS485_5+                      | CPU UART5, RS485 TXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 8          | RS485_3-                      | CPU UART3, RS485 –(B) signal                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 7          | RS485_3+                      | CPU UART3, RS485 +(A) signal                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 6          | RS232_2_RXD                   | CPU UART2, RS232 RXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 5          | RS232_2_TXD                   | CPU UART2, RS232 TXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 4          | RS232_0_RXD                   | CPU UART0, RS232 RXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 3          | RS232_0_TXD                   | CPU UART0, RS232 TXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 2          | GND                           | System Ground                                                |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 1          | +5V                           | System +5V Power Output, No more than 1A Current output      |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+
+.. attention::
+
+    #) RS485_3 and RS485_5 can control the input and output direction automatically. There’s no need to control it from within the software.
+    #) The 120Ω match resistor for the RS232 and CAN bus is NOT mounted by default.
+
+
+USB Connectors
+--------------
+
+There are 2 x Type A **USB HOST connectors** onboard, as shown on the figure below.
+
+.. Figure:: /Media/Pi/A53/Others/CM3-70-USB.jpeg
+  :align: center
+  :figclass: align-center
+
+  *USB HOST Connectors (embedded/enclosed PC version)*
+
+.. attention::
+
+    #) These two USB host connectors can drive 500mA for each channel at most.
+    #) When you connect this product to the HOST PC by a USB Type-C cable, the USB HUB will be disabled. As a result, the 2 USB host connectors will not work.
+
+The product has one USB Type-C connector that works as a slave by default. You can use it to establish a connection with the host PC and for downloading the system to the eMMC of CM4 module.
+
+.. Figure:: /Media/Pi/A72/CS12800RA4101/TYPE-C.jpg
+  :align: center
+  :figclass: align-center
+
+  *USB OTG Connector*
+
+.. warning::
+
+  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded Industrial PC version.
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi
+
+.. include:: Resources/Camera
+
+TF Card Slot
+============
+
+|Product| features 1 x **TF Card (micro SD) slot**: SD, TF slots can address up to 128GB of memory.
+
+.. figure:: /Media/Pi/A72/CS12720RA4050/CM4-5-TF.jpg
+  :align: center
+  :figclass: align-center
+
+  *TF (micro SD) Card Slot*
+
+.. attention::
+
+  #) The SD is used for memory extension. It can’t be used for system boot-up.
+  #) The product does not come shipped with the TF Card by default.
+
+
+Audio Connectors
+================
+
+|Product| features some audio peripherals. It has 1 x **3.5mm audio output jack**. |br|
+Also, the |product| industrial Pi PC has a miniature 2W internal speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds.
+
+.. figure:: /Media/Pi/CS12720RA4050/CM4-5-Audio.jpg
+  :figclass: align-center
+  :align: center
+
+  *Audio Connector (embedded/enclosed PC version)*
+
+.. attention::
+
+    By plugging in the headphone cable, the internal speaker will be disabled automatically.
+	
+
+Boot DIP Switch
+===============
+
+|Product| has one button on the board marked as SW1, shown in the figure below. |br|
+When button is pressed before power, the Raspberry Pi will boot from the USB connector. You can use this function to download the OS software to the internal eMMC. |br|
+When button is released before power, the Raspberry Pi will boot from internal eMMC.
+
+There is no need to press the button during regular operation. However, if you need to reinstall the OS, please refer to the detailed information on how to re-flash the OS from the :ref:`Software Documentation <Pi_OS>`.
+
+.. figure:: /Media/Pi/CS12720RA4050/CM4-5-DIP.jpg
+  :figclass: align-center
+  :align: center
+
+  *Boot DIP Switch*
+  
+
+Mounting Procedure 
+==================
+
+|Product| can be mounted with 2 x M4 screws, enabling simplified installation onto any standard mounting fixture.
+
+|productE|
+----------
+You can mount |productE| with the Embedded mounting method, as shown on the figure below.
+
+.. Figure:: /Media/Pi/A53/Others/mountE.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Embedded mounting*
+
+|productP|
+----------
+You can mount |productP| with the Vesa (75 x 75mm) and Panel mounting methods, as shown on the figure below.
+
+.. Figure:: /Media/Pi/A53/Others/mountP.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Panel mounting*
+
+.. attention::
+
+    Please make sure the display is not exposed to high pressure when mounting into an enclosure.
+
+You can find detailed information about mounting in the |mguide|.
+
+Mechanical Specifications
+=========================
+
+|productE|
+----------
+
+The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+product measurements.
+
+.. figure:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-TD.jpeg
+   :align: center
+   :figclass: align-center
+
+   |productE| *Technical Drawing*
+
+|productP|
+----------
+For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+
+.. include:: Resources/support
