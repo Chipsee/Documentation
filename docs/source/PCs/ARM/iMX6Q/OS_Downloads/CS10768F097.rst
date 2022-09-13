@@ -6,16 +6,15 @@ EPC/PPC-A9-97-C (PN: CS10768F097)
 Android6.0
 ----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imx6qv1-cs10768f097v3-android6-emmc-20200305.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/9.7/Android6.0/prebuilt-imx6qv1-cs10768f097v3-android6-emmc-20200305.tar.gz>`
 
 Android8.0
 ----------
 
-| **FT5X06 Touchscreen eMMC Boot Version**
+| **eMMC Boot Version**
 | :download:`prebuilt-imxv1-cs10768f097v1-android8-emmc-20190425.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/9.7/Android8.0/prebuilt-imxv1-cs10768f097v1-android8-emmc-20190425.tar.gz>`
 
-| **FT5X06 Touchscreen SD Boot Version**
+| **SD Boot Version**
 | :download:`prebuilt-imxv1-cs10768f097v1-android8-sd-16g-20190425.img.xz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/9.7/Android8.0/prebuilt-imxv1-cs10768f097v1-android8-sd-16g-20190425.img.xz>`
 | :download:`prebuilt-imxv1-cs10768f097v1-android8-sd-20190425.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/9.7/Android8.0/prebuilt-imxv1-cs10768f097v1-android8-sd-20190425.tar.gz>`
 
@@ -24,7 +23,6 @@ Android8.0
 LinuxQt5.5
 ----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imx6qv1-cs10768f097v1-linux-emmc-20200320.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/9.7/LinuxQt5/prebuilt-imx6qv1-cs10768f097v1-linux-emmc-20200320.tar.gz>`
 
 .. _CS10768F097-ubuntu:
@@ -32,6 +30,5 @@ LinuxQt5.5
 Ubuntu14.04
 -----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imx6qv1-cs10768f097v1-u1404-emmc-20190807.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/9.7/Ubuntu14.04/prebuilt-imx6qv1-cs10768f097v1-u1404-emmc-20190807.tar.gz>`
 

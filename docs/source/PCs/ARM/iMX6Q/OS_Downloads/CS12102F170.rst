@@ -6,7 +6,6 @@ PPC-A9-170-C (PN: CS12102F170)
 Android6.0
 ----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imx6qv1-cs19108fb170-android6-emmc-20200305.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/17/Android6.0/prebuilt-imx6qv1-cs19108fb170-android6-emmc-20200305.tar.gz>`
 
 .. _CS12102F170-linuxQt:
@@ -14,7 +13,6 @@ Android6.0
 LinuxQt5.5
 ----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imx6qv1-cs19108fb170-linux-emmc-20200320.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/17/LinuxQt5.5/prebuilt-imx6qv1-cs19108fb170-linux-emmc-20200320.tar.gz>`
 
 .. _CS12102F170-ubuntu:
@@ -22,5 +20,4 @@ LinuxQt5.5
 Ubuntu14.04
 -----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imx6qv1-cs19108fb170-u1404-emmc-20200320.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/17/Ubuntu1404/prebuilt-imx6qv1-cs19108fb170-u1404-emmc-20200320.tar.gz>`

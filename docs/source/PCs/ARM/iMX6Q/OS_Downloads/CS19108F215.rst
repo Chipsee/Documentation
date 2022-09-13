@@ -6,19 +6,16 @@ PPC-A9-215-C (PN: CS19108F215)
 Android4.4
 ----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imx6qv1-cs191080f215-android4-emmc-20200402.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/21/Android4.4/prebuilt-imx6qv1-cs191080f215-android4-emmc-20200402.tar.gz>`
 
 Android6.0
 ----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imxv1-cs19108f215v1-android6-emmc-20200305.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/21/Android6.0/prebuilt-imxv1-cs19108f215v1-android6-emmc-20200305.tar.gz>`
 
 Android8.0
 ----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imxv1-cs19108fbv1-android8-emmc-20191122.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/21/Android8.0/prebuilt-imxv1-cs19108fbv1-android8-emmc-20191122.tar.gz>`
 
 .. _CS19108F215-linuxQt:
@@ -26,7 +23,6 @@ Android8.0
 LinuxQt5.5
 ----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imx6qv1-cs19108fb215-linux-emmc-20200320.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/21/LinuxQt5.5/prebuilt-imx6qv1-cs19108fb215-linux-emmc-20200320.tar.gz>`
 
 .. _CS19108F215-ubuntu:
@@ -34,11 +30,9 @@ LinuxQt5.5
 Ubuntu14.04
 -----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imxv1-cs191080f215v3-u1404-emmc-20200217.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/21/Ubuntu1404/prebuilt-imxv1-cs191080f215v3-u1404-emmc-20200217.tar.gz>`
 
 Ubuntu18.04
 -----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imxv1-cs191080f215v3-u1804-emmc-20210114.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/21/Ubuntu1804/prebuilt-imxv1-cs191080f215v3-u1804-emmc-20210114.tar.gz>`
