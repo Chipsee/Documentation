@@ -6,13 +6,11 @@ PPC-A9-190-C (PN: CS14900F190)
 Android4.4
 ----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imxv1-cs14900f019v3-android6-emmc-20200305.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/19/Android6.0/prebuilt-imxv1-cs14900f019v3-android6-emmc-20200305.tar.gz>`
 
 Android6.0
 ----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imx6qv1-cs14900f019v3-android4-emmc-20190325.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/19/Android4.4/prebuilt-imx6qv1-cs14900f019v3-android4-emmc-20190325.tar.gz>`
 
 .. _CS14900F190-linuxQt:
@@ -20,5 +18,11 @@ Android6.0
 LinuxQt5.5
 ----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imx6qv1-cs19108fb190-linux-emmc-20200320.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/19/LinuxQt5.5/prebuilt-imx6qv1-cs19108fb190-linux-emmc-20200320.tar.gz>`
+
+.. _CS14900F190-ubuntu:
+
+Ubuntu14.04
+-----------
+
+| :download:`prebuilt-imx6qv1-cs19108fb190-u1404-emmc-20211018.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/19/Ubuntu1404/prebuilt-imx6qv1-cs19108fb190-u1404-emmc-20211018.tar.gz>`
