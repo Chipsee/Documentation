@@ -78,7 +78,6 @@ The write images to the eMMC, follow these steps:
 * Refer to `Writing images to the SD Card`_ to flash system to eMMC (like the SD card in Windows).
 * If process completes, power OFF the board and ensure the boot switch is set to eMMC position. Power ON to use the new system. |br| For **CS12800RA4101A**, ignore repositioning the boot switch, a reboot will be ok. |br| To learn more, visit the following link: `<https://www.raspberrypi.org/documentation/hardware/computemodule/cm-emmc-flashing.md>`_
 
-Booting from the external TF Card allows flashing the system OS.
 
 .. note::
-    The operator should use the prebuilt file we provided in the CD to test the hardware before re-flashing the system.
+    The image supports Chipsee all Industrial-Pi products but AIO-CM4-156, you should refer to the guide for your product. You should wait  2 ~ 5 minutes after flashed system as it needs time to detect the product to complete initial work. If a sound is heard, don't worry, just wait it to boot.
