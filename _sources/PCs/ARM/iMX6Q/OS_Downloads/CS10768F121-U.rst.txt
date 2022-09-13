@@ -6,13 +6,11 @@ PPC-A9-121-U-C (PN: CS10768F121-U)
 Android6.0
 ----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imx6qv1-cs19108fb120-android6-emmc-20201105.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/12_15/Android6.0/prebuilt-imx6qv1-cs19108fb120-android6-emmc-20201105.tar.gz>`
 
 Android8.0
 ----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imxv1-cs10768f120v3-android8-emmc-20201123.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/12_15/Android8.0/prebuilt-imxv1-cs10768f120v3-android8-emmc-20201123.tar.gz>`
 
 .. _CS10768F121-U-linuxQt:
@@ -20,7 +18,6 @@ Android8.0
 LinuxQt5.5
 ----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imx6qv1-cs19108fb120-linux-emmc-20200320.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/12_15/LinuxQt5/prebuilt-imx6qv1-cs19108fb120-linux-emmc-20200320.tar.gz>`
 
 .. _CS10768F121-U-ubuntu:
@@ -28,11 +25,9 @@ LinuxQt5.5
 Ubuntu14.04
 -----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imxv1-cs10768f120v3-u1404-emmc-20200326.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/12_15/Ubuntu1404/prebuilt-imxv1-cs10768f120v3-u1404-emmc-20200326.tar.gz>`
 
 Ubuntu18.04
 -----------
 
-| **FT5X06 Touchscreen**
 | :download:`prebuilt-imx6qv1-cs19108fb120-u1804-emmc-20200710.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/12_15/Ubuntu1804/prebuilt-imx6qv1-cs19108fb120-u1804-emmc-20200710.tar.gz>`
