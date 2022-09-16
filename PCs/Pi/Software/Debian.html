@@ -730,20 +730,21 @@ You will need to use an image writing tool to install the downloaded image on yo
 <p><em>balenaEtcher</em> is a graphical SD card writing tool that works on Mac OS, Linux and Windows, and is the easiest option for most users.
 balenaEtcher also supports writing images directly from the .img.xz file, without any unzipping required. <br/>
 To write your image with balenaEtcher, follow these steps:</p>
-<ul>
+<ul class="simple">
 <li><p>Download and install the latest version of <a class="reference external" href="https://www.balena.io/etcher/">balenaEtcher</a>.</p></li>
 <li><p>Connect an SD card reader with the SD card inside.</p></li>
 <li><p>Open balenaEtcher and select from your hard drive the Raspberry Pi® .img.xz file you want to write to the SD card.</p></li>
 <li><p>Select the SD card you want to write your image to.</p></li>
-<li><dl>
-<dt>Review your selections and click ‘Flash!’ to begin writing data to the SD card.</dt><dd><div class="admonition note">
+<li><p>Review your selections and click ‘Flash!’ to begin writing data to the SD card.</p></li>
+</ul>
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>For Linux users, <strong>zenity</strong> might need to be installed on your machine for balenaEtcher to be able to write the image on your SD card.</p>
 </div>
-</dd>
-</dl>
-</li>
-</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The image supports Chipsee all Industrial-Pi products but AIO-CM4-156, you should refer to the guide for your product. You should wait  2 ~ 5 minutes after flashed system as it needs time to detect the product to complete initial work. If a sound is heard, don’t worry, just wait it to boot.</p>
+</div>
 </section>
 <section id="writing-images-to-the-emmc">
 <h3 id="writing-images-to-the-emmc">Writing images to the eMMC<a class="headerlink" href="#writing-images-to-the-emmc" title="Permalink to this heading">¶</a></h3>
@@ -1444,7 +1445,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Sep 13, 2022.
+              Sep 16, 2022.
             <br/>
         </div>
       </div>
