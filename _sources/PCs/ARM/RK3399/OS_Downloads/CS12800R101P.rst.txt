@@ -1,0 +1,23 @@
+PPC-A72-101-C (PN: CS12800R101P)
+################################
+
+.. _CS12800R101P-android:
+
+Android7.1
+----------
+
+| :download:`prebuilt-rk3399v1-cs12800r-lvds-android7-ota-emmc-pwm1-20220711.img <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3399/10/Android7.1/prebuilt-rk3399v1-cs12800r-lvds-android7-ota-emmc-pwm1-20220711.img>`
+
+.. _CS12800R101P-debian:
+
+Debian10
+--------
+
+| :download:`prebuilt-rk3399v1-cs12800r-lvds-debian10-emmc-pwm1-20220916.img <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3399/10/Debian10/prebuilt-rk3399v1-cs12800r-lvds-debian10-emmc-pwm1-20220916.img>`
+
+.. _CS12800R101P-linuxQt:
+
+Buildroot LinuxQt5.14
+---------------------
+
+| :download:`prebuilt-rk3399v1-cs12800r-lvds-linux-emmc-pwm1-20220727.img <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3399/10/LinuxQt5.12/prebuilt-rk3399v1-cs12800r-lvds-linux-emmc-pwm1-20220727.img>`
