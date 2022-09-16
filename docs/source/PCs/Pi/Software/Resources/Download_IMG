@@ -49,9 +49,15 @@ To write your image with balenaEtcher, follow these steps:
 * Open balenaEtcher and select from your hard drive the Raspberry Pi® .img.xz file you want to write to the SD card.
 * Select the SD card you want to write your image to.
 * Review your selections and click ‘Flash!’ to begin writing data to the SD card.
-    .. note::
 
-        For Linux users, **zenity** might need to be installed on your machine for balenaEtcher to be able to write the image on your SD card.
+.. note::
+
+    For Linux users, **zenity** might need to be installed on your machine for balenaEtcher to be able to write the image on your SD card.
+
+
+.. note::
+    The image supports Chipsee all Industrial-Pi products but AIO-CM4-156, you should refer to the guide for your product. You should wait  2 ~ 5 minutes after flashed system as it needs time to detect the product to complete initial work. If a sound is heard, don't worry, just wait it to boot.
+
 
 Writing images to the eMMC
 --------------------------
