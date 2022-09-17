@@ -256,7 +256,7 @@ The prebuilt package has the following content (*Table 1*):
 
    The default ``zImage`` and ``imx6q-sabresd.dtb`` files support *'keep the logo from uboot to kernel'* but do not support framebuffer. 
    Chipsee provides ``zImage_framebuffer`` and ``imx6q-eisd.dtb_framebuffer`` file versions that support the framebuffer function but do
-   not support the *'keep the logo from uboot kernel'* feature. If you need the framebufer, just rename these two files to ``zImage`` 
+   not support the *'keep the logo from uboot kernel'* feature. If you need the framebuffer, just rename these two files to ``zImage`` 
    and ``imx6q-eisd.dtb``.
 
 Downloading images onto the TF Card
@@ -514,7 +514,7 @@ Build & Run
 -----------
 
 We will use the ``hardwarewaretest_serial_ok_20170223.tar.gz`` demo package to demonstrate how to build and run Qt applications and projects. This 
-demo requires Qt serial port support support before it can be used. You can install it as follows:
+demo requires Qt serial port support before it can be used. You can install it as follows:
 
 .. container:: hatnote hatnote-gray
 
