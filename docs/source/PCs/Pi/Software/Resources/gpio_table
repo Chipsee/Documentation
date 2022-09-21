@@ -34,7 +34,7 @@
 
         $ echo 0 > /dev/chipsee-gpio1    // set OUT1 low
 
-* Get `INT1` value
+* Get `IN1` value
     .. code:: bash
 
         $ cat /dev/chipsee-gpio5    // value 1 indicate high, value 0 indicate low
