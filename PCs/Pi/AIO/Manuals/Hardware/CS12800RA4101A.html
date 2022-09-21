@@ -668,9 +668,14 @@ You can use the SIM card slot when you mount the 4G/LTE module.</p>
 <p><span class="caption-number">Figure 921:  </span><span class="caption-text"><em>TF Card Slot (upper) and SIM Card Slot (lower)</em></span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The product does not come shipped with the TF Card and the SIM Card by default.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The product does not come shipped with the TF Card and the SIM Card by default.
+The TF card slot use same pins with WiFi/Bt, if you enable WiFi/Bt, the TF card function will be disabled,
+if you wan’t to enable the TF card feature, you can use follow config in /boot/config.txt to enable it,
+but the WiFi/Bt will be disabled after reboot.
+dtoverlay=sdio,poll_once=off
+#dtparam=ant2</p>
 </div>
 </section>
 <section id="audio-in-out-connector">
@@ -896,7 +901,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Sep 16, 2022.
+              Sep 21, 2022.
             <br/>
         </div>
       </div>
