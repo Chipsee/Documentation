@@ -672,10 +672,12 @@ You can use the SIM card slot when you mount the 4G/LTE module.</p>
 <p class="admonition-title">Warning</p>
 <p>The product does not come shipped with the TF Card and the SIM Card by default.
 The TF card slot use same pins with WiFi/Bt, if you enable WiFi/Bt, the TF card function will be disabled,
-if you wan’t to enable the TF card feature, you can use follow config in /boot/config.txt to enable it,
-but the WiFi/Bt will be disabled after reboot.
-dtoverlay=sdio,poll_once=off
-#dtparam=ant2</p>
+if you want to enable the TF card feature, you can use follow config in /boot/config.txt to enable it,
+but the WiFi/Bt will be disabled after reboot:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dtoverlay</span><span class="o">=</span><span class="n">sdio</span><span class="p">,</span><span class="n">poll_once</span><span class="o">=</span><span class="n">off</span>
+<span class="c1">#dtparam=ant2</span>
+</pre></div>
+</div>
 </div>
 </section>
 <section id="audio-in-out-connector">
