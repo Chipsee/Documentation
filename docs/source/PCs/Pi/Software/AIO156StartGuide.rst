@@ -6,7 +6,7 @@ AIO-CM4-156 Start Guide
 .. image:: /Media/Chipsee_Logo_Full.png
    :align: center
 
-This manual provides users with a fast guide of Chipsee Raspberry Pi Computer (Abbreviated as RPC) after reflashed Raspberry Official latest rleased OS. Through this manual, users can quickly setting up their AIO-CM4-156 to run Raspberry Official latest released OS.
+This manual provides users with a fast guide of Chipsee Raspberry Pi Computer (Abbreviated as RPC) after reflashed Raspberry Official latest rleased OS. Through this manual, users can quickly set up their AIO-CM4-156 to run Raspberry Official latest released OS.
 
 .. table::
    :align: center
@@ -31,7 +31,7 @@ What you will need
   - We recommend 12V 2A.
 
 .. Warning::
-   This device only support 12V Power Supply.
+   This device only supports 12V Power Supply.
 
 Installing the Operating System
 -------------------------------
@@ -47,14 +47,14 @@ Start up your AIO-CM4-156
 Install CMhelper
 ----------------
 
-1. Add follow lines in your **/boot/config.txt** file::
+1. Add the following lines in your **/boot/config.txt** file::
 
     disable_overscan=1
     dtparam=i2c_vc=0n
     dtoverlay=i2c-rtc,ds1307,i2c_csi_dsi,addr=0x32
 
-2. Add cmhelper PPA to your system manually by copying the lines below,
-   and adding them to your system's software sources **/etc/apt/sources.list.d/cmhelper.list**::
+2. Add cmhelper PPA to your system manually by copying the lines below
+   to your system's software sources **/etc/apt/sources.list.d/cmhelper.list**::
 
     deb http://ppa.launchpad.net/chipsee/cmhelper/ubuntu bionic main 
     deb-src http://ppa.launchpad.net/chipsee/cmhelper/ubuntu bionic main 
@@ -68,20 +68,20 @@ Install CMhelper
 
    $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 06D92B49B9078A87
 
-   If the above commands is not useable and get warning "apt-key is deprecated. Manage keyring files in trusted.gpg.d instead"
-   run follow commands instead::
+   If the above commands is not usable and you get warning "apt-key is deprecated. Manage keyring files in trusted.gpg.d instead"
+   run the following commands instead::
 
    $ sudo gpg --no-default-keyring --keyring gnupg-ring:/etc/apt/trusted.gpg.d/cmhelper.gpg --keyserver keyserver.ubuntu.com --recv 06D92B49B9078A87
    $ sudo chmod 644 /etc/apt/trusted.gpg.d/cmhelper.gpg
    
-   or use follow commands if above commands don't work::
+   or use the following commands if the above commands don't work::
 
    $ sudo gpg --keyserver keyserver.ubuntu.com --recv 06D92B49B9078A87
    $ sudo gpg --export --armor 06D92B49B9078A87 | sudo apt-key add -
 
 
 .. Warning::
-   The key 06D92B49B9078A87 may be diffrent with your error message, you should check your error,
+   The key 06D92B49B9078A87 may be diffrent from your error message, you should check your error,
    and use the right key.
  
 
@@ -92,7 +92,7 @@ Install CMhelper
    $ sudo reboot
 
 .. Warning::
-   Don't forget to reboot to make cmhelper be installed completely.
+   Be sure to reboot after installing cmhelper.
 
 How to use CMHelper
 -------------------
@@ -101,7 +101,7 @@ How to use CMHelper
    :align: center
    :figclass: align-center
 
-The CMHelper can help customer to use keys and onboard buzzer, led, you can use it
+The CMHelper can help customer use keys and onboard buzzer, led, you can use it
 to control volume, brightness, power, act led, buzzer.
 
 1. Buzzer can be enabled and disabled, if you enable buzzer function, you can open and close
@@ -109,12 +109,12 @@ to control volume, brightness, power, act led, buzzer.
 
 2. The act led is disabled default, if you enable it, you can use it like ACT LED on Raspberry Pi.
 
-3. The product have two boot mode, default is manual boot, you should press power key to boot system.
-   If you want boot system directly after power, you can select auto boot.
+3. The product have two boot modes, the default is manual boot, you should press power key to boot system.
+   If you want to boot system directly after power, you can select auto boot.
 
-4. You can use CMHelper QT application to control backlight, you also can use key to control that.
+4. You can use CMHelper QT application or physical keys to control backlight.
 
-5. This QT Application is open source, you can recompile it by use follow commands::
+5. This QT Application is open sourced, you can recompile it with the following commands::
 
     $ sudo apt update
     $ sudo apt install qt5-default
