@@ -148,3 +148,9 @@ cython_debug/
 .idea/.gitignore
 .vscode/
 ../.vscode/
+
+# Debug files
+docs/make.bat
+docs/make_clean.bat
+docs/make_html.bat
+docs/Makefile
