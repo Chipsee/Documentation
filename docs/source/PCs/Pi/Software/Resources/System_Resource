@@ -130,13 +130,13 @@ There is one GPIO that is used by RS485. You can control it to enable and disabl
 
 You can install **cutecom** to test the serial port:
 
-.. code: bash
+.. code:: bash
 
    $ sudo apt-get install cutecom
 
 Only root user and use the serial port:
 
-.. code: bash
+.. code:: bash
 
    $ sudo cutecom
 
