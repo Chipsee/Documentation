@@ -110,7 +110,7 @@ There is one GPIO that is used by RS485. You can control it to enable and disabl
    | 3                           | RS485_2                       | /dev/ttyAMA2                  | RS485                         |
    +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
    
-.. table:: CS12800RA4101P
+.. table:: CS12800RA4101P/CS19108RA4133P/CS10748RA4150P/CS19108RA4156P
    :align: center
    :width: 100%
    :widths: auto
