@@ -356,7 +356,7 @@
 <h1 id="pcs-pi-software-aio156startguide--page-root">AIO-CM4-156 Start Guide<a class="headerlink" href="#pcs-pi-software-aio156startguide--page-root" title="Permalink to this heading">¶</a></h1>
 <p class="centered">
 <strong>Setting up your AIO-CM4-156</strong></p><img alt="../../../_images/Chipsee_Logo_Full.png" class="align-center" src="../../../_images/Chipsee_Logo_Full.png"/>
-<p>This manual provides users with a fast guide of Chipsee Raspberry Pi Computer (Abbreviated as RPC) after reflashed Raspberry Official latest rleased OS. Through this manual, users can quickly setting up their AIO-CM4-156 to run Raspberry Official latest released OS.</p>
+<p>This manual provides users with a fast guide of Chipsee Raspberry Pi Computer (Abbreviated as RPC) after reflashed Raspberry Official latest rleased OS. Through this manual, users can quickly set up their AIO-CM4-156 to run Raspberry Official latest released OS.</p>
 <table style="width: 100%">
 <colgroup>
 <col style="width: 22%"/>
@@ -395,7 +395,7 @@
 </ul>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>This device only support 12V Power Supply.</p>
+<p>This device only supports 12V Power Supply.</p>
 </div>
 </section>
 <section id="installing-the-operating-system">
@@ -412,15 +412,15 @@
 <section id="install-cmhelper">
 <h2 id="install-cmhelper">Install CMhelper<a class="headerlink" href="#install-cmhelper" title="Permalink to this heading">¶</a></h2>
 <ol class="arabic">
-<li><p>Add follow lines in your <strong>/boot/config.txt</strong> file:</p>
+<li><p>Add the following lines in your <strong>/boot/config.txt</strong> file:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">disable_overscan</span><span class="o">=</span><span class="mi">1</span>
 <span class="n">dtparam</span><span class="o">=</span><span class="n">i2c_vc</span><span class="o">=</span><span class="mi">0</span><span class="n">n</span>
 <span class="n">dtoverlay</span><span class="o">=</span><span class="n">i2c</span><span class="o">-</span><span class="n">rtc</span><span class="p">,</span><span class="n">ds1307</span><span class="p">,</span><span class="n">i2c_csi_dsi</span><span class="p">,</span><span class="n">addr</span><span class="o">=</span><span class="mh">0x32</span>
 </pre></div>
 </div>
 </li>
-<li><p>Add cmhelper PPA to your system manually by copying the lines below,
-and adding them to your system’s software sources <strong>/etc/apt/sources.list.d/cmhelper.list</strong>:</p>
+<li><p>Add cmhelper PPA to your system manually by copying the lines below
+to your system’s software sources <strong>/etc/apt/sources.list.d/cmhelper.list</strong>:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">deb</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">ppa</span><span class="o">.</span><span class="n">launchpad</span><span class="o">.</span><span class="n">net</span><span class="o">/</span><span class="n">chipsee</span><span class="o">/</span><span class="n">cmhelper</span><span class="o">/</span><span class="n">ubuntu</span> <span class="n">bionic</span> <span class="n">main</span>
 <span class="n">deb</span><span class="o">-</span><span class="n">src</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">ppa</span><span class="o">.</span><span class="n">launchpad</span><span class="o">.</span><span class="n">net</span><span class="o">/</span><span class="n">chipsee</span><span class="o">/</span><span class="n">cmhelper</span><span class="o">/</span><span class="n">ubuntu</span> <span class="n">bionic</span> <span class="n">main</span>
 </pre></div>
@@ -435,13 +435,13 @@ use follow commands to receive key from ubuntu key server:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 06D92B49B9078A87
 </pre></div>
 </div>
-<p>If the above commands is not useable and get warning “apt-key is deprecated. Manage keyring files in trusted.gpg.d instead”
-run follow commands instead:</p>
+<p>If the above commands is not usable and you get warning “apt-key is deprecated. Manage keyring files in trusted.gpg.d instead”
+run the following commands instead:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ sudo gpg --no-default-keyring --keyring gnupg-ring:/etc/apt/trusted.gpg.d/cmhelper.gpg --keyserver keyserver.ubuntu.com --recv 06D92B49B9078A87
 $ sudo chmod 644 /etc/apt/trusted.gpg.d/cmhelper.gpg
 </pre></div>
 </div>
-<p>or use follow commands if above commands don’t work:</p>
+<p>or use the following commands if the above commands don’t work:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ sudo gpg --keyserver keyserver.ubuntu.com --recv 06D92B49B9078A87
 $ sudo gpg --export --armor 06D92B49B9078A87 | sudo apt-key add -
 </pre></div>
@@ -450,7 +450,7 @@ $ sudo gpg --export --armor 06D92B49B9078A87 | sudo apt-key add -
 </ol>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>The key 06D92B49B9078A87 may be diffrent with your error message, you should check your error,
+<p>The key 06D92B49B9078A87 may be diffrent from your error message, you should check your error,
 and use the right key.</p>
 </div>
 <ol class="arabic" start="4">
@@ -464,7 +464,7 @@ $ sudo reboot
 </ol>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Don’t forget to reboot to make cmhelper be installed completely.</p>
+<p>Be sure to reboot after installing cmhelper.</p>
 </div>
 </section>
 <section id="how-to-use-cmhelper">
@@ -472,16 +472,16 @@ $ sudo reboot
 <figure class="align-center">
 <img alt="../../../_images/AIO156helper.jpg" src="../../../_images/AIO156helper.jpg"/>
 </figure>
-<p>The CMHelper can help customer to use keys and onboard buzzer, led, you can use it
+<p>The CMHelper can help customer use keys and onboard buzzer, led, you can use it
 to control volume, brightness, power, act led, buzzer.</p>
 <ol class="arabic">
 <li><p>Buzzer can be enabled and disabled, if you enable buzzer function, you can open and close
 buzzer, otherwise, you can’t control the buzzer.</p></li>
 <li><p>The act led is disabled default, if you enable it, you can use it like ACT LED on Raspberry Pi.</p></li>
-<li><p>The product have two boot mode, default is manual boot, you should press power key to boot system.
-If you want boot system directly after power, you can select auto boot.</p></li>
-<li><p>You can use CMHelper QT application to control backlight, you also can use key to control that.</p></li>
-<li><p>This QT Application is open source, you can recompile it by use follow commands:</p>
+<li><p>The product have two boot modes, the default is manual boot, you should press power key to boot system.
+If you want to boot system directly after power, you can select auto boot.</p></li>
+<li><p>You can use CMHelper QT application or physical keys to control backlight.</p></li>
+<li><p>This QT Application is open sourced, you can recompile it with the following commands:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ sudo apt update
 $ sudo apt install qt5-default
 $ git clone https://gitee.com/chipsee/cmhelper_tester.git
