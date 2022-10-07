@@ -36,7 +36,7 @@
 
 .. |GPIO| replace:: 8 Channels
 
-.. |opt1| replace:: Supported, Optional
+.. |opt1| replace:: Not supported
 
 .. |opt2| replace:: Integrated WiFi/BT Module
 
