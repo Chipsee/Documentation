@@ -39,7 +39,7 @@ Product Naming Rules
     </tr>
     <tr>
       <td class="tg-iqpy">CCC</td>
-      <td class="tg-meqj"><span style="font-weight:bold">LCD Dimension:</span><br><br>101 - 10.1"<br>104 - 10.4"<br>121 - 12.1"<br>133 - 13.3"<br>150 - 15.0"<br>156 - 15.6"<br>170 - 17.0"<br>190 - 19.0"<br>215 - 21.5"</td>
+      <td class="tg-meqj"><span style="font-weight:bold">LCD Dimension:</span><br><br>101 - 10.1"<br>104 - 10.4"<br>121 - 12.1"<br>133 - 13.3"<br>150 - 15.0"<br>156 - 15.6"<br>170 - 17.0"<br>190 - 19.0"<br>215 - 21.5" <br>236 - 23.6"</td>
     </tr>
     <tr>
       <td class="tg-8qah">D</td>
