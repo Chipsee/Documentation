@@ -92,7 +92,7 @@ There is one GPIO that is used by RS485. You can control it to enable and disabl
 
 -----
 
-.. [#sr] There is no date from this two channel default. Can be costumed to RS232 and disable port 4 and port 6.
+.. [#sr] There is no data from these two channels by default. They can be customized to RS232 with port 4 and port 6 disabled.
 
 
 .. table:: CS12800RA4101A
