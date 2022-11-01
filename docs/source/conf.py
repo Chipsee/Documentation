@@ -53,8 +53,8 @@ exclude_patterns = ["build", "Thumbs.db", ".DS_Store"]
 # Required theme setup
 html_theme = "sphinx_material"
 # Set the logo and favicon
-html_logo = "logo-chipsee-white.png"
-html_favicon = "favicon.webp"
+html_logo = "_static/images/logo-chipsee-white.png"
+html_favicon = "_static/images/favicon.webp"
 # Set link name generated in the top bar.
 html_title = "Home"
 # Material theme options (see theme.conf for more information)
