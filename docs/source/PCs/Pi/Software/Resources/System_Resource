@@ -92,7 +92,7 @@ There is one GPIO that is used by RS485. You can control it to enable and disabl
 
 -----
 
-.. [#sr] There is no data from these two channels by default. They can be customized to RS232 with port 4 and port 6 disabled.
+.. [#sr] This channel does not output data by default. You can customize the channel to RS232 with port 4 and port 6 disabled.
 
 
 .. table:: CS12800RA4101A
@@ -339,4 +339,4 @@ Chipsee-init shell
 We use one **chipsee-init.sh** as an initial shell which is placed in `/opt/chipsee/chipsee-init.sh`.
 We initialize the GPIO/Buzzer and other configs in it. If you want to change it, please be careful. |br|
 Do a backup first before you modify anything. This script will generaged one log file which located on /var/log/chipsee-init.sh.log.
-If you device have boot issue, you can send this file to use to help find what happen.
+If your device has booting issues, you can send |Chipsee| the file to help you find out what happened.
