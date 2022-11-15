@@ -6,7 +6,7 @@
 
 .. |dispsize| replace:: 19"
 
-.. |res| replace:: 1280×1024 (4:3)
+.. |res| replace:: 1440×900 (4:3)
 
 .. |bright| replace:: 250 |cd|
 
