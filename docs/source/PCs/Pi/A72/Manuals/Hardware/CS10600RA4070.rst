@@ -251,7 +251,7 @@ There are 2 x Type A **USB HOST connectors** onboard, as shown on the figure bel
 
 The product has one USB OTG connector that works as a slave by default. You can use it to establish a connection with the host PC and for downloading the system to the eMMC of CM4 module.
 
-.. Figure:: /Media/Pi/A72/Others/USB_OTG.jpeg
+.. Figure:: /Media/Pi/A72/CS10600RA4070/OTG_V2.jpg
   :align: center
   :figclass: align-center
 
@@ -273,9 +273,9 @@ The product has one USB OTG connector that works as a slave by default. You can 
 
 .. include:: Resources/TF_Card
 
-.. include:: Resources/Audio_IO
+.. include:: Resources/Audio_IO_cs10600ra4070_v2
 
-.. include:: Resources/Boot_SW
+.. include:: Resources/Boot_SW_cs10600ra4070_v2
 
 .. include:: Resources/mounting
 
