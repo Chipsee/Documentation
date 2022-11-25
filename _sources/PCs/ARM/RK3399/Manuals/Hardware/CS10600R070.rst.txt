@@ -1,8 +1,8 @@
-.. |product| replace:: EPC/PPC-A72-70-C
+.. |product| replace:: EPC/PPC-A72-070-C
 
-.. |productE| replace:: EPC-A72-70-C
+.. |productE| replace:: EPC-A72-070-C
 
-.. |productP| replace:: PPC-A72-70-C                                                                                                                                             -70-C
+.. |productP| replace:: PPC-A72-070-C                                                                                                                                             -70-C
 
 .. |PN| replace:: PN: CS10600R070
 
@@ -53,7 +53,7 @@
 .. |rs485| replace:: 2 x RS485 (1 debug port)
 
 
-.. _EPC/PPC-A72-70-C:
+.. _EPC/PPC-A72-070-C:
 
 |product|
 #########
@@ -72,7 +72,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A72/CS10600R070/PPC-A72-70-C-Front.jpeg
+.. image:: /Media/ARM/A72/CS10600R070/PPC-A72-070-C-Front.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Panel Mounting Variant)
 
@@ -85,7 +85,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A72/CS10600R070/PPC-A72-70-C-Back.jpeg
+.. image:: /Media/ARM/A72/CS10600R070/PPC-A72-070-C-Back.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View (Panel Mounting Variant)
 
@@ -98,7 +98,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A72/CS10600R070/EPC-A72-70-C-Front.jpeg
+.. image:: /Media/ARM/A72/CS10600R070/EPC-A72-070-C-Front.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Embedded Variant)
 
@@ -111,7 +111,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A72/CS10600R070/EPC-A72-70-C-Back.jpeg
+.. image:: /Media/ARM/A72/CS10600R070/EPC-A72-070-C-Back.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View (Embedded Variant)
 
@@ -219,7 +219,7 @@ Mechanical Specifications
 The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
-.. figure:: /Media/ARM/A72/CS10600R070/EPC-A72-70-C-TD.png
+.. figure:: /Media/ARM/A72/CS10600R070/EPC-A72-070-C-TD.png
    :align: center
    :figclass: align-center
 
@@ -230,7 +230,7 @@ product measurements.
 For |productP|, the outer mechanical dimensions are |dimP| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
-.. figure:: /Media/ARM/A72/CS10600R070/PPC-A72-70-C-TD.png
+.. figure:: /Media/ARM/A72/CS10600R070/PPC-A72-070-C-TD.png
    :align: center
    :figclass: align-center
 

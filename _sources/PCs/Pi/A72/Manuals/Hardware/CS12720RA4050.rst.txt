@@ -1,4 +1,4 @@
-.. |product| replace:: EPC/PPC-CM4-50
+.. |product| replace:: EPC/PPC-CM4-050
 
 .. |productE| replace:: CS12720RA4050E
 
@@ -54,10 +54,10 @@
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-50/
 
-.. |product_link| replace:: EPC/PPC-CM4-50
+.. |product_link| replace:: EPC/PPC-CM4-050
 
 
-.. _EPC/PPC-CM4-50:
+.. _EPC/PPC-CM4-050:
 
 |product|
 #########

@@ -1,8 +1,8 @@
-.. |product| replace:: EPC/PPC-A8-50-C
+.. |product| replace:: EPC/PPC-A8-050-C
 
-.. |productE| replace:: EPC-A8-50-C
+.. |productE| replace:: EPC-A8-050-C
 
-.. |productP| replace:: PPC-A8-50-C
+.. |productP| replace:: PPC-A8-050-C
 
 .. |PN| replace:: PN: CS80480T050
 
@@ -54,9 +54,9 @@
 
 .. _product_link: https://chipsee.com/product/epca850c/
 
-.. |product_link| replace:: EPC/PPC-A8-50-C
+.. |product_link| replace:: EPC/PPC-A8-050-C
 
-.. _EPC/PPC-A8-50-C:
+.. _EPC/PPC-A8-050-C:
 
 
 |product|
@@ -76,7 +76,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A8/CS80480T050/PPC-A8-50-C-Front.jpeg
+.. image:: /Media/ARM/A8/CS80480T050/PPC-A8-050-C-Front.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Panel Mounting Variant)
 
@@ -89,7 +89,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A8/CS80480T050/PPC-A8-50-C-Back.jpeg
+.. image:: /Media/ARM/A8/CS80480T050/PPC-A8-050-C-Back.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View (Panel Mounting Variant)
 
@@ -102,7 +102,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A8/CS80480T050/EPC-A8-50-C-Front.jpeg
+.. image:: /Media/ARM/A8/CS80480T050/EPC-A8-050-C-Front.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Embedded Variant)
 
@@ -115,7 +115,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A8/CS80480T050/EPC-A8-50-C-Back.jpeg
+.. image:: /Media/ARM/A8/CS80480T050/EPC-A8-050-C-Back.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View (Embedded Variant)
 
@@ -232,7 +232,7 @@ Mechanical Specifications
 The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
-.. figure:: /Media/ARM/A8/CS80480T050/EPC-A8-50-C-TD.jpeg
+.. figure:: /Media/ARM/A8/CS80480T050/EPC-A8-050-C-TD.jpeg
    :align: center
    :figclass: align-center
 

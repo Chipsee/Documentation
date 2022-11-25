@@ -1,8 +1,8 @@
-.. |product| replace:: PPC/EPC-A8-70H-C
+.. |product| replace:: PPC/EPC-A8-070H-C
 
-.. |productE| replace:: EPC-A8-70H-C
+.. |productE| replace:: EPC-A8-070H-C
 
-.. |productP| replace:: PPC-A8-70H-C
+.. |productP| replace:: PPC-A8-070H-C
 
 .. |PN| replace:: PN: CS10600T070
 
@@ -54,9 +54,9 @@
 
 .. _product_link: https://chipsee.com/product/epca870hbc/
 
-.. |product_link| replace:: EPC/PPC-A8-70H-C
+.. |product_link| replace:: EPC/PPC-A8-070H-C
 
-.. _PPC/EPC-A8-70H-C:
+.. _PPC/EPC-A8-070H-C:
 
 
 |product|
@@ -76,7 +76,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A8/CS10600T070/PPC-A8-70H-C-Front.jpeg
+.. image:: /Media/ARM/A8/CS10600T070/PPC-A8-070H-C-Front.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Panel Mounting Variant)
 
@@ -89,7 +89,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A8/CS10600T070/PPC-A8-70H-C-Back.jpeg
+.. image:: /Media/ARM/A8/CS10600T070/PPC-A8-070H-C-Back.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View (Panel Mounting Variant)
 
@@ -102,7 +102,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A8/CS10600T070/EPC-A8-70H-C-Front.jpeg
+.. image:: /Media/ARM/A8/CS10600T070/EPC-A8-070H-C-Front.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Embedded Variant)
 
@@ -115,7 +115,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A8/CS10600T070/EPC-A8-70H-C-Back.jpeg
+.. image:: /Media/ARM/A8/CS10600T070/EPC-A8-070H-C-Back.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View (Embedded Variant)
 
@@ -169,7 +169,7 @@ Mechanical Specifications
 The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
-.. figure:: /Media/ARM/A8/CS10600T070/EPC-A8-70H-C-TD.jpeg
+.. figure:: /Media/ARM/A8/CS10600T070/EPC-A8-070H-C-TD.jpeg
    :align: center
    :figclass: align-center
 
@@ -180,7 +180,7 @@ product measurements.
 For |productP|, the outer mechanical dimensions are |dimP| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
-.. figure:: /Media/ARM/A8/CS10600T070/EPC-A8-70H-C-TD.jpeg
+.. figure:: /Media/ARM/A8/CS10600T070/EPC-A8-070H-C-TD.jpeg
    :align: center
    :figclass: align-center
 

@@ -1,8 +1,8 @@
-.. |product| replace:: EPC/PPC-A9-97-C
+.. |product| replace:: EPC/PPC-A9-097-C
 
-.. |productE| replace:: EPC-A9-97-C
+.. |productE| replace:: EPC-A9-097-C
 
-.. |productP| replace:: PPC-A9-97-C
+.. |productP| replace:: PPC-A9-097-C
 
 .. |PN| replace:: PN: CS10768F097
 
@@ -50,7 +50,7 @@
 
 .. |rs485| replace:: 3
 
-.. _EPC/PPC-A9-97-C:
+.. _EPC/PPC-A9-097-C:
 
 |product|
 #########
@@ -69,7 +69,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A9/CS10768F097/PPC-A9-97-C-Front.jpg
+.. image:: /Media/ARM/A9/CS10768F097/PPC-A9-097-C-Front.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Panel Mounting Variant)
 
@@ -82,7 +82,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A9/CS10768F097/PPC-A9-97-C-Back.jpg
+.. image:: /Media/ARM/A9/CS10768F097/PPC-A9-097-C-Back.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View (Panel Mounting Variant)
 
@@ -95,7 +95,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A9/CS10768F097/EPC-A9-97-C-Front.jpg
+.. image:: /Media/ARM/A9/CS10768F097/EPC-A9-097-C-Front.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Embedded Variant)
 
@@ -108,7 +108,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A9/CS10768F097/EPC-A9-97-C-Back.jpg
+.. image:: /Media/ARM/A9/CS10768F097/EPC-A9-097-C-Back.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View (Embedded Variant)
 

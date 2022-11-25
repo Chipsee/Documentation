@@ -50,7 +50,7 @@
 
 .. |pwr| replace:: 16W Typical
 
-.. |temp| replace:: From 0°C to +80°C
+.. |temp| replace:: From 0°C to +60°C
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-133/
 

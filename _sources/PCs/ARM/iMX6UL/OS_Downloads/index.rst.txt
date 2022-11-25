@@ -10,7 +10,7 @@ For additional information, contact |email|_
    :maxdepth: 1
    :titlesonly:
 
-   EPC/PPC-A7-70HB-C <CS10600U070>
+   EPC/PPC-A7-070HB-C <CS10600U070>
 
 .. warning::
 

@@ -12,7 +12,7 @@
 
 .. |tf_des| replace:: This TF card is designed for storage expansion, as the TF card use same pins with WiFi, it can't be used with WiFi at same time.
 
-.. |dispsize| replace:: 10"
+.. |dispsize| replace:: 10.1"
 
 .. |res| replace:: 1280 x 800
 
@@ -22,7 +22,7 @@
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 275.5 x 193.5 x 46.0mm
+.. |dimP| replace:: 276 x 194 x 46mm
 
 .. |weightE| replace:: NULL
 

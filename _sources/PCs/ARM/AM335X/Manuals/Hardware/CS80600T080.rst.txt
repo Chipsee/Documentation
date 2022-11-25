@@ -1,8 +1,8 @@
-.. |product| replace:: EPC/PPC-A8-80-R
+.. |product| replace:: EPC/PPC-A8-080-R
 
-.. |productE| replace:: EPC-A8-80-R
+.. |productE| replace:: EPC-A8-080-R
 
-.. |productP| replace:: PPC-A8-80-R
+.. |productP| replace:: PPC-A8-080-R
 
 .. |PN| replace:: PN: CS80600T080
 
@@ -54,9 +54,9 @@
 
 .. _product_link: https://chipsee.com/product/epca870hbr/
 
-.. |product_link| replace:: EPC/PPC-A8-80-R
+.. |product_link| replace:: EPC/PPC-A8-080-R
 
-.. _EPC/PPC-A8-80-R:
+.. _EPC/PPC-A8-080-R:
 
 
 |product|
@@ -76,7 +76,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A8/CS80600T080/PPC-A8-80-R-Front.jpeg
+.. image:: /Media/ARM/A8/CS80600T080/PPC-A8-080-R-Front.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Panel Mounting Variant)
 
@@ -89,7 +89,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A8/CS80600T080/PPC-A8-80-R-Back.jpeg
+.. image:: /Media/ARM/A8/CS80600T080/PPC-A8-080-R-Back.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View (Panel Mounting Variant)
 
@@ -102,7 +102,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A8/CS80600T080/EPC-A8-80-R-Front.jpeg
+.. image:: /Media/ARM/A8/CS80600T080/EPC-A8-080-R-Front.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Embedded Variant)
 
@@ -115,7 +115,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A8/CS80600T080/EPC-A8-80-R-Back.jpeg
+.. image:: /Media/ARM/A8/CS80600T080/EPC-A8-080-R-Back.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View (Embedded Variant)
 

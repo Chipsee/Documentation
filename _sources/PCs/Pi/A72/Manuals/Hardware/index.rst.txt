@@ -6,13 +6,13 @@ Cortex-A72 Hardware Documentation
    :name: hwdocstable_1
 
    +---------------------+------------------------------------------------------------------------+
-   | |EPC/PPC-CM4-50|    |   :ref:`EPC/PPC-CM4-50 User Manual <EPC/PPC-CM4-50>` |br|              |
+   | |EPC/PPC-CM4-050|   |   :ref:`EPC/PPC-CM4-050 User Manual <EPC/PPC-CM4-050>` |br|            |
    |                     |   PN: CS12720RA4050 |br| |br|                                          |
    |                     |                                                                        |
    |                     |   5.0", 1280 x 720, 5-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
-.. |EPC/PPC-CM4-50| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.png
+.. |EPC/PPC-CM4-050| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.png
    :class: no-scaled-link
    :target: CS12720RA4050.html
    
@@ -21,13 +21,13 @@ Cortex-A72 Hardware Documentation
    :name: hwdocstable_2
 
    +---------------------+------------------------------------------------------------------------+
-   | |EPC/PPC-CM4-70|    |   :ref:`EPC/PPC-CM4-70 User Manual <EPC/PPC-CM4-70>` |br|              |
+   | |EPC/PPC-CM4-070|   |   :ref:`EPC/PPC-CM4-070 User Manual <EPC/PPC-CM4-070>` |br|            |
    |                     |   PN: CS10600RA4070 |br| |br|                                          |
    |                     |                                                                        |
    |                     |   7.0", 1024 x 600, 5-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
-.. |EPC/PPC-CM4-70| image:: /Media/Pi/A72/CS10600RA4070/CS10600RA4070P-Front.jpeg
+.. |EPC/PPC-CM4-070| image:: /Media/Pi/A72/CS10600RA4070/CS10600RA4070P-Front.jpeg
    :class: no-scaled-link
    :target: CS10600RA4070.html
 
@@ -97,8 +97,8 @@ Cortex-A72 Hardware Documentation
    :hidden:
 
 
-   EPC/PPC-CM4-50 <CS12720RA4050>
-   EPC/PPC-CM4-70 <CS10600RA4070>
+   EPC/PPC-CM4-050 <CS12720RA4050>
+   EPC/PPC-CM4-070 <CS10600RA4070>
    PPC-CM4-101 <CS12800RA4101>
    PPC-CM4-133 <CS19108RA4133>
    PPC-CM4-150 <CS10768RA4150>

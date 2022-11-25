@@ -1,4 +1,4 @@
-.. |product| replace:: EPC/PPC-CM4-70
+.. |product| replace:: EPC/PPC-CM4-070
 
 .. |productE| replace:: CS10600RA4070E
 
@@ -20,9 +20,9 @@
 
 .. |disp_des| replace:: |dispsize| five-point capacitive a touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |dimE| replace:: 190 x 107.8 x 27.7mm
+.. |dimE| replace:: 190 x 108 x 28mm
 
-.. |dimP| replace:: 206 x 135 x 30.1mm
+.. |dimP| replace:: 206 x 135 x 30mm
 
 .. |weightE| replace:: 400g
 
@@ -30,13 +30,13 @@
 
 .. |tscreen| replace:: 5-point capacitive touch
 
-.. |USB| replace:: 2 x USB 2.0 Host, 1 x USB OTG
+.. |USB| replace:: 2 x USB 2.0 Host, 1 x miniUSB OTG
 
 .. |LAN| replace:: 1 x Channel Giga LAN
 
 .. |GPIO| replace:: 8 Channels, 4 Input, 4 Output
 
-.. |hdmi_des| replace:: 1 Channel, not mounted by default
+.. |hdmi_des| replace:: Yes
 
 .. |sata_des| replace:: Not Supported
 
@@ -54,10 +54,10 @@
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-70/
 
-.. |product_link| replace:: EPC/PPC-CM4-70
+.. |product_link| replace:: EPC/PPC-CM4-070
 
 
-.. _EPC/PPC-CM4-70:
+.. _EPC/PPC-CM4-070:
 
 |product|
 #########

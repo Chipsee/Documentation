@@ -6,13 +6,13 @@ Cortex-A53 Hardware Documentation
    :name: hwdocstable_1
 
    +---------------------+------------------------------------------------------------------------+
-   | |EPC/PPC-CM3-70|    |   :ref:`EPC/PPC-CM3-70 User Manual <EPC/PPC-CM3-70>` |br|              |
+   | |EPC/PPC-CM3-070|   |   :ref:`EPC/PPC-CM3-070 User Manual <EPC/PPC-CM3-070>` |br|            |
    |                     |   PN: CS10600RA070 |br| |br|                                           |
    |                     |                                                                        |
    |                     |   7.0", 1024 x 600, 5-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
-.. |EPC/PPC-CM3-70| image:: /Media/Pi/A53/CS10600RA070/CS10600RA070P-Front.jpeg
+.. |EPC/PPC-CM3-070| image:: /Media/Pi/A53/CS10600RA070/CS10600RA070P-Front.jpeg
    :class: no-scaled-link
    :target: CS10600RA070.html
 
@@ -37,5 +37,5 @@ Cortex-A53 Hardware Documentation
    :hidden:
 
 
-   EPC/PPC-CM3-70 <CS10600RA070>
+   EPC/PPC-CM3-070 <CS10600RA070>
    EPC/PPC-CM3-101 <CS12800RA101>

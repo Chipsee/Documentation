@@ -98,7 +98,7 @@ Serial Debug
 ------------
 
 The first serial port is used for debugging (serial port 1). It consists of *RS232_1_TXD*, *RS232_1_RXD* and, *GND* terminals. 
-Please refer to :ref:`1.6.1. RS232/RS485/CAN <RS232/RS485/CAN_A7_70C>` chapter in the EPC/PPC-A7-70HB-C Hardware Documentation for additional information on serial ports.
+Please refer to :ref:`1.6.1. RS232/RS485/CAN <RS232/RS485/CAN_A7_70C>` chapter in the EPC/PPC-A7-070HB-C Hardware Documentation for additional information on serial ports.
 
 .. note::
   | More information on how to connect different Chipsee IPCs to a personal computer (PC) via a serial connection can be found in the PDF document below: 
@@ -433,7 +433,7 @@ The following example can be used to perform testing:
 GPIO Ports
 ----------
 
-There are 8 GPIO ports on the Chipsee IPC, as explained in the :ref:`GPIO <GPIO>` chapter of the EPC/PPC-A7-70HB-C Hardware
+There are 8 GPIO ports on the Chipsee IPC, as explained in the :ref:`GPIO <GPIO>` chapter of the EPC/PPC-A7-070HB-C Hardware
 Documentation. The table below contains the related device nodes:
 
 .. table:: Table 3: GPIO Ports

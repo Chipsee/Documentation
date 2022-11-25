@@ -1,8 +1,8 @@
-.. |product| replace:: EPC/PPC-A9-70-C
+.. |product| replace:: EPC/PPC-A9-070-C
 
-.. |productE| replace:: EPC-A9-70-C
+.. |productE| replace:: EPC-A9-070-C
 
-.. |productP| replace:: PPC-A9-70-C
+.. |productP| replace:: PPC-A9-070-C
 
 .. |PN| replace:: PN: CS10600F070
 
@@ -50,7 +50,7 @@
 
 .. |rs485| replace:: 2
 
-.. _EPC/PPC-A9-70-C:
+.. _EPC/PPC-A9-070-C:
 
 |product|
 #########
@@ -69,7 +69,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A9/CS10600F070/PPC-A9-70-C-Front.jpg
+.. image:: /Media/ARM/A9/CS10600F070/PPC-A9-070-C-Front.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Panel Mounting Variant)
 
@@ -82,7 +82,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A9/CS10600F070/PPC-A9-70-C-Back.jpg
+.. image:: /Media/ARM/A9/CS10600F070/PPC-A9-070-C-Back.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View (Panel Mounting Variant)
 
@@ -95,7 +95,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A9/CS10600F070/EPC-A9-70-C-Front.jpg
+.. image:: /Media/ARM/A9/CS10600F070/EPC-A9-070-C-Front.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Embedded Variant)
 
@@ -108,7 +108,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A9/CS10600F070/EPC-A9-70-C-Back.jpg
+.. image:: /Media/ARM/A9/CS10600F070/EPC-A9-070-C-Back.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View (Embedded Variant)
 
@@ -262,7 +262,7 @@ Mechanical Specifications
 The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
-.. figure:: /Media/ARM/A9/CS10600F070/EPC-A9-70-C-TD.jpeg
+.. figure:: /Media/ARM/A9/CS10600F070/EPC-A9-070-C-TD.jpeg
    :align: center
    :figclass: align-center
 

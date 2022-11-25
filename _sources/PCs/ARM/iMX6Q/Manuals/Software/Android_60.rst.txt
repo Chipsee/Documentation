@@ -509,7 +509,7 @@ For the **CS12800F101** IPC, there are 8 GPIO ports that you can set as output o
 Please check the **GPIO Connector** section in :ref:`CS12800F101 <EPC/PPC-A9-101-C>` to know the position of the GPIO Connector. Refer to the table below for the available GPIO nodes on system.
 
 For the **CS10600F070** IPC, there are 8 GPIO ports that you can set as output or input with LOW as 0V; the HIGH as 3.3V. |br|
-Please check the **GPIO Connector** section in :ref:`CS10600F070 <EPC/PPC-A9-70-C>` to know the position of the GPIO Connector. Refer to the table below for the available GPIO nodes on system.
+Please check the **GPIO Connector** section in :ref:`CS10600F070 <EPC/PPC-A9-070-C>` to know the position of the GPIO Connector. Refer to the table below for the available GPIO nodes on system.
 
 .. note::
 
