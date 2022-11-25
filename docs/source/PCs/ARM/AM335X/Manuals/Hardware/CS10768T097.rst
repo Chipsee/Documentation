@@ -1,8 +1,8 @@
-.. |product| replace:: PPC/EPC-A8-97-C
+.. |product| replace:: PPC/EPC-A8-097-C
 
-.. |productE| replace:: EPC-A8-97-C
+.. |productE| replace:: EPC-A8-097-C
 
-.. |productP| replace:: PPC-A8-97-C
+.. |productP| replace:: PPC-A8-097-C
 
 .. |PN| replace:: PN: CS10768T097
 
@@ -54,9 +54,9 @@
 
 .. _product_link: https://chipsee.com/product/epca897c/
 
-.. |product_link| replace:: PPC/EPC-A8-97-C
+.. |product_link| replace:: PPC/EPC-A8-097-C
 
-.. _PPC/EPC-A8-97-C:
+.. _PPC/EPC-A8-097-C:
 
 
 |product|
@@ -80,7 +80,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A8/CS10768T097/PPC-A8-97-C-Front.jpeg
+.. image:: /Media/ARM/A8/CS10768T097/PPC-A8-097-C-Front.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Panel Mounting Variant)
 
@@ -93,7 +93,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A8/CS10768T097/PPC-A8-97-C-Back.jpeg
+.. image:: /Media/ARM/A8/CS10768T097/PPC-A8-097-C-Back.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View (Panel Mounting Variant)
 
@@ -106,7 +106,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A8/CS10768T097/EPC-A8-97-C-Front.jpeg
+.. image:: /Media/ARM/A8/CS10768T097/EPC-A8-097-C-Front.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Embedded Variant)
 
@@ -119,7 +119,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A8/CS10768T097/EPC-A8-97-C-Back.jpeg
+.. image:: /Media/ARM/A8/CS10768T097/EPC-A8-097-C-Back.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View (Embedded Variant)
 
@@ -251,7 +251,7 @@ Mechanical Specifications
 The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
-.. figure:: /Media/ARM/A8/CS10768T097/PPC-A8-97-C-TD.jpeg
+.. figure:: /Media/ARM/A8/CS10768T097/PPC-A8-097-C-TD.jpeg
    :align: center
    :figclass: align-center
 

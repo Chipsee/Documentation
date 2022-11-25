@@ -116,7 +116,7 @@ In this document, we use Xshell to debug the Chipsee Industrial Computer. You ca
 Serial Debug
 ------------
 
-You can refer to the RS232/RS485/CAN Connector section under the :ref:`EPC/PPC-A9-70-C <EPC/PPC-A9-70-C>` manual to understand the serial ports of the IPC.
+You can refer to the RS232/RS485/CAN Connector section under the :ref:`EPC/PPC-A9-070-C <EPC/PPC-A9-070-C>` manual to understand the serial ports of the IPC.
 The debug serial port of Chipsee Industrial Computer is the first RS232 port. You can use it to debug directly, and the default user and password is [root/root].
 You can use RS232_1_TXD, RS232_1_RXD, GND. |br| |br|
 

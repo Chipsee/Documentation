@@ -1,4 +1,4 @@
-.. |product| replace:: EPC/PPC-CM3-70
+.. |product| replace:: EPC/PPC-CM3-070
 
 .. |productE| replace:: CS10600RA070E
 
@@ -46,10 +46,10 @@
 
 .. _product_link: https://chipsee.com/product/ppc-cm3-70/
 
-.. |product_link| replace:: EPC/PPC-CM3-70
+.. |product_link| replace:: EPC/PPC-CM3-070
 
 
-.. _EPC/PPC-CM3-70:
+.. _EPC/PPC-CM3-070:
 
 |product|
 #########

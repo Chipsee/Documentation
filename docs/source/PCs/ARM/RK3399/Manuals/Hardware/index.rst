@@ -6,13 +6,13 @@ RK3399 Hardware Documentation
    :name: hwdocstable_1
 
    +---------------------+------------------------------------------------------------------------+
-   | |EPC/PPC-A72-70-C|  |   :ref:`EPC/PPC-A72-70-C User Manual <EPC/PPC-A72-70-C>` |br|          |
+   | |EPC/PPC-A72-070-C| |   :ref:`EPC/PPC-A72-070-C User Manual <EPC/PPC-A72-070-C>` |br|        |
    |                     |   PN: CS10600R070 |br| |br|                                            |
    |                     |                                                                        |
    |                     |   7.0", 1024 x 600, 5-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
-.. |EPC/PPC-A72-70-C| image:: /Media/ARM/A72/CS10600R070/PPC-A72-70-C-Front.jpeg
+.. |EPC/PPC-A72-070-C| image:: /Media/ARM/A72/CS10600R070/PPC-A72-070-C-Front.jpeg
    :class: no-scaled-link
    :target: CS10600R070.html
 
@@ -142,7 +142,7 @@ RK3399 Hardware Documentation
    :hidden:
 
 
-   EPC/PPC-A72-70-C <CS10600R070>
+   EPC/PPC-A72-070-C <CS10600R070>
    EPC/PPC-A72-101-C(Legacy) <CS12800R101>
    PPC-A72-101-C <CS12800R101P>
    PPC-A72-125-C <CS19108R125>

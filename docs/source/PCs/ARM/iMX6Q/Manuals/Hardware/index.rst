@@ -6,13 +6,13 @@ i.MX6Q Hardware Documentation
    :name: hwdocstable_1
 
    +-------------------+------------------------------------------------------------------------+
-   |  |PPC-A9-70-C|    |   :ref:`EPC/PPC-A9-70-C User Manual <EPC/PPC-A9-70-C>` |br|            |
+   |  |PPC-A9-070-C|   |   :ref:`EPC/PPC-A9-070-C User Manual <EPC/PPC-A9-070-C>` |br|          |
    |                   |   PN: CS10600F070 |br| |br|                                            |
    |                   |                                                                        |
    |                   |   7.0", 1024 x 600, multi-point capacitive touch screen                |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-A9-70-C| image:: /Media/ARM/A9/CS10600F070/PPC-A9-70-C-Front.jpg
+.. |PPC-A9-070-C| image:: /Media/ARM/A9/CS10600F070/PPC-A9-070-C-Front.jpg
    :class: no-scaled-link
    :target: CS10600F070.html
 
@@ -21,13 +21,13 @@ i.MX6Q Hardware Documentation
    :name: hwdocstable_2
 
    +-------------------+------------------------------------------------------------------------+
-   |  |PPC-A9-97-C|    |   :ref:`EPC/PPC-A9-97-C User Manual <EPC/PPC-A9-97-C>` |br|            |
+   |  |PPC-A9-097-C|   |   :ref:`EPC/PPC-A9-097-C User Manual <EPC/PPC-A9-097-C>` |br|          |
    |                   |   PN: CS10768F097 |br| |br|                                            |
    |                   |                                                                        |
    |                   |   9.7", 1024 x 768, multi-point capacitive touch screen                |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-A9-97-C| image:: /Media/ARM/A9/CS10768F097/PPC-A9-97-C-Front.jpg
+.. |PPC-A9-097-C| image:: /Media/ARM/A9/CS10768F097/PPC-A9-097-C-Front.jpg
    :class: no-scaled-link
    :target: CS10768F097.html
 
@@ -141,8 +141,8 @@ i.MX6Q Hardware Documentation
    :titlesonly:
    :hidden:
  
-   EPC/PPC-A9-70-C <CS10600F070>
-   EPC/PPC-A9-97-C <CS10768F097>
+   EPC/PPC-A9-070-C <CS10600F070>
+   EPC/PPC-A9-097-C <CS10768F097>
    EPC/PPC-A9-101-C <CS12800F101>
    PPC-A9-121-C <CS10768F121>
    PPC-A9-121-U-C <CS10768F121-U>

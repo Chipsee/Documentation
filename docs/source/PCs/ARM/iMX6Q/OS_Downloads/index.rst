@@ -10,8 +10,8 @@ For additional information, contact |email|_
    :maxdepth: 1
    :titlesonly:
 
-   EPC/PPC-A9-70-C <CS10600F070>
-   EPC/PPC-A9-97-C <CS10768F097>
+   EPC/PPC-A9-070-C <CS10600F070>
+   EPC/PPC-A9-097-C <CS10768F097>
    EPC/PPC-A9-101-C <CS12800F101>
    PPC-A9-121-C <CS10768F121>
    PPC-A9-121-U-C <CS10768F121-U>
