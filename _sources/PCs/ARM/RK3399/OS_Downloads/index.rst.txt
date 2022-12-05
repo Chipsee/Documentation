@@ -11,6 +11,7 @@ For additional information, contact |email|_
    :titlesonly:
 
    EPC/PPC-A72-070-C <CS10600R070>
+   EPC/PPC-A72-101-C(Legacy) <CS12800R101>
    PPC-A72-101-C <CS12800R101P>
    PPC-A72-125-C <CS19108R125>
    PPC-A72-133-C <CS19108R133>
