@@ -8,7 +8,7 @@
 
 .. |res| replace:: 1920 x 1080 (16:9)
 
-.. |bright| replace:: 220 |cd|
+.. |bright| replace:: 400 |cd|
 
 .. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
