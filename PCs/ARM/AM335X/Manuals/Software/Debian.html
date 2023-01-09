@@ -720,7 +720,7 @@ Use the SD Card to download the bootable system image onto the Linux platform an
 <li><p>Copy the Prebuilt Files Package to a Linux environment (such as Ubuntu 14.04).</p></li>
 <li><p>Insert the SD card into your computer. If you are using virtual machines, please ensure the SD card is mounted to the Linux operating system.</p></li>
 <li><dl>
-<dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo fdisk –l
+<dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>fdisk<span class="w"> </span>–l
 </pre></div>
 </div>
 </dd>
@@ -728,21 +728,21 @@ Use the SD Card to download the bootable system image onto the Linux platform an
 </li>
 <li><p>Copy the <code class="code docutils literal notranslate"><span class="pre">prebuilt-som-v3-csrrrrrtss-v3-debian-sd-yyyymmdd.tar.gz</span></code> to somewhere(such as $HOME).</p></li>
 <li><dl>
-<dt>Extract the <code class="code docutils literal notranslate"><span class="pre">prebuilt-som-v3-csrrrrrtss-v3-debian-sd-yyyymmdd.tar.gz</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ tar -xzvf prebuilt-som-v3-csrrrrrtss-v3-debian-sd-yyyymmdd.tar.gz
+<dt>Extract the <code class="code docutils literal notranslate"><span class="pre">prebuilt-som-v3-csrrrrrtss-v3-debian-sd-yyyymmdd.tar.gz</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>tar<span class="w"> </span>-xzvf<span class="w"> </span>prebuilt-som-v3-csrrrrrtss-v3-debian-sd-yyyymmdd.tar.gz
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Go to the folder</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ~/prebuilt-som-v3-csxxxxxtxx-v3-ezsdk-sd-yyyymmdd
+<dt>Go to the folder</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>~/prebuilt-som-v3-csxxxxxtxx-v3-ezsdk-sd-yyyymmdd
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Use the following command to flash the Debian OS to the SD card</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ./mksdcard.sh --device /dev/sd&lt;?&gt;
+<dt>Use the following command to flash the Debian OS to the SD card</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>./mksdcard.sh<span class="w"> </span>--device<span class="w"> </span>/dev/sd&lt;?&gt;
 </pre></div>
 </div>
 <div class="admonition note">
@@ -771,7 +771,7 @@ Follow the steps below to create a bootable SD card:</p>
 <li><p>Copy the Prebuilt Files Package to a Linux environment (such as Ubuntu 14.04).</p></li>
 <li><p>Insert the SD card into your computer. If you are using virtual machines, please ensure the SD card is mounted to the Linux operating system.</p></li>
 <li><dl>
-<dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo fdisk –l
+<dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>fdisk<span class="w"> </span>–l
 </pre></div>
 </div>
 </dd>
@@ -779,21 +779,21 @@ Follow the steps below to create a bootable SD card:</p>
 </li>
 <li><p>Copy the prebuilt file <code class="docutils literal notranslate"><span class="pre">prebuilt-som-v3-csrrrrrtss-v3-debian-emmc-yyyymmdd.tar.gz</span></code> to somewhere(such as $HOME).</p></li>
 <li><dl>
-<dt>Extract the prebuilt file <code class="docutils literal notranslate"><span class="pre">prebuilt-som-v3-csrrrrrtss-v3-debian-emmc-yyyymmdd.tar.gz</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ tar -xzvf prebuilt-som-v3-csrrrrrtss-v3-debian-emmc-yyyymmdd.tar.gz
+<dt>Extract the prebuilt file <code class="docutils literal notranslate"><span class="pre">prebuilt-som-v3-csrrrrrtss-v3-debian-emmc-yyyymmdd.tar.gz</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>tar<span class="w"> </span>-xzvf<span class="w"> </span>prebuilt-som-v3-csrrrrrtss-v3-debian-emmc-yyyymmdd.tar.gz
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Go to the folder <code class="docutils literal notranslate"><span class="pre">prebuilt-som-v3-csrrrrrtss-v3-debian-emmc-yyyymmdd/</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ~/prebuilt-som-v3-csrrrrrtss-v3-debian-emmc-yyyymmdd
+<dt>Go to the folder <code class="docutils literal notranslate"><span class="pre">prebuilt-som-v3-csrrrrrtss-v3-debian-emmc-yyyymmdd/</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>~/prebuilt-som-v3-csrrrrrtss-v3-debian-emmc-yyyymmdd
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Use the following command to flash the Debian OS to the SD card</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ./mksdcard.sh --device  /dev/sd&lt;?&gt;
+<dt>Use the following command to flash the Debian OS to the SD card</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>./mksdcard.sh<span class="w"> </span>--device<span class="w">  </span>/dev/sd&lt;?&gt;
 </pre></div>
 </div>
 <div class="admonition note">
@@ -833,7 +833,7 @@ It is a successful start if you see the Debian OS desktop such as the one shown 
 <p>Click on the screen, the mouse arrow stays in a position that triggers the buzzer sounds, indicating that touch and buzzer work properly. <br/>
 After working for some time, the resistive touch screen may not be accurate. The user must run a touch screen calibration test. <br/>
 Firstly delete the file <code class="docutils literal notranslate"><span class="pre">/etc/pointercal.xinput</span></code> using the command below.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo rm /etc/pointercal.xinput
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>rm<span class="w"> </span>/etc/pointercal.xinput
 </pre></div>
 </div>
 <p>Click on the Preferences–&gt;Calibrate Touchscreen app to recalibrate. <br/>
@@ -914,7 +914,7 @@ Refer to the table below for the available serial device nodes.</p>
 <li><p>Connect COM2 on the industrial PC to Windows 7 PC. Set BAUD as 9600.</p></li>
 <li><p>Send an echo through the terminal as shown in the code block below.</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span> <span class="s2">"This is a test"</span> &gt; /dev/ttyO1
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span><span class="s2">"This is a test"</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/ttyO1
 </pre></div>
 </div>
 <ul class="simple">
@@ -1062,13 +1062,13 @@ For example, you can adjust the screen brightness using this command:</p>
 <h4 id="usb-device">USB device<a class="headerlink" href="#usb-device" title="Permalink to this heading">¶</a></h4>
 <p>The Debian OS supports USB-WiFi (RTL8723). If you want to get USB-Wifi module to work, you need to edit file: <code class="docutils literal notranslate"><span class="pre">/etc/network/interfaces</span></code> as shown in the code-block below.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Wifi Example</span>
-allow-hotplug wlanX
-auto wlanX
-iface wlanX inet dhcp
-wpa-ssid <span class="s2">"Chipsee"</span>   <span class="c1"># Router’ name</span>
-wpa-psk <span class="s2">"1234567890"</span> <span class="c1"># Passwd</span>
+allow-hotplug<span class="w"> </span>wlanX
+auto<span class="w"> </span>wlanX
+iface<span class="w"> </span>wlanX<span class="w"> </span>inet<span class="w"> </span>dhcp
+wpa-ssid<span class="w"> </span><span class="s2">"Chipsee"</span><span class="w">   </span><span class="c1"># Router’ name</span>
+wpa-psk<span class="w"> </span><span class="s2">"1234567890"</span><span class="w"> </span><span class="c1"># Passwd</span>
 
-**wlanX** usual should be <span class="sb">``</span>wlan0<span class="sb">``</span>, you can use the <span class="nb">command</span> <span class="sb">``</span>ifconfig –a<span class="sb">``</span> to make sure of that.
+**wlanX**<span class="w"> </span>usual<span class="w"> </span>should<span class="w"> </span>be<span class="w"> </span><span class="sb">``</span>wlan0<span class="sb">``</span>,<span class="w"> </span>you<span class="w"> </span>can<span class="w"> </span>use<span class="w"> </span>the<span class="w"> </span><span class="nb">command</span><span class="w"> </span><span class="sb">``</span>ifconfig<span class="w"> </span>–a<span class="sb">``</span><span class="w"> </span>to<span class="w"> </span>make<span class="w"> </span>sure<span class="w"> </span>of<span class="w"> </span>that.
 </pre></div>
 </div>
 </section>
@@ -1147,14 +1147,14 @@ Follow these steps to view Debian system via the serial port:</p>
 <h3 id="debug-via-nfs">Debug via NFS<a class="headerlink" href="#debug-via-nfs" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic">
 <li><dl>
-<dt>Install NFS on Ubuntu Linux PC.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get install nfs-kernel-server
+<dt>Install NFS on Ubuntu Linux PC.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>nfs-kernel-server
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Configure the file <code class="docutils literal notranslate"><span class="pre">/etc/exports</span></code>, by adding this line at the end of the file.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/qtprojects *<span class="o">(</span>rw, sync, insecure, no_subtree_check<span class="o">)</span>
+<dt>Configure the file <code class="docutils literal notranslate"><span class="pre">/etc/exports</span></code>, by adding this line at the end of the file.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/qtprojects<span class="w"> </span>*<span class="o">(</span>rw,<span class="w"> </span>sync,<span class="w"> </span>insecure,<span class="w"> </span>no_subtree_check<span class="o">)</span>
 </pre></div>
 </div>
 <div class="admonition note">
@@ -1172,24 +1172,24 @@ Follow these steps to view Debian system via the serial port:</p>
 </dl>
 </li>
 <li><dl>
-<dt>Restart NFS service.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo /etc/init.d/portmap restart
-$ sudo /etc/init.d/nfs-kernel-server restart
+<dt>Restart NFS service.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>/etc/init.d/portmap<span class="w"> </span>restart
+$<span class="w"> </span>sudo<span class="w"> </span>/etc/init.d/nfs-kernel-server<span class="w"> </span>restart
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Test</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ showmount -e
+<dt>Test</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>showmount<span class="w"> </span>-e
 </pre></div>
 </div>
 <p>or mount the shared folder to <code class="docutils literal notranslate"><span class="pre">/mnt</span></code>:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo mount -t nfs –o nolock localhost:/qtprojects /mnt
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>mount<span class="w"> </span>-t<span class="w"> </span>nfs<span class="w"> </span>–o<span class="w"> </span>nolock<span class="w"> </span>localhost:/qtprojects<span class="w"> </span>/mnt
 </pre></div>
 </div>
 <p>Use the command <code class="docutils literal notranslate"><span class="pre">df</span></code> to check out the result, then umount.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ df -h
-$ sudo umount /mnt
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>df<span class="w"> </span>-h
+$<span class="w"> </span>sudo<span class="w"> </span>umount<span class="w"> </span>/mnt
 </pre></div>
 </div>
 </dd>
@@ -1230,32 +1230,32 @@ $ sudo umount /mnt
 <h3 id="example-develop-a-helloworld-java-program">Example — Develop a <code class="docutils literal notranslate"><span class="pre">HelloWorld.java</span></code> Program<a class="headerlink" href="#example-develop-a-helloworld-java-program" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic">
 <li><dl>
-<dt>Open and edit, with any text editor, a simple java <code class="docutils literal notranslate"><span class="pre">HelloWorld.java</span></code> program.</dt><dd><div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="kn">import</span><span class="w"> </span><span class="nn">java.awt.Color</span><span class="p">;</span><span class="w"></span>
-<span class="linenos"> 2</span><span class="kn">import</span><span class="w"> </span><span class="nn">java.awt.Font</span><span class="p">;</span><span class="w"></span>
-<span class="linenos"> 3</span><span class="kn">import</span><span class="w"> </span><span class="nn">java.awt.Toolkit</span><span class="p">;</span><span class="w"></span>
-<span class="linenos"> 4</span><span class="kn">import</span><span class="w"> </span><span class="nn">javax.swing.JFrame</span><span class="p">;</span><span class="w"></span>
-<span class="linenos"> 5</span><span class="kn">import</span><span class="w"> </span><span class="nn">javax.swing.JTextField</span><span class="p">;</span><span class="w"></span>
+<dt>Open and edit, with any text editor, a simple java <code class="docutils literal notranslate"><span class="pre">HelloWorld.java</span></code> program.</dt><dd><div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="kn">import</span><span class="w"> </span><span class="nn">java.awt.Color</span><span class="p">;</span>
+<span class="linenos"> 2</span><span class="kn">import</span><span class="w"> </span><span class="nn">java.awt.Font</span><span class="p">;</span>
+<span class="linenos"> 3</span><span class="kn">import</span><span class="w"> </span><span class="nn">java.awt.Toolkit</span><span class="p">;</span>
+<span class="linenos"> 4</span><span class="kn">import</span><span class="w"> </span><span class="nn">javax.swing.JFrame</span><span class="p">;</span>
+<span class="linenos"> 5</span><span class="kn">import</span><span class="w"> </span><span class="nn">javax.swing.JTextField</span><span class="p">;</span>
 <span class="linenos"> 6</span>
-<span class="linenos"> 7</span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">HelloWorld</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">JFrame</span><span class="p">{</span><span class="w"></span>
-<span class="linenos"> 8</span><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">HelloWorld</span><span class="p">(){</span><span class="w"></span>
-<span class="linenos"> 9</span><span class="w">         </span><span class="n">JTextField</span><span class="w"> </span><span class="n">text</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">JTextField</span><span class="p">(</span><span class="s">"Hello, world!"</span><span class="p">);</span><span class="w"></span>
-<span class="linenos">10</span><span class="w">         </span><span class="n">text</span><span class="p">.</span><span class="na">setFont</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">Font</span><span class="p">(</span><span class="s">"Times New Roman"</span><span class="p">,</span><span class="n">Font</span><span class="p">.</span><span class="na">BOLD</span><span class="p">,</span><span class="mi">60</span><span class="p">));</span><span class="w"></span>
-<span class="linenos">11</span><span class="w">         </span><span class="n">text</span><span class="p">.</span><span class="na">setForeground</span><span class="p">(</span><span class="n">Color</span><span class="p">.</span><span class="na">BLACK</span><span class="p">);</span><span class="w"></span>
-<span class="linenos">12</span><span class="w">         </span><span class="k">this</span><span class="p">.</span><span class="na">getContentPane</span><span class="p">().</span><span class="na">add</span><span class="p">(</span><span class="n">text</span><span class="p">);</span><span class="w"></span>
-<span class="linenos">13</span><span class="w">     </span><span class="p">}</span><span class="w"></span>
-<span class="linenos">14</span><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">argv</span><span class="o">[]</span><span class="p">){</span><span class="w"></span>
-<span class="linenos">15</span><span class="w">         </span><span class="n">HelloWorld</span><span class="w"> </span><span class="n">win</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">HelloWorld</span><span class="p">();</span><span class="w"></span>
-<span class="linenos">16</span><span class="w">         </span><span class="n">Toolkit</span><span class="w"> </span><span class="n">tk</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="n">Toolkit</span><span class="p">.</span><span class="na">getDefaultToolkit</span><span class="p">();</span><span class="w"></span>
-<span class="linenos">17</span><span class="w">         </span><span class="kt">int</span><span class="w"> </span><span class="n">winWidth</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">512</span><span class="p">;</span><span class="w"></span>
-<span class="linenos">18</span><span class="w">         </span><span class="kt">int</span><span class="w"> </span><span class="n">winHeight</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">300</span><span class="p">;</span><span class="w"></span>
-<span class="linenos">19</span><span class="w">         </span><span class="kt">int</span><span class="w"> </span><span class="n">Width</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="n">tk</span><span class="p">.</span><span class="na">getScreenSize</span><span class="p">().</span><span class="na">width</span><span class="p">;</span><span class="w"></span>
-<span class="linenos">20</span><span class="w">         </span><span class="kt">int</span><span class="w"> </span><span class="n">Height</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tk</span><span class="p">.</span><span class="na">getScreenSize</span><span class="p">().</span><span class="na">height</span><span class="p">;</span><span class="w"></span>
-<span class="linenos">21</span><span class="w">         </span><span class="n">win</span><span class="p">.</span><span class="na">setSize</span><span class="p">(</span><span class="n">winWidth</span><span class="p">,</span><span class="w"> </span><span class="n">winHeight</span><span class="p">);</span><span class="w"></span>
-<span class="linenos">22</span><span class="w">         </span><span class="n">win</span><span class="p">.</span><span class="na">setLocation</span><span class="p">((</span><span class="n">Width</span><span class="o">-</span><span class="n">winWidth</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="n">Height</span><span class="o">-</span><span class="n">winHeight</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">);</span><span class="w"></span>
-<span class="linenos">23</span><span class="w">         </span><span class="n">win</span><span class="p">.</span><span class="na">setVisible</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span><span class="w"></span>
-<span class="linenos">24</span><span class="w">         </span><span class="n">win</span><span class="p">.</span><span class="na">setDefaultCloseOperation</span><span class="p">(</span><span class="n">EXIT_ON_CLOSE</span><span class="p">);</span><span class="w"></span>
-<span class="linenos">25</span><span class="w">     </span><span class="p">}</span><span class="w"></span>
-<span class="linenos">26</span><span class="p">}</span><span class="w"></span>
+<span class="linenos"> 7</span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">HelloWorld</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">JFrame</span><span class="p">{</span>
+<span class="linenos"> 8</span><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">HelloWorld</span><span class="p">(){</span>
+<span class="linenos"> 9</span><span class="w">         </span><span class="n">JTextField</span><span class="w"> </span><span class="n">text</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">JTextField</span><span class="p">(</span><span class="s">"Hello, world!"</span><span class="p">);</span>
+<span class="linenos">10</span><span class="w">         </span><span class="n">text</span><span class="p">.</span><span class="na">setFont</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">Font</span><span class="p">(</span><span class="s">"Times New Roman"</span><span class="p">,</span><span class="n">Font</span><span class="p">.</span><span class="na">BOLD</span><span class="p">,</span><span class="mi">60</span><span class="p">));</span>
+<span class="linenos">11</span><span class="w">         </span><span class="n">text</span><span class="p">.</span><span class="na">setForeground</span><span class="p">(</span><span class="n">Color</span><span class="p">.</span><span class="na">BLACK</span><span class="p">);</span>
+<span class="linenos">12</span><span class="w">         </span><span class="k">this</span><span class="p">.</span><span class="na">getContentPane</span><span class="p">().</span><span class="na">add</span><span class="p">(</span><span class="n">text</span><span class="p">);</span>
+<span class="linenos">13</span><span class="w">     </span><span class="p">}</span>
+<span class="linenos">14</span><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">argv</span><span class="o">[]</span><span class="p">){</span>
+<span class="linenos">15</span><span class="w">         </span><span class="n">HelloWorld</span><span class="w"> </span><span class="n">win</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">HelloWorld</span><span class="p">();</span>
+<span class="linenos">16</span><span class="w">         </span><span class="n">Toolkit</span><span class="w"> </span><span class="n">tk</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="n">Toolkit</span><span class="p">.</span><span class="na">getDefaultToolkit</span><span class="p">();</span>
+<span class="linenos">17</span><span class="w">         </span><span class="kt">int</span><span class="w"> </span><span class="n">winWidth</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">512</span><span class="p">;</span>
+<span class="linenos">18</span><span class="w">         </span><span class="kt">int</span><span class="w"> </span><span class="n">winHeight</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">300</span><span class="p">;</span>
+<span class="linenos">19</span><span class="w">         </span><span class="kt">int</span><span class="w"> </span><span class="n">Width</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="n">tk</span><span class="p">.</span><span class="na">getScreenSize</span><span class="p">().</span><span class="na">width</span><span class="p">;</span>
+<span class="linenos">20</span><span class="w">         </span><span class="kt">int</span><span class="w"> </span><span class="n">Height</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tk</span><span class="p">.</span><span class="na">getScreenSize</span><span class="p">().</span><span class="na">height</span><span class="p">;</span>
+<span class="linenos">21</span><span class="w">         </span><span class="n">win</span><span class="p">.</span><span class="na">setSize</span><span class="p">(</span><span class="n">winWidth</span><span class="p">,</span><span class="w"> </span><span class="n">winHeight</span><span class="p">);</span>
+<span class="linenos">22</span><span class="w">         </span><span class="n">win</span><span class="p">.</span><span class="na">setLocation</span><span class="p">((</span><span class="n">Width</span><span class="o">-</span><span class="n">winWidth</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="n">Height</span><span class="o">-</span><span class="n">winHeight</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">);</span>
+<span class="linenos">23</span><span class="w">         </span><span class="n">win</span><span class="p">.</span><span class="na">setVisible</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
+<span class="linenos">24</span><span class="w">         </span><span class="n">win</span><span class="p">.</span><span class="na">setDefaultCloseOperation</span><span class="p">(</span><span class="n">EXIT_ON_CLOSE</span><span class="p">);</span>
+<span class="linenos">25</span><span class="w">     </span><span class="p">}</span>
+<span class="linenos">26</span><span class="p">}</span>
 </pre></div>
 </div>
 </dd>
@@ -1301,8 +1301,8 @@ $ sudo umount /mnt
 </li>
 <li><dl>
 <dt>Open and edit script <code class="docutils literal notranslate"><span class="pre">/usr/bin/HelloWorld.sh</span></code> with any text editor.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="ch">#!/bin/bash</span>
-<span class="linenos">2</span><span class="nb">cd</span> /usr/lib/java/
-<span class="linenos">3</span>java HelloWorld
+<span class="linenos">2</span><span class="nb">cd</span><span class="w"> </span>/usr/lib/java/
+<span class="linenos">3</span>java<span class="w"> </span>HelloWorld
 </pre></div>
 </div>
 </dd>
@@ -1346,8 +1346,8 @@ Categories=GTK;Utility;GNOME;
 <li><dl>
 <dt>Auto-Launch Java app</dt><dd><p>Add script <code class="docutils literal notranslate"><span class="pre">89javatest</span></code> in directory <code class="docutils literal notranslate"><span class="pre">/etc/X11/Xsession.d/</span></code>.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
-<span class="nb">cd</span> /usr/lib/java/
-java HelloWorld
+<span class="nb">cd</span><span class="w"> </span>/usr/lib/java/
+java<span class="w"> </span>HelloWorld
 </pre></div>
 </div>
 <p>Now when you Reboot the system, the <code class="docutils literal notranslate"><span class="pre">HelloWorld</span></code> app will automatically launch.</p>
@@ -1429,7 +1429,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Dec 14, 2022.
+              Jan 09, 2023.
             <br/>
         </div>
       </div>

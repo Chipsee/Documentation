@@ -934,7 +934,7 @@ It is a quick and easy tool for downloading images.</p>
 <li><p>Copy the Prebuilt Files Package to a Linux environment (such as Ubuntu 14.04).</p></li>
 <li><p>Insert the SD card into your computer. If you are using virtual machines, please ensure the SD card is mounted to the Linux operating system.</p></li>
 <li><dl>
-<dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo fdisk –l
+<dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>fdisk<span class="w"> </span>–l
 </pre></div>
 </div>
 </dd>
@@ -942,21 +942,21 @@ It is a quick and easy tool for downloading images.</p>
 </li>
 <li><p>Copy the <code class="docutils literal notranslate"><span class="pre">prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz</span></code> to somewhere(such as $HOME) on the Ubuntu PC.</p></li>
 <li><dl>
-<dt>Extract the <code class="docutils literal notranslate"><span class="pre">prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ tar -xzvf prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz
+<dt>Extract the <code class="docutils literal notranslate"><span class="pre">prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>tar<span class="w"> </span>-xzvf<span class="w"> </span>prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Go to the folder</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD
+<dt>Go to the folder</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Use the following command to flash the Ubuntu 12.04 OS to the SD card</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ./mksdcard.sh --device /dev/sd&lt;?&gt;
+<dt>Use the following command to flash the Ubuntu 12.04 OS to the SD card</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>./mksdcard.sh<span class="w"> </span>--device<span class="w"> </span>/dev/sd&lt;?&gt;
 </pre></div>
 </div>
 <div class="admonition note">
@@ -1130,29 +1130,29 @@ You can test the CAN buses by using the <strong>HT application</strong> but you 
 <p>Here are a few examples to test CAN by using CAN units</p>
 <ul>
 <li><dl>
-<dt>Install <cite>can-utils</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt install can-utils
+<dt>Install <cite>can-utils</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>can-utils
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Set the bit-rate to <strong>50Kbits/sec</strong> with triple sampling using the following command (use ROOT user):</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 <span class="nb">type</span> can bitrate <span class="m">50000</span> triple-sampling on
+<dt>Set the bit-rate to <strong>50Kbits/sec</strong> with triple sampling using the following command (use ROOT user):</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span><span class="nb">type</span><span class="w"> </span>can<span class="w"> </span>bitrate<span class="w"> </span><span class="m">50000</span><span class="w"> </span>triple-sampling<span class="w"> </span>on
 </pre></div>
 </div>
 <p>OR</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo canconfig can0 bitrate <span class="m">50000</span> ctrlmode triple-sampling on
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>canconfig<span class="w"> </span>can0<span class="w"> </span>bitrate<span class="w"> </span><span class="m">50000</span><span class="w"> </span>ctrlmode<span class="w"> </span>triple-sampling<span class="w"> </span>on
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Bring up the device using the command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 up
+<dt>Bring up the device using the command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span>up
 </pre></div>
 </div>
 <p>OR</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo canconfig can0 start
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>canconfig<span class="w"> </span>can0<span class="w"> </span>start
 </pre></div>
 </div>
 </dd>
@@ -1162,33 +1162,33 @@ You can test the CAN buses by using the <strong>HT application</strong> but you 
 <dt>Transfer packets</dt><dd><ul class="simple">
 <li><p>Transmit 8 bytes with standard packet id number as 0x10</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0x10 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cansend<span class="w"> </span>can0<span class="w"> </span>-i<span class="w"> </span>0x10<span class="w"> </span>0x11<span class="w"> </span>0x22<span class="w"> </span>0x33<span class="w"> </span>0x44<span class="w"> </span>0x55<span class="w"> </span>0x66<span class="w"> </span>0x77<span class="w"> </span>0x88
 </pre></div>
 </div>
 <ul class="simple">
 <li><p>Transmit 8 bytes with extended packet id number as 0x800</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0x800 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88 - e
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cansend<span class="w"> </span>can0<span class="w"> </span>-i<span class="w"> </span>0x800<span class="w"> </span>0x11<span class="w"> </span>0x22<span class="w"> </span>0x33<span class="w"> </span>0x44<span class="w"> </span>0x55<span class="w"> </span>0x66<span class="w"> </span>0x77<span class="w"> </span>0x88<span class="w"> </span>-<span class="w"> </span>e
 </pre></div>
 </div>
 <ul class="simple">
 <li><p>Transmit 20 8 bytes with extended packet id number as 0xFFFFF</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0xFFFFF 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88 -e --loop<span class="o">=</span><span class="m">20</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cansend<span class="w"> </span>can0<span class="w"> </span>-i<span class="w"> </span>0xFFFFF<span class="w"> </span>0x11<span class="w"> </span>0x22<span class="w"> </span>0x33<span class="w"> </span>0x44<span class="w"> </span>0x55<span class="w"> </span>0x66<span class="w"> </span>0x77<span class="w"> </span>0x88<span class="w"> </span>-e<span class="w"> </span>--loop<span class="o">=</span><span class="m">20</span>
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Receive data from CAN bus</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo candump can0
+<dt>Receive data from CAN bus</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>candump<span class="w"> </span>can0
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Bring down the device</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 down
+<dt>Bring down the device</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span>down
 </pre></div>
 </div>
 </dd>
@@ -1421,8 +1421,8 @@ Follow these steps to view Ubuntu 12.04 system via the serial port:</p>
 </dl>
 </li>
 <li><dl>
-<dt>Add a startup icon for <code class="docutils literal notranslate"><span class="pre">helloworld</span></code>.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> /usr/share/applications
-$ sudo vi helloworld.desktop
+<dt>Add a startup icon for <code class="docutils literal notranslate"><span class="pre">helloworld</span></code>.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>/usr/share/applications
+$<span class="w"> </span>sudo<span class="w"> </span>vi<span class="w"> </span>helloworld.desktop
 </pre></div>
 </div>
 </dd>
@@ -1535,7 +1535,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Dec 14, 2022.
+              Jan 09, 2023.
             <br/>
         </div>
       </div>

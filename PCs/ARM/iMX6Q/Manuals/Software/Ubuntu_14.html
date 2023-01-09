@@ -828,15 +828,15 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 <ul>
 <li><p>Use XShell Serial or SSH to connect to the Chipsee IPC by logining as <code class="docutils literal notranslate"><span class="pre">chipsee</span></code> user.</p></li>
 <li><dl>
-<dt>Use the following command to install x11vnc:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get update
-$ sudo apt-get install x11vnc
+<dt>Use the following command to install x11vnc:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>update
+$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>x11vnc
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Set the password for VNC-Viewer access. Save the password to default file: <cite>~/.vnc/passwd</cite>, as shown in the figure below.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo x11vnc -storepasswd
+<dt>Set the password for VNC-Viewer access. Save the password to default file: <cite>~/.vnc/passwd</cite>, as shown in the figure below.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>x11vnc<span class="w"> </span>-storepasswd
 </pre></div>
 </div>
 <figure class="align-center" id="id8">
@@ -1129,7 +1129,7 @@ Modify config <code class="docutils literal notranslate"><span class="pre">UICfg
 <li><p>Copy the Prebuilt Files Package to a Linux environment (such as Ubuntu 14.04).</p></li>
 <li><p>Insert the SD card into your computer. If you are using virtual machines, please ensure the SD card is mounted to the Linux operating system.</p></li>
 <li><dl>
-<dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo fdisk –l
+<dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>fdisk<span class="w"> </span>–l
 </pre></div>
 </div>
 </dd>
@@ -1137,21 +1137,21 @@ Modify config <code class="docutils literal notranslate"><span class="pre">UICfg
 </li>
 <li><p>Copy the <code class="docutils literal notranslate"><span class="pre">prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz</span></code> to somewhere(such as $HOME) on the Ubuntu PC.</p></li>
 <li><dl>
-<dt>Extract the <code class="docutils literal notranslate"><span class="pre">prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ tar -xzvf prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz
+<dt>Extract the <code class="docutils literal notranslate"><span class="pre">prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>tar<span class="w"> </span>-xzvf<span class="w"> </span>prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Go to the folder</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD
+<dt>Go to the folder</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Use the following command to flash the Ubuntu 14.04 OS to the SD card</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ./mksdcard.sh --device /dev/sd&lt;?&gt;
+<dt>Use the following command to flash the Ubuntu 14.04 OS to the SD card</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>./mksdcard.sh<span class="w"> </span>--device<span class="w"> </span>/dev/sd&lt;?&gt;
 </pre></div>
 </div>
 <div class="admonition note">
@@ -1254,12 +1254,12 @@ These devices will be automatically mounted on <cite>/media/chipsee/</cite>, as 
 <h4 id="remove-and-install-network-manager-packages">Remove and Install Network-manager Packages<a class="headerlink" href="#remove-and-install-network-manager-packages" title="Permalink to this heading">¶</a></h4>
 <p>If you want to set a static IP, you can use the Networking Service to manage your network. Before that, you need to remove the Network-manager Package and reboot the IPC board. <br/>
 You can use this command to remove the packages:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get remove --purge network-manager
-$ sudo apt-get autoremove --purge network-manager
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>remove<span class="w"> </span>--purge<span class="w"> </span>network-manager
+$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>autoremove<span class="w"> </span>--purge<span class="w"> </span>network-manager
 </pre></div>
 </div>
 <p>If you want to reinstall it, use this commands:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get install network-manager
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>network-manager
 </pre></div>
 </div>
 </section>
@@ -1271,10 +1271,10 @@ The following are some examples on how to set the network.</p>
 <li><dl>
 <dt>Set wired Ethernet to use DHCP in obtaining IP. Edit the <code class="docutils literal notranslate"><span class="pre">interfaces</span></code> file by adding these lines</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1">### ethX demo</span>
 <span class="c1">### For ethX uncomment follow two lines.</span>
-allow-hotplug  eth0
-auto  eth0
+allow-hotplug<span class="w">  </span>eth0
+auto<span class="w">  </span>eth0
 <span class="c1">## ethX dhcp demo</span>
-iface  eth0  inet  dhcp
+iface<span class="w">  </span>eth0<span class="w">  </span>inet<span class="w">  </span>dhcp
 </pre></div>
 </div>
 </dd>
@@ -1283,15 +1283,15 @@ iface  eth0  inet  dhcp
 <li><dl>
 <dt>Set wired Ethernet to use Static IP. Edit the <code class="docutils literal notranslate"><span class="pre">interfaces</span></code> file by adding these lines</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1">### ethX demo</span>
 <span class="c1">### For ethX uncomment follow two lines.</span>
-allow-hotplug  eth0
-auto  eth0
+allow-hotplug<span class="w">  </span>eth0
+auto<span class="w">  </span>eth0
 <span class="c1">## ethX static demo</span>
-iface  eth0  inet  static
-pre-up  ifconfig  eth0  hw  ether  <span class="m">00</span>:22:44:66:88:AA  //Set MAC
-address  <span class="m">192</span>.168.6.98
-netmask  <span class="m">255</span>.255.255.0
-gateway  <span class="m">192</span>.168.6.1
-dns-nameservers  <span class="m">8</span>.8.8.8      // <span class="nb">set</span> DNS
+iface<span class="w">  </span>eth0<span class="w">  </span>inet<span class="w">  </span>static
+pre-up<span class="w">  </span>ifconfig<span class="w">  </span>eth0<span class="w">  </span>hw<span class="w">  </span>ether<span class="w">  </span><span class="m">00</span>:22:44:66:88:AA<span class="w">  </span>//Set<span class="w"> </span>MAC
+address<span class="w">  </span><span class="m">192</span>.168.6.98
+netmask<span class="w">  </span><span class="m">255</span>.255.255.0
+gateway<span class="w">  </span><span class="m">192</span>.168.6.1
+dns-nameservers<span class="w">  </span><span class="m">8</span>.8.8.8<span class="w">      </span>//<span class="w"> </span><span class="nb">set</span><span class="w"> </span>DNS
 </pre></div>
 </div>
 </dd>
@@ -1314,12 +1314,12 @@ The following are some examples on how to set the network.</p>
 </dl>
 </li>
 <li><dl>
-<dt>Modify <cite>/etc/network/interfaces</cite>, like this:.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>auto  wlan0
-iface  wlan0  inet  dhcp
-wireless_mode  managed
-wireless_essid  any
-wpa-driver  nl80211
-wpa-conf  /etc/wpa_supplicant.conf
+<dt>Modify <cite>/etc/network/interfaces</cite>, like this:.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>auto<span class="w">  </span>wlan0
+iface<span class="w">  </span>wlan0<span class="w">  </span>inet<span class="w">  </span>dhcp
+wireless_mode<span class="w">  </span>managed
+wireless_essid<span class="w">  </span>any
+wpa-driver<span class="w">  </span>nl80211
+wpa-conf<span class="w">  </span>/etc/wpa_supplicant.conf
 </pre></div>
 </div>
 </dd>
@@ -1330,17 +1330,17 @@ wpa-conf  /etc/wpa_supplicant.conf
 </dl>
 </li>
 <li><dl>
-<dt>Enable Wi-Fi and set it to use a Static IP. Edit the <code class="docutils literal notranslate"><span class="pre">interfaces</span></code> file by adding these lines</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>iface wlan0 inet static
+<dt>Enable Wi-Fi and set it to use a Static IP. Edit the <code class="docutils literal notranslate"><span class="pre">interfaces</span></code> file by adding these lines</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>iface<span class="w"> </span>wlan0<span class="w"> </span>inet<span class="w"> </span>static
 
-address  <span class="m">192</span>.168.1.98
-netmask  <span class="m">255</span>.255.255.0
-gateway  <span class="m">192</span>.168.1.1
-dns-nameservers  <span class="m">8</span>.8.8.8
+address<span class="w">  </span><span class="m">192</span>.168.1.98
+netmask<span class="w">  </span><span class="m">255</span>.255.255.0
+gateway<span class="w">  </span><span class="m">192</span>.168.1.1
+dns-nameservers<span class="w">  </span><span class="m">8</span>.8.8.8
 
-wireless_mode  managed
-wireless_essid  any
-wpa-driver  nl80211
-wpa-conf  /etc/wpa_supplicant.conf
+wireless_mode<span class="w">  </span>managed
+wireless_essid<span class="w">  </span>any
+wpa-driver<span class="w">  </span>nl80211
+wpa-conf<span class="w">  </span>/etc/wpa_supplicant.conf
 </pre></div>
 </div>
 <div class="admonition note">
@@ -1365,11 +1365,11 @@ wpa-conf  /etc/wpa_supplicant.conf
 <section id="audio-test">
 <h4 id="audio-test">Audio Test<a class="headerlink" href="#audio-test" title="Permalink to this heading">¶</a></h4>
 <p>You can use the command below to record music. The <code class="docutils literal notranslate"><span class="pre">-d</span></code> parameter means <em>interrupt after # seconds</em>. In this example, <code class="docutils literal notranslate"><span class="pre">-d</span></code> is equal to 18 seconds.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo  arecord  -N  -M  -r  <span class="m">44100</span>  -f  S16_LE  -c  <span class="m">2</span>  -d  <span class="m">18</span>  test.wav
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w">  </span>arecord<span class="w">  </span>-N<span class="w">  </span>-M<span class="w">  </span>-r<span class="w">  </span><span class="m">44100</span><span class="w">  </span>-f<span class="w">  </span>S16_LE<span class="w">  </span>-c<span class="w">  </span><span class="m">2</span><span class="w">  </span>-d<span class="w">  </span><span class="m">18</span><span class="w">  </span>test.wav
 </pre></div>
 </div>
 <p>You can use the command below to playback the recorded sound above.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo  aplay  -N  -M  test.wav
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w">  </span>aplay<span class="w">  </span>-N<span class="w">  </span>-M<span class="w">  </span>test.wav
 </pre></div>
 </div>
 <p>You can also use the <strong>LXMusic</strong> to playback audio.</p>
@@ -1417,27 +1417,27 @@ wpa-conf  /etc/wpa_supplicant.conf
 <li><dl>
 <dt>Use the following command to set different resolution</dt><dd><ul>
 <li><dl>
-<dt>For 1080p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt; setenv displayargs <span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,1920x1080M@60 <span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off <span class="nv">video</span><span class="o">=</span>mxcfb2:off
-<span class="o">=</span>&gt; <span class="nv">saveenv</span>
-<span class="o">=</span>&gt; boot
+<dt>For 1080p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt;<span class="w"> </span>setenv<span class="w"> </span>displayargs<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,1920x1080M@60<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb2:off
+<span class="o">=</span>&gt;<span class="w"> </span><span class="nv">saveenv</span>
+<span class="o">=</span>&gt;<span class="w"> </span>boot
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>For 720p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt; setenv displayargs <span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,1280x720M@60 <span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off <span class="nv">video</span><span class="o">=</span>mxcfb2:off
-<span class="o">=</span>&gt; <span class="nv">saveenv</span>
-<span class="o">=</span>&gt; boot
+<dt>For 720p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt;<span class="w"> </span>setenv<span class="w"> </span>displayargs<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,1280x720M@60<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb2:off
+<span class="o">=</span>&gt;<span class="w"> </span><span class="nv">saveenv</span>
+<span class="o">=</span>&gt;<span class="w"> </span>boot
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>For 480p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt; setenv displayargs <span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,800x480M@60 <span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off <span class="nv">video</span><span class="o">=</span>mxcfb2:off
-<span class="o">=</span>&gt; <span class="nv">saveenv</span>
-<span class="o">=</span>&gt; boot
+<dt>For 480p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt;<span class="w"> </span>setenv<span class="w"> </span>displayargs<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,800x480M@60<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb2:off
+<span class="o">=</span>&gt;<span class="w"> </span><span class="nv">saveenv</span>
+<span class="o">=</span>&gt;<span class="w"> </span>boot
 </pre></div>
 </div>
 </dd>
@@ -1455,9 +1455,9 @@ wpa-conf  /etc/wpa_supplicant.conf
 </li>
 <li><p>Reboot the IPC.</p></li>
 <li><dl>
-<dt>Use the following command to reset the output from LDB.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt; setenv  displayargs  <span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>ldb  <span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off  <span class="nv">video</span><span class="o">=</span>mxcfb2:off
-<span class="o">=</span>&gt; <span class="nv">saveenv</span>
-<span class="o">=</span>&gt; boot
+<dt>Use the following command to reset the output from LDB.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt;<span class="w"> </span>setenv<span class="w">  </span>displayargs<span class="w">  </span><span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>ldb<span class="w">  </span><span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off<span class="w">  </span><span class="nv">video</span><span class="o">=</span>mxcfb2:off
+<span class="o">=</span>&gt;<span class="w"> </span><span class="nv">saveenv</span>
+<span class="o">=</span>&gt;<span class="w"> </span>boot
 </pre></div>
 </div>
 </dd>
@@ -1500,11 +1500,11 @@ wpa-conf  /etc/wpa_supplicant.conf
 <p>If you use COM2(RS485), you can’t use Bluetooth because COM2(RS485) share pin with Bluetooth.</p>
 </div>
 <p>You can install <strong>cutecom</strong> to test the serial port:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get install cutecom
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>cutecom
 </pre></div>
 </div>
 <p>Only users with root permissions can use the serial port</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cutecom
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cutecom
 </pre></div>
 </div>
 </section>
@@ -1525,29 +1525,29 @@ You can test the CAN buses by using the <strong>HT application</strong> but you 
 <p>Here are a few examples to test CAN by using CAN units</p>
 <ul>
 <li><dl>
-<dt>Install <cite>can-utils</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt install can-utils
+<dt>Install <cite>can-utils</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>can-utils
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Set the bit-rate to <strong>50Kbits/sec</strong> with triple sampling using the following command (use ROOT user):</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 <span class="nb">type</span> can bitrate <span class="m">50000</span> triple-sampling on
+<dt>Set the bit-rate to <strong>50Kbits/sec</strong> with triple sampling using the following command (use ROOT user):</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span><span class="nb">type</span><span class="w"> </span>can<span class="w"> </span>bitrate<span class="w"> </span><span class="m">50000</span><span class="w"> </span>triple-sampling<span class="w"> </span>on
 </pre></div>
 </div>
 <p>OR</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">$sudo</span> canconfig can0 bitrate <span class="m">50000</span> ctrlmode triple-sampling on
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">$sudo</span><span class="w"> </span>canconfig<span class="w"> </span>can0<span class="w"> </span>bitrate<span class="w"> </span><span class="m">50000</span><span class="w"> </span>ctrlmode<span class="w"> </span>triple-sampling<span class="w"> </span>on
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Bring up the device using the command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 up
+<dt>Bring up the device using the command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span>up
 </pre></div>
 </div>
 <p>OR</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo canconfig can0 start
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>canconfig<span class="w"> </span>can0<span class="w"> </span>start
 </pre></div>
 </div>
 </dd>
@@ -1557,33 +1557,33 @@ You can test the CAN buses by using the <strong>HT application</strong> but you 
 <dt>Transfer packets</dt><dd><ul class="simple">
 <li><p>Transmit 8 bytes with standard packet id number as 0x10</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0x10 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cansend<span class="w"> </span>can0<span class="w"> </span>-i<span class="w"> </span>0x10<span class="w"> </span>0x11<span class="w"> </span>0x22<span class="w"> </span>0x33<span class="w"> </span>0x44<span class="w"> </span>0x55<span class="w"> </span>0x66<span class="w"> </span>0x77<span class="w"> </span>0x88
 </pre></div>
 </div>
 <ul class="simple">
 <li><p>Transmit 8 bytes with extended packet id number as 0x800</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0x800 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88 - e
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cansend<span class="w"> </span>can0<span class="w"> </span>-i<span class="w"> </span>0x800<span class="w"> </span>0x11<span class="w"> </span>0x22<span class="w"> </span>0x33<span class="w"> </span>0x44<span class="w"> </span>0x55<span class="w"> </span>0x66<span class="w"> </span>0x77<span class="w"> </span>0x88<span class="w"> </span>-<span class="w"> </span>e
 </pre></div>
 </div>
 <ul class="simple">
 <li><p>Transmit 20 8 bytes with extended packet id number as 0xFFFFF</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0xFFFFF 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88 -e --loop<span class="o">=</span><span class="m">20</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cansend<span class="w"> </span>can0<span class="w"> </span>-i<span class="w"> </span>0xFFFFF<span class="w"> </span>0x11<span class="w"> </span>0x22<span class="w"> </span>0x33<span class="w"> </span>0x44<span class="w"> </span>0x55<span class="w"> </span>0x66<span class="w"> </span>0x77<span class="w"> </span>0x88<span class="w"> </span>-e<span class="w"> </span>--loop<span class="o">=</span><span class="m">20</span>
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Receive data from CAN bus</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo candump can0
+<dt>Receive data from CAN bus</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>candump<span class="w"> </span>can0
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Bring down the device</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 down
+<dt>Bring down the device</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span>down
 </pre></div>
 </div>
 </dd>
@@ -1812,9 +1812,9 @@ You can test the CAN buses by using the <strong>HT application</strong> but you 
 Follow the steps below to change logo</p>
 <ul>
 <li><dl>
-<dt>Use the following commands to make bootable TF card.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo  tar  zxvf  prebuilt-imx6qdl-bootfile-update-xxx.tar.gz
-$ sudo  <span class="nb">cd</span>  prebuilt-imx6qdl-bootfile-update-xxx
-$ sudo  ./mksdcard.sh  --device  /dev/sdX --display <span class="m">1024600</span>     // resolution
+<dt>Use the following commands to make bootable TF card.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w">  </span>tar<span class="w">  </span>zxvf<span class="w">  </span>prebuilt-imx6qdl-bootfile-update-xxx.tar.gz
+$<span class="w"> </span>sudo<span class="w">  </span><span class="nb">cd</span><span class="w">  </span>prebuilt-imx6qdl-bootfile-update-xxx
+$<span class="w"> </span>sudo<span class="w">  </span>./mksdcard.sh<span class="w">  </span>--device<span class="w">  </span>/dev/sdX<span class="w"> </span>--display<span class="w"> </span><span class="m">1024600</span><span class="w">     </span>//<span class="w"> </span>resolution
 </pre></div>
 </div>
 </dd>
@@ -1835,7 +1835,7 @@ $ sudo  ./mksdcard.sh  --device  /dev/sdX --display <span class="m">1024600</spa
 <p>In this example, we will develop one Python3 GUI application.</p>
 <ul>
 <li><dl>
-<dt>First, you must install the Tkinter package using this command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get install python3-tk
+<dt>First, you must install the Tkinter package using this command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>python3-tk
 </pre></div>
 </div>
 </dd>
@@ -1870,7 +1870,7 @@ $ sudo  ./mksdcard.sh  --device  /dev/sdX --display <span class="m">1024600</spa
 </dl>
 </li>
 <li><dl>
-<dt>Save the file. Run it using this command.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ python3 hello_world.py
+<dt>Save the file. Run it using this command.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>python3<span class="w"> </span>hello_world.py
 </pre></div>
 </div>
 <figure class="align-center" id="id46">
@@ -1889,26 +1889,26 @@ $ sudo  ./mksdcard.sh  --device  /dev/sdX --display <span class="m">1024600</spa
 <p>There is no Qt environment and build environment in this system, you need to install Qt and set a build environment first. Then we will develop one Qt application.</p>
 <ul>
 <li><dl>
-<dt>Use the following command to prepare and set the Qt Environment.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get update
-$ sudo apt-get install build-essential git libudev-dev
-$ sudo apt-get install qt5-default // or qt4-default <span class="k">if</span> you want to use qt4
-$ sudo apt-get clean
+<dt>Use the following command to prepare and set the Qt Environment.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>update
+$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>build-essential<span class="w"> </span>git<span class="w"> </span>libudev-dev
+$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>qt5-default<span class="w"> </span>//<span class="w"> </span>or<span class="w"> </span>qt4-default<span class="w"> </span><span class="k">if</span><span class="w"> </span>you<span class="w"> </span>want<span class="w"> </span>to<span class="w"> </span>use<span class="w"> </span>qt4
+$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>clean
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>We use <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Demos/hardwaretest_serial_ok_20170223.tar.gz">hardwaretest_serial</a>  to demonstrate this development exercise. To perform this demo, we need to install <code class="docutils literal notranslate"><span class="pre">qtserialport</span></code> support first using this commands:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ~
-$ git clone git://code.qt.io/qt/qtserialport.git
-$ <span class="nb">cd</span> qtserialport
-$ git checkout <span class="m">5</span>.3    // <span class="k">for</span> qt4 is “git checkout qt4-dev”
-$ <span class="nb">cd</span> ../
-$ mkdir qtserialport-build
-$ <span class="nb">cd</span> qtserialport-build
-$ qmake ../ qtserialport/qtserialport.pro
-$ make
-$ sudo make install
+<dt>We use <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Demos/hardwaretest_serial_ok_20170223.tar.gz">hardwaretest_serial</a>  to demonstrate this development exercise. To perform this demo, we need to install <code class="docutils literal notranslate"><span class="pre">qtserialport</span></code> support first using this commands:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>~
+$<span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>git://code.qt.io/qt/qtserialport.git
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>qtserialport
+$<span class="w"> </span>git<span class="w"> </span>checkout<span class="w"> </span><span class="m">5</span>.3<span class="w">    </span>//<span class="w"> </span><span class="k">for</span><span class="w"> </span>qt4<span class="w"> </span>is<span class="w"> </span>“git<span class="w"> </span>checkout<span class="w"> </span>qt4-dev”
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>../
+$<span class="w"> </span>mkdir<span class="w"> </span>qtserialport-build
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>qtserialport-build
+$<span class="w"> </span>qmake<span class="w"> </span>../<span class="w"> </span>qtserialport/qtserialport.pro
+$<span class="w"> </span>make
+$<span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
 </pre></div>
 </div>
 </dd>
@@ -1919,17 +1919,17 @@ $ sudo make install
 <p>Now we are in Chipsee IPC Debian system console.</p>
 <ul>
 <li><dl>
-<dt>Use the following command to build the Qt application:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ tar zxvf hardwaretest_serial_ok_20170223.tar.gz
-$ <span class="nb">cd</span> hardwaretest_serial
-$ qmake
-$ make
+<dt>Use the following command to build the Qt application:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>tar<span class="w"> </span>zxvf<span class="w"> </span>hardwaretest_serial_ok_20170223.tar.gz
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>hardwaretest_serial
+$<span class="w"> </span>qmake
+$<span class="w"> </span>make
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Modify the permission of the serial ports device node</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo chmod <span class="m">666</span> /dev/ttymxc*
+<dt>Modify the permission of the serial ports device node</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>chmod<span class="w"> </span><span class="m">666</span><span class="w"> </span>/dev/ttymxc*
 </pre></div>
 </div>
 </dd>
@@ -1937,9 +1937,9 @@ $ make
 </li>
 <li><dl>
 <dt>Run the <code class="docutils literal notranslate"><span class="pre">hardwaretest_serial</span></code> app using this command:</dt><dd><blockquote>
-<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> hardwaretest_serial
-$ <span class="nb">export</span> <span class="nv">DISPLAY</span><span class="o">=</span>:0
-$ ./hardwaretest_serial
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>hardwaretest_serial
+$<span class="w"> </span><span class="nb">export</span><span class="w"> </span><span class="nv">DISPLAY</span><span class="o">=</span>:0
+$<span class="w"> </span>./hardwaretest_serial
 </pre></div>
 </div>
 </div></blockquote>
@@ -1963,9 +1963,9 @@ $ ./hardwaretest_serial
 <p>Modify <cite>/etc/X11/xorg.conf</cite> and <cite>/usr/share/X11/xorg.conf.d/10-evdev.conf</cite> to rotate the display and touchscreen. If the files do not exist, please create a new one.</p>
 <ul>
 <li><dl>
-<dt><cite>/etc/X11/xorg.conf</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Section <span class="s2">"Device"</span>
-        Identifier      <span class="s2">"Builtin Default fbdev Device 0"</span>
-        Driver          <span class="s2">"fbdev"</span>
+<dt><cite>/etc/X11/xorg.conf</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Section<span class="w"> </span><span class="s2">"Device"</span>
+<span class="w">        </span>Identifier<span class="w">      </span><span class="s2">"Builtin Default fbdev Device 0"</span>
+<span class="w">        </span>Driver<span class="w">          </span><span class="s2">"fbdev"</span>
 <span class="c1">#       Option          "Rotate" "CW"   // 90°</span>
 <span class="c1">#       Option          "Rotate" "UD"   // 180°</span>
 <span class="c1">#       Option          "Rotate" "CCW"   // 270°</span>
@@ -1976,10 +1976,10 @@ EndSection
 </dl>
 </li>
 <li><dl>
-<dt><cite>/usr/share/X11/xorg.conf.d/10-evdev.conf</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Section <span class="s2">"InputClass"</span>
-        Identifier <span class="s2">"evdev touchscreen catchall"</span>
-        MatchIsTouchscreen <span class="s2">"on"</span>
-        MatchDevicePath <span class="s2">"/dev/input/event*"</span>
+<dt><cite>/usr/share/X11/xorg.conf.d/10-evdev.conf</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Section<span class="w"> </span><span class="s2">"InputClass"</span>
+<span class="w">        </span>Identifier<span class="w"> </span><span class="s2">"evdev touchscreen catchall"</span>
+<span class="w">        </span>MatchIsTouchscreen<span class="w"> </span><span class="s2">"on"</span>
+<span class="w">        </span>MatchDevicePath<span class="w"> </span><span class="s2">"/dev/input/event*"</span>
 <span class="c1">#90°</span>
 <span class="c1">#       Option "SwapAxes" "True"         //Swap X Axes and Y Axes</span>
 <span class="c1">#       Option "InvertY" "True"           //Invert Y Axes</span>
@@ -1990,7 +1990,7 @@ EndSection
 <span class="c1">#       Option "SwapAxes" "True"         //Swap X Axes and Y Axes</span>
 <span class="c1">#       Option "InvertX" "True"           //Invert X Axes</span>
 
-        Driver <span class="s2">"evdev"</span>
+<span class="w">        </span>Driver<span class="w"> </span><span class="s2">"evdev"</span>
 EndSection
 </pre></div>
 </div>
@@ -2021,15 +2021,15 @@ EndSection
 <ul class="simple">
 <li><p>Change the mode for <code class="docutils literal notranslate"><span class="pre">hello_world.py</span></code> and copy it to <cite>/usr/local/bin</cite>：</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo chmod a+x hello_world.py
-$ sudo cp test.py /usr/local/bin/
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>chmod<span class="w"> </span>a+x<span class="w"> </span>hello_world.py
+$<span class="w"> </span>sudo<span class="w"> </span>cp<span class="w"> </span>test.py<span class="w"> </span>/usr/local/bin/
 </pre></div>
 </div>
 <ul class="simple">
 <li><p>Put <code class="docutils literal notranslate"><span class="pre">hello_world.py</span></code> in LXDE autostart file, using this command:</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Autostart File：/home/chipsee/.config/lxsession/LXDE/autostart
-Add follow to the end of autostart file.
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Autostart<span class="w"> </span>File：/home/chipsee/.config/lxsession/LXDE/autostart
+Add<span class="w"> </span>follow<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>end<span class="w"> </span>of<span class="w"> </span>autostart<span class="w"> </span>file.
 
 @test.py
 </pre></div>
@@ -2111,7 +2111,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Dec 14, 2022.
+              Jan 09, 2023.
             <br/>
         </div>
       </div>

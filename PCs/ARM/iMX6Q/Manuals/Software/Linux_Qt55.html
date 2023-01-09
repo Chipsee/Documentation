@@ -1089,7 +1089,7 @@ Modify config <code class="docutils literal notranslate"><span class="pre">UICfg
 <li><p>Copy the Prebuilt Files Package to a Linux environment (such as Ubuntu 14.04).</p></li>
 <li><p>Insert the SD card into your computer. If you are using virtual machines, please ensure the SD card is mounted to the Linux operating system.</p></li>
 <li><dl>
-<dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo fdisk –l
+<dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>fdisk<span class="w"> </span>–l
 </pre></div>
 </div>
 </dd>
@@ -1097,21 +1097,21 @@ Modify config <code class="docutils literal notranslate"><span class="pre">UICfg
 </li>
 <li><p>Copy the <code class="docutils literal notranslate"><span class="pre">prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz</span></code> to somewhere(such as $HOME) on the Ubuntu PC.</p></li>
 <li><dl>
-<dt>Extract the <code class="docutils literal notranslate"><span class="pre">prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ tar -xzvf prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz
+<dt>Extract the <code class="docutils literal notranslate"><span class="pre">prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>tar<span class="w"> </span>-xzvf<span class="w"> </span>prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Go to the folder</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD
+<dt>Go to the folder</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Use the following command to flash the Linux Qt 5.5 OS to the SD card</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ./mksdcard.sh --device /dev/sd&lt;?&gt;
+<dt>Use the following command to flash the Linux Qt 5.5 OS to the SD card</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>./mksdcard.sh<span class="w"> </span>--device<span class="w"> </span>/dev/sd&lt;?&gt;
 </pre></div>
 </div>
 <div class="admonition note">
@@ -1265,11 +1265,11 @@ These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>
 <section id="audio-test">
 <h4 id="audio-test">Audio Test<a class="headerlink" href="#audio-test" title="Permalink to this heading">¶</a></h4>
 <p>You can use the command below to record music. The <code class="docutils literal notranslate"><span class="pre">-d</span></code> parameter means <em>interrupt after # seconds</em>. In this example, <code class="docutils literal notranslate"><span class="pre">-d</span></code> is equal to 18 seconds.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo  arecord  -N  -M  -r  <span class="m">44100</span>  -f  S16_LE  -c  <span class="m">2</span>  -d  <span class="m">18</span>  test.wav
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w">  </span>arecord<span class="w">  </span>-N<span class="w">  </span>-M<span class="w">  </span>-r<span class="w">  </span><span class="m">44100</span><span class="w">  </span>-f<span class="w">  </span>S16_LE<span class="w">  </span>-c<span class="w">  </span><span class="m">2</span><span class="w">  </span>-d<span class="w">  </span><span class="m">18</span><span class="w">  </span>test.wav
 </pre></div>
 </div>
 <p>You can use the command below to playback the recorded sound above.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo  aplay  -N  -M  test.wav
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w">  </span>aplay<span class="w">  </span>-N<span class="w">  </span>-M<span class="w">  </span>test.wav
 </pre></div>
 </div>
 <p>You can also use the <strong>QT Test Application</strong> to record and playback audio. <br/></p>
@@ -1312,27 +1312,27 @@ These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>
 <li><dl>
 <dt>Use the following command to set different resolution</dt><dd><ul>
 <li><dl>
-<dt>For 1080p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt; setenv displayargs <span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,1920x1080M@60 <span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off <span class="nv">video</span><span class="o">=</span>mxcfb2:off
-<span class="o">=</span>&gt; <span class="nv">saveenv</span>
-<span class="o">=</span>&gt; boot
+<dt>For 1080p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt;<span class="w"> </span>setenv<span class="w"> </span>displayargs<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,1920x1080M@60<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb2:off
+<span class="o">=</span>&gt;<span class="w"> </span><span class="nv">saveenv</span>
+<span class="o">=</span>&gt;<span class="w"> </span>boot
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>For 720p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt; setenv displayargs <span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,1280x720M@60 <span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off <span class="nv">video</span><span class="o">=</span>mxcfb2:off
-<span class="o">=</span>&gt; <span class="nv">saveenv</span>
-<span class="o">=</span>&gt; boot
+<dt>For 720p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt;<span class="w"> </span>setenv<span class="w"> </span>displayargs<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,1280x720M@60<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb2:off
+<span class="o">=</span>&gt;<span class="w"> </span><span class="nv">saveenv</span>
+<span class="o">=</span>&gt;<span class="w"> </span>boot
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>For 480p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt; setenv displayargs <span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,800x480M@60 <span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off <span class="nv">video</span><span class="o">=</span>mxcfb2:off
-<span class="o">=</span>&gt; <span class="nv">saveenv</span>
-<span class="o">=</span>&gt; boot
+<dt>For 480p</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt;<span class="w"> </span>setenv<span class="w"> </span>displayargs<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>hdmi,800x480M@60<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off<span class="w"> </span><span class="nv">video</span><span class="o">=</span>mxcfb2:off
+<span class="o">=</span>&gt;<span class="w"> </span><span class="nv">saveenv</span>
+<span class="o">=</span>&gt;<span class="w"> </span>boot
 </pre></div>
 </div>
 </dd>
@@ -1350,9 +1350,9 @@ These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>
 </li>
 <li><p>Reboot the IPC.</p></li>
 <li><dl>
-<dt>Use the following command to reset the output from LDB.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt; setenv  displayargs  <span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>ldb  <span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off  <span class="nv">video</span><span class="o">=</span>mxcfb2:off
-<span class="o">=</span>&gt; <span class="nv">saveenv</span>
-<span class="o">=</span>&gt; boot
+<dt>Use the following command to reset the output from LDB.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">=</span>&gt;<span class="w"> </span>setenv<span class="w">  </span>displayargs<span class="w">  </span><span class="nv">video</span><span class="o">=</span>mxcfb0:dev<span class="o">=</span>ldb<span class="w">  </span><span class="nv">video</span><span class="o">=</span>mxcfb1:dev<span class="o">=</span>off<span class="w">  </span><span class="nv">video</span><span class="o">=</span>mxcfb2:off
+<span class="o">=</span>&gt;<span class="w"> </span><span class="nv">saveenv</span>
+<span class="o">=</span>&gt;<span class="w"> </span>boot
 </pre></div>
 </div>
 </dd>
@@ -1425,21 +1425,21 @@ You can test the CAN buses by using the <strong>HT application</strong> but you 
 <p>Here are a few examples to test CAN by using CAN units</p>
 <ul>
 <li><dl>
-<dt>Install <cite>can-utils</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt install can-utils
+<dt>Install <cite>can-utils</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>can-utils
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Set the bit-rate to <strong>50Kbits/sec</strong> with triple sampling using the following command (use ROOT user):</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 <span class="nb">type</span> can bitrate <span class="m">50000</span> triple-sampling on
+<dt>Set the bit-rate to <strong>50Kbits/sec</strong> with triple sampling using the following command (use ROOT user):</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span><span class="nb">type</span><span class="w"> </span>can<span class="w"> </span>bitrate<span class="w"> </span><span class="m">50000</span><span class="w"> </span>triple-sampling<span class="w"> </span>on
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Bring up the device using the command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 up
+<dt>Bring up the device using the command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span>up
 </pre></div>
 </div>
 </dd>
@@ -1449,33 +1449,33 @@ You can test the CAN buses by using the <strong>HT application</strong> but you 
 <dt>Transfer packets</dt><dd><ul class="simple">
 <li><p>Transmit 8 bytes with standard packet id number as 0x10</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0x10 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cansend<span class="w"> </span>can0<span class="w"> </span>-i<span class="w"> </span>0x10<span class="w"> </span>0x11<span class="w"> </span>0x22<span class="w"> </span>0x33<span class="w"> </span>0x44<span class="w"> </span>0x55<span class="w"> </span>0x66<span class="w"> </span>0x77<span class="w"> </span>0x88
 </pre></div>
 </div>
 <ul class="simple">
 <li><p>Transmit 8 bytes with extended packet id number as 0x800</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0x800 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88 - e
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cansend<span class="w"> </span>can0<span class="w"> </span>-i<span class="w"> </span>0x800<span class="w"> </span>0x11<span class="w"> </span>0x22<span class="w"> </span>0x33<span class="w"> </span>0x44<span class="w"> </span>0x55<span class="w"> </span>0x66<span class="w"> </span>0x77<span class="w"> </span>0x88<span class="w"> </span>-<span class="w"> </span>e
 </pre></div>
 </div>
 <ul class="simple">
 <li><p>Transmit 20 8 bytes with extended packet id number as 0xFFFFF</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0xFFFFF 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88 -e --loop<span class="o">=</span><span class="m">20</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cansend<span class="w"> </span>can0<span class="w"> </span>-i<span class="w"> </span>0xFFFFF<span class="w"> </span>0x11<span class="w"> </span>0x22<span class="w"> </span>0x33<span class="w"> </span>0x44<span class="w"> </span>0x55<span class="w"> </span>0x66<span class="w"> </span>0x77<span class="w"> </span>0x88<span class="w"> </span>-e<span class="w"> </span>--loop<span class="o">=</span><span class="m">20</span>
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Receive data from CAN bus</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo candump can0
+<dt>Receive data from CAN bus</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>candump<span class="w"> </span>can0
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Bring down the device</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 down
+<dt>Bring down the device</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span>down
 </pre></div>
 </div>
 </dd>
@@ -1734,9 +1734,9 @@ Follow these steps to perform the GPIO test:</p>
 Follow the steps below to change logo</p>
 <ul>
 <li><dl>
-<dt>Use the following commands to make bootable TF card.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo  tar  zxvf  prebuilt-imx6qdl-bootfile-update-xxx.tar.gz
-$ sudo  <span class="nb">cd</span>  prebuilt-imx6qdl-bootfile-update-xxx
-$ sudo  ./mksdcard.sh  --device  /dev/sdX --display <span class="m">1024600</span>     // resolution
+<dt>Use the following commands to make bootable TF card.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w">  </span>tar<span class="w">  </span>zxvf<span class="w">  </span>prebuilt-imx6qdl-bootfile-update-xxx.tar.gz
+$<span class="w"> </span>sudo<span class="w">  </span><span class="nb">cd</span><span class="w">  </span>prebuilt-imx6qdl-bootfile-update-xxx
+$<span class="w"> </span>sudo<span class="w">  </span>./mksdcard.sh<span class="w">  </span>--device<span class="w">  </span>/dev/sdX<span class="w"> </span>--display<span class="w"> </span><span class="m">1024600</span><span class="w">     </span>//<span class="w"> </span>resolution
 </pre></div>
 </div>
 </dd>
@@ -1776,7 +1776,7 @@ $ sudo  ./mksdcard.sh  --device  /dev/sdX --display <span class="m">1024600</spa
 <li><dl>
 <dt>Setting Qtcreator. If you installed <code class="docutils literal notranslate"><span class="pre">qt-opensource-linux-x64-5.5.1.run</span></code>, the Qtcreator will be installed automatically.</dt><dd><ul>
 <li><dl>
-<dt>Before you open QtCreator, you need to add the following code-block in the first line of <cite>/home/&lt;user&gt;/program/Qt5.5.1/Tools/QtCreator/bin/qtcreator.sh</cite>, as shown on the figure below.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">source</span> /opt/fsl-imx-x11/3.14.52-1.1.1/ environment-setup-cortexa7hf-vfp-neon-poky-linux-gnueabi
+<dt>Before you open QtCreator, you need to add the following code-block in the first line of <cite>/home/&lt;user&gt;/program/Qt5.5.1/Tools/QtCreator/bin/qtcreator.sh</cite>, as shown on the figure below.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">source</span><span class="w"> </span>/opt/fsl-imx-x11/3.14.52-1.1.1/<span class="w"> </span>environment-setup-cortexa7hf-vfp-neon-poky-linux-gnueabi
 </pre></div>
 </div>
 <figure class="align-center" id="id49">
@@ -1901,7 +1901,7 @@ $ sudo  ./mksdcard.sh  --device  /dev/sdX --display <span class="m">1024600</spa
 <h3 id="how-to-change-psplash-s">How to Change psplash’s<a class="headerlink" href="#how-to-change-psplash-s" title="Permalink to this heading">¶</a></h3>
 <ul>
 <li><dl>
-<dt>Install IMX SDK and some Packages. Reference the install SDK point under the <strong>Preparation</strong> section above to install IMX SDK and install some recommends packages using this command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo  apt-get  install  autoconf  libgdk-pixbuf2.0-dev
+<dt>Install IMX SDK and some Packages. Reference the install SDK point under the <strong>Preparation</strong> section above to install IMX SDK and install some recommends packages using this command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w">  </span>apt-get<span class="w">  </span>install<span class="w">  </span>autoconf<span class="w">  </span>libgdk-pixbuf2.0-dev
 </pre></div>
 </div>
 </dd>
@@ -1910,22 +1910,22 @@ $ sudo  ./mksdcard.sh  --device  /dev/sdX --display <span class="m">1024600</spa
 <li><dl>
 <dt>Generate psplash of your own.</dt><dd><ul>
 <li><dl>
-<dt>Get <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/psplash_imx6.zip">psplash</a> and extract it.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo tar zxvf psplash.tar.gz
+<dt>Get <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/psplash_imx6.zip">psplash</a> and extract it.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>tar<span class="w"> </span>zxvf<span class="w"> </span>psplash.tar.gz
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Prepare a PNG file, such as <code class="docutils literal notranslate"><span class="pre">chipsee.png</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cp chipsee.png psplash/
-$ sudo <span class="nb">cd</span> psplash
+<dt>Prepare a PNG file, such as <code class="docutils literal notranslate"><span class="pre">chipsee.png</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cp<span class="w"> </span>chipsee.png<span class="w"> </span>psplash/
+$<span class="w"> </span>sudo<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>psplash
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Setting environment</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">source</span> /opt/fsl-imx-x11/3.14.52-1.1.1/environment-setup-cortexa9hf-vfp-neon-poky-linux-gnueabi
+<dt>Setting environment</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">source</span><span class="w"> </span>/opt/fsl-imx-x11/3.14.52-1.1.1/environment-setup-cortexa9hf-vfp-neon-poky-linux-gnueabi
 </pre></div>
 </div>
 <figure class="align-center">
@@ -1935,10 +1935,10 @@ $ sudo <span class="nb">cd</span> psplash
 </dl>
 </li>
 <li><dl>
-<dt>Generate header file and modify the psplash.c, then config and make:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ ./make-image-header.sh chipsee.png POKY  //you will find a new file named chipsee-img.h
-$ vi psplash.c  // replace the header file name <span class="o">(</span>psplash-poky-img.h<span class="o">)</span> <span class="k">in</span> psplash.c with chipsee-img.h
-$ ./autogen.sh
-$ make  // you will generate the file psplash
+<dt>Generate header file and modify the psplash.c, then config and make:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>./make-image-header.sh<span class="w"> </span>chipsee.png<span class="w"> </span>POKY<span class="w">  </span>//you<span class="w"> </span>will<span class="w"> </span>find<span class="w"> </span>a<span class="w"> </span>new<span class="w"> </span>file<span class="w"> </span>named<span class="w"> </span>chipsee-img.h
+$<span class="w"> </span>vi<span class="w"> </span>psplash.c<span class="w">  </span>//<span class="w"> </span>replace<span class="w"> </span>the<span class="w"> </span>header<span class="w"> </span>file<span class="w"> </span>name<span class="w"> </span><span class="o">(</span>psplash-poky-img.h<span class="o">)</span><span class="w"> </span><span class="k">in</span><span class="w"> </span>psplash.c<span class="w"> </span>with<span class="w"> </span>chipsee-img.h
+$<span class="w"> </span>./autogen.sh
+$<span class="w"> </span>make<span class="w">  </span>//<span class="w"> </span>you<span class="w"> </span>will<span class="w"> </span>generate<span class="w"> </span>the<span class="w"> </span>file<span class="w"> </span>psplash
 </pre></div>
 </div>
 </dd>
@@ -2033,7 +2033,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Dec 14, 2022.
+              Jan 09, 2023.
             <br/>
         </div>
       </div>

@@ -898,7 +898,7 @@ Booting from the external TF Card allows flashing the system OS.</p>
 <li><p>Copy the Prebuilt Files Package to a Linux environment (such as Ubuntu 14.04).</p></li>
 <li><p>Insert the SD card into your computer. If you are using virtual machines, please ensure the SD card is mounted to the Linux operating system.</p></li>
 <li><dl>
-<dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo fdisk –l
+<dt>Confirm the SD card mount point, <code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code>，(e.g., <code class="docutils literal notranslate"><span class="pre">/dev/sdc</span></code> or <code class="docutils literal notranslate"><span class="pre">/dev/sdb</span></code>, be sure to use the right one). In a Linux system, you can use the command below to find out what <em>X</em> is.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>fdisk<span class="w"> </span>–l
 </pre></div>
 </div>
 </dd>
@@ -906,21 +906,21 @@ Booting from the external TF Card allows flashing the system OS.</p>
 </li>
 <li><p>Copy the <code class="docutils literal notranslate"><span class="pre">prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz</span></code> to somewhere(such as $HOME) on the Ubuntu PC.</p></li>
 <li><dl>
-<dt>Extract the <code class="docutils literal notranslate"><span class="pre">prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ tar -xzvf prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz
+<dt>Extract the <code class="docutils literal notranslate"><span class="pre">prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz</span></code></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>tar<span class="w"> </span>-xzvf<span class="w"> </span>prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD.tar.gz
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Go to the folder</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD
+<dt>Go to the folder</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>prebuilt-imxv1-csXXXXXfXXXvX-android6-emmc-YYYYMMDD
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Use the following command to flash the Android 6.0 OS to the SD card</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ./mksdcard.sh --device /dev/sd&lt;?&gt;
+<dt>Use the following command to flash the Android 6.0 OS to the SD card</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>./mksdcard.sh<span class="w"> </span>--device<span class="w"> </span>/dev/sd&lt;?&gt;
 </pre></div>
 </div>
 <div class="admonition note">
@@ -1392,9 +1392,9 @@ Please check the <strong>GPIO Connector</strong> section in <a class="reference 
 Follow the steps below to change logo</p>
 <ul>
 <li><dl>
-<dt>Use the following commands to make bootable TF card.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo  tar  zxvf  prebuilt-imx6qdl-bootfile-update-xxx.tar.gz
-$ sudo  <span class="nb">cd</span>  prebuilt-imx6qdl-bootfile-update-xxx
-$ sudo  ./mksdcard.sh  --device  /dev/sdX --display <span class="m">1024600</span>     // resolution
+<dt>Use the following commands to make bootable TF card.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w">  </span>tar<span class="w">  </span>zxvf<span class="w">  </span>prebuilt-imx6qdl-bootfile-update-xxx.tar.gz
+$<span class="w"> </span>sudo<span class="w">  </span><span class="nb">cd</span><span class="w">  </span>prebuilt-imx6qdl-bootfile-update-xxx
+$<span class="w"> </span>sudo<span class="w">  </span>./mksdcard.sh<span class="w">  </span>--device<span class="w">  </span>/dev/sdX<span class="w"> </span>--display<span class="w"> </span><span class="m">1024600</span><span class="w">     </span>//<span class="w"> </span>resolution
 </pre></div>
 </div>
 </dd>
@@ -1501,12 +1501,12 @@ You can use the following command to log in to the board and communicate with it
 <div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="p">&gt;</span> <span class="n">adb</span> <span class="n">shell</span>
 </pre></div>
 </div>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ su
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>su
 su
 </pre></div>
 </div>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># cd /system/app</span>
-<span class="nb">cd</span> /system/app
+<span class="nb">cd</span><span class="w"> </span>/system/app
 </pre></div>
 </div>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># rm Email.apk</span>
@@ -1543,7 +1543,7 @@ su
 </pre></div>
 </div>
 <p>Copy <code class="docutils literal notranslate"><span class="pre">/testFile.txt</span></code> from IPC to Windows PC:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>&gt; adb pull /testFile.txt testFile.txt
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>&gt;<span class="w"> </span>adb<span class="w"> </span>pull<span class="w"> </span>/testFile.txt<span class="w"> </span>testFile.txt
 </pre></div>
 </div>
 </section>
@@ -1777,7 +1777,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Dec 14, 2022.
+              Jan 09, 2023.
             <br/>
         </div>
       </div>

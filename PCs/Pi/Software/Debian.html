@@ -603,9 +603,9 @@ Use the session properties as shown on the figure below.</p>
 <ul>
 <li><p>Get the IP address of the Chipsee Raspberry Pi<sup>®</sup> product.</p></li>
 <li><dl>
-<dt>Enable the SSH feature in the Chipsee Raspberry Pi<sup>®</sup> product by running the following command in debug console:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo raspi-config
+<dt>Enable the SSH feature in the Chipsee Raspberry Pi<sup>®</sup> product by running the following command in debug console:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>raspi-config
 
-Interfacing Options -&gt; SSH -&gt; Yes
+Interfacing<span class="w"> </span>Options<span class="w"> </span>-&gt;<span class="w"> </span>SSH<span class="w"> </span>-&gt;<span class="w"> </span>Yes
 </pre></div>
 </div>
 </dd>
@@ -653,9 +653,9 @@ Interfacing Options -&gt; SSH -&gt; Yes
 <p>Continue the debugging by follow these steps:</p>
 <ul>
 <li><dl>
-<dt>Enable the VNC feature in the Chipsee Raspberry Pi<sup>®</sup> product by running the following command in debug console:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo raspi-config
+<dt>Enable the VNC feature in the Chipsee Raspberry Pi<sup>®</sup> product by running the following command in debug console:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>raspi-config
 
-Interfacing Options -&gt; VNC -&gt; Yes
+Interfacing<span class="w"> </span>Options<span class="w"> </span>-&gt;<span class="w"> </span>VNC<span class="w"> </span>-&gt;<span class="w"> </span>Yes
 </pre></div>
 </div>
 </dd>
@@ -993,11 +993,11 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 </tbody>
 </table>
 <p>You can install <strong>cutecom</strong> to test the serial port:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get install cutecom
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>cutecom
 </pre></div>
 </div>
 <p>Only root user and use the serial port:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cutecom
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cutecom
 </pre></div>
 </div>
 </section>
@@ -1046,16 +1046,16 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 </table>
 <ul>
 <li><dl>
-<dt>Control <cite>OUT1</cite> by setting it high or low</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">echo</span> <span class="m">1</span> &gt; /dev/chipsee-gpio1    // <span class="nb">set</span> OUT1 high
+<dt>Control <cite>OUT1</cite> by setting it high or low</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="m">1</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/chipsee-gpio1<span class="w">    </span>//<span class="w"> </span><span class="nb">set</span><span class="w"> </span>OUT1<span class="w"> </span>high
 
-$ <span class="nb">echo</span> <span class="m">0</span> &gt; /dev/chipsee-gpio1    // <span class="nb">set</span> OUT1 low
+$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="m">0</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/chipsee-gpio1<span class="w">    </span>//<span class="w"> </span><span class="nb">set</span><span class="w"> </span>OUT1<span class="w"> </span>low
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Get <cite>IN1</cite> value</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ cat /dev/chipsee-gpio5    // value <span class="m">1</span> indicate high, value <span class="m">0</span> indicate low
+<dt>Get <cite>IN1</cite> value</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>cat<span class="w"> </span>/dev/chipsee-gpio5<span class="w">    </span>//<span class="w"> </span>value<span class="w"> </span><span class="m">1</span><span class="w"> </span>indicate<span class="w"> </span>high,<span class="w"> </span>value<span class="w"> </span><span class="m">0</span><span class="w"> </span>indicate<span class="w"> </span>low
 </pre></div>
 </div>
 </dd>
@@ -1095,23 +1095,23 @@ $ <span class="nb">echo</span> <span class="m">0</span> &gt; /dev/chipsee-gpio1 
 </table>
 <ul>
 <li><dl>
-<dt>Initialize <cite>GPIO17</cite> to output</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">echo</span> <span class="m">17</span> &gt; /sys/class/gpio/export
+<dt>Initialize <cite>GPIO17</cite> to output</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="m">17</span><span class="w"> </span>&gt;<span class="w"> </span>/sys/class/gpio/export
 
-$ <span class="nb">echo</span> out &gt; /sys/class/gpio/gpio17/direction
+$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span>out<span class="w"> </span>&gt;<span class="w"> </span>/sys/class/gpio/gpio17/direction
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Enable Relay NO short-circuit Relay COM</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">echo</span> <span class="m">1</span> &gt; /sys/class/gpio/gpio17/value
+<dt>Enable Relay NO short-circuit Relay COM</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="m">1</span><span class="w"> </span>&gt;<span class="w"> </span>/sys/class/gpio/gpio17/value
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Enable Relay NC short-circuit Relay COM</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">echo</span> <span class="m">0</span> &gt; /sys/class/gpio/gpio17/value
+<dt>Enable Relay NC short-circuit Relay COM</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="m">0</span><span class="w"> </span>&gt;<span class="w"> </span>/sys/class/gpio/gpio17/value
 </pre></div>
 </div>
 </dd>
@@ -1122,9 +1122,9 @@ $ <span class="nb">echo</span> out &gt; /sys/class/gpio/gpio17/direction
 <section id="buzzer">
 <h3 id="buzzer">BUZZER<a class="headerlink" href="#buzzer" title="Permalink to this heading">¶</a></h3>
 <p>The Chipsee Raspberry Pi boards have one buzzer. We have created one symbol link to <cite>/dev/buzzer</cite>. You can control it as follows:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">echo</span> <span class="m">1</span> &gt; /dev/buzzer    //enable buzzer
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="m">1</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/buzzer<span class="w">    </span>//enable<span class="w"> </span>buzzer
 
-$ <span class="nb">echo</span> <span class="m">0</span> &gt; /dev/buzzer    // disable buzzer
+$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="m">0</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/buzzer<span class="w">    </span>//<span class="w"> </span>disable<span class="w"> </span>buzzer
 </pre></div>
 </div>
 </section>
@@ -1133,7 +1133,7 @@ $ <span class="nb">echo</span> <span class="m">0</span> &gt; /dev/buzzer    // d
 <p>We use one PWM to control the backlight for Chipsee Raspberry Pi boards, You can use follow commands to control the backlight.</p>
 <ul>
 <li><dl>
-<dt>Get the supported max brightness:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ cat  /sys/class/backlight/backlight/max_brightness
+<dt>Get the supported max brightness:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>cat<span class="w">  </span>/sys/class/backlight/backlight/max_brightness
 </pre></div>
 </div>
 </dd>
@@ -1152,38 +1152,38 @@ $ <span class="nb">echo</span> <span class="m">0</span> &gt; /dev/buzzer    // d
 <h3 id="g">4G<a class="headerlink" href="#g" title="Permalink to this heading">¶</a></h3>
 <ul>
 <li><dl>
-<dt>You can use 4G on Chipsee Raspberry Pi products. If the 4G module is Quectel EC20, you can use <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/Tools/linux-ppp-scripts.tar.gz">linux-ppp-scripts</a> to connect to internet.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt update
-$ sudo apt install ppp
-$ sudo ifconfig wwan0 down
-$ <span class="nb">cd</span> linux-ppp-scripts/
-$ sudo ./quectel-pppd.sh &lt;Serial Port&gt; &lt;APN&gt; &lt;username&gt; &lt;password&gt;
+<dt>You can use 4G on Chipsee Raspberry Pi products. If the 4G module is Quectel EC20, you can use <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/Tools/linux-ppp-scripts.tar.gz">linux-ppp-scripts</a> to connect to internet.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt<span class="w"> </span>update
+$<span class="w"> </span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>ppp
+$<span class="w"> </span>sudo<span class="w"> </span>ifconfig<span class="w"> </span>wwan0<span class="w"> </span>down
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>linux-ppp-scripts/
+$<span class="w"> </span>sudo<span class="w"> </span>./quectel-pppd.sh<span class="w"> </span>&lt;Serial<span class="w"> </span>Port&gt;<span class="w"> </span>&lt;APN&gt;<span class="w"> </span>&lt;username&gt;<span class="w"> </span>&lt;password&gt;
 
-For example,
-$ sudo ./quectel-pppd.sh /dev/ttyUSB3 3gnet <span class="nb">test</span> <span class="nb">test</span>
+For<span class="w"> </span>example,
+$<span class="w"> </span>sudo<span class="w"> </span>./quectel-pppd.sh<span class="w"> </span>/dev/ttyUSB3<span class="w"> </span>3gnet<span class="w"> </span><span class="nb">test</span><span class="w"> </span><span class="nb">test</span>
 
-or no username and password
-$ sudo ./quectel-pppd.sh /dev/ttyUSB3 3gnet
+or<span class="w"> </span>no<span class="w"> </span>username<span class="w"> </span>and<span class="w"> </span>password
+$<span class="w"> </span>sudo<span class="w"> </span>./quectel-pppd.sh<span class="w"> </span>/dev/ttyUSB3<span class="w"> </span>3gnet
 
-disconnect 4g
-$ <span class="nb">cd</span> linux-ppp-scripts/
-$ ./quectel-ppp-kill
+disconnect<span class="w"> </span>4g
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>linux-ppp-scripts/
+$<span class="w"> </span>./quectel-ppp-kill
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>If you use EC20 with GPS function, you can enable and get data in the following way. <br/> Open one terminal to catch data:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>cat /dev/ttyUSB1
+<dt>If you use EC20 with GPS function, you can enable and get data in the following way. <br/> Open one terminal to catch data:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>cat<span class="w"> </span>/dev/ttyUSB1
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Open another terminal to config and enable:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ microcom –s <span class="m">9600</span> /dev/ttyUSB2
+<dt>Open another terminal to config and enable:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>microcom<span class="w"> </span>–s<span class="w"> </span><span class="m">9600</span><span class="w"> </span>/dev/ttyUSB2
 AT+QGPSCFG<span class="o">=</span>”gpsnmeatype”,1
-AT+QGPS<span class="o">=</span><span class="m">1</span> // <span class="nb">enable</span> GPS, <span class="nb">wait</span> some minutes, you can get date from fist terminal.
-AT+QGPSEND // disable GPS
+AT+QGPS<span class="o">=</span><span class="m">1</span><span class="w"> </span>//<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>GPS,<span class="w"> </span><span class="nb">wait</span><span class="w"> </span>some<span class="w"> </span>minutes,<span class="w"> </span>you<span class="w"> </span>can<span class="w"> </span>get<span class="w"> </span>date<span class="w"> </span>from<span class="w"> </span>fist<span class="w"> </span>terminal.
+AT+QGPSEND<span class="w"> </span>//<span class="w"> </span>disable<span class="w"> </span>GPS
 </pre></div>
 </div>
 </dd>
@@ -1208,21 +1208,21 @@ AT+QGPSEND // disable GPS
 <p>Here are a few examples to test CAN by using CAN units</p>
 <ul>
 <li><dl>
-<dt>Install <cite>can-utils</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt install can-utils
+<dt>Install <cite>can-utils</cite></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>can-utils
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Set the bit-rate to <strong>50Kbits/sec</strong> with triple sampling using the following command (use ROOT user):</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 <span class="nb">type</span> can bitrate <span class="m">50000</span> triple-sampling on
+<dt>Set the bit-rate to <strong>50Kbits/sec</strong> with triple sampling using the following command (use ROOT user):</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span><span class="nb">type</span><span class="w"> </span>can<span class="w"> </span>bitrate<span class="w"> </span><span class="m">50000</span><span class="w"> </span>triple-sampling<span class="w"> </span>on
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Bring up the device using the command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 up
+<dt>Bring up the device using the command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span>up
 </pre></div>
 </div>
 </dd>
@@ -1232,33 +1232,33 @@ AT+QGPSEND // disable GPS
 <dt>Transfer packets</dt><dd><ul class="simple">
 <li><p>Transmit 8 bytes with standard packet id number as 0x10</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0x10 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cansend<span class="w"> </span>can0<span class="w"> </span>-i<span class="w"> </span>0x10<span class="w"> </span>0x11<span class="w"> </span>0x22<span class="w"> </span>0x33<span class="w"> </span>0x44<span class="w"> </span>0x55<span class="w"> </span>0x66<span class="w"> </span>0x77<span class="w"> </span>0x88
 </pre></div>
 </div>
 <ul class="simple">
 <li><p>Transmit 8 bytes with extended packet id number as 0x800</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0x800 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88 - e
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cansend<span class="w"> </span>can0<span class="w"> </span>-i<span class="w"> </span>0x800<span class="w"> </span>0x11<span class="w"> </span>0x22<span class="w"> </span>0x33<span class="w"> </span>0x44<span class="w"> </span>0x55<span class="w"> </span>0x66<span class="w"> </span>0x77<span class="w"> </span>0x88<span class="w"> </span>-<span class="w"> </span>e
 </pre></div>
 </div>
 <ul class="simple">
 <li><p>Transmit 20 8 bytes with extended packet id number as 0xFFFFF</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo cansend can0 -i 0xFFFFF 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88 -e --loop<span class="o">=</span><span class="m">20</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cansend<span class="w"> </span>can0<span class="w"> </span>-i<span class="w"> </span>0xFFFFF<span class="w"> </span>0x11<span class="w"> </span>0x22<span class="w"> </span>0x33<span class="w"> </span>0x44<span class="w"> </span>0x55<span class="w"> </span>0x66<span class="w"> </span>0x77<span class="w"> </span>0x88<span class="w"> </span>-e<span class="w"> </span>--loop<span class="o">=</span><span class="m">20</span>
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Receive data from CAN bus</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo candump can0
+<dt>Receive data from CAN bus</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>candump<span class="w"> </span>can0
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Bring down the device</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo ip link <span class="nb">set</span> can0 down
+<dt>Bring down the device</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span>down
 </pre></div>
 </div>
 </dd>
@@ -1368,7 +1368,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Dec 14, 2022.
+              Jan 09, 2023.
             <br/>
         </div>
       </div>
