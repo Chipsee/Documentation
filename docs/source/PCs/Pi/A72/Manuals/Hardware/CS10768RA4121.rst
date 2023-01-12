@@ -102,7 +102,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-Side.jpg
+.. image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-C-Side.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Side View (Panel Variant)
 
@@ -115,7 +115,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-Side2.jpg
+.. image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-C-Side2.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Side View (Panel Variant)
 
