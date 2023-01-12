@@ -1,0 +1,370 @@
+.. |product| replace:: PPC-CM4-121
+
+.. |productE| replace:: CS10768RA4121E
+
+.. |productP| replace:: CS10768RA4121P
+
+.. |PN| replace:: PN: CS10768RA4121
+
+.. |Product| replace:: The |product| industrial Pi PC
+
+.. |TFNum| replace:: 1
+
+.. |tf_des| replace:: This TF card is designed for storage expansion, as the TF card use same pins with WiFi, it can't be used with WiFi at same time.
+
+.. |dispsize| replace:: 12.1"
+
+.. |res| replace:: 1024 x 768
+
+.. |bright| replace:: 400 |cd|
+
+.. |disp_des| replace:: |dispsize| Ten-point capacitive a touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |dimE| replace:: NULL
+
+.. |dimP| replace:: 440 x 325 x 90mm
+
+.. |weightE| replace:: NULL
+
+.. |weightP| replace:: 2800g
+
+.. |tscreen| replace:: 10-point capacitive touch
+
+.. |USB| replace:: 2 x USB 3.0 Host, 1 x USB OTG
+
+.. |LAN| replace:: 1 x Channel Giga LAN
+
+.. |GPIO| replace:: 8 Channels, 4 Input, 4 Output
+
+.. |hdmi_des| replace:: Not Supported
+
+.. |sata_des| replace:: Not Supported
+
+.. |opt1| replace:: Supported, not mounted by default
+
+.. |opt2| replace:: Supported but depending on the CM4 selected
+
+.. |vin_rng| replace:: From 12V to 36V
+
+.. |cur| replace:: 1100mA Max at 12V
+
+.. |pwr| replace:: 13.2W Typical
+
+.. |temp| replace:: From 0°C to +80°C
+
+.. _product_link: https://chipsee.com/product/PPC-CM4-121/
+
+.. |product_link| replace:: PPC-CM4-121
+
+
+.. _PPC-CM4-121:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. You must add the `product-img img-thumbnail mx-auto d-block` word
+.. to the image class directive in order for the thumbnail feature to work
+
+.. raw:: html
+
+    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
+
+.. Image thumbnail 1
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-front.jpg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Front View (Panel Variant)
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 2
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-C-Back.jpg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Back View (Panel Variant)
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 3
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-Side.jpg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Side View (Panel Variant)
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 4
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-Side2.jpg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Side View (Panel Variant)
+
+.. raw:: html
+
+    </div>
+
+.. raw:: html
+
+    </div>
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features_2
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table_cs12800ra4101
+
+.. include:: Resources/power_cs19108ra4133
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen_usb
+
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial Pi PC. It has |USB| , |LAN| (RJ45) Ethernet connector supporting up to
+1 Gbps, and 4 x UART and 1 x CAN terminals (RS232/RS485/CAN).
+
+RS232/RS485/CAN
+---------------
+
+The serial communication interfaces (RS485, RS482, and CAN) are routed to a **12-pin 3.81mm terminal**, as illustrated on the figure below.
+
+.. figure:: /Media/Pi/A72/CS19108RA4133/RS232-RS485-CANbig.jpg
+   :align: center
+   :figclass: align-center
+
+   *RS232-RS485-CAN on the* |product| *Industrial PC*
+
+The table below offers more detailed description of every pin and its definition:
+
+.. table:: Connectivity Section
+   :align: center
+   :width: 100%
+   :class: align-center
+   :widths: auto
+
+   +---------------------------------------------------------------------------------------------------------------+
+   | **RS232 / RS485 / CAN Pin Definition:**                                                                       |
+   +================+===============================+==============================================================+
+   | **Pin Number** | **Definition**                | **Description**                                              |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 1          | CAN_H                         | CAN BUS "H" signal                                           |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 2          | CAN_L                         | CAN BUS "L" signal                                           |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 3          | RS485_5-                      | CPU UART5, RS485 –(B) signal                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 4          | RS485_5+                      | CPU UART5, RS485 +(A) signal                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 5          | RS485_3-                      | CPU UART3, RS485 –(B) signal                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 6          | RS485_3+                      | CPU UART3, RS485 +(A) signal                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 7          | RS232_2_RXD                   | CPU UART2, RS232 RXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 8          | RS232_2_TXD                   | CPU UART2, RS232 TXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 9          | RS232_0_RXD                   | CPU UART0, RS232 RXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 10         | RS232_0_TXD                   | CPU UART0, RS232 TXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 11         | GND                           | System Ground                                                |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 12         | +5V                           | System +5V Power Output, No more than 1A Current output      |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+
+.. attention::
+
+    #) RS485_3 and RS485_5 can control the input and output direction automatically. There’s no need to control it from within the software.
+    #) The 120Ω match resistor for the RS485 and CAN bus is NOT mounted by default.
+
+GPIO Port
+--------------
+
+|Product| has a 10 Pin 3.81mm **GPIO Connector**, as shown on the figure below.
+The table below gives details about the definition of every Pin.
+
+.. figure:: /Media/Pi/A72/CS19108RA4133/GPIObig.jpg
+   :align: center
+   :figclass: align-center
+
+   *GPIO Connector*
+
+
+.. _gpio-table:
+
+.. table:: GPIO Connector Pin-out
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +---------------------------------------------------------------------------------------------------------------------------------+
+   | .. centered:: GPIO Connector Pin Definition:                                                                                    |
+   +======================================+=============================+============================================================+
+   | **Pin Number**                       | **Definition**              | **Description**                                            |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 12                               | 24V_ISO                     | Isolated Power +24V Input                                  |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 11                               | GND_ISO                     | Isolated Ground                                            |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 10                               | OUT1                        | Isolated Output 1                                          |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 9                                | OUT2                        | Isolated Output 2                                          |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 8                                | OUT3                        | Isolated Output 3                                          |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 7                                | OUT4                        | Isolated Output 4                                          |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 6                                | IN1                         | Isolated Input 1                                           |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 5                                | IN2                         | Isolated Input 2                                           |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 4                                | IN3                         | Isolated Input 3                                           |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 3                                | IN4                         | Isolated Input 4                                           |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+
+.. Figure:: /Media/Pi/A72/Others/GP_IO_2.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Isolated GPIO reduced schematic*
+
+.. attention::
+
+    #) In order to use the Isolated Output, you need to add an external Isolated Power to the VDD_ISO and GND_ISO. The power voltage should not exceed 24V.
+    #) The output current can achieve 500mA for every channel, but it also depends on the Isolated power that is connected.
+    #) In order to use the Isolated Input, you need to add a signal to the ISO_InputX and GND_ISO. A 2.4KΩ resistor, as R6, can be added to limit the input current, as shown in the figure above. This resistor should work well for the 5-24V input signal. If your input signal is less than 5V, please change this input resistor.
+
+USB Connectors
+--------------
+
+There are 2 x Type A **USB3.0 HOST connectors** onboard, as shown on the figure below.
+
+.. Figure:: /Media/Pi/A72/CS19108RA4133/USBbig.jpg
+  :align: center
+  :figclass: align-center
+
+  *USB HOST Connectors (enclosed PC version)*
+
+.. attention::
+
+    #) These two USB hosts come from the same USB HUB. The Zigbee and 4G/LTE signals come from the same USB HUB.
+    #) These two USB host connectors can drive 500mA for each channel at most.
+
+The product has one USB OTG connector that works as a slave by default. You can use it to establish a connection with the host PC and for downloading the system to the eMMC of CM4 module.
+
+.. Figure:: /Media/Pi/A72/CS19108RA4133/TYPE-Cbig.jpg
+  :align: center
+  :figclass: align-center
+
+  *USB OTG Connector*
+
+.. warning::
+
+  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded Industrial PC version.
+
+.. include:: Resources/LAN_cs19108ra4133
+
+.. include:: Resources/WiFi_cs19108ra4133
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/Zigbee_cs19108ra4133
+
+.. include:: Resources/Camera_cs12800ra4101
+
+TF Card Slot
+============
+
+|Product| features 1 x **TF Card (micro SD) slot**. It can address up to 32GB of memory.
+
+.. figure:: /Media/Pi/A72/CS19108RA4133/TF_Cardbig.jpg
+  :align: center
+  :figclass: align-center
+
+  *TF (micro SD) Card Slot*
+
+.. attention::
+
+  #) The SD is used for memory extension. It can’t be used for system boot-up.
+  #) The product does not come shipped with the TF Card by default.
+  #) This SD use same pins with WiFi/BT on CM4 with WiFi, they don't use at same time.
+
+
+Audio Connectors
+================
+
+|Product| features some audio peripherals. It has 1 x **3.5mm audio output jack**. |br|
+Also, the |product| industrial Pi PC has a miniature 2W internal speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds.
+
+.. figure:: /Media/Pi/A72/CS19108RA4133/Audiobig.jpg
+  :figclass: align-center
+  :align: center
+
+  *Audio Connector (enclosed PC version)*
+
+.. attention::
+
+    By plugging in the headphone cable, the internal speaker will be disabled automatically.
+
+Boot DIP Button
+===============
+
+|Product| has one button for enter usb download mode, shown in the figure below. |br|
+When pressed the button, the Raspberry Pi will boot from the USB connector. You can use this function to download the OS software to the internal eMMC. |br|
+When released the button, the Raspberry Pi will boot from internal eMMC.
+
+There is no need to alter the Boot DIP Button during regular operation. However, if you need to reinstall the OS, please refer to the detailed information on how to re-flash the OS from the :ref:`Software Documentation <Pi_OS>`.
+
+.. figure:: /Media/Pi/A72/CS19108RA4133/BootButtonbig.jpg
+  :figclass: align-center
+  :align: center
+
+  *Boot DIP Button*
+
+Mounting Procedure
+==================
+
+|Product| can be mounted with 8 x M4 screws or 4 x M4 screws using the VESA (100x100cm or 75x75cm) and Panel mounting methods, enabling simplified installation onto any standard mounting fixture.
+
+.. attention::
+
+    Please make sure the display is not exposed to high pressure when mounting into an enclosure.
+
+You can find detailed information about mounting in the |mguide|.
+
+
+Mechanical Specifications
+=========================
+
+|productP|
+----------
+For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+
+.. include:: Resources/support
