@@ -51,6 +51,21 @@ Cortex-A72 Hardware Documentation
    :name: hwdocstable_4
 
    +---------------------+------------------------------------------------------------------------+
+   | |PPC-CM4-121|       |   :ref:`PPC-CM4-121 User Manual <PPC-CM4-121>` |br|                    |
+   |                     |   PN: CS10768RA4121 |br| |br|                                          |
+   |                     |                                                                        |
+   |                     |   12.1", 1024 x 768, 10-point capacitive touch screen                  |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-CM4-121| image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-Front.jpg
+   :class: no-scaled-link
+   :target: CS10768RA4121.html
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_5
+
+   +---------------------+------------------------------------------------------------------------+
    | |PPC-CM4-133|       |   :ref:`PPC-CM4-133 User Manual <PPC-CM4-133>` |br|                    |
    |                     |   PN: CS19108RA4133 |br| |br|                                          |
    |                     |                                                                        |
@@ -63,7 +78,7 @@ Cortex-A72 Hardware Documentation
    
 .. table::
    :widths: 20 30
-   :name: hwdocstable_5
+   :name: hwdocstable_6
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-CM4-150|       |   :ref:`PPC-CM4-150 User Manual <PPC-CM4-150>` |br|                    |
@@ -78,7 +93,7 @@ Cortex-A72 Hardware Documentation
    
 .. table::
    :widths: 20 30
-   :name: hwdocstable_6
+   :name: hwdocstable_7
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-CM4-156|       |   :ref:`PPC-CM4-156 User Manual <PPC-CM4-156>` |br|                    |
@@ -100,6 +115,7 @@ Cortex-A72 Hardware Documentation
    EPC/PPC-CM4-050 <CS12720RA4050>
    EPC/PPC-CM4-070 <CS10600RA4070>
    PPC-CM4-101 <CS12800RA4101>
+   PPC-CM4-121 <CS10768RA4121>
    PPC-CM4-133 <CS19108RA4133>
    PPC-CM4-150 <CS10768RA4150>
    PPC-CM4-156 <CS19108RA4156>
