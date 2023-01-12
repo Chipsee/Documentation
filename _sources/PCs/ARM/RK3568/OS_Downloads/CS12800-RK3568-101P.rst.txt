@@ -1,0 +1,20 @@
+PPC-A55-101-C (PN: CS12800-RK3568-101P)
+#######################################
+
+.. _CS12800P-android:
+
+Android11
+----------
+
+| :download:`prebuilt-rk3568v1-cs12800r-lvds-android11-emmc-20230109.img <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3568/10/Android11/prebuilt-rk3568v1-cs12800r-lvds-android11-emmc-20230109.img>`
+
+.. _CS12800P-debian:
+
+Debian11
+--------
+
+
+.. _CS12800P-linuxQt:
+
+Buildroot LinuxQt5.14
+---------------------
