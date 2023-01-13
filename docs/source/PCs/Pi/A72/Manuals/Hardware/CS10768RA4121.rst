@@ -22,7 +22,7 @@
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 440 x 325 x 90mm
+.. |dimP| replace:: 320 x 260 x 51mm
 
 .. |weightE| replace:: NULL
 
