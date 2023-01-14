@@ -10,7 +10,7 @@
 
 .. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
 
-.. |dim| replace:: 307 x 245 x 41mm
+.. |dim| replace:: 320 x 260 x 53mm
 
 .. |weight| replace:: 2700g
 
@@ -65,7 +65,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Front.jpeg
+.. image:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Front-V2.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View
 
@@ -78,7 +78,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Back.jpeg
+.. image:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Back-V2.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View
 
@@ -91,7 +91,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Side.jpeg
+.. image:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Side-V2.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Side View
 
@@ -99,6 +99,19 @@
 
     </div>
 
+.. Image thumbnail 4
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Side2-V2.jpg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Side View
+
+.. raw:: html
+
+    </div>
+	
 .. raw:: html
 
     </div>
