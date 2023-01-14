@@ -57,7 +57,7 @@ i.MX6Q Hardware Documentation
    |                   |   12", 1024 x 768, multi-point capacitive touch screen                 |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-A9-121-C| image:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Front.jpeg
+.. |PPC-A9-121-C| image:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Front-V2.jpg
    :class: no-scaled-link
    :target: CS10768F121.html
 
