@@ -18,7 +18,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/setup-python@v2
+    - name: Set Up Python 3.10.8
+      uses: actions/setup-python@v3
+      with:
+        python-version: 3.10.8
     - uses: actions/checkout@master
       with:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
@@ -32,7 +35,7 @@ jobs:
       run: |
         echo "dir=$(pip cache dir)" >> $GITHUB_OUTPUT
     - name: Pip cache
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ${{ steps.pip-cache.outputs.dir }}
         key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
