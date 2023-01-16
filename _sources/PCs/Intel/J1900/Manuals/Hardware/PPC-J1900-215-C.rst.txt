@@ -76,6 +76,19 @@
 
     </div>
 
+.. Image thumbnail 4
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/Intel/J1900/215/PPC-J1900-215-C-Features.jpg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: PPC-J1900-215-C Features
+
+.. raw:: html
+
+    </div>
+
 .. raw:: html
 
     </div>

@@ -10,9 +10,9 @@
 
 .. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
 
-.. |dim| replace:: 320 x 260 x 53mm
+.. |dim| replace:: 440 x 325 x 90mm
 
-.. |weight| replace:: 2700g
+.. |weight| replace:: 3200g
 
 .. |RAM| replace:: 2GB DDR3
 

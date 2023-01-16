@@ -36,6 +36,15 @@ the repository much easier.
    RK3399 Hardware Documentation <RK3399/Manuals/Hardware/index>
    RK3399 OS Downloads <RK3399/OS_Downloads/index>
 
+.. rubric:: Products by platform: |Cortex|-A55 (Rockchip RK3568)
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   RK3568 Hardware Documentation <RK3568/Manuals/Hardware/index>
+   RK3568 OS Downloads <RK3568/OS_Downloads/index>
+
 .. rubric:: Products by platform: |Cortex|-A8 (CS-SOM335X-V3)
 
 .. toctree::
