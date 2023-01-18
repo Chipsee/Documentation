@@ -8,7 +8,7 @@
 
 .. |res| replace:: 1920 x 1080
 
-.. |bright| replace:: 250 |cd|
+.. |bright| replace:: 350 |cd|
 
 .. |dim| replace:: 374 x 238 x 33mm
 
