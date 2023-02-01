@@ -71,6 +71,21 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
    :name: hwdocstable_5
 
    +-------------------+------------------------------------------------------------------------+
+   |  |PIM-156-C-P|    |   :ref:`PIM-156-C-P User Manual <PIM-156-C-P>` |br|                    |
+   |                   |   PN: CS-D156P |br| |br|                                               |
+   |                   |                                                                        |
+   |                   |   15.6", 1920x1080, 10-point capacitive touchscreen                    |
+   +-------------------+------------------------------------------------------------------------+
+
+.. |PIM-156-C-P| image:: /Media/Monitors/PIM-156-C-P/pim-156p-front.jpeg
+   :class: no-scaled-link
+   :target: PIM-156-C-P.html
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_6
+
+   +-------------------+------------------------------------------------------------------------+
    |  |PIM-170-C|      |   :ref:`PIM-170-C User Manual <PIM-170-C>` |br|                        |
    |                   |   PN: CS-D170 |br| |br|                                                |
    |                   |                                                                        |
@@ -83,7 +98,7 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_6
+   :name: hwdocstable_7
 
    +-------------------+------------------------------------------------------------------------+
    |  |PIM-185-C|      |   :ref:`PIM-185-C User Manual <PIM-185-C>` |br|                        |
@@ -98,7 +113,7 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_7
+   :name: hwdocstable_8
 
    +-------------------+------------------------------------------------------------------------+
    |  |PIM-190-C|      |   :ref:`PIM-190-C User Manual <PIM-190-C>` |br|                        |
@@ -113,7 +128,7 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_8
+   :name: hwdocstable_9
 
    +-------------------+------------------------------------------------------------------------+
    |  |PIM-215-C|      |   :ref:`PIM-215-C User Manual <PIM-215-C>` |br|                        |
@@ -128,7 +143,7 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_9
+   :name: hwdocstable_10
 
    +-------------------+------------------------------------------------------------------------+
    |  |PIM-236-C|      |   :ref:`PIM-236-C User Manual <PIM-236-C>` |br|                        |
@@ -143,7 +158,7 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_10
+   :name: hwdocstable_11
 
    +-------------------+------------------------------------------------------------------------+
    |  |PIM-270-C|      |   :ref:`PIM-270-C User Manual <PIM-270-C>` |br|                        |
@@ -168,6 +183,7 @@ Chipsee industrial monitors provide a solid and durable solution that customers 
    PIM-125-C <PIM-125-C>
    PIM-150-C <PIM-150-C>
    PIM-156-C <PIM-156-C>
+   PIM-156-C-P <PIM-156-C-P>
    PIM-170-C <PIM-170-C>
    PIM-185-C <PIM-185-C>
    PIM-190-C <PIM-190-C>
