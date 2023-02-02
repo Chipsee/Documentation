@@ -49,5 +49,8 @@ Angstrom2012
 
 | **FT5X06 Touchscreen**
 
-| :download:`prebuilt-som-v3-cs10768t097-v3-angstrom-emmc-20151228.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/9.7/Angstrom2012/prebuilt-som-v3-cs10768t097-v3-angstrom-emmc-20151228.tar.gz>`
+| :download:`prebuilt-som-v3-cs10768t097-v3-angstrom-emmc-20200721.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/9.7/Angstrom2012/prebuilt-som-v3-cs10768t097-v3-angstrom-emmc-20200721.tar.gz>`
 
+| **2xCAN**
+
+| :download:`prebuilt-som-v3-cs10768t097-v3-angstrom-2can-emmc-20200721.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/AM3354/eMMC/9.7/Angstrom2012/prebuilt-som-v3-cs10768t097-v3-angstrom-2can-emmc-20200721.tar.gz>`
