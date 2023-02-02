@@ -415,7 +415,7 @@
 <ol class="arabic">
 <li><p>Add the following lines in your <strong>/boot/config.txt</strong> file:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">disable_overscan</span><span class="o">=</span><span class="mi">1</span>
-<span class="n">dtparam</span><span class="o">=</span><span class="n">i2c_vc</span><span class="o">=</span><span class="mi">0</span><span class="n">n</span>
+<span class="n">dtparam</span><span class="o">=</span><span class="n">i2c_vc</span><span class="o">=</span><span class="n">on</span>
 <span class="n">dtoverlay</span><span class="o">=</span><span class="n">i2c</span><span class="o">-</span><span class="n">rtc</span><span class="p">,</span><span class="n">ds1307</span><span class="p">,</span><span class="n">i2c_csi_dsi</span><span class="p">,</span><span class="n">addr</span><span class="o">=</span><span class="mh">0x32</span>
 </pre></div>
 </div>
@@ -467,6 +467,37 @@ $ sudo reboot
 <p class="admonition-title">Warning</p>
 <p>Be sure to reboot after installing cmhelper.</p>
 </div>
+<ol class="arabic" start="5">
+<li><p>Fix volume function.</p>
+<p>If the volume button doesn’t work, try to use follow ways to fix.</p>
+<p>New one file name volen.dts:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">dts</span><span class="o">-</span><span class="n">v1</span><span class="o">/</span><span class="p">;</span>
+<span class="o">/</span><span class="n">plugin</span><span class="o">/</span><span class="p">;</span>
+
+<span class="o">/</span> <span class="p">{</span>
+    <span class="n">compatible</span> <span class="o">=</span> <span class="s2">"brcm,bcm2835"</span><span class="p">;</span>
+
+    <span class="n">fragment</span><span class="o">@</span><span class="mi">0</span> <span class="p">{</span>
+        <span class="n">target</span> <span class="o">=</span> <span class="o">&lt;&amp;</span><span class="n">cam1_reg</span><span class="o">&gt;</span><span class="p">;</span>
+        <span class="n">__overlay__</span> <span class="p">{</span>
+            <span class="n">status</span> <span class="o">=</span> <span class="s2">"disabled"</span><span class="p">;</span>
+        <span class="p">};</span>
+    <span class="p">};</span>
+<span class="p">};</span>
+</pre></div>
+</div>
+<p>Then compile it to dtbo and copy it to /boot/overlays/:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ dtc -I dts -O dtb -o volen.dtbo volen.dts
+$ sudo cp volen.dtbo /boot/overlays/
+</pre></div>
+</div>
+<p>Add follow in /boot/config.txt:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dtoverlay</span><span class="o">=</span><span class="n">volen</span>
+</pre></div>
+</div>
+<p>reboot to check again.</p>
+</li>
+</ol>
 </section>
 <section id="how-to-use-cmhelper">
 <h2 id="how-to-use-cmhelper">How to use CMHelper<a class="headerlink" href="#how-to-use-cmhelper" title="Permalink to this heading">¶</a></h2>

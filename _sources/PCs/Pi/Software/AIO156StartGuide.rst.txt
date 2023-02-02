@@ -50,7 +50,7 @@ Install CMhelper
 1. Add the following lines in your **/boot/config.txt** file::
 
     disable_overscan=1
-    dtparam=i2c_vc=0n
+    dtparam=i2c_vc=on
     dtoverlay=i2c-rtc,ds1307,i2c_csi_dsi,addr=0x32
 
 2. Add cmhelper PPA to your system manually by copying the lines below
@@ -93,6 +93,41 @@ Install CMhelper
 
 .. Warning::
    Be sure to reboot after installing cmhelper.
+
+5. Fix volume function.
+   
+   If the volume button doesn't work, try to use follow ways to fix.
+   
+   New one file name volen.dts::
+   
+    /dts-v1/;
+    /plugin/;
+
+    / {
+        compatible = "brcm,bcm2835";
+
+        fragment@0 {
+            target = <&cam1_reg>;
+            __overlay__ {
+                status = "disabled";
+            };
+        };
+    };
+	
+	
+   Then compile it to dtbo and copy it to /boot/overlays/::
+	
+	$ dtc -I dts -O dtb -o volen.dtbo volen.dts
+	$ sudo cp volen.dtbo /boot/overlays/
+	
+	
+   Add follow in /boot/config.txt::
+	
+	dtoverlay=volen
+	
+	
+   reboot to check again.
+   
 
 How to use CMHelper
 -------------------
