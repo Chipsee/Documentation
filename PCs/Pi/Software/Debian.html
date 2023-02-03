@@ -1133,14 +1133,14 @@ $<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><sp
 <p>We use one PWM to control the backlight for Chipsee Raspberry Pi boards, You can use follow commands to control the backlight.</p>
 <ul>
 <li><dl>
-<dt>Get the supported max brightness:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>cat<span class="w">  </span>/sys/class/backlight/backlight/max_brightness
+<dt>Get the supported max brightness:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>cat<span class="w">  </span>/sys/class/backlight/pwm-backlight/max_brightness
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt>Set brightness:</dt><dd><div class="highlight-text notranslate"><div class="highlight"><pre><span></span>$ echo 50 &gt; /sys/class/backlight/backlight/brightness
+<dt>Set brightness:</dt><dd><div class="highlight-text notranslate"><div class="highlight"><pre><span></span>$ echo 50 &gt; /sys/class/backlight/pwm-backlight/brightness
 </pre></div>
 </div>
 </dd>
@@ -1368,7 +1368,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Feb 02, 2023.
+              Feb 03, 2023.
             <br/>
         </div>
       </div>
