@@ -203,12 +203,12 @@ We use one PWM to control the backlight for Chipsee Raspberry Pi boards, You can
 * Get the supported max brightness:
     .. code:: bash
 
-        $ cat  /sys/class/backlight/backlight/max_brightness
+        $ cat  /sys/class/backlight/pwm-backlight/max_brightness
 
 * Set brightness:
     .. code:: text
 
-        $ echo 50 > /sys/class/backlight/backlight/brightness
+        $ echo 50 > /sys/class/backlight/pwm-backlight/brightness
 
 4G
 --
