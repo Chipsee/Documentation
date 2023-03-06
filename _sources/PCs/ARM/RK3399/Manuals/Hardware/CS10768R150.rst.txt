@@ -8,7 +8,7 @@
 
 .. |res| replace:: 1024 x 768
 
-.. |bright| replace:: 250 |cd|
+.. |bright| replace:: 350 |cd|
 
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
