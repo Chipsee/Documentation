@@ -22,11 +22,11 @@
 
 .. |dimE| replace:: 141.2 x 77.6 x 25.8mm
 
-.. |dimP| replace:: 157.1 x 98.1 x 27.7mm
+.. |dimP| replace:: 139 x 85 x 28mm
 
 .. |weightE| replace:: 200g
 
-.. |weightP| replace:: 400g
+.. |weightP| replace:: 310g
 
 .. |tscreen| replace:: 5-point capacitive touch
 
@@ -76,7 +76,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.png
+.. image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Panel Mounting Variant)
 
@@ -89,7 +89,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Back.png
+.. image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Back.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View (Panel Mounting Variant)
 
