@@ -883,10 +883,16 @@ Development
 
 In this chapter, you will learn how to set up the QT development environment, and develop the first QT application on Chipsee IPC boards.
 
+Host system requirements
+------------------------
+
+#) Ubuntu 14.04 LTS 64bit system should be installed on the host machine.
+#) Qtcreator is optional to develop application, you can download QT5.5.1 which will install Qtcreator. Other Qt version should ok as we only need Qtcreator.
+
 Preparation
 -----------
 
-#) Download `QT5.5.1 <https://download.qt.io/archive/qt/5.5/5.5.1/>`_ and install it on the system. Install it in the `/home/<user>/program` directory.
+#) Download `QT5.5.1 <https://download.qt.io/new_archive/qt/5.5/5.5.1/>`_ and install it on the system. Other Qt version should ok as we only need Qtcreator. Install it in the `/home/<user>/program` directory.
 #) Install SDK. Get the `SDK <https://chipsee-tmp.s3.amazonaws.com/DVD/IMX6Q/Tools/fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh>`_ and install it using this command:
     .. code-block:: bash
 

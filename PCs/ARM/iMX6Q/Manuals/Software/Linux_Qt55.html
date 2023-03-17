@@ -348,6 +348,8 @@
         </li>
         <li class="md-nav__item"><a href="#development" class="md-nav__link">Development</a><nav class="md-nav">
               <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#host-system-requirements" class="md-nav__link">Host system requirements</a>
+        </li>
         <li class="md-nav__item"><a href="#id4" class="md-nav__link">Preparation</a>
         </li>
         <li class="md-nav__item"><a href="#example-develop-a-helloworld-program" class="md-nav__link">Example — Develop a <code class="docutils literal notranslate"><span class="pre">HelloWorld</span></code> Program</a>
@@ -601,6 +603,8 @@
         </li>
         <li class="md-nav__item"><a href="#development" class="md-nav__link">Development</a><nav class="md-nav">
               <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#host-system-requirements" class="md-nav__link">Host system requirements</a>
+        </li>
         <li class="md-nav__item"><a href="#id4" class="md-nav__link">Preparation</a>
         </li>
         <li class="md-nav__item"><a href="#example-develop-a-helloworld-program" class="md-nav__link">Example — Develop a <code class="docutils literal notranslate"><span class="pre">HelloWorld</span></code> Program</a>
@@ -1766,10 +1770,17 @@ $<span class="w"> </span>sudo<span class="w">  </span>./mksdcard.sh<span class="
 <section id="development">
 <h2 id="development">Development<a class="headerlink" href="#development" title="Permalink to this heading">¶</a></h2>
 <p>In this chapter, you will learn how to set up the QT development environment, and develop the first QT application on Chipsee IPC boards.</p>
+<section id="host-system-requirements">
+<h3 id="host-system-requirements">Host system requirements<a class="headerlink" href="#host-system-requirements" title="Permalink to this heading">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Ubuntu 14.04 LTS 64bit system should be installed on the host machine.</p></li>
+<li><p>Qtcreator is optional to develop application, you can download QT5.5.1 which will install Qtcreator. Other Qt version should ok as we only need Qtcreator.</p></li>
+</ol>
+</section>
 <section id="id4">
 <h3 id="id4">Preparation<a class="headerlink" href="#id4" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic">
-<li><p>Download <a class="reference external" href="https://download.qt.io/archive/qt/5.5/5.5.1/">QT5.5.1</a> and install it on the system. Install it in the <cite>/home/&lt;user&gt;/program</cite> directory.</p></li>
+<li><p>Download <a class="reference external" href="https://download.qt.io/new_archive/qt/5.5/5.5.1/">QT5.5.1</a> and install it on the system. Other Qt version should ok as we only need Qtcreator. Install it in the <cite>/home/&lt;user&gt;/program</cite> directory.</p></li>
 <li><dl>
 <dt>Install SDK. Get the <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/DVD/IMX6Q/Tools/fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh">SDK</a> and install it using this command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># chmod +x fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh</span>
 <span class="c1"># ./ fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh</span>
@@ -2047,7 +2058,7 @@ Chipsee products are not authorized for use as critical components in life suppo
               
           </div>
             Last updated on
-              Mar 15, 2023.
+              Mar 17, 2023.
             <br/>
         </div>
       </div>
