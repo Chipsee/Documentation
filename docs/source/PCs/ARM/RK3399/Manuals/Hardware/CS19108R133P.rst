@@ -130,7 +130,7 @@
 
 .. include:: Resources/HW_features
 
-.. include:: Resources/table_cs12800_common
+.. include:: Resources/table_cs12800r101p
 
 .. include:: Resources/power_cs12800_common
 
