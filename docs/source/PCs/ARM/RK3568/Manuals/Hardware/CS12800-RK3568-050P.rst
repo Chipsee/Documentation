@@ -34,7 +34,7 @@
 
 .. |GPIO| replace:: NULL
 
-.. |opt1| replace:: Supported, Optional
+.. |opt1| replace:: NULL
 
 .. |opt2| replace:: Integrated WiFi/BT Module
 
