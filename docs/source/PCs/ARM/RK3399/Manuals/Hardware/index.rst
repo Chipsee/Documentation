@@ -21,21 +21,6 @@ RK3399 Hardware Documentation
    :name: hwdocstable_2
 
    +---------------------+------------------------------------------------------------------------+
-   | |EPC/PPC-A72-101-C| |   :ref:`EPC/PPC-A72-101-C User Manual <EPC/PPC-A72-101-C>` |br|        |
-   |                     |   PN: CS12800R101 |br| |br|                                            |
-   |                     |                                                                        |
-   |                     |   10.1", 1280 x 800, 10-point capacitive touch screen                  |
-   +---------------------+------------------------------------------------------------------------+
-
-.. |EPC/PPC-A72-101-C| image:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Front.jpeg
-   :class: no-scaled-link
-   :target: CS12800R101.html
-
-.. table::
-   :widths: 20 30
-   :name: hwdocstable_3
-
-   +---------------------+------------------------------------------------------------------------+
    | |PPC-A72-101-C|     |   :ref:`PPC-A72-101-C User Manual <PPC-A72-101-C>` |br|                |
    |                     |   PN: CS12800R101P |br| |br|                                           |
    |                     |                                                                        |
@@ -48,7 +33,7 @@ RK3399 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_4
+   :name: hwdocstable_3
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-A72-125-C|     |   :ref:`PPC-A72-125-C User Manual <PPC-A72-125-C>` |br|                |
@@ -63,22 +48,22 @@ RK3399 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_5
+   :name: hwdocstable_4
 
    +---------------------+------------------------------------------------------------------------+
-   | |PPC-A72-133-C|     |   :ref:`PPC-A72-133-C User Manual <PPC-A72-133-C>` |br|                |
-   |                     |   PN: CS19108R133 |br| |br|                                            |
+   | |PPC-A72-133-C-P|   |   :ref:`PPC-A72-133-C User Manual <PPC-A72-133-C-P>` |br|              |
+   |                     |   PN: CS19108R133P |br| |br|                                           |
    |                     |                                                                        |
    |                     |   13.3", 1920 x 1080, 10-point capacitive touch screen                 |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC-A72-133-C| image:: /Media/ARM/A72/CS19108R133/PPC-A72-133-C-Front.jpeg
+.. |PPC-A72-133-C-P| image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-P-Front.jpg
    :class: no-scaled-link
-   :target: CS19108R133.html
+   :target: CS19108R133P.html
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_6
+   :name: hwdocstable_5
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-A72-150-C|     |   :ref:`PPC-A72-150-C User Manual <PPC-A72-150-C>` |br|                |
@@ -93,7 +78,7 @@ RK3399 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_7
+   :name: hwdocstable_6
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-A72-156-C|     |   :ref:`PPC-A72-156-C User Manual <PPC-A72-156-C>` |br|                |
@@ -108,7 +93,7 @@ RK3399 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_8
+   :name: hwdocstable_7
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-A72-173-C|     |   :ref:`PPC-A72-173-C User Manual <PPC-A72-173-C>` |br|                |
@@ -123,7 +108,7 @@ RK3399 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_9
+   :name: hwdocstable_8
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-A72-215-C|     |   :ref:`PPC-A72-215-C User Manual <PPC-A72-215-C>` |br|                |
@@ -136,6 +121,37 @@ RK3399 Hardware Documentation
    :class: no-scaled-link
    :target: CS19108R215.html
 
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_9
+
+   +---------------------+------------------------------------------------------------------------+
+   | |EPC/PPC-A72-101-C| |   :ref:`EPC/PPC-A72-101-C User Manual <EPC/PPC-A72-101-C>` |br|        |
+   |                     |   PN: CS12800R101 |br| |br|                                            |
+   |                     |                                                                        |
+   |                     |   10.1", 1280 x 800, 10-point capacitive touch screen                  |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |EPC/PPC-A72-101-C| image:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Front.jpeg
+   :class: no-scaled-link
+   :target: CS12800R101.html
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_10
+
+   +---------------------+------------------------------------------------------------------------+
+   | |PPC-A72-133-C|     |   :ref:`PPC-A72-133-C User Manual <PPC-A72-133-C>` |br|                |
+   |                     |   PN: CS19108R133 |br| |br|                                            |
+   |                     |                                                                        |
+   |                     |   13.3", 1920 x 1080, 10-point capacitive touch screen                 |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-A72-133-C| image:: /Media/ARM/A72/CS19108R133/PPC-A72-133-C-Front.jpeg
+   :class: no-scaled-link
+   :target: CS19108R133.html
+
+
 .. toctree::
    :maxdepth: 1
    :titlesonly:
@@ -143,11 +159,12 @@ RK3399 Hardware Documentation
 
 
    EPC/PPC-A72-070-C <CS10600R070>
-   EPC/PPC-A72-101-C(Legacy) <CS12800R101>
    PPC-A72-101-C <CS12800R101P>
    PPC-A72-125-C <CS19108R125>
-   PPC-A72-133-C <CS19108R133>
+   PPC-A72-133-C <CS19108R133P>
    PPC-A72-150-C <CS10768R150>
    PPC-A72-156-C <CS19108R156>
    PPC-A72-173-C <CS19108R173>
    PPC-A72-215-C <CS19108R215>
+   EPC/PPC-A72-101-C(Legacy) <CS12800R101>
+   PPC-A72-133-C(Legacy) <CS19108R133>
