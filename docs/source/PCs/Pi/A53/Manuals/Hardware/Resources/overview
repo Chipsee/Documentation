@@ -3,6 +3,18 @@ Product Overview
 
 The |Cortex|-A53 Raspberry |Pi| series |product| (|PN|) is a high-quality industrial Pi PC. It features a |disp_des|.
 
+.. sidebar:: Key Applications
+   
+  + Human Machine Interface（HMI）
+  + Process Control
+  + Process Monitoring
+  + HMI
+  + IIoT node
+  + Environmental Monitoring
+  + PLC
+  + Automotive applications
+  + ATM...
+
 It is available both as an embedded solution and as a device hosed in a casing with bezels, thus facilitating different installation options:
 
 + Installation on an industrial cabinet
