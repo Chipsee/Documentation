@@ -1,6 +1,6 @@
-.. |product| replace:: PPC-A55-070-C
+.. |product| replace:: PPC-A55-070
 
-.. |productP| replace:: PPC-A55-070-C
+.. |productP| replace:: PPC-A55-070
 
 .. |PN| replace:: PN: CS12800-RK3568-070P
 
@@ -55,7 +55,7 @@
 .. |poe| replace:: Supported, Optional
 
 
-.. _PPC-A55-070-C:
+.. _PPC-A55-070:
 
 |product|
 #########

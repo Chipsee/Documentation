@@ -1,6 +1,6 @@
-.. |product| replace:: PPC-A55-101-C
+.. |product| replace:: PPC-A55-101
 
-.. |productP| replace:: PPC-A55-101-C
+.. |productP| replace:: PPC-A55-101
 
 .. |PN| replace:: PN: CS12800-RK3568-101P
 
@@ -53,7 +53,7 @@
 .. |can| replace:: 2 x CAN
 
 
-.. _PPC-A55-101-C:
+.. _PPC-A55-101:
 
 |product|
 #########
