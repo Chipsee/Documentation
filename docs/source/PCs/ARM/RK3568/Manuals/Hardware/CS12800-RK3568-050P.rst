@@ -1,6 +1,6 @@
-.. |product| replace:: PPC-A55-050-C
+.. |product| replace:: PPC-A55-050
 
-.. |productP| replace:: PPC-A55-050-C
+.. |productP| replace:: PPC-A55-050
 
 .. |PN| replace:: PN: CS12800-RK3568-050P
 
@@ -53,7 +53,7 @@
 .. |can| replace:: default 1 x CAN (Optional 2 x CAN at most)
 
 
-.. _PPC-A55-050-C:
+.. _PPC-A55-050:
 
 |product|
 #########
@@ -128,7 +128,10 @@
 
 .. include:: Resources/ordering
 
-.. include:: Resources/opt_features
+.. warning::   
+
+   | Installation, repair, and maintenance tasks should be performed by trained personnel only.
+   | Chipsee does not bear any responsibility for damage caused by inadequate handling of the product.
 
 .. include:: Resources/HW_features
 
