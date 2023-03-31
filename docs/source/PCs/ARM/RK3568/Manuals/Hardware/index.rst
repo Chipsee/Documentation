@@ -6,13 +6,13 @@ RK3568 Hardware Documentation
    :name: hwdocstable_1
 
    +---------------------+------------------------------------------------------------------------+
-   | |PPC-A55-050-C|     |   :ref:`PPC-A55-050-C User Manual <PPC-A55-050-C>` |br|                |
+   | |PPC-A55-050|       |   :ref:`PPC-A55-050 User Manual <PPC-A55-050>` |br|                    |
    |                     |   PN: CS12800-RK3568-050P |br| |br|                                    |
    |                     |                                                                        |
    |                     |   5.0", 1280 x 720, 5-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC-A55-050-C| image:: /Media/ARM/A55/CS12800-RK3568-050P/PPC-A55-050-C-Front.jpg
+.. |PPC-A55-050| image:: /Media/ARM/A55/CS12800-RK3568-050P/PPC-A55-050-C-Front.jpg
    :class: no-scaled-link
    :target: CS12800-RK3568-050P.html
 
@@ -21,13 +21,13 @@ RK3568 Hardware Documentation
    :name: hwdocstable_2
 
    +---------------------+------------------------------------------------------------------------+
-   | |PPC-A55-070-C|     |   :ref:`PPC-A55-070-C User Manual <PPC-A55-070-C>` |br|                |
+   | |PPC-A55-070|       |   :ref:`PPC-A55-070 User Manual <PPC-A55-070>` |br|                    |
    |                     |   PN: CS12800-RK3568-070P |br| |br|                                    |
    |                     |                                                                        |
    |                     |   7.0", 1024 x 600, 5-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC-A55-070-C| image:: /Media/ARM/A55/CS12800-RK3568-070P/CS10600RK3568070P-Front.jpg
+.. |PPC-A55-070| image:: /Media/ARM/A55/CS12800-RK3568-070P/CS10600RK3568070P-Front.jpg
    :class: no-scaled-link
    :target: CS12800-RK3568-070P.html
 
@@ -36,13 +36,13 @@ RK3568 Hardware Documentation
    :name: hwdocstable_3
 
    +---------------------+------------------------------------------------------------------------+
-   | |PPC-A55-101-C|     |   :ref:`PPC-A55-101-C User Manual <PPC-A55-101-C>` |br|                |
+   | |PPC-A55-101|       |   :ref:`PPC-A55-101 User Manual <PPC-A55-101>` |br|                    |
    |                     |   PN: CS12800-RK3568-101P |br| |br|                                    |
    |                     |                                                                        |
    |                     |   10.1", 1280 x 800, 10-point capacitive touch screen                  |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC-A55-101-C| image:: /Media/ARM/A55/CS12800-RK3568-101P/PPC-A55-101-C-Front.jpeg
+.. |PPC-A55-101| image:: /Media/ARM/A55/CS12800-RK3568-101P/PPC-A55-101-C-Front.jpeg
    :class: no-scaled-link
    :target: CS12800-RK3568-101P.html
 
@@ -53,6 +53,6 @@ RK3568 Hardware Documentation
    :hidden:
 
 
-   PPC-A55-050-C <CS12800-RK3568-050P>
-   PPC-A55-070-C <CS12800-RK3568-070P>
-   PPC-A55-101-C <CS12800-RK3568-101P>
+   PPC-A55-050 <CS12800-RK3568-050P>
+   PPC-A55-070 <CS12800-RK3568-070P>
+   PPC-A55-101 <CS12800-RK3568-101P>
