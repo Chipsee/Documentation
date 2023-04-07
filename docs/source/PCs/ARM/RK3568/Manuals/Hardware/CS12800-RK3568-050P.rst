@@ -2,7 +2,7 @@
 
 .. |productP| replace:: PPC-A55-050
 
-.. |PN| replace:: PN: CS12800-RK3568-050P
+.. |PN| replace:: PN: CS12720-RK3568-050P
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
