@@ -7,14 +7,14 @@ RK3568 Hardware Documentation
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-A55-050|       |   :ref:`PPC-A55-050 User Manual <PPC-A55-050>` |br|                    |
-   |                     |   PN: CS12800-RK3568-050P |br| |br|                                    |
+   |                     |   PN: CS12720-RK3568-050P |br| |br|                                    |
    |                     |                                                                        |
    |                     |   5.0", 1280 x 720, 5-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
 .. |PPC-A55-050| image:: /Media/ARM/A55/CS12800-RK3568-050P/PPC-A55-050-C-Front.jpg
    :class: no-scaled-link
-   :target: CS12800-RK3568-050P.html
+   :target: CS12720-RK3568-050P.html
 
 .. table::
    :widths: 20 30
@@ -22,14 +22,14 @@ RK3568 Hardware Documentation
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-A55-070|       |   :ref:`PPC-A55-070 User Manual <PPC-A55-070>` |br|                    |
-   |                     |   PN: CS12800-RK3568-070P |br| |br|                                    |
+   |                     |   PN: CS10600-RK3568-070P |br| |br|                                    |
    |                     |                                                                        |
    |                     |   7.0", 1024 x 600, 5-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
 .. |PPC-A55-070| image:: /Media/ARM/A55/CS12800-RK3568-070P/CS10600RK3568070P-Front.jpg
    :class: no-scaled-link
-   :target: CS12800-RK3568-070P.html
+   :target: CS10600-RK3568-070P.html
 
 .. table::
    :widths: 20 30
@@ -53,6 +53,6 @@ RK3568 Hardware Documentation
    :hidden:
 
 
-   PPC-A55-050 <CS12800-RK3568-050P>
-   PPC-A55-070 <CS12800-RK3568-070P>
+   PPC-A55-050 <CS12720-RK3568-050P>
+   PPC-A55-070 <CS10600-RK3568-070P>
    PPC-A55-101 <CS12800-RK3568-101P>
