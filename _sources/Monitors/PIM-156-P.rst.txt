@@ -44,7 +44,7 @@
 
 .. _product_link: https://chipsee.com/product/pim156cp/
 
-.. |product_link| replace:: PIM-156-C-P
+.. |product_link| replace:: PIM-156-P
 
 
 .. _PIM-156-P:
