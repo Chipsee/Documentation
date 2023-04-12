@@ -1,4 +1,4 @@
-.. |product| replace:: PIM-156-C-P
+.. |product| replace:: PIM-156-P
 
 .. |PN| replace:: PN: CS-D156P
 
@@ -47,7 +47,7 @@
 .. |product_link| replace:: PIM-156-C-P
 
 
-.. _PIM-156-C-P:
+.. _PIM-156-P:
 
 |product|
 #########
