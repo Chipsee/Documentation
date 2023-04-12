@@ -51,13 +51,13 @@ RK3399 Hardware Documentation
    :name: hwdocstable_4
 
    +---------------------+------------------------------------------------------------------------+
-   | |PPC-A72-133-C-P|   |   :ref:`PPC-A72-133-C User Manual <PPC-A72-133-C-P>` |br|              |
+   | |PPC-A72-133-P|     |   :ref:`PPC-A72-133-P User Manual <PPC-A72-133-P>` |br|                |
    |                     |   PN: CS19108R133P |br| |br|                                           |
    |                     |                                                                        |
    |                     |   13.3", 1920 x 1080, 10-point capacitive touch screen                 |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC-A72-133-C-P| image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-P-Front.jpg
+.. |PPC-A72-133-P| image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-P-Front.jpg
    :class: no-scaled-link
    :target: CS19108R133P.html
 
@@ -161,7 +161,7 @@ RK3399 Hardware Documentation
    EPC/PPC-A72-070-C <CS10600R070>
    PPC-A72-101-C <CS12800R101P>
    PPC-A72-125-C <CS19108R125>
-   PPC-A72-133-C <CS19108R133P>
+   PPC-A72-133-P <CS19108R133P>
    PPC-A72-150-C <CS10768R150>
    PPC-A72-156-C <CS19108R156>
    PPC-A72-173-C <CS19108R173>

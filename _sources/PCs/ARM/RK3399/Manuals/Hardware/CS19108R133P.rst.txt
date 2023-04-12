@@ -1,6 +1,6 @@
-.. |product| replace:: PPC-A72-133-C
+.. |product| replace:: PPC-A72-133-P
 
-.. |productP| replace:: PPC-A72-133-C
+.. |productP| replace:: PPC-A72-133-P
 
 .. |PN| replace:: PN: CS19108R133P
 
@@ -51,7 +51,7 @@
 .. |rs485| replace:: 2 x RS485
 
 
-.. _PPC-A72-133-C-P:
+.. _PPC-A72-133-P:
 
 |product|
 #########
