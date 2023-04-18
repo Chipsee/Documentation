@@ -12,7 +12,9 @@ If you have questions not covered in this documentation, please consult Chipsee 
 
    Debian 10 (buster) <Debian>
 
-   AIO-CM4-156 Start Guide <AIO156StartGuide>
+   AIO-CM4-156 Debian Start Guide <AIO156StartGuide>
+   
+   AIO-CM4-156 Android Start Guide <AIO156AndroidSystem>
 
 
 .. warning::

@@ -1,5 +1,5 @@
-AIO-CM4-156 Start Guide
-#######################
+AIO-CM4-156 Debian Start Guide
+##############################
 
 .. centered:: Setting up your AIO-CM4-156
 
