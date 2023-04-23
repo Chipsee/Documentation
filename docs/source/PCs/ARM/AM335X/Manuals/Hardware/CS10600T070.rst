@@ -1,3 +1,9 @@
+:pdf-title: PPC/EPC-A8-070H-C
+:pdf-subtitle: EPC-A8-070H-C | PPC-A8-070H-C
+:pdf-filename: PPC-EPC-A8-070H-C
+:pdf-type: Industrial PC
+:pdf-revision: 1.01
+
 .. |product| replace:: PPC/EPC-A8-070H-C
 
 .. |productE| replace:: EPC-A8-070H-C
@@ -69,7 +75,7 @@
 
 .. raw:: html
 
-    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
+    <div class="row html-only" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
 
 .. Image thumbnail 1
 .. raw:: html

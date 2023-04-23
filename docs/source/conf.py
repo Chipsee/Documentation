@@ -34,6 +34,7 @@ extensions = [
     "sphinx_substitution_extensions",
     "sphinx_material",
     "sphinx_design",
+    "sphinx_pdf_generate",
 ]
 
 
@@ -144,11 +145,25 @@ html_last_updated_fmt = "%b %d, %Y"
 # tablecaption = 'below'
 pygments_style = "sphinx"
 
-# PDF output
-# latex_engine = 'pdflatex'
-# latex_logo = './Media/Chipsee_Logo_Full.png'
-
-# Sphinx internationalization details
-# language = "zh_CN"
-# locale_dirs = ['locale/']   # path is example but recommended.
-# gettext_compact = False     # optional
+# Sphinx-PDF-Generate configurations
+pdfgen_verbose = False
+pdfgen_site_url = "http://127.0.0.1:8000"
+pdfgen_debug = True
+pdfgen_debug_target = "PCs/ARM/AM335X/Manuals/Hardware/CS10600T070.rst"
+pdfgen_author = "Chipsee"
+pdfgen_author_logo = "_static/images/logo_header.png"
+pdfgen_copyright = copyright
+pdfgen_disclaimer = "Disclaimer: Content can change at anytime and best to refer to website for latest information."
+pdfgen_cover = True
+# pdfgen_cover_title = ""
+# pdfgen_cover_subtitle = ""
+pdfgen_custom_template_path = "cover_templates"
+pdfgen_custom_css_path = "_static/css"
+pdfgen_toc = True
+pdfgen_toc_numbering = True
+pdfgen_toc_title = "Contents"
+pdfgen_toc_level = 6
+pdfgen_cover_images = {
+    "default": "_static/images/cover.jpg"
+}
+pdfgen_plugin_handler_path = "custom_code.py"
