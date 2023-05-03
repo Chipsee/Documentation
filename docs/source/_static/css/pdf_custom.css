@@ -1,11 +1,10 @@
 @media print {
 
-/*
     h2,
     h3 {
         string-set: chapter content();
     }
-
+/*
     h2::before,
     h3::before,
     h4::before,
@@ -22,12 +21,8 @@
 
     @page {
 
-        margin: 15mm 10mm;
-        padding: 5mm 0;
-
         @top-right {
             font-size: 9pt;
-            font-family: var(--md-text-font);
             height: initial;
             width: initial;
             max-width: initial;
@@ -36,24 +31,30 @@
         @top-right {
             content: string(chapter);
             font-size: 9pt;
+            font-family: 'Open Sans', sans-serif!important;
         }
 
         @top-left {
             content: var(--title);
+            font-family: 'Open Sans', sans-serif!important;
         }
 
         @bottom-center {
             font-size: 9pt;
             content: var(--type);
             text-transform: uppercase;
+            font-family: 'Open Sans', sans-serif!important;
+            font-weight: 600!important;
         }
 
         @bottom-right {
             content: "Page " counter(page) " of " counter(pages);
+            font-family: 'Open Sans', sans-serif!important;
         }
 
         @bottom-left {
             content: var(--author);
+            font-family: 'Open Sans', sans-serif!important;
         }
     }
 

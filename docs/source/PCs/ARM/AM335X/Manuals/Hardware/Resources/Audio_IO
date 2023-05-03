@@ -7,6 +7,7 @@ On the embedded panel PC version, the pink connector is the audio input jack (li
 
 .. figure:: /Media/ARM/A8/AM3354/Audio.jpeg
   :figclass: align-center
+  :class: pdf-width-80
   :align: center
 
   *Audio I/O (embedded/enclosed PC version)*
