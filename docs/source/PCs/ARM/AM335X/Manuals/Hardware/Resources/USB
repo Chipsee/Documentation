@@ -6,6 +6,7 @@ There are 2 x Type A **USB HOST connectors** onboard, as shown on the figure bel
 .. Figure:: /Media/ARM/A8/AM3354/USB_OTG.jpeg
   :align: center
   :figclass: align-center
+  :class: pdf-width-20
   
   *USB HOST Connectors (embedded/enclosed PC version)*
 

@@ -10,7 +10,8 @@ def main(**kwargs: BeautifulSoup) -> None:
     pdf_thumbnails: List[Tag] = []
     for img in thumbnail_images:
         pdf_figure = soup.new_tag("figure", attrs={"class": "align-center"})
-        pdf_img: Tag = soup.new_tag("img", attrs={"src": img["src"], "alt": img["alt"]})
+        img_classes = [cls_ for cls_ in img.attrs['class'] if re.match(r"pdf-width-\d{1,3}", cls_)]
+        pdf_img: Tag = soup.new_tag("img", attrs={"src": img["src"], "alt": img["alt"], "class": " ".join(img_classes)})
         pdf_figcaption = soup.new_tag("figcaption")
 
         figcaption_text = soup.new_tag("p", attrs={"class": "caption-text"})

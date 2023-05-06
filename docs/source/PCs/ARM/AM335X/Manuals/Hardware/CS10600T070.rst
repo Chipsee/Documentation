@@ -84,7 +84,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/ARM/A8/CS10600T070/PPC-A8-070H-C-Front.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-90
    :alt: Front View (Panel Mounting Variant)
 
 .. raw:: html
@@ -97,7 +97,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/ARM/A8/CS10600T070/PPC-A8-070H-C-Back.jpeg
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-70
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-85
    :alt: Back View (Panel Mounting Variant)
 
 .. raw:: html
@@ -110,7 +110,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/ARM/A8/CS10600T070/EPC-A8-070H-C-Front.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-90
    :alt: Front View (Embedded Variant)
 
 .. raw:: html
@@ -123,7 +123,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/ARM/A8/CS10600T070/EPC-A8-070H-C-Back.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-90
    :alt: Back View (Embedded Variant)
 
 .. raw:: html
@@ -134,6 +134,7 @@
 
     </div>
 
+:pagebreak:`True`
 
 .. include:: Resources/overview
 
@@ -157,6 +158,8 @@
 
 .. include:: Resources/connectivity
 
+:pagebreak:`True`
+
 .. include:: Resources/USB
 
 .. include:: Resources/LAN
@@ -167,13 +170,19 @@
 
 .. include:: Resources/expansion_IO
 
+:pagebreak:`True`
+
 .. include:: Resources/TF_Card
 
 .. include:: Resources/Audio_IO
 
+:pagebreak:`True`
+
 .. include:: Resources/Boot_SW
 
 .. include:: Resources/mounting
+
+:pagebreak:`True`
 
 Mechanical Specifications
 =========================
