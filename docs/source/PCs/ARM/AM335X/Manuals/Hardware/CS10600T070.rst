@@ -68,7 +68,7 @@
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
     :class: html-only
 
 .. You must add the `product-img img-thumbnail mx-auto d-block` word

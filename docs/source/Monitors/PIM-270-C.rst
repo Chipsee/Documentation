@@ -48,7 +48,8 @@
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
+    :class: html-only
 
 .. note::
 
