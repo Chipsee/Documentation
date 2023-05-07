@@ -1,7 +1,7 @@
 :pdf-title: PPC/EPC-A8-070H-C
 :pdf-subtitle: EPC-A8-070H-C | PPC-A8-070H-C
 :pdf-filename: PPC-EPC-A8-070H-C
-:pdf-type: Industrial PC
+:pdf-type: pcs
 :pdf-revision: 1.01
 
 .. |product| replace:: PPC/EPC-A8-070H-C

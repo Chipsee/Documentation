@@ -142,20 +142,20 @@
         margin-bottom: 10mm;
     }
 
-    /* Application Note */
-    #doc-cover.appnote #doc-cover-content {
+    /* PCS */
+    #doc-cover.pcs #doc-cover-content {
         max-height: 267mm;
         min-height: 267mm;
         margin: 20mm 10mm 10mm 10mm;
     }
 
-    #doc-cover.appnote #cover_title {
+    #doc-cover.pcs #cover_title {
         font-size: 42pt;
         text-align: left;
         padding: 0 5mm;
     }
 
-    #doc-cover.appnote #cover_subtitle {
+    #doc-cover.pcs #cover_subtitle {
         font-size: 32pt;
         color: var(--md-primary-fg-color);
         text-align: left;
@@ -164,25 +164,25 @@
 
     }
 
-    #doc-cover.appnote #cover_appnote_label {
+    #doc-cover.pcs #cover_pcs_label {
         font-size: 32pt;
         margin-bottom: 10mm;
     }
 
-    /* Datasheet */
-    #doc-cover.datasheet #doc-cover-content {
+    /* Monitors */
+    #doc-cover.monitors #doc-cover-content {
         max-height: 267mm;
         min-height: 267mm;
         margin: 20mm 10mm 10mm 10mm;
     }
 
-    #doc-cover.datasheet #cover_title {
+    #doc-cover.monitors #cover_title {
         font-size: 42pt;
         text-align: left;
         padding: 0 5mm;
     }
 
-    #doc-cover.datasheet #cover_subtitle_area {
+    #doc-cover.monitors #cover_subtitle_area {
         position: absolute;
         left: 10mm;
         bottom: 75mm;
@@ -191,30 +191,30 @@
         padding: 0 5mm;
     }
 
-    #doc-cover.datasheet #cover_subtitle_area>p {
+    #doc-cover.monitors #cover_subtitle_area>p {
         margin-bottom: 2mm;
         margin-top: 0;
     }
 
-    #doc-cover.datasheet #cover_datasheet_label {
+    #doc-cover.monitors #cover_monitors_label {
         font-size: 32pt;
         margin-bottom: 10mm;
     }
 
-    /* Manuals */
-    #doc-cover.manual #doc-cover-content {
+    /* Tutorials */
+    #doc-cover.tutorials #doc-cover-content {
         max-height: 267mm;
         min-height: 267mm;
         margin: 20mm 10mm 10mm 10mm;
     }
 
-    #doc-cover.manual #cover_title {
+    #doc-cover.tutorials #cover_title {
         font-size: 42pt;
         text-align: left;
         padding: 0 5mm;
     }
 
-    #doc-cover.manual #cover_subtitle_area {
+    #doc-cover.tutorials #cover_subtitle_area {
         position: absolute;
         left: 10mm;
         bottom: 75mm;
@@ -223,15 +223,49 @@
         padding: 0 5mm;
     }
 
-    #doc-cover.manual #cover_subtitle_area>p {
+    #doc-cover.tutorials #cover_subtitle_area>p {
         margin-bottom: 2mm;
         margin-top: 0;
     }
 
-    #doc-cover.manual #cover_manual_label {
+    #doc-cover.tutorials #cover_tutorials_label {
         font-size: 32pt;
         margin-bottom: 10mm;
     }
+
+
+    /* SOM */
+    #doc-cover.som #doc-cover-content {
+        max-height: 267mm;
+        min-height: 267mm;
+        margin: 20mm 10mm 10mm 10mm;
+    }
+
+    #doc-cover.som #cover_title {
+        font-size: 42pt;
+        text-align: left;
+        padding: 0 5mm;
+    }
+
+    #doc-cover.som #cover_subtitle_area {
+        position: absolute;
+        left: 10mm;
+        bottom: 75mm;
+        font-size: 14pt;
+        text-align: left;
+        padding: 0 5mm;
+    }
+
+    #doc-cover.som #cover_subtitle_area>p {
+        margin-bottom: 2mm;
+        margin-top: 0;
+    }
+
+    #doc-cover.som #cover_som_label {
+        font-size: 32pt;
+        margin-bottom: 10mm;
+    }
+
 
     /* Table of Contents */
     article#doc-toc {
@@ -256,7 +290,6 @@
     .md-typeset div.tabbed-labels {
         display: block;
     }
-
 
     .md-typeset .tabbed-labels>label {
         padding: 0;
@@ -504,6 +537,11 @@
         display: block;
     }
 
+    p.caption_text{
+        margin: 2.5px 0 5px 0;
+        font-weight: 600;
+        font-size: 1rem;
+    }
     /* HTML Only (thumbnail) */
     .html-only{
         display: none;

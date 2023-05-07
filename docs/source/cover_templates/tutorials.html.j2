@@ -1,0 +1,38 @@
+<!-- article#doc-cover is used cover page handling -->
+<article id="doc-cover" class="tutorials"
+    {% if cover_image is defined %}
+    style="background-image: url('{{ cover_image | to_url }}');"
+    {% endif %}>
+    <div id="doc-cover-content">
+        <div id="cover_title_area">
+            <p id="cover_title">{{ cover_title | e }}</p>
+        </div>
+        <div id="cover_subtitle_area">
+            {% if cover_subtitle is string %}
+                {% set cover_subtitle = [cover_subtitle] %}
+            {% endif %}
+
+            {% for subtitle in cover_subtitle %}
+                {% if subtitle != type | capitalize %}
+                    <p>{{ subtitle | e }}</p>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div id="cover_reserved_rights">
+            <p id="cover_tutorials_label">{{ type | capitalize }}</p>
+            <p id="cover_revision">
+            {% if revision %}
+            Revision {{ revision | e }}
+            {% else %}
+            &nbsp;
+            {% endif %}
+            </p>
+            {% if copyright %}
+            <p id="cover_copyright">{{ copyright | e }}</p>
+            {% endif %}
+            {% if disclaimer %}
+            <p id="cover_disclaimer">{{ disclaimer | e }}</p>
+            {% endif %}
+        </div>
+    </div>
+</article>

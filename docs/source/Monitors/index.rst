@@ -1,3 +1,5 @@
+:pdf-build: False
+
 .. _IM:
 
 Monitors with Capacitive Touch

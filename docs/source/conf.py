@@ -148,8 +148,8 @@ pygments_style = "sphinx"
 # Sphinx-PDF-Generate configurations
 pdfgen_verbose = False
 pdfgen_site_url = "https://docs.chipsee.com"
-pdfgen_debug = True
-pdfgen_debug_target = "PCs/ARM/AM335X/Manuals/Hardware/CS10600T070.rst"
+# pdfgen_debug = True
+# pdfgen_debug_target = "Monitors/PIM-125-C.rst"
 pdfgen_author = "Chipsee"
 pdfgen_author_logo = "_static/images/logo_header.png"
 pdfgen_copyright = copyright
