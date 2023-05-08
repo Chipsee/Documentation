@@ -22,9 +22,8 @@ If you still cannot find the solution you are looking for, please write to Chips
 |
 |
 
-**Disclaimer:**
+.. rubric:: **Disclaimer:**
+    :class: html-only
 
-:sup:`Chipsee assumes no responsibility for any errors that may occur in this manual. Furthermore, Chipsee reserves the right to alter hardware, software, 
-and/or specifications set forth herein at any time without prior notice, and undertakes no obligation to update the information contained in this document. 
-Chipsee products are not authorized for use as critical components in life support devices or systems.`
-
+.. rubric:: :sup:`Chipsee assumes no responsibility for any errors that may occur in this manual. Furthermore, Chipsee reserves the right to alter hardware, software, and/or specifications set forth herein at any time without prior notice, and undertakes no obligation to update the information contained in this document. Chipsee products are not authorized for use as critical components in life support devices or systems.`
+    :class: html-only
