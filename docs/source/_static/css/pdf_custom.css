@@ -101,7 +101,7 @@
         font-family: var(--md-text-font);
         position: absolute;
         right: 10mm;
-        bottom: 10mm;
+        bottom: 30mm;
     }
 
     #doc-cover #cover_title {
@@ -126,7 +126,7 @@
     #doc-cover.document #cover_subtitle_area {
         position: absolute;
         left: 10mm;
-        bottom: 75mm;
+        bottom: 150mm;
         font-size: 14pt;
         text-align: left;
         padding: 0 5mm;
@@ -155,13 +155,18 @@
         padding: 0 5mm;
     }
 
-    #doc-cover.pcs #cover_subtitle {
-        font-size: 32pt;
-        color: var(--md-primary-fg-color);
+    #doc-cover.pcs #cover_subtitle_area {
+        position: absolute;
+        left: 10mm;
+        bottom: 150mm;
+        font-size: 14pt;
         text-align: left;
         padding: 0 5mm;
-        margin-bottom: 3mm;
+    }
 
+    #doc-cover.pcs #cover_subtitle_area>p {
+        margin-bottom: 2mm;
+        margin-top: 0;
     }
 
     #doc-cover.pcs #cover_pcs_label {
@@ -185,7 +190,7 @@
     #doc-cover.monitors #cover_subtitle_area {
         position: absolute;
         left: 10mm;
-        bottom: 75mm;
+        bottom: 150mm;
         font-size: 14pt;
         text-align: left;
         padding: 0 5mm;
@@ -217,7 +222,7 @@
     #doc-cover.tutorials #cover_subtitle_area {
         position: absolute;
         left: 10mm;
-        bottom: 75mm;
+        bottom: 150mm;
         font-size: 14pt;
         text-align: left;
         padding: 0 5mm;
@@ -250,7 +255,7 @@
     #doc-cover.som #cover_subtitle_area {
         position: absolute;
         left: 10mm;
-        bottom: 75mm;
+        bottom: 150mm;
         font-size: 14pt;
         text-align: left;
         padding: 0 5mm;
@@ -540,7 +545,7 @@
     p.caption_text{
         margin: 2.5px 0 5px 0;
         font-weight: 600;
-        font-size: 1rem;
+        font-size: .8rem;
     }
     /* HTML Only (thumbnail) */
     .html-only{

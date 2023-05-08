@@ -1,3 +1,10 @@
+:pdf-title: PIM-101-C
+:pdf-subtitle: PN: CS-D101
+:pdf-filename: PIM-101-C
+:pdf-type: monitors
+:pdf-revision: 1.1
+
+
 .. |product| replace:: PIM-101-C
 
 .. |PN| replace:: PN: CS-D101
@@ -56,7 +63,7 @@
 
 .. raw:: html
 
-    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
+    <div class="row html-only" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
 
 .. Image thumbnail 1
 .. raw:: html
@@ -64,7 +71,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/Monitors/PIM-101-C/pim-101-side.jpg
-   :class: product-img img-thumbnail mx-auto d-block
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-70
    :alt: Front View
 
 .. raw:: html
@@ -76,9 +83,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-101-C/pim-101-back.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View
+.. image:: /Media/Monitors/PIM-101-C/pim-101-bottom.jpg
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-85
+   :alt: Bottom View
 
 .. raw:: html
 
@@ -89,9 +96,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-101-C/pim-101-bottom.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Bottom View
+.. image:: /Media/Monitors/PIM-101-C/pim-101-back.jpg
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-90
+   :alt: Back View
 
 .. raw:: html
 
@@ -100,10 +107,14 @@
 .. raw:: html
 
     </div>
+
+:pagebreak:`True`
 
 .. include:: Resources/overview
 
 .. include:: Resources/ordering
+
+:pagebreak:`True`
 
 Specification
 =============
@@ -119,6 +130,8 @@ Specification
    :class: no-scaled-link
 
    Technical Drawing
+
+:pagebreak:`True`
 
 .. include:: Resources/support
 

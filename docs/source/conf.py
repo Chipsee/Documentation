@@ -34,6 +34,7 @@ extensions = [
     "sphinx_substitution_extensions",
     "sphinx_material",
     "sphinx_design",
+    "sphinx_copybutton",
     "sphinx_pdf_generate",
 ]
 
@@ -141,19 +142,21 @@ rst_epilog = """
 """
 
 html_last_updated_fmt = "%b %d, %Y"
-
-# tablecaption = 'below'
-pygments_style = "sphinx"
+pygments_style = "perldoc"
 
 # Sphinx-PDF-Generate configurations
 pdfgen_verbose = False
 pdfgen_site_url = "https://docs.chipsee.com"
 # pdfgen_debug = True
-# pdfgen_debug_target = "Monitors/PIM-125-C.rst"
+# pdfgen_debug_target = "Monitors/PIM-101-C.rst"
 pdfgen_author = "Chipsee"
 pdfgen_author_logo = "_static/images/logo_header.png"
 pdfgen_copyright = copyright
-pdfgen_disclaimer = "Disclaimer: Content can change at anytime and best to refer to website for latest information."
+pdfgen_disclaimer = "Chipsee assumes no responsibility for any errors that may occur in this manual. " \
+                    "Furthermore, Chipsee reserves the right to alter hardware, software, and/or specifications " \
+                    "set forth herein at any time without prior notice, and undertakes no obligation to update the " \
+                    "information contained in this document. Chipsee products are not authorized for use as" \
+                    " critical components in life support devices or systems."
 pdfgen_cover = True
 # pdfgen_cover_title = ""
 # pdfgen_cover_subtitle = ""
@@ -163,7 +166,5 @@ pdfgen_toc = True
 pdfgen_toc_numbering = True
 pdfgen_toc_title = "Contents"
 pdfgen_toc_level = 6
-pdfgen_cover_images = {
-    "default": "_static/images/cover.jpg"
-}
+pdfgen_cover_images = {"default": "_static/images/cover.jpg"}
 pdfgen_plugin_handler_path = "custom_code.py"

@@ -30,9 +30,18 @@
             {% if copyright %}
             <p id="cover_copyright">{{ copyright | e }}</p>
             {% endif %}
-            {% if disclaimer %}
-            <p id="cover_disclaimer">{{ disclaimer | e }}</p>
-            {% endif %}
+            <p>
+                Content can change at anytime and best to refer to
+                <a href="{{ site_url }}" style="color:#EF3D30;">website</a>
+                for latest information.
+            </p>
         </div>
+        {% if disclaimer %}
+            <p id="cover_disclaimer"
+               style="font-size: 9pt; text-align: left; position: absolute;
+               bottom: 0; left: 10mm; right: 10mm; padding: 0 5mm;">
+                <b>Disclaimer:</b> {{ disclaimer | e }}
+            </p>
+        {% endif %}
     </div>
 </article>
