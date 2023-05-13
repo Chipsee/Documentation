@@ -20,7 +20,7 @@
         </div>
         <div id="cover_reserved_rights">
             <p id="cover_monitors_label">Industrial {{ type | capitalize }}</p>
-            <p id="cover_revision">
+            <p id="cover_revision" style="font-weight: 600;">
             {% if revision %}
             Revision {{ revision | e }}
             {% else %}
@@ -28,18 +28,18 @@
             {% endif %}
             </p>
             {% if copyright %}
-            <p id="cover_copyright">{{ copyright | e }}</p>
+            <p id="cover_copyright" style="font-weight: 600;">{{ copyright | e }}</p>
             {% endif %}
 
-            <p>
-                Content can change at anytime and best to refer to
+            <p style="font-weight: 600;">
+                Content can change at anytime; it's best to refer to
                 <a href="{{ site_url }}" style="color:#EF3D30;">website</a>
                 for latest information.
             </p>
         </div>
         {% if disclaimer %}
             <p id="cover_disclaimer"
-               style="font-size: 9pt; text-align: left; position: absolute;
+               style="font-size: 9pt; text-shadow: 2px 5px 5px #fff; text-align: left; position: absolute;
                bottom: 0; left: 10mm; right: 10mm; padding: 0 5mm;">
                 <b>Disclaimer:</b> {{ disclaimer | e }}
             </p>

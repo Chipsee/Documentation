@@ -86,6 +86,8 @@
         /* Always change this based on portrait page height */
         height: 297mm;
         background-size: cover;
+        /* color: #2D445E;*/
+        color: #fff;
     }
 
     #doc-cover #doc-cover-content {
@@ -98,10 +100,12 @@
 
     #doc-cover #cover_reserved_rights {
         font-size: 9pt;
-        font-family: var(--md-text-font);
+        font-family: 'Open Sans';
         position: absolute;
-        right: 10mm;
-        bottom: 30mm;
+        left: 10mm;
+        bottom: 50mm;
+        text-align: left;
+        padding: 0 5mm;
     }
 
     #doc-cover #cover_title {
@@ -190,7 +194,7 @@
     #doc-cover.monitors #cover_subtitle_area {
         position: absolute;
         left: 10mm;
-        bottom: 150mm;
+        bottom: 180mm;
         font-size: 14pt;
         text-align: left;
         padding: 0 5mm;
