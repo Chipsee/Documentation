@@ -12,7 +12,7 @@ Cortex-A72 Hardware Documentation
    |                     |   5.0", 1280 x 720, 5-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
-.. |EPC/PPC-CM4-050| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.jpeg
+.. |PPC-CM4-050| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Front.png
    :class: no-scaled-link
    :target: CS12720RA4050-C121.html
    
@@ -117,7 +117,7 @@ Cortex-A72 Hardware Documentation
    |                     |   5.0", 1280 x 720, 5-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
-.. |EPC/PPC-CM4-050| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.png
+.. |EPC/PPC-CM4-050| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.jpeg
    :class: no-scaled-link
    :target: CS12720RA4050.html
 
