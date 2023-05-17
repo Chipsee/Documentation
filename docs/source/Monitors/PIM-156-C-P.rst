@@ -1,4 +1,11 @@
-.. |product| replace:: PIM-156-P
+:pdf-title: PIM-156-C-P
+:pdf-subtitle: PN: CS-D156P
+:pdf-filename: PIM-156-C-P
+:pdf-type: monitors
+:pdf-revision: 1.1
+
+
+.. |product| replace:: PIM-156-C-P
 
 .. |PN| replace:: PN: CS-D156P
 
@@ -44,10 +51,10 @@
 
 .. _product_link: https://chipsee.com/product/pim156cp/
 
-.. |product_link| replace:: PIM-156-P
+.. |product_link| replace:: PIM-156-C-P
 
 
-.. _PIM-156-P:
+.. _PIM-156-C-P:
 
 |product|
 #########
@@ -60,7 +67,7 @@
 
 .. raw:: html
 
-    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
+    <div class="row html-only" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
 
 .. Image thumbnail 1
 .. raw:: html
@@ -68,7 +75,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/Monitors/PIM-156-C-P/pim-156p-front.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-90
    :alt: Front View
 
 .. raw:: html
@@ -81,7 +88,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/Monitors/PIM-156-C-P/pim-156p-back.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-90
    :alt: Back View
 
 .. raw:: html
@@ -94,7 +101,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/Monitors/PIM-156-C-P/pim-156p-bottom.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-90
    :alt: Bottom View
 
 .. raw:: html
@@ -108,6 +115,8 @@
 .. include:: Resources/overview
 
 .. include:: Resources/ordering
+
+:pagebreak:`True`
 
 Specification
 =============
@@ -123,6 +132,8 @@ Specification
    :class: no-scaled-link
 
    Technical Drawing
+
+:pagebreak:`True`
 
 .. include:: Resources/support
 

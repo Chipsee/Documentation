@@ -1,3 +1,10 @@
+:pdf-title: PIM-270-C
+:pdf-subtitle: PN: CS-D270
+:pdf-filename: PIM-270-C
+:pdf-type: monitors
+:pdf-revision: 1.1
+
+
 .. |product| replace:: PIM-270-C
 
 .. |PN| replace:: PN: CS-D270
@@ -51,16 +58,13 @@
 .. rubric:: *Version 1.1*
     :class: html-only
 
-.. note::
-
-    **EOL PRODUCT:** This product has been discontinued, due to market demand and shifts in technology. Please |contact|_ if you would like to purchase it.
-
 .. You must add the `product-img img-thumbnail mx-auto d-block` word
 .. to the image class directive in order for the thumbnail feature to work
+.. You must add `html-only` to the div under the raw directive to hide the div in the PDF output
 
 .. raw:: html
 
-    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
+    <div class="row html-only" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
 
 .. Image thumbnail 1
 .. raw:: html
@@ -68,7 +72,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/Monitors/PIM-270-C/pim-270-front.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-85
    :alt: Front View
 
 .. raw:: html
@@ -81,7 +85,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/Monitors/PIM-270-C/pim-270-back.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-85
    :alt: Back View
 
 .. raw:: html
@@ -94,7 +98,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/Monitors/PIM-270-C/pim-270-bottom.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-85
    :alt: Bottom View
 
 .. raw:: html
@@ -105,10 +109,15 @@
 
     </div>
 
+.. note::
+
+    **EOL PRODUCT:** This product has been discontinued, due to market demand and shifts in technology. Please |contact|_ if you would like to purchase it.
 
 .. include:: Resources/overview
 
 .. include:: Resources/ordering
+
+:pagebreak:`True`
 
 Specification
 =============
@@ -128,6 +137,8 @@ Specification
    :class: no-scaled-link
 
    Technical Drawing
+
+:pagebreak:`True`
 
 .. include:: Resources/support
 
