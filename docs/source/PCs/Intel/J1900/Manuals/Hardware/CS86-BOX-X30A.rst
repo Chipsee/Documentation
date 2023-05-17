@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. |product| replace:: CS86-BOX-X30A
 
 .. |Product| replace:: The |product| Industrial PC
