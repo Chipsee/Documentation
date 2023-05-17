@@ -1,0 +1,16 @@
+HDMI and VGA Connectors
+-----------------------
+
+Although not equipped with the screen on its own, the |product| features 1 x **HDMI** connector *(Figure 5)* and 1 x **VGA** connector *(Figure 5a)*. The two connectors allow connecting two external monitors in synchronous or asynchronous modes. HDMI and VGA output resolution can be configured by the software or the OS, up to 1920 x 1080 at 60Hz.
+
+.. figure:: /Media/Intel/J1900/CS86-BOX-J1900/HDMI.png
+   :align: center
+   :figclass: align-center
+
+   *Figure 5: HDMI Connector*
+
+.. figure:: /Media/Intel/J1900/CS86-BOX-J1900/VGA.png
+   :align: center
+   :figclass: align-center
+
+   *Figure 5a: VGA Connector*
