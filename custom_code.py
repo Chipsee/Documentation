@@ -41,7 +41,8 @@ def main(**kwargs: BeautifulSoup) -> None:
 
     # Insert PDF Thumbnails after div#gallery
     html_thumbnails_node = soup.find("div", attrs={"id": "gallery"})
-    html_thumbnails_node.insert_after(pdf_div)
+    if html_thumbnails_node:
+        html_thumbnails_node.insert_after(pdf_div)
 
 
 if __name__ == "__main__":
