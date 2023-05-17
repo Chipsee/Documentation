@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. |product| replace:: AIO-PX30-101
 
 .. |PN| replace:: PN: CS12800PX101A

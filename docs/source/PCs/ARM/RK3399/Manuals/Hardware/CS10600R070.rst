@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. |product| replace:: EPC/PPC-A72-070-C
 
 .. |productE| replace:: EPC-A72-070-C

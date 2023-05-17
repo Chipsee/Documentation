@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. |product| replace:: EPC/PPC-CM4-070
 
 .. |productE| replace:: CS10600RA4070E

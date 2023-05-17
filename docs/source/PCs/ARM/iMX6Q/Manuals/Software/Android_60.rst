@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. |systemType| replace:: Android 6.0
 
 |systemType| OS

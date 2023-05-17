@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. |product| replace:: PPC-A72-173-C
 
 .. |PN| replace:: PN: CS19108R173

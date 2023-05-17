@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. |systemType| replace:: Android
 .. |filename| replace:: prebuilt-jb-hmi-XXXX.tar.gz
 .. |folder_name| replace:: ~/Prebuilt-cs-androidXXXXX/prebuilt-sd/

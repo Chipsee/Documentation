@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. |product| replace:: AIO-CM4-156
 
 .. |PN| replace:: PN: CS19108RA4156A

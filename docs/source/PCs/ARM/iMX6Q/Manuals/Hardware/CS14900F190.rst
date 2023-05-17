@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. |product| replace:: PPC-A9-190-C
 
 .. |PN| replace:: PN: CS14900F190

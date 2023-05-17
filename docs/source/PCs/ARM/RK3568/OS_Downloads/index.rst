@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 RK3568 OS Downloads
 ###################
 

@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 Cortex-A72 Hardware Documentation
 #################################
 

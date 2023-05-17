@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. |product| replace:: PPC-J1900-170-R
 
 .. |Product| replace:: The |product| Industrial Panel PC

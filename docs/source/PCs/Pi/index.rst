@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. _PBPI:
 
 Industrial PCs Powered by Raspberry Pi

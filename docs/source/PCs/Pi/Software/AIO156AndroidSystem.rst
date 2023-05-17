@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 AIO-CM4-156 Android Start Guide
 ###############################
 

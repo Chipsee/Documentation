@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. |product| replace:: CS86-BOX
 
 .. |Product| replace:: The |product| Industrial Panel PC 
