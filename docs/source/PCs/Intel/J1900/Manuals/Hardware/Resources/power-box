@@ -1,0 +1,23 @@
+Power Input
+===========
+
+|Product| can be powered by 12V DC. The power input connector is a 5.5 x 2.5 mm DC connector *(Figure 1)*.
+
+.. Figure:: /Media/Intel/J1900/CS86-BOX-J1900/Power.png
+  :align: center
+  :figclass: align-center
+
+  *Figure 1: Power Input Section* 
+
+The **POWER** button *(Figure 1a)* is located to the opposite side of the power input connector and can be used to switch the power ON or OFF.
+
+
+.. Figure:: /Media/Intel/J1900/CS86-BOX-J1900/Button.png
+  :align: center
+  :figclass: align-center
+
+  *Figure 1a: Power Button* 
+
+.. note:: 
+   
+  If the product is used to control key processes, it is highly recommended to use an Uninterruptible Power Supply (UPS) to prevent critical data loss. 
