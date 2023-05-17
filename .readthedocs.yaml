@@ -5,18 +5,17 @@
 # Required
 version: 2
 
-# Build documentation in the docs/ directory with Sphinx
-sphinx:
-  builder: html
-  configuration: docs/source/conf.py
-  fail_on_warning: false
-
-# Optionally build your docs in additional formats such as PDF
-#formats:
-# - pdf
-
-# Optionally set the version of Python and requirements required to build your docs
-python:
-   version: "3.8"
-   install:
-    - requirements: docs/source/requirements.txt
+# Set the version of Python and other tools you might need
+build:
+  os: ubuntu-22.04
+  apt_packages:
+    - default-jre  # This seems to be ignored
+  tools:
+    python: "3.9"
+  # We can only define the content of the final deployment, if we do the complete build on our own.apt_packages:
+  # So we need to handle package installation, build start and copying the right files for deployment.
+  commands:
+    - pip install -r docs/source/requirements.txt # Install requirements.txt
+    - sphinx-pdf-generate -b html docs/source docs/_build/html  # Build docs and PDF using sphinx-pdf-generate
+    - mkdir -p _readthedocs/html/
+    - cp -r docs/_build/html/* _readthedocs/html/

@@ -42,12 +42,13 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-pip-
     - name: Build and Commit
-      uses: sphinx-notes/pages@v2
+      uses: iSOLveIT/sphinx-pdf-generate-action@main
       with:
-        documentation_path: ./docs/source
-        requirements_path: ./docs/source/requirements.txt
+        documentation_path: docs/source
+        requirements_path: docs/source/requirements.txt
+        config_file_path: docs/source/conf.py
         target_branch: docs-build
-        sphinx_version: 4.3.1
+        sphinx_version: 5.3
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
