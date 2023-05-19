@@ -10,9 +10,9 @@
 
 .. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
 
-.. |dim| replace:: 440 x 325 x 90mm
+.. |dim| replace:: 320 x 260 x 52mm
 
-.. |weight| replace:: 3200g
+.. |weight| replace:: 2800g
 
 .. |RAM| replace:: 2GB DDR3
 
@@ -24,7 +24,7 @@
 
 .. |LAN| replace:: 1 x Channel 1000Mbps LAN
 
-.. |GPIO| replace:: 8 x Channels
+.. |GPIO| replace:: Optional 4 x Channels Input and 4 x Channels Output
 
 .. |expansions| replace:: 10-pin expansion connector
 
