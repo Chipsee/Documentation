@@ -65,4 +65,4 @@ Ubuntu18.04
 -----------
 
 | **GT9271 Touchscreen**
-| :download:`prebuilt-imxv1-cs12800f101v4-linux-emmc-20200710.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/10/Ubuntu1804/prebuilt-imxv1-cs12800f101v4-linux-emmc-20200710.tar.gz>`
+| :download:`prebuilt-imxv1-cs12800f101v4-linux-emmc-20230414.tar.gz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/10/Ubuntu1804/prebuilt-imxv1-cs12800f101v4-linux-emmc-20230414.tar.gz>`
