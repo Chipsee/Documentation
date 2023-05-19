@@ -166,7 +166,7 @@ J1900 Hardware Documentation
    :name: hwdocstable_11
 
    +--------------------+------------------------------------------------------------------------+
-   |     |CS86-Box|     |   :ref:`CS86-BOX-X30A User Manual <CS86-BOX-X30A>` |br| |br|           |
+   |     |CS86-Box|     |   :ref:`CS86-BOX-J1900 User Manual <CS86-BOX-J1900>` |br| |br|         |
    |                    |                                                                        |
    |                    |   Wall/Panel Mounted Industrial PC, 4GB RAM, 64GB mSATA SSD |br|       |
    |                    |                                                                        |
@@ -175,7 +175,7 @@ J1900 Hardware Documentation
 
 .. |CS86-Box| image:: /Media/Intel/J1900/CS86-BOX-J1900/CS86-BOX-J1900-front1.jpg
    :class: no-scaled-link
-   :target: CS86-BOX-X30A.html
+   :target: CS86-BOX-J1900.html
 
 .. toctree::
    :maxdepth: 1
@@ -193,6 +193,6 @@ J1900 Hardware Documentation
    PPC-J1900-156-C <PPC-J1900-156-C>
    PPC-J1900-215-C <PPC-J1900-215-C>
    PPC-J1900-236-C <PPC-J1900-236-C>
-   CS86-BOX-X30A <CS86-BOX-X30A>
+   CS86-BOX-J1900 <CS86-BOX-J1900>
 
 
