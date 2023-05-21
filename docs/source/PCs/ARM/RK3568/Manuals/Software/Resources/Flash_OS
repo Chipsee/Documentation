@@ -1,0 +1,71 @@
+Start Flashing
+--------------
+
+After installing the DriverAssistant, you can now start to flash an OS image to the |chip| board with *RKDevTool*. Double click the program to start flashing. The tool has English and Chinese language support.
+
+.. image:: /Media/ARM/A55/Software/RkDevTool.png
+   :align: center
+   :alt: RkDevTool
+   :class: mb-4
+   :width: 576
+
+**STEP 1**:
+
+#. Connect the Type-C cable and power on the board. (If unexpected messages occurs at any of the following steps, try plugging the Type-C cable again.)
+#. Click **Upgrade Firmware** tab.
+#. Click **Firmware** button to select a .img |systemType| image file. The screenshots show a debian11 img file is selected, but this is applicable to other OSes as well.
+
+
+.. image:: /Media/ARM/A55/Software/Flash_1.png
+   :align: center
+   :alt: Flash_1
+   :class: mb-4
+   :width: 768
+
+**STEP 2**:
+
+#. Click **Switch** button to switch the device to a Loader device. 
+
+.. image:: /Media/ARM/A55/Software/Flash_2.png
+   :align: center
+   :alt: Flash_2
+   :class: mb-4
+   :width: 768
+
+**STEP 3**:
+
+#. You should see "Found One LOADER Device".
+#. Click **Advanced Function** tab.
+#. Click **EraseAll** button.
+#. You should see "Erasing sectors success" on the right side logs.
+
+.. image:: /Media/ARM/A55/Software/Flash_3.png
+   :align: center
+   :alt: Flash_3
+   :class: mb-4
+   :width: 768
+
+**STEP 4**:
+
+#. Click **Upgrade Firmware** tab.
+#. Click **Upgrade** button.
+#. You should see Download Firmware progress on the right side logs.
+
+.. image:: /Media/ARM/A55/Software/Flash_4.png
+   :align: center
+   :alt: Flash_4
+   :class: mb-4
+   :width: 768
+
+**STEP 5**:
+
+#. After the download firmware progress goes to 100%, the board reboots itself automatically. 
+#. After a few minutes, you should see "Found One ADB Device".
+#. Now your new OS is ready for use.
+
+.. image:: /Media/ARM/A55/Software/Flash_5.png
+   :align: center
+   :alt: Flash_5
+   :class: mb-4
+   :width: 768
+
