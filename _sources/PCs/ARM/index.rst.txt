@@ -43,6 +43,7 @@ the repository much easier.
    :titlesonly:
 
    RK3568 Hardware Documentation <RK3568/Manuals/Hardware/index>
+   RK3568 Software Documentation <RK3568/Manuals/Software/index>
    RK3568 OS Downloads <RK3568/OS_Downloads/index>
 
 .. rubric:: Products by platform: |Cortex|-A8 (CS-SOM335X-V3)
