@@ -3,7 +3,7 @@ Start Flashing
 
 After installing the DriverAssistant, you can now start to flash an OS image to the |chip| board with *RKDevTool*. Double click the program to start flashing. The tool has English and Chinese language support.
 
-.. image:: /Media/ARM/A55/Software/RkDevTool.png
+.. image:: /Media/ARM/A55/Software/RK_Dev_Tool.png
    :align: center
    :alt: RkDevTool
    :class: mb-4
