@@ -27,7 +27,7 @@ RK3568 Hardware Documentation
    |                     |   7.0", 1024 x 600, 5-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC-A55-070| image:: /Media/ARM/A55/CS12800-RK3568-070P/CS10600RK3568070P-Front.jpg
+.. |PPC-A55-070| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Front.png
    :class: no-scaled-link
    :target: CS10600-RK3568-070P.html
 

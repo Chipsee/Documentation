@@ -74,7 +74,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A55/CS12800-RK3568-070P/CS10600RK3568070P-Front.jpg
+.. image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Front.png
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Black Color Variant)
 
@@ -87,7 +87,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A55/CS12800-RK3568-070P/CS10600RK3568070P-Back.jpg
+.. image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Back.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Back View (Black Color Variant)
 
@@ -100,9 +100,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A55/CS12800-RK3568-070P/CS10600RK3568070P-Side1.jpg
+.. image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Side1.jpg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Side View (Black Color Variant)
+   :alt: Side View 1 (Black Color Variant)
 
 .. raw:: html
 
@@ -113,9 +113,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A55/CS12800-RK3568-070P/CS10600RK3568070P-Side2.jpg
+.. image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Side2.jpg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Side View (Black Color Variant)
+   :alt: Side View 2 (Black Color Variant)
 
 .. raw:: html
 
@@ -211,7 +211,7 @@ Power Input
 The polarity and the pinout is clearly marked on the housing of the product as shown on the figure below.
 There is one power input connector whchi is a 2.1mm I.D x 5.5mm O.D x 9.5mm DC connector. For a proper DC power adapter, refer to the figure below.
 
-.. Figure:: /Media/ARM/A55/CS12800-RK3568-070P/Power_RK3568_070.jpg
+.. Figure:: /Media/ARM/A55/CS10600-RK3568-070P/Power_RK3568_070.jpg
   :align: center
   :figclass: align-center
 
@@ -256,7 +256,7 @@ RS232/RS485/CAN
 
 The serial communication interfaces (RS485, RS482, and CAN) are routed to a **16-pin 3.81mm terminal**, as illustrated on the figure below.
 
-.. figure:: /Media/ARM/A55/CS12800-RK3568-070P/RS232_RS485_CAN_RK3568_070.jpg
+.. figure:: /Media/ARM/A55/CS10600-RK3568-070P/RS232_RS485_CAN_RK3568_070.jpg
    :align: center
    :figclass: align-center
 
@@ -327,7 +327,7 @@ There are 2 x **USB HOST connectors** onboard which includes |USB|
 
   *USB 2.0 and USB3.0 HOST Connectors (enclosed PC version)*
 
-.. Figure:: /Media/ARM/A55/CS12800-RK3568-070P/Type-C_RK3568_070.jpg
+.. Figure:: /Media/ARM/A55/CS10600-RK3568-070P/Type-C_RK3568_070.jpg
   :align: center
   :figclass: align-center
 
@@ -343,7 +343,7 @@ LAN Connectors
 **LAN (RJ45) connector** provides 2 x Ethernet connectivity over standardized Ethernet cables as shown the figure below. The integrated Ethernet interface supports
 up to 1 Gbps data throughput. The right port also support POE function, not support default.
 
-.. figure:: /Media/ARM/A55/CS12800-RK3568-070P/LAN-RK3568-070.jpg
+.. figure:: /Media/ARM/A55/CS10600-RK3568-070P/LAN-RK3568-070.jpg
   :align: center
   :figclass: align-center
 
@@ -362,7 +362,7 @@ TF Card & SIM Card Slot
 
 |Product| features 1 x **TF Card (micro SD) slot** and 1 x **SIM Card slot**. TF Card can address up to 128GB of memory.
 
-.. figure:: /Media/ARM/A55/CS12800-RK3568-070P/TF-SIM_RK3568_070.jpg
+.. figure:: /Media/ARM/A55/CS10600-RK3568-070P/TF-SIM_RK3568_070.jpg
   :align: center
   :figclass: align-center
 
@@ -378,7 +378,7 @@ Audio Connectors
 |Product| features some audio peripherals. It has 1 x **3.5mm audio output jack**. |br|
 Also, the |product| industrial Pi PC has a miniature 2W internal speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds.
 
-.. figure:: /Media/ARM/A55/CS12800-RK3568-070P/Audio_RK3568_070.jpg
+.. figure:: /Media/ARM/A55/CS10600-RK3568-070P/Audio_RK3568_070.jpg
   :figclass: align-center
   :align: center
 
@@ -393,7 +393,7 @@ HDMI Connector
 
 |Product| supports 1 x HDMI-D 2.0 interfaces. |br|
 
-.. figure:: /Media/ARM/A55/CS12800-RK3568-070P/HDMI-D-RK3568-070.jpg
+.. figure:: /Media/ARM/A55/CS10600-RK3568-070P/HDMI-D-RK3568-070.jpg
   :figclass: align-center
   :align: center
 
@@ -408,7 +408,7 @@ When button is released before power, the |Product|  will boot nomal.
 
 There is no need to press the button during regular operation. However, if you need to reinstall the OS, please refer to the detailed information on how to re-flash the OS.
 
-.. figure:: /Media/ARM/A55/CS12800-RK3568-070P/PROG-RK3568-070.jpg
+.. figure:: /Media/ARM/A55/CS10600-RK3568-070P/PROG-RK3568-070.jpg
   :figclass: align-center
   :align: center
 
@@ -423,7 +423,7 @@ The 10-pin terminal also includes an isolated PSU input in the range of 5 to 24 
 The GPIO **HIGH** output level corresponds to the voltage connected at the Isolated Power Input, while the GPIO **LOW** output level corresponds to the 
 isolated Ground Input. Each GPIO output can drive loads up to 500mA, enough to drive various applications directly, such as relays or solenoid valves.
 
-.. Figure:: /Media/ARM/A55/CS12800-RK3568-070P/GPIO-RK3568-070.jpg
+.. Figure:: /Media/ARM/A55/CS10600-RK3568-070P/GPIO-RK3568-070.jpg
   :figclass: align-center
   :align: center
   
@@ -500,7 +500,7 @@ Mechanical Specifications
 The outer mechanical dimensions of |productP| are |dimP| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
-.. figure:: /Media/ARM/A55/CS12800-RK3568-070P/SIZE_RK3568_070.jpg
+.. figure:: /Media/ARM/A55/CS10600-RK3568-070P/SIZE_RK3568_070.jpg
    :align: center
    :figclass: align-center
 
