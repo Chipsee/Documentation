@@ -10,6 +10,8 @@ For additional information, contact |email|_
    :maxdepth: 1
    :titlesonly:
 
+   PPC-A55-050-C <CS12720-RK3568-050P>
+   PPC-A55-070-C <CS10600-RK3568-070P>
    PPC-A55-101-C <CS12800-RK3568-101P>
 
 .. warning::
