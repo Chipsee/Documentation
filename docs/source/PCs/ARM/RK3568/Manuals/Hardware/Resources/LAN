@@ -1,8 +1,7 @@
 LAN Connectors
 ---------------
 
-**LAN (RJ45) connector** provides Ethernet connectivity over standardized Ethernet cables as shown the figure below. The integrated Ethernet interface supports
-up to 1 Gbps data throughput.
+**LAN (RJ45) connector** provides Ethernet connectivity over standardized Ethernet cables as shown in the figure below. The integrated Ethernet interface supports up to 1 Gbps data throughput.
 
 .. figure:: /Media/ARM/A55/CS12800-RK3568-101P/LAN.jpg
   :align: center
