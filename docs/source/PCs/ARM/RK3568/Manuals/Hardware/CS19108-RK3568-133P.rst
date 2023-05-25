@@ -1,14 +1,14 @@
-.. |product| replace:: PPC-A55-101
+.. |product| replace:: PPC-A55-133
 
-.. |productP| replace:: PPC-A55-101
+.. |productP| replace:: PPC-A55-133
 
-.. |PN| replace:: PN: CS12800-RK3568-101P
+.. |PN| replace:: PN: CS19108-RK3568-133P
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 10.1"
+.. |dispsize| replace:: 13.3"
 
-.. |res| replace:: 1280 x 800
+.. |res| replace:: 1920 x 1080
 
 .. |bright| replace:: 400 |cd|
 
@@ -16,11 +16,11 @@
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 275.5 x 193.5 x 46.0mm
+.. |dimP| replace:: 355 x 225 x 55mm
 
 .. |weightE| replace:: NULL
 
-.. |weightP| replace:: 1300g
+.. |weightP| replace:: 3000g
 
 .. |RAM| replace:: Samsung 2GB LPDDR4X, 4266 Mbps
 
@@ -52,55 +52,54 @@
 
 .. |can| replace:: Default to 2 x CAN. Optionally, these 2 x CAN can be configured to RS232.
 
-.. |power_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/Power-RK3568-101P.jpg
+.. |power_img| image:: /Media/ARM/A55/CS19108-RK3568-133P/Power-RK3568-133P.jpg
                   :align: middle
                   :width: 576
 
-.. |io_pin_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/IO.jpg
-                   :align: middle
-                   :width: 768
+.. |io_pin_img| image:: /Media/ARM/A55/CS19108-RK3568-133P/IO.jpg
+                  :align: middle
+                  :width: 768
 
-.. |USB2_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/USB2.jpg
-                   :align: middle
-                   :width: 96
-
-.. |USB3_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/USB3.jpg
+.. |USB2_img| image:: /Media/ARM/A55/CS19108-RK3568-133P/USB2.jpg
                    :align: middle
                    :width: 96
 
-.. |USBC_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/TYPE-C.jpg
+.. |USB3_img| image:: /Media/ARM/A55/CS19108-RK3568-133P/USB3.jpg
                    :align: middle
                    :width: 96
 
-.. |wifi_bt_img| image:: /Media/ARM/A55/Others/Antenna.jpeg
+.. |USBC_img| image:: /Media/ARM/A55/CS19108-RK3568-133P/TYPE-C.jpg
+                   :align: middle
+                   :width: 96
+
+.. |wifi_bt_img| image:: /Media/ARM/A55/CS19108-RK3568-133P/Wifi-BT.jpg
+                  :align: middle
+                  :width: 192
+
+.. |LAN_img| image:: /Media/ARM/A55/CS19108-RK3568-133P/LAN.jpg
+                  :align: middle
+                  :width: 192
+
+.. |TF_SIM_img| image:: /Media/ARM/A55/CS19108-RK3568-133P/TF_Card_SIM_Card.jpg
                   :align: middle
                   :width: 384
 
-.. |LAN_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/LAN.jpg
+.. |audio_img| image:: /Media/ARM/A55/CS19108-RK3568-133P/Audio.jpg
                   :align: middle
                   :width: 192
 
-.. |TF_SIM_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/TF_Card_SIM_Card.jpg
-                  :align: middle
-                  :width: 384
-
-.. |audio_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/Audio.jpg
+.. |HDMI_img| image:: /Media/ARM/A55/CS19108-RK3568-133P/HDMI.jpg
                   :align: middle
                   :width: 192
 
-.. |HDMI_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/HDMI.jpg
-                  :align: middle
-                  :width: 96
-
-.. |PROG_btn_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/PROG_Button.jpg
+.. |PROG_btn_img| image:: /Media/ARM/A55/CS19108-RK3568-133P/PROG_Button.jpg
                   :align: middle
                   :width: 192
 
-.. |mounting_img| image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-TD.png
-                  :align: middle
-                  :width: 576
 
-.. _PPC-A55-101:
+
+.. _PPC-A55-133:
+
 
 |product|
 #########
@@ -119,7 +118,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-Front.jpg
+.. image:: /Media/ARM/A55/CS19108-RK3568-133P/CS19108-RK3568-133P-Front.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Grey Color Variant)
 
@@ -132,9 +131,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-Rear.jpg
+.. image:: /Media/ARM/A55/CS19108-RK3568-133P/CS19108-RK3568-133P-Rear.jpg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Rear View (Black Color Variant)
+   :alt: Rear View (Grey Color Variant)
 
 .. raw:: html
 
@@ -145,7 +144,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-Side1.jpg
+.. image:: /Media/ARM/A55/CS19108-RK3568-133P/CS19108-RK3568-133P-Side1.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Side View 1 (Grey Color Variant)
 
@@ -158,9 +157,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-Side2.jpg
+.. image:: /Media/ARM/A55/CS19108-RK3568-133P/CS19108-RK3568-133P-Side2.jpg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Side View 2 (Black Color Variant)
+   :alt: Side View 2 (Grey Color Variant)
 
 .. raw:: html
 
@@ -205,13 +204,6 @@
 
 .. include:: Resources/mounting
 
-.. rst-class:: text-center
-
-   |mounting_img|
-
-   *Panel mounting* (|product|)
-
 .. include:: Resources/mechanical
 
 .. include:: Resources/support
-
