@@ -77,7 +77,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A55/CS12800-RK3568-101P/PPC-A55-101-C-Front.jpeg
+.. image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-Front.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Grey Color Variant)
 
@@ -90,9 +90,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A55/CS12800-RK3568-101P/PPC-A55-101-C-Back.jpeg
+.. image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-Rear.jpg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View (Grey Color Variant)
+   :alt: Rear View (Black Color Variant)
 
 .. raw:: html
 
@@ -103,9 +103,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A55/CS12800-RK3568-101P/PPC-A55-101-C-Side.jpeg
+.. image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-Side1.jpg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Side View (Black Color Variant)
+   :alt: Side View 1 (Grey Color Variant)
 
 .. raw:: html
 
@@ -116,9 +116,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A55/CS12800-RK3568-101P/PPC-A55-101-B-Side.png
+.. image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-Side2.jpg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Side View (Black Color Variant)
+   :alt: Side View 2 (Black Color Variant)
 
 .. raw:: html
 

@@ -1,0 +1,30 @@
+PPC-A55-050-C (PN: CS12720-RK3568-050P)
+#######################################
+
+We compress the img file to img.xz file which will reduce file size and save time to download it to use. 
+But we need decompress it to img file when we use `RKDevtool <https://chipsee-tmp.s3.amazonaws.com/SourcesArchives/RK3568/Tools/RKDevTool_Release_v2.93.zip>`_ to download it to target board.
+
+.. _CS12720P-android:
+
+Android11
+----------
+
+| :download:`prebuilt-rk3568-cs12720-android11-20230317.img.xz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3568/5/Android11/prebuilt-rk3568-cs12720-android11-20230317.img.xz>`
+
+.. _CS12720P-debian:
+
+Debian11
+--------
+
+| **eMMC**
+| :download:`prebuilt-rk3568-cs12720-debian11-20230328.img.xz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3568/5/Debian11/prebuilt-rk3568-cs12720-debian11-20230328.img.xz>`
+
+
+.. _CS12720P-linuxQt:
+
+Buildroot LinuxQt5.14
+---------------------
+
+
+
+
