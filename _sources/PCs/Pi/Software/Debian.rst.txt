@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. |systemType| replace:: Debian 10 (buster)
 .. |user| replace:: pi
 .. |pswd| replace:: raspberry

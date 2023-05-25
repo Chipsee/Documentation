@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. _PBA:
 
 Industrial Panel PCs Powered by |Arm|

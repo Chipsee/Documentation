@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. |systemType| replace:: Angstrom
 .. |filename| replace:: prebuilt-angstrom-XXXXXX.tar.gz
 .. |folder_name| replace:: ~/prebuilt-angstrom-XXXXXX

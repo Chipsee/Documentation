@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. _IP:
 
 Industrial Panel & Embedded PCs

@@ -1,3 +1,4 @@
+:pdf-build: False
 :orphan:
 
 .. _naming-rules-Arm:
