@@ -143,7 +143,7 @@
    +----------------------------------------------------------------------------------------------------------------------------------------------------+
    | .. centered:: |product|                                                                                                                            |
    +==============================================+=====================================================================================================+
-   | **CPU**                                      | Rokchip RK3568, Quad-core Cortex-A55 (2.0GHz)                                                       |
+   | **CPU**                                      | Rockchip RK3568, Quad-core Cortex-A55 (2.0GHz)                                                      |
    +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
    | **RAM**                                      | |RAM|                                                                                               |
    +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
@@ -187,7 +187,7 @@
    +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
    | **Working Temperature**                      | |temp|                                                                                              |
    +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **OS**                                       | Android 11  Debian11  Buildroot Linux Qt                                                            |
+   | **OS**                                       | Android 11, Debian11, Buildroot Linux Qt                                                            |
    +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
    | **Dimensions**                               | |productP| (|PN|): |dimP|                                                                           |
    +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
@@ -210,13 +210,13 @@
 Connectivity
 ============
 
-There are many connectivity options available on the |product| industrial Pi PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to
+There are many connectivity options available on the |product| industrial PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to
 1 Gbps, and 4 x UART terminals (RS232/RS485/CAN).
 
 RS232/RS485/CAN
 ---------------
 
-The serial communication interfaces (RS485, RS482, and CAN) are routed to a **12-pin 3.81mm terminal**, as illustrated on the figure below.
+The serial communication interfaces (RS485, RS232, and CAN) are routed to a **12-pin 3.81mm terminal**, as illustrated on the figure below.
 
 .. figure:: /Media/Pi/A72/CS12720RA4050-C121/RS232_RS485_CAN.png
    :align: center
@@ -310,7 +310,7 @@ Audio Connectors
 ================
 
 |Product| features some audio peripherals. It has 1 x **3.5mm audio output jack**. |br|
-Also, the |product| industrial Pi PC has a miniature 2W internal speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds.
+Also, the |product| industrial PC has a miniature 2W internal speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds.
 
 .. figure:: /Media/Pi/A72/CS12720RA4050-C121/Headphone.png
   :figclass: align-center
@@ -337,8 +337,8 @@ PROG Button
 ===========
 
 |Product| has one button on the board marked as PROG, shown in the figure below. |br|
-When button is pressed before power, the |Product| will enter MASKROM mode which can use Type-C port do upgrade system. You can use this function to download the OS software to the internal eMMC. |br|
-When button is released before power, the |Product|  will boot nomal.
+When button is pressed before power, the |product| will enter MASKROM mode which can use Type-C port do upgrade system. You can use this function to download the OS software to the internal eMMC. |br|
+When button is released before power, the |product| will boot normally.
 
 There is no need to press the button during regular operation. However, if you need to reinstall the OS, please refer to the detailed information on how to re-flash the OS.
 
