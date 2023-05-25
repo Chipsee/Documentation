@@ -42,7 +42,7 @@ RK3568 Hardware Documentation
    |                     |   10.1", 1280 x 800, 10-point capacitive touch screen                  |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC-A55-101| image:: /Media/ARM/A55/CS12800-RK3568-101P/PPC-A55-101-C-Front.jpeg
+.. |PPC-A55-101| image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-Front.jpg
    :class: no-scaled-link
    :target: CS12800-RK3568-101P.html
 
