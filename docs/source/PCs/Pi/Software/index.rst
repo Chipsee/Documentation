@@ -10,7 +10,7 @@ If you have questions not covered in this documentation, please consult Chipsee 
    :maxdepth: 1
    :titlesonly:
 
-   Debian 10 (buster) <Debian>
+   Debian <Debian>
 
    AIO-CM4-156 Debian Start Guide <AIO156StartGuide>
    

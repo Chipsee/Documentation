@@ -1,4 +1,4 @@
-.. |systemType| replace:: Debian 10 (buster)
+.. |systemType| replace:: Debian
 .. |user| replace:: pi
 .. |pswd| replace:: raspberry
 
@@ -31,40 +31,17 @@ This manual provides users with a fast guide of Chipsee Raspberry Pi Computer (A
 
 **PREBUILT IMAGES PACKAGE:**
 
-Below are the links to the prebuilt images for the Raspbian Buster operating system on the various industrial Pi PC's.
+Below are the links to the prebuilt images for the Raspbian operating system on the various industrial Pi PC's.
 
-+ :download:`Raspbian Buster with desktop and recommended software V5 <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RaspberryPi/20201202/2020-12-02-raspios-buster-armhf-full-chipsee-v5.img.xz>` |br| |br|
-+ :download:`Raspbian Buster with desktop V5 <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RaspberryPi/20201202/2020-12-02-raspios-buster-armhf-chipsee-v5.img.xz>` |br| |br|
-+ :download:`Raspbian Buster Lite V5 <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RaspberryPi/20201202/2020-12-02-raspios-buster-armhf-lite-chipsee-v5.img.xz>` |br| |br|
++ :download:`Latest system image for Chipsee Industrial Pi products <https://github.com/Chipsee/industrial-pi#latest-system-images>` |br| |br|
 
 
-.. rubric:: System Features
+.. note::
 
-.. table::
-   :align: center
-   :width: 100%
+  | Chipsee uses the Raspberry official OS on the product.
+  | We add Chipsee hardware drivers to the Raspberry official system.
+  | For more information, please refer to `Industrial Pi <https://github.com/Chipsee/industrial-pi>`_.
 
-   +---------------+----------------------------------+
-   | Feature       | Comment                          |
-   +===============+==================================+
-   | Kernel        | Kernel 5.4.79                    |
-   +---------------+----------------------------------+
-   | System\ [#d]_ | Based on raspios 2020-12-02      |
-   +---------------+----------------------------------+
-   | Python        | Python 2.7.16 / Python 3.7.3     |
-   +---------------+----------------------------------+
-   | Qt            | Needs to be installed by the user|
-   +---------------+----------------------------------+
-   | GCC           | 8.3.0                            |
-   +---------------+----------------------------------+
-   | Debian Version| Debian 10 (Buster)               |
-   +---------------+----------------------------------+
-   | User/Password | [pi/raspberry]                   |
-   +---------------+----------------------------------+
-
------
-
-.. [#d] Chipsee uses the Raspberry official OS on the product. We add Chipsee hardware drivers to the Raspberry official system. For more information, please refer to `Industrial Pi <https://github.com/Chipsee/industrial-pi>`_.
 
 Preparation
 ===========
