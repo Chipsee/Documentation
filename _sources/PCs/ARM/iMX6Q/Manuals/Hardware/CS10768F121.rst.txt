@@ -42,9 +42,9 @@
 
 .. |rs232| replace:: 4 x RS232
 
-.. |rs485| replace:: Optional
+.. |rs485| replace:: Optional 2 x RS485
 
-.. |can| replace:: Optional
+.. |can| replace:: Optional 2 x CAN 
 
 .. _PPC-A9-121-C:
 

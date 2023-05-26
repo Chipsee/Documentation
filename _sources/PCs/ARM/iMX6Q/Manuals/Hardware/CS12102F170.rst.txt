@@ -24,7 +24,7 @@
 
 .. |LAN| replace:: 1 x Channel 1000Mbps LAN
 
-.. |GPIO| replace:: 8 x Channels
+.. |GPIO| replace:: Optional 4 x Channels Input and 4 x Channels Output
 
 .. |expansions| replace:: Optional, 10-pin expansion connector
 
@@ -42,9 +42,9 @@
 
 .. |rs232| replace:: 4 x RS232
 
-.. |rs485| replace:: Optional
+.. |rs485| replace:: Optional 2 x RS485
 
-.. |can| replace:: Optional
+.. |can| replace:: Optional 2 x CAN 
 
 .. _PPC-A9-170-C:
 
