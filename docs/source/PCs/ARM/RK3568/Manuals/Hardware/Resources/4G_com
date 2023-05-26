@@ -1,7 +1,7 @@
 4G/LTE Module
 -------------
 
-|Product| is equipped with a **mini-PCIe connector** that can connect to a 4G/LTE module.
+|Product| is equipped with a **mini-PCIe connector** that can connect a 4G/LTE module.
 The customer will also need a SIM Card Holder and a 4G/LTE Antenna Connector to ensure 4G/LTE works on the |product|.
 
 .. figure:: /Media/ARM/A55/Others/4G_module.jpeg
@@ -19,4 +19,4 @@ The customer will also need a SIM Card Holder and a 4G/LTE Antenna Connector to 
 
 .. attention::
 
-    The product does not come shipped with the 4G/LTE module by default.
+    The product does not come shipped with the 4G/LTE module by default. The customer can choose the 4G/LTE module option when placing an order, we will install all the necessary components.

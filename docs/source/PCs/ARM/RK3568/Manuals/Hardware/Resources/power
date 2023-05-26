@@ -2,15 +2,16 @@ Power Input
 ===========
 
 |Product| can be powered by a wide range of input voltages: |vin_rng| DC. The power input connector is a **3-pin, 3.81mm terminal**.
-The polarity and the pinout is clearly marked on the housing of the product as shown on the figure below.
+The polarity and the pinout is clearly marked on the housing of the product as shown in the figure below.
 
 .. Figure:: /Media/ARM/A55/Others/CS12800_Power.jpg
   :align: center
   :figclass: align-center
+  :width: 576
 
   *Power Input*
 
-Note that the "**+**" sign represents the positive power input, and it is printed both at the casing and as a silk-screen on a PCB of the embedded version. The "**-**" terminal is shorted to the ground.
+Note that the "**+**" sign represents the positive power input, it is printed at the casing and as a silk-screen on a PCB of the embedded version. The "**-**" terminal is shorted to the ground.
 
 .. table:: Power Connector
    :align: center

@@ -1,0 +1,18 @@
+Mounting Procedure
+==================
+
+You can mount |productP| with VESA mounting (100 x 100mm, 4 x M4).
+
+You can also mount |productP| with panel mounting method, as shown in the figure below.
+
+.. Figure:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-TD.png
+  :align: center
+  :figclass: align-center
+
+  *Panel mounting*
+
+.. attention::
+
+    Please make sure the display is not exposed to high pressure when mounting into an enclosure.
+
+You can find detailed information about mounting in the |mguide|.

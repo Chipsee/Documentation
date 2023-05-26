@@ -16,7 +16,7 @@
    +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
    | **Display**                                  | |dispsize| LCD, |res|, High Brightness: |bright|                                                    |
    +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **HDMI**                                     | 1 x HDMI                                                                                            |
+   | **HDMI**                                     | 1 x HDMI OUT                                                                                        |
    +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
    | **Touch**                                    | |tscreen|                                                                                           |
    +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
@@ -56,12 +56,10 @@
    +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
    | **Weight**                                   | |productP| (|PN|): |weightP|                                                                        |
    +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **Mounting**                                 | |productP| (|PN|): Panel                                                                            |
+   | **Mounting**                                 | |productP| (|PN|): Panel, VESA                                                                      |
    +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
 
 
 -----
 
-.. [#at] This product has 6 x UART channels in total. The default configuration is 4 x RS232 and 2 x RS485, include 1 debug port.
-       UART can be swapped between RS232 and RS485 modes easily, so if you need different RS232/RS485 configuration, please get in touch
-       with the Chipsee Technical Support at |email|_
+.. [#at] This product has 4 x UART by default, 6 x UART channels at most. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. The 2 x CAN can be configured to RS232. UART can be swapped between RS232 and RS485 modes easily, if you need a different RS232/RS485 configuration, please get in touch with the Chipsee Technical Support at |email|_
