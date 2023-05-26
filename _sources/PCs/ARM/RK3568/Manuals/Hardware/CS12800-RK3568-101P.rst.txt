@@ -1,6 +1,3 @@
-:pdf-build: False
-
-
 .. |product| replace:: PPC-A55-101
 
 .. |productP| replace:: PPC-A55-101
@@ -49,11 +46,11 @@
 
 .. |temp| replace:: From 0°C to +60°C
 
-.. |rs232| replace:: default 4 x RS232 (Optional 6 x RS232 at most, include 1 debug port)
+.. |rs232| replace:: Default to 2 x RS232 (including 1 debug port). Up to 6 x RS232.
 
-.. |rs485| replace:: 2 x RS485 at most
+.. |rs485| replace:: Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232.
 
-.. |can| replace:: 2 x CAN
+.. |can| replace:: Default to 2 x CAN. Optionally, these 2 x CAN can be configured to RS232.
 
 
 .. _PPC-A55-101:
@@ -61,12 +58,10 @@
 |product|
 #########
 
-.. rubric:: *Version 1.1*
-    :class: html-only
+.. rubric:: *Version 1.0*
 
 .. You must add the `product-img img-thumbnail mx-auto d-block` word
 .. to the image class directive in order for the thumbnail feature to work
-.. You must add `html-only` to the div under the raw directive to hide the div in the PDF output
 
 .. raw:: html
 
@@ -145,33 +140,7 @@
 
 .. include:: Resources/connectivity_CS12800-RK3568-101P
 
-USB Connectors
---------------
-
-There are 2 x **USB HOST connectors** onboard which includes |USB|
-, as shown in the figures below.
-
-.. Figure:: /Media/ARM/A55/CS12800-RK3568-101P/USB2.jpg
-  :align: center
-  :figclass: align-center
-
-  *USB 2.0 HOST Connectors (embedded/enclosed PC version)*
-
-.. Figure:: /Media/ARM/A55/CS12800-RK3568-101P/USB3.jpg
-  :align: center
-  :figclass: align-center
-
-  *USB 3.0 HOST Connectors (embedded/enclosed PC version)*
-
-.. Figure:: /Media/ARM/A55/CS12800-RK3568-101P/TYPE-C.jpg
-  :align: center
-  :figclass: align-center
-
-  *USB Type-C Connector (embedded/enclosed PC version)*
-
-.. warning::
-
-  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
+.. include:: Resources/USB-101P
 
 .. include:: Resources/LAN
 
@@ -185,36 +154,11 @@ There are 2 x **USB HOST connectors** onboard which includes |USB|
 
 .. include:: Resources/HDMI
 
-.. include:: Resources/power_btn
+.. include:: Resources/Prog_btn_CS12800-RK3568-101P
 
-Mounting Procedure
-==================
+.. include:: Resources/mounting
 
-|Product| can be mounted with 4 x M4 screws, enabling simplified installation onto any standard mounting fixture.
-
-|productP|
-----------
-You can mount |productP| with the Vesa (75 x 75mm) and Panel mounting methods, as shown on the figure below.
-
-.. Figure:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-TD.png
-  :align: center
-  :figclass: align-center
-
-  *Panel mounting*
-
-.. attention::
-
-    Please make sure the display is not exposed to high pressure when mounting into an enclosure.
-
-You can find detailed information about mounting in the |mguide|.
-
-
-Mechanical Specifications
-=========================
-
-|productP|
-----------
-For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+.. include:: Resources/mechanical
 
 .. include:: Resources/support
 

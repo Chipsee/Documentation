@@ -1,6 +1,3 @@
-:pdf-build: False
-
-
 .. |product| replace:: EPC/PPC-A72-070-C
 
 .. |productE| replace:: EPC-A72-070-C
@@ -61,12 +58,10 @@
 |product|
 #########
 
-.. rubric:: *Version 1.1*
-    :class: html-only
+.. rubric:: *Version 1.0*
 
 .. You must add the `product-img img-thumbnail mx-auto d-block` word
 .. to the image class directive in order for the thumbnail feature to work
-.. You must add `html-only` to the div under the raw directive to hide the div in the PDF output
 
 .. raw:: html
 

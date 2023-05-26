@@ -86,7 +86,6 @@ function insertAfter(newNode, existingNode) {
 // Insert modal after footer
 insertAfter(ModalNode, footer);
 
-// Sidebar menu
 const sidebar_menu = document.querySelector(".md-sidebar.md-sidebar--secondary");
 const sidebar_item = document.querySelector(".md-nav.md-nav--secondary > .md-nav__list > li.md-nav__item");
 
