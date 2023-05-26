@@ -107,7 +107,7 @@ Optional Features
 
 .. include:: PPC_Resources/HW_features
 
-.. include:: PPC_Resources/table
+.. include:: PPC_Resources/table_big_size
 
 .. include:: PPC_Resources/power
 
