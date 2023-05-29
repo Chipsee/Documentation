@@ -1,4 +1,17 @@
 PPC-A72-125-C (PN: CS19108R125)
 ###############################
 
-.. include:: Resources/CS19108R125_R133_R156_OS_Download
+.. _CS19108R125-android:
+
+.. include:: Resources/R125_R133_R156_Android_OS_Download
+
+.. _CS19108R125-debian:
+
+.. include:: Resources/R125_R133_R156_Debian_OS_Download
+
+.. _CS19108R125-linuxQt:
+
+.. include:: Resources/R125_R133_R156_Buildroot_OS_Download
+
+
+
