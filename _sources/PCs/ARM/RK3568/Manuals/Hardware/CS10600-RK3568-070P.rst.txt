@@ -54,6 +54,9 @@
 
 .. |poe| replace:: Supported, Optional
 
+.. |wifi_bt_img| image:: /Media/ARM/A55/Others/Antenna.jpeg
+                  :align: middle
+                  :width: 384
 
 .. _PPC-A55-070:
 

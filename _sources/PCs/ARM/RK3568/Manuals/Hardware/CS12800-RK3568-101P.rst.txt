@@ -12,7 +12,7 @@
 
 .. |bright| replace:: 400 |cd|
 
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
 
 .. |dimE| replace:: NULL
 
@@ -22,7 +22,7 @@
 
 .. |weightP| replace:: 1300g
 
-.. |RAM| replace:: 2GB LPDDR4
+.. |RAM| replace:: Samsung 2GB LPDDR4X, 4266 Mbps
 
 .. |eMMC| replace:: 16GB
 
@@ -52,6 +52,53 @@
 
 .. |can| replace:: Default to 2 x CAN. Optionally, these 2 x CAN can be configured to RS232.
 
+.. |power_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/Power-RK3568-101P.jpg
+                  :align: middle
+                  :width: 576
+
+.. |io_pin_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/IO.jpg
+                   :align: middle
+                   :width: 768
+
+.. |USB2_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/USB2.jpg
+                   :align: middle
+                   :width: 96
+
+.. |USB3_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/USB3.jpg
+                   :align: middle
+                   :width: 96
+
+.. |USBC_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/TYPE-C.jpg
+                   :align: middle
+                   :width: 96
+
+.. |wifi_bt_img| image:: /Media/ARM/A55/Others/Antenna.jpeg
+                  :align: middle
+                  :width: 384
+
+.. |LAN_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/LAN.jpg
+                  :align: middle
+                  :width: 192
+
+.. |TF_SIM_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/TF_Card_SIM_Card.jpg
+                  :align: middle
+                  :width: 384
+
+.. |audio_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/Audio.jpg
+                  :align: middle
+                  :width: 192
+
+.. |HDMI_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/HDMI.jpg
+                  :align: middle
+                  :width: 96
+
+.. |PROG_btn_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/Prog_Button.jpg
+                  :align: middle
+                  :width: 192
+
+.. |mounting_img| image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-TD.png
+                  :align: middle
+                  :width: 576
 
 .. _PPC-A55-101:
 
@@ -136,7 +183,7 @@
 
 .. include:: Resources/power
 
-.. include:: Resources/cap_screen
+.. include:: Resources/cap_screen_usb
 
 .. include:: Resources/connectivity_CS12800-RK3568-101P
 
@@ -157,6 +204,12 @@
 .. include:: Resources/Prog_btn_CS12800-RK3568-101P
 
 .. include:: Resources/mounting
+
+.. rst-class:: text-center
+
+   |mounting_img|
+
+   *Panel mounting* (|product|)
 
 .. include:: Resources/mechanical
 
