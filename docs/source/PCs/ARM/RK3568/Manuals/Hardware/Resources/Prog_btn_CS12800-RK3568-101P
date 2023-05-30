@@ -6,10 +6,10 @@ When the button is pressed before powering up, the |product| will enter MASKROM 
 
 When the button is not pressed before and during power up, the |product| will boot normally.
 
-There is no need to press the button during regular operation. However, if you need to flash the OS in MASKROM mode, the button will be used. Please refer the :ref:`software documents <RK3568_OS>` for more information.
+There is no need to press the button during regular operation. However, if you need to flash the OS in MASKROM mode, the button will be used. Please refer to the :ref:`software documents <RK3568_OS>` for more information.
 
-.. figure:: /Media/ARM/A55/CS12800-RK3568-101P/Prog_Button.jpg
-  :figclass: align-center
-  :align: center
+.. rst-class:: text-center
 
-  *PROG Button*
+    |PROG_btn_img|
+  
+    *PROG Button*

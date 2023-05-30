@@ -4,22 +4,19 @@ USB Connectors
 There are 2 x **USB HOST** and 1 x **USB DEVICE** (for flashing OS) ports onboard: |USB|
 , as shown in the figures below.
 
-.. Figure:: /Media/ARM/A55/CS12800-RK3568-101P/USB2.jpg
-  :align: center
-  :figclass: align-center
+
+.. rst-class:: text-center
+
+  |USB2_img|
 
   *USB 2.0 HOST Port (embedded / enclosed PC version)*
 
-.. Figure:: /Media/ARM/A55/CS12800-RK3568-101P/USB3.jpg
-  :align: center
-  :figclass: align-center
+  |USB3_img|
 
   *USB 3.0 HOST Port (embedded / enclosed PC version)*
 
-.. Figure:: /Media/ARM/A55/CS12800-RK3568-101P/TYPE-C.jpg
-  :align: center
-  :figclass: align-center
-
+  |USBC_img|
+  
   *USB Type-C Port (embedded / enclosed PC version)*
 
 .. warning::

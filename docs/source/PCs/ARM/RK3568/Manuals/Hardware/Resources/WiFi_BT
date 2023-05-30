@@ -11,8 +11,8 @@ WiFi & BT Module
 
 The |product| includes an SMA connector for an external WiFi/BT antenna, as illustrated in the figure below.
 
-.. figure:: /Media/ARM/A55/Others/Antenna.jpeg
-   :align: center
-   :figclass: align-center
+.. rst-class:: text-center
 
-   *WiFi+BT Antenna*
+   |wifi_bt_img|
+
+   *WiFi+BT Antenna SMA*
