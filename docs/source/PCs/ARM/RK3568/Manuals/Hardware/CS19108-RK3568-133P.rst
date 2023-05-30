@@ -92,7 +92,7 @@
                   :align: middle
                   :width: 192
 
-.. |PROG_btn_img| image:: /Media/ARM/A55/CS19108-RK3568-133P/PROG_Button.jpg
+.. |PROG_btn_img| image:: /Media/ARM/A55/CS19108-RK3568-133P/Prog_Button.jpg
                   :align: middle
                   :width: 192
 
