@@ -25,8 +25,8 @@ Debian11
 
 .. _CS10600P-linuxQt:
 
-Buildroot LinuxQt5.14
----------------------
+Buildroot Linux Qt 5.15
+-----------------------
 
 | :download:`prebuilt-rk3568-cs10600-mipi-buildroot-qt515-20230404.img.xz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3568/7/BuildrootLinuxQt5.15/prebuilt-rk3568-cs10600-mipi-buildroot-qt515-20230404.img.xz>`
 
