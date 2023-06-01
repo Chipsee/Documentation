@@ -25,7 +25,7 @@ def main(**kwargs: BeautifulSoup) -> None:
         )
         pdf_figcaption = soup.new_tag("figcaption", attrs={"style": "margin: 5px 0"})
 
-        figcaption_text = soup.new_tag("p", attrs={"class": "caption_text"})
+        figcaption_text = soup.new_tag("p", attrs={"class": "caption"})
         figcaption_text.append(img["alt"])
         pdf_figcaption.append(figcaption_text)
 
@@ -44,6 +44,11 @@ def main(**kwargs: BeautifulSoup) -> None:
     if html_thumbnails_node:
         html_thumbnails_node.insert_after(pdf_div)
 
+
+    # Setting the product image on the cover page
+    front_view_img = thumbnail_images[0]["src"]
+    prod_img_tag = soup.find("div", attrs={"id": "cover_product_img_area"})
+    prod_img_tag["style"] = f"background-image: url('{front_view_img}');"
 
 if __name__ == "__main__":
     main()

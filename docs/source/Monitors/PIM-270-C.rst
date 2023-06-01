@@ -73,7 +73,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/Monitors/PIM-270-C/pim-270-front.jpeg
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-85
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-70
    :alt: Front View
 
 .. raw:: html
@@ -86,7 +86,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/Monitors/PIM-270-C/pim-270-back.jpeg
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-85
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-70
    :alt: Back View
 
 .. raw:: html
@@ -99,7 +99,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/Monitors/PIM-270-C/pim-270-bottom.jpeg
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-85
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-70
    :alt: Bottom View
 
 .. raw:: html
@@ -110,15 +110,16 @@
 
     </div>
 
+:pagebreak:`True`
+
 .. note::
 
-    **EOL PRODUCT:** This product has been discontinued, due to market demand and shifts in technology. Please |contact|_ if you would like to purchase it.
+    **EOL PRODUCT:** This product has been discontinued, due to market demand and shifts in technology.
+    Please |contact|_ if you would like to purchase it.
 
 .. include:: Resources/overview
 
 .. include:: Resources/ordering
-
-:pagebreak:`True`
 
 Specification
 =============
@@ -138,8 +139,6 @@ Specification
    :class: no-scaled-link
 
    Technical Drawing
-
-:pagebreak:`True`
 
 .. include:: Resources/support
 

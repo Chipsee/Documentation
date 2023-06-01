@@ -71,7 +71,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-101-C/pim-101-side.jpg
+.. image:: /Media/Monitors/PIM-101-C/pim-101-front.jpg
    :class: product-img img-thumbnail mx-auto d-block pdf-width-70
    :alt: Front View
 
@@ -84,9 +84,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-101-C/pim-101-bottom.jpg
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-85
-   :alt: Bottom View
+.. image:: /Media/Monitors/PIM-101-C/pim-101-back.jpg
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-70
+   :alt: Back View
 
 .. raw:: html
 
@@ -97,9 +97,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-101-C/pim-101-back.jpg
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-90
-   :alt: Back View
+.. image:: /Media/Monitors/PIM-101-C/pim-101-bottom.jpg
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-70
+   :alt: Bottom View
 
 .. raw:: html
 
@@ -114,8 +114,6 @@
 .. include:: Resources/overview
 
 .. include:: Resources/ordering
-
-:pagebreak:`True`
 
 Specification
 =============

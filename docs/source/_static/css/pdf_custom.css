@@ -86,14 +86,13 @@
         /* Always change this based on portrait page height */
         height: 297mm;
         background-size: cover;
-        /* color: #2D445E;*/
-        color: #fff;
+        color: #2D445E;
     }
 
     #doc-cover #doc-cover-content {
         max-height: 267mm;
         min-height: 267mm;
-        margin: 20mm 10mm 10mm 10mm;
+        margin: 20mm 10mm 10mm 12mm;
         text-align: right;
         display: block;
     }
@@ -102,8 +101,8 @@
         font-size: 9pt;
         font-family: 'Open Sans';
         position: absolute;
-        left: 10mm;
-        bottom: 50mm;
+        left: 12mm;
+        bottom: 12mm;
         text-align: left;
         padding: 0 5mm;
     }
@@ -112,7 +111,7 @@
         font-size: 42pt;
         text-align: left;
         padding: 0 5mm;
-        margin-top: 0;
+        margin-top: 2mm;
         margin-bottom: 0;
     }
 
@@ -129,8 +128,8 @@
 
     #doc-cover.document #cover_subtitle_area {
         position: absolute;
-        left: 10mm;
-        bottom: 150mm;
+        left: 12mm;
+        bottom: 100mm;
         font-size: 14pt;
         text-align: left;
         padding: 0 5mm;
@@ -150,7 +149,7 @@
     #doc-cover.pcs #doc-cover-content {
         max-height: 267mm;
         min-height: 267mm;
-        margin: 20mm 10mm 10mm 10mm;
+        margin: 20mm 10mm 10mm 12mm;
     }
 
     #doc-cover.pcs #cover_title {
@@ -161,8 +160,8 @@
 
     #doc-cover.pcs #cover_subtitle_area {
         position: absolute;
-        left: 10mm;
-        bottom: 150mm;
+        left: 12mm;
+        bottom: 100mm;
         font-size: 14pt;
         text-align: left;
         padding: 0 5mm;
@@ -182,7 +181,7 @@
     #doc-cover.monitors #doc-cover-content {
         max-height: 267mm;
         min-height: 267mm;
-        margin: 20mm 10mm 10mm 10mm;
+        margin: 20mm 10mm 10mm 12mm;
     }
 
     #doc-cover.monitors #cover_title {
@@ -191,10 +190,21 @@
         padding: 0 5mm;
     }
 
+    #doc-cover.monitors #cover_product_img_area {
+        position: absolute;
+        left: 16mm;
+        bottom: 160mm;
+        padding: 0 5mm;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 300px
+    }
+
     #doc-cover.monitors #cover_subtitle_area {
         position: absolute;
-        left: 10mm;
-        bottom: 180mm;
+        left: 12mm;
+        bottom: 130mm;
         font-size: 14pt;
         text-align: left;
         padding: 0 5mm;
@@ -214,7 +224,7 @@
     #doc-cover.tutorials #doc-cover-content {
         max-height: 267mm;
         min-height: 267mm;
-        margin: 20mm 10mm 10mm 10mm;
+        margin: 20mm 10mm 10mm 12mm;
     }
 
     #doc-cover.tutorials #cover_title {
@@ -225,8 +235,8 @@
 
     #doc-cover.tutorials #cover_subtitle_area {
         position: absolute;
-        left: 10mm;
-        bottom: 150mm;
+        left: 12mm;
+        bottom: 100mm;
         font-size: 14pt;
         text-align: left;
         padding: 0 5mm;
@@ -247,7 +257,7 @@
     #doc-cover.som #doc-cover-content {
         max-height: 267mm;
         min-height: 267mm;
-        margin: 20mm 10mm 10mm 10mm;
+        margin: 20mm 10mm 10mm 12mm;
     }
 
     #doc-cover.som #cover_title {
@@ -258,8 +268,8 @@
 
     #doc-cover.som #cover_subtitle_area {
         position: absolute;
-        left: 10mm;
-        bottom: 150mm;
+        left: 12mm;
+        bottom: 100mm;
         font-size: 14pt;
         text-align: left;
         padding: 0 5mm;
@@ -469,66 +479,48 @@
     }
 
     /* Tables */
-    .md-typeset table:not([class]) {
-        background-color: transparent;
-        border-radius: 0;
-        font-size: 8pt;
-        border: 0.5px solid gray;
-        margin: auto;
-    }
-
-    .md-typeset dd table:not([class]) {
-        margin: unset;
-    }
-
-    .md-typeset table:not([class]) th {
-        padding: 2mm 2.5mm;
-    }
-
-    .md-typeset table:not([class]) td {
-        border-top: 0.4px solid lightgray;
-        padding: 2mm 2.5mm;
-    }
-
-    /* Fixes Table Width */
-    .md-typeset__table {
+    .md-typeset__table, .md-typeset table {
         display: table;
         margin: auto;
-    }
-
-    .md-typeset__table>table {
-        display: table;
-        margin: auto;
-    }
-
-    .admonition .md-typeset__table,
-    .md-content__inner.md-typeset details .md-typeset__table {
-        width: 100%;
-    }
-
-    .md-typeset table:not([class]) {
-        display: table;
     }
 
     .md-typeset table:not([class]) td {
         vertical-align: middle;
     }
 
-    dl>dd>.md-typeset__scrollwrap>.md-typeset__table {
-        min-width: 50%;
-        margin: 0;
+    .md-typeset table:not([class]) {
+        font-size: 10pt;
     }
 
-    .md-typeset table:not([class]) th:empty {
-        padding: 0;
+    .md-typeset table:not([class]) tr.row-odd {
+        background: #2d445e38;
     }
-/*
-    #valid-cmd+table thead tr th:nth-child(2),
-    #col-1-width+table thead tr th:nth-child(1),
-    #pin-definition+table thead tr th:nth-child(1) {
-        width: 8rem;
+    .md-typeset table:not([class]) tr.row-odd :is(td, th) {
+        background: transparent;
+        color: #444444;
+        padding: .1rem .5rem;
+
     }
-*/
+    .md-typeset table:not([class]) tr.row-odd:hover {
+        background: #2d445e;
+    }
+
+    .md-typeset table:not([class]) tr.row-even {
+        background: #ffffff;
+    }
+    .md-typeset table:not([class]) tr.row-even :is(td, th) {
+        background: transparent;
+        color: #444444;
+        padding: .3rem .5rem;
+    }
+    .md-typeset table:not([class]) tr.row-even:hover {
+        background: #ffffff;
+    }
+
+    .md-typeset table:not([class]) tr :is(td, th) {
+        border: 1px solid #444444;
+    }
+
 
     /* Admonition */
     .md-typeset .admonition,
@@ -546,11 +538,6 @@
         display: block;
     }
 
-    p.caption_text{
-        margin: 2.5px 0 5px 0;
-        font-weight: 600;
-        font-size: .8rem;
-    }
     /* HTML Only (thumbnail) */
     .html-only{
         display: none;
