@@ -310,6 +310,42 @@
   <ul class="md-nav__list" data-md-scrollfix="">
         <li class="md-nav__item"><a href="#pcs-arm-rk3568-manuals-software-debian-11--page-root" class="md-nav__link">Debian 11 OS</a><nav class="md-nav">
               <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#system-information" class="md-nav__link">System Information</a>
+        </li>
+        <li class="md-nav__item"><a href="#prepare-for-developing" class="md-nav__link">Prepare for Developing</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#prepare-the-hardware" class="md-nav__link">Prepare the Hardware</a>
+        </li>
+        <li class="md-nav__item"><a href="#prepare-the-software" class="md-nav__link">Prepare the Software</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#connecting-to-the-ipc" class="md-nav__link">Connecting to the Chipsee industrial PC</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#serial-port-debugging" class="md-nav__link">Serial Port Debugging</a>
+        </li>
+        <li class="md-nav__item"><a href="#ssh-connect" class="md-nav__link">SSH Connect</a>
+        </li>
+        <li class="md-nav__item"><a href="#connect-with-vnc-remote-desktop" class="md-nav__link">Connect with VNC Remote Desktop</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#hardware-resources-in-the-os" class="md-nav__link">Hardware Resources in the OS</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#network" class="md-nav__link">Network</a>
+        </li>
+        <li class="md-nav__item"><a href="#serial-port" class="md-nav__link">Serial Port</a>
+        </li>
+        <li class="md-nav__item"><a href="#gpio" class="md-nav__link">GPIO</a>
+        </li>
+        <li class="md-nav__item"><a href="#buzzer" class="md-nav__link">BUZZER</a>
+        </li>
+        <li class="md-nav__item"><a href="#backlight" class="md-nav__link">Backlight</a>
+        </li>
+        <li class="md-nav__item"><a href="#can-bus" class="md-nav__link">CAN Bus</a>
+        </li></ul>
+            </nav>
+        </li>
         <li class="md-nav__item"><a href="#flashing-os-image" class="md-nav__link">Flashing OS Image</a><nav class="md-nav">
               <ul class="md-nav__list">
         <li class="md-nav__item"><a href="#download-required-tools" class="md-nav__link">Download Required Tools</a>
@@ -432,6 +468,42 @@
   <ul class="md-nav__list" data-md-scrollfix="">
         <li class="md-nav__item"><a href="#pcs-arm-rk3568-manuals-software-debian-11--page-root" class="md-nav__link">Debian 11 OS</a><nav class="md-nav">
               <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#system-information" class="md-nav__link">System Information</a>
+        </li>
+        <li class="md-nav__item"><a href="#prepare-for-developing" class="md-nav__link">Prepare for Developing</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#prepare-the-hardware" class="md-nav__link">Prepare the Hardware</a>
+        </li>
+        <li class="md-nav__item"><a href="#prepare-the-software" class="md-nav__link">Prepare the Software</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#connecting-to-the-ipc" class="md-nav__link">Connecting to the Chipsee industrial PC</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#serial-port-debugging" class="md-nav__link">Serial Port Debugging</a>
+        </li>
+        <li class="md-nav__item"><a href="#ssh-connect" class="md-nav__link">SSH Connect</a>
+        </li>
+        <li class="md-nav__item"><a href="#connect-with-vnc-remote-desktop" class="md-nav__link">Connect with VNC Remote Desktop</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#hardware-resources-in-the-os" class="md-nav__link">Hardware Resources in the OS</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#network" class="md-nav__link">Network</a>
+        </li>
+        <li class="md-nav__item"><a href="#serial-port" class="md-nav__link">Serial Port</a>
+        </li>
+        <li class="md-nav__item"><a href="#gpio" class="md-nav__link">GPIO</a>
+        </li>
+        <li class="md-nav__item"><a href="#buzzer" class="md-nav__link">BUZZER</a>
+        </li>
+        <li class="md-nav__item"><a href="#backlight" class="md-nav__link">Backlight</a>
+        </li>
+        <li class="md-nav__item"><a href="#can-bus" class="md-nav__link">CAN Bus</a>
+        </li></ul>
+            </nav>
+        </li>
         <li class="md-nav__item"><a href="#flashing-os-image" class="md-nav__link">Flashing OS Image</a><nav class="md-nav">
               <ul class="md-nav__list">
         <li class="md-nav__item"><a href="#download-required-tools" class="md-nav__link">Download Required Tools</a>
@@ -459,10 +531,437 @@
 <h1 id="pcs-arm-rk3568-manuals-software-debian-11--page-root">Debian 11 OS<a class="headerlink" href="#pcs-arm-rk3568-manuals-software-debian-11--page-root" title="Permalink to this heading">¶</a></h1>
 <p class="fs-3 fw-bold text-center">Debian 11 OS on RK3568 User Manual</p>
 <a class="reference internal image-reference" href="../../../../../_images/Chipsee_Logo_Full.png"><img alt="chipsee-logo" class="align-center" src="../../../../../_images/Chipsee_Logo_Full.png" style="width: 320px;"/></a>
+<p>This is the software manual for RK3568 Chipsee industrial PC. If you’ve never developed on this hardware with a Debian 11 OS, this manual can get you started quickly.</p>
+<section id="system-information">
+<h2 id="system-information">System Information<a class="headerlink" href="#system-information" title="Permalink to this heading">¶</a></h2>
+<p class="rubric">Out of Box System</p>
+<table style="width: 100%">
+<thead>
+<tr class="row-odd"><th class="head"></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Kernel</p></td>
+<td><p>5.10.110</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bootloader</p></td>
+<td><p>U-Boot 2017.09</p></td>
+</tr>
+<tr class="row-even"><td><p>OS</p></td>
+<td><p>Debian GNU/Linux 11 (bullseye) aarch64</p></td>
+</tr>
+<tr class="row-odd"><td><p>Python</p></td>
+<td><p>3.9.2</p></td>
+</tr>
+<tr class="row-even"><td><p>Qt</p></td>
+<td><p>5.15.2, QMake 3.1</p></td>
+</tr>
+<tr class="row-odd"><td><p>GCC</p></td>
+<td><p>10.2.1</p></td>
+</tr>
+<tr class="row-even"><td><p>username/password</p></td>
+<td><p>[linaro/linaro]</p></td>
+</tr>
+<tr class="row-odd"><td><p>Window Manager</p></td>
+<td><p>Xfwm4</p></td>
+</tr>
+<tr class="row-even"><td><p>Desktop Environment</p></td>
+<td><p>Xfce 4.16</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="prepare-for-developing">
+<h2 id="prepare-for-developing">Prepare for Developing<a class="headerlink" href="#prepare-for-developing" title="Permalink to this heading">¶</a></h2>
+<p>To get started, you first need to power on the Chipsee industrial PC, then you may want to connect to this PC from your own laptop or computer to control it. Let’s prepare some hardware and software to start developing.</p>
+<section id="prepare-the-hardware">
+<h3 id="prepare-the-hardware">Prepare the Hardware<a class="headerlink" href="#prepare-the-hardware" title="Permalink to this heading">¶</a></h3>
+<p>To power on and connect to Chipsee industrial PC, we need:</p>
+<ol class="arabic simple">
+<li><p>A power adaptor. For products with a screen of 7 inch and below, a power adaptor with 6V ~ 36V DC output is required; for 10.1 inch and above products, you need one with 12V ~ 36V.</p></li>
+<li><p>A USB to serial cable (if you need serial debug).</p></li>
+<li><p>An Ethernet cable (if you want to SSH into the Chipsee industrial PC). You may also use WiFi if your Chipsee industrial PC supports WiFi, in this case you don’t need the Ethernet cable.</p></li>
+<li><p>A USB type-C cable (if you want to flash a new OS).</p></li>
+</ol>
+</section>
+<section id="prepare-the-software">
+<h3 id="prepare-the-software">Prepare the Software<a class="headerlink" href="#prepare-the-software" title="Permalink to this heading">¶</a></h3>
+<p>Thanks to the Debian 11 OS, developing on Chipsee industrial PC isn’t really different from developing on any other PCs, you can use any developer software you’re comfortable with, with only one exception for flashing OS.</p>
+<ol class="arabic">
+<li><p>To flash a new operating system, you need RKDevtool, you can refer to the Flashing OS Image section.</p>
+<p><em>The software listed below are not mandatory, they’re recommendations because we find them easy to use:</em></p>
+</li>
+<li><p>To SSH into a Chipsee industrial PC, you may find <strong>PuTTY</strong> on Windows handy; for Linux and macOS users, a terminal app should come with your OS out of box, like <strong>Terminal/iTerm2</strong> on macOS and <strong>xterm</strong> on Linux.</p></li>
+<li><p>To use a remote desktop, you can download <strong>VNC Viewer</strong> on your laptop or PC.</p></li>
+</ol>
+</section>
+</section>
+<section id="connecting-to-the-ipc">
+<h2 id="connecting-to-the-ipc">Connecting to the Chipsee industrial PC<a class="headerlink" href="#connecting-to-the-ipc" title="Permalink to this heading">¶</a></h2>
+<p>When a power supply is plugged, the Chipsee industrial PC should boot itself automatically, next let’s connect to it from our laptop or computer.</p>
+<p>There are three different approaches: serial port debugging, SSH with Ethernet/WiFi and remote desktop with VNC.</p>
+<section id="serial-port-debugging">
+<h3 id="serial-port-debugging">Serial Port Debugging<a class="headerlink" href="#serial-port-debugging" title="Permalink to this heading">¶</a></h3>
+<p>[<em>Cheatsheet for experienced developer</em>: username: <strong>linaro</strong>, password <strong>linaro</strong>.]</p>
+<p>Physically, your laptop connects to your Chipsee industrial PC with a USB to serial cable. To connect to the Chipsee industrial PC in the terminal program, you first need to know what port your laptop or computer is using in the device tree.</p>
+<p>The best way to find this is check what <strong>tty</strong> devices you have before connecting the Chipsee industrial PC to your computer, then find out what is changed after you connect it to your laptop or PC.</p>
+<p>Take macOS as an example:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># on your laptop</span>
+ls<span class="w"> </span>/dev/tty.*
+</pre></div>
+</div>
+<p>You may see:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># ➜  ~ ls /dev/tty.*</span>
+<span class="c1"># /dev/tty.Bluetooth-Incoming-Port /dev/tty.wlan-debug</span>
+<span class="c1"># ➜  ~</span>
+</pre></div>
+</div>
+<p>It means there is a Bluetooth and a wlan port <strong>before</strong> you plug the Chipsee industrial PC to your Macbook.</p>
+<p>Now you can plug the USB end to your laptop or computer, connect the serial port end to your Chipsee industrial PC’s RS232 port. For different products the pins may vary, you can check the pin definition table to find out which pins are the RS232 TX, RX, GND for serial debugging.</p>
+<p>And let’s check again what has changed <strong>after</strong> we connect the two:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># on your laptop, check again</span>
+ls<span class="w"> </span>/dev/tty.*
+</pre></div>
+</div>
+<p>You might see:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># ➜  ~ ls /dev/tty.*</span>
+<span class="c1"># /dev/tty.Bluetooth-Incoming-Port /dev/tty.wlan-debug /dev/tty.usbmodem2812</span>
+<span class="c1"># ➜  ~</span>
+</pre></div>
+</div>
+<p>You can tell the last <em>/dev/tty.usbmodem2812</em> appeared right after we plug in the cable, and this is the serial port that connects to your Chipsee industrial PC with your USB to serial cable.</p>
+<p>For Windows and Linux users the approach is almost the same, on Windows you may check the Microsoft Windows Device Manager. And check which COM port appears/disappears when you plug/unplug the USB to serial cable.</p>
+<p>Now that we know the port on our OS, let’s use the terminal program to connect to it.</p>
+<p>Take macOS as an example:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># on your laptop</span>
+screen<span class="w"> </span>/dev/tty.usbmodem2812<span class="w"> </span><span class="m">115200</span>
+</pre></div>
+</div>
+<p>Use the <strong>screen</strong> command followed by the port name (in our case usbmodem2812), and a baud rate to connect to this serial port.</p>
+<p>After a few seconds, in your terminal you should see some text, asking for a username and password. In our RK3568 based system, we should input <em>linaro</em> for the username, and also <em>linaro</em> for the password.</p>
+<p>For Windows users who use PuTTY, you should select Session, choose Serial in the radio buttons, and choose the COM port you found in the previous procedure, say COM3, and choose 115200 as baud rate, then click Open. When it asks for a username and password, give <strong>linaro</strong> for username and also <strong>linaro</strong> for password.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/serial-1.png"><img alt="../../../../../_images/serial-1.png" class="text-center align-center" src="../../../../../_images/serial-1.png" style="width: 640px;"/></a>
+<p class="text-center"><em>Input your-com in the Serial Line field, in our case COM3</em></p>
+<p>That’s it for connecting the Chipsee industrial PC to your machine with a serial debug port.</p>
+</section>
+<section id="ssh-connect">
+<h3 id="ssh-connect">SSH Connect<a class="headerlink" href="#ssh-connect" title="Permalink to this heading">¶</a></h3>
+<p>[<em>Cheatsheet for experienced developer</em>: username: <strong>linaro</strong>, password: <strong>linaro</strong>, IP check: <strong>sudo ifconfig</strong>.]</p>
+<p>If you have a network connecting the Chipsee industrial PC and your laptop or computer, you may find SSH comes handy.</p>
+<p>To connect to your Chipsee industrial PC with SSH, you need to plug an Ethernet cable to the RJ45 port, or connect through WiFi if your product supports WiFi.</p>
+<p>You will need to know the IP address of your Chipsee industrial PC to use SSH, to find out which, you can use a mouse and keyboard temporarily and type:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># type this in your Chipsee PC's xterm program to find out the IP address of this device:</span>
+$<span class="w"> </span>sudo<span class="w"> </span>ifconfig
+</pre></div>
+</div>
+<p>You should see a bunch of outputs, look for the keyword <strong>eth</strong> and <strong>inet</strong>, they will turn out to be your IP address, for example:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>eth0:<span class="w"> </span><span class="nv">flags</span><span class="o">=</span><span class="m">4163</span>&lt;UP,BROADCAST,RUNNING,MULTICAST&gt;<span class="w">  </span>mtu<span class="w"> </span><span class="m">1500</span>
+<span class="w">     </span>inet<span class="w"> </span><span class="m">192</span>.168.6.134<span class="w">  </span>netmask<span class="w"> </span><span class="m">255</span>.255.255.0<span class="w">  </span>broadcast<span class="w"> </span><span class="m">192</span>.168.6.255
+<span class="w">     </span>inet6<span class="w"> </span>fe80::c3be:d086:e810:ee8e<span class="w">  </span>prefixlen<span class="w"> </span><span class="m">64</span><span class="w">  </span>scopeid<span class="w"> </span>0x20&lt;link&gt;
+<span class="w">     </span>......
+
+lo:<span class="w"> </span><span class="nv">flags</span><span class="o">=</span><span class="m">73</span>&lt;UP,LOOPBACK,RUNNING&gt;<span class="w">  </span>mtu<span class="w"> </span><span class="m">65536</span>
+<span class="w">     </span>inet<span class="w"> </span><span class="m">127</span>.0.0.1<span class="w">  </span>netmask<span class="w"> </span><span class="m">255</span>.0.0.0
+<span class="w">     </span>inet6<span class="w"> </span>::1<span class="w">  </span>prefixlen<span class="w"> </span><span class="m">128</span><span class="w">  </span>scopeid<span class="w"> </span>0x10&lt;host&gt;
+<span class="w">     </span>......
+
+p2p0:<span class="w"> </span><span class="nv">flags</span><span class="o">=</span><span class="m">4099</span>&lt;UP,BROADCAST,MULTICAST&gt;<span class="w">  </span>mtu<span class="w"> </span><span class="m">1500</span>
+<span class="w">     </span>......
+</pre></div>
+</div>
+<p>In our example, the IP address is <strong>192.168.6.134</strong>.</p>
+<p>Now that we have the IP of our Chipsee industrial PC, we can detach the mouse and keyboard, and go back to our laptop or computer to proceed.</p>
+<p>We can now open a terminal app, like PuTTY on Windows, or Terminal/xterm on macOS/Linux.</p>
+<p>For Windows users using PuTTY, you can choose Session, input <strong>username@your-ip</strong> (in our case <em>linaro@192.168.6.134</em>, yours should be different) in the Host Name field. Port Number should remain 22, choose SSH as the connection type in the radio buttons, click “Open”. When the prompt asks for the password, type <strong>linaro</strong> and hit enter.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/ssh-2.png"><img alt="../../../../../_images/ssh-2.png" class="text-center align-center" src="../../../../../_images/ssh-2.png" style="width: 640px;"/></a>
+<p class="text-center"><em>Input username@your-ip in the Host Name field, in our case linaro@192.168.6.134</em></p>
+<p>For macOS/Linux, in your terminal program, type:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># change 192.168.6.134 to your Chipsee PC's IP we got earlier</span>
+ssh<span class="w"> </span>linaro@your-ip
+<span class="c1"># in our case, we are</span>
+ssh<span class="w"> </span>linaro@192.168.6.134
+</pre></div>
+</div>
+<a class="text-center reference internal image-reference" href="../../../../../_images/ssh-1.png"><img alt="../../../../../_images/ssh-1.png" class="text-center align-center" src="../../../../../_images/ssh-1.png" style="width: 640px;"/></a>
+<p class="text-center"><em>Change the command to ssh username@your-ip, in our case ssh linaro@192.168.6.134</em></p>
+<p>When the prompt asks for your password, input <strong>linaro</strong>, the password will not show up on the screen when you type it, it’s OK, just hit enter when you finish typing.</p>
+<p>For both Windows and Linux/macOS users, we should have successfully ssh’d into our Chipsee industrial PC now.</p>
+</section>
+<section id="connect-with-vnc-remote-desktop">
+<h3 id="connect-with-vnc-remote-desktop">Connect with VNC Remote Desktop<a class="headerlink" href="#connect-with-vnc-remote-desktop" title="Permalink to this heading">¶</a></h3>
+<p>[<em>Cheatsheet for experienced developer</em>: username: <strong>linaro</strong>, password: <strong>linaro</strong>, IP check: <strong>sudo ifconfig</strong>, VNC port: <strong>5900</strong> (default port).]</p>
+<p>We can have a graphical user interface if we use VNC to connect to our Chipsee industrial PC. This is handy if you’re developing an HMI and want to test from your own laptop or computer. Here is how:</p>
+<p>First please refer to the previous section to learn how to find out your Chipsee industrial PC’s IP address. In our case we get <strong>192.168.6.134</strong>.</p>
+<p>Then, for either Windows, macOS or Linux users, please open the VNC Viewer software on your laptop or PC. In the input area, which has a placeholder “Enter a VNC server address or search”, you should input the IP address we obtained earlier: <strong>your-ip</strong>, in our case: <strong>192.168.6.134</strong> (yours should be different), and hit enter.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/vnc-1.png"><img alt="../../../../../_images/vnc-1.png" class="text-center align-center" src="../../../../../_images/vnc-1.png" style="width: 640px;"/></a>
+<p class="text-center"><em>Change the input to your-ip, in our case 192.168.6.134</em></p>
+<p>VNC Viewer might ask for your credentials, you should input our username and password, in our case: username: <strong>linaro</strong>, password: <strong>linaro</strong>. And then continue, VNC Viewer might tell you the connection is not encrypted, it’s OK if you’re in your local network.</p>
+<p>Now we should see our Chipsee industrial PC’s desktop GUI in the VNC Viewer software.</p>
+</section>
+</section>
+<section id="hardware-resources-in-the-os">
+<h2 id="hardware-resources-in-the-os">Hardware Resources in the OS<a class="headerlink" href="#hardware-resources-in-the-os" title="Permalink to this heading">¶</a></h2>
+<p>Now that you have successfully booted the Chipsee industrial PC and connected the Chipsee industrial PC to your laptop/computer, this section will tell you how to control this Chipsee industrial PC from its OS desktop itself, or from your PC.</p>
+<section id="network">
+<h3 id="network">Network<a class="headerlink" href="#network" title="Permalink to this heading">¶</a></h3>
+<p>From the Chipsee industrial PC’s desktop GUI, you can click the Network icon in the menu bar to set your network.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Network-1.png"><img alt="../../../../../_images/Network-1.png" class="text-center align-center" src="../../../../../_images/Network-1.png" style="width: 640px;"/></a>
+<p class="text-center"><em>Network Settings</em></p>
+<p>From the terminal, you can use <strong>nmcli</strong> to configure the network. You can refer to the documents of the <strong>nmcli</strong> program for more information. <strong>nmcli</strong> is not a Chipsee specific tool, it’s widely used in Linux distributions.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>nmcli<span class="w"> </span>-o
+
+eth0:<span class="w"> </span>connected<span class="w"> </span>to<span class="w"> </span>Wired<span class="w"> </span>connection<span class="w"> </span><span class="m">1</span>
+<span class="w">     </span><span class="s2">"eth0"</span>
+<span class="w">     </span>ethernet<span class="w"> </span><span class="o">(</span>rk_gmac-dwmac<span class="o">)</span>,<span class="w"> </span><span class="m">42</span>:0B:6F:67:B0:E3,<span class="w"> </span>hw,<span class="w"> </span>mtu<span class="w"> </span><span class="m">1500</span>
+<span class="w">     </span>ip4<span class="w"> </span>default
+<span class="w">     </span>inet4<span class="w"> </span><span class="m">192</span>.168.6.134/24
+
+p2p0:<span class="w"> </span>disconnected
+<span class="w">        </span><span class="s2">"p2p0"</span>
+<span class="w">        </span>wifi<span class="w"> </span><span class="o">(</span>rtl8821cs<span class="o">)</span>,<span class="w"> </span>B6:6D:C2:13:A3:AE,<span class="w"> </span>hw,<span class="w"> </span>mtu<span class="w"> </span><span class="m">1500</span>
+
+wlan0:<span class="w"> </span>disconnected
+<span class="w">        </span><span class="s2">"wlan0"</span>
+<span class="w">        </span>wifi<span class="w"> </span><span class="o">(</span>rtl8821cs<span class="o">)</span>,<span class="w"> </span>B4:6D:C2:13:A3:AE,<span class="w"> </span>hw,<span class="w"> </span>mtu<span class="w"> </span><span class="m">1500</span>
+</pre></div>
+</div>
+</section>
+<section id="serial-port">
+<h3 id="serial-port">Serial Port<a class="headerlink" href="#serial-port" title="Permalink to this heading">¶</a></h3>
+<p>The RK3568 based Chipsee industrial PC supports RS232 and RS485, here are the mapping from the port name to the system tree device:</p>
+<table id="id1" style="width: 100%">
+<caption><span class="caption-number">Table 129 </span><span class="caption-text">5, 10.1, 13.3 and 15.0 inch products (CS12720-RK3568-050P, CS12800-RK3568-101P, CS19108-RK3568-133P, CS10768-RK3568-150P)</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Node</p></th>
+<th class="head"><p>Protocol</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>RS232_0</p></td>
+<td><p>/dev/ttyS0</p></td>
+<td><p>RS232</p></td>
+</tr>
+<tr class="row-odd"><td><p>RS232_2</p></td>
+<td><p>/dev/ttyFIQ0</p></td>
+<td><p>RS232, Serial Debug</p></td>
+</tr>
+<tr class="row-even"><td><p>RS485_3</p></td>
+<td><p>/dev/ttyS3</p></td>
+<td><p>RS485</p></td>
+</tr>
+<tr class="row-odd"><td><p>RS485_4</p></td>
+<td><p>/dev/ttyS4</p></td>
+<td><p>RS485</p></td>
+</tr>
+</tbody>
+</table>
+<table id="id2" style="width: 100%">
+<caption><span class="caption-number">Table 130 </span><span class="caption-text">7 inch product (CS10600-RK3568-070P)</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Node</p></th>
+<th class="head"><p>Protocol</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>RS232_0</p></td>
+<td><p>/dev/ttyS0</p></td>
+<td><p>RS232</p></td>
+</tr>
+<tr class="row-odd"><td><p>RS232_2</p></td>
+<td><p>/dev/ttyFIQ0</p></td>
+<td><p>RS232, Serial Debug</p></td>
+</tr>
+<tr class="row-even"><td><p>RS485_3</p></td>
+<td><p>/dev/ttyS3</p></td>
+<td><p>RS485</p></td>
+</tr>
+<tr class="row-odd"><td><p>RS485_4</p></td>
+<td><p>/dev/ttyS4</p></td>
+<td><p>RS485</p></td>
+</tr>
+<tr class="row-even"><td><p>RS485_5</p></td>
+<td><p>/dev/ttyS5</p></td>
+<td><p>RS485</p></td>
+</tr>
+</tbody>
+</table>
+<p>The 120 Ohm match resistor is already mounted on the RS485 port. RS485 ports are half-duplex, the hardware can switch the Tx/Rx direction automatically. RS232 ports are full-duplex.</p>
+<p>You can install <strong>cutecom</strong> to test the serial port:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>cutecom
+</pre></div>
+</div>
+<p>Only root user and use the serial port:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cutecom
+</pre></div>
+</div>
+<p>You can then use two Chipsee industrial PCs to test each other.</p>
+<p>If you’ve got only one Chipsee industrial PC, you can test that with your computer: you can use a USB to serial cable, connect the USB end to your computer, and connect the serial end to any of the Chipsee industrial PC’s serial port. You may also wish to install a UART/COM Assistant software which has a GUI for testing.</p>
+<p>If you’re an experienced engineer, you can also use a programming language to test the serial ports, like C, C++, Python, Javascript. They have their libraries for controlling serial port devices.</p>
+</section>
+<section id="gpio">
+<h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this heading">¶</a></h3>
+<p>There are 8 GPIOs, 4 Output, and 4 Input, they are all isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V. Refer to the tables below for a detailed port definition:</p>
+<table id="id3" style="width: 100%">
+<caption><span class="caption-number">Table 131 </span><span class="caption-text">GPIO Device Node</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Function</p></th>
+<th class="head"><p>Device Node</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>IN1</p></td>
+<td><p>/dev/chipsee-gpio5</p></td>
+</tr>
+<tr class="row-odd"><td><p>IN2</p></td>
+<td><p>/dev/chipsee-gpio6</p></td>
+</tr>
+<tr class="row-even"><td><p>IN3</p></td>
+<td><p>/dev/chipsee-gpio7</p></td>
+</tr>
+<tr class="row-odd"><td><p>IN4</p></td>
+<td><p>/dev/chipsee-gpio8</p></td>
+</tr>
+<tr class="row-even"><td><p>OUT1</p></td>
+<td><p>/dev/chipsee-gpio1</p></td>
+</tr>
+<tr class="row-odd"><td><p>OUT2</p></td>
+<td><p>/dev/chipsee-gpio2</p></td>
+</tr>
+<tr class="row-even"><td><p>OUT3</p></td>
+<td><p>/dev/chipsee-gpio3</p></td>
+</tr>
+<tr class="row-odd"><td><p>OUT4</p></td>
+<td><p>/dev/chipsee-gpio4</p></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><dl>
+<dt>Set <cite>OUT1</cite> to high or low</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="m">1</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/chipsee-gpio1<span class="w">    </span><span class="c1"># set OUT1 to high</span>
+
+$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="m">0</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/chipsee-gpio1<span class="w">    </span><span class="c1"># set OUT1 to low</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Get <cite>IN1</cite> value</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>cat<span class="w"> </span>/dev/chipsee-gpio5<span class="w">    </span><span class="c1"># value 1 indicates high, value 0 indicates low</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="buzzer">
+<h3 id="buzzer">BUZZER<a class="headerlink" href="#buzzer" title="Permalink to this heading">¶</a></h3>
+<p>The Chipsee industrial PC has one buzzer. We have created one symbol link to <cite>/dev/buzzer</cite>. You can control it as follows:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="m">1</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/buzzer<span class="w">    </span><span class="c1"># enable buzzer</span>
+
+$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="m">0</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/buzzer<span class="w">    </span><span class="c1"># disable buzzer</span>
+</pre></div>
+</div>
+</section>
+<section id="backlight">
+<h3 id="backlight">Backlight<a class="headerlink" href="#backlight" title="Permalink to this heading">¶</a></h3>
+<p>We use one PWM to control the backlight of RK3568 boards, You can use the following commands:</p>
+<ul>
+<li><dl>
+<dt>Get the supported max brightness:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>cat<span class="w"> </span>/sys/class/backlight/backlight/max_brightness
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Get the current brightness:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>cat<span class="w"> </span>/sys/class/backlight/backlight/actual_brightness
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Set brightness:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># might require write permission to the brightness file if you're not root</span>
+$<span class="w"> </span>sudo<span class="w"> </span>chmod<span class="w"> </span>a+w<span class="w"> </span>/sys/class/backlight/backlight/brightness
+<span class="c1"># then set the new brightness</span>
+$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="m">50</span><span class="w"> </span>&gt;<span class="w"> </span>/sys/class/backlight/backlight/brightness
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="can-bus">
+<h3 id="can-bus">CAN Bus<a class="headerlink" href="#can-bus" title="Permalink to this heading">¶</a></h3>
+<p>There are two CAN bus channels on the RK3568 based Chipsee industrial PC. You can install <cite>can-utils</cite> and use them to test CAN. But you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown on the figure below.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The Chipsee IPC does not mount the 120Ω matched resistor on all CAN signals by default.</p>
+</div>
+<figure class="align-center" id="id4">
+<img alt="../../../../../_images/CAN.jpeg" src="../../../../../_images/CAN.jpeg"/>
+<figcaption>
+<p><span class="caption-number">Figure 599:  </span><span class="caption-text">Connecting CAN</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Here are a few examples to test CAN by using CAN units.</p>
+<ul>
+<li><dl>
+<dt>Install <cite>can-utils</cite> if you haven’t.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>can-utils
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Set the bit-rate to <strong>50Kbits/sec</strong> with triple sampling using the following command (use ROOT user):</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span>down
+$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span><span class="nb">type</span><span class="w"> </span>can<span class="w"> </span>bitrate<span class="w"> </span><span class="m">50000</span><span class="w"> </span>triple-sampling<span class="w"> </span>on
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Bring up the device using the command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span>up
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Transfer packets</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>cansend<span class="w"> </span>can0<span class="w"> </span>5A1#11.2233.44556677.88
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Receive data from CAN bus</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>candump<span class="w"> </span>can0
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Bring down the device</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>link<span class="w"> </span><span class="nb">set</span><span class="w"> </span>can0<span class="w"> </span>down
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+</section>
 <section id="flashing-os-image">
 <h2 id="flashing-os-image">Flashing OS Image<a class="headerlink" href="#flashing-os-image" title="Permalink to this heading">¶</a></h2>
 <section id="download-required-tools">
 <h3 id="download-required-tools">Download Required Tools<a class="headerlink" href="#download-required-tools" title="Permalink to this heading">¶</a></h3>
+<p>If you want a fresh OS, you can flash your Chipsee industrial PC.</p>
 <p>You need two tools to flash the Debian 11 OS image to the RK3568 PC.
 The first is <em>DriverAssistant_v5.1.1</em>, the second is <em>RKDevTool_v2.93</em>, you can <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/SourcesArchives/RK3568/Tools/RKDevTool_Release_v2.93.zip">download all of them here</a>.</p>
 <p>These tools are Windows executables, please execute them on a Windows machine.</p>
@@ -480,7 +979,7 @@ The first is <em>DriverAssistant_v5.1.1</em>, the second is <em>RKDevTool_v2.93<
 <a class="mb-4 reference internal image-reference" href="../../../../../_images/RK_Dev_Tool.png"><img alt="RkDevTool" class="mb-4 align-center" src="../../../../../_images/RK_Dev_Tool.png" style="width: 576px;"/></a>
 <p><strong>STEP 1</strong>:</p>
 <ol class="arabic simple">
-<li><p>Connect the Type-C cable and power on the board. (If unexpected messages occurs at any of the following steps, try plugging the Type-C cable again.)</p></li>
+<li><p>Connect the Type-C cable and power on the board. (If unexpected messages occur at any of the following steps, try plugging the Type-C cable again.)</p></li>
 <li><p>Click <strong>Upgrade Firmware</strong> tab.</p></li>
 <li><p>Click <strong>Firmware</strong> button to select a .img Debian 11 image file. The screenshots show a debian11 img file is selected, but this is applicable to other OSes as well.</p></li>
 </ol>
@@ -516,7 +1015,7 @@ The first is <em>DriverAssistant_v5.1.1</em>, the second is <em>RKDevTool_v2.93<
 </section>
 <section id="notice">
 <h2 id="notice">Notice<a class="headerlink" href="#notice" title="Permalink to this heading">¶</a></h2>
-<p class="fs-5 fst-italic">(This Debian 11 OS User Manual is under active development as of 2023.5.23)</p>
+<p class="fs-5 fst-italic">(This Debian 11 OS User Manual is under active development as of 2023.5.31)</p>
 </section>
 </section>
 
@@ -567,7 +1066,7 @@ The first is <em>DriverAssistant_v5.1.1</em>, the second is <em>RKDevTool_v2.93<
               
           </div>
             Last updated on
-              May 31, 2023.
+              Jun 01, 2023.
             <br/>
         </div>
       </div>
