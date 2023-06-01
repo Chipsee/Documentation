@@ -11,7 +11,7 @@ After installing the DriverAssistant, you can now start to flash an OS image to 
 
 **STEP 1**:
 
-#. Connect the Type-C cable and power on the board. (If unexpected messages occurs at any of the following steps, try plugging the Type-C cable again.)
+#. Connect the Type-C cable and power on the board. (If unexpected messages occur at any of the following steps, try plugging the Type-C cable again.)
 #. Click **Upgrade Firmware** tab.
 #. Click **Firmware** button to select a .img |systemType| image file. The screenshots show a debian11 img file is selected, but this is applicable to other OSes as well.
 
