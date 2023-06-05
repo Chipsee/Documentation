@@ -382,4 +382,4 @@ product measurements.
 
    *Technical Drawing*
 
-.. include:: PPC_Resources/support
+.. include:: /PCs/Shared/support

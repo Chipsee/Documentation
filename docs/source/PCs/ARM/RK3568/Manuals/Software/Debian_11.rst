@@ -486,4 +486,4 @@ Flashing OS Image
 
 .. include:: Resources/Flash_OS
 
-.. include:: Resources/Development_On_Going
+.. include:: /PCs/Shared/support

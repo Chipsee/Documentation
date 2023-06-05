@@ -840,4 +840,4 @@ For more resources about Android development, visit these links: |br|
     `<http://blog.apptopia.com/android-development-forums/>`_
     `<http://androidforums.com/application-development/>`_
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

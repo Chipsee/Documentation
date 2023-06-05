@@ -1047,4 +1047,4 @@ How to Change psplash's
            # echo 180 > /etc/rotation   // rotate  180  angle
            # echo 0 > /etc/rotation	    // reset to default.
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support
