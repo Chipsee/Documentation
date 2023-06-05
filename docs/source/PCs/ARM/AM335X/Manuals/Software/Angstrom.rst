@@ -376,4 +376,4 @@ Also, we will discover how to debug using NFS on a Ubuntu Linux PC. |br|
 
 .. include:: Resources/NFS_Debug
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

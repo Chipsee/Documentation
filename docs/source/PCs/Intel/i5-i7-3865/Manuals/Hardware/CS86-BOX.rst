@@ -93,4 +93,4 @@
  
    *CS86-BOX Technical Drawing*
 
-.. include:: /PCs/Intel/J1900/Manuals/Hardware/Resources/support
+.. include:: /PCs/Shared/support

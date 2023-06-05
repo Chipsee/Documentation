@@ -212,4 +212,4 @@ product measurements.
 
 .. include:: PPC_Resources/mounting
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

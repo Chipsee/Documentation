@@ -764,4 +764,4 @@ Example — Develop a ``HelloWorld`` Program
 
        *Copy app icon*
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

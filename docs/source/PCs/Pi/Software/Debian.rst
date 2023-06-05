@@ -92,4 +92,4 @@ In this document, we use Xshell to debug the Chipsee Raspberry Pi products. You 
 
 .. include:: Resources/System_Resource
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

@@ -121,9 +121,9 @@ rst_epilog = """
 
 .. |mguide| replace:: :ref:`Mount IPC Guide <MIPCG>`
 
-.. _email: service@chipsee.com
+.. _email: support@chipsee.com
 
-.. |email| replace:: **service@chipsee.com**
+.. |email| replace:: **support@chipsee.com**
 
 .. |cd| replace:: cd/m\ :sup:`2`
 

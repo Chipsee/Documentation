@@ -555,5 +555,4 @@ package to Chipsee IPC, as described above (using SSH or USB storage).
    $ export DISPLAY=:0
    $ ./hardwaretest_serial
 
-.. image:: /Media/Chipsee_Logo_Full.png
-   :align: center
+.. include:: /PCs/Shared/support

@@ -150,4 +150,4 @@ product measurements.
 
 You can find detailed information about mounting in the |mguide|.
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

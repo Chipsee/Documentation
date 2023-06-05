@@ -124,5 +124,4 @@ Specification
 
    Technical Drawing
 
-.. include:: Resources/support
-
+.. include:: /PCs/Shared/support
