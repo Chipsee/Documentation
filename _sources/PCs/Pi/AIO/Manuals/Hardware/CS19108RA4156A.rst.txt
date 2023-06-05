@@ -374,4 +374,4 @@ product measurements.
 
    *Side Dimension Technical Drawing*
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

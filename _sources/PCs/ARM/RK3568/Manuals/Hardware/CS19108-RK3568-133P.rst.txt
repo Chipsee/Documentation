@@ -206,4 +206,4 @@
 
 .. include:: Resources/mechanical
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

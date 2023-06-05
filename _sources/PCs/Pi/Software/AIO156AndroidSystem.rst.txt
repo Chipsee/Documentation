@@ -70,3 +70,6 @@ Known Issues/Limitations
 .. _operating system: https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RaspberryPi/15.6/Android13/AOSP13-20230412-KonstaKANG-rpi4.zip
 .. _Installing operating system images on SD: https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system
 .. _Installing operating system images on eMMC: https://www.raspberrypi.com/documentation/computers/compute-module.html#flashing-the-compute-module-emmc
+
+
+.. include:: /PCs/Shared/support
