@@ -74,7 +74,7 @@
 .. Image thumbnail 1
 .. raw:: html
 
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+        <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/Pi/A72/CS19108RA4156/PPC-CM4-156-Front.jpg
    :class: product-img img-thumbnail mx-auto d-block
@@ -82,46 +82,46 @@
 
 .. raw:: html
 
-    </div>
+        </div>
 
 .. Image thumbnail 2
 .. raw:: html
 
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+        <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Pi/A72/CS19108RA4156/PPC-CM4-156-C-Back.jpg
+.. image:: /Media/Pi/A72/CS19108RA4156/PPC-CM4-156-C-Rear.jpg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View (Panel Variant)
+   :alt: Rear View (Panel Variant)
 
 .. raw:: html
 
-    </div>
+        </div>
 
 .. Image thumbnail 3
 .. raw:: html
 
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+        <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Side.jpg
+.. image:: /Media/Pi/A72/CS19108RA4156/PPC-CM4-156-C-Side.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Side View (Panel Variant)
 
 .. raw:: html
 
-    </div>
+        </div>
 
 .. Image thumbnail 4
 .. raw:: html
 
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+        <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Side2.jpg
+.. image:: /Media/Pi/A72/CS19108RA4156/PPC-CM4-156-C-Side2.jpg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Embedded PCB
+   :alt: Side View 2
 
 .. raw:: html
 
-    </div>
+        </div>
 
 .. raw:: html
 
