@@ -40,9 +40,9 @@
 
 .. |vin_rng| replace:: From 12V to 36V
 
-.. |cur| replace:: 800mA Max at 12V
+.. |cur| replace:: 1.60A Max at 12V
 
-.. |pwr| replace:: 9.6W Typical
+.. |pwr| replace:: 9.6W Typical, 19.2W Max
 
 .. |temp| replace:: From 0°C to +60°C
 
