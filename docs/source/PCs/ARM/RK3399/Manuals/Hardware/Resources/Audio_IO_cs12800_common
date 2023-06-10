@@ -3,11 +3,11 @@ Audio Connectors
 
 |Product| features some audio peripherals. It has a **3.5mm audio input/output jack**, an **internal speaker**, as well as a small **buzzer**.
 
-.. figure:: /Media/ARM/A72/CS19108R133P/Audio-A72-133.jpg
-  :figclass: align-center
-  :align: center
+.. rst-class:: text-center
 
-  *Audio Connector (enclosed PC version)*
+   |audio_img|
+
+   *Audio Connector (enclosed PC version)*
 
 .. attention::
 

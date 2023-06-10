@@ -50,6 +50,42 @@
 
 .. |rs485| replace:: 2 x RS485
 
+.. |power_img| image:: /Media/ARM/A72/CS19108R133P/Power-A72-133.jpg
+                  :align: middle
+                  :width: 576
+
+.. |io_pin_img| image:: /Media/ARM/A72/CS19108R133P/IO-A72-133.jpg
+                   :align: middle
+                   :width: 768
+
+.. |USB2_3_img| image:: /Media/ARM/A72/CS19108R133P/USB-A72-133.jpg
+                   :align: middle
+                   :width: 96
+
+.. |USBC_img| image:: /Media/ARM/A72/CS19108R133P/TYPE-C-A72-133.jpg
+                   :align: middle
+                   :width: 96
+
+.. |wifi_bt_img| image:: /Media/ARM/A72/CS19108R133P/ANT-A72-133.jpg
+                  :align: middle
+                  :width: 384
+
+.. |LAN_img| image:: /Media/ARM/A72/CS19108R133P/LAN-A72-133.jpg
+                  :align: middle
+                  :width: 192
+
+.. |TF_img| image:: /Media/ARM/A72/CS19108R133P/TF-A72-133.jpg
+                  :align: middle
+                  :width: 384
+
+.. |audio_img| image:: /Media/ARM/A72/CS19108R133P/Audio-A72-133.jpg
+                  :align: middle
+                  :width: 192
+
+.. |Power_btn_img| image:: /Media/ARM/A72/CS19108R133P/PB-A72-133.jpg
+                  :align: middle
+                  :width: 192
+
 
 .. _PPC-A72-133-P:
 
@@ -121,7 +157,6 @@
 
     </div>
 
-
 .. include:: Resources/overview
 
 .. include:: Resources/ordering
@@ -138,27 +173,7 @@
 
 .. include:: Resources/connectivity_cs12800_common
 
-USB Connectors
---------------
-
-There are 2 x **USB HOST connectors** onboard which includes |USB|
-, as shown in the figures below.
-
-.. Figure:: /Media/ARM/A72/CS19108R133P/USB-A72-133.jpg
-  :align: center
-  :figclass: align-center
-
-  *USB 2.0 and USB 3.0 HOST Connectors (enclosed PC version)*
-
-.. Figure:: /Media/ARM/A72/CS19108R133P/TYPE-C-A72-133.jpg
-  :align: center
-  :figclass: align-center
-
-  *USB Type-C Connector (enclosed PC version)*
-
-.. warning::
-
-  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
+.. include:: Resources/USB_cs12800_common
 
 .. include:: Resources/LAN_cs12800_common
 
@@ -172,23 +187,8 @@ There are 2 x **USB HOST connectors** onboard which includes |USB|
 
 .. include:: Resources/power_btn_cs12800_common
 
-Mounting Procedure
-==================
+.. include:: Resources/mounting
 
-|Product| can be mounted with 4 x M4 screws using the VESA (100x100cm or 75x75cm) and Panel mounting methods, enabling simplified installation onto any standard mounting fixture.
-
-.. attention::
-
-    Please make sure the display is not exposed to high pressure when mounting into an enclosure.
-
-You can find detailed information about mounting in the |mguide|.
-
-
-Mechanical Specifications
-=========================
-
-|productP|
-----------
-For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+.. include:: Resources/mechanical
 
 .. include:: /PCs/Shared/support

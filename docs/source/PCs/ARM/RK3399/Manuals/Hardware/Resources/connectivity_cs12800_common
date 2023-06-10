@@ -10,9 +10,9 @@ RS232+RS485+CAN+GPIO Connector
 The serial communication interfaces (RS485, RS232, and CAN) are routed to a **12-pin 3.81mm terminal**, as illustrated on the figure below.
 Serial communication on both RS485 and RS232 interfaces can reach up to 115200 kbps.
 
-.. figure:: /Media/ARM/A72/CS19108R133P/IO-A72-133.jpg
-   :align: center
-   :figclass: align-center
+.. rst-class:: text-center
+   
+   |io_pin_img|
 
 The table below offers more detailed description of every pin and its definition:
 
