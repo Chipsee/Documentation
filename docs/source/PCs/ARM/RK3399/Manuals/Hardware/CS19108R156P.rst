@@ -1,12 +1,12 @@
-.. |product| replace:: PPC-A72-133-P
+.. |product| replace:: PPC-A72-156-P
 
-.. |productP| replace:: PPC-A72-133-P
+.. |productP| replace:: PPC-A72-156-P
 
-.. |PN| replace:: PN: CS19108R133P
+.. |PN| replace:: PN: CS19108R156P
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 13.3"
+.. |dispsize| replace:: 15.6"
 
 .. |res| replace:: 1920 x 1080
 
@@ -16,11 +16,11 @@
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 355 x 225 x 55mm
+.. |dimP| replace:: 422 × 271 × 52.5mm
 
 .. |weightE| replace:: NULL
 
-.. |weightP| replace:: 3000g
+.. |weightP| replace:: 4500g
 
 .. |RAM| replace:: 4GB DDR3
 
@@ -40,9 +40,9 @@
 
 .. |vin_rng| replace:: From 12V to 36V
 
-.. |cur| replace:: 1333mA Max
+.. |cur| replace:: 2.2A Max
 
-.. |pwr| replace:: 16W Typical
+.. |pwr| replace:: 16W Typical, 26.4W Max
 
 .. |temp| replace:: From 0°C to +60°C
 
@@ -50,48 +50,49 @@
 
 .. |rs485| replace:: 2 x RS485
 
-.. |power_img| image:: /Media/ARM/A72/CS19108R133P/Power-A72-133.jpg
+.. |power_img| image:: /Media/ARM/A72/CS19108R156P/Power.jpg
                   :align: middle
-                  :width: 576
+                  :width: 392
 
-.. |io_pin_img| image:: /Media/ARM/A72/CS19108R133P/IO-A72-133.jpg
+.. |io_pin_img| image:: /Media/ARM/A72/CS19108R156P/IO.jpg
                    :align: middle
-                   :width: 768
+                   :width: 960
 
-.. |USB2_3_img| image:: /Media/ARM/A72/CS19108R133P/USB-A72-133.jpg
+.. |USB2_3_img| image:: /Media/ARM/A72/CS19108R156P/USB.jpg
                    :align: middle
-                   :width: 96
+                   :width: 256
 
-.. |USBC_img| image:: /Media/ARM/A72/CS19108R133P/TYPE-C-A72-133.jpg
+.. |USBC_img| image:: /Media/ARM/A72/CS19108R156P/TYPE-C.jpg
                    :align: middle
-                   :width: 96
+                   :width: 192
 
-.. |wifi_bt_img| image:: /Media/ARM/A72/CS19108R133P/ANT-A72-133.jpg
+.. |wifi_bt_img| image:: /Media/ARM/A72/CS19108R156P/ANT.jpg
                   :align: middle
                   :width: 384
 
-.. |LAN_img| image:: /Media/ARM/A72/CS19108R133P/LAN-A72-133.jpg
+.. |LAN_img| image:: /Media/ARM/A72/CS19108R156P/LAN.jpg
                   :align: middle
                   :width: 192
 
-.. |SIM_img| image:: /Media/ARM/A72/CS19108R133P/SIM-A72-133.jpg
+.. |SIM_img| image:: /Media/ARM/A72/CS19108R156P/SIM.jpg
                   :align: middle
                   :width: 384
 
-.. |TF_img| image:: /Media/ARM/A72/CS19108R133P/TF-A72-133.jpg
+.. |TF_img| image:: /Media/ARM/A72/CS19108R156P/TF.jpg
                   :align: middle
                   :width: 384
 
-.. |audio_img| image:: /Media/ARM/A72/CS19108R133P/Audio-A72-133.jpg
+.. |audio_img| image:: /Media/ARM/A72/CS19108R156P/Audio.jpg
                   :align: middle
                   :width: 192
 
-.. |Power_btn_img| image:: /Media/ARM/A72/CS19108R133P/PB-A72-133.jpg
+.. |Power_btn_img| image:: /Media/ARM/A72/CS19108R156P/Power_Button.jpg
                   :align: middle
                   :width: 192
+                  
 
 
-.. _PPC-A72-133-P:
+.. _PPC-A72-156-P:
 
 |product|
 #########
@@ -110,7 +111,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-P-Front.jpg
+.. image:: /Media/ARM/A72/CS19108R156P/CS19108R156P-Front.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Grey Color Variant)
 
@@ -123,9 +124,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-Back.jpg
+.. image:: /Media/ARM/A72/CS19108R156P/CS19108R156P-Rear.jpg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View (Grey Color Variant)
+   :alt: Rear View (Black Color Variant)
 
 .. raw:: html
 
@@ -136,9 +137,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-Side1.jpg
+.. image:: /Media/ARM/A72/CS19108R156P/CS19108R156P-Side1.jpg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Side View (Grey Color Variant)
+   :alt: Side View 1 (Black Color Variant)
 
 .. raw:: html
 
@@ -149,9 +150,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-Side2.jpg
+.. image:: /Media/ARM/A72/CS19108R156P/CS19108R156P-Side2.jpg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Side View (Grey Color Variant)
+   :alt: Side View 2 (Black Color Variant)
 
 .. raw:: html
 
@@ -160,6 +161,7 @@
 .. raw:: html
 
     </div>
+
 
 .. include:: Resources/overview
 

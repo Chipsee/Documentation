@@ -81,15 +81,15 @@ RK3399 Hardware Documentation
    :name: hwdocstable_6
 
    +---------------------+------------------------------------------------------------------------+
-   | |PPC-A72-156-C|     |   :ref:`PPC-A72-156-C User Manual <PPC-A72-156-C>` |br|                |
-   |                     |   PN: CS19108R156 |br| |br|                                            |
+   | |PPC-A72-156-P|     |   :ref:`PPC-A72-156-P User Manual <PPC-A72-156-P>` |br|                |
+   |                     |   PN: CS19108R156P |br| |br|                                           |
    |                     |                                                                        |
    |                     |   15.6", 1920 x 1080, 10-point capacitive touch screen                 |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC-A72-156-C| image:: /Media/ARM/A72/CS19108R156/PPC-A72-156-C-Front.jpeg
+.. |PPC-A72-156-P| image:: /Media/ARM/A72/CS19108R156P/CS19108R156P-Front.jpg
    :class: no-scaled-link
-   :target: CS19108R156.html
+   :target: CS19108R156P.html
 
 .. table::
    :widths: 20 30
@@ -152,6 +152,21 @@ RK3399 Hardware Documentation
    :target: CS19108R133.html
 
 
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_11
+
+   +---------------------+------------------------------------------------------------------------+
+   | |PPC-A72-156-C|     |   :ref:`PPC-A72-156-C User Manual <PPC-A72-156-C>` |br|                |
+   |                     |   PN: CS19108R156 |br| |br|                                            |
+   |                     |                                                                        |
+   |                     |   15.6", 1920 x 1080, 10-point capacitive touch screen                 |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-A72-156-C| image:: /Media/ARM/A72/CS19108R156/PPC-A72-156-C-Front.jpeg
+   :class: no-scaled-link
+   :target: CS19108R156.html
+
 .. toctree::
    :maxdepth: 1
    :titlesonly:
@@ -163,8 +178,9 @@ RK3399 Hardware Documentation
    PPC-A72-125-C <CS19108R125>
    PPC-A72-133-P <CS19108R133P>
    PPC-A72-150-C <CS10768R150>
-   PPC-A72-156-C <CS19108R156>
+   PPC-A72-156-P <CS19108R156P>
    PPC-A72-173-C <CS19108R173>
    PPC-A72-215-C <CS19108R215>
    EPC/PPC-A72-101-C(Legacy) <CS12800R101>
    PPC-A72-133-C(Legacy) <CS19108R133>
+   PPC-A72-156-C(Legacy) <CS19108R156>
