@@ -2,7 +2,7 @@ Power Input
 ===========
 
 |Product| can be powered by a wide range of input voltages: |vin_rng| DC. The power input connector is a **3-pin, 3.81mm terminal**.
-The polarity and the pinout is clearly marked on the housing of the product as shown on the figure below.
+The polarity and the pinout is clearly marked on the housing of the product as shown in the figure below.
 
 .. Figure:: /Media/ARM/A72/CS19108R133P/Power-A72-133.jpg
   :align: center
@@ -14,7 +14,7 @@ Note that the "**+**" sign represents the positive power input, and it is printe
 
 .. table:: Power Connector
    :align: center
-   :width: 80%
+   :width: 100%
    :class: align-center
    :widths: auto
 
