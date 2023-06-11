@@ -14,4 +14,4 @@ TF Card Slot
 
   #) The SD is used for memory extension. It can’t be used for system boot-up.
   #) The product does not come shipped with the TF Card by default.
-  #) This SD use same pins with WiFi/BT on CM4 with WiFi, they don't use at same time.
+  #) This SD uses the same pins with WiFi on CM4, they can't be used at the same time.
