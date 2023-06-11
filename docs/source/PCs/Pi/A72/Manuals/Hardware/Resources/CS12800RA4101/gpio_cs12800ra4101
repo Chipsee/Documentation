@@ -4,12 +4,11 @@ GPIO Port
 |Product| has a 10 Pin 3.81mm **GPIO Connector**, as shown on the figure below.
 The table below gives details about the definition of every Pin.
 
-.. figure:: /Media/Pi/A72/CS12800RA4101/GPIO.jpg
-   :align: center
-   :figclass: align-center
+.. rst-class:: text-center
+
+   |gpio_img|
 
    *GPIO Connector*
-
 
 .. table:: GPIO Connector Pin-out
    :align: center
@@ -42,11 +41,11 @@ The table below gives details about the definition of every Pin.
    | Pin 3                                | IN4                         | Isolated Input 4                                           |
    +--------------------------------------+-----------------------------+------------------------------------------------------------+
 
-.. Figure:: /Media/Pi/A72/Others/GP_IO_2.jpeg
-  :align: center
-  :figclass: align-center
+.. rst-class:: text-center
 
-  *Isolated GPIO reduced schematic*
+   |gpio_schema_img|
+
+   *Isolated GPIO reduced schematic*
 
 .. attention::
 

@@ -57,6 +57,52 @@
 .. |product_link| replace:: PPC-CM4-101
 
 
+.. |power_img| image:: /Media/Pi/A72/CS12800RA4101/Power.jpg
+                  :align: middle
+                  :width: 480
+
+.. |rs232_485_can_img| image:: /Media/Pi/A72/CS12800RA4101/RS232-RS485-CAN.jpg
+                  :align: middle
+                  :width: 768
+
+.. |gpio_img| image:: /Media/Pi/A72/CS12800RA4101/GPIO.jpg
+                  :align: middle
+                  :width: 768
+
+.. |gpio_schema_img| image:: /Media/Pi/A72/Others/GP_IO_2.jpeg
+                  :align: middle
+                  :width: 768
+
+
+.. |usb_3_img| image:: /Media/Pi/A72/CS12800RA4101/USB.jpg
+                   :align: middle
+                   :width: 192
+
+.. |usb_c_img| image:: /Media/Pi/A72/CS12800RA4101/TYPE-C.jpg
+                   :align: middle
+                   :width: 96
+
+
+.. |tf_img| image:: /Media/Pi/A72/CS12800RA4101/TF_Card.jpg
+                  :align: middle
+                  :width: 384
+
+.. |audio_img| image:: /Media/Pi/A72/CS12800RA4101/Audio.jpg
+                  :align: middle
+                  :width: 96
+
+.. |camera_img| image:: /Media/Pi/A72/CS12800RA4101/Camera.jpeg
+                  :align: middle
+                  :width: 384
+
+.. |boot_dip_img| image:: /Media/Pi/A72/CS12800RA4101/BootButton.jpg
+                  :align: middle
+                  :width: 192
+
+.. |mounting_img| image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-TD.png
+                  :align: middle
+                  :width: 768
+
 .. _PPC-CM4-101:
 
 |product|
@@ -127,6 +173,7 @@
 
     </div>
 
+
 .. include:: Resources/overview
 
 .. include:: Resources/ordering
@@ -157,7 +204,7 @@
 
 .. include:: Resources/Zigbee
 
-.. include:: Resources/CS12800RA4101/Camera_cs12800ra4101
+.. include:: Resources/CS12800RA4101/camera_cs12800ra4101
 
 .. include:: Resources/CS12800RA4101/tf_cs12800ra4101
 
@@ -167,6 +214,12 @@
 
 .. include:: Resources/CS12800RA4101/mounting_cs12800ra4101
 
+.. rst-class:: text-center
+
+    |mounting_img|
+
+    *Panel mounting*
+    
 .. include:: Resources/CS12800RA4101/mechanical_cs12800ra4101
 
 .. include:: /PCs/Shared/support

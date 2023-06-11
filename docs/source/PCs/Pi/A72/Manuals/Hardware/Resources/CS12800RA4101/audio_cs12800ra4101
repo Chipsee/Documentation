@@ -4,10 +4,10 @@ Audio Connectors
 |Product| features some audio peripherals. It has 1 x **3.5mm audio output jack**. |br|
 Also, the |product| industrial Pi PC has a miniature 2W internal speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds.
 
-.. figure:: /Media/Pi/A72/CS12800RA4101/Audio.jpg
-  :figclass: align-center
-  :align: center
+.. rst-class:: text-center
 
+   |audio_img|
+   
   *Audio Connector (enclosed PC version)*
 
 .. attention::

@@ -3,11 +3,11 @@ USB Connectors
 
 There are 2 x Type A **USB3.0 HOST connectors** onboard, as shown on the figure below.
 
-.. Figure:: /Media/Pi/A72/CS12800RA4101/USB.jpg
-  :align: center
-  :figclass: align-center
+.. rst-class:: text-center
 
-  *USB HOST Connectors (enclosed PC version)*
+    |usb_3_img|
+
+    *USB HOST Connectors (enclosed PC version)*
 
 .. attention::
 
@@ -16,11 +16,11 @@ There are 2 x Type A **USB3.0 HOST connectors** onboard, as shown on the figure 
 
 The product has one USB OTG connector that works as a slave by default. You can use it to establish a connection with the host PC and for downloading the system to the eMMC of CM4 module.
 
-.. Figure:: /Media/Pi/A72/CS12800RA4101/TYPE-C.jpg
-  :align: center
-  :figclass: align-center
+.. rst-class:: text-center
 
-  *USB OTG Connector*
+    |usb_c_img|
+
+    *USB OTG Connector*
 
 .. warning::
 

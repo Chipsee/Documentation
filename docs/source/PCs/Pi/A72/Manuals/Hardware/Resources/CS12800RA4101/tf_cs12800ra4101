@@ -4,11 +4,11 @@ TF Card Slot
 
 |Product| features 1 x **TF Card (micro SD) slot**. It can address up to 32GB of memory.
 
-.. figure:: /Media/Pi/A72/CS12800RA4101/TF_Card.jpg
-  :align: center
-  :figclass: align-center
+.. rst-class:: text-center
 
-  *TF (micro SD) Card Slot*
+    |tf_img|
+
+    *TF (micro SD) Card Slot*
 
 .. attention::
 
