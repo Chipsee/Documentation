@@ -1,0 +1,14 @@
+Boot DIP Button
+===============
+
+|Product| has one button for enter usb download mode, shown in the figure below. |br|
+When pressed the button, the Raspberry Pi will boot from the USB connector. You can use this function to download the OS software to the internal eMMC. |br|
+When released the button, the Raspberry Pi will boot from internal eMMC.
+
+There is no need to alter the Boot DIP Button during regular operation. However, if you need to reinstall the OS, please refer to the detailed information on how to re-flash the OS from the :ref:`Software Documentation <Pi_OS>`.
+
+.. figure:: /Media/Pi/A72/CS12800RA4101/BootButton.jpg
+  :figclass: align-center
+  :align: center
+
+  *Boot DIP Button*
