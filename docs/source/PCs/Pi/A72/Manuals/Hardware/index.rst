@@ -87,7 +87,7 @@ Cortex-A72 Hardware Documentation
    |                     |   15", 1024 x 768, 10-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC-CM4-150| image:: /Media/Pi/A72/CS10768RA4150/PPC-CM4-150-front.jpg
+.. |PPC-CM4-150| image:: /Media/Pi/A72/CS10768RA4150/PPC-CM4-150-Front.jpg
    :class: no-scaled-link
    :target: CS10768RA4150.html
    
