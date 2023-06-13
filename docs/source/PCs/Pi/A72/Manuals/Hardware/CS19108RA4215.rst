@@ -90,10 +90,6 @@
                   :align: middle
                   :width: 96
 
-.. |camera_img| image:: /Media/Pi/A72/CS12800RA4101/Camera.jpeg
-                  :align: middle
-                  :width: 384
-
 .. |boot_dip_img| image:: /Media/Pi/A72/CS19108RA4133/BootButtonbig.jpg
                   :align: middle
                   :width: 192
@@ -202,8 +198,6 @@
 .. include:: Resources/4G_com
 
 .. include:: Resources/Zigbee_cs19108ra4133
-
-.. include:: Resources/CS12800RA4101/camera_cs12800ra4101
 
 .. include:: Resources/CS12800RA4101/tf_cs12800ra4101
 
