@@ -10,7 +10,7 @@
 
 .. |TFNum| replace:: 1
 
-.. |tf_des| replace:: This TF card is designed for storage expansion, as the TF card use same pins with WiFi, it can't be used with WiFi at same time.
+.. |tf_des| replace:: This TF card is designed for storage expansion, as the TF card uses the same pins with WiFi, it can't be used with WiFi at the same time.
 
 .. |dispsize| replace:: 12.1"
 
@@ -18,7 +18,7 @@
 
 .. |bright| replace:: 400 |cd|
 
-.. |disp_des| replace:: |dispsize| Ten-point capacitive a touch screen with a resolution of |res| pixels and brightness of |bright|
+.. |disp_des| replace:: |dispsize| Ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |dimE| replace:: NULL
 
