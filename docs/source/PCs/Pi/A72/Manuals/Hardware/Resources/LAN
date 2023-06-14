@@ -1,7 +1,7 @@
 LAN Connectors
 ---------------
 
-**LAN (RJ45) connector** provides Ethernet connectivity over standardized Ethernet cables as shown the figure below. The integrated Ethernet interface supports
+**LAN (RJ45) connector** provides Ethernet connectivity over standardized Ethernet cables as shown in the figure below. The integrated Ethernet interface supports
 up to 1 Gbps data throughput. These Giga LAN signals come from the CM4 module directly.
 
 .. figure:: /Media/Pi/A53/Others/LAN.jpeg

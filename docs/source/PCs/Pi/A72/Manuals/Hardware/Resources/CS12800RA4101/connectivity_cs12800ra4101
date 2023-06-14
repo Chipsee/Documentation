@@ -1,0 +1,60 @@
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial Pi PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to
+1 Gbps, and 4 x UART and 1 x CAN terminals (RS232/RS485/CAN).
+
+
+RS232/RS485/CAN
+---------------
+
+The serial communication interfaces (RS485, RS232, and CAN) are routed to a **12-pin 3.81mm terminal**, as illustrated on the figure below.
+
+.. rst-class:: text-center
+
+   |rs232_485_can_img|
+
+   *RS232-RS485-CAN on the* |product| *Industrial PC*
+
+The table below offers more detailed description of every pin and its definition:
+
+.. table:: Connectivity Section
+   :align: center
+   :width: 100%
+   :class: align-center
+   :widths: auto
+
+   +---------------------------------------------------------------------------------------------------------------+
+   | **RS232 / RS485 / CAN Pin Definition:**                                                                       |
+   +================+===============================+==============================================================+
+   | **Pin Number** | **Definition**                | **Description**                                              |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 1          | CAN_H                         | CAN BUS "H" signal                                           |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 2          | CAN_L                         | CAN BUS "L" signal                                           |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 3          | RS485_5-                      | CPU UART5, RS485 –(B) signal                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 4          | RS485_5+                      | CPU UART5, RS485 +(A) signal                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 5          | RS485_3-                      | CPU UART3, RS485 –(B) signal                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 6          | RS485_3+                      | CPU UART3, RS485 +(A) signal                                 |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 7          | RS232_2_RXD                   | CPU UART2, RS232 RXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 8          | RS232_2_TXD                   | CPU UART2, RS232 TXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 9          | RS232_0_RXD                   | CPU UART0, RS232 RXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 10         | RS232_0_TXD                   | CPU UART0, RS232 TXD signal                                  |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 11         | GND                           | System Ground                                                |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+   | Pin 12         | +5V                           | System +5V Power Output, No more than 1A Current output      |
+   +----------------+-------------------------------+--------------------------------------------------------------+
+
+.. attention::
+
+   #) RS485_3 and RS485_5 can control the input and output direction automatically. There’s no need to control it from within the software.
+   #) The 120Ω match resistor for the RS485 and CAN bus is **NOT** mounted by default.

@@ -1,10 +1,10 @@
-.. |product| replace:: PPC-CM4-101
+.. |product| replace:: PPC-CM4-215
 
-.. |productE| replace:: CS12800RA4101E
+.. |productE| replace:: CS19108RA4215E
 
-.. |productP| replace:: CS12800RA4101P
+.. |productP| replace:: CS19108RA4215P
 
-.. |PN| replace:: PN: CS12800RA4101
+.. |PN| replace:: PN: CS19108RA4215
 
 .. |Product| replace:: The |product| industrial Pi PC
 
@@ -12,21 +12,21 @@
 
 .. |tf_des| replace:: This TF card is designed for storage expansion, as the TF card uses the same pins with WiFi, it can't be used with WiFi at the same time
 
-.. |dispsize| replace:: 10.1"
+.. |dispsize| replace:: 21.5"
 
-.. |res| replace:: 1280 x 800
+.. |res| replace:: 1920 x 1080
 
-.. |bright| replace:: 400 |cd|
+.. |bright| replace:: 250 |cd|
 
 .. |disp_des| replace:: |dispsize| Ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 276 x 194 x 46mm
+.. |dimP| replace:: 535 x 331 x 52.5mm
 
 .. |weightE| replace:: NULL
 
-.. |weightP| replace:: 1600g
+.. |weightP| replace:: 5500g
 
 .. |tscreen| replace:: 10-point capacitive touch
 
@@ -46,26 +46,25 @@
 
 .. |vin_rng| replace:: From 12V to 36V
 
-.. |cur| replace:: 800mA Max
+.. |cur| replace:: 1500mA Max
 
-.. |pwr| replace:: 9.6W Typical
+.. |pwr| replace:: 18W Typical
 
-.. |temp| replace:: From 0°C to +60°C
+.. |temp| replace:: From 0°C to +50°C
 
-.. _product_link: https://chipsee.com/product/PPC-CM4-101/
+.. _product_link: https://chipsee.com/product/PPC-CM4-215/
 
-.. |product_link| replace:: PPC-CM4-101
+.. |product_link| replace:: PPC-CM4-215
 
-
-.. |power_img| image:: /Media/Pi/A72/CS12800RA4101/Power.jpg
+.. |power_img| image:: /Media/Pi/A72/CS19108RA4133/Powerbig.jpg
                   :align: middle
                   :width: 480
 
-.. |rs232_485_can_img| image:: /Media/Pi/A72/CS12800RA4101/RS232-RS485-CAN.jpg
+.. |rs232_485_can_img| image:: /Media/Pi/A72/CS19108RA4133/RS232-RS485-CANbig.jpg
                   :align: middle
                   :width: 768
 
-.. |gpio_img| image:: /Media/Pi/A72/CS12800RA4101/GPIO.jpg
+.. |gpio_img| image:: /Media/Pi/A72/CS19108RA4133/GPIObig.jpg
                   :align: middle
                   :width: 768
 
@@ -74,32 +73,33 @@
                   :width: 768
 
 
-.. |usb_3_img| image:: /Media/Pi/A72/CS12800RA4101/USB.jpg
+.. |usb_3_img| image:: /Media/Pi/A72/CS19108RA4133/USBbig.jpg
                    :align: middle
                    :width: 192
 
-.. |usb_c_img| image:: /Media/Pi/A72/CS12800RA4101/TYPE-C.jpg
+.. |usb_c_img| image:: /Media/Pi/A72/CS19108RA4133/TYPE-Cbig.jpg
                    :align: middle
                    :width: 96
 
 
-.. |tf_img| image:: /Media/Pi/A72/CS12800RA4101/TF_Card.jpg
+.. |tf_img| image:: /Media/Pi/A72/CS19108RA4133/TF_Cardbig.jpg
                   :align: middle
                   :width: 384
 
-.. |audio_img| image:: /Media/Pi/A72/CS12800RA4101/Audio.jpg
+.. |audio_img| image:: /Media/Pi/A72/CS19108RA4133/Audiobig.jpg
                   :align: middle
                   :width: 96
 
-.. |boot_dip_img| image:: /Media/Pi/A72/CS12800RA4101/BootButton.jpg
+.. |boot_dip_img| image:: /Media/Pi/A72/CS19108RA4133/BootButtonbig.jpg
                   :align: middle
                   :width: 192
 
-.. |mounting_img| image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-TD.png
+.. |mounting_img| image:: /Media/Pi/A72/CS19108RA4215/mechanical.png
                   :align: middle
                   :width: 768
 
-.. _PPC-CM4-101:
+
+.. _PPC-CM4-215:
 
 |product|
 #########
@@ -118,7 +118,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-Front.jpg
+.. image:: /Media/Pi/A72/CS19108RA4215/CS19108RA4215-Front.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Panel Variant)
 
@@ -131,9 +131,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-Back.jpg
+.. image:: /Media/Pi/A72/CS19108RA4215/CS19108RA4215-Rear.jpg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View (Panel Variant)
+   :alt: Rear View (Panel Variant)
 
 .. raw:: html
 
@@ -144,9 +144,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-Side.jpg
+.. image:: /Media/Pi/A72/CS19108RA4215/CS19108RA4215-Side1.jpg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Side View (Panel Variant)
+   :alt: Side View 1
 
 .. raw:: html
 
@@ -157,9 +157,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101E-Embedded.jpg
+.. image:: /Media/Pi/A72/CS19108RA4215/CS19108RA4215-Side2.jpg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Embedded PCB
+   :alt: Side View 2
 
 .. raw:: html
 
@@ -168,7 +168,6 @@
 .. raw:: html
 
     </div>
-
 
 .. include:: Resources/overview
 
@@ -184,7 +183,7 @@
 
 .. include:: Resources/power
 
-.. include:: Resources/cap_screen
+.. include:: Resources/cap_screen_usb
 
 .. include:: Resources/CS12800RA4101/connectivity_cs12800ra4101
 
@@ -192,13 +191,13 @@
 
 .. include:: Resources/CS12800RA4101/usb_cs12800ra4101
 
-.. include:: Resources/LAN
+.. include:: Resources/LAN_cs19108ra4133
 
-.. include:: Resources/WiFi
+.. include:: Resources/WiFi_cs19108ra4133
 
 .. include:: Resources/4G_com
 
-.. include:: Resources/Zigbee
+.. include:: Resources/Zigbee_cs19108ra4133
 
 .. include:: Resources/CS12800RA4101/tf_cs12800ra4101
 
@@ -206,14 +205,14 @@
 
 .. include:: Resources/CS12800RA4101/boot_dip_cs12800ra4101
 
-.. include:: Resources/CS12800RA4101/mounting_cs12800ra4101
+.. include:: Resources/mounting_cs19108ra4133
+
+.. include:: Resources/CS12800RA4101/mechanical_cs12800ra4101
 
 .. rst-class:: text-center
 
     |mounting_img|
 
-    *Panel mounting*
-    
-.. include:: Resources/CS12800RA4101/mechanical_cs12800ra4101
+    *Mechanical Drawing*
 
 .. include:: /PCs/Shared/support
