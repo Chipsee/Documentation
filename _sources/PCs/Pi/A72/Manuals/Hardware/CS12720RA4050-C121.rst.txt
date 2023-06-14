@@ -222,7 +222,7 @@ The product has one USB Type-C connector that works as a slave by default. You c
 LAN Connectors
 ---------------
 
-**LAN (RJ45) connector** provides Ethernet connectivity over standardized Ethernet cables as shown the figure below. The integrated Ethernet interface supports
+**LAN (RJ45) connector** provides Ethernet connectivity over standardized Ethernet cables as shown in the figure below. The integrated Ethernet interface supports
 up to 1 Gbps data throughput. These Giga LAN signals come from the CM4 module directly.
 
 .. figure:: /Media/Pi/A72/CS12720RA4050-C121/LAN.png
