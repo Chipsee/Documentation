@@ -95,6 +95,23 @@ RK3568 Hardware Documentation
    :target: CS19108-RK3568-156P.html
 
 
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_7
+
+   +---------------------+------------------------------------------------------------------------+
+   | |PPC-A55-215|       |   :ref:`PPC-A55-215 User Manual <PPC-A55-215>` |br|                    |
+   |                     |   PN: CS12800-RK3568-215P |br| |br|                                    |
+   |                     |                                                                        |
+   |                     |   21.5", 1280 x 800, 10-point capacitive touch screen                  |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-A55-215| image:: /Media/ARM/A55/CS12800-RK3568-215P/CS12800-RK3568-215P-Front.jpg
+   :class: no-scaled-link
+   :target: CS12800-RK3568-215P.html
+
+
+
 .. toctree::
    :maxdepth: 1
    :titlesonly:
@@ -107,3 +124,4 @@ RK3568 Hardware Documentation
    PPC-A55-133 <CS19108-RK3568-133P>
    PPC-A55-150 <CS10768-RK3568-150P>
    PPC-A55-156 <CS19108-RK3568-156P>
+   PPC-A55-215 <CS12800-RK3568-215P>
