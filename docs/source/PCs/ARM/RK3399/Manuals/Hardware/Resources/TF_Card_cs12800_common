@@ -3,9 +3,9 @@ TF Card Slot
 
 |Product| features 1 x **TF Card (micro SD) slot**. It can address up to 128GB of memory.
 
-.. figure:: /Media/ARM/A72/CS19108R133P/TF-A72-133.jpg
-  :align: center
-  :figclass: align-center
+.. rst-class:: text-center
+
+   |TF_img|
 
   *TF (micro SD) Card Slot*
 

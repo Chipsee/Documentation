@@ -1,0 +1,19 @@
+USB Connectors
+--------------
+
+There are 2 x **USB HOST connectors** onboard which includes |USB|
+, as shown in the figures below.
+
+.. rst-class:: text-center
+
+  |USB2_3_img|
+
+  *USB 2.0 and USB 3.0 HOST Connectors (enclosed PC version)*
+
+  |USBC_img|
+
+  *USB Type-C Connector (enclosed PC version)*
+
+.. warning::
+
+  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
