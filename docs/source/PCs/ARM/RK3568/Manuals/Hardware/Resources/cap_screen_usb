@@ -4,7 +4,7 @@ Touch Screen
 |Product| uses a |tscreen|. However, the Debian OS supports only One-Point touch. |br|
 The figure below shows the capacitive touch screen connected to the motherboard via the **USB connector**.
 
-.. Figure:: /Media/ARM/A55/Shared-101-133-150/USB_Touch.jpg
+.. Figure:: /Media/ARM/A55/Shared-101/USB_Touch.jpg
   :figclass: align-center
   :align: center
   
