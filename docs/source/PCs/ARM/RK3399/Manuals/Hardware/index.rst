@@ -21,13 +21,13 @@ RK3399 Hardware Documentation
    :name: hwdocstable_2
 
    +---------------------+------------------------------------------------------------------------+
-   | |PPC-A72-101-C|     |   :ref:`PPC-A72-101-C User Manual <PPC-A72-101-C>` |br|                |
+   | |PPC-A72-101|       |   :ref:`PPC-A72-101 User Manual <PPC-A72-101>` |br|                    |
    |                     |   PN: CS12800R101P |br| |br|                                           |
    |                     |                                                                        |
    |                     |   10.1", 1280 x 800, 10-point capacitive touch screen                  |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC-A72-101-C| image:: /Media/ARM/A72/CS12800R101P/PPC-A72-101-C-Front.jpeg
+.. |PPC-A72-101| image:: /Media/ARM/A72/CS12800R101P/CS12800R101P-Front.jpeg
    :class: no-scaled-link
    :target: CS12800R101P.html
 
@@ -174,7 +174,7 @@ RK3399 Hardware Documentation
 
 
    EPC/PPC-A72-070-C <CS10600R070>
-   PPC-A72-101-C <CS12800R101P>
+   PPC-A72-101 <CS12800R101P>
    PPC-A72-125-C <CS19108R125>
    PPC-A72-133-P <CS19108R133P>
    PPC-A72-150-C <CS10768R150>

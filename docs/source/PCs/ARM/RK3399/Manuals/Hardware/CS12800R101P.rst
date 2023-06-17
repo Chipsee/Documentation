@@ -1,6 +1,6 @@
-.. |product| replace:: PPC-A72-101-C
+.. |product| replace:: PPC-A72-101
 
-.. |productP| replace:: PPC-A72-101-C
+.. |productP| replace:: PPC-A72-101
 
 .. |PN| replace:: PN: CS12800R101P
 
@@ -51,7 +51,7 @@
 .. |rs485| replace:: 2 x RS485
 
 
-.. _PPC-A72-101-C:
+.. _PPC-A72-101:
 
 |product|
 #########
@@ -70,7 +70,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A72/CS12800R101P/PPC-A72-101-C-Front.jpeg
+.. image:: /Media/ARM/A72/CS12800R101P/CS12800R101P-Front.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Grey Color Variant)
 
@@ -83,9 +83,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A72/CS12800R101P/PPC-A72-101-C-Back.jpeg
+.. image:: /Media/ARM/A72/CS12800R101P/CS12800R101P-Rear.jpeg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View (Grey Color Variant)
+   :alt: Rear View (Grey Color Variant)
 
 .. raw:: html
 
@@ -96,7 +96,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A72/CS12800R101P/PPC-A72-101-C-Side.jpeg
+.. image:: /Media/ARM/A72/CS12800R101P/CS12800R101P-Side1.png
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Side View (Black Color Variant)
 
@@ -109,7 +109,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A72/CS12800R101P/PPC-A72-101-B-Side.png
+.. image:: /Media/ARM/A72/CS12800R101P/CS12800R101P-Side2.jpeg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Side View (Black Color Variant)
 
