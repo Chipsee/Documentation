@@ -118,7 +118,7 @@
 
 .. image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Front.jpg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Front View (Grey Color Variant)
+   :alt: Front View
 
 .. raw:: html
 
