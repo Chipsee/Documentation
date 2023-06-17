@@ -195,6 +195,8 @@
 
 .. include:: Resources/4G_com
 
+.. include:: Resources/m2_slot
+
 .. include:: Resources/TF_Card_CS12800-RK3568-101P
 
 .. include:: Resources/Audio_IO_CS12800-RK3568-101P
