@@ -117,7 +117,7 @@ Cortex-A72 Hardware Documentation
    | |PPC-CM4-215|       |   :ref:`PPC-CM4-215 User Manual <PPC-CM4-215>` |br|                    |
    |                     |   PN: CS19108RA4215 |br| |br|                                          |
    |                     |                                                                        |
-   |                     |   15.6", 1920 x 1080, 10-point capacitive touch screen                 |
+   |                     |   21.5", 1920 x 1080, 10-point capacitive touch screen                 |
    +---------------------+------------------------------------------------------------------------+
 
 .. |PPC-CM4-215| image:: /Media/Pi/A72/CS19108RA4215/CS19108RA4215-Front.jpg
@@ -127,6 +127,21 @@ Cortex-A72 Hardware Documentation
 .. table::
    :widths: 20 30
    :name: hwdocstable_9
+
+   +---------------------+------------------------------------------------------------------------+
+   | |PPC-CM4-236|       |   :ref:`PPC-CM4-236 User Manual <PPC-CM4-236>` |br|                    |
+   |                     |   PN: CS19108RA4236 |br| |br|                                          |
+   |                     |                                                                        |
+   |                     |   23.6", 1920 x 1080, 10-point capacitive touch screen                 |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-CM4-236| image:: /Media/Pi/A72/CS19108RA4236/CS19108RA4236-Front.jpg
+   :class: no-scaled-link
+   :target: CS19108RA4236.html
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_10
 
    +---------------------+------------------------------------------------------------------------+
    | |EPC/PPC-CM4-050|   |   :ref:`EPC/PPC-CM4-050 User Manual <EPC/PPC-CM4-050>` |br|            |
@@ -153,4 +168,5 @@ Cortex-A72 Hardware Documentation
    PPC-CM4-150 <CS10768RA4150>
    PPC-CM4-156 <CS19108RA4156>
    PPC-CM4-215 <CS19108RA4215>
+   PPC-CM4-236 <CS19108RA4236>
    EPC/PPC-CM4-050(Legacy) <CS12720RA4050>
