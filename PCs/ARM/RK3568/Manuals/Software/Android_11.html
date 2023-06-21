@@ -327,6 +327,24 @@
         </li></ul>
             </nav>
         </li>
+        <li class="md-nav__item"><a href="#connect-from-workstation" class="md-nav__link">Connect From Workstation</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#install-android-platform-tools" class="md-nav__link">Install Android Platform Tools</a>
+        </li>
+        <li class="md-nav__item"><a href="#connect-from-serial-port" class="md-nav__link">Connect From Serial Port</a>
+        </li>
+        <li class="md-nav__item"><a href="#connect-from-usb-type-c-port" class="md-nav__link">Connect From USB Type-C Port</a>
+        </li>
+        <li class="md-nav__item"><a href="#connect-from-wi-fi" class="md-nav__link">Connect From Wi-Fi</a>
+        </li>
+        <li class="md-nav__item"><a href="#connect-from-ethernet" class="md-nav__link">Connect From Ethernet</a>
+        </li>
+        <li class="md-nav__item"><a href="#common-issues-for-connecting" class="md-nav__link">Common Issues for Connecting</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#install-an-apk" class="md-nav__link">Install an APK</a>
+        </li>
         <li class="md-nav__item"><a href="#notice" class="md-nav__link">Notice</a>
         </li></ul>
             </nav>
@@ -442,6 +460,24 @@
         </li></ul>
             </nav>
         </li>
+        <li class="md-nav__item"><a href="#connect-from-workstation" class="md-nav__link">Connect From Workstation</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#install-android-platform-tools" class="md-nav__link">Install Android Platform Tools</a>
+        </li>
+        <li class="md-nav__item"><a href="#connect-from-serial-port" class="md-nav__link">Connect From Serial Port</a>
+        </li>
+        <li class="md-nav__item"><a href="#connect-from-usb-type-c-port" class="md-nav__link">Connect From USB Type-C Port</a>
+        </li>
+        <li class="md-nav__item"><a href="#connect-from-wi-fi" class="md-nav__link">Connect From Wi-Fi</a>
+        </li>
+        <li class="md-nav__item"><a href="#connect-from-ethernet" class="md-nav__link">Connect From Ethernet</a>
+        </li>
+        <li class="md-nav__item"><a href="#common-issues-for-connecting" class="md-nav__link">Common Issues for Connecting</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#install-an-apk" class="md-nav__link">Install an APK</a>
+        </li>
         <li class="md-nav__item"><a href="#notice" class="md-nav__link">Notice</a>
         </li></ul>
             </nav>
@@ -515,9 +551,198 @@ The first is <em>DriverAssistant_v5.1.1</em>, the second is <em>RKDevTool_v2.93<
 <a class="mb-4 reference internal image-reference" href="../../../../../_images/Flash_5.png"><img alt="Flash_5" class="mb-4 align-center" src="../../../../../_images/Flash_5.png" style="width: 768px;"/></a>
 </section>
 </section>
+<section id="connect-from-workstation">
+<h2 id="connect-from-workstation">Connect From Workstation<a class="headerlink" href="#connect-from-workstation" title="Permalink to this heading">¶</a></h2>
+<p>There are 4 ways to connect to your Chipsee industrial PC from your workstation:</p>
+<ol class="arabic simple">
+<li><p>From <strong>Serial</strong> RS232 port</p></li>
+<li><p>From <strong>USB</strong> Type-C port</p></li>
+<li><p>From <strong>Ethernet</strong></p></li>
+<li><p>From <strong>Wi-Fi</strong></p></li>
+</ol>
+<p>Let’s take a look at these connecting methods one by one.</p>
+<section id="install-android-platform-tools">
+<h3 id="install-android-platform-tools">Install Android Platform Tools<a class="headerlink" href="#install-android-platform-tools" title="Permalink to this heading">¶</a></h3>
+<p><em>If you intend only to use</em> <strong>serial port</strong> <em>RS232 to connect to |ipc|, you can</em> <strong>skip</strong> <em>this part, debugging with serial port does not require installing Android Platform Tools.</em></p>
+<p>If you want to control or test your Android 11 based Chipsee industrial PC from your workstation, such as your PC or laptop, one tool is required to be installed on your machine.</p>
+<p>Since the Chipsee industrial PC runs an Android OS, like developing on any other Android devices (phones, tablets, TVs, etc), the tools and knowledge apply to developing on Chipsee industrial PC as well. We will need a tool called <strong>Android Platform Tools</strong> to be installed on your workstation. You can refer to Google Android’s official developer doc to learn how to do that, here is a link to download this tool: <a class="reference external" href="https://developer.android.com/tools/releases/platform-tools">https://developer.android.com/tools/releases/platform-tools</a>. If the link is dead when you’re reading this document, you can search for <em>Android Platform Tools</em> in your favorite search engine to find out where it has gone to. Then download and install the distribution that matches your workstation’s platform (MacOS, Linux or Windows).</p>
+<p>Instead of Android Platform Tools, you can also get the <strong>Android Studio</strong>, it includes a SDK Manager that helps you download the SDK tools and platforms we’ll need. Android Studio is much more powerful and requires more space and time to install. If you only need the command line tool, you’re fine with just the Android Platform Tools alone.</p>
+<p>If you have successfully installed the Android Platform Tools, you can confirm that by opening a terminal window and type a command <cite>adb</cite>, you should see multiple lines of instructions.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/ADB.png"><img alt="../../../../../_images/ADB.png" class="text-center align-center" src="../../../../../_images/ADB.png" style="width: 720px;"/></a>
+<p class="text-center"><em>Type adb in Your Terminal to Confirm a Successful Installation of Android Platform Tools</em></p>
+</section>
+<section id="connect-from-serial-port">
+<h3 id="connect-from-serial-port">Connect From Serial Port<a class="headerlink" href="#connect-from-serial-port" title="Permalink to this heading">¶</a></h3>
+<p>In our prebuilt Android 11 OS, the <strong>RS232_2</strong> serves as a serial debug port on the RK3568 products of all screen sizes. We can connect a RS232 cable from the Chipsee industrial PC to our workstation, allowing us to control the Chipsee industrial PC from our workstation.</p>
+<p>To get started, except for the Chipsee industrial PC and your computer, you also need a USB to serial cable, we will use a USB Type-C to DB-9 cable as an example.</p>
+<p>I will plug the USB Type-C port to a Mac (Windows and Linux work fine too), and then I would use three female to female dupont wires, to connect 3 of the DB-9 pins to my Chipsee industrial PC ‘s GND and RS232_2 (RX and TX) pins. Take a look at the image below, it’s a 7-inch product, if your product has a different screen size, check out the hardware document to find out which pins are RS232_2 TX and RX. You should connect the DB-9 RX to Chipsee industrial PC’s TX, and TX to RX, you should also connect their GNDs (the white wire).</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Serial_Connect.jpg"><img alt="../../../../../_images/Serial_Connect.jpg" class="text-center align-center" src="../../../../../_images/Serial_Connect.jpg" style="width: 480px;"/></a>
+<p class="text-center"><em>Connect 3 Pins with Dupont Wires</em></p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/USB_Serial_Cable.jpg"><img alt="../../../../../_images/USB_Serial_Cable.jpg" class="text-center align-center" src="../../../../../_images/USB_Serial_Cable.jpg" style="width: 480px;"/></a>
+<p class="text-center"><em>Use a USB to Serial Cable to Connect the Chipsee Industrial PC with Your Workstation</em></p>
+<p>For <strong>MacOS and Linux</strong> users, you will need a program called <strong>screen</strong>. It should be already installed on most MacOS and Linux distributions. Open your terminal and type <cite>screen -v</cite>. If the <em>screen</em> program is already installed in your computer, you should see a version number, like that in the image below:</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Screen_Program-1.png"><img alt="../../../../../_images/Screen_Program-1.png" class="text-center align-center" src="../../../../../_images/Screen_Program-1.png" style="width: 480px;"/></a>
+<p class="text-center"><em>Confirm You Have the Screen Program (MacOS &amp; Linux)</em></p>
+<p>And then, let’s check what device our USB to RS232 cable in our operating system is. You should type a command in your terminal to find it out, different cables may appear as different devices in your OS:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ls<span class="w"> </span>/dev/tty.*
+</pre></div>
+</div>
+<p>You might see many <em>tty</em> devices listed in your terminal, and cannot decide which is your USB to RS232 cable. Here is a tip: you can unplug the cable first, type the command to see what is listed in the OS. Then you plug it back in, and test again, to see what has recently appeared. The difference between the two should be your cable. In the image below, we found the <cite>/dev/tty.usbserial-10</cite> is our USB to RS232 cable.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Cable_Finding.png"><img alt="../../../../../_images/Cable_Finding.png" class="text-center align-center" src="../../../../../_images/Cable_Finding.png" style="width: 640px;"/></a>
+<p class="text-center"><em>Find Out Which Device is Your USB to Serial Cable</em></p>
+<p>Finally, you can put the device you found to the screen program as a parameter. To connect to your Chipsee industrial PC:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>screen<span class="w"> </span>/dev/tty.usbserial-10<span class="w"> </span><span class="m">115200</span>
+</pre></div>
+</div>
+<p>There should be a few seconds of blank screen, then you might see some health checks pop up in your terminal, you can hit Enter or type some commands to see if you can interact with your Chipsee industrial PC. In the image below, the Android Chipsee industrial PC responds to my <cite>ls</cite> command.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Screen_Program-2.png"><img alt="../../../../../_images/Screen_Program-2.png" class="text-center align-center" src="../../../../../_images/Screen_Program-2.png" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Screen_Program-3.png"><img alt="../../../../../_images/Screen_Program-3.png" class="text-center align-center" src="../../../../../_images/Screen_Program-3.png" style="width: 640px;"/></a>
+<p class="text-center"><em>The Screen Program Connects Your Workstation to the Industrial PC’s Android Console</em></p>
+<p>If you want to <strong>exit</strong> the screen program, you can press <cite>Ctrl+A</cite> then press <cite>K</cite>.</p>
+<p>The program will ask you if you want to kill this window, then press <cite>y</cite> to exit the program.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Screen_Program-4.png"><img alt="../../../../../_images/Screen_Program-4.png" class="text-center align-center" src="../../../../../_images/Screen_Program-4.png" style="width: 640px;"/></a>
+<p class="text-center"><em>Press “Ctrl + A” Follow by a “K” to Exit the Program</em></p>
+<p>For <strong>Windows</strong> users, you should install a program called <strong>PuTTY</strong>, here is a link to download the software: <a class="reference external" href="https://www.putty.org/">https://www.putty.org/</a>. If you’re comfortable with other clients rather than PuTTY, you can use those as well. There are no hard requirements when you wish to develop on a Chipsee industrial PC. This Chipsee industrial PC is an Android device in the end, that’s also one benefit of embracing open technologies – no vendor lock-in, use your preferred developer tools.</p>
+<p>With PuTTY in your belt, let’s find out which COM port your USB to RS232 cable is using. One tip is to check the Microsoft Windows Device Manager. Check which COM port appears/disappears when you plug/unplug the USB to serial cable. And that COM port device should be your USB to RS232 cable. When you have found the COM port your serial cable is using, let’s say it’s “your-com”, or “COM3” in this example.</p>
+<p>Open the PuTTY program, select Session, choose Serial in the radio buttons, and fill the COM port you found previously in the Microsoft Windows Device Manager, and choose 115200 as baud rate, then click Open.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/serial-1.png"><img alt="../../../../../_images/serial-1.png" class="text-center align-center" src="../../../../../_images/serial-1.png" style="width: 640px;"/></a>
+<p class="text-center"><em>Input your-com in the Serial Line field, in our case COM3</em></p>
+<p>Now you should be able to connect from your workstation to the Chipsee industrial PC through the serial port. You can try to hit Enter, or type some commands, like <cite>ls</cite>, to see if the Chipsee industrial PC replies to your commands.</p>
+</section>
+<section id="connect-from-usb-type-c-port">
+<h3 id="connect-from-usb-type-c-port">Connect From USB Type-C Port<a class="headerlink" href="#connect-from-usb-type-c-port" title="Permalink to this heading">¶</a></h3>
+<p>Apart from the serial port, you can also connect to the Chipsee industrial PC through its Type-C port. In this case, make sure you have Android Platform Tools installed on your development computer. Let’s take a look at how we can connect through USB.</p>
+<p>For either <strong>Windows</strong> or <strong>MacOS/Linux</strong> users, firstly you need a USB Type-C cable. It can be a Type-C to Type-C, or Type-A to Type-C, at least one end needs to be Type-C, because it needs to be plugged into the Chipsee industrial PC’s Type-C port. Secondly be sure the Android Platform Tools is installed on your workstation. The image below is a 7 inch RK3568 powered Chipsee industrial PC, your product should have a Type-C port as well.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/USB_Connect-1.jpg"><img alt="../../../../../_images/USB_Connect-1.jpg" class="text-center align-center" src="../../../../../_images/USB_Connect-1.jpg" style="width: 640px;"/></a>
+<p class="text-center"><em>Connect Your Workstation to Chipsee Industrial PC’s Type-C Port</em></p>
+<p>When you plug in the USB cable properly, you can hear a sound, and see there is a pop up notification, telling you USB debugging is connected on your Chipsee industrial PC:</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/USB_Connect-2.jpg"><img alt="../../../../../_images/USB_Connect-2.jpg" class="text-center align-center" src="../../../../../_images/USB_Connect-2.jpg" style="width: 640px;"/></a>
+<p class="text-center"><em>Plugging in the USB Cable Should Trigger a Notification</em></p>
+<p>USB debugging is enabled by default, if yours isn’t responding as expected, you may check whether USB debugging is set correctly on your Chipsee industrial PC, USB debugging should be enabled. Also check your USB cable to ensure your USB cable can transmit data, rather than only supports charging.</p>
+<p>Now that the cable is connected successfully, let’s connect the two with software.</p>
+<p>For <strong>MacOS and Linux</strong> users, you can open your terminal, and type a command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb<span class="w"> </span>devices
+</pre></div>
+</div>
+<p>You should see your Chipsee industrial PC listed in the outputs, like in the image below:</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/USB_Connect-3.png"><img alt="../../../../../_images/USB_Connect-3.png" class="text-center align-center" src="../../../../../_images/USB_Connect-3.png" style="width: 640px;"/></a>
+<p class="text-center"><em>4ddd66645b2b1018 is our Chipsee Android Device</em></p>
+<p>And then you can connect to this device with another command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb<span class="w"> </span>shell
+</pre></div>
+</div>
+<p>You might see a <strong>rk3568</strong> followed by a dollar (<strong>$</strong>) sign, indicating you’re sending commands to the Chipsee industrial PC’s Android system in the ADB shell.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/USB_Connect-4.png"><img alt="../../../../../_images/USB_Connect-4.png" class="text-center align-center" src="../../../../../_images/USB_Connect-4.png" style="width: 640px;"/></a>
+<p class="text-center"><em>Now We Are Connected From USB Type-C Port</em></p>
+<p>You can type <cite>exit</cite> or hit <cite>Ctrl + D</cite> to exit the ADB shell, to get back to your workstation’s terminal.</p>
+</section>
+<section id="connect-from-wi-fi">
+<h3 id="connect-from-wi-fi">Connect From Wi-Fi<a class="headerlink" href="#connect-from-wi-fi" title="Permalink to this heading">¶</a></h3>
+<p>Debugging from Wifi is enabled by default. Also, please keep USB debugging enabled, even though you’re not connecting through the Type-C port. Make sure you have Android Platform Tools installed on your development computer.</p>
+<p>To start debugging wirelessly, make sure your Chipsee industrial PC and your workstation are connected to the same Wifi network.</p>
+<p>We will need your Chipsee industrial PC’s IP address to start connecting, you can check your Chipsee industrial PC’s IP address in <strong>Settings - Network &amp; internet - Wi-Fi - your wifi ssid (Network details) - Advanced - IP address</strong>:</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Wifi-1.jpg"><img alt="../../../../../_images/Wifi-1.jpg" class="text-center align-center" src="../../../../../_images/Wifi-1.jpg" style="width: 640px;"/></a>
+<p class="text-center"><em>Check Your Android PC’s IP Address, in Our Case: 192.168.50.211</em></p>
+<p>For <strong>MacOS and Linux</strong> users, you can then type a command to connect to your Chipsee industrial PC wirelessly in the terminal:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb<span class="w"> </span>connect<span class="w"> </span>your-ip
+</pre></div>
+</div>
+<p>In our case, <em>“your-ip”</em> is 192.168.50.211, yours should be a different value, maybe it starts with <em>172</em> or <em>10.0</em> or <em>192</em> etc, it depends on your office network configuration.</p>
+<p>If connected successfully, you should see a <strong>connected to your-ip:5555</strong> message in the terminal.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Wifi-2.png"><img alt="../../../../../_images/Wifi-2.png" class="text-center align-center" src="../../../../../_images/Wifi-2.png" style="width: 640px;"/></a>
+<p class="text-center"><em>Successfully Connected to Android PC</em></p>
+<p>Let’s get into the adb shell by typing:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb<span class="w"> </span>shell
+</pre></div>
+</div>
+<p>Then you can type some commands, like <cite>ls</cite>, as shown in the image below. If you experience a lot of input lags, a poor Wifi connection might be one of the reasons, try moving to a place with better Wifi signal.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Wifi-3.png"><img alt="../../../../../_images/Wifi-3.png" class="text-center align-center" src="../../../../../_images/Wifi-3.png" style="width: 640px;"/></a>
+<p class="text-center"><em>Use adb shell to Get into the Shell of Your Android PC</em></p>
+<p>To exit the shell, you can either hit <cite>Ctrl + D</cite> or type <cite>exit</cite>.</p>
+<p>If you have other problems when debugging through Wifi, you can also search for the official Android Developer documents, the Chipsee industrial PC is running a full Android operating system, other knowledge of Android development applies to this device as well.</p>
+</section>
+<section id="connect-from-ethernet">
+<h3 id="connect-from-ethernet">Connect From Ethernet<a class="headerlink" href="#connect-from-ethernet" title="Permalink to this heading">¶</a></h3>
+<p>Apart from serial port, USB cable and Wifi, connecting and debugging through Ethernet is another choice for developers.</p>
+<p>Firstly, plug in an RJ-45 Ethernet cable, to connect your Chipsee industrial PC to the same network of your workstation. The 5 inch or 10.1 inch and above products have only one RJ-45 port. The 7 inch product has two RJ-45 ports, you can use either one.</p>
+<p>Then you can find the IP address in <strong>Settings - About tablet - IP address</strong>. We will need this value to connect from our workstation with <strong>adb</strong> later. Let’s say it’s <em>your-ip</em>, in our case it is 192.168.50.83, as shown in the image below. Yours might be a different value, maybe it starts with <em>172</em> or <em>10.0</em> or <em>192</em> etc, it depends on your office network configuration.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Ethernet-1.jpg"><img alt="../../../../../_images/Ethernet-1.jpg" class="text-center align-center" src="../../../../../_images/Ethernet-1.jpg" style="width: 640px;"/></a>
+<p class="text-center"><em>Our IP is 192.168.50.83, Yours Might be Different</em></p>
+<p>For <strong>MacOS and Linux</strong> users, open your terminal, and type a command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb<span class="w"> </span>connect<span class="w"> </span>your-ip
+</pre></div>
+</div>
+<p>In our case, “your-ip” is 192.168.50.83:</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Ethernet-2.png"><img alt="../../../../../_images/Ethernet-2.png" class="text-center align-center" src="../../../../../_images/Ethernet-2.png" style="width: 640px;"/></a>
+<p class="text-center"><em>A Successful Connection</em></p>
+<p>If your connection to the Chipsee industrial PC is established, you should see <strong>connected to your-ip:5555</strong>.</p>
+<p>Then let’s get into the adb shell by:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb<span class="w"> </span>shell
+</pre></div>
+</div>
+<p>You can type some commands to interact with your Chipsee industrial PC inside the shell, like <cite>ls</cite>, to check if you have successfully gotten into the Android shell.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Ethernet-3.png"><img alt="../../../../../_images/Ethernet-3.png" class="text-center align-center" src="../../../../../_images/Ethernet-3.png" style="width: 640px;"/></a>
+<p class="text-center"><em>Use adb shell to Get into the Shell of Your Android PC</em></p>
+<p>To exit the shell, you can either hit <cite>Ctrl + D</cite> or type <cite>exit</cite>.</p>
+</section>
+<section id="common-issues-for-connecting">
+<h3 id="common-issues-for-connecting">Common Issues for Connecting<a class="headerlink" href="#common-issues-for-connecting" title="Permalink to this heading">¶</a></h3>
+<p>You might encounter unexpected behaviors when you’re connecting to the Chipsee industrial PC from your workstation, here are some common issues we’ve seen.</p>
+<p>The prompt says: “adb: more than one device/emulator”.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Connection_FAQ-1.png"><img alt="../../../../../_images/Connection_FAQ-1.png" class="text-center align-center" src="../../../../../_images/Connection_FAQ-1.png" style="width: 640px;"/></a>
+<p class="text-center"><em>The Prompt Says “adb: more than one device/emulator”</em></p>
+<p>When you use <cite>adb shell</cite>, and there are more than one device, the adb might be confused about which to connect. This happens when you’ve been trying to connect to the Chipsee industrial PC from more than one method. You can confirm this situation by entering <cite>adb devices</cite>, you should see more than one device listed.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Connection_FAQ-2.png"><img alt="../../../../../_images/Connection_FAQ-2.png" class="text-center align-center" src="../../../../../_images/Connection_FAQ-2.png" style="width: 640px;"/></a>
+<p class="text-center"><em>More Than One Devices are Listed</em></p>
+<p>In this case, you can add a <cite>-s</cite> to specify which device you want to connect.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb<span class="w"> </span>-s<span class="w"> </span><span class="m">192</span>.168.50.146:5555<span class="w"> </span>shell
+</pre></div>
+</div>
+<p>If you prefer the USB, use:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb<span class="w"> </span>-d<span class="w"> </span>shell
+</pre></div>
+</div>
+<p>Or prefer TCP/IP:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb<span class="w"> </span>-e<span class="w"> </span>shell
+</pre></div>
+</div>
+<p>You can also disconnect all devices by:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb<span class="w"> </span>disconnect
+</pre></div>
+</div>
+<p>And kill the adb server by:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb<span class="w"> </span>kill-server
+</pre></div>
+</div>
+<p>You can also shutdown the Chipsee industrial PC with adb:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb<span class="w"> </span>shell<span class="w"> </span>reboot<span class="w"> </span>-p<span class="w"> </span><span class="c1"># -p means --poweroff</span>
+</pre></div>
+</div>
+<p>There are far more options you can try with <strong>adb</strong>, to learn more, you can search for <strong>“adb usages”</strong> on the Internet, or check out the official Android Developer documents. Adb is not a Chipsee vender specific tool, you can find a lot of tutorials about adb on the Internet.</p>
+</section>
+</section>
+<section id="install-an-apk">
+<h2 id="install-an-apk">Install an APK<a class="headerlink" href="#install-an-apk" title="Permalink to this heading">¶</a></h2>
+<p>To install an app from your workstation to the Chipsee industrial PC, we’ll also need the help of <strong>adb</strong>.</p>
+<p>You should download or compile an APK file you want to install on your workstation, put it in a folder you can find, such as Downloads folder.</p>
+<p>For <strong>MacOS and Linux</strong> users, you can open a terminal window, connect to your Chipsee industrial PC like explained in the previous chapter, but don’t get into shell.</p>
+<p>Let’s say we have a copy of Jellyfin-Android apk in our Downloads folder:</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Install_APK-1.png"><img alt="../../../../../_images/Install_APK-1.png" class="text-center align-center" src="../../../../../_images/Install_APK-1.png" style="width: 480px;"/></a>
+<p class="text-center"><em>Prepare Your APK File</em></p>
+<p>Then we can type <cite>adb install path-to-file</cite> to install it to our Chipsee industrial PC’s Android system. Take care of the relative file path, you can use a absolute path as well.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>adb<span class="w"> </span>install<span class="w"> </span>Downloads/jellyfin-android-v2.5.2-libre-release.apk
+</pre></div>
+</div>
+<p>It might take a minute to get one app installed, you should see a <strong>success</strong> in the terminal after the installation is finished successfully.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Install_APK-2.png"><img alt="../../../../../_images/Install_APK-2.png" class="text-center align-center" src="../../../../../_images/Install_APK-2.png" style="width: 640px;"/></a>
+<p class="text-center"><em>Installation Finished After 1 Minute</em></p>
+<p>You can check the Chipsee industrial PC from it’s screen, and confirm your app is installed successfully:</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Install_APK-3.jpg"><img alt="../../../../../_images/Install_APK-3.jpg" class="text-center align-center" src="../../../../../_images/Install_APK-3.jpg" style="width: 640px;"/></a>
+<p class="text-center"><em>The App We Just Installed is on our Android PC</em></p>
+</section>
 <section id="notice">
 <h2 id="notice">Notice<a class="headerlink" href="#notice" title="Permalink to this heading">¶</a></h2>
-<p class="fs-5 fst-italic">(This Android 11 OS User Manual is under active development as of 2023.5.31)</p>
+<p class="fs-5 fst-italic">(This Android 11 OS User Manual is under active development as of June 16th, 2023)</p>
 </section>
 </section>
 
@@ -568,7 +793,7 @@ The first is <em>DriverAssistant_v5.1.1</em>, the second is <em>RKDevTool_v2.93<
               
           </div>
             Last updated on
-              Jun 19, 2023.
+              Jun 21, 2023.
             <br/>
         </div>
       </div>
