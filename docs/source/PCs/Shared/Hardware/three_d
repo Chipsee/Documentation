@@ -1,0 +1,8 @@
+3D Model
+========
+
+|product| 3D model can be viewed in the online doc in a web browser, if you are reading from the **PDF** version, please visit the `online doc <https://docs.chipsee.com/>`_.
+
+.. raw:: html
+
+   <button class="btn btn-outline-primary btn-lg html-only" id="3d-link" onclick="handleThreeDButtonClick()">3D Model</button>

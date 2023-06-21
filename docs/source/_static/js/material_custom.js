@@ -95,3 +95,14 @@ const sidebar_item = document.querySelector(".md-nav.md-nav--secondary > .md-nav
 if (sidebar_item != null){
     sidebar_menu.style.backgroundColor = "#f4f7f7";
 }
+
+
+// Add query param to let 3D js know what product it needs to display, open 3D page.
+function handleThreeDButtonClick() {
+    const link_elem = document.getElementById("3d-link");
+    const productPN = document.querySelector("#d-model>p").textContent.split(' ')[0];
+    if (link_elem && productPN) {
+        const href = `/ThreeD/three_d_model.html?productModel=${productPN}`;
+        window.open(href, '_blank');
+    }
+}
