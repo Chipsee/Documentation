@@ -22,4 +22,8 @@ Flashing OS Image
 
 .. include:: Resources/Flash_OS
 
+.. include:: Resources/Android/Connect
+
+.. include:: Resources/Android/Install_APK
+
 .. include:: Resources/Development_On_Going

@@ -1,0 +1,44 @@
+Install an APK
+==============
+
+To install an app from your workstation to the |ipc|, we'll also need the help of **adb**.
+
+You should download or compile an APK file you want to install on your workstation, put it in a folder you can find, such as Downloads folder.
+
+For **MacOS and Linux** users, you can open a terminal window, connect to your |ipc| like explained in the previous chapter, but don't get into shell.
+
+Let's say we have a copy of Jellyfin-Android apk in our Downloads folder: 
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A55/Software/Android/Install_APK-1.png
+      :align: center
+      :width: 480
+
+   *Prepare Your APK File*
+
+Then we can type `adb install path-to-file` to install it to our |ipc|'s Android system. Take care of the relative file path, you can use a absolute path as well.
+
+.. code:: bash
+
+    adb install Downloads/jellyfin-android-v2.5.2-libre-release.apk
+
+It might take a minute to get one app installed, you should see a **success** in the terminal after the installation is finished successfully.
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A55/Software/Android/Install_APK-2.png
+      :align: center
+      :width: 640
+
+   *Installation Finished After 1 Minute*
+
+You can check the |ipc| from it's screen, and confirm your app is installed successfully:
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A55/Software/Android/Install_APK-3.jpg
+      :align: center
+      :width: 640
+
+   *The App We Just Installed is on our Android PC*
