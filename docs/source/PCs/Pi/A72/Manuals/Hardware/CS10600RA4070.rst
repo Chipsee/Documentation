@@ -59,6 +59,9 @@
 
 .. |product_link| replace:: EPC/PPC-CM4-070
 
+.. |sim_img| image:: /Media/Pi/A72/CS10600RA4070/TF_4G_070.jpg
+                  :align: middle
+                  :width: 960
 
 .. _EPC/PPC-CM4-070:
 

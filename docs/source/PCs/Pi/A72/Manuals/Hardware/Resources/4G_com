@@ -2,7 +2,14 @@
 ----------------
 
 |Product| is equipped with a **mini-PCIe connector** that can connect to a 3G/4G module.
-The customer will also need a SIM Card Holder and a 3G/4G Antenna Connector to ensure 3G/4G works on the |product|.
+The customer will also need a SIM Card Holder and a 3G/4G Antenna Connector to ensure 3G/4G works on the |product|. SIM card does **NOT** support hot plug. **Power off** before inserting or removing SIM card.
+
+.. rst-class:: text-center
+
+    |sim_img|
+
+    *SIM Card Direction*
+
 
 .. figure:: /Media/Pi/A53/Others/4G_module.jpeg
    :align: center
