@@ -71,7 +71,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-125-C/pim-125-front.png
+.. image:: /Media/Displays/PIM-125-C/pim-125-front.png
    :class: product-img img-thumbnail mx-auto d-block pdf-width-75
    :alt: Front View
 
@@ -84,7 +84,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-125-C/pim-125-back.jpeg
+.. image:: /Media/Displays/PIM-125-C/pim-125-back.jpeg
    :class: product-img img-thumbnail mx-auto d-block pdf-width-75
    :alt: Back View
 
@@ -97,7 +97,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-125-C/pim-125-bottom.jpeg
+.. image:: /Media/Displays/PIM-125-C/pim-125-bottom.jpeg
    :class: product-img img-thumbnail mx-auto d-block pdf-width-75
    :alt: Bottom View
 
@@ -130,7 +130,7 @@ Specification
 
 .. include:: Resources/mechspecs
 
-.. figure:: /Media/Monitors/PIM-125-C/pim-125-sd.jpeg
+.. figure:: /Media/Displays/PIM-125-C/pim-125-sd.jpeg
    :figclass: align-center
    :class: no-scaled-link
 

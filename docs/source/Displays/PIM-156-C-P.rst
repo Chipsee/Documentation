@@ -75,7 +75,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-156-C-P/pim-156p-front.png
+.. image:: /Media/Displays/PIM-156-C-P/pim-156p-front.png
    :class: product-img img-thumbnail mx-auto d-block pdf-width-60
    :alt: Front View
 
@@ -88,7 +88,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-156-C-P/pim-156p-back.jpeg
+.. image:: /Media/Displays/PIM-156-C-P/pim-156p-back.jpeg
    :class: product-img img-thumbnail mx-auto d-block pdf-width-60
    :alt: Back View
 
@@ -101,7 +101,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-156-C-P/pim-156p-bottom.jpeg
+.. image:: /Media/Displays/PIM-156-C-P/pim-156p-bottom.jpeg
    :class: product-img img-thumbnail mx-auto d-block pdf-width-60
    :alt: Bottom View
 
@@ -128,7 +128,7 @@ Specification
 
 .. include:: Resources/mechspecs
 
-.. figure:: /Media/Monitors/PIM-156-C-P/pim-156p-sd.jpeg
+.. figure:: /Media/Displays/PIM-156-C-P/pim-156p-sd.jpeg
    :figclass: align-center
    :class: no-scaled-link
 

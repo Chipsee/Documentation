@@ -1,56 +1,56 @@
-:pdf-title: PIM-185-C
-:pdf-subtitle: PN: CS-D185
-:pdf-filename: PIM-185-C
+:pdf-title: PIM-101-C
+:pdf-subtitle: PN: CS-D101
+:pdf-filename: PIM-101-C
 :pdf-type: monitors
 :pdf-revision: 1.1
 
 
-.. |product| replace:: PIM-185-C
+.. |product| replace:: PIM-101-C
 
-.. |PN| replace:: PN: CS-D185
+.. |PN| replace:: PN: CS-D101
 
 .. |Product| replace:: The |product| Industrial PC
 
-.. |dispsize| replace:: 18.5"
+.. |dispsize| replace:: 10.1"
 
-.. |res| replace:: 1366 x 768 (16:9)
+.. |res| replace:: 1280 x 800 (4:3)
 
-.. |bright| replace:: 250 |cd|
+.. |bright| replace:: 350 |cd|
 
 .. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |con_ratio| replace:: 1000:1
+.. |con_ratio| replace:: 600:1
 
-.. |v_angle| replace:: 	Horizontal: 170° / Vertical: 160°
+.. |v_angle| replace:: 	Horizontal: 170° / Vertical: 170°
 
-.. |res_time| replace:: 5ms (GTG)
+.. |res_time| replace:: 35ms (GTG)
 
-.. |disp_col| replace:: 16.7M Colors
+.. |disp_col| replace:: 16.2M Colors
 
 .. |in_res| replace:: |res| @ 60Hz
 
 .. |connector| replace:: VGA / DVI / HDMI
 
-.. |dim| replace:: 464.9 x 285.5 x 42.5mm
+.. |dim| replace:: 	253.20 x 171.8 x 35mm
 
-.. |pkg_size| replace:: 680 x 450 x 150mm
+.. |pkg_size| replace:: 332 x 225 x 60mm
 
-.. |weight| replace:: 4500g / 6500g
+.. |weight| replace:: 1.1kg
 
-.. |mount| replace:: VESA, MIS-D, 100, C
+.. |mount| replace:: VESA, Panel
 
-.. |pwr| replace:: ≤ 19W
-
-.. |vin_rng| replace:: 9V - 30V
+.. |pwr| replace:: ≤ 14W
 
 .. |standby| replace:: ≤ 2W
 
-.. _product_link: https://chipsee.com/product/pim185c/
+.. |vin_rng| replace:: 12V - 24V
 
-.. |product_link| replace:: PIM-185-C
+.. _product_link: https://chipsee.com/product/pim-101-c/
+
+.. |product_link| replace:: PIM-101-C
 
 
-.. _PIM-185-C:
+.. _PIM-101-C:
 
 |product|
 #########
@@ -71,7 +71,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-185-C/pim-185-front.png
+.. image:: /Media/Displays/PIM-101-C/pim-101-front.png
    :class: product-img img-thumbnail mx-auto d-block pdf-width-70
    :alt: Front View
 
@@ -84,7 +84,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-185-C/pim-185-back.jpeg
+.. image:: /Media/Displays/PIM-101-C/pim-101-back.jpg
    :class: product-img img-thumbnail mx-auto d-block pdf-width-70
    :alt: Back View
 
@@ -97,7 +97,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-185-C/pim-185-bottom.jpeg
+.. image:: /Media/Displays/PIM-101-C/pim-101-bottom.jpg
    :class: product-img img-thumbnail mx-auto d-block pdf-width-70
    :alt: Bottom View
 
@@ -109,11 +109,11 @@
 
     </div>
 
+:pagebreak:`True`
+
 .. include:: Resources/overview
 
 .. include:: Resources/ordering
-
-:pagebreak:`True`
 
 Specification
 =============
@@ -124,11 +124,7 @@ Specification
 
 .. include:: Resources/mechspecs
 
-.. figure:: /Media/Monitors/PIM-185-C/pim-185-sd.jpeg
-   :figclass: align-center
-   :class: no-scaled-link
-
-.. figure:: /Media/Monitors/PIM-185-C/pim-185-sd-2.jpeg
+.. figure:: /Media/Displays/PIM-101-C/pim-101-sd.jpeg
    :figclass: align-center
    :class: no-scaled-link
 

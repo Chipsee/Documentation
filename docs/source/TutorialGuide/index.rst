@@ -6,7 +6,7 @@
 Tutorials and Guides
 ====================
 
-This section contains tutorials and guides about Chipsee Industrial PCs, Monitors, and System on Modules.
+This section contains tutorials and guides about Chipsee Industrial PCs, Displays, and System on Modules.
 
 
 * :ref:`IPC Mounting Guide <MIPCG>`
