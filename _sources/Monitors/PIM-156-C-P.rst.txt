@@ -1,4 +1,11 @@
-.. |product| replace:: PIM-156-P
+:pdf-title: PIM-156-C-P
+:pdf-subtitle: PN: CS-D156P
+:pdf-filename: PIM-156-C-P
+:pdf-type: monitors
+:pdf-revision: 1.1
+
+
+.. |product| replace:: PIM-156-C-P
 
 .. |PN| replace:: PN: CS-D156P
 
@@ -44,30 +51,32 @@
 
 .. _product_link: https://chipsee.com/product/pim156cp/
 
-.. |product_link| replace:: PIM-156-P
+.. |product_link| replace:: PIM-156-C-P
 
 
-.. _PIM-156-P:
+.. _PIM-156-C-P:
 
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
+    :class: html-only
 
 .. You must add the `product-img img-thumbnail mx-auto d-block` word
 .. to the image class directive in order for the thumbnail feature to work
+.. You must add `html-only` to the div under the raw directive to hide the div in the PDF output
 
 .. raw:: html
 
-    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
+    <div class="row html-only" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
 
 .. Image thumbnail 1
 .. raw:: html
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-156-C-P/pim-156p-front.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
+.. image:: /Media/Monitors/PIM-156-C-P/pim-156p-front.png
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-60
    :alt: Front View
 
 .. raw:: html
@@ -80,7 +89,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/Monitors/PIM-156-C-P/pim-156p-back.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-60
    :alt: Back View
 
 .. raw:: html
@@ -93,7 +102,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/Monitors/PIM-156-C-P/pim-156p-bottom.jpeg
-   :class: product-img img-thumbnail mx-auto d-block
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-60
    :alt: Bottom View
 
 .. raw:: html
@@ -108,10 +117,12 @@
 
 .. include:: Resources/ordering
 
+:pagebreak:`True`
+
 Specification
 =============
 
-.. include:: Resources/table_common
+.. include:: Resources/table
 
 .. include:: Resources/mounting
 
@@ -122,5 +133,7 @@ Specification
    :class: no-scaled-link
 
    Technical Drawing
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

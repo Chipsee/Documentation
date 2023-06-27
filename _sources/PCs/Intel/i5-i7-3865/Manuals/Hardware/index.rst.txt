@@ -1,5 +1,8 @@
-i5/i7/3865  Hardware Documentation
-##################################
+:pdf-build: False
+
+
+i5/i7/3865 Hardware Documentation
+#################################
 
 .. table::
    :widths: 20 30

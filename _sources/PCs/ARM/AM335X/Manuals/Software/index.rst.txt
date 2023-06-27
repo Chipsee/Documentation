@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 AM335X Software Documentation
 #############################
 

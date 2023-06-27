@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. |systemType| replace:: Debian
 .. |filename| replace:: prebuilt-som-v3-csrrrrrtss-v3-debian-sd-yyyymmdd.tar.gz
 .. |folder_name| replace:: ~/prebuilt-som-v3-csxxxxxtxx-v3-ezsdk-sd-yyyymmdd

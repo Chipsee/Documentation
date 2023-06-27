@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. |systemType| replace:: Linux Qt 5.5
 
 |systemType| OS

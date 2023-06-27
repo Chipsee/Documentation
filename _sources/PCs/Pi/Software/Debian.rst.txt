@@ -1,4 +1,7 @@
-.. |systemType| replace:: Debian
+:pdf-build: False
+
+
+.. |systemType| replace:: Debian 10 (buster)
 .. |user| replace:: pi
 .. |pswd| replace:: raspberry
 
@@ -35,6 +38,7 @@ Below are the links to the prebuilt images for the Raspbian operating system on 
 
 + :download:`Latest system image for Chipsee Industrial Pi products <https://github.com/Chipsee/industrial-pi#latest-system-images>` |br| |br|
 
+.. rubric:: System Features
 
 .. note::
 

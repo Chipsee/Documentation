@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 Cortex-A53 Hardware Documentation
 #################################
 

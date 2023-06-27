@@ -1,0 +1,543 @@
+{
+    "GLOBAL_OPTIONS": {
+        "verbose": false,
+        "site_url": "https://docs.chipsee.com",
+        "debug": false,
+        "debug_target": null,
+        "author": "Chipsee",
+        "author_logo": "_static/images/logo-chipsee-white.png",
+        "copyright": "2021, Chipsee",
+        "disclaimer": "Content can change at anytime. It's best to refer to website for latest information.",
+        "cover": true,
+        "cover_title": "Chipsee Documentation Sample",
+        "cover_subtitle": null,
+        "custom_template_path": "cover_templates",
+        "theme_handler_path": null,
+        "plugin_handler_path": "custom_code.py",
+        "custom_css_path": "_static/css",
+        "toc": true,
+        "toc_numbering": true,
+        "toc_title": "Contents",
+        "toc_level": 6,
+        "cover_images": {
+            "default": "_static/images/cover.png"
+        },
+        "theme_name": "sphinx_material",
+        "templates_path": [
+            "_templates"
+        ]
+    },
+    "LOCAL_OPTIONS": {
+        "Monitors/PIM-101-C": {
+            "pdf-title": "PIM-101-C",
+            "pdf-subtitle": "PN: CS-D101",
+            "pdf-filename": "PIM-101-C",
+            "pdf-type": "monitors",
+            "pdf-revision": "1.1"
+        },
+        "Monitors/PIM-125-C": {
+            "pdf-title": "PIM-125-C",
+            "pdf-subtitle": "PN: CS-D125",
+            "pdf-filename": "PIM-125-C",
+            "pdf-type": "monitors",
+            "pdf-revision": "1.1"
+        },
+        "Monitors/PIM-150-C": {
+            "pdf-title": "PIM-150-C",
+            "pdf-subtitle": "PN: CS-D150",
+            "pdf-filename": "PIM-150-C",
+            "pdf-type": "monitors",
+            "pdf-revision": "1.1"
+        },
+        "Monitors/PIM-156-C": {
+            "pdf-title": "PIM-156-C",
+            "pdf-subtitle": "PN: CS-D156",
+            "pdf-filename": "PIM-156-C",
+            "pdf-type": "monitors",
+            "pdf-revision": "1.1"
+        },
+        "Monitors/PIM-156-C-P": {
+            "pdf-title": "PIM-156-C-P",
+            "pdf-subtitle": "PN: CS-D156P",
+            "pdf-filename": "PIM-156-C-P",
+            "pdf-type": "monitors",
+            "pdf-revision": "1.1"
+        },
+        "Monitors/PIM-170-C": {
+            "pdf-title": "PIM-170-C",
+            "pdf-subtitle": "PN: CS-D170",
+            "pdf-filename": "PIM-170-C",
+            "pdf-type": "monitors",
+            "pdf-revision": "1.1"
+        },
+        "Monitors/PIM-185-C": {
+            "pdf-title": "PIM-185-C",
+            "pdf-subtitle": "PN: CS-D185",
+            "pdf-filename": "PIM-185-C",
+            "pdf-type": "monitors",
+            "pdf-revision": "1.1"
+        },
+        "Monitors/PIM-190-C": {
+            "pdf-title": "PIM-190-C",
+            "pdf-subtitle": "PN: CS-D190",
+            "pdf-filename": "PIM-190-C",
+            "pdf-type": "monitors",
+            "pdf-revision": "1.1"
+        },
+        "Monitors/PIM-215-C": {
+            "pdf-title": "PIM-215-C",
+            "pdf-subtitle": "PN: CS-D215",
+            "pdf-filename": "PIM-215-C",
+            "pdf-type": "monitors",
+            "pdf-revision": "1.1"
+        },
+        "Monitors/PIM-236-C": {
+            "pdf-title": "PIM-236-C",
+            "pdf-subtitle": "PN: CS-D236",
+            "pdf-filename": "PIM-236-C",
+            "pdf-type": "monitors",
+            "pdf-revision": "1.1"
+        },
+        "Monitors/PIM-270-C": {
+            "pdf-title": "PIM-270-C",
+            "pdf-subtitle": "PN: CS-D270",
+            "pdf-filename": "PIM-270-C",
+            "pdf-type": "monitors",
+            "pdf-revision": "1.1"
+        },
+        "Monitors/index": {
+            "pdf-build": "False"
+        },
+        "Nomenclature/ARM": {
+            "pdf-build": "False",
+            "orphan": ""
+        },
+        "Nomenclature/Intel": {
+            "pdf-build": "False",
+            "orphan": ""
+        },
+        "Nomenclature/Pi": {
+            "pdf-build": "False",
+            "orphan": ""
+        },
+        "PCs/ARM/AM335X/Manuals/Hardware/CS10600T070": {
+            "pdf-build": "False",
+            "pdf-title": "PPC/EPC-A8-070H-C",
+            "pdf-subtitle": "EPC-A8-070H-C | PPC-A8-070H-C",
+            "pdf-filename": "PPC-EPC-A8-070H-C",
+            "pdf-type": "pcs",
+            "pdf-revision": "1.01"
+        },
+        "PCs/ARM/AM335X/Manuals/Hardware/CS10600T101": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/AM335X/Manuals/Hardware/CS10768T097": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/AM335X/Manuals/Hardware/CS80480T050": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/AM335X/Manuals/Hardware/CS80480T070": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/AM335X/Manuals/Hardware/CS80600T080": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/AM335X/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/AM335X/Manuals/Software/Android": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/AM335X/Manuals/Software/Angstrom": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/AM335X/Manuals/Software/Debian": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/AM335X/Manuals/Software/LinuxQt": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/AM335X/Manuals/Software/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/AM335X/OS_Downloads/CS10600T070": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/AM335X/OS_Downloads/CS10600T101": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/AM335X/OS_Downloads/CS10768T097": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/AM335X/OS_Downloads/CS80480T050": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/AM335X/OS_Downloads/CS80480T070": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/AM335X/OS_Downloads/CS80600T080": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/AM335X/OS_Downloads/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/PX30/AIO/Manuals/Hardware/CS12800PX101A": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/PX30/AIO/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/PX30/AIO/Manuals/Software/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/PX30/AIO/OS_Downloads/CS12800PX101A": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/PX30/AIO/OS_Downloads/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS10600R070": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS10768R150": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS12800R101": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS12800R101P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS19108R125": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS19108R133": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS19108R133P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS19108R156": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS19108R156P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS19108R173": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS19108R215": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS19108R215P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/OS_Downloads/CS10600R070": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/OS_Downloads/CS12800R101": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/OS_Downloads/CS12800R101P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/OS_Downloads/CS19108R125": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/OS_Downloads/CS19108R133": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/OS_Downloads/CS19108R156": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/OS_Downloads/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/Manuals/Hardware/CS10600-RK3568-070P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/Manuals/Hardware/CS10768-RK3568-150P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/Manuals/Hardware/CS12720-RK3568-050P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/Manuals/Hardware/CS12800-RK3568-101P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/Manuals/Hardware/CS12800-RK3568-215P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/Manuals/Hardware/CS19108-RK3568-133P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/Manuals/Hardware/CS19108-RK3568-156P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/Manuals/Software/Android_11": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/Manuals/Software/Buildroot_Linux_Qt_5_15": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/Manuals/Software/Debian_11": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/Manuals/Software/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/OS_Downloads/CS10600-RK3568-070P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/OS_Downloads/CS12720-RK3568-050P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/OS_Downloads/CS12800-RK3568-101P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/OS_Downloads/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/Manuals/Hardware/CS10600F070": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F097": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F121": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F121-U": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F150": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/Manuals/Hardware/CS12102F170": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/Manuals/Hardware/CS12800F101": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/Manuals/Hardware/CS14900F190": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/Manuals/Hardware/CS19108F215": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/Manuals/Software/Android_43": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/Manuals/Software/Android_60": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/Manuals/Software/Linux_Qt55": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/Manuals/Software/Ubuntu_12": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/Manuals/Software/Ubuntu_14": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/Manuals/Software/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/OS_Downloads/CS10600F070": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/OS_Downloads/CS10768F097": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/OS_Downloads/CS10768F121": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/OS_Downloads/CS10768F121-U": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/OS_Downloads/CS10768F150": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/OS_Downloads/CS12102F170": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/OS_Downloads/CS12800F101": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/OS_Downloads/CS14900F190": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/OS_Downloads/CS19108F215": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6Q/OS_Downloads/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6UL/Manuals/Hardware/CS10600U070": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6UL/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6UL/Manuals/Software/Debian": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6UL/Manuals/Software/LinuxQT": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6UL/Manuals/Software/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6UL/OS_Downloads/CS10600U070": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX6UL/OS_Downloads/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/index": {
+            "pdf-build": "False"
+        },
+        "PCs/Intel/J1900/Manuals/Hardware/CS86-BOX-J1900": {
+            "pdf-build": "False"
+        },
+        "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-101-C": {
+            "pdf-build": "False"
+        },
+        "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-104-R": {
+            "pdf-build": "False"
+        },
+        "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-121-R": {
+            "pdf-build": "False"
+        },
+        "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-133-C": {
+            "pdf-build": "False"
+        },
+        "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-150-C": {
+            "pdf-build": "False"
+        },
+        "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-156-C": {
+            "pdf-build": "False"
+        },
+        "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-170-R": {
+            "pdf-build": "False"
+        },
+        "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-190-R": {
+            "pdf-build": "False"
+        },
+        "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-215-C": {
+            "pdf-build": "False"
+        },
+        "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-236-C": {
+            "pdf-build": "False"
+        },
+        "PCs/Intel/J1900/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/Intel/i5-i7-3865/Manuals/Hardware/CS86-BOX": {
+            "pdf-build": "False"
+        },
+        "PCs/Intel/i5-i7-3865/Manuals/Hardware/PPC-10510U-150-C": {
+            "pdf-build": "False"
+        },
+        "PCs/Intel/i5-i7-3865/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/Intel/index": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/A53/Manuals/Hardware/CS10600RA070": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/A53/Manuals/Hardware/CS12800RA101": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/A53/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/A72/Manuals/Hardware/CS10600RA4070": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/A72/Manuals/Hardware/CS10768RA4121": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/A72/Manuals/Hardware/CS10768RA4150": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/A72/Manuals/Hardware/CS12720RA4050": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/A72/Manuals/Hardware/CS12720RA4050-C121": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/A72/Manuals/Hardware/CS12800RA4101": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/A72/Manuals/Hardware/CS19108RA4133": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/A72/Manuals/Hardware/CS19108RA4156": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/A72/Manuals/Hardware/CS19108RA4215": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/A72/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/AIO/Manuals/Hardware/CS12800RA4101A": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/AIO/Manuals/Hardware/CS19108RA4156A": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/AIO/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/Software/AIO156AndroidSystem": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/Software/AIO156StartGuide": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/Software/Debian": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/Software/index": {
+            "pdf-build": "False"
+        },
+        "PCs/Pi/index": {
+            "pdf-build": "False"
+        },
+        "PCs/index": {
+            "pdf-build": "False"
+        },
+        "SOM/index": {
+            "pdf-build": "False"
+        },
+        "TutorialGuide/index": {
+            "pdf-build": "False"
+        },
+        "TutorialGuide/mount_guide": {
+            "pdf-build": "False"
+        },
+        "index": {
+            "pdf-build": "False"
+        },
+        "genindex": {
+            "pdf-build": "False"
+        },
+        "search": {
+            "pdf-build": "False"
+        }
+    }
+}
