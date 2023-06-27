@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. _MIPCG:
 
 Mounting Guide

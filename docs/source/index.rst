@@ -1,3 +1,5 @@
+:pdf-build: False
+
 Home
 ====
 

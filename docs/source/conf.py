@@ -34,6 +34,8 @@ extensions = [
     "sphinx_substitution_extensions",
     "sphinx_material",
     "sphinx_design",
+    "sphinx_copybutton",
+    "sphinx_pdf_generate",
 ]
 
 
@@ -140,15 +142,24 @@ rst_epilog = """
 """
 
 html_last_updated_fmt = "%b %d, %Y"
+pygments_style = "perldoc"
 
-# tablecaption = 'below'
-pygments_style = "sphinx"
-
-# PDF output
-# latex_engine = 'pdflatex'
-# latex_logo = './Media/Chipsee_Logo_Full.png'
-
-# Sphinx internationalization details
-# language = "zh_CN"
-# locale_dirs = ['locale/']   # path is example but recommended.
-# gettext_compact = False     # optional
+# Sphinx-PDF-Generate configurations
+pdfgen_verbose = False
+pdfgen_site_url = "https://docs.chipsee.com"
+# pdfgen_debug = True
+# pdfgen_debug_target = "Monitors/PIM-125-C.rst"
+pdfgen_author = "Chipsee"
+pdfgen_copyright = copyright
+pdfgen_disclaimer = "Content can change at anytime. It's best to refer to website for latest information."
+pdfgen_cover = True
+# pdfgen_cover_title = ""
+# pdfgen_cover_subtitle = ""
+pdfgen_custom_template_path = "cover_templates"
+pdfgen_custom_css_path = "_static/css"
+pdfgen_toc = True
+pdfgen_toc_numbering = True
+pdfgen_toc_title = "Contents"
+pdfgen_toc_level = 6
+pdfgen_cover_images = {"default": "_static/images/cover.png"}
+pdfgen_plugin_handler_path = "custom_code.py"

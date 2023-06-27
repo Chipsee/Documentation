@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 i.MX6UL Hardware Documentation
 ##############################
 

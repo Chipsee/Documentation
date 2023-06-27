@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 RK3399 OS Downloads
 ###################
 

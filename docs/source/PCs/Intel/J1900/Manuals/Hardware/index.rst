@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 J1900 Hardware Documentation
 ############################
 

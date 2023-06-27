@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. _PBI:
 
 Industrial Panel PCs Powered by |Intel|

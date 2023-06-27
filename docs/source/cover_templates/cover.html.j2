@@ -1,0 +1,47 @@
+<!-- article#doc-cover is used cover page handling -->
+<article id="doc-cover" class="document"
+    {% if cover_image is defined %}
+    style="background-image: url('{{ cover_image | to_url }}');"
+    {% endif %}>
+    <div id="doc-cover-content">
+        <div id="cover_title_area">
+            <p id="cover_title">{{ cover_title | e }}</p>
+        </div>
+        <div id="cover_subtitle_area">
+            {% if cover_subtitle is string %}
+                {% set cover_subtitle = [cover_subtitle] %}
+            {% endif %}
+
+            {% for subtitle in cover_subtitle %}
+                {% if subtitle != type | capitalize %}
+                    <p>{{ subtitle | e }}</p>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div id="cover_reserved_rights">
+            <p id="cover_document_label">{{ type }}</p>
+            <p id="cover_revision">
+            {% if revision %}
+            Revision {{ revision | e }}
+            {% else %}
+            &nbsp;
+            {% endif %}
+            </p>
+            {% if copyright %}
+            <p id="cover_copyright">{{ copyright | e }}</p>
+            {% endif %}
+            <p>
+                Content can change at anytime and best to refer to
+                <a href="{{ site_url }}" style="color:#EF3D30;">website</a>
+                for latest information.
+            </p>
+        </div>
+        {% if disclaimer %}
+            <p id="cover_disclaimer"
+               style="font-size: 9pt; text-align: left; position: absolute;
+               bottom: 0; left: 10mm; right: 10mm; padding: 0 5mm;">
+                <b>Disclaimer:</b> {{ disclaimer | e }}
+            </p>
+        {% endif %}
+    </div>
+</article>

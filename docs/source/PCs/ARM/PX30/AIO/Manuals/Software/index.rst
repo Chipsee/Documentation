@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 All-In-One Software Documentation
 #################################
 

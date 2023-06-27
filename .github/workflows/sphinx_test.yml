@@ -32,7 +32,9 @@ jobs:
         key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
         restore-keys: |
           ${{ runner.os }}-pip-
-    - uses: ammaraskar/sphinx-action@master
-      with:
-        docs-folder: "docs/source/"
-        build-command: "sphinx-build -b html . _build"
+    - name: Install Requirements
+      run: |
+        pip install -r docs/source/requirements.txt
+    - name: Build Docs using Sphinx-PDF Generate
+      run: |
+        sphinx-pdf-generate -b html docs/source  /tmp/_build/html
