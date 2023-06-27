@@ -148,15 +148,10 @@ pygments_style = "perldoc"
 pdfgen_verbose = False
 pdfgen_site_url = "https://docs.chipsee.com"
 # pdfgen_debug = True
-# pdfgen_debug_target = "Monitors/PIM-101-C.rst"
+# pdfgen_debug_target = "Monitors/PIM-125-C.rst"
 pdfgen_author = "Chipsee"
-pdfgen_author_logo = "_static/images/logo_header.png"
 pdfgen_copyright = copyright
-pdfgen_disclaimer = "Chipsee assumes no responsibility for any errors that may occur in this manual. " \
-                    "Furthermore, Chipsee reserves the right to alter hardware, software, and/or specifications " \
-                    "set forth herein at any time without prior notice, and undertakes no obligation to update the " \
-                    "information contained in this document. Chipsee products are not authorized for use as" \
-                    " critical components in life support devices or systems."
+pdfgen_disclaimer = "Content can change at anytime. It's best to refer to website for latest information."
 pdfgen_cover = True
 # pdfgen_cover_title = ""
 # pdfgen_cover_subtitle = ""

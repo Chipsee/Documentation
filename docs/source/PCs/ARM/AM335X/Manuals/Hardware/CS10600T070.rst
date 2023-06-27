@@ -1,3 +1,4 @@
+:pdf-build: False
 :pdf-title: PPC/EPC-A8-070H-C
 :pdf-subtitle: EPC-A8-070H-C | PPC-A8-070H-C
 :pdf-filename: PPC-EPC-A8-070H-C

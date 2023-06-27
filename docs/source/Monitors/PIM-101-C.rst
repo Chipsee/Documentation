@@ -71,7 +71,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-101-C/pim-101-front.jpg
+.. image:: /Media/Monitors/PIM-101-C/pim-101-front.png
    :class: product-img img-thumbnail mx-auto d-block pdf-width-70
    :alt: Front View
 

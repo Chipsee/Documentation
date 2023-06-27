@@ -111,7 +111,6 @@
         font-size: 42pt;
         text-align: left;
         padding: 0 5mm;
-        margin-top: 2mm;
         margin-bottom: 0;
     }
 
@@ -185,26 +184,26 @@
     }
 
     #doc-cover.monitors #cover_title {
-        font-size: 42pt;
+        font-size: 40pt;
         text-align: left;
-        padding: 0 5mm;
+        font-weight: bold;
+        color: #EF3D30;
     }
 
     #doc-cover.monitors #cover_product_img_area {
         position: absolute;
-        left: 16mm;
-        bottom: 160mm;
-        padding: 0 5mm;
+        left: 45mm;
+        bottom: 100mm;
         background-size: contain;
         background-repeat: no-repeat;
-        width: 400px;
-        height: 300px
+        width: 450px;
+        height: 350px
     }
 
     #doc-cover.monitors #cover_subtitle_area {
         position: absolute;
         left: 12mm;
-        bottom: 130mm;
+        bottom: 30mm;
         font-size: 14pt;
         text-align: left;
         padding: 0 5mm;
@@ -216,8 +215,11 @@
     }
 
     #doc-cover.monitors #cover_monitors_label {
-        font-size: 32pt;
-        margin-bottom: 10mm;
+        font-size: 20pt;
+        margin-top: 20mm;
+        margin-bottom: 0;
+        text-align: left;
+        padding: 0 5mm;
     }
 
     /* Tutorials */

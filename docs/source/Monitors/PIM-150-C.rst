@@ -71,8 +71,8 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-150-C/pim-150-front.jpeg
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-85
+.. image:: /Media/Monitors/PIM-150-C/pim-150-front.png
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-50
    :alt: Front View
 
 .. raw:: html
@@ -85,7 +85,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/Monitors/PIM-150-C/pim-150-back.jpeg
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-85
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-50
    :alt: Back View
 
 .. raw:: html
@@ -98,7 +98,7 @@
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
 .. image:: /Media/Monitors/PIM-150-C/pim-150-bottom.jpeg
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-85
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-50
    :alt: Bottom View
 
 .. raw:: html

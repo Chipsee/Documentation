@@ -5,6 +5,7 @@
     {% endif %}>
     <div id="doc-cover-content">
         <div id="cover_title_area">
+            <p id="cover_monitors_label">Industrial {{ type | capitalize }}</p>
             <p id="cover_title">{{ cover_title | e }}</p>
         </div>
         <div id="cover_product_img_area" style=""></div>
@@ -20,22 +21,14 @@
             {% endfor %}
         </div>
         <div id="cover_reserved_rights">
-            <p id="cover_monitors_label">Industrial {{ type | capitalize }}</p>
             <p id="cover_revision" style="font-weight: 600;">
             {% if revision %}
-            Revision {{ revision | e }}
-            {% else %}
-            &nbsp;
+                Revision {{ revision | e }}
             {% endif %}
             </p>
-            {% if copyright %}
-            <p id="cover_copyright" style="font-weight: 600;">{{ copyright | e }}</p>
-            {% endif %}
 
             <p style="font-weight: 600;">
-                Content can change at anytime; it's best to refer to
-                <a href="{{ site_url }}" style="color:#EF3D30;">website</a>
-                for latest information.
+                <a href="https://www.chipsee.com" style="color:#EF3D30;">www.chipsee.com</a>
             </p>
         </div>
 </div>

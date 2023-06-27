@@ -1,3 +1,6 @@
+:pdf-build: False
+
+
 .. |systemType| replace:: Debian 11
 .. |chip| replace:: RK3568
 .. |ipc| replace:: Chipsee industrial PC

@@ -72,7 +72,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-270-C/pim-270-front.jpeg
+.. image:: /Media/Monitors/PIM-270-C/pim-270-front.png
    :class: product-img img-thumbnail mx-auto d-block pdf-width-70
    :alt: Front View
 
@@ -121,6 +121,8 @@
 
 .. include:: Resources/ordering
 
+:pagebreak:`True`
+
 Specification
 =============
 
@@ -139,5 +141,7 @@ Specification
    :class: no-scaled-link
 
    Technical Drawing
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

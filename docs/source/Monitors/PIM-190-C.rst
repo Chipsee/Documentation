@@ -71,8 +71,8 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-190-C/pim-190-front.jpeg
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-85
+.. image:: /Media/Monitors/PIM-190-C/pim-190-front.png
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-65
    :alt: Front View
 
 .. raw:: html
@@ -84,9 +84,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-190-C/pim-190-bottom.jpeg
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-85
-   :alt: Bottom View
+.. image:: /Media/Monitors/PIM-190-C/pim-190-back.jpeg
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-65
+   :alt: Back View
 
 .. raw:: html
 
@@ -97,9 +97,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-190-C/pim-190-back.jpeg
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-85
-   :alt: Back View
+.. image:: /Media/Monitors/PIM-190-C/pim-190-bottom.jpeg
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-65
+   :alt: Bottom View
 
 .. raw:: html
 
