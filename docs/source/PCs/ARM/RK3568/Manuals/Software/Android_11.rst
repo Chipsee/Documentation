@@ -1,5 +1,6 @@
 .. |systemType| replace:: Android 11
 .. |chip| replace:: RK3568
+.. |ipc| replace:: Chipsee industrial PC
 
 |systemType| OS
 ###############
@@ -20,5 +21,9 @@ Flashing OS Image
 .. include:: Resources/Download_Required_Tools_And_Image
 
 .. include:: Resources/Flash_OS
+
+.. include:: Resources/Android/Connect
+
+.. include:: Resources/Android/Install_APK
 
 .. include:: Resources/Development_On_Going

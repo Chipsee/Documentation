@@ -30,7 +30,7 @@ RK3568 Hardware Documentation
    |                     |   7.0", 1024 x 600, 5-point capacitive touch screen                    |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC-A55-070| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Front.png
+.. |PPC-A55-070| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Front.jpg
    :class: no-scaled-link
    :target: CS10600-RK3568-070P.html
 
@@ -50,6 +50,71 @@ RK3568 Hardware Documentation
    :target: CS12800-RK3568-101P.html
 
 
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_4
+
+   +---------------------+------------------------------------------------------------------------+
+   | |PPC-A55-133|       |   :ref:`PPC-A55-133 User Manual <PPC-A55-133>` |br|                    |
+   |                     |   PN: CS19108-RK3568-133P |br| |br|                                    |
+   |                     |                                                                        |
+   |                     |   13.3", 1920 x 1080, 10-point capacitive touch screen                 |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-A55-133| image:: /Media/ARM/A55/CS19108-RK3568-133P/CS19108-RK3568-133P-Front.jpg
+   :class: no-scaled-link
+   :target: CS19108-RK3568-133P.html
+
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_5
+
+   +---------------------+------------------------------------------------------------------------+
+   | |PPC-A55-150|       |   :ref:`PPC-A55-150 User Manual <PPC-A55-150>` |br|                    |
+   |                     |   PN: CS10768-RK3568-150P |br| |br|                                    |
+   |                     |                                                                        |
+   |                     |   15.0", 1024 x 768, 10-point capacitive touch screen                  |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-A55-150| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Front.jpg
+   :class: no-scaled-link
+   :target: CS10768-RK3568-150P.html
+
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_6
+
+   +---------------------+------------------------------------------------------------------------+
+   | |PPC-A55-156|       |   :ref:`PPC-A55-156 User Manual <PPC-A55-156>` |br|                    |
+   |                     |   PN: CS19108-RK3568-156P |br| |br|                                    |
+   |                     |                                                                        |
+   |                     |   15.6", 1920 x 1080, 10-point capacitive touch screen                 |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-A55-156| image:: /Media/ARM/A55/CS19108-RK3568-156P/CS19108-RK3568-156P-Front.jpg
+   :class: no-scaled-link
+   :target: CS19108-RK3568-156P.html
+
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_7
+
+   +---------------------+------------------------------------------------------------------------+
+   | |PPC-A55-215|       |   :ref:`PPC-A55-215 User Manual <PPC-A55-215>` |br|                    |
+   |                     |   PN: CS12800-RK3568-215P |br| |br|                                    |
+   |                     |                                                                        |
+   |                     |   21.5", 1280 x 800, 10-point capacitive touch screen                  |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-A55-215| image:: /Media/ARM/A55/CS12800-RK3568-215P/CS12800-RK3568-215P-Front.jpg
+   :class: no-scaled-link
+   :target: CS12800-RK3568-215P.html
+
+
+
 .. toctree::
    :maxdepth: 1
    :titlesonly:
@@ -59,3 +124,7 @@ RK3568 Hardware Documentation
    PPC-A55-050 <CS12720-RK3568-050P>
    PPC-A55-070 <CS10600-RK3568-070P>
    PPC-A55-101 <CS12800-RK3568-101P>
+   PPC-A55-133 <CS19108-RK3568-133P>
+   PPC-A55-150 <CS10768-RK3568-150P>
+   PPC-A55-156 <CS19108-RK3568-156P>
+   PPC-A55-215 <CS12800-RK3568-215P>

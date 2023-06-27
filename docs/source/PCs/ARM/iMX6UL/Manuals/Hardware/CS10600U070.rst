@@ -126,4 +126,4 @@
 
 .. include:: Resources/Boot_SW
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

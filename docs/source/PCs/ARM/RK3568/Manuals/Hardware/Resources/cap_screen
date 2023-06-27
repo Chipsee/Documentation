@@ -17,7 +17,7 @@ Touch Screen
 
    #) Use a high-quality Power Adapter Unit (PSU) with low EMR. You can also provide power from a battery.
    #) Make sure that the |product| Power Input connector (pin 3) is properly connected to the Power System Ground to provide sufficient EMI shielding and eliminate the problem entirely.
-   #) Bad GND problem can also be confirmed by touching pin 3 of the Power Input connector with one hand while operating the capacitive touch screen
+   #) Bad GND problems can also be confirmed by touching pin 3 of the Power Input connector with one hand while operating the capacitive touch screen
       with the other hand. In this case, the operator's body acts as the Power System Ground.
 
 

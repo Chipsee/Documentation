@@ -114,4 +114,4 @@
 
    *CS86-BOX-J1900 Technical Drawing*
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

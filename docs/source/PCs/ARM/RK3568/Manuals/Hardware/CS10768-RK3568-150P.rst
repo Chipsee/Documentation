@@ -1,0 +1,209 @@
+.. |product| replace:: PPC-A55-150
+
+.. |productP| replace:: PPC-A55-150
+
+.. |PN| replace:: PN: CS10768-RK3568-150P
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |dispsize| replace:: 15.0"
+
+.. |res| replace:: 1024 x 768
+
+.. |bright| replace:: 400 |cd|
+
+.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
+
+.. |dimE| replace:: NULL
+
+.. |dimP| replace:: 376 x 300 x 57mm
+
+.. |weightE| replace:: NULL
+
+.. |weightP| replace:: 4500g
+
+.. |RAM| replace:: Samsung 2GB LPDDR4X, 4266 Mbps
+
+.. |eMMC| replace:: 16GB
+
+.. |tscreen| replace:: 10-point capacitive touch screen
+
+.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |LAN| replace:: 1 x RJ45, GbE
+
+.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
+
+.. |opt1| replace:: Supported, Optional
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |vin_rng| replace:: From 12V to 36V
+
+.. |cur| replace:: 1.60A Max at 12V
+
+.. |pwr| replace:: 9.6W Typical, 19.2W Max
+
+.. |temp| replace:: From 0°C to +60°C
+
+.. |rs232| replace:: Default to 2 x RS232 (including 1 debug port). Up to 6 x RS232.
+
+.. |rs485| replace:: Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232.
+
+.. |can| replace:: Default to 2 x CAN. Optionally, these 2 x CAN can be configured to RS232.
+
+.. |power_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/Power-RK3568-150P.jpg
+                  :align: middle
+                  :width: 576
+
+.. |io_pin_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/IO.jpg
+                  :align: middle
+                  :width: 768
+
+.. |USB2_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/USB2.jpg
+                   :align: middle
+                   :width: 96
+
+.. |USB3_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/USB3.jpg
+                   :align: middle
+                   :width: 96
+
+.. |USBC_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/TYPE-C.jpg
+                   :align: middle
+                   :width: 96
+
+.. |wifi_bt_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/Wifi-BT.jpg
+                  :align: middle
+                  :width: 192
+
+.. |LAN_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/LAN.jpg
+                  :align: middle
+                  :width: 192
+                  
+.. |TF_SIM_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/TF_Card_SIM_Card.jpg
+                  :align: middle
+                  :width: 384                                                       
+
+.. |audio_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/Audio.jpg
+                  :align: middle
+                  :width: 192
+
+.. |HDMI_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/HDMI.jpg
+                  :align: middle
+                  :width: 192
+
+.. |PROG_btn_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/Prog_Button.jpg
+                  :align: middle
+                  :width: 192                 
+
+
+.. _PPC-A55-150:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+
+.. You must add the `product-img img-thumbnail mx-auto d-block` word
+.. to the image class directive in order for the thumbnail feature to work
+
+.. raw:: html
+
+    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
+
+.. Image thumbnail 1
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Front.jpg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Front View
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 2
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Rear.jpg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Rear View (Grey Color Variant)
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 3
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Side1.jpg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Side View 1 (Grey Color Variant)
+
+.. raw:: html
+
+    </div>
+
+.. Image thumbnail 4
+.. raw:: html
+
+    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
+
+.. image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Side2.jpg
+   :class: product-img img-thumbnail mx-auto d-block
+   :alt: Side View 2 (Grey Color Variant)
+
+.. raw:: html
+
+    </div>
+
+.. raw:: html
+
+    </div>
+
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen_usb
+
+.. include:: Resources/connectivity_CS12800-RK3568-101P
+
+.. include:: Resources/USB-101P
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi_BT
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/m2_slot
+
+.. include:: Resources/TF_Card_CS12800-RK3568-101P
+
+.. include:: Resources/Audio_IO_CS12800-RK3568-101P
+
+.. include:: Resources/HDMI
+
+.. include:: Resources/Prog_btn_CS12800-RK3568-101P
+
+.. include:: Resources/mounting
+
+.. include:: Resources/mechanical
+
+.. include:: /PCs/Shared/support

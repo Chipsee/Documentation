@@ -1,0 +1,27 @@
+USB Connectors
+--------------
+
+There are 2 x Type A **USB3.0 HOST connectors** onboard, as shown in the figure below.
+
+.. rst-class:: text-center
+
+    |usb_3_img|
+
+    *USB HOST Connectors (enclosed PC version)*
+
+.. attention::
+
+    #) These two USB hosts come from the same USB HUB. The Zigbee and 4G/LTE signals come from the same USB HUB.
+    #) These two USB host connectors can drive 500mA for each channel at most.
+
+The product has one USB OTG connector that works as a slave by default. You can use it to establish a connection with the host PC and for downloading the system to the eMMC of CM4 module.
+
+.. rst-class:: text-center
+
+    |usb_c_img|
+
+    *USB OTG Connector*
+
+.. warning::
+
+  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded Industrial PC version.

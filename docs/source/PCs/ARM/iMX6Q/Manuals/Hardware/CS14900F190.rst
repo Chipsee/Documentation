@@ -188,8 +188,6 @@ The polarity and the pinout is clearly marked on the housing of the product as s
 
 Note that the "**+**" sign represents the positive power input, and it is printed both at the casing and as a silk-screen on a PCB of the embedded version. The "**-**" terminal is shorted to the ground.
 
-.. _power-table:
-
 .. table:: Power Connector
    :align: center
    :width: 80%
@@ -274,7 +272,7 @@ GPIO Connector
 --------------
 
 |Product| has a 10 Pin 3.81mm **GPIO Connector**, as shown on the figure below, that is labeled as P28 on the PCB.
-The :ref:`table <gpio-table>` below gives details about the definition of every Pin.
+The table below gives details about the definition of every Pin.
 
 .. figure:: /Media/ARM/A9/CS14900F190/GP_IO.jpeg
    :align: center
@@ -282,8 +280,6 @@ The :ref:`table <gpio-table>` below gives details about the definition of every 
 
    *GPIO Connector*
 
-
-.. _gpio-table:
 
 .. table:: GPIO Connector Pin-out
    :align: center
@@ -368,4 +364,4 @@ The outer mechanical dimensions of |product| are |dim| (W x L x H).
 
 You can find detailed information about mounting in the |mguide|.
 
-.. include:: PPC_Resources/support
+.. include:: /PCs/Shared/support

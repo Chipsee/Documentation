@@ -140,5 +140,4 @@ Specification
 
 :pagebreak:`True`
 
-.. include:: Resources/support
-
+.. include:: /PCs/Shared/support

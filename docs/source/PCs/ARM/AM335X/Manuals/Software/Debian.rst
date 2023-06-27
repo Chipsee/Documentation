@@ -447,4 +447,4 @@ Example — Develop a ``HelloWorld.java`` Program
     Now when you Reboot the system, the ``HelloWorld`` app will automatically launch.
 
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

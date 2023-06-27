@@ -57,6 +57,9 @@
 
 .. |poe| replace:: Supported, Optional
 
+.. |wifi_bt_img| image:: /Media/ARM/A55/Others/Antenna.jpeg
+                  :align: middle
+                  :width: 384
 
 .. _PPC-A55-070:
 
@@ -79,7 +82,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Front.png
+.. image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Front.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View (Black Color Variant)
 
@@ -92,9 +95,9 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Back.jpg
+.. image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Rear.jpg
    :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View (Black Color Variant)
+   :alt: Rear View (Black Color Variant)
 
 .. raw:: html
 
@@ -509,5 +512,4 @@ product measurements.
 
    |productP| *Technical Drawing*
 
-.. include:: Resources/support
-
+.. include:: /PCs/Shared/support

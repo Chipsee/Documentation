@@ -265,4 +265,4 @@ product measurements.
 
    |productP| *Technical Drawing*
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

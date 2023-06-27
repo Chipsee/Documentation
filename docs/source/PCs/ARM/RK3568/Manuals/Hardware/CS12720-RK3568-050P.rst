@@ -55,6 +55,14 @@
 
 .. |can| replace:: default 1 x CAN (Optional 2 x CAN at most)
 
+.. |wifi_bt_img| image:: /Media/ARM/A55/Others/Antenna.jpeg
+                  :align: middle
+                  :width: 384
+
+.. |LAN_img| image:: /Media/ARM/A55/CS12800-RK3568-050P/LAN.jpg
+                  :align: middle
+                  :width: 192
+
 
 .. _PPC-A55-050:
 
@@ -390,5 +398,4 @@ product measurements.
 
    |productP| *Technical Drawing*
 
-.. include:: Resources/support
-
+.. include:: /PCs/Shared/support

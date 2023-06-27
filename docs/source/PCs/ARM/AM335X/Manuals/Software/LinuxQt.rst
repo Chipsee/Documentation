@@ -550,4 +550,4 @@ New development kit
 
     Now you should see a window on the industrial PC.
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

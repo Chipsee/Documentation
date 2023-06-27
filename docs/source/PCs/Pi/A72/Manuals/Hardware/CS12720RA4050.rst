@@ -21,7 +21,7 @@
 
 .. |bright| replace:: 400 |cd|
 
-.. |disp_des| replace:: |dispsize| five-point capacitive a touch screen with a resolution of |res| pixels and brightness of |bright|
+.. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |dimE| replace:: 141.2 x 77.6 x 25.8mm
 
@@ -346,4 +346,4 @@ product measurements.
 ----------
 For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

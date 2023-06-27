@@ -15,7 +15,7 @@
 
 .. |bright| replace:: 400 |cd|
 
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
 
 .. |dimE| replace:: NULL
 
@@ -25,7 +25,7 @@
 
 .. |weightP| replace:: 1300g
 
-.. |RAM| replace:: 2GB LPDDR4
+.. |RAM| replace:: Samsung 2GB LPDDR4X, 4266 Mbps
 
 .. |eMMC| replace:: 16GB
 
@@ -49,12 +49,59 @@
 
 .. |temp| replace:: From 0°C to +60°C
 
-.. |rs232| replace:: default 4 x RS232 (Optional 6 x RS232 at most, include 1 debug port)
+.. |rs232| replace:: Default to 2 x RS232 (including 1 debug port). Up to 6 x RS232.
 
-.. |rs485| replace:: 2 x RS485 at most
+.. |rs485| replace:: Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232.
 
-.. |can| replace:: 2 x CAN
+.. |can| replace:: Default to 2 x CAN. Optionally, these 2 x CAN can be configured to RS232.
 
+.. |power_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/Power-RK3568-101P.jpg
+                  :align: middle
+                  :width: 576
+
+.. |io_pin_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/IO.jpg
+                   :align: middle
+                   :width: 768
+
+.. |USB2_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/USB2.jpg
+                   :align: middle
+                   :width: 96
+
+.. |USB3_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/USB3.jpg
+                   :align: middle
+                   :width: 96
+
+.. |USBC_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/TYPE-C.jpg
+                   :align: middle
+                   :width: 96
+
+.. |wifi_bt_img| image:: /Media/ARM/A55/Others/Antenna.jpeg
+                  :align: middle
+                  :width: 384
+
+.. |LAN_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/LAN.jpg
+                  :align: middle
+                  :width: 192
+
+.. |TF_SIM_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/TF_Card_SIM_Card.jpg
+                  :align: middle
+                  :width: 384
+
+.. |audio_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/Audio.jpg
+                  :align: middle
+                  :width: 192
+
+.. |HDMI_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/HDMI.jpg
+                  :align: middle
+                  :width: 96
+
+.. |PROG_btn_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/Prog_Button.jpg
+                  :align: middle
+                  :width: 192
+
+.. |mounting_img| image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-TD.png
+                  :align: middle
+                  :width: 576
 
 .. _PPC-A55-101:
 
@@ -141,37 +188,11 @@
 
 .. include:: Resources/power
 
-.. include:: Resources/cap_screen
+.. include:: Resources/cap_screen_usb
 
 .. include:: Resources/connectivity_CS12800-RK3568-101P
 
-USB Connectors
---------------
-
-There are 2 x **USB HOST connectors** onboard which includes |USB|
-, as shown in the figures below.
-
-.. Figure:: /Media/ARM/A55/CS12800-RK3568-101P/USB2.jpg
-  :align: center
-  :figclass: align-center
-
-  *USB 2.0 HOST Connectors (embedded/enclosed PC version)*
-
-.. Figure:: /Media/ARM/A55/CS12800-RK3568-101P/USB3.jpg
-  :align: center
-  :figclass: align-center
-
-  *USB 3.0 HOST Connectors (embedded/enclosed PC version)*
-
-.. Figure:: /Media/ARM/A55/CS12800-RK3568-101P/TYPE-C.jpg
-  :align: center
-  :figclass: align-center
-
-  *USB Type-C Connector (embedded/enclosed PC version)*
-
-.. warning::
-
-  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
+.. include:: Resources/USB-101P
 
 .. include:: Resources/LAN
 
@@ -179,42 +200,24 @@ There are 2 x **USB HOST connectors** onboard which includes |USB|
 
 .. include:: Resources/4G_com
 
+.. include:: Resources/m2_slot
+
 .. include:: Resources/TF_Card_CS12800-RK3568-101P
 
 .. include:: Resources/Audio_IO_CS12800-RK3568-101P
 
 .. include:: Resources/HDMI
 
-.. include:: Resources/power_btn
+.. include:: Resources/Prog_btn_CS12800-RK3568-101P
 
-Mounting Procedure
-==================
+.. include:: Resources/mounting
 
-|Product| can be mounted with 4 x M4 screws, enabling simplified installation onto any standard mounting fixture.
+.. rst-class:: text-center
 
-|productP|
-----------
-You can mount |productP| with the Vesa (75 x 75mm) and Panel mounting methods, as shown on the figure below.
+   |mounting_img|
 
-.. Figure:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-TD.png
-  :align: center
-  :figclass: align-center
+   *Panel mounting* (|product|)
 
-  *Panel mounting*
+.. include:: Resources/mechanical
 
-.. attention::
-
-    Please make sure the display is not exposed to high pressure when mounting into an enclosure.
-
-You can find detailed information about mounting in the |mguide|.
-
-
-Mechanical Specifications
-=========================
-
-|productP|
-----------
-For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
-
-.. include:: Resources/support
-
+.. include:: /PCs/Shared/support

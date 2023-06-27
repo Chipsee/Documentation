@@ -172,3 +172,6 @@ to control volume, brightness, power, act led, buzzer.
 .. _Raspberry Pi Imager: https://www.raspberrypi.org/software/
 .. _operating system: https://www.raspberrypi.org/software/operating-systems/
 .. _Installing operating system images: https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system
+
+
+.. include:: /PCs/Shared/support

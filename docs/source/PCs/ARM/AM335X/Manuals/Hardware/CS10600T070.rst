@@ -217,4 +217,4 @@ product measurements.
 
 .. include:: Resources/mount_set
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

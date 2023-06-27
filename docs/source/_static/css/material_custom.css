@@ -13,6 +13,15 @@ body,
         font-size: 16px!important;
         line-height: 1.5!important;
   }
+  
+  .md-typeset__table {
+    min-width: 100%;
+  }
+
+  .md-typeset table:not([class]) {
+    display: table;
+  }
+
 
   h1, h2, h3{
     font-family: 'Montserrat', sans-serif !important;

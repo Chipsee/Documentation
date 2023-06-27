@@ -119,6 +119,4 @@
  
    *PPC-10510U-150-C Technical Drawing*
 
-.. include:: /PCs/Intel/J1900/Manuals/Hardware/Resources/support
-
-
+.. include:: /PCs/Shared/support

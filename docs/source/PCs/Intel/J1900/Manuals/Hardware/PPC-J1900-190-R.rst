@@ -118,4 +118,4 @@
    
    *PPC-J1900-190-R Technical Drawing*
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support

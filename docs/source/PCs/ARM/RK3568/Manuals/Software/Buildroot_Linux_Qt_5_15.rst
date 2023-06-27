@@ -1,5 +1,6 @@
 .. |systemType| replace:: Buildroot Linux Qt 5.15
 .. |chip| replace:: RK3568
+.. |ipc| replace:: Chipsee industrial PC
 
 |systemType| OS
 ###############

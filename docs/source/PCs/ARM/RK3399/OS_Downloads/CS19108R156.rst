@@ -4,4 +4,14 @@
 PPC-A72-156-C (PN: CS19108R156)
 ###############################
 
-.. include:: Resources/CS19108R125_R133_R156_OS_Download
+.. _CS19108R156-android:
+
+.. include:: Resources/R125_R133_R156_Android_OS_Download
+
+.. _CS19108R156-debian:
+
+.. include:: Resources/R125_R133_R156_Debian_OS_Download
+
+.. _CS19108R156-linuxQt:
+
+.. include:: Resources/R125_R133_R156_Buildroot_OS_Download

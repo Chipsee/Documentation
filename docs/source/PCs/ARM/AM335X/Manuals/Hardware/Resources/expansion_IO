@@ -1,9 +1,7 @@
 Expansion Port
 --------------
 
-|Product| has 1 x **Expansion Port** as shown on the figure below. It is an unpopulated PCB footprint with the standard 2.54mm (1") pitch holes. The Expansion Port provides direct access to some of the processor pins, as described in the :ref:`table <expansion-table>` below.
-
-.. _expansion-fig:
+|Product| has 1 x **Expansion Port** as shown on the figure below. It is an unpopulated PCB footprint with the standard 2.54mm (1") pitch holes. The Expansion Port provides direct access to some of the processor pins, as described in the table below.
 
 .. figure:: /Media/ARM/A8/AM3354/expansion_IO.jpeg
    :align: center
@@ -11,8 +9,6 @@ Expansion Port
 
    *Expansion Port*
 
-
-.. _expansion-table:
 
 .. table:: Expansion Connector Pinout
    :align: center

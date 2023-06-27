@@ -1109,4 +1109,4 @@ We will autostart the Python ``hello_world.py`` app from `Python`_.
 
 * Reboot the IPC to apply changes.
 
-.. include:: Resources/support
+.. include:: /PCs/Shared/support
