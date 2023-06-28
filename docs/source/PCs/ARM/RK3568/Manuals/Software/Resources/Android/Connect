@@ -13,7 +13,7 @@ Let's take a look at these connecting methods one by one.
 Install Android Platform Tools
 ------------------------------
 
-*If you intend only to use* **serial port** *RS232 to connect to |ipc|, you can* **skip** *this part, debugging with serial port does not require installing Android Platform Tools.*
+If you intend **only** to use serial port RS232 to connect to |ipc|, you can skip this part, debugging with serial port **does not require** installing Android Platform Tools.
 
 If you want to control or test your |systemType| based |ipc| from your workstation, such as your PC or laptop, one tool is required to be installed on your machine.
 
