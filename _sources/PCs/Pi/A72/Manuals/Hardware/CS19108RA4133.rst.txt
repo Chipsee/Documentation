@@ -97,6 +97,10 @@
                   :align: middle
                   :width: 192
 
+.. |sim_img| image:: /Media/Pi/A72/CS19108RA4133/TF_4G_101.jpg
+                  :align: middle
+                  :width: 960
+                  
 .. _PPC-CM4-133:
 
 |product|
