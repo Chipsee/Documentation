@@ -61,7 +61,7 @@
 
 .. |io_pin_img| image:: /Media/ARM/A55/CS12800-RK3568-215P/IO.jpg
                    :align: middle
-                   :width: 768
+                   :width: 960
 
 .. |USB2_img| image:: /Media/ARM/A55/CS12800-RK3568-215P/USB2.jpg
                    :align: middle
