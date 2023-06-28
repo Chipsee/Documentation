@@ -1,9 +1,4 @@
-:pdf-title: PPC-A72-125-C
-:pdf-subtitle: PN: CS19108R125
-:pdf-filename: PPC-A72-125-C
-:pdf-type: ipc
-:pdf-revision: 1.0
-
+.. include:: /PCs/Shared/pdf_options
 
 .. |product| replace:: PPC-A72-125-C
 

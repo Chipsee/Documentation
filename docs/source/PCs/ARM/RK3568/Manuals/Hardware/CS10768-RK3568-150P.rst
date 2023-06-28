@@ -1,9 +1,4 @@
-:pdf-title: PPC-A55-150
-:pdf-subtitle: PN: CS10768-RK3568-150P
-:pdf-filename: PPC-A55-150
-:pdf-type: ipc
-:pdf-revision: 1.0
-
+.. include:: /PCs/Shared/pdf_options
 
 .. |product| replace:: PPC-A55-150
 

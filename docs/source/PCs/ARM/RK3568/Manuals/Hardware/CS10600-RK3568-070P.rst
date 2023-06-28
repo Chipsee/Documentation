@@ -1,8 +1,4 @@
-:pdf-title: PPC-A55-070
-:pdf-subtitle: PN: CS10600-RK3568-070P
-:pdf-filename: PPC-A55-070
-:pdf-type: ipc
-:pdf-revision: 1.0
+.. include:: /PCs/Shared/pdf_options
 
 .. |product| replace:: PPC-A55-070
 

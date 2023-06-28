@@ -1,9 +1,4 @@
-:pdf-title: EPC/PPC-A8-080-R
-:pdf-subtitle: PN: CS80600T080
-:pdf-filename: EPC/PPC-A8-080-R
-:pdf-type: ipc
-:pdf-revision: 1.1
-
+.. include:: /PCs/Shared/pdf_options
 
 .. |product| replace:: EPC/PPC-A8-080-R
 

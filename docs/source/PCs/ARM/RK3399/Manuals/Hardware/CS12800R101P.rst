@@ -1,9 +1,4 @@
-:pdf-title: PPC-A72-101-C
-:pdf-subtitle: PN: CS12800R101P
-:pdf-filename: PPC-A72-101-C
-:pdf-type: ipc
-:pdf-revision: 1.0
-
+.. include:: /PCs/Shared/pdf_options
 
 .. |product| replace:: PPC-A72-101-C
 

@@ -1,9 +1,4 @@
-:pdf-title: PPC-A72-215-P
-:pdf-subtitle: PN: CS19108R215P2
-:pdf-filename: PPC-A72-215-P
-:pdf-type: ipc
-:pdf-revision: 1.0
-
+.. include:: /PCs/Shared/pdf_options
 
 .. |product| replace:: PPC-A72-215-P
 

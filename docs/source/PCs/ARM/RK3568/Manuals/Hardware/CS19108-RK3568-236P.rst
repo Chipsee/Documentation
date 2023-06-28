@@ -1,9 +1,4 @@
-:pdf-title: PPC-A55-236
-:pdf-subtitle: CS19108-RK3568-236P
-:pdf-filename: PPC-A55-236
-:pdf-type: ipc
-:pdf-revision: 1.0
-
+.. include:: /PCs/Shared/pdf_options
 
 .. |product| replace:: PPC-A55-236
 

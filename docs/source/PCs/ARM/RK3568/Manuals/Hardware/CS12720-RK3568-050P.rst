@@ -1,9 +1,4 @@
-:pdf-title: PPC-A55-050
-:pdf-subtitle: PN: CS12720-RK3568-050P
-:pdf-filename: PPC-A55-050
-:pdf-type: ipc
-:pdf-revision: 1.0
-
+.. include:: /PCs/Shared/pdf_options
 
 .. |product| replace:: PPC-A55-050
 

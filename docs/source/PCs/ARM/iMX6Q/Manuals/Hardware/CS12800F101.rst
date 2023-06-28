@@ -1,9 +1,4 @@
-:pdf-title: |product|
-:pdf-subtitle: |PN|
-:pdf-filename: |product|
-:pdf-type: ipc
-:pdf-revision: 1.1
-
+.. include:: /PCs/Shared/pdf_options
 
 .. |product| replace:: EPC/PPC-A9-101-C
 

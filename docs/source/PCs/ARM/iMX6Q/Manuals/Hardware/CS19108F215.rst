@@ -1,9 +1,4 @@
-:pdf-title: |product|
-:pdf-subtitle: |PN|
-:pdf-filename: |product|
-:pdf-type: ipc
-:pdf-revision: 1.1
-
+.. include:: /PCs/Shared/pdf_options
 
 .. |product| replace:: PPC-A9-215-C
 
@@ -64,7 +59,7 @@
 
 .. |Side View 2| image:: /Media/ARM/A9/CS19108F215/PPC-A9-215-C-Back.jpeg
                   :class: product-img
-                  
+
 .. _PPC-A9-215-C:
 
 |product|

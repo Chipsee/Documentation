@@ -1,9 +1,4 @@
-:pdf-title: PPC/EPC-A8-097-C
-:pdf-subtitle: PN: CS10768T097
-:pdf-filename: PPC/EPC-A8-097-C
-:pdf-type: ipc
-:pdf-revision: 1.1
-
+.. include:: /PCs/Shared/pdf_options
 
 .. |product| replace:: PPC/EPC-A8-097-C
 

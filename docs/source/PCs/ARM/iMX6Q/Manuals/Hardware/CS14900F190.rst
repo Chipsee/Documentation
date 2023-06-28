@@ -1,9 +1,4 @@
-:pdf-title: |product|
-:pdf-subtitle: |PN|
-:pdf-filename: |product|
-:pdf-type: ipc
-:pdf-revision: 1.1
-
+.. include:: /PCs/Shared/pdf_options
 
 .. |product| replace:: PPC-A9-190-C
 
@@ -56,7 +51,7 @@
 
 .. |Side View 2| image:: /Media/ARM/A9/CS14900F190/PPC-A9-190-C-Back.jpeg
                   :class: product-img
-                  
+
 .. _PPC-A9-190-C:
 
 |product|

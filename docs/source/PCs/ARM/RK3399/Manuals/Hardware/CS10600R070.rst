@@ -1,9 +1,4 @@
-:pdf-title: EPC/PPC-A72-070-C
-:pdf-subtitle: PN: CS10600R070
-:pdf-filename: EPC/PPC-A72-070-C
-:pdf-type: ipc
-:pdf-revision: 1.0
-
+.. include:: /PCs/Shared/pdf_options
 
 .. |product| replace:: EPC/PPC-A72-070-C
 

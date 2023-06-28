@@ -1,9 +1,4 @@
-:pdf-title: |product|
-:pdf-subtitle: |PN|
-:pdf-filename: |product|
-:pdf-type: ipc
-:pdf-revision: 1.1
-
+.. include:: /PCs/Shared/pdf_options
 
 .. |product| replace:: EPC/PPC-A9-097-C
 
@@ -70,7 +65,7 @@
 .. |Side View 2| image:: /Media/ARM/A9/CS10768F097/EPC-A9-097-C-Back.jpg
                   :class: product-img 
                   :alt: Rear View (Embedded Variant)
-                  
+
 .. _EPC/PPC-A9-097-C:
 
 |product|
