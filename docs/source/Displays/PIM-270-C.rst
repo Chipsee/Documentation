@@ -1,56 +1,56 @@
-:pdf-title: PIM-101-C
-:pdf-subtitle: PN: CS-D101
-:pdf-filename: PIM-101-C
+:pdf-title: PIM-270-C
+:pdf-subtitle: PN: CS-D270
+:pdf-filename: PIM-270-C
 :pdf-type: monitors
 :pdf-revision: 1.1
 
 
-.. |product| replace:: PIM-101-C
+.. |product| replace:: PIM-270-C
 
-.. |PN| replace:: PN: CS-D101
+.. |PN| replace:: PN: CS-D270
 
 .. |Product| replace:: The |product| Industrial PC
 
-.. |dispsize| replace:: 10.1"
+.. |dispsize| replace:: 27"
 
-.. |res| replace:: 1280 x 800 (4:3)
+.. |res| replace:: 1920 x 1080 (16:9)
 
-.. |bright| replace:: 350 |cd|
+.. |bright| replace:: 300 |cd|
 
 .. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |con_ratio| replace:: 600:1
+.. |con_ratio| replace:: 3000:1
 
-.. |v_angle| replace:: 	Horizontal: 170° / Vertical: 170°
+.. |v_angle| replace:: 	Horizontal: 178° / Vertical: 178°
 
-.. |res_time| replace:: 35ms (GTG)
+.. |res_time| replace:: 12ms (GTG)
 
-.. |disp_col| replace:: 16.2M Colors
+.. |disp_col| replace:: 16.7M Colors
 
 .. |in_res| replace:: |res| @ 60Hz
 
 .. |connector| replace:: VGA / DVI / HDMI
 
-.. |dim| replace:: 	253.20 x 171.8 x 35mm
+.. |dim| replace:: 662.3 x 401 x 42.5mm
 
-.. |pkg_size| replace:: 332 x 225 x 60mm
+.. |pkg_size| replace:: 760 x 500 x 150mm
 
-.. |weight| replace:: 1.1kg
+.. |weight| replace:: 8000g / 10000g
 
-.. |mount| replace:: VESA, Panel
+.. |mount| replace:: VESA, MIS-E, C
 
-.. |pwr| replace:: ≤ 14W
+.. |pwr| replace:: ≤ 32W
+
+.. |vin_rng| replace:: 9V - 30V
 
 .. |standby| replace:: ≤ 2W
 
-.. |vin_rng| replace:: 12V - 24V
+.. _product_link: https://chipsee.com/product/pim270c/
 
-.. _product_link: https://chipsee.com/product/pim-101-c/
-
-.. |product_link| replace:: PIM-101-C
+.. |product_link| replace:: PIM-270-C
 
 
-.. _PIM-101-C:
+.. _PIM-270-C:
 
 |product|
 #########
@@ -60,6 +60,7 @@
 
 .. You must add the `product-img img-thumbnail mx-auto d-block` word
 .. to the image class directive in order for the thumbnail feature to work
+.. You must add `html-only` to the div under the raw directive to hide the div in the PDF output
 .. You must add `html-only` to the div under the raw directive to hide the div in the PDF output
 
 .. raw:: html
@@ -71,7 +72,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-101-C/pim-101-front.png
+.. image:: /Media/Displays/PIM-270-C/pim-270-front.png
    :class: product-img img-thumbnail mx-auto d-block pdf-width-70
    :alt: Front View
 
@@ -84,7 +85,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-101-C/pim-101-back.jpg
+.. image:: /Media/Displays/PIM-270-C/pim-270-back.jpeg
    :class: product-img img-thumbnail mx-auto d-block pdf-width-70
    :alt: Back View
 
@@ -97,7 +98,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-101-C/pim-101-bottom.jpg
+.. image:: /Media/Displays/PIM-270-C/pim-270-bottom.jpeg
    :class: product-img img-thumbnail mx-auto d-block pdf-width-70
    :alt: Bottom View
 
@@ -111,9 +112,16 @@
 
 :pagebreak:`True`
 
+.. note::
+
+    **EOL PRODUCT:** This product has been discontinued, due to market demand and shifts in technology.
+    Please |contact|_ if you would like to purchase it.
+
 .. include:: Resources/overview
 
 .. include:: Resources/ordering
+
+:pagebreak:`True`
 
 Specification
 =============
@@ -124,7 +132,11 @@ Specification
 
 .. include:: Resources/mechspecs
 
-.. figure:: /Media/Monitors/PIM-101-C/pim-101-sd.jpeg
+.. figure:: /Media/Displays/PIM-270-C/pim-270-sd.jpeg
+   :figclass: align-center
+   :class: no-scaled-link
+
+.. figure:: /Media/Displays/PIM-270-C/pim-270-sd-2.jpeg
    :figclass: align-center
    :class: no-scaled-link
 

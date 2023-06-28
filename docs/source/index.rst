@@ -12,7 +12,7 @@ Home
 
             <div class="welcome_div">
                 <h1>Chipsee Documentation</h1>
-                <p style="font-size: 20px!important;">Chipsee offers industrial PCs based on ARM and X86 CPUs, industrial monitors, and various SOM.</p>
+                <p style="font-size: 20px!important;">Chipsee offers industrial PCs based on ARM and X86 CPUs, industrial displays, and various SOM.</p>
                 <p style="font-size: 20px!important;">Our offer also includes customized products that can be tailor-made to fit your needs.</p>
             </div>
 
@@ -80,7 +80,7 @@ Home
         .. raw:: html
 
             <p class="card-head">
-                Industrial Monitors with <br> Touch Screen
+                Industrial Displays with <br> Touch Screen
             </p>
 
     .. grid-item-card::
@@ -123,7 +123,7 @@ Home
    :maxdepth: 1
    :hidden:
 
-   Industrial Monitor <Monitors/index>
+   Industrial Display <Displays/index>
 
 .. toctree::
    :maxdepth: 1

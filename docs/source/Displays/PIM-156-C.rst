@@ -1,41 +1,41 @@
-:pdf-title: PIM-170-C
-:pdf-subtitle: PN: CS-D170
-:pdf-filename: PIM-170-C
+:pdf-title: PIM-156-C
+:pdf-subtitle: PN: CS-D156
+:pdf-filename: PIM-156-C
 :pdf-type: monitors
 :pdf-revision: 1.1
 
 
-.. |product| replace:: PIM-170-C
+.. |product| replace:: PIM-156-C
 
-.. |PN| replace:: PN: CS-D170
+.. |PN| replace:: PN: CS-D156
 
 .. |Product| replace:: The |product| Industrial PC
 
-.. |dispsize| replace:: 17"
+.. |dispsize| replace:: 15.6"
 
-.. |res| replace:: 1280 x 1024 (4:3)
+.. |res| replace:: 1920 x 1080 (16:9)
 
-.. |bright| replace:: 250 |cd|
+.. |bright| replace:: 400 |cd|
 
 .. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |con_ratio| replace:: 1000:1
+.. |con_ratio| replace:: 800:1
 
-.. |v_angle| replace:: 	Horizontal: 170° / Vertical: 160°
+.. |v_angle| replace:: 	Horizontal: 170° / Vertical: 170°
 
-.. |res_time| replace:: 5ms (GTG)
+.. |res_time| replace:: 35ms (GTG)
 
-.. |disp_col| replace:: 16.7M Colors
+.. |disp_col| replace:: 16.2M Colors
 
 .. |in_res| replace:: |res| @ 60Hz
 
-.. |connector| replace:: VGA / DVI / HDMI
+.. |connector| replace:: VGA / HDMI
 
-.. |dim| replace:: 385.3 x 317.8 x 47.1mm
+.. |dim| replace:: 391.4 x 240.6 x 47.1mm
 
-.. |pkg_size| replace:: 505 x 460 x 165mm
+.. |pkg_size| replace:: 440 x 325 x 90mm
 
-.. |weight| replace:: 5000g / 7000g
+.. |weight| replace:: 3000g / 4000g
 
 .. |mount| replace:: VESA, MIS-D, 100, C
 
@@ -45,12 +45,12 @@
 
 .. |vin_rng| replace:: 9V - 30V
 
-.. _product_link: https://chipsee.com/product/pim170c/
+.. _product_link: https://chipsee.com/product/pim156c/
 
-.. |product_link| replace:: PIM-170-C
+.. |product_link| replace:: PIM-156-C
 
 
-.. _PIM-170-C:
+.. _PIM-156-C:
 
 |product|
 #########
@@ -71,8 +71,8 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-170-C/pim-170-front.png
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-50
+.. image:: /Media/Displays/PIM-156-C/pim-156-front.png
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-70
    :alt: Front View
 
 .. raw:: html
@@ -84,8 +84,8 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-170-C/pim-170-back.jpeg
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-50
+.. image:: /Media/Displays/PIM-156-C/pim-156-back.jpeg
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-70
    :alt: Back View
 
 .. raw:: html
@@ -97,8 +97,8 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/Monitors/PIM-170-C/pim-170-bottom.jpeg
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-50
+.. image:: /Media/Displays/PIM-156-C/pim-156-bottom.jpeg
+   :class: product-img img-thumbnail mx-auto d-block pdf-width-70
    :alt: Bottom View
 
 .. raw:: html
@@ -108,8 +108,6 @@
 .. raw:: html
 
     </div>
-
-:pagebreak:`True`
 
 .. include:: Resources/overview
 
@@ -126,11 +124,11 @@ Specification
 
 .. include:: Resources/mechspecs
 
-.. figure:: /Media/Monitors/PIM-170-C/pim-170-sd.jpeg
+.. figure:: /Media/Displays/PIM-156-C/pim-156-sd.jpeg
    :figclass: align-center
    :class: no-scaled-link
 
-.. figure:: /Media/Monitors/PIM-170-C/pim-170-sd-2.jpeg
+.. figure:: /Media/Displays/PIM-156-C/pim-156-sd-2.jpeg
    :figclass: align-center
    :class: no-scaled-link
 
