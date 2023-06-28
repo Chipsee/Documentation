@@ -115,14 +115,14 @@ RK3399 Hardware Documentation
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-A72-215-P|     |   :ref:`PPC-A72-215-P User Manual <PPC-A72-215-P>` |br|                |
-   |                     |   PN: CS19108R215P |br| |br|                                           |
+   |                     |   PN: CS19108R215P2 |br| |br|                                          |
    |                     |                                                                        |
    |                     |   21.5", 1920 x 1080, 10-point capacitive touch screen                 |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC-A72-215-P| image:: /Media/ARM/A72/CS19108R215P/CS19108R215P-Front.jpg
+.. |PPC-A72-215-P| image:: /Media/ARM/A72/CS19108R215P2/CS19108R215P2-Front.jpg
    :class: no-scaled-link
-   :target: CS19108R215P.html
+   :target: CS19108R215P2.html
 
 .. table::
    :widths: 20 30
@@ -213,7 +213,7 @@ RK3399 Hardware Documentation
    PPC-A72-150-C <CS10768R150>
    PPC-A72-156-P <CS19108R156P>
    PPC-A72-173-C <CS19108R173>
-   PPC-A72-215-P <CS19108R215P>
+   PPC-A72-215-P <CS19108R215P2>
    PPC-A72-236-P <CS19108R236P>
    EPC/PPC-A72-101-C(Legacy) <CS12800R101>
    PPC-A72-133-C(Legacy) <CS19108R133>
