@@ -124,7 +124,7 @@
 
 .. include:: Resources/mechspecs
 
-.. figure:: /Media/Intel/J1900/150/PPC-J1900-150-C-TD.jpg
+.. figure:: /Media/Intel/J1900/150/PPC-J1900-150-C-TD.png
    :align: center
    :figclass: align-center
 
