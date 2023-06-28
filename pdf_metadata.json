@@ -233,6 +233,9 @@
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R215P": {
             "pdf-build": "False"
         },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS19108R236P": {
+            "pdf-build": "False"
+        },
         "PCs/ARM/RK3399/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
