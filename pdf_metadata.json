@@ -497,6 +497,9 @@
         "PCs/Pi/A72/Manuals/Hardware/CS19108RA4215": {
             "pdf-build": "False"
         },
+        "PCs/Pi/A72/Manuals/Hardware/CS19108RA4236": {
+            "pdf-build": "False"
+        },
         "PCs/Pi/A72/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
