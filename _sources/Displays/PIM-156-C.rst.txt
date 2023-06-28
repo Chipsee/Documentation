@@ -1,7 +1,7 @@
 :pdf-title: PIM-156-C
 :pdf-subtitle: PN: CS-D156
 :pdf-filename: PIM-156-C
-:pdf-type: monitors
+:pdf-type: displays
 :pdf-revision: 1.1
 
 

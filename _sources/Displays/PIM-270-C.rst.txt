@@ -1,7 +1,7 @@
 :pdf-title: PIM-270-C
 :pdf-subtitle: PN: CS-D270
 :pdf-filename: PIM-270-C
-:pdf-type: monitors
+:pdf-type: displays
 :pdf-revision: 1.1
 
 

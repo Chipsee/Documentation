@@ -1,7 +1,7 @@
 :pdf-title: PIM-125-C
 :pdf-subtitle: PN: CS-D125
 :pdf-filename: PIM-125-C
-:pdf-type: monitors
+:pdf-type: displays
 :pdf-revision: 1.1
 
 

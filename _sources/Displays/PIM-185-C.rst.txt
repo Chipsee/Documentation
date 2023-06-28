@@ -1,7 +1,7 @@
 :pdf-title: PIM-185-C
 :pdf-subtitle: PN: CS-D185
 :pdf-filename: PIM-185-C
-:pdf-type: monitors
+:pdf-type: displays
 :pdf-revision: 1.1
 
 

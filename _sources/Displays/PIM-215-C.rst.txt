@@ -1,7 +1,7 @@
 :pdf-title: PIM-215-C
 :pdf-subtitle: PN: CS-D215
 :pdf-filename: PIM-215-C
-:pdf-type: monitors
+:pdf-type: displays
 :pdf-revision: 1.1
 
 

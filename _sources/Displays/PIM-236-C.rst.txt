@@ -1,8 +1,9 @@
 :pdf-title: PIM-236-C
 :pdf-subtitle: PN: CS-D236
 :pdf-filename: PIM-236-C
-:pdf-type: monitors
+:pdf-type: displays
 :pdf-revision: 1.1
+
 
 .. |product| replace:: PIM-236-C
 
