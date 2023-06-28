@@ -213,6 +213,26 @@ We use one PWM to control the backlight for Chipsee Raspberry Pi boards, You can
 4G
 --
 
+
+
+.. note::
+        
+    SIM card does **NOT** support hot plug. **Power off** before inserting/removing SIM card.
+
+    .. rst-class:: text-center
+    
+        .. image:: /Media/Pi/Software/TF_4G_070.jpg
+            :align: center
+            :width: 960
+
+        *SIM Card Direction (7 inch product)*
+
+        .. image:: /Media/Pi/Software/TF_4G_101.jpg
+            :align: center
+            :width: 960
+
+        *SIM Card Direction (10 inch and above products)*
+
 * You can use 4G on Chipsee Raspberry Pi products. If the 4G module is Quectel EC20, you can use `linux-ppp-scripts <https://chipsee-tmp.s3.amazonaws.com/Tools/linux-ppp-scripts.tar.gz>`_ to connect to internet.
     .. code:: bash
 
