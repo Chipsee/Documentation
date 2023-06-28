@@ -113,7 +113,20 @@ RK3568 Hardware Documentation
    :class: no-scaled-link
    :target: CS12800-RK3568-215P.html
 
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_8
 
+   +---------------------+------------------------------------------------------------------------+
+   | |PPC-A55-236|       |   :ref:`PPC-A55-236 User Manual <PPC-A55-236>` |br|                    |
+   |                     |   PN: CS19108-RK3568-236P |br| |br|                                    |
+   |                     |                                                                        |
+   |                     |   23.6", 1920 x 1080, 10-point capacitive touch screen                 |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-A55-236| image:: /Media/ARM/A55/CS19108-RK3568-236P/CS19108-RK3568-236P-Front.jpg
+   :class: no-scaled-link
+   :target: CS19108-RK3568-236P.html
 
 .. toctree::
    :maxdepth: 1
@@ -128,3 +141,4 @@ RK3568 Hardware Documentation
    PPC-A55-150 <CS10768-RK3568-150P>
    PPC-A55-156 <CS19108-RK3568-156P>
    PPC-A55-215 <CS12800-RK3568-215P>
+   PPC-A55-236 <CS19108-RK3568-236P>
