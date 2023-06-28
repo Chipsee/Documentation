@@ -53,6 +53,14 @@
 
 .. |product_link| replace:: PIM-156-C-P
 
+.. |Front View| image:: /Media/Displays/PIM-156-C-P/pim-156p-front.png
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Displays/PIM-156-C-P/pim-156p-back.jpeg
+                  :class: product-img
+
+.. |Side View| image:: /Media/Displays/PIM-156-C-P/pim-156p-bottom.jpeg
+                  :class: product-img
 
 .. _PIM-156-C-P:
 
@@ -62,56 +70,9 @@
 .. rubric:: *Version 1.1*
     :class: html-only
 
-.. You must add the `product-img img-thumbnail mx-auto d-block` word
-.. to the image class directive in order for the thumbnail feature to work
-.. You must add `html-only` to the div under the raw directive to hide the div in the PDF output
+.. include:: Shared/three_main_images
 
-.. raw:: html
-
-    <div class="row html-only" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
-
-.. Image thumbnail 1
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/Displays/PIM-156-C-P/pim-156p-front.png
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-60
-   :alt: Front View
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 2
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/Displays/PIM-156-C-P/pim-156p-back.jpeg
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-60
-   :alt: Back View
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 3
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/Displays/PIM-156-C-P/pim-156p-bottom.jpeg
-   :class: product-img img-thumbnail mx-auto d-block pdf-width-60
-   :alt: Bottom View
-
-.. raw:: html
-
-    </div>
-
-.. raw:: html
-
-    </div>
+:pagebreak:`True`
 
 .. include:: Resources/overview
 
