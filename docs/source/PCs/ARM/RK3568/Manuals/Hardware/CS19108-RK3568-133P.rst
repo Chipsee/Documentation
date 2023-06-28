@@ -1,4 +1,8 @@
-:pdf-build: False
+:pdf-title: PPC-A55-133
+:pdf-subtitle: PN: CS19108-RK3568-133P
+:pdf-filename: PPC-A55-133
+:pdf-type: ipc
+:pdf-revision: 1.0
 
 
 .. |product| replace:: PPC-A55-133
@@ -99,7 +103,17 @@
                   :align: middle
                   :width: 192
 
+.. |Front View| image:: /Media/ARM/A55/CS19108-RK3568-133P/CS19108-RK3568-133P-Front.jpg
+                  :class: product-img
 
+.. |Rear View| image:: /Media/ARM/A55/CS19108-RK3568-133P/CS19108-RK3568-133P-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/A55/CS19108-RK3568-133P/CS19108-RK3568-133P-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/A55/CS19108-RK3568-133P/CS19108-RK3568-133P-Side2.jpg
+                  :class: product-img                 
 
 .. _PPC-A55-133:
 
@@ -108,70 +122,9 @@
 #########
 
 .. rubric:: *Version 1.0*
+    :class: html-only
 
-.. You must add the `product-img img-thumbnail mx-auto d-block` word
-.. to the image class directive in order for the thumbnail feature to work
-
-.. raw:: html
-
-    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
-
-.. Image thumbnail 1
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A55/CS19108-RK3568-133P/CS19108-RK3568-133P-Front.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Front View (Grey Color Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 2
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A55/CS19108-RK3568-133P/CS19108-RK3568-133P-Rear.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Rear View (Grey Color Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 3
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A55/CS19108-RK3568-133P/CS19108-RK3568-133P-Side1.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Side View 1 (Grey Color Variant)
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 4
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/ARM/A55/CS19108-RK3568-133P/CS19108-RK3568-133P-Side2.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Side View 2 (Grey Color Variant)
-
-.. raw:: html
-
-    </div>
-
-.. raw:: html
-
-    </div>
-
+.. include:: /PCs/Shared/four_main_images
 
 .. include:: Resources/overview
 

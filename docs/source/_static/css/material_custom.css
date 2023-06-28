@@ -224,6 +224,8 @@ a.md-source, .md-tabs__inner.md-grid > ul.md-tabs__list > li.md-tabs__item > a {
     padding: 0.1em;
     border: 1px solid #fff;
     border-radius: 0.2em;
+    max-height: 20em;
+    max-width: 30em;
 }
 
 .product-img:hover {

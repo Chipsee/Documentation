@@ -544,4 +544,13 @@
     .html-only{
         display: none;
     }
+
+    .pdf-product-img {
+        object-fit: contain;
+        padding: 0.1em;
+        border: 1px solid #fff;
+        border-radius: 0.2em;
+        max-height: 20em;
+        max-width: 30em;
+    }
 }

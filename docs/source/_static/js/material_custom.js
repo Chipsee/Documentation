@@ -62,8 +62,8 @@ function thumbnails() {
         img_thumbnail.setAttribute('data-bs-slide-to', `${i}`);
         // img_thumbnail.style.width = "200px";
         // img_thumbnail.style.height = "140px";
-        img_thumbnail.classList.add('pdf-width-70');
-        img_thumbnail.parentNode.classList.add('h-100', 'd-flex', 'align-items-center');
+        img_thumbnail.classList.add('pdf-width-70', 'img-fluid');
+        img_thumbnail.parentNode.classList.add('h-100', 'd-flex', 'align-items-center', 'justify-content-center');
     }
 }
 
