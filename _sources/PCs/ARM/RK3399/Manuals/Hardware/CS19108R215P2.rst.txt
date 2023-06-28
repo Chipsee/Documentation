@@ -5,7 +5,7 @@
 
 .. |productP| replace:: PPC-A72-215-P
 
-.. |PN| replace:: PN: CS19108R215P
+.. |PN| replace:: PN: CS19108R215P2
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
@@ -53,47 +53,47 @@
 
 .. |rs485| replace:: 2 x RS485
 
-.. |power_img| image:: /Media/ARM/A72/CS19108R215P/Power.jpg
+.. |power_img| image:: /Media/ARM/A72/CS19108R215P2/Power.jpg
                   :align: middle
                   :width: 392
 
-.. |io_pin_img| image:: /Media/ARM/A72/CS19108R215P/IO.jpg
+.. |io_pin_img| image:: /Media/ARM/A72/CS19108R215P2/IO.jpg
                    :align: middle
                    :width: 960
 
-.. |USB2_3_img| image:: /Media/ARM/A72/CS19108R215P/USB.jpg
+.. |USB2_3_img| image:: /Media/ARM/A72/CS19108R215P2/USB.jpg
                    :align: middle
                    :width: 256
 
-.. |USBC_img| image:: /Media/ARM/A72/CS19108R215P/TYPE-C.jpg
+.. |USBC_img| image:: /Media/ARM/A72/CS19108R215P2/TYPE-C.jpg
                    :align: middle
                    :width: 192
 
-.. |wifi_bt_img| image:: /Media/ARM/A72/CS19108R215P/ANT.jpg
+.. |wifi_bt_img| image:: /Media/ARM/A72/CS19108R215P2/ANT.jpg
                   :align: middle
                   :width: 384
 
-.. |LAN_img| image:: /Media/ARM/A72/CS19108R215P/LAN.jpg
+.. |LAN_img| image:: /Media/ARM/A72/CS19108R215P2/LAN.jpg
                   :align: middle
                   :width: 192
 
-.. |SIM_img| image:: /Media/ARM/A72/CS19108R215P/SIM.jpg
+.. |SIM_img| image:: /Media/ARM/A72/CS19108R215P2/SIM.jpg
                   :align: middle
                   :width: 384
 
-.. |TF_img| image:: /Media/ARM/A72/CS19108R215P/TF.jpg
+.. |TF_img| image:: /Media/ARM/A72/CS19108R215P2/TF.jpg
                   :align: middle
                   :width: 384
 
-.. |audio_img| image:: /Media/ARM/A72/CS19108R215P/Audio.jpg
+.. |audio_img| image:: /Media/ARM/A72/CS19108R215P2/Audio.jpg
                   :align: middle
                   :width: 192
 
-.. |Power_btn_img| image:: /Media/ARM/A72/CS19108R215P/Power_Button.jpg
+.. |Power_btn_img| image:: /Media/ARM/A72/CS19108R215P2/Power_Button.jpg
                   :align: middle
                   :width: 192
                   
-.. |mech_img| image:: /Media/ARM/A72/CS19108R215P/Mechanical.png
+.. |mech_img| image:: /Media/ARM/A72/CS19108R215P2/Mechanical.png
                   :align: middle
                   :width: 576
 
@@ -117,7 +117,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A72/CS19108R215P/CS19108R215P-Front.jpg
+.. image:: /Media/ARM/A72/CS19108R215P2/CS19108R215P2-Front.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Front View
 
@@ -130,7 +130,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A72/CS19108R215P/CS19108R215P-Rear.jpg
+.. image:: /Media/ARM/A72/CS19108R215P2/CS19108R215P2-Rear.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Rear View
 
@@ -143,7 +143,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A72/CS19108R215P/CS19108R215P-Side1.jpg
+.. image:: /Media/ARM/A72/CS19108R215P2/CS19108R215P2-Side1.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Side View 1
 
@@ -156,7 +156,7 @@
 
     <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
 
-.. image:: /Media/ARM/A72/CS19108R215P/CS19108R215P-Side2.jpg
+.. image:: /Media/ARM/A72/CS19108R215P2/CS19108R215P2-Side2.jpg
    :class: product-img img-thumbnail mx-auto d-block
    :alt: Side View 2
 
