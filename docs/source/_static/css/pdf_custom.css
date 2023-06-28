@@ -177,20 +177,20 @@
     }
 
     /* Monitors */
-    #doc-cover.monitors #doc-cover-content {
+    #doc-cover.displays #doc-cover-content {
         max-height: 267mm;
         min-height: 267mm;
         margin: 20mm 10mm 10mm 12mm;
     }
 
-    #doc-cover.monitors #cover_title {
+    #doc-cover.displays #cover_title {
         font-size: 40pt;
         text-align: left;
         font-weight: bold;
         color: #EF3D30;
     }
 
-    #doc-cover.monitors #cover_product_img_area {
+    #doc-cover.displays #cover_product_img_area {
         position: absolute;
         left: 45mm;
         bottom: 100mm;
@@ -200,7 +200,7 @@
         height: 350px
     }
 
-    #doc-cover.monitors #cover_subtitle_area {
+    #doc-cover.displays #cover_subtitle_area {
         position: absolute;
         left: 12mm;
         bottom: 30mm;
@@ -209,12 +209,12 @@
         padding: 0 5mm;
     }
 
-    #doc-cover.monitors #cover_subtitle_area>p {
+    #doc-cover.displays #cover_subtitle_area>p {
         margin-bottom: 2mm;
         margin-top: 0;
     }
 
-    #doc-cover.monitors #cover_monitors_label {
+    #doc-cover.displays #cover_displays_label {
         font-size: 20pt;
         margin-top: 20mm;
         margin-bottom: 0;

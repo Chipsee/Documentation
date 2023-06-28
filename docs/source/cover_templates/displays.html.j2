@@ -1,11 +1,11 @@
 <!-- article#doc-cover is used cover page handling -->
-<article id="doc-cover" class="monitors"
+<article id="doc-cover" class="displays"
     {% if cover_image is defined %}
     style="background-image: url('{{ cover_image | to_url }}');"
     {% endif %}>
     <div id="doc-cover-content">
         <div id="cover_title_area">
-            <p id="cover_monitors_label">Industrial {{ type | capitalize }}</p>
+            <p id="cover_displays_label">Industrial {{ type | capitalize }}</p>
             <p id="cover_title">{{ cover_title | e }}</p>
         </div>
         <div id="cover_product_img_area" style=""></div>

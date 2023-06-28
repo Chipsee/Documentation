@@ -1,7 +1,7 @@
 :pdf-title: PIM-101-C
 :pdf-subtitle: PN: CS-D101
 :pdf-filename: PIM-101-C
-:pdf-type: monitors
+:pdf-type: displays
 :pdf-revision: 1.1
 
 

@@ -1,7 +1,7 @@
 :pdf-title: PIM-150-C
 :pdf-subtitle: PN: CS-D150
 :pdf-filename: PIM-150-C
-:pdf-type: monitors
+:pdf-type: displays
 :pdf-revision: 1.1
 
 

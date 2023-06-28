@@ -1,7 +1,7 @@
 :pdf-title: PIM-190-C
 :pdf-subtitle: PN: CS-D190
 :pdf-filename: PIM-190-C
-:pdf-type: monitors
+:pdf-type: displays
 :pdf-revision: 1.1
 
 

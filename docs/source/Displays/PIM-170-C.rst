@@ -1,7 +1,7 @@
 :pdf-title: PIM-170-C
 :pdf-subtitle: PN: CS-D170
 :pdf-filename: PIM-170-C
-:pdf-type: monitors
+:pdf-type: displays
 :pdf-revision: 1.1
 
 
