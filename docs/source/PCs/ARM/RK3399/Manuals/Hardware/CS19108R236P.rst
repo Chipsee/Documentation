@@ -1,4 +1,4 @@
-:p.. include:: /PCs/Shared/pdf_options
+.. include:: /PCs/Shared/pdf_options
 
 .. |product| replace:: PPC-A72-236-P
 
