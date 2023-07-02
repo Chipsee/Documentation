@@ -121,27 +121,46 @@
             "orphan": ""
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS10600T070": {
-            "pdf-build": "False",
             "pdf-title": "PPC/EPC-A8-070H-C",
-            "pdf-subtitle": "EPC-A8-070H-C | PPC-A8-070H-C",
-            "pdf-filename": "PPC-EPC-A8-070H-C",
-            "pdf-type": "pcs",
-            "pdf-revision": "1.01"
+            "pdf-subtitle": "PN: CS10600T070",
+            "pdf-filename": "PPC/EPC-A8-070H-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS10600T101": {
-            "pdf-build": "False"
+            "pdf-title": "EPC/PPC-A8-101-R",
+            "pdf-subtitle": "PN: CS10600T101",
+            "pdf-filename": "EPC/PPC-A8-101-R",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS10768T097": {
-            "pdf-build": "False"
+            "pdf-title": "PPC/EPC-A8-097-C",
+            "pdf-subtitle": "PN: CS10768T097",
+            "pdf-filename": "PPC/EPC-A8-097-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS80480T050": {
-            "pdf-build": "False"
+            "pdf-title": "EPC/PPC-A8-050-C",
+            "pdf-subtitle": "PN: CS80480T050",
+            "pdf-filename": "EPC/PPC-A8-050-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS80480T070": {
-            "pdf-build": "False"
+            "pdf-title": "PPC/EPC-A8-070-HB-R",
+            "pdf-subtitle": "PN: CS80480T070",
+            "pdf-filename": "PPC/EPC-A8-070-HB-R",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS80600T080": {
-            "pdf-build": "False"
+            "pdf-title": "EPC/PPC-A8-080-R",
+            "pdf-subtitle": "PN: CS80600T080",
+            "pdf-filename": "EPC/PPC-A8-080-R",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/index": {
             "pdf-build": "False"
@@ -183,7 +202,11 @@
             "pdf-build": "False"
         },
         "PCs/ARM/PX30/AIO/Manuals/Hardware/CS12800PX101A": {
-            "pdf-build": "False"
+            "pdf-title": "AIO-PX30-101",
+            "pdf-subtitle": "PN: CS12800PX101A",
+            "pdf-filename": "AIO-PX30-101",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/PX30/AIO/Manuals/Hardware/index": {
             "pdf-build": "False"
@@ -198,43 +221,95 @@
             "pdf-build": "False"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS10600R070": {
-            "pdf-build": "False"
+            "pdf-title": "EPC/PPC-A72-070-C",
+            "pdf-subtitle": "PN: CS10600R070",
+            "pdf-filename": "EPC/PPC-A72-070-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS10768R150": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A72-150-C",
+            "pdf-subtitle": "PN: CS10768R150",
+            "pdf-filename": "PPC-A72-150-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS12800R101": {
-            "pdf-build": "False"
+            "pdf-title": "EPC/PPC-A72-101-C",
+            "pdf-subtitle": "PN: CS12800R101",
+            "pdf-filename": "EPC/PPC-A72-101-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS12800R101P": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A72-101-C",
+            "pdf-subtitle": "PN: CS12800R101P",
+            "pdf-filename": "PPC-A72-101-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R125": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A72-125-C",
+            "pdf-subtitle": "PN: CS19108R125",
+            "pdf-filename": "PPC-A72-125-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R133": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A72-133-C",
+            "pdf-subtitle": "PN: CS19108R133",
+            "pdf-filename": "PPC-A72-133-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R133P": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A72-133-P",
+            "pdf-subtitle": "PN: CS19108R133P",
+            "pdf-filename": "PPC-A72-133-P",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R156": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A72-156-C",
+            "pdf-subtitle": "PN: CS19108R156",
+            "pdf-filename": "PPC-A72-156-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R156P": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A72-156-P",
+            "pdf-subtitle": "PN: CS19108R156P",
+            "pdf-filename": "PPC-A72-156-P",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R173": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A72-173-C",
+            "pdf-subtitle": "PN: CS19108R173",
+            "pdf-filename": "PPC-A72-173-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R215": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A72-215-C",
+            "pdf-subtitle": "PN: CS19108R215",
+            "pdf-filename": "PPC-A72-215-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R215P2": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A72-215-P",
+            "pdf-subtitle": "PN: CS19108R215P2",
+            "pdf-filename": "PPC-A72-215-P",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R236P": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A72-236-P",
+            "pdf-subtitle": "PN: CS19108R236P",
+            "pdf-filename": "PPC-A72-236-P",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/index": {
             "pdf-build": "False"
@@ -261,28 +336,60 @@
             "pdf-build": "False"
         },
         "PCs/ARM/RK3568/Manuals/Hardware/CS10600-RK3568-070P": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A55-070",
+            "pdf-subtitle": "PN: CS10600-RK3568-070P",
+            "pdf-filename": "PPC-A55-070",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3568/Manuals/Hardware/CS10768-RK3568-150P": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A55-150",
+            "pdf-subtitle": "PN: CS10768-RK3568-150P",
+            "pdf-filename": "PPC-A55-150",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3568/Manuals/Hardware/CS12720-RK3568-050P": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A55-050",
+            "pdf-subtitle": "PN: CS12720-RK3568-050P",
+            "pdf-filename": "PPC-A55-050",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3568/Manuals/Hardware/CS12800-RK3568-101P": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A55-101",
+            "pdf-subtitle": "PN: CS12800-RK3568-101P",
+            "pdf-filename": "PPC-A55-101",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3568/Manuals/Hardware/CS12800-RK3568-215P": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A55-215",
+            "pdf-subtitle": "PN: CS12800-RK3568-215P",
+            "pdf-filename": "PPC-A55-215",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3568/Manuals/Hardware/CS19108-RK3568-133P": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A55-133",
+            "pdf-subtitle": "PN: CS19108-RK3568-133P",
+            "pdf-filename": "PPC-A55-133",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3568/Manuals/Hardware/CS19108-RK3568-156P": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A55-156",
+            "pdf-subtitle": "PN: CS19108-RK3568-156P",
+            "pdf-filename": "PPC-A55-156",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3568/Manuals/Hardware/CS19108-RK3568-236P": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A55-236",
+            "pdf-subtitle": "PN: CS19108-RK3568-236P",
+            "pdf-filename": "PPC-A55-236",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/RK3568/Manuals/Hardware/index": {
             "pdf-build": "False"
@@ -312,31 +419,67 @@
             "pdf-build": "False"
         },
         "PCs/ARM/iMX6Q/Manuals/Hardware/CS10600F070": {
-            "pdf-build": "False"
+            "pdf-title": "EPC/PPC-A9-070-C",
+            "pdf-subtitle": "PN: CS10600F070",
+            "pdf-filename": "EPC/PPC-A9-070-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F097": {
-            "pdf-build": "False"
+            "pdf-title": "EPC/PPC-A9-097-C",
+            "pdf-subtitle": "PN: CS10768F097",
+            "pdf-filename": "EPC/PPC-A9-097-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F121": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A9-121-C",
+            "pdf-subtitle": "PN: CS10768F121",
+            "pdf-filename": "PPC-A9-121-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F121-U": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A9-121-U-C",
+            "pdf-subtitle": "PN: CS10768F121-U",
+            "pdf-filename": "PPC-A9-121-U-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F150": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A9-150-C",
+            "pdf-subtitle": "PN: CS10768F150",
+            "pdf-filename": "PPC-A9-150-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/iMX6Q/Manuals/Hardware/CS12102F170": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A9-170-C",
+            "pdf-subtitle": "PN: CS12102F170",
+            "pdf-filename": "PPC-A9-170-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/iMX6Q/Manuals/Hardware/CS12800F101": {
-            "pdf-build": "False"
+            "pdf-title": "EPC/PPC-A9-101-C",
+            "pdf-subtitle": "PN: CS12800F101",
+            "pdf-filename": "EPC/PPC-A9-101-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/iMX6Q/Manuals/Hardware/CS14900F190": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A9-190-C",
+            "pdf-subtitle": "PN: CS14900F190",
+            "pdf-filename": "PPC-A9-190-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/iMX6Q/Manuals/Hardware/CS19108F215": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-A9-215-C",
+            "pdf-subtitle": "PN: CS19108F215",
+            "pdf-filename": "PPC-A9-215-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/iMX6Q/Manuals/Hardware/index": {
             "pdf-build": "False"
@@ -390,7 +533,11 @@
             "pdf-build": "False"
         },
         "PCs/ARM/iMX6UL/Manuals/Hardware/CS10600U070": {
-            "pdf-build": "False"
+            "pdf-title": "EPC/PPC-A7-070HB-C",
+            "pdf-subtitle": "PN: CS10600U070",
+            "pdf-filename": "EPC/PPC-A7-070HB-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/ARM/iMX6UL/Manuals/Hardware/index": {
             "pdf-build": "False"
@@ -414,46 +561,98 @@
             "pdf-build": "False"
         },
         "PCs/Intel/J1900/Manuals/Hardware/CS86-BOX-J1900": {
-            "pdf-build": "False"
+            "pdf-title": "CS86-BOX-J1900",
+            "pdf-subtitle": "PN: CS86-BOX-J1900",
+            "pdf-filename": "CS86-BOX-J1900",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-101-C": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-J1900-101-C",
+            "pdf-subtitle": "PN: PPC-J1900-101-C",
+            "pdf-filename": "PPC-J1900-101-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-104-R": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-J1900-104-R",
+            "pdf-subtitle": "PN: PPC-J1900-104-R",
+            "pdf-filename": "PPC-J1900-104-R",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-121-R": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-J1900-121-R",
+            "pdf-subtitle": "PN: PPC-J1900-121-R",
+            "pdf-filename": "PPC-J1900-121-R",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-133-C": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-J1900-133-C",
+            "pdf-subtitle": "PN: PPC-J1900-133-C",
+            "pdf-filename": "PPC-J1900-133-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-150-C": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-J1900-150-C",
+            "pdf-subtitle": "PN: PPC-J1900-150-C",
+            "pdf-filename": "PPC-J1900-150-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-156-C": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-J1900-156-C",
+            "pdf-subtitle": "PN: PPC-J1900-156-C",
+            "pdf-filename": "PPC-J1900-156-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-170-R": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-J1900-170-R",
+            "pdf-subtitle": "PN: PPC-J1900-170-R",
+            "pdf-filename": "PPC-J1900-170-R",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-190-R": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-J1900-190-R",
+            "pdf-subtitle": "PN: PPC-J1900-190-R",
+            "pdf-filename": "PPC-J1900-190-R",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-215-C": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-J1900-215-C",
+            "pdf-subtitle": "PN: PPC-J1900-215-C",
+            "pdf-filename": "PPC-J1900-215-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-236-C": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-J1900-236-C",
+            "pdf-subtitle": "PN: PPC-J1900-236-C",
+            "pdf-filename": "PPC-J1900-236-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Intel/J1900/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
         "PCs/Intel/i5-i7-3865/Manuals/Hardware/CS86-BOX": {
-            "pdf-build": "False"
+            "pdf-title": "CS86-BOX",
+            "pdf-subtitle": "PN: CS86-BOX",
+            "pdf-filename": "CS86-BOX",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Intel/i5-i7-3865/Manuals/Hardware/PPC-10510U-150-C": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-10510U-150-C",
+            "pdf-subtitle": "PN: PPC-10510U-150-C",
+            "pdf-filename": "PPC-10510U-150-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Intel/i5-i7-3865/Manuals/Hardware/index": {
             "pdf-build": "False"
@@ -462,52 +661,108 @@
             "pdf-build": "False"
         },
         "PCs/Pi/A53/Manuals/Hardware/CS10600RA070": {
-            "pdf-build": "False"
+            "pdf-title": "EPC/PPC-CM3-070",
+            "pdf-subtitle": "PN: CS10600RA070",
+            "pdf-filename": "EPC/PPC-CM3-070",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Pi/A53/Manuals/Hardware/CS12800RA101": {
-            "pdf-build": "False"
+            "pdf-title": "EPC/PPC-CM3-101",
+            "pdf-subtitle": "PN: CS12800RA101",
+            "pdf-filename": "EPC/PPC-CM3-101",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Pi/A53/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
         "PCs/Pi/A72/Manuals/Hardware/CS10600RA4070": {
-            "pdf-build": "False"
+            "pdf-title": "EPC/PPC-CM4-070",
+            "pdf-subtitle": "PN: CS10600RA4070",
+            "pdf-filename": "EPC/PPC-CM4-070",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Pi/A72/Manuals/Hardware/CS10768RA4121": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-CM4-121",
+            "pdf-subtitle": "PN: CS10768RA4121",
+            "pdf-filename": "PPC-CM4-121",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Pi/A72/Manuals/Hardware/CS10768RA4150": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-CM4-150",
+            "pdf-subtitle": "PN: CS10768RA4150",
+            "pdf-filename": "PPC-CM4-150",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Pi/A72/Manuals/Hardware/CS12720RA4050": {
-            "pdf-build": "False"
+            "pdf-title": "EPC/PPC-CM4-050",
+            "pdf-subtitle": "PN: CS12720RA4050",
+            "pdf-filename": "EPC/PPC-CM4-050",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Pi/A72/Manuals/Hardware/CS12720RA4050-C121": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-CM4-050",
+            "pdf-subtitle": "PN: CS12720RA4050",
+            "pdf-filename": "PPC-CM4-050",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Pi/A72/Manuals/Hardware/CS12800RA4101": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-CM4-101",
+            "pdf-subtitle": "PN: CS12800RA4101",
+            "pdf-filename": "PPC-CM4-101",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Pi/A72/Manuals/Hardware/CS19108RA4133": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-CM4-133",
+            "pdf-subtitle": "PN: CS19108RA4133",
+            "pdf-filename": "PPC-CM4-133",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Pi/A72/Manuals/Hardware/CS19108RA4156": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-CM4-156",
+            "pdf-subtitle": "PN: CS19108RA4156",
+            "pdf-filename": "PPC-CM4-156",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Pi/A72/Manuals/Hardware/CS19108RA4215": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-CM4-215",
+            "pdf-subtitle": "PN: CS19108RA4215",
+            "pdf-filename": "PPC-CM4-215",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Pi/A72/Manuals/Hardware/CS19108RA4236": {
-            "pdf-build": "False"
+            "pdf-title": "PPC-CM4-236",
+            "pdf-subtitle": "PN: CS19108RA4236",
+            "pdf-filename": "PPC-CM4-236",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Pi/A72/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
         "PCs/Pi/AIO/Manuals/Hardware/CS12800RA4101A": {
-            "pdf-build": "False"
+            "pdf-title": "AIO-CM4-101",
+            "pdf-subtitle": "PN: CS12800RA4101A",
+            "pdf-filename": "AIO-CM4-101",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Pi/AIO/Manuals/Hardware/CS19108RA4156A": {
-            "pdf-build": "False"
+            "pdf-title": "AIO-CM4-156",
+            "pdf-subtitle": "PN: CS19108RA4156A",
+            "pdf-filename": "AIO-CM4-156",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
         },
         "PCs/Pi/AIO/Manuals/Hardware/index": {
             "pdf-build": "False"

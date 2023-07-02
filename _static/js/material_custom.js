@@ -26,9 +26,9 @@ function pr_inner(pr_items) {
     for ( var i = 0; i < imgs.length; i++ ) {
         var pr_item = pr_items[i];
         if (i==0){
-            inner += `<div class="carousel-item active"><h6 style="color:#444444!important;text-align:center;">${pr_item[0]}</h6><img src="${pr_item[1]}" class="d-block img-fluid" alt="${pr_item[0]}"></div>`;
+            inner += `<div class="carousel-item active"><h6 style="color:#444444!important;text-align:center;" class="fs-5">${pr_item[0]}</h6><img src="${pr_item[1]}" class="d-block img-fluid" alt="${pr_item[0]}"></div>`;
         }else{
-            inner += `<div class="carousel-item"><h6 style="color:#444444!important;text-align:center;">${pr_item[0]}</h6><img src="${pr_item[1]}" class="d-block img-fluid" alt="${pr_item[0]}"></div>`;
+            inner += `<div class="carousel-item"><h6 style="color:#444444!important;text-align:center;" class="fs-5">${pr_item[0]}</h6><img src="${pr_item[1]}" class="d-block img-fluid" alt="${pr_item[0]}"></div>`;
         }
     }
     inner += "</div>";
@@ -60,8 +60,10 @@ function thumbnails() {
         let img_thumbnail = imgs[i];
         img_thumbnail.setAttribute('data-bs-target', '#carouselExample');
         img_thumbnail.setAttribute('data-bs-slide-to', `${i}`);
-        img_thumbnail.style.width = "200px";
-        img_thumbnail.style.height = "140px";
+        // img_thumbnail.style.width = "200px";
+        // img_thumbnail.style.height = "140px";
+        img_thumbnail.classList.add('pdf-width-70', 'img-fluid');
+        img_thumbnail.parentNode.classList.add('h-100', 'd-flex', 'align-items-center', 'justify-content-center');
     }
 }
 
