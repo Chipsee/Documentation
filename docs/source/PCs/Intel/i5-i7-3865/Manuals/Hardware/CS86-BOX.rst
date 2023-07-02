@@ -1,12 +1,25 @@
-:pdf-build: False
-
+.. include:: /PCs/Shared/pdf_options
 
 .. |product| replace:: CS86-BOX
 
 .. |Product| replace:: The |product| Industrial Panel PC 
 
+.. |PN| replace:: PN: CS86-BOX
+
 .. |dim| replace:: 249.2 x 152 x 34mm
 
+.. |Front View| image:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-Back.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-Side.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-Side.jpg
+                  :class: product-img 
+                  
 .. _CS86-BOX:
 
 
@@ -16,56 +29,7 @@
 .. rubric:: *Version 1.1*
     :class: html-only
 
-.. You must add the `product-img img-thumbnail mx-auto d-block` word
-.. to the image class directive in order for the thumbnail feature to work
-.. You must add `html-only` to the div under the raw directive to hide the div in the PDF output
-
-.. raw:: html
-
-    <div class="row" id="gallery" data-bs-toggle="modal" data-bs-target="#imageModal">
-
-.. Image thumbnail 1
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-Front.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Front View
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 2
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-Back.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Back View
-
-.. raw:: html
-
-    </div>
-
-.. Image thumbnail 3
-.. raw:: html
-
-    <div class="col-12 col-sm-6 col-lg-3 g-3" style="cursor: pointer;">
-
-.. image:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-Side.jpg
-   :class: product-img img-thumbnail mx-auto d-block
-   :alt: Side View
-
-.. raw:: html
-
-    </div>
-
-.. raw:: html
-
-    </div>
+.. include:: /PCs/Shared/four_main_images
 
 .. include:: Resources/overview-box
 

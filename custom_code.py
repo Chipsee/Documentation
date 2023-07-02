@@ -20,7 +20,7 @@ def main(**kwargs: BeautifulSoup) -> None:
             attrs={
                 "src": img["src"],
                 "alt": img["alt"],
-                "class": " ".join(img_classes),
+                "class": " ".join(img_classes) + " pdf-product-img",
             },
         )
         pdf_figcaption = soup.new_tag("figcaption", attrs={"style": "margin: 5px 0"})

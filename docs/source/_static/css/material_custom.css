@@ -219,43 +219,55 @@ a.md-source, .md-tabs__inner.md-grid > ul.md-tabs__list > li.md-tabs__item > a {
 /* --- BEGIN: crop thumbnail images --- */
 /* Optional CSS for cropping images that aren't all the same size. */
 
-#gallery > div > img.img-thumbnail {
+.product-img {
     object-fit: contain;
+    padding: 0.1em;
+    border: 1px solid #fff;
+    border-radius: 0.2em;
+    max-height: 20em;
+    max-width: 30em;
 }
 
-#gallery > div > img.img-thumbnail:hover {
+.product-img:hover {
+    border: 1px solid #EF3D30;
+}
+
+/*
+#gallery > div > p > img.img-thumbnail {
+    
+}
+
+#gallery > div > p > img.img-thumbnail:hover {
     border: 1.5px solid #EF3D30;
 }
 
 @media (max-width: 375px) {
-    #gallery > div > img.img-thumbnail {
+    #gallery > div > p > img.img-thumbnail {
         height: 180px!important;
         width: 250px!important;
     }
-}
+}*/
 
 .carousel-item img {
-    width: 60vw;
-    height: 350px;
+    width: 80vw;
+    height: 70vh;
     object-fit: contain;
 }
 
 .modal-dialog {
-    max-width: 50%;
+    max-width: 80vw;
     margin: 1.75rem auto;
 }
 
-@media (max-width: 576px) {
+/*@media (max-width: 576px) {
      .modal-dialog {
-        max-width: 80%;
+        max-width: 80vw;
     }
 
     .carousel-item img {
         width: 80vw;
-        height: 250px;
     }
-
-}
+}*/
 /* --- END: crop images --- */
 
   .carousel-control-prev, .carousel-control-next {
