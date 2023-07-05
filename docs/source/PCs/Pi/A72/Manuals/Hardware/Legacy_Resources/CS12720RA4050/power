@@ -1,0 +1,25 @@
+
+Note that the "**+**" sign represents the positive power input, and it is printed both at the casing and as a silk-screen on the board of the embedded version. The "**-**" terminal is shorted to the ground.
+
+.. table:: Power Connector
+   :align: center
+   :width: 100%
+   :widths: auto
+   :class: align-center
+
+   +-------------------------------------------------------------------------+
+   | Power Input Definition                                                  |
+   +================+================+=======================================+
+   | **Pin Number** | **Definition** | **Description**                       |
+   +----------------+----------------+---------------------------------------+
+   | Pin 1          | Positive Input | DC Power **Positive Terminal**        |
+   +----------------+----------------+---------------------------------------+
+   | Pin 2          | Negative Input | DC Power **Negative Terminal**        |
+   +----------------+----------------+---------------------------------------+
+   | Pin 3          | Ground         | **Power System Ground**               |
+   +----------------+----------------+---------------------------------------+
+
+.. note:: 
+
+  The system ground “**G**” is connected to power negative “**-**” on board. |br|
+  The central pin is positive.
