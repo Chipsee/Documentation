@@ -1,16 +1,3 @@
-GPIO Port
---------------
-
-|Product| has a 10 Pin 3.81mm **GPIO Connector**, as shown on the figure below.
-The table below gives details about the definition of every Pin.
-
-.. figure:: /Media/Pi/A53/Others/GP_IO.jpeg
-   :align: center
-   :figclass: align-center
-
-   *GPIO Connector*
-
-
 .. table:: GPIO Connector Pin-out
    :align: center
    :width: 100%

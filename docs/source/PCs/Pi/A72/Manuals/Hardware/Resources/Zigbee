@@ -11,9 +11,9 @@ For |productP|, there is a connector on the backside of the case that you can us
    *Zigbee controller*
 
 
-.. figure:: /Media/Pi/A53/Others/Antenna.jpeg
-   :align: center
-   :figclass: align-center
+.. rst-class:: text-center
+
+   |zigbee_img|
 
    *Zigbee Antenna*
 
