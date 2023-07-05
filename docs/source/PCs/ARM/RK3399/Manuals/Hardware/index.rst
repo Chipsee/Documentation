@@ -129,13 +129,13 @@ RK3399 Hardware Documentation
    :name: hwdocstable_9
 
    +---------------------+------------------------------------------------------------------------+
-   | |PPC-A72-236-P|     |   :ref:`PPC-A72-236-P User Manual <PPC-A72-236-P>` |br|                |
+   | |PPC-A72-236|       |   :ref:`PPC-A72-236 User Manual <PPC-A72-236>` |br|                    |
    |                     |   PN: CS19108R236P |br| |br|                                           |
    |                     |                                                                        |
    |                     |   23.6", 1920 x 1080, 10-point capacitive touch screen                 |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC-A72-236-P| image:: /Media/ARM/A72/CS19108R236P/CS19108R236P-Front.jpg
+.. |PPC-A72-236| image:: /Media/ARM/A72/CS19108R236P/CS19108R236P-Front.jpg
    :class: no-scaled-link
    :target: CS19108R236P.html
 
@@ -214,7 +214,7 @@ RK3399 Hardware Documentation
    PPC-A72-156-P <CS19108R156P>
    PPC-A72-173-C <CS19108R173>
    PPC-A72-215-P <CS19108R215P2>
-   PPC-A72-236-P <CS19108R236P>
+   PPC-A72-236 <CS19108R236P>
    EPC/PPC-A72-101-C(Legacy) <CS12800R101>
    PPC-A72-133-C(Legacy) <CS19108R133>
    PPC-A72-156-C(Legacy) <CS19108R156>

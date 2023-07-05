@@ -1,8 +1,8 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. |product| replace:: PPC-A72-236-P
+.. |product| replace:: PPC-A72-236
 
-.. |productP| replace:: PPC-A72-236-P
+.. |productP| replace:: PPC-A72-236
 
 .. |PN| replace:: PN: CS19108R236P
 
@@ -105,7 +105,7 @@
 .. |Side View 2| image:: /Media/ARM/A72/CS19108R236P/CS19108R236P-Side2.jpg
                   :class: product-img 
 
-.. _PPC-A72-236-P:
+.. _PPC-A72-236:
 
 |product|
 #########
