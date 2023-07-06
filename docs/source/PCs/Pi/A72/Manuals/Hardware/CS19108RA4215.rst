@@ -1,5 +1,7 @@
 .. include:: /PCs/Shared/pdf_options
 
+.. include:: Resources/CS12800RA4101/base_replaces_cs12800ra4101
+
 .. |product| replace:: PPC-CM4-215
 
 .. |productE| replace:: CS19108RA4215E
@@ -8,21 +10,11 @@
 
 .. |PN| replace:: PN: CS19108RA4215
 
-.. |Product| replace:: The |product| industrial Pi PC
-
-.. |TFNum| replace:: 1
-
-.. |tf_des| replace:: This TF card is designed for storage expansion, as the TF card uses the same pins with WiFi, it can't be used with WiFi at the same time
-
-.. |usb_hub_conflict| replace:: two USB host connectors, Zigbee and 4G/LTE
-
 .. |dispsize| replace:: 21.5"
 
 .. |res| replace:: 1920 x 1080
 
 .. |bright| replace:: 250 |cd|
-
-.. |disp_des| replace:: |dispsize| Ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |dimE| replace:: NULL
 
@@ -31,40 +23,6 @@
 .. |weightE| replace:: NULL
 
 .. |weightP| replace:: 5500g
-
-.. |tscreen| replace:: 10-point capacitive touch
-
-.. |rs232_485_can_ter| replace:: phoenix terminal
-
-.. |rs232_rs485_conf| replace:: The 2 x RS485 can be configured to 2 x RS232, if you want a custom configuration, you can contact us when placing an order.
-
-.. |cap_screen_conn| replace:: USB connector
-
-.. |camera_desc| replace:: No
-
-.. |zigbee_des| replace:: Onboard Zigbee module, not mounted by default 
-
-.. |USB| replace:: 2 x USB 3.0 Host, 1 x USB OTG
-
-.. |LAN| replace:: 1 x Channel Giga LAN
-
-.. |TF_count| replace:: 1
-
-.. |TF_boot| replace:: The SD is used for memory extension. It can’t be used for system boot-up.
-
-.. |GPIO| replace:: 8 Channels, 4 Input, 4 Output
-
-.. |hdmi_des| replace:: Not Supported
-
-.. |sata_des| replace:: Not Supported
-
-.. |power_conn_desc| replace:: It is a **3 Pin, 3.81mm screw terminal** connector.
-
-.. |opt1| replace:: Supported, not mounted by default
-
-.. |opt2| replace:: Supported but depending on the CM4 selected
-
-.. |vin_rng| replace:: From 12V to 36V
 
 .. |cur| replace:: 1500mA Max
 
