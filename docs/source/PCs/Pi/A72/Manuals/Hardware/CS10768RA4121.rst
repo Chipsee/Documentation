@@ -158,49 +158,7 @@
 .. rubric:: *Version 1.1*
     :class: html-only
 
-.. include:: /PCs/Shared/four_main_images
-
-.. include:: Resources/overview
-
-.. include:: Resources/ordering
-
-.. include:: Resources/opt_features
-
-.. include:: Resources/HW_features
-
-.. include:: Resources/table
-
-.. include:: Resources/power_conn
-
-.. include:: Resources/power_table
-
-.. include:: Resources/cap_screen
-
-.. include:: Resources/connectivity
-
-.. include:: Resources/CS12800RA4101/connectivity_table
-
-.. include:: Resources/gpio
-
-.. include:: Resources/CS12800RA4101/gpio_table
-
-.. include:: Resources/USB
-
-.. include:: Resources/LAN
-
-.. include:: Resources/WiFi
-
-.. include:: Resources/4G_com
-
-.. include:: Resources/Zigbee
-
-.. include:: Resources/TF
-
-.. include:: Resources/audio_io
-
-.. include:: Resources/prog_btn
-
-.. include:: Resources/CS12800RA4101/mounting_cs12800ra4101
+.. include:: Resources/CS12800RA4101/base_includes_cs12800ra4101
 
 .. include:: Resources/mechanical
 
