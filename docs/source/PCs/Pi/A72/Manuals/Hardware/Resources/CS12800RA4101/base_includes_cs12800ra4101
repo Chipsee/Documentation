@@ -12,8 +12,6 @@
 
 .. include:: Resources/power_conn
 
-.. include:: Resources/power_table
-
 .. include:: Resources/cap_screen
 
 .. include:: Resources/connectivity

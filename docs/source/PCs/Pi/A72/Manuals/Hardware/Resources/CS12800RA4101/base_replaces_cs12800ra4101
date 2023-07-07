@@ -14,6 +14,8 @@
 
 .. |rs232_rs485_conf| replace:: The 2 x RS485 can be configured to 2 x RS232, if you want a custom configuration, you can contact us when placing an order.
 
+.. |gpio_conn| replace:: **phoenix connector**
+
 .. |cap_screen_conn| replace:: USB connector
 
 .. |camera_desc| replace:: No
@@ -23,8 +25,6 @@
 .. |USB| replace:: 2 x USB 3.0 Host, 1 x USB OTG
 
 .. |LAN| replace:: 1 x Channel Giga LAN
-
-.. |TF_count| replace:: 1
 
 .. |TF_boot| replace:: The SD is used for memory extension. It can’t be used for system boot-up.
 

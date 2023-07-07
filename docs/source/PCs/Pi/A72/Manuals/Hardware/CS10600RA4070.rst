@@ -42,6 +42,8 @@
 
 .. |rs232_rs485_conf| replace:: RS485_3 and RS232_3 share UART3 and can't work at the same time; RS485_5 and RS232_5 share UART5 and can't work at the same time. Meaning the product provides 4 x RS232 + 0 x RS485, or 2 x RS232 + 2 x RS485, or 3 x RS232 + 1 x RS485.
 
+.. |gpio_conn| replace:: 10 Pin 3.81mm **GPIO Connector**
+
 .. |camera_desc| replace:: Yes, not mounted by default
 
 .. |zigbee_des| replace:: Onboard Zigbee module, not mounted by default 
@@ -49,8 +51,6 @@
 .. |USB| replace:: 2 x USB 2.0 Host, 1 x USB OTG
 
 .. |LAN| replace:: 1 x Channel Giga LAN
-
-.. |TF_count| replace:: 2
 
 .. |GPIO| replace:: 8 Channels, 4 Input, 4 Output
 
@@ -176,8 +176,6 @@
     Chipsee does not install a lithium battery by default, as we cannot ship products with batteries. We recommend you buy it locally and install it by yourself. The lithium battery part number is CR1220. Please |contact|_ if you need help.
 
 .. include:: Resources/power_conn
-
-.. include:: Resources/power_table
 
 .. include:: Resources/cap_screen
 

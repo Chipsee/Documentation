@@ -1,7 +1,7 @@
 GPIO Port
 --------------
 
-|Product| has a 10 Pin 3.81mm **GPIO Connector**, as shown in the figure below.
+|Product| has a |gpio_conn|, as shown in the figure below.
 The table below gives details about the definition of every Pin.
 
 .. rst-class:: text-center
