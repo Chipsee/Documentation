@@ -46,6 +46,8 @@
 
 .. |camera_desc| replace:: Yes, not mounted by default
 
+.. |camera_not_mount| replace:: The camera is not mounted by default.
+
 .. |zigbee_des| replace:: Onboard Zigbee module, not mounted by default 
 
 .. |USB| replace:: 2 x USB 2.0 Host, 1 x USB OTG
@@ -91,6 +93,10 @@
 .. |gpio_img| image:: /Media/Pi/A53/Others/GP_IO.jpeg
                   :align: middle
                   :width: 768
+
+.. |camera_img| image:: /Media/Pi/A72/Others/Camera.jpeg
+                  :align: middle
+                  :width: 640
 
 .. |tf_img| image:: /Media/Pi/A53/Others/TF_Card.jpeg
                   :align: middle
@@ -197,7 +203,7 @@
 
 .. include:: Resources/Zigbee
 
-.. include:: Resources/CS10600RA4070/Camera
+.. include:: Resources/camera_050_070
 
 .. include:: Resources/TF
 

@@ -1,12 +1,12 @@
 Camera Connector
 ----------------
 
-|Product| has a 15 Pin **Camera Connector**, as shown on the figure below. The camera signals come from CAM1.
-The table below gives details about the definition of every Pin.
+|Product| has a 15 Pin **Camera Connector**, as shown in the figure below. The camera signals come from CAM1.
+The table below gives details about the definition of every Pin. 
 
-.. figure:: /Media/Pi/A72/Others/Camera.jpeg
-   :align: center
-   :figclass: align-center
+.. rst-class:: text-center
+
+   |camera_img|
 
    *Camera Connector*
 
@@ -41,7 +41,7 @@ The table below gives details about the definition of every Pin.
    +----------------+-------------------------------+--------------------------------------------------------------+
    | Pin 10         | GND                           | Power Ground                                                 |
    +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 11         | CAM GPIO	                    | CAM GPIO, use for disable camera power and module            |
+   | Pin 11         | CAM GPIO                      | CAM GPIO, use for disable camera power and module            |
    +----------------+-------------------------------+--------------------------------------------------------------+
    | Pin 12         | NC                            | Not connected                                                |
    +----------------+-------------------------------+--------------------------------------------------------------+
@@ -54,4 +54,4 @@ The table below gives details about the definition of every Pin.
 
 .. attention::
 
-    #) The camera is not mounted by default.
+    #) |camera_not_mount|

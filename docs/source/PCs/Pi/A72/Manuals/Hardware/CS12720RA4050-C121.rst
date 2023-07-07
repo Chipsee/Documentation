@@ -40,7 +40,9 @@
 
 .. |cap_screen_conn| replace:: FPC connector
 
-.. |camera_desc| replace:: No
+.. |camera_desc| replace:: Yes, not mounted by default. 
+
+.. |camera_not_mount| replace:: The camera connector is supported but not mounted by default. It's available on the PCB but not exposed on the case, please contact us when placing an order if you need to use camera on the |product|.
 
 .. |zigbee_des| replace:: No
 
@@ -85,6 +87,10 @@
 .. |tf_img| image:: /Media/Pi/A72/CS12720RA4050-C121/TFCard.png
                   :align: middle
                   :width: 384
+
+.. |camera_img| image:: /Media/Pi/A72/CS12720RA4050-C121/Camera.jpeg
+                  :align: middle
+                  :width: 640
 
 .. |audio_img| image:: /Media/Pi/A72/CS12720RA4050-C121/Headphone.png
                   :align: middle
@@ -163,6 +169,8 @@
 .. include:: Resources/LAN
 
 .. include:: Resources/WiFi
+
+.. include:: Resources/camera_050_070
 
 .. include:: Resources/TF
 
