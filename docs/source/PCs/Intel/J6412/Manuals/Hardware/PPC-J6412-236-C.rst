@@ -1,0 +1,91 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: PPC-J6412-236-C
+
+.. |Product| replace:: The |product| Industrial Panel PC 
+
+.. |PN| replace:: PN: |product|
+
+.. |weight| replace:: 7700g
+
+.. |dim| replace:: 595 x 374 x 57.25mm
+
+.. |dispsize| replace:: 23.6"
+  
+.. |res| replace:: 1920 x 1080
+
+.. |bright| replace:: 350 |cd|
+
+.. |tscreen| replace:: Multi-point capacitive touch screen
+
+.. |viewing_angle| replace:: (H)160/(V)160
+
+.. |opt_1| replace:: Optional, module available from other manufacturers/stores
+
+.. |opt_2| replace:: Optional, module available from the Chipsee store
+
+.. |pwr| replace:: 30W
+
+.. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
+
+.. |Front View| image:: /Media/Intel/J6412/PPC-J6412-236-C/PPC-J6412-236-C-Front.png
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Intel/J6412/PPC-J6412-236-C/PPC-J6412-236-C-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Intel/J6412/PPC-J6412-236-C/PPC-J6412-236-C-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/Intel/J6412/PPC-J6412-236-C/PPC-J6412-236-C-Side2.jpg
+                  :class: product-img
+
+.. _PPC-J6412-236-C:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features_1
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/connectivity
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/HDMI
+
+.. include:: Resources/audio
+
+.. include:: Resources/cmos_btn
+
+.. include:: Resources/mounting
+
+.. include:: Resources/mechspecs
+
+.. rst-class:: text-center
+
+    .. image:: /Media/Intel/J6412/PPC-J6412-236-C/TD.png
+      :align: center
+      :width: 1024
+
+    *Technical Drawing and Cutout Dimensions*
+
+.. include:: /PCs/Shared/support                  

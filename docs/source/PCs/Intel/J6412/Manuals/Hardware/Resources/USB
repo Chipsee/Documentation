@@ -1,0 +1,15 @@
+
+USB HOST Connectors 
+--------------------
+
+|product| is equipped with 4 x USB 3.0 connectors. The data throughput of the USB 3.0 interface can reach up to 4.8 Gbps.
+
+Although fully compatible with USB 2.0 devices, the USB 3.0 interface provides 10 times more data transfer bandwidth than USB 2.0, making it best suited for fast peripherals that can utilize its full potential.
+
+.. rst-class:: text-center
+
+   .. image:: /Media/Intel/J6412/Shared/USB.jpg
+      :align: center
+      :width: 576
+
+   *4 x USB3.0 HOST Connectors*
