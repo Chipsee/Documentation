@@ -26,16 +26,16 @@
 
 .. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
 
-.. |Front View| image:: /Media/Pi/A53/CS12800RA101/CS12800RA101P-Front.jpeg
+.. |Front View| image:: /Media/Intel/J1900/156/PPC-J1900-156-C-Front.jpg
                   :class: product-img
 
-.. |Rear View| image:: /Media/Pi/A53/CS12800RA101/CS12800RA101P-Back.jpeg
+.. |Rear View| image:: /Media/Intel/J1900/156/PPC-J1900-156-C-Back.jpg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/Pi/A53/CS12800RA101/CS12800RA101E-Front.jpeg
+.. |Side View 1| image:: /Media/Intel/J1900/156/PPC-J1900-156-C-Side.jpg
                   :class: product-img
 
-.. |Side View 2| image:: /Media/Pi/A53/CS12800RA101/CS12800RA101E-Front.jpeg
+.. |Side View 2| image:: /Media/Intel/J1900/156/PPC-J1900-156-C-Side.jpg
                   :class: product-img 
                   
 .. _PPC-J1900-156-C:
