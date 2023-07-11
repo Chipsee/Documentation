@@ -39,6 +39,21 @@ Cortex-A72 Hardware Documentation
    :name: hwdocstable_3
 
    +---------------------+------------------------------------------------------------------------+
+   | |PPC-CM4-070-D|     |   :ref:`PPC-CM4-070-D User Manual <PPC-CM4-070-D>` |br|                |
+   |                     |   PN: CS10600RA4070P-D |br| |br|                                       |
+   |                     |                                                                        |
+   |                     |   7.0", 1024 x 600, 5-point capacitive touch screen                    |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-CM4-070-D| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Front.jpg
+   :class: no-scaled-link
+   :target: CS10600RA4070P-D.html
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_4
+
+   +---------------------+------------------------------------------------------------------------+
    | |PPC-CM4-101|       |   :ref:`PPC-CM4-101 User Manual <PPC-CM4-101>` |br|                    |
    |                     |   PN: CS12800RA4101 |br| |br|                                          |
    |                     |                                                                        |
@@ -51,7 +66,7 @@ Cortex-A72 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_4
+   :name: hwdocstable_5
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-CM4-121|       |   :ref:`PPC-CM4-121 User Manual <PPC-CM4-121>` |br|                    |
@@ -66,7 +81,7 @@ Cortex-A72 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_5
+   :name: hwdocstable_6
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-CM4-133|       |   :ref:`PPC-CM4-133 User Manual <PPC-CM4-133>` |br|                    |
@@ -81,7 +96,7 @@ Cortex-A72 Hardware Documentation
    
 .. table::
    :widths: 20 30
-   :name: hwdocstable_6
+   :name: hwdocstable_7
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-CM4-150|       |   :ref:`PPC-CM4-150 User Manual <PPC-CM4-150>` |br|                    |
@@ -96,7 +111,7 @@ Cortex-A72 Hardware Documentation
    
 .. table::
    :widths: 20 30
-   :name: hwdocstable_7
+   :name: hwdocstable_8
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-CM4-156|       |   :ref:`PPC-CM4-156 User Manual <PPC-CM4-156>` |br|                    |
@@ -111,7 +126,7 @@ Cortex-A72 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_8
+   :name: hwdocstable_9
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-CM4-215|       |   :ref:`PPC-CM4-215 User Manual <PPC-CM4-215>` |br|                    |
@@ -126,7 +141,7 @@ Cortex-A72 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_9
+   :name: hwdocstable_10
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-CM4-236|       |   :ref:`PPC-CM4-236 User Manual <PPC-CM4-236>` |br|                    |
@@ -141,7 +156,7 @@ Cortex-A72 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_10
+   :name: hwdocstable_11
 
    +---------------------+------------------------------------------------------------------------+
    | |EPC/PPC-CM4-050|   |   :ref:`EPC/PPC-CM4-050 User Manual <EPC/PPC-CM4-050>` |br|            |
@@ -162,6 +177,7 @@ Cortex-A72 Hardware Documentation
 
    PPC-CM4-050 <CS12720RA4050-C121>
    EPC/PPC-CM4-070 <CS10600RA4070>
+   PPC-CM4-070-D <CS10600RA4070P-D>
    PPC-CM4-101 <CS12800RA4101>
    PPC-CM4-121 <CS10768RA4121>
    PPC-CM4-133 <CS19108RA4133>

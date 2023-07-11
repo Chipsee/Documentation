@@ -22,7 +22,7 @@
 
 .. |bright| replace:: 400 |cd|
 
-.. |disp_des| replace:: |dispsize| five-point capacitive a touch screen with a resolution of |res| pixels and brightness of |bright|
+.. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |dimE| replace:: NULL
 
@@ -51,6 +51,8 @@
 .. |LAN| replace:: 1 x Channel Giga LAN
 
 .. |TF_boot| replace:: The SD is used for memory extension. It can’t be used for system boot-up.
+
+.. |TF_storage| replace:: This storage extension SD uses the same pins as WiFi on CM4, SD storage and WiFi **can't** be used at the same time.
 
 .. |GPIO| replace:: Not Supported
 
