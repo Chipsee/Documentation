@@ -12,7 +12,11 @@
 
 .. |TFNum| replace:: 2
 
-.. |tf_des| replace:: Chipsee designed one of the TF card slots for Lite version which have no eMMC. We designed the other one for storage expansion, as the TF card for storage expansion use same pins with WiFi, it can't be used with WiFi at same time
+.. |TF_boot| replace:: The **SD0** is used only for the Lite version of Compute Module 4 that has no internal eMMC. If you use CM4 with eMMC, this SD0 will be **disabled**. The **SD1** is used for storage extension, it **can’t** be used for system boot-up.
+
+.. |tf_des| replace:: Chipsee designed one of the TF card slots for Lite version which have no eMMC. We designed the other one for storage expansion, as the TF card for storage expansion use same pins with WiFi, it can't be used with WiFi at same time.
+
+.. |usb_hub_conflict| replace:: two USB host connectors, Zigbee and 4G/LTE
 
 .. |dispsize| replace:: 7"
 
@@ -32,7 +36,21 @@
 
 .. |tscreen| replace:: 5-point capacitive touch
 
-.. |USB| replace:: 2 x USB 2.0 Host, 1 x miniUSB OTG
+.. |rs232_485_can_ter| replace:: 16-pin 3.81mm terminal
+
+.. |cap_screen_conn| replace:: FPC connector
+
+.. |rs232_rs485_conf| replace:: RS485_3 and RS232_3 share UART3 and can't work at the same time; RS485_5 and RS232_5 share UART5 and can't work at the same time. Meaning the product provides 4 x RS232 + 0 x RS485, or 2 x RS232 + 2 x RS485, or 3 x RS232 + 1 x RS485.
+
+.. |gpio_conn| replace:: 10 Pin 3.81mm **GPIO Connector**
+
+.. |camera_desc| replace:: Yes, not mounted by default
+
+.. |camera_not_mount| replace:: The camera is not mounted by default.
+
+.. |zigbee_des| replace:: Onboard Zigbee module, not mounted by default 
+
+.. |USB| replace:: 2 x USB 2.0 Host, 1 x USB OTG
 
 .. |LAN| replace:: 1 x Channel Giga LAN
 
@@ -41,6 +59,8 @@
 .. |hdmi_des| replace:: Yes
 
 .. |sata_des| replace:: Not Supported
+
+.. |power_conn_desc| replace:: There are two types of power input connectors. One is a **3 Pin, 3.81mm screw terminal** connector, and the other is a **2.1mm DC input head**.
 
 .. |opt1| replace:: Supported, not mounted by default
 
@@ -54,13 +74,73 @@
 
 .. |temp| replace:: From 0°C to +60°C
 
+.. |dim_desc| replace:: |productE|: |dimE|; |productP|: |dimP|
+
+.. |weight_desc| replace:: |productE|: |weightE|; |productP|: |weightP|
+
 .. _product_link: https://chipsee.com/product/PPC-CM4-70/
 
 .. |product_link| replace:: EPC/PPC-CM4-070
 
+.. |rs232_485_can_img| image:: /Media/Pi/A72/CS10600RA4070/CM4-7-IO-Peripherals.jpg
+                  :align: middle
+                  :width: 768
+
 .. |sim_img| image:: /Media/Pi/A72/CS10600RA4070/TF_4G_070.jpg
                   :align: middle
                   :width: 960
+
+.. |gpio_img| image:: /Media/Pi/A53/Others/GP_IO.jpeg
+                  :align: middle
+                  :width: 768
+
+.. |camera_img| image:: /Media/Pi/A72/Others/Camera.jpeg
+                  :align: middle
+                  :width: 640
+
+.. |tf_img| image:: /Media/Pi/A53/Others/TF_Card.jpeg
+                  :align: middle
+                  :width: 768                  
+
+.. |gpio_schema_img| image:: /Media/Pi/A72/Others/GP_IO_2.jpeg
+                  :align: middle
+                  :width: 768
+
+.. |wifi_img| image:: /Media/Pi/A53/Others/Antenna.jpeg
+                  :align: middle
+                  :width: 384
+
+.. |power_img| image:: /Media/Pi/A53/Others/Power.jpeg
+                  :align: middle
+                  :width: 480
+
+.. |zigbee_img| image:: /Media/Pi/A53/Others/Antenna.jpeg
+                  :align: middle
+                  :width: 384     
+
+.. |ts_con_img| image:: /Media/Pi/A53/Others/TS_CON.jpeg
+                  :align: middle
+                  :width: 192                              
+
+.. |lan_img| image:: /Media/Pi/A53/Others/LAN.jpeg
+                  :align: middle
+                  :width: 384
+
+.. |audio_img| image:: /Media/Pi/A72/CS10600RA4070/Headphone_V2.jpg
+                  :align: middle
+                  :width: 384
+
+.. |usb_a_img| image:: /Media/Pi/A53/Others/CM3-70-USB.jpeg
+                   :align: middle
+                   :width: 384
+
+.. |usb_c_img| image:: /Media/Pi/A72/CS10600RA4070/OTG_V2.jpg
+                   :align: middle
+                   :width: 384
+                   
+.. |prog_btn_img| image:: /Media/Pi/A72/CS10600RA4070/BootButton_V2.jpg
+                  :align: middle
+                  :width: 192
 
 .. |Front View| image:: /Media/Pi/A72/CS10600RA4070/CS10600RA4070P-Front.jpeg
                   :class: product-img
@@ -78,6 +158,7 @@
 
 .. _EPC/PPC-CM4-070:
 
+
 |product|
 #########
 
@@ -90,7 +171,7 @@
 
 .. include:: Resources/ordering
 
-.. include:: Resources/opt_features_2
+.. include:: Resources/opt_features
 
 .. include:: Resources/HW_features
 
@@ -100,124 +181,19 @@
 
     Chipsee does not install a lithium battery by default, as we cannot ship products with batteries. We recommend you buy it locally and install it by yourself. The lithium battery part number is CR1220. Please |contact|_ if you need help.
 
-.. include:: Resources/power_cs10600ra4070
-
-.. include:: Resources/power
+.. include:: Resources/power_conn
 
 .. include:: Resources/cap_screen
 
-Connectivity
-============
+.. include:: Resources/connectivity
 
-There are many connectivity options available on the |product| industrial Pi PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to
-1 Gbps, and 4 x UART terminals (RS232/RS485/CAN).
+.. include:: Resources/CS10600RA4070/connectivity_table
 
-RS232/RS485/CAN
----------------
+.. include:: Resources/gpio
 
-The serial communication interfaces (RS485, RS482, and CAN) are routed to a **16-pin 3.81mm terminal**, as illustrated on the figure below.
+.. include:: Resources/CS10600RA4070/gpio_table
 
-.. figure:: /Media/Pi/A72/CS10600RA4070/CM4-7-IO-Peripherals.jpg
-   :align: center
-   :figclass: align-center
-
-   *Relation between serial pins on embedded vs. enclosed version of the* |product| *Industrial PC*
-
-The table below offers more detailed description of every pin and its definition:
-
-.. table:: Connectivity Section
-   :align: center
-   :width: 100%
-   :class: align-center
-   :widths: auto
-
-   +---------------------------------------------------------------------------------------------------------------+
-   | **RS232 / RS485 / CAN Pin Definition:**                                                                       |
-   +================+===============================+==============================================================+
-   | **Pin Number** | **Definition**                | **Description**                                              |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 16         | CAN_H                         | CAN BUS "H" signal                                           |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 15         | CAN_L                         | CAN BUS "L" signal                                           |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 14         | RS485_5-                      | CPU UART5, RS485 –(B) signal                                 |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 13         | RS485_5+                      | CPU UART5, RS485 +(A) signal                                 |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 12         | RS232_5_RXD                   | CPU UART5, RS232 RXD signal                                  |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 11         | RS232_5_TXD                   | CPU UART5, RS232 TXD signal                                  |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 10         | RS485_3-                      | CPU UART3, RS485 –(B) signal                                 |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 9          | RS485_3+                      | CPU UART3, RS485 +(A) signal                                 |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 8          | RS232_3_RXD                   | CPU UART3, RS232 RXD signal                                  |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 7          | RS232_3_TXD                   | CPU UART3, RS232 TXD signal                                  |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 6          | RS232_2_RXD                   | CPU UART2, RS232 RXD signal                                  |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 5          | RS232_2_TXD                   | CPU UART2, RS232 TXD signal                                  |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 4          | RS232_0_RXD                   | CPU UART0, RS232 RXD signal                                  |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 3          | RS232_0_TXD                   | CPU UART0, RS232 TXD signal                                  |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 2          | GND                           | System Ground                                                |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 1          | +5V                           | System +5V Power Output, No more than 1A Current output      |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-
-.. attention::
-
-    #) RS485_3 and RS232_3 share the same channel UART3, so they cannot be used at the same time.
-    #) RS485_5 and RS232_5 share the same channel UART5, so they cannot be used at the same time.
-    #) RS485_3 and RS485_5 can control the input and output direction automatically. There’s no need to control it from within the software.
-    #) The 120Ω match resistor for the RS232 and CAN bus is NOT mounted by default.
-
-.. include:: Resources/GP_IO
-
-.. Figure:: /Media/Pi/A72/Others/GP_IO_2.jpeg
-  :align: center
-  :figclass: align-center
-
-  *Isolated GPIO reduced schematic*
-
-.. attention::
-
-    #) In order to use the Isolated Output, you need to add an external Isolated Power to the VDD_ISO and GND_ISO. The power voltage should not exceed 24V.
-    #) The output current can achieve 500mA for every channel, but it also depends on the Isolated power that is connected.
-    #) In order to use the Isolated Input, you need to add a signal to the ISO_InputX and GND_ISO. A 2.4KΩ resistor, as R6, can be added to limit the input current, as shown in the figure above. This resistor should work well for the 5-24V input signal. If your input signal is less than 5V, please change this input resistor.
-
-USB Connectors
---------------
-
-There are 2 x Type A **USB HOST connectors** onboard, as shown on the figure below.
-
-.. Figure:: /Media/Pi/A53/Others/CM3-70-USB.jpeg
-  :align: center
-  :figclass: align-center
-
-  *USB HOST Connectors (embedded/enclosed PC version)*
-
-.. attention::
-
-    #) These two USB hosts come from the same USB HUB. The Zigbee and 4G/LTE signals come from the same USB HUB.
-    #) These two USB host connectors can drive 500mA for each channel at most.
-    #) When you connect this product to the HOST PC by a mini USB cable, the USB HUB will be disabled. As a result, the 2 USB host connectors, Zigbee, and 4G/LTE will not work.
-
-The product has one USB OTG connector that works as a slave by default. You can use it to establish a connection with the host PC and for downloading the system to the eMMC of CM4 module.
-
-.. Figure:: /Media/Pi/A72/CS10600RA4070/OTG_V2.jpg
-  :align: center
-  :figclass: align-center
-
-  *USB OTG Connector*
-
-.. warning::
-
-  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded Industrial PC version.
+.. include:: Resources/USB
 
 .. include:: Resources/LAN
 
@@ -227,33 +203,28 @@ The product has one USB OTG connector that works as a slave by default. You can 
 
 .. include:: Resources/Zigbee
 
-.. include:: Resources/Camera
+.. include:: Resources/camera_050_070
 
-.. include:: Resources/TF_Card
+.. include:: Resources/TF
 
-.. include:: Resources/Audio_IO_cs10600ra4070_v2
+.. include:: Resources/audio_io
 
-.. include:: Resources/Boot_SW_cs10600ra4070_v2
+.. include:: Resources/prog_btn
 
-.. include:: Resources/mounting
+.. include:: Resources/CS10600RA4070/mounting
 
-Mechanical Specifications
-=========================
+.. include:: Resources/mechanical
 
 |productE|
 ----------
+For |productE|, the outer mechanical dimensions are |dimE| (W x L x H). 
 
-The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
-product measurements.
+Please refer to the technical drawing in the figure below for details related to the specific product measurements.
 
 .. figure:: /Media/Pi/A72/CS10600RA4070/CS10600RA4070E-TD.jpeg
    :align: center
    :figclass: align-center
 
    |productE| *Technical Drawing*
-
-|productP|
-----------
-For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
 
 .. include:: /PCs/Shared/support
