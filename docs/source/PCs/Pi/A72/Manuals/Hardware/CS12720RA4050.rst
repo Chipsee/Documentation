@@ -32,6 +32,8 @@
 
 .. |tscreen| replace:: 5-point capacitive touch
 
+.. |cap_screen_conn| replace:: FPC connector
+
 .. |USB| replace:: 2 x USB 2.0 Host, 1 x Type-C
 
 .. |LAN| replace:: 1 x Channel Giga LAN
@@ -58,6 +60,14 @@
 
 .. |product_link| replace:: EPC/PPC-CM4-050
 
+.. |wifi_img| image:: /Media/Pi/A53/Others/Antenna.jpeg
+                  :align: middle
+                  :width: 384
+
+.. |ts_con_img| image:: /Media/Pi/A53/Others/TS_CON.jpeg
+                  :align: middle
+                  :width: 384 
+                  
 .. |Front View| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.jpeg
                   :class: product-img
 
@@ -82,23 +92,23 @@
 
 .. include:: /PCs/Shared/four_main_images
 
-.. include:: Resources/overview
+.. include:: Legacy_Resources/CS12720RA4050/overview
 
-.. include:: Resources/ordering
+.. include:: Legacy_Resources/CS12720RA4050/ordering
 
-.. include:: Resources/HW_features
+.. include:: Legacy_Resources/CS12720RA4050/HW_features
 
-.. include:: Resources/table_cs12720ra4050
+.. include:: Legacy_Resources/CS12720RA4050/table_cs12720ra4050
 
 .. attention::
 
     Chipsee does not install a lithium battery by default, as we cannot ship products with batteries. We recommend you buy it locally and install it by yourself. The lithium battery part number is CR1220. Please |contact|_ if you need help.
 
-.. include:: Resources/power_cs12720ra4050
+.. include:: Legacy_Resources/CS12720RA4050/power_cs12720ra4050
 
-.. include:: Resources/power
+.. include:: Legacy_Resources/CS12720RA4050/power
 
-.. include:: Resources/cap_screen
+.. include:: Legacy_Resources/CS12720RA4050/cap_screen
 
 Connectivity
 ============
@@ -189,11 +199,11 @@ The product has one USB Type-C connector that works as a slave by default. You c
 
   Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded Industrial PC version.
 
-.. include:: Resources/LAN
+.. include:: Legacy_Resources/CS12720RA4050/LAN
 
-.. include:: Resources/WiFi
+.. include:: Legacy_Resources/CS12720RA4050/WiFi
 
-.. include:: Resources/Camera
+.. include:: Legacy_Resources/CS12720RA4050/Camera
 
 TF Card Slot
 ============

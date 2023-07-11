@@ -1,5 +1,7 @@
 .. include:: /PCs/Shared/pdf_options
 
+.. include:: Resources/CS12800RA4101/base_replaces_cs12800ra4101
+
 .. |product| replace:: PPC-CM4-150
 
 .. |productE| replace:: CS10768RA4150E
@@ -8,19 +10,11 @@
 
 .. |PN| replace:: PN: CS10768RA4150
 
-.. |Product| replace:: The |product| industrial Pi PC
-
-.. |TFNum| replace:: 1
-
-.. |tf_des| replace:: This TF card is designed for storage expansion, as the TF card uses the same pins with WiFi, it can't be used with WiFi at the same time
-
 .. |dispsize| replace:: 15"
 
 .. |res| replace:: 1024 x 768
 
 .. |bright| replace:: 400 |cd|
-
-.. |disp_des| replace:: |dispsize| Ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |dimE| replace:: NULL
 
@@ -30,29 +24,16 @@
 
 .. |weightP| replace:: 4500g
 
-.. |tscreen| replace:: 10-point capacitive touch
-
-.. |USB| replace:: 2 x USB 3.0 Host, 1 x USB OTG
-
-.. |LAN| replace:: 1 x Channel Giga LAN
-
-.. |GPIO| replace:: 8 Channels, 4 Input, 4 Output
-
-.. |hdmi_des| replace:: Not Supported
-
-.. |sata_des| replace:: Not Supported
-
-.. |opt1| replace:: Supported, not mounted by default
-
-.. |opt2| replace:: Supported but depending on the CM4 selected
-
-.. |vin_rng| replace:: From 12V to 36V
-
 .. |cur| replace:: 1400mA Max
 
 .. |pwr| replace:: 17W Typical
 
 .. |temp| replace:: From 0°C to +80°C
+
+.. |dim_desc| replace:: |productP|: |dimP|
+
+.. |weight_desc| replace:: |productP|: |weightP|
+
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-150/
 
@@ -74,8 +55,11 @@
                   :align: middle
                   :width: 768
 
-
-.. |usb_3_img| image:: /Media/Pi/A72/CS19108RA4133/USBbig.jpg
+.. |ts_con_img| image:: /Media/Pi/A72/CS19108RA4133/USB_Touch.jpg
+                  :align: middle
+                  :width: 384
+                  
+.. |usb_a_img| image:: /Media/Pi/A72/CS19108RA4133/USBbig.jpg
                    :align: middle
                    :width: 192
 
@@ -92,7 +76,7 @@
                   :align: middle
                   :width: 96
 
-.. |boot_dip_img| image:: /Media/Pi/A72/CS19108RA4133/BootButtonbig.jpg
+.. |prog_btn_img| image:: /Media/Pi/A72/CS19108RA4133/BootButtonbig.jpg
                   :align: middle
                   :width: 192
 
@@ -100,6 +84,18 @@
                   :align: middle
                   :width: 960
 
+.. |wifi_img| image:: /Media/Pi/A72/CS19108RA4133/ANT.jpg
+                  :align: middle
+                  :width: 384
+
+.. |zigbee_img| image:: /Media/Pi/A72/CS19108RA4133/ANT.jpg
+                  :align: middle
+                  :width: 384
+
+.. |lan_img| image:: /Media/Pi/A72/CS19108RA4133/LANbig.jpg
+                  :align: middle
+                  :width: 384
+                  
 .. |Front View| image:: /Media/Pi/A72/CS10768RA4150/PPC-CM4-150-Front.jpg
                   :class: product-img
 
@@ -112,6 +108,7 @@
 .. |Side View 2| image:: /Media/Pi/A72/CS10768RA4150/PPC-CM4-150-C-Side2.jpg
                   :class: product-img
                                     
+                                    
 .. _PPC-CM4-150:
 
 |product|
@@ -120,46 +117,8 @@
 .. rubric:: *Version 1.1*
     :class: html-only
 
-.. include:: /PCs/Shared/four_main_images
+.. include:: Resources/CS12800RA4101/base_includes_cs12800ra4101
 
-.. include:: Resources/overview
-
-.. include:: Resources/ordering
-
-.. include:: Resources/opt_features_2
-
-.. include:: Resources/HW_features
-
-.. include:: Resources/CS12800RA4101/table_cs12800ra4101
-
-.. include:: Resources/CS12800RA4101/power_cs12800ra4101
-
-.. include:: Resources/power
-
-.. include:: Resources/cap_screen_usb
-
-.. include:: Resources/CS12800RA4101/connectivity_cs12800ra4101
-
-.. include:: Resources/CS12800RA4101/gpio_cs12800ra4101
-
-.. include:: Resources/CS12800RA4101/usb_cs12800ra4101
-
-.. include:: Resources/LAN_cs19108ra4133
-
-.. include:: Resources/WiFi_cs19108ra4133
-
-.. include:: Resources/4G_com
-
-.. include:: Resources/Zigbee_cs19108ra4133
-
-.. include:: Resources/CS12800RA4101/tf_cs12800ra4101
-
-.. include:: Resources/CS12800RA4101/audio_cs12800ra4101
-
-.. include:: Resources/CS12800RA4101/boot_dip_cs12800ra4101
-
-.. include:: Resources/mounting_cs19108ra4133
-
-.. include:: Resources/CS12800RA4101/mechanical_cs12800ra4101
+.. include:: Resources/mechanical
 
 .. include:: /PCs/Shared/support

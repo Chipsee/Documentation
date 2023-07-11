@@ -1,0 +1,18 @@
+:pagebreak:`True`
+
+TF Card Slot
+============
+
+|Product| features |TFnum| x **TF Card (micro SD) slot**. A slot can address up to 128GB of memory.
+
+.. rst-class:: text-center
+
+    |tf_img|
+
+    *TF (micro SD) Card Slot*
+
+.. attention::
+
+  #) |TF_boot|
+  #) The product does not come shipped with the TF card by default.
+  #) This storage extension SD uses the same pins as WiFi on CM4, SD storage and WiFi **can't** be used at the same time.

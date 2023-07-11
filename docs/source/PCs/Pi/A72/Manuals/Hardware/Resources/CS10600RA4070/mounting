@@ -1,3 +1,5 @@
+:pagebreak:`True`
+
 Mounting Procedure 
 ==================
 
@@ -5,7 +7,7 @@ Mounting Procedure
 
 |productE|
 ----------
-You can mount |productE| with the Embedded mounting method, as shown on the figure below.
+You can mount |productE| with the Embedded mounting method, as shown in the figure below.
 
 .. Figure:: /Media/Pi/A53/Others/mountE.jpeg
   :align: center
