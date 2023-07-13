@@ -77,21 +77,21 @@
 
 .. include:: /PCs/Shared/four_main_images
 
-.. include:: Resources/overview
+.. include:: Legacy_Resources/101/overview
 
-.. include:: Resources/ordering
+.. include:: Legacy_Resources/101/ordering
 
-.. include:: Resources/opt_features_2
+.. include:: Legacy_Resources/101/opt_features_2
 
-.. include:: Resources/HW_features
+.. include:: Legacy_Resources/101/HW_features
 
-.. include:: Resources/table
+.. include:: Legacy_Resources/101/table
 
-.. include:: Resources/power
+.. include:: Legacy_Resources/101/power
 
-.. include:: Resources/cap_screen
+.. include:: Legacy_Resources/101/cap_screen
 
-.. include:: Resources/connectivity
+.. include:: Legacy_Resources/101/connectivity
 
 USB Connectors
 --------------
@@ -120,21 +120,21 @@ There are 4 x **USB HOST connectors** onboard which includes 1 x USB 2.0 HOST, 1
 
   Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
 
-.. include:: Resources/LAN
+.. include:: Legacy_Resources/101/LAN
 
-.. include:: Resources/WiFi_BT
+.. include:: Legacy_Resources/101/WiFi_BT
 
-.. include:: Resources/4G_com
+.. include:: Legacy_Resources/101/4G_com
 
-.. include:: Resources/expansion_IO
+.. include:: Legacy_Resources/101/expansion_IO
 
-.. include:: Resources/TF_Card
+.. include:: Legacy_Resources/101/TF_Card
 
-.. include:: Resources/Audio_IO
+.. include:: Legacy_Resources/101/Audio_IO
 
-.. include:: Resources/HDMI
+.. include:: Legacy_Resources/101/HDMI
 
-.. include:: Resources/power_btn
+.. include:: Legacy_Resources/101/power_btn
 
 Mounting Procedure
 ==================
