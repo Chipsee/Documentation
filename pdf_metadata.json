@@ -684,6 +684,13 @@
             "pdf-type": "ipc",
             "pdf-revision": "1.1"
         },
+        "PCs/Pi/A72/Manuals/Hardware/CS10600RA4070P-D": {
+            "pdf-title": "PPC-CM4-070-D",
+            "pdf-subtitle": "PN: CS10600RA4070P-D",
+            "pdf-filename": "PPC-CM4-070-D",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
+        },
         "PCs/Pi/A72/Manuals/Hardware/CS10768RA4121": {
             "pdf-title": "PPC-CM4-121",
             "pdf-subtitle": "PN: CS10768RA4121",

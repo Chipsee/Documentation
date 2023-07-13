@@ -14,6 +14,8 @@
 
 .. |TF_boot| replace:: The **SD0** is used only for the Lite version of Compute Module 4 that has no internal eMMC. If you use CM4 with eMMC, this SD0 will be **disabled**. The **SD1** is used for storage extension, it **can’t** be used for system boot-up.
 
+.. |TF_storage| replace:: This storage extension SD uses the same pins as WiFi on CM4. SD storage and WiFi **can't** be used at the same time.
+
 .. |tf_des| replace:: Chipsee designed one of the TF card slots for Lite version which have no eMMC. We designed the other one for storage expansion, as the TF card for storage expansion use same pins with WiFi, it can't be used with WiFi at same time.
 
 .. |usb_hub_conflict| replace:: two USB host connectors, Zigbee and 4G/LTE
@@ -24,7 +26,7 @@
 
 .. |bright| replace:: 500 |cd|
 
-.. |disp_des| replace:: |dispsize| five-point capacitive a touch screen with a resolution of |res| pixels and brightness of |bright|
+.. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |dimE| replace:: 190 x 108 x 28mm
 
@@ -172,6 +174,8 @@
 .. include:: Resources/ordering
 
 .. include:: Resources/opt_features
+
+.. include:: Resources/CS10600RA4070/comparison_4070_4070D
 
 .. include:: Resources/HW_features
 
