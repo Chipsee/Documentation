@@ -40,7 +40,7 @@
 
 .. |cap_screen_conn| replace:: FPC connector
 
-.. |camera_desc| replace:: Yes, not mounted by default. 
+.. |camera_desc| replace:: Yes, not mounted by default. Available on the board in the embedded PC. |br| Requires a customized case to be exposed in an enclosed PC.
 
 .. |camera_not_mount| replace:: The camera connector is supported but not mounted by default. It's available on the PCB but not exposed on the case, please contact us when placing an order if you need to use camera on the |product|.
 
