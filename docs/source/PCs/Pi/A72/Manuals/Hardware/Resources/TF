@@ -14,5 +14,5 @@ TF Card Slot
 .. attention::
 
   #) |TF_boot|
+  #) |TF_storage|
   #) The product does not come shipped with the TF card by default.
-  #) This storage extension SD uses the same pins as WiFi on CM4, SD storage and WiFi **can't** be used at the same time.

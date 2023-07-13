@@ -28,6 +28,8 @@
 
 .. |TF_boot| replace:: The SD is used for memory extension. It can’t be used for system boot-up.
 
+.. |TF_storage| replace:: This storage extension SD uses the same pins as WiFi on CM4. SD storage and WiFi **can't** be used at the same time.
+
 .. |GPIO| replace:: 8 Channels, 4 Input, 4 Output
 
 .. |hdmi_des| replace:: Not Supported

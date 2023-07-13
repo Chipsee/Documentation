@@ -4,20 +4,22 @@ GPIO Port
 |Product| has a |gpio_conn|, as shown in the figure below.
 The table below gives details about the definition of every Pin.
 
-.. rst-class:: text-center
+.. attention::
 
-   |gpio_img|
-
-   *GPIO Connector*
-
+    #) In order to use the Isolated Output, you need to add an external Isolated Power to the VDD_ISO and GND_ISO. The power voltage should not exceed 24V.
+    #) The output current can achieve 500mA for every channel, but it also depends on the isolated power that is connected.
+    #) In order to use the Isolated Input, you need to add a signal to the ISO_InputX and GND_ISO. A 2.4KΩ resistor, as R6, can be added to limit the input current, as shown in the figure above. This resistor should work well for the 5-24V input signal. If your input signal is less than 5V, please change this input resistor.
+    
 .. rst-class:: text-center
 
    |gpio_schema_img|
 
    *Isolated GPIO reduced schematic*
 
-.. attention::
+.. rst-class:: text-center
 
-    #) In order to use the Isolated Output, you need to add an external Isolated Power to the VDD_ISO and GND_ISO. The power voltage should not exceed 24V.
-    #) The output current can achieve 500mA for every channel, but it also depends on the isolated power that is connected.
-    #) In order to use the Isolated Input, you need to add a signal to the ISO_InputX and GND_ISO. A 2.4KΩ resistor, as R6, can be added to limit the input current, as shown in the figure above. This resistor should work well for the 5-24V input signal. If your input signal is less than 5V, please change this input resistor.
+   |gpio_img|
+
+   *GPIO Connector*
+
+
