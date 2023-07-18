@@ -293,50 +293,10 @@ From the terminal, you can use **nmcli** to configure the network. You can refer
            "wlan0"
            wifi (rtl8821cs), B4:6D:C2:13:A3:AE, hw, mtu 1500
 
-Serial Port
------------
+Serial Port RS232 and RS485
+---------------------------
 
-The |chip| based |ipc| supports RS232 and RS485, here are the mapping from the port name to the system tree device:
-
-.. table:: 5, 10.1, 13.3 and 15.0 inch products (CS12720-RK3568-050P, CS12800-RK3568-101P, CS19108-RK3568-133P, CS10768-RK3568-150P)
-   :align: center
-   :width: 100%
-   :widths: auto
-
-   +---------+--------------+---------------------+
-   | Name    | Node         | Protocol            |
-   +=========+==============+=====================+
-   | RS232_0 | /dev/ttyS0   | RS232               |
-   +---------+--------------+---------------------+
-   | RS232_2 | /dev/ttyFIQ0 | RS232, Serial Debug |
-   +---------+--------------+---------------------+
-   | RS485_3 | /dev/ttyS3   | RS485               |
-   +---------+--------------+---------------------+
-   | RS485_4 | /dev/ttyS4   | RS485               |
-   +---------+--------------+---------------------+
-
-
-.. table:: 7 inch product (CS10600-RK3568-070P)
-   :align: center
-   :width: 100%
-   :widths: auto
-
-   +---------+--------------+---------------------+
-   | Name    | Node         | Protocol            |
-   +=========+==============+=====================+
-   | RS232_0 | /dev/ttyS0   | RS232               |
-   +---------+--------------+---------------------+
-   | RS232_2 | /dev/ttyFIQ0 | RS232, Serial Debug |
-   +---------+--------------+---------------------+
-   | RS485_3 | /dev/ttyS3   | RS485               |
-   +---------+--------------+---------------------+
-   | RS485_4 | /dev/ttyS4   | RS485               |
-   +---------+--------------+---------------------+
-   | RS485_5 | /dev/ttyS5   | RS485               |
-   +---------+--------------+---------------------+
-
-
-The 120 Ohm match resistor is already mounted on the RS485 port. RS485 ports are half-duplex, the hardware can switch the Tx/Rx direction automatically. RS232 ports are full-duplex.
+.. include:: Resources/Shared/serial_port_table
 
 You can install **cutecom** to test the serial port:
 
@@ -361,30 +321,7 @@ GPIO
 
 There are 8 GPIOs, 4 Output, and 4 Input, they are all isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V. Refer to the tables below for a detailed port definition:
 
-.. table:: GPIO Device Node
-   :align: center
-   :width: 100%
-   :widths: auto
-
-   +----------+--------------------+
-   | Function | Device Node        |
-   +==========+====================+
-   | IN1      | /dev/chipsee-gpio5 |
-   +----------+--------------------+
-   | IN2      | /dev/chipsee-gpio6 |
-   +----------+--------------------+
-   | IN3      | /dev/chipsee-gpio7 |
-   +----------+--------------------+
-   | IN4      | /dev/chipsee-gpio8 |
-   +----------+--------------------+
-   | OUT1     | /dev/chipsee-gpio1 |
-   +----------+--------------------+
-   | OUT2     | /dev/chipsee-gpio2 |
-   +----------+--------------------+
-   | OUT3     | /dev/chipsee-gpio3 |
-   +----------+--------------------+
-   | OUT4     | /dev/chipsee-gpio4 |
-   +----------+--------------------+
+.. include:: Resources/Shared/gpio_table
 
 * Set `OUT1` to high or low
     .. code:: bash

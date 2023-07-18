@@ -1,0 +1,24 @@
+.. table:: GPIO Device Node
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +----------+--------------------+
+   | Function | Device Node        |
+   +==========+====================+
+   | IN1      | /dev/chipsee-gpio5 |
+   +----------+--------------------+
+   | IN2      | /dev/chipsee-gpio6 |
+   +----------+--------------------+
+   | IN3      | /dev/chipsee-gpio7 |
+   +----------+--------------------+
+   | IN4      | /dev/chipsee-gpio8 |
+   +----------+--------------------+
+   | OUT1     | /dev/chipsee-gpio1 |
+   +----------+--------------------+
+   | OUT2     | /dev/chipsee-gpio2 |
+   +----------+--------------------+
+   | OUT3     | /dev/chipsee-gpio3 |
+   +----------+--------------------+
+   | OUT4     | /dev/chipsee-gpio4 |
+   +----------+--------------------+
