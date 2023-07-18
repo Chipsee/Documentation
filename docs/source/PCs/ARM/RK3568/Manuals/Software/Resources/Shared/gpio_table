@@ -1,3 +1,6 @@
+There are 8 GPIOs, 4 Output, and 4 Input, they are all isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V. Refer to the tables below for a detailed port definition:
+
+
 .. table:: GPIO Device Node
    :align: center
    :width: 100%
@@ -22,3 +25,15 @@
    +----------+--------------------+
    | OUT4     | /dev/chipsee-gpio4 |
    +----------+--------------------+
+
+* Set `OUT1` to high or low
+    .. code:: bash
+
+        $ echo 1 > /dev/chipsee-gpio1    # set OUT1 to high
+
+        $ echo 0 > /dev/chipsee-gpio1    # set OUT1 to low
+
+* Get `IN1` value
+    .. code:: bash
+
+        $ cat /dev/chipsee-gpio5    # value 1 indicates high, value 0 indicates low   

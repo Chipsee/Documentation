@@ -1,0 +1,7 @@
+The |ipc| has one buzzer. We have created one symbol link to `/dev/buzzer`. You can control it as follows:
+
+.. code:: bash
+
+    $ echo 1 > /dev/buzzer    # enable buzzer
+
+    $ echo 0 > /dev/buzzer    # disable buzzer

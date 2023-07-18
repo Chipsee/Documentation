@@ -1,0 +1,18 @@
+Supported Chipsee PCs: all Chipsee RK3568 based industrial PCs, including but not limited to:
+
+* CS12720-RK3568-050P
+* CS10600-RK3568-070P
+* CS12800-RK3568-101P 
+* CS19108-RK3568-133P 
+* CS10768-RK3568-150P 
+* CS19108-RK3568-156P 
+* CS12800-RK3568-215P 
+* CS19108-RK3568-236P
+   
+When you develop software for the |ipc|, you can open the hardware document beside this software document, to aid you in wiring your devices.
+
+In this document, main topics are:
+
+* How to connect to the hardware from your workstation.
+* How to use the hardware resources such as RS232, RS485 and GPIO, etc.
+* How to install a new operating system.

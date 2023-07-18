@@ -1,0 +1,47 @@
+Video Tutorial for Flashing OS
+------------------------------
+
+Here is a video tutorial we made demonstrating the OS installation process described above in Windows in the **LOADER** mode:
+
+.. raw:: html
+
+   <div class="card text-center"><iframe src="https://www.youtube.com/embed/ufKDCJ1hpf4" style="height:50vh;width:100%" title="Flash RK3568 OS in Windows" frameborder="0" allowfullscreen></iframe></div>  
+
+The approach in the video above works best for devices that are still able to boot into the desktop, and when your workstation is a Windows machine. However, if you do not have a Windows machine in the room, you can use the approach below to flash an OS, in a Linux or Mac.
+
+
+Apart from flashing in **LOADER** mode, when you're working on a Linux(X86_64) workstation or MacOS(Intel and Apple Silicon) machine, you can use another approach: **MASKROM** mode, to flash the OS. There is a PROG button on the |ipc|, you can press the button before powering up the device, power up and hold the PROG button for 2~4 seconds, then use a X86_64/darwin_64 *upgrade_tool* program in the command line to flash the OS, here is a video we made to teach you how to do that in two minutes:
+
+.. raw:: html
+
+   <div class="card text-center"><iframe src="https://www.youtube.com/embed/TDIHoQ9AuX4" style="height:50vh;width:100%" title="Flash RK3568 OS in MASKROM in Any OS" frameborder="0" allowfullscreen></iframe></div> 
+
+The approach described in the second video works best for devices that are "bricked" (compared to the first approach), it can help rescue your device if your operating system is broken and cannot boot into the desktop. Even if your device is still functional, you can also use this approach to flash an OS, it works in Windows, Linux as well as MacOS.
+
+The command used in the videos are:
+
+For **Linux** workstation:
+
+.. code:: bash
+
+  sudo ./upgrade_tool_linux_x86-64 ld # to list device
+  sudo ./upgrade_tool_linux_x86-64 uf ./prebuilt-rk3568-xxx.img # to upload firmware
+
+For **MacOS**:
+
+.. code:: bash
+
+  ./upgrade_tool_darwin64 ld # to list device
+  ./upgrade_tool_darwin64 uf ./prebuilt-rk3568-xxx.img # to upload firmware
+
+And that's all it takes.
+
+The **upgrade_tool** used in the video can be download at:
+
+#. :download:`upgrade_tool_x86-64 (For Linux x86) <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3568/Tools/upgrade_tool_x86-64>`
+
+#. :download:`upgrade_tool_darwin64 (For MacOS Intel & Apple Silicon) <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3568/Tools/upgrade_tool_darwin64>`
+
+We've tested that the MacOS upgrade_tool can execute in M1/Apple Silicon Macs, but you will need to install Rosetta to run this program. For Intel Macs, you do not need Rosetta, you can execute the binary program directly in your terminal.
+
+Also, as noted in the video, do use a **absolute path** to the firmware file or **"./prebuilt-rk3568-xxx.img"**, rather than a relative path (e.g. your current directory contains the img file, and you directly use "upgrad_tool uf prebuilt-rk3568-xxx.img", this will not work). And make sure to use *sudo* in Linux.

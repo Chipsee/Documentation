@@ -20,6 +20,8 @@
 
 This is the software manual for |chip| Chipsee industrial PC. If you've never developed on this hardware with a |systemType| OS, this manual can get you started quickly.
 
+.. include:: Resources/Shared/overview
+
 System Information
 ==================
 
@@ -319,33 +321,13 @@ If you're an experienced engineer, you can also use a programming language to te
 GPIO
 ----
 
-There are 8 GPIOs, 4 Output, and 4 Input, they are all isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V. Refer to the tables below for a detailed port definition:
-
 .. include:: Resources/Shared/gpio_table
-
-* Set `OUT1` to high or low
-    .. code:: bash
-
-        $ echo 1 > /dev/chipsee-gpio1    # set OUT1 to high
-
-        $ echo 0 > /dev/chipsee-gpio1    # set OUT1 to low
-
-* Get `IN1` value
-    .. code:: bash
-
-        $ cat /dev/chipsee-gpio5    # value 1 indicates high, value 0 indicates low
-
 
 BUZZER
 ------
 
-The |ipc| has one buzzer. We have created one symbol link to `/dev/buzzer`. You can control it as follows:
+.. include:: Resources/Shared/buzzer
 
-.. code:: bash
-
-    $ echo 1 > /dev/buzzer    # enable buzzer
-
-    $ echo 0 > /dev/buzzer    # disable buzzer
 
 Backlight
 ---------
@@ -425,5 +407,7 @@ Flashing OS Image
 .. include:: Resources/Download_Required_Tools_And_Image
 
 .. include:: Resources/Flash_OS
+
+.. include:: Resources/Flash_OS_Video
 
 .. include:: /PCs/Shared/support
