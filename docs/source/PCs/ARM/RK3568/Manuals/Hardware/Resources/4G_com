@@ -2,7 +2,7 @@
 -------------
 
 |Product| is equipped with a **mini-PCIe connector** that can connect a 4G/LTE module.
-The customer will also need a SIM Card Holder and a 4G/LTE Antenna Connector to ensure 4G/LTE works on the |product|.
+The customer will also need a SIM Card Holder and a 4G/LTE Antenna Connector to ensure 4G/LTE works on the |product|. SIM card does **NOT** support hot plug. **Power off** before inserting or removing SIM card.
 
 .. figure:: /Media/ARM/A55/Others/4G_module.jpeg
    :align: center
@@ -16,6 +16,12 @@ The customer will also need a SIM Card Holder and a 4G/LTE Antenna Connector to 
 
    *SIM Card Holder & 4G Antenna*
 
+
+.. rst-class:: text-center
+
+   |sim_img|
+
+   *SIM Card Direction*
 
 .. attention::
 
