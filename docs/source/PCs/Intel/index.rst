@@ -18,6 +18,14 @@ the repository much easier.
     
    J1900 HW Documentation <J1900/Manuals/Hardware/index>
 
+.. rubric:: Products by platform: |Celeron| J6412
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+    
+   J6412 HW Documentation <J6412/Manuals/Hardware/index>   
+
 .. rubric:: Products by platform: |Core| i5, i7 and |Celeron| 3865
 
 .. toctree::

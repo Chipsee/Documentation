@@ -1,0 +1,17 @@
+LAN Connectors
+---------------
+
+2 x **LAN (RJ45) connectors** provide Ethernet connectivity over standardized Ethernet cables. The integrated two-port Ethernet interface supports 
+10/100/1000BASE-T/TX specifications with automatic speed negotiation and Wake on LAN (WoL) feature. Power over Ethernet (PoE) is not supported. 
+
+.. rst-class:: text-center
+
+   .. image:: /Media/Intel/J6412/Shared/LAN.jpg
+      :align: center
+      :width: 576
+
+   *2 x RJ45 GbE LAN Connectors*
+
+.. note::
+  
+   Use CAT5 or better cables to achieve full data throughput over maximum distance defined by the 1000BASE-T standard (100m).

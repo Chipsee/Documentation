@@ -1,0 +1,25 @@
+Product Overview
+=================
+
+The PPC-J6412 series |product| is a rugged, high-quality NEMA 4X/IP65-compliant industrial panel PC. It features a |disp_des|.
+
+.. sidebar:: Key Applications
+   
+  + Human Machine Interface（HMI）
+  + Industrial Automation
+  + Process Control
+  + Smart Grid Management
+  + CNC Manufacturing
+  + Environmental Monitoring
+  + Machine Vision Inspection
+  + ATM, Kiosk, Infotainment...
+
+|Product| is powered by |Intel| |Celeron| J6412 quad-core CPU and equipped with a broad range of connectivity options, allowing it to meet highly demanding 
+application requirements in harsh industrial or outdoor environments.
+
+A specially designed magnesium-aluminum alloy housing with fins for increased heat dissipation serves as a passive cooler, eliminating the need for built-in fans. 
+The fan-less design reduces noise, as well as the maintenance costs and efforts, increasing reliability at the same time.
+
+.. caution::
+
+   Be careful when handling the product while it is operating: the back panel might become hot under heavy CPU load.

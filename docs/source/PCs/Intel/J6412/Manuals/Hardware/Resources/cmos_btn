@@ -1,0 +1,12 @@
+CMOS Button
+===========
+
+There is a CMOS button you can use to reset the BIOS settings. While the PC is powered off, detach the power cable, you can press and hold the button for a few seconds to reset the BIOS settings.
+
+.. rst-class:: text-center
+
+   .. image:: /Media/Intel/J6412/Shared/cmos_btn.jpg
+      :align: center
+      :width: 576
+
+   *CMOS Button*
