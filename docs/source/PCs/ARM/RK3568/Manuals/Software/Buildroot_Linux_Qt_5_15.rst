@@ -25,4 +25,6 @@ Flashing OS Image
 
 .. include:: Resources/Flash_OS
 
+.. include:: Resources/Flash_OS_Video
+
 .. include:: Resources/Development_On_Going

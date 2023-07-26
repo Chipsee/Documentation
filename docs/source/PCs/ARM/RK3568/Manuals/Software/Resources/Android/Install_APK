@@ -17,7 +17,7 @@ Let's say we have a copy of Jellyfin-Android apk in our Downloads folder:
 
    *Prepare Your APK File*
 
-Then we can type `adb install path-to-file` to install it to our |ipc|'s Android system. Take care of the relative file path, you can use a absolute path as well.
+Then we can type `adb install path-to-file` to install it to our |ipc|'s Android system. Take care of the relative file path, you can use an absolute path as well.
 
 .. code:: bash
 
@@ -33,7 +33,7 @@ It might take a minute to get one app installed, you should see a **success** in
 
    *Installation Finished After 1 Minute*
 
-You can check the |ipc| from it's screen, and confirm your app is installed successfully:
+You can check the |ipc| from its screen, and confirm your app is installed successfully:
 
 .. rst-class:: text-center
 

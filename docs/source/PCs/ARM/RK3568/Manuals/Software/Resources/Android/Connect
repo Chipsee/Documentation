@@ -17,7 +17,7 @@ If you intend **only** to use serial port RS232 to connect to |ipc|, you can ski
 
 If you want to control or test your |systemType| based |ipc| from your workstation, such as your PC or laptop, one tool is required to be installed on your machine.
 
-Since the |ipc| runs an Android OS, like developing on any other Android devices (phones, tablets, TVs, etc), the tools and knowledge apply to developing on |ipc| as well. We will need a tool called **Android Platform Tools** to be installed on your workstation. You can refer to Google Android's official developer doc to learn how to do that, here is a link to download this tool: https://developer.android.com/tools/releases/platform-tools. If the link is dead when you're reading this document, you can search for *Android Platform Tools* in your favorite search engine to find out where it has gone to. Then download and install the distribution that matches your workstation's platform (MacOS, Linux or Windows).
+Since the |ipc| runs an Android OS, like developing on any other Android devices (phones, tablets, TVs, etc), the tools and knowledge apply to developing on |ipc| as well. We will need a tool called **Android Platform Tools** to be installed on your workstation. You can refer to Google Android's official developer doc to learn how to do that, here is a link to download this tool: https://developer.android.com/tools/releases/platform-tools. If the link is dead when you're reading this document, you can search for *Android Platform Tools* in your favourite search engine to find out where it has gone to. Then download and install the distribution that matches your workstation's platform (MacOS, Linux or Windows).
 
 Instead of Android Platform Tools, you can also get the **Android Studio**, it includes a SDK Manager that helps you download the SDK tools and platforms we'll need. Android Studio is much more powerful and requires more space and time to install. If you only need the command line tool, you're fine with just the Android Platform Tools alone.
 
@@ -200,7 +200,7 @@ Debugging from Wifi is enabled by default. Also, please keep USB debugging enabl
 
 To start debugging wirelessly, make sure your |ipc| and your workstation are connected to the same Wifi network.
 
-We will need your |ipc|'s IP address to start connecting, you can check your |ipc|'s IP address in **Settings - Network & internet - Wi-Fi - your wifi ssid (Network details) - Advanced - IP address**:
+We will need your |ipc|'s IP address to start connecting, you can check your |ipc|'s IP address in **Settings - Network & internet - Wi-Fi - your WiFi ssid (Network details) - Advanced - IP address**:
 
 .. rst-class:: text-center
 
@@ -307,7 +307,7 @@ To exit the shell, you can either hit `Ctrl + D` or type `exit`.
 Common Issues for Connecting
 ----------------------------
 
-You might encounter unexpected behaviors when you're connecting to the |ipc| from your workstation, here are some common issues we've seen.
+You might encounter unexpected behaviours when you're connecting to the |ipc| from your workstation, here are some common issues we've seen.
 
 The prompt says: "adb: more than one device/emulator".
 
@@ -359,7 +359,7 @@ And kill the adb server by:
   
    adb kill-server
 
-You can also shutdown the |ipc| with adb:
+You can also shut down the |ipc| with adb:
 
 .. code:: bash
   
