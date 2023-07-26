@@ -20,6 +20,8 @@
 
 .. |camera_desc| replace:: No
 
+.. |USB_attention| replace:: 1\. These two USB host connectors can drive 500mA for each channel at most.
+
 .. |zigbee_des| replace:: Onboard Zigbee module, not mounted by default 
 
 .. |USB| replace:: 2 x USB 3.0 Host, 1 x USB OTG
@@ -43,4 +45,3 @@
 .. |opt2| replace:: Supported but depending on the CM4 selected
 
 .. |vin_rng| replace:: From 12V to 36V
-

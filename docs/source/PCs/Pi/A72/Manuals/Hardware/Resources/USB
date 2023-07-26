@@ -11,9 +11,7 @@ There are |USB| onboard, as shown in the figure below.
 
 .. attention::
 
-    #) These two USB host connectors can drive 500mA for each channel at most.
-    #) These |usb_hub_conflict| come from the same USB HUB.
-    #) When you connect this product to the HOST PC through the Type-C port, the USB HUB will be disabled. As a result, the |usb_hub_conflict| will not work.
+    |USB_attention|
 
 The product has one USB Type-C OTG connector that works as a slave by default. You can use it to establish a connection with the host PC and for downloading the system to the eMMC of CM4 module.
 
