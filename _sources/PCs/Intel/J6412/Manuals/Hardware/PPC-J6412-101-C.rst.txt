@@ -1,0 +1,91 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: PPC-J6412-101-C
+
+.. |Product| replace:: The |product| Industrial Panel PC 
+
+.. |PN| replace:: PN: |product|
+
+.. |weight| replace:: 1200g
+
+.. |dim| replace:: 253.20 X 171.83 X 36mm
+
+.. |dispsize| replace:: 10.1"
+  
+.. |res| replace:: 1280 x 800
+
+.. |bright| replace:: 350 |cd|
+
+.. |tscreen| replace:: Capacitive Touch Screen
+
+.. |viewing_angle| replace:: (H)160/(V)160
+
+.. |opt_1| replace:: Optional, module available from other manufacturers/stores
+
+.. |opt_2| replace:: Optional, module available from the Chipsee store
+
+.. |pwr| replace:: 16W
+
+.. |disp_des| replace:: |dispsize| resistive touch screen with a resolution of |res| pixels
+
+.. |Front View| image:: /Media/Intel/J6412/PPC-J6412-101-C/PPC-J6412-101-C-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Intel/J6412/PPC-J6412-101-C/PPC-J6412-101-C-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Intel/J6412/PPC-J6412-101-C/PPC-J6412-101-C-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/Intel/J6412/PPC-J6412-101-C/PPC-J6412-101-C-Side2.jpg
+                  :class: product-img
+
+.. _PPC-J6412-101-C:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features_1
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/connectivity
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/HDMI
+
+.. include:: Resources/audio
+
+.. include:: Resources/cmos_btn
+
+.. include:: Resources/mounting
+
+.. include:: Resources/mechspecs
+
+.. rst-class:: text-center
+
+    .. image:: /Media/Intel/J6412/PPC-J6412-101-C/TD.png
+      :align: center
+      :width: 1024
+
+    *Technical Drawing and Cutout Dimensions*
+
+.. include:: /PCs/Shared/support                  

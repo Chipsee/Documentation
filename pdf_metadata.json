@@ -640,6 +640,65 @@
         "PCs/Intel/J1900/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
+        "PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-101-C": {
+            "pdf-title": "PPC-J6412-101-C",
+            "pdf-subtitle": "PN: PPC-J6412-101-C",
+            "pdf-filename": "PPC-J6412-101-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
+        },
+        "PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-104-R": {
+            "pdf-title": "PPC-J6412-104-R",
+            "pdf-subtitle": "PN: PPC-J6412-104-R",
+            "pdf-filename": "PPC-J6412-104-R",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
+        },
+        "PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-121-R": {
+            "pdf-title": "PPC-J6412-121-R",
+            "pdf-subtitle": "PN: PPC-J6412-121-R",
+            "pdf-filename": "PPC-J6412-121-R",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
+        },
+        "PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-150-C": {
+            "pdf-title": "PPC-J6412-150-C",
+            "pdf-subtitle": "PN: PPC-J6412-150-C",
+            "pdf-filename": "PPC-J6412-150-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
+        },
+        "PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-170-R": {
+            "pdf-title": "PPC-J6412-170-R",
+            "pdf-subtitle": "PN: PPC-J6412-170-R",
+            "pdf-filename": "PPC-J6412-170-R",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
+        },
+        "PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-190-R": {
+            "pdf-title": "PPC-J6412-190-R",
+            "pdf-subtitle": "PN: PPC-J6412-190-R",
+            "pdf-filename": "PPC-J6412-190-R",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
+        },
+        "PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-215-C": {
+            "pdf-title": "PPC-J6412-215-C",
+            "pdf-subtitle": "PN: PPC-J6412-215-C",
+            "pdf-filename": "PPC-J6412-215-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
+        },
+        "PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-236-C": {
+            "pdf-title": "PPC-J6412-236-C",
+            "pdf-subtitle": "PN: PPC-J6412-236-C",
+            "pdf-filename": "PPC-J6412-236-C",
+            "pdf-type": "ipc",
+            "pdf-revision": "1.1"
+        },
+        "PCs/Intel/J6412/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
         "PCs/Intel/i5-i7-3865/Manuals/Hardware/CS86-BOX": {
             "pdf-title": "CS86-BOX",
             "pdf-subtitle": "PN: CS86-BOX",
