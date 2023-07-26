@@ -334,6 +334,8 @@
         <li class="md-nav__item"><a href="#download-prebuilt-os-images" class="md-nav__link">Download Prebuilt OS Images</a>
         </li>
         <li class="md-nav__item"><a href="#start-flashing" class="md-nav__link">Start Flashing</a>
+        </li>
+        <li class="md-nav__item"><a href="#video-tutorial-for-flashing-os" class="md-nav__link">Video Tutorial for Flashing OS</a>
         </li></ul>
             </nav>
         </li>
@@ -442,6 +444,8 @@
         <li class="md-nav__item"><a href="#download-prebuilt-os-images" class="md-nav__link">Download Prebuilt OS Images</a>
         </li>
         <li class="md-nav__item"><a href="#start-flashing" class="md-nav__link">Start Flashing</a>
+        </li>
+        <li class="md-nav__item"><a href="#video-tutorial-for-flashing-os" class="md-nav__link">Video Tutorial for Flashing OS</a>
         </li></ul>
             </nav>
         </li>
@@ -517,10 +521,36 @@ The first is <em>DriverAssistant_v5.1.1</em>, the second is <em>RKDevTool_v2.93<
 </ol>
 <a class="mb-4 reference internal image-reference" href="../../../../../_images/Flash_5.png"><img alt="Flash_5" class="mb-4 align-center" src="../../../../../_images/Flash_5.png" style="width: 768px;"/></a>
 </section>
+<section id="video-tutorial-for-flashing-os">
+<h3 id="video-tutorial-for-flashing-os">Video Tutorial for Flashing OS<a class="headerlink" href="#video-tutorial-for-flashing-os" title="Permalink to this heading">¶</a></h3>
+<p>Here is a video tutorial we made demonstrating the OS installation process described above in Windows in the <strong>LOADER</strong> mode:</p>
+<div class="card text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/ufKDCJ1hpf4" style="height:50vh;width:100%" title="Flash RK3568 OS in Windows"></iframe></div><p>The approach in the video above works best for devices that are still able to boot into the desktop, and when your workstation is a Windows machine. However, if you do not have a Windows machine in the room, you can use the approach below to flash an OS, in a Linux or Mac.</p>
+<p>Apart from flashing in <strong>LOADER</strong> mode, when you’re working on a Linux(X86_64) workstation or MacOS(Intel and Apple Silicon) machine, you can use another approach: <strong>MASKROM</strong> mode, to flash the OS. There is a PROG button on the Chipsee industrial PC, you can press the button before powering up the device, power up and hold the PROG button for 2~4 seconds, then use a X86_64/darwin_64 <em>upgrade_tool</em> program in the command line to flash the OS, here is a video we made to teach you how to do that in two minutes:</p>
+<div class="card text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/TDIHoQ9AuX4" style="height:50vh;width:100%" title="Flash RK3568 OS in MASKROM in Any OS"></iframe></div><p>The approach described in the second video works best for devices that are “bricked” (compared to the first approach), it can help rescue your device if your operating system is broken and cannot boot into the desktop. Even if your device is still functional, you can also use this approach to flash an OS, it works in Windows, Linux as well as MacOS.</p>
+<p>The command used in the videos are:</p>
+<p>For <strong>Linux</strong> workstation:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>ld<span class="w"> </span><span class="c1"># to list device</span>
+sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>uf<span class="w"> </span>./prebuilt-rk3568-xxx.img<span class="w"> </span><span class="c1"># to upload firmware</span>
+</pre></div>
+</div>
+<p>For <strong>MacOS</strong>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./upgrade_tool_darwin64<span class="w"> </span>ld<span class="w"> </span><span class="c1"># to list device</span>
+./upgrade_tool_darwin64<span class="w"> </span>uf<span class="w"> </span>./prebuilt-rk3568-xxx.img<span class="w"> </span><span class="c1"># to upload firmware</span>
+</pre></div>
+</div>
+<p>And that’s all it takes.</p>
+<p>The <strong>upgrade_tool</strong> used in the video can be download at:</p>
+<ol class="arabic simple">
+<li><p><a class="reference download external" download="" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3568/Tools/upgrade_tool_x86-64"><code class="xref download docutils literal notranslate"><span class="pre">upgrade_tool_x86-64</span> <span class="pre">(For</span> <span class="pre">Linux</span> <span class="pre">x86)</span></code></a></p></li>
+<li><p><a class="reference download external" download="" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3568/Tools/upgrade_tool_darwin64"><code class="xref download docutils literal notranslate"><span class="pre">upgrade_tool_darwin64</span> <span class="pre">(For</span> <span class="pre">MacOS</span> <span class="pre">Intel</span> <span class="pre">&amp;</span> <span class="pre">Apple</span> <span class="pre">Silicon)</span></code></a></p></li>
+</ol>
+<p>We’ve tested that the MacOS upgrade_tool can execute in M1/Apple Silicon Macs, but you will need to install Rosetta to run this program. For Intel Macs, you do not need Rosetta, you can execute the binary program directly in your terminal.</p>
+<p>Also, as noted in the video, do use a <strong>absolute path</strong> to the firmware file or <strong>“./prebuilt-rk3568-xxx.img”</strong>, rather than a relative path (e.g. your current directory contains the img file, and you directly use “upgrad_tool uf prebuilt-rk3568-xxx.img”, this will not work). And make sure to use <em>sudo</em> in Linux.</p>
+</section>
 </section>
 <section id="notice">
 <h2 id="notice">Notice<a class="headerlink" href="#notice" title="Permalink to this heading">¶</a></h2>
-<p class="fs-5 fst-italic">(This Buildroot Linux Qt 5.15 OS User Manual is under active development as of June 16th, 2023)</p>
+<p class="fs-5 fst-italic">(This Buildroot Linux Qt 5.15 OS User Manual is under active development as of July 20th, 2023)</p>
 </section>
 </section>
 

@@ -50,6 +50,8 @@
 
 .. |camera_not_mount| replace:: The camera connector is supported but not mounted by default. It's available on the PCB but not exposed on the case, please contact us when placing an order if you need to use camera on the |product|.
 
+.. |USB_attention| replace:: 1\. These two USB host connectors can drive 500mA for each channel at most.
+
 .. |zigbee_des| replace:: Onboard Zigbee module, not mounted by default 
 
 .. |USB| replace:: 2 x USB 3.0 Host, 1 x USB Type-C OTG

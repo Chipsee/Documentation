@@ -337,7 +337,7 @@
               <ul class="md-nav__list">
         <li class="md-nav__item"><a href="#network" class="md-nav__link">Network</a>
         </li>
-        <li class="md-nav__item"><a href="#serial-port" class="md-nav__link">Serial Port</a>
+        <li class="md-nav__item"><a href="#serial-port-rs232-and-rs485" class="md-nav__link">Serial Port RS232 and RS485</a>
         </li>
         <li class="md-nav__item"><a href="#gpio" class="md-nav__link">GPIO</a>
         </li>
@@ -356,6 +356,8 @@
         <li class="md-nav__item"><a href="#download-prebuilt-os-images" class="md-nav__link">Download Prebuilt OS Images</a>
         </li>
         <li class="md-nav__item"><a href="#start-flashing" class="md-nav__link">Start Flashing</a>
+        </li>
+        <li class="md-nav__item"><a href="#video-tutorial-for-flashing-os" class="md-nav__link">Video Tutorial for Flashing OS</a>
         </li></ul>
             </nav>
         </li>
@@ -497,7 +499,7 @@
               <ul class="md-nav__list">
         <li class="md-nav__item"><a href="#network" class="md-nav__link">Network</a>
         </li>
-        <li class="md-nav__item"><a href="#serial-port" class="md-nav__link">Serial Port</a>
+        <li class="md-nav__item"><a href="#serial-port-rs232-and-rs485" class="md-nav__link">Serial Port RS232 and RS485</a>
         </li>
         <li class="md-nav__item"><a href="#gpio" class="md-nav__link">GPIO</a>
         </li>
@@ -516,6 +518,8 @@
         <li class="md-nav__item"><a href="#download-prebuilt-os-images" class="md-nav__link">Download Prebuilt OS Images</a>
         </li>
         <li class="md-nav__item"><a href="#start-flashing" class="md-nav__link">Start Flashing</a>
+        </li>
+        <li class="md-nav__item"><a href="#video-tutorial-for-flashing-os" class="md-nav__link">Video Tutorial for Flashing OS</a>
         </li></ul>
             </nav>
         </li>
@@ -539,6 +543,24 @@
 <p class="fs-3 fw-bold text-center">Debian 11 OS on RK3568 User Manual</p>
 <a class="reference internal image-reference" href="../../../../../_images/Chipsee_Logo_Full.png"><img alt="chipsee-logo" class="align-center" src="../../../../../_images/Chipsee_Logo_Full.png" style="width: 320px;"/></a>
 <p>This is the software manual for RK3568 Chipsee industrial PC. If you’ve never developed on this hardware with a Debian 11 OS, this manual can get you started quickly.</p>
+<p>Supported Chipsee PCs: all Chipsee RK3568 based industrial PCs, including but not limited to:</p>
+<ul class="simple">
+<li><p>CS12720-RK3568-050P</p></li>
+<li><p>CS10600-RK3568-070P</p></li>
+<li><p>CS12800-RK3568-101P</p></li>
+<li><p>CS19108-RK3568-133P</p></li>
+<li><p>CS10768-RK3568-150P</p></li>
+<li><p>CS19108-RK3568-156P</p></li>
+<li><p>CS12800-RK3568-215P</p></li>
+<li><p>CS19108-RK3568-236P</p></li>
+</ul>
+<p>When you develop software for the Chipsee industrial PC, you can open the hardware document beside this software document, to aid you in wiring your devices.</p>
+<p>In this document, main topics are:</p>
+<ul class="simple">
+<li><p>How to connect to the hardware from your workstation.</p></li>
+<li><p>How to use the hardware resources such as RS232, RS485 and GPIO, etc.</p></li>
+<li><p>How to install a new operating system.</p></li>
+</ul>
 <section id="system-information">
 <h2 id="system-information">System Information<a class="headerlink" href="#system-information" title="Permalink to this heading">¶</a></h2>
 <p class="rubric">Out of Box System</p>
@@ -734,11 +756,11 @@ wlan0:<span class="w"> </span>disconnected
 </pre></div>
 </div>
 </section>
-<section id="serial-port">
-<h3 id="serial-port">Serial Port<a class="headerlink" href="#serial-port" title="Permalink to this heading">¶</a></h3>
+<section id="serial-port-rs232-and-rs485">
+<h3 id="serial-port-rs232-and-rs485">Serial Port RS232 and RS485<a class="headerlink" href="#serial-port-rs232-and-rs485" title="Permalink to this heading">¶</a></h3>
 <p>The RK3568 based Chipsee industrial PC supports RS232 and RS485, here are the mapping from the port name to the system tree device:</p>
 <table id="id1" style="width: 100%">
-<caption><span class="caption-number">Table 147 </span><span class="caption-text">5, 10.1, 13.3 and 15.0 inch products (CS12720-RK3568-050P, CS12800-RK3568-101P, CS19108-RK3568-133P, CS10768-RK3568-150P)</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 147 </span><span class="caption-text">RS232/485 for <strong>5 inch</strong> product(CS12720-RK3568-050P) or <strong>10.1+ inch</strong> products(CS12800-RK3568-101P, CS19108-RK3568-133P, CS10768-RK3568-150P, CS19108-RK3568-156P, CS12800-RK3568-215P, CS19108-RK3568-236P)</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Name</p></th>
 <th class="head"><p>Node</p></th>
@@ -765,7 +787,7 @@ wlan0:<span class="w"> </span>disconnected
 </tbody>
 </table>
 <table id="id2" style="width: 100%">
-<caption><span class="caption-number">Table 148 </span><span class="caption-text">7 inch product (CS10600-RK3568-070P)</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 148 </span><span class="caption-text">RS232/485 for <strong>7 inch</strong> product (CS10600-RK3568-070P)</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Name</p></th>
 <th class="head"><p>Node</p></th>
@@ -1018,6 +1040,32 @@ The first is <em>DriverAssistant_v5.1.1</em>, the second is <em>RKDevTool_v2.93<
 <li><p>Now your new OS is ready for use.</p></li>
 </ol>
 <a class="mb-4 reference internal image-reference" href="../../../../../_images/Flash_5.png"><img alt="Flash_5" class="mb-4 align-center" src="../../../../../_images/Flash_5.png" style="width: 768px;"/></a>
+</section>
+<section id="video-tutorial-for-flashing-os">
+<h3 id="video-tutorial-for-flashing-os">Video Tutorial for Flashing OS<a class="headerlink" href="#video-tutorial-for-flashing-os" title="Permalink to this heading">¶</a></h3>
+<p>Here is a video tutorial we made demonstrating the OS installation process described above in Windows in the <strong>LOADER</strong> mode:</p>
+<div class="card text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/ufKDCJ1hpf4" style="height:50vh;width:100%" title="Flash RK3568 OS in Windows"></iframe></div><p>The approach in the video above works best for devices that are still able to boot into the desktop, and when your workstation is a Windows machine. However, if you do not have a Windows machine in the room, you can use the approach below to flash an OS, in a Linux or Mac.</p>
+<p>Apart from flashing in <strong>LOADER</strong> mode, when you’re working on a Linux(X86_64) workstation or MacOS(Intel and Apple Silicon) machine, you can use another approach: <strong>MASKROM</strong> mode, to flash the OS. There is a PROG button on the Chipsee industrial PC, you can press the button before powering up the device, power up and hold the PROG button for 2~4 seconds, then use a X86_64/darwin_64 <em>upgrade_tool</em> program in the command line to flash the OS, here is a video we made to teach you how to do that in two minutes:</p>
+<div class="card text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/TDIHoQ9AuX4" style="height:50vh;width:100%" title="Flash RK3568 OS in MASKROM in Any OS"></iframe></div><p>The approach described in the second video works best for devices that are “bricked” (compared to the first approach), it can help rescue your device if your operating system is broken and cannot boot into the desktop. Even if your device is still functional, you can also use this approach to flash an OS, it works in Windows, Linux as well as MacOS.</p>
+<p>The command used in the videos are:</p>
+<p>For <strong>Linux</strong> workstation:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>ld<span class="w"> </span><span class="c1"># to list device</span>
+sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>uf<span class="w"> </span>./prebuilt-rk3568-xxx.img<span class="w"> </span><span class="c1"># to upload firmware</span>
+</pre></div>
+</div>
+<p>For <strong>MacOS</strong>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./upgrade_tool_darwin64<span class="w"> </span>ld<span class="w"> </span><span class="c1"># to list device</span>
+./upgrade_tool_darwin64<span class="w"> </span>uf<span class="w"> </span>./prebuilt-rk3568-xxx.img<span class="w"> </span><span class="c1"># to upload firmware</span>
+</pre></div>
+</div>
+<p>And that’s all it takes.</p>
+<p>The <strong>upgrade_tool</strong> used in the video can be download at:</p>
+<ol class="arabic simple">
+<li><p><a class="reference download external" download="" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3568/Tools/upgrade_tool_x86-64"><code class="xref download docutils literal notranslate"><span class="pre">upgrade_tool_x86-64</span> <span class="pre">(For</span> <span class="pre">Linux</span> <span class="pre">x86)</span></code></a></p></li>
+<li><p><a class="reference download external" download="" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3568/Tools/upgrade_tool_darwin64"><code class="xref download docutils literal notranslate"><span class="pre">upgrade_tool_darwin64</span> <span class="pre">(For</span> <span class="pre">MacOS</span> <span class="pre">Intel</span> <span class="pre">&amp;</span> <span class="pre">Apple</span> <span class="pre">Silicon)</span></code></a></p></li>
+</ol>
+<p>We’ve tested that the MacOS upgrade_tool can execute in M1/Apple Silicon Macs, but you will need to install Rosetta to run this program. For Intel Macs, you do not need Rosetta, you can execute the binary program directly in your terminal.</p>
+<p>Also, as noted in the video, do use a <strong>absolute path</strong> to the firmware file or <strong>“./prebuilt-rk3568-xxx.img”</strong>, rather than a relative path (e.g. your current directory contains the img file, and you directly use “upgrad_tool uf prebuilt-rk3568-xxx.img”, this will not work). And make sure to use <em>sudo</em> in Linux.</p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 </section>
