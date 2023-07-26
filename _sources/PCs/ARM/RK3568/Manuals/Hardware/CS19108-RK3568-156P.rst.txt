@@ -78,10 +78,6 @@
                   :align: middle
                   :width: 192
 
-.. |sim_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-SIM.jpg
-                  :align: middle
-                  :width: 640
-                  
 .. |LAN_img| image:: /Media/ARM/A55/CS19108-RK3568-156P/LAN.jpg
                   :align: middle
                   :width: 192
