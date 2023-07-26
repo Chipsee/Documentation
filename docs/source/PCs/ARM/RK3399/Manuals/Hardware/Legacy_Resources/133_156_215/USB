@@ -1,0 +1,24 @@
+USB Connectors
+--------------
+
+There are 4 x dual **USB 2.0 HOST connectors** onboard, as shown on the figure below.
+
+.. Figure:: /Media/ARM/A72/PPC_Others/USB.jpeg
+  :align: center
+  :figclass: align-center
+
+  *USB 2.0 HOST Connectors*
+
+There is also 1 x **USB 3.0 HOST connector** and 1 x **USB Type-C connector**, as shown below.
+
+.. Figure:: /Media/ARM/A72/PPC_Others/USB3.jpeg
+  :align: center
+  :figclass: align-center
+
+  *USB 3.0 HOST Connector*
+
+.. Figure:: /Media/ARM/A72/PPC_Others/USB-C.jpeg
+  :align: center
+  :figclass: align-center
+
+  *USB Type-C Connector*

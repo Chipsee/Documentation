@@ -1,0 +1,33 @@
+Ordering Options
+=================
+
+Chipsee products can be customized during the ordering process. The product will be shipped with the pre-installed factory defaults if no extra requirements are specified. The table in the `Hardware Features`_ section provides information about the default options bundled with the product.
+
+.. note::
+  
+  You can order |Product| from the official |cstore|_ or from your nearest distributor.
+
+Operating System
+----------------
+
+This product comes with a pre-installed OS of your choice. Please see the list below for the supported OSes, which can be also obtained from the :ref:`Software Documentation <RK3399_OSDownloads>` section, along with the detailed installation instructions.
+
+* Chipsee Linux\ [*]_
+* Android 7.1
+* Debian 10
+
+-----
+
+.. [*] Chipsee Linux is based on buildroot that has been integrated with:
+       
+      1. Chipsee Hardware Test Application
+      
+      2. An initialization script for GPIO/Buzzer/Audio
+      
+      3. Multiple libraries, such as the ``libQt5Sql`` to develop Qt application with SQL
+      
+      4. Various packages, such as the ``ntfs-3g`` to use NTFS file system
+
+.. warning::
+
+  The :ref:`Software Documentation <RK3399_OSDownloads>` section provides a detailed instruction on how to install different OSes on your own. However, bear in mind that Chipsee can't take the responsibility of inadequate installation procedure. If you "brick" your device, please contact Chipsee Technical Support at |email|_ for further assistance

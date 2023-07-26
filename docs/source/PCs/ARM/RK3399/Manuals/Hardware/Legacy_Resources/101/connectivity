@@ -1,0 +1,62 @@
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial PC. It has |USB|, 1 x network connector (RJ45) supporting up to
+1 Gbps, and 7 x UART terminals (RS232/485).
+
+RS232+RS485 Connector
+---------------------
+
+The serial communication interfaces (RS485 and RS232) are routed to a **16-pin 3.81mm terminal**, as illustrated in the figure below.
+Serial communication on both RS485 and RS232 interfaces can reach up to 115200 kbps.
+
+.. figure:: /Media/ARM/A72/Others/IO_Peripherals.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Relation between serial pins on embedded vs. enclosed version*
+
+The table below offers more detailed description of every pin and its definition:
+
+.. table:: Connectivity Section
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +----------------------------------------------------------------------+
+   | **RS232 / RS485 / CAN Pin Definition:**                              |
+   +================+================+====================================+
+   | **Pin Number** | **Definition** | **Description**                    |
+   +----------------+----------------+------------------------------------+
+   | Pin 1          | RS485_4+       | USB UART4, RS485 +(A) signal       |
+   +----------------+----------------+------------------------------------+
+   | Pin 2          | RS485_4-       | USB UART4, RS485 -(B) signal       |
+   +----------------+----------------+------------------------------------+
+   | Pin 3          | RS485_3+       | USB UART3, RS485 +(A) signal       |
+   +----------------+----------------+------------------------------------+
+   | Pin 4          | RS485_3-       | USB UART3, RS485 -(B) signal       |
+   +----------------+----------------+------------------------------------+
+   | Pin 5          | RS232_2_RXD    | USB UART2, RS232 RXD signal        |
+   +----------------+----------------+------------------------------------+
+   | Pin 6          | RS232_2_TXD    | USB UART2, RS232 TXD signal        |
+   +----------------+----------------+------------------------------------+
+   | Pin 7          | RS232_1_RXD    | USB UART1, RS232 RXD signal        |
+   +----------------+----------------+------------------------------------+
+   | Pin 8          | RS232_1_TXD    | USB UART1, RS232 TXD signal        |
+   +----------------+----------------+------------------------------------+
+   | Pin 9          | CPU_RS232_4_RXD| CPU UART4, CPU RS232 RXD signal    |
+   +----------------+----------------+------------------------------------+
+   | Pin 10         | CPU_RS232_4_TXD| CPU UART4, CPU RS232 TXD signal    |
+   +----------------+----------------+------------------------------------+
+   | Pin 11         | CPU_RS232_0_RXD| CPU UART0, CPU RS232 RXD signal    |
+   +----------------+----------------+------------------------------------+
+   | Pin 12         | CPU_RS232_0_TXD| CPU UART0, CPU RS232 TXD signal    |
+   +----------------+----------------+------------------------------------+
+   | Pin 13         | CPU_RS232_2_RXD| CPU UART2, CPU RS232 RXD signal    |
+   +----------------+----------------+------------------------------------+
+   | Pin 14         | CPU_RS232_2_TXD| CPU UART2, CPU RS232 TXD signal    |
+   +----------------+----------------+------------------------------------+
+   | Pin 15         | GND            | System Ground                      |
+   +----------------+----------------+------------------------------------+
+   | Pin 16         | +5V            | System 5V output, up to 1A         |
+   +----------------+----------------+------------------------------------+
