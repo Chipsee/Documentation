@@ -1347,10 +1347,11 @@ Follow these steps to perform the GPIO test:</p>
 <section id="id1">
 <h3 id="id1">Preparation<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic">
-<li><p>Download <a class="reference external" href="https://download.qt.io/archive/qt/5.5/5.5.1/">QT5.5.1</a> and install it on the system. Install it in the <cite>/home/&lt;user&gt;/program</cite> directory.</p></li>
+<li><p>Download <a class="reference external" href="https://download.qt.io/new_archive/qt/5.5/5.5.1/">QT5.5.1</a> and install it on the system. Install it in the <cite>/home/&lt;user&gt;/program</cite> directory.</p></li>
 <li><dl>
-<dt>Install IMX6UL SDK. Get the SDK from <cite>DVD/Linux+QT5/Tools/fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh</cite> and install it using this command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># chmod +x fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh</span>
-<span class="c1"># ./ fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh</span>
+<dt>Install IMX6UL SDK. Get and install the SDK by using the following commands:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># wget -c https://chipsee-tmp.s3.amazonaws.com/SDK/fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa7hf-vfp-neon-toolchain-3.14.52-1.1.1.sh</span>
+<span class="w">    </span><span class="c1"># chmod +x fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa7hf-vfp-neon-toolchain-3.14.52-1.1.1.sh</span>
+<span class="c1"># ./fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa7hf-vfp-neon-toolchain-3.14.52-1.1.1.sh</span>
 </pre></div>
 </div>
 <p><br/> The default install directory is <cite>/opt/fsl-imx-x11/3.14.52-1.1.1</cite>. You can install it in this directory or you can also use another directory.</p>
@@ -1358,7 +1359,7 @@ Follow these steps to perform the GPIO test:</p>
 </dl>
 </li>
 <li><dl>
-<dt>Use the following command to test SDK:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># source /opt/fsl-imx-x11/3.14.52-1.1.1/ environment-setup-cortexa7hf-vfp-neon-poky-linux-gnueabi</span>
+<dt>Use the following command to test SDK:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># source /opt/fsl-imx-x11/3.14.52-1.1.1/environment-setup-cortexa7hf-vfp-neon-poky-linux-gnueabi</span>
 <span class="c1"># echo ${CC}</span>
 </pre></div>
 </div>
@@ -1368,7 +1369,7 @@ Follow these steps to perform the GPIO test:</p>
 <li><dl>
 <dt>Setting Qtcreator. If you installed <code class="docutils literal notranslate"><span class="pre">qt-opensource-linux-x64-5.5.1.run</span></code>, the Qtcreator will be installed automatically.</dt><dd><ul>
 <li><dl>
-<dt>Before you open QtCreator, you need to add the following code-block in the first line of <cite>/home/&lt;user&gt;/program/Qt5.5.1/Tools/QtCreator/bin/qtcreator.sh</cite>, as shown on the figure below.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">source</span><span class="w"> </span>/opt/fsl-imx-x11/3.14.52-1.1.1/<span class="w"> </span>environment-setup-cortexa7hf-vfp-neon-poky-linux-gnueabi
+<dt>Before you open QtCreator, you need to add the following code-block in the first line of <cite>/home/&lt;user&gt;/program/Qt5.5.1/Tools/QtCreator/bin/qtcreator.sh</cite>, as shown on the figure below.</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">source</span><span class="w"> </span>/opt/fsl-imx-x11/3.14.52-1.1.1/environment-setup-cortexa7hf-vfp-neon-poky-linux-gnueabi
 </pre></div>
 </div>
 <figure class="align-center" id="id29">
@@ -1613,7 +1614,7 @@ $<span class="w"> </span>make<span class="w">  </span>//<span class="w"> </span>
               
           </div>
             Last updated on
-              Jul 26, 2023.
+              Jul 27, 2023.
             <br/>
         </div>
       </div>

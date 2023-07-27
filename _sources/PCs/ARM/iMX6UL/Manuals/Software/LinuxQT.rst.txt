@@ -652,26 +652,27 @@ In this chapter, you will learn how to set up the QT development environment, an
 Preparation
 -----------
 
-#) Download `QT5.5.1 <https://download.qt.io/archive/qt/5.5/5.5.1/>`_ and install it on the system. Install it in the `/home/<user>/program` directory.
-#) Install IMX6UL SDK. Get the SDK from `DVD/Linux+QT5/Tools/fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh` and install it using this command:
+#) Download `QT5.5.1 <https://download.qt.io/new_archive/qt/5.5/5.5.1/>`_ and install it on the system. Install it in the `/home/<user>/program` directory.
+#) Install IMX6UL SDK. Get and install the SDK by using the following commands:
     .. code-block:: bash
 
-       # chmod +x fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh
-       # ./ fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh
+       # wget -c https://chipsee-tmp.s3.amazonaws.com/SDK/fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa7hf-vfp-neon-toolchain-3.14.52-1.1.1.sh
+	   # chmod +x fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa7hf-vfp-neon-toolchain-3.14.52-1.1.1.sh
+       # ./fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa7hf-vfp-neon-toolchain-3.14.52-1.1.1.sh
 
     |br| The default install directory is `/opt/fsl-imx-x11/3.14.52-1.1.1`. You can install it in this directory or you can also use another directory.
 
 #) Use the following command to test SDK:
     .. code-block:: bash
 
-       # source /opt/fsl-imx-x11/3.14.52-1.1.1/ environment-setup-cortexa7hf-vfp-neon-poky-linux-gnueabi
+       # source /opt/fsl-imx-x11/3.14.52-1.1.1/environment-setup-cortexa7hf-vfp-neon-poky-linux-gnueabi
        # echo ${CC}
 
 #) Setting Qtcreator. If you installed ``qt-opensource-linux-x64-5.5.1.run``, the Qtcreator will be installed automatically.
     * Before you open QtCreator, you need to add the following code-block in the first line of `/home/<user>/program/Qt5.5.1/Tools/QtCreator/bin/qtcreator.sh`, as shown on the figure below.
         .. code-block:: bash
 
-           $ source /opt/fsl-imx-x11/3.14.52-1.1.1/ environment-setup-cortexa7hf-vfp-neon-poky-linux-gnueabi
+           $ source /opt/fsl-imx-x11/3.14.52-1.1.1/environment-setup-cortexa7hf-vfp-neon-poky-linux-gnueabi
 
 
         .. figure:: /Media/ARM/A9/Software/Linux_Qt55/app_dev_1.jpeg
