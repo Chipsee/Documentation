@@ -830,7 +830,7 @@
 <p>The image above shows we can use Google’s app to test serial port. On the left is our workstation running a COMTool, on the right is the Android app, they are connected with a RS232 to USB cable.</p>
 <p>The <strong>second method</strong> is using adb, <strong>cat</strong> and <strong>echo</strong> programs. You can wire the device’s serial port to another device or your workstation, if you use two devices to communicate with each other, open two adb shells on your terminal app, each window should belong to one of the devices. In the example below, I will let the device talk to my Mac Mini, and use another tool on Mac called COMTool, it’s a serial debugger you can download from Github.</p>
 <a class="reference internal image-reference" href="../../../../../_images/Serial_Cat_Echo-1.png"><img alt="Two ADB Shell Windows" class="align-center" src="../../../../../_images/Serial_Cat_Echo-1.png" style="width: 1024px;"/></a>
-<p>At the beginning you may wish to set the baud rate of the Chipsee industrial PC’s serial devices, you can use <strong>stty</strong>, the command below with set ttyS0 (our RS232_0) to 115200 baud rate.</p>
+<p>At the beginning you may wish to set the baud rate of the Chipsee industrial PC’s serial devices, you can use <strong>stty</strong>, the command below will set ttyS0 (our RS232_0) to 115200 baud rate.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>stty<span class="w"> </span>-F<span class="w"> </span>/dev/ttyS0<span class="w"> </span><span class="m">115200</span>
 </pre></div>
 </div>
@@ -1110,7 +1110,7 @@ sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>u
               
           </div>
             Last updated on
-              Jul 27, 2023.
+              Jul 31, 2023.
             <br/>
         </div>
       </div>

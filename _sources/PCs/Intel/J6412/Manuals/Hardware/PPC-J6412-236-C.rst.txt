@@ -6,7 +6,7 @@
 
 .. |PN| replace:: PN: |product|
 
-.. |weight| replace:: 7700g
+.. |weight| replace:: 7500g
 
 .. |dim| replace:: 595 x 374 x 57.25mm
 
@@ -14,7 +14,7 @@
   
 .. |res| replace:: 1920 x 1080
 
-.. |bright| replace:: 350 |cd|
+.. |bright| replace:: 400 |cd|
 
 .. |tscreen| replace:: Multi-point capacitive touch screen
 

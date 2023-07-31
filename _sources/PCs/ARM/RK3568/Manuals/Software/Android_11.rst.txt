@@ -77,7 +77,7 @@ The **second method** is using adb, **cat** and **echo** programs. You can wire 
    :width: 1024
    :alt: Two ADB Shell Windows
 
-At the beginning you may wish to set the baud rate of the |ipc|'s serial devices, you can use **stty**, the command below with set ttyS0 (our RS232_0) to 115200 baud rate.
+At the beginning you may wish to set the baud rate of the |ipc|'s serial devices, you can use **stty**, the command below will set ttyS0 (our RS232_0) to 115200 baud rate.
 
 .. code:: bash
 
