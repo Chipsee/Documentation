@@ -12,17 +12,17 @@
 
 .. |res| replace:: 1920 x 1080
 
-.. |bright| replace:: 250 |cd|
+.. |bright| replace:: 400 |cd|
 
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 600 x 400 x 60mm
+.. |dimP| replace:: 595 x 374 x 57.25mm
 
 .. |weightE| replace:: NULL
 
-.. |weightP| replace:: 6000g
+.. |weightP| replace:: 7500g
 
 .. |RAM| replace:: Samsung 2GB LPDDR4X, 4266 Mbps
 
@@ -44,7 +44,7 @@
 
 .. |cur| replace:: 2A Max at 12V
 
-.. |pwr| replace:: 12W Typical, 24W Max
+.. |pwr| replace:: 19.56W (12V x 1.63A) Typical, 24W (12V x 2A) Max
 
 .. |temp| replace:: From 0°C to +50°C
 

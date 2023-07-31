@@ -12,17 +12,17 @@
 
 .. |res| replace:: 1920 x 1080
 
-.. |bright| replace:: 250 |cd|
+.. |bright| replace:: 400 |cd|
 
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 600 x 400 × 60mm
+.. |dimP| replace:: 595 x 374 x 57.25mm
 
 .. |weightE| replace:: NULL
 
-.. |weightP| replace:: 6000g
+.. |weightP| replace:: 7500g
 
 .. |RAM| replace:: 4GB DDR3
 
@@ -42,9 +42,9 @@
 
 .. |vin_rng| replace:: From 12V to 36V
 
-.. |cur| replace:: 2.2A Max
+.. |cur| replace:: 1.68A Max (15V)
 
-.. |pwr| replace:: 20W Typical, 30W Max
+.. |pwr| replace:: 19.56W (15V x 1.30A) Typical, 25.2W (15V x 1.68A) Max
 
 .. |temp| replace:: From 0°C to +50°C
 
