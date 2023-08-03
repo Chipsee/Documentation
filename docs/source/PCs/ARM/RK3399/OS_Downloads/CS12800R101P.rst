@@ -4,6 +4,8 @@
 PPC-A72-101-C (PN: CS12800R101P)
 ################################
 
+.. include:: Resources/Note_For_RK3399_OS_Download
+
 .. _CS12800R101P-android:
 
 Android7.1
