@@ -19,6 +19,8 @@ terminals on the terminal block represents eight **GPIO** channels, labeled as *
  
    *Figure 2: Connectivity Section - 2 x D-sub Connectors & 16-pin Double-Row Pluggable Terminal Block*
 
+.. include:: /PCs/Shared/Hardware/gpio_image
+
 .. Note::
 
     The default configuration of the |product| industrial PC is 4 x RS232 interfaces and 8 x GPIO channels. If you need different configuration, 

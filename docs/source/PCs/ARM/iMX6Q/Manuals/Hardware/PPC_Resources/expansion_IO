@@ -9,6 +9,7 @@ Expansion Port
 
    *Expansion Port*
 
+.. include:: /PCs/Shared/Hardware/gpio_image
 
 .. table:: Expansion Connector Pinout
    :align: center

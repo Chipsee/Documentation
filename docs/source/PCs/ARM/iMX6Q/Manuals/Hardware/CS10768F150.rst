@@ -102,9 +102,9 @@ Optional Features
 
 .. include:: PPC_Resources/4G_com
 
-.. include:: PPC_Resources/Audio_IO
-
 .. include:: PPC_Resources/expansion_IO_2
+
+.. include:: PPC_Resources/Audio_IO
 
 .. include:: PPC_Resources/HDMI
 

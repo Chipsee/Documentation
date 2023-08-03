@@ -110,10 +110,6 @@
                   :align: middle
                   :width: 384                 
 
-.. |gpio_schema_img| image:: /Media/Pi/A72/Others/GP_IO_2.jpeg
-                  :align: middle
-                  :width: 768
-
 .. |wifi_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-WIFI.jpg
                   :align: middle
                   :width: 640

@@ -106,10 +106,6 @@
                   :align: middle
                   :width: 768                  
 
-.. |gpio_schema_img| image:: /Media/Pi/A72/Others/GP_IO_2.jpeg
-                  :align: middle
-                  :width: 768
-
 .. |wifi_img| image:: /Media/Pi/A53/Others/Antenna.jpeg
                   :align: middle
                   :width: 384

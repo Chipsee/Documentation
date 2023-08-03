@@ -9,16 +9,17 @@ The 10-pin terminal also includes an isolated PSU input in the range of 5 to 24 
 The GPIO **HIGH** output level corresponds to the voltage connected at the Isolated Power Input, while the GPIO **LOW** output level corresponds to the 
 isolated Ground Input. Each GPIO output can drive loads up to 500mA, enough to drive various applications directly, such as relays or solenoid valves.
 
-.. Figure:: /Media/ARM/A7/CS10600U070/GPIO.png 
+.. Figure:: /Media/ARM/A7/CS10600U070/CS10600U070-GPIO.png 
   :figclass: align-center
   :align: center
   
   *Figure 7: GPIO Terminal (embedded/enclosed PC version)*
 
+.. include:: /PCs/Shared/Hardware/gpio_image
 
 .. table:: Table 3: GPIO Pinout
    :align: center
-   :width: 60%
+   :width: 100%
    :widths: auto
    
    +----------------------------------------------+

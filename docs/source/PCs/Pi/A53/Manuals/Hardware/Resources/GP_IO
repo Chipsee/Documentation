@@ -10,6 +10,7 @@ The table below gives details about the definition of every Pin.
 
    *GPIO Connector*
 
+.. include:: /PCs/Shared/Hardware/gpio_image
 
 .. table:: GPIO Connector Pin-out
    :align: center
