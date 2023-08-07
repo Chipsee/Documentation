@@ -190,7 +190,7 @@ default.
 
 .. include:: Resources/WiFi
 
-.. include:: Resources/expansion_IO
+.. include:: Resources/expansion_IO_070
 
 .. include:: Resources/TF_Card
 

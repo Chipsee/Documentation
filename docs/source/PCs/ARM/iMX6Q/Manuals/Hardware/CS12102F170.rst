@@ -104,6 +104,8 @@ Optional Features
 
 .. include:: PPC_Resources/expansion_IO
 
+.. include:: Resources/GPIO_table_101_121_150_170_190_215
+
 .. include:: PPC_Resources/Audio_IO
 
 .. include:: PPC_Resources/HDMI

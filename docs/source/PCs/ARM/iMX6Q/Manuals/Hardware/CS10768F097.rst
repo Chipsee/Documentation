@@ -52,6 +52,10 @@
 
 .. |rs485| replace:: 3
 
+.. |gpio_img| image:: /Media/ARM/A9/CS10768F097/A9-097-C-GPIO.jpg
+                  :align: middle
+                  :width: 768
+
 .. |Front View| image:: /Media/ARM/A9/CS10768F097/PPC-A9-097-C-Front.jpg
                   :class: product-img
 
@@ -109,6 +113,8 @@ Optional Features
 .. include:: Resources/4G_com
 
 .. include:: Resources/GP_IO
+
+.. include:: Resources/GPIO_table_097
 
 .. include:: Resources/TF_Card
 

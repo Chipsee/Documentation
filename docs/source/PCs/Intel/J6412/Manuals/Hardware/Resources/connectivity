@@ -61,8 +61,6 @@ The top row of terminals on the terminal block is labelled as **COM3/4**. These 
    | 16  | SIO_GPO87(0xA07 Bit7) |
    +-----+-----------------------+
 
-.. include:: /PCs/Shared/Hardware/gpio_image
-
 .. Note::
 
     The default configuration of the |product| industrial PC is 4 x RS232 interfaces and 8 x GPIO channels. If you need different configuration, 
