@@ -387,6 +387,7 @@ isolated Ground Input. Each GPIO output can drive loads up to 500mA, enough to d
   
   *GPIO Terminal (enclosed PC version)*
 
+.. include:: /PCs/Shared/Hardware/gpio_image
 
 .. table:: GPIO Pinout
    :align: center

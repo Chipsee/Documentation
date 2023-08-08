@@ -26,7 +26,7 @@
 
 .. |LAN| replace:: 1 x Channel 1000Mbps LAN
 
-.. |GPIO| replace:: 8 x Channels
+.. |GPIO| replace:: N/A
 
 .. |opt1| replace:: Optional, Not mounted by default
 

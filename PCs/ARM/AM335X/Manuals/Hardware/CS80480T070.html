@@ -767,7 +767,7 @@ in the figure below.</p>
 <figure class="align-center" id="id4">
 <img alt="../../../../../_images/Power.jpeg" src="../../../../../_images/Power.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 677:  </span><span class="caption-text"><em>Power Input (embedded/enclosed version)</em></span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 674:  </span><span class="caption-text"><em>Power Input (embedded/enclosed version)</em></span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p>Note that the “<strong>+</strong>” sign represents the positive power input, and it is printed both at the casing and as a silk-screen on a PCB of the embedded version. The “<strong>-</strong>” terminal is shorted to the ground.</p>
@@ -807,7 +807,7 @@ in the figure below.</p>
 <figure class="align-center" id="id6">
 <img alt="../../../../../_images/TS_CON_2.jpeg" src="../../../../../_images/TS_CON_2.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 678:  </span><span class="caption-text"><em>Resistive Touch Connector</em></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 675:  </span><span class="caption-text"><em>Resistive Touch Connector</em></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="hatnote hatnote-yellow docutils container">
@@ -827,7 +827,7 @@ in the figure below.</p>
 <figure class="align-center" id="id7">
 <img alt="../../../../../_images/IO-Peripherals.jpeg" class="pdf-width-50" src="../../../../../_images/IO-Peripherals.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 679:  </span><span class="caption-text"><em>Relation between serial pins on embedded vs. enclosed version of the</em> PPC/EPC-A8-070-HB-R <em>Industrial PC</em></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 676:  </span><span class="caption-text"><em>Relation between serial pins on embedded vs. enclosed version of the</em> PPC/EPC-A8-070-HB-R <em>Industrial PC</em></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p><p class="page-break" style="margin: 0"></p></p>
@@ -900,7 +900,7 @@ in the figure below.</p>
 <figure class="align-center" id="id9">
 <img alt="../../../../../_images/USB_OTG.jpeg" class="pdf-width-20" src="../../../../../_images/USB_OTG.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 680:  </span><span class="caption-text"><em>USB HOST Connectors (embedded/enclosed PC version)</em></span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 677:  </span><span class="caption-text"><em>USB HOST Connectors (embedded/enclosed PC version)</em></span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -919,7 +919,7 @@ up to 1 Gbps data throughput.</p>
 <figure class="align-center" id="id10">
 <img alt="../../../../../_images/LAN.jpeg" class="pdf-width-35" src="../../../../../_images/LAN.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 681:  </span><span class="caption-text"><em>RJ45 LAN Connectors (embedded/enclosed PC version)</em></span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 678:  </span><span class="caption-text"><em>RJ45 LAN Connectors (embedded/enclosed PC version)</em></span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -934,9 +934,11 @@ The table below gives details about the definition of every Pin.</p>
 <figure class="align-center" id="id11">
 <img alt="../../../../../_images/GP_IO.jpeg" src="../../../../../_images/GP_IO.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 682:  </span><span class="caption-text"><em>GPIO Connector</em></span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 679:  </span><span class="caption-text"><em>GPIO Connector</em></span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
+<a class="text-center reference internal image-reference" href="../../../../../_images/GPIO_Schema.png"><img alt="../../../../../_images/GPIO_Schema.png" class="text-center align-center" src="../../../../../_images/GPIO_Schema.png" style="width: 720px;"/></a>
+<p class="text-center"><em>Isolated GPIO reduced schematic</em></p>
 <table id="id12" style="width: 100%">
 <caption><span class="caption-number">Table 176 </span><span class="caption-text">GPIO Connector Pin-out</span><a class="headerlink" href="#id12" title="Permalink to this table">¶</a></caption>
 <thead>
@@ -994,7 +996,7 @@ The table below gives details about the definition of every Pin.</p>
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
 <ul class="simple">
-<li><p>The GPIO has been Opt-Isolated and it uses the 5V Logic by default. You can use an external isolated power input but the power input range should be from 5V to 24V DC.</p></li>
+<li><p>The GPIO has been Opt-Isolated and it uses the 24V Logic by default. The GPIO is driven by the on board VDD, you do not need an external isolated power input.</p></li>
 <li><p>The 4 output channels can drive at most 500mA current on each channel.</p></li>
 <li><p>The operator can use the power input that connects to Power Input Connector, if the operator doesn’t want to use an isolated power input.</p></li>
 <li><p>Also, you can use the 5V voltage on-board as power input. The operator must solder a 0Ω resistor on R292 &amp; R293 then you can connect the 5V voltage onboard to the <strong>Isolated Power Input</strong> Pin.</p></li>
@@ -1008,7 +1010,7 @@ The table below gives details about the definition of every Pin.</p>
 <figure class="align-center" id="id13">
 <img alt="../../../../../_images/TF_Card.jpeg" class="pdf-width-40" src="../../../../../_images/TF_Card.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 683:  </span><span class="caption-text"><em>TF (micro SD) Card Slot</em></span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 680:  </span><span class="caption-text"><em>TF (micro SD) Card Slot</em></span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -1023,14 +1025,14 @@ The table below gives details about the definition of every Pin.</p>
 <figure class="align-center" id="id14">
 <img alt="../../../../../_images/Audio.jpeg" class="pdf-width-50" src="../../../../../_images/Audio.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 684:  </span><span class="caption-text"><em>Audio I/O (embedded/enclosed PC version)</em></span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 681:  </span><span class="caption-text"><em>Audio I/O (embedded/enclosed PC version)</em></span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p>In addition, PPC/EPC-A8-070-HB-R features a miniature 2W embedded speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds.</p>
 <figure class="align-center" id="id15">
 <img alt="../../../../../_images/Speaker_Buzzer.jpeg" class="pdf-width-50" src="../../../../../_images/Speaker_Buzzer.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 685:  </span><span class="caption-text"><em>2W Micro Speaker and Buzzer</em></span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 682:  </span><span class="caption-text"><em>2W Micro Speaker and Buzzer</em></span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -1043,7 +1045,7 @@ Detailed information on how to re-flash the OS can be found in the <a class="ref
 <figure class="align-center" id="id16">
 <img alt="../../../../../_images/BootSW.jpeg" src="../../../../../_images/BootSW.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 686:  </span><span class="caption-text"><em>Boot DIP Switch</em></span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 683:  </span><span class="caption-text"><em>Boot DIP Switch</em></span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <table id="id17" style="width: 50%">
@@ -1096,7 +1098,7 @@ product measurements.</p>
 <figure class="align-center" id="id18">
 <img alt="../../../../../_images/EPC-A8-070-HB-R-TD.jpeg" src="../../../../../_images/EPC-A8-070-HB-R-TD.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 687:  </span><span class="caption-text">EPC-A8-070-HB-R <em>Technical Drawing</em></span><a class="headerlink" href="#id18" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 684:  </span><span class="caption-text">EPC-A8-070-HB-R <em>Technical Drawing</em></span><a class="headerlink" href="#id18" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -1107,7 +1109,7 @@ product measurements.</p>
 <figure class="align-center" id="id19">
 <img alt="../../../../../_images/Mount.jpeg" src="../../../../../_images/Mount.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 688:  </span><span class="caption-text"><em>Fixing</em> PPC-A8-070-HB-R <em>industrial PC into panel</em></span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 685:  </span><span class="caption-text"><em>Fixing</em> PPC-A8-070-HB-R <em>industrial PC into panel</em></span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -1181,7 +1183,7 @@ product measurements.</p>
               
           </div>
             Last updated on
-              Jul 31, 2023.
+              Aug 08, 2023.
             <br/>
         </div>
       </div>

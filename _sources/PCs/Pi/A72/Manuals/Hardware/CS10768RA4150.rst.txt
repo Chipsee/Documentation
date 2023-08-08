@@ -51,10 +51,6 @@
                   :align: middle
                   :width: 768
 
-.. |gpio_schema_img| image:: /Media/Pi/A72/Others/GP_IO_2.jpeg
-                  :align: middle
-                  :width: 768
-
 .. |ts_con_img| image:: /Media/Pi/A72/CS19108RA4133/USB_Touch.jpg
                   :align: middle
                   :width: 384
