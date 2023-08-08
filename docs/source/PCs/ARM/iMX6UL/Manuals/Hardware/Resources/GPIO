@@ -4,21 +4,22 @@ GPIO
 ----
  
 |Product| features a **10-pin 3.81 mm terminal** that provides 8 x opto-isolated GPIO pins, of which 4 x are output, and 4 x are input pins. 
-The 10-pin terminal also includes an isolated PSU input in the range of 5 to 24 VDC. The exact pinout is given in *Table 3*, below.
+The 10-pin terminal also includes an isolated PSU input in the range of 5 to 24 VDC. The exact pinout is given in the table below.
 
 The GPIO **HIGH** output level corresponds to the voltage connected at the Isolated Power Input, while the GPIO **LOW** output level corresponds to the 
 isolated Ground Input. Each GPIO output can drive loads up to 500mA, enough to drive various applications directly, such as relays or solenoid valves.
 
-.. Figure:: /Media/ARM/A7/CS10600U070/GPIO.png 
+.. Figure:: /Media/ARM/A7/CS10600U070/CS10600U070-GPIO.png 
   :figclass: align-center
   :align: center
   
   *Figure 7: GPIO Terminal (embedded/enclosed PC version)*
 
+.. include:: /PCs/Shared/Hardware/gpio_image
 
-.. table:: Table 3: GPIO Pinout
+.. table:: GPIO Pinout
    :align: center
-   :width: 60%
+   :width: 100%
    :widths: auto
    
    +----------------------------------------------+
@@ -50,5 +51,6 @@ isolated Ground Input. Each GPIO output can drive loads up to 500mA, enough to d
 -----
 
 .. [#i] | If the isolation is not a requirement, it is possible to use a non-isolated PSU instead.
+        | The GPIO uses the 24V Logic by default. 
         | It is also possible to use the onboard 5V power supply: it can be re-routed to the *Isolated Power Input* pin by populating R292 and R293 PCB footprints with 0Ω resistors. 
         | Note that in this case, the *Isolated Power Input* pin will become an output for the onboard 5V power supply. 

@@ -10,9 +10,12 @@ RS232+RS485+CAN+GPIO Connector
 The serial communication interfaces (RS485, RS232, and CAN) are routed to a **12-pin 3.81mm terminal**, as illustrated on the figure below.
 Serial communication on both RS485 and RS232 interfaces can reach up to 115200 kbps.
 
+.. include:: /PCs/Shared/Hardware/gpio_image
+
 .. figure:: /Media/ARM/A72/CS12800R101P/IO.jpg
    :align: center
    :figclass: align-center
+
 
 The table below offers more detailed description of every pin and its definition:
 
@@ -80,5 +83,5 @@ The table below offers more detailed description of every pin and its definition
    + The 120Ω match resistor for the RS485 and CAN bus is NOT mounted by default.
    + This products support change 2 x RS485 to 2 x RS232 and support up to 5 x RS232 (include one debug port).
    + The GPIO Connector is optional. You can |contact|_ if you need it.
-   + The GPIO has been Opt-Isolated and it uses the 5V Logic by default. You can use an external isolated power input but the power input range should be from 5V to 24V DC.
+   + The GPIO has been Opt-Isolated and it uses the 24V Logic by default. You can use an external isolated power input but the power input range should be from 5V to 24V DC.
    + The 4 output channels can drive at most 500mA current on each channel.
