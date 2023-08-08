@@ -38,7 +38,7 @@
 
 .. |GPIO| replace:: 8 Channels, 4 Input, 4 Output, 1000V DC Isolated
 
-.. |gpio_desc| replace:: The GPIO has been Opt-Isolated and it uses the 5V Logic by default. You can use an external isolated power input but the power input range should be from 5V to 24V DC.
+.. |gpio_desc| replace:: The GPIO has been Opt-Isolated and it uses the 24V Logic by default. The GPIO is driven by the on board VDD, you do not need an external isolated power input.
 
 .. |expansions| replace:: N/A
 
