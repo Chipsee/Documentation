@@ -1,3 +1,5 @@
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
 .. table:: Key Features
    :align: center
    :width: 100%
@@ -27,7 +29,7 @@
    +-------------------------+------------------------------------------------------------------------------------------------+
    | **Buzzer**              | Onboard Buzzer, driven by GPIO                                                                 |
    +-------------------------+------------------------------------------------------------------------------------------------+
-   | **RTC**                 | Yes, High Accuracy RTC with Lithium Button Coin battery (lithium battery not included)         |
+   | **RTC**                 | |rtc|                                                                                          |
    +-------------------------+------------------------------------------------------------------------------------------------+
    | **RS232**               | Default to 2 x RS232, up to 4 x RS232                                                          |
    +-------------------------+------------------------------------------------------------------------------------------------+
