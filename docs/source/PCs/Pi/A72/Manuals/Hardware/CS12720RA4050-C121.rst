@@ -34,6 +34,8 @@
 
 .. |tscreen| replace:: 5-point capacitive touch
 
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
 .. |rs232_485_can_ter| replace:: 12-pin 3.81mm terminal
 
 .. |rs232_rs485_conf| replace:: The 2 x RS485 can be configured to 2 x RS232, if you want a custom configuration, you can contact us when placing an order.
