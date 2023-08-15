@@ -40,6 +40,8 @@
 
 .. |opt2| replace:: Integrated WiFi/BT Module
 
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
 .. |vin_rng| replace:: From 6V to 36V
 
 .. |cur| replace:: 550mA Max at 12V
@@ -126,7 +128,7 @@
    +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
    | **Buzzer**                                   | Yes                                                                                                 |
    +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **RTC**                                      | Yes                                                                                                 |
+   | **RTC**                                      | |rtc|                                                                                               |
    +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
    | **RS232**                                    | |rs232|\ [#at]_                                                                                     |
    +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
@@ -387,6 +389,7 @@ isolated Ground Input. Each GPIO output can drive loads up to 500mA, enough to d
   
   *GPIO Terminal (enclosed PC version)*
 
+.. include:: /PCs/Shared/Hardware/gpio_image
 
 .. table:: GPIO Pinout
    :align: center

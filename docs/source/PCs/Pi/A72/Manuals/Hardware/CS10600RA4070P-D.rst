@@ -18,6 +18,8 @@
 
 .. |tf_des| replace:: Chipsee designed one TF card slot for CM4 Lite version which has no eMMC to boot OS.
 
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
 .. |usb_hub_conflict| replace:: two USB host connectors, Zigbee and 4G/LTE
 
 .. |dispsize| replace:: 7"
@@ -109,10 +111,6 @@
 .. |tf_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-TF.jpg
                   :align: middle
                   :width: 384                 
-
-.. |gpio_schema_img| image:: /Media/Pi/A72/Others/GP_IO_2.jpeg
-                  :align: middle
-                  :width: 768
 
 .. |wifi_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-WIFI.jpg
                   :align: middle

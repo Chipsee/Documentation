@@ -40,6 +40,10 @@
 
 .. |temp| replace:: From -20°C to +70°C
 
+.. |gpio_img| image:: /Media/ARM/A9/CS14900F190/GP_IO.jpeg
+                  :align: middle
+                  :width: 768
+
 .. |Front View| image:: /Media/ARM/A9/CS14900F190/PPC-A9-190-C-Front.jpeg
                   :class: product-img
 
@@ -241,55 +245,9 @@ The product includes an SMA connector for an external WiFi/BT antenna, as illust
 
 .. include:: PPC_Resources/4G_com
 
-GPIO Connector
---------------
+.. include:: Resources/GP_IO
 
-|Product| has a 10 Pin 3.81mm **GPIO Connector**, as shown on the figure below, that is labeled as P28 on the PCB.
-The table below gives details about the definition of every Pin.
-
-.. figure:: /Media/ARM/A9/CS14900F190/GP_IO.jpeg
-   :align: center
-   :figclass: align-center
-
-   *GPIO Connector*
-
-
-.. table:: GPIO Connector Pin-out
-   :align: center
-   :width: 100%
-   :widths: auto
-
-   +---------------------------------------------------------------------------------------------------------------------------------+
-   | .. centered:: GPIO Connector Pin Definition:                                                                                    |
-   +======================================+=============================+============================================================+
-   | **Pin Number**                       | **Definition**              | **Description**                                            |
-   +--------------------------------------+-----------------------------+------------------------------------------------------------+
-   | Pin 1                                | VCC                         | Isolated Power +5V Output                                  |
-   +--------------------------------------+-----------------------------+------------------------------------------------------------+
-   | Pin 2                                | GND                         | Isolated Ground                                            |
-   +--------------------------------------+-----------------------------+------------------------------------------------------------+
-   | Pin 3                                | OUT1                        | Isolated Output 1                                          |
-   +--------------------------------------+-----------------------------+------------------------------------------------------------+
-   | Pin 4                                | OUT2                        | Isolated Output 2                                          |
-   +--------------------------------------+-----------------------------+------------------------------------------------------------+
-   | Pin 5                                | OUT3                        | Isolated Output 3                                          |
-   +--------------------------------------+-----------------------------+------------------------------------------------------------+
-   | Pin 6                                | OUT4                        | Isolated Output 4                                          |
-   +--------------------------------------+-----------------------------+------------------------------------------------------------+
-   | Pin 7                                | IN1                         | Isolated Input 1                                           |
-   +--------------------------------------+-----------------------------+------------------------------------------------------------+
-   | Pin 8                                | IN2                         | Isolated Input 2                                           |
-   +--------------------------------------+-----------------------------+------------------------------------------------------------+
-   | Pin 9                                | IN3                         | Isolated Input 3                                           |
-   +--------------------------------------+-----------------------------+------------------------------------------------------------+
-   | Pin 10                               | IN4                         | Isolated Input 4                                           |
-   +--------------------------------------+-----------------------------+------------------------------------------------------------+
-
-.. attention::
-
-   + The GPIO has been Opt-Isolated and it uses the 5V Logic by default. You can use an external isolated power input but the power input range should be from 5V to 24V DC.
-   + The 4 output channels can drive at most 500mA current on each channel.
-   + Since the PCB traces of the port are connected to the processor directly, be careful not to cause electrostatic discharge or over voltage on the pins, as it may damage the processor. Take all the necessary precautions while working with electrostatic-sensitive equipment.
+.. include:: Resources/GPIO_table_101_121_150_170_190_215
 
 Audio Connectors
 ================

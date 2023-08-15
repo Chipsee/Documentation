@@ -40,6 +40,8 @@
 
 .. |rs232_485_can_ter| replace:: 16-pin 3.81mm terminal
 
+.. |rtc| replace:: Yes, High Accuracy RTC with Lithium Button Coin battery (lithium battery not included)
+
 .. |cap_screen_conn| replace:: FPC connector
 
 .. |rs232_rs485_conf| replace:: RS485_3 and RS232_3 share UART3 and can't work at the same time; RS485_5 and RS232_5 share UART5 and can't work at the same time. Meaning the product provides 4 x RS232 + 0 x RS485, or 2 x RS232 + 2 x RS485, or 3 x RS232 + 1 x RS485.
@@ -105,10 +107,6 @@
 .. |tf_img| image:: /Media/Pi/A53/Others/TF_Card.jpeg
                   :align: middle
                   :width: 768                  
-
-.. |gpio_schema_img| image:: /Media/Pi/A72/Others/GP_IO_2.jpeg
-                  :align: middle
-                  :width: 768
 
 .. |wifi_img| image:: /Media/Pi/A53/Others/Antenna.jpeg
                   :align: middle

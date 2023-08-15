@@ -14,19 +14,19 @@
 
 .. |res| replace:: 1920 x 1080
 
-.. |bright| replace:: 250 |cd|
+.. |bright| replace:: 400 |cd|
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 600 x 400 x 60mm
+.. |dimP| replace:: 595 x 374 x 57.25mm
 
 .. |weightE| replace:: NULL
 
-.. |weightP| replace:: 6000g
+.. |weightP| replace:: 7500g
 
-.. |cur| replace:: 1500mA Max
+.. |cur| replace:: 1.96A Max
 
-.. |pwr| replace:: 20W Typical
+.. |pwr| replace:: 19.92W (12V x 1.66A) Typical, 23.52W (12V x 1.96A) Max
 
 .. |temp| replace:: From 0°C to +50°C
 
@@ -47,10 +47,6 @@
                   :width: 768
 
 .. |gpio_img| image:: /Media/Pi/A72/CS19108RA4236/GPIObig.jpg
-                  :align: middle
-                  :width: 768
-
-.. |gpio_schema_img| image:: /Media/Pi/A72/Others/GP_IO_2.jpeg
                   :align: middle
                   :width: 768
 

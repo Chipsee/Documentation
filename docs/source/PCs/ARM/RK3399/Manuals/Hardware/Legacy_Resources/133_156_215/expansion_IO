@@ -10,6 +10,7 @@ The table below gives details about the definition of every Pin.
 
    *Expansion Connector*
 
+.. include:: /PCs/Shared/Hardware/gpio_image
 
 .. table:: Expansion Connector Pinout
    :align: center
