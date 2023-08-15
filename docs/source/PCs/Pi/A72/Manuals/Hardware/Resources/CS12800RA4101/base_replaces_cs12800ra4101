@@ -18,6 +18,8 @@
 
 .. |cap_screen_conn| replace:: USB connector
 
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
 .. |camera_desc| replace:: No
 
 .. |USB_attention| replace:: 1\. These two USB host connectors can drive 500mA for each channel at most.
