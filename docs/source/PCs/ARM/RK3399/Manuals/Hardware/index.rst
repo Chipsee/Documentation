@@ -175,6 +175,22 @@ RK3399 Hardware Documentation
    :name: hwdocstable_12
 
    +---------------------+------------------------------------------------------------------------+
+   | |PPC-A72-150-C|     |   :ref:`PPC-A72-150-C User Manual <PPC-A72-150-C>` |br|                |
+   |                     |   PN: CS10768R150 |br| |br|                                            |
+   |                     |                                                                        |
+   |                     |   15", 1024 x 768, 10-point capacitive touch screen                    |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-A72-150-C| image:: /Media/ARM/A72/CS10768R150/PPC-A72-150-C-Front.jpeg
+   :class: no-scaled-link
+   :target: CS10768R150.html
+
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_13
+
+   +---------------------+------------------------------------------------------------------------+
    | |PPC-A72-156-C|     |   :ref:`PPC-A72-156-C User Manual <PPC-A72-156-C>` |br|                |
    |                     |   PN: CS19108R156 |br| |br|                                            |
    |                     |                                                                        |
@@ -210,12 +226,12 @@ RK3399 Hardware Documentation
    PPC-A72-101 <CS12800R101P>
    PPC-A72-125-C <CS19108R125>
    PPC-A72-133-P <CS19108R133P>
-   PPC-A72-150-C <CS10768R150>
    PPC-A72-156-P <CS19108R156P>
    PPC-A72-173-C <CS19108R173>
    PPC-A72-215-P <CS19108R215P2>
    PPC-A72-236 <CS19108R236P>
    EPC/PPC-A72-101-C(Legacy) <CS12800R101>
    PPC-A72-133-C(Legacy) <CS19108R133>
+   PPC-A72-150-C(Legacy) <CS10768R150>
    PPC-A72-156-C(Legacy) <CS19108R156>
    PPC-A72-215-C(Legacy) <CS19108R215>
