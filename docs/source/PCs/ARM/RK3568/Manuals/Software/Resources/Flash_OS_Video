@@ -1,7 +1,7 @@
 Video Tutorial for Flashing OS
 ------------------------------
 
-Here is a video tutorial we made demonstrating the OS installation process described above in Windows in the **LOADER** mode:
+Here is a video tutorial we made demonstrating the OS installation process described above in Windows in the **LOADER** mode: https://www.youtube.com/watch?v=ufKDCJ1hpf4
 
 .. raw:: html
 
@@ -10,7 +10,7 @@ Here is a video tutorial we made demonstrating the OS installation process descr
 The approach in the video above works best for devices that are still able to boot into the desktop, and when your workstation is a Windows machine. However, if you do not have a Windows machine in the room, you can use the approach below to flash an OS, in a Linux or Mac.
 
 
-Apart from flashing in **LOADER** mode, when you're working on a Linux(X86_64) workstation or MacOS(Intel and Apple Silicon) machine, you can use another approach: **MASKROM** mode, to flash the OS. There is a PROG button on the |ipc|, you can press the button before powering up the device, power up and hold the PROG button for 2~4 seconds, then use a X86_64/darwin_64 *upgrade_tool* program in the command line to flash the OS, here is a video we made to teach you how to do that in two minutes:
+Apart from flashing in **LOADER** mode, when you're working on a Linux(X86_64) workstation or MacOS(Intel and Apple Silicon) machine, you can use another approach: **MASKROM** mode, to flash the OS. There is a PROG button on the |ipc|, you can press the button before powering up the device, power up and hold the PROG button for 2~4 seconds, then use a X86_64/darwin_64 *upgrade_tool* program in the command line to flash the OS, here is a video we made to teach you how to do that in two minutes: https://www.youtube.com/watch?v=TDIHoQ9AuX4
 
 .. raw:: html
 

@@ -1,7 +1,8 @@
-:pdf-build: False
-
+.. include:: /PCs/Shared/pdf_options_software
 
 .. |systemType| replace:: Linux QT
+.. |chip| replace:: AM335X
+
 .. |filename| replace:: prebuilt-som-v3-csxxxxxtxx-v3-ezsdk-sd-yyyymmdd.tar.gz
 .. |folder_name| replace:: ~/prebuilt-som-v3-csxxxxxtxx-v3-ezsdk-sd-yyyymmdd
 .. |bash_script| replace:: ./mksdcard.sh

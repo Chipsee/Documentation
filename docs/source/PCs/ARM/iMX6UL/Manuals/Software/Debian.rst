@@ -1,4 +1,7 @@
-:pdf-build: False
+.. include:: /PCs/Shared/pdf_options_software
+
+.. |systemType| replace:: Debian 8.10
+.. |chip| replace:: iMX6UL
 
 
 Debian 8.10
@@ -6,7 +9,7 @@ Debian 8.10
 
    
 
-.. centered:: Chipsee Debian8.10 User Manual
+.. centered:: Chipsee Debian 8.10 User Manual
 
 .. image:: /Media/Chipsee_Logo_Full.png
    :align: center

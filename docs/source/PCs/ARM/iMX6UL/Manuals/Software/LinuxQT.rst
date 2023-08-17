@@ -1,7 +1,8 @@
-:pdf-build: False
-
+.. include:: /PCs/Shared/pdf_options_software
 
 .. |systemType| replace:: Linux Qt 5.5
+.. |chip| replace:: iMX6UL
+
 
 |systemType| OS
 ###############
