@@ -1,7 +1,9 @@
-:pdf-build: False
-
+.. include:: /PCs/Shared/pdf_options_software
 
 .. |systemType| replace:: Debian 10 (buster)
+.. |chip| replace:: CM4
+
+
 .. |user| replace:: pi
 .. |pswd| replace:: raspberry
 

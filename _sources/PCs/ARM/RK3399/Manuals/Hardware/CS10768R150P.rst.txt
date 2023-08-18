@@ -1,0 +1,151 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: PPC-A72-150-P
+
+.. |productP| replace:: PPC-A72-150-P
+
+.. |PN| replace:: PN: CS10768R150P
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |dispsize| replace:: 15.0"
+
+.. |res| replace:: 1024 x 768
+
+.. |bright| replace:: 400 |cd|
+
+.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |dimE| replace:: NULL
+
+.. |dimP| replace:: 376 x 300 x 57mm
+
+.. |weightE| replace:: NULL
+
+.. |weightP| replace:: 4500g
+
+.. |RAM| replace:: 4GB DDR3
+
+.. |eMMC| replace:: 16GB
+
+.. |tscreen| replace:: 10-point capacitive touch screen
+
+.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |LAN| replace:: 1 x RJ45, GbE
+
+.. |GPIO| replace:: 8 Channels
+
+.. |opt1| replace:: Supported, Optional
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |vin_rng| replace:: From 12V to 36V
+
+.. |cur| replace:: 1.7A Max
+
+.. |pwr| replace:: 20W Typical
+
+.. |temp| replace:: From 0°C to +60°C
+
+.. |rs232| replace:: 3 x RS232 (Optional 5 x RS232 at most, 1 debug port)
+
+.. |rs485| replace:: 2 x RS485
+
+.. |power_img| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-Power.jpg
+                  :align: middle
+                  :width: 576
+
+.. |io_pin_img| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-IO.jpg
+                   :align: middle
+                   :width: 1024
+
+.. |USB2_3_img| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-USB.jpg
+                   :align: middle
+                   :width: 384
+
+.. |USBC_img| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-USBC.jpg
+                   :align: middle
+                   :width: 384
+
+.. |wifi_bt_img| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-ANT.jpg
+                  :align: middle
+                  :width: 384
+
+.. |LAN_img| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-LAN.jpg
+                  :align: middle
+                  :width: 384
+
+.. |SIM_img| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-SIM.jpg
+                  :align: middle
+                  :width: 384
+
+.. |TF_img| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-TF.jpg
+                  :align: middle
+                  :width: 384
+
+.. |audio_img| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-Audio.jpg
+                  :align: middle
+                  :width: 384
+
+.. |Power_btn_img| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-PowerBtn.jpg
+                  :align: middle
+                  :width: 384
+
+.. |Front View| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-Side2.jpg
+                  :class: product-img 
+
+.. _PPC-A72-150-P:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features_2
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table_cs12800r101p
+
+.. include:: Resources/power_cs12800_common
+
+.. include:: Resources/cap_screen_cs12800_common
+
+.. include:: Resources/connectivity_cs12800_common
+
+.. include:: Resources/USB_cs12800_common
+
+.. include:: Resources/LAN_cs12800_common
+
+.. include:: Resources/WiFi_BT_cs12800_common
+
+.. include:: Resources/4G_com_cs12800_common
+
+.. include:: Resources/TF_Card_cs12800_common
+
+.. include:: Resources/Audio_IO_cs12800_common
+
+.. include:: Resources/power_btn_cs12800_common
+
+.. include:: Resources/mounting
+
+.. include:: Resources/mechanical
+
+.. include:: /PCs/Shared/support

@@ -1,5 +1,7 @@
-:pdf-build: False
+.. include:: /PCs/Shared/pdf_options_software
 
+.. |systemType| replace:: Android
+.. |chip| replace:: AIO CM4
 
 AIO-CM4-156 Android Start Guide
 ###############################

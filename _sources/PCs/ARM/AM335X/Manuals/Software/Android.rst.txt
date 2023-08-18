@@ -1,7 +1,9 @@
-:pdf-build: False
-
+.. include:: /PCs/Shared/pdf_options_software
 
 .. |systemType| replace:: Android
+.. |chip| replace:: AM335X
+
+
 .. |filename| replace:: prebuilt-jb-hmi-XXXX.tar.gz
 .. |folder_name| replace:: ~/Prebuilt-cs-androidXXXXX/prebuilt-sd/
 .. |bash_script| replace:: ./mkmmc-android.sh

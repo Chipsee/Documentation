@@ -1,5 +1,4 @@
-:pdf-build: False
-
+.. include:: /PCs/Shared/pdf_options_software
 
 .. |systemType| replace:: Android 11
 .. |chip| replace:: RK3568
@@ -247,5 +246,3 @@ Flashing OS Image
 .. include:: Resources/Flash_OS_Video
 
 .. include:: /PCs/Shared/support
-
-.. include:: Resources/Development_On_Going
