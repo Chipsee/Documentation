@@ -17,7 +17,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "Chipsee Documentation Sample"
-copyright = "2021, Chipsee"
+copyright = "2023, Chipsee"
 author = "Chipsee"
 version = "1.1"
 
@@ -147,8 +147,8 @@ pygments_style = "perldoc"
 # Sphinx-PDF-Generate configurations
 pdfgen_verbose = False
 pdfgen_site_url = "https://docs.chipsee.com"
-# pdfgen_debug = True
-# pdfgen_debug_target = "PCs/ARM/RK3568/Manuals/Hardware/CS19108-RK3568-236P.rst"
+#pdfgen_debug = True
+#pdfgen_debug_target = "PCs/Pi/Software/Debian.rst"
 pdfgen_author = "Chipsee"
 pdfgen_copyright = copyright
 pdfgen_disclaimer = "Content can change at anytime. It's best to refer to website for latest information."

@@ -1,5 +1,4 @@
-:pdf-build: False
-
+.. include:: /PCs/Shared/pdf_options_software
 
 .. |systemType| replace:: Debian 11
 .. |chip| replace:: RK3568

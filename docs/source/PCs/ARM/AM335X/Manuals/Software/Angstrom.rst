@@ -1,7 +1,9 @@
-:pdf-build: False
-
+.. include:: /PCs/Shared/pdf_options_software
 
 .. |systemType| replace:: Angstrom
+.. |chip| replace:: AM335X
+
+
 .. |filename| replace:: prebuilt-angstrom-XXXXXX.tar.gz
 .. |folder_name| replace:: ~/prebuilt-angstrom-XXXXXX
 .. |bash_script| replace:: ./mksdcard.sh
