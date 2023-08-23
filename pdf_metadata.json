@@ -837,6 +837,9 @@
         "SOM/index": {
             "pdf-build": "False"
         },
+        "ThreeD/three_d_model": {
+            "orphan": ""
+        },
         "TutorialGuide/index": {
             "pdf-build": "False"
         },
