@@ -5,4 +5,4 @@
 
 .. raw:: html
 
-   <button class="btn btn-outline-primary btn-lg html-only" id="3d-link" onclick="handleThreeDButtonClick()">3D Model</button>
+   <a href="/ThreeD/three_d_model.html" class="html-only fs-4" id="3d-link" target="_blank">View 3D Model</a>

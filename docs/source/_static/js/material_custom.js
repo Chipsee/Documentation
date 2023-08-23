@@ -98,11 +98,11 @@ if (sidebar_item != null){
 
 
 // Add query param to let 3D js know what product it needs to display, open 3D page.
-function handleThreeDButtonClick() {
-    const link_elem = document.getElementById("3d-link");
-    const productPN = document.querySelector("#d-model>p").textContent.split(' ')[0];
-    if (link_elem && productPN) {
-        const href = `/ThreeD/three_d_model.html?productModel=${productPN}`;
-        window.open(href, '_blank');
+function addParamToThreeD() {
+    const linkElem = document.getElementById("3d-link");
+    const productPN = document.querySelector("#d-model>p")
+    if (linkElem && productPN) {
+        linkElem.href += `?productModel=${productPN.textContent.split(' ')[0]}`;
     }
 }
+addParamToThreeD();
