@@ -838,6 +838,7 @@
             "pdf-build": "False"
         },
         "ThreeD/three_d_model": {
+            "pdf-build": "False",
             "orphan": ""
         },
         "TutorialGuide/index": {

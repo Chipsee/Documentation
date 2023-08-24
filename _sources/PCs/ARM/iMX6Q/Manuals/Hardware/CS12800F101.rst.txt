@@ -197,4 +197,6 @@ product measurements.
     * When you use product |productE|, you should not touch the circuit board on the back of the product if the product is powered ON.
     * Also, when the product is powered OFF, please take anti-static measures before touching the circuit board.
 
+.. include:: /PCs/Shared/Hardware/three_d
+
 .. include:: /PCs/Shared/support
