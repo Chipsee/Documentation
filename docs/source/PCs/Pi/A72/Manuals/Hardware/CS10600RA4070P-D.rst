@@ -225,4 +225,6 @@
 
    |productP| Technical Drawing
 
+.. include:: /PCs/Shared/Hardware/three_d
+
 .. include:: /PCs/Shared/support
