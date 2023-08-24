@@ -2,8 +2,8 @@
 
 :orphan:
 
-3D Model
-========
+3D Model Viewer
+===============
 
 Loading... Large model may take some time...
 

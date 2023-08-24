@@ -125,4 +125,6 @@ The outer mechanical dimensions of |product| are |dim| (W x L x H).
 
 You can find detailed information about mounting in the |mguide|.
 
+.. include:: /PCs/Shared/Hardware/three_d
+
 .. include:: /PCs/Shared/support
