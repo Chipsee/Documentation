@@ -1,11 +1,11 @@
-:pdf-title: PIM-156-C-P
+:pdf-title: PIM-156-P
 :pdf-subtitle: PN: CS-D156P
-:pdf-filename: PIM-156-C-P
+:pdf-filename: PIM-156-P
 :pdf-type: displays
 :pdf-revision: 1.1
 
 
-.. |product| replace:: PIM-156-C-P
+.. |product| replace:: PIM-156-P
 
 .. |PN| replace:: PN: CS-D156P
 
@@ -49,20 +49,20 @@
 
 .. |stemp| replace:: From -30°C to +80°C, 90% RH
 
-.. _product_link: https://chipsee.com/product/pim156cp/
+.. _product_link: https://chipsee.com/product/pim-156-p/
 
-.. |product_link| replace:: PIM-156-C-P
+.. |product_link| replace:: PIM-156-P
 
-.. |Front View| image:: /Media/Displays/PIM-156-C-P/pim-156p-front.png
+.. |Front View| image:: /Media/Displays/PIM-156-P/pim-156p-front.png
                   :class: product-img
 
-.. |Rear View| image:: /Media/Displays/PIM-156-C-P/pim-156p-back.jpeg
+.. |Rear View| image:: /Media/Displays/PIM-156-P/pim-156p-back.jpeg
                   :class: product-img
 
-.. |Side View| image:: /Media/Displays/PIM-156-C-P/pim-156p-bottom.jpeg
+.. |Side View| image:: /Media/Displays/PIM-156-P/pim-156p-bottom.jpeg
                   :class: product-img
 
-.. _PIM-156-C-P:
+.. _PIM-156-P:
 
 |product|
 #########
@@ -89,7 +89,7 @@ Specification
 
 .. include:: Resources/mechspecs
 
-.. figure:: /Media/Displays/PIM-156-C-P/pim-156p-sd.jpeg
+.. figure:: /Media/Displays/PIM-156-P/pim-156p-sd.jpeg
    :figclass: align-center
    :class: no-scaled-link
 
