@@ -1,0 +1,165 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: PPC-A55-121
+
+.. |productP| replace:: PPC-A55-121
+
+.. |PN| replace:: PN: CS10768-RK3568-121P
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |dispsize| replace:: 12.1"
+
+.. |res| replace:: 1024 x 768
+
+.. |bright| replace:: 400 |cd|
+
+.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
+
+.. |dimE| replace:: NULL
+
+.. |dimP| replace:: 320 * 260 * 55.5mm
+
+.. |weightE| replace:: NULL
+
+.. |weightP| replace:: 3100g
+
+.. |RAM| replace:: Samsung 2GB LPDDR4X, 4266 Mbps
+
+.. |eMMC| replace:: 16GB
+
+.. |tscreen| replace:: 10-point capacitive touch screen
+
+.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |LAN| replace:: 1 x RJ45, GbE
+
+.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
+
+.. |opt1| replace:: Supported, Optional
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |vin_rng| replace:: From 12V to 36V
+
+.. |cur| replace:: 1000mA Max at 12V
+
+.. |pwr| replace:: 12W Typical
+
+.. |temp| replace:: From 0°C to +60°C
+
+.. |rs232| replace:: Default to 2 x RS232 (including 1 debug port). Up to 6 x RS232.
+
+.. |rs485| replace:: Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232.
+
+.. |can| replace:: Default to 2 x CAN. Optionally, these 2 x CAN can be configured to RS232.
+
+.. |power_img| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-Power.jpg
+                  :align: middle
+                  :width: 384
+
+.. |io_pin_img| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-IO.jpg
+                   :align: middle
+                   :width: 768
+
+.. |USB2_img| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-USB2.jpg
+                   :align: middle
+                   :width: 384
+
+.. |USB3_img| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-USB3.jpg
+                   :align: middle
+                   :width: 384
+
+.. |USBC_img| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-USBC.jpg
+                   :align: middle
+                   :width: 384
+
+.. |wifi_bt_img| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-WIFIBT.jpg
+                  :align: middle
+                  :width: 384
+
+.. |sim_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-SIM.jpg
+                  :align: middle
+                  :width: 640
+                  
+.. |LAN_img| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-LAN.jpg
+                  :align: middle
+                  :width: 384
+
+.. |TF_SIM_img| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-TF-SIM.jpg
+                  :align: middle
+                  :width: 384
+
+.. |audio_img| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-Audio.jpg
+                  :align: middle
+                  :width: 192
+
+.. |HDMI_img| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-HDMI.jpg
+                  :align: middle
+                  :width: 384
+
+.. |PROG_btn_img| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-Prog.jpg
+                  :align: middle
+                  :width: 384
+
+.. |Front View| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-Side2.jpg
+                  :class: product-img                 
+                  
+.. _PPC-A55-121:
+
+|product|
+#########
+
+.. rubric:: *Version 1.1*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen_usb
+
+.. include:: Resources/connectivity_CS12800-RK3568-101P
+
+.. include:: Resources/USB-101P
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi_BT
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/m2_slot
+
+.. include:: Resources/TF_Card_CS12800-RK3568-101P
+
+.. include:: Resources/Audio_IO_CS12800-RK3568-101P
+
+.. include:: Resources/HDMI
+
+.. include:: Resources/Prog_btn_CS12800-RK3568-101P
+
+.. include:: Resources/mounting
+
+.. include:: Resources/mechanical
+
+.. include:: /PCs/Shared/support
