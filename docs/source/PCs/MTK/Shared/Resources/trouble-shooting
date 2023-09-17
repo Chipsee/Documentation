@@ -1,0 +1,23 @@
+Trouble Shooting
+================
+
+If below **situations** occur, please follow the instructions to fix the issues. Contact a professional if none of these help.
+
+* Device Does Not Turn On
+	#. *(Not pressing the power button correctly)* Hold the power button for at least 2 seconds.
+	#. *(Insufficient power)* Charge the battery.
+* Some Applications Do Not Launch
+	#. *(Insufficient storage)* Delete unnecessary media and apps, delete downloaded contents.
+* Short Standby Time
+	#. *(Battery performance degradation)* Replace the battery with a new one.
+	#. *(Playing games or music)* Restrict gaming and music playing activities.
+* Charging
+	#. *(Bad contact)* Check or replace the power cable and plug.
+	#. *(Low battery label)* Charge for 30 minutes(charging indicator often does not display), unplug, then plug in the power cable to charge again.
+	#. *(Battery faults)* Replace the battery with a new one.
+	#. *(Charger faults)* Use a proper charger or repair the charger.
+	#. *(Using a wrong charger model)* Use a proper charger.
+* Device Turns Off Automatically
+	#. *(Insufficient power)* Charge the battery.
+	#. *(Settings related)* Check if the device is set to power off automatically intentionally.
+	#. *(External interference)* Reboot.

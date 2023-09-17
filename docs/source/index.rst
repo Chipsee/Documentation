@@ -71,6 +71,20 @@ Home
 
     .. grid-item-card::
         :columns: 12 6 6 4
+        :link: pbh
+        :link-type: ref
+        :img-top: /Media/homepage/Product_7_Chipsee.jpg
+        :class-card: border
+        :text-align: center
+
+        .. raw:: html
+
+            <p class="card-head">
+                <b> <span style="color: #ef3d30;">ARM</span> Handheld PC</b> <br> MTK
+            </p>            
+
+    .. grid-item-card::
+        :columns: 12 6 6 4
         :link: im
         :link-type: ref
         :img-top: /Media/homepage/Product_4_Chipsee.jpg
