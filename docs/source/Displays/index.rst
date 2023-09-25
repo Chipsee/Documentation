@@ -81,7 +81,7 @@ Chipsee industrial displays provide a solid and durable solution that customers 
 
 .. |PIM-156-P| image:: /Media/Displays/PIM-156-P/pim-156p-front.png
    :class: no-scaled-link
-   :target: PIM-156-P.html
+   :target: PIM-156-C-P.html
 
 .. table::
    :widths: 20 30
@@ -185,7 +185,7 @@ Chipsee industrial displays provide a solid and durable solution that customers 
    PIM-125-C <PIM-125-C>
    PIM-150-C <PIM-150-C>
    PIM-156-C <PIM-156-C>
-   PIM-156-P <PIM-156-P>
+   PIM-156-P <PIM-156-C-P>
    PIM-170-C <PIM-170-C>
    PIM-185-C <PIM-185-C>
    PIM-190-C <PIM-190-C>
