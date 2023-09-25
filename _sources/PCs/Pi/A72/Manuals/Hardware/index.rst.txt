@@ -75,7 +75,7 @@ Cortex-A72 Hardware Documentation
    |                     |   12.1", 1024 x 768, 10-point capacitive touch screen                  |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC-CM4-121| image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-front.jpg
+.. |PPC-CM4-121| image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-Front.jpg
    :class: no-scaled-link
    :target: CS10768RA4121.html
 
@@ -173,7 +173,6 @@ Cortex-A72 Hardware Documentation
    :maxdepth: 1
    :titlesonly:
    :hidden:
-
 
    PPC-CM4-050 <CS12720RA4050-C121>
    EPC/PPC-CM4-070 <CS10600RA4070>

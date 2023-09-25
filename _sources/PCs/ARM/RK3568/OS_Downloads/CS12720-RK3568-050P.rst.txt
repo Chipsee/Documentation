@@ -1,7 +1,7 @@
 :pdf-build: False
 
 
-PPC-A55-050-C (PN: CS12720-RK3568-050P)
+PPC-A55-050 (PN: CS12720-RK3568-050P)
 #######################################
 
 We compress the img file to img.xz file which will reduce file size and save time to download it to use. 

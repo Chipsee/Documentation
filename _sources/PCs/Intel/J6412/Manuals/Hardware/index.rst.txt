@@ -128,7 +128,7 @@ J6412 Hardware Documentation
    |                   |   2.5" SATA, WiFi/WAN (optional), RS232/485, GPIO                      |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PPC-J6412-236| image:: /Media/Intel/J6412/PPC-J6412-236-C/PPC-J6412-236-C-Front.png
+.. |PPC-J6412-236| image:: /Media/Intel/J6412/PPC-J6412-236-C/PPC-J6412-236-C-Front.jpg
    :class: no-scaled-link
    :target: PPC-J6412-236-C.html
 
