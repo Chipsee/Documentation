@@ -2,7 +2,7 @@ Zigbee Module
 -------------
 
 |Product| supports an onboard Zigbee module. The Zigbee controller is TI CC2531, and the Raspberry Pi forum supports it. |br| |br|
-For |productP|, there is a connector on the backside of the case that you can use to connect the external Zigbee antenna, as described in the figure below.
+For |productP|, there is a connector on the backside of the case that you can use to connect the external Zigbee antenna, as described in the figure below. If you need to use WiFi/BT and Zigbee together, we can customized the case and add another SMA connector for you, usually across the rear to the opposite of the current SMA.
 
 .. figure:: /Media/Pi/A72/Others/ZigBee_Con.jpeg
    :align: center
