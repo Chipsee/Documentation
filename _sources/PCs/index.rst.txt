@@ -14,6 +14,10 @@ Chipsee Industrial Panel & Embedded PCs provide a solid and durable solution tha
 * :ref:`Powered by Intel platform <PBI>`
 * :ref:`Powered by Raspberry PI platform <PBPI>`
 
+Handheld Rugged Tablet PCs
+
+* :ref:`Products by MediaTek platform <PBH>`
+
 
 .. toctree::
    :maxdepth: 1
@@ -23,3 +27,6 @@ Chipsee Industrial Panel & Embedded PCs provide a solid and durable solution tha
    Powered by Arm <ARM/index>
    Powered by Intel <Intel/index>
    Powered by Raspberry Pi <Pi/index>
+   Powered by MTK <MTK/index>
+
+   

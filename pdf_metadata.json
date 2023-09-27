@@ -56,7 +56,7 @@
             "pdf-type": "displays",
             "pdf-revision": "1.1"
         },
-        "Displays/PIM-156-P": {
+        "Displays/PIM-156-C-P": {
             "pdf-title": "PIM-156-P",
             "pdf-subtitle": "PN: CS-D156P",
             "pdf-filename": "PIM-156-P",
@@ -718,6 +718,36 @@
             "pdf-build": "False"
         },
         "PCs/Intel/index": {
+            "pdf-build": "False"
+        },
+        "PCs/MTK/MT6737/Manuals/Hardware/HPC-MT6737-035": {
+            "pdf-title": "HPC-MT6737-035",
+            "pdf-subtitle": "PN: HPC-MT6737-035",
+            "pdf-filename": "HPC-MT6737-035",
+            "pdf-type": "ipc"
+        },
+        "PCs/MTK/MT6737/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/MTK/MT6762/Manuals/Hardware/HPC-MT6762-057": {
+            "pdf-title": "HPC-MT6762-057",
+            "pdf-subtitle": "PN: HPC-MT6762-057",
+            "pdf-filename": "HPC-MT6762-057",
+            "pdf-type": "ipc"
+        },
+        "PCs/MTK/MT6762/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/MTK/MT6771/Manuals/Hardware/HPC-MT6771-080": {
+            "pdf-title": "HPC-MT6771-080",
+            "pdf-subtitle": "PN: HPC-MT6771-080",
+            "pdf-filename": "HPC-MT6771-080",
+            "pdf-type": "ipc"
+        },
+        "PCs/MTK/MT6771/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/MTK/index": {
             "pdf-build": "False"
         },
         "PCs/Pi/A53/Manuals/Hardware/CS10600RA070": {

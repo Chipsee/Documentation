@@ -1,0 +1,221 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: HPC-MT6737-035
+
+.. |Product| replace:: The |product| Handheld Tablet PC
+
+.. |PN| replace:: PN: |product|
+
+.. |tscreen| replace:: Capacitive Touch Screen
+
+.. |Front View| image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Side2.jpg
+                  :class: product-img 
+                  
+.. _HPC-MT6737-035:
+
+
+|product|
+#########
+
+.. include:: /PCs/Shared/four_main_images
+
+
+Overview
+========
+
+The |product| is an industrial handheld barcode scanner, it is produced with two-color injection molding, IP65 standard protection, suitable for harsh environments, such as ticket inspection, retail, warehousing, supermarkets, transportation, logistics and other fields.
+
+It features a 28nm Quad(4) core, 1.3GHz Cortex-A53 ARM CPU, Android 7.0 operating system, 2GB RAM, 16GB storage, 3.5 inch capacitive touch panel. And various barcode scanner options.
+
+Hardware Specification
+======================
+
+
++------------------+-------------------------------------------------------------------------------------------------+
+| CPU              | MediaTek MT6737, Quad(4)-Core, 4 x 1.3GHz ARM Cortex-A53                                        |
++==================+=================================================================================================+
+| GPU              | Mali-T720 MP2                                                                                   |
++------------------+-------------------------------------------------------------------------------------------------+
+| OS               | Android 7.0                                                                                     |
++------------------+-------------------------------------------------------------------------------------------------+
+| RAM/Storage      | 2GB+16GB                                                                                        |
++------------------+-------------------------------------------------------------------------------------------------+
+| Display          | 3.5 inch (diagonal), 320x480, capacitive touch                                                  |
++------------------+-------------------------------------------------------------------------------------------------+
+| Camera           | 5MP Rear camera                                                                                 |
++------------------+-------------------------------------------------------------------------------------------------+
+| WiFi             | Support for 802.11 a/b/g/n WiFi                                                                 |
++------------------+-------------------------------------------------------------------------------------------------+
+| Bluetooth        | Support for BT 4.0 (backwards compatible)                                                       |
++------------------+-------------------------------------------------------------------------------------------------+
+| GPS              | Support for GPS                                                                                 |
++------------------+-------------------------------------------------------------------------------------------------+
+| Cellular         | Support for 4G/LTE(B1, B3, B7, B8, B39, B40, B41), WCDMA, EDGE, GSM                             |
++------------------+-------------------------------------------------------------------------------------------------+
+| RFID             | Support for low frequency and high frequency RFID (**optional**)                                |
++------------------+-------------------------------------------------------------------------------------------------+
+| USB              | 1 x USB2.0                                                                                      |
++------------------+-------------------------------------------------------------------------------------------------+
+| Keyboard         | Support for on device 29-key keyboard (incl. side keys)                                         |
++------------------+-------------------------------------------------------------------------------------------------+
+| Audio            | Support for stereo speaker, microphone                                                          |
++------------------+-------------------------------------------------------------------------------------------------+
+| External Storage | Support for up to 128GB TF(MicroSD)                                                             |
++------------------+-------------------------------------------------------------------------------------------------+
+| Weight           | Around 200g                                                                                     |
++------------------+-------------------------------------------------------------------------------------------------+
+| Battery          | 5000mAh removable battery, 7+ days standby time, 12+ hours operation time (depends on use case) |
++------------------+-------------------------------------------------------------------------------------------------+
+| Dimension        | 185 x 71 x 35 mm                                                                                |
++------------------+-------------------------------------------------------------------------------------------------+
+| Operating Temp.  | -15°C ~ 65°C                                                                                    |
++------------------+-------------------------------------------------------------------------------------------------+
+| 1D Scanner       | Symbol SE955, Honeywell N4300, Mindeo UE966 (optional)                                          |
++------------------+-------------------------------------------------------------------------------------------------+
+| 2D Scanner       | Newland(**default**), Zebra(optional), Honeywell(optional).                                     |
++------------------+-------------------------------------------------------------------------------------------------+
+| Color            | Brilliant yellow + black                                                                        |
++------------------+-------------------------------------------------------------------------------------------------+
+
+Standard Accessories
+====================
+
+The standard accessories include:
+
+* 1 x Hand strap.
+* 1 x USB-A to DC cable.
+* 1 x USB-A to USB-C cable.
+* 1 x Charger.
+
+.. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Accessories.jpg
+   :align: center
+   :width: 800
+   :alt: accessories
+
+Charging
+========
+
+You can use the bottom charging port to charge the battery in the device directly.
+
+.. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Charge.jpg
+   :align: center
+   :width: 800
+   :alt: charge-ports
+
+We also provide **optional** standalone battery chargers, you can take out the battery from the device, and charge them in the separate charger.
+
+In addition to the battery that comes inside the device, we also provide **optional** backup batteries, such that you can swap batteries whenever one runs out of power without interrupting the production.
+
+The |product| does not ship with a standalone battery charger or the backup batteries by default.
+
+Scanner
+=======
+
+By default, the product ships with a Newland scanner, you can optionally choose other scanners when placing an order.
+
+.. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Scanner.jpg
+   :align: center
+   :width: 480
+   :alt: scanner
+
+We provide optional scanner modules including:
+
+#. 1D Scanner
+    #) Compatible with Symbol SE955, Honeywell N4300, Mindeo UE966 scanners.
+    #) Support for UPC/EAN, Code128, Code39, Code93, Interleaved 2 of 5, Chinese 2 of 5, Codabar, MSI, RSS, Data Options
+    #) Working current: 50mA
+#. 2D Scanner
+    #) Compatible with Zebra, Newland, Honeywell scanners.
+    #) Support for Code39, PDF417, Data Matrix and common 1D barcode.
+    #) Working current: 450mA
+
+
+RFID
+====
+
+The device supports an optional RFID module:
+
+.. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-RFID.jpg
+   :align: center
+   :width: 480
+   :alt: scanner
+
+This device **does not** ship with RFID module by default, but you can select the RFID modules while placing an order, the supported modules are:
+
+#. High Frequency RFID
+    #) 13.56MHz, ISO14443A/ISO14443B/ISO15693.
+    #) Read/write distance: 0 ~ 5 cm.
+#. Low Frequency RFID
+    #) 125kHz/134.2kHz, UEM4100 compatible, ISO11784/ISO11785.
+    #) Read/write distance: 0 ~ 5 cm.
+
+
+Buttons
+=======
+
+There are 29 buttons on the device.
+
+By default, the three yellow buttons (left yellow button, right yellow button, yellow button on top of the main keyboard) are shortcuts to trigger the scanner.
+
+F3 and F4 have no definition, they can be customized when you place an order, we will set them in the factory for you.
+
+.. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Buttons.jpg
+   :align: center
+   :width: 480
+   :alt: buttons-yellow
+
+TF/SIM Card
+===========
+
+There is a TF card (microSD) slot on the device, it supports up to 128GB external storage.
+
+There is a SIM card slot on the device, as shown in the image below:
+
+.. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-SIMTF.jpg
+   :align: center
+   :width: 800
+   :alt: sim-tf
+
+Camera
+======
+
+The device has a rear 5MP camera by default, it also has a flashlight, and supports autofocus.
+
+.. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Camera.jpg
+   :align: center
+   :width: 640
+   :alt: camera
+
+Rear Lock
+=========
+
+When you need to remove the battery or open the rear case, there is a lock in the rear as shown in the image below. It helps seal the case when it is switched to the "lock" side, and in this case, the rear case cannot be opened.
+
+You can switch the lock to the "unlock" side, if you need to open the rear case.
+
+.. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Lock.jpg
+   :align: center
+   :width: 480
+   :alt: lock
+
+Dimension
+=========
+
+The dimension of this product is 185 x 71 x 35 mm.
+
+.. include:: /PCs/MTK/Shared/Resources/when-operating
+
+.. include:: /PCs/MTK/Shared/Resources/safety
+
+.. include:: /PCs/MTK/Shared/Resources/trouble-shooting
+
+.. include:: /PCs/Shared/support
