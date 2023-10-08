@@ -64,7 +64,7 @@
 .. |Rear View| image:: /Media/Pi/AIO/CS12800RA4101A/CS12800RA4101A-Back.jpeg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/Pi/AIO/CS12800RA4101A/CS12800RA4101A-Side.jpeg
+.. |Side View 1| image:: /Media/Pi/AIO/CS12800RA4101A/CS12800RA4101A-Side.jpg
                   :class: product-img
 
 .. |Side View 2| image:: /Media/Pi/AIO/CS12800RA4101A/101-Side.jpeg
