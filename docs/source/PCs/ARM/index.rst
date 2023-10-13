@@ -30,6 +30,16 @@ the repository much easier.
    i.MX6UL Software Documentation <iMX6UL/Manuals/Software/index>
    i.MX6UL OS Downloads <iMX6UL/OS_Downloads/index>
 
+.. rubric:: Products by platform: |Cortex|-A53 (NXP i.MX8MP)
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   i.MX8MP Hardware Documentation <iMX8MP/Manuals/Hardware/index> 
+   i.MX8MP Software Documentation <iMX8MP/Manuals/Software/index>
+   i.MX8MP OS Downloads <iMX8MP/OS_Downloads/index>
+
 .. rubric:: Products by platform: |Cortex|-A72/53 (Rockchip RK3399)
 
 .. toctree::
