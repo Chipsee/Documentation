@@ -12,7 +12,7 @@ Operating System
 
 This product comes with a pre-installed OS of your choice. Please see the list below for the supported OSes, which can also be obtained from the :ref:`Software Documentation <IMX8MP_OS>` section, along with the detailed installation instructions.
 
-* Android 11
+* Android 12
 * Yocto Linux Qt 6.3
 
 .. warning::
