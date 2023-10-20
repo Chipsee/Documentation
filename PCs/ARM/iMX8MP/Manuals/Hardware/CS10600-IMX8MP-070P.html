@@ -648,7 +648,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </section>
 <section id="optional-features">
 <h3 id="optional-features">Optional Features<a class="headerlink" href="#optional-features" title="Permalink to this heading">¶</a></h3>
-<p>The PPC-IMX8MP-070 Industrial Panel PC does not include 4G/LTE module by default. The module is optional and can be selected at the Chipsee store during the ordering process.</p>
+<p>The PPC-IMX8MP-070 Industrial Panel PC does not include the 4G/LTE module by default. The module is optional and can be selected at the Chipsee store during the ordering process.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Installation, repair, and maintenance tasks should be performed by trained personnel only.
@@ -754,7 +754,7 @@ Some of the key features are listed in the table below.</p>
 <hr class="docutils"/>
 <dl class="footnote brackets">
 <dt class="label" id="usbcmt"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
-<dd><p>USB3.0 port and USB-C port shares one node and cannot be used together. In Linux USB3.0 HOST is enabled by default; in Android USB-C OTG is enabled by default. You can change this config by software in the operating systems, e.g.: disable USB3.0 HOST then enable USB-C OTG in Linux, or vice versa in Android.</p>
+<dd><p>USB3.0 port and USB-C port share one node and cannot be used together. In Linux USB3.0 HOST is enabled by default; in Android USB-C OTG is enabled by default. You can change this config by software in the operating systems, e.g.: disable USB3.0 HOST then enable USB-C OTG in Linux, or vice versa in Android.</p>
 </dd>
 <dt class="label" id="at"><span class="brackets">2</span><span class="fn-backref">(<a href="#id2">1</a>,<a href="#id3">2</a>)</span></dt>
 <dd><p>This product has 3 x CPU UART, 2 x USB UART by default, 6 x UART channels at most. The default configuration is 2 x RS232 and 3 x RS485, including 1 RS232 debug port. There is 1 x CAN that can be configured to RS232 (USB UART). UART can be swapped between RS232 and RS485 modes easily, if you need a different RS232/RS485/CAN configuration, please get in touch with the Chipsee Technical Support at <a class="reference external" href="mailto:support%40chipsee.com"><strong>support<span>@</span>chipsee<span>.</span>com</strong></a> when placing an order.</p>
@@ -818,7 +818,7 @@ with the other hand. In this case, the operator’s body acts as the Power Syste
 </section>
 <section id="connectivity">
 <h2 id="connectivity">Connectivity<a class="headerlink" href="#connectivity" title="Permalink to this heading">¶</a></h2>
-<p>There are many connectivity options available on the PPC-IMX8MP-070 industrial PC. It has 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C (USB3.0 and USB-C shares one node); 2 x RJ45, GbE, including <strong>1 x optional</strong> Power over Ethernet (PoE) port; up to 6 x UART terminals (RS232/RS485), up to 2 x CAN.</p>
+<p>There are many connectivity options available on the PPC-IMX8MP-070 industrial PC. It has 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C (USB3.0 and USB-C share one node); 2 x RJ45, GbE, including <strong>1 x optional</strong> Power over Ethernet (PoE) port; up to 6 x UART terminals (RS232/RS485), up to 2 x CAN.</p>
 <section id="rs232-rs485-can">
 <h3 id="rs232-rs485-can">RS232/RS485/CAN<a class="headerlink" href="#rs232-rs485-can" title="Permalink to this heading">¶</a></h3>
 <p>The serial communication interfaces (RS485, RS232, and CAN) are routed to a <strong>16-pin 3.81mm terminal</strong>, as illustrated on the figure below.</p>
@@ -916,7 +916,7 @@ with the other hand. In this case, the operator’s body acts as the Power Syste
 <h3 id="gpio-port">GPIO Port<a class="headerlink" href="#gpio-port" title="Permalink to this heading">¶</a></h3>
 <p>The PPC-IMX8MP-070 Industrial Panel PC has a 10 Pin 3.81mm <strong>GPIO Connector</strong>, as shown in the figure below.
 The table below gives details about the definition of every Pin.</p>
-<p>The VDD_ISO is a isolated power <em>input</em> pin, you should attach a 5~24V DC power input to this pin.</p>
+<p>The VDD_ISO is an isolated power <em>input</em> pin, you should attach a 5~24V DC power input to this pin.</p>
 <p>It is also possible to use the onboard 5V power supply. The 5V on board power supply can be re-routed to the <em>Isolated Power Input</em> pin by populating R236 and R239 PCB footprints with 0Ω resistors <strong>in the factory</strong>. In this case you don’t need to provide a DC power supply unit to use the GPIO, and the <em>VDD_ISO</em> input will become a <em>5V OUTPUT</em> powered by the on board 5V.</p>
 <p class="text-center"><a class="reference internal" href="../../../../../_images/CS10600-IMX8MP-070P-GPIO.jpg"><img alt="gpio_img" class="align-middle" src="../../../../../_images/CS10600-IMX8MP-070P-GPIO.jpg" style="width: 768px;"/></a></p>
 <p class="text-center"><em>GPIO</em></p>
@@ -983,7 +983,7 @@ The table below gives details about the definition of every Pin.</p>
 <h3 id="usb-connectors">USB Connectors<a class="headerlink" href="#usb-connectors" title="Permalink to this heading">¶</a></h3>
 <p>There are 2 x <strong>USB HOST</strong> and 1 x <strong>USB DEVICE</strong> (for flashing OS) ports onboard: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
 , as shown in the figures below.</p>
-<p>USB3.0 port and USB-C port shares one node and cannot be used together. In Linux USB3.0 HOST is enabled by default; in Android USB-C OTG is enabled by default. You can change this config by software in the operating systems, e.g.: disable USB3.0 HOST then enable USB-C OTG in Linux, or vice versa in Android.</p>
+<p>USB3.0 port and USB-C port share one node and cannot be used together. In Linux USB3.0 HOST is enabled by default; in Android USB-C OTG is enabled by default. You can change this config by software in the operating systems, e.g.: disable USB3.0 HOST then enable USB-C OTG in Linux, or vice versa in Android.</p>
 <p class="text-center"><a class="reference internal" href="../../../../../_images/CS10600-IMX8MP-070P-USB2.jpg"><img alt="USB2_img" class="align-middle" src="../../../../../_images/CS10600-IMX8MP-070P-USB2.jpg" style="width: 384px;"/></a></p>
 <p class="text-center"><em>USB 2.0 HOST Port (embedded / enclosed PC version)</em></p>
 <p class="text-center"><a class="reference internal" href="../../../../../_images/CS10600-IMX8MP-070P-USB3.jpg"><img alt="USB3_img" class="align-middle" src="../../../../../_images/CS10600-IMX8MP-070P-USB3.jpg" style="width: 384px;"/></a></p>
