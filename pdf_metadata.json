@@ -579,6 +579,27 @@
         "PCs/ARM/iMX6UL/OS_Downloads/index": {
             "pdf-build": "False"
         },
+        "PCs/ARM/iMX8MP/Manuals/Hardware/CS10600-IMX8MP-070P": {
+            "pdf-title": "PPC-IMX8MP-070",
+            "pdf-subtitle": "PN: CS10600-IMX8MP-070P",
+            "pdf-filename": "PPC-IMX8MP-070",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/iMX8MP/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX8MP/Manuals/Software/Yocto_Linux_QT_6_3": {
+            "pdf-title": "Yocto Linux Qt 6.3 OS on i.MX8MP User Manual",
+            "pdf-subtitle": "For i.MX8MP Products",
+            "pdf-filename": "Yocto Linux Qt 6.3 OS on i.MX8MP User Manual",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/iMX8MP/Manuals/Software/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/iMX8MP/OS_Downloads/index": {
+            "pdf-build": "False"
+        },
         "PCs/ARM/index": {
             "pdf-build": "False"
         },
