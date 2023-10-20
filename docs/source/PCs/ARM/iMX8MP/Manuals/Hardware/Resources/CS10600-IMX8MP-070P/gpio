@@ -4,7 +4,7 @@ GPIO Port
 |Product| has a 10 Pin 3.81mm **GPIO Connector**, as shown in the figure below.
 The table below gives details about the definition of every Pin.
 
-The VDD_ISO is a isolated power *input* pin, you should attach a 5~24V DC power input to this pin. 
+The VDD_ISO is an isolated power *input* pin, you should attach a 5~24V DC power input to this pin. 
 
 It is also possible to use the onboard 5V power supply. The 5V on board power supply can be re-routed to the *Isolated Power Input* pin by populating R236 and R239 PCB footprints with 0Ω resistors **in the factory**. In this case you don't need to provide a DC power supply unit to use the GPIO, and the *VDD_ISO* input will become a *5V OUTPUT* powered by the on board 5V.
 
