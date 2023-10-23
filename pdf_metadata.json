@@ -426,6 +426,12 @@
         "PCs/ARM/RK3568/OS_Downloads/CS12800-RK3568-101P": {
             "pdf-build": "False"
         },
+        "PCs/ARM/RK3568/OS_Downloads/CS19108-RK3568-133P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3568/OS_Downloads/CS19108-RK3568-156P": {
+            "pdf-build": "False"
+        },
         "PCs/ARM/RK3568/OS_Downloads/index": {
             "pdf-build": "False"
         },
