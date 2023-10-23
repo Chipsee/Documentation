@@ -1,7 +1,7 @@
-:pdf-build: False
-
+.. include:: /PCs/Shared/pdf_options_software
 
 .. |systemType| replace:: Android 6.0
+.. |chip| replace:: iMX6Q
 
 |systemType| OS
 ###############

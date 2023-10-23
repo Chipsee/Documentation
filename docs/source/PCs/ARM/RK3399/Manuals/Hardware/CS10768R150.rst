@@ -61,6 +61,7 @@
                   
 .. _PPC-A72-150-C:
 
+
 |product|
 #########
 
@@ -69,20 +70,19 @@
 
 .. include:: /PCs/Shared/four_main_images
 
+.. include:: Legacy_Resources/133_150_156_215/overview
 
-.. include:: Resources/overview
+.. include:: Legacy_Resources/133_150_156_215/ordering
 
-.. include:: Resources/ordering
+.. include:: Legacy_Resources/133_150_156_215/opt_features_2
 
-.. include:: Resources/opt_features_2
+.. include:: Legacy_Resources/133_150_156_215/HW_features
 
-.. include:: Resources/HW_features
+.. include:: Legacy_Resources/133_150_156_215/table
 
-.. include:: PPC_Resources/table
+.. include:: Legacy_Resources/133_150_156_215/power
 
-.. include:: PPC_Resources/power
-
-.. include:: PPC_Resources/cap_screen
+.. include:: Legacy_Resources/133_150_156_215/cap_screen
 
 Connectivity
 ============
@@ -161,23 +161,23 @@ The table below offers more detailed description of every pin and its definition
 
    If you need different RS232/RS485 configuration, contact the Chipsee Technical Support at |email|_.
 
-.. include:: PPC_Resources/USB
+.. include:: Legacy_Resources/133_150_156_215/USB
 
-.. include:: PPC_Resources/LAN
+.. include:: Legacy_Resources/133_150_156_215/LAN
 
-.. include:: PPC_Resources/WiFi
+.. include:: Legacy_Resources/133_150_156_215/WiFi
 
-.. include:: PPC_Resources/4G_com
+.. include:: Legacy_Resources/133_150_156_215/4G_com
 
-.. include:: PPC_Resources/expansion_IO
+.. include:: Legacy_Resources/133_150_156_215/expansion_IO
 
-.. include:: PPC_Resources/TF_Card
+.. include:: Legacy_Resources/133_150_156_215/TF_Card
 
-.. include:: PPC_Resources/Audio_IO
+.. include:: Legacy_Resources/133_150_156_215/Audio_IO
 
-.. include:: PPC_Resources/HDMI
+.. include:: Legacy_Resources/133_150_156_215/HDMI
 
-.. include:: PPC_Resources/power_btn
+.. include:: Legacy_Resources/133_150_156_215/power_btn
 
 Measurements and Mounting Procedure
 ===================================
@@ -192,5 +192,7 @@ product measurements.
   |product| *Technical Drawing*
 
 .. include:: PPC_Resources/mounting
+
+.. include:: /PCs/Shared/Hardware/three_d
 
 .. include:: /PCs/Shared/support

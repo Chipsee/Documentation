@@ -1,0 +1,203 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: PPC-IMX8MP-070
+
+.. |productP| replace:: PPC-IMX8MP-070
+
+.. |PN| replace:: PN: CS10600-IMX8MP-070P
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |dispsize| replace:: 7"
+
+.. |res| replace:: 1024 x 600
+
+.. |bright| replace:: 400 |cd|
+
+.. |disp_des| replace:: |dispsize| 5-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
+
+.. |dimE| replace:: NULL
+
+.. |dimP| replace:: 188.05 x 123.11 x 33.20mm
+
+.. |weightE| replace:: NULL
+
+.. |weightP| replace:: 610g
+
+.. |RAM| replace:: LPDDR4 4GB
+
+.. |eMMC| replace:: 16GB
+
+.. |HDMI| replace:: 1 x HDMI-D(Micro HDMI) OUT
+
+.. |tscreen| replace:: 5-point capacitive touch screen
+
+.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |USB_3_USB_C_Note| replace:: USB3.0 port and USB-C port share one node and cannot be used together. In Linux USB3.0 HOST is enabled by default; in Android USB-C OTG is enabled by default. You can change this config by software in the operating systems, e.g.: disable USB3.0 HOST then enable USB-C OTG in Linux, or vice versa in Android.
+
+.. |LAN| replace:: 2 x RJ45, GbE, including **1 x optional** Power over Ethernet (PoE) port
+
+.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
+
+.. |opt1| replace:: Supported, Optional
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
+.. |vin_rng| replace:: From 6V to 36V
+
+.. |cur| replace:: 600mA Max at 12V, 450mA Idle at 12V
+
+.. |pwr| replace:: 7.2W Max, 5.4W Idle (Maximum brightness)
+
+.. |temp| replace:: From 0°C to +60°C
+
+.. |rs232| replace:: default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port)
+
+.. |rs485| replace:: default 3 x RS485 at most
+
+.. |UART_Note| replace:: This product has 3 x CPU UART, 2 x USB UART by default, 6 x UART channels at most. The default configuration is 2 x RS232 and 3 x RS485, including 1 RS232 debug port. There is 1 x CAN that can be configured to RS232 (USB UART).
+
+.. |can| replace:: default 2 x CAN (1 x CAN can be configured to RS232 optionally)
+
+.. |poe| replace:: Supported, Optional
+
+
+.. |power_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Power.jpg
+                  :align: middle
+                  :width: 576
+
+.. |rs232_485_can_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-RS232-RS485-CAN.jpg
+                  :align: middle
+                  :width: 768
+
+.. |gpio_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-GPIO.jpg
+                  :align: middle
+                  :width: 768
+
+.. |USB2_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-USB2.jpg
+                   :align: middle
+                   :width: 384
+
+.. |USB3_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-USB3.jpg
+                   :align: middle
+                   :width: 384
+
+.. |USBC_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-USBC.jpg
+                   :align: middle
+                   :width: 384
+
+.. |wifi_bt_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-WIFI.jpg
+                  :align: middle
+                  :width: 384
+
+.. |4g_chip_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-4GChip.jpg
+                  :align: middle
+                  :width: 512
+
+.. |sim_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-SIM.jpg
+                  :align: middle
+                  :width: 320
+                  
+.. |LAN_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-LAN.jpg
+                  :align: middle
+                  :width: 384
+
+.. |TF_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-TFCard.jpg
+                  :align: middle
+                  :width: 384
+
+.. |audio_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Audio.jpg
+                  :align: middle
+                  :width: 384
+
+.. |buzzer_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Buzzer.jpg
+                  :align: middle
+                  :width: 384
+
+.. |HDMI_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-HDMI.jpg
+                  :align: middle
+                  :width: 384
+
+.. |PROG_btn_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Prog-Button.jpg
+                  :align: middle
+                  :width: 384
+
+.. |dimension_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Dimension.jpg
+                  :align: middle
+                  :width: 576
+
+.. |Front View| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Side2.jpg
+                  :class: product-img                 
+                  
+.. _PPC-IMX8MP-070:
+
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/CS10600-IMX8MP-070P/power_jack
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/connectivity
+
+.. include:: Resources/CS10600-IMX8MP-070P/gpio
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi_BT
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/TF_Card
+
+.. include:: Resources/Audio
+
+.. include:: Resources/HDMI
+
+.. include:: Resources/prog_btn
+
+.. include:: Resources/mounting
+
+.. include:: Resources/mechanical
+
+.. rst-class:: text-center
+
+   |dimension_img|
+
+   *Dimensions* (|product|)
+
+.. include:: /PCs/Shared/Hardware/three_d
+
+.. include:: /PCs/Shared/support

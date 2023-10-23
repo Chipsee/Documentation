@@ -95,3 +95,42 @@ const sidebar_item = document.querySelector(".md-nav.md-nav--secondary > .md-nav
 if (sidebar_item != null){
     sidebar_menu.style.backgroundColor = "#f4f7f7";
 }
+
+// A helper to test if FBX 3D file exists, otherwise will remove the HTML link element in another function
+function fbxExists(fbxName) {
+    let xhr = new XMLHttpRequest();
+    xhr.open('HEAD', `/_static/3d_models/${fbxName}.fbx`, false);
+    xhr.send();
+    return xhr.status != 404;
+}
+
+// Add query param to let 3D js know what product it needs to display, open 3D page.
+function addParamToThreeD() {
+    const productPN = document.querySelector("#d-model>p");
+
+    if (!productPN) {
+        return;
+    }
+    
+    ["epc", "ppc", "aio"].forEach((pcType) => {
+        const linkElem = document.getElementById(`3d-link-${pcType}`);
+        if (!productPN.textContent.includes(pcType.toUpperCase())) {
+            // Avoid AIO mistaken as PPC.
+            linkElem.remove();
+            return;
+        }
+        if (linkElem) {
+            const pcName = `${pcType.toUpperCase()}-${productPN.textContent.split(' ')[0].split('-').slice(1, ).join('-')}`;
+            if (fbxExists(pcName)) {
+                linkElem.href += `?productModel=${pcName}`;
+            } else {
+                // For the three links, remove the ones that do not have actual fbx files.
+                linkElem.remove();
+            }
+        }
+
+    });
+}
+addParamToThreeD();
+
+

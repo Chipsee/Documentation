@@ -1,4 +1,7 @@
-:pdf-build: False
+.. include:: /PCs/Shared/pdf_options_software
+
+.. |systemType| replace:: Debian
+.. |chip| replace:: AIO CM4
 
 
 AIO-CM4-156 Debian Start Guide

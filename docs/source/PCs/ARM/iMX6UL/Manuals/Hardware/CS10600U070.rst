@@ -77,4 +77,6 @@
 
 .. include:: Resources/Boot_SW
 
+.. include:: /PCs/Shared/Hardware/three_d
+
 .. include:: /PCs/Shared/support

@@ -1,0 +1,12 @@
+3D Model
+========
+
+|product| 3D model can be viewed in the online doc in a web browser, if you are reading from the **PDF** version, please visit the `online doc <https://docs.chipsee.com/>`_.
+
+.. raw:: html
+
+   <div class="d-flex flex-column">
+      <a href="/ThreeD/three_d_model.html" class="html-only fs-4" id="3d-link-ppc" target="_blank">View PPC 3D Model</a>
+      <a href="/ThreeD/three_d_model.html" class="html-only fs-4" id="3d-link-epc" target="_blank">View EPC 3D Model</a>
+      <a href="/ThreeD/three_d_model.html" class="html-only fs-4" id="3d-link-aio" target="_blank">View AIO 3D Model</a>
+   </div>

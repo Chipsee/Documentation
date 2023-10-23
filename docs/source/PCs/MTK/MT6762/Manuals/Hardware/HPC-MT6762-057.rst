@@ -1,0 +1,239 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: HPC-MT6762-057
+
+.. |Product| replace:: The |product| Handheld Tablet PC
+
+.. |PN| replace:: PN: |product|
+
+.. |tscreen| replace:: Capacitive Touch Screen
+
+.. |Front View| image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Front.png
+                  :class: product-img
+
+.. |Rear View| image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Side2.jpg
+                  :class: product-img 
+                  
+
+.. _HPC-MT6762-057:
+
+
+
+|product|
+#########
+
+.. include:: /PCs/Shared/four_main_images
+
+Overview
+========
+
+The |product| is a 5.7 inch rugged handheld industrial tablet PC, it adopts Android 11 operating system, a capacitive touch screen, suitable for use in harsh environments such as logistics, transportation, warehousing, retail and other fields. It has a powerful octa(8)-core MediaTek MT6762 CPU inside, with up to 2.0GHz CPU speed. It has 4GB RAM and 64GB storage by default.
+
+Standard Accessories
+====================
+
+* 1 x Charger.
+* 1 x USB cable.
+
+.. image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Accessory.jpg
+   :align: center
+   :width: 800
+   :alt: Accessory
+
+
+Hardware Specification
+======================
+
+.. table:: Hardware Specification
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **CPU**             | Helio P22, MediaTek MT6762, Octa(8)-Core 2.0GHz, 4 x Cortex-A53 @ 1.5 GHz + 4 x Cortex-A53 @ 2.0 GHz |
+   +=====================+======================================================================================================+
+   | **GPU**             | PowerVR GE8320                                                                                       |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **RAM/Storage**     | 4GB+64GB                                                                                             |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Display**         | 5.7-inch(diagonal), 720x1440, 350 NIT, TFT                                                           |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Touch**           | Capacitive, 10-point Multi Touch; Works with gloves and wet hands                                    |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Camera**          | 13MP Main Rear Camera, 2MP Front Camera, 1000mA Flashlight, Autofocus                                |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Audio**           | Internal Loudspeaker                                                                                 |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Microphone**      | Noise Reduction Microphone                                                                           |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **USB**             | 1 x USB2.0 Type-C port, support for headphone, OTG                                                   |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Charging**        | USB Type-C, 9V/2A                                                                                    |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Battery**         | 3.85V, 4500mAh, Removable Li-ion Polymer Battery                                                     |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Buttons**         | Power Button, Volume+/- Buttons, 2 x Side Scanner Buttons                                            |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **TF/SIM Slot**     | 1 x SIM Slot, 1 x TF/SIM 2-in-1 Slot; Support for 1 x SIM + 1 x TF *or* 2 x SIM; TF card up to 128GB |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **GSM/GPRS/EDGE**   | B2/B3/B5/B8                                                                                          |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **TD-SCDMA**        | B34/B39                                                                                              |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **WCDMA**           | B1/B5/B8                                                                                             |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **4G/LTE**          | FDD-LTE: B1/B3/B5/B7/B8/B20; TDD-LTE: B34/B38/B39/B40/B41                                            |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **WiFi**            | Support for 802.11 a/b/g/n/ac, 2.4G+5G                                                               |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Bluetooth**       | BT4.0, BLE, Backwards Compatible                                                                     |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **GPS**             | Support for GPS/BeiDou/GLONASS/Galileo/A-GPS                                                         |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **NFC**             | Support for 13.56MHz NFC, ISO14443A, ISO14443B, ISO15693; Distance: 0-5 cm                           |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Barcode Scanner** | Support for multiple scanner modules, Newland scanner by default                                     |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Vibration**       | Support for vibration motor                                                                          |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Sensors**         | Distance Sensor, Light Sensor, Geomagnetic Field Sensor, Gyroscope, Accelerometer                    |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **OS**              | Android 11                                                                                           |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Operating Temp.** | From -20°C to +60°C                                                                                  |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Storage Temp.**   | From -40°C to +70°C                                                                                  |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Humidity**        | 0 to 95% (no condensation)                                                                           |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Waterproof**      | IP67                                                                                                 |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Dropping Proof**  | Multiple times of 1.5m dropping; 500 times of 0.5m rolling, equivalent to 1000 crash tests           |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **ESD Protection**  | Withstanding up to ±8kV contact and ±15kV air-gap ESD                                                |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Dimensions**      | 162 x 76.2 x 13.7 mm                                                                                 |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+   | **Weight**          | 245g (incl. battery)                                                                                 |
+   +---------------------+------------------------------------------------------------------------------------------------------+
+
+Scanner
+=======
+
+By default, |product| is equipped with a Newland scanner. It's compatible with Zebra, Honeywell, Newland and other scanner modules, these can be customized when placing an order.
+
+Scanner modules supports common 1D barcode and 2D barcode, such as: Code128, EAN-13, EAN-8, Code39, UPC-A, UPC-E, Codaber, Interleaved 2 of 5, China Post 25, ISBN/ISSN, Code93, UCC/EAN-128, GS1 Databar, HIBC，PDF417, MicroPDF417, GS1 Composite, Aztec Code, Data Matrix, QR Code, Micro QR Code, MaxiCode, Hanxin Code.
+
+.. image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Scanner.jpg
+   :align: center
+   :width: 800
+   :alt: scanner
+
+USB
+===
+
+The |product| has one USB-C port, it is USB2.0, supports 9V/2A charging, and it also supports headphones. You can also use it as an OTG port.
+
+.. image:: /Media/MTK/MT6762/057/HPC-MT6762-057-USB.png
+   :align: center
+   :width: 480
+   :alt: USB
+
+NFC
+===
+
+The |product| supports a high frequency NFC by default, read and write distance is 0 ~ 5 cm, it complies with ISO14443A/14443B/15693 standards.
+
+If you do not need the NFC module, we can remove that when placing an order.
+
+NFC can be triggered from the rear, near the battery zone, like in the image below:
+
+.. image:: /Media/MTK/MT6762/057/HPC-MT6762-057-NFC.jpg
+   :align: center
+   :width: 480
+   :alt: NFC-Zone
+
+TF Card and SIM Card Slots
+==========================
+
+The |product| has a SIM slot and a 2-in-1 TF/SIM slot, you may use dual SIM *or* one SIM + one TF card. 
+
+.. image:: /Media/MTK/MT6762/057/HPC-MT6762-057-SIMTF.png
+   :align: center
+   :width: 480
+   :alt: SIMTF-slot
+
+The TF(MicroSD) card slot supports up to 128GB external storage.
+
+.. image:: /Media/MTK/MT6762/057/HPC-MT6762-057-SIMTF2.png
+   :align: center
+   :width: 960
+   :alt: SIMTF-slot2
+
+Charging
+========
+
+The |product| ships with a 9V/2A charger, if you wish to use a third party charger, it should support 9V/2A charging. We recommend only using the charger we provide, or only use chargers from major power supply brands. Poor quality chargers may harm the battery or destroy the device.
+
+Pogo Pins
+=========
+
+The Pogo Pins in the rear do not have any definition at the moment, they do not provide any functionality, they are reserved for future hardware improvements.
+
+.. image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Pogo.jpg
+   :align: center
+   :width: 480
+   :alt: pogo
+
+Rear Lock
+=========
+
+When you need to remove the battery or open the rear case, there is a lock in the rear as shown in the image below. It helps seal the case when it is switched to the "lock" side, and in this case, the rear case cannot be opened.
+
+You can switch the lock to the "unlock" side, if you need to open the rear case.
+
+.. image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Lock.jpg
+   :align: center
+   :width: 480
+   :alt: lock
+
+.. image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Battery.jpg
+   :align: center
+   :width: 960
+   :alt: battery
+
+Buttons
+=======
+
+There are 5 buttons on the device, on the right is a power button and a scanner button.
+
+.. image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Button1.jpg
+   :align: center
+   :width: 480
+   :alt: button-right
+
+On the left are two volume buttons and a scanner button.
+
+.. image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Button2.jpg
+   :align: center
+   :width: 480
+   :alt: button-left
+
+Dimension
+=========
+
+The dimension of |product| is 162 x 76.2 x 13.7mm.
+
+.. include:: /PCs/MTK/Shared/Resources/when-operating
+
+.. include:: /PCs/MTK/Shared/Resources/safety
+
+.. include:: /PCs/MTK/Shared/Resources/trouble-shooting
+
+.. include:: /PCs/Shared/support

@@ -18,15 +18,15 @@
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 320 x 260 x 51mm
+.. |dimP| replace:: 320 * 260 * 55.5mm
 
 .. |weightE| replace:: NULL
 
-.. |weightP| replace:: 2800g
+.. |weightP| replace:: 3100g
 
-.. |cur| replace:: 1100mA Max at 12V
+.. |cur| replace:: 1000mA Max at 12V
 
-.. |pwr| replace:: 13.2W Typical
+.. |pwr| replace:: 12W Typical
 
 .. |temp| replace:: From 0°C to +60°C
 
@@ -34,12 +34,11 @@
 
 .. |weight_desc| replace:: |productP|: |weightP|
 
-
 .. _product_link: https://chipsee.com/product/PPC-CM4-121/
 
 .. |product_link| replace:: PPC-CM4-121
 
-.. |power_img| image:: /Media/Pi/A72/CS19108RA4133/Powerbig.jpg
+.. |power_img| image:: /Media/Pi/A72/CS10768RA4121/CS10768RA4121-Power.jpg
                   :align: middle
                   :width: 480
 
@@ -55,54 +54,55 @@
                   :align: middle
                   :width: 384 
                   
-.. |usb_a_img| image:: /Media/Pi/A72/CS19108RA4133/USBbig.jpg
+.. |usb_a_img| image:: /Media/Pi/A72/CS10768RA4121/CS10768RA4121-USB-A.jpg
                    :align: middle
                    :width: 192
 
-.. |usb_c_img| image:: /Media/Pi/A72/CS19108RA4133/TYPE-Cbig.jpg
+.. |usb_c_img| image:: /Media/Pi/A72/CS10768RA4121/CS10768RA4121-USB-C.jpg
                    :align: middle
-                   :width: 96
+                   :width: 192
 
 
-.. |tf_img| image:: /Media/Pi/A72/CS19108RA4133/TF_Cardbig.jpg
+.. |tf_img| image:: /Media/Pi/A72/CS10768RA4121/CS10768RA4121-TF.jpg
                   :align: middle
                   :width: 384
 
-.. |audio_img| image:: /Media/Pi/A72/CS19108RA4133/Audiobig.jpg
+.. |audio_img| image:: /Media/Pi/A72/CS10768RA4121/CS10768RA4121-Audio.jpg
                   :align: middle
-                  :width: 96
+                  :width: 384
 
-.. |prog_btn_img| image:: /Media/Pi/A72/CS19108RA4133/BootButtonbig.jpg
+.. |prog_btn_img| image:: /Media/Pi/A72/CS10768RA4121/CS10768RA4121-PROG.jpg
                   :align: middle
-                  :width: 192
+                  :width: 384
 
 .. |sim_img| image:: /Media/Pi/A72/CS19108RA4133/TF_4G_101.jpg
                   :align: middle
                   :width: 960
 
-.. |wifi_img| image:: /Media/Pi/A72/CS19108RA4133/ANT.jpg
+.. |wifi_img| image:: /Media/Pi/A72/CS10768RA4121/CS10768RA4121-WiFiBT-SMA.jpg
                   :align: middle
                   :width: 384
 
-.. |zigbee_img| image:: /Media/Pi/A72/CS19108RA4133/ANT.jpg
+.. |zigbee_img| image:: /Media/Pi/A72/CS10768RA4121/CS10768RA4121-WiFiBT-SMA.jpg
                   :align: middle
                   :width: 384
 
-.. |lan_img| image:: /Media/Pi/A72/CS19108RA4133/LANbig.jpg
+.. |lan_img| image:: /Media/Pi/A72/CS10768RA4121/CS10768RA4121-LAN.jpg
                   :align: middle
                   :width: 384
                   
-.. |Front View| image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-front.jpg
+.. |Front View| image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-Front.jpg
                   :class: product-img
 
-.. |Rear View| image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-C-Back.jpg
+.. |Rear View| image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-Rear.jpg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-C-Side.jpg
+.. |Side View 1| image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-Side1.jpg
                   :class: product-img
 
-.. |Side View 2| image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-C-Side2.jpg
+.. |Side View 2| image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-Side2.jpg
                   :class: product-img
+
 
 
 .. _PPC-CM4-121:
@@ -110,7 +110,7 @@
 |product|
 #########
 
-.. rubric:: *Version 1.1*
+.. rubric:: *Version 1.0*
     :class: html-only
 
 .. include:: Resources/CS12800RA4101/base_includes_cs12800ra4101

@@ -73,15 +73,15 @@ Chipsee industrial displays provide a solid and durable solution that customers 
    :name: hwdocstable_5
 
    +-------------------+------------------------------------------------------------------------+
-   |  |PIM-156-C-P|    |   :ref:`PIM-156-C-P User Manual <PIM-156-C-P>` |br|                    |
+   |  |PIM-156-P|      |   :ref:`PIM-156-P User Manual <PIM-156-P>` |br|                        |
    |                   |   PN: CS-D156P |br| |br|                                               |
    |                   |                                                                        |
    |                   |   15.6", 1920x1080, 10-point capacitive touchscreen                    |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PIM-156-C-P| image:: /Media/Displays/PIM-156-C-P/pim-156p-front.png
+.. |PIM-156-P| image:: /Media/Displays/PIM-156-P/pim-156p-front.png
    :class: no-scaled-link
-   :target: PIM-156-P.html
+   :target: PIM-156-C-P.html
 
 .. table::
    :widths: 20 30
@@ -185,7 +185,7 @@ Chipsee industrial displays provide a solid and durable solution that customers 
    PIM-125-C <PIM-125-C>
    PIM-150-C <PIM-150-C>
    PIM-156-C <PIM-156-C>
-   PIM-156-C-P <PIM-156-C-P>
+   PIM-156-P <PIM-156-C-P>
    PIM-170-C <PIM-170-C>
    PIM-185-C <PIM-185-C>
    PIM-190-C <PIM-190-C>

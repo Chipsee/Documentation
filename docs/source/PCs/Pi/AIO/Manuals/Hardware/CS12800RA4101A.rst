@@ -64,7 +64,7 @@
 .. |Rear View| image:: /Media/Pi/AIO/CS12800RA4101A/CS12800RA4101A-Back.jpeg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/Pi/AIO/CS12800RA4101A/CS12800RA4101A-Side.jpeg
+.. |Side View 1| image:: /Media/Pi/AIO/CS12800RA4101A/CS12800RA4101A-Side.jpg
                   :class: product-img
 
 .. |Side View 2| image:: /Media/Pi/AIO/CS12800RA4101A/101-Side.jpeg
@@ -94,9 +94,11 @@ Power Input
 ===========
 
 |Product| can be powered by a wide range of input voltages: |vin_rng| DC.
-The total power consumption is typically about 6W. For the power input connector, it's diffrent between CS12800RA4101A_C111 and CS12800RA4101A_C121. 
-The power input connector is a 4.0/1.7mm DC connector for CS12800RA4101A_C111, it's 3.4/1.7mm for CS12800RA4101A_C121. For a proper DC power adapter, refer to the figure below.
-We also provide a customzied power cable of 3.4/1.7mm to 5.5/2.1mm for customer.
+The total power consumption is typically about 6W. For the power input connector, it's different from CS12800RA4101A_C111 and CS12800RA4101A_C121.
+
+The power input connector is a 4.0-1.7mm DC connector for CS12800RA4101A_C111, it's 3.4-1.7mm for CS12800RA4101A_C121. For a proper DC power adapter, refer to the figure below.
+
+We also provide a customized power cable of 3.4-1.7mm to 5.5-2.1mm for customers.
 
 .. Figure:: /Media/Pi/AIO/CS12800RA4101A/101-Power.jpeg
   :align: center
@@ -191,10 +193,10 @@ You can use the SIM card slot when you mount the 4G/LTE module.
 .. Warning::
 
   The product does not come shipped with the TF Card and the SIM Card by default.
-  The TF card slot use same pins with WiFi/Bt, if you enable WiFi/Bt, the TF card function will be disabled, 
-  if you want to enable the TF card feature, you can use follow config in /boot/config.txt to enable it, 
+  The TF card slot use same pins with WiFi/Bt, if you enable WiFi/Bt, the TF card function will be disabled,
+  if you want to enable the TF card feature, you can use follow config in /boot/config.txt to enable it,
   but the WiFi/Bt will be disabled after reboot::
-    
+
 	dtoverlay=sdio,poll_once=off
 	#dtparam=ant2
 
@@ -333,5 +335,6 @@ product measurements.
 
    *Side Dimension Technical Drawing*
 
+.. include:: /PCs/Shared/Hardware/three_d
 
 .. include:: /PCs/Shared/support

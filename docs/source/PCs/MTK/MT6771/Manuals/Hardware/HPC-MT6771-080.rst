@@ -1,0 +1,353 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: HPC-MT6771-080
+
+.. |Product| replace:: The |product| Handheld Tablet PC
+
+.. |PN| replace:: PN: |product|
+
+.. |tscreen| replace:: Capacitive Touch Screen
+
+.. |Front View| image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Side2.png
+                  :class: product-img 
+                  
+.. _HPC-MT6771-080:
+
+
+|product|
+#########
+
+.. include:: /PCs/Shared/four_main_images
+
+Overview
+========
+
+|Product| is an 8.0 inch rugged tablet PC, it's waterproof, dustproof, suitable for outdoor operation scenarios, especially in warehousing, supermarkets, medicare, retail and other fields.
+
+The device supports 2D barcode scanner and RFID, it takes advantage of LAN, GPRS, 4G, WiFi, Bluetooth and other wireless communication channels to transmit data at a high speed efficiently. This portable handheld tablet complies with IP-65 protection level, it can be used in harsh environments.
+
+This tablet PC adopts a 1200 x 1920 capacitive 10 point touch screen, it supports Android 11 operating system. It is easy to use, meets various needs, responsive and efficient.
+
+
+Standard Accessories
+====================
+
+* 1 x 5V/3A Charger.
+* 1 x Hand strap.
+* 1 x Screen Protector
+
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Accessory.jpg
+   :align: center
+   :width: 800
+   :alt: Accessory
+
+The standard accessories include a hand strap. When you use the strap, notice the installation directions, as shown in the image below: 1 - 4 or 2 - 3 are the correct strap installation directions.
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Strap.jpg
+   :align: center
+   :width: 480
+   :alt: handstrap
+
+Optional Modules
+================
+
+The |product| **does not** include the following modules, you may purchase these optional modules from our online store while placing an order.
+
+#. **Fingerprint module**: 1020A fingerprint identification module / ZAZ-0A0 module.
+#. **2D/1D scanner module**: N1 Scanner module / SE4710 Scanner module.
+#. **Ultra high frequency (UHF) RFID**: internal /  external, US / EU.
+
+Hardware Specification
+======================
+
+.. table:: Hardware Specification
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **CPU**             | Helio P60, MediaTek MT6771, Octa(8)-Core 2.0GHz, 4 x Cortex-A53 + 4 x Cortex-A73 @ 2.0 GHz(Max)                                                         |
+   +=====================+=========================================================================================================================================================+
+   | **GPU**             | Mali-G72, 800MHz(Max)                                                                                                                                   |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **RAM/Storage**     | 4GB+64GB/6GB+128GB Embedded Multi Chip Package(eMCP)                                                                                                    |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Display**         | 8.0-inch(diagonal), 1200x1920, 400 NIT                                                                                                                  |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **LCD**             | IPS; Active Area: 107.64(H)x172.22(V)                                                                                                                   |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Touch**           | Capacitive, 10-point Multi Touch, Surface Tempered Glass + Sensor Glass                                                                                 |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Camera**          | 13MP Main Rear Camera, 5MP Front Camera, Flashlight, Autofocus                                                                                          |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Audio**           | 1.5W/8Ω Internal Speaker; 1 x 3.5mm Audio Jack                                                                                                          |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Microphone**      | Sensitivity: -32±2dB, Output Impedance: 2.2kΩ                                                                                                           |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **USB**             | 1 x USB2.0 Type-A, 1 x USB Type C (Download, Charging), 1 x USB2.0 (Through Rear Pin), 1 x USB2.0 (Through Bottom Pin)                                  |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Charging**        | DC 5V/3A 3.5 mm Terminal; Pogo Pin (Through Bottom Pin); USB Type-C                                                                                     |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Battery**         | 3.8V, 7800mAh, Unremovable Li-ion Polymer Battery, 15+ Hours Video Playback(70% Volume, 70 Brightness, 1080P Video Playback); 200 hours(idle)           |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Buttons**         | Power Button, Volume+/- Buttons, 1 x F Button(Scanner), 1 x P(No definition), 1 x H(No definition)                                                      |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **SIM Slot**        | 1 x SIM Slot                                                                                                                                            |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **TF Slot**         | 1 x TF Slot                                                                                                                                             |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **GSM/GPRS/EDGE**   | 850/900/1800/1900                                                                                                                                       |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **TD-SCDMA**        | B34/B35/B36/B37/B38/B39/B40/B41/B42/B43                                                                                                                 |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **WCDMA**           | B1, B2, B5, B8                                                                                                                                          |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **4G/LTE**          | FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B10/B12/B13/B14/B17/B20/B23/B24/B25/B26; TDD-LTE: B34/B38/B39/B40/B41/B66                                                 |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Ethernet**        | 1 x RJ45 10/100Mbps (Through USB3.0, port is USB3.0)                                                                                                    |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **RS232**           | 1 x RS232 (Through MiniUSB)                                                                                                                             |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **WiFi**            | 802.11 a/b/g/n/ac, 2.4G+5G                                                                                                                              |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Bluetooth**       | BT4.0, BLE, Backwards Compatible                                                                                                                        |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **GPS**             | Support for GPS/BeiDou/GLONASS; Acquisition Sensitivity: -163dBm                                                                                        |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **NFC**             | PN553 module, Support for ISO/IEC14443, ISO/IEC15693, MIFARE, Felica; Distance: 3-5cm; Front NFC                                                        |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Fingerprint**     | Support for 1020A Module(**optional**): 150 Fingerprints, Identification Time < 1 Second, Recognition Mode is 1 : N Recognition or 1 : 1 Authentication |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Barcode Scanner** | Supported for N1 Scanner module / SE4710 Scanner module(**optional**)                                                                                   |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Sensors**         | Air Pressure Sensor, Distance Sensor, Light Sensor, Electronic Compass, Gyroscope, Accelerometer                                                        |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **OS**              | Android 11                                                                                                                                              |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Operating Temp.** | From -20°C to +60°C                                                                                                                                     |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Storage Temp.**   | From -25°C to +80°C                                                                                                                                     |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Waterproof**      | IP65; Designed for IP67                                                                                                                                 |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Dropping Proof**  | 1.2m, Six Sides                                                                                                                                         |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Dimensions**      | 234 x 144 x 16.8 mm                                                                                                                                     |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Weight**          | 650g                                                                                                                                                    |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Accessories**     | 5V/3A Charger, USB Type-C Cable                                                                                                                         |
+   +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Connectivity
+============
+
+TF Card and SIM Card
+--------------------
+
+The |product| supports one SIM card and one TF card. To insert a TF card or SIM card, check the image below for the correct direction.
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-SIMTF.png
+   :align: center
+   :width: 800
+   :alt: sim-tf
+
+NFC
+---
+
+The |product| has one NFC module. By default, NFC is enabled in the Android OS. If NFC is not responding, please go to system settings to check if NFC is enabled. If NFC is enabled, but is still not working, try rebooting the device then test NFC again.
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-NFC.jpg
+   :align: center
+   :width: 800
+   :alt: nfc
+
+Scanner
+-------
+
+When using a scanner to scan 1D/2D barcode or QR code, first ensure the scanner switch is toggled to "ON" in the system setting.
+
+While holding the "F" button, the scanner's led will be turned on, then you can aim the scanner at 1D barcode or 2D barcode, the code data will appear on the screen.
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Scanner.jpg
+   :align: center
+   :width: 640
+   :alt: scanner
+
+Serial Port
+-----------
+
++----------+--------------+
+| RS232    | Port         |
++==========+==============+
+| Mini USB | /dev/ttysWK1 |
++----------+--------------+
+
+There is a Serial Chat app installed in the Android system, you can use a mini USB cable to connect the RS232 port (protocol is RS232, data is transmitted through mini USB) and test with the app.
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-USBSerial.jpg
+   :align: center
+   :width: 800
+   :alt: mini-usb-rs232
+
+Bottom Pogo Pins
+----------------
+
+The bottom pogo pin supports charging the device in a dock, here is the pin definition:
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Bottom-Pogo.jpg
+   :align: center
+   :width: 800
+   :alt: bottom-pogopin
+
++-------+-------------------------------------+----------+
+| Pin   | Definition                          | Note     |
++=======+=====================================+==========+
+| Pin 1 | VCHG(5V IN)                         | Charging |
++-------+-------------------------------------+----------+
+| Pin 2 | VBUS(5V OUT)                        | OTG      |
++-------+-------------------------------------+----------+
+| Pin3  | DM3                                 | USB2.0   |
++-------+-------------------------------------+----------+
+| Pin4  | DP3                                 | USB2.0   |
++-------+-------------------------------------+----------+
+| Pin5  | GND                                 |          |
++-------+-------------------------------------+----------+
+| Pin6  | RS232-TX0(Not supported on Android) |          |
++-------+-------------------------------------+----------+
+| Pin7  | RS232-RX0(Not supported on Android) |          |
++-------+-------------------------------------+----------+
+| Pin8  | GND                                 | Charging |
++-------+-------------------------------------+----------+
+
+Rear Pogo Pins
+--------------
+
+The rear pogo pins are reserved for customization, they do not have functionalities out of factory.
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Rear-Pogo.jpg
+   :align: center
+   :width: 360
+   :alt: rear-pogopin
+
+
+Fingerprint Module
+------------------
+
+There is an **optional** fingerprint module (Biovo 1020A) on the device. To use the module, ensure the system fingerprint module setting switch is "ON". If you need this module, we will install it for you.
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Fingerprint.jpg
+   :align: center
+   :width: 640
+   :alt: fingerprint
+
+USB
+---
+
+There is a software OTG switch in the system setting. When USB OTG is toggled to "OFF", USB-C is enabled, USB-A is disabled. When OTG is toggled to "ON", USB-C is disabled, USB-A is enabled.
+
+USB-A port and USB type-C port are mutually exclusive, they **cannot** be used at the same time.
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-USB.jpg
+   :align: center
+   :width: 800
+   :alt: usb-a-c
+
+Ethernet
+--------
+
+The |product| supports Ethernet through a USB3.0 type-A port. 
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-USBEthernet.jpg
+   :align: center
+   :width: 800
+   :alt: ethernet-usb
+
+Charging
+========
+
+The |product| can be charged through:
+
+#. 5V/3A DC charger.
+#. USB-C port.
+#. Rear Pogo Pin.
+
+The |product| ships with a 5V/3A charger; you can charge the device through the DC input port on the top of the product.
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-DcInput.jpg
+   :align: center
+   :width: 800
+   :alt: DC-port
+
+The product ships with a DC charger.
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Charger.jpg
+   :align: center
+   :width: 480
+   :alt: DC-charger
+
+Alternatively, you can also charge the device through its USB-C port on the top of the product.
+
+The |product| also provides an **optional** dock for charging.
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Dock1.jpg
+   :align: center
+   :width: 360
+   :alt: DC-dock-1
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Dock2.jpg
+   :align: center
+   :width: 360
+   :alt: DC-dock-2
+
+Buttons
+=======
+
+There are several buttons on the device, here is how to use them. 
+
+Key P/H are reserved for customization, they have no functionality out of factory. If you need to use them, please contact us when placing an order, we will customize it for you.
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Buttons.jpg
+   :align: center
+   :width: 800
+   :alt: buttons
+
+#. Power Button
+
+   * Short press: wake the device/put the device to sleep.
+   * Long press: turn on/off the device, emergency call, reboot.
+   
+#. Volume up/down
+
+   * Press: adjust volume to high/low.
+   * Press volume up *and* power button: turn on vibrate.
+   * Press volume down *and* power button: screenshot.
+   
+#. The P/H/F buttons
+
+   * F: **scanner** button.
+   * P: customizable button, key 184, reserved for customization, no functionality out of factory.
+   * H: customizable button, key 185, reserved for customization, no functionality out of factory.
+
+Dimension
+=========
+
+The dimension of |product| is 234 x 144 x 16.8 mm.
+
+.. include:: /PCs/MTK/Shared/Resources/when-operating
+
+.. include:: /PCs/MTK/Shared/Resources/safety
+
+.. include:: /PCs/MTK/Shared/Resources/trouble-shooting
+
+.. include:: /PCs/Shared/support

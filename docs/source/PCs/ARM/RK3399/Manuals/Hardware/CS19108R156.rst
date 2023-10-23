@@ -68,39 +68,39 @@
 
 .. include:: /PCs/Shared/four_main_images
 
-.. include:: Legacy_Resources/133_156_215/overview
+.. include:: Legacy_Resources/133_150_156_215/overview
 
-.. include:: Legacy_Resources/133_156_215/ordering
+.. include:: Legacy_Resources/133_150_156_215/ordering
 
-.. include:: Legacy_Resources/133_156_215/opt_features_2
+.. include:: Legacy_Resources/133_150_156_215/opt_features_2
 
-.. include:: Legacy_Resources/133_156_215/HW_features
+.. include:: Legacy_Resources/133_150_156_215/HW_features
 
-.. include:: Legacy_Resources/133_156_215/table
+.. include:: Legacy_Resources/133_150_156_215/table
 
-.. include:: Legacy_Resources/133_156_215/power
+.. include:: Legacy_Resources/133_150_156_215/power
 
-.. include:: Legacy_Resources/133_156_215/cap_screen
+.. include:: Legacy_Resources/133_150_156_215/cap_screen
 
-.. include:: Legacy_Resources/133_156_215/connectivity
+.. include:: Legacy_Resources/133_150_156_215/connectivity
 
-.. include:: Legacy_Resources/133_156_215/USB
+.. include:: Legacy_Resources/133_150_156_215/USB
 
-.. include:: Legacy_Resources/133_156_215/LAN
+.. include:: Legacy_Resources/133_150_156_215/LAN
 
-.. include:: Legacy_Resources/133_156_215/WiFi
+.. include:: Legacy_Resources/133_150_156_215/WiFi
 
-.. include:: Legacy_Resources/133_156_215/4G_com
+.. include:: Legacy_Resources/133_150_156_215/4G_com
 
-.. include:: Legacy_Resources/133_156_215/expansion_IO
+.. include:: Legacy_Resources/133_150_156_215/expansion_IO
 
-.. include:: Legacy_Resources/133_156_215/TF_Card
+.. include:: Legacy_Resources/133_150_156_215/TF_Card
 
-.. include:: Legacy_Resources/133_156_215/Audio_IO
+.. include:: Legacy_Resources/133_150_156_215/Audio_IO
 
-.. include:: Legacy_Resources/133_156_215/HDMI
+.. include:: Legacy_Resources/133_150_156_215/HDMI
 
-.. include:: Legacy_Resources/133_156_215/power_btn
+.. include:: Legacy_Resources/133_150_156_215/power_btn
 
 Measurements and Mounting Procedure
 ===================================
@@ -120,5 +120,7 @@ The outer mechanical dimensions of |product| are |dim| (W x L x H).
     Please make sure the display is not exposed to high pressure when mounting into an enclosure.
 
 You can find detailed information about mounting in the |mguide|.
+
+.. include:: /PCs/Shared/Hardware/three_d
 
 .. include:: /PCs/Shared/support

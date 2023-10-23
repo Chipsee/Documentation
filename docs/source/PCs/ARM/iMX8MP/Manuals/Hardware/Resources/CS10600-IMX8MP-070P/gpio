@@ -1,0 +1,60 @@
+GPIO Port
+--------------
+
+|Product| has a 10 Pin 3.81mm **GPIO Connector**, as shown in the figure below.
+The table below gives details about the definition of every Pin.
+
+The VDD_ISO is an isolated power *input* pin, you should attach a 5~24V DC power input to this pin. 
+
+It is also possible to use the onboard 5V power supply. The 5V on board power supply can be re-routed to the *Isolated Power Input* pin by populating R236 and R239 PCB footprints with 0Ω resistors **in the factory**. In this case you don't need to provide a DC power supply unit to use the GPIO, and the *VDD_ISO* input will become a *5V OUTPUT* powered by the on board 5V.
+
+.. rst-class:: text-center
+
+   |gpio_img|
+
+   *GPIO*
+
+
+.. table:: GPIO Connector Pin-out
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +----------------------------------------------+
+   | **GPIO Pin Definition:**                     |
+   +----------------+-----------------------------+
+   | **Pin Number** | **Definition**              |
+   +----------------+-----------------------------+
+   | Pin 1          | Isolated Power Input\ [#i]_ |
+   +----------------+-----------------------------+
+   | Pin 2          | Isolated Ground Input       |
+   +----------------+-----------------------------+
+   | Pin 3          | OUT1                        |
+   +----------------+-----------------------------+
+   | Pin 4          | OUT2                        |
+   +----------------+-----------------------------+
+   | Pin 5          | OUT3                        |
+   +----------------+-----------------------------+
+   | Pin 6          | OUT4                        |
+   +----------------+-----------------------------+
+   | Pin 7          | IN1                         |
+   +----------------+-----------------------------+
+   | Pin 8          | IN2                         |
+   +----------------+-----------------------------+
+   | Pin 9          | IN3                         |
+   +----------------+-----------------------------+
+   | Pin 10         | IN4                         |
+   +----------------+-----------------------------+
+
+-----
+
+.. [#i] | If the isolation is not a requirement, it is possible to use a non-isolated PSU instead. 
+        | Note that in this case, the *Isolated Power Input* pin will become an output for the onboard 5V power supply. 
+
+.. include:: /PCs/Shared/Hardware/gpio_image
+
+.. attention::
+
+   + The GPIO has been Opt-Isolated and it uses the 24V Logic by default.
+   + The 4 output channels can drive at most 500mA current on each channel.
+

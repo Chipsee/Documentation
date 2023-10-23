@@ -1,6 +1,8 @@
 The |chip| based |ipc| supports RS232 and RS485, here are the mapping from the port name to the system tree device:
 
-.. table:: RS232/485 for **5 inch** product(CS12720-RK3568-050P) or **10.1+ inch** products(CS12800-RK3568-101P, CS19108-RK3568-133P, CS10768-RK3568-150P, CS19108-RK3568-156P, CS12800-RK3568-215P, CS19108-RK3568-236P)
+**5 inch product**
+
+.. table:: RS232/485 for **5 inch** product(CS12720-RK3568-050P)
    :align: center
    :width: 100%
    :widths: auto
@@ -14,11 +16,12 @@ The |chip| based |ipc| supports RS232 and RS485, here are the mapping from the p
    +---------+--------------+---------------------+
    | RS485_3 | /dev/ttyS3   | RS485               |
    +---------+--------------+---------------------+
-   | RS485_4 | /dev/ttyS4   | RS485               |
+   | RS485_5 | /dev/ttyS4   | RS485               |
    +---------+--------------+---------------------+
 
+**7 inch product**
 
-.. table:: RS232/485 for **7 inch** product (CS10600-RK3568-070P)
+.. table:: RS232/485 for **7 inch** product(CS10600-RK3568-070P)
    :align: center
    :width: 100%
    :widths: auto
@@ -37,5 +40,23 @@ The |chip| based |ipc| supports RS232 and RS485, here are the mapping from the p
    | RS485_5 | /dev/ttyS5   | RS485               |
    +---------+--------------+---------------------+
 
+**10.1+ inch products**
+
+.. table:: RS232/485 for **10.1+ inch** products(CS12800-RK3568-101P, CS10768-RK3568-121P, CS19108-RK3568-133P, CS10768-RK3568-150P, CS19108-RK3568-156P, CS12800-RK3568-215P, CS19108-RK3568-236P)
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +---------+--------------+---------------------+
+   | Name    | Node         | Protocol            |
+   +=========+==============+=====================+
+   | RS232_0 | /dev/ttyS0   | RS232               |
+   +---------+--------------+---------------------+
+   | RS232_2 | /dev/ttyFIQ0 | RS232, Serial Debug |
+   +---------+--------------+---------------------+
+   | RS485_3 | /dev/ttyS3   | RS485               |
+   +---------+--------------+---------------------+
+   | RS485_4 | /dev/ttyS4   | RS485               |
+   +---------+--------------+---------------------+
 
 The 120 Ohm match resistor is already mounted on the RS485 port. RS485 ports are half-duplex, the hardware can switch the Tx/Rx direction automatically. RS232 ports are full-duplex.   
