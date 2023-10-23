@@ -4,6 +4,8 @@
 PPC-A72-133-C (PN: CS19108R133)
 ###############################
 
+.. include:: Resources/Note_For_RK3399_OS_Download
+
 .. _CS19108R133-android:
 
 .. include:: Resources/R125_R133_R156_Android_OS_Download

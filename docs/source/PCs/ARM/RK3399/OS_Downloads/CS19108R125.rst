@@ -4,6 +4,8 @@
 PPC-A72-125-C (PN: CS19108R125)
 ###############################
 
+.. include:: Resources/Note_For_RK3399_OS_Download
+
 .. _CS19108R125-android:
 
 .. include:: Resources/R125_R133_R156_Android_OS_Download

@@ -4,6 +4,8 @@
 EPC/PPC-A72-070-C (PN: CS10600R070)
 ###################################
 
+.. include:: Resources/Note_For_RK3399_OS_Download
+
 .. _CS10600R070-android:
 
 Android7.1
