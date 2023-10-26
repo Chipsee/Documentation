@@ -13,6 +13,7 @@ If you have questions not covered in this documentation, please consult Chipsee 
    :titlesonly:
       
    Yocto Linux QT 6.3 <Yocto_Linux_QT_6_3>
+   Android 12 <Android_12>
 
 .. warning::
 

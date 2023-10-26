@@ -49,7 +49,6 @@ It is also possible to use the onboard 5V power supply. The 5V on board power su
 -----
 
 .. [#i] | If the isolation is not a requirement, it is possible to use a non-isolated PSU instead. 
-        | Note that in this case, the *Isolated Power Input* pin will become an output for the onboard 5V power supply. 
 
 .. include:: /PCs/Shared/Hardware/gpio_image
 
