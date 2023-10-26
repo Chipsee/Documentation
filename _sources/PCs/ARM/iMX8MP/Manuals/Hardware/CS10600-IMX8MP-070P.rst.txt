@@ -1,8 +1,8 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. |product| replace:: PPC-IMX8MP-070
+.. |product| replace:: PPC-A53-070
 
-.. |productP| replace:: PPC-IMX8MP-070
+.. |productP| replace:: PPC-A53-070
 
 .. |PN| replace:: PN: CS10600-IMX8MP-070P
 
@@ -141,7 +141,7 @@
 .. |Side View 2| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Side2.jpg
                   :class: product-img                 
                   
-.. _PPC-IMX8MP-070:
+.. _PPC-A53-070:
 
 
 |product|

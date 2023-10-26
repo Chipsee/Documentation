@@ -8,13 +8,12 @@ If you have questions not covered in this documentation, please consult Chipsee 
 
 .. _IMX8MP_OS:
 
-.. rubric:: CS10600-IMX8MP-070
-   
 .. toctree::
    :maxdepth: 1
    :titlesonly:
       
    Yocto Linux QT 6.3 <Yocto_Linux_QT_6_3>
+   Android 12 <Android_12>
 
 .. warning::
 
