@@ -8,8 +8,6 @@ If you have questions not covered in this documentation, please consult Chipsee 
 
 .. _IMX8MP_OS:
 
-.. rubric:: CS10600-IMX8MP-070
-   
 .. toctree::
    :maxdepth: 1
    :titlesonly:
