@@ -26,7 +26,7 @@
 
 .. |RAM| replace:: LPDDR4 4GB
 
-.. |eMMC| replace:: 16GB
+.. |eMMC| replace:: 32GB
 
 .. |HDMI| replace:: 1 x HDMI-D(Micro HDMI) OUT
 
