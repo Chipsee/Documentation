@@ -1,26 +1,16 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. include:: Resources/CS10600RA4070/base_replaces_4070D
+.. include:: Resources/CS-BOX-CM4/base_replaces
 
-.. |product| replace:: PPC-CM4-070-D
-
-.. |productE| replace:: NULL
+.. |product| replace:: CS-BOX-CM4
 
 .. |productP| replace:: |product|
 
-.. |PN| replace:: PN: CS10600RA4070P-D
+.. |PN| replace:: PN: CS-BOX-CM4
 
 .. |Product| replace:: The |product| industrial Pi PC
 
-.. |dispsize| replace:: 7"
-
-.. |res| replace:: 1024 x 600
-
-.. |bright| replace:: 500 |cd|
-
-.. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
-.. |disp_table| replace:: |dispsize| IPS LCD, |res| resolution \px, brightness |bright|
+.. |disp_table| replace:: N/A
 
 .. |dimE| replace:: NULL
 
@@ -30,7 +20,7 @@
 
 .. |weightP| replace:: 700g
 
-.. |tscreen| replace:: 5-point capacitive touch with 1mm Armored Glass
+.. |tscreen| replace:: N/A
 
 .. |dim_desc| replace:: |productP|: |dimP|
 
@@ -44,86 +34,85 @@
 
 .. _product_link: https://chipsee.com/?s=cm4+070
 
-.. |product_link| replace:: PPC-CM4-070-D
+.. |product_link| replace:: CS-BOX-CM4
 
-.. |rs232_485_can_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-rs232_485_can_connectors.jpg
+.. |rs232_485_can_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-RS232-RS485-CAN.jpg
                   :align: middle
                   :width: 768
 
-.. |sim_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-sim_card.jpg
+.. |sim_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-SIM.jpg
                   :align: middle
                   :width: 480
 
-.. |gpio_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-GPIO.jpg
+.. |gpio_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-GPIO.jpg
                   :align: middle
                   :width: 1024
 
-.. |cpu_gpio_schema_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-cpu_gpio_schema.png
+.. |cpu_gpio_schema_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-cpu_gpio_schema.png
                   :align: middle
                   :width: 768
 
-.. |camera_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-camera.jpg
+.. |camera_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-camera.jpg
                   :align: middle
                   :width: 640
 
-.. |tf_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-TF.jpg
+.. |tf_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-TF.jpg
                   :align: middle
-                  :width: 384                 
+                  :width: 576                 
 
-.. |wifi_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-WIFI.jpg
+.. |wifi_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-WIFI.jpg
                   :align: middle
                   :width: 640
 
-.. |power_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Power.jpg
+.. |power_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-Power.jpg
                   :align: middle
                   :width: 720
 
-.. |dc_jack_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-DCJack.jpg
+.. |dc_jack_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-DCJack.jpg
                   :align: middle
                   :width: 576
 
-.. |zigbee_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-zigbee.jpg
+.. |zigbee_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-zigbee.jpg
                   :align: middle
-                  :width: 384     
+                  :width: 512  
 
 .. |ts_con_img| image:: /Media/Pi/A53/Others/TS_CON.jpeg
                   :align: middle
                   :width: 192                              
 
-.. |lan_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-LAN.jpg
+.. |lan_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-LAN.jpg
                   :align: middle
                   :width: 384
 
-.. |audio_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Audio.jpg
+.. |audio_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-Audio.jpg
                   :align: middle
                   :width: 384
 
-.. |usb_a_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-usb-a.jpg
+.. |usb_a_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-usb-a.jpg
                    :align: middle
                    :width: 384
 
-.. |usb_c_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-usb-c.jpg
+.. |usb_c_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-USBC.jpg
                    :align: middle
                    :width: 384
                    
-.. |prog_btn_img| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-prog_btn.jpg
+.. |prog_btn_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-Prog-Button.jpg
                   :align: middle
                   :width: 384
 
-.. |Front View| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Front.jpg
+.. |Front View| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-Front.jpg
                   :class: product-img
 
-.. |Rear View| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Rear.jpg
+.. |Rear View| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-Rear.jpg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Side1.jpg
+.. |Side View 1| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-Side1.jpg
                   :class: product-img
 
-.. |Side View 2| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Side2.jpg
+.. |Side View 2| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-Side2.jpg
                   :class: product-img
 
-
-.. _PPC-CM4-070-D:
+.. _CS-BOX-CM4:
 
 
 |product|
@@ -134,13 +123,11 @@
 
 .. include:: /PCs/Shared/four_main_images
 
-.. include:: Resources/overview
+.. include:: Resources/CS-BOX-CM4/overview
 
 .. include:: Resources/ordering
 
 .. include:: Resources/opt_features
-
-.. include:: Resources/CS10600RA4070/comparison_4070_4070D
 
 .. include:: Resources/HW_features
 
@@ -149,8 +136,6 @@
 .. include:: Resources/power_conn
 
 .. include:: Resources/CS10600RA4070/power_jack
-
-.. include:: Resources/cap_screen
 
 .. include:: Resources/connectivity
 
@@ -183,13 +168,5 @@
 .. include:: Resources/CS12800RA4101/mounting_cs12800ra4101
 
 .. include:: Resources/mechanical
-
-.. figure:: /Media/ARM/A55/CS10600-RK3568-070P/SIZE_RK3568_070.jpg
-   :align: center
-   :figclass: align-center
-
-   |productP| Technical Drawing
-
-.. include:: /PCs/Shared/Hardware/three_d
 
 .. include:: /PCs/Shared/support

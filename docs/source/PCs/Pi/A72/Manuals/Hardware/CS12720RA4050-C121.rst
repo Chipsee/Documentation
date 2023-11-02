@@ -24,6 +24,8 @@
 
 .. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
+.. |disp_table| replace:: |dispsize| IPS LCD, |res| resolution \px, brightness |bright|
+
 .. |dimE| replace:: NULL
 
 .. |dimP| replace:: 138.55 x 84.70 x 27.10mm
@@ -32,7 +34,7 @@
 
 .. |weightP| replace:: 310g
 
-.. |tscreen| replace:: 5-point capacitive touch
+.. |tscreen| replace:: 5-point capacitive touch with 1mm Armored Glass
 
 .. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
 

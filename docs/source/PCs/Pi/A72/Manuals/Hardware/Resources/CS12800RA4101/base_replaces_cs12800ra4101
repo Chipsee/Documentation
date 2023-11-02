@@ -8,7 +8,9 @@
 
 .. |disp_des| replace:: |dispsize| Ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |tscreen| replace:: 10-point capacitive touch
+.. |disp_table| replace:: |dispsize| IPS LCD, |res| resolution \px, brightness |bright|
+
+.. |tscreen| replace:: 10-point capacitive touch with 1mm Armored Glass
 
 .. |rs232_485_can_ter| replace:: phoenix terminal
 

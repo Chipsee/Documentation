@@ -82,10 +82,6 @@
                   :align: middle
                   :width: 384
 
-.. |dimension_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-Dimension.jpg
-                  :align: middle
-                  :width: 576
-
 .. |Front View| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-Front.jpg
                   :class: product-img
 
