@@ -20,7 +20,7 @@
 
 .. |power_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-Power.jpg
                   :align: middle
-                  :width: 576
+                  :width: 768
 
 .. |dc_jack_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-DCJack.jpg
                   :align: middle
