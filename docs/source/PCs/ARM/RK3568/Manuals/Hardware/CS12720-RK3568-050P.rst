@@ -34,6 +34,8 @@
 
 .. |LAN| replace:: 1 x RJ45, GbE
 
+.. |LAN_des| replace:: 1 x RJ45
+
 .. |GPIO| replace:: NULL
 
 .. |opt1| replace:: NULL

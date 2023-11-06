@@ -1,5 +1,7 @@
 .. include:: /PCs/Shared/pdf_options
 
+.. include:: Resources/CS12800-RK3568-101P/base_replaces_101P
+
 .. |product| replace:: PPC-A55-133
 
 .. |productP| replace:: PPC-A55-133
@@ -14,8 +16,6 @@
 
 .. |bright| replace:: 400 |cd|
 
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
-
 .. |dimE| replace:: NULL
 
 .. |dimP| replace:: 355 x 225 x 55mm
@@ -24,35 +24,11 @@
 
 .. |weightP| replace:: 3000g
 
-.. |RAM| replace:: Samsung 2GB LPDDR4X, 4266 Mbps
-
-.. |eMMC| replace:: 16GB
-
-.. |tscreen| replace:: 10-point capacitive touch screen
-
-.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
-
-.. |LAN| replace:: 1 x RJ45, GbE
-
-.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
-
-.. |opt1| replace:: Supported, Optional
-
-.. |opt2| replace:: Integrated WiFi/BT Module
-
-.. |vin_rng| replace:: From 12V to 36V
-
 .. |cur| replace:: 1.25A Max at 12V
 
 .. |pwr| replace:: 9.6W Typical, 15W Max
 
 .. |temp| replace:: From 0°C to +60°C
-
-.. |rs232| replace:: Default to 2 x RS232 (including 1 debug port). Up to 6 x RS232.
-
-.. |rs485| replace:: Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232.
-
-.. |can| replace:: Default to 2 x CAN. Optionally, these 2 x CAN can be configured to RS232.
 
 .. |power_img| image:: /Media/ARM/A55/CS19108-RK3568-133P/Power-RK3568-133P.jpg
                   :align: middle
