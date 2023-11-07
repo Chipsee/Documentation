@@ -149,7 +149,7 @@
 
 .. include:: Resources/CS10600-RK3568-070P/connectivity_070P
 
-.. include:: Resources/USB-101P
+.. include:: Resources/USB
 
 .. include:: Resources/LAN
 
@@ -157,13 +157,13 @@
 
 .. include:: Resources/4G_com
 
-.. include:: Resources/TF_Card_CS12800-RK3568-101P
+.. include:: Resources/TF_Card
 
-.. include:: Resources/Audio_IO_CS12800-RK3568-101P
+.. include:: Resources/Audio_IO
 
 .. include:: Resources/HDMI
 
-.. include:: Resources/Prog_btn_CS12800-RK3568-101P
+.. include:: Resources/Prog_btn
 
 .. include:: Resources/CS10600-RK3568-070P/gpio_070P
 

@@ -118,9 +118,9 @@
 
 .. include:: Resources/cap_screen_usb
 
-.. include:: Resources/connectivity_CS12800-RK3568-101P
+.. include:: Resources/CS12800-RK3568-101P/connectivity_101P
 
-.. include:: Resources/USB-101P
+.. include:: Resources/USB
 
 .. include:: Resources/LAN
 
@@ -130,13 +130,13 @@
 
 .. include:: Resources/m2_slot
 
-.. include:: Resources/TF_Card_CS12800-RK3568-101P
+.. include:: Resources/TF_Card
 
-.. include:: Resources/Audio_IO_CS12800-RK3568-101P
+.. include:: Resources/Audio_IO
 
 .. include:: Resources/HDMI
 
-.. include:: Resources/Prog_btn_CS12800-RK3568-101P
+.. include:: Resources/Prog_btn
 
 .. include:: Resources/mounting
 

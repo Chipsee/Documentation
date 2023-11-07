@@ -26,23 +26,29 @@
 
 .. |RAM| replace:: 2GB LPDDR4
 
+.. |SSD| replace:: N/A
+
 .. |eMMC| replace:: 16GB
 
 .. |tscreen| replace:: 5-point capacitive touch screen
+
+.. |HDMI_des| replace:: 1 x HDMI-D 2.0 (Micro-HDMI) Out
+
+.. |uart_des| replace:: This product has 4 x UART channels in total. The default configuration is 2 x RS232 and 2 x RS485, including 1 debug port.
 
 .. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
 
 .. |LAN| replace:: 1 x RJ45, GbE
 
+.. |poe| replace:: N/A
+
 .. |LAN_des| replace:: 1 x RJ45
 
-.. |GPIO| replace:: NULL
+.. |GPIO| replace:: N/A
 
-.. |opt1| replace:: NULL
+.. |opt1| replace:: N/A
 
 .. |opt2| replace:: Integrated WiFi/BT Module
-
-.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
 
 .. |vin_rng| replace:: From 6V to 36V
 
@@ -58,18 +64,54 @@
 
 .. |can| replace:: default 1 x CAN (Optional 2 x CAN at most)
 
+.. |power_img| image:: /Media/ARM/A55/CS12800-RK3568-050P/CS12800-RK3568-050P-Power.jpg
+                  :align: middle
+                  :width: 384
+
 .. |wifi_bt_img| image:: /Media/ARM/A55/Others/Antenna.jpeg
                   :align: middle
                   :width: 384
 
-.. |LAN_img| image:: /Media/ARM/A55/CS12800-RK3568-050P/LAN.jpg
+.. |gpio_img| image:: /Media/ARM/A55/CS12800-RK3568-050P/CS12800-RK3568-050P-GPIO.jpg
+                   :align: middle
+                   :width: 640
+
+.. |tf_img| image:: /Media/ARM/A55/CS12800-RK3568-050P/CS12800-RK3568-050P-TF.jpg
                   :align: middle
-                  :width: 192
+                  :width: 640
+
+.. |audio_img| image:: /Media/ARM/A55/CS12800-RK3568-050P/CS12800-RK3568-050P-Audio.jpg
+                  :width: 640
+
+.. |LAN_img| image:: /Media/ARM/A55/CS12800-RK3568-050P/CS12800-RK3568-050P-LAN.jpg
+                  :align: middle
+                  :width: 384
+
+.. |HDMI_img| image:: /Media/ARM/A55/CS12800-RK3568-050P/CS12800-RK3568-050P-HDMI.jpg
+                  :align: middle
+                  :width: 384
+
+
+.. |USB2_img| image:: /Media/ARM/A55/CS12800-RK3568-050P/CS12800-RK3568-050P-USB2.jpg
+                   :align: middle
+                   :width: 384
+
+.. |USB3_img| image:: /Media/ARM/A55/CS12800-RK3568-050P/CS12800-RK3568-050P-USB3.jpg
+                   :align: middle
+                   :width: 384
+
+.. |USBC_img| image:: /Media/ARM/A55/CS12800-RK3568-050P/CS12800-RK3568-050P-USBC.jpg
+                   :align: middle
+                   :width: 384
+
+.. |PROG_btn_img| image:: /Media/ARM/A55/CS12800-RK3568-050P/CS12800-RK3568-050P-Prog-Button.jpg
+                  :align: middle
+                  :width: 384
 
 .. |Front View| image:: /Media/ARM/A55/CS12800-RK3568-050P/PPC-A55-050-C-Front.jpg
                   :class: product-img
 
-.. |Rear View| image:: /Media/ARM/A55/CS12800-RK3568-050P/CS12800-RK3568-50P-Back.jpg
+.. |Rear View| image:: /Media/ARM/A55/CS12800-RK3568-050P/CS12800-RK3568-050P-Rear.jpg
                   :class: product-img
 
 .. |Side View 1| image:: /Media/ARM/A55/CS12800-RK3568-050P/PPC-A55-050-C-Side1.jpg
@@ -99,219 +141,27 @@
 
 .. include:: Resources/HW_features
 
+.. include:: Resources/table
 
-.. table:: Key Features
-   :align: center
-   :width: 100%
-   :widths: auto
-
-   +----------------------------------------------------------------------------------------------------------------------------------------------------+
-   | .. centered:: |product|                                                                                                                            |
-   +==============================================+=====================================================================================================+
-   | **CPU**                                      | Rockchip RK3568, Quad-core Cortex-A55 (2.0GHz)                                                      |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **RAM**                                      | |RAM|                                                                                               |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **eMMC**                                     | |eMMC|                                                                                              |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **Storage**                                  | TF Card, Supports up to 128GB SDHC                                                                  |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **Display**                                  | |dispsize| LCD, |res|, High Brightness: |bright|                                                    |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **HDMI**                                     | 1 x HDMI-D                                                                                          |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **Touch**                                    | |tscreen|                                                                                           |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **USB**                                      | |USB|                                                                                               |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **LAN**                                      | |LAN|                                                                                               |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **Audio**                                    | 3.5mm Audio In/Out Connector, 2W Internal Speaker                                                   |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **Buzzer**                                   | Yes                                                                                                 |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **RTC**                                      | |rtc|                                                                                               |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **RS232**                                    | |rs232|\ [#at]_                                                                                     |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **RS485**                                    | |rs485|\ [#at]_                                                                                     |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **CAN**                                      | |can|                                                                                               |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **GPIO**                                     | |GPIO|                                                                                              |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **WiFi/BT**                                  | |opt2|                                                                                              |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **4G/LTE**                                   | |opt1|                                                                                              |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **Power Input**                              | |vin_rng|                                                                                           |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **Current at 12V**                           | |cur|                                                                                               |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **Power Consumption**                        | |pwr|                                                                                               |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **Working Temperature**                      | |temp|                                                                                              |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **OS**                                       | Android 11, Debian11, Buildroot Linux Qt                                                            |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **Dimensions**                               | |productP| (|PN|): |dimP|                                                                           |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **Weight**                                   | |productP| (|PN|): |weightP|                                                                        |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-   | **Mounting**                                 | |productP| (|PN|): Panel                                                                            |
-   +----------------------------------------------+-----------------------------------------------------------------------------------------------------+
-
-
------
-
-.. [#at] This product has 4 x UART channels in total. The default configuration is 2 x RS232 and 2 x RS485, include 1 debug port.
-       UART can be swapped between RS232 and RS485 modes easily, so if you need different RS232/RS485 configuration, please get in touch
-       with the Chipsee Technical Support at |email|_
-
-.. include:: Resources/power_CS12800-RK3568-050P
+.. include:: Resources/power
 
 .. include:: Resources/cap_screen
 
-Connectivity
-============
+.. include:: Resources/CS12800-RK3568-050P/connectivity_050P
 
-There are many connectivity options available on the |product| industrial PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to
-1 Gbps, and 4 x UART terminals (RS232/RS485/CAN).
-
-RS232/RS485/CAN
----------------
-
-The serial communication interfaces (RS485, RS232, and CAN) are routed to a **12-pin 3.81mm terminal**, as illustrated on the figure below.
-
-.. figure:: /Media/Pi/A72/CS12720RA4050-C121/RS232_RS485_CAN.png
-   :align: center
-   :figclass: align-center
-
-   *Relation between serial pins on embedded vs. enclosed version of the* |product| *Industrial PC*
-
-The table below offers more detailed description of every pin and its definition:
-
-.. table:: Connectivity Section
-   :align: center
-   :width: 100%
-   :class: align-center
-   :widths: auto
-
-   +---------------------------------------------------------------------------------------------------------------+
-   | **RS232 / RS485 / CAN Pin Definition:**                                                                       |
-   +================+===============================+==============================================================+
-   | **Pin Number** | **Definition**                | **Description**                                              |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 12         | CAN1_H                        | CAN H signal                                                 |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 11         | CAN1_L                        | CAN L signal                                                 |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 10         | RS485_4-                      | CPU UART4, RS485 –(B) signal                                 |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 9          | RS485_4+                      | CPU UART4, RS485 +(A) signal                                 |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 8          | RS485_3-                      | CPU UART3, RS485 –(B) signal                                 |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 7          | RS485_3+                      | CPU UART3, RS485 +(A) signal                                 |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 6          | RS232_0_RXD                   | CPU UART0, RS232 RXD signal                                  |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 5          | RS232_0_TXD                   | CPU UART0, RS232 TXD signal                                  |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 4          | RS232_2_RXD                   | CPU UART2, RS232 RXD signal, Debug Port                      |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 3          | RS232_2_TXD                   | CPU UART2, RS232 TXD signal  Debug Port                      |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 2          | GND                           | System Ground                                                |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-   | Pin 1          | +5V                           | System +5V Power Output, No more than 1A Current output      |
-   +----------------+-------------------------------+--------------------------------------------------------------+
-
-.. attention::
-
-    #) RS485_3 and RS485_4 can control the input and output direction automatically. There’s no need to control it from within the software.
-    #) The 120Ω match resistor for the RS485 is mounted by default.
-    #) The 120Ω match resistor for the CAN bus is NOT mounted by default.
-
-
-USB Connectors
---------------
-
-There are 2 x **USB HOST connectors** onboard which includes |USB|
-, as shown in the figures below.
-
-.. Figure:: /Media/ARM/A55/CS12800-RK3568-050P/USB.png
-  :align: center
-  :figclass: align-center
-
-  *USB 2.0 and USB3.0 HOST Connectors (enclosed PC version)*
-
-.. Figure:: /Media/Pi/A72/CS12720RA4050-C121/Type-C.png
-  :align: center
-  :figclass: align-center
-
-  *USB Type-C Connector (enclosed PC version)*
-
-.. warning::
-
-  Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
+.. include:: Resources/USB
 
 .. include:: Resources/LAN
 
 .. include:: Resources/WiFi_BT
 
-TF Card Slot
-============
+.. include:: Resources/CS12800-RK3568-050P/TFCard_050P
 
-|Product| features 1 x **TF Card (micro SD) slot**: SD, TF slots can address up to 128GB of memory.
+.. include:: Resources/Audio_IO
 
-.. figure:: /Media/Pi/A72/CS12720RA4050-C121/TFCard.png
-  :align: center
-  :figclass: align-center
+.. include:: Resources/HDMI
 
-  *TF (micro SD) Card Slot*
-
-Audio Connectors
-================
-
-|Product| features some audio peripherals. It has 1 x **3.5mm audio output jack**. |br|
-Also, the |product| industrial PC has a miniature 2W internal speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds.
-
-.. figure:: /Media/Pi/A72/CS12720RA4050-C121/Headphone.png
-  :figclass: align-center
-  :align: center
-
-  *Audio Connector*
-
-.. attention::
-
-    By plugging in the headphone cable, the internal speaker will be disabled automatically.
-
-HDMI Connector
-==============
-
-|Product| supports 1 x HDMI-D 2.0 interfaces. |br|
-
-.. figure:: /Media/Pi/A72/CS12720RA4050-C121/HDMI_D.png
-  :figclass: align-center
-  :align: center
-
-  *HDMI Connector*
-
-PROG Button
-===========
-
-|Product| has one button on the board marked as PROG, shown in the figure below. |br|
-When button is pressed before power, the |product| will enter MASKROM mode which can use Type-C port do upgrade system. You can use this function to download the OS software to the internal eMMC. |br|
-When button is released before power, the |product| will boot normally.
-
-There is no need to press the button during regular operation. However, if you need to reinstall the OS, please refer to the detailed information on how to re-flash the OS.
-
-.. figure:: /Media/Pi/A72/CS12720RA4050-C121/PROG.png
-  :figclass: align-center
-  :align: center
-
-  *PROG Button*
+.. include:: Resources/Prog_btn
 
 Mounting Procedure
 ==================
