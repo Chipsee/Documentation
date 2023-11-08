@@ -1,30 +1,22 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. |product| replace:: PPC-A55-070
+.. |product| replace:: CS-BOX-A55
 
-.. |productP| replace:: PPC-A55-070
+.. |productP| replace:: CS-BOX-A55
 
-.. |PN| replace:: PN: CS10600-RK3568-070P
+.. |PN| replace:: PN: CS-BOX-RK3568
 
-.. |Product| replace:: The |product| Industrial Panel PC
+.. |Product| replace:: The |product| Industrial PC
 
-.. |dispsize| replace:: 7"
+.. |dispsize| replace:: N/A
 
-.. |res| replace:: 1024 x 600
+.. |disp_des| replace:: N/A
 
-.. |bright| replace:: 500 |cd|
-
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
-.. |disp_table_des| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
+.. |disp_table_des| replace:: N/A
 
 .. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 3 x RS485, include 1 debug port. 
 
-.. |dimE| replace:: NULL
-
 .. |dimP| replace:: 188.05 x 123.11 x 33.20mm
-
-.. |weightE| replace:: NULL
 
 .. |weightP| replace:: null
 
@@ -34,7 +26,7 @@
 
 .. |eMMC| replace:: 16GB
 
-.. |tscreen| replace:: 5-point capacitive touch screen
+.. |tscreen| replace:: N/A
 
 .. |HDMI_des| replace:: 1 x HDMI-D (Micro-HDMI) Out
 
@@ -68,86 +60,86 @@
 
 .. |vesa_screws| replace:: **75 x 75** mm, 4 x **M4** (6mm)
 
-.. |power_img| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600-RK3568-070P-Power.jpg
-                  :align: middle
-                  :width: 512
-
-.. |dc_jack_img| image:: /Media/ARM/A55/CS10600-RK3568-070P/Power_RK3568_070.jpg
-                  :align: middle
-                  :width: 576
-
-.. |wifi_bt_img| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600-RK3568-070P-WiFi.jpg
+.. |power_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-Power.jpg
                   :align: middle
                   :width: 768
 
-.. |LAN_img| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-LAN.jpg
+.. |dc_jack_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-DCJack.jpg
+                  :align: middle
+                  :width: 576
+
+.. |wifi_bt_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-WIFI.jpg
                   :align: middle
                   :width: 384
 
-.. |audio_img| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600-RK3568-070P-Audio.jpg
+.. |LAN_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-LAN.jpg
                   :align: middle
                   :width: 384
 
-.. |TF_SIM_img| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600-RK3568-070P-SIM.jpg
+.. |audio_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-Audio.jpg
                   :align: middle
                   :width: 384
 
-.. |sim_img| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-SIM.jpg
+.. |TF_SIM_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-SIMTF.jpg
+                  :align: middle
+                  :width: 512
+
+.. |sim_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-SIM.jpg
                   :align: middle
                   :width: 640
 
-.. |can_232_485_img| image:: /Media/ARM/A55/CS10600-RK3568-070P/RS232_RS485_CAN_RK3568_070.jpg
+.. |can_232_485_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-RS232-RS485-CAN.jpg
                   :align: middle
                   :width: 640 
 
-.. |gpio_img| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600-RK3568-070P-GPIO.jpg
+.. |gpio_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-GPIO.jpg
                   :align: middle
                   :width: 640                  
 
-.. |PROG_btn_img| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600-RK3568-070P-Prog-Button.jpg
+.. |PROG_btn_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-Prog-Button.jpg
                   :align: middle
                   :width: 384
 
-.. |HDMI_img| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600-RK3568-070P-HDMI.jpg
+.. |HDMI_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-HDMI.jpg
                   :align: middle
                   :width: 384
 
-.. |USB2_img| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600-RK3568-070P-USB2.jpg
+.. |USB2_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-USB2.jpg
                    :align: middle
                    :width: 384
 
-.. |USB3_img| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600-RK3568-070P-USB3.jpg
+.. |USB3_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-USB3.jpg
                    :align: middle
                    :width: 384
 
-.. |USBC_img| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600-RK3568-070P-USBC.jpg
+.. |USBC_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-USBC.jpg
                    :align: middle
                    :width: 384
 
-.. |Front View| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Front.jpg
+.. |Front View| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-Front.jpg
                   :class: product-img
 
-.. |Rear View| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Rear.jpg
+.. |Rear View| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-Rear.jpg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Side1.jpg
+.. |Side View 1| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-Side1.jpg
                   :class: product-img
 
-.. |Side View 2| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Side2.jpg
+.. |Side View 2| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-Side2.jpg
                   :class: product-img                  
 
 
-.. _PPC-A55-070:
+.. _CS-BOX-A55:
 
 |product|
 #########
 
-.. rubric:: *Version 1.1*
+.. rubric:: *Version 1.0*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images
 
-.. include:: Resources/overview
+.. include:: Resources/CS-BOX-RK3568/overview
 
 .. include:: Resources/ordering
 
@@ -160,8 +152,6 @@
 .. include:: Resources/BOX-070-RK3568-Shared/power_070P
 
 .. include:: Resources/BOX-070-RK3568-Shared/power_jack
-
-.. include:: Resources/cap_screen
 
 .. include:: Resources/BOX-070-RK3568-Shared/connectivity_070P
 
@@ -185,22 +175,6 @@
 
 .. include:: Resources/mounting
 
-.. Figure:: /Media/Pi/A53/Others/mountP.jpeg
-  :align: center
-  :figclass: align-center
-
-  *Panel mounting*
-
 .. include:: Resources/mechanical
-
-Please refer to the technical drawing in the figure below for details related to the specific product measurements.
-
-.. figure:: /Media/ARM/A55/CS10600-RK3568-070P/SIZE_RK3568_070.jpg
-   :align: center
-   :figclass: align-center
-
-   |productP| *Technical Drawing*
-
-.. include:: /PCs/Shared/Hardware/three_d
 
 .. include:: /PCs/Shared/support

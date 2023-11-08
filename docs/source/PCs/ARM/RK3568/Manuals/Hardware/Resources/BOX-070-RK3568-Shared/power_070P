@@ -1,13 +1,13 @@
 Power Input
 ===========
 
-|Product| can be powered by a wide range of input voltages: |vin_rng| DC. The power input connector is a **3-pin, 3.81mm terminal**.
-The polarity and the pinout is clearly marked on the housing of the product as shown on the figure below.
-There is one power input connector which is a 2.1mm I.D x 5.5mm O.D x 9.5mm DC connector. For a proper DC power adapter, refer to the figure below.
+|Product| can be powered by a wide range of input voltages: |vin_rng| DC. 
 
-.. Figure:: /Media/ARM/A55/CS10600-RK3568-070P/Power_RK3568_070.jpg
-  :align: center
-  :figclass: align-center
+There are two DC input interfaces on this device: a **3-pin, 3.81mm terminal**, and a **2.1mm I.D x 5.5mm O.D x 9.5mm DC connector**.
+
+.. rst-class:: text-center
+
+  |power_img|
 
   *Power Input*
 

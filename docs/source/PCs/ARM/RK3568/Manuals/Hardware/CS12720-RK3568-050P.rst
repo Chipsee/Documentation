@@ -16,6 +16,8 @@
 
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
+.. |disp_table_des| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
+
 .. |dimE| replace:: NULL
 
 .. |dimP| replace:: 138.55 x 84.70 x 27.10mm

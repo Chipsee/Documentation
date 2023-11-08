@@ -9,11 +9,11 @@ RS232/RS485/CAN
 
 The serial communication interfaces (RS485, RS232, and CAN) are routed to a **16-pin 3.81mm terminal**, as illustrated on the figure below.
 
-.. figure:: /Media/ARM/A55/CS10600-RK3568-070P/RS232_RS485_CAN_RK3568_070.jpg
-   :align: center
-   :figclass: align-center
+.. rst-class:: text-center
 
-   *RS232 RS485 CAN Pins*
+  |can_232_485_img|
+
+  *RS232 RS485 CAN Pins*
 
 The table below offers more detailed description of every pin and its definition:
 

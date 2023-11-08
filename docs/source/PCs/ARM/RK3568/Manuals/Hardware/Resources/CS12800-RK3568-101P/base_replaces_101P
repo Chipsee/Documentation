@@ -1,5 +1,7 @@
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
 
+.. |disp_table_des| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
+
 .. |uart_des| replace:: This product has 4 x UART by default, 6 x UART channels at most. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. The 2 x CAN can be configured to RS232.
 
 .. |RAM| replace:: Samsung 2GB LPDDR4X, 4266 Mbps
