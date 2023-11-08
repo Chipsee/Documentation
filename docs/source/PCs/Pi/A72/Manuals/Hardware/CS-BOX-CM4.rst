@@ -1,6 +1,6 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. include:: Resources/CS-BOX-CM4/base_replaces
+.. include:: Resources/BOX-070D-070P-RA4-Shared/base_replaces_4070D
 
 .. |product| replace:: CS-BOX-CM4
 
@@ -135,17 +135,17 @@
 
 .. include:: Resources/power_conn
 
-.. include:: Resources/CS10600RA4070/power_jack
+.. include:: Resources/BOX-070D-070P-RA4-Shared/power_jack
 
 .. include:: Resources/connectivity
 
-.. include:: Resources/CS10600RA4070/connectivity_table
+.. include:: Resources/BOX-070D-070P-RA4-Shared/connectivity_table
 
 .. include:: Resources/gpio
 
-.. include:: Resources/CS10600RA4070/gpio_table
+.. include:: Resources/BOX-070D-070P-RA4-Shared/gpio_table
 
-.. include:: Resources/CS10600RA4070/cpu_gpio_4070D
+.. include:: Resources/BOX-070D-070P-RA4-Shared/cpu_gpio_4070D
 
 .. include:: Resources/USB
 

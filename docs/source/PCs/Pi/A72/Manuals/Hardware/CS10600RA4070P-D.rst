@@ -1,6 +1,6 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. include:: Resources/CS10600RA4070/base_replaces_4070D
+.. include:: Resources/BOX-070D-070P-RA4-Shared/base_replaces_4070D
 
 .. |product| replace:: PPC-CM4-070-D
 
@@ -148,19 +148,19 @@
 
 .. include:: Resources/power_conn
 
-.. include:: Resources/CS10600RA4070/power_jack
+.. include:: Resources/BOX-070D-070P-RA4-Shared/power_jack
 
 .. include:: Resources/cap_screen
 
 .. include:: Resources/connectivity
 
-.. include:: Resources/CS10600RA4070/connectivity_table
+.. include:: Resources/BOX-070D-070P-RA4-Shared/connectivity_table
 
 .. include:: Resources/gpio
 
-.. include:: Resources/CS10600RA4070/gpio_table
+.. include:: Resources/BOX-070D-070P-RA4-Shared/gpio_table
 
-.. include:: Resources/CS10600RA4070/cpu_gpio_4070D
+.. include:: Resources/BOX-070D-070P-RA4-Shared/cpu_gpio_4070D
 
 .. include:: Resources/USB
 
