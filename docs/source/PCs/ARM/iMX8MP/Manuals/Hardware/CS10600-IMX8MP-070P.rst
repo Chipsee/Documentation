@@ -1,6 +1,6 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. include:: Resources/070P-BOX-Shared/base_replaces_CS10600-IMX8MP-070P
+.. include:: Resources/BOX-070P-IMX8MP-Shared/base_replaces_CS10600-IMX8MP-070P
 
 .. |product| replace:: PPC-A53-070
 
@@ -29,8 +29,6 @@
 .. |weightP| replace:: 610g
 
 .. |tscreen| replace:: 5-point capacitive touch screen
-
-
 
 .. |power_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Power.jpg
                   :align: middle
@@ -136,13 +134,13 @@
 
 .. include:: Resources/power
 
-.. include:: Resources/CS10600-IMX8MP-070P/power_jack
+.. include:: Resources/BOX-070P-IMX8MP-Shared/power_jack
 
 .. include:: Resources/cap_screen
 
 .. include:: Resources/connectivity
 
-.. include:: Resources/CS10600-IMX8MP-070P/gpio
+.. include:: Resources/BOX-070P-IMX8MP-Shared/gpio
 
 .. include:: Resources/USB
 

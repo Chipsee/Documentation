@@ -1,6 +1,6 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. include:: Resources/070P-BOX-Shared/base_replaces_CS10600-IMX8MP-070P
+.. include:: Resources/BOX-070P-IMX8MP-Shared/base_replaces_CS10600-IMX8MP-070P
 
 .. |product| replace:: CS-BOX-A53
 
@@ -116,11 +116,11 @@
 
 .. include:: Resources/power
 
-.. include:: Resources/CS10600-IMX8MP-070P/power_jack
+.. include:: Resources/BOX-070P-IMX8MP-Shared/power_jack
 
 .. include:: Resources/connectivity
 
-.. include:: Resources/CS10600-IMX8MP-070P/gpio
+.. include:: Resources/BOX-070P-IMX8MP-Shared/gpio
 
 .. include:: Resources/USB
 
