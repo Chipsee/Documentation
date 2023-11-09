@@ -18,6 +18,8 @@
 
 .. |disp_table_des| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
 
+.. |mounting_table| replace:: Panel, VESA
+
 .. |dimE| replace:: NULL
 
 .. |dimP| replace:: 138.55 x 84.70 x 27.10mm

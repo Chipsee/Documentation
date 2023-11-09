@@ -12,6 +12,8 @@
 
 .. |disp_des| replace:: N/A
 
+.. |mounting_table| replace:: Rear, VESA
+
 .. |disp_table_des| replace:: N/A
 
 .. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 3 x RS485, include 1 debug port. 
@@ -173,7 +175,7 @@
 
 .. include:: Resources/BOX-070-RK3568-Shared/gpio_070P
 
-.. include:: Resources/mounting
+.. include:: Resources/CS-BOX-RK3568/mounting
 
 .. include:: Resources/mechanical
 

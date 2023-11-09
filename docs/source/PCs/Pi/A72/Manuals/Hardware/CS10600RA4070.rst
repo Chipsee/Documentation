@@ -28,6 +28,8 @@
 
 .. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
+.. |mounting_table| replace:: |productP|: Panel, VESA; |productE|: Embedded
+
 .. |disp_table| replace:: |dispsize| IPS LCD, |res| resolution \px, brightness |bright|
 
 .. |dimE| replace:: 190 x 108 x 28mm

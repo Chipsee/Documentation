@@ -42,6 +42,8 @@
 
 .. |sata_des| replace:: Not Supported
 
+.. |mounting_table| replace:: |productP|: Panel, VESA
+
 .. |power_conn_desc| replace:: It is a **3 Pin, 3.81mm screw terminal** connector.
 
 .. |opt1| replace:: Supported, not mounted by default

@@ -12,6 +12,8 @@
 
 .. |disp_table| replace:: N/A
 
+.. |mounting_table| replace:: Rear, VESA
+
 .. |tscreen| replace:: N/A
 
 .. |dimP| replace:: N/A
@@ -142,7 +144,7 @@
 
 .. include:: Resources/prog_btn
 
-.. include:: Resources/mounting
+.. include:: Resources/CS-BOX-IMX8MP/mounting
 
 .. include:: Resources/mechanical
 

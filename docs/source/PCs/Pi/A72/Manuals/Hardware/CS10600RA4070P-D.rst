@@ -6,7 +6,7 @@
 
 .. |productE| replace:: NULL
 
-.. |productP| replace:: |product|
+.. |productP| replace:: CS10600RA4070P-D
 
 .. |PN| replace:: PN: CS10600RA4070P-D
 
@@ -19,6 +19,8 @@
 .. |bright| replace:: 500 |cd|
 
 .. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |mounting_table| replace:: |productP|: Panel, VESA
 
 .. |disp_table| replace:: |dispsize| IPS LCD, |res| resolution \px, brightness |bright|
 

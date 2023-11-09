@@ -26,6 +26,8 @@
 
 .. |disp_table| replace:: |dispsize| IPS LCD, |res| resolution \px, brightness |bright|
 
+.. |mounting_table| replace:: |productP|: Panel, VESA
+
 .. |dimE| replace:: NULL
 
 .. |dimP| replace:: 138.55 x 84.70 x 27.10mm

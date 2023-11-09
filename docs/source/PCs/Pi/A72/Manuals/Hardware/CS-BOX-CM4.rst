@@ -12,6 +12,8 @@
 
 .. |disp_table| replace:: N/A
 
+.. |mounting_table| replace:: |productP|: Rear, VESA
+
 .. |dimE| replace:: NULL
 
 .. |dimP| replace:: N/A
@@ -165,7 +167,7 @@
 
 .. include:: Resources/prog_btn
 
-.. include:: Resources/CS12800RA4101/mounting_cs12800ra4101
+.. include:: Resources/CS-BOX-CM4/mounting
 
 .. include:: Resources/mechanical
 
