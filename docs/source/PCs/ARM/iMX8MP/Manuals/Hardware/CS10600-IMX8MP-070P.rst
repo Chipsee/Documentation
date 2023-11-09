@@ -28,6 +28,10 @@
 
 .. |weightP| replace:: 610g
 
+.. |cur| replace:: 600mA Max at 12V, 450mA Idle at 12V
+
+.. |pwr| replace:: 7.2W Max, 5.4W Idle (Maximum brightness)
+
 .. |tscreen| replace:: 5-point capacitive touch screen
 
 .. |power_img| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Power.jpg

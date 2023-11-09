@@ -38,7 +38,7 @@
 
 .. |cap_screen_conn| replace:: FPC connector
 
-.. |cur| replace:: 700mA (max); 530mA (maximum backlight, idle); 400mA (minimum backlight, idle)
+.. |cur| replace:: 700mA (max); 530mA (maximum backlight, idle); 400mA (minimum backlight, idle) at 12V
 
 .. |pwr| replace:: 8.4W (max); 6.36W (maximum backlight, idle); 4.8W (minimum backlight, idle)
 

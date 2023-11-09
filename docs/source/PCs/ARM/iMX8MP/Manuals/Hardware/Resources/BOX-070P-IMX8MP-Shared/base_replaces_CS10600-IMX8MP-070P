@@ -1,6 +1,6 @@
 .. |RAM| replace:: LPDDR4 4GB
 
-.. |eMMC| replace:: 16GB
+.. |eMMC| replace:: 32GB
 
 .. |HDMI| replace:: 1 x HDMI-D(Micro HDMI) OUT
 
@@ -19,10 +19,6 @@
 .. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
 
 .. |vin_rng| replace:: From 6V to 36V
-
-.. |cur| replace:: 600mA Max at 12V, 450mA Idle at 12V
-
-.. |pwr| replace:: 7.2W Max, 5.4W Idle (Maximum brightness)
 
 .. |temp| replace:: From 0°C to +60°C
 

@@ -14,9 +14,13 @@
 
 .. |tscreen| replace:: N/A
 
-.. |dimP| replace:: 188.05 x 123.11 x 33.20mm
+.. |dimP| replace:: N/A
 
-.. |weightP| replace:: 610g
+.. |weightP| replace:: N/A
+
+.. |cur| replace:: 350mA (max) at 15V
+
+.. |pwr| replace:: 5.25W (max)
 
 .. |power_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-Power.jpg
                   :align: middle

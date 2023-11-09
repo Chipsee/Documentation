@@ -74,7 +74,7 @@
 
 .. |vin_rng| replace:: From 9V to 36V
 
-.. |cur| replace:: 500mA Max
+.. |cur| replace:: 500mA Max at 12V
 
 .. |pwr| replace:: 6W Typical
 

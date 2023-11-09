@@ -15,7 +15,7 @@ The |Cortex|-A72 Raspberry |Pi| series |product| (|PN|) is a high-quality fanles
   + Automotive applications
   + ATM...
 
-From the ground-up, the CPU is built for low power consumption. As such, it is best suited for mobile and power-constrained industrial or field applications. A specially designed aluminum alloy housing with fins for increased heat dissipation serves as a passive cooler, eliminating the need for built-in fans. The fanless design reduces noise, as well as the maintenance costs and efforts, leading to increased reliability at the same time.
+From the ground-up, the CPU is built for low power consumption, around |pwr|. As such, it is best suited for mobile and power-constrained industrial or field applications. A specially designed aluminum alloy housing with fins for increased heat dissipation serves as a passive cooler, eliminating the need for built-in fans. The fanless design reduces noise, as well as the maintenance costs and efforts, leading to increased reliability at the same time.
 
 |Product| is based around the powerful Raspberry |Pi| Compute Module 4, powered by the Quad |Cortex|-A72 processor with a processor speed of 1.5GHz.
 

@@ -16,7 +16,7 @@
 
 .. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 3 x RS485, include 1 debug port. 
 
-.. |dimP| replace:: 188.05 x 123.11 x 33.20mm
+.. |dimP| replace:: N/A
 
 .. |weightP| replace:: null
 
@@ -42,9 +42,9 @@
 
 .. |vin_rng| replace:: From 6V to 36V
 
-.. |cur| replace:: 550mA Max at 12V
+.. |cur| replace:: 290mA (max) at 15V
 
-.. |pwr| replace:: 6.6W Max
+.. |pwr| replace:: 4.35W (max)
 
 .. |temp| replace:: From 0°C to +60°C
 

@@ -14,11 +14,11 @@
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 188.05 x 123.11 x 33.20mm
+.. |dimP| replace:: N/A
 
 .. |weightE| replace:: NULL
 
-.. |weightP| replace:: 700g
+.. |weightP| replace:: N/A
 
 .. |tscreen| replace:: N/A
 
@@ -28,9 +28,9 @@
 
 .. |cap_screen_conn| replace:: FPC connector
 
-.. |cur| replace:: 700mA (max); 530mA (maximum backlight, idle); 400mA (minimum backlight, idle)
+.. |cur| replace:: 360mA (max) at 15V
 
-.. |pwr| replace:: 8.4W (max); 6.36W (maximum backlight, idle); 4.8W (minimum backlight, idle)
+.. |pwr| replace:: 5.4W (max)
 
 .. _product_link: https://chipsee.com/?s=cm4+070
 
