@@ -10,6 +10,11 @@ The mounting guide describes different kinds of mounting methods and provides
 step by step instructions that can help you to mount your product easily.
 The mounting guide can also help you to find the product that fits your requirements.
 
+.. _embedded_mguide:
+
+Embedded Mounting
+-----------------
+
 .. centered:: **Embedded Mounting**
 
 The Embedded or Open frame mounting method mounts products on the customized front bezel.
@@ -42,6 +47,12 @@ Application: Automatic Identification System (AIS), Monitoring and Surveillance 
    *Embedded Mounting Method*
 
 |br| |br|
+
+
+.. _panel_mguide:
+
+Panel Mounting
+--------------
 
 .. centered:: **Panel Mounting**
 
@@ -76,6 +87,12 @@ Installation Steps:
 
 |br| |br|
 
+
+.. _rear_mguide:
+
+Rear Mounting
+-------------
+
 .. centered:: **Rear Mounting**
 
 The rear mounting is a mounting method that mounts products from the rear side and secures them by a bracket on
@@ -100,6 +117,12 @@ Installation Steps:
    *Rear Mounting Method*
 
 |br| |br|
+
+
+.. _vesa_mguide:
+
+VESA Mounting
+-------------
 
 .. centered:: **VESA Mounting**
 

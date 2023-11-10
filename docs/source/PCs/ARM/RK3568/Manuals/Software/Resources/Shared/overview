@@ -9,6 +9,7 @@ Supported Chipsee PCs: all Chipsee RK3568 based industrial PCs, including but no
 * CS19108-RK3568-156P 
 * CS12800-RK3568-215P 
 * CS19108-RK3568-236P
+* CS-BOX-RK3568
    
 When you develop software for the |ipc|, you can open the hardware document beside this software document, to aid you in wiring your devices.
 

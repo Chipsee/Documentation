@@ -1,0 +1,33 @@
+.. |RAM| replace:: LPDDR4 4GB
+
+.. |eMMC| replace:: 32GB
+
+.. |HDMI| replace:: 1 x HDMI-D(Micro HDMI) OUT
+
+.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |USB_3_USB_C_Note| replace:: USB3.0 port and USB-C port share one node and cannot be used together. In Linux USB3.0 HOST is enabled by default; in Android USB-C OTG is enabled by default. You can change this config by software in the operating systems, e.g.: disable USB3.0 HOST then enable USB-C OTG in Linux, or vice versa in Android.
+
+.. |LAN| replace:: 2 x RJ45, GbE, including **1 x optional** Power over Ethernet (PoE) port
+
+.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
+
+.. |opt1| replace:: Supported, Optional
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
+.. |vin_rng| replace:: From 6V to 36V
+
+.. |temp| replace:: From 0°C to +60°C
+
+.. |rs232| replace:: default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port)
+
+.. |rs485| replace:: default 3 x RS485 at most
+
+.. |UART_Note| replace:: This product has 3 x CPU UART, 2 x USB UART by default, 6 x UART channels at most. The default configuration is 2 x RS232 and 3 x RS485, including 1 RS232 debug port. There is 1 x CAN that can be configured to RS232 (USB UART).
+
+.. |can| replace:: default 2 x CAN (1 x CAN can be configured to RS232 optionally)
+
+.. |poe| replace:: Supported, Optional

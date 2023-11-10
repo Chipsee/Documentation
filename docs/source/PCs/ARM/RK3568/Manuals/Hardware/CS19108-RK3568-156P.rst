@@ -1,5 +1,7 @@
 .. include:: /PCs/Shared/pdf_options
 
+.. include:: Resources/CS12800-RK3568-101P/base_replaces_101P
+
 .. |product| replace:: PPC-A55-156
 
 .. |productP| replace:: PPC-A55-156
@@ -14,8 +16,6 @@
 
 .. |bright| replace:: 400 |cd|
 
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
-
 .. |dimE| replace:: NULL
 
 .. |dimP| replace:: 422 × 271 × 52.5mm
@@ -24,35 +24,11 @@
 
 .. |weightP| replace:: 4500g
 
-.. |RAM| replace:: Samsung 2GB LPDDR4X, 4266 Mbps
-
-.. |eMMC| replace:: 16GB
-
-.. |tscreen| replace:: 10-point capacitive touch screen
-
-.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
-
-.. |LAN| replace:: 1 x RJ45, GbE
-
-.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
-
-.. |opt1| replace:: Supported, Optional
-
-.. |opt2| replace:: Integrated WiFi/BT Module
-
-.. |vin_rng| replace:: From 12V to 36V
-
 .. |cur| replace:: 1.95A Max at 12V
 
 .. |pwr| replace:: 9.6W Typical, 23.4W Max
 
 .. |temp| replace:: From 0°C to +60°C
-
-.. |rs232| replace:: Default to 2 x RS232 (including 1 debug port). Up to 6 x RS232.
-
-.. |rs485| replace:: Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232.
-
-.. |can| replace:: Default to 2 x CAN. Optionally, these 2 x CAN can be configured to RS232.
 
 .. |power_img| image:: /Media/ARM/A55/CS19108-RK3568-156P/Power-RK3568-156P.jpg
                   :align: middle
@@ -139,9 +115,9 @@
 
 .. include:: Resources/cap_screen_usb
 
-.. include:: Resources/connectivity_CS12800-RK3568-101P
+.. include:: Resources/CS12800-RK3568-101P/connectivity_101P
 
-.. include:: Resources/USB-101P
+.. include:: Resources/USB
 
 .. include:: Resources/LAN
 
@@ -151,13 +127,13 @@
 
 .. include:: Resources/m2_slot
 
-.. include:: Resources/TF_Card_CS12800-RK3568-101P
+.. include:: Resources/TF_Card
 
-.. include:: Resources/Audio_IO_CS12800-RK3568-101P
+.. include:: Resources/Audio_IO
 
 .. include:: Resources/HDMI
 
-.. include:: Resources/Prog_btn_CS12800-RK3568-101P
+.. include:: Resources/Prog_btn
 
 .. include:: Resources/mounting
 

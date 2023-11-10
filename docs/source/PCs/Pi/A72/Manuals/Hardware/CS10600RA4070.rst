@@ -28,6 +28,10 @@
 
 .. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
+.. |mounting_table| replace:: |productP|: Panel, VESA; |productE|: Embedded
+
+.. |disp_table| replace:: |dispsize| IPS LCD, |res| resolution \px, brightness |bright|
+
 .. |dimE| replace:: 190 x 108 x 28mm
 
 .. |dimP| replace:: 206 x 135 x 30mm
@@ -36,7 +40,7 @@
 
 .. |weightP| replace:: 700g
 
-.. |tscreen| replace:: 5-point capacitive touch
+.. |tscreen| replace:: 5-point capacitive touch with 1mm Armored Glass
 
 .. |rs232_485_can_ter| replace:: 16-pin 3.81mm terminal
 
@@ -72,9 +76,9 @@
 
 .. |opt2| replace:: Supported but depending on the CM4 selected
 
-.. |vin_rng| replace:: From 9V to 36V
+.. |vin_rng| replace:: From 6V to 36V
 
-.. |cur| replace:: 420mA Max
+.. |cur| replace:: 420mA Max at 12V
 
 .. |pwr| replace:: 5W Typical
 
@@ -191,11 +195,11 @@
 
 .. include:: Resources/connectivity
 
-.. include:: Resources/CS10600RA4070/connectivity_table
+.. include:: Resources/BOX-070D-070P-RA4-Shared/connectivity_table
 
 .. include:: Resources/gpio
 
-.. include:: Resources/CS10600RA4070/gpio_table
+.. include:: Resources/BOX-070D-070P-RA4-Shared/gpio_table
 
 .. include:: Resources/USB
 

@@ -1,0 +1,45 @@
+.. |TFNum| replace:: 1
+
+.. |TF_boot| replace:: The SD is used only for the Lite version of Compute Module 4 that has no internal eMMC, it **can** be used to boot system. If you use CM4 with eMMC, this SD will be disabled.
+
+.. |TF_storage| replace:: The SD **can’t** be used for storage extension.
+
+.. |tf_des| replace:: Chipsee designed one TF card slot for CM4 Lite version which has no eMMC to boot OS.
+
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
+.. |usb_hub_conflict| replace:: two USB host connectors, Zigbee and 4G/LTE
+
+.. |rs232_485_can_ter| replace:: 16-pin 3.81mm terminal
+
+.. |rs232_rs485_conf| replace:: RS485_3 and RS232_3 share UART3 and can't work at the same time; RS485_5 and RS232_5 share UART5 and can't work at the same time. Meaning the product provides 4 x RS232 + 0 x RS485, or 2 x RS232 + 2 x RS485, or 3 x RS232 + 1 x RS485.
+
+.. |gpio_conn| replace:: 10 Pin 3.81mm **GPIO Connector**
+
+.. |camera_desc| replace:: Yes, not mounted by default. Available on the board in the embedded PC. |br| Requires a customized case to be exposed in an enclosed PC.
+
+.. |camera_not_mount| replace:: The camera connector is supported but not mounted by default. It's available on the PCB but not exposed on the case, please contact us when placing an order if you need to use camera on the |product|.
+
+.. |USB_attention| replace:: 1\. These two USB host connectors can drive 500mA for each channel at most.
+
+.. |zigbee_des| replace:: Onboard Zigbee module, not mounted by default 
+
+.. |USB| replace:: 2 x USB 3.0 Host, 1 x USB Type-C OTG
+
+.. |LAN| replace:: 2 x Giga LAN
+
+.. |GPIO| replace:: Option 1: 4 x input, 4 x output from expander IC (optical isolated, DEFAULT). |br| Option 2: 6 x CM4 CPU GPIO (conflict with option 1).
+
+.. |hdmi_des| replace:: Yes
+
+.. |sata_des| replace:: Not Supported
+
+.. |power_conn_desc| replace:: There are two types of power input connectors. One is a **3 Pin, 3.81mm screw terminal** connector, and the other is a **2.1mm DC input head**.
+
+.. |opt1| replace:: Supported, not mounted by default
+
+.. |opt2| replace:: Supported but depending on the CM4 selected
+
+.. |vin_rng| replace:: From 6V to 36V
+
+.. |temp| replace:: From 0°C to +60°C
