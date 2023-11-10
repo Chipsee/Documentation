@@ -1,6 +1,6 @@
 .. include:: /PCs/Shared/pdf_options_software
 
-.. |systemType| replace:: Debian 10 (buster)
+.. |systemType| replace:: Debian 10 (buster) / Debian 11 (bullseye)
 .. |chip| replace:: CM4
 
 
@@ -22,15 +22,31 @@ This manual provides users with a fast guide of Chipsee Raspberry Pi Computer (A
    :align: center
    :width: 100%
 
-   +----------+-----------+--------+-----------------+
-   | Revision |    Date   | Author |   Description   |
-   +==========+===========+========+=================+
-   |   V2.1   | 2021-04-28| Chipsee| Revision        |
-   +----------+-----------+--------+-----------------+
+   +----------+-----------+--------+------------------------+
+   | Revision |    Date   | Author |   Description          |
+   +==========+===========+========+========================+
+   |   V2.1   | 2021-04-28| Chipsee| Revision               |
+   +----------+-----------+--------+------------------------+
+   |   V2.2   | 2023-11-09| Chipsee| Update Supported Boards|
+   +----------+-----------+--------+------------------------+
 
 **SUPPORTED BOARDS:**
 
-   *CS10600RA4070*   *CS10600RA070*   *CS12800RA101*   *CS12800RA4101A*  *CS12800RA4101P*
+  * CS10600RA070
+  * CS12800RA101
+  * CS12720RA4050
+  * CS10600RA4070
+  * CS10600RA4070P-D
+  * CS12800RA4101A
+  * CS12800RA4101P
+  * CS10768RA4121
+  * CS19108RA4133
+  * CS10768RA4150
+  * CS19108RA4156
+  * CS19108RA4215
+  * CS19108RA4236
+  * CS-BOX-CM4
+
 
 .. _db_pkg_pi_debian:
 
@@ -56,9 +72,9 @@ You will need to prepare the following items before you can start using the Preb
 
 Power Supply Unit (PSU) with the appropriate voltages, as follows:
 
-+ These products: CS10600RA070, CS10600RA4070, and CS12800RA101 requires a 6V to 36V power adapter. You must provide the power adapter since Chipsee does not ship these products with a power adapter.
++ These products: CS12720RA4050, CS10600RA070, CS10600RA4070, CS10600RA4070P-D, CS-BOX-CM4 and CS12800RA101 requires a 6V to 36V power adapter. You must provide the power adapter since Chipsee does not ship these products with a power adapter.
 + The CS12800RA4101A RPC needs a 12V power adapter. Chipsee provides the power adapter.
-+ The CS12800RA4101P RPC needs a 12V to 36V power adapter.
++ The CS12800RA4101P, CS10768RA4121, CS19108RA4133, CS10768RA4150, CS19108RA4156, CS19108RA4215, CS19108RA4236 RPC need 12V to 36V power adapter.
 
 .. include:: Resources/Hardware_Req
 

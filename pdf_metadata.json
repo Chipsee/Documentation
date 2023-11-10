@@ -339,6 +339,12 @@
         "PCs/ARM/RK3399/OS_Downloads/index": {
             "pdf-build": "False"
         },
+        "PCs/ARM/RK3568/Manuals/Hardware/CS-BOX-RK3568": {
+            "pdf-title": "CS-BOX-A55",
+            "pdf-subtitle": "PN: CS-BOX-RK3568",
+            "pdf-filename": "CS-BOX-A55",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/RK3568/Manuals/Hardware/CS10600-RK3568-070P": {
             "pdf-title": "PPC-A55-070",
             "pdf-subtitle": "PN: CS10600-RK3568-070P",
@@ -585,6 +591,12 @@
         "PCs/ARM/iMX6UL/OS_Downloads/index": {
             "pdf-build": "False"
         },
+        "PCs/ARM/iMX8MP/Manuals/Hardware/CS-BOX-IMX8MP": {
+            "pdf-title": "CS-BOX-A53",
+            "pdf-subtitle": "PN: CS-BOX-IMX8MP",
+            "pdf-filename": "CS-BOX-A53",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/iMX8MP/Manuals/Hardware/CS10600-IMX8MP-070P": {
             "pdf-title": "PPC-A53-070",
             "pdf-subtitle": "PN: CS10600-IMX8MP-070P",
@@ -798,6 +810,12 @@
         "PCs/Pi/A53/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
+        "PCs/Pi/A72/Manuals/Hardware/CS-BOX-CM4": {
+            "pdf-title": "CS-BOX-CM4",
+            "pdf-subtitle": "PN: CS-BOX-CM4",
+            "pdf-filename": "CS-BOX-CM4",
+            "pdf-type": "ipc"
+        },
         "PCs/Pi/A72/Manuals/Hardware/CS10600RA4070": {
             "pdf-title": "EPC/PPC-CM4-070",
             "pdf-subtitle": "PN: CS10600RA4070",
@@ -895,9 +913,9 @@
             "pdf-type": "ipc"
         },
         "PCs/Pi/Software/Debian": {
-            "pdf-title": "Debian 10 (buster) OS on CM4 User Manual",
+            "pdf-title": "Debian 10 (buster) / Debian 11 (bullseye) OS on CM4 User Manual",
             "pdf-subtitle": "For CM4 Products",
-            "pdf-filename": "Debian 10 (buster) OS on CM4 User Manual",
+            "pdf-filename": "Debian 10 (buster) / Debian 11 (bullseye) OS on CM4 User Manual",
             "pdf-type": "ipc"
         },
         "PCs/Pi/Software/index": {

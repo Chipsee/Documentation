@@ -24,7 +24,7 @@
 
 .. |weightP| replace:: 7500g
 
-.. |cur| replace:: 1.96A Max
+.. |cur| replace:: 1.96A Max at 12V
 
 .. |pwr| replace:: 19.92W (12V x 1.66A) Typical, 23.52W (12V x 1.96A) Max
 

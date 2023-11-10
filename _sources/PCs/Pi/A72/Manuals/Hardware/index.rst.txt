@@ -159,6 +159,21 @@ Cortex-A72 Hardware Documentation
    :name: hwdocstable_11
 
    +---------------------+------------------------------------------------------------------------+
+   | |CS-BOX-CM4|        |   :ref:`CS-BOX-CM4 User Manual <CS-BOX-CM4>` |br|                      |
+   |                     |   PN: CS-BOX-CM4 |br| |br|                                             |
+   |                     |                                                                        |
+   |                     |   Raspberry Pi CM4, Fanless, RAM and eMMC based on CM4                 |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |CS-BOX-CM4| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-Front.jpg
+   :class: no-scaled-link
+   :target: CS-BOX-CM4.html
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_12
+
+   +---------------------+------------------------------------------------------------------------+
    | |EPC/PPC-CM4-050|   |   :ref:`EPC/PPC-CM4-050 User Manual <EPC/PPC-CM4-050>` |br|            |
    |                     |   PN: CS12720RA4050 |br| |br|                                          |
    |                     |                                                                        |
@@ -184,4 +199,5 @@ Cortex-A72 Hardware Documentation
    PPC-CM4-156 <CS19108RA4156>
    PPC-CM4-215 <CS19108RA4215>
    PPC-CM4-236 <CS19108RA4236>
+   CS-BOX-CM4 <CS-BOX-CM4>
    EPC/PPC-CM4-050(Legacy) <CS12720RA4050>
