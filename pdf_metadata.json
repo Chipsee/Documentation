@@ -339,10 +339,10 @@
         "PCs/ARM/RK3399/OS_Downloads/index": {
             "pdf-build": "False"
         },
-        "PCs/ARM/RK3568/Manuals/Hardware/CS-BOX-RK3568": {
-            "pdf-title": "CS-BOX-A55",
-            "pdf-subtitle": "PN: CS-BOX-RK3568",
-            "pdf-filename": "CS-BOX-A55",
+        "PCs/ARM/RK3568/Manuals/Hardware/CS-RK3568-BOX": {
+            "pdf-title": "CS-A55-BOX",
+            "pdf-subtitle": "PN: CS-RK3568-BOX",
+            "pdf-filename": "CS-A55-BOX",
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3568/Manuals/Hardware/CS10600-RK3568-070P": {
@@ -591,10 +591,10 @@
         "PCs/ARM/iMX6UL/OS_Downloads/index": {
             "pdf-build": "False"
         },
-        "PCs/ARM/iMX8MP/Manuals/Hardware/CS-BOX-IMX8MP": {
-            "pdf-title": "CS-BOX-A53",
-            "pdf-subtitle": "PN: CS-BOX-IMX8MP",
-            "pdf-filename": "CS-BOX-A53",
+        "PCs/ARM/iMX8MP/Manuals/Hardware/CS-IMX8MP-BOX": {
+            "pdf-title": "CS-A53-BOX",
+            "pdf-subtitle": "PN: CS-IMX8MP-BOX",
+            "pdf-filename": "CS-A53-BOX",
             "pdf-type": "ipc"
         },
         "PCs/ARM/iMX8MP/Manuals/Hardware/CS10600-IMX8MP-070P": {
@@ -810,12 +810,6 @@
         "PCs/Pi/A53/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
-        "PCs/Pi/A72/Manuals/Hardware/CS-BOX-CM4": {
-            "pdf-title": "CS-BOX-CM4",
-            "pdf-subtitle": "PN: CS-BOX-CM4",
-            "pdf-filename": "CS-BOX-CM4",
-            "pdf-type": "ipc"
-        },
         "PCs/Pi/A72/Manuals/Hardware/CS10600RA4070": {
             "pdf-title": "EPC/PPC-CM4-070",
             "pdf-subtitle": "PN: CS10600RA4070",
@@ -880,6 +874,12 @@
             "pdf-title": "PPC-CM4-236",
             "pdf-subtitle": "PN: CS19108RA4236",
             "pdf-filename": "PPC-CM4-236",
+            "pdf-type": "ipc"
+        },
+        "PCs/Pi/A72/Manuals/Hardware/CSRA4BOX": {
+            "pdf-title": "CS-CM4-BOX",
+            "pdf-subtitle": "PN: CSRA4BOX",
+            "pdf-filename": "CS-CM4-BOX",
             "pdf-type": "ipc"
         },
         "PCs/Pi/A72/Manuals/Hardware/index": {

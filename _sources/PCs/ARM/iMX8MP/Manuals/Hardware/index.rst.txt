@@ -24,15 +24,15 @@ i.MX8MP Hardware Documentation
    :name: hwdocstable_2
 
    +--------------------------+------------------------------------------------------------------------+
-   | |CS-BOX-A53|             |   :ref:`CS-BOX-A53 User Manual <CS-BOX-A53>` |br|                      |
-   |                          |   PN: CS-BOX-IMX8MP |br| |br|                                          |
+   | |CS-A53-BOX|             |   :ref:`CS-A53-BOX User Manual <CS-A53-BOX>` |br|                      |
+   |                          |   PN: CS-IMX8MP-BOX |br| |br|                                          |
    |                          |                                                                        |
    |                          |   NXP i.MX8MP Quad Core A53 x 1.6GHz, 4GB RAM, 16GB eMMC               |
    +--------------------------+------------------------------------------------------------------------+
 
-.. |CS-BOX-A53| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-Front.jpg
+.. |CS-A53-BOX| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-Front.jpg
    :class: no-scaled-link
-   :target: CS-BOX-IMX8MP.html
+   :target: CS-IMX8MP-BOX.html
 
 .. toctree::
    :maxdepth: 1
@@ -40,6 +40,6 @@ i.MX8MP Hardware Documentation
    :hidden:
 
    PPC-A53-070 <CS10600-IMX8MP-070P>
-   CS-BOX-A53 <CS-BOX-IMX8MP>
+   CS-A53-BOX <CS-IMX8MP-BOX>
 
 

@@ -2,11 +2,11 @@
 
 .. include:: Resources/BOX-070D-070P-RA4-Shared/base_replaces_4070D
 
-.. |product| replace:: CS-BOX-CM4
+.. |product| replace:: CS-CM4-BOX
 
 .. |productP| replace:: |product|
 
-.. |PN| replace:: PN: CS-BOX-CM4
+.. |PN| replace:: PN: CSRA4BOX
 
 .. |Product| replace:: The |product| industrial Pi PC
 
@@ -34,47 +34,47 @@
 
 .. |pwr| replace:: 5.4W (max)
 
-.. _product_link: https://chipsee.com/?s=cm4+070
+.. _product_link: https://chipsee.com/?s=cm4+BOX
 
-.. |product_link| replace:: CS-BOX-CM4
+.. |product_link| replace:: CSRA4BOX
 
-.. |rs232_485_can_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-RS232-RS485-CAN.jpg
+.. |rs232_485_can_img| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-RS232-RS485-CAN.jpg
                   :align: middle
                   :width: 768
 
-.. |sim_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-SIM.jpg
+.. |sim_img| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-SIM.jpg
                   :align: middle
                   :width: 480
 
-.. |gpio_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-GPIO.jpg
+.. |gpio_img| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-GPIO.jpg
                   :align: middle
                   :width: 1024
 
-.. |cpu_gpio_schema_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-cpu_gpio_schema.png
+.. |cpu_gpio_schema_img| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-cpu_gpio_schema.png
                   :align: middle
                   :width: 768
 
-.. |camera_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-camera.jpg
+.. |camera_img| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-camera.jpg
                   :align: middle
                   :width: 640
 
-.. |tf_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-TF.jpg
+.. |tf_img| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-TF.jpg
                   :align: middle
                   :width: 576                 
 
-.. |wifi_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-WIFI.jpg
+.. |wifi_img| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-WIFI.jpg
                   :align: middle
                   :width: 640
 
-.. |power_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-Power.jpg
+.. |power_img| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-Power.jpg
                   :align: middle
                   :width: 720
 
-.. |dc_jack_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-DCJack.jpg
+.. |dc_jack_img| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-DCJack.jpg
                   :align: middle
                   :width: 576
 
-.. |zigbee_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-zigbee.jpg
+.. |zigbee_img| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-zigbee.jpg
                   :align: middle
                   :width: 512  
 
@@ -82,39 +82,39 @@
                   :align: middle
                   :width: 192                              
 
-.. |lan_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-LAN.jpg
+.. |lan_img| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-LAN.jpg
                   :align: middle
                   :width: 384
 
-.. |audio_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-Audio.jpg
+.. |audio_img| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-Audio.jpg
                   :align: middle
                   :width: 384
 
-.. |usb_a_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-usb-a.jpg
+.. |usb_a_img| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-usb-a.jpg
                    :align: middle
                    :width: 384
 
-.. |usb_c_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-USBC.jpg
+.. |usb_c_img| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-USBC.jpg
                    :align: middle
                    :width: 384
                    
-.. |prog_btn_img| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-Prog-Button.jpg
+.. |prog_btn_img| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-Prog-Button.jpg
                   :align: middle
                   :width: 384
 
-.. |Front View| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-Front.jpg
+.. |Front View| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-Front.jpg
                   :class: product-img
 
-.. |Rear View| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-Rear.jpg
+.. |Rear View| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-Rear.jpg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-Side1.jpg
+.. |Side View 1| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-Side1.jpg
                   :class: product-img
 
-.. |Side View 2| image:: /Media/Pi/A72/CS-BOX-CM4/CS-BOX-CM4-Side2.jpg
+.. |Side View 2| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-Side2.jpg
                   :class: product-img
 
-.. _CS-BOX-CM4:
+.. _CS-CM4-BOX:
 
 
 |product|
@@ -125,7 +125,7 @@
 
 .. include:: /PCs/Shared/four_main_images
 
-.. include:: Resources/CS-BOX-CM4/overview
+.. include:: Resources/CSRA4BOX/overview
 
 .. include:: Resources/ordering
 
@@ -167,7 +167,7 @@
 
 .. include:: Resources/prog_btn
 
-.. include:: Resources/CS-BOX-CM4/mounting
+.. include:: Resources/CSRA4BOX/mounting
 
 .. include:: Resources/mechanical
 
