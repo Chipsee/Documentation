@@ -2,11 +2,11 @@
 
 .. include:: Resources/BOX-070P-IMX8MP-Shared/base_replaces_CS10600-IMX8MP-070P
 
-.. |product| replace:: CS-BOX-A53
+.. |product| replace:: CS-A53-BOX
 
-.. |productP| replace:: CS-BOX-A53
+.. |productP| replace:: CS-A53-BOX
 
-.. |PN| replace:: PN: CS-BOX-IMX8MP
+.. |PN| replace:: PN: CS-IMX8MP-BOX
 
 .. |Product| replace:: The |product| Industrial PC
 
@@ -24,83 +24,83 @@
 
 .. |pwr| replace:: 5.25W (max)
 
-.. |power_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-Power.jpg
+.. |power_img| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-Power.jpg
                   :align: middle
                   :width: 768
 
-.. |dc_jack_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-DCJack.jpg
+.. |dc_jack_img| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-DCJack.jpg
                   :align: middle
                   :width: 576
 
-.. |rs232_485_can_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-RS232-RS485-CAN.jpg
+.. |rs232_485_can_img| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-RS232-RS485-CAN.jpg
                   :align: middle
                   :width: 768
 
-.. |gpio_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-GPIO.jpg
+.. |gpio_img| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-GPIO.jpg
                   :align: middle
                   :width: 768
 
-.. |USB2_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-USB2.jpg
+.. |USB2_img| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-USB2.jpg
                    :align: middle
                    :width: 384
 
-.. |USB3_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-USB3.jpg
+.. |USB3_img| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-USB3.jpg
                    :align: middle
                    :width: 384
 
-.. |USBC_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-USBC.jpg
+.. |USBC_img| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-USBC.jpg
                    :align: middle
                    :width: 384
 
-.. |wifi_bt_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-WIFI.jpg
+.. |wifi_bt_img| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-WIFI.jpg
                   :align: middle
                   :width: 384
 
-.. |4g_chip_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-4GChip.jpg
+.. |4g_chip_img| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-4GChip.jpg
                   :align: middle
                   :width: 512
 
-.. |sim_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-SIM.jpg
+.. |sim_img| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-SIM.jpg
                   :align: middle
                   :width: 320
                   
-.. |LAN_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-LAN.jpg
+.. |LAN_img| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-LAN.jpg
                   :align: middle
                   :width: 384
 
-.. |TF_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-TFCard.jpg
+.. |TF_img| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-TFCard.jpg
                   :align: middle
                   :width: 512
 
-.. |audio_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-Audio.jpg
+.. |audio_img| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-Audio.jpg
                   :align: middle
                   :width: 384
 
-.. |buzzer_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-Buzzer.jpg
+.. |buzzer_img| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-Buzzer.jpg
                   :align: middle
                   :width: 384
 
-.. |HDMI_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-HDMI.jpg
+.. |HDMI_img| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-HDMI.jpg
                   :align: middle
                   :width: 384
 
-.. |PROG_btn_img| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-Prog-Button.jpg
+.. |PROG_btn_img| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-Prog-Button.jpg
                   :align: middle
                   :width: 384
 
-.. |Front View| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-Front.jpg
+.. |Front View| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-Front.jpg
                   :class: product-img
 
-.. |Rear View| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-Rear.jpg
+.. |Rear View| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-Rear.jpg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-Side1.jpg
+.. |Side View 1| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-Side1.jpg
                   :class: product-img
 
-.. |Side View 2| image:: /Media/ARM/A53/CS-BOX-IMX8MP/CS-BOX-IMX8MP-Side2.jpg
+.. |Side View 2| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-Side2.jpg
                   :class: product-img                 
                   
-.. _CS-BOX-A53:
+.. _CS-A53-BOX:
 
 |product|
 #########
@@ -110,7 +110,7 @@
 
 .. include:: /PCs/Shared/four_main_images
 
-.. include:: Resources/CS-BOX-IMX8MP/overview
+.. include:: Resources/CS-IMX8MP-BOX/overview
 
 .. include:: Resources/ordering
 
@@ -144,7 +144,7 @@
 
 .. include:: Resources/prog_btn
 
-.. include:: Resources/CS-BOX-IMX8MP/mounting
+.. include:: Resources/CS-IMX8MP-BOX/mounting
 
 .. include:: Resources/mechanical
 
