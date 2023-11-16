@@ -69,7 +69,7 @@ There is one GPIO that is used by RS485. You can control it to enable and disabl
    | 6                           | RS485_4                       | /dev/ttyUSB3                  | RS485                         |
    +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
 
-.. table:: CS10600RA4070-C111
+.. table:: CS10600RA4070-C111/CS10600RA4070P-D/CSRA4BOX
    :align: center
    :width: 100%
    :widths: auto
@@ -90,9 +90,10 @@ There is one GPIO that is used by RS485. You can control it to enable and disabl
    | 6                           | RS485_5                       | /dev/ttyAMA3                  | RS485                         |
    +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
 
------
 
 .. [#sr] This channel does not output data by default. You can customize the channel to RS232 with port 4 and port 6 disabled.
+
+-----
 
 
 .. table:: CS12800RA4101A
@@ -110,7 +111,7 @@ There is one GPIO that is used by RS485. You can control it to enable and disabl
    | 3                           | RS485_2                       | /dev/ttyAMA2                  | RS485                         |
    +-----------------------------+-------------------------------+-------------------------------+-------------------------------+
    
-.. table:: CS12800RA4101P/CS19108RA4133P/CS10748RA4150P/CS19108RA4156P
+.. table:: CS12800RA4101P/CS19108RA4133P/CS10768RA4150P/CS19108RA4156P/CS19108RA4215P/CS19108RA4236P
    :align: center
    :width: 100%
    :widths: auto
