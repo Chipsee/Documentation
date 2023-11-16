@@ -19,9 +19,9 @@ The |chip| based |ipc| supports RS232 and RS485, here are the mapping from the p
    | RS485_5 | /dev/ttyS4   | RS485               |
    +---------+--------------+---------------------+
 
-**7 inch product**
+**7 inch product and Box product**
 
-.. table:: RS232/485 for **7 inch** product(CS10600-RK3568-070P)
+.. table:: RS232/485 for **7 inch** product(CS10600-RK3568-070P) and **box** product(CS-RK3568-BOX)
    :align: center
    :width: 100%
    :widths: auto

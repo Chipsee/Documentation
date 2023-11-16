@@ -1,10 +1,10 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. |product| replace:: CS-BOX-A55
+.. |product| replace:: CS-A55-BOX
 
-.. |productP| replace:: CS-BOX-A55
+.. |productP| replace:: CS-A55-BOX
 
-.. |PN| replace:: PN: CS-BOX-RK3568
+.. |PN| replace:: PN: CS-RK3568-BOX
 
 .. |Product| replace:: The |product| Industrial PC
 
@@ -62,76 +62,76 @@
 
 .. |vesa_screws| replace:: **75 x 75** mm, 4 x **M4** (6mm)
 
-.. |power_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-Power.jpg
+.. |power_img| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-Power.jpg
                   :align: middle
                   :width: 768
 
-.. |dc_jack_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-DCJack.jpg
+.. |dc_jack_img| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-DCJack.jpg
                   :align: middle
                   :width: 576
 
-.. |wifi_bt_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-WIFI.jpg
+.. |wifi_bt_img| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-WIFI.jpg
                   :align: middle
                   :width: 384
 
-.. |LAN_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-LAN.jpg
+.. |LAN_img| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-LAN.jpg
                   :align: middle
                   :width: 384
 
-.. |audio_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-Audio.jpg
+.. |audio_img| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-Audio.jpg
                   :align: middle
                   :width: 384
 
-.. |TF_SIM_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-SIMTF.jpg
+.. |TF_SIM_img| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-SIMTF.jpg
                   :align: middle
                   :width: 512
 
-.. |sim_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-SIM.jpg
+.. |sim_img| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-SIM.jpg
                   :align: middle
                   :width: 640
 
-.. |can_232_485_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-RS232-RS485-CAN.jpg
+.. |can_232_485_img| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-RS232-RS485-CAN.jpg
                   :align: middle
                   :width: 640 
 
-.. |gpio_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-GPIO.jpg
+.. |gpio_img| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-GPIO.jpg
                   :align: middle
                   :width: 640                  
 
-.. |PROG_btn_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-Prog-Button.jpg
+.. |PROG_btn_img| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-Prog-Button.jpg
                   :align: middle
                   :width: 384
 
-.. |HDMI_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-HDMI.jpg
+.. |HDMI_img| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-HDMI.jpg
                   :align: middle
                   :width: 384
 
-.. |USB2_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-USB2.jpg
+.. |USB2_img| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-USB2.jpg
                    :align: middle
                    :width: 384
 
-.. |USB3_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-USB3.jpg
+.. |USB3_img| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-USB3.jpg
                    :align: middle
                    :width: 384
 
-.. |USBC_img| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-USBC.jpg
+.. |USBC_img| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-USBC.jpg
                    :align: middle
                    :width: 384
 
-.. |Front View| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-Front.jpg
+.. |Front View| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-Front.jpg
                   :class: product-img
 
-.. |Rear View| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-Rear.jpg
+.. |Rear View| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-Rear.jpg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-Side1.jpg
+.. |Side View 1| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-Side1.jpg
                   :class: product-img
 
-.. |Side View 2| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-Side2.jpg
+.. |Side View 2| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-Side2.jpg
                   :class: product-img                  
 
 
-.. _CS-BOX-A55:
+.. _CS-A55-BOX:
 
 |product|
 #########
@@ -141,7 +141,7 @@
 
 .. include:: /PCs/Shared/four_main_images
 
-.. include:: Resources/CS-BOX-RK3568/overview
+.. include:: Resources/CS-RK3568-BOX/overview
 
 .. include:: Resources/ordering
 
@@ -175,7 +175,7 @@
 
 .. include:: Resources/BOX-070-RK3568-Shared/gpio_070P
 
-.. include:: Resources/CS-BOX-RK3568/mounting
+.. include:: Resources/CS-RK3568-BOX/mounting
 
 .. include:: Resources/mechanical
 
