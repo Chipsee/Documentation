@@ -150,15 +150,15 @@ RK3568 Hardware Documentation
    :name: hwdocstable_10
 
    +---------------------+------------------------------------------------------------------------+
-   | |CS-BOX-A55|        |   :ref:`CS-BOX-A55 User Manual <CS-BOX-A55>` |br|                      |
-   |                     |   PN: CS-BOX-RK3568 |br| |br|                                          |
+   | |CS-A55-BOX|        |   :ref:`CS-A55-BOX User Manual <CS-A55-BOX>` |br|                      |
+   |                     |   PN: CS-RK3568-BOX |br| |br|                                          |
    |                     |                                                                        |
    |                     |   Rockchip RK3568 Fanless Quad Core A55 x 2.0GHz, 2GB RAM, 16GB eMMC   |
    +---------------------+------------------------------------------------------------------------+
 
-.. |CS-BOX-A55| image:: /Media/ARM/A55/CS-BOX-RK3568/CS-BOX-RK3568-Front.jpg
+.. |CS-A55-BOX| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-Front.jpg
    :class: no-scaled-link
-   :target: CS-BOX-RK3568.html
+   :target: CS-RK3568-BOX.html
 
 .. toctree::
    :maxdepth: 1
@@ -175,4 +175,4 @@ RK3568 Hardware Documentation
    PPC-A55-156 <CS19108-RK3568-156P>
    PPC-A55-215 <CS12800-RK3568-215P>
    PPC-A55-236 <CS19108-RK3568-236P>
-   CS-BOX-A55 <CS-BOX-RK3568>
+   CS-A55-BOX <CS-RK3568-BOX>
