@@ -18,7 +18,7 @@
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 422 × 271 × 52.5mm
+.. |dimP| replace:: 400 × 256 × 52.5mm
 
 .. |weightE| replace:: NULL
 
@@ -115,6 +115,11 @@
 
 .. include:: Resources/mechanical
 
+.. image:: /Media/Pi/A72/CS19108RA4156/CS19108RA4156-TD.png
+   :align: center
+   :alt: TD
+   :width: 1024
+   
 .. include:: /PCs/Shared/Hardware/three_d
 
 .. include:: /PCs/Shared/support
