@@ -26,11 +26,11 @@ the repository much easier.
     
    J6412 HW Documentation <J6412/Manuals/Hardware/index>   
 
-.. rubric:: Products by platform: |Core| i5, i7 and |Celeron| 3865
+.. rubric:: Products by platform: |Core| i5, i7 and |Celeron| 3855
 
 .. toctree::
    :maxdepth: 1
    :titlesonly:
    
-   i5/i7/3865 HW Documentation <i5-i7-3865/Manuals/Hardware/index>
+   i5/i7/3855 HW Documentation <i5-i7-3865/Manuals/Hardware/index>
  
