@@ -1,7 +1,7 @@
 :pdf-build: False
 
 
-i5/i7/3865 Hardware Documentation
+i5/i7/3855 Hardware Documentation
 #################################
 
 .. table::
