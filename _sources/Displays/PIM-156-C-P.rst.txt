@@ -53,13 +53,13 @@
 
 .. |product_link| replace:: PIM-156-P
 
-.. |Front View| image:: /Media/Displays/PIM-156-P/pim-156p-front.png
+.. |Front View| image:: /Media/Displays/PIM-156-P/pim-156p-front.jpg
                   :class: product-img
 
-.. |Rear View| image:: /Media/Displays/PIM-156-P/pim-156p-back.jpeg
+.. |Rear View| image:: /Media/Displays/PIM-156-P/pim-156p-back.jpg
                   :class: product-img
 
-.. |Side View| image:: /Media/Displays/PIM-156-P/pim-156p-bottom.jpeg
+.. |Side View| image:: /Media/Displays/PIM-156-P/pim-156p-bottom.jpg
                   :class: product-img
 
 .. _PIM-156-P:

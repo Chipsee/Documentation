@@ -79,7 +79,7 @@ Chipsee industrial displays provide a solid and durable solution that customers 
    |                   |   15.6", 1920x1080, 10-point capacitive touchscreen                    |
    +-------------------+------------------------------------------------------------------------+
 
-.. |PIM-156-P| image:: /Media/Displays/PIM-156-P/pim-156p-front.png
+.. |PIM-156-P| image:: /Media/Displays/PIM-156-P/pim-156p-front.jpg
    :class: no-scaled-link
    :target: PIM-156-C-P.html
 
