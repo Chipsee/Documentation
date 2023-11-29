@@ -10,5 +10,5 @@ Most of the Chipsee products can be customized during the ordering process. The 
 Operating System
 -----------------
 
-By default, |product| comes with the Linux operating system (OS) pre-installed. A different OS can be selected during the ordering process.
-In addition to Linux, |product| also supports Windows 10 and Windows 11. 
+By default, |product| comes with Linux(Ubuntu 20.04) pre-installed. A different OS can be selected during the ordering process.
+In addition to Linux, |product| also supports Windows 7, Windows 10. 
