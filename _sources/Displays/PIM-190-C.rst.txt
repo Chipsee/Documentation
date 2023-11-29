@@ -41,7 +41,7 @@
 
 .. |pwr| replace:: ≤ 16W
 
-.. |vin_rng| replace:: 9V - 30V
+.. |vin_rng| replace:: 12V 3A DC
 
 .. |standby| replace:: ≤ 2W
 

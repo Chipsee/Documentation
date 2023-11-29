@@ -43,7 +43,7 @@
 
 .. |standby| replace:: ≤ 2W
 
-.. |vin_rng| replace:: 12V - 24V
+.. |vin_rng| replace:: 12V 3A DC(default), 9V-30V DC(optional)
 
 .. _product_link: https://chipsee.com/product/pim-101-c/
 
