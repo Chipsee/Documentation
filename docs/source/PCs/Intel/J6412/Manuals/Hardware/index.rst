@@ -73,6 +73,22 @@ J6412 Hardware Documentation
    :name: hwdocstable_5
    
    +-------------------+------------------------------------------------------------------------+
+   |  |PPC-J6412-156|  |   :ref:`PPC-J6412-156-C User Manual <PPC-J6412-156-C>` |br| |br|       |
+   |                   |                                                                        |                                 
+   |                   |   15.6", 1920x1080, capacitive, 4GB RAM, 64GB SSD |br|                 | 
+   |                   |                                                                        |
+   |                   |   2.5" SATA, WiFi/WAN (optional), RS232/485, GPIO                      |
+   +-------------------+------------------------------------------------------------------------+
+
+.. |PPC-J6412-156| image:: /Media/Intel/J6412/PPC-J6412-156-C/PPC-J6412-156-C-Front.jpg
+   :class: no-scaled-link
+   :target: PPC-J6412-156-C.html
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_6
+   
+   +-------------------+------------------------------------------------------------------------+
    |  |PPC-J6412-170|  |   :ref:`PPC-J6412-170-R User Manual <PPC-J6412-170-R>` |br| |br|       |
    |                   |                                                                        |                                 
    |                   |   17.0", 1280x1024, resistive, 4GB RAM, 64GB SSD |br|                  | 
@@ -86,7 +102,7 @@ J6412 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_6
+   :name: hwdocstable_7
    
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J6412-190|  |   :ref:`PPC-J6412-190-R User Manual <PPC-J6412-190-R>` |br| |br|       |
@@ -102,7 +118,7 @@ J6412 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_7
+   :name: hwdocstable_8
 
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J6412-215|  |   :ref:`PPC-J6412-215-C User Manual <PPC-J6412-215-C>` |br| |br|       |
@@ -118,7 +134,7 @@ J6412 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_8
+   :name: hwdocstable_9
 
    +-------------------+------------------------------------------------------------------------+
    |  |PPC-J6412-236|  |   :ref:`PPC-J6412-236-C User Manual <PPC-J6412-236-C>` |br| |br|       |
@@ -144,6 +160,7 @@ J6412 Hardware Documentation
    PPC-J6412-104-R <PPC-J6412-104-R>
    PPC-J6412-121-R <PPC-J6412-121-R>
    PPC-J6412-150-C <PPC-J6412-150-C>
+   PPC-J6412-156-C <PPC-J6412-156-C>
    PPC-J6412-170-R <PPC-J6412-170-R>
    PPC-J6412-190-R <PPC-J6412-190-R>
    PPC-J6412-215-C <PPC-J6412-215-C>
