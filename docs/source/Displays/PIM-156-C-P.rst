@@ -21,7 +21,7 @@
 
 .. |con_ratio| replace:: 800:1
 
-.. |v_angle| replace:: 	Horizontal: 170° / Vertical: 650°
+.. |v_angle| replace:: 	Horizontal: 170° / Vertical: 160°
 
 .. |res_time| replace:: 35ms (GTG)
 
@@ -43,7 +43,7 @@
 
 .. |standby| replace:: ≤ 2W
 
-.. |vin_rng| replace:: 9V - 30V
+.. |vin_rng| replace:: 12V 3A DC(default), 9-30V DC(optional)
 
 .. |wtemp| replace:: From -20°C to +60°C, 90% RH
 
