@@ -1,6 +1,6 @@
 .. include:: /PCs/Shared/pdf_options_software
 
-.. |systemType| replace:: Debian 10 (buster) / Debian 11 (bullseye)
+.. |systemType| replace:: Raspberry Pi
 .. |chip| replace:: CM4
 
 
@@ -16,7 +16,7 @@
 .. image:: /Media/Chipsee_Logo_Full.png
    :align: center
 
-This manual provides users with a fast guide of Chipsee Raspberry Pi Computer (Abbreviated as RPC) running a |systemType| OS. Through this manual, users can quickly understand the hardware resources; users can debug |systemType| OS via serial, SSH, and VNC.
+This manual provides users with a quick start guide of Chipsee Raspberry Pi Computer (Abbreviated as RPC) running a |systemType| OS (raspios-debian-buster, raspios-debian-bullseye). Through this manual, users can quickly understand the hardware resources; users can debug |systemType| OS via serial, SSH, and VNC.
 
 .. table::
    :align: center
