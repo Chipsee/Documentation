@@ -399,6 +399,7 @@ Here are a few examples to test CAN by using CAN units.
 
         $ sudo ip link set can0 down
 
+.. include:: Resources/Debian/faq
 
 Flashing OS Image
 =================

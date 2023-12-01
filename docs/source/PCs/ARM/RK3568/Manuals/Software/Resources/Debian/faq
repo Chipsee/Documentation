@@ -1,0 +1,32 @@
+FAQ
+===
+
+**External Display Interferes with Touch Screen**
+
+When you connect to an external display, such as a 1920 x 1080 resolution display from the HDMI out port, the internal display needs to be scaled, otherwise the touch screen are not aligned corretly. You can set the touch screen and internal display in Display Setting.
+
+For example, on the 5 inch device, the original display is 720x1080(rotated left), if you wish to connect to a 1920x1080 external display, *external height/internal height = 1080/720 = 1.5; external width/internal width = 1920/1080=1.5*. You need to set DSI scale to 1.5 like in the image below.	
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A55/Software/Debian/external_display_setting.jpg
+      :align: center
+      :width: 1080
+
+   *Scale Internal Display when Attach an External Display*
+
+Alternatively, if you need a custom scale setting, you can use command line:
+
+.. code:: bash
+
+   $ # Set the resolution according to your needs
+   $ # For example, if you use 7 inch RK3568 product with a 2K external display, then set it to 2560x1440
+   $ su linaro -c "DISPLAY=:0 xrandr --output DSI-1 --same-as HDMI-1 --scale-from 2560x1440"
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A55/Software/Debian/external_display_setting_cmd.png
+      :align: center
+      :width: 720
+
+   *Scale Internal Display when Attach an External Display with Command Line*
