@@ -1,12 +1,12 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. |product| replace:: PPC/EPC-A8-070-R
+.. |product| replace:: PPC/EPC-A8-070-HB-R
 
-.. |productE| replace:: EPC-A8-070-R
+.. |productE| replace:: EPC-A8-070-HB-R
 
-.. |productP| replace:: PPC-A8-070-R
+.. |productP| replace:: PPC-A8-070-HB-R
 
-.. |PN| replace:: PN: CS80480T070
+.. |PN| replace:: PN: CS80480T070-R233
 
 .. |Product| replace:: The |product| Industrial PC
 
@@ -14,7 +14,7 @@
 
 .. |res| replace:: 800 x 480
 
-.. |bright| replace:: 250 |cd|
+.. |bright| replace:: 400 |cd|
 
 .. |disp_des| replace:: |dispsize| resistive touch screen with a resolution of |res| pixels and brightness of |bright|
 
@@ -56,9 +56,9 @@
 
 .. |audio| replace:: 3.5mm output/input connector, 2W Internal Speaker
 
-.. _product_link: https://chipsee.com/product/ppca8070r/
+.. _product_link: https://chipsee.com/product/epca870hbr/
 
-.. |product_link| replace:: PPC/EPC-A8-070-R
+.. |product_link| replace:: PPC/EPC-A8-070-HB-R
 
 .. |Front View| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070-HB-R-Front.jpeg
                   :class: product-img
@@ -74,7 +74,7 @@
                   :class: product-img
                   :alt: Rear View (Embedded Variant) 
 
-.. _PPC/EPC-A8-070-R:
+.. _PPC/EPC-A8-070-HB-R:
 
 
 |product|
