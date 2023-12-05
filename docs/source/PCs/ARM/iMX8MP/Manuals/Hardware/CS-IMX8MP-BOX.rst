@@ -16,7 +16,7 @@
 
 .. |tscreen| replace:: N/A
 
-.. |dimP| replace:: N/A
+.. |dimP| replace:: 209 x 125 x 37.3mm
 
 .. |weightP| replace:: N/A
 
@@ -147,5 +147,13 @@
 .. include:: Resources/CS-IMX8MP-BOX/mounting
 
 .. include:: Resources/mechanical
+
+Please refer to the technical drawing in the figure below for details related to the specific product measurements.
+
+.. figure:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-TD.png
+   :align: center
+   :figclass: align-center
+
+   |productP| *Technical Drawing*
 
 .. include:: /PCs/Shared/support
