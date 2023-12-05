@@ -3,7 +3,7 @@ FAQ
 
 **External Display Interferes with Touch Screen**
 
-When you connect to an external display, such as a 1920 x 1080 resolution display from the HDMI out port, the internal display needs to be scaled, otherwise the touch screen are not aligned corretly. You can set the touch screen and internal display in Display Setting.
+When you connect to an external display, such as a 1920 x 1080 resolution display from the HDMI out port, the internal display needs to be scaled, otherwise the touch screen are not aligned correctly. You can set the touch screen and internal display in Display Setting.
 
 For example, on the 5 inch device, the original display is 720x1080(rotated left), if you wish to connect to a 1920x1080 external display, *external height/internal height = 1080/720 = 1.5; external width/internal width = 1920/1080=1.5*. You need to set DSI scale to 1.5 like in the image below.	
 
