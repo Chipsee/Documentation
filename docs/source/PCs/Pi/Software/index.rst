@@ -13,9 +13,9 @@ If you have questions not covered in this documentation, please consult Chipsee 
    :maxdepth: 1
    :titlesonly:
 
-   Debian <Debian>
+   Raspberry Pi OS <Debian>
 
-   AIO-CM4-156 Debian Start Guide <AIO156StartGuide>
+   AIO-CM4-156 Raspberry Pi OS Start Guide <AIO156StartGuide>
    
    AIO-CM4-156 Android Start Guide <AIO156AndroidSystem>
 
