@@ -16,7 +16,7 @@
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: N/A
+.. |dimP| replace:: 209 x 125 x 37.3mm
 
 .. |weightE| replace:: NULL
 
@@ -170,5 +170,13 @@
 .. include:: Resources/CSRA4BOX/mounting
 
 .. include:: Resources/mechanical
+
+Please refer to the technical drawing in the figure below for details related to the specific product measurements.
+
+.. figure:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-TD.png
+   :align: center
+   :figclass: align-center
+
+   |productP| *Technical Drawing*
 
 .. include:: /PCs/Shared/support
