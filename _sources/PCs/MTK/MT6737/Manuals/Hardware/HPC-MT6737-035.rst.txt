@@ -34,7 +34,7 @@ Overview
 
 The |product| is an industrial handheld barcode scanner, it is produced with two-color injection molding, IP65 standard protection, suitable for harsh environments, such as ticket inspection, retail, warehousing, supermarkets, transportation, logistics and other fields.
 
-It features a 28nm Quad(4) core, 1.3GHz Cortex-A53 ARM CPU, Android 7.0 operating system, 2GB RAM, 16GB storage, 3.5 inch capacitive touch panel. And various barcode scanner options.
+It features a 28nm Quad(4) core, 1.3GHz Cortex-A53 ARM CPU, Android 7.0 operating system, 2GB RAM, 16GB storage, 3.5 inch capacitive touch panel.
 
 Hardware Specification
 ======================
@@ -61,8 +61,6 @@ Hardware Specification
 +------------------+-------------------------------------------------------------------------------------------------+
 | Cellular         | Support for 4G/LTE(B1, B3, B7, B8, B39, B40, B41), WCDMA, EDGE, GSM                             |
 +------------------+-------------------------------------------------------------------------------------------------+
-| RFID             | Support for low frequency and high frequency RFID (**optional**)                                |
-+------------------+-------------------------------------------------------------------------------------------------+
 | USB              | 1 x USB2.0                                                                                      |
 +------------------+-------------------------------------------------------------------------------------------------+
 | Keyboard         | Support for on device 29-key keyboard (incl. side keys)                                         |
@@ -79,9 +77,7 @@ Hardware Specification
 +------------------+-------------------------------------------------------------------------------------------------+
 | Operating Temp.  | -15°C ~ 65°C                                                                                    |
 +------------------+-------------------------------------------------------------------------------------------------+
-| 1D Scanner       | Symbol SE955, Honeywell N4300, Mindeo UE966 (optional)                                          |
-+------------------+-------------------------------------------------------------------------------------------------+
-| 2D Scanner       | Newland(**default**), Zebra(optional), Honeywell(optional).                                     |
+| Scanner          | Support for integrated 2D scanner                                                               |
 +------------------+-------------------------------------------------------------------------------------------------+
 | Color            | Brilliant yellow + black                                                                        |
 +------------------+-------------------------------------------------------------------------------------------------+
@@ -111,53 +107,17 @@ You can use the bottom charging port to charge the battery in the device directl
    :width: 800
    :alt: charge-ports
 
-We also provide **optional** standalone battery chargers, you can take out the battery from the device, and charge them in the separate charger.
-
-In addition to the battery that comes inside the device, we also provide **optional** backup batteries, such that you can swap batteries whenever one runs out of power without interrupting the production.
-
-The |product| does not ship with a standalone battery charger or the backup batteries by default.
-
 Scanner
 =======
 
-By default, the product ships with a Newland scanner, you can optionally choose other scanners when placing an order.
+By default, the product ships with a integrated scanner.
 
 .. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Scanner.jpg
    :align: center
    :width: 480
    :alt: scanner
 
-We provide optional scanner modules including:
-
-#. 1D Scanner
-    #) Compatible with Symbol SE955, Honeywell N4300, Mindeo UE966 scanners.
-    #) Support for UPC/EAN, Code128, Code39, Code93, Interleaved 2 of 5, Chinese 2 of 5, Codabar, MSI, RSS, Data Options
-    #) Working current: 50mA
-#. 2D Scanner
-    #) Compatible with Zebra, Newland, Honeywell scanners.
-    #) Support for Code39, PDF417, Data Matrix and common 1D barcode.
-    #) Working current: 450mA
-
-
-RFID
-====
-
-The device supports an optional RFID module:
-
-.. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-RFID.jpg
-   :align: center
-   :width: 480
-   :alt: scanner
-
-This device **does not** ship with RFID module by default, but you can select the RFID modules while placing an order, the supported modules are:
-
-#. High Frequency RFID
-    #) 13.56MHz, ISO14443A/ISO14443B/ISO15693.
-    #) Read/write distance: 0 ~ 5 cm.
-#. Low Frequency RFID
-    #) 125kHz/134.2kHz, UEM4100 compatible, ISO11784/ISO11785.
-    #) Read/write distance: 0 ~ 5 cm.
-
+For 1D bar code, the scanner can read UPC-A, UPC-E, EAN-8, EAN-13, Code128, Code39, Interleaved 2 of 5, Codabar, Matrix 2 of 5. For 2D bar code, the scanner can read Code39, PDF417, Data Matrix.
 
 Buttons
 =======
@@ -166,7 +126,7 @@ There are 29 buttons on the device.
 
 By default, the three yellow buttons (left yellow button, right yellow button, yellow button on top of the main keyboard) are shortcuts to trigger the scanner.
 
-F3 and F4 have no definition, they can be customized when you place an order, we will set them in the factory for you.
+F1, F2, F3 and F4 have no definition by default.
 
 .. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Buttons.jpg
    :align: center

@@ -388,6 +388,8 @@
         </li></ul>
             </nav>
         </li>
+        <li class="md-nav__item"><a href="#faq" class="md-nav__link">FAQ</a>
+        </li>
         <li class="md-nav__item"><a href="#flashing-os-image" class="md-nav__link">Flashing OS Image</a><nav class="md-nav">
               <ul class="md-nav__list">
         <li class="md-nav__item"><a href="#download-required-tools" class="md-nav__link">Download Required Tools</a>
@@ -556,6 +558,8 @@
         <li class="md-nav__item"><a href="#can-bus" class="md-nav__link">CAN Bus</a>
         </li></ul>
             </nav>
+        </li>
+        <li class="md-nav__item"><a href="#faq" class="md-nav__link">FAQ</a>
         </li>
         <li class="md-nav__item"><a href="#flashing-os-image" class="md-nav__link">Flashing OS Image</a><nav class="md-nav">
               <ul class="md-nav__list">
@@ -1094,6 +1098,22 @@ $<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>l
 </ul>
 </section>
 </section>
+<section id="faq">
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Permalink to this heading">¶</a></h2>
+<p><strong>External Display Interferes with Touch Screen</strong></p>
+<p>When you connect to an external display, such as a 1920 x 1080 resolution display from the HDMI out port, the internal display needs to be scaled, otherwise the touch screen are not aligned corretly. You can set the touch screen and internal display in Display Setting.</p>
+<p>For example, on the 5 inch device, the original display is 720x1080(rotated left), if you wish to connect to a 1920x1080 external display, <em>external height/internal height = 1080/720 = 1.5; external width/internal width = 1920/1080=1.5</em>. You need to set DSI scale to 1.5 like in the image below.</p>
+<a class="text-center reference internal image-reference" href="../../../../../_images/external_display_setting.jpg"><img alt="../../../../../_images/external_display_setting.jpg" class="text-center align-center" src="../../../../../_images/external_display_setting.jpg" style="width: 1080px;"/></a>
+<p class="text-center"><em>Scale Internal Display when Attach an External Display</em></p>
+<p>Alternatively, if you need a custom scale setting, you can use command line:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="c1"># Set the resolution according to your needs</span>
+$<span class="w"> </span><span class="c1"># For example, if you use 7 inch RK3568 product with a 2K external display, then set it to 2560x1440</span>
+$<span class="w"> </span>su<span class="w"> </span>linaro<span class="w"> </span>-c<span class="w"> </span><span class="s2">"DISPLAY=:0 xrandr --output DSI-1 --same-as HDMI-1 --scale-from 2560x1440"</span>
+</pre></div>
+</div>
+<a class="text-center reference internal image-reference" href="../../../../../_images/external_display_setting_cmd.png"><img alt="../../../../../_images/external_display_setting_cmd.png" class="text-center align-center" src="../../../../../_images/external_display_setting_cmd.png" style="width: 720px;"/></a>
+<p class="text-center"><em>Scale Internal Display when Attach an External Display with Command Line</em></p>
+</section>
 <section id="flashing-os-image">
 <h2 id="flashing-os-image">Flashing OS Image<a class="headerlink" href="#flashing-os-image" title="Permalink to this heading">¶</a></h2>
 <section id="download-required-tools">
@@ -1236,7 +1256,7 @@ sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>u
               
           </div>
             Last updated on
-              Nov 29, 2023.
+              Dec 05, 2023.
             <br/>
         </div>
       </div>

@@ -1,18 +1,18 @@
 .. include:: /PCs/Shared/pdf_options_software
 
-.. |systemType| replace:: Debian
+.. |systemType| replace:: Raspberry Pi OS
 .. |chip| replace:: AIO CM4
 
 
-AIO-CM4-156 Debian Start Guide
-##############################
+AIO-CM4-156 Raspberry Pi OS Start Guide
+#######################################
 
 .. centered:: Setting up your AIO-CM4-156
 
 .. image:: /Media/Chipsee_Logo_Full.png
    :align: center
 
-This manual provides users with a fast guide of Chipsee Raspberry Pi Computer (Abbreviated as RPC) after reflashed Raspberry Official latest rleased OS. Through this manual, users can quickly set up their AIO-CM4-156 to run Raspberry Official latest released OS.
+This manual provides users with a quick start guide of Chipsee Raspberry Pi Computer (Abbreviated as RPC) after you have reflashed the latest Raspberry official released OS. Through this manual, users can quickly set up their AIO-CM4-156 to run Raspberry Official latest released OS.
 
 .. table::
    :align: center
@@ -74,7 +74,7 @@ Install CMhelper
 
    $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 06D92B49B9078A87
 
-   If the above commands is not usable and you get warning "apt-key is deprecated. Manage keyring files in trusted.gpg.d instead"
+   If the above commands are not usable and you get a warning "apt-key is deprecated. Manage keyring files in trusted.gpg.d instead"
    run the following commands instead::
 
    $ sudo gpg --no-default-keyring --keyring gnupg-ring:/etc/apt/trusted.gpg.d/cmhelper.gpg --keyserver keyserver.ubuntu.com --recv 06D92B49B9078A87
@@ -87,7 +87,7 @@ Install CMhelper
 
 
 .. Warning::
-   The key 06D92B49B9078A87 may be diffrent from your error message, you should check your error,
+   The key 06D92B49B9078A87 may be different from your error message, you should check your error,
    and use the right key.
  
 
@@ -102,7 +102,7 @@ Install CMhelper
 
 5. Fix volume function.
    
-   If the volume button doesn't work, try to use follow ways to fix.
+   If the volume button doesn't work, try to use the following ways to fix it.
    
    New one file name volen.dts::
    
@@ -150,7 +150,7 @@ to control volume, brightness, power, act led, buzzer.
 
 2. The act led is disabled default, if you enable it, you can use it like ACT LED on Raspberry Pi.
 
-3. The product have two boot modes, the default is manual boot, you should press power key to boot system.
+3. The product has two boot modes, the default is manual boot, you should press the power key to boot system.
    If you want to boot system directly after power, you can select auto boot.
 
 4. You can use CMHelper QT application or physical keys to control backlight.
