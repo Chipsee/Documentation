@@ -34,6 +34,7 @@ AM335X Hardware Documentation
    :class: no-scaled-link
    :target: CS80600T080.html
 
+
 .. table::
    :widths: 20 30
    :name: hwdocstable_3
@@ -69,19 +70,34 @@ AM335X Hardware Documentation
    :name: hwdocstable_5
 
    +---------------------+------------------------------------------------------------------------+
-   | |PPC-A8-070-HB-R|   |   :ref:`PPC/EPC-A8-070-HB-R User Manual <PPC/EPC-A8-070-HB-R>` |br|    |
+   | |PPC-A8-070-R|      |   :ref:`PPC/EPC-A8-070-R User Manual <PPC/EPC-A8-070-R>` |br|          |
    |                     |   PN: CS80480T070 |br| |br|                                            |
    |                     |                                                                        |
    |                     |   7.0", 800 x 480, resistive touch screen                              |
    +---------------------+------------------------------------------------------------------------+
 
-.. |PPC-A8-070-HB-R| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070-HB-R-Front.jpeg
+.. |PPC-A8-070-R| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070-HB-R-Front.jpeg
    :class: no-scaled-link
    :target: CS80480T070.html
 
 .. table::
    :widths: 20 30
    :name: hwdocstable_6
+
+   +---------------------+------------------------------------------------------------------------+
+   | |PPC-A8-070-HB-R|   |   :ref:`PPC/EPC-A8-070-HB-R User Manual <PPC/EPC-A8-070-HB-R>` |br|    |
+   |                     |   PN: CS80480T070-R233 |br| |br|                                       |
+   |                     |                                                                        |
+   |                     |   7.0", 800 x 480, resistive touch screen                              |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-A8-070-HB-R| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070-HB-R-Front.jpeg
+   :class: no-scaled-link
+   :target: CS80480T070-R233.html
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_7
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC/EPC-A8-097-C|  |   :ref:`PPC/EPC-A8-097-C User Manual <PPC/EPC-A8-097-C>` |br|          |
@@ -104,5 +120,6 @@ AM335X Hardware Documentation
    EPC/PPC-A8-080-R <CS80600T080>
    EPC/PPC-A8-101-R <CS10600T101>
    PPC/EPC-A8-070H-C <CS10600T070>
-   PPC/EPC-A8-070-HB-R <CS80480T070>
+   PPC/EPC-A8-070-R <CS80480T070>
+   PPC/EPC-A8-070-HB-R <CS80480T070-R233>
    PPC/EPC-A8-097-C <CS10768T097>
