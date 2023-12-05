@@ -62,11 +62,11 @@ Hardware Specification
    +---------------------+------------------------------------------------------------------------------------------------------+
    | **RAM/Storage**     | 4GB+64GB                                                                                             |
    +---------------------+------------------------------------------------------------------------------------------------------+
-   | **Display**         | 5.7-inch(diagonal), 720x1440, 350 NIT, TFT                                                           |
+   | **Display**         | 5.7-inch(diagonal), 720x1520, 350 NIT, TFT                                                           |
    +---------------------+------------------------------------------------------------------------------------------------------+
-   | **Touch**           | Capacitive, 10-point Multi Touch; Works with gloves and wet hands                                    |
+   | **Touch**           | Capacitive, 5-point Multi Touch; Works with gloves and wet hands                                     |
    +---------------------+------------------------------------------------------------------------------------------------------+
-   | **Camera**          | 13MP Main Rear Camera, 2MP Front Camera, 1000mA Flashlight, Autofocus                                |
+   | **Camera**          | 13MP Main Rear Camera, 5MP Front Camera, 1000mA Flashlight, Autofocus                                |
    +---------------------+------------------------------------------------------------------------------------------------------+
    | **Audio**           | Internal Loudspeaker                                                                                 |
    +---------------------+------------------------------------------------------------------------------------------------------+
@@ -98,7 +98,7 @@ Hardware Specification
    +---------------------+------------------------------------------------------------------------------------------------------+
    | **NFC**             | Support for 13.56MHz NFC, ISO14443A, ISO14443B, ISO15693; Distance: 0-5 cm                           |
    +---------------------+------------------------------------------------------------------------------------------------------+
-   | **Barcode Scanner** | Support for multiple scanner modules, Newland scanner by default                                     |
+   | **Scanner**         | Support for integrated scanner                                                                       |
    +---------------------+------------------------------------------------------------------------------------------------------+
    | **Vibration**       | Support for vibration motor                                                                          |
    +---------------------+------------------------------------------------------------------------------------------------------+
@@ -126,9 +126,9 @@ Hardware Specification
 Scanner
 =======
 
-By default, |product| is equipped with a Newland scanner. It's compatible with Zebra, Honeywell, Newland and other scanner modules, these can be customized when placing an order.
+By default, |product| is equipped with a integrated scanner. 
 
-Scanner modules supports common 1D barcode and 2D barcode, such as: Code128, EAN-13, EAN-8, Code39, UPC-A, UPC-E, Codaber, Interleaved 2 of 5, China Post 25, ISBN/ISSN, Code93, UCC/EAN-128, GS1 Databar, HIBC，PDF417, MicroPDF417, GS1 Composite, Aztec Code, Data Matrix, QR Code, Micro QR Code, MaxiCode, Hanxin Code.
+Scanner module supports common 1D bar code and 2D bar code, for 1D bar code, the scanner can read UPC-A, UPC-E, EAN-8, EAN-13, Code128, Code39, Interleaved 2 of 5, Codabar, Matrix 2 of 5. For 2D bar code, the scanner can read Code39, PDF417, Data Matrix.
 
 .. image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Scanner.jpg
    :align: center
@@ -149,8 +149,6 @@ NFC
 ===
 
 The |product| supports a high frequency NFC by default, read and write distance is 0 ~ 5 cm, it complies with ISO14443A/14443B/15693 standards.
-
-If you do not need the NFC module, we can remove that when placing an order.
 
 NFC can be triggered from the rear, near the battery zone, like in the image below:
 
