@@ -18,7 +18,7 @@
 
 .. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 3 x RS485, include 1 debug port. 
 
-.. |dimP| replace:: N/A
+.. |dimP| replace:: 209 x 125 x 37.3mm
 
 .. |weightP| replace:: null
 
@@ -178,5 +178,13 @@
 .. include:: Resources/CS-RK3568-BOX/mounting
 
 .. include:: Resources/mechanical
+
+Please refer to the technical drawing in the figure below for details related to the specific product measurements.
+
+.. figure:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-TD.png
+   :align: center
+   :figclass: align-center
+
+   |productP| *Technical Drawing*
 
 .. include:: /PCs/Shared/support
