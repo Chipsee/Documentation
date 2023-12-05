@@ -15,6 +15,6 @@ The |Pi| Compute Module 4 appears in different versions depending on the size of
 Operating System
 ----------------
 
-This product comes with a pre-installed Debian OS or Ubuntu OS. Chipsee software engineers have created all the drivers, so every hardware feature is readily available for any standard development tool.
+This product comes with a pre-installed Raspberry Pi OS or Ubuntu OS. Chipsee software engineers have created all the drivers, so every hardware feature is readily available for any standard development tool.
 
 If your project requires a different OS, please |contact|_, and we’ll make a |custom_order|_ that suits your needs.
