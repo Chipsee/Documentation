@@ -104,7 +104,7 @@ RS232+RS485 Connector
 ---------------------
 
 The serial communication interfaces (RS485 and RS232) are routed to a **16-pin 3.81mm terminal**, as illustrated in the figure below.
-Serial communication on both RS485 and RS422 interfaces can reach up to 115200 kbps.
+Serial communication on both RS485 and RS232 interfaces can reach up to 115200 kbps.
 
 .. figure:: /Media/ARM/A72/CS10768R150/IO_Peripherals.jpeg
    :align: center
