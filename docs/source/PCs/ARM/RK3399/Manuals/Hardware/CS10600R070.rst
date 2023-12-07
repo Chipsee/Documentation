@@ -54,6 +54,9 @@
 
 .. |rs485| replace:: 2 x RS485 (1 debug port)
 
+.. _product_link: https://chipsee.com/product/epc-a72-070-c/
+
+.. |product_link| replace:: |product|
 
 .. |Front View| image:: /Media/ARM/A72/CS10600R070/PPC-A72-070-C-Front.jpeg
                   :class: product-img

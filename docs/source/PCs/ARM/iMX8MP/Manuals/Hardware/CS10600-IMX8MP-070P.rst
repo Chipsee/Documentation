@@ -104,6 +104,10 @@
                   :align: middle
                   :width: 576
 
+.. _product_link: https://chipsee.com/product/ppc-a53-070/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Front.jpg
                   :class: product-img
 

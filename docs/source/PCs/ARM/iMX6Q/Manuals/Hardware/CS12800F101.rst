@@ -56,6 +56,10 @@
                   :align: middle
                   :width: 768
 
+.. _product_link: https://chipsee.com/product/ppca9101c/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/ARM/A9/CS12800F101/PPC-A9-101-C-Front.jpeg
                   :class: product-img
 

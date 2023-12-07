@@ -54,6 +54,9 @@
 
 .. |rs485| replace:: 2 x RS485 (Optional 4 x RS485 at most, 1 debug port)
 
+.. _product_link: https://chipsee.com/product/epc-a72-101/
+
+.. |product_link| replace:: |product|
 
 .. |Front View| image:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Front.jpeg
                   :class: product-img

@@ -92,6 +92,9 @@
                   :align: middle
                   :width: 192
 
+.. _product_link: https://chipsee.com/product/ppc-a72-236/
+
+.. |product_link| replace:: |product|
 
 .. |Front View| image:: /Media/ARM/A72/CS19108R236P/CS19108R236P-Front.jpg
                   :class: product-img

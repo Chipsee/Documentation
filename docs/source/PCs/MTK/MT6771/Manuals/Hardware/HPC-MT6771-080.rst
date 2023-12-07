@@ -8,6 +8,10 @@
 
 .. |tscreen| replace:: Capacitive Touch Screen
 
+.. _product_link: https://chipsee.com/product/hpc-mt6771-080/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Front.jpg
                   :class: product-img
 
@@ -37,6 +41,7 @@ The device supports 2D barcode scanner and RFID, it takes advantage of LAN, GPRS
 
 This tablet PC adopts a 1200 x 1920 capacitive 5 point touch screen, it supports Android 11 operating system. It is easy to use, meets various needs, responsive and efficient.
 
+.. include:: /PCs/MTK/Shared/Resources/ordering
 
 Standard Accessories
 ====================

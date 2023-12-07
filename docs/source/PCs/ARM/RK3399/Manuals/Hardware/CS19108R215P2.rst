@@ -96,6 +96,10 @@
                   :align: middle
                   :width: 576
 
+.. _product_link: https://chipsee.com/product/ppc-a72-215-p/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/ARM/A72/CS19108R215P2/CS19108R215P2-Front.jpg
                   :class: product-img
 

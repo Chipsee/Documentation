@@ -1,6 +1,6 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. |product| replace:: PPC-A72-101-C
+.. |product| replace:: PPC-A72-101
 
 .. |productP| replace:: PPC-A72-101
 
@@ -52,6 +52,9 @@
 
 .. |rs485| replace:: 2 x RS485
 
+.. _product_link: https://chipsee.com/product/ppc-a72-101/
+
+.. |product_link| replace:: |product|
 
 .. |Front View| image:: /Media/ARM/A72/CS12800R101P/CS12800R101P-Front.jpeg
                   :class: product-img

@@ -118,6 +118,10 @@
                    :align: middle
                    :width: 384
 
+.. _product_link: https://chipsee.com/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-Front.jpg
                   :class: product-img
 

@@ -126,6 +126,10 @@
                    :align: middle
                    :width: 384
 
+.. _product_link: https://chipsee.com/product/ppc-a55-070/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Front.jpg
                   :class: product-img
 

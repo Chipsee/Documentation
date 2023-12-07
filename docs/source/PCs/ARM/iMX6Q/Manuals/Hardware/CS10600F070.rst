@@ -52,6 +52,10 @@
 
 .. |rs485| replace:: 2
 
+.. _product_link: https://chipsee.com/product/ppca9070c/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/ARM/A9/CS10600F070/PPC-A9-070-C-Front.jpg
                   :class: product-img
 
