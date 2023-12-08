@@ -584,3 +584,11 @@ caption, figcaption, p.caption {
 .pdf-only {
     display: none;
 }
+
+/* Give toc a padding on mobile */
+.md-nav--primary ul li,
+.md-nav--primary ul li ul li,
+.md-nav--secondary ul li,
+.md-nav--secondary ul li ul li {
+  padding-left: 0.6rem !important
+}
