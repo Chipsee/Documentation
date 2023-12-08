@@ -50,16 +50,6 @@
                 <a class="nav-link" href="{{ pathto('SOM/index.html', 1) }}">SOM (Systems on Module)</a>
               </li>
             {% endif %}
-
-            {% if s_pg_name == "TutorialGuide" %}
-              <li class="nav-item">
-                <a class="nav-link" style="color:#fff!important;" href="{{ pathto('TutorialGuide/index.html', 1) }}">Tutorials and Guides</a>
-              </li>
-            {% else %}
-              <li class="nav-item">
-                <a class="nav-link" href="{{ pathto('TutorialGuide/index.html', 1) }}">Tutorials and Guides</a>
-              </li>
-            {% endif %}
         </ul>
 
           {%- if sourcename == 'index.rst.txt' %}
