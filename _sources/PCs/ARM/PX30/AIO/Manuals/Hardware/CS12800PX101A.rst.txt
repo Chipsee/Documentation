@@ -208,7 +208,7 @@ ZIGBEE Module
 RS232/RS485/CAN/Relay Connector
 -------------------------------
 
-The serial communication interfaces (RS485, RS482, CAN and Relay) are routed to a **10-pin 2.5mm connector**, as illustrated on the figure below.
+The serial communication interfaces (RS485, RS232, CAN and Relay) are routed to a **10-pin 2.5mm connector**, as illustrated on the figure below.
 
 .. figure:: /Media/ARM/A35/AIO/CS12800PX101A/101-RS232_CON.jpeg
    :align: center

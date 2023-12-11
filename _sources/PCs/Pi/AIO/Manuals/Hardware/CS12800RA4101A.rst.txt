@@ -224,7 +224,7 @@ ZIGBEE Module
 RS232/RS485/Relay Connector
 ---------------------------
 
-The serial communication interfaces (RS485, RS482, and Relay) are routed to a **10-pin 2.5mm connector**, as illustrated on the figure below.
+The serial communication interfaces (RS485, RS232, and Relay) are routed to a **10-pin 2.5mm connector**, as illustrated on the figure below.
 
 .. figure:: /Media/Pi/AIO/CS12800RA4101A/101-RS232_CON.jpeg
    :align: center
