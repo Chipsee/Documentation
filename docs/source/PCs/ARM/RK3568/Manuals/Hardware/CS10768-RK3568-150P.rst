@@ -30,53 +30,53 @@
 
 .. |temp| replace:: From 0°C to +60°C
 
-.. |power_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/Power-RK3568-150P.jpg
+.. |power_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Power.jpg
                   :align: middle
                   :width: 576
 
-.. |io_pin_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/IO.jpg
+.. |io_pin_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-IO.jpg
                   :align: middle
-                  :width: 768
+                  :width: 1024
 
-.. |USB2_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/USB2.jpg
+.. |USB2_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-USB2.jpg
                    :align: middle
-                   :width: 96
+                   :width: 384
 
-.. |USB3_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/USB3.jpg
+.. |USB3_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-USB3.jpg
                    :align: middle
-                   :width: 96
+                   :width: 384
 
-.. |USBC_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/TYPE-C.jpg
+.. |USBC_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-USBC.jpg
                    :align: middle
-                   :width: 96
+                   :width: 384
 
-.. |wifi_bt_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/Wifi-BT.jpg
+.. |wifi_bt_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-WifiBT.jpg
                   :align: middle
-                  :width: 192
+                  :width: 384
 
 .. |sim_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/CS12800-RK3568-101P-SIM.jpg
                   :align: middle
                   :width: 640
                   
-.. |LAN_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/LAN.jpg
+.. |LAN_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-LAN.jpg
                   :align: middle
-                  :width: 192
+                  :width: 384
                   
-.. |TF_SIM_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/TF_Card_SIM_Card.jpg
+.. |TF_SIM_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-TFSIM.jpg
                   :align: middle
                   :width: 384                                                       
 
-.. |audio_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/Audio.jpg
+.. |audio_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Audio.jpg
                   :align: middle
-                  :width: 192
+                  :width: 384
 
-.. |HDMI_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/HDMI.jpg
+.. |HDMI_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-HDMI.jpg
                   :align: middle
-                  :width: 192
+                  :width: 384
 
-.. |PROG_btn_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/Prog_Button.jpg
+.. |PROG_btn_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Prog.jpg
                   :align: middle
-                  :width: 192                 
+                  :width: 384                 
 
 .. _product_link: https://chipsee.com/product/ppc-a55-150/
 
