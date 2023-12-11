@@ -48,6 +48,10 @@
 
 .. |can| replace:: Optional 2 x CAN 
 
+.. _product_link: https://chipsee.com/product/ppca9215c/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/ARM/A9/CS19108F215/PPC-A9-215-C-Front.jpeg
                   :class: product-img
 

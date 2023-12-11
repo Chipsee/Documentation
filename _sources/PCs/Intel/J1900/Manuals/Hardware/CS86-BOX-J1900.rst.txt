@@ -8,6 +8,10 @@
 
 .. |PN| replace:: PN: CS86-BOX-J1900
 
+.. _product_link: https://chipsee.com/product/cs86-box-j1900/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/Intel/J1900/CS86-BOX-J1900/CS86-BOX-J1900-front.jpg
                   :class: product-img
 

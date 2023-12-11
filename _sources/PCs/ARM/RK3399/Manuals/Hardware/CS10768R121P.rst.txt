@@ -92,6 +92,10 @@
                   :align: middle
                   :width: 384
 
+.. _product_link: https://chipsee.com
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/ARM/A72/CS10768R121P/CS10768R121P-Front.jpg
                   :class: product-img
 

@@ -92,6 +92,10 @@
                   :align: middle
                   :width: 384
 
+.. _product_link: https://chipsee.com/product/ppc-a72-150-c/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-Front.jpg
                   :class: product-img
 

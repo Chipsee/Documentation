@@ -8,6 +8,10 @@
 
 .. |dim| replace:: 249.2 x 152 x 34mm
 
+.. _product_link: https://chipsee.com/?s=cs86+box
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-Front.jpg
                   :class: product-img
 

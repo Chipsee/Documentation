@@ -24,6 +24,10 @@
 
 .. |pwr| replace:: 5.25W (max)
 
+.. _product_link: https://chipsee.com
+
+.. |product_link| replace:: |product|
+
 .. |power_img| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-Power.jpg
                   :align: middle
                   :width: 768

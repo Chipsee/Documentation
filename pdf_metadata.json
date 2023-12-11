@@ -262,9 +262,9 @@
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS12800R101P": {
-            "pdf-title": "PPC-A72-101-C",
+            "pdf-title": "PPC-A72-101",
             "pdf-subtitle": "PN: CS12800R101P",
-            "pdf-filename": "PPC-A72-101-C",
+            "pdf-filename": "PPC-A72-101",
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R125": {
@@ -275,25 +275,25 @@
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R133": {
             "pdf-title": "PPC-A72-133-C",
-            "pdf-subtitle": "PN: CS19108R133",
+            "pdf-subtitle": "PN: CS19108R133P",
             "pdf-filename": "PPC-A72-133-C",
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R133P": {
             "pdf-title": "PPC-A72-133-P",
-            "pdf-subtitle": "PN: CS19108R133P",
+            "pdf-subtitle": "PN: CS19108R133P2",
             "pdf-filename": "PPC-A72-133-P",
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R156": {
             "pdf-title": "PPC-A72-156-C",
-            "pdf-subtitle": "PN: CS19108R156",
+            "pdf-subtitle": "PN: CS19108R156P",
             "pdf-filename": "PPC-A72-156-C",
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R156P": {
             "pdf-title": "PPC-A72-156-P",
-            "pdf-subtitle": "PN: CS19108R156P",
+            "pdf-subtitle": "PN: CS19108R156P2",
             "pdf-filename": "PPC-A72-156-P",
             "pdf-type": "ipc"
         },
@@ -305,7 +305,7 @@
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R215": {
             "pdf-title": "PPC-A72-215-C",
-            "pdf-subtitle": "PN: CS19108R215",
+            "pdf-subtitle": "PN: CS19108R215P",
             "pdf-filename": "PPC-A72-215-C",
             "pdf-type": "ipc"
         },

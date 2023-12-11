@@ -78,6 +78,10 @@
                   :align: middle
                   :width: 192
 
+.. _product_link: https://chipsee.com/product/ppc-a55-236/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/ARM/A55/CS19108-RK3568-236P/CS19108-RK3568-236P-Front.jpg
                   :class: product-img
 

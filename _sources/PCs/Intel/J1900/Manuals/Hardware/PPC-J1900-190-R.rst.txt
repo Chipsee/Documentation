@@ -26,6 +26,10 @@
 
 .. |disp_des| replace:: |dispsize| resistive touch screen with a resolution of |res| pixels
 
+.. _product_link: https://chipsee.com/product/ppc-j1900-190-r/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/Intel/J1900/190/PPC-J1900-190-R-Front.jpg
                   :class: product-img
 

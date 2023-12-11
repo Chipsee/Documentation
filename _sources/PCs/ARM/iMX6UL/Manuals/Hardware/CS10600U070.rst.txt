@@ -22,6 +22,10 @@
 
 .. |power| replace:: 5W Typical
 
+.. _product_link: https://chipsee.com/product/epca7070hc/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/ARM/A7/CS10600U070/PPC-A7-070HB-C-Front.jpg
                   :class: product-img
 
