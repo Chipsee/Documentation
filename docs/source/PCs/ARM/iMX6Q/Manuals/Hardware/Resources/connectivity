@@ -7,8 +7,8 @@ There are many connectivity options available on the |product| industrial PC. It
 RS232/RS485/CAN
 ---------------
 
-The serial communication interfaces (RS485, RS482, and CAN) are routed to a **16-pin 3.81mm terminal**, as illustrated in the figure below.
-Serial communication on both RS485 and RS422 interfaces can reach up to 115200 kbps.
+The serial communication interfaces (RS485, RS232, and CAN) are routed to a **16-pin 3.81mm terminal**, as illustrated in the figure below.
+Serial communication on both RS485 and RS232 interfaces can reach up to 115200 kbps.
 
 .. figure:: /Media/ARM/A9/Others/IO-Peripherals.png
    :align: center
