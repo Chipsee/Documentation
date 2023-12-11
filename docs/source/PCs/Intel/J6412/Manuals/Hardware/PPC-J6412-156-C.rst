@@ -26,6 +26,10 @@
 
 .. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
 
+.. _product_link: https://chipsee.com/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/Intel/J6412/PPC-J6412-156-C/PPC-J6412-156-C-Front.jpg
                   :class: product-img
 

@@ -8,6 +8,10 @@
 
 .. |tscreen| replace:: Capacitive Touch Screen
 
+.. _product_link: https://chipsee.com/product/hpc-mt6737-035/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Front.jpg
                   :class: product-img
 
@@ -35,6 +39,8 @@ Overview
 The |product| is an industrial handheld barcode scanner, it is produced with two-color injection molding, IP65 standard protection, suitable for harsh environments, such as ticket inspection, retail, warehousing, supermarkets, transportation, logistics and other fields.
 
 It features a 28nm Quad(4) core, 1.3GHz Cortex-A53 ARM CPU, Android 7.0 operating system, 2GB RAM, 16GB storage, 3.5 inch capacitive touch panel.
+
+.. include:: /PCs/MTK/Shared/Resources/ordering
 
 Hardware Specification
 ======================

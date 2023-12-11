@@ -8,6 +8,10 @@
 
 .. |tscreen| replace:: Capacitive Touch Screen
 
+.. _product_link: https://chipsee.com/product/hpc-mt6762-057/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Front.png
                   :class: product-img
 
@@ -23,8 +27,6 @@
 
 .. _HPC-MT6762-057:
 
-
-
 |product|
 #########
 
@@ -34,6 +36,8 @@ Overview
 ========
 
 The |product| is a 5.7 inch rugged handheld industrial tablet PC, it adopts Android 11 operating system, a capacitive touch screen, suitable for use in harsh environments such as logistics, transportation, warehousing, retail and other fields. It has a powerful octa(8)-core MediaTek MT6762 CPU inside, with up to 2.0GHz CPU speed. It has 4GB RAM and 64GB storage by default.
+
+.. include:: /PCs/MTK/Shared/Resources/ordering
 
 Standard Accessories
 ====================

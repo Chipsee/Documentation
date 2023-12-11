@@ -52,6 +52,10 @@
 
 .. |rs485| replace:: 3
 
+.. _product_link: https://chipsee.com/product/ppc-a9-097-c/
+
+.. |product_link| replace:: |product|
+
 .. |gpio_img| image:: /Media/ARM/A9/CS10768F097/A9-097-C-GPIO.jpg
                   :align: middle
                   :width: 768

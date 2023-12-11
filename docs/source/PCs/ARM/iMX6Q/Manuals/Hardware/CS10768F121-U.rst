@@ -40,6 +40,10 @@
 
 .. |temp| replace:: From -20°C to +70°C
 
+.. _product_link: https://chipsee.com/product/ppc-a9-121-u-c/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/ARM/A9/CS10768F121-U/PPC-A9-121-U-C-Front.jpeg
                   :class: product-img
 

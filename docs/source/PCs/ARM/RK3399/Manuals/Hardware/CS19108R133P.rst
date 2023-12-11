@@ -4,7 +4,7 @@
 
 .. |productP| replace:: PPC-A72-133-P
 
-.. |PN| replace:: PN: CS19108R133P
+.. |PN| replace:: PN: CS19108R133P2
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
@@ -92,6 +92,9 @@
                   :align: middle
                   :width: 192
 
+.. _product_link: https://chipsee.com/product/ppc-a72-133-p/
+
+.. |product_link| replace:: |product|
 
 .. |Front View| image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-P-Front.jpg
                   :class: product-img

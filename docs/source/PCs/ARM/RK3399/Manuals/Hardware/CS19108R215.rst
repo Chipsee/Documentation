@@ -2,7 +2,7 @@
 
 .. |product| replace:: PPC-A72-215-C
 
-.. |PN| replace:: PN: CS19108R215
+.. |PN| replace:: PN: CS19108R215P
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
@@ -45,6 +45,10 @@
 .. |rs232| replace:: 5 x RS232
 
 .. |rs485| replace:: 2 x RS485 (4 at most, 1 debug port)
+
+.. _product_link: https://chipsee.com/product/ppc-a72-215-c/
+
+.. |product_link| replace:: |product|
 
 .. |Front View| image:: /Media/ARM/A72/CS19108R215/PPC-A72-215-C-Front.jpeg
                   :class: product-img

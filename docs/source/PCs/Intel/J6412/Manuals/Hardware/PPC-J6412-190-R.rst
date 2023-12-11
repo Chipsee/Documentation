@@ -28,6 +28,10 @@
 
 .. |disp_des| replace:: |dispsize| resistive touch screen with a resolution of |res| pixels
 
+.. _product_link: https://chipsee.com/product/ppc-j6412-190-r/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/Intel/J6412/PPC-J6412-190-R/PPC-J6412-190-R-Front.jpg
                   :class: product-img
 

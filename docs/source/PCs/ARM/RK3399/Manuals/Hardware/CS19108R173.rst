@@ -46,6 +46,10 @@
 
 .. |rs485| replace:: 2 x RS485 (4 at most, 1 debug port)
 
+.. _product_link: https://chipsee.com/product/ppc-a72-173-c/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/ARM/A72/CS19108R173/PPC-A72-173-C-Front.jpeg
                   :class: product-img
 

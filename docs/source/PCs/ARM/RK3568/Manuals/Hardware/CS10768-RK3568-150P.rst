@@ -78,6 +78,10 @@
                   :align: middle
                   :width: 192                 
 
+.. _product_link: https://chipsee.com/product/ppc-a55-150/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Front.jpg
                   :class: product-img
 

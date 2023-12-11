@@ -48,6 +48,10 @@
 
 .. |can| replace:: Optional 2 x CAN 
 
+.. _product_link: https://chipsee.com/product/ppca9170c/
+
+.. |product_link| replace:: |product|
+
 .. |Front View| image:: /Media/ARM/A9/CS12102F170/PPC-A9-170-C-Front.jpeg
                   :class: product-img
 
