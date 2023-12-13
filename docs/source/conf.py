@@ -147,8 +147,9 @@ pygments_style = "perldoc"
 # Sphinx-PDF-Generate configurations
 pdfgen_verbose = False
 pdfgen_site_url = "https://docs.chipsee.com"
-#pdfgen_debug = True
-#pdfgen_debug_target = "PCs/Pi/Software/Debian.rst"
+# pdfgen_debug = True
+# pdfgen_debug_target = "PCs/Pi/Software/Debian.rst"
+# pdfgen_debug_target = "PCs/Pi/A72/Manuals/Hardware/CS10600RA4070P-D.rst"
 pdfgen_author = "Chipsee"
 pdfgen_copyright = copyright
 pdfgen_disclaimer = "Content can change at anytime. It's best to refer to website for latest information."
