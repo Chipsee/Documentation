@@ -12,7 +12,7 @@ Home
 
             <div class="welcome_div">
                 <h1>Chipsee Documentation</h1>
-                <p style="font-size: 20px!important;">Chipsee offers industrial PCs based on ARM and X86 CPUs, industrial displays, and various SOM.</p>
+                <p style="font-size: 20px!important;">Chipsee offers industrial PCs based on ARM and X86 CPUs, industrial displays.</p>
                 <p style="font-size: 20px!important;">Our offer also includes customized products that can be tailor-made to fit your needs.</p>
             </div>
 
@@ -99,21 +99,6 @@ Home
 
     .. grid-item-card::
         :columns: 12 6 6 4
-        :link: som
-        :link-type: ref
-        :img-top: /Media/homepage/Product_6_Chipsee.jpg
-        :class-card: border
-        :text-align: center
-
-        .. raw:: html
-
-            <p class="card-head">
-                <b>SOM</b> <br> Systems on Module
-            </p>
-
-
-    .. grid-item-card::
-        :columns: 12 6 6 4
         :link: mipcg
         :link-type: ref
         :img-top: /Media/homepage/Product_5_Chipsee.jpg
@@ -138,12 +123,6 @@ Home
    :hidden:
 
    Industrial Display <Displays/index>
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-
-   SOM (Systems on Module) <SOM/index>
 
 .. toctree::
    :maxdepth: 1

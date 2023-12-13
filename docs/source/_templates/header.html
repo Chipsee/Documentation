@@ -40,16 +40,6 @@
                 <a class="nav-link" href="{{ pathto('Displays/index.html', 1) }}">Industrial Display</a>
               </li>
             {% endif %}
-
-            {% if s_pg_name == "SOM" %}
-              <li class="nav-item">
-                <a class="nav-link" style="color:#fff!important;" href="{{ pathto('SOM/index.html', 1) }}">SOM (Systems on Module)</a>
-              </li>
-            {% else %}
-              <li class="nav-item">
-                <a class="nav-link" href="{{ pathto('SOM/index.html', 1) }}">SOM (Systems on Module)</a>
-              </li>
-            {% endif %}
         </ul>
 
           {%- if sourcename == 'index.rst.txt' %}
