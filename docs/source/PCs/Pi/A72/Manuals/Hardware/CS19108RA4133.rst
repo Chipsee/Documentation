@@ -97,11 +97,12 @@
 .. |Rear View| image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Rear.jpg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Side.jpg
+.. |Side View 1| image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Side1.jpg
                   :class: product-img
 
 .. |Side View 2| image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Side2.jpg
                   :class: product-img
+
 
 .. _PPC-CM4-133:
 
