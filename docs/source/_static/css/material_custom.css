@@ -592,3 +592,28 @@ caption, figcaption, p.caption {
 .md-nav--secondary ul li ul li {
   padding-left: 0.6rem !important
 }
+
+/* Style the GDPR Consent Banner */
+.gdpr-consent-banner {
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+/* Style the GDPR Consent Banner buttons */
+#accept-cookies,
+#decline-cookies {
+    padding: 0.5em 1.2em;
+    margin: 5px;
+    cursor: pointer;
+    color: red;
+    border: solid 1px red;
+    border-radius: 6px;
+}
