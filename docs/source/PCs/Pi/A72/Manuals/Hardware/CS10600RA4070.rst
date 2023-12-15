@@ -148,6 +148,8 @@
                   :align: middle
                   :width: 192
 
+.. |Cover PNG| image:: /Media/Pi/A72/CS10600RA4070/CS10600RA4070P-Front.png
+
 .. |Front View| image:: /Media/Pi/A72/CS10600RA4070/CS10600RA4070P-Front.jpeg
                   :class: product-img
 
@@ -234,6 +236,8 @@ Please refer to the technical drawing in the figure below for details related to
    :figclass: align-center
 
    |productE| *Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
 

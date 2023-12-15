@@ -124,7 +124,7 @@
 
 .. |rs232_485_can_img| image:: /Media/Pi/A72/CS12720RA4050-C121/RS232_RS485_CAN.png
                   :align: middle
-                  :width: 480
+                  :width: 384
 
 .. |lan_img| image:: /Media/Pi/A72/CS12720RA4050-C121/LAN.png 
                   :align: middle
@@ -134,19 +134,19 @@
                   :align: middle
                   :width: 384
 
+.. |Cover PNG| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Front.png
+
 .. |Front View| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Front.png
                   :class: product-img
 
-.. |Rear View| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Back.png
+.. |Rear View| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Rear.png
                   :class: product-img
 
-.. |Side View 1| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Side.png
+.. |Side View 1| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Side1.png
                   :class: product-img
-                  :alt: Rear View
 
-.. |Side View 2| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Side.png
+.. |Side View 2| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Side2.png
                   :class: product-img
-                  :alt: Side View
 
 .. _PPC-CM4-050:
 
@@ -201,6 +201,8 @@ Please refer to the technical drawing in the figure below for details related to
    :figclass: align-center
 
    |productP| *Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
 

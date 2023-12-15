@@ -1,5 +1,3 @@
-:pagebreak:`True`
-
 TF Card Slot
 ============
 
@@ -16,3 +14,5 @@ TF Card Slot
   #) |TF_boot|
   #) |TF_storage|
   #) The product does not come shipped with the TF card by default.
+
+:pagebreak:`True`

@@ -11,7 +11,7 @@ def main(**kwargs: BeautifulSoup) -> None:
     )
     pdf_thumbnails: List[Tag] = []
     for img in thumbnail_images:
-        pdf_figure = soup.new_tag("figure", attrs={"class": "align-center"})
+        pdf_figure = soup.new_tag("figure", attrs={"class": "align-center page-break-pdf"})
         img_classes = [
             cls_ for cls_ in img.attrs["class"] if re.match(r"pdf-width-\d{1,3}", cls_)
         ]
@@ -23,14 +23,14 @@ def main(**kwargs: BeautifulSoup) -> None:
                 "class": " ".join(img_classes) + " pdf-product-img",
             },
         )
-        pdf_figcaption = soup.new_tag("figcaption", attrs={"style": "margin: 5px 0"})
+        pdf_figcaption = soup.new_tag("figcaption", attrs={"style": "margin: 5px 0;"})
 
-        figcaption_text = soup.new_tag("p", attrs={"class": "caption"})
+        figcaption_text = soup.new_tag("p", attrs={"class": "caption", "style": "font-size: 32px;"})
         figcaption_text.append(img["alt"])
         pdf_figcaption.append(figcaption_text)
 
-        pdf_figure.append(pdf_img)
         pdf_figure.append(pdf_figcaption)
+        pdf_figure.append(pdf_img)
 
         pdf_thumbnails.append(pdf_figure)
 
@@ -47,7 +47,7 @@ def main(**kwargs: BeautifulSoup) -> None:
 
     # Setting the product image on the cover page
     if len(thumbnail_images) > 0:
-        front_view_img = thumbnail_images[0]["src"]
+        front_view_img = thumbnail_images[0]["src"].rsplit('.', 1)[0] + ".png"
         prod_img_tag = soup.find("div", attrs={"id": "cover_product_img_area"})
         prod_img_tag["style"] = f"background-image: url('{front_view_img}');"
 

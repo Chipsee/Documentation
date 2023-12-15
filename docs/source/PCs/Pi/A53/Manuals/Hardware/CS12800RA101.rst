@@ -50,6 +50,8 @@
 
 .. |product_link| replace:: EPC/PPC-CM3-101
 
+.. |Cover PNG| image:: /Media/Pi/A53/CS12800RA101/CS12800RA101P-Front.jpeg
+
 .. |Front View| image:: /Media/Pi/A53/CS12800RA101/CS12800RA101P-Front.jpeg
                   :class: product-img
 

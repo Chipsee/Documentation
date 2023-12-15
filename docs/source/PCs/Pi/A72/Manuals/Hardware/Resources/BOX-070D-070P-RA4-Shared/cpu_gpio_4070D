@@ -42,3 +42,5 @@ The |product| also supports GPIO routed from the Raspberry Pi CM4 CPU directly, 
    |cpu_gpio_schema_img|
 
    *CPU GPIO Reduced Schematic*
+
+:pagebreak:`True`

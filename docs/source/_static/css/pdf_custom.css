@@ -80,6 +80,14 @@
         padding-top: 0 !important;
     }
 
+    .page-break-pdf {
+        break-after: always;
+        /* for firefox */
+        page-break-after: always;
+        /* for webkit */
+        -webkit-column-break-after: always;
+    }
+
     /* Cover */
 
     #doc-cover {
@@ -550,7 +558,6 @@
         padding: 0.1em;
         border: 1px solid #fff;
         border-radius: 0.2em;
-        max-height: 20em;
-        max-width: 30em;
+        max-width: 1024px;
     }
 }

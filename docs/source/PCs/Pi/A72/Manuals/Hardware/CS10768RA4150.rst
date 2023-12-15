@@ -92,6 +92,8 @@
                   :align: middle
                   :width: 384
                   
+.. |Cover PNG| image:: /Media/Pi/A72/CS10768RA4150/PPC-CM4-150-Front.png
+
 .. |Front View| image:: /Media/Pi/A72/CS10768RA4150/PPC-CM4-150-Front.jpg
                   :class: product-img
 
@@ -115,6 +117,8 @@
 .. include:: Resources/CS12800RA4101/base_includes_cs12800ra4101
 
 .. include:: Resources/mechanical
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
 
