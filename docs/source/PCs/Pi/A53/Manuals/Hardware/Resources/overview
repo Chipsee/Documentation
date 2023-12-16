@@ -21,3 +21,5 @@ It is available both as an embedded solution and as a device hosed in a casing w
 + Integration with the existing equipment
 
 |Product| is based around the powerful Raspberry |Pi| Compute Module 3, powered by the BCM2837 processor with a processor speed of 1.2GHz and a 1GB RAM.
+
+:pagebreak:`True`
