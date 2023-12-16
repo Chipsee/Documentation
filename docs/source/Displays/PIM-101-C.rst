@@ -49,6 +49,8 @@
 
 .. |product_link| replace:: PIM-101-C
 
+.. |Cover PNG| image:: /Media/Displays/PIM-101-C/pim-101-front.png
+
 .. |Front View| image:: /Media/Displays/PIM-101-C/pim-101-front.png
                   :class: product-img
 
@@ -68,8 +70,6 @@
     :class: html-only
 
 .. include:: Shared/three_main_images
-
-:pagebreak:`True`
 
 .. include:: Resources/overview
 

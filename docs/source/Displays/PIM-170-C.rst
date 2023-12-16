@@ -49,6 +49,8 @@
 
 .. |product_link| replace:: PIM-170-C
 
+.. |Cover PNG| image:: /Media/Displays/PIM-170-C/pim-170-front.png
+
 .. |Front View| image:: /Media/Displays/PIM-170-C/pim-170-front.png
                   :class: product-img
 
@@ -67,8 +69,6 @@
     :class: html-only
 
 .. include:: Shared/three_main_images
-
-:pagebreak:`True`
 
 .. include:: Resources/overview
 
