@@ -33,3 +33,5 @@ Others
 #. Avoid exposure to direct strong sunlight or heat, they might affect the internal circuit and the case.
 #. Condensation might occur when environment temperature changes rapidly. In this case, wait an hour before using the device, to allow it to adapt to the new environment.
 #. Strong electromagnetic fields affect the device's internal circuit, and may cause malfunctions. For example, when transmitting data between the device and a mobile phone, keep the mobile phone at least 1 meter away from the device, because phone generated electromagnetic waves may interfere with communications.
+
+:pagebreak:`True`
