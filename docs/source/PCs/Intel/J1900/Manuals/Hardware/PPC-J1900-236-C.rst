@@ -30,7 +30,9 @@
 
 .. |product_link| replace:: |product|
 
-.. |Front View| image:: /Media/Intel/J1900/236/PPC-J1900-236-C-Front.png
+.. |Cover PNG| image:: /Media/Intel/J1900/236/PPC-J1900-236-C-Front.png
+
+.. |Front View| image:: /Media/Intel/J1900/236/PPC-J1900-236-C-Front.jpg
                   :class: product-img
 
 .. |Rear View| image:: /Media/Intel/J1900/236/PPC-J1900-236-C-Back.png

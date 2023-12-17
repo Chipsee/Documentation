@@ -58,6 +58,8 @@
 
 .. |product_link| replace:: EPC/PPC-A8-070H-C
 
+.. |Cover PNG| image:: /Media/ARM/A8/CS10600T070/PPC-A8-070H-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A8/CS10600T070/PPC-A8-070H-C-Front.jpeg
                   :class: product-img
 

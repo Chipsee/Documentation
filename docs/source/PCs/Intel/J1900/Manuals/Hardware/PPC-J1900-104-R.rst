@@ -30,6 +30,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/Intel/J1900/104/PPC-J1900-104-R-Front.png
+
 .. |Front View| image:: /Media/Intel/J1900/104/PPC-J1900-104-R-Front.jpg
                   :class: product-img
 

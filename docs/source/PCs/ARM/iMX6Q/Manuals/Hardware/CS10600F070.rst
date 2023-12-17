@@ -56,6 +56,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A9/CS10600F070/PPC-A9-070-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A9/CS10600F070/PPC-A9-070-C-Front.jpg
                   :class: product-img
 

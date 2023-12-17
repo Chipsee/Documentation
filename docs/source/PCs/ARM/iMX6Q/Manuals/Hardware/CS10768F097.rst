@@ -60,6 +60,8 @@
                   :align: middle
                   :width: 768
 
+.. |Cover PNG| image:: /Media/ARM/A9/CS10768F097/PPC-A9-097-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A9/CS10768F097/PPC-A9-097-C-Front.jpg
                   :class: product-img
 

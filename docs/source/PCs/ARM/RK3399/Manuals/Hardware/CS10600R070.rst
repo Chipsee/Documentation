@@ -58,6 +58,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A72/CS10600R070/PPC-A72-070-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A72/CS10600R070/PPC-A72-070-C-Front.jpeg
                   :class: product-img
 

@@ -116,6 +116,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A55/CS12800-RK3568-050P/PPC-A55-050-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A55/CS12800-RK3568-050P/PPC-A55-050-C-Front.jpg
                   :class: product-img
 

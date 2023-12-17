@@ -52,6 +52,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A9/CS12102F170/PPC-A9-170-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A9/CS12102F170/PPC-A9-170-C-Front.jpeg
                   :class: product-img
 

@@ -82,6 +82,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-Front.png
+
 .. |Front View| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-Front.jpg
                   :class: product-img
 

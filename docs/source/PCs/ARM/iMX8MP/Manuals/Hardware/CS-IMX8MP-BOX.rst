@@ -92,6 +92,8 @@
                   :align: middle
                   :width: 384
 
+.. |Cover PNG| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-Front.png
+
 .. |Front View| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-Front.jpg
                   :class: product-img
 

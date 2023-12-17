@@ -58,6 +58,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Front.jpeg
                   :class: product-img
 

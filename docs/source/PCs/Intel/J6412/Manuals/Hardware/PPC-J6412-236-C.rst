@@ -32,6 +32,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/Intel/J6412/PPC-J6412-236-C/PPC-J6412-236-C-Front.png
+
 .. |Front View| image:: /Media/Intel/J6412/PPC-J6412-236-C/PPC-J6412-236-C-Front.jpg
                   :class: product-img
 

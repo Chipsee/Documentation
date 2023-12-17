@@ -82,6 +82,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A55/CS19108-RK3568-156P/CS19108-RK3568-156P-Front.png
+
 .. |Front View| image:: /Media/ARM/A55/CS19108-RK3568-156P/CS19108-RK3568-156P-Front.jpg
                   :class: product-img
 

@@ -96,6 +96,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-Front.png
+
 .. |Front View| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-Front.jpg
                   :class: product-img
 

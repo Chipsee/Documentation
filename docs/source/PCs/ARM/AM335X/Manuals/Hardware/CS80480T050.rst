@@ -58,6 +58,8 @@
 
 .. |product_link| replace:: EPC/PPC-A8-050-C
 
+.. |Cover PNG| image:: /Media/ARM/A8/CS80480T050/PPC-A8-050-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A8/CS80480T050/PPC-A8-050-C-Front.jpeg
                   :class: product-img
 

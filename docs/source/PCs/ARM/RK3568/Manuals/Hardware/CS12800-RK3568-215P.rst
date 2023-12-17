@@ -86,6 +86,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A55/CS12800-RK3568-215P/CS12800-RK3568-215P-Front.png
+
 .. |Front View| image:: /Media/ARM/A55/CS12800-RK3568-215P/CS12800-RK3568-215P-Front.jpg
                   :class: product-img
 

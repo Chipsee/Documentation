@@ -32,6 +32,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/Intel/J6412/PPC-J6412-121-R/PPC-J6412-121-R-Front.png
+
 .. |Front View| image:: /Media/Intel/J6412/PPC-J6412-121-R/PPC-J6412-121-R-Front.jpg
                   :class: product-img
 

@@ -96,6 +96,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A72/CS10768R121P/CS10768R121P-Front.png
+
 .. |Front View| image:: /Media/ARM/A72/CS10768R121P/CS10768R121P-Front.jpg
                   :class: product-img
 

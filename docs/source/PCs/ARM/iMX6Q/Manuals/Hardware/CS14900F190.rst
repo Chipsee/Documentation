@@ -48,6 +48,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A9/CS14900F190/PPC-A9-190-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A9/CS14900F190/PPC-A9-190-C-Front.jpeg
                   :class: product-img
 

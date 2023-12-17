@@ -96,6 +96,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A72/CS19108R236P/CS19108R236P-Front.png
+
 .. |Front View| image:: /Media/ARM/A72/CS19108R236P/CS19108R236P-Front.jpg
                   :class: product-img
 

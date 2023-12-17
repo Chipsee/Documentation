@@ -60,6 +60,8 @@
 
 .. |product_link| replace:: PPC/EPC-A8-097-C
 
+.. |Cover PNG| image:: /Media/ARM/A8/CS10768T097/PPC-A8-097-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A8/CS10768T097/PPC-A8-097-C-Front.jpeg
                   :class: product-img
 

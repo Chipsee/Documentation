@@ -50,6 +50,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A72/CS19108R133/PPC-A72-133-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A72/CS19108R133/PPC-A72-133-C-Front.jpeg
                   :class: product-img
 

@@ -60,6 +60,8 @@
 
 .. |product_link| replace:: EPC/PPC-A8-101-R
 
+.. |Cover PNG| image:: /Media/ARM/A8/CS10600T101/PPC-A8-101-R-Front.png
+
 .. |Front View| image:: /Media/ARM/A8/CS10600T101/PPC-A8-101-R-Front.jpeg
                   :class: product-img
 
