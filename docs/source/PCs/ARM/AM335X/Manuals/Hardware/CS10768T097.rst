@@ -161,6 +161,8 @@ The table below offers more detailed description of every pin and its definition
    | Pin 1          | GND            | Isolated Ground Output                                                  |
    +----------------+----------------+-------------------------------------------------------------------------+
 
+:pagebreak:`True`
+
 USB Connectors
 --------------
 
@@ -178,6 +180,8 @@ There are 4 x Type A **USB HOST connectors** onboard, as shown on the figure bel
 .. warning::
 
   Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded Industrial PC version.
+
+:pagebreak:`True`
 
 .. include:: Resources/LAN
 

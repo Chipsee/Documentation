@@ -23,3 +23,5 @@ The enclosed (PPC) variant of the product also includes an SMA connector for an 
     #) The product does not come shipped with the WiFi/BT module by default.
     #) If the operator mounts the WiFi/BT module on the |product| industrial PC, the module uses the USB1 channel to communicate with CPU, so it will occupy the USB1 channel.
 
+
+:pagebreak:`True`

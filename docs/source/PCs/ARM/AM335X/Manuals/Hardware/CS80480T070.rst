@@ -138,6 +138,8 @@ product measurements.
 
 For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
 
+:pagebreak:`True`
+
 .. include:: Resources/mount_set
 
 .. include:: /PCs/Shared/support

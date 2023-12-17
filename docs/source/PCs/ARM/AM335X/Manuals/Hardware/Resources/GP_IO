@@ -49,3 +49,5 @@ The table below gives details about the definition of every Pin.
    + The 4 output channels can drive at most 500mA current on each channel.
    + The operator can use the power input that connects to Power Input Connector, if the operator doesn't want to use an isolated power input.
    + Also, you can use the 5V voltage on-board as power input. The operator must solder a 0Ω resistor on R292 & R293 then you can connect the 5V voltage onboard to the **Isolated Power Input** Pin.
+
+:pagebreak:`True`

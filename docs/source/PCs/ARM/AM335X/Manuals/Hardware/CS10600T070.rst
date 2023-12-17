@@ -85,8 +85,6 @@
 
 .. include:: /PCs/Shared/four_main_images
 
-:pagebreak:`True`
-
 .. include:: Resources/overview
 
 .. include:: Resources/ordering
@@ -97,19 +95,11 @@
 
 .. include:: Resources/table
 
-:pagebreak:`True`
-
 .. include:: Resources/power
-
-:pagebreak:`True`
 
 .. include:: Resources/cap_screen
 
-:pagebreak:`True`
-
 .. include:: Resources/connectivity
-
-:pagebreak:`True`
 
 .. include:: Resources/USB
 
@@ -117,23 +107,15 @@
 
 .. include:: Resources/WiFi
 
-:pagebreak:`True`
-
 .. include:: Resources/expansion_IO
-
-:pagebreak:`True`
 
 .. include:: Resources/TF_Card
 
 .. include:: Resources/Audio_IO
 
-:pagebreak:`True`
-
 .. include:: Resources/Boot_SW
 
 .. include:: Resources/mounting
-
-:pagebreak:`True`
 
 Mechanical Specifications
 =========================

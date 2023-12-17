@@ -26,3 +26,5 @@ It is available both as an embedded solution and as a device hosed in an aluminu
 The microprocessor unit (MPU) subsystem is based on the ARM Cortex-A8 processor and the PowerVR SGX™ Graphics Accelerator subsystem provides 3D graphics acceleration to support display and gaming effects.
 
 The AM33554 MPU does not generate extensive heat, so even the thin aluminum housing on PPC version delivers sufficient thermal dissipation.
+
+:pagebreak:`True`

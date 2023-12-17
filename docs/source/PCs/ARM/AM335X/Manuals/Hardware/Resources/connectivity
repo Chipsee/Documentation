@@ -16,8 +16,6 @@ The serial communication interfaces (RS485, RS232, and CAN) are routed to a **12
 
    *Relation between serial pins on embedded vs. enclosed version of the* |product| *Industrial PC*
 
-:pagebreak:`True`
-
 The table below offers more detailed description of every pin and its definition:
   
 .. table:: Connectivity Section
@@ -55,3 +53,5 @@ The table below offers more detailed description of every pin and its definition
    +----------------+----------------+--------------------------------------------------------------+
    | Pin 1          | GND            | Isolated Ground Output                                       |
    +----------------+----------------+--------------------------------------------------------------+
+
+:pagebreak:`True`
