@@ -22,3 +22,5 @@ default.
 .. warning:: 
  
   Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
+  
+:pagebreak:`True`

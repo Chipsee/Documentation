@@ -90,6 +90,8 @@ Optional Features
    | Installation, repair, and maintenance tasks should be performed by trained personnel only.
    | Chipsee does not bear any responsibility for damage caused by inadequate handling of the product.
 
+:pagebreak:`True`
+
 .. include:: PPC_Resources/HW_features
 
 .. include:: PPC_Resources/table_big_size
@@ -130,6 +132,8 @@ The outer mechanical dimensions of |product| are |dim| (W x L x H).
     Please make sure the display is not exposed to high pressure when mounting into an enclosure.
 
 You can find detailed information about mounting in the |mguide|.
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
 

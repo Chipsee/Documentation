@@ -100,6 +100,8 @@ Optional Features
    | Installation, repair, and maintenance tasks should be performed by trained personnel only.
    | Chipsee does not bear any responsibility for damage caused by inadequate handling of the product.
 
+:pagebreak:`True`
+
 .. include:: Resources/HW_features
 
 .. include:: Resources/table
@@ -171,6 +173,8 @@ You can mount |productP| with the Panel mounting method, as shown on the figure 
 
 You can find detailed information about mounting in the |mguide|.
 
+:pagebreak:`True`
+
 Mechanical Specifications
 =========================
 
@@ -202,6 +206,8 @@ product measurements.
 
     * When you use product |productE|, you should not touch the circuit board on the back of the product if the product is powered ON.
     * Also, when the product is powered OFF, please take anti-static measures before touching the circuit board.
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
 
