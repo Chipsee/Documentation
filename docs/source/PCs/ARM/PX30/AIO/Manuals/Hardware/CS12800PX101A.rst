@@ -101,6 +101,8 @@ We also provide a customzied power cable of 3.4/1.7mm to 5.5/2.1mm for customer.
 
   *Power Adapter*
 
+:pagebreak:`True`
+
 Buttons and Status LED
 ======================
 
@@ -128,6 +130,8 @@ There are three (3) buttons on the backside of the case: Volume +, Volume -, and
 
 |Product| will boot automaticlly after power on, don't need to press Power button. After system booted, we can use Power button to sleep and awake system.
 
+:pagebreak:`True`
+
 Connectivity
 ============
 
@@ -154,6 +158,8 @@ There are 2 x Type A **USB HOST connectors** and 1 x **USB-OTG Connector** onboa
     * External USB peripherals like a USB disk or USB mouse or keyboard can connect to the USB HOST.
     * You can download software to the eMMC using the USB OTG.
 
+:pagebreak:`True`
+
 LAN Connectors
 ---------------
 
@@ -169,6 +175,8 @@ up to 100Mbps data throughput.
 .. note::
 
    Use CAT5 or better cables to achieve full data throughput over maximum distance defined by the 1000BASE-T standard (100m).
+
+:pagebreak:`True`
 
 TF Card and SIM Card Slots
 --------------------------
@@ -186,6 +194,7 @@ You can use the SIM card slot when you mount the 4G/LTE module.
 
   #) The product does not come shipped with the TF Card and the SIM Card by default.
 
+:pagebreak:`True`
 
 Audio In/Out Connector
 ----------------------
@@ -198,6 +207,8 @@ The product features audio In/Out connector as shown on the figure below.
 
   *Audio IO Connector*
 
+:pagebreak:`True`
+
 ZIGBEE Module
 -------------
 
@@ -206,6 +217,8 @@ ZIGBEE Module
 .. attention::
 
     The product does not come with the Zigbee module by default.
+
+:pagebreak:`True`
 
 RS232/RS485/CAN/Relay Connector
 -------------------------------
@@ -260,6 +273,8 @@ The table below offers more detailed description of every pin and its definition
     #) The 120Ω match resistor for the RS485 is mounted by default.
     #) The Relay Max switching voltage is 125VAC or 60VDC. The maximum switching current is 1A. Rated load is 0.3A at 125VAC and 1A at 30VDC.
 
+:pagebreak:`True`
+
 Mic Input
 ---------
 
@@ -271,6 +286,7 @@ Mic Input
 
    *Microphone Input*
 
+:pagebreak:`True`
 
 Mounting Procedure
 ==================
@@ -294,6 +310,8 @@ You can mount |product| with the Vesa (75 x 75mm) and Stand mounting methods, as
     Please make sure the display is not exposed to high pressure when mounting into an enclosure.
 
 You can find detailed information about mounting in the |mguide|.
+
+:pagebreak:`True`
 
 Mechanical Specifications
 =========================
@@ -319,5 +337,6 @@ product measurements.
 
    *Side Dimension Technical Drawing*
 
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support
