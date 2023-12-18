@@ -166,6 +166,8 @@ The table below offers more detailed description of every pin and its definition
 
    If you need different RS232/RS485 configuration, contact the Chipsee Technical Support at |email|_.
 
+:pagebreak:`True`
+
 .. include:: Legacy_Resources/133_150_156_215/USB
 
 .. include:: Legacy_Resources/133_150_156_215/LAN
@@ -196,7 +198,11 @@ product measurements.
 
   |product| *Technical Drawing*
 
+:pagebreak:`True`
+
 .. include:: PPC_Resources/mounting
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
 

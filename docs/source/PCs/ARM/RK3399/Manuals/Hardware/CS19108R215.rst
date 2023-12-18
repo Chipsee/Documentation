@@ -134,4 +134,6 @@ product measurements.
 
 You can find detailed information about mounting in the |mguide|.
 
+:pagebreak:`True`
+
 .. include:: /PCs/Shared/support

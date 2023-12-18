@@ -125,6 +125,8 @@ There are 4 x **USB HOST connectors** onboard which includes 1 x USB 2.0 HOST, 1
 
   Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
 
+:pagebreak:`True`
+
 .. include:: Legacy_Resources/101/LAN
 
 .. include:: Legacy_Resources/101/WiFi_BT
@@ -174,6 +176,8 @@ You can mount |productP| with the Panel mounting methods, as shown on the figure
 
 You can find detailed information about mounting in the |mguide|.
 
+:pagebreak:`True`
+
 Mechanical Specifications
 =========================
 
@@ -205,5 +209,6 @@ product measurements.
     * When you use product |productE|, you should not touch the circuit board on the back of the product if the product is powered ON.
     * Also, when the product is powered OFF, please take anti-static measures before touching the circuit board.
 
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

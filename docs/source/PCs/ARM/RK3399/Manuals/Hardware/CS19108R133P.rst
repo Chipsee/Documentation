@@ -70,7 +70,7 @@
 
 .. |wifi_bt_img| image:: /Media/ARM/A72/CS19108R133P/ANT-A72-133.jpg
                   :align: middle
-                  :width: 384
+                  :width: 192
 
 .. |LAN_img| image:: /Media/ARM/A72/CS19108R133P/LAN-A72-133.jpg
                   :align: middle
@@ -152,6 +152,10 @@
 
 .. include:: Resources/mounting
 
+:pagebreak:`True`
+
 .. include:: Resources/mechanical
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

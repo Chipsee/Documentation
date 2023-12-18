@@ -152,6 +152,8 @@
 
 .. include:: Resources/mounting
 
+:pagebreak:`True`
+
 .. include:: Resources/mechanical
 
 .. image:: /Media/ARM/A72/CS19108R156P/CS19108R156P-TD.png
@@ -159,4 +161,6 @@
    :alt: TD
    :width: 1024
    
+:pagebreak:`True`
+
 .. include:: /PCs/Shared/support
