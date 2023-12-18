@@ -68,4 +68,6 @@
  
    *CS86-BOX Technical Drawing*
 
+:pagebreak:`True`
+
 .. include:: /PCs/Shared/support

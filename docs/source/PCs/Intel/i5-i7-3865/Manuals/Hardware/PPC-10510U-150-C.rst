@@ -88,4 +88,6 @@
  
    *PPC-10510U-150-C Technical Drawing*
 
+:pagebreak:`True`
+
 .. include:: /PCs/Shared/support
