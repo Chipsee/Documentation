@@ -94,4 +94,6 @@
 
     *Technical Drawing and Cutout Dimensions*
 
+:pagebreak:`True`
+
 .. include:: /PCs/Shared/support                  

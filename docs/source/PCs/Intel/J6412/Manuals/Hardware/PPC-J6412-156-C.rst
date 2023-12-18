@@ -90,4 +90,6 @@
 
    *PPC-J6412-156-C Technical Drawing*
 
+:pagebreak:`True`
+
 .. include:: /PCs/Shared/support                  
