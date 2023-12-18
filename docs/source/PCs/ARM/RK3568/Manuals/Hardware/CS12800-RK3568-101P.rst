@@ -152,6 +152,10 @@
 
    *Panel mounting* (|product|)
 
+:pagebreak:`True`
+
 .. include:: Resources/mechanical
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

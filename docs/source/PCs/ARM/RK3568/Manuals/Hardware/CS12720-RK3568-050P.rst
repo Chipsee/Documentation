@@ -149,6 +149,8 @@
    | Installation, repair, and maintenance tasks should be performed by trained personnel only.
    | Chipsee does not bear any responsibility for damage caused by inadequate handling of the product.
 
+:pagebreak:`True`
+
 .. include:: Resources/HW_features
 
 .. include:: Resources/table
@@ -194,6 +196,7 @@ You can mount |productP| with the Vesa (75 x 75mm) and Panel mounting methods, a
 
 You can find detailed information about mounting in the |mguide|.
 
+:pagebreak:`True`
 
 Mechanical Specifications
 =========================
@@ -209,6 +212,8 @@ product measurements.
    :figclass: align-center
 
    |productP| *Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
 

@@ -193,4 +193,6 @@ Please refer to the technical drawing in the figure below for details related to
 
    |productP| *Technical Drawing*
 
+:pagebreak:`True`
+
 .. include:: /PCs/Shared/support

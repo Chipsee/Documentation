@@ -146,6 +146,8 @@
 
 .. include:: Resources/mounting
 
+:pagebreak:`True`
+
 .. include:: Resources/mechanical
 
 .. rst-class:: text-center
@@ -153,5 +155,7 @@
    |mech_img|
 
    *Mechanical Drawing* (|product|)
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

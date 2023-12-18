@@ -58,3 +58,6 @@ The table below offers more detailed description of every pin and its definition
     #) RS485_3 and RS485_4 can control the input and output direction automatically. There’s no need to control it from within the software.
     #) The 120Ω match resistor for the RS485 is mounted by default.
     #) The 120Ω match resistor for the CAN bus is NOT mounted by default.
+
+
+:pagebreak:`True`

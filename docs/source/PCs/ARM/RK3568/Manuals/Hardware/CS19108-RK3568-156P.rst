@@ -143,11 +143,15 @@
 
 .. include:: Resources/mounting
 
+:pagebreak:`True`
+
 .. include:: Resources/mechanical
 
 .. image:: /Media/ARM/A55/CS19108-RK3568-156P/CS19108-RK3568-156P-TD.png
    :align: center
    :alt: TD
    :width: 1024
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support
