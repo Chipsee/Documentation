@@ -85,7 +85,8 @@
    :align: center
    :figclass: align-center
 
-
    *PPC-J1900-101-C Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

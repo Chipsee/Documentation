@@ -38,10 +38,10 @@
 .. |Rear View| image:: /Media/Intel/J1900/121/PPC-J1900-121-R-Back.jpg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/Intel/J1900/121/PPC-J1900-121-R-Side.jpg
+.. |Side View 1| image:: /Media/Intel/J1900/121/PPC-J1900-121-R-Side1.jpg
                   :class: product-img
 
-.. |Side View 2| image:: /Media/Intel/J1900/121/PPC-J1900-121-R-Side.jpg
+.. |Side View 2| image:: /Media/Intel/J1900/121/PPC-J1900-121-R-Side2.jpg
                   :class: product-img 
                   
 .. _PPC-J1900-121-R:
@@ -86,5 +86,7 @@
    :figclass: align-center
    
    *PPC-J1900-121-R Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

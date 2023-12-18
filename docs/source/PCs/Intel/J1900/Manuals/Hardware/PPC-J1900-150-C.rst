@@ -87,4 +87,6 @@
 
    *PPC-J1900-150-C Technical Drawing*
 
+:pagebreak:`True`
+
 .. include:: /PCs/Shared/support

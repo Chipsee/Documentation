@@ -72,4 +72,6 @@
 
    *CS86-BOX-J1900 Technical Drawing*
 
+:pagebreak:`True`
+
 .. include:: /PCs/Shared/support
