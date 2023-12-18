@@ -172,6 +172,8 @@
 
 .. include:: Resources/mounting
 
+:pagebreak:`True`
+
 .. include:: Resources/mechanical
 
 .. rst-class:: text-center
@@ -179,6 +181,8 @@
    |dimension_img|
 
    *Dimensions* (|product|)
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
 

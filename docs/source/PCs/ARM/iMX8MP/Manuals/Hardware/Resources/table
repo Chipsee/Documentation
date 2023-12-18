@@ -66,3 +66,5 @@
 
 .. [#usbcmt] |USB_3_USB_C_Note|
 .. [#at] |UART_Note| UART can be swapped between RS232 and RS485 modes easily, if you need a different RS232/RS485/CAN configuration, please get in touch with the Chipsee Technical Support at |email|_ when placing an order.
+
+:pagebreak:`True`

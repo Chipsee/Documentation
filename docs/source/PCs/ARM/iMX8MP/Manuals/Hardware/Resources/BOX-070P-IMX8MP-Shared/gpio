@@ -57,3 +57,5 @@ It is also possible to use the onboard 5V power supply. The 5V on board power su
    + The GPIO has been Opt-Isolated and it uses the 24V Logic by default.
    + The 4 output channels can drive at most 500mA current on each channel.
 
+:pagebreak:`True`
+

@@ -152,6 +152,8 @@
 
 .. include:: Resources/CS-IMX8MP-BOX/mounting
 
+:pagebreak:`True`
+
 .. include:: Resources/mechanical
 
 Please refer to the technical drawing in the figure below for details related to the specific product measurements.
@@ -161,5 +163,7 @@ Please refer to the technical drawing in the figure below for details related to
    :figclass: align-center
 
    |productP| *Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support
