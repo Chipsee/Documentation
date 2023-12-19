@@ -58,6 +58,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A72/CS10600R070/PPC-A72-070-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A72/CS10600R070/PPC-A72-070-C-Front.jpeg
                   :class: product-img
 
@@ -117,6 +119,8 @@ There are 3 x **USB HOST connectors** onboard which includes 1 x USB 2.0 HOST, 1
 
   Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
 
+:pagebreak:`True`
+
 .. include:: Resources/LAN
 
 .. include:: Resources/WiFi_BT
@@ -166,6 +170,8 @@ You can mount |productP| with the Panel mounting methods, as shown on the figure
 
 You can find detailed information about mounting in the |mguide|.
 
+:pagebreak:`True`
+
 Mechanical Specifications
 =========================
 
@@ -196,6 +202,8 @@ product measurements.
 
     * When you use product |productE|, you should not touch the circuit board on the back of the product if the product is powered ON.
     * Also, when the product is powered OFF, please take anti-static measures before touching the circuit board.
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
 

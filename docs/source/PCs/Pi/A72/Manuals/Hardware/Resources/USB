@@ -25,3 +25,6 @@ The product has one USB Type-C OTG connector that works as a slave by default. Y
 
   #) Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded Industrial PC version.
   #) Remember to unplug the Type-C cable after flashing OS, otherwise the USB hosts won't work.
+
+
+:pagebreak:`True`

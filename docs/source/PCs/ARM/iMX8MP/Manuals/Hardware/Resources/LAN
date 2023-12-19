@@ -14,3 +14,5 @@ The LAN0 port supports **optional** Power over Ethernet (PoE) feature.
 .. note::
 
    Use CAT5 or better cables to achieve full data throughput over maximum distance defined by the 1000BASE-T standard (100m).
+
+:pagebreak:`True`

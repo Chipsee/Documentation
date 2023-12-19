@@ -82,6 +82,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A55/CS19108-RK3568-133P/CS19108-RK3568-133P-Front.png
+
 .. |Front View| image:: /Media/ARM/A55/CS19108-RK3568-133P/CS19108-RK3568-133P-Front.jpg
                   :class: product-img
 
@@ -141,6 +143,10 @@
 
 .. include:: Resources/mounting
 
+:pagebreak:`True`
+
 .. include:: Resources/mechanical
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

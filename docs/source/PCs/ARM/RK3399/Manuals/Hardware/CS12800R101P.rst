@@ -56,6 +56,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A72/CS12800R101P/CS12800R101P-Front.png
+
 .. |Front View| image:: /Media/ARM/A72/CS12800R101P/CS12800R101P-Front.jpeg
                   :class: product-img
 
@@ -122,6 +124,8 @@ There are 2 x **USB HOST connectors** onboard which includes |USB|
 
   Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
 
+:pagebreak:`True`
+
 .. include:: Resources/LAN
 
 .. include:: Resources/WiFi_BT
@@ -156,12 +160,16 @@ You can mount |productP| with the Vesa (75 x 75mm) and Panel mounting methods, a
 You can find detailed information about mounting in the |mguide|.
 
 
+:pagebreak:`True`
+
 Mechanical Specifications
 =========================
 
 |productP|
 ----------
 For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
 

@@ -122,6 +122,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-Front.png
+
 .. |Front View| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-Front.jpg
                   :class: product-img
 
@@ -190,5 +192,7 @@ Please refer to the technical drawing in the figure below for details related to
    :figclass: align-center
 
    |productP| *Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

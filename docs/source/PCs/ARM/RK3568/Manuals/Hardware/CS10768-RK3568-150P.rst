@@ -82,6 +82,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Front.png
+
 .. |Front View| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Front.jpg
                   :class: product-img
 
@@ -140,6 +142,10 @@
 
 .. include:: Resources/mounting
 
+:pagebreak:`True`
+
 .. include:: Resources/mechanical
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

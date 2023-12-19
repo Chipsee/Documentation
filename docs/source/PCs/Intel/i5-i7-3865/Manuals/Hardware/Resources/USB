@@ -1,4 +1,3 @@
-
 USB HOST Connectors 
 --------------------
 
@@ -11,3 +10,5 @@ bandwidth than USB 2.0, making it best suited for fast peripherals that can util
    :figclass: align-center
 
    *Figure 3: 4 x USB 3.0 HOST Connectors*
+
+:pagebreak:`True`

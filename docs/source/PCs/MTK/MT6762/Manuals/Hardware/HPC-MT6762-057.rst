@@ -12,6 +12,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Front.png
+
 .. |Front View| image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Front.png
                   :class: product-img
 
@@ -50,6 +52,7 @@ Standard Accessories
    :width: 800
    :alt: Accessory
 
+:pagebreak:`True`
 
 Hardware Specification
 ======================
@@ -127,6 +130,8 @@ Hardware Specification
    | **Weight**          | 245g (incl. battery)                                                                                 |
    +---------------------+------------------------------------------------------------------------------------------------------+
 
+:pagebreak:`True`
+
 Scanner
 =======
 
@@ -139,6 +144,8 @@ Scanner module supports common 1D bar code and 2D bar code, for 1D bar code, the
    :width: 800
    :alt: scanner
 
+:pagebreak:`True`
+
 USB
 ===
 
@@ -148,6 +155,8 @@ The |product| has one USB-C port, it is USB2.0, supports 9V/2A charging, and it 
    :align: center
    :width: 480
    :alt: USB
+
+:pagebreak:`True`
 
 NFC
 ===
@@ -161,6 +170,8 @@ NFC can be triggered from the rear, near the battery zone, like in the image bel
    :width: 480
    :alt: NFC-Zone
 
+:pagebreak:`True`
+
 TF Card and SIM Card Slots
 ==========================
 
@@ -168,20 +179,24 @@ The |product| has a SIM slot and a 2-in-1 TF/SIM slot, you may use dual SIM *or*
 
 .. image:: /Media/MTK/MT6762/057/HPC-MT6762-057-SIMTF.png
    :align: center
-   :width: 480
+   :width: 240
    :alt: SIMTF-slot
 
 The TF(MicroSD) card slot supports up to 128GB external storage.
 
 .. image:: /Media/MTK/MT6762/057/HPC-MT6762-057-SIMTF2.png
    :align: center
-   :width: 960
+   :width: 800
    :alt: SIMTF-slot2
+
+:pagebreak:`True`
 
 Charging
 ========
 
 The |product| ships with a 9V/2A charger, if you wish to use a third party charger, it should support 9V/2A charging. We recommend only using the charger we provide, or only use chargers from major power supply brands. Poor quality chargers may harm the battery or destroy the device.
+
+:pagebreak:`True`
 
 Pogo Pins
 =========
@@ -193,6 +208,8 @@ The Pogo Pins in the rear do not have any definition at the moment, they do not 
    :width: 480
    :alt: pogo
 
+:pagebreak:`True`
+
 Rear Lock
 =========
 
@@ -202,13 +219,15 @@ You can switch the lock to the "unlock" side, if you need to open the rear case.
 
 .. image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Lock.jpg
    :align: center
-   :width: 480
+   :width: 640
    :alt: lock
 
 .. image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Battery.jpg
    :align: center
-   :width: 960
+   :width: 640
    :alt: battery
+
+:pagebreak:`True`
 
 Buttons
 =======
@@ -227,10 +246,14 @@ On the left are two volume buttons and a scanner button.
    :width: 480
    :alt: button-left
 
+:pagebreak:`True`
+
 Dimension
 =========
 
 The dimension of |product| is 162 x 76.2 x 13.7mm.
+
+:pagebreak:`True`
 
 .. include:: /PCs/MTK/Shared/Resources/when-operating
 

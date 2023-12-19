@@ -58,6 +58,8 @@
 
 .. |product_link| replace:: EPC/PPC-A8-050-C
 
+.. |Cover PNG| image:: /Media/ARM/A8/CS80480T050/PPC-A8-050-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A8/CS80480T050/PPC-A8-050-C-Front.jpeg
                   :class: product-img
 
@@ -68,7 +70,7 @@
                   :class: product-img
                   :alt: Front View (Embedded Variant)
 
-.. |Side View 2| image:: /Media/ARM/A8/CS80480T050/EPC-A8-050-C-Back.jpeg
+.. |Side View 2| image:: /Media/ARM/A8/CS80480T050/EPC-A8-050-C-Back.png
                   :class: product-img 
                   :alt: Rear View (Embedded Variant)
 
@@ -153,6 +155,8 @@ The table below offers more detailed description of every pin and its definition
    | Pin 1          | GND            | Isolated Ground Output                                                  |
    +----------------+----------------+-------------------------------------------------------------------------+
 
+:pagebreak:`True`
+
 .. include:: Resources/USB
 
 .. include:: Resources/LAN
@@ -173,6 +177,8 @@ On the embedded panel PC version, the pink connector is the audio input jack (li
   :align: center
 
   *Audio I/O (embedded/enclosed PC version)*
+
+:pagebreak:`True`
 
 .. include:: Resources/Boot_SW
 
@@ -196,6 +202,8 @@ product measurements.
 |productP|
 ----------
 For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+
+:pagebreak:`True`
 
 .. include:: Resources/mount_set
 

@@ -91,6 +91,8 @@
                   :align: middle
                   :width: 384
                   
+.. |Cover PNG| image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-Front.png
+
 .. |Front View| image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-Front.jpg
                   :class: product-img
 

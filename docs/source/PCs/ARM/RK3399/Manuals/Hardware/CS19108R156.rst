@@ -50,6 +50,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A72/CS19108R156/PPC-A72-156-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A72/CS19108R156/PPC-A72-156-C-Front.jpeg
                   :class: product-img
 
@@ -124,6 +126,8 @@ The outer mechanical dimensions of |product| are |dim| (W x L x H).
     Please make sure the display is not exposed to high pressure when mounting into an enclosure.
 
 You can find detailed information about mounting in the |mguide|.
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
 

@@ -32,6 +32,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/Intel/J6412/PPC-J6412-121-R/PPC-J6412-121-R-Front.png
+
 .. |Front View| image:: /Media/Intel/J6412/PPC-J6412-121-R/PPC-J6412-121-R-Front.jpg
                   :class: product-img
 
@@ -91,5 +93,7 @@
       :width: 1024
 
     *Technical Drawing and Cutout Dimensions*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support                  

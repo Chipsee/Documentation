@@ -95,7 +95,9 @@
 .. |lan_img| image:: /Media/Pi/A72/CS19108RA4133/LANbig.jpg
                   :align: middle
                   :width: 384
-                  
+      
+.. |Cover PNG| image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-Front.png
+
 .. |Front View| image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-Front.jpg
                   :class: product-img
 
@@ -124,8 +126,10 @@
     |mounting_img|
 
     *Panel mounting*
-    
+
 .. include:: Resources/mechanical
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
 

@@ -1,5 +1,5 @@
 GPIO Port
---------------
+---------
 
 |Product| has a |gpio_conn|, as shown in the figure below.
 The table below gives details about the definition of every Pin.

@@ -13,3 +13,5 @@ up to 1 Gbps data throughput.
 .. note::
   
    Use CAT5 or better cables to achieve full data throughput over maximum distance defined by the 1000BASE-T standard (100m).
+
+:pagebreak:`True`

@@ -1,5 +1,3 @@
-:pagebreak:`True`
-
 Product Overview
 =================
 
@@ -23,3 +21,5 @@ It is available both as an embedded solution and as a device hosed in a casing w
 + Integration with the existing equipment
 
 |Product| is based around the powerful Raspberry |Pi| Compute Module 4, powered by the Quad |Cortex|-A72 processor with a processor speed of 1.5GHz.
+
+:pagebreak:`True`

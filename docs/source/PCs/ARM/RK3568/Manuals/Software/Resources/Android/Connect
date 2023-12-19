@@ -10,6 +10,8 @@ There are 4 ways to connect to your |ipc| from your workstation:
 
 Let's take a look at these connecting methods one by one.
 
+:pagebreak:`True`
+
 Install Android Platform Tools
 ------------------------------
 
@@ -31,6 +33,7 @@ If you have successfully installed the Android Platform Tools, you can confirm t
 
    *Type adb in Your Terminal to Confirm a Successful Installation of Android Platform Tools*
 
+:pagebreak:`True`
 
 Connect From Serial Port
 ------------------------
@@ -130,6 +133,8 @@ Open the PuTTY program, select Session, choose Serial in the radio buttons, and 
 
 Now you should be able to connect from your workstation to the |ipc| through the serial port. You can try to hit Enter, or type some commands, like `ls`, to see if the |ipc| replies to your commands.
 
+:pagebreak:`True`
+
 Connect From USB Type-C Port
 ----------------------------
 
@@ -193,6 +198,8 @@ You might see a **rk3568** followed by a dollar (**$**) sign, indicating you're 
 
 You can type `exit` or hit `Ctrl + D` to exit the ADB shell, to get back to your workstation's terminal.
 
+:pagebreak:`True`
+
 Connect From Wi-Fi
 ------------------
 
@@ -249,6 +256,7 @@ To exit the shell, you can either hit `Ctrl + D` or type `exit`.
 
 If you have other problems when debugging through Wifi, you can also search for the official Android Developer documents, the |ipc| is running a full Android operating system, other knowledge of Android development applies to this device as well.
 
+:pagebreak:`True`
 
 Connect From Ethernet
 ---------------------
@@ -303,6 +311,7 @@ You can type some commands to interact with your |ipc| inside the shell, like `l
 
 To exit the shell, you can either hit `Ctrl + D` or type `exit`.
 
+:pagebreak:`True`
 
 Common Issues for Connecting
 ----------------------------

@@ -1,5 +1,3 @@
-:pagebreak:`True`
-
 Power Input
 ===========
 
@@ -34,3 +32,5 @@ Note that the "**+**" sign represents the positive power input, and it is printe
 .. note:: 
 
   The system ground “**G**” is connected to power negative “**-**” on board.
+
+:pagebreak:`True`

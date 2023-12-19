@@ -26,6 +26,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A7/CS10600U070/PPC-A7-070HB-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A7/CS10600U070/PPC-A7-070HB-C-Front.jpg
                   :class: product-img
 

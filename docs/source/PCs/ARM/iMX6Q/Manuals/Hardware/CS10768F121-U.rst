@@ -44,6 +44,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A9/CS10768F121-U/PPC-A9-121-U-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A9/CS10768F121-U/PPC-A9-121-U-C-Front.jpeg
                   :class: product-img
 
@@ -79,6 +81,8 @@ Optional Features
 
    | Installation, repair, and maintenance tasks should be performed by trained personnel only.
    | Chipsee does not bear any responsibility for damage caused by inadequate handling of the product.
+
+:pagebreak:`True`
 
 .. include:: PPC_Resources/HW_features
 
@@ -155,6 +159,8 @@ Optional Features
        UART can be swapped between RS232 and RS485 modes easily, so if you need different RS232/RS485 configuration, please get in touch
        with the Chipsee Technical Support at |email|_
 
+:pagebreak:`True`
+
 Power Input
 ===========
 
@@ -191,6 +197,8 @@ Note that the "**+**" sign represents the positive power input, and it is printe
 
   The system ground “**G**” is connected to power negative “**-**” on board.
 
+:pagebreak:`True`
+
 .. include:: PPC_Resources/cap_screen
 
 .. include:: Resources/connectivity
@@ -219,6 +227,8 @@ default.
 
   *USB OTG Connector*
 
+:pagebreak:`True`
+
 LAN Connectors
 --------------
 
@@ -235,6 +245,8 @@ up to 1 Gbps data throughput. Power over Ethernet (PoE) is not supported.
 
    Use CAT5 or better cables to achieve full data throughput over maximum distance defined by the 1000BASE-T standard (100m).
 
+:pagebreak:`True`
+
 WiFi & BT Module
 ----------------
 
@@ -246,6 +258,8 @@ The product includes an SMA connector for an external WiFi/BT antenna, as illust
    :figclass: align-center
 
    *WiFi+BT Antenna*
+
+:pagebreak:`True`
 
 .. include:: PPC_Resources/4G_com
 
@@ -264,6 +278,8 @@ Camera, Microphone, and Fingerprint Module
 
     The camera is not mounted by default.
 
+:pagebreak:`True`
+
 Audio Connector
 ===============
 
@@ -276,6 +292,8 @@ Audio Connector
 
   *Audio Out Connector*
 
+:pagebreak:`True`
+
 HDMI Connector
 ==============
 
@@ -287,6 +305,8 @@ can be configured by the software.
    :figclass: align-center
 
    *HDMI Connector*
+
+:pagebreak:`True`
 
 .. include:: PPC_Resources/Boot_SW
 
@@ -326,6 +346,8 @@ You can mount |product| with the Panel mounting method, as shown on the figure b
 
 You can find detailed information about mounting in the |mguide|.
 
+:pagebreak:`True`
+
 Mechanical Specifications
 =========================
 
@@ -337,5 +359,7 @@ product measurements.
    :figclass: align-center
 
    *Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

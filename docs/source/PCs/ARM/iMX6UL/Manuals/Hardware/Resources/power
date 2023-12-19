@@ -34,3 +34,5 @@ Note that the "**+**" sign represents the positive power input, and it is printe
 
 
   The system ground “**G**” is not connected to power negative “**-**” on board, we connect “**-**” and “**G**” by using one 10MR resistor and one 1000pF capacitor.
+  
+:pagebreak:`True`

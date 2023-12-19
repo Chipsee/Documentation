@@ -1,5 +1,3 @@
-:pagebreak:`True`
-
 Audio Connectors
 ================
 
@@ -15,3 +13,5 @@ Also, the |product| industrial Pi PC has a miniature 2W internal speaker for aud
 .. attention::
 
     By plugging in the headphone cable, the internal speaker will be disabled automatically.
+
+:pagebreak:`True`

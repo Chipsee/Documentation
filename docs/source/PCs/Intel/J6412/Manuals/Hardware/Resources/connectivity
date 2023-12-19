@@ -65,3 +65,5 @@ The top row of terminals on the terminal block is labelled as **COM3/4**. These 
 
     The default configuration of the |product| industrial PC is 4 x RS232 interfaces and 8 x GPIO channels. If you need different configuration, 
     please contact Chipsee Technical Support at |email|_
+    
+:pagebreak:`True`

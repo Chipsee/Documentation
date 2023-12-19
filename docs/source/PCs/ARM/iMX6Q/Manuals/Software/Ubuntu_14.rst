@@ -73,6 +73,8 @@ Below are the links to the prebuilt files for each industrial PC model.
    | user/password | [chipsee/chipsee]                |
    +---------------+----------------------------------+
 
+:pagebreak:`True`
+
 Preparation
 ===========
 
@@ -112,6 +114,8 @@ Software Requirements
 
     In this documentation, all the commands are executed with ``root`` user privileges.
 
+:pagebreak:`True`
+
 Debug
 =====
 
@@ -146,6 +150,8 @@ Follow these steps to perform serial debugging:
 
        *Serial Debug*
 
+:pagebreak:`True`
+
 SSH Debug
 ---------
 
@@ -168,6 +174,8 @@ Continue the debugging by follow these steps:
        :figclass: align-center
 
        *SSH Debug*
+
+:pagebreak:`True`
 
 VNC Debug
 ---------
@@ -224,6 +232,8 @@ Follow the steps below to perform VNC debug. |br|
        :figclass: align-center
 
        *VNC Desktop*
+
+:pagebreak:`True`
 
 Downloading images
 ==================
@@ -457,6 +467,8 @@ Follow the steps below to download images onto the eMMC by using the TF Card:
 #) Power OFF and set the switch S1 to eMMC boot mode. (refer to `Boot Switch Configuration`_ above)
 
 
+:pagebreak:`True`
+
 System Resource
 ===============
 
@@ -475,6 +487,8 @@ These devices will be automatically mounted on `/media/chipsee/`, as shown in th
 .. note::
 
    The TF card and USB Storage do not support NTFS format. Please format it to FAT32 first before plugging into IPC.
+
+:pagebreak:`True`
 
 Network
 -------
@@ -614,6 +628,8 @@ The following are some examples on how to set the network.
 
        This system uses ``wpa_cli`` and ``wpa_supplicant`` to manage Wi-Fi that supports ``nl80211``. There is no wireless tools and you can't use iwconfig and iwlist.
 
+:pagebreak:`True`
+
 Multimedia
 ----------
 
@@ -624,6 +640,8 @@ This system supports NXP Gstreamer-imx Multimedia library and its various plugin
    :figclass: align-center
 
    *GStreamer Plugins*
+
+:pagebreak:`True`
 
 Audio Test
 ^^^^^^^^^^
@@ -661,6 +679,8 @@ Set output as ALSA, as shown on the figure below.
    :figclass: align-center
 
    *Set Audio Plugin*
+
+:pagebreak:`True`
 
 HDMI
 ----
@@ -716,6 +736,8 @@ You can follow the steps below to display the IPC output onto an external displa
        => saveenv
        => boot
 
+:pagebreak:`True`
+
 Serial Port
 -----------
 
@@ -737,6 +759,8 @@ Only users with root permissions can use the serial port
 .. code-block:: bash
 
    $ sudo cutecom
+
+:pagebreak:`True`
 
 CAN Bus
 -------
@@ -812,6 +836,8 @@ Here are a few examples to test CAN by using CAN units
 
         $ sudo ip link set can0 down
 
+:pagebreak:`True`
+
 GPIO
 ----
 
@@ -841,6 +867,8 @@ Un-export `gpio30` using this command
 
    # echo  30  > /sys/class/gpio/unexport                 //un-export  gpio30
 
+:pagebreak:`True`
+
 Buzzer
 ------
 
@@ -862,6 +890,8 @@ You also can use the HT application to test the buzzer.
    :figclass: align-center
 
    *Buzzer*
+
+:pagebreak:`True`
 
 Modify Logo
 -----------
@@ -917,6 +947,8 @@ Follow the steps below to change logo
 * Set boot mode to **TF card**. You can reference `Boot Switch Configuration`_.
 * Power ON the IPC. If you see this message, **>>>>>>> eMMC Flashing Completed <<<<<<<**, you are done:
 
+:pagebreak:`True`
+
 Development
 ===========
 
@@ -970,6 +1002,8 @@ In this example, we will develop one Python3 GUI application.
 
       *Python App*
 
+
+:pagebreak:`True`
 
 Qt Environment
 --------------
@@ -1028,6 +1062,8 @@ Now we are in Chipsee IPC Debian system console.
 
       *hardwaretest_serial App*
 
+:pagebreak:`True`
+
 Q&A
 ===
 
@@ -1069,6 +1105,8 @@ Modify `/etc/X11/xorg.conf` and `/usr/share/X11/xorg.conf.d/10-evdev.conf` to ro
                Driver "evdev"
        EndSection
 
+:pagebreak:`True`
+
 How to disable the Screensaver
 ------------------------------
 
@@ -1085,6 +1123,8 @@ Open the Screensaver Setting dialog, as shown on the figure below.
   :figclass: align-center
 
   *Disable Screen Saver*
+
+:pagebreak:`True`
 
 Autostart Application after Boot
 --------------------------------
@@ -1108,5 +1148,7 @@ We will autostart the Python ``hello_world.py`` app from `Python`_.
    @test.py
 
 * Reboot the IPC to apply changes.
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

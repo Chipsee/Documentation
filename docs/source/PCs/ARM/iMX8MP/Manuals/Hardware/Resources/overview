@@ -23,3 +23,5 @@ It is available both as an embedded solution and as a device hosed in an aluminu
 |Product| is based around the powerful i.MX8MP System on Chip (SoC), powered by the NXP i.MX8MP low-power processor which integrates a quad-core |Cortex|-A53 1.6GHz processor.
 
 The i.MX8MP supports multi-format video decoders and has a high-performance |RAM| RAM capable of sustaining demanding memory bandwidths. It also provides a complete set of peripheral interfaces.
+
+:pagebreak:`True`

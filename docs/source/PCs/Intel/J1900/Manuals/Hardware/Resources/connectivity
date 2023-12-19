@@ -23,3 +23,6 @@ terminals on the terminal block represents eight **GPIO** channels, labeled as *
 
     The default configuration of the |product| industrial PC is 4 x RS232 interfaces and 8 x GPIO channels. If you need different configuration, 
     please contact Chipsee Technical Support at |email|_
+
+
+:pagebreak:`True`

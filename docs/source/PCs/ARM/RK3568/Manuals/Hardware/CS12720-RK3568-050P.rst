@@ -116,6 +116,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A55/CS12800-RK3568-050P/PPC-A55-050-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A55/CS12800-RK3568-050P/PPC-A55-050-C-Front.jpg
                   :class: product-img
 
@@ -146,6 +148,8 @@
 
    | Installation, repair, and maintenance tasks should be performed by trained personnel only.
    | Chipsee does not bear any responsibility for damage caused by inadequate handling of the product.
+
+:pagebreak:`True`
 
 .. include:: Resources/HW_features
 
@@ -192,6 +196,7 @@ You can mount |productP| with the Vesa (75 x 75mm) and Panel mounting methods, a
 
 You can find detailed information about mounting in the |mguide|.
 
+:pagebreak:`True`
 
 Mechanical Specifications
 =========================
@@ -207,6 +212,8 @@ product measurements.
    :figclass: align-center
 
    |productP| *Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
 

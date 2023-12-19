@@ -63,6 +63,8 @@ Below are the links to the prebuilt files for each industrial PC model.
    | System        | LinuxQt 4.8 & LinuxQt 5.5        |
    +---------------+----------------------------------+
 
+:pagebreak:`True`
+
 Preparation
 ===========
 
@@ -87,9 +89,15 @@ Software Requirements
 
     In this documentation, all the commands are executed with ``root`` user privileges.
 
+:pagebreak:`True`
+
 .. include:: Resources/Starting
 
+:pagebreak:`True`
+
 .. include:: Resources/SD_Bootable
+
+:pagebreak:`True`
 
 How to flash Linux to eMMC
 --------------------------
@@ -133,6 +141,8 @@ Follow the steps below to create a bootable SD card:
 #) Remove the SD card and Power OFF the IPC.
 #) Set the DIP switch to eMMC BOOT mode (refer to `DIP Switch Configuration`_ above) and Power ON the IPC.
 
+:pagebreak:`True`
+
 Start |systemType| OS
 ---------------------
 The first time you start |systemType| OS on the industrial PC will take a little time. But after the first time, |systemType| OS will start quickly.
@@ -144,6 +154,8 @@ It is a successful start if you see the |systemType| OS desktop such as the one 
    :figclass: align-center
 
    Chipsee Linux QT OS start-up screen
+
+:pagebreak:`True`
 
 Tests
 -----
@@ -177,6 +189,8 @@ The buzzer will sound when the screen is touched, if you want to disable it, you
         + 0 = disable
         + 1 = enable
 
+:pagebreak:`True`
+
 Audio and video test
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -189,6 +203,8 @@ as shown on the figure below, click the **Multimedia** icon on desktop then choo
 
    Audio and Video
 
+:pagebreak:`True`
+
 3D Test
 ^^^^^^^
 
@@ -199,6 +215,8 @@ Click the **3D** icon on desktop, then choose **Film TV** to test perform 3D tes
    :figclass: align-center
 
    3D test Film TV
+
+:pagebreak:`True`
 
 Serial test
 ^^^^^^^^^^^
@@ -237,6 +255,8 @@ If you want to use COM1 as a normal serial port, you can re-configure the port b
     + Click on the **SendMSG** button to send the string *Succeed in sending message-manual!!!*.
     + Every two seconds, it will read the received buffer and show the result to the received area.
 
+:pagebreak:`True`
+
 CAN test
 ^^^^^^^^
 
@@ -250,6 +270,8 @@ To perform the test, the user will need the following: **2 x Embedded Industrial
 * On both embedded industrial PCs, you should see the message shown at the received area.
 * If you have one embedded industrial PC, you can use an **oscillometer** to see the result.
 
+
+:pagebreak:`True`
 
 GPIO test
 ^^^^^^^^^
@@ -283,6 +305,8 @@ You can read and write the GPIO by following the steps below. For this example, 
 
         # cat /sys/class/gpio/gpio49/value
 
+:pagebreak:`True`
+
 Network
 ^^^^^^^
 
@@ -299,6 +323,8 @@ The figure below is an illustration of the network information on the industrial
 
     View Network Information
 
+
+:pagebreak:`True`
 
 Date and Time
 ^^^^^^^^^^^^^
@@ -336,6 +362,8 @@ Click the **Edit** icon at the time display area to set the time and date, as sh
 
         # ln -sf /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
 
+:pagebreak:`True`
+
 Backlight
 ^^^^^^^^^
 
@@ -345,6 +373,8 @@ For example, you can adjust the screen brightness using this command:
 .. code-block:: bash
 
     # echo 50 > /sys/class/backlight/backlight.10/Brightness
+
+:pagebreak:`True`
 
 WiFi
 ^^^^
@@ -381,6 +411,8 @@ The |systemType| OS has a WiFi module. If you want to get Wifi module to work, y
 #) After a few minutes, you can use the WiFi
 
 
+:pagebreak:`True`
+
 .. include:: Resources/Logo_Modify
 
 .. note::
@@ -396,6 +428,7 @@ The |systemType| OS has a WiFi module. If you want to get Wifi module to work, y
 
     Reboot
 
+:pagebreak:`True`
 
 |systemType| OS debug
 =====================
@@ -405,7 +438,11 @@ Also, we will discover how to debug using NFS on a Ubuntu Linux PC. |br|
 
 .. include:: Resources/SerialPort_Debug
 
+:pagebreak:`True`
+
 .. include:: Resources/NFS_Debug
+
+:pagebreak:`True`
 
 Linux App Development
 =====================
@@ -466,6 +503,8 @@ Steps
 
     * Refresh the system by clicking on Settings-->Refresh Matrix, then click on run.
     * You will see your application’s icon on the desktop after refreshing. If the icon does not change in time, you need to reboot your system.
+
+:pagebreak:`True`
 
 New development kit
 -------------------
@@ -550,5 +589,7 @@ New development kit
         Test.pro file
 
     Now you should see a window on the industrial PC.
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

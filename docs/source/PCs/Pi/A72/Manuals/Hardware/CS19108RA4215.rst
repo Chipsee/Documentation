@@ -95,6 +95,8 @@
                   :align: middle
                   :width: 384
                   
+.. |Cover PNG| image:: /Media/Pi/A72/CS19108RA4215/CS19108RA4215-Front.png
+
 .. |Front View| image:: /Media/Pi/A72/CS19108RA4215/CS19108RA4215-Front.jpg
                   :class: product-img
 
@@ -124,5 +126,7 @@
     |mounting_img|
 
     *Mechanical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

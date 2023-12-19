@@ -84,3 +84,5 @@ The table below offers a detailed description of every pin:
    + This product supports changing 2 x RS485 to 2 x RS232, supports changing 2 x CAN to 2 x RS232, providing up to 6 x RS232 (including one debug port).
    + The GPIO has been optical isolated and it uses the 24V logic by default. You can use an external isolated power input but the power input range should be from 5V to 24V DC.
    + The 4 GPIO output channels can drive at most 500mA current on each channel.
+
+:pagebreak:`True`

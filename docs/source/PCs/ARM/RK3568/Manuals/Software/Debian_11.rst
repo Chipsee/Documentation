@@ -53,6 +53,8 @@ System Information
    | Desktop Environment | Xfce 4.16                              |
    +---------------------+----------------------------------------+
 
+:pagebreak:`True`
+
 Prepare for Developing
 ======================
 
@@ -80,6 +82,7 @@ Thanks to the |systemType| OS, developing on |ipc| isn't really different from d
 #. To SSH into a |ipc|, you may find **PuTTY** on Windows handy; for Linux and macOS users, a terminal app should come with your OS out of box, like **Terminal/iTerm2** on macOS and **xterm** on Linux.
 #. To use a remote desktop, you can download **VNC Viewer** on your laptop or PC.
 
+:pagebreak:`True`
 
 Connecting to the |ipc|
 =======================
@@ -87,6 +90,8 @@ Connecting to the |ipc|
 When a power supply is plugged, the |ipc| should boot itself automatically, next let's connect to it from our laptop or computer.
 
 There are three different approaches: serial port debugging, SSH with Ethernet/WiFi and remote desktop with VNC.
+
+:pagebreak:`True`
 
 Serial Port Debugging
 ---------------------
@@ -160,6 +165,8 @@ For Windows users who use PuTTY, you should select Session, choose Serial in the
 
 That's it for connecting the |ipc| to your machine with a serial debug port.
 
+:pagebreak:`True`
+
 SSH Connect
 -----------
 
@@ -231,6 +238,8 @@ When the prompt asks for your password, input **linaro**, the password will not 
 
 For both Windows and Linux/macOS users, we should have successfully ssh'd into our |ipc| now.
 
+:pagebreak:`True`
+
 Connect with VNC Remote Desktop
 -------------------------------
 
@@ -255,11 +264,14 @@ VNC Viewer might ask for your credentials, you should input our username and pas
 
 Now we should see our |ipc|'s desktop GUI in the VNC Viewer software.
 
+:pagebreak:`True`
 
 Hardware Resources in the OS
 ============================
 
 Now that you have successfully booted the |ipc| and connected the |ipc| to your laptop/computer, this section will tell you how to control this |ipc| from its OS desktop itself, or from your PC.
+
+:pagebreak:`True`
 
 Network
 -------
@@ -294,6 +306,8 @@ From the terminal, you can use **nmcli** to configure the network. You can refer
            "wlan0"
            wifi (rtl8821cs), B4:6D:C2:13:A3:AE, hw, mtu 1500
 
+:pagebreak:`True`
+
 Serial Port RS232 and RS485
 ---------------------------
 
@@ -317,10 +331,14 @@ If you've got only one |ipc|, you can test that with your computer: you can use 
 
 If you're an experienced engineer, you can also use a programming language to test the serial ports, like C, C++, Python, Javascript. They have their libraries for controlling serial port devices.
 
+:pagebreak:`True`
+
 GPIO
 ----
 
 .. include:: Resources/Shared/gpio_table
+
+:pagebreak:`True`
 
 BUZZER
 ------
@@ -350,6 +368,8 @@ We use one PWM to control the backlight of |chip| boards, You can use the follow
         $ sudo chmod a+w /sys/class/backlight/backlight/brightness
         # then set the new brightness
         $ echo 50 > /sys/class/backlight/backlight/brightness
+
+:pagebreak:`True`
 
 CAN Bus
 -------
@@ -399,7 +419,11 @@ Here are a few examples to test CAN by using CAN units.
 
         $ sudo ip link set can0 down
 
+:pagebreak:`True`
+
 .. include:: Resources/Debian/faq
+
+:pagebreak:`True`
 
 Flashing OS Image
 =================
@@ -408,6 +432,10 @@ Flashing OS Image
 
 .. include:: Resources/Flash_OS
 
+:pagebreak:`True`
+
 .. include:: Resources/Flash_OS_Video
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

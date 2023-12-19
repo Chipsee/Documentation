@@ -50,6 +50,8 @@
 
 .. |product_link| replace:: EPC/PPC-CM3-070
 
+.. |Cover PNG| image:: /Media/Pi/A53/CS10600RA070/CS10600RA070P-Front.png
+
 .. |Front View| image:: /Media/Pi/A53/CS10600RA070/CS10600RA070P-Front.jpeg
                   :class: product-img
 
@@ -139,6 +141,8 @@ The table below offers more detailed description of every pin and its definition
 
     RS485_1 and RS232_1 share the same channel (UART1) and therefore you cannot use RS232_1 and RS485_1 at the same time.
 
+:pagebreak:`True`
+
 .. include:: Resources/GP_IO
 
 USB Connectors
@@ -196,5 +200,7 @@ product measurements.
 |productP|
 ----------
 For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

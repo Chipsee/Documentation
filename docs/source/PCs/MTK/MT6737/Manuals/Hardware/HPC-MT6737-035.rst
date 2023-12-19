@@ -12,6 +12,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Front.png
+
 .. |Front View| image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Front.jpg
                   :class: product-img
 
@@ -44,7 +46,6 @@ It features a 28nm Quad(4) core, 1.3GHz Cortex-A53 ARM CPU, Android 7.0 operatin
 
 Hardware Specification
 ======================
-
 
 +------------------+-------------------------------------------------------------------------------------------------+
 | CPU              | MediaTek MT6737, Quad(4)-Core, 4 x 1.3GHz ARM Cortex-A53                                        |
@@ -88,6 +89,8 @@ Hardware Specification
 | Color            | Brilliant yellow + black                                                                        |
 +------------------+-------------------------------------------------------------------------------------------------+
 
+:pagebreak:`True`
+
 Standard Accessories
 ====================
 
@@ -103,6 +106,8 @@ The standard accessories include:
    :width: 800
    :alt: accessories
 
+:pagebreak:`True`
+
 Charging
 ========
 
@@ -112,6 +117,8 @@ You can use the bottom charging port to charge the battery in the device directl
    :align: center
    :width: 800
    :alt: charge-ports
+
+:pagebreak:`True`
 
 Scanner
 =======
@@ -124,6 +131,8 @@ By default, the product ships with a integrated scanner.
    :alt: scanner
 
 For 1D bar code, the scanner can read UPC-A, UPC-E, EAN-8, EAN-13, Code128, Code39, Interleaved 2 of 5, Codabar, Matrix 2 of 5. For 2D bar code, the scanner can read Code39, PDF417, Data Matrix.
+
+:pagebreak:`True`
 
 Buttons
 =======
@@ -139,6 +148,8 @@ F1, F2, F3 and F4 have no definition by default.
    :width: 480
    :alt: buttons-yellow
 
+:pagebreak:`True`
+
 TF/SIM Card
 ===========
 
@@ -151,6 +162,8 @@ There is a SIM card slot on the device, as shown in the image below:
    :width: 800
    :alt: sim-tf
 
+:pagebreak:`True`
+
 Camera
 ======
 
@@ -160,6 +173,8 @@ The device has a rear 5MP camera by default, it also has a flashlight, and suppo
    :align: center
    :width: 640
    :alt: camera
+
+:pagebreak:`True`
 
 Rear Lock
 =========
@@ -172,11 +187,15 @@ You can switch the lock to the "unlock" side, if you need to open the rear case.
    :align: center
    :width: 480
    :alt: lock
+   
+:pagebreak:`True`
 
 Dimension
 =========
 
 The dimension of this product is 185 x 71 x 35 mm.
+
+:pagebreak:`True`
 
 .. include:: /PCs/MTK/Shared/Resources/when-operating
 

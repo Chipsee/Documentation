@@ -60,3 +60,5 @@ The table below offers more detailed description of every pin and its definition
    +----------------+----------------+------------------------------------+
    | Pin 16         | +5V            | System 5V output, up to 1A         |
    +----------------+----------------+------------------------------------+
+
+:pagebreak:`True`

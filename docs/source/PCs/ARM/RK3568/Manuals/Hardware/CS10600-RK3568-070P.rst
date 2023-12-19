@@ -130,6 +130,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Front.png
+
 .. |Front View| image:: /Media/ARM/A55/CS10600-RK3568-070P/CS10600RK3568070P-Front.jpg
                   :class: product-img
 
@@ -197,6 +199,8 @@
 
   *Panel mounting*
 
+:pagebreak:`True`
+
 .. include:: Resources/mechanical
 
 Please refer to the technical drawing in the figure below for details related to the specific product measurements.
@@ -206,6 +210,8 @@ Please refer to the technical drawing in the figure below for details related to
    :figclass: align-center
 
    |productP| *Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
 

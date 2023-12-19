@@ -63,3 +63,5 @@
 .. [#at] This product has 7 x UART channels in total. The default configuration is 5 x RS232 and 2 x RS485.
        UART can be swapped between RS232 and RS485 modes easily, so if you need different RS232/RS485 configuration, please get in touch
        with the Chipsee Technical Support at |email|_
+       
+:pagebreak:`True`

@@ -68,6 +68,8 @@
                   :align: middle
                   :width: 384 
                   
+.. |Cover PNG| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.png
+
 .. |Front View| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.jpeg
                   :class: product-img
 
