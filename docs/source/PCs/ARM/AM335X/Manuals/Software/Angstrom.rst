@@ -60,6 +60,8 @@ Below are the links to the prebuilt files for each industrial PC model.
    | System        | Angstrom 2012                    |
    +---------------+----------------------------------+
 
+:pagebreak:`True`
+
 Preparation
 ===========
 
@@ -84,9 +86,15 @@ Software Requirements
 
     In this documentation, all the commands are executed with ``root`` user privileges.
 
+:pagebreak:`True`
+
 .. include:: Resources/Starting
 
+:pagebreak:`True`
+
 .. include:: Resources/SD_Bootable
+
+:pagebreak:`True`
 
 How to flash Linux to eMMC
 --------------------------
@@ -130,6 +138,8 @@ Follow the steps below to create a bootable SD card:
 #) Remove the SD card and Power OFF the IPC.
 #) Set the DIP switch to eMMC BOOT mode (refer to `DIP Switch Configuration`_ above) and Power ON the IPC.
 
+:pagebreak:`True`
+
 Start |systemType| OS
 ---------------------
 The first time you start |systemType| OS on the industrial PC will take a little time. But after the first time, |systemType| OS will start quickly.
@@ -141,6 +151,8 @@ It is a successful start if you see the |systemType| OS desktop such as the one 
    :figclass: align-center
 
    Angstrom OS start-up screen
+
+:pagebreak:`True`
 
 Tests
 -----
@@ -177,14 +189,18 @@ The buzzer will sound when the screen is touched, if you want to disable it, you
         + 0 = disable
         + 1 = enable
 
+:pagebreak:`True`
+
 Audio IO test
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 Start the terminal, then use the ``mplayer`` command to play an audio file.
 
 .. code-block:: bash
 
     # mplayer FILENAME  //such as: mplayer ~/Music/test.mp3
+
+:pagebreak:`True`
 
 Serial test
 ^^^^^^^^^^^
@@ -251,6 +267,8 @@ Refer to the table below for the available serial device nodes.
     - Click on the **SendMSG** button to send the string *Succeed in sending message-manual!!!*.
     - Every two seconds, it will read the received buffer and show the result to the received area.
 
+:pagebreak:`True`
+
 GPIO test
 ^^^^^^^^^
 
@@ -283,6 +301,8 @@ You can read and write the GPIO by following the steps below. For this example, 
 
         # cat /sys/class/gpio/gpio49/value
 
+:pagebreak:`True`
+
 Network
 ^^^^^^^
 
@@ -299,6 +319,8 @@ The figure below is an illustration of the network information on the industrial
 
     View Network Information
 
+
+:pagebreak:`True`
 
 Date and Time
 ^^^^^^^^^^^^^
@@ -336,6 +358,8 @@ Click the **Edit** icon at the time display area to set the time and date, as sh
 
         # ln -sf /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
 
+:pagebreak:`True`
+
 Backlight
 ^^^^^^^^^
 
@@ -345,6 +369,8 @@ For example, you can adjust the screen brightness using this command:
 .. code-block:: bash
 
     # echo 50 > /sys/class/backlight/backlight.10/Brightness
+
+:pagebreak:`True`
 
 USB device test
 ^^^^^^^^^^^^^^^
@@ -368,8 +394,11 @@ USB device test
     1) The |systemType| OS supports USB-Camera. If you want to use the USB webcam, you need to connect the webcam to the IPC before power ON.
     2) Then choose Application-->Sound&Video-->Cheese Webcam Booth to take pictures.
 
+:pagebreak:`True`
+
 .. include:: Resources/Logo_Modify
 
+:pagebreak:`True`
 
 |systemType| OS debug
 =====================
@@ -379,6 +408,10 @@ Also, we will discover how to debug using NFS on a Ubuntu Linux PC. |br|
 
 .. include:: Resources/SerialPort_Debug
 
+:pagebreak:`True`
+
 .. include:: Resources/NFS_Debug
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support
