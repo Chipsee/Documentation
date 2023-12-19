@@ -65,6 +65,8 @@ Below are the links to the prebuilt files for each industrial PC model.
    | user/password | [linaro/linaro] or [linaro/root] |
    +---------------+----------------------------------+
 
+:pagebreak:`True`
+
 Preparation
 ===========
 
@@ -88,6 +90,8 @@ Software Requirements
 * MFGTools
 * QT4.8.4 for Linux
 
+
+:pagebreak:`True`
 
 Getting Started and Tests
 =========================
@@ -301,6 +305,8 @@ Using MFGTool
 
        *Download Image is finished*
 
+:pagebreak:`True`
+
 Downloading Images by using the TF card
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -341,6 +347,8 @@ Follow the steps below to download images onto the eMMC by using the TF Card:
 #) Power OFF and set the switch S1 to eMMC boot mode. (refer to `Boot Switch Configuration`_ above)
 
 
+:pagebreak:`True`
+
 Booting Ubuntu OS and Test
 --------------------------
 
@@ -357,6 +365,8 @@ It is a successful start if you see the |systemType| OS desktop such as the one 
 
    *Ubuntu 12 Desktop Screen*
 
+
+:pagebreak:`True`
 
 SD Test
 ^^^^^^^
@@ -376,6 +386,8 @@ The IPC will mounts the SD Card to `/media/xxxx-xxxx` directory.
 
    *SD Card*
 
+:pagebreak:`True`
+
 USB Flash Disk Test
 ^^^^^^^^^^^^^^^^^^^
 
@@ -387,6 +399,8 @@ The USB Flash Disk is like the SD Card. The IPC mounts the USB Flash Disk to `/m
 
    *USB flash disk test*
 
+:pagebreak:`True`
+
 SATA Test
 ^^^^^^^^^
 
@@ -397,6 +411,8 @@ The SATA does not support hot-plug, but the |systemType| OS supports NTFS, EXT3,
    :figclass: align-center
 
    *SATA test*
+
+:pagebreak:`True`
 
 Network Test
 ^^^^^^^^^^^^
@@ -415,6 +431,8 @@ You can change the IP Address with this command.
 
    *Network Test*
 
+:pagebreak:`True`
+
 Sound Card Test
 ^^^^^^^^^^^^^^^
 
@@ -425,6 +443,8 @@ Please open an audio file in Rhythmbox to test the Sound.
    :figclass: align-center
 
    *Sound Test*
+
+:pagebreak:`True`
 
 Video Test
 ^^^^^^^^^^
@@ -446,10 +466,14 @@ You can reference this document, :download:`IMX6Q U-boot Setting HDMI Output For
 
     HDMI does not support hot-plug. The sound comes from the HDMI monitor, neither the speaker nor the headset on board.
 
+:pagebreak:`True`
+
 WIFI Test
 ^^^^^^^^^
 
 You must ensure the IPC has an SDIO Wi-Fi module integrated before performing the Wi-Fi test. If the IPC has an SDIO Wi-Fi Module, you can connect to the Wi-Fi and open a browser to test.
+
+:pagebreak:`True`
 
 Serial Test
 ^^^^^^^^^^^
@@ -462,6 +486,8 @@ You can install the **SecureCRT** or **Putty** software on a Windows 7 PC to tes
 
 * Connect COM1 on industrial PC board to Windows 7 PC.
 * Run **Serial Port API** App to communicate with Windows 7 PC, as shown on the figure below.
+
+:pagebreak:`True`
 
 CAN Test
 ^^^^^^^^
@@ -536,6 +562,8 @@ Here are a few examples to test CAN by using CAN units
     .. code:: bash
 
         $ sudo ip link set can0 down
+
+:pagebreak:`True`
 
 GPIO
 ----
@@ -618,6 +646,8 @@ Un-export `gpio30` using this command
    # echo  30  > /sys/class/gpio/unexport                 //un-export  gpio30
 
 
+:pagebreak:`True`
+
 |systemType| system debug in Windows
 ====================================
 
@@ -647,6 +677,8 @@ Follow these steps to view |systemType| system via the serial port:
        *Serial output information*
 
 * You can communicate with the system when system boot is complete.
+
+:pagebreak:`True`
 
 QT development
 ==============
@@ -766,5 +798,7 @@ Example — Develop a ``HelloWorld`` Program
        :figclass: align-center
 
        *Copy app icon*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

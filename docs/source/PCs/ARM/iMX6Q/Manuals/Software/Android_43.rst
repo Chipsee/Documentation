@@ -54,6 +54,8 @@ Below are the links to the prebuilt files for each industrial PC model.
    | System        | |systemType|                     |
    +---------------+----------------------------------+
 
+:pagebreak:`True`
+
 Preparation
 ===========
 
@@ -74,6 +76,8 @@ Software Requirements
 * ADT for Windows
 * Android USB driver (for Windows)
 * `MFGTools <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K3035-V2.1.zip>`_
+
+:pagebreak:`True`
 
 Getting Started and Tests
 =========================
@@ -235,6 +239,8 @@ Using MFGTool
 
        *Download Image is finished*
 
+:pagebreak:`True`
+
 Booting Android OS And Test(Using 7inch as example)
 ---------------------------------------------------
 
@@ -246,6 +252,8 @@ It is a successful start if you see the |systemType| OS desktop such as the one 
    :figclass: align-center
 
    *Android Desktop Screen*
+
+:pagebreak:`True`
 
 SD Test
 ^^^^^^^
@@ -268,6 +276,8 @@ You can mount the plugged SD card by using the following command.
    :align: center
    :figclass: align-center
 
+:pagebreak:`True`
+
 USB Flash Disk Test
 ^^^^^^^^^^^^^^^^^^^
 
@@ -282,6 +292,8 @@ The USB Flash Disk is like the SD Card, except for the mount point. The IPC moun
    :figclass: align-center
 
    *USB flash disk test*
+
+:pagebreak:`True`
 
 SATA Test
 ^^^^^^^^^
@@ -306,6 +318,8 @@ The SATA does not support hot-plug, but the |systemType| OS supports NTFS. You c
 
    *SATA test*
 
+:pagebreak:`True`
+
 Network Test
 ^^^^^^^^^^^^
 
@@ -320,6 +334,8 @@ You can change the IP Address with this command.
    :align: center
    :figclass: align-center
 
+:pagebreak:`True`
+
 Sound Card Test
 ^^^^^^^^^^^^^^^
 
@@ -328,6 +344,8 @@ Please open an audio file to test the Sound Card.
 .. figure:: /Media/ARM/A9/Software/Android_43/sound.png
    :align: center
    :figclass: align-center
+
+:pagebreak:`True`
 
 Video Test
 ^^^^^^^^^^
@@ -355,6 +373,8 @@ WIFI Test
 ^^^^^^^^^
 
 You must ensure the IPC has an SDIO Wi-Fi module integrated before performing the Wi-Fi test. If the IPC has an SDIO Wi-Fi Module, you can connect to the Wi-Fi and open a browser to test.
+
+:pagebreak:`True`
 
 ADB Test
 ^^^^^^^^
@@ -457,6 +477,8 @@ You can install an android app from the Windows PC onto the IPC with this comman
 
    *Install android app*
 
+:pagebreak:`True`
+
 Touch Screen Test
 ^^^^^^^^^^^^^^^^^
 
@@ -473,6 +495,8 @@ The screen will show the number and position of the touch point when touching th
    :figclass: align-center
 
    Touch screen test (Capacitive touch)
+
+:pagebreak:`True`
 
 Serial Test
 ^^^^^^^^^^^
@@ -508,6 +532,8 @@ You can install the **SecureCRT** or **Putty** software on a Windows 7 PC to tes
        :figclass: align-center
 
        *Serial receive test*
+
+:pagebreak:`True`
 
 GPIO
 ^^^^
@@ -562,6 +588,8 @@ Please check the **GPIO Connector** section in :ref:`CS12800F101 <EPC/PPC-A9-101
 
    # echo 30 > /sys/class/gpio/unexport       //unexport gpio30
 
+:pagebreak:`True`
+
 |systemType| system debug in Windows
 ====================================
 
@@ -592,6 +620,8 @@ Follow these steps to view |systemType| system via the serial port:
 
 * You can communicate with the system when system boot is complete.
 
+:pagebreak:`True`
+
 Adb connect via USB OTG
 -----------------------
 
@@ -608,6 +638,8 @@ You can use the following command to log in to the board and communicate with it
 
    *ADB Shell*
 
+:pagebreak:`True`
+
 Use ADB command to install user APP
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -622,6 +654,8 @@ Use the ``adb`` command to install an Android App: for example SogouInput.apk. I
    :figclass: align-center
 
    Install App
+
+:pagebreak:`True`
 
 Use ADB command to uninstall user APP
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -650,6 +684,8 @@ Use ``adb`` command to uninstall an Android app: for example AngryBirds.apk. Fol
     # cd /system/app/
     # ls
     # rm Browser.apk
+
+:pagebreak:`True`
 
 Use ADB command to uninstall default APP
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -680,6 +716,8 @@ Use ``adb`` command to uninstall an Android app: for example *Email.apk*. Follow
 
    *Uninstall default app*
 
+:pagebreak:`True`
+
 Use ADB command to uninstall default APP
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -706,6 +744,8 @@ Copy ``/testFile.txt`` from IPC to Windows PC:
 .. code-block:: bash
 
    > adb pull /testFile.txt testFile.txt
+
+:pagebreak:`True`
 
 Adb connect via internet
 ------------------------
@@ -755,6 +795,8 @@ Adb connect via internet
 
        $ adb –s 192.168.1.117:5555 install "**".apk
 
+:pagebreak:`True`
+
 Android App Development
 =======================
 
@@ -793,6 +835,8 @@ Preparation
        *Install API packages*
 
 #) Downloading and installing the packages will take some time. When the process completes, close the Android SDK Manager.
+
+:pagebreak:`True`
 
 Example — Develop a ``HelloWorld`` Program
 ------------------------------------------
@@ -843,5 +887,7 @@ For more resources about Android development, visit these links: |br|
     `<http://developer.android.com/support.html>`_
     `<http://blog.apptopia.com/android-development-forums/>`_
     `<http://androidforums.com/application-development/>`_
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support
