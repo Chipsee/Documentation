@@ -18,3 +18,5 @@ In this document, main topics are:
 * How to connect to the hardware from your workstation.
 * How to use the hardware resources such as RS232, RS485 and GPIO, etc.
 * How to install a new operating system.
+
+:pagebreak:`True`
