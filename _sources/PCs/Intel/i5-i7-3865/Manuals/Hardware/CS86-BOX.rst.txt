@@ -12,6 +12,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-Front.png
+
 .. |Front View| image:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-Front.jpg
                   :class: product-img
 
@@ -65,5 +67,7 @@
    :target: ../../../../../_images/CS86-BOX-TD.jpg
  
    *CS86-BOX Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

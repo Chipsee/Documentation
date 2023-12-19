@@ -390,7 +390,13 @@
         </li>
         <li class="md-nav__item"><a href="#start-flashing" class="md-nav__link">Start Flashing</a>
         </li>
-        <li class="md-nav__item"><a href="#video-tutorial-for-flashing-os" class="md-nav__link">Video Tutorial for Flashing OS</a>
+        <li class="md-nav__item"><a href="#video-tutorial-for-flashing-os" class="md-nav__link">Video Tutorial for Flashing OS</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#method-1-loader-mode" class="md-nav__link">Method 1: LOADER Mode</a>
+        </li>
+        <li class="md-nav__item"><a href="#method-2-maskrom-mode" class="md-nav__link">Method 2: MASKROM Mode</a>
+        </li></ul>
+            </nav>
         </li></ul>
             </nav>
         </li>
@@ -561,7 +567,13 @@
         </li>
         <li class="md-nav__item"><a href="#start-flashing" class="md-nav__link">Start Flashing</a>
         </li>
-        <li class="md-nav__item"><a href="#video-tutorial-for-flashing-os" class="md-nav__link">Video Tutorial for Flashing OS</a>
+        <li class="md-nav__item"><a href="#video-tutorial-for-flashing-os" class="md-nav__link">Video Tutorial for Flashing OS</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#method-1-loader-mode" class="md-nav__link">Method 1: LOADER Mode</a>
+        </li>
+        <li class="md-nav__item"><a href="#method-2-maskrom-mode" class="md-nav__link">Method 2: MASKROM Mode</a>
+        </li></ul>
+            </nav>
         </li></ul>
             </nav>
         </li>
@@ -635,6 +647,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <li><p>How to use the hardware resources such as RS232, RS485 and GPIO, etc.</p></li>
 <li><p>How to install a new operating system.</p></li>
 </ul>
+<p><p class="page-break" style="margin: 0"></p></p>
 <section id="system-information">
 <h2 id="system-information">System Information<a class="headerlink" href="#system-information" title="Permalink to this heading">¶</a></h2>
 <p class="rubric">Out of Box System</p>
@@ -674,6 +687,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </tr>
 </tbody>
 </table>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="prepare-for-developing">
 <h2 id="prepare-for-developing">Prepare for Developing<a class="headerlink" href="#prepare-for-developing" title="Permalink to this heading">¶</a></h2>
@@ -698,12 +712,14 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <li><p>To SSH into a Chipsee industrial PC, you may find <strong>PuTTY</strong> on Windows handy; for Linux and macOS users, a terminal app should come with your OS out of box, like <strong>Terminal/iTerm2</strong> on macOS and <strong>xterm</strong> on Linux.</p></li>
 <li><p>To use a remote desktop, you can download <strong>VNC Viewer</strong> on your laptop or PC.</p></li>
 </ol>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 </section>
 <section id="connecting-to-the-ipc">
 <h2 id="connecting-to-the-ipc">Connecting to the Chipsee industrial PC<a class="headerlink" href="#connecting-to-the-ipc" title="Permalink to this heading">¶</a></h2>
 <p>When a power supply is plugged, the Chipsee industrial PC should boot itself automatically, next let’s connect to it from our laptop or computer.</p>
 <p>There are three different approaches: serial port debugging, SSH with Ethernet/WiFi and remote desktop with VNC.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
 <section id="serial-port-debugging">
 <h3 id="serial-port-debugging">Serial Port Debugging<a class="headerlink" href="#serial-port-debugging" title="Permalink to this heading">¶</a></h3>
 <p>[<em>Cheatsheet for experienced developer</em>: username: <strong>linaro</strong>, password <strong>linaro</strong>.]</p>
@@ -747,6 +763,7 @@ screen<span class="w"> </span>/dev/tty.usbmodem2812<span class="w"> </span><span
 <a class="text-center reference internal image-reference" href="../../../../../_images/serial-1.png"><img alt="../../../../../_images/serial-1.png" class="text-center align-center" src="../../../../../_images/serial-1.png" style="width: 640px;"/></a>
 <p class="text-center"><em>Input your-com in the Serial Line field, in our case COM3</em></p>
 <p>That’s it for connecting the Chipsee industrial PC to your machine with a serial debug port.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="ssh-connect">
 <h3 id="ssh-connect">SSH Connect<a class="headerlink" href="#ssh-connect" title="Permalink to this heading">¶</a></h3>
@@ -790,6 +807,7 @@ ssh<span class="w"> </span>linaro@192.168.6.134
 <p class="text-center"><em>Change the command to ssh username@your-ip, in our case ssh linaro@192.168.6.134</em></p>
 <p>When the prompt asks for your password, input <strong>linaro</strong>, the password will not show up on the screen when you type it, it’s OK, just hit enter when you finish typing.</p>
 <p>For both Windows and Linux/macOS users, we should have successfully ssh’d into our Chipsee industrial PC now.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="connect-with-vnc-remote-desktop">
 <h3 id="connect-with-vnc-remote-desktop">Connect with VNC Remote Desktop<a class="headerlink" href="#connect-with-vnc-remote-desktop" title="Permalink to this heading">¶</a></h3>
@@ -801,11 +819,13 @@ ssh<span class="w"> </span>linaro@192.168.6.134
 <p class="text-center"><em>Change the input to your-ip, in our case 192.168.6.134</em></p>
 <p>VNC Viewer might ask for your credentials, you should input our username and password, in our case: username: <strong>linaro</strong>, password: <strong>linaro</strong>. And then continue, VNC Viewer might tell you the connection is not encrypted, it’s OK if you’re in your local network.</p>
 <p>Now we should see our Chipsee industrial PC’s desktop GUI in the VNC Viewer software.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 </section>
 <section id="hardware-resources-in-the-os">
 <h2 id="hardware-resources-in-the-os">Hardware Resources in the OS<a class="headerlink" href="#hardware-resources-in-the-os" title="Permalink to this heading">¶</a></h2>
 <p>Now that you have successfully booted the Chipsee industrial PC and connected the Chipsee industrial PC to your laptop/computer, this section will tell you how to control this Chipsee industrial PC from its OS desktop itself, or from your PC.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
 <section id="network">
 <h3 id="network">Network<a class="headerlink" href="#network" title="Permalink to this heading">¶</a></h3>
 <p>From the Chipsee industrial PC’s desktop GUI, you can click the Network icon in the menu bar to set your network.</p>
@@ -829,6 +849,7 @@ wlan0:<span class="w"> </span>disconnected
 <span class="w">        </span>wifi<span class="w"> </span><span class="o">(</span>rtl8821cs<span class="o">)</span>,<span class="w"> </span>B4:6D:C2:13:A3:AE,<span class="w"> </span>hw,<span class="w"> </span>mtu<span class="w"> </span><span class="m">1500</span>
 </pre></div>
 </div>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="serial-port-rs232-and-rs485">
 <h3 id="serial-port-rs232-and-rs485">Serial Port RS232 and RS485<a class="headerlink" href="#serial-port-rs232-and-rs485" title="Permalink to this heading">¶</a></h3>
@@ -933,6 +954,7 @@ wlan0:<span class="w"> </span>disconnected
 <p>You can then use two Chipsee industrial PCs to test each other.</p>
 <p>If you’ve got only one Chipsee industrial PC, you can test that with your computer: you can use a USB to serial cable, connect the USB end to your computer, and connect the serial end to any of the Chipsee industrial PC’s serial port. You may also wish to install a UART/COM Assistant software which has a GUI for testing.</p>
 <p>If you’re an experienced engineer, you can also use a programming language to test the serial ports, like C, C++, Python, Javascript. They have their libraries for controlling serial port devices.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="gpio">
 <h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this heading">¶</a></h3>
@@ -989,6 +1011,7 @@ $<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><sp
 </dl>
 </li>
 </ul>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="buzzer">
 <h3 id="buzzer">BUZZER<a class="headerlink" href="#buzzer" title="Permalink to this heading">¶</a></h3>
@@ -1028,6 +1051,7 @@ $<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><sp
 </dl>
 </li>
 </ul>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="can-bus">
 <h3 id="can-bus">CAN Bus<a class="headerlink" href="#can-bus" title="Permalink to this heading">¶</a></h3>
@@ -1088,6 +1112,7 @@ $<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>l
 </dl>
 </li>
 </ul>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 </section>
 <section id="faq">
@@ -1105,6 +1130,7 @@ $<span class="w"> </span>su<span class="w"> </span>linaro<span class="w"> </span
 </div>
 <a class="text-center reference internal image-reference" href="../../../../../_images/external_display_setting_cmd.png"><img alt="../../../../../_images/external_display_setting_cmd.png" class="text-center align-center" src="../../../../../_images/external_display_setting_cmd.png" style="width: 720px;"/></a>
 <p class="text-center"><em>Scale Internal Display when Attach an External Display with Command Line</em></p>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="flashing-os-image">
 <h2 id="flashing-os-image">Flashing OS Image<a class="headerlink" href="#flashing-os-image" title="Permalink to this heading">¶</a></h2>
@@ -1160,12 +1186,18 @@ The first is <em>DriverAssistant_v5.1.1</em>, the second is <em>RKDevTool_v2.93<
 <li><p>Now your new OS is ready for use.</p></li>
 </ol>
 <a class="mb-4 reference internal image-reference" href="../../../../../_images/Flash_5.png"><img alt="Flash_5" class="mb-4 align-center" src="../../../../../_images/Flash_5.png" style="width: 768px;"/></a>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="video-tutorial-for-flashing-os">
 <h3 id="video-tutorial-for-flashing-os">Video Tutorial for Flashing OS<a class="headerlink" href="#video-tutorial-for-flashing-os" title="Permalink to this heading">¶</a></h3>
+<section id="method-1-loader-mode">
+<h4 id="method-1-loader-mode">Method 1: LOADER Mode<a class="headerlink" href="#method-1-loader-mode" title="Permalink to this heading">¶</a></h4>
 <p>Here is a video tutorial we made demonstrating the OS installation process described above in Windows in the <strong>LOADER</strong> mode: <a class="reference external" href="https://www.youtube.com/watch?v=ufKDCJ1hpf4">https://www.youtube.com/watch?v=ufKDCJ1hpf4</a></p>
-<div class="card text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/ufKDCJ1hpf4" style="height:50vh;width:100%" title="Flash RK3568 OS in Windows"></iframe></div><p>The approach in the video above works best for devices that are still able to boot into the desktop, and when your workstation is a Windows machine. However, if you do not have a Windows machine in the room, you can use the approach below to flash an OS, in a Linux or Mac.</p>
-<p>Apart from flashing in <strong>LOADER</strong> mode, when you’re working on a Linux(X86_64) workstation or MacOS(Intel and Apple Silicon) machine, you can use another approach: <strong>MASKROM</strong> mode, to flash the OS. There is a PROG button on the Chipsee industrial PC, you can press the button before powering up the device, power up and hold the PROG button for 2~4 seconds, then use a X86_64/darwin_64 <em>upgrade_tool</em> program in the command line to flash the OS, here is a video we made to teach you how to do that in two minutes: <a class="reference external" href="https://www.youtube.com/watch?v=TDIHoQ9AuX4">https://www.youtube.com/watch?v=TDIHoQ9AuX4</a></p>
+<div class="card text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/ufKDCJ1hpf4" style="height:50vh;width:100%" title="Flash RK3568 OS in Windows"></iframe></div><p>The approach in the video above works best for devices that are still able to boot into the desktop, and when your workstation is a Windows machine. However, if you do not have a <em>Windows</em> machine in the room, you can use the approach below to flash an OS, in a Linux or Mac.</p>
+</section>
+<section id="method-2-maskrom-mode">
+<h4 id="method-2-maskrom-mode">Method 2: MASKROM Mode<a class="headerlink" href="#method-2-maskrom-mode" title="Permalink to this heading">¶</a></h4>
+<p>Apart from flashing in <strong>LOADER</strong> mode, when you’re working on a <em>Linux(X86_64)</em> workstation or <em>MacOS(Intel and Apple Silicon)</em> machine, you can use another approach: <strong>MASKROM</strong> mode, to flash the OS. There is a PROG button on the Chipsee industrial PC, you can press the button before powering up the device, power up and hold the PROG button for 2~4 seconds, then use a X86_64/darwin_64 <em>upgrade_tool</em> program in the command line to flash the OS, here is a video we made to teach you how to do that in two minutes: <a class="reference external" href="https://www.youtube.com/watch?v=TDIHoQ9AuX4">https://www.youtube.com/watch?v=TDIHoQ9AuX4</a></p>
 <div class="card text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/TDIHoQ9AuX4" style="height:50vh;width:100%" title="Flash RK3568 OS in MASKROM in Any OS"></iframe></div><p>The approach described in the second video works best for devices that are “bricked” (compared to the first approach), it can help rescue your device if your operating system is broken and cannot boot into the desktop. Even if your device is still functional, you can also use this approach to flash an OS, it works in Windows, Linux as well as MacOS.</p>
 <p>The command used in the videos are:</p>
 <p>For <strong>Linux</strong> workstation:</p>
@@ -1187,6 +1219,7 @@ sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>u
 <p>We’ve tested that the MacOS upgrade_tool can execute in M1/Apple Silicon Macs, but you will need to install Rosetta to run this program. For Intel Macs, you do not need Rosetta, you can execute the binary program directly in your terminal.</p>
 <p>Also, as noted in the video, do use a <strong>absolute path</strong> to the firmware file or <strong>“./prebuilt-rk3568-xxx.img”</strong>, rather than a relative path (e.g. your current directory contains the img file, and you directly use “upgrad_tool uf prebuilt-rk3568-xxx.img”, this will not work). And make sure to use <em>sudo</em> in Linux.</p>
 <p><p class="page-break" style="margin: 0"></p></p>
+</section>
 </section>
 </section>
 <section id="disclaimer">
@@ -1248,7 +1281,7 @@ sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>u
               
           </div>
             Last updated on
-              Dec 14, 2023.
+              Dec 19, 2023.
             <br/>
         </div>
     <!-- GDPR Consent Banner -->

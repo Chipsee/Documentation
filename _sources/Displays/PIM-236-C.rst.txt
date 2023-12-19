@@ -49,6 +49,8 @@
 
 .. |product_link| replace:: PIM-236-C
 
+.. |Cover PNG| image:: /Media/Displays/PIM-236-C/pim-236-front.png
+
 .. |Front View| image:: /Media/Displays/PIM-236-C/pim-236-front.png
                   :class: product-img
 
@@ -67,8 +69,6 @@
     :class: html-only
 
 .. include:: Shared/three_main_images
-
-:pagebreak:`True`
 
 .. include:: Resources/overview
 

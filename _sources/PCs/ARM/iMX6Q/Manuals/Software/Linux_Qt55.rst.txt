@@ -72,6 +72,8 @@ Below are the links to the prebuilt files for each industrial PC model.
    | user/password | [root/root]                      |
    +---------------+----------------------------------+
 
+:pagebreak:`True`
+
 Preparation
 ===========
 
@@ -111,6 +113,8 @@ Software Requirements
 
     In this documentation, all the commands are executed with ``root`` user privileges.
 
+:pagebreak:`True`
+
 Debug
 =====
 
@@ -145,6 +149,8 @@ Follow these steps to perform serial debugging:
 
        *Serial Debug*
 
+:pagebreak:`True`
+
 SSH Debug
 ---------
 
@@ -167,6 +173,8 @@ Continue the debugging by follow these steps:
        :figclass: align-center
 
        *SSH Debug*
+
+:pagebreak:`True`
 
 VNC Debug
 ---------
@@ -200,6 +208,8 @@ You can use the VNC-Viewer software in Windows to control Chipsee IPC over Ether
        :figclass: align-center
 
        *Authentications*
+
+:pagebreak:`True`
 
 Downloading images
 ==================
@@ -237,6 +247,8 @@ CS-IMX6 has a boot configuration select switch, as shown on the figure below. Yo
 .. note::
 
     The user can use both the pre-built |systemType| image files and the `MFGTools <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K31452-V1.3.zip>`_ software to download new images to the system, boot system and perform necessary software and hardware test.
+
+:pagebreak:`True`
 
 Prebuilt Files Package
 ----------------------
@@ -396,6 +408,8 @@ Using MFGTool
 
        *Download Image is finished*
 
+:pagebreak:`True`
+
 Downloading Images by using the TF card
 ---------------------------------------
 
@@ -436,6 +450,8 @@ Follow the steps below to download images onto the eMMC by using the TF Card:
 #) Power OFF and set the switch S1 to eMMC boot mode. (refer to `Boot Switch Configuration`_ above)
 
 
+:pagebreak:`True`
+
 System Resource
 ===============
 
@@ -454,6 +470,8 @@ These devices will be automatically mounted on `/run/media/mmcblk0P*`, as shown 
 .. note::
 
    The TF card and USB Storage do not support NTFS format. Please format it to FAT32 first before plugging into IPC.
+
+:pagebreak:`True`
 
 Network
 -------
@@ -561,6 +579,8 @@ You can configure the Wi-Fi using these methods:
 
    # wifienable.sh
 
+:pagebreak:`True`
+
 Multimedia
 ----------
 
@@ -604,6 +624,8 @@ You can click the **Audio** button to playback audio. You can also click the **R
    :figclass: align-center
 
    *Audio Test*
+
+:pagebreak:`True`
 
 HDMI
 ----
@@ -659,6 +681,8 @@ You can follow the steps below to display the IPC output onto an external displa
        => saveenv
        => boot
 
+:pagebreak:`True`
+
 Serial Port
 -----------
 
@@ -682,6 +706,8 @@ You can test the serial port by using the **HT_Serial Application** in the deskt
    :figclass: align-center
 
    *HT_Serial Test*
+
+:pagebreak:`True`
 
 CAN Bus
 -------
@@ -759,6 +785,8 @@ Refer to the figure below for the CAN part in the HT application.
 
    *CAN*
 
+:pagebreak:`True`
+
 GPIO
 ----
 
@@ -805,6 +833,8 @@ Follow these steps to perform the GPIO test:
 
    The default gpio has 4 Outputs and 4 Inputs. If you want a custom solution, please check the `/etc/init.d/chipsee-init` file for details.
 
+:pagebreak:`True`
+
 Buzzer
 ------
 
@@ -826,6 +856,8 @@ You also can use the HT application to test the buzzer.
    :figclass: align-center
 
    *Buzzer*
+
+:pagebreak:`True`
 
 Modify Logo
 -----------
@@ -880,6 +912,8 @@ Follow the steps below to change logo
 * Put your custom logo file in the first partition ``boot-flash`` directory on the TF Card.
 * Set boot mode to **TF card**. You can reference `Boot Switch Configuration`_.
 * Power ON the IPC. If you see this message, **>>>>>>> eMMC Flashing Completed <<<<<<<**, you are done:
+
+:pagebreak:`True`
 
 Development
 ===========
@@ -953,6 +987,8 @@ Preparation
 
        *Kits*
 
+:pagebreak:`True`
+
 Example — Develop a ``HelloWorld`` Program
 ------------------------------------------
 
@@ -999,6 +1035,8 @@ Example — Develop a ``HelloWorld`` Program
 
 You can get the ``HelloWorld`` app from the `/home/leave/build-HelloWorld-imx-Debug` directory, but your directory might not be the same as this one.
 
+
+:pagebreak:`True`
 
 Q&A
 ===
@@ -1049,5 +1087,7 @@ How to Change psplash's
 
            # echo 180 > /etc/rotation   // rotate  180  angle
            # echo 0 > /etc/rotation	    // reset to default.
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

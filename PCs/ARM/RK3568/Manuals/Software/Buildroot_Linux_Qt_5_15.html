@@ -366,7 +366,13 @@
         </li>
         <li class="md-nav__item"><a href="#start-flashing" class="md-nav__link">Start Flashing</a>
         </li>
-        <li class="md-nav__item"><a href="#video-tutorial-for-flashing-os" class="md-nav__link">Video Tutorial for Flashing OS</a>
+        <li class="md-nav__item"><a href="#video-tutorial-for-flashing-os" class="md-nav__link">Video Tutorial for Flashing OS</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#method-1-loader-mode" class="md-nav__link">Method 1: LOADER Mode</a>
+        </li>
+        <li class="md-nav__item"><a href="#method-2-maskrom-mode" class="md-nav__link">Method 2: MASKROM Mode</a>
+        </li></ul>
+            </nav>
         </li></ul>
             </nav>
         </li>
@@ -487,7 +493,13 @@
         </li>
         <li class="md-nav__item"><a href="#start-flashing" class="md-nav__link">Start Flashing</a>
         </li>
-        <li class="md-nav__item"><a href="#video-tutorial-for-flashing-os" class="md-nav__link">Video Tutorial for Flashing OS</a>
+        <li class="md-nav__item"><a href="#video-tutorial-for-flashing-os" class="md-nav__link">Video Tutorial for Flashing OS</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#method-1-loader-mode" class="md-nav__link">Method 1: LOADER Mode</a>
+        </li>
+        <li class="md-nav__item"><a href="#method-2-maskrom-mode" class="md-nav__link">Method 2: MASKROM Mode</a>
+        </li></ul>
+            </nav>
         </li></ul>
             </nav>
         </li>
@@ -599,9 +611,14 @@ The first is <em>DriverAssistant_v5.1.1</em>, the second is <em>RKDevTool_v2.93<
 </section>
 <section id="video-tutorial-for-flashing-os">
 <h3 id="video-tutorial-for-flashing-os">Video Tutorial for Flashing OS<a class="headerlink" href="#video-tutorial-for-flashing-os" title="Permalink to this heading">¶</a></h3>
+<section id="method-1-loader-mode">
+<h4 id="method-1-loader-mode">Method 1: LOADER Mode<a class="headerlink" href="#method-1-loader-mode" title="Permalink to this heading">¶</a></h4>
 <p>Here is a video tutorial we made demonstrating the OS installation process described above in Windows in the <strong>LOADER</strong> mode: <a class="reference external" href="https://www.youtube.com/watch?v=ufKDCJ1hpf4">https://www.youtube.com/watch?v=ufKDCJ1hpf4</a></p>
-<div class="card text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/ufKDCJ1hpf4" style="height:50vh;width:100%" title="Flash RK3568 OS in Windows"></iframe></div><p>The approach in the video above works best for devices that are still able to boot into the desktop, and when your workstation is a Windows machine. However, if you do not have a Windows machine in the room, you can use the approach below to flash an OS, in a Linux or Mac.</p>
-<p>Apart from flashing in <strong>LOADER</strong> mode, when you’re working on a Linux(X86_64) workstation or MacOS(Intel and Apple Silicon) machine, you can use another approach: <strong>MASKROM</strong> mode, to flash the OS. There is a PROG button on the Chipsee industrial PC, you can press the button before powering up the device, power up and hold the PROG button for 2~4 seconds, then use a X86_64/darwin_64 <em>upgrade_tool</em> program in the command line to flash the OS, here is a video we made to teach you how to do that in two minutes: <a class="reference external" href="https://www.youtube.com/watch?v=TDIHoQ9AuX4">https://www.youtube.com/watch?v=TDIHoQ9AuX4</a></p>
+<div class="card text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/ufKDCJ1hpf4" style="height:50vh;width:100%" title="Flash RK3568 OS in Windows"></iframe></div><p>The approach in the video above works best for devices that are still able to boot into the desktop, and when your workstation is a Windows machine. However, if you do not have a <em>Windows</em> machine in the room, you can use the approach below to flash an OS, in a Linux or Mac.</p>
+</section>
+<section id="method-2-maskrom-mode">
+<h4 id="method-2-maskrom-mode">Method 2: MASKROM Mode<a class="headerlink" href="#method-2-maskrom-mode" title="Permalink to this heading">¶</a></h4>
+<p>Apart from flashing in <strong>LOADER</strong> mode, when you’re working on a <em>Linux(X86_64)</em> workstation or <em>MacOS(Intel and Apple Silicon)</em> machine, you can use another approach: <strong>MASKROM</strong> mode, to flash the OS. There is a PROG button on the Chipsee industrial PC, you can press the button before powering up the device, power up and hold the PROG button for 2~4 seconds, then use a X86_64/darwin_64 <em>upgrade_tool</em> program in the command line to flash the OS, here is a video we made to teach you how to do that in two minutes: <a class="reference external" href="https://www.youtube.com/watch?v=TDIHoQ9AuX4">https://www.youtube.com/watch?v=TDIHoQ9AuX4</a></p>
 <div class="card text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/TDIHoQ9AuX4" style="height:50vh;width:100%" title="Flash RK3568 OS in MASKROM in Any OS"></iframe></div><p>The approach described in the second video works best for devices that are “bricked” (compared to the first approach), it can help rescue your device if your operating system is broken and cannot boot into the desktop. Even if your device is still functional, you can also use this approach to flash an OS, it works in Windows, Linux as well as MacOS.</p>
 <p>The command used in the videos are:</p>
 <p>For <strong>Linux</strong> workstation:</p>
@@ -624,10 +641,10 @@ sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>u
 <p>Also, as noted in the video, do use a <strong>absolute path</strong> to the firmware file or <strong>“./prebuilt-rk3568-xxx.img”</strong>, rather than a relative path (e.g. your current directory contains the img file, and you directly use “upgrad_tool uf prebuilt-rk3568-xxx.img”, this will not work). And make sure to use <em>sudo</em> in Linux.</p>
 </section>
 </section>
+</section>
 <section id="notice">
 <h2 id="notice">Notice<a class="headerlink" href="#notice" title="Permalink to this heading">¶</a></h2>
 <p class="fs-5 fst-italic">(This Buildroot Linux Qt 5.15 OS User Manual is under active development as of July 20th, 2023)</p>
-<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="disclaimer">
 <h2 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Permalink to this heading">¶</a></h2>
@@ -688,7 +705,7 @@ sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>u
               
           </div>
             Last updated on
-              Dec 14, 2023.
+              Dec 19, 2023.
             <br/>
         </div>
     <!-- GDPR Consent Banner -->

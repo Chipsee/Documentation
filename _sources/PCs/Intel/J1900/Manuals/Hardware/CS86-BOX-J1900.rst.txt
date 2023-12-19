@@ -12,6 +12,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/Intel/J1900/CS86-BOX-J1900/CS86-BOX-J1900-front.png
+
 .. |Front View| image:: /Media/Intel/J1900/CS86-BOX-J1900/CS86-BOX-J1900-front.jpg
                   :class: product-img
 
@@ -69,5 +71,7 @@
    :target: ../../../../../_images/CS86-BOX-J1900-TD.jpg
 
    *CS86-BOX-J1900 Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

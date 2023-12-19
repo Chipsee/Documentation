@@ -49,6 +49,8 @@
 
 .. |product_link| replace:: PIM-125-C
 
+.. |Cover PNG| image:: /Media/Displays/PIM-125-C/pim-125-front.png
+
 .. |Front View| image:: /Media/Displays/PIM-125-C/pim-125-front.png
                   :class: product-img
 
@@ -67,8 +69,6 @@
     :class: html-only
 
 .. include:: Shared/three_main_images
-
-:pagebreak:`True`
 
 .. note::
 

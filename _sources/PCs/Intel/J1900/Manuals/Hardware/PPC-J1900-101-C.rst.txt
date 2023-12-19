@@ -30,6 +30,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/Intel/J1900/101/PPC-J1900-101-C-Front.png
+
 .. |Front View| image:: /Media/Intel/J1900/101/PPC-J1900-101-C-Front.jpg
                   :class: product-img
 
@@ -83,7 +85,8 @@
    :align: center
    :figclass: align-center
 
-
    *PPC-J1900-101-C Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

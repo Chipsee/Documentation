@@ -60,6 +60,8 @@
 
 .. |product_link| replace:: PPC/EPC-A8-097-C
 
+.. |Cover PNG| image:: /Media/ARM/A8/CS10768T097/PPC-A8-097-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A8/CS10768T097/PPC-A8-097-C-Front.jpeg
                   :class: product-img
 
@@ -159,6 +161,8 @@ The table below offers more detailed description of every pin and its definition
    | Pin 1          | GND            | Isolated Ground Output                                                  |
    +----------------+----------------+-------------------------------------------------------------------------+
 
+:pagebreak:`True`
+
 USB Connectors
 --------------
 
@@ -176,6 +180,8 @@ There are 4 x Type A **USB HOST connectors** onboard, as shown on the figure bel
 .. warning::
 
   Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded Industrial PC version.
+
+:pagebreak:`True`
 
 .. include:: Resources/LAN
 

@@ -108,6 +108,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Front.png
+
 .. |Front View| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Front.jpg
                   :class: product-img
 
@@ -170,6 +172,8 @@
 
 .. include:: Resources/mounting
 
+:pagebreak:`True`
+
 .. include:: Resources/mechanical
 
 .. rst-class:: text-center
@@ -177,6 +181,8 @@
    |dimension_img|
 
    *Dimensions* (|product|)
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
 

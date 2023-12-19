@@ -112,6 +112,9 @@
                   :align: middle
                   :width: 384
 
+.. |Cover PNG| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Front.png
+
+
 .. |Front View| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Front.jpg
                   :class: product-img
 
@@ -191,6 +194,8 @@
    :figclass: align-center
 
    |productP| Technical Drawing
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
 

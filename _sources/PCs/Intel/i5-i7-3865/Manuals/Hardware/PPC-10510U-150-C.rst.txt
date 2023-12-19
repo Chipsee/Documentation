@@ -30,6 +30,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/Intel/i5-i7-3865/150/PPC-10510U-150-C-Front.png
+
 .. |Front View| image:: /Media/Intel/i5-i7-3865/150/PPC-10510U-150-C-Front.jpg
                   :class: product-img
 
@@ -85,5 +87,7 @@
    :target: ../../../../../_images/PPC-10510U-150-C-TD.jpg
  
    *PPC-10510U-150-C Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

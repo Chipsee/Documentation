@@ -58,6 +58,8 @@ Below are the links to the prebuilt files for each industrial PC model.
    | System        | |systemType|                     |
    +---------------+----------------------------------+
 
+:pagebreak:`True`
+
 Preparation
 ===========
 
@@ -80,6 +82,8 @@ Software Requirements
 * :download:`Android Studio 2.3.3 for Windows <https://redirector.gvt1.com/edgedl/android/studio/install/2.3.3.0/android-studio-bundle-162.4069837-windows.exe>`
 * Android USB driver (for Windows)
 * MFGTools_Kernel3.14.52
+
+:pagebreak:`True`
 
 Getting Started and Tests
 =========================
@@ -252,6 +256,8 @@ Using MFGTool
 
        *Download Image is finished*
 
+:pagebreak:`True`
+
 Downloading Images by using the TF card
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -294,6 +300,8 @@ Follow the steps below to download images onto the eMMC by using the TF Card:
 #) After 20 minutes, if the LED on industrial PC stays lit, flashing is completed. Using COM1, you can also find this message **>>>>>>> eMMC Flashing Completed <<<<<<<** which indicates that the system image was downloaded correctly to the eMMC.
 #) Power OFF and set the switch S1 to eMMC boot mode. (refer to `Boot Switch Configuration`_ above)
 
+:pagebreak:`True`
+
 Booting Android OS And Test(Using 7inch as example)
 ---------------------------------------------------
 
@@ -305,6 +313,8 @@ It is a successful start if you see the |systemType| OS desktop such as the one 
    :figclass: align-center
 
    *Android Desktop Screen*
+
+:pagebreak:`True`
 
 SD Test
 ^^^^^^^
@@ -319,6 +329,8 @@ The IPC will mounts the SD Card to `/mnt/media_rw/` and `/storage/` directory.
    *Serial Message*
 
 
+:pagebreak:`True`
+
 USB Flash Disk Test
 ^^^^^^^^^^^^^^^^^^^
 
@@ -329,6 +341,8 @@ The USB Flash Disk is like the SD Card. The IPC mounts the USB Flash Disk to `/m
    :figclass: align-center
 
    *USB flash disk test*
+
+:pagebreak:`True`
 
 Network Test
 ^^^^^^^^^^^^
@@ -341,6 +355,8 @@ The network uses DHCP to get IP Addresses. You can use the **ethernet app** to s
 
    *Ethernet App*
 
+:pagebreak:`True`
+
 Sound Card Test
 ^^^^^^^^^^^^^^^
 
@@ -349,6 +365,8 @@ Please open an audio file to test the Sound Card.
 .. figure:: /Media/ARM/A9/Software/Android_43/sound.png
    :align: center
    :figclass: align-center
+
+:pagebreak:`True`
 
 Video Test
 ^^^^^^^^^^
@@ -363,6 +381,8 @@ Please open a video file to test the Video.
    :align: center
    :figclass: align-center
 
+:pagebreak:`True`
+
 HDMI Test
 ^^^^^^^^^
 
@@ -376,6 +396,8 @@ WIFI Test
 ^^^^^^^^^
 
 You must ensure the IPC has an SDIO Wi-Fi module integrated before performing the Wi-Fi test. If the IPC has an SDIO Wi-Fi Module, you can connect to the Wi-Fi and open a browser to test.
+
+:pagebreak:`True`
 
 ADB Test
 ^^^^^^^^
@@ -453,6 +475,8 @@ You can install an android app from the Windows PC onto the IPC with this comman
 
    *Install android app*
 
+:pagebreak:`True`
+
 Touch Screen Test
 ^^^^^^^^^^^^^^^^^
 
@@ -469,6 +493,8 @@ The screen will show the number and position of the touch point when touching th
    :figclass: align-center
 
    Touch screen test (Capacitive touch)
+
+:pagebreak:`True`
 
 Serial Test
 ^^^^^^^^^^^
@@ -505,6 +531,8 @@ You can install the **SecureCRT** or **Putty** software on a Windows 7 PC to tes
 
        *Serial receive test*
 
+:pagebreak:`True`
+
 GPIO
 ^^^^
 
@@ -525,6 +553,8 @@ You can use **GPIODemo** app to test the GPIO.
    :figclass: align-center
 
    *GPIODemo app*
+
+:pagebreak:`True`
 
 Modify Logo
 +++++++++++
@@ -651,6 +681,8 @@ Follow the steps below to change logo
 * Set boot mode to **TF card**. You can reference `Boot Switch Configuration`_.
 * Power ON the IPC. If you see this message, **>>>>>>> eMMC Flashing Completed <<<<<<<**, you are done:
 
+:pagebreak:`True`
+
 |systemType| system debug in Windows
 ====================================
 
@@ -681,6 +713,8 @@ Follow these steps to view |systemType| system via the serial port:
 
 * You can communicate with the system when system boot is complete.
 
+:pagebreak:`True`
+
 Adb connect via USB OTG
 -----------------------
 
@@ -697,6 +731,8 @@ You can use the following command to log in to the board and communicate with it
 
    *ADB Shell*
 
+:pagebreak:`True`
+
 Use ADB command to install user APP
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -711,6 +747,8 @@ Use the ``adb`` command to install an Android App: for example SogouInput.apk. I
    :figclass: align-center
 
    Install App
+
+:pagebreak:`True`
 
 Use ADB command to uninstall user APP
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -739,6 +777,8 @@ Use ``adb`` command to uninstall an Android app: for example AngryBirds.apk. Fol
     # cd /system/app/
     # ls
     # rm Browser.apk
+
+:pagebreak:`True`
 
 Use ADB command to uninstall default APP
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -769,6 +809,8 @@ Use ``adb`` command to uninstall an Android app: for example *Email.apk*. Follow
 
    *Uninstall default app*
 
+:pagebreak:`True`
+
 Use ADB command to uninstall default APP
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -795,6 +837,8 @@ Copy ``/testFile.txt`` from IPC to Windows PC:
 .. code-block:: bash
 
    > adb pull /testFile.txt testFile.txt
+
+:pagebreak:`True`
 
 Adb connect via internet
 ------------------------
@@ -843,6 +887,8 @@ Adb connect via internet
     .. code::
 
        $ adb –s 192.168.1.117:5555 install "**".apk
+
+:pagebreak:`True`
 
 Android App Development
 =======================
@@ -912,5 +958,7 @@ For more resources about Android development, visit these links: |br|
     `<http://developer.android.com/support.html>`_
     `<http://blog.apptopia.com/android-development-forums/>`_
     `<http://androidforums.com/application-development/>`_
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

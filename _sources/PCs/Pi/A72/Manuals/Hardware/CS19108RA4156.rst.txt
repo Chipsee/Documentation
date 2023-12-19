@@ -90,7 +90,9 @@
 .. |lan_img| image:: /Media/Pi/A72/CS19108RA4133/LANbig.jpg
                   :align: middle
                   :width: 384
-                  
+      
+.. |Cover PNG| image:: /Media/Pi/A72/CS19108RA4156/PPC-CM4-156-Front.png
+
 .. |Front View| image:: /Media/Pi/A72/CS19108RA4156/PPC-CM4-156-Front.jpg
                   :class: product-img
 
@@ -119,6 +121,8 @@
    :align: center
    :alt: TD
    :width: 1024
+
+:pagebreak:`True`
    
 .. include:: /PCs/Shared/Hardware/three_d
 

@@ -70,7 +70,7 @@
 
 .. |wifi_bt_img| image:: /Media/ARM/A72/CS19108R133P/ANT-A72-133.jpg
                   :align: middle
-                  :width: 384
+                  :width: 192
 
 .. |LAN_img| image:: /Media/ARM/A72/CS19108R133P/LAN-A72-133.jpg
                   :align: middle
@@ -95,6 +95,8 @@
 .. _product_link: https://chipsee.com/product/ppc-a72-133-p/
 
 .. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-P-Front.png
 
 .. |Front View| image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-P-Front.jpg
                   :class: product-img
@@ -150,6 +152,10 @@
 
 .. include:: Resources/mounting
 
+:pagebreak:`True`
+
 .. include:: Resources/mechanical
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

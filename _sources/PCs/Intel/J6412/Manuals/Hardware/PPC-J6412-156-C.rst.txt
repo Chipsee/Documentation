@@ -30,6 +30,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/Intel/J6412/PPC-J6412-156-C/PPC-J6412-156-C-Front.png
+
 .. |Front View| image:: /Media/Intel/J6412/PPC-J6412-156-C/PPC-J6412-156-C-Front.jpg
                   :class: product-img
 
@@ -87,5 +89,7 @@
    :figclass: align-center
 
    *PPC-J6412-156-C Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support                  

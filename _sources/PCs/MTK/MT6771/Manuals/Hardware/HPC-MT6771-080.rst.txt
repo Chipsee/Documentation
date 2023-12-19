@@ -12,6 +12,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Front.png
+
 .. |Front View| image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Front.jpg
                   :class: product-img
 
@@ -63,6 +65,8 @@ The standard accessories include a hand strap. When you use the strap, notice th
    :width: 480
    :alt: handstrap
 
+:pagebreak:`True`
+
 Optional Modules
 ================
 
@@ -70,6 +74,8 @@ The |product| **does not** include the following modules.
 
 #. **Fingerprint module**.
 #. **Ultra high frequency (UHF) RFID**.
+
+:pagebreak:`True`
 
 Hardware Specification
 ======================
@@ -151,6 +157,8 @@ Hardware Specification
    | **Accessories**     | 5V/3A Charger, USB Type-C Cable                                                                                                                         |
    +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+:pagebreak:`True`
+
 Connectivity
 ============
 
@@ -164,6 +172,8 @@ The |product| supports one SIM card and one TF card. To insert a TF card or SIM 
    :width: 800
    :alt: sim-tf
 
+:pagebreak:`True`
+
 NFC
 ---
 
@@ -173,6 +183,8 @@ The |product| has one NFC module. By default, NFC is enabled in the Android OS. 
    :align: center
    :width: 800
    :alt: nfc
+
+:pagebreak:`True`
 
 Scanner
 -------
@@ -187,6 +199,8 @@ For 1D bar code, the scanner can read UPC-A, UPC-E, EAN-8, EAN-13, Code128, Code
    :align: center
    :width: 640
    :alt: scanner
+
+:pagebreak:`True`
 
 Serial Port
 -----------
@@ -205,6 +219,8 @@ There is a Serial Chat app installed in the Android system, you can use a mini U
    :alt: mini-usb-rs232
 
 
+:pagebreak:`True`
+
 USB
 ---
 
@@ -217,6 +233,8 @@ USB-A port and USB type-C port are mutually exclusive, they **cannot** be used a
    :width: 800
    :alt: usb-a-c
 
+:pagebreak:`True`
+
 Ethernet
 --------
 
@@ -226,6 +244,8 @@ The |product| supports Ethernet through a USB3.0 type-A port.
    :align: center
    :width: 800
    :alt: ethernet-usb
+
+:pagebreak:`True`
 
 Charging
 ========
@@ -250,6 +270,8 @@ The product ships with a DC charger.
    :alt: DC-charger
 
 Alternatively, you can also charge the device through its USB-C port on the top of the product.
+
+:pagebreak:`True`
 
 Buttons
 =======
@@ -280,10 +302,14 @@ Key P/H are reserved for customization, they have no functionality out of factor
    * P: customizable button, key 184, reserved for customization, no functionality out of factory.
    * H: customizable button, key 185, reserved for customization, no functionality out of factory.
 
+:pagebreak:`True`
+
 Dimension
 =========
 
 The dimension of |product| is 234 x 144 x 16.8 mm.
+
+:pagebreak:`True`
 
 .. include:: /PCs/MTK/Shared/Resources/when-operating
 

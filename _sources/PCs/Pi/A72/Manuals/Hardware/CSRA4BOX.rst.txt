@@ -102,6 +102,8 @@
                   :align: middle
                   :width: 384
 
+.. |Cover PNG| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-Front.png
+
 .. |Front View| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-Front.jpg
                   :class: product-img
 
@@ -178,5 +180,7 @@ Please refer to the technical drawing in the figure below for details related to
    :figclass: align-center
 
    |productP| *Technical Drawing*
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

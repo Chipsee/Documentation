@@ -373,7 +373,17 @@
               <ul class="md-nav__list">
         <li class="md-nav__item"><a href="#network" class="md-nav__link">Network</a>
         </li>
-        <li class="md-nav__item"><a href="#serial-port-rs232-and-rs485" class="md-nav__link">Serial Port RS232 and RS485</a>
+        <li class="md-nav__item"><a href="#serial-port-rs232-and-rs485" class="md-nav__link">Serial Port RS232 and RS485</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#method-1-google-serialport-api-app" class="md-nav__link">Method 1: Google Serialport-Api App</a>
+        </li>
+        <li class="md-nav__item"><a href="#method-2-adb" class="md-nav__link">Method 2: ADB</a>
+        </li>
+        <li class="md-nav__item"><a href="#method-3-flutter-android" class="md-nav__link">Method 3: Flutter Android</a>
+        </li>
+        <li class="md-nav__item"><a href="#method-4-termux" class="md-nav__link">Method 4: Termux</a>
+        </li></ul>
+            </nav>
         </li>
         <li class="md-nav__item"><a href="#gpio" class="md-nav__link">GPIO</a>
         </li>
@@ -393,7 +403,13 @@
         </li>
         <li class="md-nav__item"><a href="#start-flashing" class="md-nav__link">Start Flashing</a>
         </li>
-        <li class="md-nav__item"><a href="#video-tutorial-for-flashing-os" class="md-nav__link">Video Tutorial for Flashing OS</a>
+        <li class="md-nav__item"><a href="#video-tutorial-for-flashing-os" class="md-nav__link">Video Tutorial for Flashing OS</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#method-1-loader-mode" class="md-nav__link">Method 1: LOADER Mode</a>
+        </li>
+        <li class="md-nav__item"><a href="#method-2-maskrom-mode" class="md-nav__link">Method 2: MASKROM Mode</a>
+        </li></ul>
+            </nav>
         </li></ul>
             </nav>
         </li>
@@ -533,7 +549,17 @@
               <ul class="md-nav__list">
         <li class="md-nav__item"><a href="#network" class="md-nav__link">Network</a>
         </li>
-        <li class="md-nav__item"><a href="#serial-port-rs232-and-rs485" class="md-nav__link">Serial Port RS232 and RS485</a>
+        <li class="md-nav__item"><a href="#serial-port-rs232-and-rs485" class="md-nav__link">Serial Port RS232 and RS485</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#method-1-google-serialport-api-app" class="md-nav__link">Method 1: Google Serialport-Api App</a>
+        </li>
+        <li class="md-nav__item"><a href="#method-2-adb" class="md-nav__link">Method 2: ADB</a>
+        </li>
+        <li class="md-nav__item"><a href="#method-3-flutter-android" class="md-nav__link">Method 3: Flutter Android</a>
+        </li>
+        <li class="md-nav__item"><a href="#method-4-termux" class="md-nav__link">Method 4: Termux</a>
+        </li></ul>
+            </nav>
         </li>
         <li class="md-nav__item"><a href="#gpio" class="md-nav__link">GPIO</a>
         </li>
@@ -553,7 +579,13 @@
         </li>
         <li class="md-nav__item"><a href="#start-flashing" class="md-nav__link">Start Flashing</a>
         </li>
-        <li class="md-nav__item"><a href="#video-tutorial-for-flashing-os" class="md-nav__link">Video Tutorial for Flashing OS</a>
+        <li class="md-nav__item"><a href="#video-tutorial-for-flashing-os" class="md-nav__link">Video Tutorial for Flashing OS</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#method-1-loader-mode" class="md-nav__link">Method 1: LOADER Mode</a>
+        </li>
+        <li class="md-nav__item"><a href="#method-2-maskrom-mode" class="md-nav__link">Method 2: MASKROM Mode</a>
+        </li></ul>
+            </nav>
         </li></ul>
             </nav>
         </li>
@@ -627,6 +659,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <li><p>How to use the hardware resources such as RS232, RS485 and GPIO, etc.</p></li>
 <li><p>How to install a new operating system.</p></li>
 </ul>
+<p><p class="page-break" style="margin: 0"></p></p>
 <section id="connect-from-workstation">
 <h2 id="connect-from-workstation">Connect From Workstation<a class="headerlink" href="#connect-from-workstation" title="Permalink to this heading">¶</a></h2>
 <p>There are 4 ways to connect to your Chipsee industrial PC from your workstation:</p>
@@ -637,6 +670,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <li><p>From <strong>Wi-Fi</strong></p></li>
 </ol>
 <p>Let’s take a look at these connecting methods one by one.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
 <section id="install-android-platform-tools">
 <h3 id="install-android-platform-tools">Install Android Platform Tools<a class="headerlink" href="#install-android-platform-tools" title="Permalink to this heading">¶</a></h3>
 <p>If you intend <strong>only</strong> to use serial port RS232 to connect to Chipsee industrial PC, you can skip this part, debugging with serial port <strong>does not require</strong> installing Android Platform Tools.</p>
@@ -646,6 +680,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p>If you have successfully installed the Android Platform Tools, you can confirm that by opening a terminal window and type a command <cite>adb</cite>, you should see multiple lines of instructions.</p>
 <a class="text-center reference internal image-reference" href="../../../../../_images/ADB.png"><img alt="../../../../../_images/ADB.png" class="text-center align-center" src="../../../../../_images/ADB.png" style="width: 720px;"/></a>
 <p class="text-center"><em>Type adb in Your Terminal to Confirm a Successful Installation of Android Platform Tools</em></p>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="connect-from-serial-port">
 <h3 id="connect-from-serial-port">Connect From Serial Port<a class="headerlink" href="#connect-from-serial-port" title="Permalink to this heading">¶</a></h3>
@@ -684,6 +719,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <a class="text-center reference internal image-reference" href="../../../../../_images/serial-1.png"><img alt="../../../../../_images/serial-1.png" class="text-center align-center" src="../../../../../_images/serial-1.png" style="width: 640px;"/></a>
 <p class="text-center"><em>Input your-com in the Serial Line field, in our case COM3</em></p>
 <p>Now you should be able to connect from your workstation to the Chipsee industrial PC through the serial port. You can try to hit Enter, or type some commands, like <cite>ls</cite>, to see if the Chipsee industrial PC replies to your commands.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="connect-from-usb-type-c-port">
 <h3 id="connect-from-usb-type-c-port">Connect From USB Type-C Port<a class="headerlink" href="#connect-from-usb-type-c-port" title="Permalink to this heading">¶</a></h3>
@@ -711,6 +747,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <a class="text-center reference internal image-reference" href="../../../../../_images/USB_Connect-4.png"><img alt="../../../../../_images/USB_Connect-4.png" class="text-center align-center" src="../../../../../_images/USB_Connect-4.png" style="width: 640px;"/></a>
 <p class="text-center"><em>Now We Are Connected From USB Type-C Port</em></p>
 <p>You can type <cite>exit</cite> or hit <cite>Ctrl + D</cite> to exit the ADB shell, to get back to your workstation’s terminal.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="connect-from-wi-fi">
 <h3 id="connect-from-wi-fi">Connect From Wi-Fi<a class="headerlink" href="#connect-from-wi-fi" title="Permalink to this heading">¶</a></h3>
@@ -736,6 +773,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p class="text-center"><em>Use adb shell to Get into the Shell of Your Android PC</em></p>
 <p>To exit the shell, you can either hit <cite>Ctrl + D</cite> or type <cite>exit</cite>.</p>
 <p>If you have other problems when debugging through Wifi, you can also search for the official Android Developer documents, the Chipsee industrial PC is running a full Android operating system, other knowledge of Android development applies to this device as well.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="connect-from-ethernet">
 <h3 id="connect-from-ethernet">Connect From Ethernet<a class="headerlink" href="#connect-from-ethernet" title="Permalink to this heading">¶</a></h3>
@@ -760,6 +798,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <a class="text-center reference internal image-reference" href="../../../../../_images/Ethernet-3.png"><img alt="../../../../../_images/Ethernet-3.png" class="text-center align-center" src="../../../../../_images/Ethernet-3.png" style="width: 640px;"/></a>
 <p class="text-center"><em>Use adb shell to Get into the Shell of Your Android PC</em></p>
 <p>To exit the shell, you can either hit <cite>Ctrl + D</cite> or type <cite>exit</cite>.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="common-issues-for-connecting">
 <h3 id="common-issues-for-connecting">Common Issues for Connecting<a class="headerlink" href="#common-issues-for-connecting" title="Permalink to this heading">¶</a></h3>
@@ -795,6 +834,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </pre></div>
 </div>
 <p>There are far more options you can try with <strong>adb</strong>, to learn more, you can search for <strong>“adb usages”</strong> on the Internet, or check out the official Android Developer documents. Adb is not a Chipsee vender specific tool, you can find a lot of tutorials about adb on the Internet.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 </section>
 <section id="install-an-apk">
@@ -815,6 +855,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p>You can check the Chipsee industrial PC from its screen, and confirm your app is installed successfully:</p>
 <a class="text-center reference internal image-reference" href="../../../../../_images/Install_APK-3.jpg"><img alt="../../../../../_images/Install_APK-3.jpg" class="text-center align-center" src="../../../../../_images/Install_APK-3.jpg" style="width: 640px;"/></a>
 <p class="text-center"><em>The App We Just Installed is on our Android PC</em></p>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="hardware-resources-in-the-os">
 <h2 id="hardware-resources-in-the-os">Hardware Resources in the OS<a class="headerlink" href="#hardware-resources-in-the-os" title="Permalink to this heading">¶</a></h2>
@@ -822,6 +863,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <section id="network">
 <h3 id="network">Network<a class="headerlink" href="#network" title="Permalink to this heading">¶</a></h3>
 <p>You can use the native Android network API or the settings menu to change network configuration.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="serial-port-rs232-and-rs485">
 <h3 id="serial-port-rs232-and-rs485">Serial Port RS232 and RS485<a class="headerlink" href="#serial-port-rs232-and-rs485" title="Permalink to this heading">¶</a></h3>
@@ -915,7 +957,10 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </tbody>
 </table>
 <p>The 120 Ohm match resistor is already mounted on the RS485 port. RS485 ports are half-duplex, the hardware can switch the Tx/Rx direction automatically. RS232 ports are full-duplex.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
 <p>We know of 3 methods to interact with RS232 and RS485 in Android OS, sadly Android API does not support native ttyS* RS232 and RS485 devices, so people usually use JNI to add some C code to interact with serial ports, we’ll show you what we know, because we are not experts in Android developments, we hope these methods can give software engineer experts like you some inspiration.</p>
+<section id="method-1-google-serialport-api-app">
+<h4 id="method-1-google-serialport-api-app">Method 1: Google Serialport-Api App<a class="headerlink" href="#method-1-google-serialport-api-app" title="Permalink to this heading">¶</a></h4>
 <p>The <strong>first method</strong> is an Android app Google built in 2009, they open sourced their code at: <a class="reference external" href="https://code.google.com/archive/p/android-serialport-api/">https://code.google.com/archive/p/android-serialport-api/</a>. This app is also installed on the Chipsee industrial PC out of the factory, the app’s name is “SerialPortTest”. You can learn from the source code if you’re building your own serial port app. There are also forks of this app on Github, some improves the app by adding more features like supporting a parity bit or flow control. You can search <em>android serial api</em> to find out more on the Internet.</p>
 <a class="reference internal image-reference" href="../../../../../_images/Serial_App-3.jpg"><img alt="google-serial-test-app" class="align-center" src="../../../../../_images/Serial_App-3.jpg" style="width: 1024px;"/></a>
 <p>When you first get your Chipsee industrial PC, and looking to develop a program that involves serial ports, it’s recommended to first test against the app Google built. For example, you have two Chipsee industrial PCs, you should wire the RS232/RS485 port of two devices, and launch this app on both devices. You then set the baud rate, send messages from one device to another, and see if you can get the correct message on the other device. In this way, you can confirm you’re wiring the hardware pins correctly.</p>
@@ -924,6 +969,10 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <a class="reference internal image-reference" href="../../../../../_images/Serial_App-1.png"><img alt="google-serial-test-app-setup" class="align-center" src="../../../../../_images/Serial_App-1.png" style="width: 1024px;"/></a>
 <a class="reference internal image-reference" href="../../../../../_images/Serial_App-2.jpg"><img alt="Serial Test App Communicate with Workstation" class="align-center" src="../../../../../_images/Serial_App-2.jpg" style="width: 1024px;"/></a>
 <p>The image above shows we can use Google’s app to test serial port. On the left is our workstation running a COMTool, on the right is the Android app, they are connected with a RS232 to USB cable.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="method-2-adb">
+<h4 id="method-2-adb">Method 2: ADB<a class="headerlink" href="#method-2-adb" title="Permalink to this heading">¶</a></h4>
 <p>The <strong>second method</strong> is using adb, <strong>cat</strong> and <strong>echo</strong> programs. You can wire the device’s serial port to another device or your workstation, if you use two devices to communicate with each other, open two adb shells on your terminal app, each window should belong to one of the devices. In the example below, I will let the device talk to my Mac Mini, and use another tool on Mac called COMTool, it’s a serial debugger you can download from Github.</p>
 <a class="reference internal image-reference" href="../../../../../_images/Serial_Cat_Echo-1.png"><img alt="Two ADB Shell Windows" class="align-center" src="../../../../../_images/Serial_Cat_Echo-1.png" style="width: 1024px;"/></a>
 <p>At the beginning you may wish to set the baud rate of the Chipsee industrial PC’s serial devices, you can use <strong>stty</strong>, the command below will set ttyS0 (our RS232_0) to 115200 baud rate.</p>
@@ -951,7 +1000,19 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </div>
 <a class="reference internal image-reference" href="../../../../../_images/Serial_Cat_Echo-3.jpg"><img alt="Chipsee PC Sends Message to Workstation Through RS232" class="align-center" src="../../../../../_images/Serial_Cat_Echo-3.jpg" style="width: 1024px;"/></a>
 <p>This is one way to send and receive message from ADB, the ttyS* are our serial port RS232/RS485 devices represented by Linux files in Android OS. Hopefully, an Android developer could find this useful for building his Android native apps.</p>
-<p>The <strong>third</strong> method is a workaround, even if it does not compile to an Android APK, it gives a similar user experience. It uses an Android app called <strong>Termux</strong>, which is an emulator that turns your Android to a Linux environment. With Termux, you can use the programming tools and languages you’re familiar with, like Python, JavaScript. In this Termux Linux environment, you still have access to the Android’s Chipsee hardware, like the RS232 and RS485 devices, through ttyS* files nodes. Then you can start a program to listen for incoming requests, such as a web server, then open a web page to send requests to this server. There are other solutions as well.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="method-3-flutter-android">
+<h4 id="method-3-flutter-android">Method 3: Flutter Android<a class="headerlink" href="#method-3-flutter-android" title="Permalink to this heading">¶</a></h4>
+<p>The <strong>third</strong> method is a Flutter app. We made an Android app with Flutter in this repo: <a class="reference external" href="https://github.com/printfinn/chipsee_serial_port_flutter">https://github.com/printfinn/chipsee_serial_port_flutter</a>.</p>
+<a class="reference internal image-reference" href="../../../../../_images/Serial_Flutter-1.jpg"><img alt="Use Flutter and Dart to Build an Serial Communication App" class="align-center" src="../../../../../_images/Serial_Flutter-1.jpg" style="width: 1024px;"/></a>
+<p>Here is a video of how to read data from serial port: <a class="reference external" href="https://www.youtube.com/watch?v=VQrIEv66WFE">https://www.youtube.com/watch?v=VQrIEv66WFE</a>.</p>
+<div class="card text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/VQrIEv66WFE" style="height:50vh;width:100%" title="How to read data from serial port on Chipsee Rk3568 Products"></iframe></div><p>Here is a video of how to write data to serial port: <a class="reference external" href="https://www.youtube.com/watch?v=LlE8OHMz-lk&amp;t">https://www.youtube.com/watch?v=LlE8OHMz-lk&amp;t</a></p>
+<div class="card text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/LlE8OHMz-lk" style="height:50vh;width:100%" title="How to write data to serial port on Chipsee Rk3568 Products"></iframe></div><p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="method-4-termux">
+<h4 id="method-4-termux">Method 4: Termux<a class="headerlink" href="#method-4-termux" title="Permalink to this heading">¶</a></h4>
+<p>The <strong>fourth</strong> method is a workaround, even if it does not compile to an Android APK, it gives a similar user experience. It uses an Android app called <strong>Termux</strong>, which is an emulator that turns your Android to a Linux environment. With Termux, you can use the programming tools and languages you’re familiar with, like Python, JavaScript. In this Termux Linux environment, you still have access to the Android’s Chipsee hardware, like the RS232 and RS485 devices, through ttyS* files nodes. Then you can start a program to listen for incoming requests, such as a web server, then open a web page to send requests to this server. There are other solutions as well.</p>
 <p>You can read the Termux’s official doc to learn how to install your preferred Linux tools, for example, we installed Python 3.11 (in July, 2023):</p>
 <a class="reference internal image-reference" href="../../../../../_images/Serial_Termux-1.png"><img alt="Use Termux to Install Python in Android OS on Chipsee PC" class="align-center" src="../../../../../_images/Serial_Termux-1.png" style="width: 1024px;"/></a>
 <p>In the image above, it shows we can login to the Android Chipsee industrial PC through ssh, and we have Python3 installed, we are also able to find our ttyS* devices (our RS232 RS485 devices).</p>
@@ -961,6 +1022,8 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p>To use the third method in your development, you can find out how Termux can auto boot your server program with <em>Termux:Boot</em>; and build a simple Android native APK that integrates a webview to visit your server’s web port as soon as the APK is started;  then start your app automatically on system boot. In this way, when your Chipsee industrial PC boots, your program is ready to use without having to type commands in Termux.</p>
 <p>The source code of this demo app is in Chipsee’s Github: <a class="reference external" href="https://github.com/Chipsee/chipsee-industrial-pc-web">https://github.com/Chipsee/chipsee-industrial-pc-web</a>. If you’re looking to use the approach above, or to develop your program on Debian Linux, you can refer to the repo, it’s a Python program with HTML web pages. Except for serial ports, it has code to control buzzer, gpio, backlight, CAN and implemented a Modbus server/client as well.</p>
 <p>Those are the three methods we know of that can control the RS232/RS485 devices on Android.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
 </section>
 <section id="gpio">
 <h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this heading">¶</a></h3>
@@ -1030,6 +1093,7 @@ $<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><sp
 <a class="reference internal image-reference" href="../../../../../_images/GPIO_Test-1.jpg"><img alt="GPIO Test App" class="align-center" src="../../../../../_images/GPIO_Test-1.jpg" style="width: 1024px;"/></a>
 <p>Inside the app, you can test GPIO outputs and inputs, as well as Buzzer.</p>
 <a class="reference internal image-reference" href="../../../../../_images/GPIO_Test-2.jpg"><img alt="GPIO Test App" class="align-center" src="../../../../../_images/GPIO_Test-2.jpg" style="width: 1024px;"/></a>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="buzzer">
 <h3 id="buzzer">BUZZER<a class="headerlink" href="#buzzer" title="Permalink to this heading">¶</a></h3>
@@ -1046,6 +1110,7 @@ $<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><sp
 <p>You can also use Termux and Linux plus your favourite programming language to control buzzer:</p>
 <a class="reference internal image-reference" href="../../../../../_images/Buzzer_Termux-1.jpg"><img alt="Buzzer Control in Python and Webview" class="align-center" src="../../../../../_images/Buzzer_Termux-1.jpg" style="width: 1024px;"/></a>
 <p>The image above is a Python plus webview demo for controlling buzzer. Same Termux Linux environment as GPIO and Serial Port sections.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="backlight">
 <h3 id="backlight">Backlight<a class="headerlink" href="#backlight" title="Permalink to this heading">¶</a></h3>
@@ -1058,6 +1123,7 @@ $<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><sp
 <p>For different Chipsee industrial PC models, some supports 5-point multitouch, some supports 10-point multitouch.</p>
 <a class="reference internal image-reference" href="../../../../../_images/Multitouch-2.jpg"><img alt="10 Points Multi Touch" class="align-center" src="../../../../../_images/Multitouch-2.jpg" style="width: 1024px;"/></a>
 <p>The image above shows a 10.1 inch Chipsee industrial PC supporting 10 point multitouch.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 </section>
 <section id="flashing-os-image">
@@ -1114,12 +1180,18 @@ The first is <em>DriverAssistant_v5.1.1</em>, the second is <em>RKDevTool_v2.93<
 <li><p>Now your new OS is ready for use.</p></li>
 </ol>
 <a class="mb-4 reference internal image-reference" href="../../../../../_images/Flash_5.png"><img alt="Flash_5" class="mb-4 align-center" src="../../../../../_images/Flash_5.png" style="width: 768px;"/></a>
+<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="video-tutorial-for-flashing-os">
 <h3 id="video-tutorial-for-flashing-os">Video Tutorial for Flashing OS<a class="headerlink" href="#video-tutorial-for-flashing-os" title="Permalink to this heading">¶</a></h3>
+<section id="method-1-loader-mode">
+<h4 id="method-1-loader-mode">Method 1: LOADER Mode<a class="headerlink" href="#method-1-loader-mode" title="Permalink to this heading">¶</a></h4>
 <p>Here is a video tutorial we made demonstrating the OS installation process described above in Windows in the <strong>LOADER</strong> mode: <a class="reference external" href="https://www.youtube.com/watch?v=ufKDCJ1hpf4">https://www.youtube.com/watch?v=ufKDCJ1hpf4</a></p>
-<div class="card text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/ufKDCJ1hpf4" style="height:50vh;width:100%" title="Flash RK3568 OS in Windows"></iframe></div><p>The approach in the video above works best for devices that are still able to boot into the desktop, and when your workstation is a Windows machine. However, if you do not have a Windows machine in the room, you can use the approach below to flash an OS, in a Linux or Mac.</p>
-<p>Apart from flashing in <strong>LOADER</strong> mode, when you’re working on a Linux(X86_64) workstation or MacOS(Intel and Apple Silicon) machine, you can use another approach: <strong>MASKROM</strong> mode, to flash the OS. There is a PROG button on the Chipsee industrial PC, you can press the button before powering up the device, power up and hold the PROG button for 2~4 seconds, then use a X86_64/darwin_64 <em>upgrade_tool</em> program in the command line to flash the OS, here is a video we made to teach you how to do that in two minutes: <a class="reference external" href="https://www.youtube.com/watch?v=TDIHoQ9AuX4">https://www.youtube.com/watch?v=TDIHoQ9AuX4</a></p>
+<div class="card text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/ufKDCJ1hpf4" style="height:50vh;width:100%" title="Flash RK3568 OS in Windows"></iframe></div><p>The approach in the video above works best for devices that are still able to boot into the desktop, and when your workstation is a Windows machine. However, if you do not have a <em>Windows</em> machine in the room, you can use the approach below to flash an OS, in a Linux or Mac.</p>
+</section>
+<section id="method-2-maskrom-mode">
+<h4 id="method-2-maskrom-mode">Method 2: MASKROM Mode<a class="headerlink" href="#method-2-maskrom-mode" title="Permalink to this heading">¶</a></h4>
+<p>Apart from flashing in <strong>LOADER</strong> mode, when you’re working on a <em>Linux(X86_64)</em> workstation or <em>MacOS(Intel and Apple Silicon)</em> machine, you can use another approach: <strong>MASKROM</strong> mode, to flash the OS. There is a PROG button on the Chipsee industrial PC, you can press the button before powering up the device, power up and hold the PROG button for 2~4 seconds, then use a X86_64/darwin_64 <em>upgrade_tool</em> program in the command line to flash the OS, here is a video we made to teach you how to do that in two minutes: <a class="reference external" href="https://www.youtube.com/watch?v=TDIHoQ9AuX4">https://www.youtube.com/watch?v=TDIHoQ9AuX4</a></p>
 <div class="card text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/TDIHoQ9AuX4" style="height:50vh;width:100%" title="Flash RK3568 OS in MASKROM in Any OS"></iframe></div><p>The approach described in the second video works best for devices that are “bricked” (compared to the first approach), it can help rescue your device if your operating system is broken and cannot boot into the desktop. Even if your device is still functional, you can also use this approach to flash an OS, it works in Windows, Linux as well as MacOS.</p>
 <p>The command used in the videos are:</p>
 <p>For <strong>Linux</strong> workstation:</p>
@@ -1141,6 +1213,7 @@ sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>u
 <p>We’ve tested that the MacOS upgrade_tool can execute in M1/Apple Silicon Macs, but you will need to install Rosetta to run this program. For Intel Macs, you do not need Rosetta, you can execute the binary program directly in your terminal.</p>
 <p>Also, as noted in the video, do use a <strong>absolute path</strong> to the firmware file or <strong>“./prebuilt-rk3568-xxx.img”</strong>, rather than a relative path (e.g. your current directory contains the img file, and you directly use “upgrad_tool uf prebuilt-rk3568-xxx.img”, this will not work). And make sure to use <em>sudo</em> in Linux.</p>
 <p><p class="page-break" style="margin: 0"></p></p>
+</section>
 </section>
 </section>
 <section id="disclaimer">
@@ -1202,7 +1275,7 @@ sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>u
               
           </div>
             Last updated on
-              Dec 14, 2023.
+              Dec 19, 2023.
             <br/>
         </div>
     <!-- GDPR Consent Banner -->

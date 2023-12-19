@@ -24,8 +24,11 @@ This is the software manual for RK3568 Chipsee industrial PC. If you’ve never 
 
 .. include:: Resources/Android/Connect
 
+:pagebreak:`True`
+
 .. include:: Resources/Android/Install_APK
 
+:pagebreak:`True`
 
 Hardware Resources in the OS
 ============================
@@ -37,12 +40,19 @@ Network
 
 You can use the native Android network API or the settings menu to change network configuration.
 
+:pagebreak:`True`
+
 Serial Port RS232 and RS485
 ---------------------------
 
 .. include:: Resources/Shared/serial_port_table
 
+:pagebreak:`True`
+
 We know of 3 methods to interact with RS232 and RS485 in Android OS, sadly Android API does not support native ttyS* RS232 and RS485 devices, so people usually use JNI to add some C code to interact with serial ports, we'll show you what we know, because we are not experts in Android developments, we hope these methods can give software engineer experts like you some inspiration.
+
+Method 1: Google Serialport-Api App
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The **first method** is an Android app Google built in 2009, they open sourced their code at: https://code.google.com/archive/p/android-serialport-api/. This app is also installed on the |ipc| out of the factory, the app's name is "SerialPortTest". You can learn from the source code if you're building your own serial port app. There are also forks of this app on Github, some improves the app by adding more features like supporting a parity bit or flow control. You can search *android serial api* to find out more on the Internet.
 
@@ -68,6 +78,11 @@ If you have one device, you can use the approach above to test it with your work
    :alt: Serial Test App Communicate with Workstation
 
 The image above shows we can use Google's app to test serial port. On the left is our workstation running a COMTool, on the right is the Android app, they are connected with a RS232 to USB cable.
+
+:pagebreak:`True`
+
+Method 2: ADB
+^^^^^^^^^^^^^
 
 The **second method** is using adb, **cat** and **echo** programs. You can wire the device's serial port to another device or your workstation, if you use two devices to communicate with each other, open two adb shells on your terminal app, each window should belong to one of the devices. In the example below, I will let the device talk to my Mac Mini, and use another tool on Mac called COMTool, it's a serial debugger you can download from Github.
 
@@ -120,7 +135,37 @@ To send message from |ipc| and receive them in our workstation, we can use **ech
 
 This is one way to send and receive message from ADB, the ttyS* are our serial port RS232/RS485 devices represented by Linux files in Android OS. Hopefully, an Android developer could find this useful for building his Android native apps.
 
-The **third** method is a workaround, even if it does not compile to an Android APK, it gives a similar user experience. It uses an Android app called **Termux**, which is an emulator that turns your Android to a Linux environment. With Termux, you can use the programming tools and languages you're familiar with, like Python, JavaScript. In this Termux Linux environment, you still have access to the Android's Chipsee hardware, like the RS232 and RS485 devices, through ttyS* files nodes. Then you can start a program to listen for incoming requests, such as a web server, then open a web page to send requests to this server. There are other solutions as well.
+:pagebreak:`True`
+
+Method 3: Flutter Android
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The **third** method is a Flutter app. We made an Android app with Flutter in this repo: https://github.com/printfinn/chipsee_serial_port_flutter. 
+
+.. image:: /Media/ARM/A55/Software/Android/Serial_Flutter-1.jpg
+   :align: center
+   :width: 1024
+   :alt: Use Flutter and Dart to Build an Serial Communication App
+   
+Here is a video of how to read data from serial port: https://www.youtube.com/watch?v=VQrIEv66WFE.
+
+.. raw:: html
+
+   <div class="card text-center"><iframe src="https://www.youtube.com/embed/VQrIEv66WFE" style="height:50vh;width:100%" title="How to read data from serial port on Chipsee Rk3568 Products" frameborder="0" allowfullscreen></iframe></div> 
+
+Here is a video of how to write data to serial port: https://www.youtube.com/watch?v=LlE8OHMz-lk&t
+
+.. raw:: html
+
+   <div class="card text-center"><iframe src="https://www.youtube.com/embed/LlE8OHMz-lk" style="height:50vh;width:100%" title="How to write data to serial port on Chipsee Rk3568 Products" frameborder="0" allowfullscreen></iframe></div> 
+
+
+:pagebreak:`True`
+
+Method 4: Termux
+^^^^^^^^^^^^^^^^
+
+The **fourth** method is a workaround, even if it does not compile to an Android APK, it gives a similar user experience. It uses an Android app called **Termux**, which is an emulator that turns your Android to a Linux environment. With Termux, you can use the programming tools and languages you're familiar with, like Python, JavaScript. In this Termux Linux environment, you still have access to the Android's Chipsee hardware, like the RS232 and RS485 devices, through ttyS* files nodes. Then you can start a program to listen for incoming requests, such as a web server, then open a web page to send requests to this server. There are other solutions as well.
 
 You can read the Termux's official doc to learn how to install your preferred Linux tools, for example, we installed Python 3.11 (in July, 2023):
 
@@ -145,6 +190,8 @@ To use the third method in your development, you can find out how Termux can aut
 The source code of this demo app is in Chipsee's Github: https://github.com/Chipsee/chipsee-industrial-pc-web. If you're looking to use the approach above, or to develop your program on Debian Linux, you can refer to the repo, it's a Python program with HTML web pages. Except for serial ports, it has code to control buzzer, gpio, backlight, CAN and implemented a Modbus server/client as well.
 
 Those are the three methods we know of that can control the RS232/RS485 devices on Android.
+
+:pagebreak:`True`
 
 GPIO
 ----
@@ -186,6 +233,8 @@ Inside the app, you can test GPIO outputs and inputs, as well as Buzzer.
    :width: 1024
    :alt: GPIO Test App
 
+:pagebreak:`True`
+
 BUZZER
 ------
 
@@ -211,6 +260,8 @@ You can also use Termux and Linux plus your favourite programming language to co
    
 The image above is a Python plus webview demo for controlling buzzer. Same Termux Linux environment as GPIO and Serial Port sections.
 
+:pagebreak:`True`
+
 Backlight
 ---------
 
@@ -235,6 +286,7 @@ For different |ipc| models, some supports 5-point multitouch, some supports 10-p
 
 The image above shows a 10.1 inch |ipc| supporting 10 point multitouch.
 
+:pagebreak:`True`
 
 Flashing OS Image
 =================
@@ -243,6 +295,10 @@ Flashing OS Image
 
 .. include:: Resources/Flash_OS
 
+:pagebreak:`True`
+
 .. include:: Resources/Flash_OS_Video
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

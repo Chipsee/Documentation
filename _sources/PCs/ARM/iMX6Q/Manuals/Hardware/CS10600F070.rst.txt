@@ -56,6 +56,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |Cover PNG| image:: /Media/ARM/A9/CS10600F070/PPC-A9-070-C-Front.png
+
 .. |Front View| image:: /Media/ARM/A9/CS10600F070/PPC-A9-070-C-Front.jpg
                   :class: product-img
 
@@ -166,6 +168,8 @@ The table below offers more detailed description of every pin and its definition
 
    120Ω termination resistors are not mounted or included with the device.
 
+:pagebreak:`True`
+
 USB Connectors
 --------------
 
@@ -190,6 +194,8 @@ default.
 
   Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded IPC version.
 
+:pagebreak:`True`
+
 .. include:: Resources/LAN
 
 .. include:: Resources/WiFi
@@ -211,6 +217,8 @@ Mounting Procedure
 might also be supported according to the table in the `Hardware Features`_ section.
 
 You can find detailed information about mounting in the |mguide|.
+
+:pagebreak:`True`
 
 Mechanical Specifications
 =========================
@@ -237,6 +245,8 @@ For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
 
     * When you use product |productE|, you should not touch the circuit board on the back of the product if the product is powered ON.
     * Also, when the product is powered OFF, please take anti-static measures before touching the circuit board.
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
 

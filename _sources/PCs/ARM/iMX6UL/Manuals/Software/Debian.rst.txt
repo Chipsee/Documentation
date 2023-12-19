@@ -61,6 +61,8 @@ CS10600U070-V1.0
    | user/password | [root/root] or [chipsee/chipsee] |
    +---------------+----------------------------------+
    
+:pagebreak:`True`
+
 Preparation
 ===========
 
@@ -93,6 +95,8 @@ Software Requirements
 * XShell or similar terminal emulation software
 * Cross-toolchain
 * VNC-Viewer
+
+:pagebreak:`True`
 
 Debug
 =====
@@ -134,6 +138,8 @@ After the connection is successfully established, set up the XShell terminal as 
 
    Figure 1b: Serial Debug
 
+:pagebreak:`True`
+
 SSH Debug
 ---------
 
@@ -155,6 +161,8 @@ You must first add a new session, as shown in *Figure 1*. The new session should
    :target: ../../../../../_images/Debian_Shot_05.jpg
 
    Figure 2a: SSH Debug
+
+:pagebreak:`True`
 
 VCN Debug
 ---------
@@ -193,6 +201,8 @@ You can use VNC Viewer in Windows to control Chipsee IPC over Ethernet, as menti
    :target: ../../../../../_images/Debian_Shot_08.jpg
 
    Figure 2d: VNC Desktop
+
+:pagebreak:`True`
 
 Downloading Images
 ==================
@@ -289,6 +299,8 @@ Machine running Ubuntu 14.04 distribution). Use the TF Card to download the boot
 
 * Power OFF the IPC and set the DIP switch to eMMC BOOT mode (refer to |F3|_ above).
 
+:pagebreak:`True`
+
 System Resources
 ================
 
@@ -306,6 +318,8 @@ Also, both storage types support NTFS and FAT32 file system.
    :target: ../../../../../_images/Debian_Shot_10.jpg
 
    Figure 4: TF Card Contents
+
+:pagebreak:`True`
 
 Network
 -------
@@ -327,6 +341,8 @@ After you set the static IP, reboot the system to enable it (*Figure 5a* and *Fi
    
    Figure 5a: Setting up Static IP
 
+:pagebreak:`True`
+
 Sound
 -----
 
@@ -344,6 +360,8 @@ The following command can be used to playback the recorded sound from the exampl
 .. container:: hatnote hatnote-gray
 
    $ aplay  -N  -M  test.wav
+
+:pagebreak:`True`
 
 Serial Port
 -----------
@@ -384,6 +402,8 @@ There are five serial ports on the Chipsee IPC: 2 X RS232 and 3 X RS485. Refer t
 .. note:: 
 
    120Ω termination resistors are not mounted or included with the device.
+
+:pagebreak:`True`
 
 CAN
 ---
@@ -435,6 +455,8 @@ The following example can be used to perform testing:
 .. container:: hatnote hatnote-gray
 
    #candump  can0
+
+:pagebreak:`True`
 
 GPIO Ports
 ----------
@@ -490,6 +512,8 @@ You can use the following commands to test the GPIOs easily:
 .. container:: hatnote hatnote-gray
 
    # cat /dev/chipsee-gpio5
+
+:pagebreak:`True`
 
 Development
 ===========
@@ -560,5 +584,7 @@ package to Chipsee IPC, as described above (using SSH or USB storage).
    $ cd hardwaretest_serial
    $ export DISPLAY=:0
    $ ./hardwaretest_serial
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

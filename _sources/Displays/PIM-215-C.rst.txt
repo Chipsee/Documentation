@@ -49,6 +49,8 @@
 
 .. |product_link| replace:: PIM-215-C
 
+.. |Cover PNG| image:: /Media/Displays/PIM-215-C/pim-215-front.png
+
 .. |Front View| image:: /Media/Displays/PIM-215-C/pim-215-front.png
                   :class: product-img
 
@@ -68,8 +70,6 @@
     :class: html-only
 
 .. include:: Shared/three_main_images
-
-:pagebreak:`True`
 
 .. include:: Resources/overview
 

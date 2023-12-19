@@ -63,6 +63,8 @@ Below are the links to the prebuilt files for each industrial PC model.
    | System        | Debian 7.4 & Debian 8.4          |
    +---------------+----------------------------------+
 
+:pagebreak:`True`
+
 Preparation
 ===========
 
@@ -87,9 +89,15 @@ Software Requirements
 
     In this documentation, all the commands are executed with ``root`` user privileges.
 
+:pagebreak:`True`
+
 .. include:: Resources/Starting
 
+:pagebreak:`True`
+
 .. include:: Resources/SD_Bootable
+
+:pagebreak:`True`
 
 How to flash Linux to eMMC
 --------------------------
@@ -133,6 +141,8 @@ Follow the steps below to create a bootable SD card:
 #) Remove the SD card and Power OFF the IPC.
 #) Set the DIP switch to eMMC BOOT mode (refer to `DIP Switch Configuration`_ above) and Power ON the IPC.
 
+:pagebreak:`True`
+
 Start |systemType| OS
 ---------------------
 The first time you start |systemType| OS on the industrial PC will take a little time. But after the first time, |systemType| OS will start quickly.
@@ -144,6 +154,8 @@ It is a successful start if you see the |systemType| OS desktop such as the one 
    :figclass: align-center
 
    Debian OS start-up screen
+
+:pagebreak:`True`
 
 Tests
 -----
@@ -179,6 +191,8 @@ The buzzer will sound when the screen is touched, if you want to disable it, you
         + 0 = disable
         + 1 = enable
 
+:pagebreak:`True`
+
 Audio test
 ^^^^^^^^^^^
 
@@ -187,6 +201,8 @@ Start the terminal, then use the ``mplayer`` command to play an audio file.
 .. code-block:: bash
 
     # mplayer FILENAME  //such as: mplayer ~/Music/test.mp3
+
+:pagebreak:`True`
 
 Serial test
 ^^^^^^^^^^^
@@ -218,6 +234,8 @@ If you want to use COM1 as a normal serial port, you can re-configure the port b
 
     + You will see the string on the **SecureCRT** or **Putty** software running on the Windows 7 PC.
     + Change ttyO1 to ttyO2/ttyO4 to test RS485.
+
+:pagebreak:`True`
 
 GPIO test
 ^^^^^^^^^
@@ -251,6 +269,8 @@ You can read and write the GPIO by following the steps below. For this example, 
 
         # cat /sys/class/gpio/gpio49/value
 
+:pagebreak:`True`
+
 Network
 ^^^^^^^
 
@@ -258,6 +278,8 @@ Use this command to view the network information on the industrial PC.
     .. code-block:: bash
 
         # ifconfig –a
+
+:pagebreak:`True`
 
 Date and Time
 ^^^^^^^^^^^^^
@@ -287,6 +309,8 @@ Date and Time
 
         # ln -sf /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
 
+:pagebreak:`True`
+
 Backlight
 ^^^^^^^^^
 
@@ -296,6 +320,8 @@ For example, you can adjust the screen brightness using this command:
 .. code-block:: bash
 
     # echo 50 > /sys/class/backlight/backlight.10/Brightness
+
+:pagebreak:`True`
 
 USB device
 ^^^^^^^^^^
@@ -313,7 +339,11 @@ The |systemType| OS supports USB-WiFi (RTL8723). If you want to get USB-Wifi mod
 
     **wlanX** usual should be ``wlan0``, you can use the command ``ifconfig –a`` to make sure of that.
 
+:pagebreak:`True`
+
 .. include:: Resources/Logo_Modify
+
+:pagebreak:`True`
 
 |systemType| OS debug
 =====================
@@ -323,7 +353,11 @@ Also, we will discover how to debug using NFS on a Ubuntu Linux PC. |br|
 
 .. include:: Resources/SerialPort_Debug
 
+:pagebreak:`True`
+
 .. include:: Resources/NFS_Debug
+
+:pagebreak:`True`
 
 Debian App Development
 =======================
@@ -447,5 +481,7 @@ Example — Develop a ``HelloWorld.java`` Program
 
     Now when you Reboot the system, the ``HelloWorld`` app will automatically launch.
 
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

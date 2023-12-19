@@ -60,6 +60,8 @@
 
 .. |product_link| replace:: PPC/EPC-A8-070-R
 
+.. |Cover PNG| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070-HB-R-Front.png
+
 .. |Front View| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070-HB-R-Front.jpeg
                   :class: product-img
 
@@ -135,6 +137,8 @@ product measurements.
 ----------
 
 For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+
+:pagebreak:`True`
 
 .. include:: Resources/mount_set
 

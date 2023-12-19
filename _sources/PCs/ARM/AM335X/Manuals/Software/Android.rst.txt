@@ -62,6 +62,8 @@ Below are the links to the prebuilt files for each industrial PC model.
    | System        | Android 4.1                      |
    +---------------+----------------------------------+
 
+:pagebreak:`True`
+
 Preparation
 ===========
 
@@ -84,9 +86,16 @@ Software Requirements
 * ADT for Windows
 * Android USB driver (for Windows)
 
+
+:pagebreak:`True`
+
 .. include:: Resources/Starting
 
+:pagebreak:`True`
+
 .. include:: Resources/SD_Bootable
+
+:pagebreak:`True`
 
 How flash Android to NAND
 -------------------------
@@ -129,6 +138,8 @@ Follow the steps below to create a bootable NAND card:
 #) After 20 minutes, if the LED on industrial PC stays lit, flashing is completed. Using COM1, you can also find this message **>>>>>>> eMMC Flashing Completed <<<<<<<** which indicates that the system image was downloaded correctly to the eMMC.
 #) Power OFF the IPC and set the DIP switch to eMMC BOOT mode. (refer to `DIP Switch Configuration`_ above)
 
+:pagebreak:`True`
+
 Start |systemType| OS
 ---------------------
 The first time you start |systemType| OS on the industrial PC will take a little time. But after the first time, |systemType| OS will start quickly.
@@ -140,6 +151,8 @@ It is a successful start if you see the |systemType| OS desktop such as the one 
    :figclass: align-center
 
    Android OS start-up screen
+
+:pagebreak:`True`
 
 Tests
 -----
@@ -169,6 +182,8 @@ Run **Chipsee TouchCal** App as described in the figure below.
 
    Touch screen calibration test (Resistive touch)
 
+:pagebreak:`True`
+
 Buzzer test
 ^^^^^^^^^^^
 
@@ -192,12 +207,16 @@ You can test the gravity sensor by whirling the screen.
 
 * You can also test gravity using a gravity sensing game, such as "NFS shift" or "Tilt 3D laby". If you use "NFS shift", please run the **ChipseeSensorTool** app to adjust the direction of the axis by selecting "Invert X-axis" and "Swap X/Y axes". If you use other games, please adjust the settings as default.
 
+:pagebreak:`True`
+
 Audio IO test
 ^^^^^^^^^^^^^
 
 Insert the microphone and earphones into the Audio IO interface (Audio IN coloured pink, Audio OUT coloured light blue). |br|
 Start **Talking Tom** App (Tom Cat). |br|
 Speak into the microphone, Tom the cat will repeat spoken content.
+
+:pagebreak:`True`
 
 Serial test
 ^^^^^^^^^^^
@@ -234,6 +253,8 @@ You can install the **SecureCRT** or **Putty** software on a Windows 7 PC to tes
    Serial receive test
 
 
+:pagebreak:`True`
+
 USB device test
 ^^^^^^^^^^^^^^^
 
@@ -259,6 +280,8 @@ The |systemType| OS supports USB-Camera. You can find the device in settings, as
 
 .. include:: Resources/Logo_Modify
 
+:pagebreak:`True`
+
 IP settings
 -----------
 To make changes to the IP address, follow these steps:
@@ -278,6 +301,8 @@ To make changes to the IP address, follow these steps:
 .. note::
 
     Inputting wrong details could harm the industrial PC and because of that you should backup the file before making any changes. This can help you reverse changes easily if an error occurs.
+
+:pagebreak:`True`
 
 |systemType| system debug in Windows
 ====================================
@@ -302,6 +327,8 @@ Follow these steps to view |systemType| system via the serial port:
 
    Serial output information
 
+
+:pagebreak:`True`
 
 Adb connect via USB OTG
 -----------------------
@@ -413,6 +440,8 @@ Adb connect via USB OTG
         > adb push <pathTo_file_on_PC> <pathTo_store_file_on_board>
 
 
+:pagebreak:`True`
+
 Adb connect via internet
 ------------------------
 
@@ -462,6 +491,7 @@ Adb connect via internet
        $ adb –s 192.168.1.117:5555 install "**".apk
 
 
+:pagebreak:`True`
 
 Android App Development
 =======================
@@ -501,6 +531,8 @@ Preparation
        Install API packages
 
 #) Downloading and installing the packages will take some time. When the process completes, close the Android SDK Manager.
+
+:pagebreak:`True`
 
 Example — Develop a ``HelloWorld`` Program
 ------------------------------------------
@@ -543,5 +575,7 @@ Example — Develop a ``HelloWorld`` Program
 .. note::
 
     If the USB is not configured as an OTG model, you can copy and install the file ``HelloWorld.apk`` from the project folder ``HelloWorld/bin/``, or install the ``HelloWorld.apk`` via the internet (See `Adb connect via internet`_).
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support

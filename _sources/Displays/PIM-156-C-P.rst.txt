@@ -53,6 +53,8 @@
 
 .. |product_link| replace:: PIM-156-P
 
+.. |Cover PNG| image:: /Media/Displays/PIM-156-P/pim-156p-front.png
+
 .. |Front View| image:: /Media/Displays/PIM-156-P/pim-156p-front.jpg
                   :class: product-img
 
@@ -71,8 +73,6 @@
     :class: html-only
 
 .. include:: Shared/three_main_images
-
-:pagebreak:`True`
 
 .. include:: Resources/overview
 
