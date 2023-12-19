@@ -64,6 +64,8 @@ Below is the link to the prebuilt images for the Linux Qt operating system on th
    | user/password | [root/root]                      |
    +---------------+----------------------------------+
 
+:pagebreak:`True`
+
 Preparation
 ===========
 
@@ -99,6 +101,8 @@ Software Requirements
 
     In this documentation, all the commands are executed with ``root`` user privileges.
 
+:pagebreak:`True`
+
 Debug
 =====
 
@@ -133,6 +137,8 @@ Follow these steps to perform serial debugging:
 
        *Serial Debug*
 
+:pagebreak:`True`
+
 SSH Debug
 ---------
 
@@ -156,9 +162,10 @@ Continue the debugging by follow these steps:
 
        *SSH Debug*
 
+:pagebreak:`True`
+
 VNC Debug
 ---------
-
 
 You can use the VNC-Viewer software in Windows to control Chipsee IPC over Ethernet.
 
@@ -188,6 +195,8 @@ You can use the VNC-Viewer software in Windows to control Chipsee IPC over Ether
        :figclass: align-center
 
        *Authentications*
+
+:pagebreak:`True`
 
 Downloading images
 ==================
@@ -320,6 +329,7 @@ Follow the steps below to download images onto the eMMC by using the TF Card:
 #) After 20 minutes, if the LED on industrial PC stays lit, flashing is completed. Using COM1, you can also find this message **>>>>>>> eMMC Flashing Completed <<<<<<<** which indicates that the system image was downloaded correctly to the eMMC.
 #) Power OFF and set the switch S1 to eMMC boot mode. (refer to `Boot Switch Configuration`_ above)
 
+:pagebreak:`True`
 
 System Resource
 ===============
@@ -339,6 +349,8 @@ These devices will be automatically mounted on `/run/media/mmcblk0P*`, as shown 
 .. note::
 
    The TF card and USB Storage do not support NTFS format. Please format it to FAT32 first before plugging into IPC.
+
+:pagebreak:`True`
 
 Network
 -------
@@ -446,6 +458,8 @@ You can configure the Wi-Fi using these methods:
 
    # wifienable.sh
 
+:pagebreak:`True`
+
 Sound Test
 ----------
 
@@ -479,6 +493,8 @@ You can click the **Audio** button to playback audio. You can also click the **R
 
    *Audio Test*
 
+:pagebreak:`True`
+
 Serial Port
 -----------
 
@@ -502,6 +518,8 @@ You can test the serial port by using the **HT_Serial Application** in the deskt
    :figclass: align-center
 
    *HT_Serial Test*
+
+:pagebreak:`True`
 
 CAN Bus
 -------
@@ -579,6 +597,8 @@ Refer to the figure below for the CAN part in the HT application.
 
    *CAN*
 
+:pagebreak:`True`
+
 GPIO
 ----
 
@@ -622,6 +642,8 @@ Follow these steps to perform the GPIO test:
 
    The default gpio has 4 Outputs and 4 Inputs. If you want a custom solution, please check the `/etc/init.d/chipsee-init` file for details.
 
+:pagebreak:`True`
+
 Buzzer
 ------
 
@@ -644,6 +666,8 @@ You also can use the HT application to test the buzzer.
    :figclass: align-center
 
    *Buzzer*
+
+:pagebreak:`True`
 
 Development
 ===========
@@ -712,6 +736,8 @@ Preparation
 
        *Kits*
 
+:pagebreak:`True`
+
 Example — Develop a ``HelloWorld`` Program
 ------------------------------------------
 
@@ -758,6 +784,7 @@ Example — Develop a ``HelloWorld`` Program
 
 You can get the ``HelloWorld`` app from the `/home/leave/build-HelloWorld-imx-Debug` directory, but your directory might not be the same as this one.
 
+:pagebreak:`True`
 
 Q&A
 ===
@@ -808,5 +835,7 @@ How to Change psplash's
 
            # echo 180 > /etc/rotation   // rotate  180  angle
            # echo 0 > /etc/rotation	    // reset to default.
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support
