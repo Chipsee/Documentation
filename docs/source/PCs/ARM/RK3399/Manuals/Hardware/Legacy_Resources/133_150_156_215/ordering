@@ -12,13 +12,13 @@ Operating System
 
 This product comes with a pre-installed OS of your choice. Please see the list below for the supported OSes, which can be also obtained from the :ref:`Software Documentation <RK3399_OSDownloads>` section, along with the detailed installation instructions.
 
-* Chipsee Linux\ [*]_
+* Buildroot Linux Qt5.14\ [*]_
 * Android 7.1
 * Debian 10
 
 -----
 
-.. [*] Chipsee Linux is based on buildroot that has been integrated with:
+.. [*] (Formerly Chipsee Linux) Based on buildroot that has been integrated with:
        
       1. Chipsee Hardware Test Application
       
