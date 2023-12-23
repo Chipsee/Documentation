@@ -7,7 +7,7 @@ on:
   # Triggers the workflow on push events but only for the main branch
   push:
     branches:
-      - main
+      - docs-layout-testing
     paths:
       - docs/source/**
 
@@ -47,11 +47,11 @@ jobs:
         documentation_path: docs/source
         requirements_path: docs/source/requirements.txt
         config_file_path: docs/source/conf.py
-        target_branch: docs-build
+        target_branch: docs-layout
         sphinx_version: 5.3
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: docs-build
+        branch: docs-layout
         force: true
