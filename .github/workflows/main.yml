@@ -42,7 +42,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-pip-
     - name: Build and Commit
-      uses: iSOLveIT/sphinx-pdf-generate-action@main
+      uses: sphinx-notes/pages@v2
       with:
         documentation_path: docs/source
         requirements_path: docs/source/requirements.txt
