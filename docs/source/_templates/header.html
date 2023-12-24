@@ -1,70 +1,53 @@
-<header class="md-header" data-md-component="header">
+<header>
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-md-component="header">
+    <div class="container-fluid">
+      <a class="navbar-brand pt-0" href="/">
+        <img src="{{ pathto('_static/images/logo_dark.png', 1) }}" height="30" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav fs-6">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Industrial PCs
+            </a>
+            <ul class="dropdown-menu" id="nav-dropdown">
+              <li><a class="dropdown-item" href="{{ pathto('PCs/index-rpi.html', 1) }}">Powered by Raspberry Pi</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="{{ pathto('PCs/index-rockchip.html', 1) }}">Powered by Rockchip</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="{{ pathto('PCs/index-nxp.html', 1) }}">Powered by NXP</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="{{ pathto('PCs/index-ti.html', 1) }}">Powered by TI</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="{{ pathto('PCs/index-intel.html', 1) }}">Powered by INTEL</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ pathto('PCs/index-mtk.html', 1) }}">Handhelds</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ pathto('Displays/index-display.html', 1) }}">Displays</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.chipsee.com" target="_blank">Shop</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <nav class="md-header-nav md-grid">
     <div class="md-flex navheader">
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="{{ pathto(master_doc)|e }}" title="{{ docstitle|e }}"
-           class="md-header-nav__button md-logo">
-          {% if theme_logo_icon|e %}
-            <i class="md-icon">{{ theme_logo_icon }}</i>
-          {% elif logo %}
-              <img src="{{ pathto('_static/' ~ logo, 1) }}" height="32"
-                   alt="{{ shorttitle|striptags|e }} logo">
-          {% else %}
-            &nbsp;
-          {% endif %}
-        </a>
-      </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
-      </div>
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
-          <ul class="nav justify-content-center" id="desktop_menu">
-            {% set s_pg_name = pagename.split('/')[0] %}
-            {% if s_pg_name == "PCs" %}
-              <li class="nav-item">
-                <a class="nav-link" style="color:#fff!important;" href="{{ pathto('PCs/index.html', 1) }}">Industrial PC</a>
-              </li>
-            {% else %}
-              <li class="nav-item">
-                <a class="nav-link" href="{{ pathto('PCs/index.html', 1) }}">Industrial PC</a>
-              </li>
-            {% endif %}
-
-            {% if s_pg_name == "Displays" %}
-              <li class="nav-item">
-                <a class="nav-link" style="color:#fff!important;" href="{{ pathto('Displays/index.html', 1) }}">Industrial Display</a>
-              </li>
-            {% else %}
-              <li class="nav-item">
-                <a class="nav-link" href="{{ pathto('Displays/index.html', 1) }}">Industrial Display</a>
-              </li>
-            {% endif %}
-        </ul>
-
-          {%- if sourcename == 'index.rst.txt' %}
-            <span class="md-header-nav__topic">{{ theme_nav_title or shorttitle }}</span>
-            <span class="md-header-nav__topic"> {{ title|striptags|e }} </span>
-          {%- endif %}
           {%- if sourcename != 'index.rst.txt' %}
             <span class="md-header-nav__topic"> {{ title|striptags|e }} </span>
             <span class="md-header-nav__topic"> {{ title|striptags|e }} </span>
           {%- endif %}
-
         </div>
       </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-        {% include "searchbox.html" %}
-      </div>
-      {% if theme_repo_url %}
-        <div class="md-flex__cell md-flex__cell--shrink">
-          <div class="md-header-nav__source">
-            {% include "repo.html" %}
-          </div>
-        </div>
-      {% endif %}
-      {% include "version_dropdown.html" %}
     </div>
   </nav>
 </header>
