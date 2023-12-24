@@ -1,0 +1,36 @@
+PX30 / A35
+##########
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+10.1 Inch (All-in-one)
+|AIO-PX30-101|
+
+:ref:`AIO-PX30-101 <AIO-PX30-101>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>
+
+.. |AIO-PX30-101| image:: /Media/ARM/A35/AIO/CS12800PX101A/CS12800PX101A-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/PX30/AIO/Manuals/Hardware/CS12800PX101A.html
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   AIO-PX30-101 </PCs/ARM/PX30/AIO/Manuals/Hardware/CS12800PX101A>

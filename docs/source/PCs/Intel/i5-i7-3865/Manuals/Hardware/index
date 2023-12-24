@@ -1,0 +1,55 @@
+i5/i7/3855
+##########
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+15.0 Inch
+|PPC-10510U-150-C|
+
+:ref:`PPC-10510U-150-C<PPC-10510U-150-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Box
+|CS86-Box-i5|
+
+:ref:`CS86-Box<CS86-Box>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+     </div>
+
+.. |PPC-10510U-150-C| image:: /Media/Intel/i5-i7-3865/150/PPC-10510U-150-C-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/Intel/i5-i7-3865/Manuals/Hardware/PPC-10510U-150-C.html
+.. |CS86-Box-i5| image:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/Intel/i5-i7-3865/Manuals/Hardware/CS86-BOX.html
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   PPC-10510U-150-C </PCs/Intel/i5-i7-3865/Manuals/Hardware/PPC-10510U-150-C>
+   CS86-BOX </PCs/Intel/i5-i7-3865/Manuals/Hardware/CS86-BOX>
