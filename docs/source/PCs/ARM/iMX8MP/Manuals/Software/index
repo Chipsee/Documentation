@@ -1,0 +1,74 @@
+For iMX8MP
+==========
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Firmware
+
+.. raw:: html
+
+         <img src="/_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+
+:ref:`OS Downloads <IMX8MP_OSDownloads>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc
+
+.. raw:: html
+
+         <img src="/_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+
+:ref:`Android 12 <imx8mp_os_android12>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc
+
+.. raw:: html
+
+         <img src="/_static/images/og_logo_yocto.png" class="img-fluid text-center" width="100px">
+
+:ref:`Yocto Linux Qt 6.3 <imx8mp_os_yocto63>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>
+
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+      
+   Yocto Linux QT 6.3 </PCs/ARM/iMX8MP/Manuals/Software/Yocto_Linux_QT_6_3>
+   Android 12 </PCs/ARM/iMX8MP/Manuals/Software/Android_12>
+   iMX8MP OS Downloads </PCs/ARM/iMX8MP/OS_Downloads/index>

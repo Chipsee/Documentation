@@ -3,6 +3,7 @@
 .. |systemType| replace:: Linux Qt 5.5
 .. |chip| replace:: iMX6UL
 
+.. _imx6ul_os_linuxqt55:
 
 |systemType| OS
 ###############

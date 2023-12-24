@@ -1,0 +1,88 @@
+Software
+########
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Firmware
+
+.. raw:: html
+
+         <img src="/_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+         <a href="https://github.com/Chipsee/industrial-pi#latest-system-images" target="_blank">OS Downloads</a>
+     </div>
+   </div>
+   
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc (CM3, CM4)
+
+.. raw:: html
+
+         <img src="/_static/images/os_logo_pi.png" class="img-fluid text-center" width="100px">
+
+:ref:`Raspberry Pi OS<rpi_os>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc (AIO-CM4-156)
+
+.. raw:: html
+
+         <img src="/_static/images/os_logo_pi.png" class="img-fluid text-center" width="100px">
+
+:ref:`Raspberry Pi OS<aio-cm4-156-pi-os>`
+   
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc (AIO-CM4-156)
+
+.. raw:: html
+
+         <img src="/_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+
+:ref:`Android <aio-cm4-156-android-os>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   Raspberry Pi OS </PCs/Pi/Software/Debian>
+   AIO-CM4-156 Raspberry Pi OS Start Guide </PCs/Pi/Software/AIO156StartGuide>
+   AIO-CM4-156 Android Start Guide </PCs/Pi/Software/AIO156AndroidSystem>

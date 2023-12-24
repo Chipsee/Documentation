@@ -79,7 +79,7 @@
                   :align: middle
                   :width: 960
                   
-.. |mounting_img| image:: /Media/Pi/A72/CS19108RA4215/mechanical.png
+.. |mounting_img| image:: /Media/Pi/A72/CS19108RA4215/CS19108RA4215-mechanical.png
                   :align: middle
                   :width: 768
 

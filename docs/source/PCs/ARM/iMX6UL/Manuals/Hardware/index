@@ -1,0 +1,38 @@
+i.MX6UL / A7
+############
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+7 Inch
+|EPC/PPC-A7-070HB-C|
+
+:ref:`EPC/PPC-A7-070HB-C<EPC/PPC-A7-070HB-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>
+
+.. |EPC/PPC-A7-070HB-C| image:: /Media/ARM/A7/CS10600U070/PPC-A7-070HB-C-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/iMX6UL/Manuals/Hardware/CS10600U070.html
+   
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   EPC/PPC-A7-070HB-C </PCs/ARM/iMX6UL/Manuals/Hardware/CS10600U070>
+
+
