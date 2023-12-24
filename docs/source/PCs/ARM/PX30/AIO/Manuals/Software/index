@@ -1,0 +1,35 @@
+For PX30
+========
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Firmware
+
+.. raw:: html
+
+         <img src="/_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+
+:ref:`OS Downloads <PX30_OSDownloads>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   AIO-PX30-101 OS Downloads </PCs/ARM/PX30/AIO/OS_Downloads/index>

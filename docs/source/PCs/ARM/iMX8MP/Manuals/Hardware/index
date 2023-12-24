@@ -1,0 +1,59 @@
+i.MX8MP / A53
+#############
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+7 Inch
+|PPC-A53-070|
+
+:ref:`PPC-A53-070<PPC-A53-070>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+BOX
+|CS-A53-BOX|
+
+:ref:`CS-A53-BOX<CS-A53-BOX>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>
+
+
+.. |PPC-A53-070| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/iMX8MP/Manuals/Hardware/CS10600-IMX8MP-070P.html
+
+.. |CS-A53-BOX| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/iMX8MP/Manuals/Hardware/CS-IMX8MP-BOX.html
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   PPC-A53-070 </PCs/ARM/iMX8MP/Manuals/Hardware/CS10600-IMX8MP-070P>
+   CS-A53-BOX </PCs/ARM/iMX8MP/Manuals/Hardware/CS-IMX8MP-BOX>
+
+

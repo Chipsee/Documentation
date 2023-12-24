@@ -52,30 +52,6 @@
       </li>
     {%- endfor %}
     </ul>
-  {% elif s_pg_name == "SOM" %}
-    <ul class="md-nav__list">
-    {%- for item in toctree_nodes[2:3] recursive %}
-      <li class="md-nav__item">
-      {% if "caption" in item %}
-        <span class="md-nav__link caption">{{ item.caption }}</span>
-      {% else %}
-      {% if item.current %}
-      <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      <label class="md-nav__link md-nav__link--active" for="__toc"> {{ item.contents }} </label>
-      {% endif %}
-        <a href="{{ item.href|e }}" class="md-nav__link{% if item.current %} md-nav__link--active{% endif %}">{{ item.contents }}</a>
-        {% if item.current %}
-          {%- set sphinx_material_include_searchbox=False %}
-          {% include "localtoc.html" %}
-        {% endif %}
-        {%- set sphinx_material_include_searchbox=True %}
-        {%- if item.children -%}
-          <ul class="md-nav__list"> {{ loop(item.children) }}</ul>
-        {%- endif %}
-      {% endif %}
-      </li>
-    {%- endfor %}
-    </ul>
   {% elif s_pg_name == "TutorialGuide" %}
     <ul class="md-nav__list">
     {%- for item in toctree_nodes[3:4] recursive %}
@@ -103,6 +79,4 @@
   {% else %}
   {% endif %}
 
-  
-  {# TODO: Fallback to toc? #}
 {% endif %}

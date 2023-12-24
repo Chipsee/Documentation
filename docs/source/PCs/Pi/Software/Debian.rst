@@ -1,5 +1,7 @@
 .. include:: /PCs/Shared/pdf_options_software
 
+.. _rpi_os:
+
 .. |systemType| replace:: Raspberry Pi
 .. |chip| replace:: CM4
 

@@ -9,6 +9,7 @@
 .. |bash_script| replace:: ./mkmmc-android.sh
 
 
+.. _am335x_os_android41:
 
 |systemType| OS
 ###############

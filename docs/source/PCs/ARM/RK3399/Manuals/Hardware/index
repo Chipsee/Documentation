@@ -1,0 +1,378 @@
+RK3399 / A72
+############
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+7 Inch
+|EPC/PPC-A72-070-C|
+
+:ref:`EPC/PPC-A72-070-C <EPC/PPC-A72-070-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+10.1 Inch
+|PPC-A72-101|
+
+:ref:`PPC-A72-101<PPC-A72-101>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+12.1 Inch
+|PPC-A72-121-P|
+
+:ref:`PPC-A72-121-P<PPC-A72-121-P>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+12.5 Inch
+|PPC-A72-125-C|
+
+:ref:`PPC-A72-125-C<PPC-A72-125-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+13.3 Inch
+|PPC-A72-133-P|
+
+:ref:`PPC-A72-133-P<PPC-A72-133-P>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+15.0 Inch
+|PPC-A72-150-P|
+
+:ref:`PPC-A72-150-P<PPC-A72-150-P>` 
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+15.6 Inch
+|PPC-A72-156-P|
+
+:ref:`PPC-A72-156-P<PPC-A72-156-P>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+17.0 Inch
+|PPC-A72-170-P|
+
+:ref:`PPC-A72-170-P<PPC-A72-170-P>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+17.3 Inch
+|PPC-A72-173-C|
+
+:ref:`PPC-A72-173-C<PPC-A72-173-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+18.5 Inch
+|PPC-A72-185-P|
+
+:ref:`PPC-A72-185-P<PPC-A72-185-P>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+19.0 Inch
+|PPC-A72-190-P|
+
+:ref:`PPC-A72-190-P<PPC-A72-190-P>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+21.5 Inch
+|PPC-A72-215-P|
+
+:ref:`PPC-A72-215-P<PPC-A72-215-P>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+23.6 Inch
+|PPC-A72-236|
+
+:ref:`PPC-A72-236<PPC-A72-236>` 
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+10.1 Inch(Legacy)
+|EPC/PPC-A72-101-C|
+
+:ref:`EPC/PPC-A72-101-C<EPC/PPC-A72-101-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+13.3 Inch(Legacy)
+|PPC-A72-133-C|
+
+:ref:`PPC-A72-133-C<PPC-A72-133-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+15.0 Inch(Legacy)
+|PPC-A72-150-C|
+
+:ref:`PPC-A72-150-C<PPC-A72-150-C>` 
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+15.6 Inch(Legacy)
+|PPC-A72-156-C|
+
+:ref:`PPC-A72-156-C<PPC-A72-156-C>` 
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+21.5 Inch(Legacy)
+|PPC-A72-215-C|
+
+:ref:`PPC-A72-215-C<PPC-A72-215-C>` 
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>
+
+.. |EPC/PPC-A72-070-C| image:: /Media/ARM/A72/CS10600R070/PPC-A72-070-C-Front-Low.jpeg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS10600R070.html
+
+.. |PPC-A72-101| image:: /Media/ARM/A72/CS12800R101P/CS12800R101P-Front-Low.jpeg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS12800R101P.html
+
+.. |PPC-A72-121-P| image:: /Media/ARM/A72/CS10768R121P/CS10768R121P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS10768R121P.html
+
+.. |PPC-A72-125-C| image:: /Media/ARM/A72/CS19108R125/PPC-A72-125-C-Front-Low.jpeg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R125.html
+   
+.. |PPC-A72-133-P| image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R133P.html
+
+.. |PPC-A72-150-P| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS10768R150P.html
+
+.. |PPC-A72-156-P| image:: /Media/ARM/A72/CS19108R156P/CS19108R156P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R156P.html
+
+.. |PPC-A72-170-P| image:: /Media/ARM/A72/CS12102R170P/CS12102R170P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS12102R170P.html
+
+.. |PPC-A72-173-C| image:: /Media/ARM/A72/CS19108R173/PPC-A72-173-C-Front-Low.jpeg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R173.html
+
+.. |PPC-A72-185-P| image:: /Media/ARM/A72/CS19108R185P/CS19108R185P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R185P.html
+
+.. |PPC-A72-190-P| image:: /Media/ARM/A72/CS12102R190P/CS12102R190P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS12102R190P.html
+   
+.. |PPC-A72-215-P| image:: /Media/ARM/A72/CS19108R215P2/CS19108R215P2-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R215P2.html
+
+.. |PPC-A72-236| image:: /Media/ARM/A72/CS19108R236P/CS19108R236P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R236P.html
+
+.. |EPC/PPC-A72-101-C| image:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Front-Low.jpeg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS12800R101.html
+
+.. |PPC-A72-133-C| image:: /Media/ARM/A72/CS19108R133/PPC-A72-133-C-Front-Low.jpeg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R133.html
+
+.. |PPC-A72-150-C| image:: /Media/ARM/A72/CS10768R150/PPC-A72-150-C-Front-Low.jpeg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS10768R150.html
+
+.. |PPC-A72-156-C| image:: /Media/ARM/A72/CS19108R156/PPC-A72-156-C-Front-Low.jpeg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R156.html
+
+.. |PPC-A72-215-C| image:: /Media/ARM/A72/CS19108R215/PPC-A72-215-C-Front-Low.jpeg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R215.html
+
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+
+   EPC/PPC-A72-070-C </PCs/ARM/RK3399/Manuals/Hardware/CS10600R070>
+   PPC-A72-101 </PCs/ARM/RK3399/Manuals/Hardware/CS12800R101P>
+   PPC-A72-121-P </PCs/ARM/RK3399/Manuals/Hardware/CS10768R121P>
+   PPC-A72-125-C </PCs/ARM/RK3399/Manuals/Hardware/CS19108R125>
+   PPC-A72-133-P </PCs/ARM/RK3399/Manuals/Hardware/CS19108R133P>
+   PPC-A72-150-P </PCs/ARM/RK3399/Manuals/Hardware/CS10768R150P>
+   PPC-A72-156-P </PCs/ARM/RK3399/Manuals/Hardware/CS19108R156P>
+   PPC-A72-170-P </PCs/ARM/RK3399/Manuals/Hardware/CS12102R170P>
+   PPC-A72-173-C </PCs/ARM/RK3399/Manuals/Hardware/CS19108R173>
+   PPC-A72-185-P </PCs/ARM/RK3399/Manuals/Hardware/CS19108R185P>
+   PPC-A72-190-P </PCs/ARM/RK3399/Manuals/Hardware/CS12102R190P>
+   PPC-A72-215-P </PCs/ARM/RK3399/Manuals/Hardware/CS19108R215P2>
+   PPC-A72-236 </PCs/ARM/RK3399/Manuals/Hardware/CS19108R236P>
+   EPC/PPC-A72-101-C(Legacy) </PCs/ARM/RK3399/Manuals/Hardware/CS12800R101>
+   PPC-A72-133-C(Legacy) </PCs/ARM/RK3399/Manuals/Hardware/CS19108R133>
+   PPC-A72-150-C(Legacy) </PCs/ARM/RK3399/Manuals/Hardware/CS10768R150>
+   PPC-A72-156-C(Legacy) </PCs/ARM/RK3399/Manuals/Hardware/CS19108R156>
+   PPC-A72-215-C(Legacy) </PCs/ARM/RK3399/Manuals/Hardware/CS19108R215>

@@ -1,36 +1,18 @@
 :pdf-build: False
 
-
 .. _PBI:
 
-Industrial Panel PCs Powered by |Intel|
-=======================================
+.. include:: /PCs/Intel/J1900/Manuals/Hardware/index
 
-This section contains marketing collateral for the Industrial Panel PCs (IPCs) based on |Intel| platforms. Chipsee Product Naming Scheme allows for 
-quick extraction of the key features from the product numbers (PN) directly, so familiarize yourself with the :ref:`naming-rules-Intel` to make navigating through
-the repository much easier.
+.. include:: /PCs/Intel/J6412/Manuals/Hardware/index
 
-.. rubric:: Products by platform: |Celeron| J1900
+.. include:: /PCs/Intel/i5-i7-3865/Manuals/Hardware/index
 
 .. toctree::
    :maxdepth: 1
    :titlesonly:
-    
-   J1900 HW Documentation <J1900/Manuals/Hardware/index>
+   :hidden:
 
-.. rubric:: Products by platform: |Celeron| J6412
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-    
-   J6412 HW Documentation <J6412/Manuals/Hardware/index>   
-
-.. rubric:: Products by platform: |Core| i5, i7 and |Celeron| 3855
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-   
-   i5/i7/3855 HW Documentation <i5-i7-3865/Manuals/Hardware/index>
- 
+   J1900 <J1900/Manuals/Hardware/index>
+   J6412 <J6412/Manuals/Hardware/index>
+   i5-i7-3855 <i5-i7-3865/Manuals/Hardware/index>
