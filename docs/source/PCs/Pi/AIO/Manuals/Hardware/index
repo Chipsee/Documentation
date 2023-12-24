@@ -1,0 +1,56 @@
+AIO-CM4
+#######
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+10.1 Inch(All-in-one)
+|AIO-CM4-101|
+
+:ref:`AIO-CM4-101<AIO-CM4-101>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+15.6 Inch(All-in-one)
+|AIO-CM4-156|
+
+:ref:`AIO-CM4-156<AIO-CM4-156>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+     </div>
+
+.. |AIO-CM4-101| image:: /Media/Pi/AIO/CS12800RA4101A/CS12800RA4101A-Front-Low.jpeg
+   :class: index-item-img
+   :target: /PCs/Pi/AIO/Manuals/Hardware/CS12800RA4101A.html
+.. |AIO-CM4-156| image:: /Media/Pi/AIO/CS19108RA4156A/CS19108RA4156A-Front-Low.jpeg
+   :class: index-item-img
+   :target: /PCs/Pi/AIO/Manuals/Hardware/CS19108RA4156A.html
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+
+   AIO-CM4-101 </PCs/Pi/AIO/Manuals/Hardware/CS12800RA4101A>
+   AIO-CM4-156 </PCs/Pi/AIO/Manuals/Hardware/CS19108RA4156A>

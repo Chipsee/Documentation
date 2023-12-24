@@ -17,7 +17,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "Chipsee Documentation Sample"
-copyright = "2023, Chipsee"
+copyright = "2024, Chipsee"
 author = "Chipsee"
 version = "1.1"
 
@@ -78,7 +78,9 @@ html_theme_options = {
     # 'html_minify': True,
     "css_minify": True,
 }
-html_sidebars = {"**": ["globaltoc.html", "localtoc.html", "searchbox.html"]}
+html_sidebars = {
+    "**": ["localtoc.html", "searchbox.html"],
+}
 
 html_css_files = ["css/material_custom.css"]
 # html_js_files = [('js/material_custom.js', {'async': 'async'},)]

@@ -1,0 +1,131 @@
+For iMX6Q
+=========
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Firmware
+
+.. raw:: html
+
+         <img src="/_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+
+:ref:`OS Downloads <IMX6Q_OSDownloads>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc
+
+.. raw:: html
+
+         <img src="/_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+
+:ref:`Android 4.3<imx6q_os_android43>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc
+
+.. raw:: html
+
+         <img src="/_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+
+:ref:`Android 6.0<imx6q_os_android60>`
+   
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc
+
+.. raw:: html
+
+         <img src="/_static/images/os_logo_linux.png" class="img-fluid text-center" width="100px">
+
+:ref:`Linux Qt 5.5 <imx6q_os_linuxqt55>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc
+
+.. raw:: html
+
+         <img src="/_static/images/os_logo_ubuntu.png" class="img-fluid text-center" width="100px">
+
+:ref:`Ubuntu 12 <imx6q_os_ubuntu12>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc
+
+.. raw:: html
+
+         <img src="/_static/images/os_logo_ubuntu.png" class="img-fluid text-center" width="100px">
+
+:ref:`Ubuntu 14 <imx6q_os_ubuntu14>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>
+
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+   
+   Android 4 </PCs/ARM/iMX6Q/Manuals/Software/Android_43>
+   Android 6.0 </PCs/ARM/iMX6Q/Manuals/Software/Android_60>
+   Linux Qt 5.5 </PCs/ARM/iMX6Q/Manuals/Software/Linux_Qt55>
+   Ubuntu 12.04 </PCs/ARM/iMX6Q/Manuals/Software/Ubuntu_12>
+   Ubuntu 14.04 </PCs/ARM/iMX6Q/Manuals/Software/Ubuntu_14>
+   iMX6Q OS Downloads </PCs/ARM/iMX6Q/OS_Downloads/index>
