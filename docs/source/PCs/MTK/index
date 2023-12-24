@@ -1,0 +1,74 @@
+Handhelds Powered by MTK
+########################
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+3.5 Inch
+|HPC-MT6737-035|
+
+:ref:`HPC-MT6737-035<HPC-MT6737-035>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+5.7 Inch
+|HPC-MT6762-057|
+
+:ref:`HPC-MT6762-057<HPC-MT6762-057>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+8 Inch
+|HPC-MT6771-080|
+
+:ref:`HPC-MT6771-080<HPC-MT6771-080>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+   
+   </div>
+
+.. |HPC-MT6737-035| image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/MTK/MT6737/Manuals/Hardware/HPC-MT6737-035.html
+.. |HPC-MT6762-057| image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/MTK/MT6762/Manuals/Hardware/HPC-MT6762-057.html
+.. |HPC-MT6771-080| image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/MTK/MT6771/Manuals/Hardware/HPC-MT6771-080.html
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   HPC-MT6737-035 </PCs/MTK/MT6737/Manuals/Hardware/HPC-MT6737-035>
+   HPC-MT6762-057 </PCs/MTK/MT6762/Manuals/Hardware/HPC-MT6762-057>
+   HPC-MT6771-080 </PCs/MTK/MT6771/Manuals/Hardware/HPC-MT6771-080>
