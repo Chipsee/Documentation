@@ -4,6 +4,8 @@
 .. |chip| replace:: RK3568
 .. |ipc| replace:: Chipsee industrial PC
 
+.. _rk3568_os_linuxqt515:
+
 |systemType| OS
 ###############
 
