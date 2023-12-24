@@ -1,0 +1,190 @@
+i.MX6Q / A9
+###########
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+7 Inch
+|PPC-A9-070-C|
+
+:ref:`EPC/PPC-A9-070-C<EPC/PPC-A9-070-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+9.7 Inch
+|PPC-A9-097-C|
+
+:ref:`EPC/PPC-A9-097-C<EPC/PPC-A9-097-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+10.1 Inch
+|PPC-A9-101-C|
+
+:ref:`EPC/PPC-A9-101-C<EPC/PPC-A9-101-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+12.1 Inch
+|PPC-A9-121-C|
+
+:ref:`PPC-A9-121-C<PPC-A9-121-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+12.1 Inch
+|PPC-A9-121-U-C|
+
+:ref:`PPC-A9-121-U-C<PPC-A9-121-U-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+15.0 Inch
+|PPC-A9-150-C|
+
+:ref:`PPC-A9-150-C<PPC-A9-150-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+17.0 Inch
+|PPC-A9-170-C|
+
+:ref:`PPC-A9-170-C<PPC-A9-170-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+19.0 Inch
+|PPC-A9-190-C|
+
+:ref:`PPC-A9-190-C<PPC-A9-190-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+21.5 Inch
+|PPC-A9-215-C|
+
+:ref:`PPC-A9-215-C<PPC-A9-215-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+
+.. raw:: html
+   
+   </div>
+
+.. |PPC-A9-070-C| image:: /Media/ARM/A9/CS10600F070/PPC-A9-070-C-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS10600F070.html
+.. |PPC-A9-097-C| image:: /Media/ARM/A9/CS10768F097/PPC-A9-097-C-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F097.html
+.. |PPC-A9-101-C| image:: /Media/ARM/A9/CS12800F101/PPC-A9-101-C-Front-Low.jpeg
+   :class: index-item-img
+   :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS12800F101.html
+.. |PPC-A9-121-C| image:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Front-V2.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F121.html
+.. |PPC-A9-121-U-C| image:: /Media/ARM/A9/CS10768F121-U/PPC-A9-121-U-C-Front-Low.jpeg
+   :class: index-item-img
+   :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F121-U.html
+.. |PPC-A9-150-C| image:: /Media/ARM/A9/CS10768F150/PPC-A9-150-C-Front-Low.jpeg
+   :class: index-item-img
+   :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F150.html
+.. |PPC-A9-170-C| image:: /Media/ARM/A9/CS12102F170/PPC-A9-170-C-Front-Low.jpeg
+   :class: index-item-img
+   :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS12102F170.html
+.. |PPC-A9-190-C| image:: /Media/ARM/A9/CS14900F190/PPC-A9-190-C-Front-Low.jpeg
+   :class: index-item-img
+   :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS14900F190.html
+.. |PPC-A9-215-C| image:: /Media/ARM/A9/CS19108F215/PPC-A9-215-C-Front-Low.jpeg
+   :class: index-item-img
+   :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS19108F215.html
+
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+ 
+   EPC/PPC-A9-070-C </PCs/ARM/iMX6Q/Manuals/Hardware/CS10600F070>
+   EPC/PPC-A9-097-C </PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F097>
+   EPC/PPC-A9-101-C </PCs/ARM/iMX6Q/Manuals/Hardware/CS12800F101>
+   PPC-A9-121-C </PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F121>
+   PPC-A9-121-U-C </PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F121-U>
+   PPC-A9-150-C </PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F150>
+   PPC-A9-170-C </PCs/ARM/iMX6Q/Manuals/Hardware/CS12102F170>
+   PPC-A9-190-C </PCs/ARM/iMX6Q/Manuals/Hardware/CS14900F190>
+   PPC-A9-215-C </PCs/ARM/iMX6Q/Manuals/Hardware/CS19108F215>

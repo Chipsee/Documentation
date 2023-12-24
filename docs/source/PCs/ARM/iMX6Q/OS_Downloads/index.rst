@@ -1,10 +1,9 @@
 :pdf-build: False
 
+.. _IMX6Q_OSDownloads:
 
 i.MX6Q OS Downloads
 ###################
-
-.. _IMX6Q_OSDownloads:
 
 Please note that not all the products use the same model of touch panel. Be sure to download the correct OS according to the touch panel installed in your product.
 For additional information, contact |email|_
