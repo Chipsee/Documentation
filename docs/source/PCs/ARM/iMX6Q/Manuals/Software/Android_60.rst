@@ -3,6 +3,8 @@
 .. |systemType| replace:: Android 6.0
 .. |chip| replace:: iMX6Q
 
+.. _imx6q_os_android60:
+
 |systemType| OS
 ###############
 

@@ -3,6 +3,8 @@
 .. |systemType| replace:: Ubuntu 12.04
 .. |chip| replace:: iMX6Q
 
+.. _imx6q_os_ubuntu12:
+
 |systemType| OS
 ###############
 

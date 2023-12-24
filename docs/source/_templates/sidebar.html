@@ -1,34 +1,19 @@
-<nav class="md-nav md-nav--primary" data-md-level="0">
-  <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="{{ pathto(master_doc)|e }}" title="{{ docstitle|striptags|e }}" class="md-nav__button md-logo">
-      {% if theme_logo_icon %}
-        <i class="md-icon">{{ theme_logo_icon }}</i>
-      {% else %}
-        <img src="{{ pathto('_static/' ~ logo, 1) }}" alt="{{ html_title }} logo" width="48" height="48">
-      {% endif %}
-    </a>
-    <a href="{{ pathto(master_doc)|e }}"
-       title="{{ docstitle|striptags|e }}">{{ theme_nav_title or shorttitle }}</a>
-  </label>
-
-  <ul class="list-group" id="mobile_menu">
-    <li class="list-group-item">
-      <a href="{{ pathto('PCs/index.html', 1) }}">Industrial PC</a>
-    </li>
-    <li class="list-group-item">
-      <a href="{{ pathto('Displays/index.html', 1) }}">Industrial Display</a>
-    </li>
-    <li class="list-group-item">
-      <a href="{{ pathto('TutorialGuide/index.html', 1) }}">Tutorials and Guides</a>
-    </li>
+{% set toc_nodes = derender_toc(toc, True, pagename) if display_toc else [] %}
+<nav class="md-nav md-nav--secondary">
+  {%- if display_toc and toc_nodes and sidebars and 'localtoc.html' in sidebars %}
+    <label class="md-nav__title" for="__toc">ON THIS PAGE</label>
+  {%- endif %}
+  <ul class="md-nav__list" data-md-scrollfix="">
+    {%- if display_toc and sidebars and 'localtoc.html' in sidebars %}
+      {%- for item in toc_nodes recursive %}
+        <li class="md-nav__item"><a href="{{ item.href|e }}" class="md-nav__link">{{ item.contents }}</a>
+          {%- if item.children -%}
+            <nav class="md-nav">
+              <ul class="md-nav__list">{{ loop(item.children) }}</ul>
+            </nav>
+          {%- endif %}
+        </li>
+      {%- endfor %}
+    {%- endif %}
   </ul>
-
-  {%- if theme_repo_url %}
-    <div class="md-nav__source">
-      {% include "repo.html" %}
-    </div>
-  {% endif %}
-
-  {% include "globaltoc.html" %}
-
 </nav>
