@@ -1,5 +1,7 @@
 .. include:: /PCs/Shared/pdf_options_software
 
+.. _aio-cm4-156-android-os:
+
 .. |systemType| replace:: Android
 .. |chip| replace:: AIO CM4
 

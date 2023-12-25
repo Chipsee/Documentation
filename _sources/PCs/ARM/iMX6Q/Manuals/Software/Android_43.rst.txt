@@ -3,6 +3,7 @@
 .. |systemType| replace:: Android 4
 .. |chip| replace:: iMX6Q
 
+.. _imx6q_os_android43:
 
 |systemType| OS
 ###############

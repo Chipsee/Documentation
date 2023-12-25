@@ -3,6 +3,8 @@
 .. |systemType| replace:: Ubuntu 14.04
 .. |chip| replace:: iMX6Q
 
+.. _imx6q_os_ubuntu14:
+
 |systemType| OS
 ###############
 

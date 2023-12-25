@@ -425,7 +425,7 @@ i5/i7/3855
       <div class="index-item">
 
 Box
-|CS86-Box|
+|CS86-Box-i5|
 
 :ref:`CS86-Box<CS86-Box>`
 
@@ -441,6 +441,6 @@ Box
 .. |PPC-10510U-150-C| image:: /Media/Intel/i5-i7-3865/150/PPC-10510U-150-C-Front.jpg
    :class: no-scaled-link
    :target: /PCs/Intel/i5-i7-3865/Manuals/Hardware/PPC-10510U-150-C.html
-.. |CS86-Box| image:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-Front.jpg
+.. |CS86-Box-i5| image:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-Front.jpg
    :class: no-scaled-link
    :target: /PCs/Intel/i5-i7-3865/Manuals/Hardware/CS86-BOX.html

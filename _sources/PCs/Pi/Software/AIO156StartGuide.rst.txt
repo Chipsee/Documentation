@@ -3,6 +3,7 @@
 .. |systemType| replace:: Raspberry Pi OS
 .. |chip| replace:: AIO CM4
 
+.. _aio-cm4-156-pi-os:
 
 AIO-CM4-156 Raspberry Pi OS Start Guide
 #######################################

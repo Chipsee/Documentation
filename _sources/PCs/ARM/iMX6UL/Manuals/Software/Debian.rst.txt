@@ -3,6 +3,7 @@
 .. |systemType| replace:: Debian 8.10
 .. |chip| replace:: iMX6UL
 
+.. _imx6ul_os_debian810:
 
 Debian 8.10
 ###########

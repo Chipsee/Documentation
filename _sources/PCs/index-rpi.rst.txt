@@ -335,3 +335,69 @@ CM3
 .. |EPC/PPC-CM3-101| image:: /Media/Pi/A53/CS12800RA101/CS12800RA101P-Front.jpeg
    :class: no-scaled-link
    :target: /PCs/Pi/A53/Manuals/Hardware/CS12800RA101.html
+
+
+Software
+########
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For CM3, CM4
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_pi.png" class="img-fluid text-center" width="100px">
+
+:ref:`Raspberry Pi OS<rpi_os>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For AIO-CM4-156
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_pi.png" class="img-fluid text-center" width="100px">
+
+:ref:`Raspberry Pi OS<aio-cm4-156-pi-os>`
+   
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For AIO-CM4-156
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+
+:ref:`Android <aio-cm4-156-android-os>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>
