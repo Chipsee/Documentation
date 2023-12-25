@@ -534,7 +534,6 @@ PX30 / A35
    :class: no-scaled-link p-1
    :target: /PCs/ARM/PX30/AIO/Manuals/Hardware/CS12800PX101A.html
 
-
 Software
 ########
 
