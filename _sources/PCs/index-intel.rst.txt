@@ -1,10 +1,8 @@
 :pdf-build: False
     
-.. raw:: html
+Industrial PCs Powered by INTEL
+###############################
 
-   <div class="display-6 fw-bold mb-3">
-      Industrial PCs Powered by INTEL
-   </div>
 
 J1900
 #####
@@ -185,38 +183,38 @@ Box
 
      </div>
 
-.. |PPC-J1900-104| image:: /Media/Intel/J1900/104/PPC-J1900-104-R-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J1900-104| image:: /Media/Intel/J1900/104/PPC-J1900-104-R-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-104-R.html
-.. |PPC-J1900-121| image:: /Media/Intel/J1900/121/PPC-J1900-121-R-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J1900-121| image:: /Media/Intel/J1900/121/PPC-J1900-121-R-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-121-R.html
-.. |PPC-J1900-170| image:: /Media/Intel/J1900/170/PPC-J1900-170-R-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J1900-170| image:: /Media/Intel/J1900/170/PPC-J1900-170-R-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-170-R.html
-.. |PPC-J1900-190| image:: /Media/Intel/J1900/190/PPC-J1900-190-R-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J1900-190| image:: /Media/Intel/J1900/190/PPC-J1900-190-R-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-190-R.html
-.. |PPC-J1900-101| image:: /Media/Intel/J1900/101/PPC-J1900-101-C-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J1900-101| image:: /Media/Intel/J1900/101/PPC-J1900-101-C-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-101-C.html
-.. |PPC-J1900-133| image:: /Media/Intel/J1900/133/PPC-J1900-133-C-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J1900-133| image:: /Media/Intel/J1900/133/PPC-J1900-133-C-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-133-C.html
-.. |PPC-J1900-150| image:: /Media/Intel/J1900/150/PPC-J1900-150-C-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J1900-150| image:: /Media/Intel/J1900/150/PPC-J1900-150-C-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-150-C.html
-.. |PPC-J1900-156| image:: /Media/Intel/J1900/156/PPC-J1900-156-C-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J1900-156| image:: /Media/Intel/J1900/156/PPC-J1900-156-C-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-156-C.html
-.. |PPC-J1900-215| image:: /Media/Intel/J1900/215/PPC-J1900-215-C-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J1900-215| image:: /Media/Intel/J1900/215/PPC-J1900-215-C-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-215-C.html
-.. |PPC-J1900-236| image:: /Media/Intel/J1900/236/PPC-J1900-236-C-Front.png
-   :class: no-scaled-link
+.. |PPC-J1900-236| image:: /Media/Intel/J1900/236/PPC-J1900-236-C-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-236-C.html
-.. |CS86-Box| image:: /Media/Intel/J1900/CS86-BOX-J1900/CS86-BOX-J1900-front1.jpg
-   :class: no-scaled-link
+.. |CS86-Box| image:: /Media/Intel/J1900/CS86-BOX-J1900/CS86-BOX-J1900-front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J1900/Manuals/Hardware/CS86-BOX-J1900.html
 
 J6412
@@ -369,32 +367,32 @@ J6412
 
      </div>
 
-.. |PPC-J6412-101| image:: /Media/Intel/J6412/PPC-J6412-101-C/PPC-J6412-101-C-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J6412-101| image:: /Media/Intel/J6412/PPC-J6412-101-C/PPC-J6412-101-C-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-101-C.html
-.. |PPC-J6412-104| image:: /Media/Intel/J6412/PPC-J6412-104-R/PPC-J6412-104-R-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J6412-104| image:: /Media/Intel/J6412/PPC-J6412-104-R/PPC-J6412-104-R-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-104-R.html
-.. |PPC-J6412-121| image:: /Media/Intel/J6412/PPC-J6412-121-R/PPC-J6412-121-R-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J6412-121| image:: /Media/Intel/J6412/PPC-J6412-121-R/PPC-J6412-121-R-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-121-R.html
-.. |PPC-J6412-150| image:: /Media/Intel/J6412/PPC-J6412-150-C/PPC-J6412-150-C-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J6412-150| image:: /Media/Intel/J6412/PPC-J6412-150-C/PPC-J6412-150-C-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-150-C.html
-.. |PPC-J6412-156| image:: /Media/Intel/J6412/PPC-J6412-156-C/PPC-J6412-156-C-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J6412-156| image:: /Media/Intel/J6412/PPC-J6412-156-C/PPC-J6412-156-C-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-156-C.html
-.. |PPC-J6412-170| image:: /Media/Intel/J6412/PPC-J6412-170-R/PPC-J6412-170-R-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J6412-170| image:: /Media/Intel/J6412/PPC-J6412-170-R/PPC-J6412-170-R-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-170-R.html
-.. |PPC-J6412-190| image:: /Media/Intel/J6412/PPC-J6412-190-R/PPC-J6412-190-R-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J6412-190| image:: /Media/Intel/J6412/PPC-J6412-190-R/PPC-J6412-190-R-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-190-R.html
-.. |PPC-J6412-215| image:: /Media/Intel/J6412/PPC-J6412-215-C/PPC-J6412-215-C-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J6412-215| image:: /Media/Intel/J6412/PPC-J6412-215-C/PPC-J6412-215-C-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-215-C.html
-.. |PPC-J6412-236| image:: /Media/Intel/J6412/PPC-J6412-236-C/PPC-J6412-236-C-Front.jpg
-   :class: no-scaled-link
+.. |PPC-J6412-236| image:: /Media/Intel/J6412/PPC-J6412-236-C/PPC-J6412-236-C-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/J6412/Manuals/Hardware/PPC-J6412-236-C.html
 
 i5/i7/3855
@@ -438,9 +436,9 @@ Box
 
      </div>
 
-.. |PPC-10510U-150-C| image:: /Media/Intel/i5-i7-3865/150/PPC-10510U-150-C-Front.jpg
-   :class: no-scaled-link
+.. |PPC-10510U-150-C| image:: /Media/Intel/i5-i7-3865/150/PPC-10510U-150-C-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/i5-i7-3865/Manuals/Hardware/PPC-10510U-150-C.html
-.. |CS86-Box-i5| image:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-Front.jpg
-   :class: no-scaled-link
+.. |CS86-Box-i5| image:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Intel/i5-i7-3865/Manuals/Hardware/CS86-BOX.html

@@ -1,10 +1,7 @@
 :pdf-build: False
 
-.. raw:: html
-
-   <div class="display-6 fw-bold mb-3">
-      Handhelds Powered by MTK
-   </div>
+Handhelds Powered by MTK
+########################
 
 .. raw:: html
 
@@ -59,12 +56,12 @@
    
    </div>
 
-.. |HPC-MT6737-035| image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Front.jpg
-   :class: no-scaled-link
+.. |HPC-MT6737-035| image:: /Media/MTK/MT6737/035/HPC-MT6737-035-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/MTK/MT6737/Manuals/Hardware/HPC-MT6737-035.html
-.. |HPC-MT6762-057| image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Front.png
-   :class: no-scaled-link
+.. |HPC-MT6762-057| image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/MTK/MT6762/Manuals/Hardware/HPC-MT6762-057.html
-.. |HPC-MT6771-080| image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Front.jpg
-   :class: no-scaled-link
+.. |HPC-MT6771-080| image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/MTK/MT6771/Manuals/Hardware/HPC-MT6771-080.html

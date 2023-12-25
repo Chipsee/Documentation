@@ -1,10 +1,7 @@
 :pdf-build: False
 
-.. raw:: html
-
-   <div class="display-6 fw-bold mb-3">
-      Industrial Touch Displays
-   </div>
+Industrial Touch Displays
+#########################
 
 .. raw:: html
 
@@ -17,7 +14,6 @@
 
 10.1 Inch
 |PIM-101-C|
-
 
 :ref:`PIM-101-C<PIM-101-C>`
 
@@ -182,36 +178,37 @@
    
    </div>
 
-.. |PIM-101-C| image:: /Media/Displays/PIM-101-C/pim-101-front.png
-   :class: no-scaled-link p-2
+.. |PIM-101-C| image:: /Media/Displays/PIM-101-C/pim-101-front-Low.jpg
+   :class: index-item-img
    :target: /Displays/PIM-101-C.html
-.. |PIM-125-C| image:: /Media/Displays/PIM-125-C/pim-125-front.png
-   :class: no-scaled-link p-2
+.. |PIM-125-C| image:: /Media/Displays/PIM-125-C/pim-125-front-Low.jpg
+   :class: index-item-img
    :target: /Displays/PIM-125-C.html
-.. |PIM-150-C| image:: /Media/Displays/PIM-150-C/pim-150-front.png
-   :class: no-scaled-link p-2
+.. |PIM-150-C| image:: /Media/Displays/PIM-150-C/pim-150-front-Low.jpg
+   :class: index-item-img
    :target: /Displays/PIM-150-C.html
-.. |PIM-156-C| image:: /Media/Displays/PIM-156-C/pim-156-front.png
-   :class: no-scaled-link p-2
+.. |PIM-156-C| image:: /Media/Displays/PIM-156-C/pim-156-front-Low.jpg
+   :class: index-item-img
    :target: /Displays/PIM-156-C.html
-.. |PIM-156-P| image:: /Media/Displays/PIM-156-P/pim-156p-front.jpg
-   :class: no-scaled-link p-2
+.. |PIM-156-P| image:: /Media/Displays/PIM-156-P/pim-156p-front-Low.jpg
+   :class: index-item-img
    :target: /Displays/PIM-156-C-P.html
-.. |PIM-170-C| image:: /Media/Displays/PIM-170-C/pim-170-front.png
-   :class: no-scaled-link p-2
+.. |PIM-170-C| image:: /Media/Displays/PIM-170-C/pim-170-front-Low.jpg
+   :class: index-item-img
    :target: /Displays/PIM-170-C.html
-.. |PIM-185-C| image:: /Media/Displays/PIM-185-C/pim-185-front.png
-   :class: no-scaled-link p-2
+.. |PIM-185-C| image:: /Media/Displays/PIM-185-C/pim-185-front-Low.jpg
+   :class: index-item-img
    :target: /Displays/PIM-185-C.html
-.. |PIM-190-C| image:: /Media/Displays/PIM-190-C/pim-190-front.png
-   :class: no-scaled-link p-2
+.. |PIM-190-C| image:: /Media/Displays/PIM-190-C/pim-190-front-Low.jpg
+   :class: index-item-img
    :target: /Displays/PIM-190-C.html
-.. |PIM-215-C| image:: /Media/Displays/PIM-215-C/pim-215-front.png
-   :class: no-scaled-link p-2
+.. |PIM-215-C| image:: /Media/Displays/PIM-215-C/pim-215-front-Low.jpg
+   :class: index-item-img
    :target: /Displays/PIM-215-C.html
-.. |PIM-236-C| image:: /Media/Displays/PIM-236-C/pim-236-front.png
-   :class: no-scaled-link p-2
+.. |PIM-236-C| image:: /Media/Displays/PIM-236-C/pim-236-front-Low.jpg
+   :class: index-item-img
    :target: /Displays/PIM-236-C.html
-.. |PIM-270-C| image:: /Media/Displays/PIM-270-C/pim-270-front.png
-   :class: no-scaled-link p-2
+.. |PIM-270-C| image:: /Media/Displays/PIM-270-C/pim-270-front-Low.jpg
+   :class: index-item-img
+
    :target: /Displays/PIM-270-C.html
