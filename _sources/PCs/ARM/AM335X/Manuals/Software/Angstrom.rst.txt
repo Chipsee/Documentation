@@ -10,6 +10,7 @@
 .. |user| replace:: root
 .. |pswd| replace:: empty
 
+.. _am335x_os_angstrom2012:
 
 |systemType| OS
 ###############

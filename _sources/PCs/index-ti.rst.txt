@@ -152,3 +152,88 @@ AM335X / A8
 .. |PPC/EPC-A8-097-C| image:: /Media/ARM/A8/CS10768T097/PPC-A8-097-C-Front.jpeg
    :class: no-scaled-link
    :target: /PCs/ARM/AM335x/Manuals/Hardware/CS10768T097.html
+
+Software
+########
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For AM335X
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+
+:ref:`Android 4.3<imx6q_os_android43>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For AM335X
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_debian.png" class="img-fluid text-center" width="100px">
+
+:ref:`Debian 7.4/8.4<am335x_os_debian7484>`
+   
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For AM335X
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_linux.png" class="img-fluid text-center" width="100px">
+
+:ref:`Linux Qt 4.8/5.5 <am335x_os_linuxqt4855>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For AM335X
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_linux.png" class="img-fluid text-center" width="100px">
+
+:ref:`Angstrom 2012 <am335x_os_angstrom2012>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+
+.. raw:: html
+
+   </div>
+

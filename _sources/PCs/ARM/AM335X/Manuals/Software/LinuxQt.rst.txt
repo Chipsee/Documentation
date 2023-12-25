@@ -9,6 +9,7 @@
 .. |user| replace:: root
 .. |pswd| replace:: empty
 
+.. _am335x_os_linuxqt4855:
 
 |systemType| OS
 ###############

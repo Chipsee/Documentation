@@ -9,6 +9,7 @@
 .. |user| replace:: debian or root
 .. |pswd| replace:: chipsee or root
 
+.. _am335x_os_debian7484:
 
 |systemType| OS
 ###############

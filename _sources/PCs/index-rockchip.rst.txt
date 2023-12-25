@@ -509,7 +509,7 @@ PX30 / A35
 
 .. raw:: html
 
-   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1">
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
 
 .. raw:: html
 
@@ -533,3 +533,71 @@ PX30 / A35
 .. |AIO-PX30-101| image:: /Media/ARM/A35/AIO/CS12800PX101A/CS12800PX101A-Front.jpg
    :class: no-scaled-link p-1
    :target: /PCs/ARM/PX30/AIO/Manuals/Hardware/CS12800PX101A.html
+
+Software
+########
+
+For RK3568
+==========
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For RK3568
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+
+:ref:`Android 11<rk3568_os_android11>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For RK3568
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+
+:ref:`Debian 11<rk3568_os_debian11>`
+   
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For RK3568
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_linux.png" class="img-fluid text-center" width="100px">
+
+:ref:`Buildroot Linux Qt 5.15 <rk3568_os_linuxqt515>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>
