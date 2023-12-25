@@ -236,4 +236,3 @@ For AM335X
 .. raw:: html
 
    </div>
-
