@@ -1,10 +1,7 @@
 :pdf-build: False
     
-.. raw:: html
-
-   <div class="display-6 fw-bold mb-3">
-      Industrial PCs Powered by NXP
-   </div>
+Industrial PCs Powered by NXP
+#############################
 
 i.MX8MP / A53
 #############
@@ -48,15 +45,15 @@ BOX
    </div>
 
 
-.. |PPC-A53-070| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Front.jpg
-   :class: no-scaled-link
+.. |PPC-A53-070| image:: /Media/ARM/A53/CS10600-IMX8MP-070P/CS10600-IMX8MP-070P-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/ARM/iMX8MP/Manuals/Hardware/CS10600-IMX8MP-070P.html
 
-.. |CS-A53-BOX| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-Front.jpg
-   :class: no-scaled-link
+.. |CS-A53-BOX| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/ARM/iMX8MP/Manuals/Hardware/CS-IMX8MP-BOX.html
 
-i.MX6UL / A8
+i.MX6UL / A7
 ############
 
 .. raw:: html
@@ -82,8 +79,8 @@ i.MX6UL / A8
 
    </div>
 
-.. |EPC/PPC-A7-070HB-C| image:: /Media/ARM/A7/CS10600U070/PPC-A7-070HB-C-Front.jpg
-   :class: no-scaled-link
+.. |EPC/PPC-A7-070HB-C| image:: /Media/ARM/A7/CS10600U070/PPC-A7-070HB-C-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/ARM/iMX6UL/Manuals/Hardware/CS10600U070.html
 
 i.MX6Q / A9
@@ -233,32 +230,32 @@ i.MX6Q / A9
    
    </div>
 
-.. |PPC-A9-070-C| image:: /Media/ARM/A9/CS10600F070/PPC-A9-070-C-Front.jpg
-   :class: no-scaled-link
+.. |PPC-A9-070-C| image:: /Media/ARM/A9/CS10600F070/PPC-A9-070-C-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS10600F070.html
-.. |PPC-A9-097-C| image:: /Media/ARM/A9/CS10768F097/PPC-A9-097-C-Front.jpg
-   :class: no-scaled-link
+.. |PPC-A9-097-C| image:: /Media/ARM/A9/CS10768F097/PPC-A9-097-C-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F097.html
-.. |PPC-A9-101-C| image:: /Media/ARM/A9/CS12800F101/PPC-A9-101-C-Front.jpeg
-   :class: no-scaled-link
+.. |PPC-A9-101-C| image:: /Media/ARM/A9/CS12800F101/PPC-A9-101-C-Front-Low.jpeg
+   :class: index-item-img
    :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS12800F101.html
 .. |PPC-A9-121-C| image:: /Media/ARM/A9/CS10768F121/PPC-A9-121-C-Front-V2.jpg
-   :class: no-scaled-link
+   :class: index-item-img
    :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F121.html
-.. |PPC-A9-121-U-C| image:: /Media/ARM/A9/CS10768F121-U/PPC-A9-121-U-C-Front.jpeg
-   :class: no-scaled-link
+.. |PPC-A9-121-U-C| image:: /Media/ARM/A9/CS10768F121-U/PPC-A9-121-U-C-Front-Low.jpeg
+   :class: index-item-img
    :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F121-U.html
-.. |PPC-A9-150-C| image:: /Media/ARM/A9/CS10768F150/PPC-A9-150-C-Front.jpeg
-   :class: no-scaled-link
+.. |PPC-A9-150-C| image:: /Media/ARM/A9/CS10768F150/PPC-A9-150-C-Front-Low.jpeg
+   :class: index-item-img
    :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS10768F150.html
-.. |PPC-A9-170-C| image:: /Media/ARM/A9/CS12102F170/PPC-A9-170-C-Front.jpeg
-   :class: no-scaled-link
+.. |PPC-A9-170-C| image:: /Media/ARM/A9/CS12102F170/PPC-A9-170-C-Front-Low.jpeg
+   :class: index-item-img
    :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS12102F170.html
-.. |PPC-A9-190-C| image:: /Media/ARM/A9/CS14900F190/PPC-A9-190-C-Front.jpeg
-   :class: no-scaled-link
+.. |PPC-A9-190-C| image:: /Media/ARM/A9/CS14900F190/PPC-A9-190-C-Front-Low.jpeg
+   :class: index-item-img
    :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS14900F190.html
-.. |PPC-A9-215-C| image:: /Media/ARM/A9/CS19108F215/PPC-A9-215-C-Front.jpeg
-   :class: no-scaled-link
+.. |PPC-A9-215-C| image:: /Media/ARM/A9/CS19108F215/PPC-A9-215-C-Front-Low.jpeg
+   :class: index-item-img
    :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS19108F215.html
 
 

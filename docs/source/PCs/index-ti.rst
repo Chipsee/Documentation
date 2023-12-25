@@ -1,10 +1,7 @@
 :pdf-build: False
 
-.. raw:: html
-
-   <div class="display-6 fw-bold mb-3">
-      Industrial PCs Powered by TI
-   </div>
+Industrial PCs Powered by TI
+############################
 
 AM335X / A8
 ###########
@@ -126,31 +123,31 @@ AM335X / A8
    </div>
 
 .. |EPC/PPC-A8-050-C| image:: /Media/ARM/A8/CS80480T050/PPC-A8-050-C-Front.jpeg
-   :class: no-scaled-link
+   :class: index-item-img
    :target: /PCs/ARM/AM335x/Manuals/Hardware/CS80480T050.html
 
 .. |EPC/PPC-A8-080-R| image:: /Media/ARM/A8/CS80600T080/PPC-A8-080-R-Front.jpeg
-   :class: no-scaled-link
+   :class: index-item-img
    :target: /PCs/ARM/AM335x/Manuals/Hardware/CS80600T080.html
 
 .. |EPC/PPC-A8-101-R| image:: /Media/ARM/A8/CS10600T101/PPC-A8-101-R-Front.jpeg
-   :class: no-scaled-link
+   :class: index-item-img
    :target: /PCs/ARM/AM335x/Manuals/Hardware/CS10600T101.html
 
 .. |PPC/EPC-A8-070H-C| image:: /Media/ARM/A8/CS10600T070/PPC-A8-070H-C-Front.jpeg
-   :class: no-scaled-link
+   :class: index-item-img
    :target: /PCs/ARM/AM335x/Manuals/Hardware/CS10600T070.html
 
 .. |PPC-A8-070-R| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070-HB-R-Front.jpeg
-   :class: no-scaled-link
+   :class: index-item-img
    :target: /PCs/ARM/AM335x/Manuals/Hardware/CS80480T070.html
 
 .. |PPC-A8-070-HB-R| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070-HB-R-Front.jpeg
-   :class: no-scaled-link
+   :class: index-item-img
    :target: /PCs/ARM/AM335x/Manuals/Hardware/CS80480T070-R233.html
 
 .. |PPC/EPC-A8-097-C| image:: /Media/ARM/A8/CS10768T097/PPC-A8-097-C-Front.jpeg
-   :class: no-scaled-link
+   :class: index-item-img
    :target: /PCs/ARM/AM335x/Manuals/Hardware/CS10768T097.html
 
 Software

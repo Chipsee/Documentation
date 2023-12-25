@@ -669,6 +669,10 @@ caption, figcaption, p.caption {
     height: 100%;
 }
 
+.index-item-img {
+    padding: 0.5rem;
+}
+
 /* Dropdown menu item */
 #nav-dropdown .dropdown-item {
     font-size: 1em;

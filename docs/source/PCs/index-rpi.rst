@@ -1,11 +1,7 @@
 :pdf-build: False
 
-.. raw:: html
-
-   <div class="display-6 fw-bold mb-3">
-      Industrial PCs Powered by Raspberry Pi
-   </div>
-
+Industrial PCs Powered by Raspberry Pi
+######################################
 
 CM4
 ###
@@ -201,43 +197,42 @@ BOX
    
    </div>
 
-.. |PPC-CM4-050| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Front.png
-   :class: no-scaled-link
+.. |PPC-CM4-050| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Front-Low.jpg
+   :class: index-item-img
    :target: CS12720RA4050-C121.html
-.. |EPC/PPC-CM4-070| image:: /Media/Pi/A72/CS10600RA4070/CS10600RA4070P-Front.jpeg
-   :class: no-scaled-link
+.. |EPC/PPC-CM4-070| image:: /Media/Pi/A72/CS10600RA4070/CS10600RA4070P-Front-Low.jpeg
+   :class: index-item-img
    :target: /PCs/Pi/A72/Manuals/Hardware/CS10600RA4070.html
-.. |PPC-CM4-070-D| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Front.jpg
-   :class: no-scaled-link
+.. |PPC-CM4-070-D| image:: /Media/Pi/A72/CS10600RA4070P-D/CS10600RA4070P-D-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Pi/A72/Manuals/Hardware/CS10600RA4070P-D.html
-.. |PPC-CM4-101| image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-Front.jpg
-   :class: no-scaled-link
+.. |PPC-CM4-101| image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Pi/A72/Manuals/Hardware/CS12800RA4101.html
-.. |PPC-CM4-121| image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-Front.jpg
-   :class: no-scaled-link
+.. |PPC-CM4-121| image:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Pi/A72/Manuals/Hardware/CS10768RA4121.html
-.. |PPC-CM4-133| image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Front.jpg
-   :class: no-scaled-link
+.. |PPC-CM4-133| image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Pi/A72/Manuals/Hardware/CS19108RA4133.html
-.. |PPC-CM4-150| image:: /Media/Pi/A72/CS10768RA4150/PPC-CM4-150-Front.jpg
-   :class: no-scaled-link
+.. |PPC-CM4-150| image:: /Media/Pi/A72/CS10768RA4150/PPC-CM4-150-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Pi/A72/Manuals/Hardware/CS10768RA4150.html
-.. |PPC-CM4-156| image:: /Media/Pi/A72/CS19108RA4156/PPC-CM4-156-Front.jpg
-   :class: no-scaled-link
+.. |PPC-CM4-156| image:: /Media/Pi/A72/CS19108RA4156/PPC-CM4-156-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Pi/A72/Manuals/Hardware/CS19108RA4156.html
-.. |PPC-CM4-215| image:: /Media/Pi/A72/CS19108RA4215/CS19108RA4215-Front.jpg
-   :class: no-scaled-link
+.. |PPC-CM4-215| image:: /Media/Pi/A72/CS19108RA4215/CS19108RA4215-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Pi/A72/Manuals/Hardware/CS19108RA4215.html
-.. |PPC-CM4-236| image:: /Media/Pi/A72/CS19108RA4236/CS19108RA4236-Front.jpg
-   :class: no-scaled-link
+.. |PPC-CM4-236| image:: /Media/Pi/A72/CS19108RA4236/CS19108RA4236-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Pi/A72/Manuals/Hardware/CS19108RA4236.html
-.. |CS-CM4-BOX| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-Front.jpg
-   :class: no-scaled-link
+.. |CS-CM4-BOX| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-Front-Low.jpg
+   :class: index-item-img
    :target: /PCs/Pi/A72/Manuals/Hardware/CSRA4BOX.html
-.. |EPC/PPC-CM4-050| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.jpeg
-   :class: no-scaled-link
+.. |EPC/PPC-CM4-050| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front-Low.jpeg
+   :class: index-item-img
    :target: /PCs/Pi/A72/Manuals/Hardware/CS12720RA4050.html
-
 
 AIO-CM4
 #######
@@ -280,11 +275,11 @@ AIO-CM4
 
      </div>
 
-.. |AIO-CM4-101| image:: /Media/Pi/AIO/CS12800RA4101A/CS12800RA4101A-Front.jpeg
-   :class: no-scaled-link
+.. |AIO-CM4-101| image:: /Media/Pi/AIO/CS12800RA4101A/CS12800RA4101A-Front-Low.jpeg
+   :class: index-item-img
    :target: /PCs/Pi/AIO/Manuals/Hardware/CS12800RA4101A.html
-.. |AIO-CM4-156| image:: /Media/Pi/AIO/CS19108RA4156A/CS19108RA4156A-Front.jpeg
-   :class: no-scaled-link
+.. |AIO-CM4-156| image:: /Media/Pi/AIO/CS19108RA4156A/CS19108RA4156A-Front-Low.jpeg
+   :class: index-item-img
    :target: /PCs/Pi/AIO/Manuals/Hardware/CS19108RA4156A.html
 
 
@@ -329,11 +324,11 @@ CM3
 
      </div>
 
-.. |EPC/PPC-CM3-070| image:: /Media/Pi/A53/CS10600RA070/CS10600RA070P-Front.jpeg
-   :class: no-scaled-link
+.. |EPC/PPC-CM3-070| image:: /Media/Pi/A53/CS10600RA070/CS10600RA070P-Front-Low.jpeg
+   :class: index-item-img
    :target: /PCs/Pi/A53/Manuals/Hardware/CS10600RA070.html
-.. |EPC/PPC-CM3-101| image:: /Media/Pi/A53/CS12800RA101/CS12800RA101P-Front.jpeg
-   :class: no-scaled-link
+.. |EPC/PPC-CM3-101| image:: /Media/Pi/A53/CS12800RA101/CS12800RA101P-Front-Low.jpeg
+   :class: index-item-img
    :target: /PCs/Pi/A53/Manuals/Hardware/CS12800RA101.html
 
 Software
@@ -382,7 +377,6 @@ Doc (CM3, CM4)
       <div class="index-item">
 
 Doc (AIO-CM4-156)
-
 
 .. raw:: html
 
