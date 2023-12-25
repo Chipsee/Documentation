@@ -1,10 +1,10 @@
 :pdf-build: False
 
 
+.. _PX30_OSDownloads:
+
 All-In-One OS Downloads
 #######################
-
-.. _PX30_OSDownloads:
 
 Please note that not all the products use the same model of touch panel. Be sure to download the correct OS according to the touch panel installed in your product.
 For additional information, contact |email|_

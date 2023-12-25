@@ -18,7 +18,8 @@
 10.1 Inch
 |PIM-101-C|
 
-:ref:`PIM-101-C User Manual <PIM-101-C>`
+
+:ref:`PIM-101-C<PIM-101-C>`
 
 .. raw:: html
 
@@ -33,7 +34,7 @@
 12.5 Inch
 |PIM-125-C|
 
-:ref:`PIM-125-C User Manual <PIM-125-C>`
+:ref:`PIM-125-C<PIM-125-C>`
 
 .. raw:: html
 
@@ -48,7 +49,7 @@
 15.0 Inch
 |PIM-150-C|
 
-:ref:`PIM-150-C User Manual <PIM-150-C>`
+:ref:`PIM-150-C<PIM-150-C>`
 
 .. raw:: html
 
@@ -60,10 +61,10 @@
    <div class="col">
       <div class="index-item">
 
-15.6 Inch
+15.6 Inch (Grey)
 |PIM-156-C|
 
-:ref:`PIM-156-C User Manual <PIM-156-C>`
+:ref:`PIM-156-C<PIM-156-C>`
 
 .. raw:: html
 
@@ -75,10 +76,10 @@
    <div class="col">
       <div class="index-item">
 
-15.6 Inch (New)
+15.6 Inch (Black)
 |PIM-156-P|
 
-:ref:`PIM-156-P User Manual <PIM-156-P>`
+:ref:`PIM-156-P<PIM-156-P>`
 
 .. raw:: html
 
@@ -93,7 +94,7 @@
 17.0 Inch
 |PIM-170-C|
 
-:ref:`PIM-170-C User Manual <PIM-170-C>`
+:ref:`PIM-170-C<PIM-170-C>`
 
 .. raw:: html
 
@@ -108,7 +109,7 @@
 18.5 Inch
 |PIM-185-C|
 
-:ref:`PIM-185-C User Manual <PIM-185-C>`
+:ref:`PIM-185-C<PIM-185-C>`
 
 .. raw:: html
 
@@ -124,7 +125,7 @@
 19.0 Inch
 |PIM-190-C|
 
-:ref:`PIM-190-C User Manual <PIM-190-C>`
+:ref:`PIM-190-C<PIM-190-C>`
 
 .. raw:: html
 
@@ -139,7 +140,7 @@
 21.5 Inch
 |PIM-215-C|
 
-:ref:`PIM-215-C User Manual <PIM-215-C>`
+:ref:`PIM-215-C<PIM-215-C>`
 
 .. raw:: html
 
@@ -154,7 +155,7 @@
 23.6 Inch
 |PIM-236-C|
 
-:ref:`PIM-236-C User Manual <PIM-236-C>`
+:ref:`PIM-236-C<PIM-236-C>`
 
 .. raw:: html
 
@@ -169,7 +170,7 @@
 27.0 Inch
 |PIM-270-C|
 
-:ref:`PIM-270-C User Manual <PIM-270-C>`
+:ref:`PIM-270-C<PIM-270-C>`
 
 .. raw:: html
 

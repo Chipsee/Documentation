@@ -165,7 +165,25 @@ Software
    <div class="col">
       <div class="index-item">
 
-For AM335X
+Firmware
+
+.. raw:: html
+
+         <img src="../_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+
+:ref:`OS Downloads <AM335X_OSDownloads>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc
 
 .. raw:: html
 
@@ -183,7 +201,7 @@ For AM335X
    <div class="col">
       <div class="index-item">
 
-For AM335X
+Doc
 
 .. raw:: html
 
@@ -201,7 +219,7 @@ For AM335X
    <div class="col">
       <div class="index-item">
 
-For AM335X
+Doc
 
 .. raw:: html
 
@@ -219,7 +237,7 @@ For AM335X
    <div class="col">
       <div class="index-item">
 
-For AM335X
+Doc
 
 .. raw:: html
 
@@ -231,7 +249,6 @@ For AM335X
 
      </div>
    </div>
-
 
 .. raw:: html
 
