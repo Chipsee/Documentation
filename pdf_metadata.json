@@ -108,6 +108,9 @@
         "Displays/index": {
             "pdf-build": "False"
         },
+        "Displays/index-display": {
+            "pdf-build": "False"
+        },
         "Nomenclature/ARM": {
             "pdf-build": "False",
             "orphan": ""
@@ -940,6 +943,9 @@
             "pdf-build": "False"
         },
         "PCs/index-intel": {
+            "pdf-build": "False"
+        },
+        "PCs/index-mtk": {
             "pdf-build": "False"
         },
         "PCs/index-nxp": {
