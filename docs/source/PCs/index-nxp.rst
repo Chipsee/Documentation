@@ -260,3 +260,208 @@ i.MX6Q / A9
 .. |PPC-A9-215-C| image:: /Media/ARM/A9/CS19108F215/PPC-A9-215-C-Front.jpeg
    :class: no-scaled-link
    :target: /PCs/ARM/iMX6Q/Manuals/Hardware/CS19108F215.html
+
+
+Software
+########
+
+For iMX6Q
+=========
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For iMX6Q
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+
+:ref:`Android 4.3<imx6q_os_android43>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For iMX6Q
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+
+:ref:`Android 6.0<imx6q_os_android60>`
+   
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For iMX6Q
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_linux.png" class="img-fluid text-center" width="100px">
+
+:ref:`Linux Qt 5.5 <imx6q_os_linuxqt55>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For iMX6Q
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_ubuntu.png" class="img-fluid text-center" width="100px">
+
+:ref:`Ubuntu 12 <imx6q_os_ubuntu12>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For iMX6Q
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_ubuntu.png" class="img-fluid text-center" width="100px">
+
+:ref:`Ubuntu 14 <imx6q_os_ubuntu14>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>
+
+
+
+For iMX6UL
+==========
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For iMX6UL
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_linux.png" class="img-fluid text-center" width="100px">
+
+:ref:`Linux Qt 5.5 <imx6ul_os_linuxqt55>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For iMX6UL
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_debian.png" class="img-fluid text-center" width="100px">
+
+:ref:`Debian 8.10 <imx6ul_os_debian810>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>
+
+
+
+
+
+For iMX8MP
+==========
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For iMX8MP
+
+.. raw:: html
+
+         <img src="../_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+
+:ref:`Android 12 <imx8mp_os_android12>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+For iMX8MP
+
+.. raw:: html
+
+         <img src="../_static/images/og_logo_yocto.png" class="img-fluid text-center" width="100px">
+
+:ref:`Yocto Linux Qt 6.3 <imx8mp_os_yocto63>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>

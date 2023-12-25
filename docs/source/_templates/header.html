@@ -1,22 +1,28 @@
-<header class="md-header" data-md-component="header">
-  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+<header>
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-md-component="header">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand pt-0" href="/">
+        <img src="{{ pathto('_static/images/logo_dark.png', 1) }}" height="30" alt="logo">
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav fs-6">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Industrial PCs
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item fs-6" href="{{ pathto('PCs/index-rpi.html', 1) }}">Powered by Raspberry Pi</a></li>
-              <li><a class="dropdown-item fs-6" href="{{ pathto('PCs/index-rockchip.html', 1) }}">Powered by Rockchip</a></li>
-              <li><a class="dropdown-item fs-6" href="{{ pathto('PCs/index-nxp.html', 1) }}">Powered by NXP</a></li>
-              <li><a class="dropdown-item fs-6" href="{{ pathto('PCs/index-ti.html', 1) }}">Powered by TI</a></li>
-              <li><a class="dropdown-item fs-6" href="{{ pathto('PCs/index-intel.html', 1) }}">Powered by INTEL</a></li>
+            <ul class="dropdown-menu" id="nav-dropdown">
+              <li><a class="dropdown-item" href="{{ pathto('PCs/index-rpi.html', 1) }}">Powered by Raspberry Pi</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="{{ pathto('PCs/index-rockchip.html', 1) }}">Powered by Rockchip</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="{{ pathto('PCs/index-nxp.html', 1) }}">Powered by NXP</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="{{ pathto('PCs/index-ti.html', 1) }}">Powered by TI</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="{{ pathto('PCs/index-intel.html', 1) }}">Powered by INTEL</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -24,6 +30,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{ pathto('Displays/index.html', 1) }}">Displays</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.chipsee.com" target="_blank">Shop</a>
           </li>
         </ul>
       </div>

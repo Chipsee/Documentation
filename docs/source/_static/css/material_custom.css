@@ -662,10 +662,35 @@ caption, figcaption, p.caption {
 .index-item {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
     padding: 12px 0;
     border: 1px solid;
     border-radius: 6px;
     border-color: rgba(0, 0, 0, 0.2);
     height: 100%;
+}
+
+/* Dropdown menu item */
+#nav-dropdown .dropdown-item {
+    font-size: 1em;
+    padding: 0.1em 1.2em;
+    border-radius: 0.5em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#nav-dropdown .dropdown-item:active {
+    background-color: #a4a3a366;
+    color: #00000091;
+}
+
+.nav-item .nav-link {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    border-radius: 12px;
+    padding: 0.5em 0.5em;
+}
+
+.nav-item .nav-link:hover {
+    background-color: white;
 }
