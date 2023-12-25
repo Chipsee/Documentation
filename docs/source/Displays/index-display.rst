@@ -210,4 +210,5 @@ Industrial Touch Displays
    :target: /Displays/PIM-236-C.html
 .. |PIM-270-C| image:: /Media/Displays/PIM-270-C/pim-270-front-Low.jpg
    :class: index-item-img
+
    :target: /Displays/PIM-270-C.html

@@ -3,6 +3,7 @@
 Industrial PCs Powered by INTEL
 ###############################
 
+
 J1900
 #####
 

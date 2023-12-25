@@ -3,7 +3,6 @@
 Industrial PCs Powered by TI
 ############################
 
-
 AM335X / A8
 ###########
 

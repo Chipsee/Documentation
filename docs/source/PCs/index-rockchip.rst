@@ -1,8 +1,5 @@
 :pdf-build: False
 
-.. toctree::
-   :maxdepth: 1
-
 Industrial PCs Powered by Rockchip
 ##################################
 
