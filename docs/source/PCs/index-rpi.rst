@@ -348,7 +348,22 @@ Software
    <div class="col">
       <div class="index-item">
 
-For CM3, CM4
+Firmware
+
+.. raw:: html
+
+         <img src="../_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+         <a href="https://github.com/Chipsee/industrial-pi#latest-system-images" target="_blank">OS Downloads</a>
+     </div>
+   </div>
+   
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc (CM3, CM4)
 
 .. raw:: html
 
@@ -366,7 +381,8 @@ For CM3, CM4
    <div class="col">
       <div class="index-item">
 
-For AIO-CM4-156
+Doc (AIO-CM4-156)
+
 
 .. raw:: html
 
@@ -384,7 +400,7 @@ For AIO-CM4-156
    <div class="col">
       <div class="index-item">
 
-For AIO-CM4-156
+Doc (AIO-CM4-156)
 
 .. raw:: html
 

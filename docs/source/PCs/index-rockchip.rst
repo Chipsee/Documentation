@@ -538,6 +538,64 @@ PX30 / A35
 Software
 ########
 
+For RK3399
+==========
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Firmware
+
+.. raw:: html
+
+         <img src="../_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+
+:ref:`OS Downloads <RK3399_OSDownloads>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>
+
+For PX30
+========
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Firmware
+
+.. raw:: html
+
+         <img src="../_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+
+:ref:`OS Downloads <PX30_OSDownloads>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>
+
 For RK3568
 ==========
 
@@ -550,7 +608,25 @@ For RK3568
    <div class="col">
       <div class="index-item">
 
-For RK3568
+Firmware
+
+.. raw:: html
+
+         <img src="../_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+
+:ref:`OS Downloads <RK3568_OSDownloads>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc
 
 .. raw:: html
 
@@ -568,11 +644,11 @@ For RK3568
    <div class="col">
       <div class="index-item">
 
-For RK3568
+Doc
 
 .. raw:: html
 
-         <img src="../_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+         <img src="../_static/images/os_logo_debian.png" class="img-fluid text-center" width="100px">
 
 :ref:`Debian 11<rk3568_os_debian11>`
    
@@ -586,7 +662,7 @@ For RK3568
    <div class="col">
       <div class="index-item">
 
-For RK3568
+Doc
 
 .. raw:: html
 

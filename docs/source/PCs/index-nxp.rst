@@ -277,7 +277,25 @@ For iMX6Q
    <div class="col">
       <div class="index-item">
 
-For iMX6Q
+Firmware
+
+.. raw:: html
+
+         <img src="../_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+
+:ref:`OS Downloads <IMX6Q_OSDownloads>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc
 
 .. raw:: html
 
@@ -295,7 +313,7 @@ For iMX6Q
    <div class="col">
       <div class="index-item">
 
-For iMX6Q
+Doc
 
 .. raw:: html
 
@@ -313,7 +331,7 @@ For iMX6Q
    <div class="col">
       <div class="index-item">
 
-For iMX6Q
+Doc
 
 .. raw:: html
 
@@ -331,7 +349,7 @@ For iMX6Q
    <div class="col">
       <div class="index-item">
 
-For iMX6Q
+Doc
 
 .. raw:: html
 
@@ -349,7 +367,7 @@ For iMX6Q
    <div class="col">
       <div class="index-item">
 
-For iMX6Q
+Doc
 
 .. raw:: html
 
@@ -380,7 +398,25 @@ For iMX6UL
    <div class="col">
       <div class="index-item">
 
-For iMX6UL
+Firmware
+
+.. raw:: html
+
+         <img src="../_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+
+:ref:`OS Downloads <IMX6UL_OSDownloads>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc
 
 .. raw:: html
 
@@ -398,7 +434,7 @@ For iMX6UL
    <div class="col">
       <div class="index-item">
 
-For iMX6UL
+Doc
 
 .. raw:: html
 
@@ -431,7 +467,25 @@ For iMX8MP
    <div class="col">
       <div class="index-item">
 
-For iMX8MP
+Firmware
+
+.. raw:: html
+
+         <img src="../_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+
+:ref:`OS Downloads <IMX8MP_OSDownloads>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc
 
 .. raw:: html
 
@@ -449,7 +503,7 @@ For iMX8MP
    <div class="col">
       <div class="index-item">
 
-For iMX8MP
+Doc
 
 .. raw:: html
 
