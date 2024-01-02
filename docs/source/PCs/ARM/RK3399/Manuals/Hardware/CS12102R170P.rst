@@ -1,0 +1,161 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: PPC-A72-133-P
+
+.. |productP| replace:: PPC-A72-133-P
+
+.. |PN| replace:: PN: CS19108R133P2
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |dispsize| replace:: 13.3"
+
+.. |res| replace:: 1920 x 1080
+
+.. |bright| replace:: 400 |cd|
+
+.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |dimE| replace:: NULL
+
+.. |dimP| replace:: 355 x 225 x 55mm
+
+.. |weightE| replace:: NULL
+
+.. |weightP| replace:: 3000g
+
+.. |RAM| replace:: 4GB DDR3
+
+.. |eMMC| replace:: 16GB
+
+.. |tscreen| replace:: 10-point capacitive touch screen
+
+.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |LAN| replace:: 1 x RJ45, GbE
+
+.. |GPIO| replace:: 8 Channels
+
+.. |opt1| replace:: Supported, Optional
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |vin_rng| replace:: From 12V to 36V
+
+.. |cur| replace:: 1333mA Max
+
+.. |pwr| replace:: 16W Typical
+
+.. |temp| replace:: From 0°C to +60°C
+
+.. |rs232| replace:: 3 x RS232 (Optional 5 x RS232 at most, 1 debug port)
+
+.. |rs485| replace:: 2 x RS485
+
+.. |power_img| image:: /Media/ARM/A72/CS19108R133P/Power-A72-133.jpg
+                  :align: middle
+                  :width: 576
+
+.. |io_pin_img| image:: /Media/ARM/A72/CS19108R133P/IO-A72-133.jpg
+                   :align: middle
+                   :width: 768
+
+.. |USB2_3_img| image:: /Media/ARM/A72/CS19108R133P/USB-A72-133.jpg
+                   :align: middle
+                   :width: 96
+
+.. |USBC_img| image:: /Media/ARM/A72/CS19108R133P/TYPE-C-A72-133.jpg
+                   :align: middle
+                   :width: 96
+
+.. |wifi_bt_img| image:: /Media/ARM/A72/CS19108R133P/ANT-A72-133.jpg
+                  :align: middle
+                  :width: 192
+
+.. |LAN_img| image:: /Media/ARM/A72/CS19108R133P/LAN-A72-133.jpg
+                  :align: middle
+                  :width: 192
+
+.. |SIM_img| image:: /Media/ARM/A72/CS19108R133P/SIM-A72-133.jpg
+                  :align: middle
+                  :width: 384
+
+.. |TF_img| image:: /Media/ARM/A72/CS19108R133P/TF-A72-133.jpg
+                  :align: middle
+                  :width: 384
+
+.. |audio_img| image:: /Media/ARM/A72/CS19108R133P/Audio-A72-133.jpg
+                  :align: middle
+                  :width: 192
+
+.. |Power_btn_img| image:: /Media/ARM/A72/CS19108R133P/PB-A72-133.jpg
+                  :align: middle
+                  :width: 192
+
+.. _product_link: https://chipsee.com/product/ppc-a72-133-p/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-P-Front.png
+
+.. |Front View| image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-P-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-Back.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-Side2.jpg
+                  :class: product-img 
+
+.. _PPC-A72-170-P:
+
+|product|
+#########
+
+.. rubric:: *Version 2.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features_2
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table_cs12800r101p
+
+.. include:: Resources/power_cs12800_common
+
+.. include:: Resources/cap_screen_cs12800_common
+
+.. include:: Resources/connectivity_cs12800_common
+
+.. include:: Resources/USB_cs12800_common
+
+.. include:: Resources/LAN_cs12800_common
+
+.. include:: Resources/WiFi_BT_cs12800_common
+
+.. include:: Resources/4G_com_cs12800_common
+
+.. include:: Resources/TF_Card_cs12800_common
+
+.. include:: Resources/Audio_IO_cs12800_common
+
+.. include:: Resources/power_btn_cs12800_common
+
+.. include:: Resources/mounting
+
+:pagebreak:`True`
+
+.. include:: Resources/mechanical
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support

@@ -1,0 +1,125 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. include:: Resources/CS12800RA4101/base_replaces_cs12800ra4101
+
+.. |product| replace:: PPC-CM4-133
+
+.. |productE| replace:: CS19108RA4133E
+
+.. |productP| replace:: CS19108RA4133P
+
+.. |PN| replace:: PN: CS19108RA4133
+
+.. |dispsize| replace:: 13.3"
+
+.. |res| replace:: 1920 x 1080
+
+.. |bright| replace:: 400 |cd|
+
+.. |dimE| replace:: NULL
+
+.. |dimP| replace:: 355 x 225 x 55mm
+
+.. |weightE| replace:: NULL
+
+.. |weightP| replace:: 3000g
+
+.. |cur| replace:: 1333mA Max at 12V
+
+.. |pwr| replace:: 16W Typical
+
+.. |temp| replace:: From 0°C to +60°C
+
+.. |dim_desc| replace:: |productP|: |dimP|
+
+.. |weight_desc| replace:: |productP|: |weightP|
+
+.. _product_link: https://chipsee.com/product/PPC-CM4-133/
+
+.. |product_link| replace:: PPC-CM4-133
+
+.. |power_img| image:: /Media/Pi/A72/CS19108RA4133/Powerbig.jpg
+                  :align: middle
+                  :width: 480
+
+.. |rs232_485_can_img| image:: /Media/Pi/A72/CS19108RA4133/RS232-RS485-CANbig.jpg
+                  :align: middle
+                  :width: 768
+
+.. |gpio_img| image:: /Media/Pi/A72/CS19108RA4133/GPIObig.jpg
+                  :align: middle
+                  :width: 768
+
+.. |ts_con_img| image:: /Media/Pi/A72/CS19108RA4133/USB_Touch.jpg
+                  :align: middle
+                  :width: 192
+                  
+.. |usb_a_img| image:: /Media/Pi/A72/CS19108RA4133/USBbig.jpg
+                   :align: middle
+                   :width: 192
+
+.. |usb_c_img| image:: /Media/Pi/A72/CS19108RA4133/TYPE-Cbig.jpg
+                   :align: middle
+                   :width: 96
+
+
+.. |tf_img| image:: /Media/Pi/A72/CS19108RA4133/TF_Cardbig.jpg
+                  :align: middle
+                  :width: 384
+
+.. |audio_img| image:: /Media/Pi/A72/CS19108RA4133/Audiobig.jpg
+                  :align: middle
+                  :width: 96
+
+.. |prog_btn_img| image:: /Media/Pi/A72/CS19108RA4133/BootButtonbig.jpg
+                  :align: middle
+                  :width: 192
+
+.. |sim_img| image:: /Media/Pi/A72/CS19108RA4133/TF_4G_101.jpg
+                  :align: middle
+                  :width: 960
+
+.. |wifi_img| image:: /Media/Pi/A72/CS19108RA4133/ANT.jpg
+                  :align: middle
+                  :width: 384                  
+
+.. |zigbee_img| image:: /Media/Pi/A72/CS19108RA4133/ANT.jpg
+                  :align: middle
+                  :width: 384
+
+.. |lan_img| image:: /Media/Pi/A72/CS19108RA4133/LANbig.jpg
+                  :align: middle
+                  :width: 384
+        
+.. |Cover PNG| image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Front.png
+
+.. |Front View| image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Side2.jpg
+                  :class: product-img
+
+
+.. _PPC-CM4-170:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: Resources/CS12800RA4101/base_includes_cs12800ra4101
+
+.. include:: Resources/mechanical
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/Hardware/three_d
+
+.. include:: /PCs/Shared/support
