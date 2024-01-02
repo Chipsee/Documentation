@@ -129,6 +129,36 @@ Cortex-A72 Hardware Documentation
    :name: hwdocstable_9
 
    +---------------------+------------------------------------------------------------------------+
+   | |PPC-CM4-170|       |   :ref:`PPC-CM4-170 User Manual <PPC-CM4-170>` |br|                    |
+   |                     |   PN: CS12102RA4170 |br| |br|                                          |
+   |                     |                                                                        |
+   |                     |   17.0", 1280 x 1024, 10-point capacitive touch screen                 |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-CM4-170| image:: /Media/Pi/A72/CS12102RA4170/PPC-CM4-170-Front.jpg
+   :class: no-scaled-link
+   :target: CS12102RA4170.html
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_10
+
+   +---------------------+------------------------------------------------------------------------+
+   | |PPC-CM4-190|       |   :ref:`PPC-CM4-190 User Manual <PPC-CM4-190>` |br|                    |
+   |                     |   PN: CS12102RA4190 |br| |br|                                          |
+   |                     |                                                                        |
+   |                     |   19.0", 1280 x 1024, 10-point capacitive touch screen                 |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-CM4-190| image:: /Media/Pi/A72/CS12102RA4190/PPC-CM4-190-Front.jpg
+   :class: no-scaled-link
+   :target: CS12102RA4190.html
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_11
+
+   +---------------------+------------------------------------------------------------------------+
    | |PPC-CM4-215|       |   :ref:`PPC-CM4-215 User Manual <PPC-CM4-215>` |br|                    |
    |                     |   PN: CS19108RA4215 |br| |br|                                          |
    |                     |                                                                        |
@@ -141,7 +171,7 @@ Cortex-A72 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_10
+   :name: hwdocstable_12
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-CM4-236|       |   :ref:`PPC-CM4-236 User Manual <PPC-CM4-236>` |br|                    |
@@ -156,7 +186,7 @@ Cortex-A72 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_11
+   :name: hwdocstable_13
 
    +---------------------+------------------------------------------------------------------------+
    | |CS-CM4-BOX|        |   :ref:`CS-CM4-BOX User Manual <CS-CM4-BOX>` |br|                      |
@@ -171,7 +201,7 @@ Cortex-A72 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_12
+   :name: hwdocstable_14
 
    +---------------------+------------------------------------------------------------------------+
    | |EPC/PPC-CM4-050|   |   :ref:`EPC/PPC-CM4-050 User Manual <EPC/PPC-CM4-050>` |br|            |
@@ -197,6 +227,8 @@ Cortex-A72 Hardware Documentation
    PPC-CM4-133 <CS19108RA4133>
    PPC-CM4-150 <CS10768RA4150>
    PPC-CM4-156 <CS19108RA4156>
+   PPC-CM4-170 <CS12102RA4170>
+   PPC-CM4-190 <CS12102RA4190>
    PPC-CM4-215 <CS19108RA4215>
    PPC-CM4-236 <CS19108RA4236>
    CS-CM4-BOX <CSRA4BOX>

@@ -2,31 +2,31 @@
 
 .. include:: Resources/CS12800RA4101/base_replaces_cs12800ra4101
 
-.. |product| replace:: PPC-CM4-133
+.. |product| replace:: PPC-CM4-190
 
-.. |productE| replace:: CS19108RA4133E
+.. |productE| replace:: CS12102RA4190E
 
-.. |productP| replace:: CS19108RA4133P
+.. |productP| replace:: CS12102RA4190P
 
-.. |PN| replace:: PN: CS19108RA4133
+.. |PN| replace:: PN: CS12102RA4190
 
-.. |dispsize| replace:: 13.3"
+.. |dispsize| replace:: 19.0"
 
-.. |res| replace:: 1920 x 1080
+.. |res| replace:: 1280 x 1024
 
-.. |bright| replace:: 400 |cd|
+.. |bright| replace:: 250 |cd|
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 355 x 225 x 55mm
+.. |dimP| replace:: 435 x 363 x 53.5mm
 
 .. |weightE| replace:: NULL
 
-.. |weightP| replace:: 3000g
+.. |weightP| replace:: 5.4kg
 
-.. |cur| replace:: 1333mA Max at 12V
+.. |cur| replace:: N/A
 
-.. |pwr| replace:: 16W Typical
+.. |pwr| replace:: N/A
 
 .. |temp| replace:: From 0°C to +60°C
 
@@ -34,11 +34,11 @@
 
 .. |weight_desc| replace:: |productP|: |weightP|
 
-.. _product_link: https://chipsee.com/product/PPC-CM4-133/
+.. _product_link: https://chipsee.com/product/PPC-CM4-190/
 
-.. |product_link| replace:: PPC-CM4-133
+.. |product_link| replace:: PPC-CM4-190
 
-.. |power_img| image:: /Media/Pi/A72/CS19108RA4133/Powerbig.jpg
+.. |power_img| image:: /Media/Pi/A72/CS12102RA4190/CS12102RA4190-Power.jpg
                   :align: middle
                   :width: 480
 
@@ -54,55 +54,55 @@
                   :align: middle
                   :width: 192
                   
-.. |usb_a_img| image:: /Media/Pi/A72/CS19108RA4133/USBbig.jpg
+.. |usb_a_img| image:: /Media/Pi/A72/CS12102RA4190/CS12102RA4190-USB-A.jpg
                    :align: middle
                    :width: 192
 
-.. |usb_c_img| image:: /Media/Pi/A72/CS19108RA4133/TYPE-Cbig.jpg
+.. |usb_c_img| image:: /Media/Pi/A72/CS12102RA4190/CS12102RA4190-USB-C.jpg
                    :align: middle
-                   :width: 96
+                   :width: 192
 
 
-.. |tf_img| image:: /Media/Pi/A72/CS19108RA4133/TF_Cardbig.jpg
+.. |tf_img| image:: /Media/Pi/A72/CS12102RA4190/CS12102RA4190-TF.jpg
                   :align: middle
                   :width: 384
 
-.. |audio_img| image:: /Media/Pi/A72/CS19108RA4133/Audiobig.jpg
+.. |audio_img| image:: /Media/Pi/A72/CS12102RA4190/CS12102RA4190-Audio.jpg
                   :align: middle
-                  :width: 96
+                  :width: 384
 
-.. |prog_btn_img| image:: /Media/Pi/A72/CS19108RA4133/BootButtonbig.jpg
+.. |prog_btn_img| image:: /Media/Pi/A72/CS12102RA4190/CS12102RA4190-PROG.jpg
                   :align: middle
-                  :width: 192
+                  :width: 384
 
 .. |sim_img| image:: /Media/Pi/A72/CS19108RA4133/TF_4G_101.jpg
                   :align: middle
                   :width: 960
 
-.. |wifi_img| image:: /Media/Pi/A72/CS19108RA4133/ANT.jpg
-                  :align: middle
-                  :width: 384                  
-
-.. |zigbee_img| image:: /Media/Pi/A72/CS19108RA4133/ANT.jpg
+.. |wifi_img| image:: /Media/Pi/A72/CS12102RA4190/CS12102RA4190-WiFiBT-SMA.jpg
                   :align: middle
                   :width: 384
 
-.. |lan_img| image:: /Media/Pi/A72/CS19108RA4133/LANbig.jpg
+.. |zigbee_img| image:: /Media/Pi/A72/CS12102RA4190/CS12102RA4190-WiFiBT-SMA.jpg
+                  :align: middle
+                  :width: 384
+
+.. |lan_img| image:: /Media/Pi/A72/CS12102RA4190/CS12102RA4190-LAN.jpg
                   :align: middle
                   :width: 384
         
-.. |Cover PNG| image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Front.png
+.. |Cover PNG| image:: /Media/Pi/A72/CS12102RA4190/PPC-CM4-190-Front.png
 
-.. |Front View| image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Front.jpg
+.. |Front View| image:: /Media/Pi/A72/CS12102RA4190/PPC-CM4-190-Front.jpg
                   :class: product-img
 
-.. |Rear View| image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Rear.jpg
+.. |Rear View| image:: /Media/Pi/A72/CS12102RA4190/PPC-CM4-190-Rear.jpg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Side1.jpg
+.. |Side View 1| image:: /Media/Pi/A72/CS12102RA4190/PPC-CM4-190-Side1.jpg
                   :class: product-img
 
-.. |Side View 2| image:: /Media/Pi/A72/CS19108RA4133/PPC-CM4-133-Side2.jpg
+.. |Side View 2| image:: /Media/Pi/A72/CS12102RA4190/PPC-CM4-190-Side2.jpg
                   :class: product-img
 
 
@@ -119,7 +119,5 @@
 .. include:: Resources/mechanical
 
 :pagebreak:`True`
-
-.. include:: /PCs/Shared/Hardware/three_d
 
 .. include:: /PCs/Shared/support

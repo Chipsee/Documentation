@@ -114,6 +114,21 @@ RK3399 Hardware Documentation
    :name: hwdocstable_8
 
    +---------------------+------------------------------------------------------------------------+
+   | |PPC-A72-170-P|     |   :ref:`PPC-A72-170-P User Manual <PPC-A72-170-P>` |br|                |
+   |                     |   PN: CS12102R170P |br| |br|                                           |
+   |                     |                                                                        |
+   |                     |   17.0", 1280 x 1024, 10-point capacitive touch screen                 |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-A72-170-P| image:: /Media/ARM/A72/CS12102R170P/CS12102R170P-Front.jpg
+   :class: no-scaled-link
+   :target: CS12102R170P.html
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_9
+
+   +---------------------+------------------------------------------------------------------------+
    | |PPC-A72-173-C|     |   :ref:`PPC-A72-173-C User Manual <PPC-A72-173-C>` |br|                |
    |                     |   PN: CS19108R173 |br| |br|                                            |
    |                     |                                                                        |
@@ -126,7 +141,37 @@ RK3399 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_9
+   :name: hwdocstable_10
+
+   +---------------------+------------------------------------------------------------------------+
+   | |PPC-A72-185-P|     |   :ref:`PPC-A72-185-P User Manual <PPC-A72-185-P>` |br|                |
+   |                     |   PN: CS19108R185P |br| |br|                                           |
+   |                     |                                                                        |
+   |                     |   18.5", 1920 x 1080, 10-point capacitive touch screen                 |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-A72-185-P| image:: /Media/ARM/A72/CS19108R185P/CS19108R185P-Front.jpg
+   :class: no-scaled-link
+   :target: CS19108R185P.html
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_11
+
+   +---------------------+------------------------------------------------------------------------+
+   | |PPC-A72-190-P|     |   :ref:`PPC-A72-190-P User Manual <PPC-A72-190-P>` |br|                |
+   |                     |   PN: CS12102R190P |br| |br|                                           |
+   |                     |                                                                        |
+   |                     |   19.0", 1280 x 1024, 10-point capacitive touch screen                 |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-A72-190-P| image:: /Media/ARM/A72/CS12102R190P/CS12102R190P-Front.jpg
+   :class: no-scaled-link
+   :target: CS12102R190P.html
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_12
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-A72-215-P|     |   :ref:`PPC-A72-215-P User Manual <PPC-A72-215-P>` |br|                |
@@ -141,7 +186,7 @@ RK3399 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_10
+   :name: hwdocstable_13
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-A72-236|       |   :ref:`PPC-A72-236 User Manual <PPC-A72-236>` |br|                    |
@@ -156,7 +201,7 @@ RK3399 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_11
+   :name: hwdocstable_14
 
    +---------------------+------------------------------------------------------------------------+
    | |EPC/PPC-A72-101-C| |   :ref:`EPC/PPC-A72-101-C User Manual <EPC/PPC-A72-101-C>` |br|        |
@@ -171,7 +216,7 @@ RK3399 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_12
+   :name: hwdocstable_15
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-A72-133-C|     |   :ref:`PPC-A72-133-C User Manual <PPC-A72-133-C>` |br|                |
@@ -187,7 +232,7 @@ RK3399 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_13
+   :name: hwdocstable_16
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-A72-150-C|     |   :ref:`PPC-A72-150-C User Manual <PPC-A72-150-C>` |br|                |
@@ -203,7 +248,7 @@ RK3399 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_14
+   :name: hwdocstable_17
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-A72-156-C|     |   :ref:`PPC-A72-156-C User Manual <PPC-A72-156-C>` |br|                |
@@ -218,7 +263,7 @@ RK3399 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_15
+   :name: hwdocstable_18
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-A72-215-C|     |   :ref:`PPC-A72-215-C User Manual <PPC-A72-215-C>` |br|                |
@@ -244,7 +289,10 @@ RK3399 Hardware Documentation
    PPC-A72-133-P <CS19108R133P>
    PPC-A72-150-P <CS10768R150P>
    PPC-A72-156-P <CS19108R156P>
+   PPC-A72-170-P <CS12102R170P>
    PPC-A72-173-C <CS19108R173>
+   PPC-A72-185-P <CS19108R185P>
+   PPC-A72-190-P <CS12102R190P>
    PPC-A72-215-P <CS19108R215P2>
    PPC-A72-236 <CS19108R236P>
    EPC/PPC-A72-101-C(Legacy) <CS12800R101>
