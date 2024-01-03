@@ -17,7 +17,7 @@ Install Android Platform Tools
 
 If you intend **only** to use serial port RS232 to connect to |ipc|, you can skip this part, debugging with serial port **does not require** installing Android Platform Tools.
 
-If you want to control or test your |systemType| based |ipc| from your workstation, such as your PC or laptop, one tool is required to be installed on your machine.
+If you want to control or test your |systemType_android| based |ipc| from your workstation, such as your PC or laptop, one tool is required to be installed on your machine.
 
 Since the |ipc| runs an Android OS, like developing on any other Android devices (phones, tablets, TVs, etc), the tools and knowledge apply to developing on |ipc| as well. We will need a tool called **Android Platform Tools** to be installed on your workstation. You can refer to Google Android's official developer doc to learn how to do that, here is a link to download this tool: https://developer.android.com/tools/releases/platform-tools. If the link is dead when you're reading this document, you can search for *Android Platform Tools* in your favourite search engine to find out where it has gone to. Then download and install the distribution that matches your workstation's platform (MacOS, Linux or Windows).
 
@@ -38,7 +38,7 @@ If you have successfully installed the Android Platform Tools, you can confirm t
 Connect From Serial Port
 ------------------------
 
-In our prebuilt |systemType| OS, the **RS232_2** serves as a serial debug port on the |chip| products of all screen sizes. We can connect a RS232 cable from the |ipc| to our workstation, allowing us to control the |ipc| from our workstation.
+In our prebuilt |systemType_android| OS, the **RS232_2** serves as a serial debug port on the |chip| products of all screen sizes. We can connect a RS232 cable from the |ipc| to our workstation, allowing us to control the |ipc| from our workstation.
 
 To get started, except for the |ipc| and your computer, you also need a USB to serial cable, we will use a USB Type-C to DB-9 cable as an example. 
 

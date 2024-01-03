@@ -79,7 +79,7 @@ Power Supply Unit (PSU) with the appropriate voltages, as follows:
 + The CS12800RA4101A RPC needs a 12V power adapter. Chipsee provides the power adapter.
 + The CS12800RA4101P, CS10768RA4121, CS19108RA4133, CS10768RA4150, CS19108RA4156, CS19108RA4215, CS19108RA4236 RPC need 12V to 36V power adapter.
 
-.. include:: Resources/Hardware_Req
+.. include:: /PCs/Pi/Software/Resources/Hardware_Req
 
 Software Requirements
 ---------------------
@@ -109,19 +109,19 @@ Debug
 
 In this document, we use Xshell to debug the Chipsee Raspberry Pi products. You can also use other tools such as Putty or another terminal emulation software.
 
-.. include:: Resources/Serial_Debug
+.. include:: /PCs/Pi/Software/Resources/Serial_Debug
 
-.. include:: Resources/SSH_Debug
+.. include:: /PCs/Pi/Software/Resources/SSH_Debug
 
-.. include:: Resources/VNC_Debug
-
-:pagebreak:`True`
-
-.. include:: Resources/Download_IMG
+.. include:: /PCs/Pi/Software/Resources/VNC_Debug
 
 :pagebreak:`True`
 
-.. include:: Resources/System_Resource
+.. include:: /PCs/Pi/Software/Resources/Download_IMG
+
+:pagebreak:`True`
+
+.. include:: /PCs/Pi/Software/Resources/System_Resource
 
 :pagebreak:`True`
 

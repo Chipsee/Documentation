@@ -150,7 +150,7 @@ GPIO
 
 There are 8 GPIOs, 4 Output, and 4 Input, they are all isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V. Refer to the tables below for a detailed port definition:
 
-.. include:: Resources/gpio_table
+.. include:: /PCs/Pi/Software/Resources/gpio_table
 
 :pagebreak:`True`
 

@@ -3,7 +3,7 @@ Download Required Tools
 
 If you want a fresh OS, you can flash your |ipc|.
 
-You need two tools to flash the |systemType| OS image to the |chip| PC.
+You need two tools to flash the OS image to the |chip| PC.
 The first is *DriverAssistant_v5.1.1*, the second is *RKDevTool_v2.93*, you can `download all of them here <https://chipsee-tmp.s3.amazonaws.com/SourcesArchives/RK3568/Tools/RKDevTool_Release_v2.93.zip>`_.
 
 These tools are Windows executables, please execute them on a Windows machine.

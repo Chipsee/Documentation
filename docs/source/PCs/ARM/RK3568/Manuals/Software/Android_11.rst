@@ -1,18 +1,18 @@
-.. include:: /PCs/Shared/pdf_options_software
+:pdf-build: False
 
-.. |systemType| replace:: Android 11
+.. |systemType_android| replace:: Android 11
 .. |chip| replace:: RK3568
 .. |ipc| replace:: Chipsee industrial PC
 .. |ipcs| replace:: Chipsee industrial PCs
 
 .. _rk3568_os_android11:
 
-|systemType| OS
-###############
+|systemType_android| OS
+#######################
 
 .. rst-class:: fs-3 fw-bold text-center
 
-  |systemType| OS on |chip| User Manual
+  |systemType_android| OS on |chip| User Manual
 
 
 .. image:: /Media/Chipsee_Logo_Full.png
@@ -22,13 +22,13 @@
 
 This is the software manual for RK3568 Chipsee industrial PC. If you’ve never developed on this hardware with an Android 11 OS, this manual can get you started quickly.
 
-.. include:: Resources/Shared/overview
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Shared/overview
 
-.. include:: Resources/Android/Connect
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Android/Connect
 
 :pagebreak:`True`
 
-.. include:: Resources/Android/Install_APK
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Android/Install_APK
 
 :pagebreak:`True`
 
@@ -47,7 +47,7 @@ You can use the native Android network API or the settings menu to change networ
 Serial Port RS232 and RS485
 ---------------------------
 
-.. include:: Resources/Shared/serial_port_table
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Shared/serial_port_table
 
 :pagebreak:`True`
 
@@ -198,7 +198,7 @@ Those are the three methods we know of that can control the RS232/RS485 devices 
 GPIO
 ----
 
-.. include:: Resources/Shared/gpio_table
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Shared/gpio_table
 
 GPIO devices are already exported as 8 Linux files in the Android OS, they are */dev/chipsee-gpio1 ~ /dev/chipsee-gpio8*.
 
@@ -242,7 +242,7 @@ BUZZER
 
 Inside ADB, you can **echo** 0 or 1 to control the buzzer.
 
-.. include:: Resources/Shared/buzzer
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Shared/buzzer
 
 As shown in the GPIO section, you can **test** buzzer in the GPIODemo app.
 
@@ -290,17 +290,3 @@ The image above shows a 10.1 inch |ipc| supporting 10 point multitouch.
 
 :pagebreak:`True`
 
-Flashing OS Image
-=================
-
-.. include:: Resources/Download_Required_Tools_And_Image
-
-.. include:: Resources/Flash_OS
-
-:pagebreak:`True`
-
-.. include:: Resources/Flash_OS_Video
-
-:pagebreak:`True`
-
-.. include:: /PCs/Shared/support

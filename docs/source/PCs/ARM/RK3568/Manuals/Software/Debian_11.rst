@@ -1,17 +1,17 @@
-.. include:: /PCs/Shared/pdf_options_software
+:pdf-build: False
 
-.. |systemType| replace:: Debian 11
+.. |systemType_debian| replace:: Debian 11
 .. |chip| replace:: RK3568
 .. |ipc| replace:: Chipsee industrial PC
 
 .. _rk3568_os_debian11:
 
-|systemType| OS
-###############
+|systemType_debian| OS
+######################
 
 .. rst-class:: fs-3 fw-bold text-center
 
-  |systemType| OS on |chip| User Manual
+  |systemType_debian| OS on |chip| User Manual
 
 
 .. image:: /Media/Chipsee_Logo_Full.png
@@ -19,9 +19,9 @@
    :width: 320
    :alt: chipsee-logo
 
-This is the software manual for |chip| Chipsee industrial PC. If you've never developed on this hardware with a |systemType| OS, this manual can get you started quickly.
+This is the software manual for |chip| Chipsee industrial PC. If you've never developed on this hardware with a |systemType_debian| OS, this manual can get you started quickly.
 
-.. include:: Resources/Shared/overview
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Shared/overview
 
 System Information
 ==================
@@ -75,7 +75,7 @@ To power on and connect to |ipc|, we need:
 Prepare the Software
 --------------------
 
-Thanks to the |systemType| OS, developing on |ipc| isn't really different from developing on any other PCs, you can use any developer software you're comfortable with, with only one exception for flashing OS.
+Thanks to the |systemType_debian| OS, developing on |ipc| isn't really different from developing on any other PCs, you can use any developer software you're comfortable with, with only one exception for flashing OS.
 
 #. To flash a new operating system, you need RKDevtool, you can refer to the Flashing OS Image section.
    
@@ -313,7 +313,7 @@ From the terminal, you can use **nmcli** to configure the network. You can refer
 Serial Port RS232 and RS485
 ---------------------------
 
-.. include:: Resources/Shared/serial_port_table
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Shared/serial_port_table
 
 You can install **cutecom** to test the serial port:
 
@@ -338,14 +338,14 @@ If you're an experienced engineer, you can also use a programming language to te
 GPIO
 ----
 
-.. include:: Resources/Shared/gpio_table
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Shared/gpio_table
 
 :pagebreak:`True`
 
 BUZZER
 ------
 
-.. include:: Resources/Shared/buzzer
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Shared/buzzer
 
 
 Backlight
@@ -423,20 +423,20 @@ Here are a few examples to test CAN by using CAN units.
 
 :pagebreak:`True`
 
-.. include:: Resources/Debian/faq
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Debian/faq
 
 :pagebreak:`True`
 
 Flashing OS Image
 =================
 
-.. include:: Resources/Download_Required_Tools_And_Image
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Download_Required_Tools_And_Image
 
-.. include:: Resources/Flash_OS
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Flash_OS
 
 :pagebreak:`True`
 
-.. include:: Resources/Flash_OS_Video
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Flash_OS_Video
 
 :pagebreak:`True`
 
