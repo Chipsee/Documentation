@@ -628,8 +628,8 @@ caption, figcaption, p.caption {
 }
 
 .md-content {
-    margin-left: unset;
-/*    margin-right: unset;*/
+/*    margin-left: unset;*/
+    margin-right: unset;
 }
 
 .md-container {
@@ -649,6 +649,11 @@ caption, figcaption, p.caption {
 }
 
 .md-sidebar--primary {
+    padding-top: 2.5em;
+/*    display: none;*/
+}
+
+.md-sidebar--secondary {
     display: none;
 }
 

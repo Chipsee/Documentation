@@ -1,4 +1,16 @@
 <header>
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex navheader">
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          {%- if sourcename != 'index.rst.txt' %}
+            <span class="md-header-nav__topic"> {{ title|striptags|e }} </span>
+            <span class="md-header-nav__topic"> {{ title|striptags|e }} </span>
+          {%- endif %}
+        </div>
+      </div>
+    </div>
+  </nav>
   <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-md-component="header">
     <div class="container-fluid">
       <a class="navbar-brand pt-0" href="/">
@@ -38,16 +50,5 @@
       </div>
     </div>
   </nav>
-  <nav class="md-header-nav md-grid">
-    <div class="md-flex navheader">
-      <div class="md-flex__cell md-flex__cell--stretch">
-        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
-          {%- if sourcename != 'index.rst.txt' %}
-            <span class="md-header-nav__topic"> {{ title|striptags|e }} </span>
-            <span class="md-header-nav__topic"> {{ title|striptags|e }} </span>
-          {%- endif %}
-        </div>
-      </div>
-    </div>
-  </nav>
+  
 </header>
