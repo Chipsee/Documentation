@@ -215,4 +215,7 @@ Please refer to the technical drawing in the figure below for details related to
 
 .. include:: /PCs/Shared/Hardware/three_d
 
-.. include:: /PCs/Shared/support
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Android_11.rst
+
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Debian_11.rst
+

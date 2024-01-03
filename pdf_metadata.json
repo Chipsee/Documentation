@@ -412,10 +412,7 @@
             "pdf-build": "False"
         },
         "PCs/ARM/RK3568/Manuals/Software/Android_11": {
-            "pdf-title": "Android 11 OS on RK3568 User Manual",
-            "pdf-subtitle": "For RK3568 Products",
-            "pdf-filename": "Android 11 OS on RK3568 User Manual",
-            "pdf-type": "ipc"
+            "pdf-build": "False"
         },
         "PCs/ARM/RK3568/Manuals/Software/Buildroot_Linux_Qt_5_15": {
             "pdf-title": "Buildroot Linux Qt 5.15 OS on RK3568 User Manual",
@@ -424,10 +421,7 @@
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3568/Manuals/Software/Debian_11": {
-            "pdf-title": "Debian 11 OS on RK3568 User Manual",
-            "pdf-subtitle": "For RK3568 Products",
-            "pdf-filename": "Debian 11 OS on RK3568 User Manual",
-            "pdf-type": "ipc"
+            "pdf-build": "False"
         },
         "PCs/ARM/RK3568/Manuals/Software/index": {
             "pdf-build": "False"

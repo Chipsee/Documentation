@@ -241,4 +241,4 @@ Please refer to the technical drawing in the figure below for details related to
 
 .. include:: /PCs/Shared/Hardware/three_d
 
-.. include:: /PCs/Shared/support
+.. include:: /PCs/Pi/Software/Debian.rst

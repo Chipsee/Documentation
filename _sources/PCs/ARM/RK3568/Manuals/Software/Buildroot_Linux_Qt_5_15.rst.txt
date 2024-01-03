@@ -22,12 +22,12 @@
 Flashing OS Image
 =================
 
-.. include:: Resources/Download_Required_Tools_And_Image
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Download_Required_Tools_And_Image
 
-.. include:: Resources/Flash_OS
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Flash_OS
 
-.. include:: Resources/Flash_OS_Video
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Flash_OS_Video
 
-.. include:: Resources/Development_On_Going
+.. include:: /PCs/ARM/RK3568/Manuals/Software/Resources/Development_On_Going
 
 .. include:: /PCs/Shared/support
