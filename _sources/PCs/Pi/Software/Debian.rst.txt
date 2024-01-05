@@ -43,6 +43,8 @@ This manual provides users with a quick start guide of Chipsee Raspberry Pi Comp
   * CS19108RA4133
   * CS10768RA4150
   * CS19108RA4156
+  * CS12102RA4170
+  * CS12102RA4190
   * CS19108RA4215
   * CS19108RA4236
   * CSRA4BOX

@@ -119,6 +119,51 @@ RK3568 Hardware Documentation
    :name: hwdocstable_8
 
    +---------------------+------------------------------------------------------------------------+
+   | |PPC-A55-170|       |   :ref:`PPC-A55-170 User Manual <PPC-A55-170>` |br|                    |
+   |                     |   PN: CS12102-RK3568-170P |br| |br|                                    |
+   |                     |                                                                        |
+   |                     |   17.0", 1280 x 1024, 10-point capacitive touch screen                 |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-A55-170| image:: /Media/ARM/A55/CS12102-RK3568-170P/CS12102-RK3568-170P-Front.jpg
+   :class: no-scaled-link
+   :target: CS12102-RK3568-170P.html
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_9
+
+   +---------------------+------------------------------------------------------------------------+
+   | |PPC-A55-185|       |   :ref:`PPC-A55-185 User Manual <PPC-A55-185>` |br|                    |
+   |                     |   PN: CS19108-RK3568-185P |br| |br|                                    |
+   |                     |                                                                        |
+   |                     |   18.5", 1920 x 1080, 10-point capacitive touch screen                 |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-A55-185| image:: /Media/ARM/A55/CS19108-RK3568-185P/CS19108-RK3568-185P-Front.jpg
+   :class: no-scaled-link
+   :target: CS19108-RK3568-185P.html
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_10
+
+   +---------------------+------------------------------------------------------------------------+
+   | |PPC-A55-190|       |   :ref:`PPC-A55-190 User Manual <PPC-A55-190>` |br|                    |
+   |                     |   PN: CS12102-RK3568-190P |br| |br|                                    |
+   |                     |                                                                        |
+   |                     |   19.0", 1280 x 1024, 10-point capacitive touch screen                 |
+   +---------------------+------------------------------------------------------------------------+
+
+.. |PPC-A55-190| image:: /Media/ARM/A55/CS12102-RK3568-190P/CS12102-RK3568-190P-Front.jpg
+   :class: no-scaled-link
+   :target: CS12102-RK3568-190P.html
+
+.. table::
+   :widths: 20 30
+   :name: hwdocstable_11
+
+   +---------------------+------------------------------------------------------------------------+
    | |PPC-A55-215|       |   :ref:`PPC-A55-215 User Manual <PPC-A55-215>` |br|                    |
    |                     |   PN: CS12800-RK3568-215P |br| |br|                                    |
    |                     |                                                                        |
@@ -131,7 +176,7 @@ RK3568 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_9
+   :name: hwdocstable_12
 
    +---------------------+------------------------------------------------------------------------+
    | |PPC-A55-236|       |   :ref:`PPC-A55-236 User Manual <PPC-A55-236>` |br|                    |
@@ -147,7 +192,7 @@ RK3568 Hardware Documentation
 
 .. table::
    :widths: 20 30
-   :name: hwdocstable_10
+   :name: hwdocstable_13
 
    +---------------------+------------------------------------------------------------------------+
    | |CS-A55-BOX|        |   :ref:`CS-A55-BOX User Manual <CS-A55-BOX>` |br|                      |
@@ -173,6 +218,9 @@ RK3568 Hardware Documentation
    PPC-A55-133 <CS19108-RK3568-133P>
    PPC-A55-150 <CS10768-RK3568-150P>
    PPC-A55-156 <CS19108-RK3568-156P>
+   PPC-A55-170 <CS12102-RK3568-170P>
+   PPC-A55-185 <CS19108-RK3568-185P>
+   PPC-A55-190 <CS12102-RK3568-190P>
    PPC-A55-215 <CS12800-RK3568-215P>
    PPC-A55-236 <CS19108-RK3568-236P>
    CS-A55-BOX <CS-RK3568-BOX>
