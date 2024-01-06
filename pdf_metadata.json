@@ -108,9 +108,6 @@
         "Displays/index": {
             "pdf-build": "False"
         },
-        "Displays/index-display": {
-            "pdf-build": "False"
-        },
         "Nomenclature/ARM": {
             "pdf-build": "False",
             "orphan": ""
@@ -216,6 +213,10 @@
         "PCs/ARM/AM335X/OS_Downloads/index": {
             "pdf-build": "False"
         },
+        "PCs/ARM/AM335X/index": {
+            "pdf-build": "False",
+            "orphan": ""
+        },
         "PCs/ARM/PX30/AIO/Manuals/Hardware/CS12800PX101A": {
             "pdf-title": "AIO-PX30-101",
             "pdf-subtitle": "PN: CS12800PX101A",
@@ -256,6 +257,18 @@
             "pdf-title": "PPC-A72-150-P",
             "pdf-subtitle": "PN: CS10768R150P",
             "pdf-filename": "PPC-A72-150-P",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS12102R170P": {
+            "pdf-title": "PPC-A72-170-P",
+            "pdf-subtitle": "PN: CS12102R170P",
+            "pdf-filename": "PPC-A72-170-P",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS12102R190P": {
+            "pdf-title": "PPC-A72-190-P",
+            "pdf-subtitle": "PN: CS12102R190P",
+            "pdf-filename": "PPC-A72-190-P",
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS12800R101": {
@@ -306,6 +319,12 @@
             "pdf-filename": "PPC-A72-173-C",
             "pdf-type": "ipc"
         },
+        "PCs/ARM/RK3399/Manuals/Hardware/CS19108R185P": {
+            "pdf-title": "PPC-A72-185-P",
+            "pdf-subtitle": "PN: CS19108R185P",
+            "pdf-filename": "PPC-A72-185-P",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R215": {
             "pdf-title": "PPC-A72-215-C",
             "pdf-subtitle": "PN: CS19108R215P",
@@ -325,6 +344,9 @@
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/Manuals/Software/index": {
             "pdf-build": "False"
         },
         "PCs/ARM/RK3399/OS_Downloads/CS10600R070": {
@@ -372,6 +394,18 @@
             "pdf-filename": "PPC-A55-150",
             "pdf-type": "ipc"
         },
+        "PCs/ARM/RK3568/Manuals/Hardware/CS12102-RK3568-170P": {
+            "pdf-title": "PPC-A55-170",
+            "pdf-subtitle": "PN: CS12102-RK3568-170P",
+            "pdf-filename": "PPC-A55-170",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3568/Manuals/Hardware/CS12102-RK3568-190P": {
+            "pdf-title": "PPC-A55-190",
+            "pdf-subtitle": "PN: CS12102-RK3568-190P",
+            "pdf-filename": "PPC-A55-190",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/RK3568/Manuals/Hardware/CS12720-RK3568-050P": {
             "pdf-title": "PPC-A55-050",
             "pdf-subtitle": "PN: CS12720-RK3568-050P",
@@ -402,6 +436,12 @@
             "pdf-filename": "PPC-A55-156",
             "pdf-type": "ipc"
         },
+        "PCs/ARM/RK3568/Manuals/Hardware/CS19108-RK3568-185P": {
+            "pdf-title": "PPC-A55-185",
+            "pdf-subtitle": "PN: CS19108-RK3568-185P",
+            "pdf-filename": "PPC-A55-185",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/RK3568/Manuals/Hardware/CS19108-RK3568-236P": {
             "pdf-title": "PPC-A55-236",
             "pdf-subtitle": "PN: CS19108-RK3568-236P",
@@ -412,7 +452,10 @@
             "pdf-build": "False"
         },
         "PCs/ARM/RK3568/Manuals/Software/Android_11": {
-            "pdf-build": "False"
+            "pdf-title": "Android 11 OS on RK3568 User Manual",
+            "pdf-subtitle": "For RK3568 Products",
+            "pdf-filename": "Android 11 OS on RK3568 User Manual",
+            "pdf-type": "ipc"
         },
         "PCs/ARM/RK3568/Manuals/Software/Buildroot_Linux_Qt_5_15": {
             "pdf-title": "Buildroot Linux Qt 5.15 OS on RK3568 User Manual",
@@ -421,7 +464,10 @@
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3568/Manuals/Software/Debian_11": {
-            "pdf-build": "False"
+            "pdf-title": "Debian 11 OS on RK3568 User Manual",
+            "pdf-subtitle": "For RK3568 Products",
+            "pdf-filename": "Debian 11 OS on RK3568 User Manual",
+            "pdf-type": "ipc"
         },
         "PCs/ARM/RK3568/Manuals/Software/index": {
             "pdf-build": "False"
@@ -629,6 +675,14 @@
         },
         "PCs/ARM/index": {
             "pdf-build": "False"
+        },
+        "PCs/ARM/index-nxp": {
+            "pdf-build": "False",
+            "orphan": ""
+        },
+        "PCs/ARM/index-rockchip": {
+            "pdf-build": "False",
+            "orphan": ""
         },
         "PCs/Intel/J1900/Manuals/Hardware/CS86-BOX-J1900": {
             "pdf-title": "CS86-BOX-J1900",
@@ -843,6 +897,18 @@
             "pdf-filename": "PPC-CM4-150",
             "pdf-type": "ipc"
         },
+        "PCs/Pi/A72/Manuals/Hardware/CS12102RA4170": {
+            "pdf-title": "PPC-CM4-170",
+            "pdf-subtitle": "PN: CS12102RA4170",
+            "pdf-filename": "PPC-CM4-170",
+            "pdf-type": "ipc"
+        },
+        "PCs/Pi/A72/Manuals/Hardware/CS12102RA4190": {
+            "pdf-title": "PPC-CM4-190",
+            "pdf-subtitle": "PN: CS12102RA4190",
+            "pdf-filename": "PPC-CM4-190",
+            "pdf-type": "ipc"
+        },
         "PCs/Pi/A72/Manuals/Hardware/CS12720RA4050": {
             "pdf-title": "EPC/PPC-CM4-050",
             "pdf-subtitle": "PN: CS12720RA4050",
@@ -935,28 +1001,6 @@
         },
         "PCs/index": {
             "pdf-build": "False"
-        },
-        "PCs/index-intel": {
-            "pdf-build": "False"
-        },
-        "PCs/index-mtk": {
-            "pdf-build": "False"
-        },
-        "PCs/index-nxp": {
-            "pdf-build": "False"
-        },
-        "PCs/index-rockchip": {
-            "pdf-build": "False"
-        },
-        "PCs/index-rpi": {
-            "pdf-build": "False"
-        },
-        "PCs/index-ti": {
-            "pdf-build": "False"
-        },
-        "ThreeD/chatbot": {
-            "pdf-build": "False",
-            "orphan": ""
         },
         "ThreeD/three_d_model": {
             "pdf-build": "False",

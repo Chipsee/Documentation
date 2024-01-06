@@ -53,7 +53,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="AIO-CM4-156 Raspberry Pi OS Start Guide" href="AIO156StartGuide.html" />
-    <link rel="prev" title="Software Documentation" href="index.html" /> 
+    <link rel="prev" title="EPC/PPC-CM3-101" href="../A53/Manuals/Hardware/CS12800RA101.html" /> 
     <script async src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
 
     <script type="importmap">
@@ -124,22 +124,22 @@
               Industrial PCs
             </a>
             <ul class="dropdown-menu" id="nav-dropdown">
-              <li><a class="dropdown-item" href="../../index-rpi.html">Powered by Raspberry Pi</a></li>
+              <li><a class="dropdown-item" href="../index.html">Powered by Raspberry Pi</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="../../index-rockchip.html">Powered by Rockchip</a></li>
+              <li><a class="dropdown-item" href="../../ARM/index-rockchip.html">Powered by Rockchip</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="../../index-nxp.html">Powered by NXP</a></li>
+              <li><a class="dropdown-item" href="../../ARM/index-nxp.html">Powered by NXP</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="../../index-ti.html">Powered by TI</a></li>
+              <li><a class="dropdown-item" href="../../ARM/AM335X/index.html">Powered by TI</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="../../index-intel.html">Powered by INTEL</a></li>
+              <li><a class="dropdown-item" href="../../Intel/index.html">Powered by INTEL</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../index-mtk.html">Handhelds</a>
+            <a class="nav-link" href="../../MTK/index.html">Handhelds</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../../Displays/index-display.html">Displays</a>
+            <a class="nav-link" href="../../../Displays/index.html">Displays</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://www.chipsee.com" target="_blank">Shop</a>
@@ -162,7 +162,6 @@
           <li class="md-tabs__item"><a href="../../../index.html" class="md-tabs__link">Chipsee</a></li>
           <li class="md-tabs__item"><a href="../../index.html" class="md-tabs__link">Industrial Panel &amp; Embedded PCs</a></li>
           <li class="md-tabs__item"><a href="../index.html" class="md-tabs__link">Industrial PCs Powered by Raspberry Pi</a></li>
-          <li class="md-tabs__item"><a href="index.html" class="md-tabs__link">Software Documentation</a></li>
       </ul>
     </div>
   </nav>
@@ -251,77 +250,6 @@
             <div class="md-sidebar__scrollwrap">
               <div class="md-sidebar__inner">
                 
-<nav class="md-nav md-nav--secondary">
-    <label class="md-nav__title" for="__toc">ON THIS PAGE</label>
-  <ul class="md-nav__list" data-md-scrollfix="">
-        <li class="md-nav__item"><a href="#pcs-pi-software-debian--page-root" class="md-nav__link">Raspberry Pi OS</a><nav class="md-nav">
-              <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#preparation" class="md-nav__link">Preparation</a><nav class="md-nav">
-              <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#hardware-requirements" class="md-nav__link">Hardware Requirements</a>
-        </li>
-        <li class="md-nav__item"><a href="#software-requirements" class="md-nav__link">Software Requirements</a>
-        </li></ul>
-            </nav>
-        </li>
-        <li class="md-nav__item"><a href="#debug" class="md-nav__link">Debug</a><nav class="md-nav">
-              <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#serial-debug" class="md-nav__link">Serial Debug</a>
-        </li>
-        <li class="md-nav__item"><a href="#ssh-debug" class="md-nav__link">SSH Debug</a>
-        </li>
-        <li class="md-nav__item"><a href="#vnc-debug" class="md-nav__link">VNC Debug</a>
-        </li></ul>
-            </nav>
-        </li>
-        <li class="md-nav__item"><a href="#downloading-images" class="md-nav__link">Downloading images</a><nav class="md-nav">
-              <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#boot-switch-configuration" class="md-nav__link">Boot Switch Configuration</a>
-        </li>
-        <li class="md-nav__item"><a href="#prebuilt-image" class="md-nav__link">Prebuilt image</a>
-        </li>
-        <li class="md-nav__item"><a href="#writing-images-to-the-sd-card" class="md-nav__link">Writing images to the SD Card</a>
-        </li>
-        <li class="md-nav__item"><a href="#writing-images-to-the-emmc" class="md-nav__link">Writing images to the eMMC</a>
-        </li></ul>
-            </nav>
-        </li>
-        <li class="md-nav__item"><a href="#system-resource" class="md-nav__link">System Resource</a><nav class="md-nav">
-              <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#sd-card-usb" class="md-nav__link">SD Card/USB</a>
-        </li>
-        <li class="md-nav__item"><a href="#serial-port" class="md-nav__link">Serial Port</a>
-        </li>
-        <li class="md-nav__item"><a href="#gpio" class="md-nav__link">GPIO</a>
-        </li>
-        <li class="md-nav__item"><a href="#relay" class="md-nav__link">Relay</a>
-        </li>
-        <li class="md-nav__item"><a href="#buzzer" class="md-nav__link">BUZZER</a>
-        </li>
-        <li class="md-nav__item"><a href="#backlight" class="md-nav__link">Backlight</a>
-        </li>
-        <li class="md-nav__item"><a href="#g" class="md-nav__link">4G</a>
-        </li>
-        <li class="md-nav__item"><a href="#can-bus" class="md-nav__link">CAN Bus</a>
-        </li>
-        <li class="md-nav__item"><a href="#wi-fi" class="md-nav__link">Wi-Fi</a>
-        </li>
-        <li class="md-nav__item"><a href="#zigbee" class="md-nav__link">Zigbee</a>
-        </li>
-        <li class="md-nav__item"><a href="#camera" class="md-nav__link">Camera</a>
-        </li>
-        <li class="md-nav__item"><a href="#chipsee-init-shell" class="md-nav__link">Chipsee-init shell</a>
-        </li></ul>
-            </nav>
-        </li>
-        <li class="md-nav__item"><a href="#disclaimer" class="md-nav__link">Disclaimer</a>
-        </li>
-        <li class="md-nav__item"><a href="#technical-support" class="md-nav__link">Technical Support</a>
-        </li></ul>
-            </nav>
-        </li>
-  </ul>
-</nav>
               </div>
             </div>
           </div>
@@ -375,6 +303,8 @@
 <li><p>CS19108RA4133</p></li>
 <li><p>CS10768RA4150</p></li>
 <li><p>CS19108RA4156</p></li>
+<li><p>CS12102RA4170</p></li>
+<li><p>CS12102RA4190</p></li>
 <li><p>CS19108RA4215</p></li>
 <li><p>CS19108RA4236</p></li>
 <li><p>CSRA4BOX</p></li>
@@ -450,7 +380,7 @@ Use the session properties as shown on the figure below.</p>
 <figure class="align-center" id="id4">
 <img alt="../../../_images/Serial_Debug1.jpeg" src="../../../_images/Serial_Debug1.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 1016:  </span><span class="caption-text">Session Properties</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1041:  </span><span class="caption-text">Session Properties</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p>If you need to change the debug serial to normal serial, follow these steps:</p>
@@ -482,7 +412,7 @@ Interfacing<span class="w"> </span>Options<span class="w"> </span>-&gt;<span cla
 <figure class="align-center" id="id5">
 <img alt="../../../_images/SSH_Debug_21.jpeg" src="../../../_images/SSH_Debug_21.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 1017:  </span><span class="caption-text">Enabling SSH (GUI)</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1042:  </span><span class="caption-text">Enabling SSH (GUI)</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -493,7 +423,7 @@ Interfacing<span class="w"> </span>Options<span class="w"> </span>-&gt;<span cla
 <dt>In XShell, add a new session and set it as shown on the figure below.</dt><dd><figure class="align-center" id="id6">
 <img alt="../../../_images/SSH_Debug_3.jpeg" src="../../../_images/SSH_Debug_3.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 1018:  </span><span class="caption-text">SSH Setting on Xshell</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1043:  </span><span class="caption-text">SSH Setting on Xshell</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -503,7 +433,7 @@ Interfacing<span class="w"> </span>Options<span class="w"> </span>-&gt;<span cla
 <dt>Now we can perform SSH debugging using XShell</dt><dd><figure class="align-center" id="id7">
 <img alt="../../../_images/SSH_Debug_4.jpeg" src="../../../_images/SSH_Debug_4.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 1019:  </span><span class="caption-text">SSH Debug</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1044:  </span><span class="caption-text">SSH Debug</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -532,7 +462,7 @@ Interfacing<span class="w"> </span>Options<span class="w"> </span>-&gt;<span cla
 <figure class="align-center" id="id8">
 <img alt="../../../_images/VNC_Debug_21.jpeg" src="../../../_images/VNC_Debug_21.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 1020:  </span><span class="caption-text">Enabling VNC (GUI)</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1045:  </span><span class="caption-text">Enabling VNC (GUI)</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -542,19 +472,19 @@ Interfacing<span class="w"> </span>Options<span class="w"> </span>-&gt;<span cla
 <dt>Use VNC-Viewer in Windows to control it over Ethernet, as shown in the figures below.</dt><dd><figure class="align-center" id="id9">
 <img alt="../../../_images/VNC_Debug_31.jpeg" src="../../../_images/VNC_Debug_31.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 1021:  </span><span class="caption-text">Vnc-Viewer Connect</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1046:  </span><span class="caption-text">Vnc-Viewer Connect</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id10">
 <img alt="../../../_images/VNC_Debug_41.jpeg" src="../../../_images/VNC_Debug_41.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 1022:  </span><span class="caption-text">Authentications</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1047:  </span><span class="caption-text">Authentications</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id11">
 <img alt="../../../_images/VNC_Debug_5.jpeg" src="../../../_images/VNC_Debug_5.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 1023:  </span><span class="caption-text">VNC Desktop</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1048:  </span><span class="caption-text">VNC Desktop</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -628,7 +558,7 @@ For those who just want to enable the Compute Module eMMC as a mass storage devi
 <dt>Once the driver installation is complete, run the <strong>RPiBoot.exe</strong> tool that was previously installed. You can run <strong>RPiBoot.exe</strong> in Windows PowerShell, as shown on the figure below.</dt><dd><figure class="align-center" id="id12">
 <img alt="../../../_images/rpiboot.jpeg" src="../../../_images/rpiboot.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 1024:  </span><span class="caption-text">RPIboot tool</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1049:  </span><span class="caption-text">RPIboot tool</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -657,7 +587,7 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 <h3 id="serial-port">Serial Port<a class="headerlink" href="#serial-port" title="Permalink to this heading">¶</a></h3>
 <p>Chipsee Raspberry Pi<sup>®</sup> boards support RS232 and RS485. Check the table below to know more about the serial port on different boards.</p>
 <table id="id13" style="width: 100%">
-<caption><span class="caption-number">Table 339 </span><span class="caption-text">CS10600RA070-C111</span><a class="headerlink" href="#id13" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 349 </span><span class="caption-text">CS10600RA070-C111</span><a class="headerlink" href="#id13" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Name</p></th>
@@ -684,7 +614,7 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 </div>
 <p>There is one GPIO that is used by RS485. You can control it to enable and disable RS485 to send and receive. Check the tables below.</p>
 <table id="id14" style="width: 100%">
-<caption><span class="caption-number">Table 340 </span><span class="caption-text">RS485 control GPIO</span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 350 </span><span class="caption-text">RS485 control GPIO</span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>GPIO</p></th>
 <th class="head"><p>Initial</p></th>
@@ -711,7 +641,7 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 </tbody>
 </table>
 <table id="id15" style="width: 100%">
-<caption><span class="caption-number">Table 341 </span><span class="caption-text">CS12800RA101</span><a class="headerlink" href="#id15" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 351 </span><span class="caption-text">CS12800RA101</span><a class="headerlink" href="#id15" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Name</p></th>
@@ -753,7 +683,7 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 </tbody>
 </table>
 <table id="id16" style="width: 100%">
-<caption><span class="caption-number">Table 342 </span><span class="caption-text">CS10600RA4070-C111/CS10600RA4070P-D/CSRA4BOX</span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 352 </span><span class="caption-text">CS10600RA4070-C111/CS10600RA4070P-D/CSRA4BOX</span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Name</p></th>
@@ -801,7 +731,7 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 </dl>
 <hr class="docutils"/>
 <table id="id17" style="width: 100%">
-<caption><span class="caption-number">Table 343 </span><span class="caption-text">CS12800RA4101A</span><a class="headerlink" href="#id17" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 353 </span><span class="caption-text">CS12800RA4101A</span><a class="headerlink" href="#id17" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Name</p></th>
@@ -828,7 +758,7 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 </tbody>
 </table>
 <table id="id18" style="width: 100%">
-<caption><span class="caption-number">Table 344 </span><span class="caption-text">CS12800RA4101P/CS19108RA4133P/CS10768RA4150P/CS19108RA4156P/CS19108RA4215P/CS19108RA4236P</span><a class="headerlink" href="#id18" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 354 </span><span class="caption-text">CS12800RA4101P/CS19108RA4133P/CS10768RA4150P/CS19108RA4156P/CS12102RA4170P/CS12102RA4190P/CS19108RA4215P/CS19108RA4236P</span><a class="headerlink" href="#id18" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Name</p></th>
@@ -873,7 +803,7 @@ SD Card and USB Storage support hot plug. They will be automatically mounted on 
 <h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this heading">¶</a></h3>
 <p>There are 8 GPIOs, 4 Output, and 4 Input, they are all isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V. Refer to the tables below for a detailed port definition:</p>
 <table id="id19" style="width: 100%">
-<caption><span class="caption-number">Table 345 </span><span class="caption-text">GPIO Device Node</span><a class="headerlink" href="#id19" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 355 </span><span class="caption-text">GPIO Device Node</span><a class="headerlink" href="#id19" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Function</p></th>
 <th class="head"><p>Device Node</p></th>
@@ -936,7 +866,7 @@ $<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><sp
 <h3 id="relay">Relay<a class="headerlink" href="#relay" title="Permalink to this heading">¶</a></h3>
 <p>There is one Relay on CS12800RA4101A. For a detailed port definition, please refer to the table below.</p>
 <table id="id20" style="width: 100%">
-<caption><span class="caption-number">Table 346 </span><span class="caption-text">CS12800RA4101A Relay on P10</span><a class="headerlink" href="#id20" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 356 </span><span class="caption-text">CS12800RA4101A Relay on P10</span><a class="headerlink" href="#id20" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Name</p></th>
@@ -1027,7 +957,7 @@ $<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><sp
 <p>SIM card does <strong>NOT</strong> support hot plug. <strong>Power off</strong> before inserting/removing SIM card.</p>
 <a class="text-center reference internal image-reference" href="../../../_images/TF_4G_0701.jpg"><img alt="../../../_images/TF_4G_0701.jpg" class="text-center align-center" src="../../../_images/TF_4G_0701.jpg" style="width: 960px;"/></a>
 <p class="text-center"><em>SIM Card Direction (7 inch product)</em></p>
-<a class="text-center reference internal image-reference" href="../../../_images/TF_4G_101.jpg"><img alt="../../../_images/TF_4G_101.jpg" class="text-center align-center" src="../../../_images/TF_4G_101.jpg" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/TF_4G_1012.jpg"><img alt="../../../_images/TF_4G_1012.jpg" class="text-center align-center" src="../../../_images/TF_4G_1012.jpg" style="width: 960px;"/></a>
 <p class="text-center"><em>SIM Card Direction (10 inch and above products)</em></p>
 </div>
 <ul>
@@ -1083,7 +1013,7 @@ AT+QGPSEND<span class="w"> </span>//<span class="w"> </span>disable<span class="
 <figure class="align-center" id="id21">
 <img alt="../../../_images/CAN.jpeg" src="../../../_images/CAN.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 1025:  </span><span class="caption-text">Connecting CAN</span><a class="headerlink" href="#id21" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1050:  </span><span class="caption-text">Connecting CAN</span><a class="headerlink" href="#id21" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p>Here are a few examples to test CAN by using CAN units</p>
@@ -1202,7 +1132,7 @@ If your device has booting issues, you can send Chipsee<sup>®</sup> the file to
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
           
-            <a href="index.html" title="Software Documentation"
+            <a href="../A53/Manuals/Hardware/CS12800RA101.html" title="EPC/PPC-CM3-101"
                class="md-flex md-footer-nav__link md-footer-nav__link--prev"
                rel="prev">
               <div class="md-flex__cell md-flex__cell--shrink">
@@ -1211,7 +1141,7 @@ If your device has booting issues, you can send Chipsee<sup>®</sup> the file to
               <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
                 <span class="md-flex__ellipsis">
                   <span
-                      class="md-footer-nav__direction"> Previous </span> Software Documentation </span>
+                      class="md-footer-nav__direction"> Previous </span> EPC/PPC-CM3-101 </span>
               </div>
             </a>
           
@@ -1239,7 +1169,7 @@ If your device has booting issues, you can send Chipsee<sup>®</sup> the file to
               
           </div>
             Last updated on
-              Jan 05, 2024.
+              Jan 06, 2024.
             <br/>
         </div>
     <!-- GDPR Consent Banner -->

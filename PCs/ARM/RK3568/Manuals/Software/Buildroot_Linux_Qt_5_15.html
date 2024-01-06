@@ -124,22 +124,22 @@
               Industrial PCs
             </a>
             <ul class="dropdown-menu" id="nav-dropdown">
-              <li><a class="dropdown-item" href="../../../../index-rpi.html">Powered by Raspberry Pi</a></li>
+              <li><a class="dropdown-item" href="../../../../Pi/index.html">Powered by Raspberry Pi</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="../../../../index-rockchip.html">Powered by Rockchip</a></li>
+              <li><a class="dropdown-item" href="../../../index-rockchip.html">Powered by Rockchip</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="../../../../index-nxp.html">Powered by NXP</a></li>
+              <li><a class="dropdown-item" href="../../../index-nxp.html">Powered by NXP</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="../../../../index-ti.html">Powered by TI</a></li>
+              <li><a class="dropdown-item" href="../../../AM335X/index.html">Powered by TI</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="../../../../index-intel.html">Powered by INTEL</a></li>
+              <li><a class="dropdown-item" href="../../../../Intel/index.html">Powered by INTEL</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../../../index-mtk.html">Handhelds</a>
+            <a class="nav-link" href="../../../../MTK/index.html">Handhelds</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../../../../Displays/index-display.html">Displays</a>
+            <a class="nav-link" href="../../../../../Displays/index.html">Displays</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://www.chipsee.com" target="_blank">Shop</a>
@@ -162,7 +162,7 @@
           <li class="md-tabs__item"><a href="../../../../../index.html" class="md-tabs__link">Chipsee</a></li>
           <li class="md-tabs__item"><a href="../../../../index.html" class="md-tabs__link">Industrial Panel &amp; Embedded PCs</a></li>
           <li class="md-tabs__item"><a href="../../../index.html" class="md-tabs__link">Industrial Panel PCs Powered by Arm<sup>®</sup></a></li>
-          <li class="md-tabs__item"><a href="index.html" class="md-tabs__link">RK3568 Software Documentation</a></li>
+          <li class="md-tabs__item"><a href="index.html" class="md-tabs__link">Powered by Rockchip RK3568</a></li>
       </ul>
     </div>
   </nav>
@@ -213,39 +213,6 @@
             <div class="md-sidebar__scrollwrap">
               <div class="md-sidebar__inner">
                 
-<nav class="md-nav md-nav--secondary">
-    <label class="md-nav__title" for="__toc">ON THIS PAGE</label>
-  <ul class="md-nav__list" data-md-scrollfix="">
-        <li class="md-nav__item"><a href="#pcs-arm-rk3568-manuals-software-buildroot-linux-qt-5-15--page-root" class="md-nav__link">Buildroot Linux Qt 5.15 OS</a><nav class="md-nav">
-              <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#flashing-os-image" class="md-nav__link">Flashing OS Image</a><nav class="md-nav">
-              <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#download-required-tools" class="md-nav__link">Download Required Tools</a>
-        </li>
-        <li class="md-nav__item"><a href="#download-prebuilt-os-images" class="md-nav__link">Download Prebuilt OS Images</a>
-        </li>
-        <li class="md-nav__item"><a href="#start-flashing" class="md-nav__link">Start Flashing</a>
-        </li>
-        <li class="md-nav__item"><a href="#video-tutorial-for-flashing-os" class="md-nav__link">Video Tutorial for Flashing OS</a><nav class="md-nav">
-              <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#method-1-loader-mode" class="md-nav__link">Method 1: LOADER Mode</a>
-        </li>
-        <li class="md-nav__item"><a href="#method-2-maskrom-mode" class="md-nav__link">Method 2: MASKROM Mode</a>
-        </li></ul>
-            </nav>
-        </li></ul>
-            </nav>
-        </li>
-        <li class="md-nav__item"><a href="#notice" class="md-nav__link">Notice</a>
-        </li>
-        <li class="md-nav__item"><a href="#disclaimer" class="md-nav__link">Disclaimer</a>
-        </li>
-        <li class="md-nav__item"><a href="#technical-support" class="md-nav__link">Technical Support</a>
-        </li></ul>
-            </nav>
-        </li>
-  </ul>
-</nav>
               </div>
             </div>
           </div>
@@ -262,7 +229,7 @@
 <section id="download-required-tools">
 <h3 id="download-required-tools">Download Required Tools<a class="headerlink" href="#download-required-tools" title="Permalink to this heading">¶</a></h3>
 <p>If you want a fresh OS, you can flash your Chipsee industrial PC.</p>
-<p>You need two tools to flash the OS image to the RK3568 PC.
+<p>You need two tools to flash the Buildroot Linux Qt 5.15 OS image to the RK3568 PC.
 The first is <em>DriverAssistant_v5.1.1</em>, the second is <em>RKDevTool_v2.93</em>, you can <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/SourcesArchives/RK3568/Tools/RKDevTool_Release_v2.93.zip">download all of them here</a>.</p>
 <p>These tools are Windows executables, please execute them on a Windows machine.</p>
 <p>If you’ve been using a prior version of <em>DriverAssistant</em>, click uninstall before installing <em>DriverAssistant_v5.1.1</em>.</p>
@@ -281,7 +248,7 @@ The first is <em>DriverAssistant_v5.1.1</em>, the second is <em>RKDevTool_v2.93<
 <ol class="arabic simple">
 <li><p>Connect the Type-C cable and power on the board. (If unexpected messages occur at any of the following steps, try plugging the Type-C cable again.)</p></li>
 <li><p>Click <strong>Upgrade Firmware</strong> tab.</p></li>
-<li><p>Click <strong>Firmware</strong> button to select a .img OS image file. The screenshots show a debian11 img file is selected, but this is applicable to other OSes as well.</p></li>
+<li><p>Click <strong>Firmware</strong> button to select a .img Buildroot Linux Qt 5.15 image file. The screenshots show a debian11 img file is selected, but this is applicable to other OSes as well.</p></li>
 </ol>
 <a class="mb-4 reference internal image-reference" href="../../../../../_images/Flash_1.png"><img alt="Flash_1" class="mb-4 align-center" src="../../../../../_images/Flash_1.png" style="width: 768px;"/></a>
 <p><strong>STEP 2</strong>:</p>
@@ -408,7 +375,7 @@ sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>u
               
           </div>
             Last updated on
-              Jan 05, 2024.
+              Jan 06, 2024.
             <br/>
         </div>
     <!-- GDPR Consent Banner -->

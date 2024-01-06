@@ -101,7 +101,7 @@ function fbxExists(fbxName) {
     let xhr = new XMLHttpRequest();
     xhr.open('HEAD', `/_static/3d_models/${fbxName}.fbx`, false);
     xhr.send();
-    return xhr.status != 404;
+    return xhr.status == 200;
 }
 
 // Add query param to let 3D js know what product it needs to display, open 3D page.
