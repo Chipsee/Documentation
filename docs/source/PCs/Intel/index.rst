@@ -2,6 +2,9 @@
 
 .. _PBI:
 
+Industrial PCs Powered by Intel
+===============================
+
 .. include:: /PCs/Intel/J1900/Manuals/Hardware/index
 
 .. include:: /PCs/Intel/J6412/Manuals/Hardware/index
