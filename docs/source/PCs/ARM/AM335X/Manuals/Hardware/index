@@ -146,7 +146,6 @@ AM335X / A8
    :target: /PCs/ARM/AM335X/Manuals/Hardware/CS10768T097.html
 
 
-
 .. toctree::
    :maxdepth: 1
    :titlesonly:
