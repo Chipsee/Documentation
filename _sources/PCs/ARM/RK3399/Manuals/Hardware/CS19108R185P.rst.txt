@@ -1,8 +1,8 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. |product| replace:: PPC-A72-185-P
+.. |product| replace:: PPC-A72-185-C
 
-.. |productP| replace:: PPC-A72-185-P
+.. |productP| replace:: PPC-A72-185-C
 
 .. |PN| replace:: PN: CS19108R185P
 
@@ -92,7 +92,7 @@
                   :align: middle
                   :width: 384
 
-.. _product_link: https://chipsee.com/product/ppc-a72-185-p/
+.. _product_link: https://chipsee.com/product/ppc-a72-185-c/
 
 .. |product_link| replace:: |product|
 
@@ -110,7 +110,7 @@
 .. |Side View 2| image:: /Media/ARM/A72/CS19108R185P/CS19108R185P-Side2.jpg
                   :class: product-img 
 
-.. _PPC-A72-185-P:
+.. _PPC-A72-185-C:
 
 |product|
 #########

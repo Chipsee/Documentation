@@ -1,8 +1,8 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. |product| replace:: PPC-A72-190-P
+.. |product| replace:: PPC-A72-190-C
 
-.. |productP| replace:: PPC-A72-190-P
+.. |productP| replace:: PPC-A72-190-C
 
 .. |PN| replace:: PN: CS12102R190P
 
@@ -92,7 +92,7 @@
                   :align: middle
                   :width: 384
 
-.. _product_link: https://chipsee.com/product/ppc-a72-190-p/
+.. _product_link: https://chipsee.com/product/ppc-a72-190-c/
 
 .. |product_link| replace:: |product|
 
@@ -110,7 +110,7 @@
 .. |Side View 2| image:: /Media/ARM/A72/CS12102R190P/CS12102R190P-Side2.jpg
                   :class: product-img 
 
-.. _PPC-A72-190-P:
+.. _PPC-A72-190-C:
 
 |product|
 #########
