@@ -256,15 +256,15 @@
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS12102R170P": {
-            "pdf-title": "PPC-A72-170-P",
+            "pdf-title": "PPC-A72-170-C",
             "pdf-subtitle": "PN: CS12102R170P",
-            "pdf-filename": "PPC-A72-170-P",
+            "pdf-filename": "PPC-A72-170-C",
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS12102R190P": {
-            "pdf-title": "PPC-A72-190-P",
+            "pdf-title": "PPC-A72-190-C",
             "pdf-subtitle": "PN: CS12102R190P",
-            "pdf-filename": "PPC-A72-190-P",
+            "pdf-filename": "PPC-A72-190-C",
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS12800R101": {
@@ -316,9 +316,9 @@
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R185P": {
-            "pdf-title": "PPC-A72-185-P",
+            "pdf-title": "PPC-A72-185-C",
             "pdf-subtitle": "PN: CS19108R185P",
-            "pdf-filename": "PPC-A72-185-P",
+            "pdf-filename": "PPC-A72-185-C",
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/CS19108R215": {
