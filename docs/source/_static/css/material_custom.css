@@ -634,6 +634,8 @@ caption, figcaption, p.caption {
 
 .md-container {
     padding-top: unset;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .md-typeset p {

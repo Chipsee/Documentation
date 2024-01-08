@@ -116,9 +116,10 @@ RK3399 / A72
       <div class="index-item">
 
 17.0 Inch
-|PPC-A72-170-P|
+|PPC-A72-170-C|
 
-:ref:`PPC-A72-170-P<PPC-A72-170-P>`
+:ref:`PPC-A72-170-C<PPC-A72-170-C>`
+
 
 .. raw:: html
 
@@ -146,9 +147,10 @@ RK3399 / A72
       <div class="index-item">
 
 18.5 Inch
-|PPC-A72-185-P|
+|PPC-A72-185-C|
 
-:ref:`PPC-A72-185-P<PPC-A72-185-P>`
+:ref:`PPC-A72-185-C<PPC-A72-185-C>`
+
 
 .. raw:: html
 
@@ -161,9 +163,10 @@ RK3399 / A72
       <div class="index-item">
 
 19.0 Inch
-|PPC-A72-190-P|
+|PPC-A72-190-C|
 
-:ref:`PPC-A72-190-P<PPC-A72-190-P>`
+:ref:`PPC-A72-190-C<PPC-A72-190-C>`
+
 
 .. raw:: html
 
@@ -307,7 +310,7 @@ RK3399 / A72
    :class: index-item-img
    :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R156P.html
 
-.. |PPC-A72-170-P| image:: /Media/ARM/A72/CS12102R170P/CS12102R170P-Front-Low.jpg
+.. |PPC-A72-170-C| image:: /Media/ARM/A72/CS12102R170P/CS12102R170P-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/ARM/RK3399/Manuals/Hardware/CS12102R170P.html
 
@@ -315,11 +318,11 @@ RK3399 / A72
    :class: index-item-img
    :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R173.html
 
-.. |PPC-A72-185-P| image:: /Media/ARM/A72/CS19108R185P/CS19108R185P-Front-Low.jpg
+.. |PPC-A72-185-C| image:: /Media/ARM/A72/CS19108R185P/CS19108R185P-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R185P.html
 
-.. |PPC-A72-190-P| image:: /Media/ARM/A72/CS12102R190P/CS12102R190P-Front-Low.jpg
+.. |PPC-A72-190-C| image:: /Media/ARM/A72/CS12102R190P/CS12102R190P-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/ARM/RK3399/Manuals/Hardware/CS12102R190P.html
    
@@ -365,10 +368,10 @@ RK3399 / A72
    PPC-A72-133-P </PCs/ARM/RK3399/Manuals/Hardware/CS19108R133P>
    PPC-A72-150-P </PCs/ARM/RK3399/Manuals/Hardware/CS10768R150P>
    PPC-A72-156-P </PCs/ARM/RK3399/Manuals/Hardware/CS19108R156P>
-   PPC-A72-170-P </PCs/ARM/RK3399/Manuals/Hardware/CS12102R170P>
+   PPC-A72-170-C </PCs/ARM/RK3399/Manuals/Hardware/CS12102R170P>
    PPC-A72-173-C </PCs/ARM/RK3399/Manuals/Hardware/CS19108R173>
-   PPC-A72-185-P </PCs/ARM/RK3399/Manuals/Hardware/CS19108R185P>
-   PPC-A72-190-P </PCs/ARM/RK3399/Manuals/Hardware/CS12102R190P>
+   PPC-A72-185-C </PCs/ARM/RK3399/Manuals/Hardware/CS19108R185P>
+   PPC-A72-190-C </PCs/ARM/RK3399/Manuals/Hardware/CS12102R190P>
    PPC-A72-215-P </PCs/ARM/RK3399/Manuals/Hardware/CS19108R215P2>
    PPC-A72-236 </PCs/ARM/RK3399/Manuals/Hardware/CS19108R236P>
    EPC/PPC-A72-101-C(Legacy) </PCs/ARM/RK3399/Manuals/Hardware/CS12800R101>
