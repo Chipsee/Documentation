@@ -1,3 +1,5 @@
+.. |CM4_cpu| replace:: Raspberry |Pi| CM4, CM4 Lite; Quad Cortex-A72 at 1.5GHz
+
 .. |TFNum| replace:: 1
 
 .. |TF_boot| replace:: The SD is used only for the Lite version of Compute Module 4 that has no internal eMMC, it **can** be used to boot system. If you use CM4 with eMMC, this SD will be disabled.
