@@ -20,7 +20,7 @@
 
 .. |dimP| replace:: 209 x 125 x 37.3mm
 
-.. |weightP| replace:: null
+.. |weightP| replace:: 900g
 
 .. |RAM| replace:: 2GB LPDDR4
 
