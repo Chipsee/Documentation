@@ -8,6 +8,8 @@
 
 .. |PN| replace:: PN: CS12720RA4050
 
+.. |CM4_cpu| replace:: Raspberry |Pi| CM4; Quad Cortex-A72 at 1.5GHz
+
 .. |Product| replace:: The |product| industrial Pi PC
 
 .. |TFNum| replace:: 1
@@ -56,7 +58,7 @@
 
 .. |USB| replace:: 2 x USB 2.0 Host, 1 x Type-C
 
-.. |LAN| replace:: 1 x Channel Giga LAN
+.. |LAN| replace:: 1 x Giga LAN
 
 .. |TF_boot| replace:: The SD is used for memory extension. It can’t be used for system boot-up.
 

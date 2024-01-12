@@ -18,9 +18,11 @@
 
 .. |tscreen| replace:: 10-point capacitive touch with 1.0mm Armored Glass
 
+.. |CM4_cpu| replace:: Raspberry |Pi| CM4; Quad Cortex-A72 at 1.5GHz
+
 .. |USB| replace:: 2 x USB 2.0 Host, 1 x USB TYPE-C
 
-.. |LAN| replace:: 1 x Channel Giga LAN
+.. |LAN| replace:: 1 x Giga LAN, **PoE(Power over Ethernet) is optional**
 
 .. |GPIO| replace:: Two 5V Logic GPIO Outputs, can be used as Wiegand signal
 
@@ -172,14 +174,15 @@ There are 2 x Type A **USB HOST connectors** and 1 x **USB TYPE-C Connector** on
 LAN Connectors
 ---------------
 
-**LAN (RJ45) connector** provides Ethernet connectivity over standardized Ethernet cables as shown the figure below. The integrated Ethernet interface supports
-up to 1 Gbps data throughput. These Giga LAN signals come from the CM4 module directly.
+**LAN (RJ45) connector** provides Ethernet connectivity over standardized Ethernet cables as shown the figure below. The integrated Ethernet interface supports up to 1 Gbps data throughput. These Giga LAN signals come from the CM4 module directly.
+
+The LAN can be customized to support PoE (Power over Ethernet), **optional**.
 
 .. figure:: /Media/Pi/AIO/CS12800RA4101A/101-LAN.jpeg
   :align: center
   :figclass: align-center
 
-  *RJ45 LAN Connectors*
+  *RJ45 LAN Connector*
 
 .. note::
 

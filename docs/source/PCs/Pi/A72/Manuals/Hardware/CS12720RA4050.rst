@@ -10,6 +10,8 @@
 
 .. |Product| replace:: The |product| industrial Pi PC
 
+.. |CM4_cpu| replace:: Raspberry |Pi| CM4; Quad Cortex-A72 at 1.5GHz
+
 .. |TFNum| replace:: 1
 
 .. |tf_des| replace:: Chipsee designed TF card slots for storage expansion, as the TF card for storage expansion use same pins with WiFi, it can't be used with WiFi at same time
