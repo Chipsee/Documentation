@@ -663,6 +663,9 @@
         "PCs/ARM/iMX8MP/Manuals/Software/index": {
             "pdf-build": "False"
         },
+        "PCs/ARM/iMX8MP/OS_Downloads/CS10600-IMX8MP-070P": {
+            "pdf-build": "False"
+        },
         "PCs/ARM/iMX8MP/OS_Downloads/index": {
             "pdf-build": "False"
         },

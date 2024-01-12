@@ -18,7 +18,7 @@
 
 .. |dimP| replace:: 209 x 125 x 37.3mm
 
-.. |weightP| replace:: N/A
+.. |weightP| replace:: 900g
 
 .. |cur| replace:: 350mA (max) at 15V
 

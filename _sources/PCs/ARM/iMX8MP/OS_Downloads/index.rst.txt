@@ -8,6 +8,11 @@ i.MX8MP OS Downloads
 
 For additional information, contact |email|_
 
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   PPC-A53-070 and CS-A53-BOX <CS10600-IMX8MP-070P>
 
 .. warning::
 

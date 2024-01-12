@@ -20,7 +20,7 @@
 
 .. |weightE| replace:: NULL
 
-.. |weightP| replace:: N/A
+.. |weightP| replace:: 900g
 
 .. |tscreen| replace:: N/A
 

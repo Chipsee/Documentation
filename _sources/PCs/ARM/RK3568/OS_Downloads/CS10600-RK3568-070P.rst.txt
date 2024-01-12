@@ -1,8 +1,8 @@
 :pdf-build: False
 
 
-PPC-A55-070 (PN: CS10600-RK3568-070P)
-#######################################
+PPC-A55-070 and CS-A55-BOX (PN: CS10600-RK3568-070P and CS-RK3568-BOX)
+######################################################################
 
 We compress the img file to img.xz file which will reduce file size and save time to download it to use. 
 But we need decompress it to img file when we use `RKDevtool <https://chipsee-tmp.s3.amazonaws.com/SourcesArchives/RK3568/Tools/RKDevTool_Release_v2.93.zip>`_ to download it to target board.
