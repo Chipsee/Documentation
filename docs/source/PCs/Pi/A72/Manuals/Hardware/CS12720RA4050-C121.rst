@@ -56,7 +56,7 @@
 
 .. |USB| replace:: 2 x USB 2.0 Host, 1 x Type-C
 
-.. |LAN| replace:: 1 x Channel Giga LAN
+.. |LAN| replace:: 1 x Giga LAN
 
 .. |TF_boot| replace:: The SD is used for memory extension. It can’t be used for system boot-up.
 

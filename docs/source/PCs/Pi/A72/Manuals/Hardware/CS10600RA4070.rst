@@ -62,7 +62,7 @@
 
 .. |USB| replace:: 2 x USB 2.0 Host, 1 x USB OTG
 
-.. |LAN| replace:: 1 x Channel Giga LAN
+.. |LAN| replace:: 1 x Giga LAN
 
 .. |GPIO| replace:: 8 Channels, 4 Input, 4 Output
 

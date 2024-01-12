@@ -26,7 +26,7 @@
 
 .. |USB| replace:: 2 x USB 3.0 Host, 1 x USB Type-C OTG
 
-.. |LAN| replace:: 2 x Giga LAN
+.. |LAN| replace:: 2 x Giga LAN (**optional** PoE support for LAN0)
 
 .. |GPIO| replace:: Option 1: 4 x input, 4 x output from expander IC (optical isolated, DEFAULT). |br| Option 2: 6 x CM4 CPU GPIO (conflict with option 1).
 
