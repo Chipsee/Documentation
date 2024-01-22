@@ -14,7 +14,7 @@
 
 .. |res| replace:: 1280 x 1024
 
-.. |bright| replace:: 250 |cd|
+.. |bright| replace:: 370 |cd|
 
 .. |dimE| replace:: NULL
 
@@ -24,11 +24,11 @@
 
 .. |weightP| replace:: 5.4kg
 
-.. |cur| replace:: N/A
+.. |cur| replace:: 1.47A(12V, typical), 1.68A(12V, max)
 
-.. |pwr| replace:: N/A
+.. |pwr| replace:: 20.16W(max)
 
-.. |temp| replace:: From 0°C to +60°C
+.. |temp| replace:: From 0°C to +50°C
 
 .. |dim_desc| replace:: |productP|: |dimP|
 

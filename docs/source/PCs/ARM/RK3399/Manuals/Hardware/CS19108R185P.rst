@@ -42,9 +42,9 @@
 
 .. |vin_rng| replace:: From 12V to 36V
 
-.. |cur| replace:: N/A
+.. |cur| replace:: 1.78A(12V, typical), 2.02A(12V, max)
 
-.. |pwr| replace:: N/A
+.. |pwr| replace:: 24.24W(max)
 
 .. |temp| replace:: From 0°C to +60°C
 

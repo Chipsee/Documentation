@@ -24,9 +24,9 @@
 
 .. |weightP| replace:: 5.2kg
 
-.. |cur| replace:: N/A
+.. |cur| replace:: 1.65A(12V, typical), 1.90A(12V, max)
 
-.. |pwr| replace:: N/A
+.. |pwr| replace:: 22.80W(max)
 
 .. |temp| replace:: From 0°C to +60°C
 
