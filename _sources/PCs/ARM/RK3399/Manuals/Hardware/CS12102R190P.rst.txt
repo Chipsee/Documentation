@@ -12,7 +12,7 @@
 
 .. |res| replace:: 1280 x 1024
 
-.. |bright| replace:: 250 |cd|
+.. |bright| replace:: 370 |cd|
 
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
@@ -42,11 +42,11 @@
 
 .. |vin_rng| replace:: From 12V to 36V
 
-.. |cur| replace:: N/A
+.. |cur| replace:: 1.46A(12V, typical), 1.85A(12V, max)
 
-.. |pwr| replace:: N/A
+.. |pwr| replace:: 22.20W(max)
 
-.. |temp| replace:: From 0°C to +60°C
+.. |temp| replace:: From 0°C to +50°C
 
 .. |rs232| replace:: 3 x RS232 (Optional 5 x RS232 at most, 1 debug port)
 
