@@ -20,7 +20,7 @@
   <meta name="lang:search.tokenizer" content="[\s\-]+">
 
   
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
   <link rel="stylesheet" href="../../../../../_static/stylesheets/application.css"/>
@@ -98,85 +98,63 @@
   <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">
   <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
   <a href="#PCs/ARM/AM335X/Manuals/Hardware/CS80600T080" tabindex="1" class="md-skip"> Skip to content </a>
-  <header class="md-header" data-md-component="header">
+  <header>
   <nav class="md-header-nav md-grid">
     <div class="md-flex navheader">
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="../../../../../index.html" title="Chipsee"
-           class="md-header-nav__button md-logo">
-          
-              <img src="../../../../../_static/logo-chipsee-white.png" height="32"
-                   alt="Chipsee logo">
-          
-        </a>
-      </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
-      </div>
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
-          <ul class="nav justify-content-center" id="desktop_menu">
-            
-            
-              <li class="nav-item">
-                <a class="nav-link" style="color:#fff!important;" href="../../../../index.html">Industrial PC</a>
-              </li>
-            
-
-            
-              <li class="nav-item">
-                <a class="nav-link" href="../../../../../Displays/index.html">Industrial Display</a>
-              </li>
-            
-        </ul>
             <span class="md-header-nav__topic"> EPC/PPC-A8-080-R </span>
             <span class="md-header-nav__topic"> EPC/PPC-A8-080-R </span>
-
         </div>
       </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-        
-<div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" action="../../../../../search.html" method="get" name="search">
-      <input type="text" class="md-search__input" name="q" placeholder="Search"
-             autocapitalize="off" autocomplete="off" spellcheck="false"
-             data-md-component="query" data-md-state="active">
-      <label class="md-icon md-search__icon" for="__search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
-        &#xE5CD;
-      </button>
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result">
-          <div class="md-search-result__meta">
-            Type to start searching
-          </div>
-          <ol class="md-search-result__list"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-      </div>
-      
-      
-  
-  <script src="../../../../../_static/javascripts/version_dropdown.js"></script>
-  <script>
-    var json_loc = "../../../../../"versions.json"",
-        target_loc = "../../../../../../",
-        text = "Versions";
-    $( document ).ready( add_version_dropdown(json_loc, target_loc, text));
-  </script>
-  
-
     </div>
   </nav>
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-md-component="header">
+    <div class="container">
+      <a class="navbar-brand pt-0" href="/">
+        <img src="../../../../../_static/images/logo_dark.png" height="30" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav fs-6 me-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Industrial PCs
+            </a>
+            <ul class="dropdown-menu" id="nav-dropdown">
+              <li><a class="dropdown-item" href="../../../../Pi/index.html">Powered by Raspberry Pi</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../index-rockchip.html">Powered by Rockchip</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../index-nxp.html">Powered by NXP</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../index.html">Powered by TI</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../Intel/index.html">Powered by INTEL</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../../../MTK/index.html">Handhelds</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../../../../Displays/index.html">Displays</a>
+          </li>
+          <li class="nav-item text-nowrap">
+            <a class="nav-link" href="https://chipsee.com" target="_blank">Shop
+              <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" style="margin-bottom: 3px;"><path d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" fill="gray"/></svg>
+            </a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" action="/search.html?" method="GET">
+          <input class="form-control form-control-sm me-2" type="search" placeholder="Search" name="q" aria-label="Search">
+          <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
 </header>
 
   
@@ -190,7 +168,7 @@
           <li class="md-tabs__item"><a href="../../../../../index.html" class="md-tabs__link">Chipsee</a></li>
           <li class="md-tabs__item"><a href="../../../../index.html" class="md-tabs__link">Industrial Panel &amp; Embedded PCs</a></li>
           <li class="md-tabs__item"><a href="../../../index.html" class="md-tabs__link">Industrial Panel PCs Powered by Arm<sup>®</sup></a></li>
-          <li class="md-tabs__item"><a href="index.html" class="md-tabs__link">AM335X Hardware Documentation</a></li>
+          <li class="md-tabs__item"><a href="index.html" class="md-tabs__link">Powered by TI</a></li>
       </ul>
     </div>
   </nav>
@@ -200,168 +178,9 @@
           <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
             <div class="md-sidebar__scrollwrap">
               <div class="md-sidebar__inner">
-                <nav class="md-nav md-nav--primary" data-md-level="0">
-  <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="../../../../../index.html" title="Chipsee" class="md-nav__button md-logo">
-      
-        <img src="../../../../../_static/logo-chipsee-white.png" alt=" logo" width="48" height="48">
-      
-    </a>
-    <a href="../../../../../index.html"
-       title="Chipsee">Home</a>
-  </label>
-
-  <ul class="list-group" id="mobile_menu">
-    <li class="list-group-item">
-      <a href="../../../../index.html">Industrial PC</a>
-    </li>
-    <li class="list-group-item">
-      <a href="../../../../../Displays/index.html">Industrial Display</a>
-    </li>
-    <li class="list-group-item">
-      <a href="../../../../../TutorialGuide/index.html">Tutorials and Guides</a>
-    </li>
-  </ul>
-
-  
-
-  
-  
-  
-
-  
-    <ul class="md-nav__list">
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../../index.html" class="md-nav__link">Industrial PC</a>
-        <ul class="md-nav__list"> 
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../index.html" class="md-nav__link">Powered by Arm</a>
-        <ul class="md-nav__list"> 
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../iMX6Q/Manuals/Hardware/index.html" class="md-nav__link">i.MX6Q Hardware Documentation</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../iMX6Q/Manuals/Software/index.html" class="md-nav__link">i.MX6Q Software Documentation</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../iMX6Q/OS_Downloads/index.html" class="md-nav__link">i.MX6Q OS Downloads</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../iMX6UL/Manuals/Hardware/index.html" class="md-nav__link">i.MX6UL Hardware Documentation</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../iMX6UL/Manuals/Software/index.html" class="md-nav__link">i.MX6UL Software Documentation</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../iMX6UL/OS_Downloads/index.html" class="md-nav__link">i.MX6UL OS Downloads</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../iMX8MP/Manuals/Hardware/index.html" class="md-nav__link">i.MX8MP Hardware Documentation</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../iMX8MP/Manuals/Software/index.html" class="md-nav__link">i.MX8MP Software Documentation</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../iMX8MP/OS_Downloads/index.html" class="md-nav__link">i.MX8MP OS Downloads</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../RK3399/Manuals/Hardware/index.html" class="md-nav__link">RK3399 Hardware Documentation</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../RK3399/OS_Downloads/index.html" class="md-nav__link">RK3399 OS Downloads</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../RK3568/Manuals/Hardware/index.html" class="md-nav__link">RK3568 Hardware Documentation</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../RK3568/Manuals/Software/index.html" class="md-nav__link">RK3568 Software Documentation</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../RK3568/OS_Downloads/index.html" class="md-nav__link">RK3568 OS Downloads</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="index.html" class="md-nav__link">AM335X Hardware Documentation</a>
-        <ul class="md-nav__list"> 
-      <li class="md-nav__item">
-      
-      
-        <a href="CS80480T050.html" class="md-nav__link">EPC/PPC-A8-050-C</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-      <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      <label class="md-nav__link md-nav__link--active" for="__toc"> EPC/PPC-A8-080-R </label>
-      
-        <a href="#" class="md-nav__link md-nav__link--active">EPC/PPC-A8-080-R</a>
-        
-          
+                
 <nav class="md-nav md-nav--secondary">
-    <label class="md-nav__title" for="__toc">Contents</label>
+    <label class="md-nav__title" for="__toc">ON THIS PAGE</label>
   <ul class="md-nav__list" data-md-scrollfix="">
         <li class="md-nav__item"><a href="#pcs-arm-am335x-manuals-hardware-cs80600t080--page-root" class="md-nav__link">EPC/PPC-A8-080-R</a><nav class="md-nav">
               <ul class="md-nav__list">
@@ -422,114 +241,6 @@
             </nav>
         </li>
   </ul>
-</nav>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="CS10600T101.html" class="md-nav__link">EPC/PPC-A8-101-R</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="CS10600T070.html" class="md-nav__link">PPC/EPC-A8-070H-C</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="CS80480T070.html" class="md-nav__link">PPC/EPC-A8-070-R</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="CS80480T070-R233.html" class="md-nav__link">PPC/EPC-A8-070-HB-R</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="CS10768T097.html" class="md-nav__link">PPC/EPC-A8-097-C</a>
-        
-      
-      </li></ul>
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../Software/index.html" class="md-nav__link">AM335X Software Documentation</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../OS_Downloads/index.html" class="md-nav__link">AM335X OS Downloads</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../PX30/AIO/Manuals/Hardware/index.html" class="md-nav__link">All-In-One Hardware Documentation</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../PX30/AIO/Manuals/Software/index.html" class="md-nav__link">All-In-One Software Documentation</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../PX30/AIO/OS_Downloads/index.html" class="md-nav__link">All-In-One OS Downloads</a>
-        
-      
-      </li></ul>
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../../Intel/index.html" class="md-nav__link">Powered by Intel</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../../Pi/index.html" class="md-nav__link">Powered by Raspberry Pi</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../../MTK/index.html" class="md-nav__link">Powered by MTK</a>
-        
-      
-      </li></ul>
-      
-      </li>
-    </ul>
-  
-
-  
-  
-
-
 </nav>
               </div>
             </div>
@@ -538,69 +249,6 @@
             <div class="md-sidebar__scrollwrap">
               <div class="md-sidebar__inner">
                 
-<nav class="md-nav md-nav--secondary">
-    <label class="md-nav__title" for="__toc">Contents</label>
-  <ul class="md-nav__list" data-md-scrollfix="">
-        <li class="md-nav__item"><a href="#pcs-arm-am335x-manuals-hardware-cs80600t080--page-root" class="md-nav__link">EPC/PPC-A8-080-R</a><nav class="md-nav">
-              <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#product-overview" class="md-nav__link">Product Overview</a>
-        </li>
-        <li class="md-nav__item"><a href="#ordering-options" class="md-nav__link">Ordering Options</a><nav class="md-nav">
-              <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#operating-system" class="md-nav__link">Operating System</a>
-        </li>
-        <li class="md-nav__item"><a href="#optional-features" class="md-nav__link">Optional Features</a>
-        </li></ul>
-            </nav>
-        </li>
-        <li class="md-nav__item"><a href="#hardware-features" class="md-nav__link">Hardware Features</a>
-        </li>
-        <li class="md-nav__item"><a href="#power-input" class="md-nav__link">Power Input</a>
-        </li>
-        <li class="md-nav__item"><a href="#touch-screen" class="md-nav__link">Touch screen</a>
-        </li>
-        <li class="md-nav__item"><a href="#connectivity" class="md-nav__link">Connectivity</a><nav class="md-nav">
-              <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#rs232-rs485-can" class="md-nav__link">RS232/RS485/CAN</a>
-        </li>
-        <li class="md-nav__item"><a href="#usb-connectors" class="md-nav__link">USB Connectors</a>
-        </li>
-        <li class="md-nav__item"><a href="#lan-connectors" class="md-nav__link">LAN Connectors</a>
-        </li>
-        <li class="md-nav__item"><a href="#wifi-bt-module" class="md-nav__link">WiFi & BT Module</a>
-        </li>
-        <li class="md-nav__item"><a href="#g-4g-lte-module" class="md-nav__link">3G/4G/LTE Module</a>
-        </li>
-        <li class="md-nav__item"><a href="#gpio-port" class="md-nav__link">GPIO Port</a>
-        </li></ul>
-            </nav>
-        </li>
-        <li class="md-nav__item"><a href="#tf-card-slot" class="md-nav__link">TF Card Slot</a>
-        </li>
-        <li class="md-nav__item"><a href="#audio-connectors" class="md-nav__link">Audio Connectors</a>
-        </li>
-        <li class="md-nav__item"><a href="#boot-dip-switch" class="md-nav__link">Boot DIP Switch</a>
-        </li>
-        <li class="md-nav__item"><a href="#mounting-procedure" class="md-nav__link">Mounting Procedure</a>
-        </li>
-        <li class="md-nav__item"><a href="#mechanical-specifications" class="md-nav__link">Mechanical Specifications</a><nav class="md-nav">
-              <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#producte" class="md-nav__link">EPC-A8-080-R</a>
-        </li>
-        <li class="md-nav__item"><a href="#productp" class="md-nav__link">PPC-A8-080-R</a>
-        </li></ul>
-            </nav>
-        </li>
-        <li class="md-nav__item"><a href="#d-model" class="md-nav__link">3D Model</a>
-        </li>
-        <li class="md-nav__item"><a href="#disclaimer" class="md-nav__link">Disclaimer</a>
-        </li>
-        <li class="md-nav__item"><a href="#technical-support" class="md-nav__link">Technical Support</a>
-        </li></ul>
-            </nav>
-        </li>
-  </ul>
-</nav>
               </div>
             </div>
           </div>
@@ -1302,7 +950,7 @@ might also be supported according to the table in the <a class="reference intern
       <div class="md-footer-meta__inner md-grid">
         <div class="md-footer-copyright">
           <div class="md-footer-copyright__highlight">
-              &#169; Copyright 2023, Chipsee.
+              &#169; Copyright 2024, Chipsee.
               
           </div>
             Last updated on
@@ -1318,7 +966,7 @@ might also be supported according to the table in the <a class="reference intern
       </div>
     </div>
   </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script async src="../../../../../_static/js/material_custom.js"></script>
     
   <script src="../../../../../_static/javascripts/application.js"></script>

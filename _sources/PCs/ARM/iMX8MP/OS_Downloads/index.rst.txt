@@ -1,10 +1,9 @@
 :pdf-build: False
 
+.. _IMX8MP_OSDownloads:
 
 i.MX8MP OS Downloads
 ####################
-
-.. _IMX8MP_OSDownloads:
 
 For additional information, contact |email|_
 

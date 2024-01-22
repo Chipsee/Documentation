@@ -5,6 +5,8 @@
 .. |ipc| replace:: Chipsee industrial PC
 .. |ipcs| replace:: Chipsee industrial PCs
 
+.. _rk3568_os_android11:
+
 |systemType| OS
 ###############
 

@@ -20,7 +20,7 @@
   <meta name="lang:search.tokenizer" content="[\s\-]+">
 
   
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
   <link rel="stylesheet" href="../../_static/stylesheets/application.css"/>
@@ -52,8 +52,8 @@
     <link rel="shortcut icon" href="../../_static/favicon.webp"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Cortex-A53 Hardware Documentation" href="A53/Manuals/Hardware/index.html" />
-    <link rel="prev" title="CS86-BOX" href="../Intel/i5-i7-3865/Manuals/Hardware/CS86-BOX.html" /> 
+    <link rel="next" title="PPC-CM4-050" href="A72/Manuals/Hardware/CS12720RA4050-C121.html" />
+    <link rel="prev" title="i5/i7/3855" href="../Intel/i5-i7-3865/Manuals/Hardware/index.html" /> 
     <script async src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
 
     <script type="importmap">
@@ -98,85 +98,63 @@
   <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">
   <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
   <a href="#PCs/Pi/index" tabindex="1" class="md-skip"> Skip to content </a>
-  <header class="md-header" data-md-component="header">
+  <header>
   <nav class="md-header-nav md-grid">
     <div class="md-flex navheader">
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="../../index.html" title="Chipsee"
-           class="md-header-nav__button md-logo">
-          
-              <img src="../../_static/logo-chipsee-white.png" height="32"
-                   alt="Chipsee logo">
-          
-        </a>
-      </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
-      </div>
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
-          <ul class="nav justify-content-center" id="desktop_menu">
-            
-            
-              <li class="nav-item">
-                <a class="nav-link" style="color:#fff!important;" href="../index.html">Industrial PC</a>
-              </li>
-            
-
-            
-              <li class="nav-item">
-                <a class="nav-link" href="../../Displays/index.html">Industrial Display</a>
-              </li>
-            
-        </ul>
             <span class="md-header-nav__topic"> Industrial PCs Powered by Raspberry Pi </span>
             <span class="md-header-nav__topic"> Industrial PCs Powered by Raspberry Pi </span>
-
         </div>
       </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-        
-<div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" action="../../search.html" method="get" name="search">
-      <input type="text" class="md-search__input" name="q" placeholder="Search"
-             autocapitalize="off" autocomplete="off" spellcheck="false"
-             data-md-component="query" data-md-state="active">
-      <label class="md-icon md-search__icon" for="__search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
-        &#xE5CD;
-      </button>
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result">
-          <div class="md-search-result__meta">
-            Type to start searching
-          </div>
-          <ol class="md-search-result__list"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-      </div>
-      
-      
-  
-  <script src="../../_static/javascripts/version_dropdown.js"></script>
-  <script>
-    var json_loc = "../../"versions.json"",
-        target_loc = "../../../",
-        text = "Versions";
-    $( document ).ready( add_version_dropdown(json_loc, target_loc, text));
-  </script>
-  
-
     </div>
   </nav>
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-md-component="header">
+    <div class="container">
+      <a class="navbar-brand pt-0" href="/">
+        <img src="../../_static/images/logo_dark.png" height="30" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav fs-6 me-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Industrial PCs
+            </a>
+            <ul class="dropdown-menu" id="nav-dropdown">
+              <li><a class="dropdown-item" href="#">Powered by Raspberry Pi</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../ARM/index-rockchip.html">Powered by Rockchip</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../ARM/index-nxp.html">Powered by NXP</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../ARM/AM335X/index.html">Powered by TI</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../Intel/index.html">Powered by INTEL</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../MTK/index.html">Handhelds</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../Displays/index.html">Displays</a>
+          </li>
+          <li class="nav-item text-nowrap">
+            <a class="nav-link" href="https://chipsee.com" target="_blank">Shop
+              <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" style="margin-bottom: 3px;"><path d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" fill="gray"/></svg>
+            </a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" action="/search.html?" method="GET">
+          <input class="form-control form-control-sm me-2" type="search" placeholder="Search" name="q" aria-label="Search">
+          <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
 </header>
 
   
@@ -198,116 +176,23 @@
           <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
             <div class="md-sidebar__scrollwrap">
               <div class="md-sidebar__inner">
-                <nav class="md-nav md-nav--primary" data-md-level="0">
-  <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="../../index.html" title="Chipsee" class="md-nav__button md-logo">
-      
-        <img src="../../_static/logo-chipsee-white.png" alt=" logo" width="48" height="48">
-      
-    </a>
-    <a href="../../index.html"
-       title="Chipsee">Home</a>
-  </label>
-
-  <ul class="list-group" id="mobile_menu">
-    <li class="list-group-item">
-      <a href="../index.html">Industrial PC</a>
-    </li>
-    <li class="list-group-item">
-      <a href="../../Displays/index.html">Industrial Display</a>
-    </li>
-    <li class="list-group-item">
-      <a href="../../TutorialGuide/index.html">Tutorials and Guides</a>
-    </li>
-  </ul>
-
-  
-
-  
-  
-  
-
-  
-    <ul class="md-nav__list">
-      <li class="md-nav__item">
-      
-      
-        <a href="../index.html" class="md-nav__link">Industrial PC</a>
-        <ul class="md-nav__list"> 
-      <li class="md-nav__item">
-      
-      
-        <a href="../ARM/index.html" class="md-nav__link">Powered by Arm</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../Intel/index.html" class="md-nav__link">Powered by Intel</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-      <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      <label class="md-nav__link md-nav__link--active" for="__toc"> Powered by Raspberry Pi </label>
-      
-        <a href="#" class="md-nav__link md-nav__link--active">Powered by Raspberry Pi</a>
-        
-          
+                
 <nav class="md-nav md-nav--secondary">
+    <label class="md-nav__title" for="__toc">ON THIS PAGE</label>
   <ul class="md-nav__list" data-md-scrollfix="">
+        <li class="md-nav__item"><a href="#pcs-pi-index--page-root" class="md-nav__link">Industrial PCs Powered by Raspberry Pi</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#cm4" class="md-nav__link">CM4</a>
+        </li>
+        <li class="md-nav__item"><a href="#aio-cm4" class="md-nav__link">AIO-CM4</a>
+        </li>
+        <li class="md-nav__item"><a href="#cm3" class="md-nav__link">CM3</a>
+        </li>
+        <li class="md-nav__item"><a href="#software" class="md-nav__link">Software</a>
+        </li></ul>
+            </nav>
+        </li>
   </ul>
-</nav>
-        <ul class="md-nav__list"> 
-      <li class="md-nav__item">
-      
-      
-        <a href="A53/Manuals/Hardware/index.html" class="md-nav__link">Cortex-A53 Hardware Documentation</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="A72/Manuals/Hardware/index.html" class="md-nav__link">Cortex-A72 Hardware Documentation</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="AIO/Manuals/Hardware/index.html" class="md-nav__link">All-In-One Hardware Documentation</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="Software/index.html" class="md-nav__link">Software Documentation</a>
-        
-      
-      </li></ul>
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../MTK/index.html" class="md-nav__link">Powered by MTK</a>
-        
-      
-      </li></ul>
-      
-      </li>
-    </ul>
-  
-
-  
-  
-
-
 </nav>
               </div>
             </div>
@@ -316,10 +201,6 @@
             <div class="md-sidebar__scrollwrap">
               <div class="md-sidebar__inner">
                 
-<nav class="md-nav md-nav--secondary">
-  <ul class="md-nav__list" data-md-scrollfix="">
-  </ul>
-</nav>
               </div>
             </div>
           </div>
@@ -329,33 +210,136 @@
             
   <section id="industrial-pcs-powered-by-raspberry-pi">
 <span id="pbpi"></span><h1 id="pcs-pi-index--page-root">Industrial PCs Powered by Raspberry Pi<a class="headerlink" href="#pcs-pi-index--page-root" title="Permalink to this heading">¶</a></h1>
-<p>This section contains marketing collateral and OS downloads for the industrial PCs based on Raspberry Pi Compute Module (CM) platforms. Chipsee Product Naming Scheme allows for
-quick extraction of the key features from the product numbers (PN) directly, so familiarize yourself with the <a class="reference internal" href="../../Nomenclature/Pi.html#naming-rules-pi"><span class="std std-ref">Product Naming Rules</span></a> to make navigating through
-the repository much easier.</p>
-<p class="rubric">Products by platform: Cortex<sup>®</sup>-A53 (Raspberry-Pi CM3)</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="A53/Manuals/Hardware/index.html">Cortex-A53 Hardware Documentation</a></li>
-</ul>
+<section id="cm4">
+<h2 id="cm4">CM4<a class="headerlink" href="#cm4" title="Permalink to this heading">¶</a></h2>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5"><div class="col">
+<div class="index-item"><p>5 Inch
+<a class="reference external" href="/PCs/Pi/A72/Manuals/Hardware/CS12720RA4050-C121.html"><img alt="PPC-CM4-050" class="index-item-img" src="../../_images/CS12720RA4050P-C121-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="A72/Manuals/Hardware/CS12720RA4050-C121.html#ppc-cm4-050"><span class="std std-ref">PPC-CM4-050</span></a></p>
 </div>
-<p class="rubric">Products by platform: Cortex<sup>®</sup>-A72 (Raspberry-Pi CM4)</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="A72/Manuals/Hardware/index.html">Cortex-A72 Hardware Documentation</a></li>
-</ul>
+</div><div class="col">
+<div class="index-item"><p>7 Inch
+<a class="reference external" href="/PCs/Pi/A72/Manuals/Hardware/CS10600RA4070.html"><img alt="EPC/PPC-CM4-070" class="index-item-img" src="../../_images/CS10600RA4070P-Front-Low.jpeg"/></a></p>
+<p><a class="reference internal" href="A72/Manuals/Hardware/CS10600RA4070.html#epc-ppc-cm4-070"><span class="std std-ref">EPC/PPC-CM4-070</span></a></p>
 </div>
-<p class="rubric">Products by platform: All-In-One (Raspberry-Pi CM4)</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="AIO/Manuals/Hardware/index.html">All-In-One Hardware Documentation</a></li>
-</ul>
+</div><div class="col">
+<div class="index-item"><p>7 Inch
+(Dual LAN)
+<a class="reference external" href="/PCs/Pi/A72/Manuals/Hardware/CS10600RA4070P-D.html"><img alt="PPC-CM4-070-D" class="index-item-img" src="../../_images/CS10600RA4070P-D-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="A72/Manuals/Hardware/CS10600RA4070P-D.html#ppc-cm4-070-d"><span class="std std-ref">PPC-CM4-070-D</span></a></p>
 </div>
-<p class="rubric">Industrial Pi Software Manual and OS Downloads</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="Software/index.html">Software Documentation</a></li>
-</ul>
+</div><div class="col">
+<div class="index-item"><p>10.1 Inch
+<a class="reference external" href="/PCs/Pi/A72/Manuals/Hardware/CS12800RA4101.html"><img alt="PPC-CM4-101" class="index-item-img" src="../../_images/CS12800RA4101P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="A72/Manuals/Hardware/CS12800RA4101.html#ppc-cm4-101"><span class="std std-ref">PPC-CM4-101</span></a></p>
 </div>
+</div><div class="col">
+<div class="index-item"><p>12.1 Inch
+<a class="reference external" href="/PCs/Pi/A72/Manuals/Hardware/CS10768RA4121.html"><img alt="PPC-CM4-121" class="index-item-img" src="../../_images/PPC-CM4-121-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="A72/Manuals/Hardware/CS10768RA4121.html#ppc-cm4-121"><span class="std std-ref">PPC-CM4-121</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>13.3 Inch
+<a class="reference external" href="/PCs/Pi/A72/Manuals/Hardware/CS19108RA4133.html"><img alt="PPC-CM4-133" class="index-item-img" src="../../_images/PPC-CM4-133-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="A72/Manuals/Hardware/CS19108RA4133.html#ppc-cm4-133"><span class="std std-ref">PPC-CM4-133</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>15.0 Inch
+<a class="reference external" href="/PCs/Pi/A72/Manuals/Hardware/CS10768RA4150.html"><img alt="PPC-CM4-150" class="index-item-img" src="../../_images/PPC-CM4-150-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="A72/Manuals/Hardware/CS10768RA4150.html#ppc-cm4-150"><span class="std std-ref">PPC-CM4-150</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>15.6 Inch
+<a class="reference external" href="/PCs/Pi/A72/Manuals/Hardware/CS19108RA4156.html"><img alt="PPC-CM4-156" class="index-item-img" src="../../_images/PPC-CM4-156-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="A72/Manuals/Hardware/CS19108RA4156.html#ppc-cm4-156"><span class="std std-ref">PPC-CM4-156</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>17.0 Inch
+<a class="reference external" href="/PCs/Pi/A72/Manuals/Hardware/CS12102RA4170.html"><img alt="PPC-CM4-170" class="index-item-img" src="../../_images/PPC-CM4-170-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="A72/Manuals/Hardware/CS12102RA4170.html#ppc-cm4-170"><span class="std std-ref">PPC-CM4-170</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>19.0 Inch
+<a class="reference external" href="/PCs/Pi/A72/Manuals/Hardware/CS12102RA4190.html"><img alt="PPC-CM4-190" class="index-item-img" src="../../_images/PPC-CM4-190-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="A72/Manuals/Hardware/CS12102RA4190.html#ppc-cm4-190"><span class="std std-ref">PPC-CM4-190</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>21.5 Inch
+<a class="reference external" href="/PCs/Pi/A72/Manuals/Hardware/CS19108RA4215.html"><img alt="PPC-CM4-215" class="index-item-img" src="../../_images/CS19108RA4215-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="A72/Manuals/Hardware/CS19108RA4215.html#ppc-cm4-215"><span class="std std-ref">PPC-CM4-215</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>23.6 Inch
+<a class="reference external" href="/PCs/Pi/A72/Manuals/Hardware/CS19108RA4236.html"><img alt="PPC-CM4-236" class="index-item-img" src="../../_images/CS19108RA4236-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="A72/Manuals/Hardware/CS19108RA4236.html#ppc-cm4-236"><span class="std std-ref">PPC-CM4-236</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>BOX
+<a class="reference external" href="/PCs/Pi/A72/Manuals/Hardware/CSRA4BOX.html"><img alt="CS-CM4-BOX" class="index-item-img" src="../../_images/CSRA4BOX-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="A72/Manuals/Hardware/CSRA4BOX.html#cs-cm4-box"><span class="std std-ref">CS-CM4-BOX</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>5 Inch (Legacy)
+<a class="reference external" href="/PCs/Pi/A72/Manuals/Hardware/CS12720RA4050.html"><img alt="EPC/PPC-CM4-050" class="index-item-img" src="../../_images/CS12720RA4050P-Front-Low.jpeg"/></a></p>
+<p><a class="reference internal" href="A72/Manuals/Hardware/CS12720RA4050.html#epc-ppc-cm4-050"><span class="std std-ref">EPC/PPC-CM4-050</span></a></p>
+</div>
+</div></div><div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="aio-cm4">
+<h2 id="aio-cm4">AIO-CM4<a class="headerlink" href="#aio-cm4" title="Permalink to this heading">¶</a></h2>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5"><div class="col">
+<div class="index-item"><p>10.1 Inch(All-in-one)
+<a class="reference external" href="/PCs/Pi/AIO/Manuals/Hardware/CS12800RA4101A.html"><img alt="AIO-CM4-101" class="index-item-img" src="../../_images/CS12800RA4101A-Front-Low.jpeg"/></a></p>
+<p><a class="reference internal" href="AIO/Manuals/Hardware/CS12800RA4101A.html#aio-cm4-101"><span class="std std-ref">AIO-CM4-101</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>15.6 Inch(All-in-one)
+<a class="reference external" href="/PCs/Pi/AIO/Manuals/Hardware/CS19108RA4156A.html"><img alt="AIO-CM4-156" class="index-item-img" src="../../_images/CS19108RA4156A-Front-Low.jpeg"/></a></p>
+<p><a class="reference internal" href="AIO/Manuals/Hardware/CS19108RA4156A.html#aio-cm4-156"><span class="std std-ref">AIO-CM4-156</span></a></p>
+</div>
+</div></div><div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="cm3">
+<h2 id="cm3">CM3<a class="headerlink" href="#cm3" title="Permalink to this heading">¶</a></h2>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5"><div class="col">
+<div class="index-item"><p>7 Inch(Legacy)
+<a class="reference external" href="/PCs/Pi/A53/Manuals/Hardware/CS10600RA070.html"><img alt="EPC/PPC-CM3-070" class="index-item-img" src="../../_images/CS10600RA070P-Front-Low.jpeg"/></a></p>
+<p><a class="reference internal" href="A53/Manuals/Hardware/CS10600RA070.html#epc-ppc-cm3-070"><span class="std std-ref">EPC/PPC-CM3-070</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>10.1 Inch(Legacy)
+<a class="reference external" href="/PCs/Pi/A53/Manuals/Hardware/CS12800RA101.html"><img alt="EPC/PPC-CM3-101" class="index-item-img" src="../../_images/CS12800RA101P-Front-Low.jpeg"/></a></p>
+<p><a class="reference internal" href="A53/Manuals/Hardware/CS12800RA101.html#epc-ppc-cm3-101"><span class="std std-ref">EPC/PPC-CM3-101</span></a></p>
+</div>
+</div></div><div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="software">
+<h2 id="software">Software<a class="headerlink" href="#software" title="Permalink to this heading">¶</a></h2>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5"><div class="col">
+<div class="index-item"><p>Firmware</p>
+<img class="img-fluid text-center" src="/_static/images/os_download_icon.png" width="100px"/>
+<a href="https://github.com/Chipsee/industrial-pi#latest-system-images" target="_blank">OS Downloads</a>
+</div>
+</div><div class="col">
+<div class="index-item"><p>Doc (CM3, CM4)</p>
+<img class="img-fluid text-center" src="/_static/images/os_logo_pi.png" width="100px"/><p><a class="reference internal" href="Software/Debian.html#rpi-os"><span class="std std-ref">Raspberry Pi OS</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>Doc (AIO-CM4-156)</p>
+<img class="img-fluid text-center" src="/_static/images/os_logo_pi.png" width="100px"/><p><a class="reference internal" href="Software/AIO156StartGuide.html#aio-cm4-156-pi-os"><span class="std std-ref">Raspberry Pi OS</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>Doc (AIO-CM4-156)</p>
+<img class="img-fluid text-center" src="/_static/images/os_logo_android.png" width="100px"/><p><a class="reference internal" href="Software/AIO156AndroidSystem.html#aio-cm4-156-android-os"><span class="std std-ref">Android</span></a></p>
+</div>
+</div></div><div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</section>
 </section>
 
 
@@ -368,7 +352,7 @@ the repository much easier.</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
           
-            <a href="../Intel/i5-i7-3865/Manuals/Hardware/CS86-BOX.html" title="CS86-BOX"
+            <a href="../Intel/i5-i7-3865/Manuals/Hardware/index.html" title="i5/i7/3855"
                class="md-flex md-footer-nav__link md-footer-nav__link--prev"
                rel="prev">
               <div class="md-flex__cell md-flex__cell--shrink">
@@ -377,17 +361,17 @@ the repository much easier.</p>
               <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
                 <span class="md-flex__ellipsis">
                   <span
-                      class="md-footer-nav__direction"> Previous </span> CS86-BOX </span>
+                      class="md-footer-nav__direction"> Previous </span> i5/i7/3855 </span>
               </div>
             </a>
           
           
-            <a href="A53/Manuals/Hardware/index.html" title="Cortex-A53 Hardware Documentation"
+            <a href="A72/Manuals/Hardware/CS12720RA4050-C121.html" title="PPC-CM4-050"
                class="md-flex md-footer-nav__link md-footer-nav__link--next"
                rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span
                 class="md-flex__ellipsis"> <span
-                class="md-footer-nav__direction"> Next </span> Cortex-A53 Hardware Documentation </span>
+                class="md-footer-nav__direction"> Next </span> PPC-CM4-050 </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink"><i
                 class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
@@ -401,7 +385,7 @@ the repository much easier.</p>
       <div class="md-footer-meta__inner md-grid">
         <div class="md-footer-copyright">
           <div class="md-footer-copyright__highlight">
-              &#169; Copyright 2023, Chipsee.
+              &#169; Copyright 2024, Chipsee.
               
           </div>
             Last updated on
@@ -417,7 +401,7 @@ the repository much easier.</p>
       </div>
     </div>
   </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script async src="../../_static/js/material_custom.js"></script>
     
   <script src="../../_static/javascripts/application.js"></script>

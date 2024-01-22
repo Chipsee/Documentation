@@ -20,7 +20,7 @@
   <meta name="lang:search.tokenizer" content="[\s\-]+">
 
   
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
   <link rel="stylesheet" href="../../../../../_static/stylesheets/application.css"/>
@@ -52,7 +52,7 @@
     <link rel="shortcut icon" href="../../../../../_static/favicon.webp"/>
     <link rel="index" title="Index" href="../../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../../search.html" />
-    <link rel="next" title="Cortex-A72 Hardware Documentation" href="../../../A72/Manuals/Hardware/index.html" />
+    <link rel="next" title="Raspberry Pi OS" href="../../../Software/Debian.html" />
     <link rel="prev" title="EPC/PPC-CM3-070" href="CS10600RA070.html" /> 
     <script async src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
 
@@ -98,85 +98,63 @@
   <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">
   <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
   <a href="#PCs/Pi/A53/Manuals/Hardware/CS12800RA101" tabindex="1" class="md-skip"> Skip to content </a>
-  <header class="md-header" data-md-component="header">
+  <header>
   <nav class="md-header-nav md-grid">
     <div class="md-flex navheader">
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="../../../../../index.html" title="Chipsee"
-           class="md-header-nav__button md-logo">
-          
-              <img src="../../../../../_static/logo-chipsee-white.png" height="32"
-                   alt="Chipsee logo">
-          
-        </a>
-      </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
-      </div>
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
-          <ul class="nav justify-content-center" id="desktop_menu">
-            
-            
-              <li class="nav-item">
-                <a class="nav-link" style="color:#fff!important;" href="../../../../index.html">Industrial PC</a>
-              </li>
-            
-
-            
-              <li class="nav-item">
-                <a class="nav-link" href="../../../../../Displays/index.html">Industrial Display</a>
-              </li>
-            
-        </ul>
             <span class="md-header-nav__topic"> EPC/PPC-CM3-101 </span>
             <span class="md-header-nav__topic"> EPC/PPC-CM3-101 </span>
-
         </div>
       </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-        
-<div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" action="../../../../../search.html" method="get" name="search">
-      <input type="text" class="md-search__input" name="q" placeholder="Search"
-             autocapitalize="off" autocomplete="off" spellcheck="false"
-             data-md-component="query" data-md-state="active">
-      <label class="md-icon md-search__icon" for="__search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
-        &#xE5CD;
-      </button>
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result">
-          <div class="md-search-result__meta">
-            Type to start searching
-          </div>
-          <ol class="md-search-result__list"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-      </div>
-      
-      
-  
-  <script src="../../../../../_static/javascripts/version_dropdown.js"></script>
-  <script>
-    var json_loc = "../../../../../"versions.json"",
-        target_loc = "../../../../../../",
-        text = "Versions";
-    $( document ).ready( add_version_dropdown(json_loc, target_loc, text));
-  </script>
-  
-
     </div>
   </nav>
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-md-component="header">
+    <div class="container">
+      <a class="navbar-brand pt-0" href="/">
+        <img src="../../../../../_static/images/logo_dark.png" height="30" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav fs-6 me-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Industrial PCs
+            </a>
+            <ul class="dropdown-menu" id="nav-dropdown">
+              <li><a class="dropdown-item" href="../../../index.html">Powered by Raspberry Pi</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../ARM/index-rockchip.html">Powered by Rockchip</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../ARM/index-nxp.html">Powered by NXP</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../ARM/AM335X/index.html">Powered by TI</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../Intel/index.html">Powered by INTEL</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../../../MTK/index.html">Handhelds</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../../../../Displays/index.html">Displays</a>
+          </li>
+          <li class="nav-item text-nowrap">
+            <a class="nav-link" href="https://chipsee.com" target="_blank">Shop
+              <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" style="margin-bottom: 3px;"><path d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" fill="gray"/></svg>
+            </a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" action="/search.html?" method="GET">
+          <input class="form-control form-control-sm me-2" type="search" placeholder="Search" name="q" aria-label="Search">
+          <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
 </header>
 
   
@@ -190,7 +168,6 @@
           <li class="md-tabs__item"><a href="../../../../../index.html" class="md-tabs__link">Chipsee</a></li>
           <li class="md-tabs__item"><a href="../../../../index.html" class="md-tabs__link">Industrial Panel &amp; Embedded PCs</a></li>
           <li class="md-tabs__item"><a href="../../../index.html" class="md-tabs__link">Industrial PCs Powered by Raspberry Pi</a></li>
-          <li class="md-tabs__item"><a href="index.html" class="md-tabs__link">Cortex-A53 Hardware Documentation</a></li>
       </ul>
     </div>
   </nav>
@@ -200,84 +177,9 @@
           <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
             <div class="md-sidebar__scrollwrap">
               <div class="md-sidebar__inner">
-                <nav class="md-nav md-nav--primary" data-md-level="0">
-  <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="../../../../../index.html" title="Chipsee" class="md-nav__button md-logo">
-      
-        <img src="../../../../../_static/logo-chipsee-white.png" alt=" logo" width="48" height="48">
-      
-    </a>
-    <a href="../../../../../index.html"
-       title="Chipsee">Home</a>
-  </label>
-
-  <ul class="list-group" id="mobile_menu">
-    <li class="list-group-item">
-      <a href="../../../../index.html">Industrial PC</a>
-    </li>
-    <li class="list-group-item">
-      <a href="../../../../../Displays/index.html">Industrial Display</a>
-    </li>
-    <li class="list-group-item">
-      <a href="../../../../../TutorialGuide/index.html">Tutorials and Guides</a>
-    </li>
-  </ul>
-
-  
-
-  
-  
-  
-
-  
-    <ul class="md-nav__list">
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../../index.html" class="md-nav__link">Industrial PC</a>
-        <ul class="md-nav__list"> 
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../../ARM/index.html" class="md-nav__link">Powered by Arm</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../../Intel/index.html" class="md-nav__link">Powered by Intel</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../index.html" class="md-nav__link">Powered by Raspberry Pi</a>
-        <ul class="md-nav__list"> 
-      <li class="md-nav__item">
-      
-      
-        <a href="index.html" class="md-nav__link">Cortex-A53 Hardware Documentation</a>
-        <ul class="md-nav__list"> 
-      <li class="md-nav__item">
-      
-      
-        <a href="CS10600RA070.html" class="md-nav__link">EPC/PPC-CM3-070</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-      <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      <label class="md-nav__link md-nav__link--active" for="__toc"> EPC/PPC-CM3-101 </label>
-      
-        <a href="#" class="md-nav__link md-nav__link--active">EPC/PPC-CM3-101</a>
-        
-          
+                
 <nav class="md-nav md-nav--secondary">
-    <label class="md-nav__title" for="__toc">Contents</label>
+    <label class="md-nav__title" for="__toc">ON THIS PAGE</label>
   <ul class="md-nav__list" data-md-scrollfix="">
         <li class="md-nav__item"><a href="#pcs-pi-a53-manuals-hardware-cs12800ra101--page-root" class="md-nav__link">EPC/PPC-CM3-101</a><nav class="md-nav">
               <ul class="md-nav__list">
@@ -342,51 +244,6 @@
             </nav>
         </li>
   </ul>
-</nav>
-        
-      
-      </li></ul>
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../A72/Manuals/Hardware/index.html" class="md-nav__link">Cortex-A72 Hardware Documentation</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../AIO/Manuals/Hardware/index.html" class="md-nav__link">All-In-One Hardware Documentation</a>
-        
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../Software/index.html" class="md-nav__link">Software Documentation</a>
-        
-      
-      </li></ul>
-      
-      </li>
-      <li class="md-nav__item">
-      
-      
-        <a href="../../../../MTK/index.html" class="md-nav__link">Powered by MTK</a>
-        
-      
-      </li></ul>
-      
-      </li>
-    </ul>
-  
-
-  
-  
-
-
 </nav>
               </div>
             </div>
@@ -395,73 +252,6 @@
             <div class="md-sidebar__scrollwrap">
               <div class="md-sidebar__inner">
                 
-<nav class="md-nav md-nav--secondary">
-    <label class="md-nav__title" for="__toc">Contents</label>
-  <ul class="md-nav__list" data-md-scrollfix="">
-        <li class="md-nav__item"><a href="#pcs-pi-a53-manuals-hardware-cs12800ra101--page-root" class="md-nav__link">EPC/PPC-CM3-101</a><nav class="md-nav">
-              <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#product-overview" class="md-nav__link">Product Overview</a>
-        </li>
-        <li class="md-nav__item"><a href="#ordering-options" class="md-nav__link">Ordering Options</a><nav class="md-nav">
-              <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#operating-system" class="md-nav__link">Operating System</a>
-        </li>
-        <li class="md-nav__item"><a href="#optional-features" class="md-nav__link">Optional Features</a>
-        </li></ul>
-            </nav>
-        </li>
-        <li class="md-nav__item"><a href="#specifications" class="md-nav__link">Specifications</a>
-        </li>
-        <li class="md-nav__item"><a href="#power-input" class="md-nav__link">Power Input</a>
-        </li>
-        <li class="md-nav__item"><a href="#touch-screen" class="md-nav__link">Touch Screen</a>
-        </li>
-        <li class="md-nav__item"><a href="#connectivity" class="md-nav__link">Connectivity</a><nav class="md-nav">
-              <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#rs232-rs485-can" class="md-nav__link">RS232/RS485/CAN</a>
-        </li>
-        <li class="md-nav__item"><a href="#gpio-port" class="md-nav__link">GPIO Port</a>
-        </li>
-        <li class="md-nav__item"><a href="#usb-connectors" class="md-nav__link">USB Connectors</a>
-        </li>
-        <li class="md-nav__item"><a href="#lan-connectors" class="md-nav__link">LAN Connectors</a>
-        </li>
-        <li class="md-nav__item"><a href="#wifi-bt-module" class="md-nav__link">WiFi & BT Module</a>
-        </li>
-        <li class="md-nav__item"><a href="#g-4g-lte-module" class="md-nav__link">3G/4G/LTE Module</a>
-        </li></ul>
-            </nav>
-        </li>
-        <li class="md-nav__item"><a href="#tf-card-slot" class="md-nav__link">TF Card Slot</a>
-        </li>
-        <li class="md-nav__item"><a href="#audio-connectors" class="md-nav__link">Audio Connectors</a>
-        </li>
-        <li class="md-nav__item"><a href="#boot-dip-switch" class="md-nav__link">Boot DIP Switch</a>
-        </li>
-        <li class="md-nav__item"><a href="#mounting-procedure" class="md-nav__link">Mounting Procedure</a><nav class="md-nav">
-              <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#producte" class="md-nav__link">CS12800RA101E</a>
-        </li>
-        <li class="md-nav__item"><a href="#productp" class="md-nav__link">CS12800RA101P</a>
-        </li></ul>
-            </nav>
-        </li>
-        <li class="md-nav__item"><a href="#mechanical-specifications" class="md-nav__link">Mechanical Specifications</a><nav class="md-nav">
-              <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#id3" class="md-nav__link">CS12800RA101E</a>
-        </li>
-        <li class="md-nav__item"><a href="#id4" class="md-nav__link">CS12800RA101P</a>
-        </li></ul>
-            </nav>
-        </li>
-        <li class="md-nav__item"><a href="#disclaimer" class="md-nav__link">Disclaimer</a>
-        </li>
-        <li class="md-nav__item"><a href="#technical-support" class="md-nav__link">Technical Support</a>
-        </li></ul>
-            </nav>
-        </li>
-  </ul>
-</nav>
               </div>
             </div>
           </div>
@@ -562,7 +352,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p>The EPC/PPC-CM3-101 industrial Pi PC offers a board range of performance and connectivity options for scalable integration, providing expandability according to future needs.
 Some of the key features are listed in the table below.</p>
 <table id="id5" style="width: 100%">
-<caption><span class="caption-number">Table 277 </span><span class="caption-text">Key Features</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 345 </span><span class="caption-text">Key Features</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head" colspan="2"><p class="centered">
 <strong>EPC/PPC-CM3-101</strong></p></th>
@@ -678,12 +468,12 @@ in the figures below.</p>
 <figure class="align-center" id="id6">
 <img alt="../../../../../_images/Power6.jpeg" src="../../../../../_images/Power6.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 938:  </span><span class="caption-text"><em>Power Input (embedded/enclosed version)</em></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1023:  </span><span class="caption-text"><em>Power Input (embedded/enclosed version)</em></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p>Note that the “<strong>+</strong>” sign represents the positive power input, and it is printed both at the casing and as a silk-screen on the board of the embedded version. The “<strong>-</strong>” terminal is shorted to the ground.</p>
 <table id="id7" style="width: 100%">
-<caption><span class="caption-number">Table 278 </span><span class="caption-text">Power Connector</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 346 </span><span class="caption-text">Power Connector</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head" colspan="3"><p>Power Input Definition</p></th>
 </tr>
@@ -720,7 +510,7 @@ The central pin is positive.</p>
 <figure class="align-center" id="id8">
 <img alt="../../../../../_images/TS_CON3.jpeg" src="../../../../../_images/TS_CON3.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 939:  </span><span class="caption-text"><em>Capacitive Touch Connector</em></span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1024:  </span><span class="caption-text"><em>Capacitive Touch Connector</em></span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition attention">
@@ -747,12 +537,12 @@ with the other hand. In this case, the operator’s body acts as the Power Syste
 <figure class="align-center" id="id9">
 <img alt="../../../../../_images/CM3-101-IO-Peripherals.jpeg" src="../../../../../_images/CM3-101-IO-Peripherals.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 940:  </span><span class="caption-text"><em>Relation between serial pins on embedded vs. enclosed version of the</em> EPC/PPC-CM3-101 <em>Industrial PC</em></span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1025:  </span><span class="caption-text"><em>Relation between serial pins on embedded vs. enclosed version of the</em> EPC/PPC-CM3-101 <em>Industrial PC</em></span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p>The table below offers more detailed description of every pin and its definition:</p>
 <table id="id10" style="width: 100%">
-<caption><span class="caption-number">Table 279 </span><span class="caption-text">Connectivity Section</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 347 </span><span class="caption-text">Connectivity Section</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head" colspan="3"><p><strong>RS232 / RS485 / CAN Pin Definition:</strong></p></th>
 </tr>
@@ -837,13 +627,13 @@ The table below gives details about the definition of every Pin.</p>
 <figure class="align-center" id="id11">
 <img alt="../../../../../_images/GP_IO4.jpeg" src="../../../../../_images/GP_IO4.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 941:  </span><span class="caption-text"><em>GPIO Connector</em></span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1026:  </span><span class="caption-text"><em>GPIO Connector</em></span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <a class="text-center reference internal image-reference" href="../../../../../_images/GPIO_Schema.png"><img alt="../../../../../_images/GPIO_Schema.png" class="text-center align-center" src="../../../../../_images/GPIO_Schema.png" style="width: 720px;"/></a>
 <p class="text-center"><em>Isolated GPIO reduced schematic</em></p>
 <table id="id12" style="width: 100%">
-<caption><span class="caption-number">Table 280 </span><span class="caption-text">GPIO Connector Pin-out</span><a class="headerlink" href="#id12" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 348 </span><span class="caption-text">GPIO Connector Pin-out</span><a class="headerlink" href="#id12" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head" colspan="3"><p class="centered">
 <strong>GPIO Connector Pin Definition:</strong></p></th>
@@ -911,14 +701,14 @@ The table below gives details about the definition of every Pin.</p>
 <figure class="align-center" id="id13">
 <img alt="../../../../../_images/CM3-101-USB.jpeg" src="../../../../../_images/CM3-101-USB.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 942:  </span><span class="caption-text"><em>USB HOST Connectors (embedded/enclosed PC version)</em></span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1027:  </span><span class="caption-text"><em>USB HOST Connectors (embedded/enclosed PC version)</em></span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p>The product has one USB OTG connector that works as a slave by default. You can use it to establish a connection with the host PC and for downloading the system to the eMMC of CM3/CM3+.</p>
 <figure class="align-center" id="id14">
 <img alt="../../../../../_images/USB_OTG3.jpeg" src="../../../../../_images/USB_OTG3.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 943:  </span><span class="caption-text"><em>USB OTG Connector</em></span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1028:  </span><span class="caption-text"><em>USB OTG Connector</em></span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition warning">
@@ -934,7 +724,7 @@ up to 1 Gbps data throughput.</p>
 <figure class="align-center" id="id15">
 <img alt="../../../../../_images/LAN5.jpeg" src="../../../../../_images/LAN5.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 944:  </span><span class="caption-text"><em>RJ45 LAN Connectors (embedded/enclosed PC version)</em></span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1029:  </span><span class="caption-text"><em>RJ45 LAN Connectors (embedded/enclosed PC version)</em></span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -949,14 +739,14 @@ up to 1 Gbps data throughput.</p>
 <figure class="align-center" id="id16">
 <img alt="../../../../../_images/WiFi_BT3.jpeg" src="../../../../../_images/WiFi_BT3.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 945:  </span><span class="caption-text"><em>RTL8273 WiFi/BT Module</em></span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1030:  </span><span class="caption-text"><em>RTL8273 WiFi/BT Module</em></span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p>The enclosed (CS12800RA101P) variant of the product also includes an SMA connector for an external WiFi/BT antenna, as illustrated in the figure below.</p>
 <figure class="align-center" id="id17">
 <img alt="../../../../../_images/Antenna6.jpeg" src="../../../../../_images/Antenna6.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 946:  </span><span class="caption-text"><em>WiFi+BT Antenna</em></span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1031:  </span><span class="caption-text"><em>WiFi+BT Antenna</em></span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p><p class="page-break" style="margin: 0"></p></p>
@@ -968,13 +758,13 @@ The customer will also need a SIM Card Holder and a 3G/4G Antenna Connector to e
 <figure class="align-center" id="id18">
 <img alt="../../../../../_images/4G_module.jpeg" src="../../../../../_images/4G_module.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 947:  </span><span class="caption-text"><em>3G/4G Module</em></span><a class="headerlink" href="#id18" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1032:  </span><span class="caption-text"><em>3G/4G Module</em></span><a class="headerlink" href="#id18" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id19">
 <img alt="../../../../../_images/4G_com.jpeg" src="../../../../../_images/4G_com.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 948:  </span><span class="caption-text"><em>SIM Card Holder and 3G/4G Antenna Connector</em></span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1033:  </span><span class="caption-text"><em>SIM Card Holder and 3G/4G Antenna Connector</em></span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition attention">
@@ -991,7 +781,7 @@ The SD0 is used only for the Lite version of Compute Module that has no internal
 <figure class="align-center" id="id20">
 <img alt="../../../../../_images/TF_Card5.jpeg" src="../../../../../_images/TF_Card5.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 949:  </span><span class="caption-text"><em>TF (micro SD) Card Slot</em></span><a class="headerlink" href="#id20" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1034:  </span><span class="caption-text"><em>TF (micro SD) Card Slot</em></span><a class="headerlink" href="#id20" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -1007,7 +797,7 @@ Also, the EPC/PPC-CM3-101 industrial Pi PC has a miniature 2W internal speaker f
 <figure class="align-center" id="id21">
 <img alt="../../../../../_images/Audio6.jpeg" src="../../../../../_images/Audio6.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 950:  </span><span class="caption-text"><em>Audio Connector (embedded/enclosed PC version)</em></span><a class="headerlink" href="#id21" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1035:  </span><span class="caption-text"><em>Audio Connector (embedded/enclosed PC version)</em></span><a class="headerlink" href="#id21" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p><p class="page-break" style="margin: 0"></p></p>
@@ -1021,7 +811,7 @@ When switch is in the eMMC position, the Raspberry Pi will boot from internal eM
 <figure class="align-center" id="id22">
 <img alt="../../../../../_images/BootSW1.jpeg" src="../../../../../_images/BootSW1.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 951:  </span><span class="caption-text"><em>Boot DIP Switch</em></span><a class="headerlink" href="#id22" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1036:  </span><span class="caption-text"><em>Boot DIP Switch</em></span><a class="headerlink" href="#id22" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p><p class="page-break" style="margin: 0"></p></p>
@@ -1035,7 +825,7 @@ When switch is in the eMMC position, the Raspberry Pi will boot from internal eM
 <figure class="align-center" id="id23">
 <img alt="../../../../../_images/mountE1.jpeg" src="../../../../../_images/mountE1.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 952:  </span><span class="caption-text"><em>Embedded mounting</em></span><a class="headerlink" href="#id23" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1037:  </span><span class="caption-text"><em>Embedded mounting</em></span><a class="headerlink" href="#id23" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -1045,7 +835,7 @@ When switch is in the eMMC position, the Raspberry Pi will boot from internal eM
 <figure class="align-center" id="id24">
 <img alt="../../../../../_images/mountP1.jpeg" src="../../../../../_images/mountP1.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 953:  </span><span class="caption-text"><em>Panel mounting</em></span><a class="headerlink" href="#id24" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1038:  </span><span class="caption-text"><em>Panel mounting</em></span><a class="headerlink" href="#id24" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition attention">
@@ -1065,7 +855,7 @@ product measurements.</p>
 <figure class="align-center" id="id25">
 <img alt="../../../../../_images/CS12800RA101E-TD.jpeg" src="../../../../../_images/CS12800RA101E-TD.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 954:  </span><span class="caption-text">CS12800RA101E <em>Technical Drawing</em></span><a class="headerlink" href="#id25" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1039:  </span><span class="caption-text">CS12800RA101E <em>Technical Drawing</em></span><a class="headerlink" href="#id25" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
@@ -1076,7 +866,7 @@ product measurements.</p>
 <figure class="align-center" id="id26">
 <img alt="../../../../../_images/CS12800RA101P-TD.jpeg" src="../../../../../_images/CS12800RA101P-TD.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 955:  </span><span class="caption-text">CS12800RA101P <em>Technical Drawing</em></span><a class="headerlink" href="#id26" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1040:  </span><span class="caption-text">CS12800RA101P <em>Technical Drawing</em></span><a class="headerlink" href="#id26" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 <p><p class="page-break" style="margin: 0"></p></p>
@@ -1118,12 +908,12 @@ product measurements.</p>
             </a>
           
           
-            <a href="../../../A72/Manuals/Hardware/index.html" title="Cortex-A72 Hardware Documentation"
+            <a href="../../../Software/Debian.html" title="Raspberry Pi OS"
                class="md-flex md-footer-nav__link md-footer-nav__link--next"
                rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span
                 class="md-flex__ellipsis"> <span
-                class="md-footer-nav__direction"> Next </span> Cortex-A72 Hardware Documentation </span>
+                class="md-footer-nav__direction"> Next </span> Raspberry Pi OS </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink"><i
                 class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
@@ -1137,7 +927,7 @@ product measurements.</p>
       <div class="md-footer-meta__inner md-grid">
         <div class="md-footer-copyright">
           <div class="md-footer-copyright__highlight">
-              &#169; Copyright 2023, Chipsee.
+              &#169; Copyright 2024, Chipsee.
               
           </div>
             Last updated on
@@ -1153,7 +943,7 @@ product measurements.</p>
       </div>
     </div>
   </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script async src="../../../../../_static/js/material_custom.js"></script>
     
   <script src="../../../../../_static/javascripts/application.js"></script>

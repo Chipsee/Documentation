@@ -1,0 +1,478 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="lang:clipboard.copy" content="Copy to clipboard">
+  <meta name="lang:clipboard.copied" content="Copied to clipboard">
+  <meta name="lang:search.language" content="en">
+  <meta name="lang:search.pipeline.stopwords" content="True">
+  <meta name="lang:search.pipeline.trimmer" content="True">
+  <meta name="lang:search.result.none" content="No matching documents">
+  <meta name="lang:search.result.one" content="1 matching document">
+  <meta name="lang:search.result.other" content="# matching documents">
+  <meta name="lang:search.tokenizer" content="[\s\-]+">
+
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="../../_static/stylesheets/application.css"/>
+  <link rel="stylesheet" href="../../_static/stylesheets/application-palette.css"/>
+  <link rel="stylesheet" href="../../_static/stylesheets/application-fixes.css"/>
+  
+  <link rel="stylesheet" href="../../_static/fonts/material-icons.css"/>
+  
+  <meta name="theme-color" content="#3f51b5">
+  <script src="../../_static/javascripts/modernizr.js"></script>
+  
+  
+  
+    <title>Industrial PCs Powered by Rockchip &#8212; Chipsee</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/material.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/material_custom.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/design-tabs.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.webp"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+    <script async src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.155/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.155/examples/jsm/"
+        }
+      }
+    </script>
+    
+    <script defer data-domain="docs.chipsee.com" src="https://plausible.io/js/script.js"></script>
+    <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://ma.lolar.com/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
+
+  </head>
+  <body dir=ltr
+        data-md-color-primary=deep-orange data-md-color-accent=deep-orange>
+  
+  <svg class="md-svg">
+    <defs data-children-count="0">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+      
+    </defs>
+  </svg>
+  
+  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">
+  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">
+  <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+  <a href="#PCs/ARM/index-rockchip" tabindex="1" class="md-skip"> Skip to content </a>
+  <header>
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex navheader">
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+            <span class="md-header-nav__topic"> Industrial PCs Powered by Rockchip </span>
+            <span class="md-header-nav__topic"> Industrial PCs Powered by Rockchip </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-md-component="header">
+    <div class="container">
+      <a class="navbar-brand pt-0" href="/">
+        <img src="../../_static/images/logo_dark.png" height="30" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav fs-6 me-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Industrial PCs
+            </a>
+            <ul class="dropdown-menu" id="nav-dropdown">
+              <li><a class="dropdown-item" href="../Pi/index.html">Powered by Raspberry Pi</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Powered by Rockchip</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="index-nxp.html">Powered by NXP</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="AM335X/index.html">Powered by TI</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../Intel/index.html">Powered by INTEL</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../MTK/index.html">Handhelds</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../Displays/index.html">Displays</a>
+          </li>
+          <li class="nav-item text-nowrap">
+            <a class="nav-link" href="https://chipsee.com" target="_blank">Shop
+              <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" style="margin-bottom: 3px;"><path d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" fill="gray"/></svg>
+            </a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" action="/search.html?" method="GET">
+          <input class="form-control form-control-sm me-2" type="search" placeholder="Search" name="q" aria-label="Search">
+          <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+</header>
+
+  
+  <div class="md-container">
+    
+    
+    
+  <nav class="md-tabs" data-md-component="tabs">
+    <div class="md-tabs__inner md-grid">
+      <ul class="md-tabs__list">
+          <li class="md-tabs__item"><a href="../../index.html" class="md-tabs__link">Chipsee</a></li>
+      </ul>
+    </div>
+  </nav>
+    <main class="md-main">
+      <div class="md-main__inner md-grid" data-md-component="container">
+        
+          <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                
+<nav class="md-nav md-nav--secondary">
+    <label class="md-nav__title" for="__toc">ON THIS PAGE</label>
+  <ul class="md-nav__list" data-md-scrollfix="">
+        <li class="md-nav__item"><a href="#pcs-arm-index-rockchip--page-root" class="md-nav__link">Industrial PCs Powered by Rockchip</a>
+        </li>
+        <li class="md-nav__item"><a href="#rk3399-a72" class="md-nav__link">RK3399 / A72</a>
+        </li>
+        <li class="md-nav__item"><a href="#rk3568-a55" class="md-nav__link">RK3568 / A55</a>
+        </li>
+        <li class="md-nav__item"><a href="#px30-a35" class="md-nav__link">PX30 / A35</a>
+        </li>
+        <li class="md-nav__item"><a href="#software" class="md-nav__link">Software</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#for-rk3399" class="md-nav__link">For RK3399</a>
+        </li>
+        <li class="md-nav__item"><a href="#for-rk3568" class="md-nav__link">For RK3568</a>
+        </li>
+        <li class="md-nav__item"><a href="#for-px30" class="md-nav__link">For PX30</a>
+        </li></ul>
+            </nav>
+        </li>
+  </ul>
+</nav>
+              </div>
+            </div>
+          </div>
+          <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                
+              </div>
+            </div>
+          </div>
+        
+        <div class="md-content">
+          <article class="md-content__inner md-typeset" role="main">
+            
+  <section id="industrial-pcs-powered-by-rockchip">
+<span id="pbrc"></span><h1 id="pcs-arm-index-rockchip--page-root">Industrial PCs Powered by Rockchip<a class="headerlink" href="#pcs-arm-index-rockchip--page-root" title="Permalink to this heading">¶</a></h1>
+</section>
+<section id="rk3399-a72">
+<h1 id="rk3399-a72">RK3399 / A72<a class="headerlink" href="#rk3399-a72" title="Permalink to this heading">¶</a></h1>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5"><div class="col">
+<div class="index-item"><p>7 Inch
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS10600R070.html"><img alt="EPC/PPC-A72-070-C" class="index-item-img" src="../../_images/PPC-A72-070-C-Front-Low.jpeg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS10600R070.html#epc-ppc-a72-070-c"><span class="std std-ref">EPC/PPC-A72-070-C</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>10.1 Inch
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS12800R101P.html"><img alt="PPC-A72-101" class="index-item-img" src="../../_images/CS12800R101P-Front-Low.jpeg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS12800R101P.html#ppc-a72-101"><span class="std std-ref">PPC-A72-101</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>12.1 Inch
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS10768R121P.html"><img alt="PPC-A72-121-P" class="index-item-img" src="../../_images/CS10768R121P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS10768R121P.html#ppc-a72-121-p"><span class="std std-ref">PPC-A72-121-P</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>12.5 Inch
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS19108R125.html"><img alt="PPC-A72-125-C" class="index-item-img" src="../../_images/PPC-A72-125-C-Front-Low.jpeg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS19108R125.html#ppc-a72-125-c"><span class="std std-ref">PPC-A72-125-C</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>13.3 Inch
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS19108R133P.html"><img alt="PPC-A72-133-P" class="index-item-img" src="../../_images/PPC-A72-133-P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS19108R133P.html#ppc-a72-133-p"><span class="std std-ref">PPC-A72-133-P</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>15.0 Inch
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS10768R150P.html"><img alt="PPC-A72-150-P" class="index-item-img" src="../../_images/CS10768R150P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS10768R150P.html#ppc-a72-150-p"><span class="std std-ref">PPC-A72-150-P</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>15.6 Inch
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS19108R156P.html"><img alt="PPC-A72-156-P" class="index-item-img" src="../../_images/CS19108R156P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS19108R156P.html#ppc-a72-156-p"><span class="std std-ref">PPC-A72-156-P</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>17.0 Inch
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS12102R170P.html"><img alt="PPC-A72-170-C" class="index-item-img" src="../../_images/CS12102R170P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS12102R170P.html#ppc-a72-170-c"><span class="std std-ref">PPC-A72-170-C</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>17.3 Inch
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS19108R173.html"><img alt="PPC-A72-173-C" class="index-item-img" src="../../_images/PPC-A72-173-C-Front-Low.jpeg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS19108R173.html#ppc-a72-173-c"><span class="std std-ref">PPC-A72-173-C</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>18.5 Inch
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS19108R185P.html"><img alt="PPC-A72-185-C" class="index-item-img" src="../../_images/CS19108R185P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS19108R185P.html#ppc-a72-185-c"><span class="std std-ref">PPC-A72-185-C</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>19.0 Inch
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS12102R190P.html"><img alt="PPC-A72-190-C" class="index-item-img" src="../../_images/CS12102R190P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS12102R190P.html#ppc-a72-190-c"><span class="std std-ref">PPC-A72-190-C</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>21.5 Inch
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS19108R215P2.html"><img alt="PPC-A72-215-P" class="index-item-img" src="../../_images/CS19108R215P2-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS19108R215P2.html#ppc-a72-215-p"><span class="std std-ref">PPC-A72-215-P</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>23.6 Inch
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS19108R236P.html"><img alt="PPC-A72-236" class="index-item-img" src="../../_images/CS19108R236P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS19108R236P.html#ppc-a72-236"><span class="std std-ref">PPC-A72-236</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>10.1 Inch(Legacy)
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS12800R101.html"><img alt="EPC/PPC-A72-101-C" class="index-item-img" src="../../_images/PPC-A72-101-C-Front-Low.jpeg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS12800R101.html#epc-ppc-a72-101-c"><span class="std std-ref">EPC/PPC-A72-101-C</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>13.3 Inch(Legacy)
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS19108R133.html"><img alt="PPC-A72-133-C" class="index-item-img" src="../../_images/PPC-A72-133-C-Front-Low.jpeg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS19108R133.html#ppc-a72-133-c"><span class="std std-ref">PPC-A72-133-C</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>15.0 Inch(Legacy)
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS10768R150.html"><img alt="PPC-A72-150-C" class="index-item-img" src="../../_images/PPC-A72-150-C-Front-Low.jpeg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS10768R150.html#ppc-a72-150-c"><span class="std std-ref">PPC-A72-150-C</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>15.6 Inch(Legacy)
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS19108R156.html"><img alt="PPC-A72-156-C" class="index-item-img" src="../../_images/PPC-A72-156-C-Front-Low.jpeg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS19108R156.html#ppc-a72-156-c"><span class="std std-ref">PPC-A72-156-C</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>21.5 Inch(Legacy)
+<a class="reference external" href="/PCs/ARM/RK3399/Manuals/Hardware/CS19108R215.html"><img alt="PPC-A72-215-C" class="index-item-img" src="../../_images/PPC-A72-215-C-Front-Low.jpeg"/></a></p>
+<p><a class="reference internal" href="RK3399/Manuals/Hardware/CS19108R215.html#ppc-a72-215-c"><span class="std std-ref">PPC-A72-215-C</span></a></p>
+</div>
+</div></div><div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="rk3568-a55">
+<h1 id="rk3568-a55">RK3568 / A55<a class="headerlink" href="#rk3568-a55" title="Permalink to this heading">¶</a></h1>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5"><div class="col">
+<div class="index-item"><p>5 Inch
+<a class="reference external" href="/PCs/ARM/RK3568/Manuals/Hardware/CS12720-RK3568-050P.html"><img alt="PPC-A55-050" class="index-item-img" src="../../_images/PPC-A55-050-C-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3568/Manuals/Hardware/CS12720-RK3568-050P.html#ppc-a55-050"><span class="std std-ref">PPC-A55-050</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>7 Inch
+<a class="reference external" href="/PCs/ARM/RK3568/Manuals/Hardware/CS10600-RK3568-070P.html"><img alt="PPC-A55-070" class="index-item-img" src="../../_images/CS10600RK3568070P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3568/Manuals/Hardware/CS10600-RK3568-070P.html#ppc-a55-070"><span class="std std-ref">PPC-A55-070</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>10.1 Inch
+<a class="reference external" href="/PCs/ARM/RK3568/Manuals/Hardware/CS12800-RK3568-101P.html"><img alt="PPC-A55-101" class="index-item-img" src="../../_images/CS12800-RK3568-101P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3568/Manuals/Hardware/CS12800-RK3568-101P.html#ppc-a55-101"><span class="std std-ref">PPC-A55-101</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>12.1 Inch
+<a class="reference external" href="/PCs/ARM/RK3568/Manuals/Hardware/CS10768-RK3568-121P.html"><img alt="PPC-A55-121" class="index-item-img" src="../../_images/CS10768-RK3568-121P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3568/Manuals/Hardware/CS10768-RK3568-121P.html#ppc-a55-121"><span class="std std-ref">PPC-A55-121</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>13.3 Inch
+<a class="reference external" href="/PCs/ARM/RK3568/Manuals/Hardware/CS19108-RK3568-133P.html"><img alt="PPC-A55-133" class="index-item-img" src="../../_images/CS19108-RK3568-133P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3568/Manuals/Hardware/CS19108-RK3568-133P.html#ppc-a55-133"><span class="std std-ref">PPC-A55-133</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>15.0 Inch
+<a class="reference external" href="/PCs/ARM/RK3568/Manuals/Hardware/CS10768-RK3568-150P.html"><img alt="PPC-A55-150" class="index-item-img" src="../../_images/CS10768-RK3568-150P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3568/Manuals/Hardware/CS10768-RK3568-150P.html#ppc-a55-150"><span class="std std-ref">PPC-A55-150</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>15.6 Inch
+<a class="reference external" href="/PCs/ARM/RK3568/Manuals/Hardware/CS19108-RK3568-156P.html"><img alt="PPC-A55-156" class="index-item-img" src="../../_images/CS19108-RK3568-156P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3568/Manuals/Hardware/CS19108-RK3568-156P.html#ppc-a55-156"><span class="std std-ref">PPC-A55-156</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>17.0 Inch
+<a class="reference external" href="/PCs/ARM/RK3568/Manuals/Hardware/CS12102-RK3568-170P.html"><img alt="PPC-A55-170" class="index-item-img" src="../../_images/CS12102-RK3568-170P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3568/Manuals/Hardware/CS12102-RK3568-170P.html#ppc-a55-170"><span class="std std-ref">PPC-A55-170</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>18.5 Inch
+<a class="reference external" href="/PCs/ARM/RK3568/Manuals/Hardware/CS19108-RK3568-185P.html"><img alt="PPC-A55-185" class="index-item-img" src="../../_images/CS19108-RK3568-185P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3568/Manuals/Hardware/CS19108-RK3568-185P.html#ppc-a55-185"><span class="std std-ref">PPC-A55-185</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>19.0 Inch
+<a class="reference external" href="/PCs/ARM/RK3568/Manuals/Hardware/CS12102-RK3568-190P.html"><img alt="PPC-A55-190" class="index-item-img" src="../../_images/CS12102-RK3568-190P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3568/Manuals/Hardware/CS12102-RK3568-190P.html#ppc-a55-190"><span class="std std-ref">PPC-A55-190</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>21.5 Inch
+<a class="reference external" href="/PCs/ARM/RK3568/Manuals/Hardware/CS12800-RK3568-215P.html"><img alt="PPC-A55-215" class="index-item-img" src="../../_images/CS12800-RK3568-215P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3568/Manuals/Hardware/CS12800-RK3568-215P.html#ppc-a55-215"><span class="std std-ref">PPC-A55-215</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>23.6 Inch
+<a class="reference external" href="/PCs/ARM/RK3568/Manuals/Hardware/CS19108-RK3568-236P.html"><img alt="PPC-A55-236" class="index-item-img" src="../../_images/CS19108-RK3568-236P-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3568/Manuals/Hardware/CS19108-RK3568-236P.html#ppc-a55-236"><span class="std std-ref">PPC-A55-236</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>Box
+<a class="reference external" href="/PCs/ARM/RK3568/Manuals/Hardware/CS-RK3568-BOX.html"><img alt="CS-A55-BOX" class="index-item-img" src="../../_images/CS-RK3568-BOX-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="RK3568/Manuals/Hardware/CS-RK3568-BOX.html#cs-a55-box"><span class="std std-ref">CS-A55-BOX</span></a></p>
+</div>
+</div></div><div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="px30-a35">
+<h1 id="px30-a35">PX30 / A35<a class="headerlink" href="#px30-a35" title="Permalink to this heading">¶</a></h1>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5"><div class="col">
+<div class="index-item"><p>10.1 Inch (All-in-one)
+<a class="reference external" href="/PCs/ARM/PX30/AIO/Manuals/Hardware/CS12800PX101A.html"><img alt="AIO-PX30-101" class="index-item-img" src="../../_images/CS12800PX101A-Front-Low.jpg"/></a></p>
+<p><a class="reference internal" href="PX30/AIO/Manuals/Hardware/CS12800PX101A.html#aio-px30-101"><span class="std std-ref">AIO-PX30-101</span></a></p>
+</div>
+</div></div><div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="software">
+<h1 id="software">Software<a class="headerlink" href="#software" title="Permalink to this heading">¶</a></h1>
+<section id="for-rk3399">
+<h2 id="for-rk3399">For RK3399<a class="headerlink" href="#for-rk3399" title="Permalink to this heading">¶</a></h2>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5"><div class="col">
+<div class="index-item"><p>Firmware</p>
+<img class="img-fluid text-center" src="/_static/images/os_download_icon.png" width="100px"/><p><a class="reference internal" href="RK3399/OS_Downloads/index.html#rk3399-osdownloads"><span class="std std-ref">OS Downloads</span></a></p>
+</div>
+</div></div><div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="for-rk3568">
+<h2 id="for-rk3568">For RK3568<a class="headerlink" href="#for-rk3568" title="Permalink to this heading">¶</a></h2>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5"><div class="col">
+<div class="index-item"><p>Firmware</p>
+<img class="img-fluid text-center" src="/_static/images/os_download_icon.png" width="100px"/><p><a class="reference internal" href="RK3568/OS_Downloads/index.html#rk3568-osdownloads"><span class="std std-ref">OS Downloads</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>Doc</p>
+<img class="img-fluid text-center" src="/_static/images/os_logo_android.png" width="100px"/><p><a class="reference internal" href="RK3568/Manuals/Software/Android_11.html#rk3568-os-android11"><span class="std std-ref">Android 11</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>Doc</p>
+<img class="img-fluid text-center" src="/_static/images/os_logo_debian.png" width="100px"/><p><a class="reference internal" href="RK3568/Manuals/Software/Debian_11.html#rk3568-os-debian11"><span class="std std-ref">Debian 11</span></a></p>
+</div>
+</div><div class="col">
+<div class="index-item"><p>Doc</p>
+<img class="img-fluid text-center" src="/_static/images/os_logo_linux.png" width="100px"/><p><a class="reference internal" href="RK3568/Manuals/Software/Buildroot_Linux_Qt_5_15.html#rk3568-os-linuxqt515"><span class="std std-ref">Buildroot Linux Qt 5.15</span></a></p>
+</div>
+</div></div><div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="for-px30">
+<h2 id="for-px30">For PX30<a class="headerlink" href="#for-px30" title="Permalink to this heading">¶</a></h2>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5"><div class="col">
+<div class="index-item"><p>Firmware</p>
+<img class="img-fluid text-center" src="/_static/images/os_download_icon.png" width="100px"/><p><a class="reference internal" href="PX30/AIO/OS_Downloads/index.html#px30-osdownloads"><span class="std std-ref">OS Downloads</span></a></p>
+</div>
+</div></div><div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+</section>
+
+
+          </article>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="md-footer">
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+          
+          
+        </a>
+        
+      </nav>
+    </div>
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-footer-copyright">
+          <div class="md-footer-copyright__highlight">
+              &#169; Copyright 2024, Chipsee.
+              
+          </div>
+            Last updated on
+              Jan 22, 2024.
+            <br/>
+        </div>
+    <!-- GDPR Consent Banner -->
+    <div id="gdpr-consent-banner" class="gdpr-consent-banner">
+        <p>We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it. For more information please refer to <a href="https://chipsee.com/privacy/" class="text-secondary">our privacy policy</a>.</p>
+        <button id="accept-cookies">OK</button>
+    </div>
+
+      </div>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script async src="../../_static/js/material_custom.js"></script>
+    
+  <script src="../../_static/javascripts/application.js"></script>
+  <script>app.initialize({version: "1.0.4", url: {base: ".."}})</script>
+  </body>
+</html>

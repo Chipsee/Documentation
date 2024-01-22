@@ -6,7 +6,7 @@
         "debug_target": null,
         "author": "Chipsee",
         "author_logo": "_static/images/logo-chipsee-white.png",
-        "copyright": "2023, Chipsee",
+        "copyright": "2024, Chipsee",
         "disclaimer": "Content can change at anytime. It's best to refer to website for latest information.",
         "cover": true,
         "cover_title": "Chipsee Documentation Sample",
@@ -213,6 +213,10 @@
         "PCs/ARM/AM335X/OS_Downloads/index": {
             "pdf-build": "False"
         },
+        "PCs/ARM/AM335X/index": {
+            "pdf-build": "False",
+            "orphan": ""
+        },
         "PCs/ARM/PX30/AIO/Manuals/Hardware/CS12800PX101A": {
             "pdf-title": "AIO-PX30-101",
             "pdf-subtitle": "PN: CS12800PX101A",
@@ -340,6 +344,9 @@
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/Manuals/Software/index": {
             "pdf-build": "False"
         },
         "PCs/ARM/RK3399/OS_Downloads/CS10600R070": {
@@ -671,6 +678,14 @@
         },
         "PCs/ARM/index": {
             "pdf-build": "False"
+        },
+        "PCs/ARM/index-nxp": {
+            "pdf-build": "False",
+            "orphan": ""
+        },
+        "PCs/ARM/index-rockchip": {
+            "pdf-build": "False",
+            "orphan": ""
         },
         "PCs/Intel/J1900/Manuals/Hardware/CS86-BOX-J1900": {
             "pdf-title": "CS86-BOX-J1900",
