@@ -26,6 +26,7 @@ document.onreadystatechange = () => {
       const container = document.createElement('div');
       document.querySelector(".md-container").appendChild(container);
       document.querySelector(".md-main").remove();
+      document.querySelector(".md-container").classList.remove("md-container");
 
       camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 2000);
       camera.position.set(100, 200, 300);
