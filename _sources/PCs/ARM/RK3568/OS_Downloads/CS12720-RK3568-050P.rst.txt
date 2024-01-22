@@ -12,7 +12,7 @@ But we need decompress it to img file when we use `RKDevtool <https://chipsee-tm
 Android11
 ----------
 
-| :download:`prebuilt-rk3568-cs12720-android11-20230317.img.xz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3568/5/Android11/prebuilt-rk3568-cs12720-android11-20230317.img.xz>`
+| :download:`prebuilt-rk3568-cs12720-android11-20231130.img.xz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3568/5/Android11/prebuilt-rk3568-cs12720-android11-20231130.img.xz>`
 
 .. _CS12720P-debian:
 
