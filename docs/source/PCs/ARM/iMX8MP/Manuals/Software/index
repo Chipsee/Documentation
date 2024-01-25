@@ -14,7 +14,9 @@ Firmware
 
 .. raw:: html
 
-         <img src="/_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+         <a href="/PCs/ARM/iMX8MP/OS_Downloads/index.html">
+            <img src="/_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+         </a>
 
 :ref:`OS Downloads <IMX8MP_OSDownloads>`
 
@@ -32,7 +34,9 @@ Doc
 
 .. raw:: html
 
-         <img src="/_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+         <a href="/PCs/ARM/iMX8MP/Manuals/Software/Android_12.html">
+            <img src="/_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+         </a>
 
 :ref:`Android 12 <imx8mp_os_android12>`
 
@@ -50,7 +54,9 @@ Doc
 
 .. raw:: html
 
-         <img src="/_static/images/og_logo_yocto.png" class="img-fluid text-center" width="100px">
+         <a href="/PCs/ARM/iMX8MP/Manuals/Software/Yocto_Linux_QT_6_3.html">
+            <img src="/_static/images/og_logo_yocto.png" class="img-fluid text-center" width="100px">
+         </a>
 
 :ref:`Yocto Linux Qt 6.3 <imx8mp_os_yocto63>`
 

@@ -13,8 +13,10 @@ For RK3568
 Firmware
 
 .. raw:: html
-
-         <img src="/_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+      
+         <a href="/PCs/ARM/RK3568/OS_Downloads/index.html">
+            <img src="/_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+         </a>
 
 :ref:`OS Downloads <RK3568_OSDownloads>`
 
@@ -32,7 +34,9 @@ Doc
 
 .. raw:: html
 
-         <img src="/_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+         <a href="/PCs/ARM/RK3568/Manuals/Software/Android_11.html">
+            <img src="/_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+         </a>
 
 :ref:`Android 11<rk3568_os_android11>`
 
@@ -50,7 +54,9 @@ Doc
 
 .. raw:: html
 
-         <img src="/_static/images/os_logo_debian.png" class="img-fluid text-center" width="100px">
+         <a href="/PCs/ARM/RK3568/Manuals/Software/Debian_11.html">
+            <img src="/_static/images/os_logo_debian.png" class="img-fluid text-center" width="100px">
+         </a>
 
 :ref:`Debian 11<rk3568_os_debian11>`
    
@@ -68,7 +74,9 @@ Doc
 
 .. raw:: html
 
-         <img src="/_static/images/os_logo_linux.png" class="img-fluid text-center" width="100px">
+         <a href="/PCs/ARM/RK3568/Manuals/Software/Buildroot_Linux_Qt_5_15.html">
+            <img src="/_static/images/os_logo_linux.png" class="img-fluid text-center" width="100px">
+         </a>
 
 :ref:`Buildroot Linux Qt 5.15 <rk3568_os_linuxqt515>`
 
