@@ -14,7 +14,9 @@ Firmware
 
 .. raw:: html
 
-         <img src="/_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+         <a href="/PCs/ARM/AM335X/OS_Downloads/index.html">
+            <img src="/_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
+         </a>
 
 :ref:`OS Downloads <AM335X_OSDownloads>`
 
@@ -32,7 +34,9 @@ Doc
 
 .. raw:: html
 
-         <img src="/_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+         <a href="/PCs/ARM/AM335X/Manuals/Software/Android.html">
+            <img src="/_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
+         </a>
 
 :ref:`Android 4.3<am335x_os_android41>`
 
@@ -50,7 +54,9 @@ Doc
 
 .. raw:: html
 
-         <img src="/_static/images/os_logo_debian.png" class="img-fluid text-center" width="100px">
+         <a href="/PCs/ARM/AM335X/Manuals/Software/Debian.html">
+            <img src="/_static/images/os_logo_debian.png" class="img-fluid text-center" width="100px">
+         </a>
 
 :ref:`Debian 7.4/8.4<am335x_os_debian7484>`
    
@@ -68,7 +74,9 @@ Doc
 
 .. raw:: html
 
-         <img src="/_static/images/os_logo_linux.png" class="img-fluid text-center" width="100px">
+         <a href="/PCs/ARM/AM335X/Manuals/Software/LinuxQt.html">
+            <img src="/_static/images/os_logo_linux.png" class="img-fluid text-center" width="100px">
+         </a>
 
 :ref:`Linux Qt 4.8/5.5 <am335x_os_linuxqt4855>`
 
@@ -86,7 +94,9 @@ Doc
 
 .. raw:: html
 
-         <img src="/_static/images/os_logo_linux.png" class="img-fluid text-center" width="100px">
+         <a href="/PCs/ARM/AM335X/Manuals/Software/Angstrom.html">
+            <img src="/_static/images/os_logo_linux.png" class="img-fluid text-center" width="100px">
+         </a>
 
 :ref:`Angstrom 2012 <am335x_os_angstrom2012>`
 
