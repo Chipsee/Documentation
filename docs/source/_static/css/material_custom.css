@@ -703,3 +703,8 @@ caption, figcaption, p.caption {
 .nav-item .nav-link:hover {
     background-color: white;
 }
+
+/* Remove the prev and next button in the footer */
+.md-footer-nav {
+    display: none;
+}
