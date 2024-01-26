@@ -18,7 +18,7 @@
 
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 320 * 260 * 55.5mm
+.. |dimP| replace:: 320.5 * 260 * 56.5mm
 
 .. |weightE| replace:: NULL
 
@@ -118,5 +118,13 @@
 .. include:: Resources/CS12800RA4101/base_includes_cs12800ra4101
 
 .. include:: Resources/mechanical
+
+.. figure:: /Media/Pi/A72/CS10768RA4121/PPC-CM4-121-Drawing.webp
+   :align: center
+   :figclass: align-center
+
+   |productP| Technical Drawing
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support
