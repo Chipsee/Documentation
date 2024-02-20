@@ -24,6 +24,18 @@ Debian10
 | **SD**
 | :download:`prebuilt-rk3399v1-cs10600r-mipi-debian10-sd-20230506.img.xz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3399/7/Debian10/prebuilt-rk3399v1-cs10600r-mipi-debian10-sd-20230506.img.xz>`
 
+Debian11
+--------
+
+.. warning::
+  The Debian11 system only support latest RTL8723DS WiFi/Bt module, the old RTL8723BS WiFi/Bt module is not supported. If you need this system, inform us to use RTL8723DS WiFi/Bt module before order.
+
+| **eMMC**
+| :download:`prebuilt-rk3399v1-cs10600r-mipi-debian11-emmc-20240118.img.xz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3399/7/Debian11/prebuilt-rk3399v1-cs10600r-mipi-debian11-emmc-20240118.img.xz>`
+
+| **SD**
+| :download:`prebuilt-rk3399v1-cs10600r-mipi-debian11-sd-20240220.img.xz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3399/7/Debian11/prebuilt-rk3399v1-cs10600r-mipi-debian11-sd-20240220.img.xz>`
+
 .. _CS10600R070-linuxQt:
 
 Buildroot LinuxQt5.14
