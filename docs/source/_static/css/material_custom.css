@@ -708,3 +708,8 @@ caption, figcaption, p.caption {
 .md-footer-nav {
     display: none;
 }
+
+/* Code block */
+.md-typeset pre.literal-block {
+    margin: 1em 0 !important
+}

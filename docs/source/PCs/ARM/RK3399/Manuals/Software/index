@@ -27,6 +27,66 @@ Firmware
 
 .. raw:: html
 
+   <div class="col">
+      <div class="index-item">
+
+Doc
+
+.. raw:: html
+
+         <a href="/PCs/ARM/RK3399/Manuals/Software/Debian_10.html">
+            <img src="/_static/images/os_logo_debian.png" class="img-fluid text-center" width="100px">
+         </a>
+
+:ref:`Debian 10<rk3399_os_debian10>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc
+
+.. raw:: html
+
+         <a href="/PCs/ARM/RK3399/Manuals/Software/Debian_11.html">
+            <img src="/_static/images/os_logo_debian.png" class="img-fluid text-center" width="100px">
+         </a>
+
+:ref:`Debian 11<rk3399_os_debian11>`
+   
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Doc
+
+.. raw:: html
+
+         <a href="/PCs/ARM/RK3399/Manuals/Software/Buildroot_Linux_Qt_5_14.html">
+            <img src="/_static/images/os_logo_linux.png" class="img-fluid text-center" width="100px">
+         </a>
+
+:ref:`Buildroot Linux Qt 5.14 <rk3399_os_linuxqt514>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
    </div>
 
 .. toctree::
@@ -35,3 +95,6 @@ Firmware
    :hidden:
 
    RK3399 OS Downloads </PCs/ARM/RK3399/OS_Downloads/index>
+   Debian 10 </PCs/ARM/RK3399/Manuals/Software/Debian_10>
+   Debian 11 </PCs/ARM/RK3399/Manuals/Software/Debian_11>
+   Buildroot Linux Qt 5.14 </PCs/ARM/RK3399/Manuals/Software/Buildroot_Linux_Qt_5_14>

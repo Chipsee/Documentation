@@ -6,6 +6,21 @@
 
 .. _rk3568_os_linuxqt515:
 
+.. |os_down_path| replace:: :ref:`Chipsee prebuilt images <RK3568_OSDownloads>`
+
+.. |rootfs_blk| replace:: **/dev/mmcblk0p6**
+
+.. |OS_Backup_img| image:: /Media/ARM/A55/Software/RK3568_OS_Backup_1.png
+                  :align: middle
+                  :width: 720
+
+.. |sdx| replace:: /dev/sdb6
+
+.. |git_branch| replace:: r510-rk3568
+
+.. include:: Resources/Shared/backup_note
+
+
 |systemType| OS
 ###############
 
@@ -27,6 +42,12 @@ Flashing OS Image
 .. include:: Resources/Flash_OS
 
 .. include:: Resources/Flash_OS_Video
+
+:pagebreak:`True`
+
+.. include:: /PCs/ARM/Shared/Rockchip/Software/Backup_OS
+
+:pagebreak:`True`
 
 .. include:: Resources/Development_On_Going
 
