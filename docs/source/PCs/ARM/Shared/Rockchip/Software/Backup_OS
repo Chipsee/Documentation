@@ -1,0 +1,117 @@
+Backup Your OS Image For Bulk Installation
+==========================================
+
+If you have finished developing your software, and plan to "copy" the whole system to many other Chipsee industrial PCs, you can backup the OS to a image file, just like the **.img** file you downloaded from Chipsee, or the OS we installed in the factory for you before shipping. And then you can flash it to many more devices.
+
+Prepare for backup
+------------------
+
+We will use **SDDiskTool** to flash a bootable SD card, let your Chipsee PC boot from this SD card, then use this system to backup your OS image (the whole content on eMMC rootfs partition). You will need:
+
+- `SDDiskTool (Click to download) <https://chipsee-tmp.s3.us-east-1.amazonaws.com/Tools/SDDiskTool_v1.72.zip>`_.
+- 16GB or larger micro SD card.
+- SD card reader (to be used on your HOST PC).
+- A Windows PC to run the SDDiskTool.
+- A (X86 or X86_64) Linux HOST PC or virtual machine to make new img file (make sure there is 25GB or more free space on the disk for the following process).
+- Two |os_down_path|, one is the image that you are developing your software on, the other is a prebuilt-xxx-sd-xx.img, if you cannot find the prebuilt-xxx-sd-xx.img of your device, you can use just the prebuilt-xxx-emmc-xx.img temporarily, we will release the sd image later.
+
+.. note::
+
+    |note1|
+
+.. note::
+   
+    |note2|
+
+Prepare a Bootable SD Card
+--------------------------
+
+On your Windows PC, we open SD_Firmware_Tool.exe to process 1,2,3,4,5 steps to create a bootable SD card.
+
+You need to download the Chipsee prebuilt image as we mentioned earlier. Find the one that fits your screen size in |os_down_path| page.
+
+Once the SD card is flashed, Windows will show a warning to let you format the unrecognized partition, **ignore or cancel** it because the SDDiskTool creates some partitions that Windows doesn’t recognize.
+
+.. rst-class:: text-center mt-3
+
+   .. image:: /Media/ARM/Shared/Rockchip/Software/SDDisktool_1.jpg
+      :align: center
+      :width: 640
+
+   *Follow the 5 steps on SDDisktool*
+
+Backup Your eMMC
+----------------
+
+|backup_reboot|
+
+Use the way you like to execute the following commands, for example, serial debug or ssh. You can connect a keyboard and mouse to the Chipsee device and run them in the command line as well.
+
+The eMMC rootfs partition is |rootfs_blk|. We will backup the contents in |rootfs_blk|.
+
+.. rst-class:: text-center mt-3
+
+   |OS_Backup_img|
+
+   eMMC rootfs partition is |rootfs_blk|
+
+.. parsed-literal::
+
+    $ sudo su
+    # export ROOTFS_DEV=\ |rootfs_blk|\ 
+
+    # mkdir /mnt/backuprootfs
+    # mount $ROOTFS_DEV /mnt/backuprootfs/
+    # cd /mnt/
+
+    // sync would take an hour or more depending on the files in your system
+    # tar jcvpf backuprootfs.tar.bz2 backuprootfs && sync 
+    # umount /mnt/backuprootfs
+
+
+Now we have obtained the backup rootfs **backuprootfs.tar.bz2** in the SD card partition
+
+
+Generate New Image File
+-----------------------
+
+Poweroff the Chipsee PC. Put the SD card into your Linux HOST PC (or virtual machine).
+
+You should find a **/dev/sdX** in your Linux system, for example **/dev/sdb**, which is this SD card, **you should use your actual /dev/sdX here**, if you don't know which sdX is it, check with *df -h* and see which one's size is most likely your SD card.
+
+Now we mount |sdx| to find backuprootfs.tar.bz2
+
+.. parsed-literal::
+
+   # mount \ |sdx|\  /mnt/
+
+It will be in **/mnt/mnt/backuprootfs.tar.bz2**, we will copy it out to our Linux PC later.
+
+Run the following command to generate a new *.img* file. Make sure you have at least 25GB free space on your Linux PC, the process produces a lot of intermediate files.
+
+.. parsed-literal::
+
+   $ sudo su
+   # git clone https://gitee.com/chipsee_admin/rk_pack_tools.git 
+   # cd rk_pack_tools
+   # git checkout \ |git_branch|\
+
+
+   // copy the Chipsee prebuilt img file to this directory
+   # cp prebuilt-xxx.img . 
+   # ./cs-unpack.sh prebuilt-xxx.img
+
+   // copy your backup rootfs from SD card to this directory
+   # cp /mnt/mnt/backuprootfs.tar.bz2 .
+
+   // generate rootfs.img file from backuprootfs.tar.bz2
+   # ./cs-mkrootfs.sh
+
+   // generate new img file
+   # ./cs-pack.sh prebuilt-new-xxx.img
+
+.. warning::
+
+   If you see *checksum miss match error* or *Error:<AddFile> write file failed,err=28*, check your harddisk and make sure you have enough free space.
+
+Now you have obtained your new img file prebuilt-new-xxx.img in the current folder, use this img file to flash other devices.
