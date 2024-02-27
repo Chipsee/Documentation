@@ -3,29 +3,29 @@
    :width: 100%
    :widths: auto
 
-   +-----------------------------+-------------------------------+
-   | Function                    | Device Node                   |
-   +=============================+===============================+
-   | IN4                         | /dev/chipsee-gpio8            |
-   +-----------------------------+-------------------------------+
-   | IN3                         | /dev/chipsee-gpio7            |
-   +-----------------------------+-------------------------------+
-   | IN2                         | /dev/chipsee-gpio6            |
-   +-----------------------------+-------------------------------+
-   | IN1                         | /dev/chipsee-gpio5            |
-   +-----------------------------+-------------------------------+
-   | OUT4                        | /dev/chipsee-gpio4            |
-   +-----------------------------+-------------------------------+
-   | OUT3                        | /dev/chipsee-gpio3            |
-   +-----------------------------+-------------------------------+
-   | OUT2                        | /dev/chipsee-gpio2            |
-   +-----------------------------+-------------------------------+
-   | OUT1                        | /dev/chipsee-gpio1            |
-   +-----------------------------+-------------------------------+
-   | Isolated GND                | NC                            |
-   +-----------------------------+-------------------------------+
-   | Isolated VDD(5V-24V)        | NC                            |
-   +-----------------------------+-------------------------------+
+   +-----------------------------+-------------------------------+-------------+
+   | Function                    | Device Node                   | GPIOD line  |
+   +=============================+===============================+=============+
+   | IN4                         | /dev/chipsee-gpio8            | 3           |
+   +-----------------------------+-------------------------------+-------------+
+   | IN3                         | /dev/chipsee-gpio7            | 2           |
+   +-----------------------------+-------------------------------+-------------+
+   | IN2                         | /dev/chipsee-gpio6            | 1           |
+   +-----------------------------+-------------------------------+-------------+
+   | IN1                         | /dev/chipsee-gpio5            | 0           |
+   +-----------------------------+-------------------------------+-------------+
+   | OUT4                        | /dev/chipsee-gpio4            | 4           |
+   +-----------------------------+-------------------------------+-------------+
+   | OUT3                        | /dev/chipsee-gpio3            | 5           |
+   +-----------------------------+-------------------------------+-------------+
+   | OUT2                        | /dev/chipsee-gpio2            | 6           |
+   +-----------------------------+-------------------------------+-------------+
+   | OUT1                        | /dev/chipsee-gpio1            | 7           |
+   +-----------------------------+-------------------------------+-------------+
+   | Isolated GND                | NC                            | NC          |
+   +-----------------------------+-------------------------------+-------------+
+   | Isolated VDD(5V-24V)        | NC                            | NC          |
+   +-----------------------------+-------------------------------+-------------+
 
 * Control `OUT1` by setting it high or low
     .. code:: bash
@@ -38,3 +38,37 @@
     .. code:: bash
 
         $ cat /dev/chipsee-gpio5    // value 1 indicate high, value 0 indicate low
+
+* Use libgpiod to control the GPIO
+   .. code:: bash
+
+        # uncomment the following lines in /opt/chipsee/chipsee-init.sh first
+        ## GPIO
+        #num=1
+        #for i in $OUT; do
+        #[ ! -d /sys/class/gpio/gpio$i ] && echo $i > /sys/class/gpio/export
+        #echo out > /sys/class/gpio/gpio$i/direction
+        #chmod a+w /sys/class/gpio/gpio$i/value
+        #ln -sf /sys/class/gpio/gpio$i/value /dev/chipsee-gpio$num
+        #num=`expr $num + 1`
+        #done
+        #sleep 1
+        #for i in $IN; do
+        #[ ! -d /sys/class/gpio/gpio$i ] && echo $i > /sys/class/gpio/export
+        #echo in > /sys/class/gpio/gpio$i/direction
+        #chmod a+r /sys/class/gpio/gpio$i/value
+        #ln -sf /sys/class/gpio/gpio$i/value /dev/chipsee-gpio$num
+        #num=`expr $num + 1`
+        #done  
+
+        # reboot to use libgpiod
+        $ sudo reboot
+
+        # install gpiod
+        $ sudo apt-get install libgpiod-dev gpiod
+
+        # compile test file
+        $ wget -c https://chipsee-tmp.s3.amazonaws.com/SourcesArchives/HARDWARETEST/gpiotest.c
+        $ gcc gpiotest.c -o gpiotest -lgpiod
+        $ ./gpiotest
+
