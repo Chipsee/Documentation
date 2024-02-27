@@ -14,6 +14,8 @@
 
 .. include:: Resources/Shared/backup_note
 
+.. include:: Resources/Shared/backup_note_debian10
+
 .. _rk3399_os_debian10:
 
 .. |OS_Backup_img| image:: /Media/ARM/A72/Software/RK3399_OS_Backup_Debian10_1.png
