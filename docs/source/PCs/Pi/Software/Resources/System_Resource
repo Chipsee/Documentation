@@ -331,6 +331,13 @@ Here are a few examples to test CAN by using CAN units
 
         $ sudo cansend can0 -i 0xFFFFF 0x11 0x22 0x33 0x44 0x55 0x66 0x77 0x88 -e --loop=20
 
+    + For the latest system, we use the following commands
+
+    .. code:: bash
+
+        $ sudo cansend can0 5A1#11.2233.44556677.88
+        $ sudo cansend can0 1F334455#1122334455667788
+
 * Receive data from CAN bus
     .. code:: bash
 
