@@ -1,7 +1,7 @@
 Backup Your OS Image For Bulk Installation
 ==========================================
 
-If you have finished developing your software, and plan to "copy" the whole system to many other Chipsee industrial PCs, you can backup the OS to a image file, just like the **.img** file you downloaded from Chipsee, or the OS we installed in the factory for you before shipping. And then you can flash it to many more devices.
+If you have finished developing your software, and plan to "copy" the whole system to many other Chipsee industrial PCs, you can backup the OS to an image file, just like the **.img** file you downloaded from Chipsee, or the OS we installed in the factory for you before shipping. And then you can flash it to many more devices.
 
 Prepare for backup
 ------------------
@@ -12,7 +12,7 @@ We will use **SDDiskTool** to flash a bootable SD card, let your Chipsee PC boot
 - 16GB or larger micro SD card.
 - SD card reader (to be used on your HOST PC).
 - A Windows PC to run the SDDiskTool.
-- A (X86 or X86_64) Linux HOST PC or virtual machine to make new img file (make sure there is 25GB or more free space on the disk for the following process).
+- A (X86 or X86_64) Linux HOST PC or virtual machine to make a new img file (make sure there is 25GB or more free space on the disk for the following process).
 - Two |os_down_path|, one is the image that you are developing your software on, the other is a prebuilt-xxx-sd-xx.img, if you cannot find the prebuilt-xxx-sd-xx.img of your device, you can use just the prebuilt-xxx-emmc-xx.img temporarily, we will release the sd image later.
 
 .. note::
@@ -65,7 +65,7 @@ The eMMC rootfs partition is |rootfs_blk|. We will backup the contents in |rootf
     # cd /mnt/
 
     // sync would take an hour or more depending on the files in your system
-    # tar jcvpf backuprootfs.tar.bz2 backuprootfs && sync 
+    # tar --numeric-owner -jcvpf backuprootfs.tar.bz2 backuprootfs && sync 
     # umount /mnt/backuprootfs
 
 
