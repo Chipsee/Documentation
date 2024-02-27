@@ -348,7 +348,7 @@ sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>u
 </section>
 <section id="backup-your-os-image-for-bulk-installation">
 <h2 id="backup-your-os-image-for-bulk-installation">Backup Your OS Image For Bulk Installation<a class="headerlink" href="#backup-your-os-image-for-bulk-installation" title="Permalink to this heading">¶</a></h2>
-<p>If you have finished developing your software, and plan to “copy” the whole system to many other Chipsee industrial PCs, you can backup the OS to a image file, just like the <strong>.img</strong> file you downloaded from Chipsee, or the OS we installed in the factory for you before shipping. And then you can flash it to many more devices.</p>
+<p>If you have finished developing your software, and plan to “copy” the whole system to many other Chipsee industrial PCs, you can backup the OS to an image file, just like the <strong>.img</strong> file you downloaded from Chipsee, or the OS we installed in the factory for you before shipping. And then you can flash it to many more devices.</p>
 <section id="prepare-for-backup">
 <h3 id="prepare-for-backup">Prepare for backup<a class="headerlink" href="#prepare-for-backup" title="Permalink to this heading">¶</a></h3>
 <p>We will use <strong>SDDiskTool</strong> to flash a bootable SD card, let your Chipsee PC boot from this SD card, then use this system to backup your OS image (the whole content on eMMC rootfs partition). You will need:</p>
@@ -357,7 +357,7 @@ sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>u
 <li><p>16GB or larger micro SD card.</p></li>
 <li><p>SD card reader (to be used on your HOST PC).</p></li>
 <li><p>A Windows PC to run the SDDiskTool.</p></li>
-<li><p>A (X86 or X86_64) Linux HOST PC or virtual machine to make new img file (make sure there is 25GB or more free space on the disk for the following process).</p></li>
+<li><p>A (X86 or X86_64) Linux HOST PC or virtual machine to make a new img file (make sure there is 25GB or more free space on the disk for the following process).</p></li>
 <li><p>Two <a class="reference internal" href="../../OS_Downloads/index.html#rk3568-osdownloads"><span class="std std-ref">Chipsee prebuilt images</span></a>, one is the image that you are developing your software on, the other is a prebuilt-xxx-sd-xx.img, if you cannot find the prebuilt-xxx-sd-xx.img of your device, you can use just the prebuilt-xxx-emmc-xx.img temporarily, we will release the sd image later.</p></li>
 </ul>
 <div class="admonition note">
@@ -391,7 +391,7 @@ sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>u
 # cd /mnt/
 
 // sync would take an hour or more depending on the files in your system
-# tar jcvpf backuprootfs.tar.bz2 backuprootfs &amp;&amp; sync
+# tar --numeric-owner -jcvpf backuprootfs.tar.bz2 backuprootfs &amp;&amp; sync
 # umount /mnt/backuprootfs</pre>
 <p>Now we have obtained the backup rootfs <strong>backuprootfs.tar.bz2</strong> in the SD card partition</p>
 </section>
