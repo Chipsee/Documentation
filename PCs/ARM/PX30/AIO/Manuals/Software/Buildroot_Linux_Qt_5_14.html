@@ -1,0 +1,406 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="lang:clipboard.copy" content="Copy to clipboard">
+  <meta name="lang:clipboard.copied" content="Copied to clipboard">
+  <meta name="lang:search.language" content="en">
+  <meta name="lang:search.pipeline.stopwords" content="True">
+  <meta name="lang:search.pipeline.trimmer" content="True">
+  <meta name="lang:search.result.none" content="No matching documents">
+  <meta name="lang:search.result.one" content="1 matching document">
+  <meta name="lang:search.result.other" content="# matching documents">
+  <meta name="lang:search.tokenizer" content="[\s\-]+">
+
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="../../../../../../_static/stylesheets/application.css"/>
+  <link rel="stylesheet" href="../../../../../../_static/stylesheets/application-palette.css"/>
+  <link rel="stylesheet" href="../../../../../../_static/stylesheets/application-fixes.css"/>
+  
+  <link rel="stylesheet" href="../../../../../../_static/fonts/material-icons.css"/>
+  
+  <meta name="theme-color" content="#3f51b5">
+  <script src="../../../../../../_static/javascripts/modernizr.js"></script>
+  
+  
+  
+    <title>Buildroot Linux Qt 5.14 OS &#8212; Chipsee</title>
+    <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../../_static/material.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/material_custom.css" />
+    <script data-url_root="../../../../../../" id="documentation_options" src="../../../../../../_static/documentation_options.js"></script>
+    <script src="../../../../../../_static/jquery.js"></script>
+    <script src="../../../../../../_static/underscore.js"></script>
+    <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../../../../../_static/doctools.js"></script>
+    <script src="../../../../../../_static/sphinx_highlight.js"></script>
+    <script src="../../../../../../_static/clipboard.min.js"></script>
+    <script src="../../../../../../_static/copybutton.js"></script>
+    <script src="../../../../../../_static/design-tabs.js"></script>
+    <link rel="shortcut icon" href="../../../../../../_static/favicon.webp"/>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" />
+    <link rel="next" title="Industrial PCs Powered by Intel" href="../../../../../Intel/index.html" />
+    <link rel="prev" title="Debian 10 OS" href="Debian_10.html" /> 
+    <script async src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.155/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.155/examples/jsm/"
+        }
+      }
+    </script>
+    
+    <script defer data-domain="docs.chipsee.com" src="https://plausible.io/js/script.js"></script>
+
+  </head>
+  <body dir=ltr
+        data-md-color-primary=deep-orange data-md-color-accent=deep-orange>
+  
+  <svg class="md-svg">
+    <defs data-children-count="0">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+      
+    </defs>
+  </svg>
+  
+  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">
+  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">
+  <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+  <a href="#PCs/ARM/PX30/AIO/Manuals/Software/Buildroot_Linux_Qt_5_14" tabindex="1" class="md-skip"> Skip to content </a>
+  <header>
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex navheader">
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+            <span class="md-header-nav__topic"> Buildroot Linux Qt 5.14 OS </span>
+            <span class="md-header-nav__topic"> Buildroot Linux Qt 5.14 OS </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-md-component="header">
+    <div class="container">
+      <a class="navbar-brand pt-0" href="/">
+        <img src="../../../../../../_static/images/logo_dark.png" height="30" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav fs-6 me-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Industrial PCs
+            </a>
+            <ul class="dropdown-menu" id="nav-dropdown">
+              <li><a class="dropdown-item" href="../../../../../Pi/index.html">Powered by Raspberry Pi</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../index-rockchip.html">Powered by Rockchip</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../index-nxp.html">Powered by NXP</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../AM335X/index.html">Powered by TI</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../../Intel/index.html">Powered by INTEL</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../../../../MTK/index.html">Handhelds</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../../../../../Displays/index.html">Displays</a>
+          </li>
+          <li class="nav-item text-nowrap">
+            <a class="nav-link" href="https://chipsee.com" target="_blank">Shop
+              <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" style="margin-bottom: 3px;"><path d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" fill="gray"/></svg>
+            </a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" action="/search.html?" method="GET">
+          <input class="form-control form-control-sm me-2" type="search" placeholder="Search" name="q" aria-label="Search">
+          <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+</header>
+
+  
+  <div class="md-container">
+    
+    
+    
+  <nav class="md-tabs" data-md-component="tabs">
+    <div class="md-tabs__inner md-grid">
+      <ul class="md-tabs__list">
+          <li class="md-tabs__item"><a href="../../../../../../index.html" class="md-tabs__link">Chipsee</a></li>
+          <li class="md-tabs__item"><a href="../../../../../index.html" class="md-tabs__link">Industrial Panel &amp; Embedded PCs</a></li>
+          <li class="md-tabs__item"><a href="../../../../index.html" class="md-tabs__link">Industrial Panel PCs Powered by Arm<sup>®</sup></a></li>
+          <li class="md-tabs__item"><a href="index.html" class="md-tabs__link">Powered by Rockchip PX30</a></li>
+      </ul>
+    </div>
+  </nav>
+    <main class="md-main">
+      <div class="md-main__inner md-grid" data-md-component="container">
+        
+          <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                
+<nav class="md-nav md-nav--secondary">
+    <label class="md-nav__title" for="__toc">ON THIS PAGE</label>
+  <ul class="md-nav__list" data-md-scrollfix="">
+        <li class="md-nav__item"><a href="#pcs-arm-px30-aio-manuals-software-buildroot-linux-qt-5-14--page-root" class="md-nav__link">Buildroot Linux Qt 5.14 OS</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#faq" class="md-nav__link">FAQ</a>
+        </li>
+        <li class="md-nav__item"><a href="#backup-your-os-image-for-bulk-installation" class="md-nav__link">Backup Your OS Image For Bulk Installation</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#prepare-for-backup" class="md-nav__link">Prepare for backup</a>
+        </li>
+        <li class="md-nav__item"><a href="#prepare-a-bootable-sd-card" class="md-nav__link">Prepare a Bootable SD Card</a>
+        </li>
+        <li class="md-nav__item"><a href="#backup-your-emmc" class="md-nav__link">Backup Your eMMC</a>
+        </li>
+        <li class="md-nav__item"><a href="#generate-new-image-file" class="md-nav__link">Generate New Image File</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#disclaimer" class="md-nav__link">Disclaimer</a>
+        </li>
+        <li class="md-nav__item"><a href="#technical-support" class="md-nav__link">Technical Support</a>
+        </li></ul>
+            </nav>
+        </li>
+  </ul>
+</nav>
+              </div>
+            </div>
+          </div>
+          <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                
+              </div>
+            </div>
+          </div>
+        
+        <div class="md-content">
+          <article class="md-content__inner md-typeset" role="main"><a class="md-content__button md-icon" style="margin:0;float:right;" href="Buildroot_Linux_Qt_5.14_OS_on_PX30_User_Manual.pdf" download title="Download PDF"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="width:40px;height:40px;" viewBox="0 0 56 
+56"> <g><path style="fill:#E9E9E0;" d="M36.985,0H7.963C7.155,0,6.5,0.655,6.5,1.926V55c0,0.345,0.655,1,1.463,
+1h40.074 c0.808,0,1.463-0.655,1.463-1V12.978c0-0.696-0.093-0.92-0.257-1.085L37.607,0.257C37.442,0.093,37.218,0,
+36.985,0z"/> <polygon style="fill:#D9D7CA;" points="37.5,0.151 37.5,12 49.349,12 	"/> <path 
+style="fill:#CC4B4C;" d="M19.514,33.324L19.514,33.324c-0.348,0-0.682-0.113-0.967-0.326 
+c-1.041-0.781-1.181-1.65-1.115-2.242c0.182-1.628,2.195-3.332,5.985-5.068c1.504-3.296,2.935-7.357,3.788-10.75 
+c-0.998-2.172-1.968-4.99-1.261-6.643c0.248-0.579,0.557-1.023,1.134-1.215c0.228-0.076,0.804-0.172,1.016-0.172 
+c0.504,0,0.947,0.649,1.261,1.049c0.295,0.376,0.964,1.173-0.373,6.802c1.348,2.784,3.258,5.62,5.088,
+7.562 c1.311-0.237,2.439-0.358,3.358-0.358c1.566,0,2.515,0.365,2.902,1.117c0.32,0.622,0.189,1.349-0.39,
+2.16 c-0.557,0.779-1.325,1.191-2.22,1.191c-1.216,0-2.632-0.768-4.211-2.285c-2.837,0.593-6.15,1.651-8.828,
+2.822 c-0.836,1.774-1.637,3.203-2.383,4.251C21.273,32.654,20.389,33.324,19.514,33.324z M22.176,28.198 c-2.137,
+1.201-3.008,2.188-3.071,2.744c-0.01,0.092-0.037,0.334,0.431,0.692C19.685,31.587,20.555,31.19,22.176,
+28.198z M35.813,23.756c0.815,0.627,1.014,0.944,1.547,0.944c0.234,0,0.901-0.01,1.21-0.441c0.149-0.209,0.207-0.343,
+0.23-0.415 c-0.123-0.065-0.286-0.197-1.175-0.197C37.12,23.648,36.485,23.67,35.813,23.756z M28.343,17.174 c-0.715,
+2.474-1.659,5.145-2.674,7.564c2.09-0.811,4.362-1.519,6.496-2.02C30.815,21.15,29.466,19.192,28.343,
+17.174z M27.736,8.712c-0.098,0.033-1.33,1.757,0.096,3.216C28.781,9.813,27.779,8.698,27.736,8.712z"/> <path 
+style="fill:#CC4B4C;" d="M48.037,56H7.963C7.155,56,6.5,55.345,6.5,54.537V39h43v15.537C49.5,55.345,48.845,56,
+48.037,56z"/> <g><path style="fill:#FFFFFF;" d="M17.385,53h-1.641V42.924h2.898c0.428,0,0.852,0.068,1.271,
+0.205 c0.419,0.137,0.795,0.342,1.128,0.615c0.333,0.273,0.602,0.604,0.807,0.991s0.308,0.822,0.308,1.306 c0,
+0.511-0.087,0.973-0.26,1.388c-0.173,0.415-0.415,0.764-0.725,1.046c-0.31,0.282-0.684,0.501-1.121,0.656 s-0.921,
+0.232-1.449,0.232h-1.217V53z M17.385,44.168v3.992h1.504c0.2,0,0.398-0.034,0.595-0.103 c0.196-0.068,0.376-0.18,
+0.54-0.335c0.164-0.155,0.296-0.371,0.396-0.649c0.1-0.278,0.15-0.622,0.15-1.032 
+c0-0.164-0.023-0.354-0.068-0.567c-0.046-0.214-0.139-0.419-0.28-0.615c-0.142-0.196-0.34-0.36-0.595-0.492 
+c-0.255-0.132-0.593-0.198-1.012-0.198H17.385z"/> <path style="fill:#FFFFFF;" d="M32.219,47.682c0,0.829-0.089,
+1.538-0.267,2.126s-0.403,1.08-0.677,1.477s-0.581,0.709-0.923,0.937 s-0.672,0.398-0.991,0.513c-0.319,0.114-0.611,
+0.187-0.875,0.219C28.222,52.984,28.026,53,27.898,53h-3.814V42.924h3.035 c0.848,0,1.593,0.135,2.235,0.403s1.176,
+0.627,1.6,1.073s0.74,0.955,0.95,1.524C32.114,46.494,32.219,47.08,32.219,47.682z M27.352,51.797c1.112,0,
+1.914-0.355,2.406-1.066s0.738-1.741,0.738-3.09c0-0.419-0.05-0.834-0.15-1.244 
+c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-0.308h-0.957v7.629H27.352z"/> 
+<path style="fill:#FFFFFF;" d="M36.266,44.168v3.172h4.211v1.121h-4.211V53h-1.668V42.924H40.9v1.244H36.266z"/> 
+</g></g> </svg></a>
+            
+  <span class="target" id="px30-os-linuxqt-514"></span><section id="systemtype-os">
+<h1 id="pcs-arm-px30-aio-manuals-software-buildroot-linux-qt-5-14--page-root">Buildroot Linux Qt 5.14 OS<a class="headerlink" href="#pcs-arm-px30-aio-manuals-software-buildroot-linux-qt-5-14--page-root" title="Permalink to this heading">¶</a></h1>
+<p class="fs-3 fw-bold text-center">Buildroot Linux Qt 5.14 OS on PX30 User Manual</p>
+<a class="reference internal image-reference" href="../../../../../../_images/Chipsee_Logo_Full.png"><img alt="chipsee-logo" class="align-center" src="../../../../../../_images/Chipsee_Logo_Full.png" style="width: 320px;"/></a>
+<p>This is the software manual for PX30 Chipsee industrial PC. If you’ve never developed on this hardware with a Buildroot Linux Qt 5.14 OS, this manual can get you started quickly.</p>
+<section id="faq">
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Permalink to this heading">¶</a></h2>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="backup-your-os-image-for-bulk-installation">
+<h2 id="backup-your-os-image-for-bulk-installation">Backup Your OS Image For Bulk Installation<a class="headerlink" href="#backup-your-os-image-for-bulk-installation" title="Permalink to this heading">¶</a></h2>
+<p>If you have finished developing your software, and plan to “copy” the whole system to many other Chipsee industrial PCs, you can backup the OS to a image file, just like the <strong>.img</strong> file you downloaded from Chipsee, or the OS we installed in the factory for you before shipping. And then you can flash it to many more devices.</p>
+<section id="prepare-for-backup">
+<h3 id="prepare-for-backup">Prepare for backup<a class="headerlink" href="#prepare-for-backup" title="Permalink to this heading">¶</a></h3>
+<p>We will use <strong>SDDiskTool</strong> to flash a bootable SD card, let your Chipsee PC boot from this SD card, then use this system to backup your OS image (the whole content on eMMC rootfs partition). You will need:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://chipsee-tmp.s3.us-east-1.amazonaws.com/Tools/SDDiskTool_v1.72.zip">SDDiskTool (Click to download)</a>.</p></li>
+<li><p>16GB or larger micro SD card.</p></li>
+<li><p>SD card reader (to be used on your HOST PC).</p></li>
+<li><p>A Windows PC to run the SDDiskTool.</p></li>
+<li><p>A (X86 or X86_64) Linux HOST PC or virtual machine to make new img file (make sure there is 25GB or more free space on the disk for the following process).</p></li>
+<li><p>Two <a class="reference internal" href="../../OS_Downloads/index.html#px30-osdownloads"><span class="std std-ref">Chipsee prebuilt image</span></a>, one is the image that you are developing your software on, the other is a prebuilt-xxx-sd-xx.img, if you cannot find the prebuilt-xxx-sd-xx.img of your device, you can use just the prebuilt-xxx-emmc-xx.img temporarily, we will release the sd image later.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>More on the prebuilt image: the core idea of backup is to “swap” your data and the prebuilt data. So we will need to download a prebuilt image that you’re developing your software on (the OS image that you’re currently using on the Chipsee PC), unpack that image, swap the data, then repack the image (imagine the old time people use a WinPE USB stick to boot and backup Windows!).</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>We will use the prebuilt-xxx-emmc-xx.img (eMMC firmware) to boot the device from an SD card, but the image for eMMC has one known bug: it will need reboot a few times to get the SD partition to be mounted on “/”. We will released one new image for SD called prebuilt-xxx-sd-xx.img in the future. But at the moment we can still get by with the eMMC image in an SD card.</p>
+</div>
+</section>
+<section id="prepare-a-bootable-sd-card">
+<h3 id="prepare-a-bootable-sd-card">Prepare a Bootable SD Card<a class="headerlink" href="#prepare-a-bootable-sd-card" title="Permalink to this heading">¶</a></h3>
+<p>On your Windows PC, we open SD_Firmware_Tool.exe to process 1,2,3,4,5 steps to create a bootable SD card.</p>
+<p>You need to download the Chipsee prebuilt image as we mentioned earlier. Find the one that fits your screen size in <a class="reference internal" href="../../OS_Downloads/index.html#px30-osdownloads"><span class="std std-ref">Chipsee prebuilt image</span></a> page.</p>
+<p>Once the SD card is flashed, Windows will show a warning to let you format the unrecognized partition, <strong>ignore or cancel</strong> it because the SDDiskTool creates some partitions that Windows doesn’t recognize.</p>
+<a class="text-center mt-3 reference internal image-reference" href="../../../../../../_images/SDDisktool_1.jpg"><img alt="../../../../../../_images/SDDisktool_1.jpg" class="text-center mt-3 align-center" src="../../../../../../_images/SDDisktool_1.jpg" style="width: 640px;"/></a>
+<p class="text-center mt-3"><em>Follow the 5 steps on SDDisktool</em></p>
+</section>
+<section id="backup-your-emmc">
+<h3 id="backup-your-emmc">Backup Your eMMC<a class="headerlink" href="#backup-your-emmc" title="Permalink to this heading">¶</a></h3>
+<p>Insert this SD card into the SD slot of the Chipsee PC and power it on, the Chipsee PC will boot into the system on the SD card (may need to reboot multiple times to boot from SD card, because of a known bug in the eMMC firmware, we will release a firmware for SD card in the future), we can use this system to backup the whole contents on eMMC rootfs partitions.</p>
+<p>Use the way you like to execute the following commands, for example, serial debug or ssh. You can connect a keyboard and mouse to the Chipsee device and run them in the command line as well.</p>
+<p>The eMMC rootfs partition is <strong>/dev/mmcblk2p8</strong>. We will backup the contents in <strong>/dev/mmcblk2p8</strong>.</p>
+<p class="text-center mt-3"><a class="reference internal" href="../../../../../../_images/PX30_OS_Backup_Debian10_1.png"><img alt="OS_Backup_img" class="align-middle" src="../../../../../../_images/PX30_OS_Backup_Debian10_1.png" style="width: 720px;"/></a></p>
+<p class="text-center mt-3">eMMC rootfs partition is <strong>/dev/mmcblk2p8</strong></p>
+<pre class="literal-block">$ sudo su
+# export ROOTFS_DEV=<strong>/dev/mmcblk2p8</strong>
+# mkdir /mnt/backuprootfs
+# mount $ROOTFS_DEV /mnt/backuprootfs/
+# cd /mnt/
+
+// sync would take an hour or more depending on the files in your system
+# tar jcvpf backuprootfs.tar.bz2 backuprootfs &amp;&amp; sync
+# umount /mnt/backuprootfs</pre>
+<p>Now we have obtained the backup rootfs <strong>backuprootfs.tar.bz2</strong> in the SD card partition</p>
+</section>
+<section id="generate-new-image-file">
+<h3 id="generate-new-image-file">Generate New Image File<a class="headerlink" href="#generate-new-image-file" title="Permalink to this heading">¶</a></h3>
+<p>Poweroff the Chipsee PC. Put the SD card into your Linux HOST PC (or virtual machine).</p>
+<p>You should find a <strong>/dev/sdX</strong> in your Linux system, for example <strong>/dev/sdb</strong>, which is this SD card, <strong>you should use your actual /dev/sdX here</strong>, if you don’t know which sdX is it, check with <em>df -h</em> and see which one’s size is most likely your SD card.</p>
+<p>Now we mount /dev/sdb8 to find backuprootfs.tar.bz2</p>
+<pre class="literal-block"># mount /dev/sdb8 /mnt/</pre>
+<p>It will be in <strong>/mnt/mnt/backuprootfs.tar.bz2</strong>, we will copy it out to our Linux PC later.</p>
+<p>Run the following command to generate a new <em>.img</em> file. Make sure you have at least 25GB free space on your Linux PC, the process produces a lot of intermediate files.</p>
+<pre class="literal-block">$ sudo su
+# git clone <a class="reference external" href="https://gitee.com/chipsee_admin/rk_pack_tools.git">https://gitee.com/chipsee_admin/rk_pack_tools.git</a>
+# cd rk_pack_tools
+# git checkout px30
+
+// copy the Chipsee prebuilt img file to this directory
+# cp prebuilt-xxx.img .
+# ./cs-unpack.sh prebuilt-xxx.img
+
+// copy your backup rootfs from SD card to this directory
+# cp /mnt/mnt/backuprootfs.tar.bz2 .
+
+// generate rootfs.img file from backuprootfs.tar.bz2
+# ./cs-mkrootfs.sh
+
+// generate new img file
+# ./cs-pack.sh prebuilt-new-xxx.img</pre>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you see <em>checksum miss match error</em> or <em>Error:&lt;AddFile&gt; write file failed,err=28</em>, check your harddisk and make sure you have enough free space.</p>
+</div>
+<p>Now you have obtained your new img file prebuilt-new-xxx.img in the current folder, use this img file to flash other devices.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+</section>
+<section id="disclaimer">
+<h2 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Permalink to this heading">¶</a></h2>
+<p><strong>This document is provided strictly for informational purposes. Its contents are subject to change without notice. Chipsee assumes no responsibility for any errors that may occur in this document. Furthermore, Chipsee reserves the right to alter the hardware, software, and/or specifications set forth herein at any time without prior notice and undertakes no obligation to update the information contained in this document.</strong></p>
+<p><strong>While every effort has been made to ensure the accuracy of the information contained herein, this document is not guaranteed to be error-free. Further, it does not offer any warranties or conditions, whether expressed orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular purpose. We specifically disclaim any liability with respect to this document, and no contractual obligations are formed either directly or indirectly by this document.</strong></p>
+<p><strong>Despite our best efforts to maintain the accuracy of the information in this document, we assume no responsibility for errors or omissions, nor for damages resulting from the use of the information herein. Please note that Chipsee products are not authorized for use as critical components in life support devices or systems.</strong></p>
+</section>
+<section id="technical-support">
+<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this heading">¶</a></h2>
+<p>If you encounter any difficulties or have questions related to this document, we encourage you to refer to our other documentation for potential solutions. If you cannot find the solution you’re looking for, feel free to contact us. Please email Chipsee Technical Support at <a class="reference external" href="mailto:support%40chipsee.com"><strong>support<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information. We value your queries and suggestions and are committed to providing you with the assistance you require.</p>
+</section>
+</section>
+
+
+          </article>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="md-footer">
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+          
+            <a href="Debian_10.html" title="Debian 10 OS"
+               class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+               rel="prev">
+              <div class="md-flex__cell md-flex__cell--shrink">
+                <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+              </div>
+              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+                <span class="md-flex__ellipsis">
+                  <span
+                      class="md-footer-nav__direction"> Previous </span> Debian 10 OS </span>
+              </div>
+            </a>
+          
+          
+            <a href="../../../../../Intel/index.html" title="Industrial PCs Powered by Intel"
+               class="md-flex md-footer-nav__link md-footer-nav__link--next"
+               rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span
+                class="md-flex__ellipsis"> <span
+                class="md-footer-nav__direction"> Next </span> Industrial PCs Powered by Intel </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink"><i
+                class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          
+        </a>
+        
+      </nav>
+    </div>
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-footer-copyright">
+          <div class="md-footer-copyright__highlight">
+              &#169; Copyright 2024, Chipsee.
+              
+          </div>
+            Last updated on
+              Feb 27, 2024.
+            <br/>
+        </div>
+    <!-- GDPR Consent Banner -->
+    <div id="gdpr-consent-banner" class="gdpr-consent-banner">
+        <p>We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it. For more information please refer to <a href="https://chipsee.com/privacy/" class="text-secondary">our privacy policy</a>.</p>
+        <button id="accept-cookies">OK</button>
+    </div>
+
+      </div>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script async src="../../../../../../_static/js/material_custom.js"></script>
+    
+  <script src="../../../../../../_static/javascripts/application.js"></script>
+  <script>app.initialize({version: "1.0.4", url: {base: ".."}})</script>
+  </body>
+</html>

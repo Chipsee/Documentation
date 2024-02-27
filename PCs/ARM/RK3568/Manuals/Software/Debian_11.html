@@ -225,6 +225,18 @@
         </li></ul>
             </nav>
         </li>
+        <li class="md-nav__item"><a href="#backup-your-os-image-for-bulk-installation" class="md-nav__link">Backup Your OS Image For Bulk Installation</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#prepare-for-backup" class="md-nav__link">Prepare for backup</a>
+        </li>
+        <li class="md-nav__item"><a href="#prepare-a-bootable-sd-card" class="md-nav__link">Prepare a Bootable SD Card</a>
+        </li>
+        <li class="md-nav__item"><a href="#backup-your-emmc" class="md-nav__link">Backup Your eMMC</a>
+        </li>
+        <li class="md-nav__item"><a href="#generate-new-image-file" class="md-nav__link">Generate New Image File</a>
+        </li></ul>
+            </nav>
+        </li>
         <li class="md-nav__item"><a href="#disclaimer" class="md-nav__link">Disclaimer</a>
         </li>
         <li class="md-nav__item"><a href="#technical-support" class="md-nav__link">Technical Support</a>
@@ -277,8 +289,8 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <path style="fill:#FFFFFF;" d="M36.266,44.168v3.172h4.211v1.121h-4.211V53h-1.668V42.924H40.9v1.244H36.266z"/> 
 </g></g> </svg></a>
             
-  <section id="systemtype-os">
-<span id="rk3568-os-debian11"></span><h1 id="pcs-arm-rk3568-manuals-software-debian-11--page-root">Debian 11 OS<a class="headerlink" href="#pcs-arm-rk3568-manuals-software-debian-11--page-root" title="Permalink to this heading">¶</a></h1>
+  <span class="target" id="rk3568-os-debian11"></span><section id="systemtype-os">
+<h1 id="pcs-arm-rk3568-manuals-software-debian-11--page-root">Debian 11 OS<a class="headerlink" href="#pcs-arm-rk3568-manuals-software-debian-11--page-root" title="Permalink to this heading">¶</a></h1>
 <p class="fs-3 fw-bold text-center">Debian 11 OS on RK3568 User Manual</p>
 <a class="reference internal image-reference" href="../../../../../_images/Chipsee_Logo_Full.png"><img alt="chipsee-logo" class="align-center" src="../../../../../_images/Chipsee_Logo_Full.png" style="width: 320px;"/></a>
 <p>This is the software manual for RK3568 Chipsee industrial PC. If you’ve never developed on this hardware with a Debian 11 OS, this manual can get you started quickly.</p>
@@ -880,6 +892,88 @@ sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>u
 </section>
 </section>
 </section>
+<section id="backup-your-os-image-for-bulk-installation">
+<h2 id="backup-your-os-image-for-bulk-installation">Backup Your OS Image For Bulk Installation<a class="headerlink" href="#backup-your-os-image-for-bulk-installation" title="Permalink to this heading">¶</a></h2>
+<p>If you have finished developing your software, and plan to “copy” the whole system to many other Chipsee industrial PCs, you can backup the OS to a image file, just like the <strong>.img</strong> file you downloaded from Chipsee, or the OS we installed in the factory for you before shipping. And then you can flash it to many more devices.</p>
+<section id="prepare-for-backup">
+<h3 id="prepare-for-backup">Prepare for backup<a class="headerlink" href="#prepare-for-backup" title="Permalink to this heading">¶</a></h3>
+<p>We will use <strong>SDDiskTool</strong> to flash a bootable SD card, let your Chipsee PC boot from this SD card, then use this system to backup your OS image (the whole content on eMMC rootfs partition). You will need:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://chipsee-tmp.s3.us-east-1.amazonaws.com/Tools/SDDiskTool_v1.72.zip">SDDiskTool (Click to download)</a>.</p></li>
+<li><p>16GB or larger micro SD card.</p></li>
+<li><p>SD card reader (to be used on your HOST PC).</p></li>
+<li><p>A Windows PC to run the SDDiskTool.</p></li>
+<li><p>A (X86 or X86_64) Linux HOST PC or virtual machine to make new img file (make sure there is 25GB or more free space on the disk for the following process).</p></li>
+<li><p>Two <a class="reference internal" href="../../OS_Downloads/index.html#rk3568-osdownloads"><span class="std std-ref">Chipsee prebuilt images</span></a>, one is the image that you are developing your software on, the other is a prebuilt-xxx-sd-xx.img, if you cannot find the prebuilt-xxx-sd-xx.img of your device, you can use just the prebuilt-xxx-emmc-xx.img temporarily, we will release the sd image later.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>More on the two prebuilt images: the core idea of backup is to “swap” your data and the prebuilt data. So we will need to download a prebuilt image that you’re developing your software on (the OS image that you’re currently using on the Chipsee PC), unpack that image, swap the data, then repack the image.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>As for the second prebuilt-xxx-sd-xx.img, we use it to make a bootable SD card (imagine the old time people use a WinPE USB stick to boot and backup Windows!).</p>
+</div>
+</section>
+<section id="prepare-a-bootable-sd-card">
+<h3 id="prepare-a-bootable-sd-card">Prepare a Bootable SD Card<a class="headerlink" href="#prepare-a-bootable-sd-card" title="Permalink to this heading">¶</a></h3>
+<p>On your Windows PC, we open SD_Firmware_Tool.exe to process 1,2,3,4,5 steps to create a bootable SD card.</p>
+<p>You need to download the Chipsee prebuilt image as we mentioned earlier. Find the one that fits your screen size in <a class="reference internal" href="../../OS_Downloads/index.html#rk3568-osdownloads"><span class="std std-ref">Chipsee prebuilt images</span></a> page.</p>
+<p>Once the SD card is flashed, Windows will show a warning to let you format the unrecognized partition, <strong>ignore or cancel</strong> it because the SDDiskTool creates some partitions that Windows doesn’t recognize.</p>
+<a class="text-center mt-3 reference internal image-reference" href="../../../../../_images/SDDisktool_1.jpg"><img alt="../../../../../_images/SDDisktool_1.jpg" class="text-center mt-3 align-center" src="../../../../../_images/SDDisktool_1.jpg" style="width: 640px;"/></a>
+<p class="text-center mt-3"><em>Follow the 5 steps on SDDisktool</em></p>
+</section>
+<section id="backup-your-emmc">
+<h3 id="backup-your-emmc">Backup Your eMMC<a class="headerlink" href="#backup-your-emmc" title="Permalink to this heading">¶</a></h3>
+<p>Insert this SD card into the SD slot of the Chipsee PC and power it on, the Chipsee PC will boot into the system on the SD card, we can use this system to backup the whole contents on eMMC rootfs partitions.</p>
+<p>Use the way you like to execute the following commands, for example, serial debug or ssh. You can connect a keyboard and mouse to the Chipsee device and run them in the command line as well.</p>
+<p>The eMMC rootfs partition is <strong>/dev/mmcblk0p6</strong>. We will backup the contents in <strong>/dev/mmcblk0p6</strong>.</p>
+<p class="text-center mt-3"><a class="reference internal" href="../../../../../_images/RK3568_OS_Backup_1.png"><img alt="OS_Backup_img" class="align-middle" src="../../../../../_images/RK3568_OS_Backup_1.png" style="width: 720px;"/></a></p>
+<p class="text-center mt-3">eMMC rootfs partition is <strong>/dev/mmcblk0p6</strong></p>
+<pre class="literal-block">$ sudo su
+# export ROOTFS_DEV=<strong>/dev/mmcblk0p6</strong>
+# mkdir /mnt/backuprootfs
+# mount $ROOTFS_DEV /mnt/backuprootfs/
+# cd /mnt/
+
+// sync would take an hour or more depending on the files in your system
+# tar jcvpf backuprootfs.tar.bz2 backuprootfs &amp;&amp; sync
+# umount /mnt/backuprootfs</pre>
+<p>Now we have obtained the backup rootfs <strong>backuprootfs.tar.bz2</strong> in the SD card partition</p>
+</section>
+<section id="generate-new-image-file">
+<h3 id="generate-new-image-file">Generate New Image File<a class="headerlink" href="#generate-new-image-file" title="Permalink to this heading">¶</a></h3>
+<p>Poweroff the Chipsee PC. Put the SD card into your Linux HOST PC (or virtual machine).</p>
+<p>You should find a <strong>/dev/sdX</strong> in your Linux system, for example <strong>/dev/sdb</strong>, which is this SD card, <strong>you should use your actual /dev/sdX here</strong>, if you don’t know which sdX is it, check with <em>df -h</em> and see which one’s size is most likely your SD card.</p>
+<p>Now we mount /dev/sdb6 to find backuprootfs.tar.bz2</p>
+<pre class="literal-block"># mount /dev/sdb6 /mnt/</pre>
+<p>It will be in <strong>/mnt/mnt/backuprootfs.tar.bz2</strong>, we will copy it out to our Linux PC later.</p>
+<p>Run the following command to generate a new <em>.img</em> file. Make sure you have at least 25GB free space on your Linux PC, the process produces a lot of intermediate files.</p>
+<pre class="literal-block">$ sudo su
+# git clone <a class="reference external" href="https://gitee.com/chipsee_admin/rk_pack_tools.git">https://gitee.com/chipsee_admin/rk_pack_tools.git</a>
+# cd rk_pack_tools
+# git checkout r510-rk3568
+
+// copy the Chipsee prebuilt img file to this directory
+# cp prebuilt-xxx.img .
+# ./cs-unpack.sh prebuilt-xxx.img
+
+// copy your backup rootfs from SD card to this directory
+# cp /mnt/mnt/backuprootfs.tar.bz2 .
+
+// generate rootfs.img file from backuprootfs.tar.bz2
+# ./cs-mkrootfs.sh
+
+// generate new img file
+# ./cs-pack.sh prebuilt-new-xxx.img</pre>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you see <em>checksum miss match error</em> or <em>Error:&lt;AddFile&gt; write file failed,err=28</em>, check your harddisk and make sure you have enough free space.</p>
+</div>
+<p>Now you have obtained your new img file prebuilt-new-xxx.img in the current folder, use this img file to flash other devices.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+</section>
 <section id="disclaimer">
 <h2 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Permalink to this heading">¶</a></h2>
 <p><strong>This document is provided strictly for informational purposes. Its contents are subject to change without notice. Chipsee assumes no responsibility for any errors that may occur in this document. Furthermore, Chipsee reserves the right to alter the hardware, software, and/or specifications set forth herein at any time without prior notice and undertakes no obligation to update the information contained in this document.</strong></p>
@@ -939,7 +1033,7 @@ sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>u
               
           </div>
             Last updated on
-              Feb 20, 2024.
+              Feb 27, 2024.
             <br/>
         </div>
     <!-- GDPR Consent Banner -->

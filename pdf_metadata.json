@@ -226,6 +226,18 @@
         "PCs/ARM/PX30/AIO/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
+        "PCs/ARM/PX30/AIO/Manuals/Software/Buildroot_Linux_Qt_5_14": {
+            "pdf-title": "Buildroot Linux Qt 5.14 OS on PX30 User Manual",
+            "pdf-subtitle": "For PX30 Products",
+            "pdf-filename": "Buildroot Linux Qt 5.14 OS on PX30 User Manual",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/PX30/AIO/Manuals/Software/Debian_10": {
+            "pdf-title": "Debian 10 OS on PX30 User Manual",
+            "pdf-subtitle": "For PX30 Products",
+            "pdf-filename": "Debian 10 OS on PX30 User Manual",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/PX30/AIO/Manuals/Software/index": {
             "pdf-build": "False"
         },
@@ -345,6 +357,24 @@
         },
         "PCs/ARM/RK3399/Manuals/Hardware/index": {
             "pdf-build": "False"
+        },
+        "PCs/ARM/RK3399/Manuals/Software/Buildroot_Linux_Qt_5_14": {
+            "pdf-title": "Buildroot Linux Qt 5.14 OS on RK3399 User Manual",
+            "pdf-subtitle": "For RK3399 Products",
+            "pdf-filename": "Buildroot Linux Qt 5.14 OS on RK3399 User Manual",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3399/Manuals/Software/Debian_10": {
+            "pdf-title": "Debian 10 OS on RK3399 User Manual",
+            "pdf-subtitle": "For RK3399 Products",
+            "pdf-filename": "Debian 10 OS on RK3399 User Manual",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3399/Manuals/Software/Debian_11": {
+            "pdf-title": "Debian 11 OS on RK3399 User Manual",
+            "pdf-subtitle": "For RK3399 Products",
+            "pdf-filename": "Debian 11 OS on RK3399 User Manual",
+            "pdf-type": "ipc"
         },
         "PCs/ARM/RK3399/Manuals/Software/index": {
             "pdf-build": "False"

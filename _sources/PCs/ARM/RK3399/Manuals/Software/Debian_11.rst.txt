@@ -1,0 +1,44 @@
+.. include:: /PCs/Shared/pdf_options_software
+
+.. |systemType| replace:: Debian 11
+.. |chip| replace:: RK3399
+.. |ipc| replace:: Chipsee industrial PC
+
+.. |rootfs_blk| replace:: **/dev/mmcblk0p7**
+
+.. |sdx| replace:: /dev/sdb7
+
+.. |git_branch| replace:: r510-rk3399
+
+.. |os_down_path| replace:: :ref:`Chipsee prebuilt image <RK3399_OSDownloads>`
+
+.. include:: Resources/Shared/backup_note
+
+.. _rk3399_os_debian11:
+
+.. |OS_Backup_img| image:: /Media/ARM/A72/Software/RK3399_OS_Backup_Debian11_1.png
+                  :align: middle
+                  :width: 720
+
+|systemType| OS
+###############
+
+.. rst-class:: fs-3 fw-bold text-center
+
+  |systemType| OS on |chip| User Manual
+
+
+.. image:: /Media/Chipsee_Logo_Full.png
+   :align: center
+   :width: 320
+   :alt: chipsee-logo
+
+This is the software manual for |chip| Chipsee industrial PC. If you've never developed on this hardware with a |systemType| OS, this manual can get you started quickly.
+
+:pagebreak:`True`
+
+.. include:: /PCs/ARM/Shared/Rockchip/Software/Backup_OS
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support
