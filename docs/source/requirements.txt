@@ -7,3 +7,4 @@ Sphinx-Substitution-Extensions==2022.2.16
 sphinx_design==0.2.0
 sphinx-pdf-generate
 sphinx-copybutton
+weasyprint==60.0
