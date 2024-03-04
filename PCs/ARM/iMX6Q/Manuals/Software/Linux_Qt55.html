@@ -1491,10 +1491,11 @@ $<span class="w"> </span>sudo<span class="w">  </span>./mksdcard.sh<span class="
 <section id="id4">
 <h3 id="id4">Preparation<a class="headerlink" href="#id4" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic">
-<li><p>Download <a class="reference external" href="https://download.qt.io/new_archive/qt/5.5/5.5.1/">QT5.5.1</a> and install it on the system. Other Qt version should ok as we only need Qtcreator. Install it in the <cite>/home/&lt;user&gt;/program</cite> directory.</p></li>
+<li><p>Download <a class="reference external" href="https://download.qt.io/new_archive/qt/5.5/5.5.1/">QT5.5.1</a> and install it on one X86_64 Linux Host PC system. Other Qt version should ok as we only need Qtcreator. Install it in the <cite>/home/&lt;user&gt;/program</cite> directory.</p></li>
 <li><dl>
-<dt>Install SDK. Get the <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/DVD/IMX6Q/Tools/fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh">SDK</a> and install it using this command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># chmod +x fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh</span>
-<span class="c1"># ./ fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh</span>
+<dt>Install SDK. Get the SDK and install it using this command(running the following commands on one X86_64 Linux Host PC):</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># wget -c https://chipsee-tmp.s3.amazonaws.com/DVD/IMX6Q/Tools/fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh</span>
+<span class="c1"># chmod +x fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh</span>
+<span class="c1"># ./fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh</span>
 </pre></div>
 </div>
 <p><br/> The default install directory is <cite>/opt/fsl-imx-x11/3.14.52-1.1.1</cite>. You can install it in this directory or you can also use another directory.</p>
@@ -1759,7 +1760,7 @@ $<span class="w"> </span>make<span class="w">  </span>//<span class="w"> </span>
               
           </div>
             Last updated on
-              Feb 29, 2024.
+              Mar 04, 2024.
             <br/>
         </div>
     <!-- GDPR Consent Banner -->
