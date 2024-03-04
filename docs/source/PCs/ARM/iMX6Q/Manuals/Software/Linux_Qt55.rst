@@ -931,12 +931,13 @@ Host system requirements
 Preparation
 -----------
 
-#) Download `QT5.5.1 <https://download.qt.io/new_archive/qt/5.5/5.5.1/>`_ and install it on the system. Other Qt version should ok as we only need Qtcreator. Install it in the `/home/<user>/program` directory.
-#) Install SDK. Get the `SDK <https://chipsee-tmp.s3.amazonaws.com/DVD/IMX6Q/Tools/fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh>`_ and install it using this command:
+#) Download `QT5.5.1 <https://download.qt.io/new_archive/qt/5.5/5.5.1/>`_ and install it on one X86_64 Linux Host PC system. Other Qt version should ok as we only need Qtcreator. Install it in the `/home/<user>/program` directory.
+#) Install SDK. Get the SDK and install it using this command(running the following commands on one X86_64 Linux Host PC):
     .. code-block:: bash
 
+       # wget -c https://chipsee-tmp.s3.amazonaws.com/DVD/IMX6Q/Tools/fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh
        # chmod +x fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh
-       # ./ fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh
+       # ./fsl-imx-x11-glibc-x86_64-meta-toolchain-qt5-cortexa9hf-vfp-neon-toolchain-3.14.52-1.1.1.sh
 
     |br| The default install directory is `/opt/fsl-imx-x11/3.14.52-1.1.1`. You can install it in this directory or you can also use another directory.
 
