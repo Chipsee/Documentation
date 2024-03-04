@@ -638,10 +638,6 @@ caption, figcaption, p.caption {
     margin: auto;
 }
 
-.md-typeset p {
-    margin: unset;
-}
-
 .md-nav {
     background-color: unset;
 }
@@ -712,4 +708,8 @@ caption, figcaption, p.caption {
 /* Code block */
 .md-typeset pre.literal-block {
     margin: 1em 0 !important
+}
+
+.index-item p {
+    margin: unset;
 }
