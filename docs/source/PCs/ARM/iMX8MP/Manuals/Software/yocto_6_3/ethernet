@@ -1,0 +1,51 @@
+Wired Ethernet
+**************
+
+After plugging in the network cable, wired Ethernet should be connected automatically.
+
+Setting Static IP
+*****************
+
+To set a static IP address with `connmanctl`, you can use the following command:
+
+.. code-block:: text
+
+	connmanctl config <service> --ipv4 manual <ip address> <netmask> <gateway>
+	connmanctl config <service> --nameservers <dns-addr> 
+
+For example:
+
+.. code-block:: text
+
+	connmanctl config wifi_2cc3e64146b2_6a686f6d652d30325f3547_managed_psk --ipv4 manual 192.168.50.151 255.255.255.0 192.168.50.1    
+	connmanctl config wifi_2cc3e64146b2_6a686f6d652d30325f3547_managed_psk --nameservers 8.8.8.8 4.4.4.4    
+
+The configuration will be saved in /var/lib/connman/wifi_2cc3e64146b2_6a686f6d652d30325f3547_managed_psk/settings.
+
+.. code-block:: text
+
+	root@imx8mp-eisd:~# cat /var/lib/connman/wifi_2cc3e64146b2_6a686f6d652d30325f3547_managed_psk/settings 
+	
+	[wifi_2cc3e64146b2_6a686f6d652d30325f3547_managed_psk]
+	Name=chipsee-5G
+	SSID=6a686f6d652d30325f3547
+	Frequency=5785
+	Favorite=true
+	AutoConnect=true
+	Modified=2024-03-05T08:51:16Z
+	Passphrase=password
+	IPv4.method=manual
+	IPv4.netmask_prefixlen=24
+	IPv4.local_address=192.168.50.151
+	IPv4.gateway=192.168.50.1
+	IPv6.method=auto
+	IPv6.privacy=disabled
+	Nameservers=8.8.8.8;4.4.4.4;
+
+To set the manual IP mode back to DHCP:
+
+.. code-block:: text
+	
+	connmanctl config wifi_2cc3e64146b2_6a686f6d652d30325f3547_managed_psk --ipv4 dhcp
+
+:pagebreak:`True`

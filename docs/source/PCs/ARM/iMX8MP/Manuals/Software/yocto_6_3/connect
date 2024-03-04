@@ -1,0 +1,233 @@
+Connect to the Device
+=====================
+
+There are 2 ways to connect to the device from your workstation:
+
+#. From **Serial** RS232 port
+#. From **Ethernet** or **Wi-Fi** (SSH)
+
+Let's take a look at these connecting methods one by one.
+
+Connect From Serial Port
+------------------------
+
+*[Cheatsheet for experienced developers: RS232_2, username is root, no password]*
+
+In our prebuilt |systemType| OS, the **RS232_2** serves as a serial debug port on the |chip| products. We can connect a RS232 cable from the |ipc| to our workstation, allowing us to control the |ipc| from our workstation.
+
+To get started, you need a USB to serial cable, we will use a USB Type-C to DB-9 cable as an example, you can use a USB-A cable as well, you need to plug the USB end to your workstation, and the serial end to the Chipsee device. 
+
+I will plug the USB Type-C port to a Mac (Windows and Linux work fine too), and then I would use three female to female dupont wires, to connect 3 of the DB-9 pins to my |ipc| 's GND and RS232_2 (RX and TX) pins. 
+
+Take a look at the image below, this is the 7-inch product, if your product has a different screen size, check out the hardware document to find out which pins are RS232_2 TX and RX, each hardware doc has a "RS232+RS485+xxx" section, you should be able to find which is the RS232_2 of that model in the image and table of that doc. 
+
+You should connect the DB-9's RX to the device's TX, and DB-9's TX to the device's RX, you should also connect their GNDs (the white wire).
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A53/Software/Yocto_63/Serial_Connect.webp
+    :align: center
+    :width: 480
+
+  *Connect 3 Pins with Dupont Wires*
+
+
+  .. image:: /Media/ARM/A53/Software/Yocto_63/USB_Serial_Cable.webp
+    :align: center
+    :width: 480
+
+  *Use a USB to Serial Cable to Connect the Chipsee Industrial PC with Your Workstation*
+
+Linux and MacOS
+***************
+
+1. For **MacOS and Linux** users, you will need a program called **screen**. It should be already installed on most MacOS and Linux distributions(if screen program is not installed on your computer, you can search how to install it, for example, "apt install screen" on Debian). Open your terminal and type `screen -v`. If the *screen* program is already installed in your computer, you should see a version number, like that in the image below:
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A53/Software/Yocto_63/Screen_Program-1.png
+      :align: center
+      :width: 480
+
+   *Confirm You Have the Screen Program (MacOS & Linux)*
+
+2. Because the USB end of the cable is plugged into our workstation, we need to know which USB device it is in Linux/MacOS. We can find it out by testing:
+
+   .. code:: bash
+
+      ls /dev/tty*
+
+   You might see many *tty* devices listed in your terminal, and cannot decide which is your USB to RS232 cable. Here is a tip: you can unplug the cable first, type the command to see what is listed in the OS. Then you plug it back in, and test again, to see what has recently appeared. The difference between the two should be your cable. In the image below, we found the `/dev/tty.usbserial-10` is our USB to RS232 cable.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Cable_Finding.png
+         :align: center
+         :width: 640
+
+      *Find Out Which Device is Your USB to Serial Cable*
+
+3. You can put the device name you found to the screen program as an argument. To connect to the device (115200 is the default baud rate of the device):
+
+   .. code:: bash
+
+      screen /dev/tty.usbserial-10 115200
+
+4. When the prompt asks you to login, type the user name **root**, it doesn't have a password:
+
+   .. code-block:: bash
+      :linenos:
+      :emphasize-lines: 1
+
+      imx8mp-eisd login: root
+      root@imx8mp-eisd:~# ls /
+      bin   dev  home  lost+found  mnt  proc  sbin  sys  unit_tests  var
+      boot  etc  lib   media       opt  run   srv   tmp  usr
+      root@imx8mp-eisd:~# 
+
+5. If there is a blank/white screen, you can hit Enter or type some commands to see if you can interact with the device. In the image below, the device responds to my `ls` command.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Screen_Program-2.png
+         :align: center
+         :width: 640
+
+      *The Screen Program Connects Your Workstation to the Industrial PC's Android Console*
+
+6. If you want to **exit** the screen program, you can press `Ctrl+A` then press `K`.
+
+   The program will ask you if you want to kill this window, then press `y` to exit the program.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Screen_Program-3.png
+         :align: center
+         :width: 640
+
+      *Press "Ctrl + A" Follow by a "K" to Exit the Program*
+
+Windows
+*******
+
+1. For **Windows** users, you don't need to install specific "driver" kind of thing for Windows to recognize a Chipsee PC, but before proceeding, you should see a COM port appear/disappear when plug/unplug your USB to serial cable in Windows. Most USB to serial cables don't require driver installation on Windows10/11. But if you find your cable isn't recognizable by Windows, try checking the cable's manufacture's website to learn more about it, most of the time, simply do a Windows update should do the trick, Windows can detect the cable's USB driver and install it for you.
+
+2. You should install a program called **PuTTY**, here is a link to download the software: https://www.putty.org/. If you're comfortable with other clients other than PuTTY, you can use those as well.
+
+3. With PuTTY in your belt, let's find out which COM port your USB to RS232 cable is using. One tip is to check the *Microsoft Windows Device Manager* (right click Windows icon, select Device Manager). Check which COM port appears/disappears when you plug/unplug the USB to serial cable. And that COM port device should be your USB to RS232 cable. Keep a note of the COM port your serial cable is using, let's say it's "your-com", or "COM3" in this example.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/Shared/Software/Debug-Connection/serial-2.png
+         :align: center
+         :width: 640
+
+      *COM3 is the USB to Serial Cable*
+   
+4. Open the PuTTY program, select **Session**, choose **Serial** in the radio buttons, and fill the COM port(your-com, or **COM3** in this example) you found in the Microsoft Windows Device Manager, and choose **115200** as baud rate, then click **Open**.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/Shared/Software/Debug-Connection/serial-1.png
+         :align: center
+         :width: 640
+
+      *Input your-com in the Serial Line field, in our case COM3*
+
+5. Now you should be able to connect from your workstation to the device through the serial port. You can try to hit Enter, or type some commands, like `ls`, to see if the device replies to your commands. If the prompt asks you to login, type the user name **root**, it doesn't have a password:
+
+.. code-block:: bash
+   :linenos:
+   :emphasize-lines: 1
+
+   imx8mp-eisd login: root
+   root@imx8mp-eisd:~# ls /
+   bin   dev  home  lost+found  mnt  proc  sbin  sys  unit_tests  var
+   boot  etc  lib   media       opt  run   srv   tmp  usr
+   root@imx8mp-eisd:~# 
+
+:pagebreak:`True`
+
+
+Connect From Network (SSH)
+--------------------------
+
+*[Cheatsheet for experienced developers: username: root, no password]*
+
+You can SSH to the device when it's connected to network, either through Wi-Fi or Ethernet.
+
+First make sure you're connected through WiFi or Ethernet (to learn how, jump to the Network section below. Ethernet can be automatically detected, WiFi needs some configuration). 
+
+Then you can check the IP address with **ifconfig**, to type this command, you can use a mouse and keyboard temporarily and type it, or through serial debug port:
+
+.. code-block:: text
+   :linenos:
+   :emphasize-lines: 1, 18
+
+   root@imx8mp-eisd:~# ifconfig
+   eth0: flags=-28669<UP,BROADCAST,MULTICAST,DYNAMIC>  mtu 1500
+           ether be:ec:6e:3a:f4:18  txqueuelen 1000  (Ethernet)
+           RX packets 0  bytes 0 (0.0 B)
+           RX errors 0  dropped 0  overruns 0  frame 0
+           TX packets 0  bytes 0 (0.0 B)
+           TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+   eth1: flags=-28669<UP,BROADCAST,MULTICAST,DYNAMIC>  mtu 1500
+           ether be:ed:6e:3a:f4:18  txqueuelen 1000  (Ethernet)
+           RX packets 0  bytes 0 (0.0 B)
+           RX errors 0  dropped 0  overruns 0  frame 0
+           TX packets 0  bytes 0 (0.0 B)
+           TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+           device interrupt 52
+
+   wlan0: flags=-28605<UP,BROADCAST,RUNNING,MULTICAST,DYNAMIC>  mtu 1500
+           inet 192.168.50.150  netmask 255.255.255.0  broadcast 192.168.50.255
+           ether 2c:c3:e6:41:46:b2  txqueuelen 1000  (Ethernet)
+           RX packets 244  bytes 57010 (55.6 KiB)
+           RX errors 0  dropped 3  overruns 0  frame 0
+           TX packets 54  bytes 9715 (9.4 KiB)
+           TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+The **inet** line contains **your-ip**. In the case above the IP address is 192.168.50.150 through **wlan0**.
+
+If you're using Ethernet, it should be one of eth0(line 2) and eth1(line 9), depending on your device model. For example, on the dual-lan 7 inch product, LAN0 port is eth0, LAN1 port is eth1.
+
+Then we can ssh from our workstation with this IP address.
+
+Linux / MacOS
+*************
+
+For Linux and MacOS users, you can use your terminal and type:
+
+.. code-block:: bash
+
+   ssh root@your-ip
+   # In our case, your-ip is 192.168.50.150
+   ssh root@192.168.50.150
+
+The username is root, and there is no password.
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A53/Software/Yocto_63/SSH_Connect-1.webp
+      :align: center
+      :width: 640
+
+   *SSH with your-ip*
+
+Windows
+*******
+
+For Windows users using PuTTY, you can choose Session, input **username@your-ip** (in our case *root@192.168.50.150*, yours should be different) in the Host Name field. Port Number should remain 22, choose SSH as the connection type in the radio buttons, click "Open". There is **no password** for **root** user.
+
+.. rst-class:: text-center
+
+   .. image:: /Media/Shared/Software/Debug-Connection/ssh-2.png
+      :align: center
+      :width: 640
+
+   *Input username@your-ip in the Host Name field, in our case root@192.168.50.150*
+
+Now you have connected to the device through network.
+
+:pagebreak:`True`

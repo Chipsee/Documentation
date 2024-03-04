@@ -1,0 +1,12 @@
+Video
+-----
+
+To play a video:
+
+.. code-block:: bash
+	
+	# gst-play-1.0 path-to-your-video-file
+	# volume is from 0.0~1.0, 0.0 is silent, 1.0 is unchanged
+	gst-play-1.0 /usr/hardwaretest/h264.mp4 --volume=0.5
+
+:pagebreak:`True`

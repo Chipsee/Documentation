@@ -1,0 +1,21 @@
+Backlight
+---------
+
+We use one PWM to control the backlight of |chip| boards, You can use the following commands:
+
+* Get the supported max brightness:
+    .. code-block:: bash
+
+        cat /sys/class/backlight/backlight/max_brightness
+
+* Get the current brightness:
+    .. code-block:: bash
+
+        cat /sys/class/backlight/backlight/actual_brightness
+
+* Set brightness:
+    .. code-block:: bash
+
+        echo 50 > /sys/class/backlight/backlight/brightness
+
+:pagebreak:`True`

@@ -1,0 +1,37 @@
+WiFi(GUI)
+*********
+
+There is a "Hardware Test" Qt program (source code: https://github.com/Chipsee/hardwaretest) developed by Chipsee pre-installed on the device, you can use the Connmanctl GUI to set WiFi in this program. Click the icon (arrow 1) to open the program, in the program GUI, click the button (arrow 2) to open connman setting.
+
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A53/Software/Yocto_63/connman-1.webp
+    :align: center
+    :width: 960
+
+  *The Hardware Test Program: Click 1 to Open the Program, Click 2 to Open Connman Setting*
+
+In the Connman System Tray, you can toggle the WiFi/Ethernet/Bluetooth on / off by clicking a check box, or clicking the "Powered" column.
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A53/Software/Yocto_63/connman-2.webp
+    :align: center
+    :width: 960
+
+  *Switching On Off the Connections*
+
+Select the **Wireless** tab. Click the SSID you want to connect, then click **connect**, input your password to connect. 
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A53/Software/Yocto_63/connman-3.webp
+    :align: center
+    :width: 960
+
+  *Connect to an Access Point*
+
+Now you should be connected to the SSID. The system will remember the option and try to auto connect when boot up next time.
+
+:pagebreak:`True`

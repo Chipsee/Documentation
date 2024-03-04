@@ -1,0 +1,227 @@
+Wi-Fi
+*****
+
+You can connect to WiFi with command line or GUI, for command line, here is how to connect with SSID and password.
+
+Use **ifconfig -a** to ensure wlan0 is present, it's our WiFi interface.
+
+
+.. code-block:: bash
+  :linenos:
+  :emphasize-lines: 1, 42
+
+  root@imx8mp-eisd:/# ifconfig -a
+  can0: flags=128<NOARP>  mtu 16
+          unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 10  (UNSPEC)
+          RX packets 0  bytes 0 (0.0 B)
+          RX errors 0  dropped 0  overruns 0  frame 0
+          TX packets 0  bytes 0 (0.0 B)
+          TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+          device interrupt 34  
+
+  can1: flags=128<NOARP>  mtu 16
+          unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 10  (UNSPEC)
+          RX packets 0  bytes 0 (0.0 B)
+          RX errors 0  dropped 0  overruns 0  frame 0
+          TX packets 0  bytes 0 (0.0 B)
+          TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+          device interrupt 35  
+
+  eth0: flags=-28670<BROADCAST,MULTICAST,DYNAMIC>  mtu 1500
+          ether be:ec:6e:3a:f4:18  txqueuelen 1000  (Ethernet)
+          RX packets 0  bytes 0 (0.0 B)
+          RX errors 0  dropped 0  overruns 0  frame 0
+          TX packets 0  bytes 0 (0.0 B)
+          TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+  eth1: flags=-28670<BROADCAST,MULTICAST,DYNAMIC>  mtu 1500
+          ether be:ed:6e:3a:f4:18  txqueuelen 1000  (Ethernet)
+          RX packets 0  bytes 0 (0.0 B)
+          RX errors 0  dropped 0  overruns 0  frame 0
+          TX packets 0  bytes 0 (0.0 B)
+          TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+          device interrupt 52  
+
+  lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+          inet 127.0.0.1  netmask 255.0.0.0
+          inet6 ::1  prefixlen 128  scopeid 0x10<host>
+          loop  txqueuelen 1000  (Local Loopback)
+          RX packets 208  bytes 15818 (15.4 KiB)
+          RX errors 0  dropped 0  overruns 0  frame 0
+          TX packets 208  bytes 15818 (15.4 KiB)
+          TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+  wlan0: flags=-28605<UP,BROADCAST,RUNNING,MULTICAST,DYNAMIC>  mtu 1500
+          ether 2c:c3:e6:41:46:b2  txqueuelen 1000  (Ethernet)
+          RX packets 0  bytes 0 (0.0 B)
+          RX errors 0  dropped 0  overruns 0  frame 0
+          TX packets 0  bytes 0 (0.0 B)
+          TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+  wwan0: flags=4226<BROADCAST,NOARP,MULTICAST>  mtu 1500
+          ether a6:75:40:05:17:9a  txqueuelen 1000  (Ethernet)
+          RX packets 0  bytes 0 (0.0 B)
+          RX errors 0  dropped 0  overruns 0  frame 0
+          TX packets 0  bytes 0 (0.0 B)
+          TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+
+To scan the available WiFi networks around you:
+
+.. code-block:: bash
+  :linenos:
+  :emphasize-lines: 1, 4, 18
+
+  root@imx8mp-eisd:/# iwlist wlan0 scan
+  wlan0     Scan completed :
+            Cell 01 - Address: 40:A0:76:55:BE:26
+                      ESSID:"chipsee-5G"
+                      Protocol:IEEE 802.11AC
+                      Mode:Master
+                      Frequency:5.745 GHz
+                      Encryption key:on
+                      Bit Rates:1.3 Gb/s
+                      Extra:rsn_ie=30140100000fac040100000fac040100000fac020c00
+                      IE: IEEE 802.11i/WPA2 Version 1
+                          Group Cipher : CCMP
+                          Pairwise Ciphers (1) : CCMP
+                          Authentication Suites (1) : PSK
+                      Quality=47/100  Signal level=35/100  
+                      Extra:fm=0003
+            Cell 09 - Address: AC:ED:FB:B5:2B:84
+                      ESSID:"chipsee-2.4G"
+                      Protocol:IEEE 802.11bgn
+                      Mode:Master
+                      Frequency:2.437 GHz (Channel 6)
+                      Encryption key:on
+                      Bit Rates:144 Mb/s
+                      Extra:rsn_ie=30140100000fac040100000fac040100000fac020c00
+                      IE: IEEE 802.11i/WPA2 Version 1
+                          Group Cipher : CCMP
+                          Pairwise Ciphers (1) : CCMP
+                          Authentication Suites (1) : PSK
+                      Quality=44/100  Signal level=26/100  
+                      Extra:fm=0003
+
+Then you can edit the **/etc/wpa_supplicant.conf** to edit the SSID and password:
+
+.. code-block:: bash
+
+  root@imx8mp-eisd:/# vi /etc/wpa_supplicant.conf
+
+.. code-block:: bash
+  :linenos:
+  :emphasize-lines: 8, 9
+
+  // Inside /etc/wpa_supplicant.conf
+
+  ctrl_interface=/var/run/wpa_supplicant
+  ctrl_interface_group=0
+  update_config=1
+
+  network={
+          ssid="chipsee-5G"
+          psk="password"
+  }
+   
+Then associate the wlan0 interface with the config:
+
+.. code-block:: bash
+  
+  root@imx8mp-eisd:/# wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant.conf 
+  Successfully initialized wpa_supplicant
+
+If you see:
+
+.. code-block:: text
+
+  ctrl_iface exists and seems to be in use - cannot override it
+  Delete '/var/run/wpa_supplicant/wlan0' manually if it is not used anymore
+  Failed to initialize control interface '/var/run/wpa_supplicant'.
+  You may have another wpa_supplicant process already running or the file was
+  left by an unclean termination of wpa_supplicant in which case you will need
+  to manually remove this file before starting wpa_supplicant again.
+
+You can kill existing wpa_supplicant try again with:
+
+.. code-block:: bash
+  
+  root@imx8mp-eisd:/# killall wpa_supplicant
+
+Until you see only one line *Successfully initialized wpa_supplicant*.
+
+Then you can check you're connecting to the right WiFi network SSID by:
+
+.. code-block:: bash
+  :linenos:
+  :emphasize-lines: 1, 2
+
+  root@imx8mp-eisd:~# iwconfig wlan0
+  wlan0     IEEE 802.11AC  ESSID:"chipsee-5G"  Nickname:"<WIFI@REALTEK>"
+            Mode:Managed  Frequency:5.745 GHz  Access Point: 40:A0:76:55:BE:26
+            Bit Rate:434 Mb/s   Sensitivity:0/0  
+            Retry:off   RTS thr:off   Fragment thr:off
+            Encryption key:****-****-****-****-****-****-****-****   Security mode:open
+            Power Management:off
+            Link Quality=41/100  Signal level=27/100  Noise level=0/100
+            Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+            Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+Then use DHCP to get an IP:
+
+.. code-block:: bash
+  :linenos:
+  :emphasize-lines: 1
+
+  root@imx8mp-eisd:~# udhcpc -i wlan0
+  udhcpc: started, v1.35.0
+  udhcpc: broadcasting discover
+  udhcpc: broadcasting select for 192.168.50.133, server 192.168.50.1
+  udhcpc: lease of 192.168.50.133 obtained from 192.168.50.1, lease time 86400
+  /etc/udhcpc.d/50default: Adding DNS 119.29.29.29
+  /etc/udhcpc.d/50default: Adding DNS 192.168.50.1
+
+Your WiFi network should be usable by now, but if you see this error message when using **ping** or **curl** with domain names:
+
+.. code-block:: text
+  
+  Temporary failure in name resolution.
+
+You can add a DNS name server in **/etc/resolv.conf**:
+
+.. code-block:: text
+  :linenos:
+
+  // This is optional, if your DNS is OK you don't need to set this
+
+  root@imx8mp-eisd:~# vi /etc/resolv.conf
+
+.. code-block:: bash
+  :linenos:
+
+  // Inside /etc/resolv.conf
+
+  # Generated by Connection Manager
+  nameserver 8.8.8.8     
+  nameserver 1.1.1.1
+   
+Then hit :wq to save and exit. The configuration should take effect immediately.
+
+Now you can test your WiFi network with:
+
+.. code-block:: bash
+  :linenos:
+
+  root@imx8mp-eisd:~# ping cloudflare.com
+  PING cloudflare.com (104.16.133.229) 56(84) bytes of data.
+  64 bytes from 104.16.133.229 (104.16.133.229): icmp_seq=1 ttl=54 time=192 ms
+  64 bytes from 104.16.133.229 (104.16.133.229): icmp_seq=2 ttl=54 time=195 ms
+  64 bytes from 104.16.133.229 (104.16.133.229): icmp_seq=3 ttl=54 time=199 ms
+  ^C64 bytes from 104.16.133.229: icmp_seq=4 ttl=54 time=192 ms
+
+  --- cloudflare.com ping statistics ---
+  4 packets transmitted, 4 received, 0% packet loss, time 3003ms
+  rtt min/avg/max/mdev = 192.089/194.386/198.524/2.564 ms
+
+:pagebreak:`True`

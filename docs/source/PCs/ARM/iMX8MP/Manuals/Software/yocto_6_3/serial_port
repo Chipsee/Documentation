@@ -1,0 +1,46 @@
+Serial Port
+-----------
+
+The |chip| based |ipc| supports RS232 and RS485, here are the mapping from the port name to the system tree device:
+
+**7 inch product and Box product**
+
+* PPC-A53-070 (PN: CS10600-IMX8MP-070P)
+* CS-A53-BOX (PN: CS-IMX8MP-BOX)
+
+.. table:: RS232/485 for **7 inch** product and **box** product
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +---------+--------------+-------------------------------+
+   | Name    | Node         | Protocol                      |
+   +=========+==============+===============================+
+   | RS232_0 | /dev/ttymxc3 | RS232                         |
+   +---------+--------------+-------------------------------+
+   | RS232_2 | /dev/ttymxc1 | RS232, Serial Debug           |
+   +---------+--------------+-------------------------------+
+   | CAN0    | /dev/ttyUSB2 | RS232, Optional Customization |
+   +---------+--------------+-------------------------------+
+   | RS485_3 | /dev/ttymxc2 | RS485                         |
+   +---------+--------------+-------------------------------+
+   | RS485_4 | /dev/ttyUSB0 | RS485                         |
+   +---------+--------------+-------------------------------+
+   | RS485_5 | /dev/ttyUSB1 | RS485                         |
+   +---------+--------------+-------------------------------+
+
+The 120 Ohm match resistor is already mounted on the RS485 port. RS485 ports are half-duplex, the hardware can switch the Tx/Rx direction automatically. RS232 ports are full-duplex.
+
+You can use the pre-installed HardwareTest program developed by Chipsee to test serial ports, for example, you've wired the serial cable on the RS232_0_RX, RS232_0_TX on the 7 inch product, then you can select "ttymxc3" in "COM", click "SerialOpen", then you can use your workstation or another Chipsee PC to communicate with this 7 inch product. 
+
+For example, you can use a program called COMTool which can be downloaded from Github on your workstation, or use any of your favorite serial port debug tools. Select the same baudrate and bits as in HardwareTest program, click SerialSend to send from |ipc|, or send ASCII from your workstation and receive it on the |ipc|.
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A53/Software/Yocto_63/Serial_Port-1.webp
+    :align: center
+    :width: 960
+
+  *Testing Serial Port in HardwareTest Program*
+
+:pagebreak:`True`

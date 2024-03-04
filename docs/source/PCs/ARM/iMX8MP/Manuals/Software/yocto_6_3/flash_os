@@ -1,0 +1,107 @@
+Flashing OS
+===========
+
+If you accidentally "bricked" the operating system, you can reinstall the OS of the device.
+
+To reinstall the OS, you will need to prepare a TF card (micro SD card) to copy the OS firmware on the card. Then plug it into the device to flash the OS to the eMMC (the device's internal storage).
+
+Prepare For Flashing
+--------------------
+
+You need to prepare the following:
+
+* 16GB or larger micro SD card (TF card).
+* SD card reader (to be used on your HOST PC).
+* A (**X86 or X86_64**) Linux Host PC or virtual machine to make a bootable SD card.
+* :ref:`Chipsee prebuilt image <IMX8MP_OSDownloads>`, all IMX8MP models share the same prebuilt OS image file.
+  
+Copy Firmware to SD Card
+------------------------
+
+1. Plug in the SD card to your X86 Linux host PC (or virtual machine), then check which **sdX** device is your SD card:
+
+   .. code-block:: text
+      :linenos:
+      :emphasize-lines: 1, 3
+
+      root@pve:~# lsblk
+      NAME        MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+      sda           8:0    1 14.9G  0 disk 
+      ├─sda1        8:1    1  200M  0 part 
+      └─sda2        8:2    1 14.7G  0 part 
+      zd0         230:0    0  333M  0 disk 
+      ├─zd0p1     230:1    0   32M  0 part 
+      └─zd0p2     230:2    0  300M  0 part 
+      nvme0n1     259:0    0 57.6G  0 disk 
+      ├─nvme0n1p1 259:1    0 1007K  0 part 
+      ├─nvme0n1p2 259:2    0  512M  0 part 
+      └─nvme0n1p3 259:3    0 57.1G  0 part 
+
+   In the example above my SD card is **/dev/sda**, yours might be **different**.
+
+2. Then extract the firmware you have :ref:`downloaded from Chipsee <IMX8MP_OSDownloads>` to your Linux HOST PC (not into the SD card):
+   
+   .. code-block:: text
+      :linenos:
+      :emphasize-lines: 4, 5
+      
+      root@pve:~# ls
+      prebuilt-imx8mp-linuxqt63-emmc-20231030.tar.gz
+
+      root@pve:~# tar zxvf prebuilt-imx8mp-linuxqt63-emmc-20231030.tar.gz 
+      root@pve:~# cd prebuilt-imx8mp-linuxqt63-emmc-20231030/
+
+      root@pve:~/prebuilt-imx8mp-linuxqt63-emmc-20231030# ls
+      boot  emmc-flash  filesystem  mksdcard.sh  README
+
+3. Generate OS image to the SD card.
+   
+   .. note::
+
+      For different screen size of Chipsee IMX8MP products, you need to specify your display resolution in the next command. Here is a quick look up table:
+
+      - 7 Inch: 1024600
+        
+      In the next command, you need to change "your-display-resolution" to the actual reslution of your device, for example, for 7 inch device, the command should be *'./mksdcard.sh --device /dev/sda --display 1024600'*.
+
+   .. code-block:: bash
+
+      # Remember to change /dev/sdX to your actual sdX
+      # Remember to change your-display-resolution to your actual resolution
+
+      ./mksdcard.sh --device /dev/sdX --display your-display-resolution
+
+   You should see something like this.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/flashos-1.webp
+         :align: center
+         :width: 960
+         :alt: Successfully Flashed an SD Card to be Used Later
+
+      *Successfully Flashed an SD Card to be Used Later*
+
+Flashing OS to eMMC
+-------------------
+
+Plug in the SD card to the Chipsee IMX8MP device. We will flash the OS to the eMMC (device's internal storage).
+   
+1. Poweroff the device (unplug the power supply).
+2. Insert the SD card to the card slot of the device (refer to hardware manual's picture for TF card insertion direction).
+3. Push and hold the PROG button, in the mean time, power on the device, after around 10 seconds, you should see the system starts to flash OS automatically, then you can release the PROG button.
+4. When the red LED stops blinking, and turns solid red, it means OS flashing is finished. You can also see a success message on the screen.
+5. Now you can reboot the device, don't push the PROG button, the system should boot from eMMC automatically.
+6. Don't forget to eject your SD card when everything works smoothly. (You might need to use a small-sized flathead screwdriver to aid ejecting SD card for enclosed panel PCs.)
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A53/Software/Yocto_63/flashos-2.webp
+      :align: center
+      :width: 720
+      :alt: Successfully Flashed OS to eMMC
+
+   *Successfully Flashed OS to eMMC*
+
+Now your brand new OS is flashed successfully.
+

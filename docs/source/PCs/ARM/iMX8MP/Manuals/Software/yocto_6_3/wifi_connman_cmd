@@ -1,0 +1,184 @@
+WiFi(Command Line)
+******************
+
+This operating system uses `connmanctl` to set WiFi.
+
+1. Enabling and disabling WiFi
+
+   To check if WiFi is enabled you can run `connmanctl technologies` and check for the line that says `Powered: True/False`. 
+
+   To power the WiFi on you can run `connmanctl enable wifi` or if you need to disable it you can run `connmanctl disable wifi`.
+
+   .. code-block:: text
+      :linenos:
+      :emphasize-lines: 1, 23, 26
+
+      root@imx8mp-eisd:~# connmanctl technologies
+      /net/connman/technology/p2p
+        Name = P2P
+        Type = p2p
+        Powered = False
+        Connected = False
+        Tethering = False
+        TetheringFreq = 2412
+      /net/connman/technology/ethernet
+        Name = Wired
+        Type = ethernet
+        Powered = True
+        Connected = False
+        Tethering = False
+        TetheringFreq = 2412
+      /net/connman/technology/bluetooth
+        Name = Bluetooth
+        Type = bluetooth
+        Powered = False
+        Connected = False
+        Tethering = False
+        TetheringFreq = 2412
+      /net/connman/technology/wifi
+        Name = WiFi
+        Type = wifi
+        Powered = True
+        Connected = True
+        Tethering = False
+        TetheringFreq = 2412
+
+2. Connecting to an open access point
+
+   To scan for nearby Wi-Fi networks: `connmanctl scan wifi`.
+
+   To list the available networks found after a scan run (example output): 
+
+   .. code-block:: text
+      
+      root@imx8mp-eisd:~# connmanctl services
+      *AR Wired                ethernet_beec6e3af418_cable
+      *A  chipsee              wifi_2cc3e64146b2_6a686f6d652d3032_managed_psk
+          chipsee-5G           wifi_2cc3e64146b2_6a686f6d652d30325f3547_managed_psk
+          13301                wifi_2cc3e64146b2_333031_managed_psk
+          too                  wifi_2cc3e64146b2_7463746f6f6f_managed_psk
+
+   To connect to an open network, use the second field beginning with `wifi_` (**tip: network names can be tab-completed.**): 
+
+   .. code-block:: text
+
+      connmanctl connect wifi_2cc3e64146b2_6a686f6d652d30325f3547_managed_psk
+
+   You should now be connected to the network. Check using `connmanctl state` or `ip addr`. 
+
+3. Connecting to a protected access point
+
+   For protected access points you will need to provide some information to the ConnMan daemon, at the very least a password or a passphrase.
+
+   The commands in this section show how to run `connmanctl` in interactive mode, it is required for running the agent command. To start interactive mode simply type: 
+
+   .. code-block:: bash
+
+      $ connmanctl
+
+   You then proceed almost as above, first scan for any Wi-Fi technologies:
+
+   .. code-block:: bash
+   
+      connmanctl> scan wifi
+
+   To list services:
+
+   .. code-block:: bash
+   
+      connmanctl> services
+
+   Now you need to register the agent to handle user requests. The command is:
+
+   .. code-block:: bash
+   
+      connmanctl> agent on
+
+   You now need to connect to one of the protected services. To do this easily, just use tab completion for the wifi service. If you were connecting to Chipsee-5G in the example above you would type:
+
+   .. code-block:: bash
+   
+      connmanctl> connect wifi_2cc3e64146b2_6a686f6d652d30325f3547_managed_psk
+
+   The agent will then ask you to provide any information the daemon needs to complete the connection. The information requested will vary depending on the type of network you are connecting to. The agent will also print additional data about the information it needs as shown in the example below.
+
+   .. code-block:: bash
+   
+      Agent RequestInput wifi_2cc3e64146b2_6a686f6d652d30325f3547_managed_psk
+         Passphrase = [ Type=psk, Requirement=mandatory ]
+         Passphrase?
+
+   Provide the information requested, in this example the passphrase:
+
+   To enable autoconnect after reboot:
+
+   .. code-block:: bash
+
+      config wifi_2cc3e64146b2_6a686f6d652d30325f3547_managed_psk autoconnect on
+
+   And then type:
+
+   .. code-block:: bash
+      
+      connmanctl> quit
+
+   If the information you provided is correct you should now be connected to the protected access point. 
+
+4. You can check the status with:
+
+   .. code-block:: bash
+
+      connmanctl services wifi_2cc3e64146b2_6a686f6d652d30325f3547_managed_psk
+
+   It should give you:
+
+   .. code-block:: text
+
+      root@imx8mp-eisd:~# connmanctl services wifi_2cc3e64146b2_6a686f6d652d30325f3547_managed_psk
+
+      /net/connman/service/wifi_2cc3e64146b2_6a686f6d652d30325f3547_managed_psk
+        Type = wifi
+        Security = [ psk, wps ]
+        State = ready
+        Strength = 48
+        Favorite = True
+        Immutable = False
+        AutoConnect = True
+        Name = chipsee-5G
+        Ethernet = [ Method=auto, Interface=wlan0, Address=2C:C3:E6:41:46:B2, MTU=1500 ]
+        IPv4 = [ Method=dhcp, Address=192.168.50.133, Netmask=255.255.255.0 ]
+        IPv4.Configuration = [ Method=dhcp ]
+        IPv6 = [ Method=auto, Address=fd35:e01d:6481:2645:2ec3:e6ff:fe41:46b2, PrefixLength=64, Privacy=disabled ]
+        IPv6.Configuration = [ Method=auto, Privacy=disabled ]
+        Nameservers = [ 8.8.8.8 192.168.50.1 ]
+        Nameservers.Configuration = [  ]
+        Timeservers = [  ]
+        Timeservers.Configuration = [  ]
+        Domains = [  ]
+        Domains.Configuration = [  ]
+        Proxy = [ Method=direct ]
+        Proxy.Configuration = [  ]
+        mDNS = False
+        mDNS.Configuration = False
+        Provider = [  ]
+
+5. You should also be able to find a text config file of this WiFi's settings:
+
+   .. code-block:: text
+
+      root@imx8mp-eisd:~# cat /var/lib/connman/wifi_2cc3e64146b2_6a686f6d652d30325f3547_managed_psk/settings
+
+      [wifi_2cc3e64146b2_6a686f6d652d30325f3547_managed_psk]
+      Name=chipsee-5G
+      SSID=6a686f6d652d30325f3547
+      Frequency=5785
+      Favorite=true
+      AutoConnect=true
+      Modified=2024-03-05T08:51:16Z
+      Passphrase=password
+      IPv4.method=dhcp
+      IPv4.DHCP.LastAddress=192.168.50.133
+      IPv6.method=auto
+      IPv6.privacy=disabled
+
+:pagebreak:`True`

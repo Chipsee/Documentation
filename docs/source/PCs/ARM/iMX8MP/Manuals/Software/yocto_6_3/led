@@ -1,0 +1,22 @@
+LED
+---
+
+There is a red LED beside PROG button, you can control the LED by writing a file:
+
+.. code-block:: bash
+	:linenos:
+  	:emphasize-lines: 2, 7
+
+	# Turn on the red LED
+	root@imx8mp-eisd:/# echo 1 > /sys/class/leds/work/brightness
+	root@imx8mp-eisd:/# cat /sys/class/leds/work/brightness
+	1
+
+	# Turn off the red LED
+	root@imx8mp-eisd:/# echo 0 > /sys/class/leds/work/brightness
+	root@imx8mp-eisd:/# cat /sys/class/leds/work/brightness
+	0
+
+You can use your programming language to control it as well. Simply use the file (IO) system library to write this **/sys/class/leds/work/brightness** file.
+
+:pagebreak:`True`

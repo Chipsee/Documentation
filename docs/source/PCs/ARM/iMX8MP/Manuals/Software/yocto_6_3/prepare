@@ -1,0 +1,24 @@
+Prepare for Developing
+======================
+
+To get started, you first need to power on the |ipc|, then you may want to connect to this PC from your own laptop or computer to control it. Let's prepare some hardware and software to start developing.
+
+Prepare the Hardware
+--------------------
+
+To power on and connect to |ipc|, we need:
+
+#. A power adapter. For products with a screen of 7 inch and below, a power adapter with 6V ~ 36V DC output is required; for 10.1 inch and above products, you need one with 12V ~ 36V. For example: a switching mode power supply (SMPS), a laptop power adapter (such as Dell's or Intel NUC's 19V adapter), a router's power adapter (such as ASUS router's 12V power adapter), etc.
+#. A USB to serial cable (if you need serial debug).
+#. An Ethernet cable (if you want to SSH into the |ipc|). You may also use WiFi if your |ipc| supports WiFi, in this case you don't need the Ethernet cable.
+
+Prepare the Software
+--------------------
+
+Thanks to Linux OS, developing on |ipc| isn't really different from developing on any other PCs, you can use any developer software you're comfortable with.
+
+*The software listed below are not mandatory, they're recommendations because we find them easy to use:*
+
+#. To SSH into a |ipc|, you may find **PuTTY** on Windows handy; for Linux and macOS users, a terminal app should come with your OS out of box, like **Terminal/iTerm2** on macOS and **xterm** on Linux.
+
+:pagebreak:`True`
