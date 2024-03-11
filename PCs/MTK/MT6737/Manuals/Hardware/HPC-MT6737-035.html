@@ -199,6 +199,8 @@
         </li>
         <li class="md-nav__item"><a href="#dimension" class="md-nav__link">Dimension</a>
         </li>
+        <li class="md-nav__item"><a href="#barcode-admin-app" class="md-nav__link">Barcode Admin App</a>
+        </li>
         <li class="md-nav__item"><a href="#while-using-the-device" class="md-nav__link">While Using the Device</a><nav class="md-nav">
               <ul class="md-nav__list">
         <li class="md-nav__item"><a href="#usb" class="md-nav__link">USB</a>
@@ -425,6 +427,75 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p>The dimension of this product is 185 x 71 x 35 mm.</p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
+<section id="barcode-admin-app">
+<h2 id="barcode-admin-app">Barcode Admin App<a class="headerlink" href="#barcode-admin-app" title="Permalink to this heading">¶</a></h2>
+<p>The device has a Barcode Admin App to set up the barcode scanner module. Here is how to use it.</p>
+<p>Click the BarcodeAdmin app in the APP icons:</p>
+<a class="reference internal image-reference" href="../../../../../_images/HPC-MT6737-035-App-image1.png"><img alt="barcode-admin-1" class="align-center" src="../../../../../_images/HPC-MT6737-035-App-image1.png" style="width: 360px;"/></a>
+<ol class="arabic">
+<li><p><strong>Barcode Scan Function</strong></p>
+<p>Toggle on and off the barcode scan function:</p>
+<a class="reference internal image-reference" href="../../../../../_images/HPC-MT6737-035-App-image3.png"><img alt="barcode-admin-3" class="align-center" src="../../../../../_images/HPC-MT6737-035-App-image3.png" style="width: 360px;"/></a>
+</li>
+<li><p><strong>Scan by Pressing Key</strong></p>
+<p>If “Enable Scan Key” is on, you can tick the boxes below to control which keys can trigger a scan (key names may vary on different models):</p>
+<a class="reference internal image-reference" href="../../../../../_images/HPC-MT6737-035-App-image4.png"><img alt="barcode-admin-4" class="align-center" src="../../../../../_images/HPC-MT6737-035-App-image4.png" style="width: 360px;"/></a>
+</li>
+<li><p><strong>Output Setting</strong></p>
+<a class="reference internal image-reference" href="../../../../../_images/HPC-MT6737-035-App-image5.png"><img alt="barcode-admin-5" class="align-center" src="../../../../../_images/HPC-MT6737-035-App-image5.png" style="width: 360px;"/></a>
+<ol class="arabic">
+<li><p><strong>Trigger method</strong></p>
+<p>Default mode is short press to trigger a scan, until timeout:</p>
+<a class="reference internal image-reference" href="../../../../../_images/HPC-MT6737-035-App-image6.png"><img alt="barcode-admin-6" class="align-center" src="../../../../../_images/HPC-MT6737-035-App-image6.png" style="width: 360px;"/></a>
+</li>
+<li><p><strong>Output Mode</strong></p>
+<p><strong>Broadcast output</strong>: Suitable for APPs developed based on this barcode service.</p>
+<p><strong>Add data to EditText automatically after scan data</strong>: Fill in the data directly after scanning, suitable for any APPs that can be installed.</p>
+<p><strong>ADD data to EditText automatically by sending virtual events</strong>: For old Android version devices, this option fills in the data by sending virtual keyboard input events after scanning.</p>
+<a class="reference internal image-reference" href="../../../../../_images/HPC-MT6737-035-App-image7.png"><img alt="barcode-admin-7" class="align-center" src="../../../../../_images/HPC-MT6737-035-App-image7.png" style="width: 360px;"/></a>
+</li>
+<li><p><strong>Automatic Commit</strong></p>
+<p>Automatically commit data after scanning (like automatically hit return/confirm button).</p>
+</li>
+<li><p><strong>Data Trim (delete whitespace)</strong></p>
+<p>For barcodes with prefix whitespace or suffix whitespace, this function automatically deletes them.</p>
+<a class="reference internal image-reference" href="../../../../../_images/HPC-MT6737-035-App-image8.png"><img alt="barcode-admin-8" class="align-center" src="../../../../../_images/HPC-MT6737-035-App-image8.png" style="width: 360px;"/></a>
+</li>
+<li><p><strong>Output Separator</strong></p>
+<p>Add a separator after scanning when output.</p>
+<p><strong>TAB</strong>: Suitable for saving tables, like pressing the Excel line feed button.</p>
+<p><strong>Dot / Star</strong>: Add a (. or *) symbol after scanning.</p>
+<a class="reference internal image-reference" href="../../../../../_images/HPC-MT6737-035-App-image9.png"><img alt="barcode-admin-9" class="align-center" src="../../../../../_images/HPC-MT6737-035-App-image9.png" style="width: 360px;"/></a>
+</li>
+</ol>
+</li>
+<li><p><strong>Tips Settings</strong></p>
+<p>Set an indication when scanning a barcode.</p>
+<ol class="arabic simple">
+<li><p><strong>Indicator tone</strong>: Select a barcode scan Success sound.</p></li>
+<li><p><strong>Tone volume</strong>: The volume of the sound.</p></li>
+<li><p><strong>Indicator Led</strong>: If enabled, the power indicator will blink after a successful scan.</p></li>
+<li><p><strong>Indicator Vibrator</strong>: If enabled, the device vibrates after a successful scan.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../../../../_images/HPC-MT6737-035-App-image10.png"><img alt="barcode-admin-10" class="align-center" src="../../../../../_images/HPC-MT6737-035-App-image10.png" style="width: 360px;"/></a>
+</li>
+<li><p><strong>Other Settings</strong></p>
+<ol class="arabic simple">
+<li><p><strong>Supported Code Setting</strong>: Common barcode types are supported out of box, special types need to be checked manually in this setting.</p></li>
+<li><p><strong>Laser Time</strong>: The laser is turned on when scanning, this option configures how long the laser would be turned on when scanning. After a successful scan, the laser will be turned off automatically.</p></li>
+<li><p><strong>Continue Scan Time</strong>: This is a time interval, when scanning continuously, after a successful scan, the laser will be turned on again after this interval.</p></li>
+<li><p><strong>Continuous scan</strong>: If enabled, after pressing the scan key once, the user can scan continuously.</p></li>
+<li><p><strong>Data Encoding</strong>:To decode the scanned data, this option specifies the encoding format of the scanned data. Usually, a user doesn’t need to configure this setting.</p></li>
+<li><p><strong>Factory Reset</strong>: Reset to the default settings when the scanner is installed.</p></li>
+<li><p><strong>Baud rate</strong>: Set the baud rate to comply with the scanner module used (usually, it is already configured in the factory).</p></li>
+<li><p><strong>Scan About</strong>: The information of scanner modules, software versions, etc.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../../../../_images/HPC-MT6737-035-App-image11.png"><img alt="barcode-admin-11" class="align-center" src="../../../../../_images/HPC-MT6737-035-App-image11.png" style="width: 360px;"/></a>
+<a class="reference internal image-reference" href="../../../../../_images/HPC-MT6737-035-App-image12.png"><img alt="barcode-admin-12" class="align-center" src="../../../../../_images/HPC-MT6737-035-App-image12.png" style="width: 360px;"/></a>
+</li>
+</ol>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
 <section id="while-using-the-device">
 <h2 id="while-using-the-device">While Using the Device<a class="headerlink" href="#while-using-the-device" title="Permalink to this heading">¶</a></h2>
 <section id="usb">
@@ -599,7 +670,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
               
           </div>
             Last updated on
-              Mar 04, 2024.
+              Mar 11, 2024.
             <br/>
         </div>
     <!-- GDPR Consent Banner -->
