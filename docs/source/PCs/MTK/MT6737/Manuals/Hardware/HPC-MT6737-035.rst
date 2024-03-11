@@ -197,6 +197,135 @@ The dimension of this product is 185 x 71 x 35 mm.
 
 :pagebreak:`True`
 
+Barcode Admin App
+=================
+
+The device has a Barcode Admin App to set up the barcode scanner module. Here is how to use it.
+
+Click the BarcodeAdmin app in the APP icons:
+   
+.. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-App-image1.png
+   :align: center
+   :width: 360
+   :alt: barcode-admin-1 
+
+1. **Barcode Scan Function**
+
+   Toggle on and off the barcode scan function:
+
+   .. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-App-image3.png
+      :align: center
+      :width: 360
+      :alt: barcode-admin-3
+ 
+2. **Scan by Pressing Key** 
+
+   If "Enable Scan Key" is on, you can tick the boxes below to control which keys can trigger a scan (key names may vary on different models):
+
+   .. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-App-image4.png
+      :align: center
+      :width: 360
+      :alt: barcode-admin-4
+
+3. **Output Setting**
+
+   .. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-App-image5.png
+      :align: center
+      :width: 360
+      :alt: barcode-admin-5
+
+   1. **Trigger method**
+
+      Default mode is short press to trigger a scan, until timeout: 
+
+      .. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-App-image6.png
+         :align: center
+         :width: 360
+         :alt: barcode-admin-6
+
+   2. **Output Mode**
+
+      **Broadcast output**: Suitable for APPs developed based on this barcode service.
+
+      **Add data to EditText automatically after scan data**: Fill in the data directly after scanning, suitable for any APPs that can be installed.
+
+      **ADD data to EditText automatically by sending virtual events**: For old Android version devices, this option fills in the data by sending virtual keyboard input events after scanning.
+
+      .. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-App-image7.png
+         :align: center
+         :width: 360
+         :alt: barcode-admin-7
+
+   3. **Automatic Commit**
+
+      Automatically commit data after scanning (like automatically hit return/confirm button).
+
+   4. **Data Trim (delete whitespace)**
+
+      For barcodes with prefix whitespace or suffix whitespace, this function automatically deletes them. 
+
+      .. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-App-image8.png
+         :align: center
+         :width: 360
+         :alt: barcode-admin-8
+      
+   5. **Output Separator**
+
+      Add a separator after scanning when output.
+
+      **TAB**: Suitable for saving tables, like pressing the Excel line feed button.
+
+      **Dot / Star**: Add a (. or \*) symbol after scanning. 
+
+      .. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-App-image9.png
+         :align: center
+         :width: 360
+         :alt: barcode-admin-9
+
+4. **Tips Settings**
+
+   Set an indication when scanning a barcode.
+
+   1. **Indicator tone**: Select a barcode scan Success sound.
+   2. **Tone volume**: The volume of the sound.
+   3. **Indicator Led**: If enabled, the power indicator will blink after a successful scan.
+   4. **Indicator Vibrator**: If enabled, the device vibrates after a successful scan.
+ 
+   .. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-App-image10.png
+         :align: center
+         :width: 360
+         :alt: barcode-admin-10
+
+5. **Other Settings**
+
+   1. **Supported Code Setting**: Common barcode types are supported out of box, special types need to be checked manually in this setting.
+
+   2. **Laser Time**: The laser is turned on when scanning, this option configures how long the laser would be turned on when scanning. After a successful scan, the laser will be turned off automatically.
+
+   3. **Continue Scan Time**: This is a time interval, when scanning continuously, after a successful scan, the laser will be turned on again after this interval.
+
+   4. **Continuous scan**: If enabled, after pressing the scan key once, the user can scan continuously.
+
+   5. **Data Encoding**:To decode the scanned data, this option specifies the encoding format of the scanned data. Usually, a user doesn’t need to configure this setting.
+
+   6. **Factory Reset**: Reset to the default settings when the scanner is installed.
+
+   7. **Baud rate**: Set the baud rate to comply with the scanner module used (usually, it is already configured in the factory).
+
+   8. **Scan About**: The information of scanner modules, software versions, etc.
+     
+   .. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-App-image11.png
+         :align: center
+         :width: 360
+         :alt: barcode-admin-11
+
+   .. image:: /Media/MTK/MT6737/035/HPC-MT6737-035-App-image12.png
+         :align: center
+         :width: 360
+         :alt: barcode-admin-12
+
+:pagebreak:`True`
+
 .. include:: /PCs/MTK/Shared/Resources/when-operating
 
 .. include:: /PCs/MTK/Shared/Resources/safety
