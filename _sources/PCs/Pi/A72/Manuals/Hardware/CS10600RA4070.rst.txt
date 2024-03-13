@@ -34,7 +34,7 @@
 
 .. |disp_table| replace:: |dispsize| IPS LCD, |res| resolution \px, brightness |bright|
 
-.. |dimE| replace:: 190 x 108 x 28mm
+.. |dimE| replace:: 190 × 107.8 × 27.7 mm
 
 .. |dimP| replace:: 206 x 135 x 30mm
 
