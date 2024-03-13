@@ -208,6 +208,21 @@ BOX
    <div class="col">
       <div class="index-item">
 
+21.5 Inch Kiosk
+|KIOSK-CM4-215|
+
+:ref:`KIOSK-CM4-215<KIOSK-CM4-215>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
 5 Inch (Legacy)
 |EPC/PPC-CM4-050|
 
@@ -261,6 +276,9 @@ BOX
 .. |CS-CM4-BOX| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/Pi/A72/Manuals/Hardware/CSRA4BOX.html
+.. |KIOSK-CM4-215| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/Pi/A72/Manuals/Hardware/CS19108RA4215-KK.html   
 .. |EPC/PPC-CM4-050| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front-Low.jpeg
    :class: index-item-img
    :target: /PCs/Pi/A72/Manuals/Hardware/CS12720RA4050.html
@@ -283,4 +301,5 @@ BOX
    PPC-CM4-215 </PCs/Pi/A72/Manuals/Hardware/CS19108RA4215>
    PPC-CM4-236 </PCs/Pi/A72/Manuals/Hardware/CS19108RA4236>
    CS-CM4-BOX </PCs/Pi/A72/Manuals/Hardware/CSRA4BOX>
+   KIOSK-CM4-215 </PCs/Pi/A72/Manuals/Hardware/CS19108RA4215-KK>
    EPC/PPC-CM4-050(Legacy) </PCs/Pi/A72/Manuals/Hardware/CS12720RA4050>
