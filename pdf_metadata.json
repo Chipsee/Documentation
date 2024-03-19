@@ -978,6 +978,12 @@
             "pdf-filename": "PPC-CM4-215",
             "pdf-type": "ipc"
         },
+        "PCs/Pi/A72/Manuals/Hardware/CS19108RA4215-KK": {
+            "pdf-title": "KIOSK-CM4-215",
+            "pdf-subtitle": "PN: CS19108RA4215-KK",
+            "pdf-filename": "KIOSK-CM4-215",
+            "pdf-type": "ipc"
+        },
         "PCs/Pi/A72/Manuals/Hardware/CS19108RA4236": {
             "pdf-title": "PPC-CM4-236",
             "pdf-subtitle": "PN: CS19108RA4236",
