@@ -151,7 +151,7 @@ You can mount |productE| with the Embedded mounting method, as shown on the figu
 
 |productP|
 ----------
-You can mount |productP| with the Panel mounting method, as shown on the figure below.
+You can mount |productP| with the Panel mounting method, as shown on the figure below. The grey area indicates your equipment or your machine that you want the Chipsee device to be panel mounted into. To learn more you can jump below to view the 3D viewer of this product, there are mounting screws provided by Chipsee to help you mount this device.
 
 .. Figure:: /Media/ARM/A8/AM3354/Mount.jpeg
   :align: center
