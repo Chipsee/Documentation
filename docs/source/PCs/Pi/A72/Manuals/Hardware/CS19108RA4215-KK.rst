@@ -1,0 +1,459 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: KIOSK-CM4-215
+
+.. |productP| replace:: KIOSK-CM4-215
+
+.. |PN| replace:: PN: CS19108RA4215-KK
+
+.. |dispsize| replace:: 21.5"
+
+.. |res| replace:: 1920 x 1080
+
+.. |bright| replace:: 500 |cd|
+
+.. |dimE| replace:: NULL
+
+.. |dimP| replace:: 826 x 380 x 138mm
+
+.. |weightE| replace:: NULL
+
+.. |weightP| replace:: 16.6kg
+
+.. |cur| replace:: Less than 1.5A
+
+.. |pwr| replace:: 33W Typical, 45W Maximum
+
+.. |temp| replace:: From 0°C to +50°C
+
+.. |dim_desc| replace:: |productP|: |dimP|
+
+.. |weight_desc| replace:: |productP|: |weightP|
+
+.. |Product| replace:: The |product| industrial Pi Kiosk
+
+.. |CM4_cpu| replace:: Raspberry |Pi| CM4; Quad Cortex-A72 at 1.5GHz
+
+.. |TFNum| replace:: 1
+
+.. |tf_des| replace:: This TF card is designed for storage expansion, as the TF card uses the same pins with WiFi, it can't be used with WiFi at the same time
+
+.. |usb_hub_conflict| replace:: two USB host connectors, Zigbee and 4G/LTE
+
+.. |disp_des| replace:: |dispsize| Ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |disp_table| replace:: |dispsize| IPS LCD, |res| resolution, brightness |bright|
+
+.. |tscreen| replace:: 10-point capacitive touch with 1mm Armored Glass, Single-Point touch in Raspberry Pi OS Software
+
+.. |rs232_485_can_ter| replace:: phoenix terminal
+
+.. |rs232_rs485_conf| replace:: The 2 x RS485 can be configured to 2 x RS232, if you want a custom configuration, you can contact us when placing an order.
+
+.. |gpio_conn| replace:: **phoenix connector**
+
+.. |cap_screen_conn| replace:: USB connector
+
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
+.. |camera_desc| replace:: No
+
+.. |USB_attention| replace:: 1\. These two USB host connectors can drive 500mA for each channel at most.
+
+.. |zigbee_des| replace:: Not supported
+
+.. |USB| replace:: 2 x USB 3.0 Host, 1 x USB OTG
+
+.. |LAN| replace:: 1 x Giga LAN
+
+.. |TF_boot| replace:: The SD is used for memory extension. It can’t be used for system boot-up.
+
+.. |TF_storage| replace:: This storage extension SD uses the same pins as WiFi on CM4. SD storage and WiFi **can't** be used at the same time.
+
+.. |GPIO| replace:: 8 Channels, 4 Input, 4 Output
+
+.. |hdmi_des| replace:: Not Supported
+
+.. |sata_des| replace:: Not Supported
+
+.. |mounting_table| replace:: Rear Mount
+
+.. |power_conn_desc| replace:: It is a **3 Pin, 3.81mm screw terminal** connector.
+
+.. |opt1| replace:: Supported, not mounted by default
+
+.. |opt2| replace:: Supported but depending on the CM4 selected
+
+.. |vin_rng| replace:: 100-240V AC 50/60Hz
+
+.. _product_link: https://chipsee.com/product/KIOSK-CM4-215/
+
+.. |product_link| replace:: KIOSK-CM4-215
+
+.. |power_img| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Power.jpg
+                  :align: middle
+                  :width: 960
+
+.. |rs232_485_can_img| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-RS232-485-CAN.jpg
+                  :align: middle
+                  :width: 960
+
+.. |gpio_img| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-GPIO.jpg
+                  :align: middle
+                  :width: 960
+
+.. |ts_con_img| image:: /Media/Pi/A72/CS19108RA4133/USB_Touch.jpg
+                  :align: middle
+                  :width: 192
+                  
+.. |usb_a_img| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-USBA.jpg
+                   :align: middle
+                   :width: 960
+
+.. |usb_c_img| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-USBC.jpg
+                   :align: middle
+                   :width: 960
+
+
+.. |tf_img| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-TF.jpg
+                  :align: middle
+                  :width: 960
+
+.. |audio_img| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Audio.jpg
+                  :align: middle
+                  :width: 960
+
+.. |prog_btn_img| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-PROG.jpg
+                  :align: middle
+                  :width: 960
+
+.. |sim_img| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-SIM.jpg
+                  :align: middle
+                  :width: 960
+                  
+.. |td_img| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-TD.webp
+                  :align: middle
+                  :width: 960
+
+.. |wifi_img| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-WIFI.jpg
+                  :align: middle
+                  :width: 960
+
+.. |4g_img| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-4G.jpg
+                  :align: middle
+                  :width: 960
+
+.. |lan_img| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-LAN.jpg
+                  :align: middle
+                  :width: 960
+                  
+.. |Cover PNG| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Front.png
+
+.. |Front View| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Side2.jpg
+                  :class: product-img
+
+.. _KIOSK-CM4-215:
+
+|product|
+#########
+
+.. include:: /PCs/Shared/four_main_images
+
+Product Overview
+=================
+
+The |Cortex|-A72 Raspberry |Pi| series |product| (|PN|) is a high-quality KIOSK product. It features a |disp_des|.
+
+.. sidebar:: Key Applications
+   
+    + Ticket machines (e.g., for transportation such as trains, buses, and subways)
+    + Self-service check-in kiosks at airports
+    + Informational kiosks in public spaces (e.g., parks, museums, tourist attractions)
+    + Retail kiosks in shopping malls and retail stores
+    + Food and beverage kiosks in airports, train stations, and malls
+    + Self-service payment kiosks at parking lots or toll booths
+    + Interactive directory kiosks in large buildings or campuses
+    + Interactive map kiosks in tourist areas or cities
+    + Self-ordering kiosks in fast-food restaurants or cafes
+    + Prescription pickup kiosks in pharmacies or healthcare facilities
+    + Check-in kiosks at hotels or rental car facilities
+    + Event ticketing kiosks at concert venues or theaters
+
+|Product| is based around the powerful Raspberry |Pi| Compute Module 4, powered by the Quad |Cortex|-A72 processor with a processor speed of 1.5GHz.
+
+:pagebreak:`True`
+
+
+.. include:: Resources/ordering
+
+Optional Features
+-----------------
+
+|Product| does not include the 3G/4G/LTE modules by default. These modules are optional and can be selected at the Chipsee store during the ordering process.
+
+|Product| includes a 13.56MHz contactless(ISO-14443A) smart card reader, it can be customized and upgraded to a hybrid dual interface contact(ISO-7816) and contactless(ISO-14443) smart card reader while placing an order.
+
+.. warning::   
+
+   | Installation, repair, and maintenance tasks should be performed by trained personnel only.
+   | Chipsee does not bear any responsibility for damage caused by inadequate handling of the product.
+
+:pagebreak:`True`
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+
+
+Label Printer
+=============
+
+|Product| features a thermal label printer (SPRT SP-RMD17).
+
+.. rst-class:: text-center
+
+   .. image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Printer.jpg
+      :align: center
+      :width: 960
+
+   *Thermal Label Printer*
+
+**Printing Performance**
+
+1. Printing Method: Thermal Printing
+2. Paper Width: 57.5±0.5mm
+3. Printing Density: 8 dots/mm, 384 dots/line
+4. Printing Speed: 70mm/second (maximum)
+5. Reliability: Printhead Lifespan - 60km
+   
+   Usage Conditions:
+
+      1. Print 12 × 24 Western characters, 50 lines per print, intermittently repeat printing
+      2. Simultaneous printing of each dot line does not exceed 25%, no more than 11 vertical repetitions of the same point for each character line
+      3. Use specified thermal paper
+
+6. Effective Printing Width: 48mm
+
+**Printing Paper**
+
+1. Thermal Paper Roll Model: 
+
+   1. TF50KS-E (Japan Paper Co. Ltd.)
+   2. AF50KS-E (Jujo Thermal)
+
+2. Thermal Paper Roll:
+
+   1. Paper Width: 57.5±0.5mm
+   2. Outer Diameter: φ60mm (maximum)
+   3. Inner Diameter: φ13mm±0.3 (minimum)
+   4. Paper Thickness: 0.06mm~0.08mm
+
+**Printer Control Commands**
+
+1. Character Printing Commands: Supports printing of ANK characters, custom characters, with adjustable character line spacing.
+2. Dot Matrix Printing Commands: Supports printing of dot matrix graphics with different densities and downloaded graphics.
+3. GS Barcode Printing Commands: Supports printing of UPC-A, UPC-E, EAN-13, EAN-8, CODE39, ITF25, CODABAR, CODE93, CODE128 barcodes.
+
+:pagebreak:`True`
+
+Barcode Scanner
+===============
+
+|Product| features a barcode scanner:
+
+.. rst-class:: text-center
+
+   .. image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Scanner-1.jpg
+      :align: center
+      :width: 960
+
+   *Barcode Scanner (Standard)*
+
+.. rst-class:: text-center
+
+   .. image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Scanner-2.jpg
+      :align: center
+      :width: 960
+
+   *Barcode Scanner (Customized)*
+
+The scanner module utilizes a specialized image processing chip for barcode recognition, enabling fast and stable code reading even in complex environments. 
+
+It supports reading one-dimensional(1D) and two-dimensional(2D) codes on various media such as paper, screens, and plastics.
+
+**Triggering Methods**: Automatic sensing, continuous reading, command triggering
+
+**Camera**: 1.3MP 720p
+
+**Scanning Angle**: Tilt angle ±85°, rotation 360°
+
+**Supported Barcode Types**:
+
+- 1D codes: UPC-A, UPC-E, EAN-13, ISBN10, ISBN13, EAN-8, CODE39, CODE 11, CODE 93, CODE128, INTERLEAVED25, INDUSTRIAL25, MATRIX25, S25, CODE 32, TRIOPTIC39, GS1_128, CODABAR, MSI, China Post code, TELEPEN, RSS, GS1_DATABAR, GS1_DATABAR_LIM, GS1_DATABAR_EXP;
+- 2D codes: QR, MICROQR, PDF417, Data Matrix
+
+**Reading Distance**: 5cm ~ 20cm
+
+:pagebreak:`True`
+
+Smart Card Reader
+=================
+
+|Product| features a smart card reader, there are two models of smart card reader module for this product:
+
+1. R20C 13.56Mhz contactless card reader;
+2. RCR-2900 hybrid dual interface (contact and contactless) card reader.
+
+.. note::
+
+   By **default** the product ships with a **contactless card reader** (R20C module). 
+
+   If you want the dual interface (contact and contactless) card reader, you can select it in the Chipsee online shop when placing an order, or contact us directly.
+
+Option 1: R20C(Contactless)
+---------------------------
+
+This is the default smart card reader of |product|.
+
+It supports ISO14443A protocol, contactless smart card reading.
+
+**Operating Frequency**: 13.56MHz
+
+**Protocol Support**: ISO14443A Protocol
+
+**Card Reading Types**: MF/S50/S70, etc.
+
+**Reading Distance**: 0~80mm
+
+**Reading Speed**: 0.2s
+
+**Reading Time**: <100ms
+
+**Reading Interval**: 0.5s
+
+**Status Indicator**: 2-color LED (red: power, green: status)
+
+**Output Format**: Default 10-digit decimal (4 bytes)
+
+.. rst-class:: text-center
+
+   .. image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Card-1.jpg
+      :align: center
+      :width: 960
+
+   *Smart Card Reader (Contactless)*
+
+Option 2: RCR-2900(Contact and contactless)
+-------------------------------------------
+
+|Product| can be customized to integrate a **contact and contactless** smart card reader instead of the default contactless reader.
+
+The RCR-2900 smart card reader supports hybrid dual interface contact(ISO-7816) and contactless(ISO-14443) card reading.
+
+It is a powerful and efficient dual interface smart card reader that can be used to access ISO 7816 MCU cards, MIFARE® cards and ISO 14443 Type A and B contactless cards. 
+
+.. rst-class:: text-center
+
+   .. image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Card-2.jpg
+      :align: center
+      :width: 960
+
+   *Smart Card Reader (Contact and Contactless)*
+
+Power Input
+===========
+
+|Product| power input is |vin_rng|. As shown in the figure below.
+
+.. rst-class:: text-center
+
+    |power_img|
+
+    *Power Input*
+
+:pagebreak:`True`
+
+Touch Screen
+============
+
+|Product| uses a |tscreen| screen. However, the Raspberry Pi OS supports only One-Point touch. |br|
+The figure below shows the capacitive touch screen connected to the motherboard via the |cap_screen_conn|.
+
+.. rst-class:: text-center
+
+   |ts_con_img|
+  
+   *Capacitive Touch Connector*
+
+:pagebreak:`True`
+
+.. include:: Resources/connectivity
+
+.. include:: Resources/CS12800RA4101/connectivity_table
+
+.. include:: Resources/gpio
+
+.. include:: Resources/CS12800RA4101/gpio_table
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+WiFi & BT Module
+----------------
+
+The default |product| without the CM4 does not include a Wi-Fi/BT module.
+
+If you buy a CM4 that has the Wi-Fi/BT module, the product will have Wi-Fi/BT feature.
+
+By default the kiosk doesn't ship with WiFi antenna SMA, nor is there a drill hole. But if you buy the CM4 with Wi-Fi/BT module from us or contact us when placing an order, we can drill hole on the kiosk and install the antenna SMA for you.
+
+.. rst-class:: text-center
+
+   |wifi_img|
+
+   *WiFi+BT Antenna*
+
+.. attention::
+
+    The product does not come shipped with the Wi-Fi/BT module by default.
+
+:pagebreak:`True`
+
+.. include:: Resources/4G_com
+
+.. rst-class:: text-center
+
+   |4g_img|
+
+   *4G Antenna*
+
+:pagebreak:`True`
+
+.. include:: Resources/TF
+
+.. include:: Resources/audio_io
+
+.. include:: Resources/prog_btn
+
+.. include:: Resources/mechanical
+
+.. rst-class:: text-center
+
+    |td_img|
+
+    *Technical Drawing*
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support
