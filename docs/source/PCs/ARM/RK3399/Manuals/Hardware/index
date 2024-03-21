@@ -281,75 +281,75 @@ RK3399 / A72
 
 .. |EPC/PPC-A72-070-C| image:: /Media/ARM/A72/CS10600R070/PPC-A72-070-C-Front-Low.jpeg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS10600R070.html
+   :target: RK3399/Manuals/Hardware/CS10600R070.html
 
 .. |PPC-A72-101| image:: /Media/ARM/A72/CS12800R101P/CS12800R101P-Front-Low.jpeg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS12800R101P.html
+   :target: `PPC-A72-101`_
 
 .. |PPC-A72-121-P| image:: /Media/ARM/A72/CS10768R121P/CS10768R121P-Front-Low.jpg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS10768R121P.html
+   :target: RK3399/Manuals/Hardware/CS10768R121P.html
 
 .. |PPC-A72-125-C| image:: /Media/ARM/A72/CS19108R125/PPC-A72-125-C-Front-Low.jpeg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R125.html
+   :target: RK3399/Manuals/Hardware/CS19108R125.html
    
 .. |PPC-A72-133-P| image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-P-Front-Low.jpg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R133P.html
+   :target: RK3399/Manuals/Hardware/CS19108R133P.html
 
 .. |PPC-A72-150-P| image:: /Media/ARM/A72/CS10768R150P/CS10768R150P-Front-Low.jpg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS10768R150P.html
+   :target: RK3399/Manuals/Hardware/CS10768R150P.html
 
 .. |PPC-A72-156-P| image:: /Media/ARM/A72/CS19108R156P/CS19108R156P-Front-Low.jpg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R156P.html
+   :target: RK3399/Manuals/Hardware/CS19108R156P.html
 
 .. |PPC-A72-170-C| image:: /Media/ARM/A72/CS12102R170P/CS12102R170P-Front-Low.jpg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS12102R170P.html
+   :target: RK3399/Manuals/Hardware/CS12102R170P.html
 
 .. |PPC-A72-173-C| image:: /Media/ARM/A72/CS19108R173/PPC-A72-173-C-Front-Low.jpeg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R173.html
+   :target: RK3399/Manuals/Hardware/CS19108R173.html
 
 .. |PPC-A72-185-C| image:: /Media/ARM/A72/CS19108R185P/CS19108R185P-Front-Low.jpg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R185P.html
+   :target: RK3399/Manuals/Hardware/CS19108R185P.html
 
 .. |PPC-A72-190-C| image:: /Media/ARM/A72/CS12102R190P/CS12102R190P-Front-Low.jpg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS12102R190P.html
+   :target: RK3399/Manuals/Hardware/CS12102R190P.html
    
 .. |PPC-A72-215-P| image:: /Media/ARM/A72/CS19108R215P2/CS19108R215P2-Front-Low.jpg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R215P2.html
+   :target: RK3399/Manuals/Hardware/CS19108R215P2.html
 
 .. |PPC-A72-236| image:: /Media/ARM/A72/CS19108R236P/CS19108R236P-Front-Low.jpg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R236P.html
+   :target: RK3399/Manuals/Hardware/CS19108R236P.html
 
 .. |EPC/PPC-A72-101-C| image:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-Front-Low.jpeg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS12800R101.html
+   :target: RK3399/Manuals/Hardware/CS12800R101.html
 
 .. |PPC-A72-133-C| image:: /Media/ARM/A72/CS19108R133/PPC-A72-133-C-Front-Low.jpeg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R133.html
+   :target: RK3399/Manuals/Hardware/CS19108R133.html
 
 .. |PPC-A72-150-C| image:: /Media/ARM/A72/CS10768R150/PPC-A72-150-C-Front-Low.jpeg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS10768R150.html
+   :target: RK3399/Manuals/Hardware/CS10768R150.html
 
 .. |PPC-A72-156-C| image:: /Media/ARM/A72/CS19108R156/PPC-A72-156-C-Front-Low.jpeg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R156.html
+   :target: RK3399/Manuals/Hardware/CS19108R156.html
 
 .. |PPC-A72-215-C| image:: /Media/ARM/A72/CS19108R215/PPC-A72-215-C-Front-Low.jpeg
    :class: index-item-img
-   :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R215.html
+   :target: RK3399/Manuals/Hardware/CS19108R215.html
 
 
 .. toctree::
