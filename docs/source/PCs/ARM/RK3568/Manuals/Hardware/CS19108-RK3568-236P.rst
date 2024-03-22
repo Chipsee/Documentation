@@ -14,7 +14,7 @@
 
 .. |res| replace:: 1920 x 1080
 
-.. |bright| replace:: 400 |cd|
+.. |bright| replace:: 250 |cd|
 
 .. |dimE| replace:: NULL
 
