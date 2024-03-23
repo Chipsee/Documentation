@@ -12,11 +12,10 @@ For PX30
 
 Firmware
 
-.. raw:: html
-         
-         <a href="/PCs/ARM/PX30/AIO/OS_Downloads/index.html">
-            <img src="/_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
-         </a>
+.. image:: /_static/images/os_download_icon.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/ARM/PX30/AIO/OS_Downloads/index.html
 
 :ref:`OS Downloads <PX30_OSDownloads>`
 
@@ -32,11 +31,10 @@ Firmware
 
 Doc
 
-.. raw:: html
-
-         <a href="/PCs/ARM/PX30/AIO/Manuals/Software/Debian_10.html">
-            <img src="/_static/images/os_logo_debian.png" class="img-fluid text-center" width="100px">
-         </a>
+.. image:: /_static/images/os_logo_debian.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/ARM/PX30/AIO/Manuals/Software/Debian_10.html
 
 :ref:`Debian 10<px30_os_debian10>`
 
@@ -52,11 +50,10 @@ Doc
 
 Doc
 
-.. raw:: html
-
-         <a href="/PCs/ARM/PX30/AIO/Manuals/Software/Buildroot_Linux_qt_5_14.html">
-            <img src="/_static/images/os_logo_linux.png" class="img-fluid text-center" width="100px">
-         </a>
+.. image:: /_static/images/os_logo_linux.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/ARM/PX30/AIO/Manuals/Software/Buildroot_Linux_qt_5_14.html
 
 :ref:`Buildroot Linux Qt 5.14<px30_os_linuxqt_514>`
 

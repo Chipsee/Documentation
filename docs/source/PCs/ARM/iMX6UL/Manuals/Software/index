@@ -12,11 +12,10 @@ For iMX6UL
 
 Firmware
 
-.. raw:: html
-
-         <a href="/PCs/ARM/iMX6UL/OS_Downloads/index.html">
-            <img src="/_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
-         </a>
+.. image:: /_static/images/os_download_icon.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/ARM/iMX6UL/OS_Downloads/index.html
 
 :ref:`OS Downloads <IMX6UL_OSDownloads>`
 
@@ -32,11 +31,10 @@ Firmware
 
 Doc
 
-.. raw:: html
-
-         <a href="/PCs/ARM/iMX6UL/Manuals/Software/LinuxQT.html">
-            <img src="/_static/images/os_logo_linux.png" class="img-fluid text-center" width="100px">
-         </a>
+.. image:: /_static/images/os_logo_linux.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/ARM/iMX6UL/Manuals/Software/LinuxQT.html
 
 :ref:`Linux Qt 5.5 <imx6ul_os_linuxqt55>`
 
@@ -52,11 +50,10 @@ Doc
 
 Doc
 
-.. raw:: html
-
-         <a href="/PCs/ARM/iMX6UL/Manuals/Software/Debian.html">
-            <img src="/_static/images/os_logo_debian.png" class="img-fluid text-center" width="100px">
-         </a>
+.. image:: /_static/images/os_logo_debian.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/ARM/iMX6UL/Manuals/Software/Debian.html
 
 :ref:`Debian 8.10 <imx6ul_os_debian810>`
 

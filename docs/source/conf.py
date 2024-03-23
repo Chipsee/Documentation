@@ -4,6 +4,12 @@
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+from pathlib import Path
+
+from docutils.parsers.rst.directives.images import Image
+from sphinx.environment import BuildEnvironment
+from sphinx.util.osutil import relpath
+
 # -- Path setup --------------------------------------------------------------
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -167,3 +173,39 @@ pdfgen_toc_title = "Contents"
 pdfgen_toc_level = 6
 pdfgen_cover_images = {"default": "_static/images/cover.png"}
 pdfgen_plugin_handler_path = "custom_code.py"
+
+
+class CustomImageDirective(Image):
+    def run(self):
+        # Get the Sphinx Build environment
+        build_env: BuildEnvironment = self.state.document.settings.env
+        directives_options = self.options
+
+        if 'target' in directives_options:
+            # Correct the :target: option's URI by resolving the URI
+            # based on the document in which the `..image` directive was used.
+            target_opt: str = directives_options['target']
+            if target_opt.startswith("/") and target_opt.endswith(".html"):
+                src_dir = Path(build_env.srcdir)
+                base = src_dir.joinpath(build_env.docname).parent
+                target_to = src_dir.joinpath(f"{target_opt.lstrip('/').removesuffix('.html')}.rst")
+                resolve_relpath = relpath(
+                    path=str(target_to),
+                    start=str(base)
+                )
+                new_target = f"{resolve_relpath.removesuffix('.rst')}.html"
+                directives_options["target"] = new_target
+
+        # Call the run method of the parent (default Sphinx Image Directive) class
+        image_nodes = super().run()
+        return image_nodes
+
+def setup(app):
+    # Override the existing image directive with our custom image directive
+    app.add_directive("image", CustomImageDirective)
+
+    return {
+        'version': '0.1',
+        'parallel_read_safe': True,
+        'parallel_write_safe': True,
+    }

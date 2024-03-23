@@ -12,11 +12,11 @@ For RK3568
 
 Firmware
 
-.. raw:: html
-      
-         <a href="/PCs/ARM/RK3568/OS_Downloads/index.html">
-            <img src="/_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
-         </a>
+.. image:: /_static/images/os_download_icon.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/ARM/RK3568/OS_Downloads/index.html
+
 
 :ref:`OS Downloads <RK3568_OSDownloads>`
 
@@ -32,11 +32,11 @@ Firmware
 
 Doc
 
-.. raw:: html
+.. image:: /_static/images/os_logo_android.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/ARM/RK3568/Manuals/Software/Android_11.html
 
-         <a href="/PCs/ARM/RK3568/Manuals/Software/Android_11.html">
-            <img src="/_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
-         </a>
 
 :ref:`Android 11<rk3568_os_android11>`
 
@@ -52,11 +52,11 @@ Doc
 
 Doc
 
-.. raw:: html
+.. image:: /_static/images/os_logo_debian.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/ARM/RK3568/Manuals/Software/Debian_11.html
 
-         <a href="/PCs/ARM/RK3568/Manuals/Software/Debian_11.html">
-            <img src="/_static/images/os_logo_debian.png" class="img-fluid text-center" width="100px">
-         </a>
 
 :ref:`Debian 11<rk3568_os_debian11>`
    
@@ -72,11 +72,11 @@ Doc
 
 Doc
 
-.. raw:: html
+.. image:: /_static/images/os_logo_linux.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/ARM/RK3568/Manuals/Software/Buildroot_Linux_Qt_5_15.html
 
-         <a href="/PCs/ARM/RK3568/Manuals/Software/Buildroot_Linux_Qt_5_15.html">
-            <img src="/_static/images/os_logo_linux.png" class="img-fluid text-center" width="100px">
-         </a>
 
 :ref:`Buildroot Linux Qt 5.15 <rk3568_os_linuxqt515>`
 

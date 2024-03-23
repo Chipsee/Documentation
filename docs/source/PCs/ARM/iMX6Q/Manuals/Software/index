@@ -12,12 +12,11 @@ For iMX6Q
 
 Firmware
 
-.. raw:: html
-
-         <a href="/PCs/ARM/iMX6Q/OS_Downloads/index.html">
-            <img src="/_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
-         </a>
-
+.. image:: /_static/images/os_download_icon.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/ARM/iMX6Q/OS_Downloads/index.html
+   
 :ref:`OS Downloads <IMX6Q_OSDownloads>`
 
 .. raw:: html
@@ -32,12 +31,11 @@ Firmware
 
 Doc
 
-.. raw:: html
-
-         <a href="/PCs/ARM/iMX6Q/Manuals/Software/Android_43.html">
-            <img src="/_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
-         </a>
-
+.. image:: /_static/images/os_logo_android.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/ARM/iMX6Q/Manuals/Software/Android_43.html
+   
 :ref:`Android 4.3<imx6q_os_android43>`
 
 .. raw:: html
@@ -52,12 +50,11 @@ Doc
 
 Doc
 
-.. raw:: html
-
-         <a href="/PCs/ARM/iMX6Q/Manuals/Software/Android_60.html">
-            <img src="/_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
-         </a>
-
+.. image:: /_static/images/os_logo_android.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/ARM/iMX6Q/Manuals/Software/Android_60.html
+   
 :ref:`Android 6.0<imx6q_os_android60>`
    
 .. raw:: html
@@ -72,12 +69,11 @@ Doc
 
 Doc
 
-.. raw:: html
-
-         <a href="/PCs/ARM/iMX6Q/Manuals/Software/Linux_Qt55.html">
-            <img src="/_static/images/os_logo_linux.png" class="img-fluid text-center" width="100px">
-         </a>
-
+.. image:: /_static/images/os_logo_linux.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/ARM/iMX6Q/Manuals/Software/Linux_Qt55.html
+   
 :ref:`Linux Qt 5.5 <imx6q_os_linuxqt55>`
 
 .. raw:: html
@@ -92,12 +88,11 @@ Doc
 
 Doc
 
-.. raw:: html
-
-         <a href="/PCs/ARM/iMX6Q/Manuals/Software/Ubuntu_12.html">
-            <img src="/_static/images/os_logo_ubuntu.png" class="img-fluid text-center" width="100px">
-         </a>
-
+.. image:: /_static/images/os_logo_ubuntu.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/ARM/iMX6Q/Manuals/Software/Ubuntu_12.html
+   
 :ref:`Ubuntu 12 <imx6q_os_ubuntu12>`
 
 .. raw:: html
@@ -112,12 +107,11 @@ Doc
 
 Doc
 
-.. raw:: html
-
-         <a href="/PCs/ARM/iMX6Q/Manuals/Software/Ubuntu_14.html">
-            <img src="/_static/images/os_logo_ubuntu.png" class="img-fluid text-center" width="100px">
-         </a>
-
+.. image:: /_static/images/os_logo_ubuntu.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/ARM/iMX6Q/Manuals/Software/Ubuntu_14.html
+   
 :ref:`Ubuntu 14 <imx6q_os_ubuntu14>`
 
 .. raw:: html
