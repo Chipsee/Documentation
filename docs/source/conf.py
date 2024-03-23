@@ -70,7 +70,7 @@ html_theme_options = {
     "nav_title": "Home",
     # Specify a base_url used to generate sitemap.xml. If not
     # specified, then no sitemap will be built.
-    # "base_url": "https://chipsee.com/docs/",
+    "base_url": "https://chipsee.com/docs/",
     # Set the color and the accent color
     "color_primary": "deep-orange",
     "color_accent": "deep-orange",
