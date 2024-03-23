@@ -186,9 +186,12 @@ class CustomImageDirective(Image):
             # based on the document in which the `..image` directive was used.
             target_opt: str = directives_options['target']
             if target_opt.startswith("/") and target_opt.endswith(".html"):
+                src_dir = Path(build_env.srcdir)
+                base = src_dir.joinpath(build_env.docname).parent
+                target_to = src_dir.joinpath(f"{target_opt.lstrip('/').removesuffix('.html')}.rst")
                 resolve_relpath = relpath(
-                    path=f"{target_opt.removesuffix('.html')}.rst",
-                    start=str(Path(f"{build_env.srcdir}/{build_env.docname}").parent)
+                    path=str(target_to),
+                    start=str(base)
                 )
                 new_target = f"{resolve_relpath.removesuffix('.rst')}.html"
                 directives_options["target"] = new_target
