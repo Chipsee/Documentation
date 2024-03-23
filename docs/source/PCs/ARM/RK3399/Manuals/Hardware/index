@@ -268,7 +268,7 @@ RK3399 / A72
 21.5 Inch(Legacy)
 |PPC-A72-215-C|
 
-:ref:`PPC-A72-215-C<PPC-A72-215-C>` 
+:ref:`PPC-A72-215-C<PPC-A72-215-C>`
 
 .. raw:: html
 
@@ -294,7 +294,7 @@ RK3399 / A72
 .. |PPC-A72-125-C| image:: /Media/ARM/A72/CS19108R125/PPC-A72-125-C-Front-Low.jpeg
    :class: index-item-img
    :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R125.html
-   
+
 .. |PPC-A72-133-P| image:: /Media/ARM/A72/CS19108R133P/PPC-A72-133-P-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R133P.html
@@ -322,7 +322,7 @@ RK3399 / A72
 .. |PPC-A72-190-C| image:: /Media/ARM/A72/CS12102R190P/CS12102R190P-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/ARM/RK3399/Manuals/Hardware/CS12102R190P.html
-   
+
 .. |PPC-A72-215-P| image:: /Media/ARM/A72/CS19108R215P2/CS19108R215P2-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/ARM/RK3399/Manuals/Hardware/CS19108R215P2.html

@@ -3,6 +3,12 @@
 # This file only contains a selection of the most common options. For a full
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
+from pathlib import Path
+
+from docutils.parsers.rst.directives.images import Image
+from sphinx.environment import BuildEnvironment
+from sphinx.util.osutil import relpath
+
 
 from pathlib import Path
 

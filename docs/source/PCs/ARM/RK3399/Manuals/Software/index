@@ -35,7 +35,7 @@ Doc
    :width: 100px
    :class: img-fluid text-center
    :target: /PCs/ARM/RK3399/Manuals/Software/Debian_10.html
-   
+
 :ref:`Debian 10<rk3399_os_debian10>`
 
 .. raw:: html
@@ -49,7 +49,6 @@ Doc
       <div class="index-item">
 
 Doc
-
 
 .. image:: /_static/images/os_logo_debian.png
    :width: 100px
