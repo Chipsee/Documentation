@@ -9,13 +9,6 @@ from docutils.parsers.rst.directives.images import Image
 from sphinx.environment import BuildEnvironment
 from sphinx.util.osutil import relpath
 
-
-from pathlib import Path
-
-from docutils.parsers.rst.directives.images import Image
-from sphinx.environment import BuildEnvironment
-from sphinx.util.osutil import relpath
-
 # -- Path setup --------------------------------------------------------------
 
 # If extensions (or modules to document with autodoc) are in another directory,
