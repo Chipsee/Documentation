@@ -13,7 +13,7 @@
   </nav>
   <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-md-component="header">
     <div class="container">
-      <a class="navbar-brand pt-0" href="/">
+      <a class="navbar-brand pt-0" href="{{ pathto('index.html', 1) }}">
         <img src="{{ pathto('_static/images/logo_dark.png', 1) }}" height="30" alt="logo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +49,7 @@
             </a>
           </li>
         </ul>
-        <form class="d-flex" role="search" action="/search.html?" method="GET">
+        <form class="d-flex" role="search" action="{{ pathto('search.html', 1) }}" method="GET">
           <input class="form-control form-control-sm me-2" type="search" placeholder="Search" name="q" aria-label="Search">
           <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
         </form>
