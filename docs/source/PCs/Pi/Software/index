@@ -12,11 +12,13 @@ Software
 
 Firmware
 
+.. image:: /_static/images/os_download_icon.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: https://github.com/Chipsee/industrial-pi#latest-system-images
+
 .. raw:: html
-      
-         <a href="https://github.com/Chipsee/industrial-pi#latest-system-images" target="_blank">
-            <img src="/_static/images/os_download_icon.png" class="img-fluid text-center" width="100px">
-         </a>
+
          <a href="https://github.com/Chipsee/industrial-pi#latest-system-images" target="_blank">OS Downloads</a>
      </div>
    </div>
@@ -29,11 +31,10 @@ Firmware
 
 Doc (CM3, CM4)
 
-.. raw:: html
-
-         <a href="/PCs/Pi/Software/Debian.html">
-            <img src="/_static/images/os_logo_pi.png" class="img-fluid text-center" width="100px">
-         </a>
+.. image:: /_static/images/os_logo_pi.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/Pi/Software/Debian.html
 
 :ref:`Raspberry Pi OS<rpi_os>`
 
@@ -49,11 +50,10 @@ Doc (CM3, CM4)
 
 Doc (AIO-CM4-156)
 
-.. raw:: html
-      
-         <a href="/PCs/Pi/Software/AIO156StartGuide.html">
-            <img src="/_static/images/os_logo_pi.png" class="img-fluid text-center" width="100px">
-         </a>
+.. image:: /_static/images/os_logo_pi.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/Pi/Software/AIO156StartGuide.html
 
 :ref:`Raspberry Pi OS<aio-cm4-156-pi-os>`
    
@@ -69,11 +69,10 @@ Doc (AIO-CM4-156)
 
 Doc (AIO-CM4-156)
 
-.. raw:: html
-
-         <a href="/PCs/Pi/Software/AIO156AndroidSystem.html">
-            <img src="/_static/images/os_logo_android.png" class="img-fluid text-center" width="100px">
-         </a>
+.. image:: /_static/images/os_logo_android.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/Pi/Software/AIO156AndroidSystem.html
 
 :ref:`Android <aio-cm4-156-android-os>`
 
