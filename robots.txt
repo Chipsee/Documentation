@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://chipsee.com/sitemap.xml
+Sitemap: https://chipsee.com/docs/sitemap.xml
