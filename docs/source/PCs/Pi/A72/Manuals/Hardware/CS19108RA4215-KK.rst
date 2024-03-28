@@ -40,11 +40,11 @@
 
 .. |usb_hub_conflict| replace:: two USB host connectors, Zigbee and 4G/LTE
 
-.. |disp_des| replace:: |dispsize| Ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+.. |disp_des| replace:: |dispsize| ten-point(single point in Raspberry Pi OS) capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |disp_table| replace:: |dispsize| IPS LCD, |res| resolution, brightness |bright|
 
-.. |tscreen| replace:: 10-point capacitive touch with 1mm Armored Glass, Single-Point touch in Raspberry Pi OS Software
+.. |tscreen| replace:: 10-point capacitive touch with 3mm tempered glass, single point touch in Raspberry Pi OS Software
 
 .. |rs232_485_can_ter| replace:: phoenix terminal
 
@@ -200,8 +200,6 @@ Optional Features
 
 |Product| does not include the 3G/4G/LTE modules by default. These modules are optional and can be selected at the Chipsee store during the ordering process.
 
-|Product| includes a 13.56MHz contactless(ISO-14443A) smart card reader, it can be customized and upgraded to a hybrid dual interface contact(ISO-7816) and contactless(ISO-14443) smart card reader while placing an order.
-
 .. warning::   
 
    | Installation, repair, and maintenance tasks should be performed by trained personnel only.
@@ -213,7 +211,71 @@ Optional Features
 
 .. include:: Resources/table
 
+.. rst-class:: text-center
 
+   .. image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Interface.jpg
+      :align: center
+      :width: 960
+
+   *Interfaces of the Product*
+
++-------+------------------------+
+| Label | Interface              |
++=======+========================+
+| A     | Power                  |
++-------+------------------------+
+| B     | Power Switch           |
++-------+------------------------+
+| C     | PROG Button            |
++-------+------------------------+
+| D     | Status LED             |
++-------+------------------------+
+| E     | 4G/LTE Antenna         |
++-------+------------------------+
+| F     | Ethernet               |
++-------+------------------------+
+| G     | USB3.0 HOST            |
++-------+------------------------+
+| H     | USB-C OTG              |
++-------+------------------------+
+| I     | Audio Jack             |
++-------+------------------------+
+| J     | WiFi/Bluetooth Antenna |
++-------+------------------------+
+| K     | SIM Card Slot          |
++-------+------------------------+
+| L     | TF Card Slot           |
++-------+------------------------+
+| M     | RS232/485 CAN GPIO     |
++-------+------------------------+
+
+.. rst-class:: text-center
+
+   *Table: Interfaces*
+
+.. rst-class:: text-center mt-3
+
+   .. image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Interface-2.jpg
+      :align: center
+      :width: 960
+
+   *Printer, Barcode Scanner, Smart Card Reader*
+
++-------+-------------------+----------------------------------------------------------------------------+
+| Label | Interface         | Model                                                                      |
++=======+===================+============================================================================+
+| A     | Barcode Scanner   | LR1008 1D and 2D barcode scanner                                           |
++-------+-------------------+----------------------------------------------------------------------------+
+| B     | Smart Card Reader | RCR-2913 hybrid dual interface (contact and contactless) smart card reader |
++-------+-------------------+----------------------------------------------------------------------------+
+| C     | Label Printer     | SPRT SP-RMD17 58mm thermal label printer                                   |
++-------+-------------------+----------------------------------------------------------------------------+
+
+.. rst-class:: text-center
+
+   *Table: Printer, Barcode Scanner, Smart Card Reader*
+
+:pagebreak:`True`
 
 Label Printer
 =============
@@ -273,14 +335,6 @@ Barcode Scanner
 
 .. rst-class:: text-center
 
-   .. image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Scanner-1.jpg
-      :align: center
-      :width: 960
-
-   *Barcode Scanner (Standard)*
-
-.. rst-class:: text-center
-
    .. image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Scanner-2.jpg
       :align: center
       :width: 960
@@ -309,56 +363,9 @@ It supports reading one-dimensional(1D) and two-dimensional(2D) codes on various
 Smart Card Reader
 =================
 
-|Product| features a smart card reader, there are two models of smart card reader module for this product:
+|Product| features an RCR-2913 hybrid dual interface (contact and contactless) smart card reader
 
-1. R20C 13.56Mhz contactless card reader;
-2. RCR-2900 hybrid dual interface (contact and contactless) card reader.
-
-.. note::
-
-   By **default** the product ships with a **contactless card reader** (R20C module). 
-
-   If you want the dual interface (contact and contactless) card reader, you can select it in the Chipsee online shop when placing an order, or contact us directly.
-
-Option 1: R20C(Contactless)
----------------------------
-
-This is the default smart card reader of |product|.
-
-It supports ISO14443A protocol, contactless smart card reading.
-
-**Operating Frequency**: 13.56MHz
-
-**Protocol Support**: ISO14443A Protocol
-
-**Card Reading Types**: MF/S50/S70, etc.
-
-**Reading Distance**: 0~80mm
-
-**Reading Speed**: 0.2s
-
-**Reading Time**: <100ms
-
-**Reading Interval**: 0.5s
-
-**Status Indicator**: 2-color LED (red: power, green: status)
-
-**Output Format**: Default 10-digit decimal (4 bytes)
-
-.. rst-class:: text-center
-
-   .. image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Card-1.jpg
-      :align: center
-      :width: 960
-
-   *Smart Card Reader (Contactless)*
-
-Option 2: RCR-2900(Contact and contactless)
--------------------------------------------
-
-|Product| can be customized to integrate a **contact and contactless** smart card reader instead of the default contactless reader.
-
-The RCR-2900 smart card reader supports hybrid dual interface contact(ISO-7816) and contactless(ISO-14443) card reading.
+The RCR-2913 smart card reader supports hybrid dual interface contact(ISO-7816) and contactless(ISO-14443) card reading.
 
 It is a powerful and efficient dual interface smart card reader that can be used to access ISO 7816 MCU cards, MIFARE® cards and ISO 14443 Type A and B contactless cards. 
 
