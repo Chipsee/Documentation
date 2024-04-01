@@ -10,7 +10,7 @@
 
 .. |PN| replace:: PN: CS-D190
 
-.. |Product| replace:: The |product| Industrial PC
+.. |Product| replace:: The |product| industrial display
 
 .. |dispsize| replace:: 19"
 

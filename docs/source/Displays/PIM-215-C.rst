@@ -10,7 +10,7 @@
 
 .. |PN| replace:: PN: CS-D215
 
-.. |Product| replace:: The |product| Industrial PC
+.. |Product| replace:: The |product| industrial display
 
 .. |dispsize| replace:: 21.5"
 
