@@ -2,27 +2,25 @@
 :pdf-subtitle: PN: CS-D156P
 :pdf-filename: PIM-156-P
 :pdf-type: displays
-:pdf-revision: 1.1
-
-.. include:: Resources/shared_replaces
+:pdf-revision: 1.2
 
 .. |product| replace:: PIM-156-P
 
 .. |PN| replace:: PN: CS-D156P
 
-.. |Product| replace:: The |product| Industrial PC
+.. |Product| replace:: The |product| industrial display
 
 .. |dispsize| replace:: 15.6"
 
 .. |res| replace:: 1920 x 1080 (16:9)
 
-.. |bright| replace:: 500 |cd|
+.. |bright| replace:: 400 |cd|
 
 .. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |con_ratio| replace:: 800:1
 
-.. |v_angle| replace:: 	Horizontal: 170° / Vertical: 160°
+.. |v_angle| replace:: 	Horizontal: 178° / Vertical: 178°
 
 .. |res_time| replace:: 35ms (GTG)
 
@@ -32,23 +30,29 @@
 
 .. |connector| replace:: VGA / HDMI
 
-.. |dim| replace:: 422 x 271 x 52.5mm
+.. |dim| replace:: 400 × 256 × 52.5mm
 
 .. |pkg_size| replace:: 440 x 325 x 90mm
 
-.. |weight| replace:: 4500g
+.. |weight| replace:: 4200g
 
 .. |mount| replace:: VESA and PANEL
 
-.. |pwr| replace:: ≤ 15W
+.. |pwr| replace:: ≤ 24W
 
 .. |standby| replace:: ≤ 2W
 
-.. |vin_rng| replace:: 12V 3A DC(default), 9-30V DC(optional)
+.. |vin_rng| replace:: 12V 3A DC(default)
 
-.. |wtemp| replace:: From -20°C to +60°C, 90% RH
+.. |osd_lang| replace:: Multilingual Support
 
-.. |stemp| replace:: From -30°C to +80°C, 90% RH
+.. |accessories| replace:: Bracket / Power Line / VGA Line / HDMI Line / USB Line / Power Adapter
+
+.. |resp_time| replace:: 25ms to 35ms
+
+.. |multi_touch_support| replace:: Based on the operating system of the host PC
+
+.. |os| replace:: N/A
 
 .. _product_link: https://chipsee.com/product/pim-156-p/
 
@@ -70,7 +74,7 @@
 |product|
 #########
 
-.. rubric:: *Version 1.1*
+.. rubric:: *Version 1.2*
     :class: html-only
 
 .. include:: Shared/three_main_images
@@ -90,7 +94,7 @@ Specification
 
 .. include:: Resources/mechspecs
 
-.. figure:: /Media/Displays/PIM-156-P/pim-156p-sd.jpeg
+.. figure:: /Media/Displays/PIM-156-P/pim-156p-TD.png
    :figclass: align-center
    :class: no-scaled-link
 
