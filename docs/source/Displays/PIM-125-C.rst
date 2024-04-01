@@ -4,6 +4,7 @@
 :pdf-type: displays
 :pdf-revision: 1.1
 
+.. include:: Resources/shared_replaces
 
 .. |product| replace:: PIM-125-C
 
