@@ -47,6 +47,21 @@ Industrial Touch Displays
    <div class="col">
       <div class="index-item">
 
+13.3 Inch
+|PIM-133-P|
+
+:ref:`PIM-133-P<PIM-133-P>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
 15.0 Inch
 |PIM-150-C|
 
@@ -189,6 +204,9 @@ Industrial Touch Displays
 .. |PIM-125-C| image:: /Media/Displays/PIM-125-C/pim-125-front-Low.jpg
    :class: index-item-img
    :target: /Displays/PIM-125-C.html
+.. |PIM-133-P| image:: /Media/Displays/PIM-133-P/pim-133p-front-Low.jpg
+   :class: index-item-img
+   :target: /Displays/PIM-133-P.html
 .. |PIM-150-C| image:: /Media/Displays/PIM-150-C/pim-150-front-Low.jpg
    :class: index-item-img
    :target: /Displays/PIM-150-C.html
@@ -226,6 +244,7 @@ Industrial Touch Displays
 
    PIM-101-C <PIM-101-C>
    PIM-125-C <PIM-125-C>
+   PIM-133-P <PIM-133-P>
    PIM-150-C <PIM-150-C>
    PIM-156-C <PIM-156-C>
    PIM-156-P <PIM-156-C-P>
