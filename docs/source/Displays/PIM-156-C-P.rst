@@ -42,7 +42,7 @@
 
 .. |standby| replace:: ≤ 2W
 
-.. |vin_rng| replace:: 12V 3A DC(default)
+.. |vin_rng| replace:: 12V 3A DC(default), 9-30V (optional)
 
 .. |osd_lang| replace:: Multilingual Support
 
