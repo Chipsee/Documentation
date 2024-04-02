@@ -1,16 +1,16 @@
-:pdf-title: PIM-156-P
-:pdf-subtitle: PN: CS-D156P
-:pdf-filename: PIM-156-P
+:pdf-title: PIM-133-P
+:pdf-subtitle: PN: CS-D133P
+:pdf-filename: PIM-133-P
 :pdf-type: displays
-:pdf-revision: 1.2
+:pdf-revision: 1.0
 
-.. |product| replace:: PIM-156-P
+.. |product| replace:: PIM-133-P
 
-.. |PN| replace:: PN: CS-D156P
+.. |PN| replace:: PN: CS-D133P
 
 .. |Product| replace:: The |product| industrial display
 
-.. |dispsize| replace:: 15.6"
+.. |dispsize| replace:: 13.3"
 
 .. |res| replace:: 1920 x 1080 (16:9)
 
@@ -18,11 +18,11 @@
 
 .. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |con_ratio| replace:: 800:1
+.. |con_ratio| replace:: 900:1
 
-.. |v_angle| replace:: 	Horizontal: 178° / Vertical: 178°
+.. |v_angle| replace:: 	Horizontal: 170° / Vertical: 170°
 
-.. |res_time| replace:: 35ms (GTG)
+.. |res_time| replace:: 30ms (GTG)
 
 .. |disp_col| replace:: 16.2M Colors
 
@@ -30,15 +30,15 @@
 
 .. |connector| replace:: VGA / HDMI
 
-.. |dim| replace:: 400 × 256 × 52.5mm
+.. |dim| replace:: 355 × 225 × 55mm
 
 .. |pkg_size| replace:: 440 x 325 x 90mm
 
-.. |weight| replace:: 4200g
+.. |weight| replace:: 2920g
 
 .. |mount| replace:: VESA and PANEL
 
-.. |pwr| replace:: ≤ 24W
+.. |pwr| replace:: ≤ 16W
 
 .. |standby| replace:: ≤ 2W
 
@@ -48,33 +48,33 @@
 
 .. |accessories| replace:: Bracket / Power Line / VGA Line / HDMI Line / USB Line / Power Adapter
 
-.. |resp_time| replace:: 25ms to 35ms
+.. |resp_time| replace:: 30ms
 
 .. |multi_touch_support| replace:: Based on the operating system of the host PC
 
 .. |os| replace:: N/A
 
-.. _product_link: https://chipsee.com/product/pim-156-p/
+.. _product_link: https://chipsee.com/product/pim-133-p/
 
-.. |product_link| replace:: PIM-156-P
+.. |product_link| replace:: PIM-133-P
 
-.. |Cover PNG| image:: /Media/Displays/PIM-156-P/pim-156p-front.png
+.. |Cover PNG| image:: /Media/Displays/PIM-133-P/pim-133p-front.png
 
-.. |Front View| image:: /Media/Displays/PIM-156-P/pim-156p-front.jpg
+.. |Front View| image:: /Media/Displays/PIM-133-P/pim-133p-front.jpg
                   :class: product-img
 
-.. |Rear View| image:: /Media/Displays/PIM-156-P/pim-156p-back.jpg
+.. |Rear View| image:: /Media/Displays/PIM-133-P/pim-133p-back.jpg
                   :class: product-img
 
-.. |Side View| image:: /Media/Displays/PIM-156-P/pim-156p-bottom.jpg
+.. |Side View| image:: /Media/Displays/PIM-133-P/pim-133p-bottom.jpg
                   :class: product-img
 
-.. _PIM-156-P:
+.. _PIM-133-P:
 
 |product|
 #########
 
-.. rubric:: *Version 1.2*
+.. rubric:: *Version 1.0*
     :class: html-only
 
 .. include:: Shared/three_main_images
@@ -93,12 +93,6 @@ Specification
 .. include:: Resources/mounting
 
 .. include:: Resources/mechspecs
-
-.. figure:: /Media/Displays/PIM-156-P/pim-156p-TD.png
-   :figclass: align-center
-   :class: no-scaled-link
-
-   Technical Drawing
 
 :pagebreak:`True`
 

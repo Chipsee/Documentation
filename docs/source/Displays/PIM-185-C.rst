@@ -4,12 +4,13 @@
 :pdf-type: displays
 :pdf-revision: 1.1
 
+.. include:: Resources/shared_replaces
 
 .. |product| replace:: PIM-185-C
 
 .. |PN| replace:: PN: CS-D185
 
-.. |Product| replace:: The |product| Industrial PC
+.. |Product| replace:: The |product| industrial display
 
 .. |dispsize| replace:: 18.5"
 

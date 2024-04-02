@@ -4,12 +4,13 @@
 :pdf-type: displays
 :pdf-revision: 1.1
 
+.. include:: Resources/shared_replaces
 
 .. |product| replace:: PIM-270-C
 
 .. |PN| replace:: PN: CS-D270
 
-.. |Product| replace:: The |product| Industrial PC
+.. |Product| replace:: The |product| industrial display
 
 .. |dispsize| replace:: 27"
 
