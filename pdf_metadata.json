@@ -42,6 +42,13 @@
             "pdf-type": "displays",
             "pdf-revision": "1.1"
         },
+        "Displays/PIM-133-P": {
+            "pdf-title": "PIM-133-P",
+            "pdf-subtitle": "PN: CS-D133P",
+            "pdf-filename": "PIM-133-P",
+            "pdf-type": "displays",
+            "pdf-revision": "1.0"
+        },
         "Displays/PIM-150-C": {
             "pdf-title": "PIM-150-C",
             "pdf-subtitle": "PN: CS-D150",
@@ -61,7 +68,7 @@
             "pdf-subtitle": "PN: CS-D156P",
             "pdf-filename": "PIM-156-P",
             "pdf-type": "displays",
-            "pdf-revision": "1.1"
+            "pdf-revision": "1.2"
         },
         "Displays/PIM-170-C": {
             "pdf-title": "PIM-170-C",
