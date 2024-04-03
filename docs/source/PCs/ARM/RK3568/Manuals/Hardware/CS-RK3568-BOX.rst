@@ -118,7 +118,7 @@
                    :align: middle
                    :width: 384
 
-.. _product_link: https://chipsee.com/
+.. _product_link: https://chipsee.com/product/cs-rk3568-box/
 
 .. |product_link| replace:: |product|
 

@@ -78,7 +78,7 @@
                   :align: middle
                   :width: 384
 
-.. _product_link: https://chipsee.com/
+.. _product_link: https://chipsee.com/product/ppc-a55-121/
 
 .. |product_link| replace:: |product|
 

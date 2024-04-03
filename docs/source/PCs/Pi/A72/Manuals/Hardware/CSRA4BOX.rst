@@ -34,7 +34,7 @@
 
 .. |pwr| replace:: 5.4W (max)
 
-.. _product_link: https://chipsee.com/
+.. _product_link: https://chipsee.com/product/cs-cm4-box/
 
 .. |product_link| replace:: CSRA4BOX
 
