@@ -24,7 +24,7 @@
 
 .. |pwr| replace:: 5.25W (max)
 
-.. _product_link: https://chipsee.com
+.. _product_link: https://chipsee.com/product/cs-a53-box/
 
 .. |product_link| replace:: |product|
 
