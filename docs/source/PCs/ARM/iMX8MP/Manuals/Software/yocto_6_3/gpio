@@ -16,14 +16,6 @@ Refer to the tables below for a detailed port definition:
    +----------+------------+--------+
    | Function | CPU IO     | IO Num |
    +==========+============+========+
-   | IN1      | GPIO1_IO11 | 11     |
-   +----------+------------+--------+
-   | IN2      | GPIO1_IO07 | 7      |
-   +----------+------------+--------+
-   | IN3      | GPIO1_IO06 | 6      |
-   +----------+------------+--------+
-   | IN4      | GPIO1_IO05 | 5      |
-   +----------+------------+--------+
    | OUT1     | GPIO1_IO08 | 8      |
    +----------+------------+--------+
    | OUT2     | GPIO1_IO14 | 14     |
@@ -31,6 +23,14 @@ Refer to the tables below for a detailed port definition:
    | OUT3     | GPIO1_IO13 | 13     |
    +----------+------------+--------+
    | OUT4     | GPIO1_IO12 | 12     |
+   +----------+------------+--------+
+   | IN1      | GPIO1_IO11 | 11     |
+   +----------+------------+--------+
+   | IN2      | GPIO1_IO07 | 7      |
+   +----------+------------+--------+
+   | IN3      | GPIO1_IO06 | 6      |
+   +----------+------------+--------+
+   | IN4      | GPIO1_IO05 | 5      |
    +----------+------------+--------+
 
 The GPIO1 is gpiochip0 in gpiod. To set GPIO out to high with **gpiod**:
@@ -69,5 +69,19 @@ To detect GPIO event (rising edge and falling edge), e.g. on IN4:
 
 
 You can also use a programming language like C, which has libgpiod support to control the GPIOs.
+
+.. code-block:: bash
+
+   # Get the libgpiod dev packages(run the following commands on the Chipsee target ARM board):
+   wget -c https://chipsee-tmp.s3.amazonaws.com/SourcesArchives/HARDWARETEST/8MP/libgpiod.tar.gz
+   tar zxmvf libgpiod.tar.gz -C /
+
+   # Get the gpiotest.c file
+   # The gpiotest.c will setting OUT1 IO as one output pins and drive high/low in every 1 second
+   wget -c https://chipsee-tmp.s3.amazonaws.com/SourcesArchives/HARDWARETEST/8MP/gpiotest.c
+
+   # Compile and run it
+   gcc gpiotest.c -o gpiotest -lgpiod
+   ./gpiotest
 
 :pagebreak:`True`
