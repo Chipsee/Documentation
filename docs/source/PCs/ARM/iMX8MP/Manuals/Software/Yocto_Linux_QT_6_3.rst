@@ -50,6 +50,8 @@ System Resources
 
 .. include:: yocto_6_3/bluetooth
 
+.. include:: yocto_6_3/gps
+
 .. include:: yocto_6_3/audio
 
 .. include:: yocto_6_3/video
@@ -63,6 +65,8 @@ Network
 .. include:: yocto_6_3/wifi_connman_gui
 
 .. include:: yocto_6_3/ethernet
+
+.. include:: yocto_6_3/4g
 
 .. include:: yocto_6_3/flash_os
 
