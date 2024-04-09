@@ -23,9 +23,9 @@ System Information
    +---------------------+----------------------------------------+
    | username/password   | root / no password                     |
    +---------------------+----------------------------------------+
-   | Window Manager      |                                        |
+   | Window Manager      | Wayland                                |
    +---------------------+----------------------------------------+
-   | Desktop Environment |                                        |
+   | Desktop Environment | Weston                                 |
    +---------------------+----------------------------------------+
 
 :pagebreak:`True`
