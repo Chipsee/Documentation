@@ -1,0 +1,161 @@
+Audio
+-----
+
+Audio Card in OS
+****************
+
+We will use **aplay** and **arecord** to play or record audio, but first we need to check which audio card we need to use.
+
+The audio card in the device is **imx8mpnau8822**, first check it with **alist -l** (lower case "l"):
+
+.. code-block:: bash
+   :linenos:
+   :emphasize-lines: 1, 9
+
+   root@imx8mp-eisd:~# aplay -l
+      **** List of PLAYBACK Hardware Devices ****
+   card 0: audiohdmi [audio-hdmi], device 0: i.MX HDMI i2s-hifi-0 [i.MX HDMI i2s-hifi-0]
+     Subdevices: 1/1
+     Subdevice #0: subdevice #0
+   card 1: btscoaudio [bt-sco-audio], device 0: 30c20000.sai-bt-sco-pcm-wb bt-sco-pcm-wb-0 [30c20000.sai-bt-sco-pcm-wb bt-sco-pcm-wb-0]
+     Subdevices: 1/1
+     Subdevice #0: subdevice #0
+   card 2: imx8mpnau8822 [imx8mp-nau8822], device 0: 30c30000.sai-nau8822-hifi nau8822-hifi-0 [30c30000.sai-nau8822-hifi nau8822-hifi-0]
+     Subdevices: 1/1
+     Subdevice #0: subdevice #0
+
+In the example, **card 2:imx8mpnau8822** is our audio card. We will need its **Subdevice #0**. It means we need to select **card 2** hardware's **subdevice 0**. It is **hw:2,0** in aplay or arecord.
+
+But the order of these audio cards can change after each boot, so we'd better use its audio card name instead of its order.
+
+We can check with **aplay -L** (upper case "L"):
+
+.. code-block:: bash
+   :linenos:
+   :emphasize-lines: 1, 9
+
+    root@imx8mp-eisd:~# aplay -L
+    null
+        Discard all samples (playback) or generate zero samples (capture)
+    pulse
+        PulseAudio Sound Server
+    sysdefault:CARD=btscoaudio
+        bt-sco-audio, 30c20000.sai-bt-sco-pcm-wb bt-sco-pcm-wb-0
+        Default Audio Device
+    sysdefault:CARD=imx8mpnau8822
+        imx8mp-nau8822, 30c30000.sai-nau8822-hifi nau8822-hifi-0
+        Default Audio Device
+    sysdefault:CARD=audiohdmi
+        audio-hdmi, i.MX HDMI i2s-hifi-0
+        Default Audio Device
+
+The audio card is **sysdefault:CARD=imx8mpnau8822** in this case.
+
+Audio Playing
+*************
+
+
+By default the device plays audio from its integrated speaker. To play an audio file:
+
+.. code-block:: bash
+
+   # name based
+   aplay -D sysdefault:CARD=imx8mpnau8822 /usr/hardwaretest/WavTest.wav
+   # order based
+   aplay -D hw:2,0 /usr/hardwaretest/WavTest.wav
+
+If a headphone is plugged into the audio jack, it will play audio from the headphone instead of its speaker.
+
+To set the volume:
+
+.. code-block:: bash
+
+   # Set volume to 50% (0~100%)
+   pactl set-sink-volume @DEFAULT_SINK@ 50%
+
+It will set volume for both speaker and headphone, and persists after reboot.
+
+To set the volume up or down a little bit:
+
+.. code-block:: bash
+   :linenos:
+   :emphasize-lines: 1, 4, 9
+
+   root@imx8mp-eisd:/# pactl get-sink-volume @DEFAULT_SINK@
+   Volume: front-left: 65536 / 100% / 0.00 dB,   front-right: 65536 / 100% / 0.00 dB
+           balance 0.00
+   root@imx8mp-eisd:/# pactl set-sink-volume @DEFAULT_SINK@ -17%
+   root@imx8mp-eisd:/# pactl set-sink-volume @DEFAULT_SINK@ -17%
+   root@imx8mp-eisd:/# pactl get-sink-volume @DEFAULT_SINK@
+   Volume: front-left: 43252 /  66% / -10.83 dB,   front-right: 43252 /  66% / -10.83 dB
+           balance 0.00
+   root@imx8mp-eisd:/# pactl set-sink-volume @DEFAULT_SINK@ +47%
+   root@imx8mp-eisd:/# pactl get-sink-volume @DEFAULT_SINK@
+   Volume: front-left: 74053 / 113% / 3.18 dB,   front-right: 74053 / 113% / 3.18 dB
+           balance 0.00
+   root@imx8mp-eisd:/# 
+
+Audio Recording
+***************
+
+To record an audio, you need an external microphone, such as a headphone which integrates a mic with 3.5mm audio jack. Or just a mic. *The device doesn't have a microphone on the board.*
+
+We will need to use **arecord** to record an audio. 
+
+As described in the previous section (Audio Card in OS), first we need to specify the CAPTURE hardware devices, it can be either a name based or an order based audio card, for example, I've plugged in a USB Blue Yeti microphone, and the list looks like this:
+
+.. code-block:: bash
+   :linenos:
+   :emphasize-lines: 1, 12, 18, 26
+
+   root@imx8mp-eisd:~# arecord -L
+   null
+       Discard all samples (playback) or generate zero samples (capture)
+   pulse
+       PulseAudio Sound Server
+   sysdefault:CARD=btscoaudio
+       bt-sco-audio, 30c20000.sai-bt-sco-pcm-wb bt-sco-pcm-wb-0
+       Default Audio Device
+   sysdefault:CARD=imx8mpnau8822
+       imx8mp-nau8822, 30c30000.sai-nau8822-hifi nau8822-hifi-0
+       Default Audio Device
+   sysdefault:CARD=Microphone
+       Yeti Stereo Microphone, USB Audio
+       Default Audio Device
+   front:CARD=Microphone,DEV=0
+       Yeti Stereo Microphone, USB Audio
+       Front output / input
+   root@imx8mp-eisd:~# arecord -l
+   **** List of CAPTURE Hardware Devices ****
+   card 0: btscoaudio [bt-sco-audio], device 0: 30c20000.sai-bt-sco-pcm-wb bt-sco-pcm-wb-0 [30c20000.sai-bt-sco-pcm-wb bt-sco-pcm-wb-0]
+     Subdevices: 1/1
+     Subdevice #0: subdevice #0
+   card 1: imx8mpnau8822 [imx8mp-nau8822], device 0: 30c30000.sai-nau8822-hifi nau8822-hifi-0 [30c30000.sai-nau8822-hifi nau8822-hifi-0]
+     Subdevices: 1/1
+     Subdevice #0: subdevice #0
+   card 3: Microphone [Yeti Stereo Microphone], device 0: USB Audio [USB Audio]
+     Subdevices: 1/1
+     Subdevice #0: subdevice #0
+
+The Yeti microphone can be named after **sysdefault:CARD=Microphone** or **hw:3,0**
+
+.. code-block:: bash
+   
+   # You can learn more about the options of arecord with
+   arecord -h
+   
+   # specify capture device by name
+   arecord -D sysdefault:CARD=Microphone -V stereo -c 2 -f S16_LE -r 48000 -t wav mic.wav
+   
+   # specify capture device by order
+   arecord -D hw:1,0 -V mono -c 1 -f S16_LE -r 48000 -t wav mic.wav
+   
+   # to play the audio you just recorded
+   aplay -D sysdefault:CARD=imx8mpnau8822 mic.wav
+   
+   # If you need to post process mono to stereo, you can use sox
+   sox mic.wav -c 2 mic_stereo.wav
+
+Now you should be able to record an audio with your capture device.
+
+:pagebreak:`True`

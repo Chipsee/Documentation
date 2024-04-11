@@ -1,0 +1,87 @@
+Controller Area Network (CAN)
+-----------------------------
+
+To use CAN, you must add one 120Ω resistor between CAN_H and CAN_L on one of the two devices, as shown in the figure below.
+
+.. note::
+
+   The |ipc| **doesn't** mount the 120Ω matched resistor on all CAN signals by default.
+
+.. figure:: /Media/Pi/Software/CAN.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Connecting CAN*
+
+To check the CAN devices status with *ip link*, on the 7 inch device, there are two CAN devices (can0 and can1):
+
+.. code-block:: text
+   :emphasize-lines: 1, 8, 10
+
+   root@imx8mp-eisd:~# ip link
+   1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+       link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+   2: eth0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN mode DEFAULT group default qlen 1000
+       link/ether be:ec:6e:3a:f4:18 brd ff:ff:ff:ff:ff:ff
+   3: eth1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN mode DEFAULT group default qlen 1000
+       link/ether be:ed:6e:3a:f4:18 brd ff:ff:ff:ff:ff:ff
+   4: can0: <NOARP,ECHO> mtu 16 qdisc noop state DOWN mode DEFAULT group default qlen 10
+       link/can 
+   5: can1: <NOARP,ECHO> mtu 16 qdisc noop state DOWN mode DEFAULT group default qlen 10
+       link/can 
+   6: wlan0: <BROADCAST,MULTICAST,DYNAMIC,UP,LOWER_UP> mtu 1500 qdisc mq state UP mode DORMANT group default qlen 1000
+       link/ether 2c:c3:e6:41:46:b2 brd ff:ff:ff:ff:ff:ff
+   7: wwan0: <BROADCAST,MULTICAST,NOARP> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+       link/ether 8e:85:1a:07:2b:5e brd ff:ff:ff:ff:ff:ff
+
+
+
+Here are a few examples to test CAN using CAN utils.
+
+Set the bit-rate to **50Kbits/sec** with triple sampling using the following command (use ROOT user):
+   
+.. code-block:: bash
+
+   ip link set can0 down
+   ip link set can0 type can bitrate 50000 triple-sampling on
+
+Bring up the device using the command:
+   
+.. code-block:: bash
+
+   ip link set can0 up
+
+Transfer packets
+    
+.. code-block:: bash
+
+   cansend can0 5A1#11.2233.44556677.88
+
+Receive data from CAN bus
+
+.. code-block:: bash
+
+   candump can0
+
+Bring down the device
+
+.. code-block:: bash
+
+   ip link set can0 down
+
+If you're new to CAN, you can use two Chipsee devices to test with each other. On both device_A and device_B you first set the CAN and bring up the CAN. Then on device_A you use `candump` to listen, on device_B you use `cansend` to send a message, at this moment, device_A should receive the message sent from device_B and show it in the terminal. For example:
+
+.. code-block:: bash
+
+   // On device_A
+   root@imx8mp-eisd:~# candump can0
+   // On device_B
+   root@imx8mp-eisd:~# cansend can1 5A1#11.2233.44556677.88
+   root@imx8mp-eisd:~# cansend can1 1F334455#1122334455667788
+   // On device_A it shows
+   can0  5A1   [8]  11 22 33 44 55 66 77 88
+   can0  1F334455   [8]  11 22 33 44 55 66 77 88
+
+   
+:pagebreak:`True`
+

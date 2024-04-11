@@ -1,0 +1,259 @@
+Development
+===========
+
+In this chapter, you will learn how to set up a QT development environment, and develop the first QT application on the Chipsee industrial panel PCs.
+
+Host system requirements
+------------------------
+
+#) Ubuntu 20.04 LTS 64bit system should be installed on the host machine(your workstation).
+#) Qtcreator 10.0.2 is a tested Qtcreator version, other versions should also be ok.
+
+Preparation
+-----------
+
+#) Download `Qtcreator 10.0.2 <https://download.qt.io/archive/qtcreator/10.0/10.0.2/>`_ and install it on the Ubuntu 20.04 64bit Host PC. Other Qtcreator versions should also be ok. 
+
+   .. code-block:: bash
+         
+      $ wget -c https://download.qt.io/archive/qtcreator/10.0/10.0.2/qt-creator-opensource-linux-x86_64-10.0.2.run
+      $ chmod a+x qt-creator-opensource-linux-x86_64-10.0.2.run
+      $ ./qt-creator-opensource-linux-x86_64-10.0.2.run
+         
+   The default install directory is `/home/$USER/qtcreator-10.0.2`. 
+
+   You can install it in this directory or use another directory.
+   
+#) Install Chipsee SDK for IMX8MP products. Download the SDK and install it with the following commands (on your workstation - Ubuntu 20.04 64bit Host PC):
+   
+   .. code-block:: bash
+
+      $ wget -c https://chipsee-tmp.s3.amazonaws.com/SDK/fsl-imx-xwayland-glibc-x86_64-meta-toolchain-qt6-armv8a-imx8mp-eisd-toolchain-5.15-kirkstone.sh.xz
+      $ xz -d fsl-imx-xwayland-glibc-x86_64-meta-toolchain-qt6-armv8a-imx8mp-eisd-toolchain-5.15-kirkstone.sh.xz
+      $ chmod +x fsl-imx-xwayland-glibc-x86_64-meta-toolchain-qt6-armv8a-imx8mp-eisd-toolchain-5.15-kirkstone.sh
+      $ ./fsl-imx-xwayland-glibc-x86_64-meta-toolchain-qt6-armv8a-imx8mp-eisd-toolchain-5.15-kirkstone.sh
+
+    
+   The default install directory is `/opt/fsl-imx-xwayland/5.15-kirkstone/`. 
+
+   You can install it in this directory or you also can use another directory.
+
+#) Use the following command to test SDK:
+   
+   .. code-block:: bash
+      
+      $ source /opt/fsl-imx-xwayland/5.15-kirkstone/environment-setup-armv8a-poky-linux
+      $ echo ${CC}
+      $ qmake -v
+      
+   Such as:
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Set_sdk_env.jpg
+        :align: center
+        :width: 960
+
+      *Setting SDK Environment*
+
+#) Refer to the following image to open the Qt Creator.
+   
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Open_qtcreator.jpg
+        :align: center
+        :width: 960
+
+      *Qt Creator*
+         
+#) Open the QtCreator, then click the menu Edit->Preferences. Config the Compilers/Debuggers/Qt Versions/Devices/Kits as shown in the images below.
+   
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_compiler_c.jpg
+        :align: center
+        :width: 960
+
+      *Compilers -gcc*
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_compiler_c++.jpg
+        :align: center
+        :width: 960
+
+      *Compilers -g++*
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_compiler_gdb.jpg
+        :align: center
+        :width: 960
+
+      *Debuggers*
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_device.jpg
+        :align: center
+        :width: 960
+
+      *Devices_1*
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_device_2.jpg
+        :align: center
+        :width: 960
+
+      *Devices_2*
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_device_3.jpg
+        :align: center
+        :width: 960
+
+      *Devices_3*
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_device_4.jpg
+        :align: center
+        :width: 960
+
+      *Devices_4*
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_device_5.jpg
+        :align: center
+        :width: 960
+
+      *Devices_5*
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_device_6.jpg
+        :align: center
+        :width: 960
+
+      *Devices_6*
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_qtversion.jpg
+        :align: center
+        :width: 960
+
+      *Qt Versions*
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_kits.jpg
+        :align: center
+        :width: 960
+
+      *Kits*
+
+:pagebreak:`True`
+
+Example — Develop a HelloWorld Program
+------------------------------------------
+
+#) Use QtCreator to create a new Qt Widgets Application, named ``HelloWorld``, as shown in the image below.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_helloworld_1.jpg
+        :align: center
+        :width: 960
+
+      *Qt Widgets Application*
+
+#) Use qmake to build the application.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_helloworld_2.jpg
+        :align: center
+        :width: 960
+
+      *qmake to build Qt*
+
+#) Set the Class Name, as shown in the image below.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_helloworld_3.jpg
+        :align: center
+        :width: 960
+
+      *Class Name*
+
+#) Select 8MP_QT6.3.2 kits, as shown in the image below.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_helloworld_4.jpg
+        :align: center
+        :width: 960
+
+      *Kit Selection*
+
+#) Press finish to complete the Qt project, as shown in the image below.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_helloworld_5.jpg
+        :align: center
+        :width: 960
+
+      *Finish project setup*
+
+#) Double click the helloworld.ui file to add one label widget, as shown in the image below.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_helloworld_6.jpg
+        :align: center
+        :width: 960
+
+      *Double click ui file*
+
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_helloworld_7.jpg
+        :align: center
+        :width: 960
+
+      *Add Label Widget*
+
+#) Click the **Build and Run** icon to build and run the app, as shown in the image below.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_helloworld_8.jpg
+        :align: center
+        :width: 960
+
+      *Build and Run App*
+
+#) The binary file will be copied to /opt/HelloWorld/bin/HelloWorld on the target Chipsee ARM board, it can be changed in the .pro file.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A53/Software/Yocto_63/Setting_qtcreator_binary_path.jpg
+        :align: center
+        :width: 960
+
+      *Binary Path*
+
+#) You also can run the HelloWorld manually on the target Chipsee ARM board.
+   
+   .. code-block:: bash
+
+      /opt/HelloWorld/bin/HelloWorld
+
+Now you should be able to create, build and execute a Qt program on the Chipsee industrial panel PC.

@@ -1,0 +1,16 @@
+Supported Chipsee PCs: all Chipsee i.MX8MP based industrial PCs, including but not limited to:
+
+* PPC-A53-070 (PN: CS10600-IMX8MP-070P)
+* CS-A53-BOX (PN: CS-IMX8MP-BOX)
+   
+When you develop software on the |ipc|, you can open the hardware manual beside this software manual, to aid you in wiring your devices.
+
+In this manual, main topics are:
+
+* How to connect to the device from your workstation.
+* How to use the hardware resources such as RS232, RS485, CAN and GPIO, etc.
+* How to play, record an audio, how to play a video.
+* How to connect and set WiFi/Ethernet network; how to connect Bluetooth.
+* How to flash OS firmware.
+
+:pagebreak:`True`

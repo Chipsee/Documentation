@@ -1,0 +1,101 @@
+GPIO
+----
+
+There are 8 GPIOs, 4 Output, and 4 Input, they are all optical isolated. You can control the output or input pin voltage by feeding the VDD_ISO voltage. The pin voltage should be from 5V to 24V. You should use an external reliable power supply for the VDD_ISO and GND_ISO. 
+
+We **don't** recommend testing GPIO with the onboard +5V/GND (wiring the +5V to VDD_ISO and wiring GND to GND_ISO), in most cases we recommend using an external power source for VDD_ISO and GND_ISO.
+
+Refer to the tables below for a detailed port definition:
+
+
+.. table:: GPIO Device Node
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +----------+------------+--------+
+   | Function | CPU IO     | IO Num |
+   +==========+============+========+
+   | OUT1     | GPIO1_IO08 | 8      |
+   +----------+------------+--------+
+   | OUT2     | GPIO1_IO14 | 14     |
+   +----------+------------+--------+
+   | OUT3     | GPIO1_IO13 | 13     |
+   +----------+------------+--------+
+   | OUT4     | GPIO1_IO12 | 12     |
+   +----------+------------+--------+
+   | IN1      | GPIO1_IO11 | 11     |
+   +----------+------------+--------+
+   | IN2      | GPIO1_IO07 | 7      |
+   +----------+------------+--------+
+   | IN3      | GPIO1_IO06 | 6      |
+   +----------+------------+--------+
+   | IN4      | GPIO1_IO05 | 5      |
+   +----------+------------+--------+
+
+The GPIO1 is gpiochip0 in gpiod. To set GPIO out to high with **gpiod**:
+
+.. code-block:: bash
+   :linenos:
+   :emphasize-lines: 2, 5
+
+   # Set OUT1 and OUT2 (GPIO1_IO08 and GPIO1_IO14) to High
+   gpioset 0 8=1 14=1 
+
+   # Set OUT3 and OUT4 (GPIO1_IO13 and GPIO1_IO12) to Low
+   gpioset 0 13=0 12=0 
+
+To get GPIO input:
+
+.. code-block:: bash
+
+   # Get the IN4 (GPIO1_IO05) status:
+   gpioget 0 5
+
+To detect GPIO event (rising edge and falling edge), e.g. on IN4:
+
+.. code-block:: text
+   :linenos:
+   :emphasize-lines: 1
+
+   root@imx8mp-eisd:~# gpiomon 0 5
+   // Give IN4 a high voltage:
+   event:  RISING EDGE offset: 5 timestamp: [    1397.277364125]
+   // Remove the IN4 external high voltage:
+   event: FALLING EDGE offset: 5 timestamp: [    1398.535609500]
+   event:  RISING EDGE offset: 5 timestamp: [    1398.535796125]
+   // Above are bounces
+   event: FALLING EDGE offset: 5 timestamp: [    1398.536035125]
+
+
+You can also use a programming language like C, which has libgpiod support to control the GPIOs.
+
+.. code-block:: bash
+
+   # Get the libgpiod dev packages(run the following commands on the Chipsee target ARM board):
+   wget -c https://chipsee-tmp.s3.amazonaws.com/SourcesArchives/HARDWARETEST/8MP/libgpiod.tar.gz
+   tar zxmvf libgpiod.tar.gz -C /
+
+   # Get the gpiotest.c file
+   # The gpiotest.c will setting OUT1 IO as one output pins and drive high/low in every 1 second
+   wget -c https://chipsee-tmp.s3.amazonaws.com/SourcesArchives/HARDWARETEST/8MP/gpiotest.c
+
+   # Compile and run it
+   gcc gpiotest.c -o gpiotest -lgpiod
+   ./gpiotest
+
+We can also cross-compile `gpiotest.c` on Ubuntu 20.04 or any other Linux X86_64 system and execute the `gpiotest` on the target Chipsee ARM board. In doing so, there's no requirement to install the `libgpiod` development packages on the target Chipsee ARM board system. However, we do need to install the SDK and configure the environment accordingly. Refer to `Development`_ chapter to install SDK.
+
+.. code-block:: bash
+
+   $ source /opt/fsl-imx-xwayland/5.15-kirkstone/environment-setup-armv8a-poky-linux
+   $ echo ${CC}
+   $ ${CC} gpiotest.c -o gpiotest -lgpiod
+
+Then put the gpiotest to target Chipsee ARM board over ssh or other solutions you like.
+
+.. code-block:: bash
+
+   $ scp gpiotest root@xxx.xxx.xxx.xxx
+
+:pagebreak:`True`

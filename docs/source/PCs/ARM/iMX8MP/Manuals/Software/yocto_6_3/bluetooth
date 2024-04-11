@@ -1,0 +1,54 @@
+Bluetooth
+---------
+
+First check if Bluetooth is enabled:
+
+.. code-block:: text
+  :emphasize-lines: 1, 5
+
+   root@imx8mp-eisd:~# connmanctl technologies
+   /net/connman/technology/bluetooth
+     Name = Bluetooth
+     Type = bluetooth
+     Powered = False
+     Connected = False
+     Tethering = False
+     TetheringFreq = 2412
+
+If not you can power on Bluetooth with **connmanctl**:
+
+.. code-block:: text
+  :emphasize-lines: 1, 7
+
+   root@imx8mp-eisd:~# connmanctl enable bluetooth
+   Enabled bluetooth
+   root@imx8mp-eisd:~# connmanctl technologies
+   /net/connman/technology/bluetooth
+     Name = Bluetooth
+     Type = bluetooth
+     Powered = True
+     Connected = False
+     Tethering = False
+     TetheringFreq = 2412
+
+Use **bluetoothctl** to control Bluetooth. Remember to change the "8C:D9:D6:62:79:FC" MAC address in the example to your phone's MAC address.
+
+.. code-block:: text
+  :emphasize-lines: 1
+
+   root@imx8mp-eisd:~# bluetoothctl　        // enter bluetoothctl
+   [bluetooth] power on
+   [bluetooth] agent on
+   [bluetooth] default-agent
+   [bluetooth] discoverable on
+   [bluetooth] pairable on
+   [bluetooth] scan on　                     // Scan other BT devices
+   [bluetooth] pair 8C:D9:D6:62:79:FC        // Pair with the device, confirm on your phone
+                                             // You may need to type "yes" to confirm
+   [bluetooth] trust 8C:D9:D6:62:79:FC       // Trust the device
+   [bluetooth] connect 8C:D9:D6:62:79:FC     // Connect the device
+   [bluetooth] remove 8C:D9:D6:62:79:FC      // Remove the device
+
+When your phone is connected to the device, you can play a music on your phone, and the device's speaker will play the music. You can use other devices to connect to Bluetooth and use other software to achieve other purposes as well.
+
+:pagebreak:`True`
