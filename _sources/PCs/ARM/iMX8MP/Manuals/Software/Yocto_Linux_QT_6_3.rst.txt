@@ -19,11 +19,59 @@
    :width: 320
    :alt: chipsee-logo
 
-Notice
-======
+This is the software manual for |chip| Chipsee industrial PC. If you've never developed on this hardware with a |systemType| OS, this manual can get you started quickly.
 
-.. rst-class:: fs-5 fst-italic
+.. include:: yocto_6_3/overview
 
-  (This |systemType| OS User Manual is under active development as of Oct 13th, 2023)
+.. include:: yocto_6_3/sys_info
+
+.. include:: yocto_6_3/prepare
+
+.. include:: yocto_6_3/connect
+
+System Resources
+================
+
+.. include:: yocto_6_3/sd
+
+.. include:: yocto_6_3/usb
+
+.. include:: yocto_6_3/backlight
+
+.. include:: yocto_6_3/led
+
+.. include:: yocto_6_3/buzzer
+
+.. include:: yocto_6_3/serial_port
+
+.. include:: yocto_6_3/gpio
+
+.. include:: yocto_6_3/can
+
+.. include:: yocto_6_3/bluetooth
+
+.. include:: yocto_6_3/gps
+
+.. include:: yocto_6_3/audio
+
+.. include:: yocto_6_3/video
+
+
+Network
+-------
+
+.. include:: yocto_6_3/wifi_connman_cmd
+
+.. include:: yocto_6_3/wifi_connman_gui
+
+.. include:: yocto_6_3/ethernet
+
+.. include:: yocto_6_3/4g
+
+.. include:: yocto_6_3/qt_develop
+
+.. include:: yocto_6_3/flash_os
+
+.. include:: yocto_6_3/faq
 
 .. include:: /PCs/Shared/support
