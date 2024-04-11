@@ -68,6 +68,8 @@ Network
 
 .. include:: yocto_6_3/4g
 
+.. include:: yocto_6_3/qt_develop
+
 .. include:: yocto_6_3/flash_os
 
 .. include:: yocto_6_3/faq
