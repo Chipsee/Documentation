@@ -74,11 +74,4 @@ Network
 
 .. include:: yocto_6_3/faq
 
-Notice
-======
-
-.. rst-class:: fs-5 fst-italic
-
-  (This |systemType| OS User Manual is under active development as of Oct 13th, 2023)
-
 .. include:: /PCs/Shared/support

@@ -26,7 +26,7 @@ The audio card in the device is **imx8mpnau8822**, first check it with **alist -
 
 In the example, **card 2:imx8mpnau8822** is our audio card. We will need its **Subdevice #0**. It means we need to select **card 2** hardware's **subdevice 0**. It is **hw:2,0** in aplay or arecord.
 
-But the order of these audio cards can change after each boot, so we'd better to use it's audio card name instead of its order.
+But the order of these audio cards can change after each boot, so we'd better use its audio card name instead of its order.
 
 We can check with **aplay -L** (upper case "L"):
 
@@ -73,7 +73,7 @@ To set the volume:
    # Set volume to 50% (0~100%)
    pactl set-sink-volume @DEFAULT_SINK@ 50%
 
-It will set volume for both speaker and headphone, persists after reboot.
+It will set volume for both speaker and headphone, and persists after reboot.
 
 To set the volume up or down a little bit:
 

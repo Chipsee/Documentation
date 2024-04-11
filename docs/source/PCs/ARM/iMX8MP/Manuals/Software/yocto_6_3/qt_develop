@@ -7,12 +7,12 @@ Host system requirements
 ------------------------
 
 #) Ubuntu 20.04 LTS 64bit system should be installed on the host machine(your workstation).
-#) Qtcreator 10.0.2 is tested Qtcreator version, other version should also be ok.
+#) Qtcreator 10.0.2 is a tested Qtcreator version, other versions should also be ok.
 
 Preparation
 -----------
 
-#) Download `Qtcreator 10.0.2 <https://download.qt.io/archive/qtcreator/10.0/10.0.2/>`_ and install it on the Ubuntu20.04 64bit Host PC. Other Qtcreator version should also be ok. 
+#) Download `Qtcreator 10.0.2 <https://download.qt.io/archive/qtcreator/10.0/10.0.2/>`_ and install it on the Ubuntu 20.04 64bit Host PC. Other Qtcreator versions should also be ok. 
 
    .. code-block:: bash
          
@@ -24,7 +24,7 @@ Preparation
 
    You can install it in this directory or use another directory.
    
-#) Install Chipsee SDK for IMX8MP products. Download the SDK and install it with the following commands (on your workstation - Ubuntu20.04 64bit Host PC):
+#) Install Chipsee SDK for IMX8MP products. Download the SDK and install it with the following commands (on your workstation - Ubuntu 20.04 64bit Host PC):
    
    .. code-block:: bash
 
@@ -201,7 +201,7 @@ Example — Develop a HelloWorld Program
 
       *Kit Selection*
 
-#) Press finish to complete Qt project, as shown in the image below.
+#) Press finish to complete the Qt project, as shown in the image below.
 
    .. rst-class:: text-center
 

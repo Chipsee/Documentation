@@ -29,7 +29,7 @@ In the first terminal, we use **cat** to listen for GPS info:
    # hit Enter, the port will keep listening 
    # until any information comes to the port(after you send AT command to AT port)
 
-In the second terminal, we send AT commands with micromcom, you can also use other programs to send serial commands:
+In the second terminal, we send AT commands with microcom, you can also use other programs to send serial commands:
 
 .. code-block:: bash
    
