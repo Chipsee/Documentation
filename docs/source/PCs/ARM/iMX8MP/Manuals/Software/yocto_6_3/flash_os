@@ -58,11 +58,11 @@ Copy Firmware to SD Card
    
    .. note::
 
-      For different screen size of Chipsee IMX8MP products, you need to specify your display resolution in the next command. Here is a quick look up table:
+      For different screen sizes of Chipsee IMX8MP products, you need to specify your display resolution in the next command. Here is a quick look up table:
 
       - 7 Inch: 1024600
         
-      In the next command, you need to change "your-display-resolution" to the actual reslution of your device, for example, for 7 inch device, the command should be *'./mksdcard.sh --device /dev/sda --display 1024600'*.
+      In the next command, you need to change "your-display-resolution" to the actual resolution of your device, for example, for 7 inch device, the command should be *'./mksdcard.sh --device /dev/sda --display 1024600'*.
 
    .. code-block:: bash
 
@@ -89,7 +89,7 @@ Plug in the SD card to the Chipsee IMX8MP device. We will flash the OS to the eM
    
 1. Poweroff the device (unplug the power supply).
 2. Insert the SD card to the card slot of the device (refer to hardware manual's picture for TF card insertion direction).
-3. Push and hold the PROG button, in the mean time, power on the device, after around 10 seconds, you should see the system starts to flash OS automatically, then you can release the PROG button.
+3. Push and hold the PROG button, in the meantime, power on the device, after around 10 seconds, you should see the system start to flash the OS automatically, then you can release the PROG button.
 4. When the red LED stops blinking, and turns solid red, it means OS flashing is finished. You can also see a success message on the screen.
 5. Now you can reboot the device, don't push the PROG button, the system should boot from eMMC automatically.
 6. Don't forget to eject your SD card when everything works smoothly. (You might need to use a small-sized flathead screwdriver to aid ejecting SD card for enclosed panel PCs.)

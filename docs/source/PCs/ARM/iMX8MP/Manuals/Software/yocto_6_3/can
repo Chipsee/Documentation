@@ -69,7 +69,7 @@ Bring down the device
 
    ip link set can0 down
 
-If you're new to CAN, you can use two Chipsee devices to test with each other. On both device_A and device_B you first set the CAN and bring up the CAN. Then on device_A you use `candump` to listen, on device_B you use `cansend` to send message, at this moment, the device_A should receive the message sent from device_B and show it in the terminal. For example:
+If you're new to CAN, you can use two Chipsee devices to test with each other. On both device_A and device_B you first set the CAN and bring up the CAN. Then on device_A you use `candump` to listen, on device_B you use `cansend` to send a message, at this moment, device_A should receive the message sent from device_B and show it in the terminal. For example:
 
 .. code-block:: bash
 

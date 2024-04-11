@@ -8,7 +8,7 @@ Prepare the Hardware
 
 To power on and connect to |ipc|, we need:
 
-#. A power adapter. For products with a screen of 7 inch and below, a power adapter with 6V ~ 36V DC output is required; for 10.1 inch and above products, you need one with 12V ~ 36V. For example: a switching mode power supply (SMPS), a laptop power adapter (such as Dell's or Intel NUC's 19V adapter), a router's power adapter (such as ASUS router's 12V power adapter), etc.
+#. A power adapter. For products with a screen of 7 inch and below, a power adapter with 6V ~ 36V DC output is required; for 10.1 inch and above products, you need one with 12V ~ 36V. For example: a switching mode power supply (SMPS), a laptop power adapter (such as Dell or Intel NUC's 19V adapter), a router's power adapter (such as ASUS router's 12V power adapter), etc.
 #. A USB to serial cable (if you need serial debug).
 #. An Ethernet cable (if you want to SSH into the |ipc|). You may also use WiFi if your |ipc| supports WiFi, in this case you don't need the Ethernet cable.
 

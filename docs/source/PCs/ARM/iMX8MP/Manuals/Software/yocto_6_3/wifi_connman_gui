@@ -12,7 +12,7 @@ There is a "Hardware Test" Qt program (source code: https://github.com/Chipsee/h
 
   *The Hardware Test Program: Click 1 to Open the Program, Click 2 to Open Connman Setting*
 
-In the Connman System Tray, you can toggle the WiFi/Ethernet/Bluetooth on / off by clicking a check box, or clicking the "Powered" column.
+In the Connman System Tray, you can toggle the WiFi/Ethernet/Bluetooth on / off by clicking a checkbox, or clicking the "Powered" column.
 
 .. rst-class:: text-center
 
