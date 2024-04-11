@@ -20,8 +20,6 @@ The |chip| based |ipc| supports RS232 and RS485, here are the mapping from the p
    +---------+--------------+-------------------------------+
    | RS232_2 | /dev/ttymxc1 | RS232, Serial Debug           |
    +---------+--------------+-------------------------------+
-   | CAN0    | /dev/ttyUSB2 | RS232, Optional Customization |
-   +---------+--------------+-------------------------------+
    | RS485_3 | /dev/ttymxc2 | RS485                         |
    +---------+--------------+-------------------------------+
    | RS485_4 | /dev/ttyUSB0 | RS485                         |

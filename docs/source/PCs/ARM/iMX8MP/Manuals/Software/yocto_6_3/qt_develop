@@ -16,7 +16,7 @@ Preparation
 
    .. code-block:: bash
          
-      $ wget -c wget -c https://download.qt.io/archive/qtcreator/10.0/10.0.2/qt-creator-opensource-linux-x86_64-10.0.2.run
+      $ wget -c https://download.qt.io/archive/qtcreator/10.0/10.0.2/qt-creator-opensource-linux-x86_64-10.0.2.run
       $ chmod a+x qt-creator-opensource-linux-x86_64-10.0.2.run
       $ ./qt-creator-opensource-linux-x86_64-10.0.2.run
          
@@ -28,8 +28,8 @@ Preparation
    
    .. code-block:: bash
 
-      $ wget -c https://chipsee-tmp.s3.amazonaws.com/SDK/sl-imx-xwayland-glibc-x86_64-meta-toolchain-qt6-armv8a-imx8mp-eisd-toolchain-5.15-kirkstone.sh.xz
-      $ xz -d fsl-imx-xwayland-glibc-x86_64-meta-toolchan-qt6-armv8a-imx8mp-eisd-toolchain-5.15-kirkstone.sh.xz
+      $ wget -c https://chipsee-tmp.s3.amazonaws.com/SDK/fsl-imx-xwayland-glibc-x86_64-meta-toolchain-qt6-armv8a-imx8mp-eisd-toolchain-5.15-kirkstone.sh.xz
+      $ xz -d fsl-imx-xwayland-glibc-x86_64-meta-toolchain-qt6-armv8a-imx8mp-eisd-toolchain-5.15-kirkstone.sh.xz
       $ chmod +x fsl-imx-xwayland-glibc-x86_64-meta-toolchain-qt6-armv8a-imx8mp-eisd-toolchain-5.15-kirkstone.sh
       $ ./fsl-imx-xwayland-glibc-x86_64-meta-toolchain-qt6-armv8a-imx8mp-eisd-toolchain-5.15-kirkstone.sh
 
@@ -66,7 +66,7 @@ Preparation
 
       *Qt Creator*
          
-#) Open the QtCreator Options, then click the menu Edit->Preferences. Config the Compilers/Debuggers/Qt Versions/Devices/Kits as shown in the images below.
+#) Open the QtCreator, then click the menu Edit->Preferences. Config the Compilers/Debuggers/Qt Versions/Devices/Kits as shown in the images below.
    
    .. rst-class:: text-center
 
@@ -130,7 +130,7 @@ Preparation
         :align: center
         :width: 960
 
-      *Devices_6*
+      *Devices_5*
 
    .. rst-class:: text-center
 

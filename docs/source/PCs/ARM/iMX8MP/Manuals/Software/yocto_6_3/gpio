@@ -84,4 +84,18 @@ You can also use a programming language like C, which has libgpiod support to co
    gcc gpiotest.c -o gpiotest -lgpiod
    ./gpiotest
 
+We can also cross-compile `gpiotest.c` on Ubuntu 20.04 or any other Linux X86_64 system and execute the `gpiotest` on the target Chipsee ARM board. In doing so, there's no requirement to install the `libgpiod` development packages on the target Chipsee ARM board system. However, we do need to install the SDK and configure the environment accordingly. Refer to `Development`_ chapter to install SDK.
+
+.. code-block:: bash
+
+   $ source /opt/fsl-imx-xwayland/5.15-kirkstone/environment-setup-armv8a-poky-linux
+   $ echo ${CC}
+   $ ${CC} gpiotest.c -o gpiotest -lgpiod
+
+Then put the gpiotest to target Chipsee ARM board over ssh or other solutions you like.
+
+.. code-block:: bash
+
+   $ scp gpiotest root@xxx.xxx.xxx.xxx
+
 :pagebreak:`True`
