@@ -58,7 +58,7 @@
 
 .. |temp| replace:: From 0°C to +60°C
 
-.. _product_link: https://chipsee.com/product/PPC-CM4-50/
+.. _product_link: https://chipsee.com/
 
 .. |product_link| replace:: EPC/PPC-CM4-050
 
