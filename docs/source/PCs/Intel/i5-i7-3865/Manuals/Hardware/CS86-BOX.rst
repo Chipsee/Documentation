@@ -8,7 +8,7 @@
 
 .. |dim| replace:: 249.2 x 152 x 34mm
 
-.. _product_link: https://chipsee.com/?s=cs86+box
+.. _product_link: https://chipsee.com/product/cs86-box-10510u/
 
 .. |product_link| replace:: |product|
 

@@ -90,7 +90,7 @@
 
 .. |weight_desc| replace:: |productE|: |weightE|; |productP|: |weightP|
 
-.. _product_link: https://chipsee.com/product/PPC-CM4-70/
+.. _product_link: https://chipsee.com/product/PPC-CM4-070/
 
 .. |product_link| replace:: EPC/PPC-CM4-070
 
