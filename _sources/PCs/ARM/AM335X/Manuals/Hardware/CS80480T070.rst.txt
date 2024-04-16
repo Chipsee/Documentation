@@ -1,6 +1,6 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. |product| replace:: PPC/EPC-A8-070-R
+.. |product| replace:: EPC/PPC-A8-070-R
 
 .. |productE| replace:: EPC-A8-070-R
 
@@ -58,7 +58,7 @@
 
 .. _product_link: https://chipsee.com/product/ppca8070r/
 
-.. |product_link| replace:: PPC/EPC-A8-070-R
+.. |product_link| replace:: EPC/PPC-A8-070-R
 
 .. |Cover PNG| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070-HB-R-Front.png
 
@@ -76,7 +76,7 @@
                   :class: product-img
                   :alt: Rear View (Embedded Variant) 
 
-.. _PPC/EPC-A8-070-R:
+.. _EPC/PPC-A8-070-R:
 
 
 |product|

@@ -1,6 +1,6 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. |product| replace:: PPC/EPC-A8-070H-C
+.. |product| replace:: EPC/PPC-A8-070H-C
 
 .. |productE| replace:: EPC-A8-070H-C
 
@@ -74,7 +74,7 @@
                   :class: product-img 
                   :alt: Rear View (Embedded Variant)
 
-.. _PPC/EPC-A8-070H-C:
+.. _EPC/PPC-A8-070H-C:
 
 
 |product|

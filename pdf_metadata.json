@@ -128,9 +128,9 @@
             "orphan": ""
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS10600T070": {
-            "pdf-title": "PPC/EPC-A8-070H-C",
+            "pdf-title": "EPC/PPC-A8-070H-C",
             "pdf-subtitle": "PN: CS10600T070",
-            "pdf-filename": "PPC/EPC-A8-070H-C",
+            "pdf-filename": "EPC/PPC-A8-070H-C",
             "pdf-type": "ipc"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS10600T101": {
@@ -140,9 +140,9 @@
             "pdf-type": "ipc"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS10768T097": {
-            "pdf-title": "PPC/EPC-A8-097-C",
+            "pdf-title": "EPC/PPC-A8-097-C",
             "pdf-subtitle": "PN: CS10768T097",
-            "pdf-filename": "PPC/EPC-A8-097-C",
+            "pdf-filename": "EPC/PPC-A8-097-C",
             "pdf-type": "ipc"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS80480T050": {
@@ -152,15 +152,15 @@
             "pdf-type": "ipc"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS80480T070": {
-            "pdf-title": "PPC/EPC-A8-070-R",
+            "pdf-title": "EPC/PPC-A8-070-R",
             "pdf-subtitle": "PN: CS80480T070",
-            "pdf-filename": "PPC/EPC-A8-070-R",
+            "pdf-filename": "EPC/PPC-A8-070-R",
             "pdf-type": "ipc"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS80480T070-R233": {
-            "pdf-title": "PPC/EPC-A8-070-HB-R",
+            "pdf-title": "EPC/PPC-A8-070-HB-R",
             "pdf-subtitle": "PN: CS80480T070-R233",
-            "pdf-filename": "PPC/EPC-A8-070-HB-R",
+            "pdf-filename": "EPC/PPC-A8-070-HB-R",
             "pdf-type": "ipc"
         },
         "PCs/ARM/AM335X/Manuals/Hardware/CS80600T080": {
