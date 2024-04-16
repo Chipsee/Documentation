@@ -26,7 +26,7 @@
 
 .. |disp_des| replace:: Touch sensitive |dispsize| with a resolution of |res| pixels
 
-.. _product_link: https://chipsee.com/product/ppc-10210u-150-c/
+.. _product_link: https://chipsee.com/product/ppc-10510u-150-c/
 
 .. |product_link| replace:: |product|
 
