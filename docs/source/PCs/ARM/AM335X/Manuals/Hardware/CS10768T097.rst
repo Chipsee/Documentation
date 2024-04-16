@@ -1,6 +1,6 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. |product| replace:: PPC/EPC-A8-097-C
+.. |product| replace:: EPC/PPC-A8-097-C
 
 .. |productE| replace:: EPC-A8-097-C
 
@@ -58,7 +58,7 @@
 
 .. _product_link: https://chipsee.com/product/epca897c/
 
-.. |product_link| replace:: PPC/EPC-A8-097-C
+.. |product_link| replace:: EPC/PPC-A8-097-C
 
 .. |Cover PNG| image:: /Media/ARM/A8/CS10768T097/PPC-A8-097-C-Front.png
 
@@ -76,7 +76,7 @@
                   :class: product-img 
                   :alt: Rear View (Embedded Variant)
 
-.. _PPC/EPC-A8-097-C:
+.. _EPC/PPC-A8-097-C:
 
 
 |product|

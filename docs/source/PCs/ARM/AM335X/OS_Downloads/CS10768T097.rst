@@ -1,7 +1,7 @@
 :pdf-build: False
 
 
-PPC/EPC-A8-097-C (PN: CS10768T097)
+EPC/PPC-A8-097-C (PN: CS10768T097)
 ##################################
 
 .. _CS10768T097-android:

@@ -1,7 +1,7 @@
 :pdf-build: False
 
 
-PPC/EPC-A8-70-HB-C (PN: CS10600T070)
+EPC/PPC-A8-70-HB-C (PN: CS10600T070)
 ####################################
 
 
