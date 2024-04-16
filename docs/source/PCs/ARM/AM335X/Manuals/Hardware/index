@@ -57,9 +57,9 @@ AM335X / A8
 
 7 Inch
 (Capcitive+Resistive)
-|PPC/EPC-A8-070H-C|
+|EPC/PPC-A8-070H-C|
 
-:ref:`PPC/EPC-A8-070H-C<PPC/EPC-A8-070H-C>`
+:ref:`EPC/PPC-A8-070H-C<EPC/PPC-A8-070H-C>`
 
 .. raw:: html
 
@@ -75,7 +75,7 @@ AM335X / A8
 (Resistive)
 |PPC-A8-070-R|
 
-:ref:`PPC/EPC-A8-070-R<PPC/EPC-A8-070-R>`
+:ref:`EPC/PPC-A8-070-R<EPC/PPC-A8-070-R>`
 
 .. raw:: html
 
@@ -91,7 +91,7 @@ AM335X / A8
 (High brightness)
 |PPC-A8-070-HB-R|
 
-:ref:`PPC/EPC-A8-070-HB-R<PPC/EPC-A8-070-HB-R>`
+:ref:`EPC/PPC-A8-070-HB-R<EPC/PPC-A8-070-HB-R>`
 
 .. raw:: html
 
@@ -104,9 +104,9 @@ AM335X / A8
       <div class="index-item">
 
 9.7 Inch
-|PPC/EPC-A8-097-C|
+|EPC/PPC-A8-097-C|
 
-:ref:`PPC/EPC-A8-097-C<PPC/EPC-A8-097-C>`
+:ref:`EPC/PPC-A8-097-C<EPC/PPC-A8-097-C>`
 
 .. raw:: html
 
@@ -129,7 +129,7 @@ AM335X / A8
    :class: index-item-img
    :target: /PCs/ARM/AM335X/Manuals/Hardware/CS10600T101.html
 
-.. |PPC/EPC-A8-070H-C| image:: /Media/ARM/A8/CS10600T070/PPC-A8-070H-C-Front.jpeg
+.. |EPC/PPC-A8-070H-C| image:: /Media/ARM/A8/CS10600T070/PPC-A8-070H-C-Front.jpeg
    :class: index-item-img
    :target: /PCs/ARM/AM335X/Manuals/Hardware/CS10600T070.html
 
@@ -141,7 +141,7 @@ AM335X / A8
    :class: index-item-img
    :target: /PCs/ARM/AM335X/Manuals/Hardware/CS80480T070-R233.html
 
-.. |PPC/EPC-A8-097-C| image:: /Media/ARM/A8/CS10768T097/PPC-A8-097-C-Front.jpeg
+.. |EPC/PPC-A8-097-C| image:: /Media/ARM/A8/CS10768T097/PPC-A8-097-C-Front.jpeg
    :class: index-item-img
    :target: /PCs/ARM/AM335X/Manuals/Hardware/CS10768T097.html
 
@@ -156,7 +156,7 @@ AM335X / A8
    EPC/PPC-A8-050-C </PCs/ARM/AM335X/Manuals/Hardware/CS80480T050>
    EPC/PPC-A8-080-R </PCs/ARM/AM335X/Manuals/Hardware/CS80600T080>
    EPC/PPC-A8-101-R </PCs/ARM/AM335X/Manuals/Hardware/CS10600T101>
-   PPC/EPC-A8-070H-C </PCs/ARM/AM335X/Manuals/Hardware/CS10600T070>
-   PPC/EPC-A8-070-R </PCs/ARM/AM335X/Manuals/Hardware/CS80480T070>
-   PPC/EPC-A8-070-HB-R </PCs/ARM/AM335X/Manuals/Hardware/CS80480T070-R233>
-   PPC/EPC-A8-097-C </PCs/ARM/AM335X/Manuals/Hardware/CS10768T097>
+   EPC/PPC-A8-070H-C </PCs/ARM/AM335X/Manuals/Hardware/CS10600T070>
+   EPC/PPC-A8-070-R </PCs/ARM/AM335X/Manuals/Hardware/CS80480T070>
+   EPC/PPC-A8-070-HB-R </PCs/ARM/AM335X/Manuals/Hardware/CS80480T070-R233>
+   EPC/PPC-A8-097-C </PCs/ARM/AM335X/Manuals/Hardware/CS10768T097>
