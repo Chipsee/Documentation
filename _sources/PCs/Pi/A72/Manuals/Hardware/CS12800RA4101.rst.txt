@@ -8,7 +8,7 @@
 
 .. |productP| replace:: CS12800RA4101P
 
-.. |PN| replace:: PN: CS12800RA4101
+.. |PN| replace:: PN: CS12800RA4101P
 
 .. |dispsize| replace:: 10.1"
 
