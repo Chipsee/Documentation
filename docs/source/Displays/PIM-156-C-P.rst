@@ -46,7 +46,7 @@
 
 .. |osd_lang| replace:: Multilingual Support
 
-.. |accessories| replace:: Bracket / Power Line / VGA Line / HDMI Line / USB Line / Power Adapter
+.. |accessories| replace:: Bracket / Power Line / VGA Line / USB Line / Power Adapter
 
 .. |resp_time| replace:: 25ms to 35ms
 
