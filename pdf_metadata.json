@@ -947,9 +947,9 @@
             "pdf-type": "ipc"
         },
         "PCs/Pi/A72/Manuals/Hardware/CS12720RA4050": {
-            "pdf-title": "EPC/PPC-CM4-050",
-            "pdf-subtitle": "PN: CS12720RA4050",
-            "pdf-filename": "EPC/PPC-CM4-050",
+            "pdf-title": "EPC-CM4-050",
+            "pdf-subtitle": "PN: CS12720RA4050E",
+            "pdf-filename": "EPC-CM4-050",
             "pdf-type": "ipc"
         },
         "PCs/Pi/A72/Manuals/Hardware/CS12720RA4050-C121": {
