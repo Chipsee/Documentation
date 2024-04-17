@@ -1,12 +1,12 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. |product| replace:: EPC/PPC-CM4-050
+.. |product| replace:: EPC-CM4-050
 
 .. |productE| replace:: CS12720RA4050E
 
-.. |productP| replace:: CS12720RA4050P
+.. |productP| replace:: CS12720RA4050P(No-HDMI)
 
-.. |PN| replace:: PN: CS12720RA4050
+.. |PN| replace:: PN: CS12720RA4050E
 
 .. |Product| replace:: The |product| industrial Pi PC
 
@@ -58,9 +58,9 @@
 
 .. |temp| replace:: From 0°C to +60°C
 
-.. _product_link: https://chipsee.com/
+.. _product_link: https://chipsee.com/product/epc-cm4-050
 
-.. |product_link| replace:: EPC/PPC-CM4-050
+.. |product_link| replace:: EPC-CM4-050
 
 .. |wifi_img| image:: /Media/Pi/A53/Others/Antenna.jpeg
                   :align: middle
@@ -69,24 +69,46 @@
 .. |ts_con_img| image:: /Media/Pi/A53/Others/TS_CON.jpeg
                   :align: middle
                   :width: 384 
-                  
-.. |Cover PNG| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.png
 
-.. |Front View| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front.jpeg
+.. |usb_a_img| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-USB.png
+                   :align: middle
+                   :width: 384
+
+.. |usb_c_img| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-USBC.jpg
+                   :align: middle
+                   :width: 384
+
+.. |lan_img| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-LAN.jpg
+                   :align: middle
+                   :width: 384
+
+.. |camera_img| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-Camera.jpg
+                   :align: middle
+                   :width: 384
+
+.. |tf_img| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-TF.jpg
+                   :align: middle
+                   :width: 384
+
+.. |boot_dip_img| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-DIP.jpg
+                   :align: middle
+                   :width: 384
+
+.. |Cover PNG| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-Front.png
+
+.. |Front View| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-Front.png
                   :class: product-img
 
-.. |Rear View| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Back.jpeg
+.. |Rear View| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-Back.png
                   :class: product-img
 
-.. |Side View 1| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-Front.png
+.. |Side View 1| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-Side1.png
                   :class: product-img
-                  :alt: Front View (Embedded Variant)
                   
-.. |Side View 2| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-Back.png
+.. |Side View 2| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-Side2.webp
                   :class: product-img
-                  :alt: Rear View (Embedded Variant)
                   
-.. _EPC/PPC-CM4-050:
+.. _EPC-CM4-050:
 
 |product|
 #########
@@ -97,6 +119,12 @@
 .. include:: /PCs/Shared/four_main_images
 
 .. include:: Legacy_Resources/CS12720RA4050/overview
+
+.. attention::
+
+    The |product| (|productE|) used to offer an enclosed PC variant (named PPC-CM4-050 V1.0), it doesn't have HDMI-D port.
+
+    We've made another PPC-CM4-050 V2.0, it has an HDMI-D port, is smaller, more compact and easier to use, check it at: https://chipsee.com/product/ppc-cm4-050/
 
 .. include:: Legacy_Resources/CS12720RA4050/ordering
 
@@ -129,7 +157,7 @@ The serial communication interfaces (RS485, RS232, and CAN) are routed to a **12
    :align: center
    :figclass: align-center
 
-   *Relation between serial pins on embedded vs. enclosed version of the* |product| *Industrial PC*
+   *RS232, RS485, CAN*
 
 The table below offers more detailed description of every pin and its definition:
 
@@ -180,11 +208,11 @@ USB Connectors
 
 There are 2 x Type A **USB HOST connectors** onboard, as shown on the figure below.
 
-.. Figure:: /Media/Pi/A53/Others/CM3-70-USB.jpeg
-  :align: center
-  :figclass: align-center
+.. rst-class:: text-center
 
-  *USB HOST Connectors (embedded/enclosed PC version)*
+   |usb_a_img|
+
+   *USB HOST Connectors*
 
 .. attention::
 
@@ -193,11 +221,11 @@ There are 2 x Type A **USB HOST connectors** onboard, as shown on the figure bel
 
 The product has one USB Type-C connector that works as a slave by default. You can use it to establish a connection with the host PC and for downloading the system to the eMMC of CM4 module.
 
-.. Figure:: /Media/Pi/A72/CS12800RA4101/TYPE-C.jpg
-  :align: center
-  :figclass: align-center
+.. rst-class:: text-center
 
-  *USB OTG Connector*
+   |usb_c_img|
+
+   *USB-C OTG Connector*
 
 .. warning::
 
@@ -214,20 +242,20 @@ TF Card Slot
 
 |Product| features 1 x **TF Card (micro SD) slot**: SD, TF slots can address up to 128GB of memory.
 
-.. figure:: /Media/Pi/A72/CS12720RA4050/CM4-5-TF.jpg
-  :align: center
-  :figclass: align-center
+.. rst-class:: text-center
 
-  *TF (micro SD) Card Slot*
+   |tf_img|
+
+   *TF (micro SD) Card Slot*
 
 .. attention::
 
-  #) The SD is used for memory extension. It can’t be used for system boot-up.
-  #) The product does not come shipped with the TF Card by default.
+   #) The SD is used for memory extension. It can’t be used for system boot-up.
+   #) The product does not come shipped with the TF Card by default.
 
 
-Audio Connectors
-================
+Audio Connector
+===============
 
 |Product| features some audio peripherals. It has 1 x **3.5mm audio output jack**. |br|
 Also, the |product| industrial Pi PC has a miniature 2W internal speaker for audio reproduction, as well as a small buzzer for alarm/notification sounds.
@@ -252,11 +280,11 @@ When button is released before power, the Raspberry Pi will boot from internal e
 
 There is no need to press the button during regular operation. However, if you need to reinstall the OS, please refer to the detailed information on how to re-flash the OS from the :ref:`Software Documentation <Pi_OS>`.
 
-.. figure:: /Media/Pi/A72/CS12720RA4050/CM4-5-DIP.jpg
-  :figclass: align-center
-  :align: center
+.. rst-class:: text-center
 
-  *Boot DIP Switch*
+   |boot_dip_img|
+
+   *Boot DIP Switch*
   
 
 Mounting Procedure 
@@ -273,16 +301,6 @@ You can mount |productE| with the Embedded mounting method, as shown on the figu
   :figclass: align-center
 
   *Embedded mounting*
-
-|productP|
-----------
-You can mount |productP| with the Vesa (75 x 75mm) and Panel mounting methods, as shown on the figure below.
-
-.. Figure:: /Media/Pi/A53/Others/mountP.jpeg
-  :align: center
-  :figclass: align-center
-
-  *Panel mounting*
 
 .. attention::
 
@@ -304,10 +322,6 @@ product measurements.
    :figclass: align-center
 
    |productE| *Technical Drawing*
-
-|productP|
-----------
-For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
 
 .. include:: /PCs/Shared/Hardware/three_d
 

@@ -5,6 +5,22 @@ CM4
 
    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
 
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+5 Inch
+|EPC-CM4-050|
+
+:ref:`EPC-CM4-050<EPC-CM4-050>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
 .. raw:: html
 
    <div class="col">
@@ -219,21 +235,6 @@ BOX
    </div>
 
 .. raw:: html
-
-   <div class="col">
-      <div class="index-item">
-
-5 Inch (Legacy)
-|EPC/PPC-CM4-050|
-
-:ref:`EPC/PPC-CM4-050<EPC/PPC-CM4-050>`
-
-.. raw:: html
-
-     </div>
-   </div>
-
-.. raw:: html
    
    </div>
 
@@ -279,7 +280,7 @@ BOX
 .. |KIOSK-CM4-215| image:: /Media/Pi/A72/CS19108RA4215-KK/CS19108RA4215-KK-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/Pi/A72/Manuals/Hardware/CS19108RA4215-KK.html   
-.. |EPC/PPC-CM4-050| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050P-Front-Low.jpeg
+.. |EPC-CM4-050| image:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/Pi/A72/Manuals/Hardware/CS12720RA4050.html
 
@@ -288,6 +289,7 @@ BOX
    :titlesonly:
    :hidden:
 
+   EPC-CM4-050 </PCs/Pi/A72/Manuals/Hardware/CS12720RA4050>
    PPC-CM4-050 </PCs/Pi/A72/Manuals/Hardware/CS12720RA4050-C121>
    EPC/PPC-CM4-070 </PCs/Pi/A72/Manuals/Hardware/CS10600RA4070>
    PPC-CM4-070-D </PCs/Pi/A72/Manuals/Hardware/CS10600RA4070P-D>
@@ -302,4 +304,3 @@ BOX
    PPC-CM4-236 </PCs/Pi/A72/Manuals/Hardware/CS19108RA4236>
    CS-CM4-BOX </PCs/Pi/A72/Manuals/Hardware/CSRA4BOX>
    KIOSK-CM4-215 </PCs/Pi/A72/Manuals/Hardware/CS19108RA4215-KK>
-   EPC/PPC-CM4-050(Legacy) </PCs/Pi/A72/Manuals/Hardware/CS12720RA4050>

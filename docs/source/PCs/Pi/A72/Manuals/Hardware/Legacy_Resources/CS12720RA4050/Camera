@@ -4,9 +4,9 @@ Camera Connector
 |Product| has a 15 Pin **Camera Connector**, as shown on the figure below. The camera signals come from CAM1.
 The table below gives details about the definition of every Pin.
 
-.. figure:: /Media/Pi/A72/Others/Camera.jpeg
-   :align: center
-   :figclass: align-center
+.. rst-class:: text-center
+
+   |camera_img|
 
    *Camera Connector*
 
