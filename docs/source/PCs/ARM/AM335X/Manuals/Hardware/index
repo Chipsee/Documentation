@@ -89,9 +89,9 @@ AM335X / A8
 
 7 Inch
 (High brightness)
-|PPC-A8-070-HB-R|
+|PPC-A8-070HB-R|
 
-:ref:`EPC/PPC-A8-070-HB-R<EPC/PPC-A8-070-HB-R>`
+:ref:`EPC/PPC-A8-070HB-R<EPC/PPC-A8-070HB-R>`
 
 .. raw:: html
 
@@ -133,11 +133,11 @@ AM335X / A8
    :class: index-item-img
    :target: /PCs/ARM/AM335X/Manuals/Hardware/CS10600T070.html
 
-.. |PPC-A8-070-R| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070-HB-R-Front.jpeg
+.. |PPC-A8-070-R| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070HB-R-Front.jpeg
    :class: index-item-img
    :target: /PCs/ARM/AM335X/Manuals/Hardware/CS80480T070.html
 
-.. |PPC-A8-070-HB-R| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070-HB-R-Front.jpeg
+.. |PPC-A8-070HB-R| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070HB-R-Front.jpeg
    :class: index-item-img
    :target: /PCs/ARM/AM335X/Manuals/Hardware/CS80480T070-R233.html
 
@@ -158,5 +158,5 @@ AM335X / A8
    EPC/PPC-A8-101-R </PCs/ARM/AM335X/Manuals/Hardware/CS10600T101>
    EPC/PPC-A8-070H-C </PCs/ARM/AM335X/Manuals/Hardware/CS10600T070>
    EPC/PPC-A8-070-R </PCs/ARM/AM335X/Manuals/Hardware/CS80480T070>
-   EPC/PPC-A8-070-HB-R </PCs/ARM/AM335X/Manuals/Hardware/CS80480T070-R233>
+   EPC/PPC-A8-070HB-R </PCs/ARM/AM335X/Manuals/Hardware/CS80480T070-R233>
    EPC/PPC-A8-097-C </PCs/ARM/AM335X/Manuals/Hardware/CS10768T097>
