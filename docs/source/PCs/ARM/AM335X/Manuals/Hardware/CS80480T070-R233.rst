@@ -1,10 +1,10 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. |product| replace:: EPC/PPC-A8-070-HB-R
+.. |product| replace:: EPC/PPC-A8-070HB-R
 
-.. |productE| replace:: EPC-A8-070-HB-R
+.. |productE| replace:: EPC-A8-070HB-R
 
-.. |productP| replace:: PPC-A8-070-HB-R
+.. |productP| replace:: PPC-A8-070HB-R
 
 .. |PN| replace:: PN: CS80480T070-R233
 
@@ -58,25 +58,25 @@
 
 .. _product_link: https://chipsee.com/product/epca870hbr/
 
-.. |product_link| replace:: EPC/PPC-A8-070-HB-R
+.. |product_link| replace:: EPC/PPC-A8-070HB-R
 
-.. |Cover PNG| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070-HB-R-Front.png
+.. |Cover PNG| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070HB-R-Front.png
 
-.. |Front View| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070-HB-R-Front.jpeg
+.. |Front View| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070HB-R-Front.jpeg
                   :class: product-img
 
-.. |Rear View| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070-HB-R-Back.jpeg
+.. |Rear View| image:: /Media/ARM/A8/CS80480T070/PPC-A8-070HB-R-Back.jpeg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/ARM/A8/CS80480T070/EPC-A8-070-HB-R-Front.jpeg
+.. |Side View 1| image:: /Media/ARM/A8/CS80480T070/EPC-A8-070HB-R-Front.jpeg
                   :class: product-img
                   :alt: Front View (Embedded Variant)
 
-.. |Side View 2| image:: /Media/ARM/A8/CS80480T070/EPC-A8-070-HB-R-Back.jpeg
+.. |Side View 2| image:: /Media/ARM/A8/CS80480T070/EPC-A8-070HB-R-Back.jpeg
                   :class: product-img
                   :alt: Rear View (Embedded Variant) 
 
-.. _EPC/PPC-A8-070-HB-R:
+.. _EPC/PPC-A8-070HB-R:
 
 
 |product|
@@ -126,7 +126,7 @@ Mechanical Specifications
 The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
-.. figure:: /Media/ARM/A8/CS80480T070/EPC-A8-070-HB-R-TD.jpeg
+.. figure:: /Media/ARM/A8/CS80480T070/EPC-A8-070HB-R-TD.jpeg
    :align: center
    :figclass: align-center
 
