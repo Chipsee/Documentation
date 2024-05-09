@@ -287,7 +287,7 @@ The table below offers more detailed description of every pin and its definition
     #) The RS232_2 can be set as the RS485 signal. If you need it to work as RS485, please |contact|_ before shipping.
     #) The RS485_3 can be set as Two 5V logic GPIO Output, these two TPIO can be used as Wiegand signal. If you need them to work as GPIO, please |contact|_ before shipping.
     #) RS485_3 automatically controls input/output direction. It does not need software control.
-    #) The 120Ω match resistor for the RS485 is not mounted by default.
+    #) The 120Ω match resistor for the RS485 is already mounted by default.
     #) The Relay Max switching voltage is 125VAC or 60VDC. The maximum switching current is 1A. Rated load is 0.3A at 125VAC and 1A at 30VDC.
 
 :pagebreak:`True`
