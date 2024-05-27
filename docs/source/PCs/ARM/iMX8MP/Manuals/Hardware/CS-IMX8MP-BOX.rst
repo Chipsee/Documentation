@@ -130,7 +130,11 @@
 
 .. include:: Resources/BOX-070P-IMX8MP-Shared/power_jack
 
-.. include:: Resources/connectivity
+.. include:: Resources/connectivity_1
+
+.. include:: Resources/BOX-070P-IMX8MP-Shared/connectivity_2
+
+.. include:: Resources/connectivity_3
 
 .. include:: Resources/BOX-070P-IMX8MP-Shared/gpio
 
@@ -167,3 +171,4 @@ Please refer to the technical drawing in the figure below for details related to
 :pagebreak:`True`
 
 .. include:: /PCs/Shared/support
+
