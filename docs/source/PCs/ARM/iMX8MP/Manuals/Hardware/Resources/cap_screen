@@ -1,7 +1,7 @@
 Touch Screen
 ============
 
-|Product| uses a |tscreen|.
+|Product| uses a |tscreen|. The touch layer is connected through |screen_conn_type|.
 
 .. attention::
 

@@ -10,9 +10,9 @@ The |chip| based |ipc| supports RS232 and RS485, here are the mapping from the p
    +---------+--------------+---------------------+
    | Name    | Node         | Protocol            |
    +=========+==============+=====================+
-   | RS232_0 | /dev/ttyS0   | RS232               |
+   | RS232_0 | /dev/ttyFIQ0 | RS232, Serial Debug |
    +---------+--------------+---------------------+
-   | RS232_2 | /dev/ttyFIQ0 | RS232, Serial Debug |
+   | RS232_2 | /dev/ttyS0   | RS232               |
    +---------+--------------+---------------------+
    | RS485_3 | /dev/ttyS3   | RS485               |
    +---------+--------------+---------------------+

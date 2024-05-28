@@ -50,7 +50,7 @@
 
 .. |can_at_most| replace:: 2 x CAN
 
-.. |UART_Note| replace:: This product has 2 x CPU UART, 2 x USB UART by default, |uart_at_most| at most. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. There is 1 x CAN that can be configured to RS232 (USB UART).
+.. |UART_Note| replace:: This product has 3 x CPU UART, 1 x USB UART by default, |uart_at_most| at most. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. There is 1 x CAN (**default**) and 2 x CAN at most, there is 1 x RS485 that can be configured to CAN.
 
 .. |can| replace:: default 1 x CAN (Optional |can_at_most| at most)
 
@@ -73,6 +73,8 @@
 .. |pwr| replace:: Max brightness, max CPU load: 6.24W; Min brightness, idle: 3W.
 
 .. |tscreen| replace:: 5-point capacitive touch screen
+
+.. |screen_conn_type| replace:: I2C
 
 .. |opt_feature_4g| replace:: Does not support 4G/LTE module.
 

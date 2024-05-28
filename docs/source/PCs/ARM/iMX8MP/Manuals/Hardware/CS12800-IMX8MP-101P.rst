@@ -34,6 +34,8 @@
 
 .. |tscreen| replace:: 10-point capacitive touch screen
 
+.. |screen_conn_type| replace:: I2C
+
 .. |RAM| replace:: LPDDR4 4GB
 
 .. |eMMC| replace:: 32GB
@@ -64,7 +66,7 @@
 
 .. |rs485| replace:: Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232.
 
-.. |UART_Note| replace:: This product has 2 x CPU UART, 2 x USB UART by default, |uart_at_most| at most. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. There are 2 x CAN that can be configured to RS232 (USB UART).
+.. |UART_Note| replace:: This product has 3 x CPU UART, 1 x USB UART by default, and |uart_at_most| at most. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. This product has 2 x CAN by default, all of them can be configured to RS232 (USB UART).
 
 .. |can| replace:: Default to 2 x CAN. Optionally, these 2 x CAN can be configured to RS232.
 
