@@ -13,6 +13,56 @@ To use CAN, you must add one 120Ω resistor between CAN_H and CAN_L on one of t
 
    *Connecting CAN*
 
+**5 inch product**
+
+* PPC-A53-050 (PN: CS12720-IMX8MP-050P)
+
+.. table:: CAN for **5 inch** product
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +-----------------+---------------+
+   | Pin Name        | Software Node |
+   +=================+===============+
+   | CAN1_H, CAN1_L  | CAN0          |
+   +-----------------+---------------+
+
+**7 inch product and Box product**
+
+* PPC-A53-070 (PN: CS10600-IMX8MP-070P)
+* CS-A53-BOX (PN: CS-IMX8MP-BOX)
+
+.. table:: CAN for **7 inch** product and **box** product
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +-----------------+---------------+
+   | Pin Name        | Software Node |
+   +=================+===============+
+   | CAN0_H, CAN0_L  | CAN0          |
+   +-----------------+---------------+
+   | CAN1_H, CAN1_L  | CAN1          |
+   +-----------------+---------------+
+
+**10.1+ inch products**
+
+* PPC-A53-101 (PN: CS12800-IMX8MP-101P)
+
+.. table:: CAN for **10.1+ inch** products
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +-----------------+---------------+
+   | Pin Name        | Software Node |
+   +=================+===============+
+   | CAN0_H, CAN0_L  | CAN0          |
+   +-----------------+---------------+
+   | CAN1_H, CAN1_L  | CAN1          |
+   +-----------------+---------------+
+
 To check the CAN devices status with *ip link*, on the 7 inch device, there are two CAN devices (can0 and can1):
 
 .. code-block:: text
