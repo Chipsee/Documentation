@@ -752,13 +752,44 @@ gpioset<span class="w"> </span><span class="m">2</span><span class="w"> </span><
 <section id="serial-port">
 <h3 id="serial-port">Serial Port<a class="headerlink" href="#serial-port" title="Permalink to this heading">¶</a></h3>
 <p>The i.MX8MP based Chipsee industrial PC supports RS232 and RS485, here are the mapping from the port name to the system tree device:</p>
+<p><strong>5 inch product</strong></p>
+<ul class="simple">
+<li><p>PPC-A53-050 (PN: CS12720-IMX8MP-050P)</p></li>
+</ul>
+<table id="id2" style="width: 100%">
+<caption><span class="caption-number">Table 94 </span><span class="caption-text">RS232/485 for <strong>5 inch</strong> product</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Node</p></th>
+<th class="head"><p>Protocol</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>RS232_0</p></td>
+<td><p>/dev/ttymxc1</p></td>
+<td><p>RS232, Serial Debug</p></td>
+</tr>
+<tr class="row-odd"><td><p>RS232_2</p></td>
+<td><p>/dev/ttymxc3</p></td>
+<td><p>RS232</p></td>
+</tr>
+<tr class="row-even"><td><p>RS485_3</p></td>
+<td><p>/dev/ttymxc2</p></td>
+<td><p>RS485</p></td>
+</tr>
+<tr class="row-odd"><td><p>RS485_5</p></td>
+<td><p>/dev/ttyUSB0</p></td>
+<td><p>RS485</p></td>
+</tr>
+</tbody>
+</table>
 <p><strong>7 inch product and Box product</strong></p>
 <ul class="simple">
 <li><p>PPC-A53-070 (PN: CS10600-IMX8MP-070P)</p></li>
 <li><p>CS-A53-BOX (PN: CS-IMX8MP-BOX)</p></li>
 </ul>
-<table id="id2" style="width: 100%">
-<caption><span class="caption-number">Table 88 </span><span class="caption-text">RS232/485 for <strong>7 inch</strong> product and <strong>box</strong> product</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<table id="id3" style="width: 100%">
+<caption><span class="caption-number">Table 95 </span><span class="caption-text">RS232/485 for <strong>7 inch</strong> product and <strong>box</strong> product</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Name</p></th>
 <th class="head"><p>Node</p></th>
@@ -788,6 +819,37 @@ gpioset<span class="w"> </span><span class="m">2</span><span class="w"> </span><
 </tr>
 </tbody>
 </table>
+<p><strong>10.1+ inch products</strong></p>
+<ul class="simple">
+<li><p>PPC-A53-101 (PN: CS12800-IMX8MP-101P)</p></li>
+</ul>
+<table id="id4" style="width: 100%">
+<caption><span class="caption-number">Table 96 </span><span class="caption-text">RS232/485 for <strong>10.1+ inch</strong> products</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Node</p></th>
+<th class="head"><p>Protocol</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>RS232_0</p></td>
+<td><p>/dev/ttymxc3</p></td>
+<td><p>RS232</p></td>
+</tr>
+<tr class="row-odd"><td><p>RS232_2</p></td>
+<td><p>/dev/ttymxc1</p></td>
+<td><p>RS232, Serial Debug</p></td>
+</tr>
+<tr class="row-even"><td><p>RS485_3</p></td>
+<td><p>/dev/ttymxc2</p></td>
+<td><p>RS485</p></td>
+</tr>
+<tr class="row-odd"><td><p>RS485_4</p></td>
+<td><p>/dev/ttyUSB0</p></td>
+<td><p>RS485</p></td>
+</tr>
+</tbody>
+</table>
 <p>The 120 Ohm match resistor is already mounted on the RS485 port. RS485 ports are half-duplex, the hardware can switch the Tx/Rx direction automatically. RS232 ports are full-duplex.</p>
 <p>You can use the pre-installed HardwareTest program developed by Chipsee to test serial ports, for example, you’ve wired the serial cable on the RS232_0_RX, RS232_0_TX on the 7 inch product, then you can select “ttymxc3” in “COM”, click “SerialOpen”, then you can use your workstation or another Chipsee PC to communicate with this 7 inch product.</p>
 <p>For example, you can use a program called COMTool which can be downloaded from Github on your workstation, or use any of your favorite serial port debug tools. Select the same baudrate and bits as in HardwareTest program, click SerialSend to send from Chipsee industrial PC, or send ASCII from your workstation and receive it on the Chipsee industrial PC.</p>
@@ -799,9 +861,14 @@ gpioset<span class="w"> </span><span class="m">2</span><span class="w"> </span><
 <h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this heading">¶</a></h3>
 <p>There are 8 GPIOs, 4 Output, and 4 Input, they are all optical isolated. You can control the output or input pin voltage by feeding the VDD_ISO voltage. The pin voltage should be from 5V to 24V. You should use an external reliable power supply for the VDD_ISO and GND_ISO.</p>
 <p>We <strong>don’t</strong> recommend testing GPIO with the onboard +5V/GND (wiring the +5V to VDD_ISO and wiring GND to GND_ISO), in most cases we recommend using an external power source for VDD_ISO and GND_ISO.</p>
+<p>For:</p>
+<ul class="simple">
+<li><p>7 inch product and box product: PPC-A53-070 (PN: CS10600-IMX8MP-070P), CS-A53-BOX (PN: CS-IMX8MP-BOX)</p></li>
+<li><p>10.1+ inch products: PPC-A53-101 (PN: CS12800-IMX8MP-101P)</p></li>
+</ul>
 <p>Refer to the tables below for a detailed port definition:</p>
-<table id="id3" style="width: 100%">
-<caption><span class="caption-number">Table 89 </span><span class="caption-text">GPIO Device Node</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<table id="id5" style="width: 100%">
+<caption><span class="caption-number">Table 97 </span><span class="caption-text">GPIO Device Node</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Function</p></th>
 <th class="head"><p>CPU IO</p></th>
@@ -900,12 +967,70 @@ $<span class="w"> </span><span class="si">${</span><span class="nv">CC</span><sp
 <p class="admonition-title">Note</p>
 <p>The Chipsee industrial PC <strong>doesn’t</strong> mount the 120Ω matched resistor on all CAN signals by default.</p>
 </div>
-<figure class="align-center" id="id4">
+<figure class="align-center" id="id6">
 <img alt="../../../../../_images/CAN.jpeg" src="../../../../../_images/CAN.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 391:  </span><span class="caption-text"><em>Connecting CAN</em></span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 393:  </span><span class="caption-text"><em>Connecting CAN</em></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
+<p><strong>5 inch product</strong></p>
+<ul class="simple">
+<li><p>PPC-A53-050 (PN: CS12720-IMX8MP-050P)</p></li>
+</ul>
+<table id="id7" style="width: 100%">
+<caption><span class="caption-number">Table 98 </span><span class="caption-text">CAN for <strong>5 inch</strong> product</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Pin Name</p></th>
+<th class="head"><p>Software Node</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>CAN1_H, CAN1_L</p></td>
+<td><p>CAN0</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>7 inch product and Box product</strong></p>
+<ul class="simple">
+<li><p>PPC-A53-070 (PN: CS10600-IMX8MP-070P)</p></li>
+<li><p>CS-A53-BOX (PN: CS-IMX8MP-BOX)</p></li>
+</ul>
+<table id="id8" style="width: 100%">
+<caption><span class="caption-number">Table 99 </span><span class="caption-text">CAN for <strong>7 inch</strong> product and <strong>box</strong> product</span><a class="headerlink" href="#id8" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Pin Name</p></th>
+<th class="head"><p>Software Node</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>CAN0_H, CAN0_L</p></td>
+<td><p>CAN0</p></td>
+</tr>
+<tr class="row-odd"><td><p>CAN1_H, CAN1_L</p></td>
+<td><p>CAN1</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>10.1+ inch products</strong></p>
+<ul class="simple">
+<li><p>PPC-A53-101 (PN: CS12800-IMX8MP-101P)</p></li>
+</ul>
+<table id="id9" style="width: 100%">
+<caption><span class="caption-number">Table 100 </span><span class="caption-text">CAN for <strong>10.1+ inch</strong> products</span><a class="headerlink" href="#id9" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Pin Name</p></th>
+<th class="head"><p>Software Node</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>CAN0_H, CAN0_L</p></td>
+<td><p>CAN0</p></td>
+</tr>
+<tr class="row-odd"><td><p>CAN1_H, CAN1_L</p></td>
+<td><p>CAN1</p></td>
+</tr>
+</tbody>
+</table>
 <p>To check the CAN devices status with <em>ip link</em>, on the 7 inch device, there are two CAN devices (can0 and can1):</p>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span><span class="hll">root@imx8mp-eisd:~# ip link
 </span>1: lo: &lt;LOOPBACK,UP,LOWER_UP&gt; mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
@@ -1718,7 +1843,7 @@ $<span class="w"> </span>qmake<span class="w"> </span>-v
               
           </div>
             Last updated on
-              May 16, 2024.
+              May 30, 2024.
             <br/>
         </div>
       </div>

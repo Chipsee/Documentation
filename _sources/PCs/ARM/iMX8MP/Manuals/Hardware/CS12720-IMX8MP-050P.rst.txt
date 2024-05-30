@@ -1,0 +1,215 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: PPC-A53-050
+
+.. |productP| replace:: PPC-A53-050
+
+.. |PN| replace:: PN: CS12720-IMX8MP-050P
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |dispsize| replace:: 5"
+
+.. |res| replace:: 1280 x 720
+
+.. |bright| replace:: 400 |cd|
+
+.. |disp_des| replace:: |dispsize| 5-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
+
+.. |disp_table| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
+
+.. |RAM| replace:: LPDDR4 4GB
+
+.. |eMMC| replace:: 32GB
+
+.. |HDMI| replace:: 1 x HDMI-D 2.0 (Micro-HDMI) Out
+
+.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |USB_3_USB_C_Note| replace:: USB3.0 port and USB-C port share one node and cannot be used together. In Linux USB3.0 HOST is enabled by default; in Android USB-C OTG is enabled by default. You can change this config by software in the operating systems, e.g.: disable USB3.0 HOST then enable USB-C OTG in Linux, or vice versa in Android.
+
+.. |LAN| replace:: 1 x RJ45, GbE
+
+.. |GPIO| replace:: N/A
+
+.. |opt1| replace:: N/A
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
+.. |vin_rng| replace:: From 6V to 36V
+
+.. |temp| replace:: From 0°C to +60°C
+
+.. |rs232| replace:: default 2 x RS232 (Optional 4 x RS232 at most, include 1 debug port)
+
+.. |rs485| replace:: 2 x RS485 at most
+
+.. |uart_at_most| replace:: 4 x UART terminals (RS232/RS485)
+
+.. |can_at_most| replace:: 2 x CAN
+
+.. |UART_Note| replace:: This product has 3 x CPU UART, 1 x USB UART by default, |uart_at_most| at most. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. There is 1 x CAN (**default**) and 2 x CAN at most, there is 1 x RS485 that can be configured to CAN.
+
+.. |can| replace:: default 1 x CAN (Optional |can_at_most| at most)
+
+.. |poe| replace:: N/A
+
+.. |lan_poe| replace:: No support for Power over Ethernet (PoE) feature on this model.
+
+.. |mounting_table| replace:: Panel, VESA
+
+.. |dimE| replace:: NULL
+
+.. |dimP| replace:: 138.55 x 84.70 x 27.10mm
+
+.. |weightE| replace:: NULL
+
+.. |weightP| replace:: 310g
+
+.. |cur| replace:: Max brightness, max CPU load: 0.52A at 12V; Min brightness, idle: 0.25A at 12V.
+
+.. |pwr| replace:: Max brightness, max CPU load: 6.24W; Min brightness, idle: 3W.
+
+.. |tscreen| replace:: 5-point capacitive touch screen
+
+.. |screen_conn_type| replace:: I2C
+
+.. |opt_feature_4g| replace:: Does not support 4G/LTE module.
+
+.. |conn_terminal| replace:: **12-pin 3.81mm terminal**
+
+.. |mount_screws| replace:: 2 x M4 screws
+
+.. |power_img| image:: /Media/ARM/A53/CS12720-IMX8MP-050P/CS12720-IMX8MP-050P-Power.jpg
+                  :align: middle
+                  :width: 480
+
+.. |rs232_485_can_img| image:: /Media/ARM/A53/CS12720-IMX8MP-050P/CS12720-IMX8MP-050P-RS232-RS485-CAN.jpg
+                  :align: middle
+                  :width: 360
+
+.. |USB2_img| image:: /Media/ARM/A53/CS12720-IMX8MP-050P/CS12720-IMX8MP-050P-USB2.jpg
+                   :align: middle
+                   :width: 576
+
+.. |USB3_img| image:: /Media/ARM/A53/CS12720-IMX8MP-050P/CS12720-IMX8MP-050P-USB3.jpg
+                   :align: middle
+                   :width: 576
+
+.. |USBC_img| image:: /Media/ARM/A53/CS12720-IMX8MP-050P/CS12720-IMX8MP-050P-USBC.jpg
+                   :align: middle
+                   :width: 576
+
+.. |wifi_bt_img| image:: /Media/ARM/A53/CS12720-IMX8MP-050P/CS12720-IMX8MP-050P-WIFI.jpg
+                  :align: middle
+                  :width: 640
+                  
+.. |LAN_img| image:: /Media/ARM/A53/CS12720-IMX8MP-050P/CS12720-IMX8MP-050P-LAN.jpg
+                  :align: middle
+                  :width: 576
+
+.. |TF_img| image:: /Media/ARM/A53/CS12720-IMX8MP-050P/CS12720-IMX8MP-050P-TFCard.jpg
+                  :align: middle
+                  :width: 768
+
+.. |audio_img| image:: /Media/ARM/A53/CS12720-IMX8MP-050P/CS12720-IMX8MP-050P-Audio.jpg
+                  :align: middle
+                  :width: 384
+
+.. |buzzer_img| image:: /Media/ARM/A53/CS12720-IMX8MP-050P/CS12720-IMX8MP-050P-Buzzer.jpg
+                  :align: middle
+                  :width: 640
+
+.. |HDMI_img| image:: /Media/ARM/A53/CS12720-IMX8MP-050P/CS12720-IMX8MP-050P-HDMI.jpg
+                  :align: middle
+                  :width: 384
+
+.. |PROG_btn_img| image:: /Media/ARM/A53/CS12720-IMX8MP-050P/CS12720-IMX8MP-050P-Prog-Button.jpg
+                  :align: middle
+                  :width: 384
+
+.. |dimension_img| image:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Case-Size.png
+                  :align: middle
+                  :width: 576
+
+.. _product_link: https://chipsee.com/product/ppc-a53-050/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/ARM/A53/CS12720-IMX8MP-050P/CS12720-IMX8MP-050P-Front.png
+
+.. |Front View| image:: /Media/ARM/A53/CS12720-IMX8MP-050P/CS12720-IMX8MP-050P-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/A53/CS12720-IMX8MP-050P/CS12720-IMX8MP-050P-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/A53/CS12720-IMX8MP-050P/CS12720-IMX8MP-050P-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/A53/CS12720-IMX8MP-050P/CS12720-IMX8MP-050P-Side2.jpg
+                  :class: product-img                 
+                  
+.. _PPC-A53-050:
+
+
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/connectivity_1
+
+.. include:: Resources/CS12720-IMX8MP-050P/connectivity_2
+
+.. include:: Resources/connectivity_3
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi_BT
+
+.. include:: Resources/TF_Card
+
+.. include:: Resources/Audio
+
+.. include:: Resources/HDMI
+
+.. include:: Resources/prog_btn
+
+.. include:: Resources/mounting
+
+:pagebreak:`True`
+
+.. include:: Resources/mechanical
+
+.. rst-class:: text-center
+
+   |dimension_img|
+
+   *Dimensions* (|product|)
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support

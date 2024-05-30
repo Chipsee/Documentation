@@ -689,6 +689,18 @@
             "pdf-filename": "PPC-A53-070",
             "pdf-type": "ipc"
         },
+        "PCs/ARM/iMX8MP/Manuals/Hardware/CS12720-IMX8MP-050P": {
+            "pdf-title": "PPC-A53-050",
+            "pdf-subtitle": "PN: CS12720-IMX8MP-050P",
+            "pdf-filename": "PPC-A53-050",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/iMX8MP/Manuals/Hardware/CS12800-IMX8MP-101P": {
+            "pdf-title": "PPC-A53-101",
+            "pdf-subtitle": "PN: CS12800-IMX8MP-101P",
+            "pdf-filename": "PPC-A53-101",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/iMX8MP/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
