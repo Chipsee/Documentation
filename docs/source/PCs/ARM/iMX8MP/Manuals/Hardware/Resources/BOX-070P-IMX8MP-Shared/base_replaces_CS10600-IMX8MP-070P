@@ -26,8 +26,20 @@
 
 .. |rs485| replace:: default 3 x RS485 at most
 
-.. |UART_Note| replace:: This product has 3 x CPU UART, 2 x USB UART by default, 6 x UART channels at most. The default configuration is 2 x RS232 and 3 x RS485, including 1 RS232 debug port. There is 1 x CAN that can be configured to RS232 (USB UART).
+.. |uart_at_most| replace:: 6 x UART terminals (RS232/RS485)
+
+.. |can_at_most| replace:: 2 x CAN
+
+.. |conn_terminal| replace:: **16-pin 3.81mm terminal**
+
+.. |UART_Note| replace:: This product has 3 x CPU UART, 2 x USB UART by default, |uart_at_most| at most. The default configuration is 2 x RS232 and 3 x RS485, including 1 RS232 debug port. There is 1 x CAN that can be configured to RS232 (USB UART).
 
 .. |can| replace:: default 2 x CAN (1 x CAN can be configured to RS232 optionally)
 
 .. |poe| replace:: Supported, Optional
+
+.. |lan_poe| replace:: The LAN0 port supports **optional** Power over Ethernet (PoE) feature.
+
+.. |opt_feature_4g| replace:: Does not include the 4G/LTE module by default. The module is optional and can be selected at the Chipsee store during the ordering process.
+
+.. |mount_screws| replace:: **75 x 75** mm, 4 x **M4** (6mm) screws

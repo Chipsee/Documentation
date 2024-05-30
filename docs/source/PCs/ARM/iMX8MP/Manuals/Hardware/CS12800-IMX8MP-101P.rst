@@ -1,0 +1,225 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: PPC-A53-101
+
+.. |productP| replace:: PPC-A53-101
+
+.. |PN| replace:: PN: CS12800-IMX8MP-101P
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |dispsize| replace:: 10.1"
+
+.. |res| replace:: 1280 x 800
+
+.. |bright| replace:: 400 |cd|
+
+.. |disp_des| replace:: |dispsize| 10-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
+
+.. |disp_table| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
+
+.. |mounting_table| replace:: Panel, VESA
+
+.. |dimE| replace:: NULL
+
+.. |dimP| replace:: 275.5 x 193.5 x 46.0mm
+
+.. |weightE| replace:: NULL
+
+.. |weightP| replace:: 1300g
+
+.. |cur| replace:: Max brightness, max CPU load: 0.97A at 12V; Min brightness, idle: 0.58A at 12V.
+
+.. |pwr| replace:: Max brightness, max CPU load: 11.64W; Min brightness, idle: 6.96W.
+
+.. |tscreen| replace:: 10-point capacitive touch screen
+
+.. |screen_conn_type| replace:: I2C
+
+.. |RAM| replace:: LPDDR4 4GB
+
+.. |eMMC| replace:: 32GB
+
+.. |HDMI| replace:: 1 x HDMI OUT
+
+.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |USB_3_USB_C_Note| replace:: USB3.0 port and USB-C port share one node and cannot be used together. In Linux USB3.0 HOST is enabled by default; in Android USB-C OTG is enabled by default. You can change this config by software in the operating systems, e.g.: disable USB3.0 HOST then enable USB-C OTG in Linux, or vice versa in Android.
+
+.. |LAN| replace:: 1 x RJ45, GbE **(default)**, Power over Ethernet(PoE) *(optional)*
+
+.. |lan_poe| replace:: The LAN port supports **optional** Power over Ethernet (PoE) feature.
+
+.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
+
+.. |opt1| replace:: Supported, Optional
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
+.. |vin_rng| replace:: From 12V to 36V
+
+.. |temp| replace:: From 0°C to +60°C
+
+.. |rs232| replace:: Default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port)
+
+.. |rs485| replace:: Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232.
+
+.. |UART_Note| replace:: This product has 3 x CPU UART, 1 x USB UART by default, and |uart_at_most| at most. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. This product has 2 x CAN by default, all of them can be configured to RS232 (USB UART).
+
+.. |can| replace:: Default to 2 x CAN. Optionally, these 2 x CAN can be configured to RS232.
+
+.. |poe| replace:: Supported, Optional
+
+.. |opt_feature_4g| replace:: Does not include the 4G/LTE module by default. The module is optional and can be selected at the Chipsee store during the ordering process.
+
+.. |uart_at_most| replace:: 6 x UART terminals (RS232/RS485)
+
+.. |can_at_most| replace:: 2 x CAN
+
+.. |conn_terminal| replace:: **24-pin 3.81mm terminal**
+
+.. |mount_screws| replace:: **100 x 100** mm, 4 x **M4** (6mm) screws
+
+.. |power_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-Power.jpg
+                  :align: middle
+                  :width: 576
+
+.. |rs232_485_can_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-RS232-RS485-CAN.jpg
+                  :align: middle
+                  :width: 1024
+
+.. |USB2_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-USB2.jpg
+                   :align: middle
+                   :width: 384
+
+.. |USB3_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-USB3.jpg
+                   :align: middle
+                   :width: 384
+
+.. |USBC_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-USBC.jpg
+                   :align: middle
+                   :width: 384
+
+.. |wifi_bt_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-WIFI.jpg
+                  :align: middle
+                  :width: 480
+
+.. |4g_chip_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-4GChip.jpg
+                  :align: middle
+                  :width: 512
+
+.. |sim_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-SIM.jpg
+                  :align: middle
+                  :width: 640
+                  
+.. |LAN_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-LAN.jpg
+                  :align: middle
+                  :width: 384
+
+.. |TF_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-TFCard.jpg
+                  :align: middle
+                  :width: 480
+
+.. |audio_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-Audio.jpg
+                  :align: middle
+                  :width: 384
+
+.. |buzzer_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-Buzzer.jpg
+                  :align: middle
+                  :width: 384
+
+.. |HDMI_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-HDMI.jpg
+                  :align: middle
+                  :width: 384
+
+.. |PROG_btn_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-Prog-Button.jpg
+                  :align: middle
+                  :width: 384
+
+.. |dimension_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-Dimension.png
+                  :align: middle
+                  :width: 800
+
+.. _product_link: https://chipsee.com/product/ppc-a53-101/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-Front.png
+
+.. |Front View| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-Side2.jpg
+                  :class: product-img                 
+                  
+.. _PPC-A53-101:
+
+
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/connectivity_1
+
+.. include:: Resources/CS12800-IMX8MP-101P/connectivity_2
+
+.. include:: Resources/connectivity_3
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi_BT
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/TF_Card
+
+.. include:: Resources/Audio
+
+.. include:: Resources/HDMI
+
+.. include:: Resources/prog_btn
+
+.. include:: Resources/mounting
+
+:pagebreak:`True`
+
+.. include:: Resources/mechanical
+
+.. rst-class:: text-center
+
+   |dimension_img|
+
+   *Dimensions* (|product|)
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support

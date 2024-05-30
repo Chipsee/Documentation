@@ -1,8 +1,7 @@
 USB Connectors
 --------------
 
-There are 2 x **USB HOST** and 1 x **USB DEVICE** (for flashing OS) ports onboard: |USB|
-, as shown in the figures below.
+There are 2 x **USB HOST** and 1 x **USB DEVICE** (for flashing OS) ports onboard: |USB|, as shown in the figures below.
 
 |USB_3_USB_C_Note|
 
@@ -10,15 +9,15 @@ There are 2 x **USB HOST** and 1 x **USB DEVICE** (for flashing OS) ports onboar
 
   |USB2_img|
 
-  *USB 2.0 HOST Port (embedded / enclosed PC version)*
+  *USB 2.0 HOST Port*
 
   |USB3_img|
 
-  *USB 3.0 HOST Port (embedded / enclosed PC version)*
+  *USB 3.0 HOST Port*
 
   |USBC_img|
   
-  *USB Type-C Port (embedded / enclosed PC version)*
+  *USB Type-C Port*
 
 .. warning::
 

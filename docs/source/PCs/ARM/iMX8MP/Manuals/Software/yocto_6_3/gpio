@@ -5,8 +5,12 @@ There are 8 GPIOs, 4 Output, and 4 Input, they are all optical isolated. You can
 
 We **don't** recommend testing GPIO with the onboard +5V/GND (wiring the +5V to VDD_ISO and wiring GND to GND_ISO), in most cases we recommend using an external power source for VDD_ISO and GND_ISO.
 
-Refer to the tables below for a detailed port definition:
+For:
 
+* 7 inch product and box product: PPC-A53-070 (PN: CS10600-IMX8MP-070P), CS-A53-BOX (PN: CS-IMX8MP-BOX)
+* 10.1+ inch products: PPC-A53-101 (PN: CS12800-IMX8MP-101P)
+
+Refer to the tables below for a detailed port definition:
 
 .. table:: GPIO Device Node
    :align: center

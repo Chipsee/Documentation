@@ -15,10 +15,7 @@ The |Cortex|-A53 series |product| (|PN|) is a high-quality industrial panel PC. 
   + ATM...
 
 
-It is available both as an embedded solution and as a device hosed in an aluminum casing with bezels, thus facilitating different installation options:
-
-+ Installation on an industrial cabinet
-+ Integration with the existing equipment
+It is available as a device hosed in an aluminum casing with bezels.
 
 |Product| is based around the powerful i.MX8MP System on Chip (SoC), powered by the NXP i.MX8MP low-power processor which integrates a quad-core |Cortex|-A53 1.6GHz processor.
 

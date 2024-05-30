@@ -1,21 +1,3 @@
-Connectivity
-============
-
-There are many connectivity options available on the |product| industrial PC. It has |USB| (USB3.0 and USB-C share one node); |LAN|; up to 6 x UART terminals (RS232/RS485), up to 2 x CAN.
-
-RS232/RS485/CAN
----------------
-
-The serial communication interfaces (RS485, RS232, and CAN) are routed to a **16-pin 3.81mm terminal**, as illustrated on the figure below.
-
-.. rst-class:: text-center
-
-  |rs232_485_can_img|
-
-  *RS232, RS485 and CAN*
-
-|UART_Note|
-
 The table below offers more detailed description of every pin and its definition:
 
 .. table:: Connectivity Section
@@ -61,11 +43,4 @@ The table below offers more detailed description of every pin and its definition
    +----------------+-------------------------------+--------------------------------------------------------------+
    | Pin 1          | +5V                           | System +5V Power Output, No more than 1A Current output      |
    +----------------+-------------------------------+--------------------------------------------------------------+
-
-.. attention::
-
-    #) RS485_3,RS485_4 and RS485_5 can control the input and output direction automatically. There’s no need to control it from within the software.
-    #) The 120Ω match resistor for the **RS485** is **already mounted** by default.
-    #) The 120Ω match resistor for the **CAN** bus is **NOT mounted** by default.
-
-:pagebreak:`True`
+   
