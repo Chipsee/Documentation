@@ -7,7 +7,6 @@ We **don't** recommend testing GPIO with the onboard +5V/GND (wiring the +5V to 
 
 For:
 
-* 5 inch product: PPC-A53-050 (PN: CS12720-IMX8MP-050P)
 * 7 inch product and box product: PPC-A53-070 (PN: CS10600-IMX8MP-070P), CS-A53-BOX (PN: CS-IMX8MP-BOX)
 * 10.1+ inch products: PPC-A53-101 (PN: CS12800-IMX8MP-101P)
 
