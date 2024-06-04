@@ -1,0 +1,126 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. include:: Resources/CS12800-IMX8MP-101P/IMX8MP-101-base-replaces
+
+.. |product| replace:: PPC-A53-150
+
+.. |productP| replace:: PPC-A53-150
+
+.. |PN| replace:: PN: CS10768-IMX8MP-150P
+
+.. |dispsize| replace:: 15.0"
+
+.. |res| replace:: 1024 x 768
+
+.. |bright| replace:: 400 |cd|
+
+.. |dimP| replace:: 376 x 300 x 57mm
+
+.. |weightE| replace:: NULL
+
+.. |weightP| replace:: 4500g
+
+.. |cur| replace:: 1.60A Max at 12V
+
+.. |pwr| replace:: 9.6W Typical, 19.2W Max
+
+.. |screen_conn_type| replace:: USB
+
+.. |temp| replace:: From 0°C to +60°C
+
+.. |power_img| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-Power.jpg
+                  :align: middle
+                  :width: 576
+
+.. |rs232_485_can_img| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-RS232-RS485-CAN.jpg
+                  :align: middle
+                  :width: 1024
+
+.. |USB2_img| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-USB2.jpg
+                   :align: middle
+                   :width: 384
+
+.. |USB3_img| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-USB3.jpg
+                   :align: middle
+                   :width: 384
+
+.. |USBC_img| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-USBC.jpg
+                   :align: middle
+                   :width: 384
+
+.. |wifi_bt_img| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-WIFI.jpg
+                  :align: middle
+                  :width: 480
+
+.. |4g_chip_img| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-4GChip.jpg
+                  :align: middle
+                  :width: 512
+
+.. |sim_img| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-SIM.jpg
+                  :align: middle
+                  :width: 640
+                  
+.. |LAN_img| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-LAN.jpg
+                  :align: middle
+                  :width: 384
+
+.. |TF_img| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-TFCard.jpg
+                  :align: middle
+                  :width: 480
+
+.. |audio_img| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-Audio.jpg
+                  :align: middle
+                  :width: 384
+
+.. |buzzer_img| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-Buzzer.jpg
+                  :align: middle
+                  :width: 384
+
+.. |HDMI_img| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-HDMI.jpg
+                  :align: middle
+                  :width: 384
+
+.. |PROG_btn_img| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-Prog-Button.jpg
+                  :align: middle
+                  :width: 384
+
+.. |dimension_img| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-Dimension.png
+                  :align: middle
+                  :width: 800
+
+.. _product_link: https://chipsee.com/product/PPC-A53-150/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-Front.png
+
+.. |Front View| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-Side2.jpg
+                  :class: product-img                 
+                  
+.. _PPC-A53-150:
+
+
+
+|product|
+#########
+
+.. include:: Resources/CS12800-IMX8MP-101P/IMX8MP-101-base-includes
+
+.. rst-class:: text-center
+
+   |dimension_img|
+
+   *Dimensions* (|product|)
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support
