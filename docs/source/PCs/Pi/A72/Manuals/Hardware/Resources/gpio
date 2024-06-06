@@ -8,7 +8,7 @@ The table below gives details about the definition of every Pin.
 
     #) In order to use the Isolated Output, you need to add an external Isolated Power to the VDD_ISO and GND_ISO. The power voltage should not exceed 24V.
     #) The output current can achieve 500mA for every channel, but it also depends on the isolated power that is connected.
-    #) In order to use the Isolated Input, you need to add a signal to the ISO_InputX and GND_ISO. A 2.4KΩ resistor, as R6, can be added to limit the input current, as shown in the figure above. This resistor should work well for the 5-24V input signal. If your input signal is less than 5V, please change this input resistor.
+    #) In order to use the Isolated Input, you need to add a signal to the ISO_InputX and GND_ISO. A 2.4KΩ resistor, as R6, has been added to limit the input current, as shown in the figure below. This resistor should work well for the 5-24V input signal. If your input signal is less than 5V, please change this input resistor. The reduced schematic is for reference purpose, if you need the precise resistor schematic, please contact us.
     
 .. include:: /PCs/Shared/Hardware/gpio_image
 
