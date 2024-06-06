@@ -661,7 +661,7 @@ The table below gives details about the definition of every Pin.</p>
 <ol class="arabic simple">
 <li><p>In order to use the Isolated Output, you need to add an external Isolated Power to the VDD_ISO and GND_ISO. The power voltage should not exceed 24V.</p></li>
 <li><p>The output current can achieve 500mA for every channel, but it also depends on the isolated power that is connected.</p></li>
-<li><p>In order to use the Isolated Input, you need to add a signal to the ISO_InputX and GND_ISO. A 2.4KΩ resistor, as R6, can be added to limit the input current, as shown in the figure above. This resistor should work well for the 5-24V input signal. If your input signal is less than 5V, please change this input resistor.</p></li>
+<li><p>In order to use the Isolated Input, you need to add a signal to the ISO_InputX and GND_ISO. A 2.4KΩ resistor, as R6, has been added to limit the input current, as shown in the figure below. This resistor should work well for the 5-24V input signal. If your input signal is less than 5V, please change this input resistor. The reduced schematic is for reference purpose, if you need the precise resistor schematic, please contact us.</p></li>
 </ol>
 </div>
 <a class="text-center reference internal image-reference" href="../../../../../_images/GPIO_Schema.png"><img alt="../../../../../_images/GPIO_Schema.png" class="text-center align-center" src="../../../../../_images/GPIO_Schema.png" style="width: 720px;"/></a>
@@ -1092,7 +1092,7 @@ When booting <strong>without pressing</strong> the button, the Raspberry Pi will
               
           </div>
             Last updated on
-              May 30, 2024.
+              Jun 06, 2024.
             <br/>
         </div>
       </div>
