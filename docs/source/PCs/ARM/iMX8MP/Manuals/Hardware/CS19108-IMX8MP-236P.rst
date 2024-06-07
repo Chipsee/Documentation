@@ -84,9 +84,6 @@
                   :align: middle
                   :width: 384
 
-.. |dimension_img| image:: /Media/ARM/A53/CS19108-IMX8MP-236P/CS19108-IMX8MP-236P-Dimension.png
-                  :align: middle
-                  :width: 800
 
 .. _product_link: https://chipsee.com/product/ppc-a53-236/
 
@@ -114,12 +111,6 @@
 #########
 
 .. include:: Resources/CS12800-IMX8MP-101P/IMX8MP-101-base-includes
-
-.. rst-class:: text-center
-
-   |dimension_img|
-
-   *Dimensions* (|product|)
 
 :pagebreak:`True`
 
