@@ -53,7 +53,7 @@ Doc
 .. image:: /_static/images/os_logo_linux.png
    :width: 100px
    :class: img-fluid text-center
-   :target: /PCs/ARM/PX30/AIO/Manuals/Software/Buildroot_Linux_qt_5_14.html
+   :target: /PCs/ARM/PX30/AIO/Manuals/Software/Buildroot_Linux_Qt_5_14.html
 
 
 :ref:`Buildroot Linux Qt 5.14<px30_os_linuxqt_514>`
