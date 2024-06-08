@@ -99,7 +99,7 @@ if (sidebar_item != null){
 // A helper to test if FBX 3D file exists, otherwise will remove the HTML link element in another function
 function fbxExists(fbxName) {
     let xhr = new XMLHttpRequest();
-    xhr.open('HEAD', `/_static/3d_models/${fbxName}.fbx`, false);
+    xhr.open('HEAD', `/docs/_static/3d_models/${fbxName}.fbx`, false);
     xhr.send();
     return xhr.status == 200;
 }
