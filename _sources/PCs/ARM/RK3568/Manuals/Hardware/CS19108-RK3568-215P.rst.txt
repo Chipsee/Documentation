@@ -6,13 +6,13 @@
 
 .. |productP| replace:: PPC-A55-215
 
-.. |PN| replace:: PN: CS12800-RK3568-215P
+.. |PN| replace:: PN: CS19108-RK3568-215P
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
 .. |dispsize| replace:: 21.5"
 
-.. |res| replace:: 1280 x 800
+.. |res| replace:: 1920 x 1080
 
 .. |bright| replace:: 250 |cd|
 
@@ -30,27 +30,27 @@
 
 .. |temp| replace:: From 0°C to +50°C
 
-.. |power_img| image:: /Media/ARM/A55/CS12800-RK3568-215P/Power.jpg
+.. |power_img| image:: /Media/ARM/A55/CS19108-RK3568-215P/Power.jpg
                   :align: middle
                   :width: 480
 
-.. |io_pin_img| image:: /Media/ARM/A55/CS12800-RK3568-215P/IO.jpg
+.. |io_pin_img| image:: /Media/ARM/A55/CS19108-RK3568-215P/IO.jpg
                    :align: middle
                    :width: 960
 
-.. |USB2_img| image:: /Media/ARM/A55/CS12800-RK3568-215P/USB2.jpg
+.. |USB2_img| image:: /Media/ARM/A55/CS19108-RK3568-215P/USB2.jpg
                    :align: middle
                    :width: 192
 
-.. |USB3_img| image:: /Media/ARM/A55/CS12800-RK3568-215P/USB3.jpg
+.. |USB3_img| image:: /Media/ARM/A55/CS19108-RK3568-215P/USB3.jpg
                    :align: middle
                    :width: 96
 
-.. |USBC_img| image:: /Media/ARM/A55/CS12800-RK3568-215P/TYPE-C.jpg
+.. |USBC_img| image:: /Media/ARM/A55/CS19108-RK3568-215P/TYPE-C.jpg
                    :align: middle
                    :width: 192
 
-.. |wifi_bt_img| image:: /Media/ARM/A55/CS12800-RK3568-215P/Wifi-BT.jpg
+.. |wifi_bt_img| image:: /Media/ARM/A55/CS19108-RK3568-215P/Wifi-BT.jpg
                   :align: middle
                   :width: 384
 
@@ -58,27 +58,27 @@
                   :align: middle
                   :width: 640
                   
-.. |LAN_img| image:: /Media/ARM/A55/CS12800-RK3568-215P/LAN.jpg
+.. |LAN_img| image:: /Media/ARM/A55/CS19108-RK3568-215P/LAN.jpg
                   :align: middle
                   :width: 192
 
-.. |TF_SIM_img| image:: /Media/ARM/A55/CS12800-RK3568-215P/TF_Card_SIM_Card.jpg
+.. |TF_SIM_img| image:: /Media/ARM/A55/CS19108-RK3568-215P/TF_Card_SIM_Card.jpg
                   :align: middle
                   :width: 384
 
-.. |audio_img| image:: /Media/ARM/A55/CS12800-RK3568-215P/Audio.jpg
+.. |audio_img| image:: /Media/ARM/A55/CS19108-RK3568-215P/Audio.jpg
                   :align: middle
                   :width: 192
 
-.. |HDMI_img| image:: /Media/ARM/A55/CS12800-RK3568-215P/HDMI.jpg
+.. |HDMI_img| image:: /Media/ARM/A55/CS19108-RK3568-215P/HDMI.jpg
                   :align: middle
                   :width: 192
 
-.. |PROG_btn_img| image:: /Media/ARM/A55/CS12800-RK3568-215P/Prog_Button.jpg
+.. |PROG_btn_img| image:: /Media/ARM/A55/CS19108-RK3568-215P/Prog_Button.jpg
                   :align: middle
                   :width: 192
 
-.. |mech_img| image:: /Media/ARM/A55/CS12800-RK3568-215P/Mechanical.png
+.. |mech_img| image:: /Media/ARM/A55/CS19108-RK3568-215P/Mechanical.png
                   :align: middle
                   :width: 576
 
@@ -86,18 +86,18 @@
 
 .. |product_link| replace:: |product|
 
-.. |Cover PNG| image:: /Media/ARM/A55/CS12800-RK3568-215P/CS12800-RK3568-215P-Front.png
+.. |Cover PNG| image:: /Media/ARM/A55/CS19108-RK3568-215P/CS19108-RK3568-215P-Front.png
 
-.. |Front View| image:: /Media/ARM/A55/CS12800-RK3568-215P/CS12800-RK3568-215P-Front.jpg
+.. |Front View| image:: /Media/ARM/A55/CS19108-RK3568-215P/CS19108-RK3568-215P-Front.jpg
                   :class: product-img
 
-.. |Rear View| image:: /Media/ARM/A55/CS12800-RK3568-215P/CS12800-RK3568-215P-Rear.jpg
+.. |Rear View| image:: /Media/ARM/A55/CS19108-RK3568-215P/CS19108-RK3568-215P-Rear.jpg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/ARM/A55/CS12800-RK3568-215P/CS12800-RK3568-215P-Side1.jpg
+.. |Side View 1| image:: /Media/ARM/A55/CS19108-RK3568-215P/CS19108-RK3568-215P-Side1.jpg
                   :class: product-img
 
-.. |Side View 2| image:: /Media/ARM/A55/CS12800-RK3568-215P/CS12800-RK3568-215P-Side2.jpg
+.. |Side View 2| image:: /Media/ARM/A55/CS19108-RK3568-215P/CS19108-RK3568-215P-Side2.jpg
                   :class: product-img                 
                   
 .. _PPC-A55-215:
