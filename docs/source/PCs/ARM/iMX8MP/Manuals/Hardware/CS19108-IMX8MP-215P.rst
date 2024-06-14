@@ -6,11 +6,11 @@
 
 .. |productP| replace:: PPC-A53-215
 
-.. |PN| replace:: PN: CS12800-IMX8MP-215P
+.. |PN| replace:: PN: CS19108-IMX8MP-215P
 
 .. |dispsize| replace:: 21.5"
 
-.. |res| replace:: 1280 x 800
+.. |res| replace:: 1920 x 1080
 
 .. |bright| replace:: 250 |cd|
 
@@ -28,63 +28,63 @@
 
 .. |temp| replace:: From 0°C to +50°C
 
-.. |power_img| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-Power.jpg
+.. |power_img| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-Power.jpg
                   :align: middle
                   :width: 576
 
-.. |rs232_485_can_img| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-RS232-RS485-CAN.jpg
+.. |rs232_485_can_img| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-RS232-RS485-CAN.jpg
                   :align: middle
                   :width: 1024
 
-.. |USB2_img| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-USB2.jpg
+.. |USB2_img| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-USB2.jpg
                    :align: middle
                    :width: 384
 
-.. |USB3_img| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-USB3.jpg
+.. |USB3_img| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-USB3.jpg
                    :align: middle
                    :width: 384
 
-.. |USBC_img| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-USBC.jpg
+.. |USBC_img| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-USBC.jpg
                    :align: middle
                    :width: 384
 
-.. |wifi_bt_img| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-WIFI.jpg
+.. |wifi_bt_img| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-WIFI.jpg
                   :align: middle
                   :width: 480
 
-.. |4g_chip_img| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-4GChip.jpg
+.. |4g_chip_img| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-4GChip.jpg
                   :align: middle
                   :width: 512
 
-.. |sim_img| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-SIM.jpg
+.. |sim_img| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-SIM.jpg
                   :align: middle
                   :width: 640
                   
-.. |LAN_img| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-LAN.jpg
+.. |LAN_img| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-LAN.jpg
                   :align: middle
                   :width: 384
 
-.. |TF_img| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-TFCard.jpg
+.. |TF_img| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-TFCard.jpg
                   :align: middle
                   :width: 480
 
-.. |audio_img| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-Audio.jpg
+.. |audio_img| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-Audio.jpg
                   :align: middle
                   :width: 384
 
-.. |buzzer_img| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-Buzzer.jpg
+.. |buzzer_img| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-Buzzer.jpg
                   :align: middle
                   :width: 384
 
-.. |HDMI_img| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-HDMI.jpg
+.. |HDMI_img| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-HDMI.jpg
                   :align: middle
                   :width: 384
 
-.. |PROG_btn_img| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-Prog-Button.jpg
+.. |PROG_btn_img| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-Prog-Button.jpg
                   :align: middle
                   :width: 384
 
-.. |dimension_img| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-Dimension.png
+.. |dimension_img| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-Dimension.png
                   :align: middle
                   :width: 800
 
@@ -92,18 +92,18 @@
 
 .. |product_link| replace:: |product|
 
-.. |Cover PNG| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-Front.png
+.. |Cover PNG| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-Front.png
 
-.. |Front View| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-Front.jpg
+.. |Front View| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-Front.jpg
                   :class: product-img
 
-.. |Rear View| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-Rear.jpg
+.. |Rear View| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-Rear.jpg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-Side1.jpg
+.. |Side View 1| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-Side1.jpg
                   :class: product-img
 
-.. |Side View 2| image:: /Media/ARM/A53/CS12800-IMX8MP-215P/CS12800-IMX8MP-215P-Side2.jpg
+.. |Side View 2| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-Side2.jpg
                   :class: product-img                 
                   
 .. _PPC-A53-215:
