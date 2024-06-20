@@ -26,6 +26,8 @@
 
 .. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
 
+.. |ver1.0_download| replace:: :download:`Download Archived Manual: PPC-J6412-156-C-ver1.0.pdf <PDF/PPC-J6412-156-C-ver1.0.pdf>`
+
 .. _product_link: https://chipsee.com/product/ppc-j6412-156-c/
 
 .. |product_link| replace:: |product|
@@ -55,6 +57,8 @@
 .. include:: /PCs/Shared/four_main_images
 
 .. include:: Resources/overview
+
+.. include:: Resources/changes
 
 .. include:: Resources/ordering
 

@@ -1,0 +1,34 @@
+Product Changes
+===============
+
+Ver 1.1 
+
+- Released on Jun 20th, 2024
+
+- Changes on 16 pins
+
+  .. note::
+  
+    **Old**: 16 pins = **GPIO** + COM3 + COM4
+    
+    **New**: 16 pins = COM3 + COM4 + **COM5 + COM6**
+
+    Details: 
+
+    - Added COM5 and COM6 on the 16pins 3.81mm connector.
+    - Removed GPIOs.
+    - The COM5 and COM6 can be configured to RS232 and RS485. 
+    - There are no 120 Ohm match resistor when the COM5 and COM6 are RS485.
+- Changes on COM1 and COM2
+
+  .. note::
+
+    **Old**: COM1 and COM2 can be configured either as RS232 or RS485
+
+    **New**: COM1 and COM2 can **only** be configured to RS232.
+
+Ver 1.0 
+
+- Initial Release
+
+- |ver1.0_download|
