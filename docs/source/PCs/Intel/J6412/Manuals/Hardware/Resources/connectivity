@@ -2,25 +2,24 @@ Connectivity
 ============
 
 There are many connectivity options available on the |product| industrial PC. It has 4 x USB Type A connectors configured as HOSTS, 1 x HDMI port, 2 x RJ45 connectors supporting 
-Gigabit Ethernet (GbE), and up to 4 x RS232 connectors, of which two can be configured in the RS485 mode. There are also 8 x GPIO channels for various user-defined purposes.
+Gigabit Ethernet (GbE), and up to 6 x RS232 connectors, of which two can be configured in the RS485 mode.
 
-RS232/485/GPIO Connectors
--------------------------
+RS232/485 Connectors
+--------------------
 
-|Product| has 2 x 9-pin D-sub connectors and 1 x 16-pin 3.81mm connector with pluggable terminal block. Two 9-pin D-sub connectors labelled as **COM1** and **COM2** can 
-be configured either as RS232 or RS485 communication interfaces.
+|Product| has 2 x 9-pin D-sub connectors and 1 x 16-pin 3.81mm connector with pluggable terminal block. Two 9-pin D-sub connectors labelled as **COM1** and **COM2** are RS232 communication interfaces.
 
-The top row of terminals on the terminal block is labelled as **COM3/4**. These terminals are configured as two additional RS232 interfaces by default. The bottom row of terminals on the terminal block represents eight **GPIO** channels, labelled as **GPIO (0 ... 7)**. 
+The top row of terminals on the terminal block is labelled as **COM3/4**. These terminals are configured as two additional RS232 interfaces by default. The bottom row of terminals on the terminal block are **COM6/5**, these two COM can be configured to either RS232 or RS485. If they are configured to RS485, the 120 Ohm match resistors are **not mounted**. 
 
 .. rst-class:: text-center
 
-   .. image:: /Media/Intel/J6412/Shared/gpio_rs232_rs485.jpg
+   .. image:: /Media/Intel/J6412/Shared/j6412_rs232_rs485.jpg
       :align: center
       :width: 800
 
-   *GPIO, RS232, RS485*
+   *RS232, RS485*
 
-.. table:: GPIO/COM3/COM4 Pin Definition
+.. table:: COM3/COM4/COM5/COM6 Pin Definition
    :align: center
    :width: 100%
    :widths: auto
@@ -38,32 +37,32 @@ The top row of terminals on the terminal block is labelled as **COM3/4**. These 
    +-----+-----------------------+
    | 5   | COM4-TXD              |
    +-----+-----------------------+
-   | 6   | +5V                   |
+   | 6   | GND                   |
    +-----+-----------------------+
-   | 7   | PWR-                  |
+   | 7   | GND                   |
    +-----+-----------------------+
-   | 8   | PWR+                  |
+   | 8   | PANSW#                |
    +-----+-----------------------+
-   | 9   | SIO_GPI80(0xA07 Bit0) |
+   | 9   | COM6-RXD/RS485+       |
    +-----+-----------------------+
-   | 10  | SIO_GPI81(0xA07 Bit1) |
+   | 10  | COM6-TXD/RS485-       |
    +-----+-----------------------+
-   | 11  | SIO_GPI82(0xA07 Bit2) |
+   | 11  | GND                   |
    +-----+-----------------------+
-   | 12  | SIO_GPI83(0xA07 Bit3) |
+   | 12  | COM5-RXD/RS485+       |
    +-----+-----------------------+
-   | 13  | SIO_GPO84(0xA07 Bit4) |
+   | 13  | COM5-TXD/RS485-       |
    +-----+-----------------------+
-   | 14  | SIO_GPO85(0xA07 Bit5) |
+   | 14  | GND                   |
    +-----+-----------------------+
-   | 15  | SIO_GPO86(0xA07 Bit6) |
+   | 15  | +5V                   |
    +-----+-----------------------+
-   | 16  | SIO_GPO87(0xA07 Bit7) |
+   | 16  | +5V                   |
    +-----+-----------------------+
 
 .. Note::
 
-    The default configuration of the |product| industrial PC is 4 x RS232 interfaces and 8 x GPIO channels. If you need different configuration, 
+    The default configuration of the |product| industrial PC is 6 x RS232 interfaces. If you need different configuration, 
     please contact Chipsee Technical Support at |email|_
     
 :pagebreak:`True`
