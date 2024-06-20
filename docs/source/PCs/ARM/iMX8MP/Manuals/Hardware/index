@@ -55,6 +55,141 @@ i.MX8MP / A53
   <div class="col">
     <div class="index-item">
 
+12.1 Inch
+|PPC-A53-121|
+
+:ref:`PPC-A53-121<PPC-A53-121>`
+
+.. raw:: html
+
+    </div>
+  </div>
+
+.. raw:: html
+
+  <div class="col">
+    <div class="index-item">
+
+13.3 Inch
+|PPC-A53-133|
+
+:ref:`PPC-A53-133<PPC-A53-133>`
+
+.. raw:: html
+
+    </div>
+  </div>
+
+.. raw:: html
+
+  <div class="col">
+    <div class="index-item">
+
+15.0 Inch
+|PPC-A53-150|
+
+:ref:`PPC-A53-150<PPC-A53-150>`
+
+.. raw:: html
+
+    </div>
+  </div>
+
+.. raw:: html
+
+  <div class="col">
+    <div class="index-item">
+
+15.6 Inch
+|PPC-A53-156|
+
+:ref:`PPC-A53-156<PPC-A53-156>`
+
+.. raw:: html
+
+    </div>
+  </div>
+
+.. raw:: html
+
+  <div class="col">
+    <div class="index-item">
+
+17.0 Inch
+|PPC-A53-170|
+
+:ref:`PPC-A53-170<PPC-A53-170>`
+
+.. raw:: html
+
+    </div>
+  </div>
+
+.. raw:: html
+
+  <div class="col">
+    <div class="index-item">
+
+18.5 Inch
+|PPC-A53-185|
+
+:ref:`PPC-A53-185<PPC-A53-185>`
+
+.. raw:: html
+
+    </div>
+  </div>
+
+.. raw:: html
+
+  <div class="col">
+    <div class="index-item">
+
+19.0 Inch
+|PPC-A53-190|
+
+:ref:`PPC-A53-190<PPC-A53-190>`
+
+.. raw:: html
+
+    </div>
+  </div>
+
+.. raw:: html
+
+  <div class="col">
+    <div class="index-item">
+
+21.5 Inch
+|PPC-A53-215|
+
+:ref:`PPC-A53-215<PPC-A53-215>`
+
+.. raw:: html
+
+    </div>
+  </div>
+
+.. raw:: html
+
+  <div class="col">
+    <div class="index-item">
+
+23.6 Inch
+|PPC-A53-236|
+
+:ref:`PPC-A53-236<PPC-A53-236>`
+
+.. raw:: html
+
+    </div>
+  </div>
+
+.. raw:: html
+
+  <div class="col">
+    <div class="index-item">
+
 BOX
 |CS-A53-BOX|
 
@@ -81,6 +216,42 @@ BOX
   :class: index-item-img
   :target: /PCs/ARM/iMX8MP/Manuals/Hardware/CS12800-IMX8MP-101P.html
 
+.. |PPC-A53-121| image:: /Media/ARM/A53/CS10768-IMX8MP-121P/CS10768-IMX8MP-121P-Front-Low.jpg
+  :class: index-item-img
+  :target: /PCs/ARM/iMX8MP/Manuals/Hardware/CS10768-IMX8MP-121P.html
+  
+.. |PPC-A53-133| image:: /Media/ARM/A53/CS19108-IMX8MP-133P/CS19108-IMX8MP-133P-Front-Low.jpg
+  :class: index-item-img
+  :target: /PCs/ARM/iMX8MP/Manuals/Hardware/CS19108-IMX8MP-133P.html
+
+.. |PPC-A53-150| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-Front-Low.jpg
+  :class: index-item-img
+  :target: /PCs/ARM/iMX8MP/Manuals/Hardware/CS10768-IMX8MP-150P.html
+
+.. |PPC-A53-156| image:: /Media/ARM/A53/CS19108-IMX8MP-156P/CS19108-IMX8MP-156P-Front-Low.jpg
+  :class: index-item-img
+  :target: /PCs/ARM/iMX8MP/Manuals/Hardware/CS19108-IMX8MP-156P.html
+
+.. |PPC-A53-170| image:: /Media/ARM/A53/CS12102-IMX8MP-170P/CS12102-IMX8MP-170P-Front-Low.jpg
+  :class: index-item-img
+  :target: /PCs/ARM/iMX8MP/Manuals/Hardware/CS12102-IMX8MP-170P.html
+
+.. |PPC-A53-185| image:: /Media/ARM/A53/CS19108-IMX8MP-185P/CS19108-IMX8MP-185P-Front-Low.jpg
+  :class: index-item-img
+  :target: /PCs/ARM/iMX8MP/Manuals/Hardware/CS19108-IMX8MP-185P.html
+
+.. |PPC-A53-190| image:: /Media/ARM/A53/CS12102-IMX8MP-190P/CS12102-IMX8MP-190P-Front-Low.jpg
+  :class: index-item-img
+  :target: /PCs/ARM/iMX8MP/Manuals/Hardware/CS12102-IMX8MP-190P.html
+
+.. |PPC-A53-215| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-Front-Low.jpg
+  :class: index-item-img
+  :target: /PCs/ARM/iMX8MP/Manuals/Hardware/CS19108-IMX8MP-215P.html
+
+.. |PPC-A53-236| image:: /Media/ARM/A53/CS19108-IMX8MP-236P/CS19108-IMX8MP-236P-Front-Low.jpg
+  :class: index-item-img
+  :target: /PCs/ARM/iMX8MP/Manuals/Hardware/CS19108-IMX8MP-236P.html
+
 .. |CS-A53-BOX| image:: /Media/ARM/A53/CS-IMX8MP-BOX/CS-IMX8MP-BOX-Front-Low.jpg
   :class: index-item-img
   :target: /PCs/ARM/iMX8MP/Manuals/Hardware/CS-IMX8MP-BOX.html
@@ -93,6 +264,15 @@ BOX
   PPC-A53-050 </PCs/ARM/iMX8MP/Manuals/Hardware/CS12720-IMX8MP-050P>
   PPC-A53-070 </PCs/ARM/iMX8MP/Manuals/Hardware/CS10600-IMX8MP-070P>
   PPC-A53-101 </PCs/ARM/iMX8MP/Manuals/Hardware/CS12800-IMX8MP-101P>
+  PPC-A53-121 </PCs/ARM/iMX8MP/Manuals/Hardware/CS10768-IMX8MP-121P>
+  PPC-A53-133 </PCs/ARM/iMX8MP/Manuals/Hardware/CS19108-IMX8MP-133P>
+  PPC-A53-150 </PCs/ARM/iMX8MP/Manuals/Hardware/CS10768-IMX8MP-150P>
+  PPC-A53-156 </PCs/ARM/iMX8MP/Manuals/Hardware/CS19108-IMX8MP-156P>
+  PPC-A53-170 </PCs/ARM/iMX8MP/Manuals/Hardware/CS12102-IMX8MP-170P>
+  PPC-A53-185 </PCs/ARM/iMX8MP/Manuals/Hardware/CS19108-IMX8MP-185P>
+  PPC-A53-190 </PCs/ARM/iMX8MP/Manuals/Hardware/CS12102-IMX8MP-190P>
+  PPC-A53-215 </PCs/ARM/iMX8MP/Manuals/Hardware/CS19108-IMX8MP-215P>
+  PPC-A53-236 </PCs/ARM/iMX8MP/Manuals/Hardware/CS19108-IMX8MP-236P>
   CS-A53-BOX </PCs/ARM/iMX8MP/Manuals/Hardware/CS-IMX8MP-BOX>
 
 

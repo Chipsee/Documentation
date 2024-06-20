@@ -1,0 +1,56 @@
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |disp_des| replace:: |dispsize| 10-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
+
+.. |disp_table| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
+
+.. |mounting_table| replace:: Panel, VESA
+
+.. |dimE| replace:: NULL
+
+.. |tscreen| replace:: 10-point capacitive touch screen
+
+.. |RAM| replace:: LPDDR4 4GB
+
+.. |eMMC| replace:: 32GB
+
+.. |HDMI| replace:: 1 x HDMI OUT
+
+.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |USB_3_USB_C_Note| replace:: USB3.0 port and USB-C port share one node and cannot be used together. In Linux USB3.0 HOST is enabled by default; in Android USB-C OTG is enabled by default. You can change this config by software in the operating systems, e.g.: disable USB3.0 HOST then enable USB-C OTG in Linux, or vice versa in Android.
+
+.. |LAN| replace:: 1 x RJ45, GbE **(default)**, Power over Ethernet(PoE) *(optional)*
+
+.. |lan_poe| replace:: The LAN port supports **optional** Power over Ethernet (PoE) feature.
+
+.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
+
+.. |opt1| replace:: Supported, Optional
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
+.. |vin_rng| replace:: From 12V to 36V
+
+.. |rs232| replace:: Default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port)
+
+.. |rs485| replace:: Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232.
+
+.. |UART_Note| replace:: This product has 3 x CPU UART, 1 x USB UART by default, and |uart_at_most| at most. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. This product has 2 x CAN by default, all of them can be configured to RS232 (USB UART).
+
+.. |can| replace:: Default to 2 x CAN. Optionally, these 2 x CAN can be configured to RS232.
+
+.. |poe| replace:: Supported, Optional
+
+.. |opt_feature_4g| replace:: Does not include the 4G/LTE module by default. The module is optional and can be selected at the Chipsee store during the ordering process.
+
+.. |uart_at_most| replace:: 6 x UART terminals (RS232/RS485)
+
+.. |can_at_most| replace:: 2 x CAN
+
+.. |conn_terminal| replace:: **24-pin 3.81mm terminal**
+
+.. |mount_screws| replace:: **100 x 100** mm, 4 x **M4** (6mm) screws
+
