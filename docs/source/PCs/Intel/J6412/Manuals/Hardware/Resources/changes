@@ -26,6 +26,13 @@ Ver 1.1
     **Old**: COM1 and COM2 can be configured either as RS232 or RS485
 
     **New**: COM1 and COM2 can **only** be configured to RS232.
+- Changes on Ethernet
+
+  .. note::
+
+    **Old**: 2 X LAN with Realtek Chip
+    
+    **New**: 2 x LAN with Intel Chip
 
 Ver 1.0 
 

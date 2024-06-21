@@ -11,58 +11,59 @@ RS232/485 Connectors
 
 The top row of terminals on the terminal block is labelled as **COM3/4**. These terminals are configured as two additional RS232 interfaces by default. The bottom row of terminals on the terminal block are **COM6/5**, these two COM can be configured to either RS232 or RS485. If they are configured to RS485, the 120 Ohm match resistors are **not mounted**. 
 
+
 .. rst-class:: text-center
 
-   .. image:: /Media/Intel/J6412/Shared/j6412_rs232_rs485.jpg
-      :align: center
-      :width: 800
+  .. image:: /Media/Intel/J6412/Shared/j6412_rs232_rs485.jpg
+    :align: center
+    :width: 800
 
-   *RS232, RS485*
+  *RS232, RS485*
 
 .. table:: COM3/COM4/COM5/COM6 Pin Definition
-   :align: center
-   :width: 100%
-   :widths: auto
+  :align: center
+  :width: 100%
+  :widths: auto
 
-   +-----+-----------------------+
-   | Pin | Definition            |
-   +=====+=======================+
-   | 1   | COM3-RXD              |
-   +-----+-----------------------+
-   | 2   | COM3-TXD              |
-   +-----+-----------------------+
-   | 3   | GND                   |
-   +-----+-----------------------+
-   | 4   | COM4-RXD              |
-   +-----+-----------------------+
-   | 5   | COM4-TXD              |
-   +-----+-----------------------+
-   | 6   | GND                   |
-   +-----+-----------------------+
-   | 7   | GND                   |
-   +-----+-----------------------+
-   | 8   | PANSW#                |
-   +-----+-----------------------+
-   | 9   | COM6-RXD/RS485+       |
-   +-----+-----------------------+
-   | 10  | COM6-TXD/RS485-       |
-   +-----+-----------------------+
-   | 11  | GND                   |
-   +-----+-----------------------+
-   | 12  | COM5-RXD/RS485+       |
-   +-----+-----------------------+
-   | 13  | COM5-TXD/RS485-       |
-   +-----+-----------------------+
-   | 14  | GND                   |
-   +-----+-----------------------+
-   | 15  | +5V                   |
-   +-----+-----------------------+
-   | 16  | +5V                   |
-   +-----+-----------------------+
+  +-----+-----------------------+
+  | Pin | Definition            |
+  +=====+=======================+
+  | 1   | COM3-RXD              |
+  +-----+-----------------------+
+  | 2   | COM3-TXD              |
+  +-----+-----------------------+
+  | 3   | GND                   |
+  +-----+-----------------------+
+  | 4   | COM4-RXD              |
+  +-----+-----------------------+
+  | 5   | COM4-TXD              |
+  +-----+-----------------------+
+  | 6   | GND                   |
+  +-----+-----------------------+
+  | 7   | GND                   |
+  +-----+-----------------------+
+  | 8   | PANSW#                |
+  +-----+-----------------------+
+  | 9   | COM6-RXD/RS485+       |
+  +-----+-----------------------+
+  | 10  | COM6-TXD/RS485-       |
+  +-----+-----------------------+
+  | 11  | GND                   |
+  +-----+-----------------------+
+  | 12  | COM5-RXD/RS485+       |
+  +-----+-----------------------+
+  | 13  | COM5-TXD/RS485-       |
+  +-----+-----------------------+
+  | 14  | GND                   |
+  +-----+-----------------------+
+  | 15  | +5V                   |
+  +-----+-----------------------+
+  | 16  | +5V                   |
+  +-----+-----------------------+
 
 .. Note::
-
-    The default configuration of the |product| industrial PC is 6 x RS232 interfaces. If you need different configuration, 
-    please contact Chipsee Technical Support at |email|_
-    
+  
+  - Pin 8 PANSW#: Connect PANSW and GND can boot the PC.
+  - The default configuration of the |product| industrial PC is 6 x RS232 interfaces. If you need different configuration, please contact Chipsee Technical Support at |email|_
+   
 :pagebreak:`True`
