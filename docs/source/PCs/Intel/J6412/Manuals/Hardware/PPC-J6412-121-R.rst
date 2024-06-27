@@ -30,6 +30,8 @@
 
 .. _product_link: https://chipsee.com/product/ppc-j6412-121-r/
 
+.. |ver1.0_download| replace:: :download:`Download Archived Manual: PPC-J6412-121-R-ver1.0.pdf <PDF/PPC-J6412-121-R-ver1.0.pdf>`
+
 .. |product_link| replace:: |product|
 
 .. |Cover PNG| image:: /Media/Intel/J6412/PPC-J6412-121-R/PPC-J6412-121-R-Front.png
@@ -51,12 +53,14 @@
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images
 
 .. include:: Resources/overview
+
+.. include:: Resources/changes
 
 .. include:: Resources/ordering
 
