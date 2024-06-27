@@ -28,6 +28,8 @@
 
 .. |disp_des| replace:: |dispsize| resistive touch screen with a resolution of |res| pixels
 
+.. |ver1.0_download| replace:: :download:`Download Archived Manual: PPC-J6412-170-R-ver1.0.pdf <PDF/PPC-J6412-170-R-ver1.0.pdf>`
+
 .. _product_link: https://chipsee.com/product/ppc-j6412-170-r/
 
 .. |product_link| replace:: |product|
@@ -51,12 +53,14 @@
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images
 
 .. include:: Resources/overview
+
+.. include:: Resources/changes
 
 .. include:: Resources/ordering
 
