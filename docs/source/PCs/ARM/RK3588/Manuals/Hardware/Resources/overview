@@ -1,0 +1,27 @@
+Product Overview
+=================
+
+The |Cortex|-A55 series |product| (|PN|) is a high-quality IP65-compliant industrial panel PC. It features a |disp_des|.
+
+.. sidebar:: Key Applications
+
+  + Human Machine Interface（HMI）
+  + Mobile Applications
+  + Video Processing
+  + Machine Learning
+  + Video Gaming
+  + Process Control
+  + Process Monitoring
+  + ATM...
+
+
+It is available both as an embedded solution and as a device hosed in an aluminum casing with bezels, thus facilitating different installation options:
+
++ Installation on an industrial cabinet
++ Integration with the existing equipment
+
+|Product| is based around the powerful RK3568 System on Chip (SoC), powered by the Rockchip RK3568 low-power processor which integrates a quad-core |Cortex|-A55 processor.
+
+The RK3568 supports multi-format video decoders and has a high-performance RAM (LPDDR4X) capable of sustaining demanding memory bandwidths. It also provides a complete set of peripheral interfaces.
+
+:pagebreak:`True`

@@ -1,0 +1,14 @@
+M.2 SSD Slot
+============
+
+There is a M.2 slot on the |product| that allows an optional SSD. The M.2 slot is capable of holding a PCI-E 3.0 x 2, 2280 NVME SSD. The |product| does not come shipped with an SSD by default, if you want a different configuration you can consult us when placing an order.
+
+.. rst-class:: text-center
+
+    .. image:: /Media/ARM/A55/Shared-101/M2_Slot.jpg
+                  :align: center
+                  :width: 576
+
+    *M.2 2280 Slot for PCI-E 3.0 x 2 NVME SSD*
+
+:pagebreak:`True`
