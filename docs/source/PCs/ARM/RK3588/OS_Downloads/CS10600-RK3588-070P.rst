@@ -1,0 +1,15 @@
+:pdf-build: False
+
+
+CS-A76-BOX (PN: CS-RK3588-BOX)
+##############################
+
+Debian11
+--------
+
+OS image is being prepared actively as of Jun 28, 2024
+
+Buildroot Linux Qt 5.15
+-----------------------
+
+OS image is being prepared actively as of Jun 28, 2024
