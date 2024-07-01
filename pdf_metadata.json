@@ -527,6 +527,36 @@
         "PCs/ARM/RK3568/OS_Downloads/index": {
             "pdf-build": "False"
         },
+        "PCs/ARM/RK3588/Manuals/Hardware/CS-RK3588-BOX": {
+            "pdf-title": "CS-A76-BOX",
+            "pdf-subtitle": "PN: CS-RK3588-BOX",
+            "pdf-filename": "CS-A76-BOX",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3588/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3588/Manuals/Software/Buildroot_Linux_Qt_5_15": {
+            "pdf-title": "Buildroot Linux Qt 5.15 OS on RK3588 User Manual",
+            "pdf-subtitle": "For RK3588 Products",
+            "pdf-filename": "Buildroot Linux Qt 5.15 OS on RK3588 User Manual",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3588/Manuals/Software/Debian_11": {
+            "pdf-title": "Debian 11 OS on RK3588 User Manual",
+            "pdf-subtitle": "For RK3588 Products",
+            "pdf-filename": "Debian 11 OS on RK3588 User Manual",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3588/Manuals/Software/index": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3588/OS_Downloads/CS10600-RK3588-070P": {
+            "pdf-build": "False"
+        },
+        "PCs/ARM/RK3588/OS_Downloads/index": {
+            "pdf-build": "False"
+        },
         "PCs/ARM/iMX6Q/Manuals/Hardware/CS10600F070": {
             "pdf-title": "EPC/PPC-A9-070-C",
             "pdf-subtitle": "PN: CS10600F070",
