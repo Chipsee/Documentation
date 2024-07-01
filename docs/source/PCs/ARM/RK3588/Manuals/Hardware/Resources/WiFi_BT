@@ -1,0 +1,20 @@
+WiFi & BT Module
+----------------
+
+|Product| is equipped with the WiFi-6 **Realtek RTL8852BE WiFi/BT** chip (through CPU PCIe lane) which supports Bluetooth V2.1+EDR/4.2/5.2, as well as IEEE802.11a/b/g/n/ac/ax 2.4/5 GHz Wireless LAN (WLAN).
+
+.. rst-class:: text-center
+
+   |wifi_bt_chip|
+
+   *Realtek RTL8852BE Chip*
+
+The |product| includes an SMA connector for an external WiFi/BT antenna, as illustrated in the figure below.
+
+.. rst-class:: text-center
+
+   |wifi_bt_img|
+
+   *WiFi+BT Antenna SMA*
+
+:pagebreak:`True`

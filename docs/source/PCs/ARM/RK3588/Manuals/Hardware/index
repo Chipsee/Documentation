@@ -1,0 +1,37 @@
+RK3588 / A76
+############
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Box
+|CS-A76-BOX|
+
+:ref:`CS-A76-BOX<CS-A76-BOX>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>
+
+
+.. |CS-A76-BOX| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3588/Manuals/Hardware/CS-RK3588-BOX.html
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   CS-A76-BOX </PCs/ARM/RK3588/Manuals/Hardware/CS-RK3588-BOX>

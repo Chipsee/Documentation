@@ -1,0 +1,17 @@
+:pdf-build: False
+
+
+CS-A76-BOX (PN: CS-RK3588-BOX)
+##############################
+
+Debian11
+--------
+
+| :download:`prebuilt-rk3588-eisd-box-debian-20240617.img.xz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3588/BOX/Debian11/prebuilt-rk3588-eisd-box-debian-20240617.img.xz>`
+
+
+Buildroot Linux Qt 5.15
+-----------------------
+
+| :download:`prebuilt-rk3588-eisd-box-buildroot-20240617.img.xz <https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/RK3588/BOX/BuildrootLinuxQt5.15/prebuilt-rk3588-eisd-box-buildroot-20240617.img.xz>`
+
