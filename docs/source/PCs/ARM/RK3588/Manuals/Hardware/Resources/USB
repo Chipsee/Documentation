@@ -4,6 +4,7 @@ USB Connectors
 There are 2 x **USB HOST** and 1 x **USB DEVICE** (for flashing OS) ports onboard: |USB|
 , as shown in the figures below.
 
+|usb_usbc_conflict|
 
 .. rst-class:: text-center
 
@@ -18,5 +19,6 @@ There are 2 x **USB HOST** and 1 x **USB DEVICE** (for flashing OS) ports onboar
 .. warning::
 
   Be careful not to touch surrounding electronic components accidentally while plugging USB devices into the embedded IPC version.
+
 
 :pagebreak:`True`

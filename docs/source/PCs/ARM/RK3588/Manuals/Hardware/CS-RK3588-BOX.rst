@@ -16,23 +16,23 @@
 
 .. |disp_table_des| replace:: N/A
 
-.. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 3 x RS485, include 1 debug port. 
+.. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 3 x RS485, including 1 debug port. CAN0 can be configured to RS232.
 
 .. |dimP| replace:: 209 x 125 x 37.3mm
 
 .. |weightP| replace:: 900g
 
-.. |RAM| replace:: 2GB LPDDR4
+.. |RAM| replace:: 8GB LPDDR4
 
 .. |SSD| replace:: N/A
 
-.. |eMMC| replace:: 16GB
+.. |eMMC| replace:: 32GB
 
 .. |tscreen| replace:: N/A
 
 .. |HDMI_des| replace:: 1 x HDMI-D (Micro-HDMI) Out
 
-.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+.. |USB| replace:: 2 x USB 3.0 HOST, 1 x USB Type-C
 
 .. |LAN| replace:: 2 x RJ45, GbE
 
@@ -42,13 +42,13 @@
 
 .. |opt2| replace:: Integrated WiFi/BT Module
 
-.. |vin_rng| replace:: From 6V to 36V
+.. |vin_rng| replace:: From 6V to 36V (supports **optional** 24V ignition signal)
 
 .. |cur| replace:: 290mA (max) at 15V
 
 .. |pwr| replace:: 4.35W (max)
 
-.. |temp| replace:: From 0°C to +60°C
+.. |temp| replace:: From 0°C to +80°C
 
 .. |rs232| replace:: default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port)
 
@@ -56,13 +56,19 @@
 
 .. |can| replace:: default 2 x CAN
 
-.. |poe| replace:: Supported for 1 x **optional** POE RJ45
+.. |poe| replace:: N/A
 
-.. |LAN_des| replace:: 2 x RJ45 Ethernet (including 1 x **optional** POE port: LAN0)
+.. |usb_usbc_conflict| replace:: The USB-A host (near RJ45) and USB-C **can't be used** at the same time. Before boot into OS, USB-C is enabled for install OS image; after boot into OS, USB-A is enabled but USB-C is disabled. In Android, these can be configured; in Linux, these can't be configured.
+
+.. |LAN_des| replace:: 2 x RJ45 Ethernet
 
 .. |vesa_screws| replace:: **75 x 75** mm, 4 x **M4** (6mm)
 
 .. |power_img| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-Power.jpg
+                  :align: middle
+                  :width: 768
+
+.. |power_img_ignition| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-Power-Ignition.jpg
                   :align: middle
                   :width: 768
 
@@ -74,6 +80,10 @@
                   :align: middle
                   :width: 384
 
+.. |wifi_bt_chip| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-WiFi-BT-Chip.jpg
+                  :align: middle
+                  :width: 480
+
 .. |LAN_img| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-LAN.jpg
                   :align: middle
                   :width: 384
@@ -81,6 +91,10 @@
 .. |audio_img| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-Audio.jpg
                   :align: middle
                   :width: 384
+
+.. |speaker_buzzer_img| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-Buzzer-SPK.jpg
+                  :align: middle
+                  :width: 512
 
 .. |TF_img| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-TF.jpg
                   :align: middle
@@ -98,6 +112,14 @@
                   :align: middle
                   :width: 640                  
 
+.. |4g_chip_img| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-4GChip.jpg
+                  :align: middle
+                  :width: 640                  
+
+.. |4g_antenna_img| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-4GAntenna.jpg
+                  :align: middle
+                  :width: 640                  
+
 .. |PROG_btn_img| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-Prog-Button.jpg
                   :align: middle
                   :width: 384
@@ -105,10 +127,6 @@
 .. |HDMI_img| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-HDMI.jpg
                   :align: middle
                   :width: 384
-
-.. |USB2_img| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-USB2.jpg
-                   :align: middle
-                   :width: 384
 
 .. |USB3_img| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-USB3.jpg
                    :align: middle
@@ -160,6 +178,8 @@
 .. include:: Resources/BOX-070-RK3588-Shared/power_070P
 
 .. include:: Resources/BOX-070-RK3588-Shared/power_jack
+
+.. include:: Resources/BOX-070-RK3588-Shared/power_ignition_070P
 
 .. include:: Resources/BOX-070-RK3588-Shared/connectivity_070P
 

@@ -1,7 +1,7 @@
 Product Overview
 =================
 
-The fanless embedded PC |product| (|PN|) is a |Cortex|-A55 series high-quality industrial PC. Thanks to the fanless design, it is stable and reliable in client terminal, multimedia and other industry applications.
+The fanless embedded PC |product| (|PN|) is a |Cortex|-76 series high-quality industrial PC. Thanks to the fanless design, it is stable and reliable in client terminal, multimedia and other industry applications.
 
 .. sidebar:: Key Applications
 
@@ -14,9 +14,9 @@ The fanless embedded PC |product| (|PN|) is a |Cortex|-A55 series high-quality i
 
 The offered CPU consumes very little power, around |pwr|. From the ground-up, the CPU is built for low power consumption. As such, it is best suited for mobile and power-constrained industrial or field applications. A specially designed aluminum alloy housing with fins for increased heat dissipation serves as a passive cooler, eliminating the need for built-in fans. The fanless design reduces noise, as well as the maintenance costs and efforts, leading to increased reliability at the same time.
 
-|Product| is based around the powerful RK3568 System on Chip (SoC), powered by the Rockchip RK3568 low-power processor which integrates a quad-core |Cortex|-A55 2.0GHz processor.
+|Product| is based around the powerful RK3588 System on Chip (SoC), powered by the Rockchip RK3588 low-power processor which integrates a Quad(4)-core |Cortex|-A76 (2.4GHz) and Quad(4)-core |Cortex|-A55 (1.8GHz) processor.
 
-The RK3568 supports multi-format video decoders and has a high-performance |RAM| RAM capable of sustaining demanding memory bandwidths. It also provides a complete set of peripheral interfaces.
+The RK3588 supports multi-format video decoders and has a high-performance |RAM| RAM capable of sustaining demanding memory bandwidths. It also provides a complete set of peripheral interfaces.
 
 
 :pagebreak:`True`

@@ -1,7 +1,7 @@
 Product Overview
 =================
 
-The |Cortex|-A55 series |product| (|PN|) is a high-quality IP65-compliant industrial panel PC. It features a |disp_des|.
+The |Cortex|-A76 series |product| (|PN|) is a high-quality IP65-compliant industrial panel PC. It features a |disp_des|.
 
 .. sidebar:: Key Applications
 
@@ -20,8 +20,8 @@ It is available both as an embedded solution and as a device hosed in an aluminu
 + Installation on an industrial cabinet
 + Integration with the existing equipment
 
-|Product| is based around the powerful RK3568 System on Chip (SoC), powered by the Rockchip RK3568 low-power processor which integrates a quad-core |Cortex|-A55 processor.
+|Product| is based around the powerful RK3588 System on Chip (SoC), powered by the Rockchip RK3588 low-power processor which integrates a Quad(4)-core |Cortex|-A76 (2.4GHz) and Quad(4)-core |Cortex|-A55 (1.8GHz) processor.
 
-The RK3568 supports multi-format video decoders and has a high-performance RAM (LPDDR4X) capable of sustaining demanding memory bandwidths. It also provides a complete set of peripheral interfaces.
+The RK3588 supports multi-format video decoders and has a high-performance RAM (LPDDR4X) capable of sustaining demanding memory bandwidths. It also provides a complete set of peripheral interfaces.
 
 :pagebreak:`True`

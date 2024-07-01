@@ -1,13 +1,13 @@
 WiFi & BT Module
 ----------------
 
-|Product| is equipped with the popular **Realtek RTL8821CS WiFi/BT module** which supports BT/BLE 2.1/3.0/4.2, as well as 802.11ac/abgn 433Mbps 2.4/5.8 GHz Wireless LAN (WLAN).
+|Product| is equipped with the WiFi-6 **Realtek RTL8852BE WiFi/BT** chip (through CPU PCIe lane) which supports Bluetooth V2.1+EDR/4.2/5.2, as well as IEEE802.11a/b/g/n/ac/ax 2.4/5 GHz Wireless LAN (WLAN).
 
-.. figure:: /Media/ARM/A55/Others/WiFi_BT.jpeg
-   :align: center
-   :figclass: align-center
+.. rst-class:: text-center
 
-   *RTL8821CS WiFi/BT Module*
+   |wifi_bt_chip|
+
+   *Realtek RTL8852BE Chip*
 
 The |product| includes an SMA connector for an external WiFi/BT antenna, as illustrated in the figure below.
 

@@ -11,7 +11,12 @@ There are two DC input interfaces on this device: a **3-pin, 3.81mm terminal**, 
 
   *Power Input*
 
-Note that the "**+**" sign represents the positive power input, and it is printed both at the casing and as a silk-screen on a PCB of the embedded version. The "**-**" terminal is shorted to the ground.
+Note that the "**+**" sign represents the positive power input. The "**-**" terminal is shorted to the ground.
+
+Default Connector
+-----------------
+
+By default, the 3 pins are +, - and ground.
 
 .. table:: Power Connector
    :align: center
@@ -34,3 +39,4 @@ Note that the "**+**" sign represents the positive power input, and it is printe
 .. note::
 
   The system ground “**G**” is connected to power negative “**-**” on board.
+
