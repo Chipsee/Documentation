@@ -47,7 +47,7 @@ isolated Ground Input. Each GPIO output can drive loads up to 500mA, enough to d
 -----
 
 .. [#i] | If the isolation is not a requirement, it is possible to use a non-isolated PSU instead.
-        | It is also possible to use the onboard 5V power supply: it can be re-routed to the *Isolated Power Input* pin by populating R251 and R247 PCB footprints with 0Ω resistors. 
+        | It is also possible to use the onboard 5V power supply: it can be re-routed to the *Isolated Power Input* pin by populating two PCB resistor footprints with 0Ω resistors. 
         | Note that in this case, the *Isolated Power Input* pin will become an output for the onboard 5V power supply. 
 
 

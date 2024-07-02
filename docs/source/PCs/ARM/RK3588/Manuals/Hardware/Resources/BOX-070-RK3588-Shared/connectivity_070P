@@ -2,7 +2,7 @@ Connectivity
 ============
 
 There are many connectivity options available on the |product| industrial PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to
-1 Gbps, and 5 x UART terminals (RS232/RS485/CAN).
+1 Gbps, and 5 x UART terminals (RS232/RS485), 2 x CAN.
 
 RS232/RS485/CAN
 ---------------
