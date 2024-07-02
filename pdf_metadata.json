@@ -533,6 +533,12 @@
             "pdf-filename": "CS-A76-BOX",
             "pdf-type": "ipc"
         },
+        "PCs/ARM/RK3588/Manuals/Hardware/CS10600-RK3588-070P": {
+            "pdf-title": "PPC-A76-070",
+            "pdf-subtitle": "PN: CS10600-RK3588-070P",
+            "pdf-filename": "PPC-A76-070",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/RK3588/Manuals/Hardware/index": {
             "pdf-build": "False"
         },

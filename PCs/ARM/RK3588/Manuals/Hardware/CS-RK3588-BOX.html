@@ -201,6 +201,8 @@
         </li></ul>
             </nav>
         </li>
+        <li class="md-nav__item"><a href="#gpio" class="md-nav__link">GPIO</a>
+        </li>
         <li class="md-nav__item"><a href="#tf-card-slot" class="md-nav__link">TF Card Slot</a>
         </li>
         <li class="md-nav__item"><a href="#audio-connectors" class="md-nav__link">Audio Connectors</a>
@@ -208,8 +210,6 @@
         <li class="md-nav__item"><a href="#hdmi-connector" class="md-nav__link">HDMI Connector</a>
         </li>
         <li class="md-nav__item"><a href="#prog-button" class="md-nav__link">PROG Button</a>
-        </li>
-        <li class="md-nav__item"><a href="#gpio" class="md-nav__link">GPIO</a>
         </li>
         <li class="md-nav__item"><a href="#mounting-procedure" class="md-nav__link">Mounting Procedure</a>
         </li>
@@ -517,7 +517,7 @@ Some of the key features are listed in the table below.</p>
 <section id="connectivity">
 <h2 id="connectivity">Connectivity<a class="headerlink" href="#connectivity" title="Permalink to this heading">¶</a></h2>
 <p>There are many connectivity options available on the CS-A76-BOX industrial PC. It has 2 x USB 3.0 HOST, 1 x USB Type-C, 2 x RJ45, GbE (RJ45) Ethernet connector supporting up to
-1 Gbps, and 5 x UART terminals (RS232/RS485/CAN).</p>
+1 Gbps, and 5 x UART terminals (RS232/RS485), 2 x CAN.</p>
 <section id="rs232-rs485-can">
 <h3 id="rs232-rs485-can">RS232/RS485/CAN<a class="headerlink" href="#rs232-rs485-can" title="Permalink to this heading">¶</a></h3>
 <p>The serial communication interfaces (RS485, RS232, and CAN) are routed to a <strong>16-pin 3.81mm terminal</strong>, as illustrated on the figure below.</p>
@@ -628,8 +628,7 @@ Some of the key features are listed in the table below.</p>
 </section>
 <section id="usb-connectors">
 <h3 id="usb-connectors">USB Connectors<a class="headerlink" href="#usb-connectors" title="Permalink to this heading">¶</a></h3>
-<p>There are 2 x <strong>USB HOST</strong> and 1 x <strong>USB DEVICE</strong> (for flashing OS) ports onboard: 2 x USB 3.0 HOST, 1 x USB Type-C
-, as shown in the figures below.</p>
+<p>There are 2 x <strong>USB HOST</strong> and 1 x <strong>USB DEVICE</strong> (for flashing OS) ports onboard: 2 x USB 3.0 HOST, 1 x USB Type-C, as shown in the figures below.</p>
 <p>The USB-A host (near RJ45) and USB-C <strong>can’t be used</strong> at the same time. Before boot into OS, USB-C is enabled for install OS image; after boot into OS, USB-A is enabled but USB-C is disabled. In Android, these can be configured; in Linux, these can’t be configured.</p>
 <p class="text-center"><a class="reference internal" href="../../../../../_images/CS-RK3588-BOX-USB3.jpg"><img alt="USB3_img" class="align-middle" src="../../../../../_images/CS-RK3588-BOX-USB3.jpg" style="width: 384px;"/></a></p>
 <p class="text-center"><em>USB 3.0 HOST Port</em></p>
@@ -678,48 +677,6 @@ The customer will also need a SIM Card Holder and a 4G/LTE antenna connector to 
 </div>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
-</section>
-<section id="tf-card-slot">
-<h2 id="tf-card-slot">TF Card Slot<a class="headerlink" href="#tf-card-slot" title="Permalink to this heading">¶</a></h2>
-<p>The CS-A76-BOX Industrial PC features 1 x <strong>TF Card (micro SD) slot</strong>. TF Card can address up to 128GB of storage.</p>
-<p class="text-center"><a class="reference internal" href="../../../../../_images/CS-RK3588-BOX-TF.jpg"><img alt="TF_img" class="align-middle" src="../../../../../_images/CS-RK3588-BOX-TF.jpg" style="width: 512px;"/></a></p>
-<p class="text-center"><em>TF (micro SD) Card Slot</em></p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The product does not come shipped with the TF Card by default.</p>
-</div>
-<p><p class="page-break" style="margin: 0"></p></p>
-</section>
-<section id="audio-connectors">
-<h2 id="audio-connectors">Audio Connectors<a class="headerlink" href="#audio-connectors" title="Permalink to this heading">¶</a></h2>
-<p>The CS-A76-BOX Industrial PC features some audio peripherals. It has a <strong>3.5mm audio input/output jack</strong>, an <strong>internal speaker</strong>, as well as a small <strong>buzzer</strong>.</p>
-<p class="text-center"><a class="reference internal" href="../../../../../_images/CS-RK3588-BOX-Audio.jpg"><img alt="audio_img" class="align-middle" src="../../../../../_images/CS-RK3588-BOX-Audio.jpg" style="width: 384px;"/></a></p>
-<p class="text-center"><em>Audio Connector (enclosed PC version)</em></p>
-<p>The miniature 2W embedded speaker is handy for audio reproduction, the small buzzer can play alarm/notification sounds.</p>
-<p class="text-center"><a class="reference internal" href="../../../../../_images/CS-RK3588-BOX-Buzzer-SPK.jpg"><img alt="speaker_buzzer_img" class="align-middle" src="../../../../../_images/CS-RK3588-BOX-Buzzer-SPK.jpg" style="width: 512px;"/></a></p>
-<p class="text-center"><em>2W Micro Speaker and Buzzer</em></p>
-<div class="admonition attention">
-<p class="admonition-title">Attention</p>
-<p>By plugging in the headphone cable, the internal speaker will be disabled automatically.</p>
-</div>
-<p><p class="page-break" style="margin: 0"></p></p>
-</section>
-<section id="hdmi-connector">
-<h2 id="hdmi-connector">HDMI Connector<a class="headerlink" href="#hdmi-connector" title="Permalink to this heading">¶</a></h2>
-<p>The CS-A76-BOX Industrial PC is equipped with 1 x HDMI-D (Micro-HDMI) Out port. The HDMI connector allows connecting an additional (external) monitor. HDMI output resolution can be configured by the software.</p>
-<p class="text-center"><a class="reference internal" href="../../../../../_images/CS-RK3588-BOX-HDMI.jpg"><img alt="HDMI_img" class="align-middle" src="../../../../../_images/CS-RK3588-BOX-HDMI.jpg" style="width: 384px;"/></a></p>
-<p class="text-center"><em>HDMI Connector</em></p>
-<p><p class="page-break" style="margin: 0"></p></p>
-</section>
-<section id="prog-button">
-<h2 id="prog-button">PROG Button<a class="headerlink" href="#prog-button" title="Permalink to this heading">¶</a></h2>
-<p>The CS-A76-BOX Industrial PC has one button on the board marked as PROG, as shown in the figure below. <br/>
-When the button is pressed before powering up, the CS-A76-BOX will enter MASKROM mode. In this mode you can use a USB Type-C cable to upgrade its operating system. You can use this feature to flash another OS to the internal eMMC. <br/></p>
-<p>When the button is not pressed before and during power up, the CS-A76-BOX will boot normally.</p>
-<p>There is no need to press the button during regular operation. However, if you need to flash the OS in MASKROM mode, the button will be used. Please refer to the <a class="reference internal" href="../Software/index.html#rk3588-os"><span class="std std-ref">software documents</span></a> for more information.</p>
-<p class="text-center"><a class="reference internal" href="../../../../../_images/CS-RK3588-BOX-Prog-Button.jpg"><img alt="PROG_btn_img" class="align-middle" src="../../../../../_images/CS-RK3588-BOX-Prog-Button.jpg" style="width: 384px;"/></a></p>
-<p class="text-center"><em>PROG Button</em></p>
-<p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="gpio">
 <h2 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this heading">¶</a></h2>
@@ -798,11 +755,53 @@ isolated Ground Input. Each GPIO output can drive loads up to 500mA, enough to d
 <dt class="label" id="i"><span class="brackets"><a class="fn-backref" href="#id4">3</a></span></dt>
 <dd><div class="line-block">
 <div class="line">If the isolation is not a requirement, it is possible to use a non-isolated PSU instead.</div>
-<div class="line">It is also possible to use the onboard 5V power supply: it can be re-routed to the <em>Isolated Power Input</em> pin by populating R251 and R247 PCB footprints with 0Ω resistors.</div>
+<div class="line">It is also possible to use the onboard 5V power supply: it can be re-routed to the <em>Isolated Power Input</em> pin by populating two PCB resistor footprints with 0Ω resistors.</div>
 <div class="line">Note that in this case, the <em>Isolated Power Input</em> pin will become an output for the onboard 5V power supply.</div>
 </div>
 </dd>
 </dl>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="tf-card-slot">
+<h2 id="tf-card-slot">TF Card Slot<a class="headerlink" href="#tf-card-slot" title="Permalink to this heading">¶</a></h2>
+<p>The CS-A76-BOX Industrial PC features 1 x <strong>TF Card (micro SD) slot</strong>. TF Card can address up to 128GB of storage.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS-RK3588-BOX-TF.jpg"><img alt="TF_img" class="align-middle" src="../../../../../_images/CS-RK3588-BOX-TF.jpg" style="width: 512px;"/></a></p>
+<p class="text-center"><em>TF (micro SD) Card Slot</em></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The product does not come shipped with the TF Card by default.</p>
+</div>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="audio-connectors">
+<h2 id="audio-connectors">Audio Connectors<a class="headerlink" href="#audio-connectors" title="Permalink to this heading">¶</a></h2>
+<p>The CS-A76-BOX Industrial PC features some audio peripherals. It has a <strong>3.5mm audio input/output jack</strong>, an <strong>internal speaker</strong>, as well as a small <strong>buzzer</strong>.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS-RK3588-BOX-Audio.jpg"><img alt="audio_img" class="align-middle" src="../../../../../_images/CS-RK3588-BOX-Audio.jpg" style="width: 384px;"/></a></p>
+<p class="text-center"><em>Audio Connector (enclosed PC version)</em></p>
+<p>The miniature 2W embedded speaker is handy for audio reproduction, the small buzzer can play alarm/notification sounds.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS-RK3588-BOX-Buzzer-SPK.jpg"><img alt="speaker_buzzer_img" class="align-middle" src="../../../../../_images/CS-RK3588-BOX-Buzzer-SPK.jpg" style="width: 512px;"/></a></p>
+<p class="text-center"><em>2W Micro Speaker and Buzzer</em></p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>By plugging in the headphone cable, the internal speaker will be disabled automatically.</p>
+</div>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="hdmi-connector">
+<h2 id="hdmi-connector">HDMI Connector<a class="headerlink" href="#hdmi-connector" title="Permalink to this heading">¶</a></h2>
+<p>The CS-A76-BOX Industrial PC is equipped with 1 x HDMI-D (Micro-HDMI) Out port. The HDMI connector allows connecting an additional (external) monitor. HDMI output resolution can be configured by the software.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS-RK3588-BOX-HDMI.jpg"><img alt="HDMI_img" class="align-middle" src="../../../../../_images/CS-RK3588-BOX-HDMI.jpg" style="width: 384px;"/></a></p>
+<p class="text-center"><em>HDMI Connector</em></p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="prog-button">
+<h2 id="prog-button">PROG Button<a class="headerlink" href="#prog-button" title="Permalink to this heading">¶</a></h2>
+<p>The CS-A76-BOX Industrial PC has one button on the board marked as PROG, as shown in the figure below. <br/>
+When the button is pressed before powering up, the CS-A76-BOX will enter MASKROM mode. In this mode you can use a USB Type-C cable to upgrade its operating system. You can use this feature to flash another OS to the internal eMMC. <br/></p>
+<p>When the button is not pressed before and during power up, the CS-A76-BOX will boot normally.</p>
+<p>There is no need to press the button during regular operation. However, if you need to flash the OS in MASKROM mode, the button will be used. Please refer to the <a class="reference internal" href="../Software/index.html#rk3588-os"><span class="std std-ref">software documents</span></a> for more information.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS-RK3588-BOX-Prog-Button.jpg"><img alt="PROG_btn_img" class="align-middle" src="../../../../../_images/CS-RK3588-BOX-Prog-Button.jpg" style="width: 384px;"/></a></p>
+<p class="text-center"><em>PROG Button</em></p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="mounting-procedure">
@@ -858,7 +857,7 @@ isolated Ground Input. Each GPIO output can drive loads up to 500mA, enough to d
               
           </div>
             Last updated on
-              Jul 01, 2024.
+              Jul 02, 2024.
             <br/>
         </div>
       </div>

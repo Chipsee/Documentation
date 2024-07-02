@@ -191,6 +191,8 @@
 
 .. include:: Resources/4G_com
 
+.. include:: Resources/BOX-070-RK3588-Shared/gpio_070P
+
 .. include:: Resources/TF_Card
 
 .. include:: Resources/Audio_IO
@@ -198,8 +200,6 @@
 .. include:: Resources/HDMI
 
 .. include:: Resources/Prog_btn
-
-.. include:: Resources/BOX-070-RK3588-Shared/gpio_070P
 
 .. include:: Resources/CS-RK3588-BOX/mounting
 
