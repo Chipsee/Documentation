@@ -12,7 +12,7 @@ For additional information, contact |email|_
    :maxdepth: 1
    :titlesonly:
 
-   CS-A76-BOX <CS10600-RK3588-070P>
+   CS-A76-BOX, PPC-A76-070 <CS10600-RK3588-070P>
 
 .. warning::
 
