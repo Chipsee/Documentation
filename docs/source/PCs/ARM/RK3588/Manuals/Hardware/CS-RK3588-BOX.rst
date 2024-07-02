@@ -136,7 +136,7 @@
                    :align: middle
                    :width: 384
 
-.. _product_link: https://chipsee.com/product/cs-rk3588-box/
+.. _product_link: https://chipsee.com/product/cs-a76-box/
 
 .. |product_link| replace:: |product|
 

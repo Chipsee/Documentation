@@ -42,7 +42,7 @@
 * Use libgpiod to control the GPIO
    .. code:: bash
 
-        # uncomment the following lines in /opt/chipsee/chipsee-init.sh first
+        # comment out the following lines in /opt/chipsee/chipsee-init.sh first
         ## GPIO
         #num=1
         #for i in $OUT; do
