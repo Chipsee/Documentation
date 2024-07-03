@@ -14,6 +14,10 @@
 
 .. |mounting_table| replace:: Rear, VESA
 
+.. |gpu| replace:: ARM Mali-G610 MC4. Up to 8K60 FPS video decoding, up to 8K30 FPS video encoding.
+
+.. |npu| replace:: Neural network acceleration engine with 6Tops int8, support Int4/8/16/FP16/BF16/TF32.
+
 .. |disp_table_des| replace:: N/A
 
 .. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 3 x RS485, including 1 debug port. CAN0 can be configured to RS232.
