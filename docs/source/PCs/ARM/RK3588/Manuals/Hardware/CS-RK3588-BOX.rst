@@ -30,7 +30,7 @@
 
 .. |SSD| replace:: N/A
 
-.. |eMMC| replace:: 32GB
+.. |eMMC| replace:: 64GB
 
 .. |tscreen| replace:: N/A
 
