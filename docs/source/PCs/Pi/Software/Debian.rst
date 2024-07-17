@@ -127,4 +127,8 @@ In this document, we use Xshell to debug the Chipsee Raspberry Pi products. You 
 
 :pagebreak:`True`
 
+.. include:: Resources/Faq
+
+:pagebreak:`True`
+
 .. include:: /PCs/Shared/support

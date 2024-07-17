@@ -1,0 +1,17 @@
+FAQ
+===
+
+How to Rotate the Touch
+-----------------------
+
+Display can be rotated from the GUI, but the touch layer needs to be rotated manually.
+
+.. code:: bash
+
+  $ sudo vi /usr/share/X11/xorg.conf.d/40-libinput.conf
+  # inside 40-libinput.conf
+  # Move to the Section of "Identifier .... touchscreen ...."
+  # Add this line inside the Section/EndSection:
+  Option "TransformationMatrix" "0 1 0 -1 0 1 0 0 1"
+
+Then the touch will be rotated permanently after reboot. You can also undo this line to rotate it back.
