@@ -8,3 +8,4 @@ sphinx_design==0.2.0
 sphinx-pdf-generate
 sphinx-copybutton
 weasyprint==60.0
+pydyf==0.10.0
