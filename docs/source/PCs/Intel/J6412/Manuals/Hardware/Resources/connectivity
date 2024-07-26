@@ -2,7 +2,7 @@ Connectivity
 ============
 
 There are many connectivity options available on the |product| industrial PC. It has 4 x USB Type A connectors configured as HOSTS, 1 x HDMI port, 2 x RJ45 connectors supporting 
-Gigabit Ethernet (GbE), and up to 6 x RS232 connectors, of which two can be configured in the RS485 mode.
+Gigabit Ethernet (GbE), and up to 6 x RS232 connectors(default is 4 x RS232 and 2 x RS485), the 2 x RS485(default) can be configured to 2 x RS232.
 
 RS232/485 Connectors
 --------------------
@@ -64,6 +64,6 @@ The top row of terminals on the terminal block is labelled as **COM3/4**. These 
 .. Note::
   
   - Pin 8 PANSW#: Connect PANSW and GND can boot the PC.
-  - The default configuration of the |product| industrial PC is 6 x RS232 interfaces. If you need different configuration, please contact Chipsee Technical Support at |email|_
+  - The default configuration of the |product| industrial PC is 4 x RS232 and 2 x RS485 interfaces. If you need different configuration, please contact Chipsee Technical Support at |email|_
    
 :pagebreak:`True`
