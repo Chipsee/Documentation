@@ -1,6 +1,18 @@
 Product Changes
 ===============
 
+Ver 1.2
+
+- Released on Jul 26, 2024
+
+- Changes on the RS232 and RS485
+
+  .. note::
+
+    **Old**: Default to 6 x RS232
+
+    **New**: Default to 4 x RS232 and 2 x RS485(COM5/6)
+
 Ver 1.1 
 
 - Released on Jun 20th, 2024
