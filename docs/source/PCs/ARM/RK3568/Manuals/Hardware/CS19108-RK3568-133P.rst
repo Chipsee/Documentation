@@ -34,7 +34,7 @@
                   :align: middle
                   :width: 576
 
-.. |io_pin_img| image:: /Media/ARM/A55/CS19108-RK3568-133P/IO.jpg
+.. |io_pin_img| image:: /Media/ARM/A55/CS19108-RK3568-133P/CS19108-RK3568-133P-IO.jpg
                   :align: middle
                   :width: 768
 
