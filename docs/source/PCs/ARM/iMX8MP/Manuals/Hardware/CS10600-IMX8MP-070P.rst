@@ -30,6 +30,8 @@
 
 .. |weightP| replace:: 610g
 
+.. |temp| replace:: From 0°C to +60°C
+
 .. |cur| replace:: 600mA Max at 12V, 450mA Idle at 12V
 
 .. |pwr| replace:: 7.2W Max, 5.4W Idle (Maximum brightness)
