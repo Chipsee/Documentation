@@ -1,0 +1,10 @@
+Audio In/Out Connector
+----------------------
+
+The |product| has one 3.5mm audio port, the Realtek ALC662 chip, supports dual channel, stereo and lineout.
+
+.. rst-class:: text-center
+
+   |audio_img|
+
+   *Audio Port*

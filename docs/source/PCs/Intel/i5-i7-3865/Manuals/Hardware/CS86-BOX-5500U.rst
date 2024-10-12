@@ -1,0 +1,24 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: CS86-BOX-5500U
+
+.. |PN| replace:: PN: CS86-BOX-5500U
+
+.. _product_link: https://chipsee.com/product/cs86-box-5500u
+
+.. |product_link| replace:: |product|
+                  
+.. _CS86-BOX-5500U:
+
+.. |cpu_name| replace:: i7 5500U
+
+.. |cpu_spec| replace:: Dual(2) Core 4 Threads, 2.4GHz Base Frequency, 3.0GHz Turbo Frequency
+
+.. |os_support| replace:: Ubuntu, CentOS Linux, Windows 8/10 64bit
+
+.. |lan_ic| replace:: Intel® i225
+
+.. |Side View 2| image:: /Media/Intel/i5-i7-3865/CS86-BOX-5XXXU/CS86-BOX-5500U-Side2.jpg
+                  :class: product-img 
+
+.. include:: Resources/CS86-BOX-5XXXU/shared

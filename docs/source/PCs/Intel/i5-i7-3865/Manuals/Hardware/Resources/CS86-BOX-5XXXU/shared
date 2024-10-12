@@ -1,0 +1,99 @@
+.. |Product| replace:: The |product| Industrial Box PC 
+
+.. |dim| replace:: 235 * 137 * 51mm
+
+.. |Cover PNG| image:: /Media/Intel/i5-i7-3865/CS86-BOX-5XXXU/CS86-BOX-5XXXU-Front.png
+
+
+
+.. |Front View| image:: /Media/Intel/i5-i7-3865/CS86-BOX-5XXXU/CS86-BOX-5XXXU-Front.jpg
+                  :class: product-img
+
+
+.. |Rear View| image:: /Media/Intel/i5-i7-3865/CS86-BOX-5XXXU/CS86-BOX-5XXXU-Rear.jpg
+                  :class: product-img
+
+
+.. |Side View 1| image:: /Media/Intel/i5-i7-3865/CS86-BOX-5XXXU/CS86-BOX-5XXXU-Side1.jpg
+                  :class: product-img
+
+.. |power_img| image:: /Media/Intel/i5-i7-3865/CS86-BOX-5XXXU/CS86-BOX-5XXXU-Power.jpg
+                  :align: middle
+                  :width: 384
+
+.. |power_button| image:: /Media/Intel/i5-i7-3865/CS86-BOX-5XXXU/CS86-BOX-5XXXU-PowerBtn.jpg
+                  :align: middle
+                  :width: 384
+
+.. |com_img| image:: /Media/Intel/i5-i7-3865/CS86-BOX-5XXXU/CS86-BOX-5XXXU-COM.jpg
+                  :align: middle
+                  :width: 800
+
+.. |usb_img_1| image:: /Media/Intel/i5-i7-3865/CS86-BOX-5XXXU/CS86-BOX-5XXXU-USB1.jpg
+                  :align: middle
+                  :width: 800
+
+.. |usb_img_2| image:: /Media/Intel/i5-i7-3865/CS86-BOX-5XXXU/CS86-BOX-5XXXU-USB2.jpg
+                  :align: middle
+                  :width: 800
+
+.. |lan_img| image:: /Media/Intel/i5-i7-3865/CS86-BOX-5XXXU/CS86-BOX-5XXXU-LAN.jpg
+                  :align: middle
+                  :width: 640
+
+.. |audio_img| image:: /Media/Intel/i5-i7-3865/CS86-BOX-5XXXU/CS86-BOX-5XXXU-Audio.jpg
+                  :align: middle
+                  :width: 640
+
+.. |hdmi_vga_img| image:: /Media/Intel/i5-i7-3865/CS86-BOX-5XXXU/CS86-BOX-5XXXU-HDMIVGA.jpg
+                  :align: middle
+                  :width: 640
+
+.. |td_img| image:: /Media/Intel/i5-i7-3865/CS86-BOX-5XXXU/CS86-BOX-5XXXU-TD.jpg
+                  :align: middle
+                  :width: 1080
+
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/CS86-BOX-5XXXU/overview-box
+
+.. include:: Resources/CS86-BOX-5XXXU/ordering
+
+.. include:: Resources/CS86-BOX-5XXXU/opt_features
+
+.. include:: Resources/CS86-BOX-5XXXU/HW_features
+
+.. include:: Resources/CS86-BOX-5XXXU/table-box
+
+.. include:: Resources/CS86-BOX-5XXXU/power-box
+
+.. include:: Resources/CS86-BOX-5XXXU/connectivity-box
+
+.. include:: Resources/CS86-BOX-5XXXU/USB
+
+.. include:: Resources/CS86-BOX-5XXXU/LAN
+
+.. include:: Resources/CS86-BOX-5XXXU/HDMI-box
+    
+.. include:: Resources/CS86-BOX-5XXXU/audio-box
+
+.. include:: Resources/CS86-BOX-5XXXU/mounting
+
+.. include:: Resources/CS86-BOX-5XXXU/mechspecs
+
+.. rst-class:: text-center
+
+   |td_img|
+ 
+   |product| Technical Drawing
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support
