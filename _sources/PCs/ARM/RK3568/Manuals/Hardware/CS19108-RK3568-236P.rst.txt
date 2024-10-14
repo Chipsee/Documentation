@@ -28,7 +28,7 @@
 
 .. |pwr| replace:: 19.56W (12V x 1.63A) Typical, 24W (12V x 2A) Max
 
-.. |temp| replace:: From 0°C to +50°C
+.. |temp| replace:: From -20°C to +60°C
 
 .. |power_img| image:: /Media/ARM/A55/CS19108-RK3568-236P/Power.jpg
                   :align: middle

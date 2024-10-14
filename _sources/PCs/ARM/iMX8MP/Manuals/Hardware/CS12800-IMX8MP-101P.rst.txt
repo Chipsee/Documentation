@@ -26,7 +26,7 @@
 
 .. |screen_conn_type| replace:: I2C
 
-.. |temp| replace:: From 0°C to +60°C
+.. |temp| replace:: From -20°C to +70°C
 
 .. |power_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-Power.jpg
                   :align: middle

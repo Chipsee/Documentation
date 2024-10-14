@@ -30,7 +30,7 @@
 
 .. |weightP| replace:: 610g
 
-.. |temp| replace:: From 0°C to +60°C
+.. |temp| replace:: From -10°C to +60°C
 
 .. |cur| replace:: 600mA Max at 12V, 450mA Idle at 12V
 
