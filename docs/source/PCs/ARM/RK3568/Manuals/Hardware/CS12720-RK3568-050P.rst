@@ -60,7 +60,7 @@
 
 .. |pwr| replace:: 5.4W Max
 
-.. |temp| replace:: From 0°C to +60°C
+.. |temp| replace:: From -20°C to +60°C
 
 .. |rs232| replace:: default 2 x RS232 (Optional 4 x RS232 at most, include 1 debug port)
 
