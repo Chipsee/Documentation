@@ -28,7 +28,7 @@
 
 .. |pwr| replace:: 9.6W Typical, 19.2W Max
 
-.. |temp| replace:: From 0°C to +60°C
+.. |temp| replace:: From -20°C to +70°C
 
 .. |power_img| image:: /Media/ARM/A55/CS10768-RK3568-150P/CS10768-RK3568-150P-Power.jpg
                   :align: middle

@@ -26,7 +26,7 @@
 
 .. |screen_conn_type| replace:: USB
 
-.. |temp| replace:: From 0°C to +50°C
+.. |temp| replace:: From -20°C to +60°C
 
 .. |power_img| image:: /Media/ARM/A53/CS19108-IMX8MP-236P/CS19108-IMX8MP-236P-Power.jpg
                   :align: middle
