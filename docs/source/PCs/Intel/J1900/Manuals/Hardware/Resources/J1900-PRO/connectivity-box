@@ -1,0 +1,18 @@
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial PC. It has 6 x USB Type A connectors configured as HOSTS, 1 x HDMI port, 1 x VGA, 2 x RJ45 connectors supporting Gigabit Ethernet (GbE), and 6 x RS232 connectors that can be configured in RS485 mode (1 x RS232 and 5 x RS485) as per request.
+
+RS232/485 Connectors
+-------------------------
+
+Product has 6 x 9-pin D-Sub connectors which are configured as RS232 interfaces by default. The COM1~COM5 9-pin D-sub connectors can be configured as either RS232 or RS485 communication interfaces through an internal convert board. If different configuration is required, please get in touch with Chipsee technical support at |email|_
+
+  
+.. rst-class:: text-center
+
+   |com_img|
+
+   *COM Ports*
+
+:pagebreak:`True`

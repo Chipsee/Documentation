@@ -1,0 +1,20 @@
+Power Input
+===========
+
+|Product| should be powered by 12V DC, the connector is 5.5 x 2.5mm DC input. 
+
+.. rst-class:: text-center
+
+   |power_img|
+
+   *12V DC Power Input*
+
+The POWER button is located to the opposite side of the power input connector and can be used to switch the power ON or OFF.
+
+.. rst-class:: text-center
+
+   |power_button|
+
+   *Power Button*
+
+:pagebreak:`True`

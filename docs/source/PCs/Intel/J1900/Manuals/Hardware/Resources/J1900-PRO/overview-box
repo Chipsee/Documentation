@@ -1,0 +1,27 @@
+Product Overview
+=================
+
+The |product| is a rugged, high-quality mountable multifunctional industrial PC without a display. Thanks to the integrated brackets and its light-weight construction, it can be firmly attached to any flat surface, such as industrial cabinets or walls.
+
+|product| is powered by the high-performance |Intel| |Core| |cpu_name| CPU. |Product| also features a broad range of connectivity options, allowing it to meet even the most demanding requirements in harsh industrial or outdoor environments.
+
+.. sidebar:: Key Applications
+   
+  + Industrial Automation
+  + Process Control
+  + Smart Grid Management
+  + CNC Manufacturing
+  + Environmental Monitoring
+  + Machine Vision Inspection
+  + Predictive Maintenance
+
+Despite the performances, the offered CPU consume very little power, TDP is only 10W. From the ground-up, the CPU is built for low power consumption.
+
+A specially designed aluminum alloy housing with fins for increased heat dissipation serves as a passive cooler, eliminating the need for built-in fans. 
+The fan-less design reduces noise, as well as the maintenance costs and efforts, increasing reliability at the same time.
+
+.. caution::
+
+   Be careful when handling the product while it is operating: it might become hot under heavy CPU load.
+     
+:pagebreak:`True`

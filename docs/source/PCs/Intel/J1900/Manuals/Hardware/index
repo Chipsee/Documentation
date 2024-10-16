@@ -163,10 +163,24 @@ J1900
    <div class="col">
       <div class="index-item">
 
-Box
+Box(2 COM)
 |CS86-Box|
 
 :ref:`CS86-BOX-J1900<CS86-BOX-J1900>`
+
+.. raw:: html
+
+     </div>
+   </div>
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+Box(6 COM)
+|CS86-BOX-J1900-PRO|
+
+:ref:`CS86-BOX-J1900 PRO<CS86-BOX-J1900-PRO>`
 
 .. raw:: html
 
@@ -210,7 +224,9 @@ Box
 .. |CS86-Box| image:: /Media/Intel/J1900/CS86-BOX-J1900/CS86-BOX-J1900-front-Low.jpg
    :class: index-item-img
    :target: /PCs/Intel/J1900/Manuals/Hardware/CS86-BOX-J1900.html
-
+.. |CS86-BOX-J1900-PRO| image:: /Media/Intel/J1900/CS86-BOX-J1900-PRO/CS86-BOX-J1900-PRO-front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/Intel/J1900/Manuals/Hardware/CS86-BOX-J1900-PRO.html
 
 .. toctree::
    :maxdepth: 1
@@ -229,5 +245,6 @@ Box
    PPC-J1900-215-C </PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-215-C>
    PPC-J1900-236-C </PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-236-C>
    CS86-BOX-J1900 </PCs/Intel/J1900/Manuals/Hardware/CS86-BOX-J1900>
+   CS86-BOX-J1900 PRO </PCs/Intel/J1900/Manuals/Hardware/CS86-BOX-J1900-PRO>
 
 

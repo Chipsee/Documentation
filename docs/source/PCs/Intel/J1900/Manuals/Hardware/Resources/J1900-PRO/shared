@@ -1,0 +1,49 @@
+.. |Product| replace:: The |product| Industrial Box PC 
+
+.. |dim| replace:: 235 * 137 * 51mm
+
+
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/J1900-PRO/overview-box
+
+.. include:: Resources/J1900-PRO/ordering
+
+.. include:: Resources/J1900-PRO/opt_features
+
+.. include:: Resources/J1900-PRO/HW_features
+
+.. include:: Resources/J1900-PRO/table-box
+
+.. include:: Resources/J1900-PRO/power-box
+
+.. include:: Resources/J1900-PRO/connectivity-box
+
+.. include:: Resources/J1900-PRO/USB
+
+.. include:: Resources/J1900-PRO/LAN
+
+.. include:: Resources/J1900-PRO/HDMI-box
+    
+.. include:: Resources/J1900-PRO/audio-box
+
+.. include:: Resources/J1900-PRO/mounting
+
+.. include:: Resources/J1900-PRO/mechspecs
+
+.. rst-class:: text-center
+
+   |td_img|
+ 
+   *CS86-BOX-J1900 PRO Technical Drawing*
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support
