@@ -829,6 +829,12 @@
             "pdf-filename": "CS86-BOX-J1900",
             "pdf-type": "ipc"
         },
+        "PCs/Intel/J1900/Manuals/Hardware/CS86-BOX-J1900-PRO": {
+            "pdf-title": "CS86-BOX-J1900 PRO",
+            "pdf-subtitle": "PN: CS86-BOX-J1900 PRO",
+            "pdf-filename": "CS86-BOX-J1900 PRO",
+            "pdf-type": "ipc"
+        },
         "PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-101-C": {
             "pdf-title": "PPC-J1900-101-C",
             "pdf-subtitle": "PN: PPC-J1900-101-C",
@@ -953,6 +959,24 @@
             "pdf-title": "CS86-BOX",
             "pdf-subtitle": "PN: CS86-BOX",
             "pdf-filename": "CS86-BOX",
+            "pdf-type": "ipc"
+        },
+        "PCs/Intel/i5-i7-3865/Manuals/Hardware/CS86-BOX-5005U": {
+            "pdf-title": "CS86-BOX-5005U",
+            "pdf-subtitle": "PN: CS86-BOX-5005U",
+            "pdf-filename": "CS86-BOX-5005U",
+            "pdf-type": "ipc"
+        },
+        "PCs/Intel/i5-i7-3865/Manuals/Hardware/CS86-BOX-5200U": {
+            "pdf-title": "CS86-BOX-5200U",
+            "pdf-subtitle": "PN: CS86-BOX-5200U",
+            "pdf-filename": "CS86-BOX-5200U",
+            "pdf-type": "ipc"
+        },
+        "PCs/Intel/i5-i7-3865/Manuals/Hardware/CS86-BOX-5500U": {
+            "pdf-title": "CS86-BOX-5500U",
+            "pdf-subtitle": "PN: CS86-BOX-5500U",
+            "pdf-filename": "CS86-BOX-5500U",
             "pdf-type": "ipc"
         },
         "PCs/Intel/i5-i7-3865/Manuals/Hardware/PPC-10510U-150-C": {

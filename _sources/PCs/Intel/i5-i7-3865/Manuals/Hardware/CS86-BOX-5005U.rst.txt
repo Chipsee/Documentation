@@ -1,0 +1,25 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: CS86-BOX-5005U
+
+.. |PN| replace:: PN: CS86-BOX-5005U
+
+.. _product_link: https://chipsee.com/product/cs86-box-5005u
+
+.. |product_link| replace:: |product|
+                  
+.. |cpu_name| replace:: i3 5005U
+
+.. |cpu_spec| replace:: Dual(2) Core 4 Threads, 2.0GHz Base Frequency
+
+.. |lan_ic| replace:: Intel® i211
+
+.. |os_support| replace:: Ubuntu, CentOS Linux, Windows 7/8/10
+
+.. _CS86-BOX-5005U:
+
+.. |Side View 2| image:: /Media/Intel/i5-i7-3865/CS86-BOX-5XXXU/CS86-BOX-5005U-Side2.jpg
+                  :class: product-img 
+
+.. include:: Resources/CS86-BOX-5XXXU/shared
+

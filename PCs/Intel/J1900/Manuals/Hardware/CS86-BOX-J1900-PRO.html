@@ -1,0 +1,541 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="lang:clipboard.copy" content="Copy to clipboard">
+  <meta name="lang:clipboard.copied" content="Copied to clipboard">
+  <meta name="lang:search.language" content="en">
+  <meta name="lang:search.pipeline.stopwords" content="True">
+  <meta name="lang:search.pipeline.trimmer" content="True">
+  <meta name="lang:search.result.none" content="No matching documents">
+  <meta name="lang:search.result.one" content="1 matching document">
+  <meta name="lang:search.result.other" content="# matching documents">
+  <meta name="lang:search.tokenizer" content="[\s\-]+">
+
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/application.css"/>
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/application-palette.css"/>
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/application-fixes.css"/>
+  
+  <link rel="stylesheet" href="../../../../../_static/fonts/material-icons.css"/>
+  
+  <meta name="theme-color" content="#3f51b5">
+  <script src="../../../../../_static/javascripts/modernizr.js"></script>
+  
+  
+  
+    <title>CS86-BOX-J1900 PRO &#8212; Chipsee</title>
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/material.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/css/material_custom.css" />
+    <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
+    <script src="../../../../../_static/jquery.js"></script>
+    <script src="../../../../../_static/underscore.js"></script>
+    <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../../../../_static/doctools.js"></script>
+    <script src="../../../../../_static/sphinx_highlight.js"></script>
+    <script src="../../../../../_static/clipboard.min.js"></script>
+    <script src="../../../../../_static/copybutton.js"></script>
+    <script src="../../../../../_static/design-tabs.js"></script>
+    <link rel="shortcut icon" href="../../../../../_static/favicon.webp"/>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="PPC-J6412-101-C" href="../../../J6412/Manuals/Hardware/PPC-J6412-101-C.html" />
+    <link rel="prev" title="CS86-BOX-J1900" href="CS86-BOX-J1900.html" /> 
+    <script async src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.155/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.155/examples/jsm/"
+        }
+      }
+    </script>
+    <!-- Plausible start -->
+    <script defer data-domain="chipsee.com" src="https://plausible.io/js/script.js"></script>
+    <!-- Plausible end -->
+
+  </head>
+  <body dir=ltr
+        data-md-color-primary=deep-orange data-md-color-accent=deep-orange>
+  
+  <svg class="md-svg">
+    <defs data-children-count="0">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+      
+    </defs>
+  </svg>
+  
+  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">
+  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">
+  <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+  <a href="#PCs/Intel/J1900/Manuals/Hardware/CS86-BOX-J1900-PRO" tabindex="1" class="md-skip"> Skip to content </a>
+  <header>
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex navheader">
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+            <span class="md-header-nav__topic"> CS86-BOX-J1900 PRO </span>
+            <span class="md-header-nav__topic"> CS86-BOX-J1900 PRO </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-md-component="header">
+    <div class="container">
+      <a class="navbar-brand pt-0" href="../../../../../index.html">
+        <img src="../../../../../_static/images/logo_dark.png" height="30" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav fs-6 me-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Industrial PCs
+            </a>
+            <ul class="dropdown-menu" id="nav-dropdown">
+              <li><a class="dropdown-item" href="../../../../Pi/index.html">Powered by Raspberry Pi</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../ARM/index-rockchip.html">Powered by Rockchip</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../ARM/index-nxp.html">Powered by NXP</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../ARM/AM335X/index.html">Powered by TI</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../index.html">Powered by INTEL</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../../../MTK/index.html">Handhelds</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../../../../Displays/index.html">Displays</a>
+          </li>
+          <li class="nav-item text-nowrap">
+            <a class="nav-link" href="https://chipsee.com" target="_blank">Shop
+              <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" style="margin-bottom: 3px;"><path d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" fill="gray"/></svg>
+            </a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" action="../../../../../search.html" method="GET">
+          <input class="form-control form-control-sm me-2" type="search" placeholder="Search" name="q" aria-label="Search">
+          <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+</header>
+
+  
+  <div class="md-container">
+    
+    
+    
+  <nav class="md-tabs" data-md-component="tabs">
+    <div class="md-tabs__inner md-grid">
+      <ul class="md-tabs__list">
+          <li class="md-tabs__item"><a href="../../../../../index.html" class="md-tabs__link">Chipsee</a></li>
+          <li class="md-tabs__item"><a href="../../../../index.html" class="md-tabs__link">Industrial Panel &amp; Embedded PCs</a></li>
+          <li class="md-tabs__item"><a href="../../../index.html" class="md-tabs__link">Industrial PCs Powered by Intel</a></li>
+      </ul>
+    </div>
+  </nav>
+    <main class="md-main">
+      <div class="md-main__inner md-grid" data-md-component="container">
+        
+          <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                
+<nav class="md-nav md-nav--secondary">
+    <label class="md-nav__title" for="__toc">ON THIS PAGE</label>
+  <ul class="md-nav__list" data-md-scrollfix="">
+        <li class="md-nav__item"><a href="#pcs-intel-j1900-manuals-hardware-cs86-box-j1900-pro--page-root" class="md-nav__link">CS86-BOX-J1900 PRO</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#product-overview" class="md-nav__link">Product Overview</a>
+        </li>
+        <li class="md-nav__item"><a href="#ordering-options" class="md-nav__link">Ordering Options</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#operating-system" class="md-nav__link">Operating System</a>
+        </li>
+        <li class="md-nav__item"><a href="#optional-features" class="md-nav__link">Optional Features</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#hardware-features" class="md-nav__link">Hardware Features</a>
+        </li>
+        <li class="md-nav__item"><a href="#power-input" class="md-nav__link">Power Input</a>
+        </li>
+        <li class="md-nav__item"><a href="#connectivity" class="md-nav__link">Connectivity</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#rs232-485-connectors" class="md-nav__link">RS232/485 Connectors</a>
+        </li>
+        <li class="md-nav__item"><a href="#usb-host-connectors" class="md-nav__link">USB HOST Connectors</a>
+        </li>
+        <li class="md-nav__item"><a href="#lan-connectors" class="md-nav__link">LAN Connectors</a>
+        </li>
+        <li class="md-nav__item"><a href="#hdmi-connector" class="md-nav__link">HDMI Connector</a>
+        </li>
+        <li class="md-nav__item"><a href="#audio-in-out-connector" class="md-nav__link">Audio In/Out Connector</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#mounting-procedure" class="md-nav__link">Mounting Procedure</a>
+        </li>
+        <li class="md-nav__item"><a href="#mechanical-specifications" class="md-nav__link">Mechanical Specifications</a>
+        </li>
+        <li class="md-nav__item"><a href="#disclaimer" class="md-nav__link">Disclaimer</a>
+        </li>
+        <li class="md-nav__item"><a href="#technical-support" class="md-nav__link">Technical Support</a>
+        </li></ul>
+            </nav>
+        </li>
+  </ul>
+</nav>
+              </div>
+            </div>
+          </div>
+          <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                
+              </div>
+            </div>
+          </div>
+        
+        <div class="md-content">
+          <article class="md-content__inner md-typeset" role="main"><a class="md-content__button md-icon" style="margin:0;float:right;" href="CS86-BOX-J1900_PRO.pdf" download title="Download PDF"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="width:40px;height:40px;" viewBox="0 0 56 
+56"> <g><path style="fill:#E9E9E0;" d="M36.985,0H7.963C7.155,0,6.5,0.655,6.5,1.926V55c0,0.345,0.655,1,1.463,
+1h40.074 c0.808,0,1.463-0.655,1.463-1V12.978c0-0.696-0.093-0.92-0.257-1.085L37.607,0.257C37.442,0.093,37.218,0,
+36.985,0z"/> <polygon style="fill:#D9D7CA;" points="37.5,0.151 37.5,12 49.349,12 	"/> <path 
+style="fill:#CC4B4C;" d="M19.514,33.324L19.514,33.324c-0.348,0-0.682-0.113-0.967-0.326 
+c-1.041-0.781-1.181-1.65-1.115-2.242c0.182-1.628,2.195-3.332,5.985-5.068c1.504-3.296,2.935-7.357,3.788-10.75 
+c-0.998-2.172-1.968-4.99-1.261-6.643c0.248-0.579,0.557-1.023,1.134-1.215c0.228-0.076,0.804-0.172,1.016-0.172 
+c0.504,0,0.947,0.649,1.261,1.049c0.295,0.376,0.964,1.173-0.373,6.802c1.348,2.784,3.258,5.62,5.088,
+7.562 c1.311-0.237,2.439-0.358,3.358-0.358c1.566,0,2.515,0.365,2.902,1.117c0.32,0.622,0.189,1.349-0.39,
+2.16 c-0.557,0.779-1.325,1.191-2.22,1.191c-1.216,0-2.632-0.768-4.211-2.285c-2.837,0.593-6.15,1.651-8.828,
+2.822 c-0.836,1.774-1.637,3.203-2.383,4.251C21.273,32.654,20.389,33.324,19.514,33.324z M22.176,28.198 c-2.137,
+1.201-3.008,2.188-3.071,2.744c-0.01,0.092-0.037,0.334,0.431,0.692C19.685,31.587,20.555,31.19,22.176,
+28.198z M35.813,23.756c0.815,0.627,1.014,0.944,1.547,0.944c0.234,0,0.901-0.01,1.21-0.441c0.149-0.209,0.207-0.343,
+0.23-0.415 c-0.123-0.065-0.286-0.197-1.175-0.197C37.12,23.648,36.485,23.67,35.813,23.756z M28.343,17.174 c-0.715,
+2.474-1.659,5.145-2.674,7.564c2.09-0.811,4.362-1.519,6.496-2.02C30.815,21.15,29.466,19.192,28.343,
+17.174z M27.736,8.712c-0.098,0.033-1.33,1.757,0.096,3.216C28.781,9.813,27.779,8.698,27.736,8.712z"/> <path 
+style="fill:#CC4B4C;" d="M48.037,56H7.963C7.155,56,6.5,55.345,6.5,54.537V39h43v15.537C49.5,55.345,48.845,56,
+48.037,56z"/> <g><path style="fill:#FFFFFF;" d="M17.385,53h-1.641V42.924h2.898c0.428,0,0.852,0.068,1.271,
+0.205 c0.419,0.137,0.795,0.342,1.128,0.615c0.333,0.273,0.602,0.604,0.807,0.991s0.308,0.822,0.308,1.306 c0,
+0.511-0.087,0.973-0.26,1.388c-0.173,0.415-0.415,0.764-0.725,1.046c-0.31,0.282-0.684,0.501-1.121,0.656 s-0.921,
+0.232-1.449,0.232h-1.217V53z M17.385,44.168v3.992h1.504c0.2,0,0.398-0.034,0.595-0.103 c0.196-0.068,0.376-0.18,
+0.54-0.335c0.164-0.155,0.296-0.371,0.396-0.649c0.1-0.278,0.15-0.622,0.15-1.032 
+c0-0.164-0.023-0.354-0.068-0.567c-0.046-0.214-0.139-0.419-0.28-0.615c-0.142-0.196-0.34-0.36-0.595-0.492 
+c-0.255-0.132-0.593-0.198-1.012-0.198H17.385z"/> <path style="fill:#FFFFFF;" d="M32.219,47.682c0,0.829-0.089,
+1.538-0.267,2.126s-0.403,1.08-0.677,1.477s-0.581,0.709-0.923,0.937 s-0.672,0.398-0.991,0.513c-0.319,0.114-0.611,
+0.187-0.875,0.219C28.222,52.984,28.026,53,27.898,53h-3.814V42.924h3.035 c0.848,0,1.593,0.135,2.235,0.403s1.176,
+0.627,1.6,1.073s0.74,0.955,0.95,1.524C32.114,46.494,32.219,47.08,32.219,47.682z M27.352,51.797c1.112,0,
+1.914-0.355,2.406-1.066s0.738-1.741,0.738-3.09c0-0.419-0.05-0.834-0.15-1.244 
+c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-0.308h-0.957v7.629H27.352z"/> 
+<path style="fill:#FFFFFF;" d="M36.266,44.168v3.172h4.211v1.121h-4.211V53h-1.668V42.924H40.9v1.244H36.266z"/> 
+</g></g> </svg></a>
+            
+  <span class="target" id="cs86-box-j1900-pro"></span><section id="product">
+<h1 id="pcs-intel-j1900-manuals-hardware-cs86-box-j1900-pro--page-root">CS86-BOX-J1900 PRO<a class="headerlink" href="#pcs-intel-j1900-manuals-hardware-cs86-box-j1900-pro--page-root" title="Permalink to this heading">¶</a></h1>
+<p class="html-only rubric"><em>Version 1.0</em></p>
+<div class="row html-only g-0" data-bs-target="#imageModal" data-bs-toggle="modal" id="gallery"><div class="col-12 col-md-6 col-xxl-3 html-only" style="cursor: pointer;"><p><img alt="Front View" class="product-img" src="../../../../../_images/CS86-BOX-J1900-PRO-Front.jpg"/></p>
+</div><div class="col-12 col-md-6 col-xxl-3 html-only" style="cursor: pointer;"><p><img alt="Rear View" class="product-img" src="../../../../../_images/CS86-BOX-J1900-PRO-Rear.jpg"/></p>
+</div><div class="col-12 col-md-6 col-xxl-3 html-only" style="cursor: pointer;"><p><img alt="Side View 1" class="product-img" src="../../../../../_images/CS86-BOX-J1900-PRO-Side1.jpg"/></p>
+</div><div class="col-12 col-md-6 col-xxl-3 html-only" style="cursor: pointer;"><p><img alt="Side View 2" class="product-img" src="../../../../../_images/CS86-BOX-J1900-PRO-Side2.jpg"/></p>
+</div></div><section id="product-overview">
+<h2 id="product-overview">Product Overview<a class="headerlink" href="#product-overview" title="Permalink to this heading">¶</a></h2>
+<p>The CS86-BOX-J1900 PRO is a rugged, high-quality mountable multifunctional industrial PC without a display. Thanks to the integrated brackets and its light-weight construction, it can be firmly attached to any flat surface, such as industrial cabinets or walls.</p>
+<p>CS86-BOX-J1900 PRO is powered by the high-performance Intel<sup>®</sup> Core™ Celeron J1900 CPU. The CS86-BOX-J1900 PRO Industrial Box PC also features a broad range of connectivity options, allowing it to meet even the most demanding requirements in harsh industrial or outdoor environments.</p>
+<aside class="sidebar">
+<p class="sidebar-title">Key Applications</p>
+<ul class="simple">
+<li><p>Industrial Automation</p></li>
+<li><p>Process Control</p></li>
+<li><p>Smart Grid Management</p></li>
+<li><p>CNC Manufacturing</p></li>
+<li><p>Environmental Monitoring</p></li>
+<li><p>Machine Vision Inspection</p></li>
+<li><p>Predictive Maintenance</p></li>
+</ul>
+</aside>
+<p>Despite the performances, the offered CPU consume very little power, TDP is only 10W. From the ground-up, the CPU is built for low power consumption.</p>
+<p>A specially designed aluminum alloy housing with fins for increased heat dissipation serves as a passive cooler, eliminating the need for built-in fans.
+The fan-less design reduces noise, as well as the maintenance costs and efforts, increasing reliability at the same time.</p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Be careful when handling the product while it is operating: it might become hot under heavy CPU load.</p>
+</div>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="ordering-options">
+<h2 id="ordering-options">Ordering Options<a class="headerlink" href="#ordering-options" title="Permalink to this heading">¶</a></h2>
+<p>Most of the Chipsee products can be customized during the ordering process. The product will be shipped with the pre-installed factory defaults if no extra requirements are specified. The table in the <a class="reference internal" href="#hardware-features">Hardware Features</a> section provides information about the default options bundled with the product.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can order <a class="reference external" href="https://chipsee.com/product/cs86-box-j1900-pro">CS86-BOX-J1900 PRO</a> from the official <a class="reference external" href="https://chipsee.com/">Chipsee Store</a> or from your nearest distributor.</p>
+</div>
+<section id="operating-system">
+<h3 id="operating-system">Operating System<a class="headerlink" href="#operating-system" title="Permalink to this heading">¶</a></h3>
+<p>By default, CS86-BOX-J1900 PRO comes with the Ubuntu Linux operating system (OS) pre-installed. A different OS can be selected during the ordering process.
+For operating system, CS86-BOX-J1900 PRO supports Ubuntu, CentOS Linux, Windows 7/8/10.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="optional-features">
+<h3 id="optional-features">Optional Features<a class="headerlink" href="#optional-features" title="Permalink to this heading">¶</a></h3>
+<p>The CS86-BOX-J1900 PRO Industrial Box PC offers the highest levels of scalability in the entire products portfolio.</p>
+<p>Feel free to contact Chipsee Technical Support at <a class="reference external" href="mailto:support%40chipsee.com"><strong>support<span>@</span>chipsee<span>.</span>com</strong></a> for all your customization needs.</p>
+<p>CS86-BOX-J1900 PRO does not include WiFi/BT module by default. This module is optional and can be selected at the Chipsee store during the ordering process.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<div class="line-block">
+<div class="line">Installation, repair, and maintenance tasks should be performed by trained personnel only.</div>
+<div class="line">Chipsee does not bear any responsibility for damage caused by inadequate handling of the product.</div>
+</div>
+</div>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+</section>
+<section id="hardware-features">
+<h2 id="hardware-features">Hardware Features<a class="headerlink" href="#hardware-features" title="Permalink to this heading">¶</a></h2>
+<p>The CS86-BOX-J1900 PRO Industrial Box PC offers a broad range of performance and connectivity options for scalable integration, providing expandability according to future needs.
+Some of the key features are listed in the table below.</p>
+<table id="id1" style="width: 100%">
+<caption><span class="caption-number">Table 293 </span><span class="caption-text">Table 1: Key Features</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head" colspan="2"><p class="centered">
+<strong>CS86-BOX-J1900 PRO</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>CPU</strong></p></td>
+<td><p>Intel Core Celeron J1900, Quad(4) Core 4 Threads, 2.0GHz</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Mother Board</strong></p></td>
+<td><p>BayTrail, AMI BIOS</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>GPU</strong></p></td>
+<td><p>Intel® HD Graphics</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>RAM</strong></p></td>
+<td><p>4GB(1 x 4GB) DDR3L 1600MHz (default), Up to 8GB (single channel, optional)</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Storage</strong></p></td>
+<td><p>Default mSATA 128GB SSD (supports up to 2TB), supports 2.5” SATA HDD (SATA2.0)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>USB</strong></p></td>
+<td><p>1 x USB3.0, 5 x USB2.0 HOST ports (Type A)</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>PCIe</strong></p></td>
+<td><p>1 x Full Size Mini PCIe</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Audio</strong></p></td>
+<td><p>1 x Audio interface, Realtek ALC662 chip, supports dual channel, stereo, Lineout</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>LAN</strong></p></td>
+<td><p>2 x RJ45, GbE (Intel® i211), Wake on LAN (WoL) support</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>UART</strong></p></td>
+<td><p>Default 6 x RS232 (COM1 ~ COM5 can be configured to 5 x RS485 by using a internal RS232 to RS485 board)</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>3G/4G</strong></p></td>
+<td><p>N/A</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>WiFi/BT</strong></p></td>
+<td><p>Optional</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>HDMI</strong></p></td>
+<td><p>1 x HDMI Out port, up to 2560x1600 60Hz, independent/identical display with VGA</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>VGA</strong></p></td>
+<td><p>1 x VGA Out port, up to 1920x1080 60Hz, independent/identical display with HDMI</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>SATA</strong></p></td>
+<td><p>1 x Full size mSATA, 1 x SATA</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Power IN</strong></p></td>
+<td><p>12V 3A DC</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Current</strong></p></td>
+<td><p>1.7A (100% CPU, 12V)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>OS</strong></p></td>
+<td><p>Ubuntu, CentOS Linux, Windows 7/8/10</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Operating Temp.</strong></p></td>
+<td><p>From -15°C to +80°C</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Dimensions</strong></p></td>
+<td><p>235 * 137 * 51mm</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Shell Material</strong></p></td>
+<td><p>Aluminum Alloy</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Mounting</strong></p></td>
+<td><p>VESA, Desktop</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Weight</strong></p></td>
+<td><p>1500g</p></td>
+</tr>
+</tbody>
+</table>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="power-input">
+<h2 id="power-input">Power Input<a class="headerlink" href="#power-input" title="Permalink to this heading">¶</a></h2>
+<p>The CS86-BOX-J1900 PRO Industrial Box PC should be powered by 12V DC, the connector is 5.5 x 2.5mm DC input.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS86-BOX-J1900-PRO-Power.jpg"><img alt="power_img" class="align-middle" src="../../../../../_images/CS86-BOX-J1900-PRO-Power.jpg" style="width: 384px;"/></a></p>
+<p class="text-center"><em>12V DC Power Input</em></p>
+<p>The POWER button is located to the opposite side of the power input connector and can be used to switch the power ON or OFF.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS86-BOX-J1900-PRO-PowerBtn.jpg"><img alt="power_button" class="align-middle" src="../../../../../_images/CS86-BOX-J1900-PRO-PowerBtn.jpg" style="width: 384px;"/></a></p>
+<p class="text-center"><em>Power Button</em></p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="connectivity">
+<h2 id="connectivity">Connectivity<a class="headerlink" href="#connectivity" title="Permalink to this heading">¶</a></h2>
+<p>There are many connectivity options available on the CS86-BOX-J1900 PRO industrial PC. It has 6 x USB Type A connectors configured as HOSTS, 1 x HDMI port, 1 x VGA, 2 x RJ45 connectors supporting Gigabit Ethernet (GbE), and 6 x RS232 connectors that can be configured in RS485 mode (1 x RS232 and 5 x RS485) as per request.</p>
+<section id="rs232-485-connectors">
+<h3 id="rs232-485-connectors">RS232/485 Connectors<a class="headerlink" href="#rs232-485-connectors" title="Permalink to this heading">¶</a></h3>
+<p>Product has 6 x 9-pin D-Sub connectors which are configured as RS232 interfaces by default. The COM1~COM5 9-pin D-sub connectors can be configured as either RS232 or RS485 communication interfaces through an internal convert board. If different configuration is required, please get in touch with Chipsee technical support at <a class="reference external" href="mailto:support%40chipsee.com"><strong>support<span>@</span>chipsee<span>.</span>com</strong></a></p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS86-BOX-J1900-PRO-COM.jpg"><img alt="com_img" class="align-middle" src="../../../../../_images/CS86-BOX-J1900-PRO-COM.jpg" style="width: 800px;"/></a></p>
+<p class="text-center"><em>COM Ports</em></p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="usb-host-connectors">
+<h3 id="usb-host-connectors">USB HOST Connectors<a class="headerlink" href="#usb-host-connectors" title="Permalink to this heading">¶</a></h3>
+<p>CS86-BOX-J1900 PRO is equipped with 1 x USB 3.0 HOST and 5 x USB 2.0 HOST ports.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS86-BOX-J1900-PRO-USB1.jpg"><img alt="usb_img_1" class="align-middle" src="../../../../../_images/CS86-BOX-J1900-PRO-USB1.jpg" style="width: 800px;"/></a></p>
+<p class="text-center"><em>USB 3.0 (Top) and USB 2.0 (Bottom)</em></p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS86-BOX-J1900-PRO-USB2.jpg"><img alt="usb_img_2" class="align-middle" src="../../../../../_images/CS86-BOX-J1900-PRO-USB2.jpg" style="width: 800px;"/></a></p>
+<p class="text-center"><em>USB 2.0 on the Other Side</em></p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="lan-connectors">
+<h3 id="lan-connectors">LAN Connectors<a class="headerlink" href="#lan-connectors" title="Permalink to this heading">¶</a></h3>
+<p>2 x <strong>LAN (RJ45) connectors</strong> provide Ethernet connectivity over standardized Ethernet cables. The integrated two-port Ethernet interface supports 10/100/1000BASE-T/TX specifications with automatic speed negotiation and Wake on LAN (WoL) functionality. Power over Ethernet (PoE) is not supported.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS86-BOX-J1900-PRO-LAN.jpg"><img alt="lan_img" class="align-middle" src="../../../../../_images/CS86-BOX-J1900-PRO-LAN.jpg" style="width: 640px;"/></a></p>
+<p class="text-center"><em>2 x RJ45 GbE LAN Connectors</em></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Use CAT5 or better cables to achieve full data throughput over maximum distance defined by the 1000BASE-T standard (100m).</p>
+</div>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="hdmi-connector">
+<h3 id="hdmi-connector">HDMI Connector<a class="headerlink" href="#hdmi-connector" title="Permalink to this heading">¶</a></h3>
+<p>Although not equipped with the screen on its own, the The CS86-BOX-J1900 PRO Industrial Box PC features 1 x <strong>HDMI</strong> port and 1 x <strong>VGA</strong> port.</p>
+<p>The HDMI out port, supports video output up to 2560x1600 60Hz; the VGA out port, supports up to 1920x1080 60Hz. These two video output ports support independent/identical display, which means you can display same video or different video on two external screens.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS86-BOX-J1900-PRO-HDMIVGA.jpg"><img alt="hdmi_vga_img" class="align-middle" src="../../../../../_images/CS86-BOX-J1900-PRO-HDMIVGA.jpg" style="width: 640px;"/></a></p>
+<p class="text-center"><em>HDMI(Left) and VGA(Right) Ports</em></p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="audio-in-out-connector">
+<h3 id="audio-in-out-connector">Audio In/Out Connector<a class="headerlink" href="#audio-in-out-connector" title="Permalink to this heading">¶</a></h3>
+<p>The CS86-BOX-J1900 PRO has one 3.5mm audio port, the Realtek ALC662 chip, supports dual channel, stereo and lineout.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS86-BOX-J1900-PRO-Audio.jpg"><img alt="audio_img" class="align-middle" src="../../../../../_images/CS86-BOX-J1900-PRO-Audio.jpg" style="width: 640px;"/></a></p>
+<p class="text-center"><em>Audio Port</em></p>
+</section>
+</section>
+<section id="mounting-procedure">
+<h2 id="mounting-procedure">Mounting Procedure<a class="headerlink" href="#mounting-procedure" title="Permalink to this heading">¶</a></h2>
+<p>The CS86-BOX-J1900 PRO Industrial Box PC supports VESA mounting pattern with M3 screws, enabling simplified installation onto any standard VESA mounting rack.</p>
+<p>The CS86-BOX-J1900 PRO Industrial Box PC also supports desktop mount.</p>
+<p>You can find detailed information about mounting in the <a class="reference internal" href="../../../../../TutorialGuide/mount_guide.html#mipcg"><span class="std std-ref">Mount IPC Guide</span></a>.</p>
+</section>
+<section id="mechanical-specifications">
+<h2 id="mechanical-specifications">Mechanical Specifications<a class="headerlink" href="#mechanical-specifications" title="Permalink to this heading">¶</a></h2>
+<p>The outer mechanical dimensions of The CS86-BOX-J1900 PRO Industrial Box PC are 235 * 137 * 51mm (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific product measurements.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS86-BOX-J1900-PRO-TD.jpg"><img alt="td_img" class="align-middle" src="../../../../../_images/CS86-BOX-J1900-PRO-TD.jpg" style="width: 1080px;"/></a></p>
+<p class="text-center"><em>CS86-BOX-J1900 PRO Technical Drawing</em></p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="disclaimer">
+<h2 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Permalink to this heading">¶</a></h2>
+<p><strong>This document is provided strictly for informational purposes. Its contents are subject to change without notice. Chipsee assumes no responsibility for any errors that may occur in this document. Furthermore, Chipsee reserves the right to alter the hardware, software, and/or specifications set forth herein at any time without prior notice and undertakes no obligation to update the information contained in this document.</strong></p>
+<p><strong>While every effort has been made to ensure the accuracy of the information contained herein, this document is not guaranteed to be error-free. Further, it does not offer any warranties or conditions, whether expressed orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular purpose. We specifically disclaim any liability with respect to this document, and no contractual obligations are formed either directly or indirectly by this document.</strong></p>
+<p><strong>Despite our best efforts to maintain the accuracy of the information in this document, we assume no responsibility for errors or omissions, nor for damages resulting from the use of the information herein. Please note that Chipsee products are not authorized for use as critical components in life support devices or systems.</strong></p>
+</section>
+<section id="technical-support">
+<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this heading">¶</a></h2>
+<p>If you encounter any difficulties or have questions related to this document, we encourage you to refer to our other documentation for potential solutions. If you cannot find the solution you’re looking for, feel free to contact us. Please email Chipsee Technical Support at <a class="reference external" href="mailto:support%40chipsee.com"><strong>support<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information. We value your queries and suggestions and are committed to providing you with the assistance you require.</p>
+</section>
+</section>
+
+
+          </article>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="md-footer">
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+          
+            <a href="CS86-BOX-J1900.html" title="CS86-BOX-J1900"
+               class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+               rel="prev">
+              <div class="md-flex__cell md-flex__cell--shrink">
+                <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+              </div>
+              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+                <span class="md-flex__ellipsis">
+                  <span
+                      class="md-footer-nav__direction"> Previous </span> CS86-BOX-J1900 </span>
+              </div>
+            </a>
+          
+          
+            <a href="../../../J6412/Manuals/Hardware/PPC-J6412-101-C.html" title="PPC-J6412-101-C"
+               class="md-flex md-footer-nav__link md-footer-nav__link--next"
+               rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span
+                class="md-flex__ellipsis"> <span
+                class="md-footer-nav__direction"> Next </span> PPC-J6412-101-C </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink"><i
+                class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          
+        </a>
+        
+      </nav>
+    </div>
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-footer-copyright">
+          <div class="md-footer-copyright__highlight">
+              &#169; Copyright 2024, Chipsee.
+              
+          </div>
+            Last updated on
+              Oct 16, 2024.
+            <br/>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script async src="../../../../../_static/js/material_custom.js"></script>
+
+    
+  <script src="../../../../../_static/javascripts/application.js"></script>
+  <script>app.initialize({version: "1.0.4", url: {base: ".."}})</script>
+  </body>
+</html>
