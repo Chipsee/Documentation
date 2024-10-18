@@ -14,7 +14,7 @@
 
 .. |cpu_spec| replace:: Dual(2) Core 4 Threads, 2.2GHz Base Frequency, 2.7GHz Turbo Frequency
 
-.. |os_support| replace:: Ubuntu, CentOS Linux, Windows 8/10 64bit
+.. |os_support| replace:: Ubuntu 22 and above, CentOS 9 Linux, Windows 8/10 64bit
 
 .. |lan_ic| replace:: Intel® i225
 
