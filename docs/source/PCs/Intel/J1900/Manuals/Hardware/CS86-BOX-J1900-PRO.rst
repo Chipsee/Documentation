@@ -14,7 +14,7 @@
 
 .. |lan_ic| replace:: Intel® i211
 
-.. |os_support| replace:: Ubuntu, CentOS Linux, Windows 7/8/10
+.. |os_support| replace:: Ubuntu 22 and above, CentOS 9 Linux, Windows 7/8/10
 
 .. _CS86-BOX-J1900-PRO:
 
@@ -67,5 +67,9 @@
 .. |td_img| image:: /Media/Intel/J1900/CS86-BOX-J1900-PRO/CS86-BOX-J1900-PRO-TD.jpg
                   :align: middle
                   :width: 1080
+
+.. |vesa_img| image:: /Media/Intel/J1900/CS86-BOX-J1900-PRO/CS86-BOX-J1900-PRO-VESA.jpg
+                  :align: middle
+                  :width: 720
 
 .. include:: Resources/J1900-PRO/shared

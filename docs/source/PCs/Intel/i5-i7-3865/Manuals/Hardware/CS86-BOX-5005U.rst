@@ -14,7 +14,7 @@
 
 .. |lan_ic| replace:: Intel® i211
 
-.. |os_support| replace:: Ubuntu, CentOS Linux, Windows 7/8/10
+.. |os_support| replace:: Ubuntu 22 and above, CentOS 9 Linux, Windows 7/8/10
 
 .. _CS86-BOX-5005U:
 
