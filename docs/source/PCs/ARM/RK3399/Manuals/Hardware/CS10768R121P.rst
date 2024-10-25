@@ -156,6 +156,14 @@
 
 .. include:: Resources/mechanical
 
+Please refer to the technical drawing in the figure below for details related to the specific product measurements.
+
+.. figure:: /Media/ARM/A72/CS10768R121P/CS10768R121P-TD.jpg
+   :align: center
+   :figclass: align-center
+
+   |productP| *Technical Drawing*
+
 :pagebreak:`True`
 
 .. include:: /PCs/Shared/support
