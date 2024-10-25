@@ -114,4 +114,14 @@
 
 :pagebreak:`True`
 
+Please refer to the technical drawing in the figure below for details related to the specific product measurements.
+
+.. figure:: /Media/ARM/A53/CS10768-IMX8MP-121P/CS10768-IMX8MP-121P-TD.jpg
+   :align: center
+   :figclass: align-center
+
+   |productP| *Technical Drawing*
+
+:pagebreak:`True`
+
 .. include:: /PCs/Shared/support
