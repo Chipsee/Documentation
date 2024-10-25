@@ -146,6 +146,14 @@
 
 .. include:: Resources/mechanical
 
+Please refer to the technical drawing in the figure below for details related to the specific product measurements.
+
+.. figure:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-TD.jpg
+   :align: center
+   :figclass: align-center
+
+   |productP| *Technical Drawing*
+
 :pagebreak:`True`
 
 .. include:: /PCs/Shared/support
