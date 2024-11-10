@@ -1,0 +1,25 @@
+Audio Connectors
+================
+
+|Product| features some audio peripherals. It has a **3.5mm audio input/output jack**, an **internal speaker**, as well as a small **buzzer**.
+
+.. rst-class:: text-center
+
+   |audio_img|
+
+   *Audio Connector*
+
+
+The miniature 2W embedded speaker is handy for audio reproduction, the small buzzer can play alarm/notification sounds.
+
+.. rst-class:: text-center
+
+   |buzzer_img|
+
+   *2W Micro Speaker and Buzzer*
+
+.. attention::
+
+    By plugging in the headphone cable, the internal speaker will be disabled automatically.
+   
+:pagebreak:`True`

@@ -1,0 +1,16 @@
+PROG Button
+===========
+
+|Product| has one button on the board marked as PROG, as shown in the figure below. It controls how the device will be booted.
+
+To boot from SD card, press and hold the PROG button, then connect the power supply, after a few seconds, you can see the system boot from SD card, then you may release the button.
+
+When the button is not pressed while powering up, the |product| will boot normally from eMMC.
+
+.. rst-class:: text-center
+
+    |PROG_btn_img|
+  
+    *PROG Button*
+
+:pagebreak:`True`

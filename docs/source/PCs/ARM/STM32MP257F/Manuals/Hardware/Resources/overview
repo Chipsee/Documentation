@@ -1,0 +1,26 @@
+Product Overview
+=================
+
+The |Cortex|-A35 series |product| (|PN|) is a high-quality industrial panel PC. It features a |disp_des|.
+
+.. sidebar:: Key Applications
+
+  + Human Machine Interface（HMI）
+  + Mobile Applications
+  + Video Processing
+  + Machine Learning
+  + Video Gaming
+  + Process Control
+  + Process Monitoring
+  + ATM...
+
+
+It is available as a device hosed in an aluminum casing with bezels.
+
+|Product| is based around the STM32MP257F System on Chip (SoC), powered by the STMicroelectronics low-power processor which integrates a dual(2)-core |Cortex|-A35 1.5GHz processor.
+
+The STM32MP257F supports multi-format video decoders and has a high-performance |RAM| RAM capable of sustaining demanding memory bandwidths. It also provides a complete set of peripheral interfaces.
+
+It also features a 1.35 Tops NPU for AI features.
+
+:pagebreak:`True`
