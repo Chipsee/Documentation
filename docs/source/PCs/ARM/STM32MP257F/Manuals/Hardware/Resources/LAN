@@ -1,0 +1,18 @@
+LAN Connectors
+---------------
+
+**LAN (RJ45) connector** provides Ethernet connectivity over standardized Ethernet cables as shown in the figure below. The integrated |LAN| interface supports up to 1 Gbps data throughput.
+
+|lan_poe|
+
+.. rst-class:: text-center
+
+    |LAN_img|
+
+    *RJ45 LAN Connector*
+
+.. note::
+
+   Use CAT5 or better cables to achieve full data throughput over maximum distance defined by the 1000BASE-T standard (100m).
+
+:pagebreak:`True`

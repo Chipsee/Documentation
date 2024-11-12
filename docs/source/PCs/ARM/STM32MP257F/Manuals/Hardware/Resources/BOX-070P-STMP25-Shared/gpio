@@ -1,0 +1,58 @@
+GPIO Port
+--------------
+
+|Product| features a **10-pin 3.81 mm terminal** that provides 8 x opto-isolated GPIO pins, of which 4 x are output, and 4 x are input pins. 
+The 10-pin terminal also includes an isolated PSU input in the range of 5 to 24 VDC. The exact pinout is given in follow table.
+
+The GPIO **HIGH** output level corresponds to the voltage connected at the isolated Power Input, while the GPIO **LOW** output level corresponds to the 
+isolated Ground Input. Each GPIO output can drive loads up to 500mA, enough to drive various applications directly, such as relays or solenoid valves.
+
+.. rst-class:: text-center
+
+   |gpio_img|
+
+   *GPIO*
+
+
+.. table:: GPIO Connector Pin-out
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +----------------+-----------------------------+------------+----------------+-----------+
+   | **Pin Number** | **Definition**              | GPIO       |  GPIOD Chip    |GPIOD Line |
+   +================+=============================+============+================+===========+
+   | Pin 1          | Isolated Power Input\ [#i]_ |            |                |           |
+   +----------------+-----------------------------+------------+----------------+-----------+
+   | Pin 2          | Isolated Ground Input       |            |                |           |
+   +----------------+-----------------------------+------------+----------------+-----------+
+   | Pin 3          | OUT1                        | PZ6        |  11            | 406       |
+   +----------------+-----------------------------+------------+----------------+-----------+
+   | Pin 4          | OUT2                        | PZ7        |  11            | 407       |
+   +----------------+-----------------------------+------------+----------------+-----------+
+   | Pin 5          | OUT3                        | PZ8        |  11            | 408       |
+   +----------------+-----------------------------+------------+----------------+-----------+
+   | Pin 6          | OUT4                        | PZ9        |  11            | 409       |
+   +----------------+-----------------------------+------------+----------------+-----------+
+   | Pin 7          | IN1                         | PZ5        |  11            | 405       |
+   +----------------+-----------------------------+------------+----------------+-----------+
+   | Pin 8          | IN2                         | PZ4        |  11            | 404       |
+   +----------------+-----------------------------+------------+----------------+-----------+
+   | Pin 9          | IN3                         | PZ3        |  11            | 403       |
+   +----------------+-----------------------------+------------+----------------+-----------+
+   | Pin 10         | IN4                         | PZ2        |  11            | 402       |
+   +----------------+-----------------------------+------------+----------------+-----------+
+
+-----
+
+.. [#i] | If the isolation is not a requirement, it is possible to use a non-isolated PSU instead. 
+
+.. include:: /PCs/Shared/Hardware/gpio_image
+
+.. attention::
+
+   + The GPIO has been Opt-Isolated and it uses the 24V Logic by default.
+   + The 4 output channels can drive at most 500mA current on each channel.
+
+:pagebreak:`True`
+

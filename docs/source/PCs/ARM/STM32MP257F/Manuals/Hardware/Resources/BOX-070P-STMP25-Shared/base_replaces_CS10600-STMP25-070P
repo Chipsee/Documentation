@@ -1,0 +1,39 @@
+.. |RAM| replace:: DDR4 4GB
+
+.. |eMMC| replace:: 16GB
+
+.. |USB| replace:: 2 x USB 2.0 HOST, 1 x USB Type-C
+
+.. |LAN| replace:: 2 x RJ45, GbE, including **1 x optional** Power over Ethernet (PoE) port
+
+.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
+
+.. |opt1| replace:: Supported, Optional
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
+.. |vin_rng| replace:: From 6V to 36V
+
+.. |rs232| replace:: default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port)
+
+.. |rs485| replace:: default 3 x RS485 at most
+
+.. |uart_at_most| replace:: 6 x UART terminals (RS232/RS485)
+
+.. |can_at_most| replace:: 2 x CAN
+
+.. |conn_terminal| replace:: **16-pin 3.81mm terminal**
+
+.. |UART_Note| replace:: This product has 6 x CPU UART, the default configuration is 2 x RS232 and 3 x RS485, include 1 x RS232 debug port. There is 1 x CAN that can be configured to RS232.
+
+.. |can| replace:: default 2 x CAN (1 x CAN can be configured to RS232 optionally)
+
+.. |poe| replace:: Supported, Optional
+
+.. |lan_poe| replace:: The LAN0 port supports **optional** Power over Ethernet (PoE) feature.
+
+.. |opt_feature_4g| replace:: Does not include the 4G/LTE module by default. The module is optional and can be selected at the Chipsee store during the ordering process.
+
+.. |mount_screws| replace:: **75 x 75** mm, 4 x **M4** (6mm) screws

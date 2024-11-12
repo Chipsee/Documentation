@@ -1,0 +1,21 @@
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial PC. It has |USB|; |LAN|; up to |uart_at_most|, up to |can_at_most|.
+
+RS232/RS485/CAN
+---------------
+
+The serial communication interfaces (RS485, RS232, and CAN) are routed to a |conn_terminal|, as illustrated on the figure below.
+
+.. rst-class:: text-center
+
+  |rs232_485_can_img|
+
+  *RS232, RS485 and CAN*
+
+|UART_Note|
+
+
+
+

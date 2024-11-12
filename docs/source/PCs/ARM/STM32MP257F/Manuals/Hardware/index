@@ -1,0 +1,36 @@
+STM32MP257F(STMP25) / A35
+#########################
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+7 Inch
+|PPC-A35-070|
+
+:ref:`PPC-A35-070<PPC-A35-070>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>
+
+.. |PPC-A35-070| image:: /Media/ARM/A35/CS10600-STMP25-070P/CS10600-STMP25-070P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/STM32MP257F/Manuals/Hardware/CS10600-STMP25-070P.html
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   PPC-A35-070 </PCs/ARM/STM32MP257F/Manuals/Hardware/CS10600-STMP25-070P>
