@@ -563,6 +563,21 @@
         "PCs/ARM/RK3588/OS_Downloads/index": {
             "pdf-build": "False"
         },
+        "PCs/ARM/STM32MP257F/Manuals/Hardware/CS10600-STMP25-070P": {
+            "pdf-title": "PPC-A35-070",
+            "pdf-subtitle": "PN: CS10600-STMP25-070P",
+            "pdf-filename": "PPC-A35-070",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/STM32MP257F/Manuals/Software/Yocto_Linux": {
+            "pdf-title": "Yocto Linux OS on STM32MP257F User Manual",
+            "pdf-subtitle": "For STM32MP257F Products",
+            "pdf-filename": "Yocto Linux OS on STM32MP257F User Manual",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/STM32MP257F/OS_Downloads/index": {
+            "pdf-build": "False"
+        },
         "PCs/ARM/iMX6Q/Manuals/Hardware/CS10600F070": {
             "pdf-title": "EPC/PPC-A9-070-C",
             "pdf-subtitle": "PN: CS10600F070",
@@ -820,6 +835,10 @@
             "orphan": ""
         },
         "PCs/ARM/index-rockchip": {
+            "pdf-build": "False",
+            "orphan": ""
+        },
+        "PCs/ARM/index-stm": {
             "pdf-build": "False",
             "orphan": ""
         },
