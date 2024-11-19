@@ -39,15 +39,27 @@
               <li><a class="dropdown-item" href="{{ pathto('PCs/Intel/index.html', 1) }}">Powered by INTEL</a></li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ pathto('PCs/Pi/index.html', 1) }}{% if current_page_name != 'PCs/Pi/index' %}#kiosks{% endif %}{% if current_page_name == 'PCs/Pi/index' %}kiosks{% endif %}">Kiosks</a>
-
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ pathto('PCs/MTK/index.html', 1) }}">Handhelds</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ pathto('Displays/index.html', 1) }}">Displays</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Machines
+            </a>
+            <ul class="dropdown-menu" id="nav-dropdown-secondary">
+              <li>
+                <a class="dropdown-item" href="{{ pathto('PCs/Pi/index.html', 1) }}{% if current_page_name != 'PCs/Pi/index' %}#kiosks{% endif %}{% if current_page_name == 'PCs/Pi/index' %}kiosks{% endif %}">Kiosks</a>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="{{ pathto('PCs/MTK/index-ptv.html', 1) }}">Portable TV</a>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="{{ pathto('PCs/MTK/index.html', 1) }}">Handhelds</a>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="{{ pathto('Displays/index.html', 1) }}">Displays</a>
+              </li>
+            </ul>
           </li>
           <li class="nav-item text-nowrap">
             <a class="nav-link" href="https://chipsee.com" target="_blank">Shop

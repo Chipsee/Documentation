@@ -1,0 +1,223 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: PTV-MT8788-215
+
+.. |PN| replace:: PN: |product|
+
+.. _product_link: https://chipsee.com/product/ptv-mt8788-215/
+
+.. |product_link| replace:: |product|
+
+.. |tscreen| replace:: 10 Point Capacitive Touch Screen
+
+.. |dimension| replace:: 525.9 * 293.8 * 15
+
+.. |weight| replace:: 15.7kg
+
+.. |accessories| replace:: Charger x 1, Screwdriver x 1, Screws x 1 set, User Manual x 1 
+
+.. |battery_life| replace:: 2H (6Ah battery) 
+
+.. |full_charge_time| replace:: 3H (6Ah battery)
+
+.. |battery_capacity| replace:: 6Ah
+
+.. |external_buttons| replace:: Power, Volume +, Volume -
+
+.. |tilt_angle| replace:: U15° / W10°
+
+.. |screen_rotation_angle| replace:: L90° / R90° 
+
+.. |resolution| replace:: 1920 x 1080
+
+.. |refresh_rate| replace:: 60Hz
+
+.. |brightness| replace:: 250 cd/m2
+
+.. |contrast_ratio| replace:: 1500:1(Typ.), transmission
+
+.. |response_time| replace:: 6ms
+
+.. |colors| replace:: 16.7 million colors
+
+.. |viewing_angle| replace:: 178°/178°
+
+.. |screen_lifespan| replace:: 50,000 hours
+
+.. |display_area| replace:: 478.5 x 260.2 mm
+
+.. |display| replace:: |resolution| |refresh_rate|, |colors|
+
+.. |height| replace:: horizontal: 1140.5 mm, vertical: 1252.5 mm 
+
+.. |base_size| replace:: d400 x 40 mm 
+
+.. |bezel| replace:: 23.7 / 23.7 / 16.8 / 16.8 mm 
+
+.. |additional_feature| replace:: Gyroscope and gravity sensor, Google apps, wired screen mirroring input 
+
+.. |mic_and_cam| replace:: (Optional) 5MP HD wide-angle camera, Dual digital microphones 
+
+.. |bluetooth| replace:: Bluetooth 4.2
+
+.. |storage| replace:: 64GB uFS2.1 
+
+.. |gpu| replace:: ARM Mali-G72 MP3 700MHz 
+
+.. |mounting_method| replace:: Stand-mounted, portable 
+
+.. |os| replace:: Android 12 
+
+.. |power_input| replace:: DC 12.6V (6Ah battery) 
+
+.. |temperature| replace:: From ?°C to +?°C 
+
+.. |hdmi| replace:: 1 x HDMI input 
+
+.. |wifi| replace:: Wi-Fi 802.11ac/b/g/n, 2.4GHz/5.8GHz
+
+.. |audio| replace:: TRS audio jack; 4 ohms, 5W x 2 internal speakers
+
+.. |usb| replace:: 1 x USB-C, 1 x USB-A(2.0)
+
+.. |touch_screen| replace:: 10-point G+G capacitive touch with full-screen bonding technology, 5ms response time
+
+.. |ram| replace:: 4 GB LPDDR4x
+
+.. |cpu| replace:: MTK8788 Octa(8)-core Cortex-A73 + Cortex-A53
+
+.. |gross_weight| replace:: 20kg
+
+.. |Cover PNG| image:: /Media/MTK/MT8788/215/PTV-MT8788-215-Front.png
+
+.. |Front View| image:: /Media/MTK/MT8788/215/PTV-MT8788-215-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/MTK/MT8788/215/PTV-MT8788-215-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/MTK/MT8788/215/PTV-MT8788-215-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/MTK/MT8788/215/PTV-MT8788-215-Side2.jpg
+                  :class: product-img 
+                  
+.. |product_img1| image:: /Media/MTK/MT8788/215/PTV-MT8788-215-Product_1.jpg
+                  :align: middle
+                  :width: 1440
+
+.. |product_img2| image:: /Media/MTK/MT8788/215/PTV-MT8788-215-Product_2.jpg
+                  :align: middle
+                  :width: 1440
+
+.. _PTV-MT8788-215:
+
+
+Portable Battery Powered Tablet TV
+##################################
+
+.. include:: /PCs/Shared/four_main_images
+
+Overview
+========
+
+.. rst-class:: text-center
+
+    |product_img1|
+
+This product is a portable TV with built in large capacity battery, it has 21.5 inch 10-point capacitive touch screen, running at 1920 x 1080 60Hz.
+
+The product supports 2.4G and 5G WiFi, Bluetooth. It runs Android 12 with an 8 core CPU, it has 4GB RAM and 64GB internal storage.
+
+.. rst-class:: text-center
+
+    |product_img2|
+
+Hardware Specification
+======================
+
+.. table:: Key Features
+   :align: center
+   :width: 100%
+   :widths: auto
+   
+   +------------------------+--------------------------------+
+   | **Product**            | Portable Android TV            | 
+   +========================+================================+
+   | **CPU**                | |cpu|                          |
+   +------------------------+--------------------------------+
+   | **Storage**            | |storage|                      |
+   +------------------------+--------------------------------+
+   | **RAM**                | |ram|                          |
+   +------------------------+--------------------------------+
+   | **Operating Syetem**   | |os|                           |
+   +------------------------+--------------------------------+
+   | **WiFi**               | |wifi|                         |
+   +------------------------+--------------------------------+
+   | **Bluetooth**          | |bluetooth|                    |
+   +------------------------+--------------------------------+
+   | **Display**            | |display|                      |
+   +------------------------+--------------------------------+
+   | **Touch Screen**       | |tscreen|                      |
+   +------------------------+--------------------------------+
+   | **Dimensions(screen)** | |dimension| mm                 |
+   +------------------------+--------------------------------+
+   | **Weight**             | |weight|                       |
+   +------------------------+--------------------------------+
+   | **Height**             | |height|                       |
+   +------------------------+--------------------------------+
+   | **Base Size**          | |base_size|                    |
+   +------------------------+--------------------------------+
+   | **Tilt**               | |tilt_angle|                   |
+   +------------------------+--------------------------------+
+   | **Rotate**             | |screen_rotation_angle|        |
+   +------------------------+--------------------------------+
+   | **Battery Life**       | |battery_life|                 |
+   +------------------------+--------------------------------+
+   | **Battery Capacity**   | |battery_capacity|             |
+   +------------------------+--------------------------------+
+   | **Full Charge Time**   | |full_charge_time|             |
+   +------------------------+--------------------------------+
+   | **Additional Feature** | |additional_feature|           |
+   +------------------------+--------------------------------+
+   | **GPU**                | |gpu|                          |
+   +------------------------+--------------------------------+
+   | **Buttons**            | |external_buttons|             |
+   +------------------------+--------------------------------+
+   | **Bezel**              | |bezel|                        |
+   +------------------------+--------------------------------+
+   | **HDMI**               | |hdmi|                         |
+   +------------------------+--------------------------------+
+   | **USB**                | |usb|                          |
+   +------------------------+--------------------------------+
+   | **Audio**              | |audio|                        |
+   +------------------------+--------------------------------+
+   | **Accessories**        | |accessories|                  |
+   +------------------------+--------------------------------+
+   | **Mic / Camera**       | |mic_and_cam|                  |
+   +------------------------+--------------------------------+
+   | **Gross Weight**       | |gross_weight|                 |
+   +------------------------+--------------------------------+
+   | **Mounting**           | |mounting_method|              |
+   +------------------------+--------------------------------+
+
+:pagebreak:`True`
+
+Charging
+========
+
+The product can be charged through a 12.6V DC charger, please use the charger shipped with the product to charge this product.
+
+Buttons
+=======
+
+The buttons on the product are: power on/off, volume, volume-.
+
+Dimension
+=========
+
+The dimension of |product| (screen) is |dimension| mm, with the base stand, the height is |height|.
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support
