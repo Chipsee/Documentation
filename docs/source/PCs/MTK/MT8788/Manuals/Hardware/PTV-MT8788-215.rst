@@ -105,10 +105,23 @@
 .. |product_img1| image:: /Media/MTK/MT8788/215/PTV-MT8788-215-Product_1.jpg
                   :align: middle
                   :width: 1440
+                  :class: rounded rounded-2
+
 
 .. |product_img2| image:: /Media/MTK/MT8788/215/PTV-MT8788-215-Product_2.jpg
                   :align: middle
                   :width: 1440
+                  :class: rounded rounded-2
+
+.. |product_img3| image:: /Media/MTK/MT8788/215/PTV-MT8788-215-Product_3.jpg
+                  :align: middle
+                  :width: 1440
+                  :class: rounded rounded-2
+
+.. |product_img4| image:: /Media/MTK/MT8788/215/PTV-MT8788-215-Product_4.jpg
+                  :align: middle
+                  :width: 1440
+                  :class: rounded rounded-2
 
 .. _PTV-MT8788-215:
 
@@ -121,17 +134,197 @@ Portable Battery Powered Tablet TV
 Overview
 ========
 
-.. rst-class:: text-center
+.. raw:: html
 
-    |product_img1|
-
-This product is a portable TV with built in large capacity battery, it has 21.5 inch 10-point capacitive touch screen, running at 1920 x 1080 60Hz.
-
-The product supports 2.4G and 5G WiFi, Bluetooth. It runs Android 12 with an 8 core CPU, it has 4GB RAM and 64GB internal storage.
+  <div class="card">
+    <div class="card-header fw-bold display-6">Screen</div>
+    <div class="card-body">
+      <p class="card-text">
+        <div class="container fw-bold">
+          <div class="row text-center fs-5">
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+              21.5 inch
+            </div>
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+              10 point<br> multi-touch
+            </div>
+          </div>
+          <div class="row text-center fs-5">
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+              16.7M Colors
+            </div>
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+              Mali-G72
+            </div>
+          </div>
+          <div class="row text-center fs-5">
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+              1920 x 1080 FHD
+            </div>
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+              60Hz
+            </div>
+          </div>
+        </div>
+      </p>
+    </div>
+    <div class="card-footer text-body-secondary">
+      <span class="fw-bold">High-Quality Streaming: <br></span>
+      The FHD resolution, vivid color range, and 60Hz refresh rate make it perfect for watching movies, TV shows, or streaming platforms like Netflix, YouTube, or Disney+. (Services are not included in the product, they need to be purchased on their platforms independently)
+      <br>
+      <span class="fw-bold">Dance or Yoga Companion: <br></span>
+      Set it up for dance workouts or yoga poses, with the 60Hz refresh rate ensuring smooth transitions in videos.
+    </div>
+  </div>
 
 .. rst-class:: text-center
 
     |product_img2|
+
+.. raw:: html
+
+  <div class="card mt-3">
+    <div class="card-header fw-bold display-6">Wireless</div>
+    <div class="card-body">
+      <p class="card-text">
+        <div class="container fw-bold">
+          <div class="row text-center fs-5">
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger">
+              2.4+5G WiFi
+            </div>
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+              Bluetooth 4.2
+            </div>
+          </div>
+          <div class="row text-center fs-5">
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger">
+              6Ah Large Battery
+            </div>
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+              2H Battery Life
+            </div>
+          </div>
+          <div class="row text-center fs-5">
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger">
+              Scrollable Wheels
+            </div>
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+              Easy to Go
+            </div>
+          </div>
+        </div>
+      </p>
+    </div>
+    <div class="card-footer text-body-secondary">
+      <span class="fw-bold">Bluetooth Sound Integration: <br></span>
+      Pair it with Bluetooth speakers or headphones for immersive sound quality while watching movies, playing games, or listening to music.
+      <br>
+      <span class="fw-bold">Short-Term Outdoor Use: <br></span>
+      The 2-hour battery life is ideal for tasks like following a workout video in the garden, streaming a game on the patio, or setting up a temporary outdoor movie night.
+    </div>
+  </div>
+
+
+
+.. rst-class:: text-center
+
+    |product_img1|
+
+.. raw:: html
+
+  <div class="card mt-3">
+    <div class="card-header fw-bold display-6">Performant</div>
+    <div class="card-body">
+      <p class="card-text">
+        <div class="container fw-bold">
+          <div class="row text-center fs-5">
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+              MediaTek MT8788 <div class="text-warning fw-bolder">8-Core</div> CPU
+            </div>
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+              <span class="fs-2 text-warning me-1">4</span>GB<br>RAM
+            </div>
+          </div>
+          <div class="row text-center fs-5">
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+              <span class="fs-2 text-warning me-1">64</span>GB<br>Internal Storage
+            </div>
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+              <span class="fs-2 text-warning me-1">15°/10°</span>Tilt<br>Up and Down
+            </div>
+          </div>
+          <div class="row text-center fs-5">
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+              <span class="fs-2 text-warning me-1">90°/90°</span><br>Rotate<br>Left and Right
+            </div>
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+              Android 12
+            </div>
+          </div>
+        </div>
+      </p>
+    </div>
+    <div class="card-footer text-body-secondary">
+      <span class="fw-bold">Portable Entertainment Center: <br></span>
+      Use it for streaming movies, playing music, or video gaming while moving it easily from room to room. Ideal for family movie nights or personal relaxation.
+      <br>
+      <span class="fw-bold">Smart Home Hub: <br></span>
+      Integrate it with smart home devices to control lighting, thermostats, and security cameras. Its mobility allows for convenient access anywhere in the house.
+    </div>
+  </div>
+
+
+.. rst-class:: text-center
+
+    |product_img3|
+
+.. raw:: html
+
+  <div class="card mt-3">
+    <div class="card-header fw-bold display-6">Always with Me</div>
+    <div class="card-body">
+      <p class="card-text">
+        <div class="container fw-bold">
+          <div class="row text-center fs-5">
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+              Media Streaming
+            </div>
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+              Chatting
+            </div>
+          </div>
+          <div class="row text-center fs-5">
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+              Fitness
+            </div>
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+              Cooking
+            </div>
+          </div>
+          <div class="row text-center fs-5">
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+              Gaming
+            </div>
+            <div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+              Studying
+            </div>
+          </div>
+        </div>
+      </p>
+    </div>
+    <div class="card-footer text-body-secondary">
+      <span class="fw-bold">Digital Cookbook on Wheels: <br></span>
+      Place it in the kitchen for displaying recipes, cooking tutorials, or timer apps, and roll it aside to keep the counter clear.
+      <br>
+      <span class="fw-bold">Fitness Companion: <br></span>
+      Use it as a fitness guide with workout videos or virtual trainers. Its mobility lets you move it to any workout area in your home.
+    </div>
+  </div>
+
+
+.. rst-class:: text-center
+
+    |product_img4|
 
 Hardware Specification
 ======================
