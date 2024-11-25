@@ -1,0 +1,30 @@
+USB Connectors
+--------------
+
+There are |USB| onboard, as shown in the figure below.
+
+.. rst-class:: text-center
+
+    |usb_a_img|
+
+    *USB HOST Connectors*
+
+.. attention::
+
+    |USB_attention|
+
+The product has one USB Type-C OTG connector that works as a slave by default. You can use it to establish a connection with the host PC and for downloading the system to the eMMC of CM5 module.
+
+.. rst-class:: text-center
+
+    |usb_c_img|
+
+    *USB Type-C OTG Connector*
+
+.. warning::
+
+  #) Be careful not to touch surrounding electronic components accidentally while plugging in USB devices into the embedded Industrial PC version.
+  #) Remember to unplug the Type-C cable after flashing OS, otherwise the USB hosts won't work.
+
+
+:pagebreak:`True`

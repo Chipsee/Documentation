@@ -1,0 +1,35 @@
+CM5
+###
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+5 Inch
+|PPC-CM5-050|
+
+:ref:`PPC-CM5-050<PPC-CM5-050>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+   </div>
+
+.. |PPC-CM5-050| image:: /Media/Pi/A76/CS12720RA5050/CS12720RA5050-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/Pi/A76/Manuals/Hardware/CS12720RA5050.html
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   PPC-CM5-050 </PCs/Pi/A76/Manuals/Hardware/CS12720RA5050>
