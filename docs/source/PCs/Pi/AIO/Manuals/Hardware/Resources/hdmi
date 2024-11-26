@@ -1,0 +1,10 @@
+HDMI
+----
+
+The CM4 supports dual HDMI 2.0 connectors. The product uses the master HDMI for the LCD so, customers can use the slave HDMI port, as the figure below shows.
+
+.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-HDMI.jpeg
+  :align: center
+  :figclass: align-center
+
+  *HDMI Connector (slave)*

@@ -96,261 +96,29 @@
 
 .. include:: Resources/table
 
-Power Input
-===========
+.. include:: Resources/power
 
-|Product| can be powered by an input voltage: |vin_rng| DC.
-The total power consumption is typically about 8.4W. The power input connector is a 2.1mm I.D x 5.5mm O.D x 9.5mm DC connector. For a proper DC power adapter, refer to the figure below.
+.. include:: Resources/btn_boot
 
-.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-Power.jpeg
-  :align: center
-  :figclass: align-center
+.. include:: Resources/connectivity
 
-  *Power Adapter*
+.. include:: Resources/usb
 
-:pagebreak:`True`
+.. include:: Resources/lan
 
-Buttons and Status LED
-======================
+.. include:: Resources/tf
 
-Status LED
-----------
+.. include:: Resources/audio
 
-This product has a status LED on the front panel. The LED turns RED after power on and GREEN when the system is booted. It can be controlled by software to flash YELLOW when the CPU is working.
+.. include:: Resources/hdmi
 
-.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-LED.jpeg
-  :align: center
-  :figclass: align-center
+.. include:: Resources/camera
 
-  *Status LED*
+.. include:: Resources/pi_hat
 
-:pagebreak:`True`
+.. include:: Resources/mounting
 
-Buttons
--------
-
-There are five (5) buttons on the front panel: Brightness +, Brightness -, Volume +, Volume -, and Power, as the figure below shows.
-
-.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-Buttons.jpeg
-  :align: center
-  :figclass: align-center
-
-  *Buttons*
-
-|Product| supports two (2) boot modes, the auto-boot and manual boot modes. The default boot mode is the auto-boot mode. You can change the boot mode by using Software or by pushing **Volume +** and **Volume -** buttons at the same time before power on and releasing it 3 seconds after power on to toggle, as the table below shows.
-
-.. table:: Boot mode
-   :align: center
-   :width: 100%
-   :widths: auto
-   :class: align-center
-
-   +--------------------------+----------------------------------------------------------------------------------------------+----------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-   | Boot mode                | Behaviors                                                                                    | Default Configuration| How to toggle                                                                                                                           |
-   +==========================+==============================================================================================+======================+=========================================================================================================================================+
-   | Auto                     | Auto boot after power on                                                                     | √                    | Software control or Push Volume+ and Volume- buttons at the same time before power on, and release it 3 seconds after power on.         |
-   +--------------------------+----------------------------------------------------------------------------------------------+----------------------+                                                                                                                                         |
-   | Manual                   | Boot after pushing the Power button and releasing it 3 seconds after power on                |                      |                                                                                                                                         |
-   +--------------------------+----------------------------------------------------------------------------------------------+----------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-
-* |Product| boots from the internal eMMC by default. If you want it to boot from the Type-C connector, press and hold the Volume + button before power ON, and release it 3 seconds after power ON.
-* You can use Brightness + / Brightness - buttons to control the backlight of the LCD.
-* You can also use Volume + / Volume - buttons to control the System Volume.
-
-For a detailed explanation of button functions, check the table below.
-
-.. table:: Boot mode
-   :align: center
-   :width: 100%
-   :widths: auto
-   :class: align-center
-
-   +--------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-   | Buttons                  | Functions before the system boot                                                                                    | Functions after the system boot                                                                                                         |
-   +==========================+=====================================================================================================================+=========================================================================================================================================+
-   | Power                    | Push after power on and release after 3 seconds will boot the system                                                | Push after the system booted and release after 3 seconds will close the system.                                                         |
-   +--------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-   | Brightness +             | NULL                                                                                                                | Increase the brightness of LCD                                                                                                          |
-   +--------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-   | Brightness -             | NULL                                                                                                                | Reduce the brightness of LCD                                                                                                            |
-   +--------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-   | Volume +                 | Push before power on and release it after 3 seconds, the system will boot from the Type-C port                      | Increase the volume of the system                                                                                                       |
-   +--------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-   | Volume -                 | NULL                                                                                                                | Reduce the volume of the system                                                                                                         |
-   +--------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-   | Volume + and Volume -    | Toggle the boot mode                                                                                                | NULL                                                                                                                                    |
-   +--------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-
-:pagebreak:`True`
-
-Connectivity
-============
-
-There are many connectivity options available on the |product| industrial Pi PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to
-1 Gbps, and RS232+RS485+Relay connector.
-
-USB HOST and Type C
--------------------
-
-There are 2 x 3.0 **USB HOST connectors** and 1 x **Type-C Connector** onboard, as shown on the figures below.
-
-.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-USB-TypeC.jpeg
-  :align: center
-  :figclass: align-center
-
-  *USB3.0 HOST and Type-C Connectors*
-
-.. note::
-
-    * External USB peripherals like a USB disk or USB mouse or keyboard can connect to the USB3.0 HOST.
-    * You can download software to the Raspberry Pi CM4 eMMC using the Type-C.
-    * When you connect the Type-C to a device, it will disable the USB HOST.
-
-:pagebreak:`True`
-
-LAN Connectors
----------------
-
-**LAN (RJ45) connector** provides Ethernet connectivity over standardized Ethernet cables as shown the figure below. The integrated Ethernet interface supports
-up to 1 Gbps data throughput. These Giga LAN signals come from the CM4 module directly.
-
-.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-LAN.jpeg
-  :align: center
-  :figclass: align-center
-
-  *RJ45 LAN Connectors*
-
-.. note::
-
-   Use CAT5 or better cables to achieve full data throughput over maximum distance defined by the 1000BASE-T standard (100m).
-
-:pagebreak:`True`
-
-TF Card Slot
-------------
-
-|Product| features 1 x **TF Card (micro SD) slot** that can only be used with CM4 Lite modules, as shown on the figure below.
-
-.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-TF-Card.jpeg
-  :align: center
-  :figclass: align-center
-
-  *TF Card Slot*
-
-.. note::
-
-  #) The product does not come shipped with the TF Card by default.
-
-Audio Out Connector
--------------------
-
-The product features audio Out connector as shown on the figure below.
-
-.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-Audio.jpeg
-  :align: center
-  :figclass: align-center
-
-  *Audio Out Connector*
-
-HDMI
-----
-
-The CM4 supports dual HDMI 2.0 connectors. The product uses the master HDMI for the LCD so, customers can use the slave HDMI port, as the figure below shows.
-
-.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-HDMI.jpeg
-  :align: center
-  :figclass: align-center
-
-  *HDMI Connector (slave)*
-
-Camera
-------
-
-|Product| has a camera on the front panel but is not mounted by default.
-
-:pagebreak:`True`
-
-40-Pin Expansion Connector
---------------------------
-
-|Product| has a standard Raspberry Pi 40 way HAT connector, as the figure below shows. You also can check `Pinout <https://pinout.xyz>`_ for more details.
-
-.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-Expansion_IO.jpeg
-   :align: center
-   :figclass: align-center
-
-.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-Expansion_IO_2.jpeg
-   :align: center
-   :figclass: align-center
-
-   *40-pin Expansion Connector*
-
-:pagebreak:`True`
-
-Raspberry Pi Hat adapter
-------------------------
-
-The product also has an available I/O connector that is 100% compatible with any Raspberry Pi cape or extensions, making the AIO-CM4-156 a perfect fit with your existing tools. |br| |br|
-The product also comes with an adapter with a standard Raspberry Pi HAT pin-out to add more flexibility to your project. It offers a convenient way to develop and test your hardware with all the connectors at hand. You can learn more about it in the product manual.
-
-.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-PiHat.jpeg
-   :align: center
-   :figclass: align-center
-
-   *Raspberry Pi Hat adapter*
-
-:pagebreak:`True`
-
-Mounting Procedure
-==================
-
-You can mount |product| with the Vesa (75 x 75mm) and Stand mounting methods, as shown in the figures below.
-
-.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-VMount.jpeg
-  :align: center
-  :figclass: align-center
-
-  *VESA mounting*
-
-.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-SMount.jpeg
-  :align: center
-  :figclass: align-center
-
-  *Stand mounting*
-
-.. attention::
-
-    Please make sure the display is not exposed to high pressure when mounting into an enclosure.
-
-You can find detailed information about mounting in the |mguide|.
-
-:pagebreak:`True`
-
-Mechanical Specifications
-=========================
-
-The outer mechanical dimensions of |product| are |dim| (W x L x H). Please refer to the technical drawing in the figures below for details related to the specific
-product measurements.
-
-.. figure:: /Media/Pi/AIO/CS19108RA4156A/CS19108RA4156A-TD-Front.jpeg
-   :align: center
-   :figclass: align-center
-
-   *Front Panel Dimension Technical Drawing*
-
-.. figure:: /Media/Pi/AIO/CS19108RA4156A/CS19108RA4156A-TD-Back.jpeg
-   :align: center
-   :figclass: align-center
-
-   *Backside Dimension Technical Drawing*
-
-.. figure:: /Media/Pi/AIO/CS19108RA4156A/CS19108RA4156A-TD-Side.jpeg
-   :align: center
-   :figclass: align-center
-
-   *Side Dimension Technical Drawing*
-
-:pagebreak:`True`
+.. include:: Resources/mechanical
 
 .. include:: /PCs/Shared/Hardware/three_d
 

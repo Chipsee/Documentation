@@ -1,0 +1,30 @@
+40-Pin Expansion Connector
+--------------------------
+
+|Product| has a standard Raspberry Pi 40 way HAT connector, as the figure below shows. You also can check `Pinout <https://pinout.xyz>`_ for more details.
+
+.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-Expansion_IO.jpeg
+   :align: center
+   :figclass: align-center
+
+.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-Expansion_IO_2.jpeg
+   :align: center
+   :figclass: align-center
+
+   *40-pin Expansion Connector*
+
+:pagebreak:`True`
+
+Raspberry Pi Hat adapter
+------------------------
+
+The product also has an available I/O connector that is 100% compatible with any Raspberry Pi cape or extensions, making the AIO-CM4-156 a perfect fit with your existing tools. |br| |br|
+The product also comes with an adapter with a standard Raspberry Pi HAT pin-out to add more flexibility to your project. It offers a convenient way to develop and test your hardware with all the connectors at hand. You can learn more about it in the product manual.
+
+.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-PiHat.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Raspberry Pi Hat adapter*
+
+:pagebreak:`True`
