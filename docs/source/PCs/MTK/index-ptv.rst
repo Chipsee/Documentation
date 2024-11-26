@@ -1,7 +1,7 @@
 :pdf-build: False
 
-Portable Android TV
-###################
+Portable Multifunctional Entertainment Touchscreen
+##################################################
 
 .. raw:: html
 
