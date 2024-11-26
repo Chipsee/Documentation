@@ -1,0 +1,16 @@
+Power Input
+===========
+
+|Product| can be powered by an input voltage of |vin_rng| DC.
+
+The total power consumption is typically about 10W, depending on the load and brightness. 
+
+The power input connector is a 2.1mm I.D x 5.5mm O.D x 9.5mm DC connector. For a proper DC power adapter, refer to the figure below.
+
+.. rst-class:: text-center
+
+  |power_conn_img|
+  
+  *Power Adapter*
+
+:pagebreak:`True`

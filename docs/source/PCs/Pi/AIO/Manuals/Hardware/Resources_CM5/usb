@@ -1,0 +1,18 @@
+USB HOST and Type C
+-------------------
+
+There are 2 x 3.0 **USB HOST connectors** and 1 x **Type-C Connector** onboard, as shown on the figures below.
+
+.. rst-class:: text-center
+
+  |usb_img|
+  
+  *USB3.0 HOST and Type-C Connectors*
+
+.. note::
+
+    * External USB peripherals like a USB disk or USB mouse or keyboard can connect to the USB3.0 HOST.
+    * You can download software to the Raspberry Pi CM5 eMMC using the Type-C.
+    * When you connect the Type-C to a device, it will disable the USB HOST.
+
+:pagebreak:`True`

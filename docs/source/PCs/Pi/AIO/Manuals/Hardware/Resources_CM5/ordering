@@ -1,0 +1,27 @@
+Ordering Options
+=================
+
+Chipsee products can be customized during the ordering process. The product will be shipped with the pre-installed factory defaults if no extra requirements are specified. The table in the `Hardware Features`_ section provides information about the default options bundled with the product.
+
+.. note::
+  
+  You can order |product_link|_ from the official |cstore|_ or from your nearest distributor.
+
+|Pi| CM5 Module
+---------------
+The |Pi| Compute Module 5 appears in different versions (different RAM size: 1/2/4/8/16GB LPDDR4 and different eMMC size: 0/8/16/32/64/128 GB).
+
+|Product| does not include the CM5 Raspberry |Pi| module by default. 
+
+If you would like to purchase it with a CM5, you can select it at the Chipsee store during the ordering process.
+
+You can also BYO(bring your own) CM5 and install it on the product by yourself.
+
+Operating System
+----------------
+
+This product comes with a pre-installed Raspberry Pi OS. Chipsee software engineers have created all the drivers, so every hardware feature is readily available for any standard development tool.
+
+If your project requires a different OS, please |contact|_, and we’ll make a |custom_order|_ that suits your needs.
+
+:pagebreak:`True`

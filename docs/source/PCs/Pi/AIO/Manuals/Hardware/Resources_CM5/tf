@@ -1,0 +1,16 @@
+TF Card Slot
+------------
+
+|Product| features 1 x **TF Card (micro SD) slot** that can only be used with CM5 Lite modules, as shown in the image below (note the direction of the TF card).
+
+.. rst-class:: text-center
+
+  |tf_img|
+
+  *TF Card Slot*
+
+.. warning::
+
+  The TF card is **only** for booting operating system for the CM5 Lite. The TF card **cannot** be used for expanding storage for CM5.
+
+  The product does not come shipped with the TF Card by default.

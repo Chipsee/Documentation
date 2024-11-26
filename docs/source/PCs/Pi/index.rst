@@ -7,6 +7,8 @@ Industrial PCs Powered by Raspberry Pi
 
 .. include:: /PCs/Pi/A76/Manuals/Hardware/index
 
+.. include:: /PCs/Pi/AIO/Manuals/Hardware/index_cm5
+
 .. include:: /PCs/Pi/A72/Manuals/Hardware/index
 
 .. include:: /PCs/Pi/AIO/Manuals/Hardware/index
