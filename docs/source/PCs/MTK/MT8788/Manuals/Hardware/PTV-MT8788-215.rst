@@ -1,6 +1,8 @@
-.. include:: /PCs/Shared/pdf_options
+:pdf-build: False
 
 .. |product| replace:: PTV-MT8788-215
+
+.. |p_title| replace:: Portable Multifunctional Entertainment Touchscreen
 
 .. |PN| replace:: PN: |product|
 
@@ -68,7 +70,7 @@
 
 .. |os| replace:: Android 12 
 
-.. |power_input| replace:: DC 12.6V (6Ah battery) 
+.. |power_input| replace:: DC 12V (6Ah battery) 
 
 .. |temperature| replace:: From ?°C to +?°C 
 
@@ -126,8 +128,8 @@
 .. _PTV-MT8788-215:
 
 
-Portable Multifunctional Entertainment Touchscreen
-##################################################
+|p_title|
+#########
 
 .. include:: /PCs/Shared/four_main_images
 
@@ -181,6 +183,8 @@ Overview
 
     |product_img2|
 
+:pagebreak:`True`
+
 .. raw:: html
 
   <div class="card mt-3">
@@ -230,6 +234,8 @@ Overview
 
     |product_img1|
 
+:pagebreak:`True`
+
 .. raw:: html
 
   <div class="card mt-3">
@@ -278,6 +284,8 @@ Overview
 
     |product_img3|
 
+:pagebreak:`True`
+
 .. raw:: html
 
   <div class="card mt-3">
@@ -325,6 +333,8 @@ Overview
 .. rst-class:: text-center
 
     |product_img4|
+
+:pagebreak:`True`
 
 Hardware Specification
 ======================
@@ -396,10 +406,16 @@ Hardware Specification
 
 :pagebreak:`True`
 
+HDMI Input
+==========
+
+The product has an HDMI input port, you can play video in another device and let this product to display it on the large screen.
+
+
 Charging
 ========
 
-The product can be charged through a 12.6V DC charger, please use the charger shipped with the product to charge this product.
+The product can be charged through a 12V DC charger, please use the charger shipped with the product to charge this product.
 
 Buttons
 =======
