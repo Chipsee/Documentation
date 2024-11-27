@@ -1037,7 +1037,13 @@
         "PCs/MTK/MT6771/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
+        "PCs/MTK/MT8788/Manuals/Hardware/PTV-MT8788-215": {
+            "pdf-build": "False"
+        },
         "PCs/MTK/index": {
+            "pdf-build": "False"
+        },
+        "PCs/MTK/index-ptv": {
             "pdf-build": "False"
         },
         "PCs/Pi/A53/Manuals/Hardware/CS10600RA070": {

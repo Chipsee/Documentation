@@ -1,0 +1,571 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="lang:clipboard.copy" content="Copy to clipboard">
+  <meta name="lang:clipboard.copied" content="Copied to clipboard">
+  <meta name="lang:search.language" content="en">
+  <meta name="lang:search.pipeline.stopwords" content="True">
+  <meta name="lang:search.pipeline.trimmer" content="True">
+  <meta name="lang:search.result.none" content="No matching documents">
+  <meta name="lang:search.result.one" content="1 matching document">
+  <meta name="lang:search.result.other" content="# matching documents">
+  <meta name="lang:search.tokenizer" content="[\s\-]+">
+
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/application.css"/>
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/application-palette.css"/>
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/application-fixes.css"/>
+  
+  <link rel="stylesheet" href="../../../../../_static/fonts/material-icons.css"/>
+  
+  <meta name="theme-color" content="#3f51b5">
+  <script src="../../../../../_static/javascripts/modernizr.js"></script>
+  
+  
+  
+    <title>Portable Touchscreen &#8212; Chipsee</title>
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/material.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/css/material_custom.css" />
+    <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
+    <script src="../../../../../_static/jquery.js"></script>
+    <script src="../../../../../_static/underscore.js"></script>
+    <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../../../../_static/doctools.js"></script>
+    <script src="../../../../../_static/sphinx_highlight.js"></script>
+    <script src="../../../../../_static/clipboard.min.js"></script>
+    <script src="../../../../../_static/copybutton.js"></script>
+    <script src="../../../../../_static/design-tabs.js"></script>
+    <link rel="shortcut icon" href="../../../../../_static/favicon.webp"/>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="prev" title="Portable Touchscreen" href="../../../index-ptv.html" /> 
+    <script async src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.155/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.155/examples/jsm/"
+        }
+      }
+    </script>
+    <!-- Plausible start -->
+    <script defer data-domain="chipsee.com" src="https://plausible.io/js/script.js"></script>
+    <!-- Plausible end -->
+
+  </head>
+  <body dir=ltr
+        data-md-color-primary=deep-orange data-md-color-accent=deep-orange>
+  
+  <svg class="md-svg">
+    <defs data-children-count="0">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+      
+    </defs>
+  </svg>
+  
+  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">
+  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">
+  <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+  <a href="#PCs/MTK/MT8788/Manuals/Hardware/PTV-MT8788-215" tabindex="1" class="md-skip"> Skip to content </a>
+  <header>
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex navheader">
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+            <span class="md-header-nav__topic"> Portable Touchscreen </span>
+            <span class="md-header-nav__topic"> Portable Touchscreen </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-md-component="header">
+    <div class="container">
+      <a class="navbar-brand pt-0" href="../../../../../index.html">
+        <img src="../../../../../_static/images/logo_dark.png" height="30" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav fs-6 me-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Industrial PCs
+            </a>
+            <ul class="dropdown-menu" id="nav-dropdown">
+              <li><a class="dropdown-item" href="../../../../Pi/index.html">Powered by Raspberry Pi</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../ARM/index-rockchip.html">Powered by Rockchip</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../ARM/index-nxp.html">Powered by NXP</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../ARM/index-stm.html">Powered by STMicroelectronics</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../ARM/AM335X/index.html">Powered by TI</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../Intel/index.html">Powered by INTEL</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Machines
+            </a>
+            <ul class="dropdown-menu" id="nav-dropdown-secondary">
+              <li>
+                <a class="dropdown-item" href="../../../../Pi/index.html#kiosks">Kiosks</a>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="../../../index-ptv.html">Portable Touchscreen</a>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="../../../index.html">Handhelds</a>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="../../../../../Displays/index.html">Displays</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item text-nowrap">
+            <a class="nav-link" href="https://chipsee.com" target="_blank">Shop
+              <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" style="margin-bottom: 3px;"><path d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" fill="gray"/></svg>
+            </a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" action="../../../../../search.html" method="GET">
+          <input class="form-control form-control-sm me-2" type="search" placeholder="Search" name="q" aria-label="Search">
+          <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+</header>
+
+  
+  <div class="md-container">
+    
+    
+    
+  <nav class="md-tabs" data-md-component="tabs">
+    <div class="md-tabs__inner md-grid">
+      <ul class="md-tabs__list">
+          <li class="md-tabs__item"><a href="../../../../../index.html" class="md-tabs__link">Chipsee</a></li>
+          <li class="md-tabs__item"><a href="../../../index-ptv.html" class="md-tabs__link">Portable Touchscreen</a></li>
+      </ul>
+    </div>
+  </nav>
+    <main class="md-main">
+      <div class="md-main__inner md-grid" data-md-component="container">
+        
+          <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                
+<nav class="md-nav md-nav--secondary">
+    <label class="md-nav__title" for="__toc">ON THIS PAGE</label>
+  <ul class="md-nav__list" data-md-scrollfix="">
+        <li class="md-nav__item"><a href="#pcs-mtk-mt8788-manuals-hardware-ptv-mt8788-215--page-root" class="md-nav__link">Portable Touchscreen</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#overview" class="md-nav__link">Overview</a>
+        </li>
+        <li class="md-nav__item"><a href="#hardware-specification" class="md-nav__link">Hardware Specification</a>
+        </li>
+        <li class="md-nav__item"><a href="#hdmi-input" class="md-nav__link">HDMI Input</a>
+        </li>
+        <li class="md-nav__item"><a href="#charging" class="md-nav__link">Charging</a>
+        </li>
+        <li class="md-nav__item"><a href="#buttons" class="md-nav__link">Buttons</a>
+        </li>
+        <li class="md-nav__item"><a href="#dimension" class="md-nav__link">Dimension</a>
+        </li>
+        <li class="md-nav__item"><a href="#disclaimer" class="md-nav__link">Disclaimer</a>
+        </li>
+        <li class="md-nav__item"><a href="#technical-support" class="md-nav__link">Technical Support</a>
+        </li></ul>
+            </nav>
+        </li>
+  </ul>
+</nav>
+              </div>
+            </div>
+          </div>
+          <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                
+              </div>
+            </div>
+          </div>
+        
+        <div class="md-content">
+          <article class="md-content__inner md-typeset" role="main">
+            
+  <section id="p-title">
+<span id="ptv-mt8788-215"></span><h1 id="pcs-mtk-mt8788-manuals-hardware-ptv-mt8788-215--page-root">Portable Touchscreen<a class="headerlink" href="#pcs-mtk-mt8788-manuals-hardware-ptv-mt8788-215--page-root" title="Permalink to this heading">¶</a></h1>
+<div class="row html-only g-0" data-bs-target="#imageModal" data-bs-toggle="modal" id="gallery"><div class="col-12 col-md-6 col-xxl-3 html-only" style="cursor: pointer;"><p><img alt="Front View" class="product-img" src="../../../../../_images/PTV-MT8788-215-Front.jpg"/></p>
+</div><div class="col-12 col-md-6 col-xxl-3 html-only" style="cursor: pointer;"><p><img alt="Rear View" class="product-img" src="../../../../../_images/PTV-MT8788-215-Rear.jpg"/></p>
+</div><div class="col-12 col-md-6 col-xxl-3 html-only" style="cursor: pointer;"><p><img alt="Side View 1" class="product-img" src="../../../../../_images/PTV-MT8788-215-Side1.jpg"/></p>
+</div><div class="col-12 col-md-6 col-xxl-3 html-only" style="cursor: pointer;"><p><img alt="Side View 2" class="product-img" src="../../../../../_images/PTV-MT8788-215-Side2.jpg"/></p>
+</div></div><section id="overview">
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permalink to this heading">¶</a></h2>
+<div class="card">
+<div class="card-header fw-bold display-6">Screen</div>
+<div class="card-body">
+<p class="card-text">
+<div class="container fw-bold">
+<div class="row text-center fs-5">
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+            21.5 inch
+          </div>
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+            10 point<br/> multi-touch
+          </div>
+</div>
+<div class="row text-center fs-5">
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+            16.7M Colors
+          </div>
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+            Mali-G72
+          </div>
+</div>
+<div class="row text-center fs-5">
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+            1920 x 1080 FHD
+          </div>
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+            60Hz
+          </div>
+</div>
+</div>
+</p>
+</div>
+<div class="card-footer text-body-secondary">
+<span class="fw-bold">High-Quality Streaming: <br/></span>
+    The FHD resolution, vivid color range, and 60Hz refresh rate make it perfect for watching movies, TV shows, or streaming platforms like Netflix, YouTube, or Disney+. (Services are not included in the product, they need to be purchased on their platforms independently)
+    <br/>
+<span class="fw-bold">Dance or Yoga Companion: <br/></span>
+    Set it up for dance workouts or yoga poses, with the 60Hz refresh rate ensuring smooth transitions in videos.
+  </div>
+</div><p class="text-center"><a class="rounded rounded-2 reference internal" href="../../../../../_images/PTV-MT8788-215-Product_2.jpg"><img alt="product_img2" class="rounded rounded-2 align-middle" src="../../../../../_images/PTV-MT8788-215-Product_2.jpg" style="width: 1440px;"/></a></p>
+<p><p class="page-break" style="margin: 0"></p></p>
+<div class="card mt-3">
+<div class="card-header fw-bold display-6">Wireless</div>
+<div class="card-body">
+<p class="card-text">
+<div class="container fw-bold">
+<div class="row text-center fs-5">
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger">
+            2.4+5G WiFi
+          </div>
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+            Bluetooth 4.2
+          </div>
+</div>
+<div class="row text-center fs-5">
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger">
+            6Ah Large Battery
+          </div>
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+            2H Battery Life
+          </div>
+</div>
+<div class="row text-center fs-5">
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger">
+            Scrollable Wheels
+          </div>
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+            Easy to Go
+          </div>
+</div>
+</div>
+</p>
+</div>
+<div class="card-footer text-body-secondary">
+<span class="fw-bold">Bluetooth Sound Integration: <br/></span>
+    Pair it with Bluetooth speakers or headphones for immersive sound quality while watching movies, playing games, or listening to music.
+    <br/>
+<span class="fw-bold">Short-Term Outdoor Use: <br/></span>
+    The 2-hour battery life is ideal for tasks like following a workout video in the garden, streaming a game on the patio, or setting up a temporary outdoor movie night.
+  </div>
+</div><p class="text-center"><a class="rounded rounded-2 reference internal" href="../../../../../_images/PTV-MT8788-215-Product_1.jpg"><img alt="product_img1" class="rounded rounded-2 align-middle" src="../../../../../_images/PTV-MT8788-215-Product_1.jpg" style="width: 1440px;"/></a></p>
+<p><p class="page-break" style="margin: 0"></p></p>
+<div class="card mt-3">
+<div class="card-header fw-bold display-6">Performant</div>
+<div class="card-body">
+<p class="card-text">
+<div class="container fw-bold">
+<div class="row text-center fs-5">
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+            MediaTek MT8788 <div class="text-warning fw-bolder">8-Core</div> CPU
+          </div>
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+<span class="fs-2 text-warning me-1">4</span>GB<br/>RAM
+          </div>
+</div>
+<div class="row text-center fs-5">
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+<span class="fs-2 text-warning me-1">64</span>GB<br/>Internal Storage
+          </div>
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+<span class="fs-2 text-warning me-1">15°/10°</span>Tilt<br/>Up and Down
+          </div>
+</div>
+<div class="row text-center fs-5">
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+<span class="fs-2 text-warning me-1">90°/90°</span><br/>Rotate<br/>Left and Right
+          </div>
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+            Android 12
+          </div>
+</div>
+</div>
+</p>
+</div>
+<div class="card-footer text-body-secondary">
+<span class="fw-bold">Portable Entertainment Center: <br/></span>
+    Use it for streaming movies, playing music, or video gaming while moving it easily from room to room. Ideal for family movie nights or personal relaxation.
+    <br/>
+<span class="fw-bold">Smart Home Hub: <br/></span>
+    Integrate it with smart home devices to control lighting, thermostats, and security cameras. Its mobility allows for convenient access anywhere in the house.
+  </div>
+</div><p><p class="page-break" style="margin: 0"></p></p>
+<div class="card mt-3">
+<div class="card-header fw-bold display-6">Always with Me</div>
+<div class="card-body">
+<p class="card-text">
+<div class="container fw-bold">
+<div class="row text-center fs-5">
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+            Media Streaming
+          </div>
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+            Chatting
+          </div>
+</div>
+<div class="row text-center fs-5">
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+            Fitness
+          </div>
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+            Cooking
+          </div>
+</div>
+<div class="row text-center fs-5">
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-danger align-items-center d-flex justify-content-center flex-column">
+            Gaming
+          </div>
+<div class="col mb-3 border p-3 mx-3 rounded rounded-2 border-2 text-success align-items-center d-flex justify-content-center flex-column">
+            Studying
+          </div>
+</div>
+</div>
+</p>
+</div>
+<div class="card-footer text-body-secondary">
+<span class="fw-bold">Digital Cookbook on Wheels: <br/></span>
+    Place it in the kitchen for displaying recipes, cooking tutorials, or timer apps, and roll it aside to keep the counter clear.
+    <br/>
+<span class="fw-bold">Fitness Companion: <br/></span>
+    Use it as a fitness guide with workout videos or virtual trainers. Its mobility lets you move it to any workout area in your home.
+  </div>
+</div><p class="text-center"><a class="rounded rounded-2 reference internal" href="../../../../../_images/PTV-MT8788-215-Product_4.jpg"><img alt="product_img4" class="rounded rounded-2 align-middle" src="../../../../../_images/PTV-MT8788-215-Product_4.jpg" style="width: 1440px;"/></a></p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="hardware-specification">
+<h2 id="hardware-specification">Hardware Specification<a class="headerlink" href="#hardware-specification" title="Permalink to this heading">¶</a></h2>
+<table id="id1" style="width: 100%">
+<caption><span class="caption-number">Table 419 </span><span class="caption-text">Key Features</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Product</strong></p></th>
+<th class="head"><p>Portable Multifunctional Entertainment Touchscreen</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>CPU</strong></p></td>
+<td><p>MTK8788 Octa(8)-core Cortex-A73 + Cortex-A53</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Storage</strong></p></td>
+<td><p>64GB uFS2.1</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>RAM</strong></p></td>
+<td><p>4 GB LPDDR4x</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Operating Syetem</strong></p></td>
+<td><p>Android 12</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>WiFi</strong></p></td>
+<td><p>Wi-Fi 802.11ac/b/g/n, 2.4GHz/5.8GHz</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Bluetooth</strong></p></td>
+<td><p>Bluetooth 4.2</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Display</strong></p></td>
+<td><p>1920 x 1080 60Hz, 16.7 million colors</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Touch Screen</strong></p></td>
+<td><p>10 Point Capacitive Touch Screen</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Dimensions(screen)</strong></p></td>
+<td><p>525.9 * 293.8 * 15 mm</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Weight</strong></p></td>
+<td><p>15.7kg</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Height</strong></p></td>
+<td><p>horizontal: 1140.5 mm, vertical: 1252.5 mm</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Base Size</strong></p></td>
+<td><p>d400 x 40 mm</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Tilt</strong></p></td>
+<td><p>U15° / W10°</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Rotate</strong></p></td>
+<td><p>L90° / R90°</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Battery Life</strong></p></td>
+<td><p>2H (6Ah battery)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Battery Capacity</strong></p></td>
+<td><p>6Ah</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Full Charge Time</strong></p></td>
+<td><p>3H (6Ah battery)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Additional Feature</strong></p></td>
+<td><p>Gyroscope and gravity sensor, Google apps, wired screen mirroring input</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>GPU</strong></p></td>
+<td><p>ARM Mali-G72 MP3 700MHz</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Buttons</strong></p></td>
+<td><p>Power, Volume +, Volume -</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Bezel</strong></p></td>
+<td><p>23.7 / 23.7 / 16.8 / 16.8 mm</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>HDMI</strong></p></td>
+<td><p>1 x HDMI input</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>USB</strong></p></td>
+<td><p>1 x USB-C, 1 x USB-A(2.0)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Audio</strong></p></td>
+<td><p>TRS audio jack; 4 ohms, 5W x 2 internal speakers</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Accessories</strong></p></td>
+<td><p>Charger x 1, Screwdriver x 1, Screws x 1 set, User Manual x 1</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Mic / Camera</strong></p></td>
+<td><p>(Optional) 5MP HD wide-angle camera, Dual digital microphones</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Gross Weight</strong></p></td>
+<td><p>20kg</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Mounting</strong></p></td>
+<td><p>Stand-mounted, portable</p></td>
+</tr>
+</tbody>
+</table>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="hdmi-input">
+<h2 id="hdmi-input">HDMI Input<a class="headerlink" href="#hdmi-input" title="Permalink to this heading">¶</a></h2>
+<p>The product has an HDMI input port, you can play video in another device and let this product to display it on the large screen.</p>
+<p class="text-center"><a class="rounded rounded-2 reference internal" href="../../../../../_images/PTV-MT8788-215-Product_3.jpg"><img alt="product_img3" class="rounded rounded-2 align-middle" src="../../../../../_images/PTV-MT8788-215-Product_3.jpg" style="width: 1440px;"/></a></p>
+</section>
+<section id="charging">
+<h2 id="charging">Charging<a class="headerlink" href="#charging" title="Permalink to this heading">¶</a></h2>
+<p>The product can be charged through a 12V DC charger, please use the charger shipped with the product to charge this product.</p>
+</section>
+<section id="buttons">
+<h2 id="buttons">Buttons<a class="headerlink" href="#buttons" title="Permalink to this heading">¶</a></h2>
+<p>The buttons on the product are: power on/off, volume, volume-.</p>
+</section>
+<section id="dimension">
+<h2 id="dimension">Dimension<a class="headerlink" href="#dimension" title="Permalink to this heading">¶</a></h2>
+<p>The dimension of the screen is 525.9 * 293.8 * 15 mm, with the base stand, the height is horizontal: 1140.5 mm, vertical: 1252.5 mm.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="disclaimer">
+<h2 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Permalink to this heading">¶</a></h2>
+<p><strong>This document is provided strictly for informational purposes. Its contents are subject to change without notice. Chipsee assumes no responsibility for any errors that may occur in this document. Furthermore, Chipsee reserves the right to alter the hardware, software, and/or specifications set forth herein at any time without prior notice and undertakes no obligation to update the information contained in this document.</strong></p>
+<p><strong>While every effort has been made to ensure the accuracy of the information contained herein, this document is not guaranteed to be error-free. Further, it does not offer any warranties or conditions, whether expressed orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular purpose. We specifically disclaim any liability with respect to this document, and no contractual obligations are formed either directly or indirectly by this document.</strong></p>
+<p><strong>Despite our best efforts to maintain the accuracy of the information in this document, we assume no responsibility for errors or omissions, nor for damages resulting from the use of the information herein. Please note that Chipsee products are not authorized for use as critical components in life support devices or systems.</strong></p>
+</section>
+<section id="technical-support">
+<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this heading">¶</a></h2>
+<p>If you encounter any difficulties or have questions related to this document, we encourage you to refer to our other documentation for potential solutions. If you cannot find the solution you’re looking for, feel free to contact us. Please email Chipsee Technical Support at <a class="reference external" href="mailto:support%40chipsee.com"><strong>support<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information. We value your queries and suggestions and are committed to providing you with the assistance you require.</p>
+</section>
+</section>
+
+
+          </article>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="md-footer">
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+          
+            <a href="../../../index-ptv.html" title="Portable Touchscreen"
+               class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+               rel="prev">
+              <div class="md-flex__cell md-flex__cell--shrink">
+                <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+              </div>
+              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+                <span class="md-flex__ellipsis">
+                  <span
+                      class="md-footer-nav__direction"> Previous </span> Portable Touchscreen </span>
+              </div>
+            </a>
+          
+          
+        </a>
+        
+      </nav>
+    </div>
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-footer-copyright">
+          <div class="md-footer-copyright__highlight">
+              &#169; Copyright 2024, Chipsee.
+              
+          </div>
+            Last updated on
+              Nov 27, 2024.
+            <br/>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script async src="../../../../../_static/js/material_custom.js"></script>
+
+    
+  <script src="../../../../../_static/javascripts/application.js"></script>
+  <script>app.initialize({version: "1.0.4", url: {base: ".."}})</script>
+  </body>
+</html>
