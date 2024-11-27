@@ -1,7 +1,7 @@
 :pdf-build: False
 
-Portable Multifunctional Entertainment Touchscreen
-##################################################
+Portable Touchscreen
+####################
 
 .. raw:: html
 

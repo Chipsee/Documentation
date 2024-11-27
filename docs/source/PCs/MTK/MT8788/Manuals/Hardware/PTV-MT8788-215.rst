@@ -2,7 +2,7 @@
 
 .. |product| replace:: PTV-MT8788-215
 
-.. |p_title| replace:: Portable Multifunctional Entertainment Touchscreen
+.. |p_title| replace:: Portable Touchscreen
 
 .. |PN| replace:: PN: |product|
 
@@ -280,10 +280,6 @@ Overview
   </div>
 
 
-.. rst-class:: text-center
-
-    |product_img3|
-
 :pagebreak:`True`
 
 .. raw:: html
@@ -412,6 +408,10 @@ HDMI Input
 The product has an HDMI input port, you can play video in another device and let this product to display it on the large screen.
 
 
+.. rst-class:: text-center
+
+    |product_img3|
+
 Charging
 ========
 
@@ -425,7 +425,7 @@ The buttons on the product are: power on/off, volume, volume-.
 Dimension
 =========
 
-The dimension of |product| (screen) is |dimension| mm, with the base stand, the height is |height|.
+The dimension of the screen is |dimension| mm, with the base stand, the height is |height|.
 
 :pagebreak:`True`
 
