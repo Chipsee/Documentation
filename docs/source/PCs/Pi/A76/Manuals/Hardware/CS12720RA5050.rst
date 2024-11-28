@@ -106,11 +106,11 @@
                   :align: middle
                   :width: 480
 
-.. |hdmi_img| image:: /Media/Pi/A76/CS12720RA5050/CS12720RA5050-hdmi.jpg
+.. |hdmi_img| image:: /Media/Pi/A76/CS12720RA5050/CS12720RA5050-HDMI.jpg
                   :align: middle
                   :width: 480
 
-.. |audio_img| image:: /Media/Pi/A76/CS12720RA5050/CS12720RA5050-audio.jpg
+.. |audio_img| image:: /Media/Pi/A76/CS12720RA5050/CS12720RA5050-Audio.jpg
                   :align: middle
                   :width: 480
 
