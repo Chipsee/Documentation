@@ -1,0 +1,18 @@
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial Pi PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to 1 Gbps, and 4 x UART and 1 x CAN terminals (RS232/RS485/CAN).
+
+
+RS232/RS485/CAN
+---------------
+
+The serial communication interfaces (RS485, RS232, and CAN) are routed to a |rs232_485_can_ter|, as illustrated in the figure below.
+
+.. rst-class:: text-center
+
+   |rs232_485_can_img|
+
+   *RS232-RS485-CAN on the* |product| *Industrial PC*
+
+

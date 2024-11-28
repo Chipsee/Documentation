@@ -1,0 +1,80 @@
+Buttons and Status LED
+======================
+
+Status LED
+----------
+
+This product has a status LED on the front panel. The LED turns RED after power on, turns GREEN when the system is booted. It can be controlled by software to flash YELLOW when the CPU is working.
+
+.. rst-class:: text-center
+
+  |status_led_img|
+
+  *Status LED*
+
+:pagebreak:`True`
+
+Buttons
+-------
+
+There are five buttons on the front panel:  Power, Brightness+, Brightness-, Volume+, Volume-, as the image below shows.
+
+.. rst-class:: text-center
+
+  |btn_img|
+
+  *Buttons*
+
+|Product| supports two boot modes, the auto-boot and manual boot modes. The default boot mode is the auto-boot mode. 
+
+You can either change the boot mode in the software, or toggle boot mode by pushing physical buttons.
+
+Press **Volume +** and **Volume -** buttons at the same time before power on and keep pressing for 3 seconds after power on will change boot mode to manual boot. As the table below shows.
+
+.. table:: Boot mode
+   :align: center
+   :width: 100%
+   :widths: auto
+   :class: align-center
+
+   +--------------------------+----------------------------------------------------------------------------------------------+----------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+   | Boot mode                | Behaviors                                                                                    | Default Configuration| How to toggle                                                                                                                           |
+   +==========================+==============================================================================================+======================+=========================================================================================================================================+
+   | Auto                     | Auto boot after power on                                                                     | √                    | Software control or Push Volume+ and Volume- buttons at the same time before power on, and release it 3 seconds after power on.         |
+   +--------------------------+----------------------------------------------------------------------------------------------+----------------------+                                                                                                                                         |
+   | Manual                   | Boot after pushing the Power button and releasing it 3 seconds after power on                |                      |                                                                                                                                         |
+   +--------------------------+----------------------------------------------------------------------------------------------+----------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+
+.. note::   
+
+    |Product| boots from the internal eMMC by default. If you want it to boot from the Type-C connector, press and hold the Volume + button before power ON, and release it 3 seconds after power ON.
+
+    You can use Brightness + / Brightness - buttons to control the backlight of the LCD.
+
+    You can also use Volume + / Volume - buttons to control the System Volume.
+
+For a detailed explanation of button functions, check the table below.
+
+.. table:: Boot mode
+   :align: center
+   :width: 100%
+   :widths: auto
+   :class: align-center
+
+   +--------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+   | Buttons                  | Functions before the system boot                                                                                    | Functions after the system boot                                                                                                         |
+   +==========================+=====================================================================================================================+=========================================================================================================================================+
+   | Power                    | Push after power on and release after 3 seconds will boot the system                                                | Push after the system booted and release after 3 seconds will close the system.                                                         |
+   +--------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+   | Brightness +             | NULL                                                                                                                | Increase the brightness of LCD                                                                                                          |
+   +--------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+   | Brightness -             | NULL                                                                                                                | Reduce the brightness of LCD                                                                                                            |
+   +--------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+   | Volume +                 | Push before power on and release it after 3 seconds, the system will boot from the Type-C port                      | Increase the volume of the system                                                                                                       |
+   +--------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+   | Volume -                 | NULL                                                                                                                | Reduce the volume of the system                                                                                                         |
+   +--------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+   | Volume + and Volume -    | Toggle the boot mode                                                                                                | NULL                                                                                                                                    |
+   +--------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+
+:pagebreak:`True`

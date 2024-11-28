@@ -1,0 +1,14 @@
+HDMI
+----
+
+The CM5 supports dual HDMI 2.0 connectors. 
+
+The product uses the master HDMI for the integrated LCD screen, there is an extra slave HDMI port to connect a second monitor to the product.
+
+You can set this second monitor in the Display Settings of the Raspberry Pi OS.
+
+.. rst-class:: text-center
+
+  |hdmi_img|
+
+  *HDMI Connector (slave)*

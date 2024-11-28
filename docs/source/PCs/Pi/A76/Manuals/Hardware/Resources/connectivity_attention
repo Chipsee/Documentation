@@ -1,0 +1,8 @@
+.. attention::
+
+   #) RS485_3 and RS485_5 can control the input and output direction automatically. There’s no need to control it from within the software.
+   #) The 120Ω match resistor for RS485 is **NOT** mounted by default.
+   #) The 120Ω match resistor for CAN is **NOT** mounted by default. Be sure to mount the match resistor when testing CAN.
+   #) |rs232_rs485_conf|
+
+:pagebreak:`True`

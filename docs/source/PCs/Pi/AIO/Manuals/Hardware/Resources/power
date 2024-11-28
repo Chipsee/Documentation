@@ -1,0 +1,13 @@
+Power Input
+===========
+
+|Product| can be powered by an input voltage: |vin_rng| DC.
+The total power consumption is typically about 8.4W. The power input connector is a 2.1mm I.D x 5.5mm O.D x 9.5mm DC connector. For a proper DC power adapter, refer to the figure below.
+
+.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-Power.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Power Adapter*
+
+:pagebreak:`True`

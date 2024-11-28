@@ -1,0 +1,16 @@
+LAN
+---
+
+The |LAN| provides Ethernet connectivity over standardized Ethernet cables as shown in the figure below. The integrated Ethernet interface supports up to 1 Gbps data throughput. These Giga LAN signals come from the CM5 module directly.
+
+.. rst-class:: text-center
+
+    |lan_img|
+
+    *RJ45 LAN Connector*
+
+.. note::
+  
+   Use CAT5 or better cables to achieve full data throughput over maximum distance defined by the 1000BASE-T standard (100m).
+
+:pagebreak:`True`

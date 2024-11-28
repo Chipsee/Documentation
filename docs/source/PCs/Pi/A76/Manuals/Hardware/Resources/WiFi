@@ -1,0 +1,18 @@
+WiFi & BT Module
+----------------
+
+The default |product| without the CM5 does not include a Wi-Fi/BT module. |br|
+If you include a CM5 that has the Wi-Fi/BT module, the product will have Wi-Fi/BT feature.
+The product also has an SMA connector for an external WiFi/BT antenna:
+
+.. rst-class:: text-center
+
+   |wifi_img|
+
+   *WiFi+BT Antenna*
+
+.. attention::
+
+    The product does not come shipped with the Wi-Fi/BT module by default.
+
+:pagebreak:`True`

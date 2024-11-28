@@ -1,0 +1,24 @@
+Mounting Procedure
+==================
+
+You can mount |product| with the Vesa (75 x 75mm) and Stand mounting methods, as shown in the figures below.
+
+.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-VMount.jpeg
+  :align: center
+  :figclass: align-center
+
+  *VESA mounting*
+
+.. Figure:: /Media/Pi/AIO/CS19108RA4156A/156-SMount.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Stand mounting*
+
+.. attention::
+
+    Please make sure the display is not exposed to high pressure when mounting into an enclosure.
+
+You can find detailed information about mounting in the |mguide|.
+
+:pagebreak:`True`

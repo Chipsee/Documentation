@@ -1,0 +1,36 @@
+AIO-CM5
+#######
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+15.6 Inch(All-in-one)
+|AIO-CM5-156|
+
+:ref:`AIO-CM5-156<AIO-CM5-156>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+     </div>
+
+.. |AIO-CM5-156| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/Pi/AIO/Manuals/Hardware/CS19108RA5156A.html
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   AIO-CM5-156 </PCs/Pi/AIO/Manuals/Hardware/CS19108RA5156A>

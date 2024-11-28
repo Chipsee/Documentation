@@ -1,0 +1,25 @@
+Mechanical Specifications
+=========================
+
+The outer mechanical dimensions of |product| are |dim| (W x L x H). Please refer to the technical drawing in the figures below for details related to the specific
+product measurements.
+
+.. figure:: /Media/Pi/AIO/CS19108RA4156A/CS19108RA4156A-TD-Front.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Front Panel Dimension Technical Drawing*
+
+.. figure:: /Media/Pi/AIO/CS19108RA4156A/CS19108RA4156A-TD-Back.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Backside Dimension Technical Drawing*
+
+.. figure:: /Media/Pi/AIO/CS19108RA4156A/CS19108RA4156A-TD-Side.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Side Dimension Technical Drawing*
+
+:pagebreak:`True`

@@ -1,0 +1,32 @@
+3G/4G/LTE Module
+----------------
+
+|Product| is equipped with a **mini-PCIe connector** that can connect to a 3G/4G/LTE module.
+The customer will also need a SIM Card Holder and a 3G/4G/LTE antenna to ensure 3G/4G/LTE works on the |product|. SIM card does **NOT** support hot plug. **Power off** before inserting or removing SIM card.
+
+.. rst-class:: text-center
+
+    |sim_img|
+
+    *SIM Card Direction*
+
+
+.. figure:: /Media/Pi/A53/Others/4G_module.jpeg
+   :align: center
+   :figclass: align-center
+
+   *3G/4G/LTE Module*
+
+
+.. figure:: /Media/Pi/A53/Others/4G_com.jpeg
+   :align: center
+   :figclass: align-center
+
+   *SIM Card Holder and 3G/4G/LTE Antenna*
+
+
+.. attention::
+
+    The product does not come shipped with the 3G/4G/LTE module by default. If you need to use 3G/4G/LTE, you can contact us when placing an order, we can install the necessary hardware for you.
+
+:pagebreak:`True`
