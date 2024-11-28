@@ -10,6 +10,10 @@
 
 .. |cpu| replace:: Raspberry |Pi| CM5/CM5Lite; BCM2712 Quad(4) Core Cortex-A76 at 2.4GHz
 
+.. |ram_desc| replace:: 2GB, 4GB, or 8GB SDRAM based on CM5
+
+.. |emmc_desc| replace:: 0GB, 16GB, 32GB, or 64GB based on CM5
+
 .. |Product| replace:: The |product| industrial Pi PC
 
 .. |TFNum| replace:: 1

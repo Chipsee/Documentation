@@ -8,6 +8,10 @@
 
 .. |dispsize| replace:: 15.6"
 
+.. |ram_desc| replace:: 2GB, 4GB, or 8GB SDRAM based on CM5
+
+.. |emmc_desc| replace:: 0GB, 16GB, 32GB, or 64GB based on CM5
+
 .. |res| replace:: 1920 x 1080
 
 .. |bright| replace:: 350 |cd|
@@ -20,10 +24,7 @@
 
 .. |CM5_cpu| replace:: Raspberry Pi® CM5/CM5Lite; BCM2712 Quad(4) Core Cortex-A76 at 2.4GHz
 
-.. |ram_desc| replace:: 1/2/4/8/16GB LPDDR4 Based on CM5 
-
-.. |emmc_desc| replace:: 0/8/16/32/64/128 GB Based on CM5 
-
+.. |pcie_desc| replace:: M.2 2280 M-key. PCIe Gen 2.0 x1; PCIe Gen 3.0 x1 (compatible but experimental)
 
 .. |rtc_desc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional). 
 
