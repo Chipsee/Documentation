@@ -1154,6 +1154,15 @@
         "PCs/Pi/A72/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
+        "PCs/Pi/A76/Manuals/Hardware/CS12720RA5050": {
+            "pdf-title": "PPC-CM5-050",
+            "pdf-subtitle": "PN: CS12720RA5050",
+            "pdf-filename": "PPC-CM5-050",
+            "pdf-type": "ipc"
+        },
+        "PCs/Pi/A76/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
         "PCs/Pi/AIO/Manuals/Hardware/CS12800RA4101A": {
             "pdf-title": "AIO-CM4-101",
             "pdf-subtitle": "PN: CS12800RA4101A",
@@ -1164,6 +1173,12 @@
             "pdf-title": "AIO-CM4-156",
             "pdf-subtitle": "PN: CS19108RA4156A",
             "pdf-filename": "AIO-CM4-156",
+            "pdf-type": "ipc"
+        },
+        "PCs/Pi/AIO/Manuals/Hardware/CS19108RA5156A": {
+            "pdf-title": "AIO-CM5-156",
+            "pdf-subtitle": "PN: CS19108RA5156A",
+            "pdf-filename": "AIO-CM5-156",
             "pdf-type": "ipc"
         },
         "PCs/Pi/AIO/Manuals/Hardware/index": {

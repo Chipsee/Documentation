@@ -1,0 +1,194 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: AIO-CM5-156
+
+.. |PN| replace:: PN: CS19108RA5156A
+
+.. |Product| replace:: The |product| all in one Pi PC
+
+.. |dispsize| replace:: 15.6"
+
+.. |ram_desc| replace:: 2GB, 4GB, or 8GB SDRAM based on CM5
+
+.. |emmc_desc| replace:: 0GB, 16GB, 32GB, or 64GB based on CM5
+
+.. |res| replace:: 1920 x 1080
+
+.. |bright| replace:: 350 |cd|
+
+.. |dim| replace:: 374 x 238 x 33mm
+
+.. |weight| replace:: 1600g
+
+.. |tscreen| replace:: 10-point capacitive touch with 1.1mm Armored Glass
+
+.. |CM5_cpu| replace:: Raspberry Pi® CM5/CM5Lite; BCM2712 Quad(4) Core Cortex-A76 at 2.4GHz
+
+.. |pcie_desc| replace:: M.2 2280 M-key. PCIe Gen 2.0 x1; PCIe Gen 3.0 x1 (compatible but experimental)
+
+.. |rtc_desc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional). 
+
+.. |USB| replace:: 2 x USB 3.0 Host, 1 x Type-C USB (Slave)
+
+.. |LAN| replace:: 1 x Giga LAN
+
+.. |GPIO| replace:: 40-pin GPIO connector
+
+.. |opt1| replace:: N/A
+
+.. |vin_rng| replace:: 12V
+
+.. |cur| replace:: 1A Max, 800mA typical
+
+.. |pwr| replace:: 12W Max, 9.6W typical
+
+.. |temp| replace:: From 0°C to +50°C
+
+.. |storage| replace:: 1 x TF card slot for boot. Internal M.2 NVMe connector for SSD card (optional)
+
+.. |audio| replace:: 2W internal stereo speaker, 3.5mm audio Out connector
+
+.. |rs232| replace:: N/A
+
+.. |rs485| replace:: N/A
+
+.. |relay| replace:: N/A
+
+.. |zigbee| replace:: N/A
+
+.. |hdmi| replace:: HDMI 2.0 connector, can be driven up to 4K 60FPS
+
+.. |wifi_desc| replace:: WiFi/BT module comes with the CM5
+
+.. |hat| replace:: Standard Raspberry Pi 40-way HAT connector
+
+.. |sd_socket| replace:: For use only with CM5 Lite modules
+
+.. |case_color| replace:: Black
+
+.. _product_link: https://chipsee.com/product/aio-cm5-156/
+
+.. |product_link| replace:: AIO-CM5-156
+
+.. |power_conn_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Power.jpg
+                          :align: middle
+                          :width: 480
+
+.. |usb_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-USB.jpg
+                          :align: middle
+                          :width: 960
+
+.. |lan_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-LAN.jpg
+                          :align: middle
+                          :width: 640
+
+.. |tf_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-TF.jpg
+                          :align: middle
+                          :width: 640
+
+.. |audio_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Audio.jpg
+                          :align: middle
+                          :width: 640
+
+.. |hdmi_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-HDMI.jpg
+                          :align: middle
+                          :width: 640
+
+.. |status_led_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Status.jpg
+                          :align: middle
+                          :width: 640
+
+.. |pin_hat_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Hat.jpg
+                          :align: middle
+                          :width: 960
+
+.. |pin_hat2_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Hat2.jpg
+                          :align: middle
+                          :width: 480
+
+.. |pin_hat3_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Hat3.jpg
+                          :align: middle
+                          :width: 720
+
+.. |stand_mount_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Mounting2.jpg
+                          :align: middle
+                          :width: 960
+
+.. |mount_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Mounting.jpg
+                          :align: middle
+                          :width: 960
+
+.. |btn_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Btn.jpg
+                          :align: middle
+                          :width: 960
+
+.. |td1_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-TD1.jpg
+                          :align: middle
+                          :width: 960
+
+.. |td2_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-TD2.jpg
+                          :align: middle
+                          :width: 960
+
+.. |Cover PNG| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Front.png
+
+.. |Front View| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Side2.jpg
+                  :class: product-img 
+                  
+.. _AIO-CM5-156:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources_CM5/overview
+
+.. include:: Resources_CM5/ordering
+
+.. include:: Resources_CM5/opt_features_2
+
+.. include:: Resources_CM5/HW_features
+
+.. include:: Resources_CM5/table
+
+.. include:: Resources_CM5/power
+
+.. include:: Resources_CM5/connectivity
+
+.. include:: Resources_CM5/usb
+
+.. include:: Resources_CM5/lan
+
+.. include:: Resources_CM5/tf
+
+.. include:: Resources_CM5/audio
+
+.. include:: Resources_CM5/hdmi
+
+.. include:: Resources_CM5/camera
+
+.. include:: Resources_CM5/pi_hat
+
+.. include:: Resources_CM5/btn_boot
+
+.. include:: Resources_CM5/mounting
+
+.. include:: Resources_CM5/mechanical
+
+.. include:: /PCs/Shared/Hardware/three_d
+
+.. include:: /PCs/Shared/support
+
