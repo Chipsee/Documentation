@@ -139,7 +139,7 @@ product measurements.
 For |productP|, the outer mechanical dimensions are |dimP| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
-.. figure:: /Media/ARM/A8/CS10600T070/EPC-A8-070H-C-TD.jpeg
+.. figure:: /Media/ARM/A8/CS10600T070/PPC-A8-070H-C-TD.jpeg
    :align: center
    :figclass: align-center
 
