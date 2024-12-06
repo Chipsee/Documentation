@@ -208,6 +208,46 @@ For 1D bar code, the scanner can read UPC-A, UPC-E, EAN-8, EAN-13, Code128, Code
 
 :pagebreak:`True`
 
+Bottom Pogo Pins
+----------------
+
+The bottom pogo pin supports charging the device in a dock, here is the pin definition:
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Bottom-Pogo.jpg
+   :align: center
+   :width: 800
+   :alt: bottom-pogopin
+
++-------+-------------------------------------+----------+
+| Pin   | Definition                          | Note     |
++=======+=====================================+==========+
+| Pin 1 | VCHG(5V IN)                         | Charging |
++-------+-------------------------------------+----------+
+| Pin 2 | VBUS(5V OUT)                        | OTG      |
++-------+-------------------------------------+----------+
+| Pin3  | DM3                                 | USB2.0   |
++-------+-------------------------------------+----------+
+| Pin4  | DP3                                 | USB2.0   |
++-------+-------------------------------------+----------+
+| Pin5  | GND                                 |          |
++-------+-------------------------------------+----------+
+| Pin6  | RS232-TX0(Not supported on Android) |          |
++-------+-------------------------------------+----------+
+| Pin7  | RS232-RX0(Not supported on Android) |          |
++-------+-------------------------------------+----------+
+| Pin8  | GND                                 | Charging |
++-------+-------------------------------------+----------+
+
+An **optional** dock is available for this product, it has 2 USB-A ports and an Ethernet port, it can also be used to charge the product.
+
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Dock2.jpg
+   :align: center
+   :width: 360
+   :alt: DC-dock-2
+
+:pagebreak:`True`
+
 Serial Port
 -----------
 
@@ -275,6 +315,18 @@ The product ships with a DC charger.
    :alt: DC-charger
 
 Alternatively, you can also charge the device through its USB-C port on the top of the product.
+
+The |product| also provides an **optional** dock for charging.
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Dock1.jpg
+   :align: center
+   :width: 360
+   :alt: DC-dock-1
+
+.. image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Dock2.jpg
+   :align: center
+   :width: 360
+   :alt: DC-dock-2
 
 :pagebreak:`True`
 
