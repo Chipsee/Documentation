@@ -1,0 +1,226 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: PPC-CM5-070
+
+.. |productE| replace:: CS10600RA5070E
+
+.. |productP| replace:: CS10600RA5070P
+
+.. |PN| replace:: PN: CS10600RA5070
+
+.. |cpu| replace:: Raspberry |Pi| CM5/CM5Lite; BCM2712 Quad(4) Core Cortex-A76 at 2.4GHz
+
+.. |ram_desc| replace:: 2GB, 4GB, or 8GB SDRAM based on CM5
+
+.. |emmc_desc| replace:: 0GB, 16GB, 32GB, or 64GB based on CM5
+
+.. |Product| replace:: The |product| industrial Pi PC
+
+.. |TFNum| replace:: 1
+
+.. |tf_des| replace:: TF card slot, **only** used with CM5 Lite to boot system, **cannot** be used as external storage for CM5
+
+.. |usb_hub_conflict| replace:: two USB host connectors
+
+.. |dispsize| replace:: 7"
+
+.. |res| replace:: 1024 x 600
+
+.. |bright| replace:: 500 |cd|
+
+.. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |disp_table| replace:: |dispsize| IPS LCD, |res| px, brightness |bright|
+
+.. |mounting_table| replace:: |productE|: Embedded; |productP|: Panel, VESA
+
+.. |dimE| replace:: 190 × 107.8 × 27.7 mm
+
+.. |dimP| replace:: 206 x 135 x 30mm
+
+.. |weightE| replace:: 400g
+
+.. |weightP| replace:: 700g
+
+.. |can_desc| replace:: 1 x CAN FD BUS,  Arbitration Bit Rate up to 1Mbps, Data Bit Rate up to 8Mbps
+
+.. |tscreen| replace:: 5-point capacitive touch with 1mm Armored Glass
+
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off
+
+.. |rs232_485_can_ter| replace:: 16-pin 3.81mm terminal
+
+.. |rs232_rs485_conf| replace:: RS485_3 and RS232_3 share UART3 and can’t work at the same time; RS485_5 and RS232_5 share UART5 and can’t work at the same time. Meaning the product provides 4 x RS232 + 0 x RS485, or 2 x RS232 + 2 x RS485, or 3 x RS232 + 1 x RS485.
+
+.. |cap_screen_conn| replace:: FPC connector
+
+.. |camera_desc| replace:: Yes, not mounted by default. Available on the board in the embedded PC. 
+
+.. |camera_not_mount| replace:: The camera connector is supported but not mounted by default. Please contact us when placing an order if you need to use camera on the |product|.
+
+.. |USB_attention| replace:: 1\. These two USB host connectors can drive 500mA for each channel at most. |br| 2\. These |usb_hub_conflict| come from the same USB HUB. |br| 3\. When you connect this product to the HOST PC through the Type-C port, the USB HUB will be disabled. As a result, the |usb_hub_conflict| will not work.
+
+.. |zigbee_des| replace:: No
+
+.. |USB| replace:: 2 x USB 3.0 type-A Host, 1 x USB type-C OTG
+
+.. |LAN| replace:: 1 x Giga LAN
+
+.. |TF_boot| replace:: The TF card cannot be used for memory extension. It is only used for system boot-up for CM5 LITE model.
+
+.. |GPIO| replace:: 8 Channels, 4 Input, 4 Output 
+
+.. |hdmi_des| replace:: 1 x HDMI 2.0 out, can be driven up to 4K 60FPS
+
+.. |power_conn_desc| replace:: It is a **3 Pin, 3.81mm screw terminal** connector.
+
+.. |pcie_desc| replace:: PCIe Gen 2 × 1 (5Gbps), M.2 M-Key 2230/2242 socket
+
+.. |opt1| replace:: Supported, not mounted by default
+
+.. |opt2| replace:: Optional (Depends on CM5)
+
+.. |vin_rng| replace:: 6V to 36V
+
+.. |cur| replace:: 950mA max at 12V, 500mA typical at 12V
+
+.. |pwr| replace:: 11.4W max, 6W typical
+
+.. |temp| replace:: From -10°C to +60°C
+
+.. |dim_desc| replace:: |productE|: |dimE|; |productP|: |dimP|
+
+.. |weight_desc| replace:: |productE|: |weightE|; |productP|: |weightP|
+
+.. _product_link: https://chipsee.com/product/ppc-cm5-070/
+
+.. |product_link| replace:: PPC-CM5-070
+
+.. |wifi_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Wifi.jpg
+                  :align: middle
+                  :width: 960
+
+.. |tf_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-TF.jpg
+                  :align: middle
+                  :width: 960
+
+.. |camera_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Camera.jpg
+                  :align: middle
+                  :width: 480
+
+.. |hdmi_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-HDMI.jpg
+                  :align: middle
+                  :width: 480
+
+.. |audio_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Audio.jpg
+                  :align: middle
+                  :width: 480
+
+.. |ts_con_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Touch.jpg
+                  :align: middle
+                  :width: 192
+
+.. |usb_a_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-USBA.jpg
+                   :align: middle
+                   :width: 480
+
+.. |usb_c_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-USBC.jpg
+                   :align: middle
+                   :width: 480
+                   
+.. |power_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Power.jpg     
+                  :align: middle
+                  :width: 640
+
+.. |rs232_485_can_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Conn.jpg
+                  :align: middle
+                  :width: 480
+
+.. |lan_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-LAN.jpg 
+                  :align: middle
+                  :width: 384
+
+.. |prog_btn_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-PROG.jpg
+                  :align: middle
+                  :width: 384
+
+.. |td_img_p| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-TD.png
+                  :align: middle
+                  :width: 1024
+
+.. |td_img_e| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070E-TD.jpeg
+                  :align: middle
+                  :width: 1024
+.. |Cover PNG| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Front.png
+
+.. |Front View| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Side2.jpg
+                  :class: product-img
+
+.. _PPC-CM5-070:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power_conn
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/connectivity
+
+.. include:: Resources/CS10600RA5070/connectivity_table
+
+.. include:: Resources/connectivity_attention
+
+.. include:: Resources/gpio
+
+.. include:: Resources/CS10600RA5070/gpio_table
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/camera_050_070
+
+.. include:: Resources/TF
+
+.. include:: Resources/audio_io
+	
+.. include:: Resources/hdmi
+
+.. include:: Resources/prog_btn
+
+.. include:: Resources/CS10600RA5070/mounting
+
+.. include:: Resources/CS10600RA5070/mechanical
+
+.. include:: /PCs/Shared/Hardware/three_d
+
+.. include:: /PCs/Shared/support

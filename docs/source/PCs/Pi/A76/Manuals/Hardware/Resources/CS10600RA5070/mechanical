@@ -1,0 +1,28 @@
+Mechanical Specifications
+=========================
+
+|productP|
+----------
+For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+
+.. rst-class:: text-center
+
+  |td_img_p|
+
+  |productP| *Technical Drawing*
+  
+|productE|
+----------
+
+For |productE|, the outer mechanical dimensions are |dimE| (W x L x H).
+
+Please refer to the technical drawing in the figure below for details related to the specific product measurements.
+
+.. rst-class:: text-center
+
+  |td_img_e|
+
+  |productE| *Technical Drawing*
+
+:pagebreak:`True`
+

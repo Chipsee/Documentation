@@ -1,0 +1,36 @@
+Mounting Procedure 
+==================
+
+|Product| can be mounted with 4 x M4 screws, enabling simplified installation onto any standard mounting fixture.
+
+|productE|
+----------
+You can mount |productE| with the Embedded mounting (:ref:`guide <embedded_mguide>`) method, as shown in the figure below.
+
+.. Figure:: /Media/Pi/A53/Others/mountE.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Embedded mounting*
+
+|productP|
+----------
+
+You can mount |productP| with VESA mounting (:ref:`guide <vesa_mguide>`): **75 x 75** mm, 4 x **M4** (6mm) screws.
+
+You can mount |productP| with PANEL mounting (:ref:`guide <panel_mguide>`).
+
+
+.. Figure:: /Media/Pi/A53/Others/mountP.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Panel mounting*
+
+.. attention::
+
+    Please make sure the display is not exposed to high pressure when mounting into an enclosure.
+
+You can find detailed information about mounting in the |mguide|.
+
+:pagebreak:`True`
