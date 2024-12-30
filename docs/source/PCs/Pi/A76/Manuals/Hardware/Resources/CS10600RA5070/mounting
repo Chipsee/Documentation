@@ -3,16 +3,6 @@ Mounting Procedure
 
 |Product| can be mounted with 4 x M4 screws, enabling simplified installation onto any standard mounting fixture.
 
-|productE|
-----------
-You can mount |productE| with the Embedded mounting (:ref:`guide <embedded_mguide>`) method, as shown in the figure below.
-
-.. Figure:: /Media/Pi/A53/Others/mountE.jpeg
-  :align: center
-  :figclass: align-center
-
-  *Embedded mounting*
-
 |productP|
 ----------
 
@@ -26,6 +16,17 @@ You can mount |productP| with PANEL mounting (:ref:`guide <panel_mguide>`).
   :figclass: align-center
 
   *Panel mounting*
+
+
+|productE|
+----------
+You can mount |productE| with the Embedded mounting (:ref:`guide <embedded_mguide>`) method, as shown in the figure below.
+
+.. Figure:: /Media/Pi/A53/Others/mountE.jpeg
+  :align: center
+  :figclass: align-center
+
+  *Embedded mounting*
 
 .. attention::
 

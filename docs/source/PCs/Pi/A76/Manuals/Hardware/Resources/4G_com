@@ -10,20 +10,11 @@ The customer will also need a SIM Card Holder and a 3G/4G/LTE antenna to ensure 
 
     *SIM Card Direction*
 
+.. rst-class:: text-center
 
-.. figure:: /Media/Pi/A53/Others/4G_module.jpeg
-   :align: center
-   :figclass: align-center
+    |lte_img|
 
-   *3G/4G/LTE Module*
-
-
-.. figure:: /Media/Pi/A53/Others/4G_com.jpeg
-   :align: center
-   :figclass: align-center
-
-   *SIM Card Holder and 3G/4G/LTE Antenna*
-
+    *3G/4G/LTE Module and SIM Card Holder*
 
 .. attention::
 

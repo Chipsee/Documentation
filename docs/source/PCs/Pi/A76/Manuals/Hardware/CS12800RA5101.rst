@@ -114,6 +114,22 @@
                   :align: middle
                   :width: 480
 
+.. |sim_img| image:: /Media/Pi/A76/CS10600RA5101/CS10600RA5101-SIM.jpg
+                  :align: middle
+                  :width: 576
+
+.. |lte_img| image:: /Media/Pi/A76/CS10600RA5101/CS10600RA5101-LTE.jpg
+                  :align: middle
+                  :width: 576
+
+.. |m2_img| image:: /Media/Pi/A76/CS10600RA5101/CS10600RA5101-m2.jpg
+                  :align: middle
+                  :width: 576
+
+.. |gpio_img| image:: /Media/Pi/A76/CS10600RA5101/CS10600RA5101-GPIO.jpg
+                  :align: middle
+                  :width: 800
+
 .. |audio_img| image:: /Media/Pi/A76/CS12800RA5101/CS12800RA5101-Audio.jpg
                   :align: middle
                   :width: 480
@@ -206,6 +222,8 @@
 
 .. include:: Resources/4G_com
 
+.. include:: Resources/m2
+
 .. include:: Resources/camera_050_070
 
 .. include:: Resources/TF
@@ -229,7 +247,5 @@ Please refer to the technical drawing in the figure below for details related to
   *Technical Drawing*
 
 :pagebreak:`True`
-
-.. include:: /PCs/Shared/Hardware/three_d
 
 .. include:: /PCs/Shared/support

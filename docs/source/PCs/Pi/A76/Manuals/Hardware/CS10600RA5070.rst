@@ -74,7 +74,7 @@
 
 .. |hdmi_des| replace:: 1 x HDMI 2.0 out, can be driven up to 4K 60FPS
 
-.. |power_conn_desc| replace:: It is a **3 Pin, 3.81mm screw terminal** connector.
+.. |power_conn_desc| replace:: There are two types of power input connectors. One is a **3 Pin, 3.81mm screw terminal** connector, and the other is a **2.1mm DC input head**.
 
 .. |pcie_desc| replace:: PCIe Gen 2 × 1 (5Gbps), M.2 M-Key 2230/2242 socket
 
@@ -102,25 +102,41 @@
                   :align: middle
                   :width: 960
 
+.. |sim_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-SIM.jpg
+                  :align: middle
+                  :width: 576
+
+.. |lte_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-LTE.jpg
+                  :align: middle
+                  :width: 576
+
+.. |m2_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-m2.jpg
+                  :align: middle
+                  :width: 576
+
 .. |tf_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-TF.jpg
                   :align: middle
                   :width: 960
 
 .. |camera_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Camera.jpg
                   :align: middle
-                  :width: 480
+                  :width: 800
 
 .. |hdmi_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-HDMI.jpg
                   :align: middle
-                  :width: 480
+                  :width: 800
 
 .. |audio_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Audio.jpg
                   :align: middle
-                  :width: 480
+                  :width: 800
 
 .. |ts_con_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Touch.jpg
                   :align: middle
-                  :width: 192
+                  :width: 800
+
+.. |gpio_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-GPIO.jpg
+                  :align: middle
+                  :width: 800
 
 .. |usb_a_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-USBA.jpg
                    :align: middle
@@ -128,15 +144,19 @@
 
 .. |usb_c_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-USBC.jpg
                    :align: middle
-                   :width: 480
+                   :width: 800
                    
 .. |power_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Power.jpg     
                   :align: middle
                   :width: 640
 
+.. |dc_jack_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-DCJack.jpg
+                  :align: middle
+                  :width: 576
+
 .. |rs232_485_can_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Conn.jpg
                   :align: middle
-                  :width: 480
+                  :width: 800
 
 .. |lan_img| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-LAN.jpg 
                   :align: middle
@@ -146,7 +166,7 @@
                   :align: middle
                   :width: 384
 
-.. |td_img_p| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-TD.png
+.. |td_img_p| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-TD.jpg
                   :align: middle
                   :width: 1024
 
@@ -166,6 +186,7 @@
 
 .. |Side View 2| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Side2.jpg
                   :class: product-img
+                  :alt: Rear View (Embedded Variant)
 
 .. _PPC-CM5-070:
 
@@ -189,6 +210,8 @@
 
 .. include:: Resources/power_conn
 
+.. include:: Resources/CS10600RA5070/power_jack
+
 .. include:: Resources/cap_screen
 
 .. include:: Resources/connectivity
@@ -209,6 +232,8 @@
 
 .. include:: Resources/4G_com
 
+.. include:: Resources/m2
+
 .. include:: Resources/camera_050_070
 
 .. include:: Resources/TF
@@ -222,7 +247,5 @@
 .. include:: Resources/CS10600RA5070/mounting
 
 .. include:: Resources/CS10600RA5070/mechanical
-
-.. include:: /PCs/Shared/Hardware/three_d
 
 .. include:: /PCs/Shared/support
