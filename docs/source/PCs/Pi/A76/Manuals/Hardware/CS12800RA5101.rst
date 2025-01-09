@@ -114,21 +114,21 @@
                   :align: middle
                   :width: 480
 
-.. |sim_img| image:: /Media/Pi/A76/CS10600RA5101/CS10600RA5101-SIM.jpg
+.. |sim_img| image:: /Media/Pi/A76/CS12800RA5101/CS12800RA5101-SIM.jpg
+                  :align: middle
+                  :width: 480
+
+.. |lte_img| image:: /Media/Pi/A76/CS12800RA5101/CS12800RA5101-LTE.jpg
+                  :align: middle
+                  :width: 480
+
+.. |m2_img| image:: /Media/Pi/A76/CS12800RA5101/CS12800RA5101-m2.jpg
                   :align: middle
                   :width: 576
 
-.. |lte_img| image:: /Media/Pi/A76/CS10600RA5101/CS10600RA5101-LTE.jpg
+.. |gpio_img| image:: /Media/Pi/A76/CS12800RA5101/CS12800RA5101-GPIO.jpg
                   :align: middle
-                  :width: 576
-
-.. |m2_img| image:: /Media/Pi/A76/CS10600RA5101/CS10600RA5101-m2.jpg
-                  :align: middle
-                  :width: 576
-
-.. |gpio_img| image:: /Media/Pi/A76/CS10600RA5101/CS10600RA5101-GPIO.jpg
-                  :align: middle
-                  :width: 800
+                  :width: 960
 
 .. |audio_img| image:: /Media/Pi/A76/CS12800RA5101/CS12800RA5101-Audio.jpg
                   :align: middle
@@ -152,7 +152,7 @@
 
 .. |rs232_485_can_img| image:: /Media/Pi/A76/CS12800RA5101/CS12800RA5101-Conn.jpg
                   :align: middle
-                  :width: 480
+                  :width: 960
 
 .. |lan_img| image:: /Media/Pi/A76/CS12800RA5101/CS12800RA5101-LAN.jpg 
                   :align: middle
@@ -162,7 +162,7 @@
                   :align: middle
                   :width: 384
 
-.. |td_img| image:: /Media/Pi/A76/CS12800RA5101/CS12800RA5101P-TD.png
+.. |td_img| image:: /Media/Pi/A76/CS12800RA5101/CS12800RA5101-TD.png
                   :align: middle
                   :width: 1024
 
