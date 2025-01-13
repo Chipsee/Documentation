@@ -1,6 +1,6 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. |product| replace:: PPC-CM5-070
+.. |product| replace:: EPC/PPC-CM5-070
 
 .. |productE| replace:: CS10600RA5070E
 
