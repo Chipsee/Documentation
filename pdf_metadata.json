@@ -1154,10 +1154,22 @@
         "PCs/Pi/A72/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
+        "PCs/Pi/A76/Manuals/Hardware/CS10600RA5070": {
+            "pdf-title": "EPC/PPC-CM5-070",
+            "pdf-subtitle": "PN: CS10600RA5070",
+            "pdf-filename": "EPC/PPC-CM5-070",
+            "pdf-type": "ipc"
+        },
         "PCs/Pi/A76/Manuals/Hardware/CS12720RA5050": {
             "pdf-title": "PPC-CM5-050",
             "pdf-subtitle": "PN: CS12720RA5050",
             "pdf-filename": "PPC-CM5-050",
+            "pdf-type": "ipc"
+        },
+        "PCs/Pi/A76/Manuals/Hardware/CS12800RA5101": {
+            "pdf-title": "PPC-CM5-101",
+            "pdf-subtitle": "PN: CS12800RA5101",
+            "pdf-filename": "PPC-CM5-101",
             "pdf-type": "ipc"
         },
         "PCs/Pi/A76/Manuals/Hardware/index": {

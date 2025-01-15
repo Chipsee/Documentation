@@ -46,6 +46,8 @@
 
 .. |tscreen| replace:: 5-point capacitive touch with 1mm Armored Glass
 
+.. |pcie_desc| replace:: Not Supported 
+
 .. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
 
 .. |rs232_485_can_ter| replace:: 12-pin 3.81mm terminal
@@ -200,7 +202,7 @@
 
 .. include:: Resources/audio_io
 	
-.. include:: Resources/CS12720RA5050/hdmi
+.. include:: Resources/hdmi
 
 .. include:: Resources/prog_btn
 
