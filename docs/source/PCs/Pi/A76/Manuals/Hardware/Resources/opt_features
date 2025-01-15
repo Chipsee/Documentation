@@ -3,6 +3,8 @@ Optional Features
 
 |Product| does not include the 3G/4G/LTE modules by default. These modules are optional and can be selected at the Chipsee store during the ordering process.
 
+The product has a |pcie_desc| (PCIe 3.0 is possible but experimental for CM5), you can use it with your NVMe SSD or other modules that can fit in the slot and supports the protocol. By default the NVMe SSD is not mounted.
+
 .. warning::   
 
    | Installation, repair, and maintenance tasks should be performed by trained personnel only.
