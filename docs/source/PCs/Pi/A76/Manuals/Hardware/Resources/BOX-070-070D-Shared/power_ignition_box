@@ -1,23 +1,23 @@
-Power Input
-===========
+Ignition Signal
+---------------
 
-|Product| can be powered by a wide range of input voltages: |vin_rng| DC. 
+The product has a "ignition signal" **optional** feature. By default the ignition signal is not installed. If you need this feature you can contact us when placing an order. In this setup, Pin 3 is the ignition signal pin.
 
-|power_conn_desc| As shown in the figure below.
+The DC jack doesn't support ignition signal.
+
+To use this feature, apply a 24V DC input (relative to -) to Pin 3. If Pin 3 detects a low input voltage, the product will be shutdown. If Pin 3 detects a high input voltage, the product will be boot and running.
 
 .. rst-class:: text-center
 
-    |power_img|
+  |power_img_ignition|
 
-    *Power Input*
+  *Power Input (with Ignition Signal)*
 
-Note that the "**+**" sign represents the positive power input, the "**-**" terminal is shorted to the ground.
-
-.. table:: Power Connector
+.. table:: Power Connector with Ignition Signal
    :align: center
    :width: 100%
-   :widths: auto
    :class: align-center
+   :widths: auto
 
    +-------------------------------------------------------------------------+
    | Power Input Definition                                                  |
@@ -28,11 +28,5 @@ Note that the "**+**" sign represents the positive power input, the "**-**" term
    +----------------+----------------+---------------------------------------+
    | Pin 2          | Negative Input | DC Power **Negative Terminal**        |
    +----------------+----------------+---------------------------------------+
-   | Pin 3          | Ground         | **Power System Ground**               |
+   | Pin 3          | Ignition       | **Ignition Signal**                   |
    +----------------+----------------+---------------------------------------+
-
-.. note:: 
-
-  The system ground “**G**” is connected to power negative “**-**” on board.
-
-:pagebreak:`True`

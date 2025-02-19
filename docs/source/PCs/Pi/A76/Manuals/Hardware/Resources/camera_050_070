@@ -1,7 +1,7 @@
 Camera Connector
 ----------------
 
-|Product| has a 22 Pin **Camera Connector**, as shown in the figure below. The camera signals come from CAM1.
+|Product| has a 22 Pin **Camera Connector**. The camera signals come from CAM1.
 The table below gives details about the definition of every pin. 
 
 .. rst-class:: text-center

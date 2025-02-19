@@ -210,19 +210,19 @@
 
 .. include:: Resources/power_conn
 
-.. include:: Resources/CS10600RA5070/power_jack
+.. include:: Resources/BOX-070-070D-Shared/power_jack
 
 .. include:: Resources/cap_screen
 
 .. include:: Resources/connectivity
 
-.. include:: Resources/CS10600RA5070/connectivity_table
+.. include:: Resources/BOX-070-070D-Shared/connectivity_table
 
 .. include:: Resources/connectivity_attention
 
 .. include:: Resources/gpio
 
-.. include:: Resources/CS10600RA5070/gpio_table
+.. include:: Resources/BOX-070-070D-Shared/gpio_table
 
 .. include:: Resources/USB
 
