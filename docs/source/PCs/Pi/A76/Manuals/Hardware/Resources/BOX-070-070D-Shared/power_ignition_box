@@ -30,3 +30,5 @@ To use this feature, apply a 24V DC input (relative to -) to Pin 3. If Pin 3 det
    +----------------+----------------+---------------------------------------+
    | Pin 3          | Ignition       | **Ignition Signal**                   |
    +----------------+----------------+---------------------------------------+
+
+:pagebreak:`True`
