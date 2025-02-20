@@ -70,11 +70,12 @@
 
 -----
 
+.. [#tf] |tf_des|
+
 .. [#at] The RS485 circuit controls the Input and Output direction automatically, there’s no need to control it from within the software.
 
 .. [#wi] The default product without the CM5 does not include a Wi-Fi/BT module. You can include a CM5 that has the Wi-Fi/BT module at the Chipsee store during the ordering process.
 
-.. [#tf] |tf_des|
 
 :pagebreak:`True`
 
