@@ -1172,6 +1172,12 @@
             "pdf-filename": "PPC-CM5-101",
             "pdf-type": "ipc"
         },
+        "PCs/Pi/A76/Manuals/Hardware/CSRA5BOX": {
+            "pdf-title": "CS-CM5-BOX",
+            "pdf-subtitle": "PN: CSRA5BOX",
+            "pdf-filename": "CS-CM5-BOX",
+            "pdf-type": "ipc"
+        },
         "PCs/Pi/A76/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
