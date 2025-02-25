@@ -14,9 +14,9 @@ The fanless embedded single board computer |product| (|PN|) is a |Cortex|-76 ser
 
 The offered CPU consumes very little power, around |pwr|. From the ground-up, the CPU is built for low power consumption. As such, it is best suited for mobile and power-constrained industrial or field applications. A specially designed aluminum alloy housing with fins for increased heat dissipation serves as a passive cooler, eliminating the need for built-in fans. The fanless design reduces noise, as well as the maintenance costs and efforts, leading to increased reliability at the same time.
 
-|Product| is based around the powerful RK3588 System on Chip (SoC), powered by the Rockchip RK3588 low-power processor which integrates a Quad(4)-core |Cortex|-A76 (2.4GHz) and Quad(4)-core |Cortex|-A55 (1.8GHz) processor.
+|Product| is based around the powerful RK3588J System on Chip (SoC), powered by the Rockchip RK3588J low-power processor which integrates a Quad(4)-core |Cortex|-A76 (2.0GHz) and Quad(4)-core |Cortex|-A55 (1.8GHz) processor.
 
-The RK3588 supports multi-format video decoders and has a high-performance |RAM| RAM capable of sustaining demanding memory bandwidths. It also provides a complete set of peripheral interfaces.
+The RK3588J supports multi-format video decoders and has a high-performance |RAM| RAM capable of sustaining demanding memory bandwidths. It also provides a complete set of peripheral interfaces.
 
 
 :pagebreak:`True`
