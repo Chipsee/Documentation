@@ -82,7 +82,7 @@
 
 .. |opt2| replace:: Optional (Depends on CM5)
 
-.. |vin_rng| replace:: From 12V to 36V
+.. |vin_rng| replace:: From 15V to 30V
 
 .. |cur| replace:: 1100mA max at 12V, 700mA typical at 12V
 
@@ -185,7 +185,7 @@
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images

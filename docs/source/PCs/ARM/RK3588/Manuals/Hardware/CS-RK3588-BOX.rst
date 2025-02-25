@@ -46,7 +46,7 @@
 
 .. |opt2| replace:: Integrated WiFi/BT Module
 
-.. |vin_rng| replace:: From 6V to 36V (supports **optional** 24V ignition signal)
+.. |vin_rng| replace:: From 9V to 30V (supports **optional** 24V ignition signal)
 
 .. |cur| replace:: 290mA (max) at 15V
 
@@ -164,7 +164,7 @@
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images

@@ -14,7 +14,7 @@
 
 .. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
 
-.. |vin_rng| replace:: From 6V to 36V
+.. |vin_rng| replace:: From 9V to 30V
 
 .. |rs232| replace:: default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port)
 
