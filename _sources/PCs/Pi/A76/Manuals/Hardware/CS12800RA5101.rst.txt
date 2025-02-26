@@ -1,26 +1,12 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. |product| replace:: PPC-CM5-101
+.. include:: Resources/CS12800RA5101/base_replaces
 
-.. |productE| replace:: NULL
+.. |product| replace:: PPC-CM5-101
 
 .. |productP| replace:: CS12800RA5101P
 
 .. |PN| replace:: PN: CS12800RA5101
-
-.. |cpu| replace:: Raspberry |Pi| CM5/CM5Lite; BCM2712 Quad(4) Core Cortex-A76 at 2.4GHz
-
-.. |ram_desc| replace:: 2GB, 4GB, or 8GB SDRAM based on CM5
-
-.. |emmc_desc| replace:: 0GB, 16GB, 32GB, or 64GB based on CM5
-
-.. |Product| replace:: The |product| industrial Pi PC
-
-.. |TFNum| replace:: 1
-
-.. |tf_des| replace:: TF card slot, **only** used with CM5 Lite to boot system, **cannot** be used as external storage for CM5
-
-.. |usb_hub_conflict| replace:: two USB host connectors
 
 .. |dispsize| replace:: 10.1"
 
@@ -28,71 +14,15 @@
 
 .. |bright| replace:: 400 |cd|
 
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
-.. |disp_table| replace:: |dispsize| IPS LCD, |res| px, brightness |bright|
-
-.. |mounting_table| replace:: |productP|: Panel, VESA
-
-.. |dimE| replace:: NULL
-
 .. |dimP| replace:: 276 x 194 x 46mm
 
-.. |weightE| replace:: NULL
-
 .. |weightP| replace:: 1600g
-
-.. |can_desc| replace:: 1 x CAN FD BUS,  Arbitration Bit Rate up to 1Mbps, Data Bit Rate up to 8Mbps
-
-.. |tscreen| replace:: ten-point capacitive touch with 1mm Armored Glass
-
-.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)
-
-.. |rs232_485_can_ter| replace:: phoenix terminal
-
-.. |rs232_rs485_conf| replace:: The 2 x RS485 can be configured to 2 x RS232, if you want a custom configuration, you can contact us when placing an order.
-
-.. |cap_screen_conn| replace:: USB connector
-
-.. |camera_desc| replace:: Yes, not mounted by default.
-
-.. |camera_not_mount| replace:: The camera connector is supported but not mounted by default. Please contact us when placing an order if you need to use camera on the |product|.
-
-.. |USB_attention| replace:: 1\. These two USB host connectors can drive 500mA for each channel at most. |br| 2\. These |usb_hub_conflict| come from the same USB HUB. |br| 3\. When you connect this product to the HOST PC through the Type-C port, the USB HUB will be disabled. As a result, the |usb_hub_conflict| will not work.
-
-.. |zigbee_des| replace:: No
-
-.. |USB| replace:: 2 x USB 3.0 type-A Host, 1 x USB type-C OTG
-
-.. |LAN| replace:: 1 x Giga LAN
-
-.. |TF_boot| replace:: The TF card cannot be used for memory extension. It is only used for system boot-up for CM5 LITE model.
-
-.. |gpio_conn| replace:: **phoenix connector**
-
-.. |GPIO| replace:: 8 Channels, 4 Input, 4 Output 
-
-.. |hdmi_des| replace:: 1 x HDMI 2.0 out, can be driven up to 4K 60FPS
-
-.. |power_conn_desc| replace:: It is a **3 Pin, 3.81mm screw terminal** connector.
-
-.. |pcie_desc| replace:: PCIe Gen 2 × 1 (5Gbps), M.2 M-Key 2230/2242/2260/2280 socket
-
-.. |opt1| replace:: Supported, not mounted by default
-
-.. |opt2| replace:: Optional (Depends on CM5)
-
-.. |vin_rng| replace:: From 12V to 36V
 
 .. |cur| replace:: 1100mA max at 12V, 700mA typical at 12V
 
 .. |pwr| replace:: 13.3W max, 8.4W typical
 
 .. |temp| replace:: From -20°C to +70°C
-
-.. |dim_desc| replace:: |productP|: |dimP|
-
-.. |weight_desc| replace:: |productP|: |weightP|
 
 .. _product_link: https://chipsee.com/product/ppc-cm5-101/
 
@@ -185,54 +115,10 @@
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.2*
     :class: html-only
 
-.. include:: /PCs/Shared/four_main_images
-
-.. include:: Resources/overview
-
-.. include:: Resources/ordering
-
-.. include:: Resources/opt_features
-
-.. include:: Resources/HW_features
-
-.. include:: Resources/table
-
-.. include:: Resources/power_conn
-
-.. include:: Resources/cap_screen
-
-.. include:: Resources/connectivity
-
-.. include:: Resources/CS12800RA5101/connectivity_table
-
-.. include:: Resources/connectivity_attention
-
-.. include:: Resources/gpio
-
-.. include:: Resources/CS12800RA5101/gpio_table
-
-.. include:: Resources/USB
-
-.. include:: Resources/LAN
-
-.. include:: Resources/WiFi
-
-.. include:: Resources/4G_com
-
-.. include:: Resources/m2
-
-.. include:: Resources/camera_050_070
-
-.. include:: Resources/TF
-
-.. include:: Resources/audio_io
-	
-.. include:: Resources/hdmi
-
-.. include:: Resources/prog_btn
+.. include:: Resources/CS12800RA5101/base_includes
 
 .. include:: Resources/CS12800RA5101/mounting
 
@@ -249,3 +135,4 @@ Please refer to the technical drawing in the figure below for details related to
 :pagebreak:`True`
 
 .. include:: /PCs/Shared/support
+

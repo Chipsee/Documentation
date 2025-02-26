@@ -1172,6 +1172,18 @@
             "pdf-filename": "PPC-CM5-101",
             "pdf-type": "ipc"
         },
+        "PCs/Pi/A76/Manuals/Hardware/CS19108RA5133": {
+            "pdf-title": "PPC-CM5-133",
+            "pdf-subtitle": "PN: CS19108RA5133",
+            "pdf-filename": "PPC-CM5-133",
+            "pdf-type": "ipc"
+        },
+        "PCs/Pi/A76/Manuals/Hardware/CS19108RA5156": {
+            "pdf-title": "PPC-CM5-156",
+            "pdf-subtitle": "PN: CS19108RA5156",
+            "pdf-filename": "PPC-CM5-156",
+            "pdf-type": "ipc"
+        },
         "PCs/Pi/A76/Manuals/Hardware/CSRA5BOX": {
             "pdf-title": "CS-CM5-BOX",
             "pdf-subtitle": "PN: CSRA5BOX",
