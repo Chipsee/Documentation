@@ -115,7 +115,7 @@
 |product|
 #########
 
-.. rubric:: *Version 1.1*
+.. rubric:: *Version 1.2*
     :class: html-only
 
 .. include:: Resources/CS12800RA5101/base_includes

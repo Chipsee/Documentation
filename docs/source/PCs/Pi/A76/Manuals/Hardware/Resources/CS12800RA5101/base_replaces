@@ -12,8 +12,6 @@
 
 .. |tf_des| replace:: TF card slot, **only** used with CM5 Lite to boot system, **cannot** be used as external storage for CM5
 
-.. |usb_hub_conflict| replace:: two USB host connectors
-
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |disp_table| replace:: |dispsize| IPS LCD, |res| px, brightness |bright|
@@ -40,7 +38,7 @@
 
 .. |camera_not_mount| replace:: The camera connector is supported but not mounted by default. Please contact us when placing an order if you need to use camera on the |product|.
 
-.. |USB_attention| replace:: 1\. These two USB host connectors can drive 500mA for each channel at most. |br| 2\. These |usb_hub_conflict| come from the same USB HUB. |br| 3\. When you connect this product to the HOST PC through the Type-C port, the USB HUB will be disabled. As a result, the |usb_hub_conflict| will not work.
+.. |USB_attention| replace:: 1\. These two USB host connectors can drive 500mA for each channel at most. |br| 2\. These two USB host connectors come from the same USB HUB.
 
 .. |zigbee_des| replace:: No
 
