@@ -1,0 +1,137 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. include:: Resources/CS12800RA5101/base_replaces
+
+.. |product| replace:: PPC-CM5-133
+
+.. |productP| replace:: CS19108RA5133P
+
+.. |PN| replace:: PN: CS19108RA5133
+
+.. |dispsize| replace:: 13.3"
+
+.. |res| replace:: 1920 x 1080
+
+.. |bright| replace:: 400 |cd|
+
+.. |dimP| replace:: 355 x 225 x 55mm
+
+.. |weightP| replace:: 3000g
+
+.. |cur| replace:: 1100mA max at 15V, 900mA typical at 15V 
+
+.. |pwr| replace:: 16.5W max, 13.5W typical
+
+.. |temp| replace:: From 0°C to +80°C
+
+.. _product_link: https://chipsee.com/product/ppc-cm5-133/
+
+.. |product_link| replace:: PPC-CM5-133
+
+.. |wifi_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-Wifi.jpg
+                  :align: middle
+                  :width: 960
+
+.. |tf_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-TF.jpg
+                  :align: middle
+                  :width: 480
+
+.. |camera_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-Camera.jpg
+                  :align: middle
+                  :width: 480
+
+.. |hdmi_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-HDMI.jpg
+                  :align: middle
+                  :width: 480
+
+.. |sim_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-SIM.jpg
+                  :align: middle
+                  :width: 640
+
+.. |lte_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-LTE.jpg
+                  :align: middle
+                  :width: 480
+
+.. |m2_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-m2.jpg
+                  :align: middle
+                  :width: 576
+
+.. |gpio_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-GPIO.jpg
+                  :align: middle
+                  :width: 960
+
+.. |audio_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-Audio.jpg
+                  :align: middle
+                  :width: 480
+
+.. |ts_con_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-Touch.jpg
+                  :align: middle
+                  :width: 192
+
+.. |usb_a_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-USBA.jpg
+                   :align: middle
+                   :width: 480
+
+.. |usb_c_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-USBC.jpg
+                   :align: middle
+                   :width: 480
+                   
+.. |power_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-Power.jpg     
+                  :align: middle
+                  :width: 480
+
+.. |rs232_485_can_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-Conn.jpg
+                  :align: middle
+                  :width: 960
+
+.. |lan_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-LAN.jpg 
+                  :align: middle
+                  :width: 384
+
+.. |prog_btn_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-PROG.jpg
+                  :align: middle
+                  :width: 384
+
+.. |td_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-TD.jpg
+                  :align: middle
+                  :width: 1024
+
+.. |Cover PNG| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-Front.png
+
+.. |Front View| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-Side2.jpg
+                  :class: product-img
+
+.. _PPC-CM5-133:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: Resources/CS12800RA5101/base_includes
+
+.. include:: Resources/CS12800RA5101/mounting
+
+.. include:: Resources/mechanical
+
+Please refer to the technical drawing in the figure below for details related to the specific product measurements.
+
+.. rst-class:: text-center
+
+  |td_img|
+
+  *Technical Drawing*
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support

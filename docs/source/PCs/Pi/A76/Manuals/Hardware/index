@@ -56,6 +56,37 @@ CM5
    <div class="col">
       <div class="index-item">
 
+13.3 Inch
+|PPC-CM5-133|
+
+:ref:`PPC-CM5-133<PPC-CM5-133>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+15.6 Inch
+|PPC-CM5-156|
+
+:ref:`PPC-CM5-156<PPC-CM5-156>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
 BOX
 |CS-CM5-BOX|
 
@@ -80,6 +111,14 @@ BOX
    :class: index-item-img
    :target: /PCs/Pi/A76/Manuals/Hardware/CS12800RA5101.html
 
+.. |PPC-CM5-133| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/Pi/A76/Manuals/Hardware/CS19108RA5133.html
+
+.. |PPC-CM5-156| image:: /Media/Pi/A76/CS19108RA5156/CS19108RA5156-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/Pi/A76/Manuals/Hardware/CS19108RA5156.html
+
 .. |CS-CM5-BOX| image:: /Media/Pi/A76/CSRA5BOX/CSRA5BOX-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/Pi/A76/Manuals/Hardware/CSRA5BOX.html
@@ -92,5 +131,7 @@ BOX
    PPC-CM5-050 </PCs/Pi/A76/Manuals/Hardware/CS12720RA5050>
    PPC-CM5-070 </PCs/Pi/A76/Manuals/Hardware/CS10600RA5070>
    PPC-CM5-101 </PCs/Pi/A76/Manuals/Hardware/CS12800RA5101>
+   PPC-CM5-133 </PCs/Pi/A76/Manuals/Hardware/CS19108RA5133>
+   PPC-CM5-156 </PCs/Pi/A76/Manuals/Hardware/CS19108RA5156>
    CS-CM5-BOX </PCs/Pi/A76/Manuals/Hardware/CSRA5BOX>
 
