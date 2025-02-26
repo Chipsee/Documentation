@@ -26,7 +26,7 @@
 
 .. |can_desc| replace:: 1 x CAN FD BUS,  Arbitration Bit Rate up to 1Mbps, Data Bit Rate up to 8Mbps
 
-.. |tscreen| replace:: ten-point capacitive touch with 1mm Armored Glass
+.. |tscreen| replace:: 10-point capacitive touch with 1mm Armored Glass
 
 .. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)
 

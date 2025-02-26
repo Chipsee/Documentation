@@ -30,7 +30,7 @@
 
 .. |wifi_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-Wifi.jpg
                   :align: middle
-                  :width: 960
+                  :width: 480
 
 .. |tf_img| image:: /Media/Pi/A76/CS19108RA5133/CS19108RA5133-TF.jpg
                   :align: middle
