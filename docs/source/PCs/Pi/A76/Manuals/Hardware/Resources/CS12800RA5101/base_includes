@@ -1,0 +1,45 @@
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power_conn
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/connectivity
+
+.. include:: Resources/CS12800RA5101/connectivity_table
+
+.. include:: Resources/connectivity_attention
+
+.. include:: Resources/gpio
+
+.. include:: Resources/CS12800RA5101/gpio_table
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/m2
+
+.. include:: Resources/camera_050_070
+
+.. include:: Resources/TF
+
+.. include:: Resources/audio_io
+	
+.. include:: Resources/hdmi
+
+.. include:: Resources/prog_btn
