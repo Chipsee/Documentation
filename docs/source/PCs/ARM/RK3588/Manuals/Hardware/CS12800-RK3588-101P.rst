@@ -1,0 +1,242 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: PPC-A76-101
+
+.. |productP| replace:: PPC-A76-101
+
+.. |PN| replace:: PN: CS12800-RK3588-101P
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |dispsize| replace:: 10.1"
+
+.. |res| replace:: 1280 x 800
+
+.. |bright| replace:: 400 |cd|
+
+.. |disp_des| replace:: |dispsize| 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |disp_table_des| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
+
+.. |dc_in_desc| replace:: There is a **3-pin, 3.81mm terminal** on the board.
+
+.. |mounting_table| replace:: Panel, VESA
+
+.. |gpu| replace:: ARM Mali-G610 MC4. Up to 8K60 FPS video decoding, up to 8K30 FPS video encoding.
+
+.. |npu| replace:: Neural network acceleration engine with 6Tops int8, support Int4/8/16/FP16/BF16/TF32.
+
+.. |PCIe| replace:: 1 x PCIe3.0 x4, M.2 M-Key 2230/2242/2260/2280 socket 
+
+.. |pcie_opt_feature| replace:: The product has |PCIe|, you can use it with a NVMe SSD or other modules such as a AI compute module that can fit in the slot and supports the protocol. By default, SSD or AI module is not included.
+
+.. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 2 x RS485, including 1 debug port. CAN0 and CAN1 can be configured to RS232.
+
+.. |dimE| replace:: NULL
+
+.. |dimP| replace:: 275.5 x 193.5 x 46.0mm
+
+.. |weightE| replace:: NULL
+
+.. |weightP| replace:: 1300g
+
+.. |RAM| replace:: 8GB LPDDR4
+
+.. |eMMC| replace:: 64GB
+
+.. |tscreen| replace:: 10-point capacitive touch screen
+
+.. |HDMI_des| replace:: 1 x HDMI 2.0 Out
+
+.. |USB| replace:: 2 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |LAN| replace:: 1 x RJ45, GbE
+
+.. |gpio_conn| replace:: **phoenix connector**
+
+.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
+
+.. |opt1| replace:: Supported, Optional
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |vin_rng| replace:: From 15V to 30V (supports **optional** 24V ignition signal)
+
+.. |cur| replace:: 700mA max at 15V, 400mA typical at 15V
+
+.. |pwr| replace:: 10.5W max, 6W typical
+
+.. |temp| replace:: From -20°C to +70°C
+
+.. |rs232| replace:: default 2 x RS232 (Optional 6 x RS232 at most, including 1 debug port)
+
+.. |rs485| replace:: default 2 x RS485 at most
+
+.. |can| replace:: default 2 x CAN
+
+.. |poe| replace:: N/A
+
+.. |usb_usbc_conflict| replace:: The USB-A host (near HDMI port) and USB-C **can't be used** at the same time. Before boot into OS, USB-C is enabled for install OS image; after boot into OS, USB-A is enabled but USB-C is disabled. In Android, these can be configured; in Linux, these can't be configured.
+
+.. |LAN_des| replace:: 1 x RJ45
+
+.. |vesa_screws| replace:: **75 x 75** mm or **100 x 100** mm, 4 x **M4** (6mm)
+
+.. |power_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-Power.jpg
+                  :align: middle
+                  :width: 512
+
+.. |power_img_ignition| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-Power-Ignition.jpg
+                  :align: middle
+                  :width: 768
+
+.. |wifi_bt_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-WiFi.jpg
+                  :align: middle
+                  :width: 768
+
+.. |wifi_bt_chip| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-WiFi-BT-Chip.jpg
+                  :align: middle
+                  :width: 480
+
+.. |LAN_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-LAN.jpg
+                  :align: middle
+                  :width: 384
+
+.. |audio_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-Audio.jpg
+                  :align: middle
+                  :width: 384
+
+.. |speaker_buzzer_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-Buzzer-SPK.jpg
+                  :align: middle
+                  :width: 512
+
+.. |TF_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-TF.jpg
+                  :align: middle
+                  :width: 512
+
+.. |sim_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-SIM.jpg
+                  :align: middle
+                  :width: 640
+
+.. |can_232_485_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-Conn.jpg
+                  :align: middle
+                  :width: 1024 
+
+.. |gpio_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-GPIO.jpg
+                  :align: middle
+                  :width: 1024                  
+
+.. |4g_chip_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-4GChip.jpg
+                  :align: middle
+                  :width: 640                  
+
+.. |4g_antenna_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-4GAntenna.jpg
+                  :align: middle
+                  :width: 640  
+
+.. |PROG_btn_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-Prog-Button.jpg
+                  :align: middle
+                  :width: 384
+
+.. |HDMI_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-HDMI.jpg
+                  :align: middle
+                  :width: 384
+
+.. |USB3_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-USB3.jpg
+                   :align: middle
+                   :width: 384
+
+.. |USBC_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-USBC.jpg
+                   :align: middle
+                   :width: 384
+
+.. |td_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-TD.png
+                  :align: middle
+                  :width: 1024
+
+.. _product_link: https://chipsee.com/product/ppc-A76-101/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-Front.png
+
+.. |Front View| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-Side2.jpg
+                  :class: product-img                  
+
+
+.. _PPC-A76-101:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/power_ignition
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/CS12800-RK3588-101P/connectivity
+
+.. include:: Resources/CS12800-RK3588-101P/connectivity_table
+
+.. include:: Resources/gpio
+
+.. include:: Resources/CS12800-RK3588-101P/gpio_table
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi_BT
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/TF_Card
+
+.. include:: Resources/Audio_IO
+
+.. include:: Resources/HDMI
+
+.. include:: Resources/Prog_btn
+
+.. include:: Resources/mounting
+
+:pagebreak:`True`
+
+.. include:: Resources/mechanical
+
+Please refer to the technical drawing in the figure below for details related to the specific product measurements.
+
+.. rst-class:: text-center
+
+  |td_img|
+
+  *Technical Drawing*
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support
