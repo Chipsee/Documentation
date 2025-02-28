@@ -36,7 +36,7 @@
 
 .. |product_link| replace:: PPC-CM5-070-D
 
-.. |wifi_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-Wifi.jpg
+.. |wifi_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-WIFI.jpg
                   :align: middle
                   :width: 480
 
