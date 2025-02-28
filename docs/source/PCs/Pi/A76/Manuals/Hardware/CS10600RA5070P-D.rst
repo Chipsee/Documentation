@@ -1,0 +1,201 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: PPC-CM5-070-D
+
+.. |productP| replace:: CS10600RA5070P-D
+
+.. include:: Resources/BOX-070-070D-Shared/base_replaces_070D_BOX
+
+.. |dimP| replace:: 188.05 x 123.11 x 33.20mm
+
+.. |weightP| replace:: 700g
+
+.. |dispsize| replace:: 7"
+
+.. |res| replace:: 1024 x 600
+
+.. |bright| replace:: 500 |cd|
+
+.. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+
+.. |disp_table| replace:: |dispsize| IPS LCD, |res| px, brightness |bright|
+
+.. |tscreen| replace:: 5-point capacitive touch with 1mm Armored Glass
+
+.. |cap_screen_conn| replace:: FPC connector
+
+.. |cur| replace:: 950mA max at 12V, 500mA typical at 12V 
+
+.. |pwr| replace:: 11.4W max, 6W typical
+
+.. |temp| replace:: From -10°C to +60°C
+
+.. |mounting_table| replace:: |productP|: Panel, VESA
+
+.. _product_link: https://chipsee.com/product/ppc-cm5-070-d/
+
+.. |product_link| replace:: PPC-CM5-070-D
+
+.. |wifi_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-Wifi.jpg
+                  :align: middle
+                  :width: 480
+
+.. |sim_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-SIM.jpg
+                  :align: middle
+                  :width: 576
+
+.. |lte_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-LTE.jpg
+                  :align: middle
+                  :width: 576
+
+.. |m2_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-m2.jpg
+                  :align: middle
+                  :width: 576
+
+.. |tf_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-TF.jpg
+                  :align: middle
+                  :width: 480
+
+.. |camera_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-Camera.jpg
+                  :align: middle
+                  :width: 360
+
+.. |hdmi_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-HDMI.jpg
+                  :align: middle
+                  :width: 800
+
+.. |audio_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-Audio.jpg
+                  :align: middle
+                  :width: 800
+
+.. |ts_con_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-Touch.jpg
+                  :align: middle
+                  :width: 320
+
+.. |gpio_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-GPIO.jpg
+                  :align: middle
+                  :width: 800
+
+.. |usb_a_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-USBA.jpg
+                   :align: middle
+                   :width: 480
+
+.. |usb_c_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-USBC.jpg
+                   :align: middle
+                   :width: 480
+                   
+.. |power_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-Power.jpg
+                  :align: middle
+                  :width: 640
+
+.. |power_img_ignition| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-Ignition.jpg
+                  :align: middle
+                  :width: 640
+
+.. |dc_jack_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-DCJack.jpg
+                  :align: middle
+                  :width: 576
+
+.. |rs232_485_can_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-Conn.jpg
+                  :align: middle
+                  :width: 640
+
+.. |lan_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-LAN.jpg
+                  :align: middle
+                  :width: 384
+
+.. |prog_btn_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-PROG.jpg
+                  :align: middle
+                  :width: 384
+
+.. |td_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-TD.jpg
+                  :align: middle
+                  :width: 1024
+
+.. |Cover PNG| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-Front.png
+
+.. |Front View| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-Side2.jpg
+                  :class: product-img
+
+.. _PPC-CM5-070-D:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power_conn
+
+.. include:: Resources/BOX-070-070D-Shared/power_jack
+
+.. include:: Resources/BOX-070-070D-Shared/power_ignition_box
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/connectivity
+
+.. include:: Resources/BOX-070-070D-Shared/connectivity_table
+
+.. include:: Resources/connectivity_attention
+
+.. include:: Resources/gpio
+
+.. include:: Resources/BOX-070-070D-Shared/gpio_table
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/m2
+
+.. include:: Resources/camera_050_070
+
+.. include:: Resources/TF
+
+.. include:: Resources/audio_io
+	
+.. include:: Resources/hdmi
+
+.. include:: Resources/prog_btn
+
+.. include:: Resources/CS10600RA5070P-D/mounting
+
+.. include:: Resources/mechanical
+
+Please refer to the technical drawing in the figure below for details related to the specific product measurements.
+
+.. rst-class:: text-center
+
+  |td_img|
+
+  *Technical Drawing*
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support
