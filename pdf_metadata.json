@@ -539,6 +539,12 @@
             "pdf-filename": "PPC-A76-070",
             "pdf-type": "ipc"
         },
+        "PCs/ARM/RK3588/Manuals/Hardware/CS12800-RK3588-101P": {
+            "pdf-title": "PPC-A76-101",
+            "pdf-subtitle": "PN: CS12800-RK3588-101P",
+            "pdf-filename": "PPC-A76-101",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/RK3588/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
