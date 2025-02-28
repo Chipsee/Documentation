@@ -41,6 +41,22 @@ CM5
    <div class="col">
       <div class="index-item">
 
+7 Inch(Dual LAN)
+|PPC-CM5-070-D|
+
+:ref:`PPC-CM5-070-D<PPC-CM5-070-D>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
 10.1 Inch
 |PPC-CM5-101|
 
@@ -107,6 +123,10 @@ BOX
    :class: index-item-img
    :target: /PCs/Pi/A76/Manuals/Hardware/CS10600RA5070.html
 
+.. |PPC-CM5-070-D| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/Pi/A76/Manuals/Hardware/CS10600RA5070P-D.html
+
 .. |PPC-CM5-101| image:: /Media/Pi/A76/CS12800RA5101/CS12800RA5101-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/Pi/A76/Manuals/Hardware/CS12800RA5101.html
@@ -130,6 +150,7 @@ BOX
 
    PPC-CM5-050 </PCs/Pi/A76/Manuals/Hardware/CS12720RA5050>
    PPC-CM5-070 </PCs/Pi/A76/Manuals/Hardware/CS10600RA5070>
+   PPC-CM5-070-D </PCs/Pi/A76/Manuals/Hardware/CS10600RA5070P-D>
    PPC-CM5-101 </PCs/Pi/A76/Manuals/Hardware/CS12800RA5101>
    PPC-CM5-133 </PCs/Pi/A76/Manuals/Hardware/CS19108RA5133>
    PPC-CM5-156 </PCs/Pi/A76/Manuals/Hardware/CS19108RA5156>
