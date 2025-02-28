@@ -1166,6 +1166,12 @@
             "pdf-filename": "EPC/PPC-CM5-070",
             "pdf-type": "ipc"
         },
+        "PCs/Pi/A76/Manuals/Hardware/CS10600RA5070P-D": {
+            "pdf-title": "PPC-CM5-070-D",
+            "pdf-subtitle": "PN: CS10600RA5070P-D",
+            "pdf-filename": "PPC-CM5-070-D",
+            "pdf-type": "ipc"
+        },
         "PCs/Pi/A76/Manuals/Hardware/CS12720RA5050": {
             "pdf-title": "PPC-CM5-050",
             "pdf-subtitle": "PN: CS12720RA5050",
