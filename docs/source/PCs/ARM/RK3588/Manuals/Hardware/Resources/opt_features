@@ -3,6 +3,8 @@ Optional Features
 
 |Product| does not include 4G/LTE module by default. The module is optional and can be selected at the Chipsee store during the ordering process.
 
+|pcie_opt_feature|
+
 .. warning::   
 
    Installation, repair, and maintenance tasks should be performed by trained personnel only.

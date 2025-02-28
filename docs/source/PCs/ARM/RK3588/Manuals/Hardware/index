@@ -25,6 +25,21 @@ RK3588 / A76
    <div class="col">
       <div class="index-item">
 
+10.1 Inch
+|PPC-A76-101|
+
+:ref:`PPC-A76-101<PPC-A76-101>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
 Box
 |CS-A76-BOX|
 
@@ -43,6 +58,10 @@ Box
    :class: index-item-img
    :target: /PCs/ARM/RK3588/Manuals/Hardware/CS10600-RK3588-070P.html
 
+.. |PPC-A76-101| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3588/Manuals/Hardware/CS12800-RK3588-101P.html
+
 .. |CS-A76-BOX| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/ARM/RK3588/Manuals/Hardware/CS-RK3588-BOX.html
@@ -53,4 +72,5 @@ Box
    :hidden:
 
    PPC-A76-070 </PCs/ARM/RK3588/Manuals/Hardware/CS10600-RK3588-070P>
+   PPC-A76-101 </PCs/ARM/RK3588/Manuals/Hardware/CS12800-RK3588-101P>
    CS-A76-BOX </PCs/ARM/RK3588/Manuals/Hardware/CS-RK3588-BOX>

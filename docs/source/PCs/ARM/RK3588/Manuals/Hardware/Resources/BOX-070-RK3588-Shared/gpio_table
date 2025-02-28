@@ -1,20 +1,3 @@
-GPIO
-====
- 
-|Product| features a **10-pin 3.81 mm terminal** that provides 8 x opto-isolated GPIO pins, of which 4 x are output, and 4 x are input pins. 
-The 10-pin terminal also includes an isolated PSU input in the range of 5 to 24 VDC. The exact pinout is given in follow table.
-
-The GPIO **HIGH** output level corresponds to the voltage connected at the isolated Power Input, while the GPIO **LOW** output level corresponds to the 
-isolated Ground Input. Each GPIO output can drive loads up to 500mA, enough to drive various applications directly, such as relays or solenoid valves.
-
-.. rst-class:: text-center
-
-  |gpio_img|
-
-  *GPIO Terminal*
-
-.. include:: /PCs/Shared/Hardware/gpio_image
-
 .. table:: GPIO Pinout
     :align: center
     :width: 100%
@@ -23,7 +6,7 @@ isolated Ground Input. Each GPIO output can drive loads up to 500mA, enough to d
     +----------------+-----------------------------+------------+------------+
     | **Pin Number** | **Definition**              | GPIOD Chip | GPIOD Line |
     +================+=============================+============+============+
-    | Pin 1          | Isolated Power Input\ [#i]_ |            |            |
+    | Pin 1          | Isolated Power Input        |            |            |
     +----------------+-----------------------------+------------+------------+
     | Pin 2          | Isolated Ground Input       |            |            |
     +----------------+-----------------------------+------------+------------+
@@ -43,12 +26,5 @@ isolated Ground Input. Each GPIO output can drive loads up to 500mA, enough to d
     +----------------+-----------------------------+------------+------------+
     | Pin 10         | IN4                         | 1          | 6          |
     +----------------+-----------------------------+------------+------------+
-
------
-
-.. [#i] | If the isolation is not a requirement, it is possible to use a non-isolated PSU instead.
-        | It is also possible to use the onboard 5V power supply: it can be re-routed to the *Isolated Power Input* pin by populating two PCB resistor footprints with 0Ω resistors. 
-        | Note that in this case, the *Isolated Power Input* pin will become an output for the onboard 5V power supply. 
-
 
 :pagebreak:`True`

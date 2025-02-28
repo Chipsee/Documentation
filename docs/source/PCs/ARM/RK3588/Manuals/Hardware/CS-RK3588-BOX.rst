@@ -12,11 +12,15 @@
 
 .. |disp_des| replace:: N/A
 
+.. |dc_in_desc| replace:: There are two DC input interfaces on this device: a **3-pin, 3.81mm terminal**, and a **2.1mm I.D x 5.5mm O.D x 9.5mm DC connector**.
+
 .. |mounting_table| replace:: Rear, VESA
 
 .. |gpu| replace:: ARM Mali-G610 MC4. Up to 8K60 FPS video decoding, up to 8K30 FPS video encoding.
 
 .. |npu| replace:: Neural network acceleration engine with 6Tops int8, support Int4/8/16/FP16/BF16/TF32.
+
+.. |pcie_opt_feature| replace:: This product doesn't have M.2 PCIe socket.
 
 .. |disp_table_des| replace:: N/A
 
@@ -28,7 +32,7 @@
 
 .. |RAM| replace:: 8GB LPDDR4
 
-.. |SSD| replace:: N/A
+.. |PCIe| replace:: N/A
 
 .. |eMMC| replace:: 64GB
 
@@ -41,6 +45,8 @@
 .. |LAN| replace:: 2 x RJ45, GbE
 
 .. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
+
+.. |gpio_conn| replace:: **10-pin 3.81 mm terminal**
 
 .. |opt1| replace:: Supported, Optional
 
@@ -179,13 +185,19 @@
 
 .. include:: Resources/table
 
-.. include:: Resources/BOX-070-RK3588-Shared/power_070P
+.. include:: Resources/power
 
 .. include:: Resources/BOX-070-RK3588-Shared/power_jack
 
-.. include:: Resources/BOX-070-RK3588-Shared/power_ignition_070P
+.. include:: Resources/power_ignition
 
 .. include:: Resources/BOX-070-RK3588-Shared/connectivity_070P
+
+.. include:: Resources/BOX-070-RK3588-Shared/connectivity_table
+
+.. include:: Resources/gpio
+
+.. include:: Resources/BOX-070-RK3588-Shared/gpio_table
 
 .. include:: Resources/USB
 
@@ -194,8 +206,6 @@
 .. include:: Resources/WiFi_BT
 
 .. include:: Resources/4G_com
-
-.. include:: Resources/BOX-070-RK3588-Shared/gpio_070P
 
 .. include:: Resources/TF_Card
 
