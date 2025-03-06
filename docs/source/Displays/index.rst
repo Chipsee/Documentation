@@ -107,7 +107,7 @@ Industrial Touch Displays
    <div class="col">
       <div class="index-item">
 
-17.0 Inch
+17.0 Inch (Grey)
 |PIM-170-C|
 
 :ref:`PIM-170-C<PIM-170-C>`
@@ -122,7 +122,22 @@ Industrial Touch Displays
    <div class="col">
       <div class="index-item">
 
-18.5 Inch
+17.0 Inch (Black)
+|PIM-170-P|
+
+:ref:`PIM-170-P<PIM-170-P>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+18.5 Inch (Grey)
 |PIM-185-C|
 
 :ref:`PIM-185-C<PIM-185-C>`
@@ -138,7 +153,24 @@ Industrial Touch Displays
    <div class="col">
       <div class="index-item">
 
-19.0 Inch
+
+18.5 Inch (Black)
+|PIM-185-P|
+
+:ref:`PIM-185-P<PIM-185-P>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+
+19.0 Inch (Grey)
 |PIM-190-C|
 
 :ref:`PIM-190-C<PIM-190-C>`
@@ -153,7 +185,22 @@ Industrial Touch Displays
    <div class="col">
       <div class="index-item">
 
-21.5 Inch
+19.0 Inch (Black)
+|PIM-190-P|
+
+:ref:`PIM-190-P<PIM-190-P>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+21.5 Inch (Grey)
 |PIM-215-C|
 
 :ref:`PIM-215-C<PIM-215-C>`
@@ -168,10 +215,41 @@ Industrial Touch Displays
    <div class="col">
       <div class="index-item">
 
-23.6 Inch
+21.5 Inch (Black)
+|PIM-215-P|
+
+:ref:`PIM-215-P<PIM-215-P>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+23.6 Inch (Grey)
 |PIM-236-C|
 
 :ref:`PIM-236-C<PIM-236-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+
+23.6 Inch (Black)
+|PIM-236-P|
+
+:ref:`PIM-236-P<PIM-236-P>`
 
 .. raw:: html
 
@@ -219,18 +297,33 @@ Industrial Touch Displays
 .. |PIM-170-C| image:: /Media/Displays/PIM-170-C/pim-170-front-Low.jpg
    :class: index-item-img
    :target: /Displays/PIM-170-C.html
+.. |PIM-170-P| image:: /Media/Displays/PIM-170-P/pim-170p-front-Low.jpg
+   :class: index-item-img
+   :target: /Displays/PIM-170-P.html   
 .. |PIM-185-C| image:: /Media/Displays/PIM-185-C/pim-185-front-Low.jpg
    :class: index-item-img
    :target: /Displays/PIM-185-C.html
+.. |PIM-185-P| image:: /Media/Displays/PIM-185-P/pim-185p-front-Low.jpg
+   :class: index-item-img
+   :target: /Displays/PIM-185-P.html      
 .. |PIM-190-C| image:: /Media/Displays/PIM-190-C/pim-190-front-Low.jpg
    :class: index-item-img
    :target: /Displays/PIM-190-C.html
+.. |PIM-190-P| image:: /Media/Displays/PIM-190-P/pim-190p-front-Low.jpg
+   :class: index-item-img
+   :target: /Displays/PIM-190-P.html        
 .. |PIM-215-C| image:: /Media/Displays/PIM-215-C/pim-215-front-Low.jpg
    :class: index-item-img
    :target: /Displays/PIM-215-C.html
+.. |PIM-215-P| image:: /Media/Displays/PIM-215-P/pim-215p-front-Low.jpg
+   :class: index-item-img
+   :target: /Displays/PIM-215-P.html      
 .. |PIM-236-C| image:: /Media/Displays/PIM-236-C/pim-236-front-Low.jpg
    :class: index-item-img
    :target: /Displays/PIM-236-C.html
+.. |PIM-236-P| image:: /Media/Displays/PIM-236-P/pim-236p-front-Low.jpg
+   :class: index-item-img
+   :target: /Displays/PIM-236-P.html      
 .. |PIM-270-C| image:: /Media/Displays/PIM-270-C/pim-270-front-Low.jpg
    :class: index-item-img
    :target: /Displays/PIM-270-C.html
@@ -249,10 +342,15 @@ Industrial Touch Displays
    PIM-156-C <PIM-156-C>
    PIM-156-P <PIM-156-C-P>
    PIM-170-C <PIM-170-C>
+   PIM-170-P <PIM-170-P>
    PIM-185-C <PIM-185-C>
+   PIM-185-P <PIM-185-P>   
    PIM-190-C <PIM-190-C>
+   PIM-190-P <PIM-190-P>   
    PIM-215-C <PIM-215-C>
+   PIM-215-P <PIM-215-P>   
    PIM-236-C <PIM-236-C>
+   PIM-236-P <PIM-236-P>
    PIM-270-C <PIM-270-C>
 
 
