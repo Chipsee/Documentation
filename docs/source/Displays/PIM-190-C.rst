@@ -22,6 +22,8 @@
 
 .. |con_ratio| replace:: 1000:1
 
+.. |glass| replace:: 3mm Tempered Glass with Black Silk-screen
+
 .. |v_angle| replace:: 	Horizontal: 170° / Vertical: 160°
 
 .. |res_time| replace:: 5ms (GTG)

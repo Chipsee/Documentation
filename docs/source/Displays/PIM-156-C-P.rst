@@ -4,55 +4,23 @@
 :pdf-type: displays
 :pdf-revision: 1.2
 
+.. include:: Shared/PIM-156-P/base_replaces_pim_156_p
+
 .. |product| replace:: PIM-156-P
 
 .. |PN| replace:: PN: CS-D156P
-
-.. |Product| replace:: The |product| industrial display
 
 .. |dispsize| replace:: 15.6"
 
 .. |res| replace:: 1920 x 1080 (16:9)
 
-.. |bright| replace:: 400 |cd|
-
-.. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
-.. |con_ratio| replace:: 800:1
-
-.. |v_angle| replace:: 	Horizontal: 178° / Vertical: 178°
-
-.. |res_time| replace:: 35ms (GTG)
-
-.. |disp_col| replace:: 16.2M Colors
-
-.. |in_res| replace:: |res| @ 60Hz
-
-.. |connector| replace:: VGA / HDMI
-
 .. |dim| replace:: 400 × 256 × 52.5mm
 
 .. |pkg_size| replace:: 440 x 325 x 90mm
 
+.. |glass| replace:: 3mm Tempered Glass with Black Silk-screen
+
 .. |weight| replace:: 4200g
-
-.. |mount| replace:: VESA and PANEL
-
-.. |pwr| replace:: ≤ 24W
-
-.. |standby| replace:: ≤ 2W
-
-.. |vin_rng| replace:: 12V 3A DC(default), 9-30V (optional)
-
-.. |osd_lang| replace:: Multilingual Support
-
-.. |accessories| replace:: Bracket / Power Line / VGA Line / USB Line / Power Adapter
-
-.. |resp_time| replace:: 25ms to 35ms
-
-.. |multi_touch_support| replace:: Based on the operating system of the host PC
-
-.. |os| replace:: N/A
 
 .. _product_link: https://chipsee.com/product/pim-156-p/
 
