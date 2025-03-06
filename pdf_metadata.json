@@ -77,12 +77,26 @@
             "pdf-type": "displays",
             "pdf-revision": "1.1"
         },
+        "Displays/PIM-170-P": {
+            "pdf-title": "PIM-170-P",
+            "pdf-subtitle": "PN: CS-D170P",
+            "pdf-filename": "PIM-170-P",
+            "pdf-type": "displays",
+            "pdf-revision": "1.0"
+        },
         "Displays/PIM-185-C": {
             "pdf-title": "PIM-185-C",
             "pdf-subtitle": "PN: CS-D185",
             "pdf-filename": "PIM-185-C",
             "pdf-type": "displays",
             "pdf-revision": "1.1"
+        },
+        "Displays/PIM-185-P": {
+            "pdf-title": "PIM-185-P",
+            "pdf-subtitle": "PN: CS-D185P",
+            "pdf-filename": "PIM-185-P",
+            "pdf-type": "displays",
+            "pdf-revision": "1.0"
         },
         "Displays/PIM-190-C": {
             "pdf-title": "PIM-190-C",
@@ -91,6 +105,13 @@
             "pdf-type": "displays",
             "pdf-revision": "1.1"
         },
+        "Displays/PIM-190-P": {
+            "pdf-title": "PIM-190-P",
+            "pdf-subtitle": "PN: CS-D190P",
+            "pdf-filename": "PIM-190-P",
+            "pdf-type": "displays",
+            "pdf-revision": "1.0"
+        },
         "Displays/PIM-215-C": {
             "pdf-title": "PIM-215-C",
             "pdf-subtitle": "PN: CS-D215",
@@ -98,12 +119,26 @@
             "pdf-type": "displays",
             "pdf-revision": "1.1"
         },
+        "Displays/PIM-215-P": {
+            "pdf-title": "PIM-215-P",
+            "pdf-subtitle": "PN: CS-D215P",
+            "pdf-filename": "PIM-215-P",
+            "pdf-type": "displays",
+            "pdf-revision": "1.0"
+        },
         "Displays/PIM-236-C": {
             "pdf-title": "PIM-236-C",
             "pdf-subtitle": "PN: CS-D236",
             "pdf-filename": "PIM-236-C",
             "pdf-type": "displays",
             "pdf-revision": "1.1"
+        },
+        "Displays/PIM-236-P": {
+            "pdf-title": "PIM-236-P",
+            "pdf-subtitle": "PN: CS-D236P",
+            "pdf-filename": "PIM-236-P",
+            "pdf-type": "displays",
+            "pdf-revision": "1.0"
         },
         "Displays/PIM-270-C": {
             "pdf-title": "PIM-270-C",
