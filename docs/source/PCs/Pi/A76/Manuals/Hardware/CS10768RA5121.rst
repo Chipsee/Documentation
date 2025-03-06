@@ -1,0 +1,125 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. include:: Resources/CS12800RA5101/base_replaces
+
+.. |product| replace:: PPC-CM5-121
+
+.. |productP| replace:: CS10768RA5121P
+
+.. |PN| replace:: PN: CS10768RA5121
+
+.. |dispsize| replace:: 12.1"
+
+.. |res| replace:: 1024 x 768
+
+.. |bright| replace:: 400 |cd|
+
+.. |dimP| replace:: 320.5 * 260 * 56.5mm
+
+.. |weightP| replace:: 3100g
+
+.. |cur| replace:: 900mA max at 15V, 650mA typical at 15V
+
+.. |pwr| replace:: 13.5W max, 9.8W typical
+
+.. |temp| replace:: From -20°C to +70°C
+
+.. _product_link: https://chipsee.com/product/ppc-cm5-121/
+
+.. |product_link| replace:: PPC-CM5-121
+
+.. |wifi_img| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-Wifi.jpg
+                  :align: middle
+                  :width: 480
+
+.. |tf_img| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-TF.jpg
+                  :align: middle
+                  :width: 480
+
+.. |camera_img| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-Camera.jpg
+                  :align: middle
+                  :width: 480
+
+.. |hdmi_img| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-HDMI.jpg
+                  :align: middle
+                  :width: 480
+
+.. |sim_img| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-SIM.jpg
+                  :align: middle
+                  :width: 640
+
+.. |lte_img| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-LTE.jpg
+                  :align: middle
+                  :width: 480
+
+.. |m2_img| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-m2.jpg
+                  :align: middle
+                  :width: 576
+
+.. |gpio_img| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-GPIO.jpg
+                  :align: middle
+                  :width: 960
+
+.. |audio_img| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-Audio.jpg
+                  :align: middle
+                  :width: 480
+
+.. |ts_con_img| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-Touch.jpg
+                  :align: middle
+                  :width: 192
+
+.. |usb_a_img| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-USBA.jpg
+                   :align: middle
+                   :width: 480
+
+.. |usb_c_img| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-USBC.jpg
+                   :align: middle
+                   :width: 480
+                   
+.. |power_img| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-Power.jpg     
+                  :align: middle
+                  :width: 480
+
+.. |rs232_485_can_img| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-Conn.jpg
+                  :align: middle
+                  :width: 960
+
+.. |lan_img| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-LAN.jpg 
+                  :align: middle
+                  :width: 384
+
+.. |prog_btn_img| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-PROG.jpg
+                  :align: middle
+                  :width: 384
+
+.. |Cover PNG| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-Front.png
+
+.. |Front View| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/Pi/A76/CS10768RA5121/CS10768RA5121-Side2.jpg
+                  :class: product-img
+
+.. _PPC-CM5-121:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: Resources/CS12800RA5101/base_includes
+
+.. include:: Resources/CS12800RA5101/mounting
+
+.. include:: Resources/mechanical
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support

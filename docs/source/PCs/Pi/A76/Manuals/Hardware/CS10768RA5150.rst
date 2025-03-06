@@ -1,0 +1,125 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. include:: Resources/CS12800RA5101/base_replaces
+
+.. |product| replace:: PPC-CM5-150
+
+.. |productP| replace:: CS10768RA5150P
+
+.. |PN| replace:: PN: CS10768RA5150
+
+.. |dispsize| replace:: 15.0"
+
+.. |res| replace:: 1024 x 768
+
+.. |bright| replace:: 400 |cd|
+
+.. |dimP| replace:: 376 x 300 x 57mm
+
+.. |weightP| replace:: 4500g
+
+.. |cur| replace:: 1100mA max at 15V, 800mA typical at 15V 
+
+.. |pwr| replace:: 16.5W max, 12W typical
+
+.. |temp| replace:: From -20°C to +70°C
+
+.. _product_link: https://chipsee.com/product/ppc-cm5-150/
+
+.. |product_link| replace:: PPC-CM5-150
+
+.. |wifi_img| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-Wifi.jpg
+                  :align: middle
+                  :width: 480
+
+.. |tf_img| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-TF.jpg
+                  :align: middle
+                  :width: 480
+
+.. |camera_img| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-Camera.jpg
+                  :align: middle
+                  :width: 480
+
+.. |hdmi_img| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-HDMI.jpg
+                  :align: middle
+                  :width: 480
+
+.. |sim_img| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-SIM.jpg
+                  :align: middle
+                  :width: 640
+
+.. |lte_img| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-LTE.jpg
+                  :align: middle
+                  :width: 480
+
+.. |m2_img| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-m2.jpg
+                  :align: middle
+                  :width: 576
+
+.. |gpio_img| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-GPIO.jpg
+                  :align: middle
+                  :width: 960
+
+.. |audio_img| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-Audio.jpg
+                  :align: middle
+                  :width: 480
+
+.. |ts_con_img| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-Touch.jpg
+                  :align: middle
+                  :width: 192
+
+.. |usb_a_img| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-USBA.jpg
+                   :align: middle
+                   :width: 480
+
+.. |usb_c_img| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-USBC.jpg
+                   :align: middle
+                   :width: 480
+                   
+.. |power_img| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-Power.jpg     
+                  :align: middle
+                  :width: 480
+
+.. |rs232_485_can_img| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-Conn.jpg
+                  :align: middle
+                  :width: 960
+
+.. |lan_img| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-LAN.jpg 
+                  :align: middle
+                  :width: 384
+
+.. |prog_btn_img| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-PROG.jpg
+                  :align: middle
+                  :width: 384
+
+.. |Cover PNG| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-Front.png
+
+.. |Front View| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/Pi/A76/CS10768RA5150/CS10768RA5150-Side2.jpg
+                  :class: product-img
+
+.. _PPC-CM5-150:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: Resources/CS12800RA5101/base_includes
+
+.. include:: Resources/CS12800RA5101/mounting
+
+.. include:: Resources/mechanical
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support
