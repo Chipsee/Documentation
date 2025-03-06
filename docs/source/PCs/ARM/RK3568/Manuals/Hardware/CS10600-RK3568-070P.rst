@@ -30,11 +30,11 @@
 
 .. |weightP| replace:: null
 
-.. |RAM| replace:: 2GB LPDDR4
+.. |RAM| replace:: 4GB LPDDR4
 
 .. |SSD| replace:: N/A
 
-.. |eMMC| replace:: 16GB
+.. |eMMC| replace:: 32GB
 
 .. |tscreen| replace:: 5-point capacitive touch screen
 
