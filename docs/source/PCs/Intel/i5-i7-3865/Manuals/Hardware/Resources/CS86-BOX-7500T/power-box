@@ -1,0 +1,20 @@
+Power Input
+===========
+
+|Product| should be powered by 9-36V DC. 
+
+.. rst-class:: text-center
+
+   |power_img|
+
+   *DC Power Input*
+
+The POWER button can be used to switch the power ON or OFF.
+
+.. rst-class:: text-center
+
+   |power_button|
+
+   *Power Button*
+
+:pagebreak:`True`
