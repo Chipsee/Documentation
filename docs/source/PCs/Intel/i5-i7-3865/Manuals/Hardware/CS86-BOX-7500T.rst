@@ -1,0 +1,113 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: CS86-BOX-7500T
+
+.. |PN| replace:: PN: CS86-BOX-7500T
+
+.. _product_link: https://chipsee.com/product/cs86-box-7500t
+
+.. |product_link| replace:: |product|
+                  
+.. _CS86-Box-7500T:
+
+.. |cpu_name| replace:: i5 7500T
+
+.. |cpu_spec| replace:: Quad(4) Core 4 Threads, 2.7GHz Base Frequency, 3.3GHz Turbo Frequency
+
+.. |os_support| replace:: Ubuntu Linux(default), Windows 7, Windows 8.1, Windows 10, Windows 11 
+
+.. |Product| replace:: The |product| Industrial Box PC 
+
+.. |dim| replace:: 260 x 187 x 52mm
+
+.. |Cover PNG| image:: /Media/Intel/i5-i7-3865/CS86-BOX-7500T/CS86-BOX-7500T-Front.png
+
+.. |Front View| image:: /Media/Intel/i5-i7-3865/CS86-BOX-7500T/CS86-BOX-7500T-Front.jpg
+                  :class: product-img
+
+
+.. |Rear View| image:: /Media/Intel/i5-i7-3865/CS86-BOX-7500T/CS86-BOX-7500T-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Intel/i5-i7-3865/CS86-BOX-7500T/CS86-BOX-7500T-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/Intel/i5-i7-3865/CS86-BOX-7500T/CS86-BOX-7500T-Side2.jpg
+                  :class: product-img 
+
+.. |power_img| image:: /Media/Intel/i5-i7-3865/CS86-BOX-7500T/CS86-BOX-7500T-Power.jpg
+                  :align: middle
+                  :width: 384
+
+.. |power_button| image:: /Media/Intel/i5-i7-3865/CS86-BOX-7500T/CS86-BOX-7500T-PowerBtn.jpg
+                  :align: middle
+                  :width: 384
+
+.. |com_img| image:: /Media/Intel/i5-i7-3865/CS86-BOX-7500T/CS86-BOX-7500T-COM.jpg
+                  :align: middle
+                  :width: 800
+
+.. |usb_img_1| image:: /Media/Intel/i5-i7-3865/CS86-BOX-7500T/CS86-BOX-7500T-USB.jpg
+                  :align: middle
+                  :width: 800
+
+.. |lan_img| image:: /Media/Intel/i5-i7-3865/CS86-BOX-7500T/CS86-BOX-7500T-LAN.jpg
+                  :align: middle
+                  :width: 640
+
+.. |audio_img| image:: /Media/Intel/i5-i7-3865/CS86-BOX-7500T/CS86-BOX-7500T-Audio.jpg
+                  :align: middle
+                  :width: 640
+
+.. |hdmi_dp_img| image:: /Media/Intel/i5-i7-3865/CS86-BOX-7500T/CS86-BOX-7500T-HDMIDP.jpg
+                  :align: middle
+                  :width: 640
+
+.. |td_img| image:: /Media/Intel/i5-i7-3865/CS86-BOX-7500T/CS86-BOX-7500T-TD.jpg
+                  :align: middle
+                  :width: 1080
+
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/CS86-BOX-7500T/overview-box
+
+.. include:: Resources/CS86-BOX-7500T/ordering
+
+.. include:: Resources/CS86-BOX-7500T/opt_features
+
+.. include:: Resources/CS86-BOX-7500T/HW_features
+
+.. include:: Resources/CS86-BOX-7500T/table-box
+
+.. include:: Resources/CS86-BOX-7500T/power-box
+
+.. include:: Resources/CS86-BOX-7500T/connectivity-box
+
+.. include:: Resources/CS86-BOX-7500T/USB
+
+.. include:: Resources/CS86-BOX-7500T/LAN
+
+.. include:: Resources/CS86-BOX-7500T/HDMI-box
+    
+.. include:: Resources/CS86-BOX-7500T/audio-box
+
+.. include:: Resources/CS86-BOX-7500T/mounting
+
+.. include:: Resources/CS86-BOX-7500T/mechspecs
+
+.. rst-class:: text-center
+
+   |td_img|
+ 
+   |product| Technical Drawing
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support
