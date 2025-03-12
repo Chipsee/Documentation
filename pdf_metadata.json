@@ -1039,6 +1039,12 @@
             "pdf-filename": "CS86-BOX-5500U",
             "pdf-type": "ipc"
         },
+        "PCs/Intel/i5-i7-3865/Manuals/Hardware/CS86-BOX-7500T": {
+            "pdf-title": "CS86-BOX-7500T",
+            "pdf-subtitle": "PN: CS86-BOX-7500T",
+            "pdf-filename": "CS86-BOX-7500T",
+            "pdf-type": "ipc"
+        },
         "PCs/Intel/i5-i7-3865/Manuals/Hardware/PPC-10510U-150-C": {
             "pdf-title": "PPC-10510U-150-C",
             "pdf-subtitle": "PN: PPC-10510U-150-C",
