@@ -1,0 +1,142 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. include:: Resources/CS12800RA5101/base_replaces
+
+.. |product| replace:: PPC-CM5-236
+
+.. |productP| replace:: CS19108RA5236P
+
+.. |PN| replace:: PN: CS19108RA5236
+
+.. |dispsize| replace:: 23.6"
+
+.. |res| replace:: 1920 x 1080
+
+.. |bright| replace:: 250 |cd|
+
+.. |dimP| replace:: 595 x 374 x 57.25mm
+
+.. |weightP| replace:: 7500g
+
+.. |cur| replace:: 1700mA max at 15V, 1500mA typical at 15V
+
+.. |pwr| replace:: 26W max, 23W typical
+
+.. |temp| replace:: From 0°C to +50°C
+
+.. _product_link: https://chipsee.com/product/ppc-cm5-236/
+
+.. |product_link| replace:: PPC-CM5-236
+
+.. |wifi_img| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-Wifi.jpg
+                  :align: middle
+                  :width: 480
+
+.. |tf_img| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-TF.jpg
+                  :align: middle
+                  :width: 480
+
+.. |camera_img| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-Camera.jpg
+                  :align: middle
+                  :width: 480
+
+.. |hdmi_img| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-HDMI.jpg
+                  :align: middle
+                  :width: 480
+
+.. |sim_img| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-SIM.jpg
+                  :align: middle
+                  :width: 640
+
+.. |lte_img| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-LTE.jpg
+                  :align: middle
+                  :width: 480
+
+.. |m2_img| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-m2.jpg
+                  :align: middle
+                  :width: 576
+
+.. |gpio_img| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-GPIO.jpg
+                  :align: middle
+                  :width: 960
+
+.. |audio_img| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-Audio.jpg
+                  :align: middle
+                  :width: 480
+
+.. |ts_con_img| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-Touch.jpg
+                  :align: middle
+                  :width: 192
+
+.. |usb_a_img| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-USBA.jpg
+                   :align: middle
+                   :width: 480
+
+.. |usb_c_img| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-USBC.jpg
+                   :align: middle
+                   :width: 480
+                   
+.. |power_img| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-Power.jpg     
+                  :align: middle
+                  :width: 480
+
+.. |power_img_ignition| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-Ignition.jpg
+                  :align: middle
+                  :width: 640
+
+.. |rs232_485_can_img| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-Conn.jpg
+                  :align: middle
+                  :width: 960
+
+.. |lan_img| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-LAN.jpg 
+                  :align: middle
+                  :width: 384
+
+.. |prog_btn_img| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-PROG.jpg
+                  :align: middle
+                  :width: 384
+
+.. |td_img| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-TD.png
+                  :align: middle
+                  :width: 1024
+
+.. |Cover PNG| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-Front.png
+
+.. |Front View| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/Pi/A76/CS19108RA5236/CS19108RA5236-Side2.jpg
+                  :class: product-img
+
+.. _PPC-CM5-236:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: Resources/CS12800RA5101/base_includes
+
+.. include:: Resources/CS12800RA5101/mounting
+
+.. include:: Resources/mechanical
+
+Please refer to the technical drawing in the figure below for details related to the specific product measurements.
+
+.. rst-class:: text-center
+
+  |td_img|
+
+  *Technical Drawing*
+
+:pagebreak:`True`
+
+
+.. include:: /PCs/Shared/support
