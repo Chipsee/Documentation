@@ -51,6 +51,21 @@ Handhelds Powered by MediaTek
    </div>
 
 .. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+10.1 Inch
+|HPC-MT6765-101|
+
+:ref:`HPC-MT6765-101<HPC-MT6765-101>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
    
    </div>
 
@@ -63,6 +78,9 @@ Handhelds Powered by MediaTek
 .. |HPC-MT6771-080| image:: /Media/MTK/MT6771/080/HPC-MT6771-080-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/MTK/MT6771/Manuals/Hardware/HPC-MT6771-080.html
+.. |HPC-MT6765-101| image:: /Media/MTK/MT6765/101/HPC-MT6765-101-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/MTK/MT6765/Manuals/Hardware/HPC-MT6765-101.html
 
 .. toctree::
    :maxdepth: 1
@@ -72,3 +90,4 @@ Handhelds Powered by MediaTek
    HPC-MT6737-035 </PCs/MTK/MT6737/Manuals/Hardware/HPC-MT6737-035>
    HPC-MT6762-057 </PCs/MTK/MT6762/Manuals/Hardware/HPC-MT6762-057>
    HPC-MT6771-080 </PCs/MTK/MT6771/Manuals/Hardware/HPC-MT6771-080>
+   HPC-MT6765-101 </PCs/MTK/MT6765/Manuals/Hardware/HPC-MT6765-101>
