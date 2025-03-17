@@ -1075,6 +1075,12 @@
         "PCs/MTK/MT6762/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
+        "PCs/MTK/MT6765/Manuals/Hardware/HPC-MT6765-101": {
+            "pdf-title": "HPC-MT6765-101",
+            "pdf-subtitle": "PN: HPC-MT6765-101",
+            "pdf-filename": "HPC-MT6765-101",
+            "pdf-type": "ipc"
+        },
         "PCs/MTK/MT6771/Manuals/Hardware/HPC-MT6771-080": {
             "pdf-title": "HPC-MT6771-080",
             "pdf-subtitle": "PN: HPC-MT6771-080",
