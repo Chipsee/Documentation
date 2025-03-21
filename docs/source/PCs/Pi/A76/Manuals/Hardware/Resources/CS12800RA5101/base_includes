@@ -12,6 +12,8 @@
 
 .. include:: Resources/power_conn
 
+.. include:: Resources/CS12800RA5101/power_ignition
+
 .. include:: Resources/cap_screen
 
 .. include:: Resources/connectivity
