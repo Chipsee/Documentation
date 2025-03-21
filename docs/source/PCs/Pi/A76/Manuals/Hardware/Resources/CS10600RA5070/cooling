@@ -1,0 +1,18 @@
+Cooling
+=======
+
+The enclosed version doesn't have fan inside, it takes advantage of the metal casing as a passive cooling medium.
+
+.. rst-class:: text-center
+
+    |cooling_img_p|
+
+    *Passive Cooling with Metal Case*
+
+The embedded PC version (without the metal casing) is active cooling with a small fan.
+
+.. rst-class:: text-center
+
+    |cooling_img_e|
+
+    *Active Cooling with Fan*

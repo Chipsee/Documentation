@@ -166,6 +166,14 @@
                   :align: middle
                   :width: 384
 
+.. |cooling_img_p| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-cooling-p.jpg
+                  :align: middle
+                  :width: 800
+
+.. |cooling_img_e| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-cooling-e.jpg
+                  :align: middle
+                  :width: 800
+
 .. |td_img_p| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-TD.jpg
                   :align: middle
                   :width: 1024
@@ -173,6 +181,7 @@
 .. |td_img_e| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070E-TD.jpeg
                   :align: middle
                   :width: 1024
+                  
 .. |Cover PNG| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Front.png
 
 .. |Front View| image:: /Media/Pi/A76/CS10600RA5070/CS10600RA5070-Front.jpg
@@ -243,6 +252,8 @@
 .. include:: Resources/hdmi
 
 .. include:: Resources/prog_btn
+
+.. include:: Resources/CS10600RA5070/cooling
 
 .. include:: Resources/CS10600RA5070/mounting
 
