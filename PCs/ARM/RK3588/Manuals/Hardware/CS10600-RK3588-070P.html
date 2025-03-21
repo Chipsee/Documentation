@@ -770,6 +770,10 @@ with the other hand. In this case, the operator’s body acts as the Power Syste
 <section id="usb-connectors">
 <h3 id="usb-connectors">USB Connectors<a class="headerlink" href="#usb-connectors" title="Permalink to this heading">¶</a></h3>
 <p>There are 2 x <strong>USB HOST</strong> and 1 x <strong>USB DEVICE</strong> (for flashing OS) ports onboard: 2 x USB 3.0 HOST, 1 x USB Type-C, as shown in the figures below.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>Please unplug USB mouse/keyboard</strong> near RJ45 when flashing OS.</p>
+</div>
 <p>The USB-A host (near RJ45) and USB-C <strong>can’t be used</strong> at the same time. Before boot into OS, USB-C is enabled for install OS image; after boot into OS, USB-A is enabled but USB-C is disabled. In Android, these can be configured; in Linux, these can’t be configured.</p>
 <p class="text-center"><a class="reference internal" href="../../../../../_images/CS10600-RK3588-070P-USB3.jpg"><img alt="USB3_img" class="align-middle" src="../../../../../_images/CS10600-RK3588-070P-USB3.jpg" style="width: 384px;"/></a></p>
 <p class="text-center"><em>USB 3.0 HOST Port</em></p>
@@ -927,7 +931,7 @@ When the button is pressed before powering up, the PPC-A76-070 will enter MASKRO
               
           </div>
             Last updated on
-              Mar 17, 2025.
+              Mar 21, 2025.
             <br/>
         </div>
       </div>
