@@ -76,6 +76,8 @@
 
 .. |poe| replace:: N/A
 
+.. |which_usb_usbc_conflict| replace:: near RJ45
+
 .. |usb_usbc_conflict| replace:: The USB-A host (near RJ45) and USB-C **can't be used** at the same time. Before boot into OS, USB-C is enabled for install OS image; after boot into OS, USB-A is enabled but USB-C is disabled. In Android, these can be configured; in Linux, these can't be configured.
 
 .. |LAN_des| replace:: 2 x RJ45

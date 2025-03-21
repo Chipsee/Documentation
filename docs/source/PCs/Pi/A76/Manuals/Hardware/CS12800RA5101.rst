@@ -80,6 +80,10 @@
                   :align: middle
                   :width: 640
 
+.. |power_img_ignition| image:: /Media/Pi/A76/CS12800RA5101/CS12800RA5101-Ignition.jpg
+                  :align: middle
+                  :width: 640
+                  
 .. |rs232_485_can_img| image:: /Media/Pi/A76/CS12800RA5101/CS12800RA5101-Conn.jpg
                   :align: middle
                   :width: 960
