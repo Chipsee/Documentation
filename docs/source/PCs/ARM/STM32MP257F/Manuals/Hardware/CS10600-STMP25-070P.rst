@@ -28,7 +28,7 @@
 
 .. |weightE| replace:: NULL
 
-.. |weightP| replace:: NULL
+.. |weightP| replace:: 700g
 
 .. |temp| replace:: From -10°C to +60°C
 
