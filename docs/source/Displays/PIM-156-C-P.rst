@@ -18,7 +18,9 @@
 
 .. |pkg_size| replace:: 440 x 325 x 90mm
 
-.. |glass| replace:: 3mm Tempered Glass with Black Silk-screen
+.. |glass_thickness| replace:: 3mm
+
+.. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
 
 .. |weight| replace:: 4200g
 
