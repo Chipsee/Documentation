@@ -18,7 +18,9 @@
 
 .. |pkg_size| replace:: N/A
 
-.. |glass| replace:: 2mm Tempered Glass with Black Silk-screen
+.. |glass_thickness| replace:: 2mm
+
+.. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
 
 .. |weight| replace:: N/A
 
@@ -58,7 +60,7 @@ Specification
 
 .. include:: Resources/table
 
-.. include:: Resources/mounting
+.. include:: Resources/mounting-p
 
 .. include:: Resources/mechspecs
 
