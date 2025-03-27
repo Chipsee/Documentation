@@ -18,7 +18,7 @@
 
 .. |weightP| replace:: 1600g
 
-.. |cur| replace:: 1100mA max at 12V, 700mA typical at 12V
+.. |cur| replace:: 880mA max at 15V, 560mA typical at 15V
 
 .. |pwr| replace:: 13.3W max, 8.4W typical
 
