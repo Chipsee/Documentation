@@ -22,7 +22,7 @@
 
 .. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
 
-.. |weight| replace:: 4200g
+.. |weight| replace:: 4500g
 
 .. _product_link: https://chipsee.com/product/pim-156-p/
 
