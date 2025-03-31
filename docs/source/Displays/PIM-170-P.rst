@@ -22,7 +22,7 @@
 
 .. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
 
-.. |weight| replace:: N/A
+.. |weight| replace:: 4.6kg
 
 .. _product_link: https://chipsee.com/product/pim-170-p/
 
