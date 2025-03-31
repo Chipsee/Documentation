@@ -22,7 +22,7 @@
 
 .. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
 
-.. |weight| replace:: N/A
+.. |weight| replace:: 5.5kg
 
 .. _product_link: https://chipsee.com/product/pim-215-p/
 
