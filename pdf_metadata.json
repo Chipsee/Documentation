@@ -1231,6 +1231,18 @@
             "pdf-filename": "PPC-CM5-150",
             "pdf-type": "ipc"
         },
+        "PCs/Pi/A76/Manuals/Hardware/CS12102RA5170": {
+            "pdf-title": "PPC-CM5-170",
+            "pdf-subtitle": "PN: CS12102RA5170",
+            "pdf-filename": "PPC-CM5-170",
+            "pdf-type": "ipc"
+        },
+        "PCs/Pi/A76/Manuals/Hardware/CS12102RA5190": {
+            "pdf-title": "PPC-CM5-190",
+            "pdf-subtitle": "PN: CS12102RA5190",
+            "pdf-filename": "PPC-CM5-190",
+            "pdf-type": "ipc"
+        },
         "PCs/Pi/A76/Manuals/Hardware/CS12720RA5050": {
             "pdf-title": "PPC-CM5-050",
             "pdf-subtitle": "PN: CS12720RA5050",
@@ -1253,6 +1265,18 @@
             "pdf-title": "PPC-CM5-156",
             "pdf-subtitle": "PN: CS19108RA5156",
             "pdf-filename": "PPC-CM5-156",
+            "pdf-type": "ipc"
+        },
+        "PCs/Pi/A76/Manuals/Hardware/CS19108RA5215": {
+            "pdf-title": "PPC-CM5-215",
+            "pdf-subtitle": "PN: CS19108RA5215",
+            "pdf-filename": "PPC-CM5-215",
+            "pdf-type": "ipc"
+        },
+        "PCs/Pi/A76/Manuals/Hardware/CS19108RA5236": {
+            "pdf-title": "PPC-CM5-236",
+            "pdf-subtitle": "PN: CS19108RA5236",
+            "pdf-filename": "PPC-CM5-236",
             "pdf-type": "ipc"
         },
         "PCs/Pi/A76/Manuals/Hardware/CSRA5BOX": {
