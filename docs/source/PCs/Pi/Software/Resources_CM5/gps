@@ -1,0 +1,74 @@
+GNSS/GPS
+--------
+
+GPS is integrated in the CAT-4 4G/LTE Quectel EC25 module, if your product comes with the CAT-4 module, and a GPS antenna, you can enable the GPS feature.
+
+You can test with the *Chipsee hardware test* program, click **GPS Enable** button, you should see some random code(GPS information) in the text box. Wait a few minutes for GPS to become stable.
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/gps_1_CM5.webp
+    :align: center
+    :width: 800
+
+  *Click GPS Enable*
+
+You can also use GPS programmatically with serial port.
+
+GPS Port: **/dev/ttyUSB1**
+
+AT port: **/dev/ttyUSB2**
+
+In the first terminal, we use cat to listen for GPS info:
+
+.. code-block:: bash
+
+  cat /dev/ttyUSB1
+  # hit Enter, the port will keep listening
+  # until any information comes to the port(after you send AT command to AT port)
+
+In the second terminal, send AT instructions:
+
+.. code-block:: bash
+
+  $ microcom –s 9600 -p /dev/ttyUSB2
+  ATE1 # Enable displaying. Hit Enter after you type ATE1
+  AT+QGPSCFG="gpsnmeatype",31 # Turn on all output type, GGA/RMC/GSV/GSA/VTG, this setting will be saved to NVRAM, persists after reboot
+  AT+QGPS=1 # enable GPS, wait some minutes, you can get data from terminal.
+
+.. note::
+
+  Ensure the antenna has clear view of the sky — GPS needs time to acquire satellites (can take 30s–2min cold start).
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/gps_2_CM5.webp
+    :align: center
+    :width: 960
+
+  *Read GPS from AT Command and NMEA Stream*
+
+To disable GPS:
+
+.. code-block:: bash
+
+  AT+QGPSEND # disable GPS
+
+To exit microcom:
+
+.. code-block:: bash
+
+  # Press:
+  # Ctrl + \
+  # Followed by:
+  quit
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/gps_3_CM5.webp
+    :align: center
+    :width: 480
+
+  *Quit from microcom*  
+
+:pagebreak:`True`

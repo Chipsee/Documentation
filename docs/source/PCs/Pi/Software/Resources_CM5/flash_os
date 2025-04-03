@@ -1,0 +1,231 @@
+Flashing an image to the Compute Module
+=======================================
+
+This part is mostly the same as the official `Raspberry Pi Compute Module documentation <https://www.raspberrypi.com/documentation/computers/compute-module.html#flash-compute-module-emmc>`_, except that you need to press the "PROG_Button" before supplying power to the device, see details below.
+
+The Chipsee industrial Pi runs on the Raspberry Pi Compute Module, the module has an on-board eMMC. This guide explains how to flash (write) an operating system image to the eMMC storage of the device.
+
+**CM5 Lite** does not have on-board eMMC. Instead, flash the OS just like a regular Raspberry Pi's TF card (https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system).
+
+Prerequisites
+-------------
+
+To flash an image, you need the following:
+
+* Download the :download:`Latest system image for Chipsee Industrial Pi products <https://github.com/Chipsee/industrial-pi#latest-system-images>`
+
+* Another computer, referred to as a host device. You can use Linux (like Raspberry Pi 64bit OS on a regular Pi 4/5, Ubuntu or Debian), Windows 10/11, or macOS.
+
+* A USB-C to USB-C cable; or a USB-C to USB-A cable.
+
+.. note::
+
+  In some cases, USB hubs can prevent the host device from recognising the Compute Module. If your host device does not recognise the Compute Module, try connecting the Compute Module directly to the host device. For more diagnostic tips, see the `usbboot troubleshooting guide <https://github.com/raspberrypi/usbboot?tab=readme-ov-file#troubleshooting>`_. 
+
+Usbboot
+-------
+
+In short, we will run a Raspberry Pi `usbboot` program on the host, it will recognize the Chipsee industrial Pi as a storage. After that we  press the PROG button on the device before supplying power, while pressing we plug the power cable, the device will boot as a storage, such that our host's `usbboot` program can recognize it. Let see how to do it in different OS:
+
+For Window
+**********
+
+To set up software on a Windows 10/11 host device:
+
+#. Download the `Windows installer <https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe>`_ (or, alternatively, `build Windows rpiboot from source <https://github.com/raspberrypi/usbboot>`_).
+
+#. Double-click on the installer to run it. This installs the drivers and boot tool. Do not close any driver installation windows which appear during the installation process.
+
+#. Reboot Windows.
+
+#. Connect the USB-C on the device to your host device.
+
+#. Run the `rpiboot` program installed by the Windows installer in the Windows Start menu.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/Pi/Software/cm5/flash_os_windows_1_CM5.webp
+         :align: center
+         :width: 600
+
+      *Run the rpiboot-CM4-CM5 program*
+
+#. Press and hold the PROG button, then supply power to the device, keep holding the PROG button for 5 seconds, until you see the host machine's command line has new text appearing, then release the button.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/Pi/Software/cm5/flash_os_windows_2_CM5.webp
+         :align: center
+         :width: 800
+
+      *Successfully Configured eMMC as USB mass storage*
+
+#. Then you can enter the Flash the eMMC section below.
+
+For Linux
+*********
+
+To set up software on a Linux host device:
+
+#. Run the following command to install rpiboot (or, alternatively, `build Linux rpiboot from source <https://github.com/raspberrypi/usbboot?tab=readme-ov-file#linux--cygwin--wsl>`_):
+
+   .. code-block:: bash
+
+     sudo apt install rpiboot
+
+   .. note::
+
+      Whether or not to build rpiboot from source depends on your OS version, for example, on Ubuntu 24, the Ubuntu apt source's rpiboot program is outdated, in this case you need to build from source to recognize CM5.
+
+      After running **rpiboot**, if you see: `Waiting for BCM2835/6/7/2711...` It doesn't have support for `BCM2712`, then it can't recognize CM5.
+
+      .. rst-class:: text-center
+
+         .. image:: /Media/Pi/Software/cm5/flash_os_linux_1_CM5.webp
+            :align: center
+            :width: 600
+
+         *Just BCM2835/6/7/2711, doesn't support CM5*
+
+      If you see: `Waiting for BCM2835/6/7/2711/2712...`, then it supports BCM2712 (CM5).
+
+      .. rst-class:: text-center
+
+         .. image:: /Media/Pi/Software/cm5/flash_os_linux_2_CM5.webp
+            :align: center
+            :width: 600
+
+         *Has 2712, supports CM5*
+
+#. Connect the USB-C on the device to your host device.
+
+#. Then, run rpiboot:
+
+   .. code-block:: bash
+   
+     sudo rpiboot # if using OS apt source
+
+     sudo ./rpiboot -d mass-storage-gadget64 # if you built from source
+
+   You should see:
+
+   .. code-block:: bash
+
+      Loading: mass-storage-gadget64/bootfiles.bin
+      Using mass-storage-gadget64/bootfiles.bin
+      Waiting for BCM2835/6/7/2711/2712...
+   
+#. Press and hold the PROG button, then supply power to the device, keep holding the PROG button for 5 seconds, until you see the host machine's command line has new text appearing, then release the button.
+
+#. After a few seconds, the Compute Module should appear as a mass storage device. You can see a `bootfs, rootfs` appear in Ubuntu Files sidebar like a external storage. Alternatively, run **lsblk** and search for a device with a storage capacity that matches the capacity of your Compute Module.
+
+   .. rst-class:: text-center
+
+     .. image:: /Media/Pi/Software/cm5/flash_os_linux_3_CM5.webp
+        :align: center
+        :width: 400
+
+     *A 32GB eMMC appears as /dev/sdb*
+
+#. Then you can enter the Flash the eMMC section below.
+
+For MacOS
+*********
+
+To set up software on a macOS host device:
+
+#. First, `build macOS rpiboot from source <https://github.com/raspberrypi/usbboot?tab=readme-ov-file#macos>`_.
+
+#. Connect the USB-C on the device to your host device.
+
+#. Then, run the `rpiboot` executable with the following command:
+
+   .. code-block:: bash
+
+      $ sudo ./rpiboot -d mass-storage-gadget64
+      # this command might change in the future, check the Github repo's macOS section for the latest information
+  
+   You should see:
+
+   .. code-block:: bash
+
+      Loading: mass-storage-gadget64/bootfiles.bin
+      Using mass-storage-gadget64/bootfiles.bin
+      Waiting for BCM2835/6/7/2711/2712...
+
+#. Press and hold the PROG button, then supply power to the device, keep holding the PROG button for 5 seconds, until you see the host machine's command line has new text appearing, then release the button.
+
+#. You should see:
+
+   .. code-block:: bash
+
+      Waiting for BCM2835/6/7/2711/2712...
+
+      Sending bootcode.bin
+      Successful read 4 bytes 
+      Waiting for BCM2835/6/7/2711/2712...
+
+      Second stage boot server
+      File read: mcb.bin
+      File read: memsys00.bin
+      File read: memsys01.bin
+      File read: memsys02.bin
+      File read: memsys03.bin
+      File read: bootmain
+      Loading: mass-storage-gadget64/config.txt
+      File read: config.txt
+      Loading: mass-storage-gadget64/boot.img
+      File read: boot.img
+      Second stage boot server done
+
+#. When the command finishes running, you should see a `bootfs` disk in Finder. Your Compute Module should now appear as a mass storage device.
+
+   .. rst-class:: text-center
+
+     .. image:: /Media/Pi/Software/cm5/flash_os_macos_CM5.webp
+       :align: center
+       :width: 800
+
+Flash the eMMC
+--------------
+
+After the device's eMMC has been detected as a USB mass storage, you can use `Raspberry Pi Imager <https://www.raspberrypi.com/documentation/computers/getting-started.html#raspberry-pi-imager>`_ or `Balena Etcher <https://etcher.balena.io/>`_ to flash an operating system image to a Compute Module.
+
+#. First **decompress** the xxx-raspios-chipsee-xxx **.img.xz** file (around 1GB) you :download:`downloaded before <https://github.com/Chipsee/industrial-pi#latest-system-images>`, the decompressed xxx-raspios-chipsee-xxx **.img** file should be around 6GB (with desktop) in file size.
+
+#. Use either Raspberry Pi Imager *or* Balena Etcher:
+   
+   * If using Raspberry Pi Imager, select `Raspberry 5 / Compute Module 5` in Device; select `Use custom -> choose the decompressed .img file` in Operating System; select the appeared `mmcblk0 (bootfs)` in Storage.
+
+   .. rst-class:: text-center
+
+     .. image:: /Media/Pi/Software/cm5/flash_os_pi_imager_1_CM5.webp
+       :align: center
+       :width: 800
+
+     *Flash OS with Raspberry Pi Imager*
+
+     .. image:: /Media/Pi/Software/cm5/flash_os_pi_imager_2_CM5.webp
+       :align: center
+       :width: 800
+     
+     *Clear Settings and Select No Customization Unless You Need Customization*
+
+     .. image:: /Media/Pi/Software/cm5/flash_os_pi_imager_3_CM5.webp
+       :align: center
+       :width: 800
+     
+     *Successfully Flash OS with Raspberry Pi Imager*
+
+   * If using Balena Etcher, choose `Flash from File` and select the decompress **.img** file; select the appeared `mmcblk0` (or similar capacity of your Compute Module) in `Select Target`, click `Flash!`.
+
+   .. rst-class:: text-center
+
+     .. image:: /Media/Pi/Software/cm5/flash_os_balena_CM5.webp
+       :align: center
+       :width: 800
+
+#. At last, reboot the device. It could take a few minutes in the first boot, now you have a brand new Raspberry Pi OS.
+
+:pagebreak:`True`
+

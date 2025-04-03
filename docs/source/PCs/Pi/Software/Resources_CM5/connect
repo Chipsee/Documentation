@@ -1,0 +1,360 @@
+Connect to the Device
+=====================
+
+There are 3 ways to connect to the device from your workstation:
+
+#. From **Serial** RS232 port
+#. From **Ethernet** or **Wi-Fi** (SSH)
+#. From **Ethernet** or **Wi-Fi** (Remote Desktop/VNC)
+
+Let's take a look at these connecting methods one by one.
+
+Connect From Serial Port
+------------------------
+
+[ Cheatsheet for experienced developers: username is **pi**, password is **raspberry**, pin is |Dbg_pin| ]
+
+Enable/Disable Serial Debug Port
+********************************
+
+By default serial debug is enabled, you don't have to do anything to use the |dbg_pin| as a serial debug port. If you need to disable the debug function for this port to use a normal serial function instead, you could edit the `/boot/firmware/cmdline.txt` file in the Raspberry Pi OS.
+
+By default the file looks like this:
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/Disable_Serial_Debug_CM5.png
+    :align: center
+    :width: 800
+
+To disable debug: remove `console=ttyAMA0,115200`, reboot.
+
+To enable debug: add `console=ttyAMA0,115200` back, reboot.
+
+.. warning::
+
+   Please don't use the *raspi-config* to toggle the serial debug function switch. Because the official Pi OS uses "serial0" TTL debug port instead of "ttyAMA0" (the one we use here), which will not work for the "|dbg_pin|" serial debug port. If you happen to have disabled the serial debug in *raspi-config*, you can manually enable it with the method above.
+
+Connect the Wire
+****************
+
+In our pre-built |systemType| OS, the |dbg_pin| serves as a serial debug port. We can connect a RS232 cable between the |ipc| and our workstation, allowing us to control the |ipc| from our workstation.
+
+To get started, you need a USB to serial cable, we will use a USB Type-C to DB-9 cable as an example, you can use a USB-A cable as well, you need to plug the USB end to your workstation, and the serial end to the Chipsee device. 
+
+I will plug the USB Type-C port to a Mac (Windows and Linux work fine too), and then I would use three female to female dupont wires, to connect 3 of the DB-9 pins to GND and |dbg_pin| (RX and TX) pins of my |ipc|. 
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/USB_Serial_Cable_CM5.webp
+    :align: center
+    :width: 480
+
+  *Use a USB to Serial Cable to Connect the Chipsee Industrial PC with Your Workstation*
+
+Take a look at the image below, this is the 10.1" product, if your product has a different screen size, check out the hardware document to find out which pins are |dbg_pin| TX and RX.
+
+.. note::
+   
+  Each hardware doc has a "RS232/RS485/CAN" section, it lists which is the |dbg_pin| TX and RX in the image and the table of their respective docs. Find your model here (:ref:`PBPI`) and scroll to the "RS232/RS485/CAN" section to check out.
+
+You should connect the DB-9's RX to the device's TX, and DB-9's TX to the device's RX, you should also connect their GNDs (the white wire).
+
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/Serial_Connect_CM5.webp
+    :align: center
+    :width: 480
+
+  *Connect 3 Pins with Dupont Wires (or with a phoenix connector)*
+
+Linux and MacOS
+***************
+
+1. For **MacOS and Linux** users, you will need a program called **screen**. It should be already installed on most MacOS and Linux distributions(if the screen program is not installed on your computer, you can search how to install it, for example, "apt install screen" on Debian). Open your terminal and type `screen -v`. If the *screen* program is already installed in your computer, you should see a version number, like that in the image below:
+
+   .. rst-class:: text-center
+
+    .. image:: /Media/Pi/Software/cm5/Screen_Program-1_CM5.png
+      :align: center
+      :width: 480
+
+    *Confirm You Have the Screen Program (MacOS & Linux)*
+
+2. Because the USB end of the cable is plugged into our workstation, we need to know which USB device it is in Linux/MacOS. We can find it out by testing:
+
+   .. code:: bash
+
+     ls /dev/tty*
+
+   You might see many *tty* devices listed in your terminal, and cannot decide which is your USB to RS232 cable. Here is a tip: you can unplug the cable first, type the command to see what is listed in the OS. Then you plug it back in, and test again, to see what has recently appeared. The difference between the two should be your cable. In the image below, we found the `/dev/tty.usbserial-10` is our USB to RS232 cable.
+
+.. rst-class:: text-center
+
+   .. image:: /Media/Pi/Software/cm5/Cable_Finding_CM5.png
+      :align: center
+      :width: 640
+
+   *Find Out Which Device is Your USB to Serial Cable*
+
+3. You can put the device name you found to the screen program as an argument. To connect to the device (115200 is the default baud rate of the device):
+
+   .. code:: bash
+
+      screen /dev/tty.usbserial-10 115200
+
+4. When the prompt asks you to login, type the user name **pi**, its password is **raspberry**:
+
+   .. code-block:: bash
+      :linenos:
+      :emphasize-lines: 1
+
+      raspberrypi login: pi
+      pi@raspberrypi:~$ ls /
+      bin   dev  home  lost+found  mnt  proc  run   srv  tmp  var
+      boot  etc  lib   media       opt  root  sbin  sys  usr
+      pi@raspberrypi:~$ 
+
+5. If there is a blank/white screen, you can hit Enter or type some commands to see if you can interact with the device. In the image below, the device responds to my `ls` command.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/Pi/Software/cm5/Screen_Program-2_CM5.png
+         :align: center
+         :width: 640
+
+      *The Screen Program Connects Your Workstation to the Industrial PC's Android Console*
+
+6. If you want to **exit** the screen program, you can press `Ctrl+A` then press `K`.
+
+   The program will ask you if you want to kill this window, then press `y` to exit the program.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/Pi/Software/cm5/Screen_Program-3_CM5.png
+         :align: center
+         :width: 640
+
+      *Press "Ctrl + A" Follow by a "K" to Exit the Program*
+
+Windows
+*******
+
+1. For **Windows** users, you don't need to install a specific "driver" kind of thing for Windows to recognize a Chipsee PC, but before proceeding, you should see a COM port appear/disappear when plug/unplug your USB to serial cable in Windows. 
+
+   Most USB to serial cables don't require driver installation on Windows10/11. But if you find your cable isn't recognizable by Windows, try checking the cable's manufacturer's website to learn more about it. Most of the time, simply doing a Windows update should do the trick, Windows can detect the cable's USB driver and install it for you.
+
+2. You could install a program called **PuTTY** (or XShell etc), here is a link to download the software: https://www.putty.org/. If you're comfortable with other clients other than PuTTY, you can use those as well.
+
+3. With PuTTY in your belt, let's find out which COM port your USB to RS232 cable is using. One tip is to check the *Microsoft Windows Device Manager* (right click Windows icon, select Device Manager). Check which COM port appears/disappears when you plug/unplug the USB to serial cable. And that COM port device should be your USB to RS232 cable. Keep a note of the COM port your serial cable is using, let's say it's "your-com", or "COM3" in this example.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/Shared/Software/Debug-Connection/serial-2.png
+         :align: center
+         :width: 640
+
+      *COM3 is the USB to Serial Cable*
+   
+4. Open the PuTTY program, select **Session**, choose **Serial** in the radio buttons, and fill the COM port(your-com, or **COM3** in this example) you found in the Microsoft Windows Device Manager, and choose **115200** as baud rate, then click **Open**.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/Shared/Software/Debug-Connection/serial-1.png
+         :align: center
+         :width: 640
+
+      *Input your-com in the Serial Line field, in our case COM3*
+
+5. Now you should be able to connect from your workstation to the device through the serial port. You can try to hit Enter, or type some commands, like `ls`, to see if the device replies to your commands. If the prompt asks you to login, type the user name **pi**, password is **raspberry**:
+
+   .. code-block:: bash
+      :linenos:
+      :emphasize-lines: 1
+
+      raspberrypi login: pi
+      pi@raspberrypi:~$ ls /
+      bin   dev  home  lost+found  mnt  proc  run   srv  tmp  var
+      boot  etc  lib   media       opt  root  sbin  sys  usr
+      pi@raspberrypi:~$ 
+
+:pagebreak:`True`
+
+
+Connect From Network (SSH)
+--------------------------
+
+*[Cheatsheet for experienced developers: username: pi, password: raspberry]*
+
+By default SSH and VNC are disabled for security reasons, you could enable them through:
+
+* raspi-config
+* A GUI of raspi-config
+
+.. rst-class:: text-center
+
+   .. image:: /Media/Pi/Software/cm5/Enable_SSH_1_CM5.png
+      :align: center
+      :width: 640
+   
+   *Go to TUI of raspi-config*
+
+   .. image:: /Media/Pi/Software/cm5/Enable_SSH_2_CM5.png
+      :align: center
+      :width: 640
+   
+   *Move to Interfaces*
+
+   .. image:: /Media/Pi/Software/cm5/Enable_SSH_3_CM5.png
+      :align: center
+      :width: 640
+
+   *Hit Enter and Confirm to Enable SSH*
+   
+You can SSH to the device when it's connected to the network, either through Wi-Fi or Ethernet.
+
+First make sure you're connected through WiFi or Ethernet (to learn how, jump to the Network section below. Ethernet can be automatically detected, WiFi needs some configuration). 
+
+Then you can check the IP address with **ifconfig**:
+
+
+.. rst-class:: text-center
+
+   .. image:: /Media/Pi/Software/cm5/Ifconfig_CM5.webp
+      :align: center
+      :width: 640
+
+   *Hit Enter and Confirm to Enable SSH*
+
+.. code-block:: text
+   :linenos:
+   :emphasize-lines: 2, 29, 30
+
+   pi@raspberrypi:~ $ ifconfig
+   eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 2c:cf:67:b8:84:5c  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 107  
+
+   eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+           inet 192.168.0.100  netmask 255.255.255.0  broadcast 192.168.0.255
+           inet6 fe80::6523:8977:2a7a:d657  prefixlen 64  scopeid 0x20<link>
+           inet6 240e:413:910:55:592d:e9eb:bf59:e0d4  prefixlen 64  scopeid 0x0<global>
+           ether 22:89:84:6a:96:ab  txqueuelen 1000  (Ethernet)
+           RX packets 1108  bytes 1385789 (1.3 MiB)
+           RX errors 202  dropped 0  overruns 0  frame 197
+           TX packets 922  bytes 129320 (126.2 KiB)
+           TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+   lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+           inet 127.0.0.1  netmask 255.0.0.0
+           inet6 ::1  prefixlen 128  scopeid 0x10<host>
+           loop  txqueuelen 1000  (Local Loopback)
+           RX packets 101  bytes 9544 (9.3 KiB)
+           RX errors 0  dropped 0  overruns 0  frame 0
+           TX packets 101  bytes 9544 (9.3 KiB)
+           TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+   wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+           inet 192.168.50.159  netmask 255.255.255.0  broadcast 192.168.50.255
+           inet6 fe80::99ba:18c8:40a8:8fc3  prefixlen 64  scopeid 0x20<link>
+           ether 2c:cf:67:b8:84:5d  txqueuelen 1000  (Ethernet)
+           RX packets 189  bytes 53162 (51.9 KiB)
+           RX errors 0  dropped 3  overruns 0  frame 0
+           TX packets 80  bytes 13850 (13.5 KiB)
+           TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+The **inet** line contains **your-ip** of eth0(wired) and wlan0(wireless). In the case above the IP address is 192.168.50.159 through **wlan0**.
+
+If you're using Ethernet, it should be one of eth0(line 2) and eth1(line 9), depending on your device model. For example, on the dual-lan 7 inch product, LAN0 port is eth0, LAN1 port is eth1.
+
+Then we can ssh from our workstation with this IP address.
+
+Linux / MacOS
+*************
+
+For Linux and MacOS users, you can use your terminal and type:
+
+.. code-block:: bash
+
+   ssh pi@your-ip
+   # In our case, your-ip is 192.168.50.159
+   ssh pi@192.168.50.159
+
+The username is pi, and the password is raspberry.
+
+.. rst-class:: text-center
+
+   .. image:: /Media/Pi/Software/cm5/SSH_Connect-1_CM5.webp
+      :align: center
+      :width: 640
+
+   *SSH with your-ip*
+
+Windows
+*******
+
+For Windows users using PuTTY, you can choose Session, input **username@your-ip** (in our case *pi@192.168.50.159*, yours should be different) in the Host Name field. Port Number should remain 22, choose SSH as the connection type in the radio buttons, click "Open". The password is raspberry.
+
+.. rst-class:: text-center
+
+   .. image:: /Media/Shared/Software/Debug-Connection/ssh-2.png
+      :align: center
+      :width: 640
+
+   *Input username@your-ip in the Host Name field, in our case pi@192.168.50.159*
+
+Now you have connected to the device through the network.
+
+:pagebreak:`True`
+
+Connect with VNC Remote Desktop
+-------------------------------
+
+[*Cheatsheet for experienced developer*: username: **pi**, password: **raspberry**, IP check: **ifconfig**, VNC port: **5900** (default port).] 
+
+We can have a graphical user interface if we use VNC to connect to our |ipc|. This is handy if you're developing an HMI and want to test from your own laptop or computer. Here is how:
+
+By default VNC is disabled, you can enable VNC from **sudo raspi-config** or in the GUI.
+
+In the previous SSH section there are images of how to enable them through TUI, but you can also use the GUI program:
+
+
+
+.. rst-class:: text-center
+
+   .. image:: /Media/Pi/Software/cm5/Enable_VNC_1_CM5.webp
+      :align: center
+      :width: 640
+   
+   *Go to GUI of raspi-config*
+
+   .. image:: /Media/Pi/Software/cm5/Enable_VNC_2_CM5.webp
+      :align: center
+      :width: 640
+   
+   *Enable VNC (or SSH if need so)*
+
+After enabling the VNC service, refer to the previous section to learn how to use **ifconfig** to find out your |ipc|'s IP address. In our case we get 192.168.50.159.
+
+Then, for either Windows, macOS or Linux users, please open the VNC Viewer software on your laptop or PC. In the input area, which has a placeholder "Enter a VNC server address or search", you should input the IP address we obtained earlier: **your-ip**, in our case: 192.168.50.159 (**yours should be different**), and hit enter.
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Shared/Software/Debug-Connection/vnc-1.png
+    :align: center
+    :width: 640
+
+  *Change the input to your-ip, in our case 192.168.50.159*
+
+
+VNC Viewer might ask for your credentials, you should input our username and password, in our case: username: **pi**, password: **raspberry**. And then continue, VNC Viewer might tell you the connection is not encrypted, it's OK if you're in your local network.
+
+Now we should see our |ipc|'s desktop GUI in the VNC Viewer software.
+
+:pagebreak:`True`

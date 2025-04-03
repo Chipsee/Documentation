@@ -1,0 +1,63 @@
+CAN Bus
+-------
+
+There is one CAN bus on the |chip| based |ipc|. You can install `can-utils` and use them to test CAN. But you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown on the figure below.
+
+.. note::
+
+  The Chipsee IPC does not mount the 120Ω matched resistor on all CAN signals by default.
+
+.. figure:: /Media/Pi/Software/CAN.jpeg
+  :align: center
+  :figclass: align-center
+
+  Connecting CAN
+
+Here are a few examples to test CAN by using CAN units.
+
+* Install `can-utils` if you haven't.
+  
+  .. code:: bash
+
+    $ sudo apt install can-utils
+
+* Set the bit-rate to **1Mbits/sec** and data rate to **8Mbits/sec** using the following command (use ROOT user):
+  
+  .. code:: bash
+
+    $ sudo ip link set can0 down
+    $ sudo ip link set can0 up type can bitrate 1000000 dbitrate 8000000 restart-ms 1000 berr-reporting on fd on
+
+  .. note::
+
+    If you see:
+
+    *RTNETLINK answers: Connection timed out*
+
+    Make sure to mount the 120Ω matched resistor.
+
+* Bring up the device using the command:
+  
+  .. code:: bash
+
+    $ sudo ip link set can0 up
+
+* Transfer packets
+  
+  .. code:: bash
+
+    $ sudo cansend can0 5A1#11.2233.44556677.88
+
+* Receive data from CAN bus
+  
+  .. code:: bash
+
+    $ sudo candump can0
+
+* Bring down the device
+
+  .. code:: bash
+
+    $ sudo ip link set can0 down
+
+:pagebreak:`True`

@@ -1,0 +1,314 @@
+Network
+-------
+
+.. note::
+  
+  If your product has a CAT-1 (Simcom 7670G) 4G/LTE modem, but SIM card is not inserted, WiFi/Ethernet traffic to the Internet will not be routed through Ethernet/WiFi by default. You can disable routing through 4G and use Ethernet/WiFi instead with:
+
+  .. code-block:: bash
+    
+    # If your product only has 1 Ethernet port, eth1 is 4G device
+    $ sudo ip route del default via 192.168.0.1 dev eth1
+    # If your product has 2 Ethernet ports, eth2 is 4G device
+    $ sudo ip route del default via 192.168.0.1 dev eth2
+  
+  This is useful when you're developing in house and don't want to use the 4G traffic.
+
+  More background:
+
+  Operating system will route traffic from **smaller metric** device first. To check the routing info:
+
+  .. code-block:: bash
+
+    $ ip route
+  
+  This will delete the route to eth1(4G/LTE) with metric 100, and then add a new one with metric of 700:
+
+  .. code-block:: bash
+
+    $ sudo ip route del default via 192.168.0.1 dev eth1
+    $ sudo ip route add default via 192.168.0.1 dev eth1 proto dhcp src 192.168.0.100 metric 700
+
+General
+*******
+
+To check the network interface information:
+
+.. code-block:: bash
+  :linenos:
+  :emphasize-lines: 3, 8, 18
+
+  $ ifconfig
+    eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+            inet 192.168.50.158  netmask 255.255.255.0  broadcast 192.168.50.255
+            inet6 fe80::16d:68d8:c0f5:1bd6  prefixlen 64  scopeid 0x20<link>
+            ether 2c:cf:67:b8:84:5c  txqueuelen 1000  (Ethernet)
+
+    eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+            inet 192.168.0.100  netmask 255.255.255.0  broadcast 192.168.0.255
+            inet6 fe80::6523:8977:2a7a:d657  prefixlen 64  scopeid 0x20<link>
+            ether 22:89:84:6a:96:ab  txqueuelen 1000  (Ethernet)
+
+    lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+            inet 127.0.0.1  netmask 255.0.0.0
+            inet6 ::1  prefixlen 128  scopeid 0x10<host>
+            loop  txqueuelen 1000  (Local Loopback)
+
+    wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+            inet 192.168.50.159  netmask 255.255.255.0  broadcast 192.168.50.255
+            inet6 fe80::99ba:18c8:40a8:8fc3  prefixlen 64  scopeid 0x20<link>
+            ether 2c:cf:67:b8:84:5d  txqueuelen 1000  (Ethernet)
+
+You can find your ipv4 address of each interface after the **inet** line.
+
+.. warning::
+  
+  When inserting a SIM card, **power off** the device first. SIM card **does not** support hot plug.
+
+4G/LTE (CAT4 Module)
+********************
+
+For the CAT4 module (Quectel EC25).
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/4G_CAT4_0_CM5.webp
+    :align: center
+    :width: 800
+
+  *Checking Modem with mmcli*
+
+If your product has a 4G modem, after inserting a SIM card, you can test the 4G/LTE with the `Chipsee Hardware Test` program first:
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/4G_CAT4_1_CM5.webp
+    :align: center
+    :width: 800
+
+In the Hardware Test program, click `4G Enable`, then `Refresh` to check your connection information, you can also open the browser to test you're connected to the Internet.
+
+To programmatically enable 4G:
+
+In QMI mode you can use `quectel-CM` to enable 4G/LTE to connect to Internet:
+
+.. code-block:: bash
+
+  sudo quectel-CM &
+
+To test you're connected to the Internet:
+
+.. code-block:: bash
+
+  ping 1.1.1.1
+
+The program will set your DNS automatically.
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/4G_CAT4_2_CM5.webp
+    :align: center
+    :width: 800
+
+  *Run quectel-CM to Enable 4G and Connect to the Internet*
+
+The `quectel-CM` program doesn't persist across reboot, you may consider creating a systemd service to auto start the `quectel-CM` program on boot, or run the `sudo quectel-CM &` command in your own application. There is a simple starting point:
+
+.. code-block:: bash
+
+  # create a file /etc/systemd/system/quectel-cm.service
+
+  [Unit]
+  Description=Quectel Connection Manager
+
+  [Service]
+  Type=simple
+  ExecStartPre=/bin/sh -c 'until [ -e /dev/cdc-wdm0 ]; do sleep 1; done' # give the modem some time to initialize
+  ExecStart=/usr/bin/quectel-CM
+  SyslogIdentifier=quectel-cm
+  KillMode=control-group
+  Restart=always
+  RestartSec=30
+  TimeoutStartSec=30
+  StandardOutput=journal
+  StandardError=journal
+
+  [Install]
+  WantedBy=multi-user.target
+
+Reload the systemd after creating or modifying `quectel-cm.service`:
+
+.. code-block:: bash
+
+  sudo systemctl daemon-reload
+
+Manually start/stop the service (enable/disable 4G): 
+
+.. code-block:: bash
+
+  sudo systemctl start quectel-cm.service
+  sudo systemctl stop quectel-cm.service
+
+Check status and logs:
+
+.. code-block:: bash
+
+  sudo systemctl status quectel-cm.service
+
+Enable/disable autostart on boot:
+
+.. code-block:: bash
+
+  sudo systemctl enable quectel-cm.service
+  sudo systemctl disable quectel-cm.service
+
+Then you could have 4G enabled that persists across reboot, you can edit the `/etc/systemd/system/quectel-cm.service` file to meet your needs.
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/4G_CAT4_3_CM5.webp
+    :align: center
+    :width: 960
+
+  *Use Systemd to Auto Start quectel-cm Program on System Boot to Auto Connect 4G/LTE*
+
+You can also use normal AT commands to check network information:
+
+First listen the response from `/dev/ttyUSB2`:
+
+.. code-block:: bash
+  :linenos:
+
+  $ cat /dev/ttyUSB2 &
+
+To acquire IMEI:
+
+.. code-block:: bash
+  :linenos:
+
+  $ echo -e "AT+GSN\r" > /dev/ttyUSB2
+
+  # Response:
+  868414063045508
+
+  OK
+
+To check signal strength:
+
+.. code-block:: bash
+  :linenos:
+
+  $ echo -e "AT+CSQ\r" > /dev/ttyUSB2
+
+  # Response:
+  +CSQ: 18,99 # strength: 18; ber: 99(99 means not known or not detectable)
+
+  OK
+
+To switch to QMI device mode (default mode) if you switched to other mode accidentally:
+
+.. code-block:: bash
+  :linenos:
+
+  echo -e 'AT+QCFG="usbnet",0\r' > /dev/ttyUSB2
+  echo -e 'AT+CFUN=1,1\r' > /dev/ttyUSB2
+
+
+4G/LTE (CAT1 Module)
+********************
+
+For the CAT1 module (Simcom 7670G).
+
+If your product has a 4G modem, after inserting a SIM card, the 4G function should work out of box. The product uses RNDIS (Remote Network Driver Interface Specification) for 4G modem.
+
+If you still have problems connecting with 4G, you can take a look at `/opt/chipsee/test` folder, unzip the `/opt/chipsee/test/simcom-linux-4g` with `sudo tar -xzf simcom-linux-4g.tar.gz`, there is a **README** file along with some scripts used to connect 4G.
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/4G_Debug_1_CM5.webp
+    :align: center
+    :width: 800
+
+
+You can check the status of your modem with **mmcli** (ModemManager):
+
+.. code-block:: bash
+  :linenos:
+  :emphasize-lines: 10, 13
+
+  $ mmcli -L
+    /org/freedesktop/ModemManager1/Modem/0 [SIMCOM INCORPORATED] SIM7670G-LNGV
+  $ mmcli -m 0
+    -----------------------------
+    General  |              path: /org/freedesktop/ModemManager1/Modem/0
+    -----------------------------
+    Hardware |      manufacturer: SIMCOM INCORPORATED
+    -----------------------------
+    System   |            device: /sys/devices/platform/axi/1000480000.usb/usb5/5-1
+             |             ports: eth1 (net), ttyACM0 (at), ttyACM1 (ignored), ttyACM2 (at)
+    -----------------------------
+    Status   |             state: failed
+             |     failed reason: sim-missing
+             |       power state: on
+    -----------------------------
+    Modes    |         supported: allowed: any; preferred: none
+    -----------------------------
+    IP       |         supported: ipv4, ipv6, ipv4v6, non-ip
+
+
+In the highlighted lines, you can see that the 4G/LTE device is **eth1** on PPC-CM5-101 or larger screen models; in dual-lan PPC-CM5-070D the 4G will be **eth2**. The status shows the failed reason is "sim-missing" when a SIM card is not inserted. 
+
+When a sim card is inserted, 4G should work automatically.
+
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/4G_Debug_2_CM5.webp
+    :align: center
+    :width: 800
+
+  *When 4G is connected, check Public IP with curl*
+
+
+Ethernet and WiFi
+*****************
+
+When you plug your Ethernet cable to the device, Ethernet should be connected automatically.
+
+For connecting to WiFi, it's the same as normal Raspberry Pi's, you can refer to the Raspberry Pi's official documentation to learn how to use WiFi and Ethernet in the networking section: https://www.raspberrypi.com/documentation/computers/configuration.html#networking.
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/Wifi_Conn_1_CM5.webp
+    :align: center
+    :width: 800
+
+  *Method 1: Connecting WiFi from Desktop GUI*
+
+  .. image:: /Media/Pi/Software/cm5/Wifi_Conn_2_CM5.webp
+    :align: center
+    :width: 800
+
+  *Method 2: Connecting WiFi from raspi-config TUI's System Options -> S1 Wireless LAN*
+
+From the terminal, you can use **nmcli** to configure the network, **nmcli** is the new default of Raspberry Pi OS. If the examples in the official Pi's documentation is not enough, you can also refer to the documents of the **nmcli** program. 
+
+.. code:: bash
+
+  pi@raspberrypi:~ $ nmcli radio wifi
+  enabled
+  pi@raspberrypi:~ $ sudo nmcli radio wifi on
+  pi@raspberrypi:~ $ nmcli dev wifi list
+  IN-USE  BSSID              SSID      MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+  *       04:42:1A:65:B3:10  chipsee   Infra  8     270 Mbit/s  50      ▂▄__  WPA2     
+  pi@raspberrypi:~ $ sudo nmcli --ask dev wifi connect <your-ssid>
+  Password: ••••••••
+  Device 'wlan0' successfully activated with 'c6052b81-03d4-44fc-97f9-28d5bb121750'.
+
+.. rst-class:: text-center
+
+  *Method 3: Connecting WiFi with nmcli*
+
+Note that **nmcli cannot manage 4G connections**.
+
+:pagebreak:`True`

@@ -1,0 +1,15 @@
+Backlight
+---------
+
+You can turn on or off backlight:
+
+.. code:: bash
+
+    $ pinctrl get 18         # get current backlight status
+    # 18: op dh pd | hi // GPIO18 = output
+
+    $ pinctrl set 18 op dh   # set backlight on
+
+    $ pinctrl set 18 op dl   # set backlight off
+
+:pagebreak:`True`

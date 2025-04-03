@@ -4,7 +4,8 @@ System Resource
 SD Card/USB
 -----------
 
-SD Card is for external storage and needs to be placed in the **SD1** port. The **SD0** port is used by boot.|br|
+SD Card is for external storage and needs to be placed in the **SD1** port. The **SD0** port is used by boot.
+
 SD Card and USB Storage support hot plug. They will be automatically mounted on `/media/pi/`. For **CS12800RA4101A** and **CS12800RA4101P**, there is only one SD slot.
 
 :pagebreak:`True`

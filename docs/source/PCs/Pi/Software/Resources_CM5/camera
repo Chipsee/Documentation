@@ -1,0 +1,8 @@
+Camera
+------
+
+The camera connector(if your product has one) is compatible with the official Raspberry Pi. Please refer to the following link to learn how to attach a camera: https://www.raspberrypi.com/documentation/computers/compute-module.html#attach-a-camera-module
+
+The camera connector uses a 22-pin socket, you can check your product's hardware document to find out the pin definition.
+
+:pagebreak:`True`
