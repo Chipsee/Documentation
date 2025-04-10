@@ -20,6 +20,8 @@
 
 .. |glass_thickness| replace:: 2mm
 
+.. |con_ratio| replace:: 1000:1
+
 .. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
 
 .. |weight| replace:: 4.6kg
