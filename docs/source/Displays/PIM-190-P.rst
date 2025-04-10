@@ -22,6 +22,8 @@
 
 .. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
 
+.. |con_ratio| replace:: 1000:1
+
 .. |weight| replace:: 5.4kg
 
 .. _product_link: https://chipsee.com/product/pim-190-p/
