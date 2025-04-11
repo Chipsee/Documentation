@@ -26,6 +26,20 @@
 
 .. |weight| replace:: 4500g
 
+.. |bright| replace:: 450 |cd|
+
+.. |v_angle| replace::  Horizontal: 160°(min)~170°(typ) / Vertical: 160°(min)~170°(typ)
+
+.. |disp_col| replace:: 16.2M Colors
+
+.. |resp_time| replace:: 13ms
+
+.. |storage_temp| replace:: From -30°C to +85°C, 90% RH (No condensation)
+
+.. |working_temp| replace:: From -30°C to +85°C, 90% RH (No condensation)
+
+.. |pwr| replace:: ≤ 24W
+
 .. _product_link: https://chipsee.com/product/pim-156-p/
 
 .. |product_link| replace:: PIM-156-P
@@ -60,7 +74,7 @@
 Specification
 =============
 
-.. include:: Resources/table
+.. include:: Resources/table-p
 
 .. include:: Resources/mounting
 

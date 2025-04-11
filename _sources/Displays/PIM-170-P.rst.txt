@@ -26,6 +26,20 @@
 
 .. |weight| replace:: 4.6kg
 
+.. |bright| replace:: 250 |cd|
+
+.. |v_angle| replace::  Horizontal: 150°(min)~176°(typ) / Vertical: 140°(min)~170°(typ)
+
+.. |disp_col| replace:: 16.7M Colors
+
+.. |resp_time| replace:: 5ms
+
+.. |pwr| replace:: ≤ 24W
+
+.. |storage_temp| replace:: From -20°C to +60°C, 90% RH (No condensation)
+
+.. |working_temp| replace:: From 0°C to +50°C, 90% RH (No condensation)
+
 .. _product_link: https://chipsee.com/product/pim-170-p/
 
 .. |product_link| replace:: PIM-170-P
@@ -60,7 +74,7 @@
 Specification
 =============
 
-.. include:: Resources/table
+.. include:: Resources/table-p
 
 .. include:: Resources/mounting-p
 
