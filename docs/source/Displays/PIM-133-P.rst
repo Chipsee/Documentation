@@ -4,19 +4,17 @@
 :pdf-type: displays
 :pdf-revision: 1.0
 
+.. include:: Shared/PIM-156-P/base_replaces_pim_156_p
+
 .. |product| replace:: PIM-133-P
 
 .. |PN| replace:: PN: CS-D133P
-
-.. |Product| replace:: The |product| industrial display
 
 .. |dispsize| replace:: 13.3"
 
 .. |res| replace:: 1920 x 1080 (16:9)
 
-.. |bright| replace:: 400 |cd|
-
-.. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+.. |bright| replace:: 360 |cd|
 
 .. |con_ratio| replace:: 900:1
 
@@ -24,15 +22,11 @@
 
 .. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
 
-.. |v_angle| replace:: 	Horizontal: 170° / Vertical: 170°
+.. |v_angle| replace:: 	Horizontal: 140°(min)~170°(typ) / Vertical: 140°(min)~170°(typ)
 
 .. |res_time| replace:: 30ms (GTG)
 
-.. |disp_col| replace:: 16.2M Colors
-
-.. |in_res| replace:: |res| @ 60Hz
-
-.. |connector| replace:: VGA / HDMI
+.. |disp_col| replace:: 16.7M Colors
 
 .. |dim| replace:: 355 × 225 × 55mm
 
@@ -40,23 +34,13 @@
 
 .. |weight| replace:: 2920g
 
-.. |mount| replace:: VESA and PANEL
-
 .. |pwr| replace:: ≤ 16W
-
-.. |standby| replace:: ≤ 2W
-
-.. |vin_rng| replace:: 12V 3A DC(default), 9-30V (optional)
-
-.. |osd_lang| replace:: Multilingual Support
-
-.. |accessories| replace:: Bracket / Power Line / VGA Line / USB Line / Power Adapter
 
 .. |resp_time| replace:: 30ms
 
-.. |multi_touch_support| replace:: Based on the operating system of the host PC
+.. |storage_temp| replace:: From -20°C to +80°C, 90% RH (No condensation)
 
-.. |os| replace:: N/A
+.. |working_temp| replace:: From 0°C to +80°C, 90% RH (No condensation)
 
 .. _product_link: https://chipsee.com/product/pim-133-p/
 
@@ -92,7 +76,7 @@
 Specification
 =============
 
-.. include:: Resources/table
+.. include:: Resources/table-p
 
 .. include:: Resources/mounting
 

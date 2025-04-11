@@ -26,6 +26,20 @@
 
 .. |weight| replace:: 5.2kg
 
+.. |bright| replace:: 400 |cd|
+
+.. |v_angle| replace::  Horizontal: 160°(min)~170°(typ) / Vertical: 160°(min)~170°(typ)
+
+.. |disp_col| replace:: 16.7M Colors
+
+.. |resp_time| replace:: 30ms
+
+.. |pwr| replace:: ≤ 24W
+
+.. |storage_temp| replace:: From -30°C to +80°C, 90% RH (No condensation)
+
+.. |working_temp| replace:: From -30°C to +60°C, 90% RH (No condensation)
+
 .. _product_link: https://chipsee.com/product/pim-185-p/
 
 .. |product_link| replace:: PIM-185-P
@@ -60,7 +74,7 @@
 Specification
 =============
 
-.. include:: Resources/table
+.. include:: Resources/table-p
 
 .. include:: Resources/mounting-p
 

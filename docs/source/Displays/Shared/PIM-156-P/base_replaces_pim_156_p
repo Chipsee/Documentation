@@ -1,14 +1,6 @@
 .. |Product| replace:: The |product| industrial display
 
-.. |bright| replace:: 400 |cd|
-
 .. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
-.. |v_angle| replace::  Horizontal: 178° / Vertical: 178°
-
-.. |res_time| replace:: 35ms (GTG)
-
-.. |disp_col| replace:: 16.2M Colors
 
 .. |in_res| replace:: |res| @ 60Hz
 
@@ -16,17 +8,13 @@
 
 .. |mount| replace:: VESA and PANEL
 
-.. |pwr| replace:: ≤ 24W
-
 .. |standby| replace:: ≤ 2W
 
 .. |vin_rng| replace:: 12V 3A DC(default), 9-30V (optional)
 
 .. |osd_lang| replace:: Multilingual Support
 
-.. |accessories| replace:: Bracket / Power Line / VGA Line / USB Line / Power Adapter
-
-.. |resp_time| replace:: 25ms to 35ms
+.. |accessories| replace:: Mounting Clip / HDMI Cable / USB Cable / Power Adapter
 
 .. |multi_touch_support| replace:: Based on the operating system of the host PC
 
