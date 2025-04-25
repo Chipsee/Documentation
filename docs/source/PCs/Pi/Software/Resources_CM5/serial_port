@@ -1,0 +1,74 @@
+Serial Port RS232 and RS485
+---------------------------
+
+Check the table below of the RS232/RS485 pin definition to wire your ports:
+
+**5 inch product**
+
+* PPC-CM5-050(CS12720RA5050P):
+
+  .. include:: /PCs/Pi/A76/Manuals/Hardware/Resources/CS12720RA5050/connectivity_table
+
+**7 inch / Box products**
+
+* EPC-CM5-070 (CS10600RA5070E)
+* PPC-CM5-070 (CS10600RA5070P)
+* PPC-CM5-070-D (CS10600RA5070P-D)
+* CS-CM5-BOX (CSRA5BOX):
+
+  .. include:: /PCs/Pi/A76/Manuals/Hardware/Resources/BOX-070-070D-Shared/connectivity_table
+
+**10.1 inch and above products**
+
+* PPC-CM5-101 (CS12800RA5101P)
+* PPC-CM5-133 (CS19108RA5133)
+* PPC-CM5-150 (CS10768RA5150)
+* PPC-CM5-156 (CS19108RA5156)
+* PPC-CM5-170 (CS12102RA5170)
+* PPC-CM5-190 (CS12102RA5190)
+* PPC-CM5-215 (CS19108RA5215)
+* PPC-CM5-236 (CS19108RA5236)
+  
+  .. rst-class:: text-center
+
+    .. image:: /Media/Pi/A76/CS12800RA5101/CS12800RA5101-Conn.jpg
+      :align: center
+      :width: 960
+
+  .. include:: /PCs/Pi/A76/Manuals/Hardware/Resources/CS12800RA5101/connectivity_table
+
+The 120 Ohm match resistor is **NOT** mounted on the RS485 port. 
+
+RS485 ports are half-duplex, the hardware can switch the Tx/Rx direction automatically. RS232 ports are full-duplex.
+
+You can use **cutecom** to test the serial port, they're already installed. If not, you could install with:
+
+.. code:: bash
+
+  $ sudo apt-get install cutecom
+
+Only root user can use the serial port:
+
+.. code:: bash
+
+  $ sudo cutecom
+
+Apart from **cutecom**, you can also use the pre-installed HardwareTest program developed by Chipsee to test serial ports, for example, you’ve wired the serial cable on the RS232_0_RX, RS232_0_TX on the 10.1 inch product, then you can select “ttyAMA0” in “COM”, click “SerialOpen”.
+
+Then you can use your workstation or another Chipsee PC to communicate with this product.
+
+You may also wish to install a UART/COM Assistant software (such as COMTool) which has a GUI for testing. 
+  
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/Serial_Test_1_CM5.webp
+    :align: center
+    :width: 960
+
+  *Testing Serial Port with Your Workstation*
+
+If you're an experienced engineer, you can also use a programming language to test the serial ports, like C, C++, Python, Javascript. They have their libraries for controlling serial port devices.
+
+By the way, serial debugging is enabled (login from serial) by default, you can refer to the Enable/Disable Serial Debug Port section to change the RS232 port to a normal serial port.
+
+:pagebreak:`True`

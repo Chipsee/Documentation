@@ -48,6 +48,25 @@ Doc (CM3, CM4)
    <div class="col">
       <div class="index-item">
 
+Doc (CM5)
+
+.. image:: /_static/images/os_logo_pi.png
+   :width: 100px
+   :class: img-fluid text-center
+   :target: /PCs/Pi/Software/CM5.html
+
+:ref:`Raspberry Pi OS<cm5_os>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
 Doc (AIO-CM4-156)
 
 .. image:: /_static/images/os_logo_pi.png
@@ -90,6 +109,7 @@ Doc (AIO-CM4-156)
    :titlesonly:
    :hidden:
 
-   Raspberry Pi OS </PCs/Pi/Software/Debian>
+   Raspberry Pi CM3/CM4 OS </PCs/Pi/Software/Debian>
+   Raspberry Pi CM5 OS </PCs/Pi/Software/CM5>
    AIO-CM4-156 Raspberry Pi OS Start Guide </PCs/Pi/Software/AIO156StartGuide>
    AIO-CM4-156 Android Start Guide </PCs/Pi/Software/AIO156AndroidSystem>

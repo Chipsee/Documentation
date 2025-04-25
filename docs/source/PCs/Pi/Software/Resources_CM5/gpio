@@ -1,0 +1,166 @@
+GPIO
+----
+
+There are 8 GPIOs, 4 output and 4 input. They are all optical isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V, while testing we usually use an external power supply to apply to GND_ISO and VDD_SIO. 
+
+Refer to the tables below for a detailed port definition for:
+
+* EPC-CM5-070 (CS10600RA5070E)
+* PPC-CM5-070 (CS10600RA5070P)
+* PPC-CM5-070-D (CS10600RA5070P-D)
+* CS-CM5-BOX (CSRA5BOX):
+* PPC-CM5-101 (CS12800RA5101P)
+* PPC-CM5-133 (CS19108RA5133)
+* PPC-CM5-150 (CS10768RA5150)
+* PPC-CM5-156 (CS19108RA5156)
+* PPC-CM5-170 (CS12102RA5170)
+* PPC-CM5-190 (CS12102RA5190)
+* PPC-CM5-215 (CS19108RA5215)
+* PPC-CM5-236 (CS19108RA5236)
+
+.. table:: GPIO Device Node
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +-----------------------------+----------------------+-------------------+-------------+
+   | Function                    | Device Node          | GPIOD Chip        | GPIOD line  |
+   +=============================+======================+===================+=============+
+   | IN4                         | /dev/chipsee-gpio8   | 0                 | 27          |
+   +-----------------------------+----------------------+-------------------+-------------+
+   | IN3                         | /dev/chipsee-gpio7   | 0                 | 26          |
+   +-----------------------------+----------------------+-------------------+-------------+
+   | IN2                         | /dev/chipsee-gpio6   | 0                 | 25          |
+   +-----------------------------+----------------------+-------------------+-------------+
+   | IN1                         | /dev/chipsee-gpio5   | 0                 | 24          |
+   +-----------------------------+----------------------+-------------------+-------------+
+   | OUT4                        | /dev/chipsee-gpio4   | 0                 | 23          |
+   +-----------------------------+----------------------+-------------------+-------------+
+   | OUT3                        | /dev/chipsee-gpio3   | 0                 | 22          |
+   +-----------------------------+----------------------+-------------------+-------------+
+   | OUT2                        | /dev/chipsee-gpio2   | 0                 | 19          |
+   +-----------------------------+----------------------+-------------------+-------------+
+   | OUT1                        | /dev/chipsee-gpio1   | 0                 | 17          |
+   +-----------------------------+----------------------+-------------------+-------------+
+   | Isolated GND                | NC                   |                   |             |
+   +-----------------------------+----------------------+-------------------+-------------+
+   | Isolated VDD(5V-24V)        | NC                   |                   |             |
+   +-----------------------------+----------------------+-------------------+-------------+
+
+For 10.1 inch and above products:
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/A76/CS12800RA5101/CS12800RA5101-GPIO.jpg
+    :align: center
+    :width: 960
+
+  *GPIO of PPC-CM5-101 (and above screen size) products*
+
+For other 7 inch products and box products, there are silk screen indicating the ports (IN 4,3,2,1 / OUT 4,3,2,1 / GND / VDD) on the product body. You can also check the images of GPIO in the hardware documents of your product.
+
+To control GPIO, you can choose between `Chipsee GPIO` (default) or `gpiod`.
+
+Chipsee GPIO
+************
+
+Control `OUT1` by setting it high or low:
+    
+.. code:: bash
+
+    $ echo 1 > /dev/chipsee-gpio1    # set OUT1 to high
+
+    $ echo 0 > /dev/chipsee-gpio1    # set OUT1 to low
+
+Get `IN1` value:
+    
+.. code:: bash
+
+    $ cat /dev/chipsee-gpio5    # value 1 indicates high, value 0 indicates low
+
+GPIOD
+*****
+
+By default the product is set to use Chipsee GPIO, to use libgpiod to control the GPIO, first open `/opt/chipsee/chipsee-init.sh` and comment the following lines to disable Chipsee-GPIO:
+
+.. code:: bash
+
+  # comment out the following lines in /opt/chipsee/chipsee-init.sh first
+  # GPIO
+  # Comment the below code
+  num=1
+  nnum=1
+  if [ "x$OUT" != "x" ]; then
+    for i in $OUT; do
+    [ ! -d /sys/class/gpio/gpio$i ] && echo $i > /sys/class/gpio/export
+    echo out > /sys/class/gpio/gpio$i/direction
+    chmod a+w /sys/class/gpio/gpio$i/value
+    ln -sf /sys/class/gpio/gpio$i/value /dev/chipsee-gpio$num
+    ln -sf /sys/class/gpio/gpio$i/value /dev/gpio-out$nnum
+    num=`expr $num + 1`
+    nnum=`expr $nnum + 1`
+    done            
+  fi
+
+  sleep 1         
+
+  nnum=1
+  if [ "x$IN" != "x" ]; then
+    for i in $IN; do
+    [ ! -d /sys/class/gpio/gpio$i ] && echo $i > /sys/class/gpio/export
+    echo in > /sys/class/gpio/gpio$i/direction
+    chmod a+r /sys/class/gpio/gpio$i/value
+    ln -sf /sys/class/gpio/gpio$i/value /dev/chipsee-gpio$num
+    ln -sf /sys/class/gpio/gpio$i/value /dev/gpio-in$nnum
+    num=`expr $num + 1`
+    nnum=`expr $nnum + 1`
+    done
+  fi
+  # Comment the above code
+
+Then reboot the machine to take effect:
+
+.. code:: bash
+
+  # reboot to use libgpiod
+  $ sudo reboot
+
+The product uses Raspberry Pi CM5 GPIO, you can use `gpioset` and `gpioget` to control them, the GPIOD chip is 0, the GPIOD line is listed in the table above.
+
+**Set OUTPUT with GPIOD**
+
+For example, to set OUT1 to high, we need to run `gpioset chip line=1` which is `gpioset 0 17=1`, the "17" is the GPIOD line number for OUT1 pin.
+
+.. code:: bash
+
+  $ gpioset 0 17=1 # Set OUT1 to high
+  $ gpioset 0 17=0 # Set OUT1 to low
+
+
+**Check INPUT with GPIOD**
+
+To check the INPUT level, use `gpioget`. For example, to check the input level for IN4, it is `gpioget chip line` which is `gpioget 0 27`, the "27" is the GPIOD line number for IN4 pin:
+
+.. code:: bash
+
+  $ gpioget 0 27 # Gets the input level for IN4
+  0 # input is low
+  1 # input is high
+
+**Other Tools of GPIOD**
+
+libgpiod includes several tools that are available in Raspberry Pi OS, such as:
+
+.. code:: bash
+
+  gpiodetect # list gpiochips
+
+  gpioinfo # list GPIO lines
+
+  gpiomon # wait for edge events on GPIO lines
+
+  gpiofind # determine the location of the specific named GPIO
+
+You can search their usage on the Internet if you wish to learn more.
+
+:pagebreak:`True`

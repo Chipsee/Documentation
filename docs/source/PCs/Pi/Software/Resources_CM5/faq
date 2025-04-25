@@ -1,0 +1,39 @@
+FAQ
+===
+
+
+**How to rotate the screen?**
+
+Click top left menu, Preferences -> Screen Configuration. Then right click (or long press if using touch screen) HDMI-A-1 grey area, Choose orientation, then select the rotate option. The touchscreen will be rotated along with the display.
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/faq_1_CM5.webp
+    :align: center
+    :width: 800
+
+  .. image:: /Media/Pi/Software/cm5/faq_2_CM5.webp
+    :align: center
+    :width: 800
+
+**How to enable the on screen virtual keyboard?**
+
+Select Raspberry Pi Configuration, choose "Display", in On-screen keyboard, select "Enabled Always", then click OK to save.
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/faq_3_CM5.webp
+    :align: center
+    :width: 800
+
+  .. image:: /Media/Pi/Software/cm5/faq_4_CM5.webp
+    :align: center
+    :width: 800
+
+  .. image:: /Media/Pi/Software/cm5/faq_5_CM5.webp
+    :align: center
+    :width: 800
+
+The keyboard will automatically pop up when entering text.
+
+:pagebreak:`True`

@@ -1,0 +1,42 @@
+Prepare for Developing
+======================
+
+To power on the |ipc|, you need a power adapter; then you may want to connect to this PC from your  laptop or computer. Let's prepare some hardware and software.
+
+Prepare the Hardware
+--------------------
+
+Power Adapter:
+
+* For products with a screen of 5" or 7" and BOX product, a power adapter between 9V ~ 30V DC output is required.
+* For products with a screen of 10.1" or larger, you need a DC adapter with output between 15V ~ 30V.
+
+For example, you can use a switching power DC adapter; or use a laptop adapter with proper voltage such as 18.5V, 19V etc when developing; or use a 12V power adapter from a used router for small screen products when developing.
+
+To connect to the |ipc| from your workstation, you can use:
+
+#. A USB to serial cable (if you need serial debug, i.e. connect to RS232 serial debug port).
+#. An Ethernet cable (if you want to SSH into the |ipc|). You may also use WiFi if your |ipc| supports WiFi, in this case you don't need the Ethernet cable.
+#. A USB type-C cable (if you want to flash a new OS).
+
+If you use the CM5 Lite module which doesn't have built-in eMMC storage, you also need one TF(Micro SD) card, 16GB at least, to boot your system.
+
+Prepare the Software
+--------------------
+
+Thanks to the |systemType| OS, developing on a |ipc| isn't really different from developing on a normal Raspberry Pi (except for optical isolated GPIO, RS232/485 serial ports and other hardware resources which a Pi doesn't have), you can use any developer software you're comfortable with.
+   
+*The software listed below are not mandatory, they're recommendations because we find them easy to use:*
+
+#. To SSH into a |ipc|, you may find **PuTTY** or **XShell** on Windows handy; for Linux and macOS users, a terminal app should come with your OS out of box, like **Terminal/iTerm2** on macOS and **xterm** on Linux.
+#. To use a remote desktop, you can download **VNC Viewer** on your laptop or PC.
+#. `7zip <https://www.7-zip.org/download.html>`_ for firmware image decompression, you could use your workstation's stock unzip program as well.
+#. You can use **BalenaEtcher** or the official **Raspberry Pi Imager** to flash OS to the machine.
+#. :download:`Rpiboot for Windows<https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe>`, or `Rpiboot for other platforms <https://github.com/raspberrypi/usbboot/tree/master>`_ to let your host machine detect the Chipsee industrial Pi eMMC as a USB device.
+
+
+.. note::
+
+    * In this documentation, all the commands are executed with ``root`` user privileges.
+
+:pagebreak:`True`

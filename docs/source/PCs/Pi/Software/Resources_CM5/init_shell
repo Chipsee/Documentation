@@ -1,0 +1,12 @@
+Chipsee-init shell
+------------------
+
+We use one **chipsee-init.sh** as an initial shell which is placed in `/opt/chipsee/chipsee-init.sh`.
+
+We initialize the GPIO/Buzzer and other configs in it. If you want to change it, please be careful.
+
+Do a backup first before you modify anything. This script will generaged one log file which is located on /var/log/chipsee-init.sh.log.
+
+If your device has booting issues, you can send |Chipsee| the file to help you find out what happened.
+
+:pagebreak:`True`

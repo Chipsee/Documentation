@@ -62,8 +62,10 @@ To write your image with balenaEtcher, follow these steps:
 Writing images to the eMMC
 --------------------------
 
-Before you start, don’t forget to check your eMMC size, and select one image. You also need to install :download:`rpiboot <https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe>` to enable eMMC to work as one USB storage in your PC. |br|
-Under Windows, an installer is available to install the required drivers and boot tool automatically.|br|
+Before you start, don’t forget to check your eMMC size, and select one image. You also need to install :download:`rpiboot <https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe>` to enable eMMC to work as one USB storage in your PC.
+
+Under Windows, an installer is available to install the required drivers and boot tool automatically.
+
 For those who just want to enable the Compute Module eMMC as a mass storage device under Windows, the stand-alone installer is the recommended option.
 
 The write images to the eMMC, follow these steps:

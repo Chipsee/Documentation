@@ -1,0 +1,16 @@
+|systemType| OS
+###############
+
+.. rst-class:: fs-3 fw-bold text-center
+
+  Chipsee CM5 Industrial PC
+
+  User Manual for |systemType| OS 
+
+
+.. image:: /Media/Chipsee_Logo_Full.png
+  :align: center
+  :width: 320
+  :alt: chipsee-logo
+
+This is the software manual for Chipsee |chip| industrial PC. If you've never developed on this hardware with a |systemType| OS, this manual can get you started quickly.
