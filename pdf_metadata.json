@@ -1321,6 +1321,12 @@
             "pdf-filename": "Raspberry Pi OS OS on AIO CM4 User Manual",
             "pdf-type": "ipc"
         },
+        "PCs/Pi/Software/CM5": {
+            "pdf-title": "Raspberry Pi OS on Raspberry Pi CM5 User Manual",
+            "pdf-subtitle": "For Raspberry Pi CM5 Products",
+            "pdf-filename": "Raspberry Pi OS on Raspberry Pi CM5 User Manual",
+            "pdf-type": "ipc"
+        },
         "PCs/Pi/Software/Debian": {
             "pdf-title": "Raspberry Pi OS on CM4 User Manual",
             "pdf-subtitle": "For CM4 Products",
