@@ -107,6 +107,8 @@ BeagleBone Black 7 Inch LCD Expansion board (Abbreviate as BBB-EXP7H) designed b
 
 - |sw_manual_download|
 
+:pagebreak:`True`
+
 Hardware Features
 =================
 
@@ -157,6 +159,8 @@ Hardware Features
 
     *Figure 2 BBB-EXP7H Back-Side View (Capacitive)*
 
+:pagebreak:`True`
+
 How to connect BBB-EXP7H with BeagleBone Black
 ==============================================
 
@@ -167,6 +171,8 @@ When connect BBB-EXP7H with BeagleBone Black, Figure 3 shows the right connects 
     |img3|
 
     *Figure 3*
+
+:pagebreak:`True`
 
 How to connect Power to the System
 ==================================
@@ -181,6 +187,8 @@ When BBB-EXP7H connect with BeagleBone Black, the Power connector on BeagleBone 
 
     *Figure 4*
 
+:pagebreak:`True`
+
 How to change Boot Method
 =========================
 
@@ -194,6 +202,7 @@ When connect with BBB-EXP7H, the Button **S2** on the Beaglebone black will be h
 
     *Figure 5*
 
+:pagebreak:`True`
 
 Power and Reset Button
 ======================
@@ -207,6 +216,8 @@ BeagleBone Black use Button **S1** as Reset button, BBB-EXP7H connect this signa
     |img6|
 
     *Figure 6*
+
+:pagebreak:`True`
 
 User Keys and user LED
 ======================
@@ -227,6 +238,8 @@ BBB-EXP7H add two user LEDs as Figure 7 shows. User can define its function in s
 
     *Figure 7*
 
+:pagebreak:`True`
+
 Audio Input and Output
 ======================
 
@@ -240,6 +253,8 @@ User can connect the output to any other speaker. As for the Input, it’s “MI
 
     *Figure 8*
 
+:pagebreak:`True`
+
 About RTC
 =========
 
@@ -250,6 +265,8 @@ BBB-EXP7H adds RTC support, and adds Lithium Battery CR1220 to keep the time as 
     |img9|
 
     *Figure 9*
+
+:pagebreak:`True`
 
 About the RS232 , RS485 and CAN on Expansion board
 ==================================================
@@ -293,6 +310,8 @@ BBB-EXP7H have add RS232 ,RS485, CAN function to the connector **P10**, **P12** 
    +----------------+------------------------------+-------------------------------+
    |   2,3,6        | Not Connected                |                               |
    +----------------+------------------------------+-------------------------------+
+
+:pagebreak:`True`
 
 .. table:: Connector **P12** definition
    :align: center
@@ -342,6 +361,8 @@ a) COM0 signal have been connect out from Beaglebone Black for customer to debug
 
 b) The RS232_0 signals have been connect to the DB9 connector P10 and connector P12 Pin8 and Pin9 at the same time. They are totally the same. As for this function, you can use one connector one time.
 
+:pagebreak:`True`
+
 Mechanical Dimension
 ====================
 
@@ -351,12 +372,15 @@ Mechanical Dimension
 
     *Figure 11*    
 
+:pagebreak:`True`
+
 Product Video
 =============
-
 
 Android 4.1 http://youtu.be/FebYqMws0g4
 
 WindowsCE 6.0 http://youtu.be/S2Ttujf6cWU
+
+:pagebreak:`True`
 
 .. include:: /PCs/Shared/support
