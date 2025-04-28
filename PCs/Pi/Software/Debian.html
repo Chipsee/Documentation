@@ -1083,7 +1083,7 @@ $<span class="w"> </span>./quectel-ppp-kill
 </li>
 <li><dl>
 <dt>Open another terminal to config and enable:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>microcom<span class="w"> </span>–s<span class="w"> </span><span class="m">9600</span><span class="w"> </span>/dev/ttyUSB2
-AT+QGPSCFG<span class="o">=</span>”gpsnmeatype”,1
+AT+QGPSCFG<span class="o">=</span><span class="s2">"gpsnmeatype"</span>,31<span class="w"> </span><span class="c1"># Turn on all output type, GGA/RMC/GSV/GSA/VTG, this setting will be saved to NVRAM, persists after reboot</span>
 AT+QGPS<span class="o">=</span><span class="m">1</span><span class="w"> </span>//<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>GPS,<span class="w"> </span><span class="nb">wait</span><span class="w"> </span>some<span class="w"> </span>minutes,<span class="w"> </span>you<span class="w"> </span>can<span class="w"> </span>get<span class="w"> </span>date<span class="w"> </span>from<span class="w"> </span>fist<span class="w"> </span>terminal.
 AT+QGPSEND<span class="w"> </span>//<span class="w"> </span>disable<span class="w"> </span>GPS
 </pre></div>

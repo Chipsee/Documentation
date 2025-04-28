@@ -54,7 +54,7 @@
 
 .. |rs485| replace:: default 3 x RS485 at most
 
-.. |can| replace:: default 2 x CAN
+.. |can| replace:: default 2 x CAN FD
 
 .. |poe| replace:: Supported for 1 x **optional** POE RJ45
 
