@@ -1,0 +1,36 @@
+AM335X / A8 Exp
+###############
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+7 Inch
+|BBB-EXP7H|
+
+:ref:`BBB-EXP7H<BBB-EXP7H>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+   
+   </div>
+
+.. |BBB-EXP7H| image:: /Media/ARM/A8/BBB-EXP7H/BBB-EXP7H-Front.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/AM335X/Manuals/Hardware/BBB-EXP7H.html
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   BBB-EXP7H </PCs/ARM/AM335X/Manuals/Hardware/BBB-EXP7H>
