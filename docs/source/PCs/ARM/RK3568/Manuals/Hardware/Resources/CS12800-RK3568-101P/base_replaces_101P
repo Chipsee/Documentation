@@ -4,7 +4,7 @@
 
 .. |mounting_table| replace:: Panel, VESA
 
-.. |uart_des| replace:: This product has 4 x UART by default, 6 x UART channels at most. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. The 2 x CAN can be configured to RS232.
+.. |uart_des| replace:: This product has 4 x UART by default, 6 x UART channels at most. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. The 2 x CAN FD can be configured to RS232.
 
 .. |SSD| replace:: Optional, supports M.2 2280 NVME SSD (PCI-E 3.0 x 2)
 
@@ -32,6 +32,6 @@
 
 .. |rs485| replace:: Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232.
 
-.. |can| replace:: Default to 2 x CAN. Optionally, these 2 x CAN can be configured to RS232.
+.. |can| replace:: Default to 2 x CAN FD. Optionally, these 2 x CAN FD can be configured to RS232.
 
 .. |vesa_screws| replace:: **100 x 100** mm, 4 x **M4** (6mm)
