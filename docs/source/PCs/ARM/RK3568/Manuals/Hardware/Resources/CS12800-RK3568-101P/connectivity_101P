@@ -2,12 +2,12 @@ Connectivity
 ============
 
 There are many connectivity options available on the |product| industrial PC. It has |USB|, 1 x network connector (RJ45) supporting up to
-1 Gbps, 8 x GPIO, 2 x CAN and 4 x UART terminals (RS232/485).
+1 Gbps, 8 x GPIO, 2 x CAN FD and 4 x UART terminals (RS232/485).
 
 RS232+RS485+CAN+GPIO Connector
 ------------------------------
 
-The serial communication interfaces (RS485, RS232, and CAN) are routed to a **24-pin 3.81mm terminal**, as illustrated in the figure below.
+The serial communication interfaces (RS485, RS232, and CAN FD) are routed to a **24-pin 3.81mm terminal**, as illustrated in the figure below.
 Serial communication on both RS485 and RS232 interfaces can reach up to 115200 kbps.
 
 .. include:: /PCs/Shared/Hardware/gpio_image

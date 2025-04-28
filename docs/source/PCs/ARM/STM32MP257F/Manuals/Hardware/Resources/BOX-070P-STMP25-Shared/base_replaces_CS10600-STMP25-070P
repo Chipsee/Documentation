@@ -22,13 +22,13 @@
 
 .. |uart_at_most| replace:: 6 x UART terminals (RS232/RS485)
 
-.. |can_at_most| replace:: 2 x CAN
+.. |can_at_most| replace:: 2 x CAN FD
 
 .. |conn_terminal| replace:: **16-pin 3.81mm terminal**
 
-.. |UART_Note| replace:: This product has 6 x CPU UART, the default configuration is 2 x RS232 and 3 x RS485, include 1 x RS232 debug port. There is 1 x CAN that can be configured to RS232.
+.. |UART_Note| replace:: This product has 6 x CPU UART, the default configuration is 2 x RS232 and 3 x RS485, include 1 x RS232 debug port. There is 1 x CAN FD that can be configured to RS232.
 
-.. |can| replace:: default 2 x CAN (1 x CAN can be configured to RS232 optionally)
+.. |can| replace:: default 2 x CAN FD (1 x CAN FD can be configured to RS232 optionally)
 
 .. |poe| replace:: Supported, Optional
 

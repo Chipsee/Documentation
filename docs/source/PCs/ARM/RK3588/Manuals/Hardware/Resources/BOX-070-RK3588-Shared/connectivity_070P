@@ -1,12 +1,12 @@
 Connectivity
 ============
 
-There are many connectivity options available on the |product| industrial PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to 1 Gbps, and 5 x UART terminals (RS232/RS485), 2 x CAN.
+There are many connectivity options available on the |product| industrial PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to 1 Gbps, and 5 x UART terminals (RS232/RS485), 2 x CAN FD.
 
 RS232/RS485/CAN
 ---------------
 
-The serial communication interfaces (RS485, RS232, and CAN) are routed to a **16-pin 3.81mm terminal**, as illustrated on the figure below.
+The serial communication interfaces (RS485, RS232, and CAN FD) are routed to a **16-pin 3.81mm terminal**, as illustrated on the figure below.
 
 Serial communication on both RS485 and RS232 interfaces can reach up to 115200 kbps.
 

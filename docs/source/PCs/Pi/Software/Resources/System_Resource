@@ -273,7 +273,7 @@ We use one PWM to control the backlight for Chipsee Raspberry Pi boards, You can
     .. code:: bash
 
         $ microcom –s 9600 /dev/ttyUSB2
-        AT+QGPSCFG=”gpsnmeatype”,1
+        AT+QGPSCFG="gpsnmeatype",31 # Turn on all output type, GGA/RMC/GSV/GSA/VTG, this setting will be saved to NVRAM, persists after reboot
         AT+QGPS=1 // enable GPS, wait some minutes, you can get date from fist terminal.
         AT+QGPSEND // disable GPS
 
