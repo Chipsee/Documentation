@@ -162,6 +162,12 @@
             "pdf-build": "False",
             "orphan": ""
         },
+        "PCs/ARM/AM335X/Manuals/Hardware/BBB-EXP7H": {
+            "pdf-title": "BBB-EXP7H",
+            "pdf-subtitle": "PN: BBB-EXP7H",
+            "pdf-filename": "BBB-EXP7H",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/AM335X/Manuals/Hardware/CS10600T070": {
             "pdf-title": "EPC/PPC-A8-070H-C",
             "pdf-subtitle": "PN: CS10600T070",
