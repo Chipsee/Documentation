@@ -1,0 +1,147 @@
+Hailo AI
+========
+
+The Chipsee CM5 products have a M.2 slot that supports Hailo AI module, you can buy the module from Chipsee or bring your own and install it by yourself.
+
+To use the Hailo AI module with Raspberry Pi of on CM5 product, you can follow the official Raspberry Pi Hailo documentation, or follow the guide below.
+
+As of the time writing (Apr 30, 2025), the Hailo 8L module has been tested on the Chipsee CM5 products, it works pretty much out of the box with only a few commands to install the driver and software kit.
+
+The main references for using Hailo AI module on CM5 is `Hailo's official Github repo <https://github.com/hailo-ai/hailo-rpi5-examples>`_ and `Raspberry Pi's official documentation <https://www.raspberrypi.com/documentation/computers/ai.html>`_
+
+Install the dependencies required to use the NPU:
+
+.. code-block:: bash
+
+  $ sudo apt install hailo-all
+
+Reboot your Raspberry Pi with `sudo reboot`.
+
+To ensure everything is running correctly:
+
+.. code-block:: bash
+
+  pi@raspberrypi:~ $ hailortcli fw-control identify
+
+  Executing on device: 0000:01:00.0
+  Identifying board
+  Control Protocol Version: 2
+  Firmware Version: 4.20.0 (release,app,extended context switch buffer)
+  Logger Version: 0
+  Board Name: Hailo-8
+  Device Architecture: HAILO8L
+  Serial Number: HLDDLBB
+  Part Number: HM21LB1C2LAE
+  Product Name: HAILO-8L AI ACC M.2 B+M KEY MODULE EXT TMP
+
+Test TAPPAS Core installation by running the following commands:
+
+Hailotools: (TAPPAS Gstreamer elements)
+
+.. code-block:: bash
+  :linenos:
+  :emphasize-lines: 1
+
+  pi@raspberrypi:~ $ gst-inspect-1.0 hailotools
+  
+    Plugin Details:
+    Name                     hailotools
+    Description              hailo tools plugin
+    Filename                 /lib/aarch64-linux-gnu/gstreamer-1.0/libgsthailotools.so
+    Version                  3.31.0
+    License                  unknown
+    Source module            gst-hailo-tools
+    Binary package           gst-hailo-tools
+    Origin URL               https://hailo.ai/
+
+    hailoaggregator: hailoaggregator - Cascading
+    hailocounter: hailocounter - postprocessing element
+    hailocropper: hailocropper
+    hailoexportfile: hailoexportfile - export element
+    hailoexportzmq: hailoexportzmq - export element
+    hailofilter: hailofilter - postprocessing element
+    hailogallery: Hailo gallery element
+    hailograytonv12: hailograytonv12 - postprocessing element
+    hailoimportzmq: hailoimportzmq - import element
+    hailomuxer: Muxer pipeline merging
+    hailonv12togray: hailonv12togray - postprocessing element
+    hailonvalve: HailoNValve element
+    hailooverlay: hailooverlay - overlay element
+    hailoroundrobin: Input Round Robin element
+    hailostreamrouter: Hailo Stream Router
+    hailotileaggregator: hailotileaggregator
+    hailotilecropper: hailotilecropper - Tiling
+    hailotracker: Hailo object tracking element
+
+    18 features:
+    +-- 18 elements
+
+
+Hailonet: (HailoRT inference Gstreamer element)
+
+.. code-block:: bash
+  :linenos:
+  :emphasize-lines: 1
+
+  pi@raspberrypi:~ $ gst-inspect-1.0 hailotools
+  
+    Plugin Details:
+    Name                     hailo
+    Description              hailo gstreamer plugin
+    Filename                 /lib/aarch64-linux-gnu/gstreamer-1.0/libgsthailo.so
+    Version                  1.0
+    License                  unknown
+    Source module            hailo
+    Binary package           GStreamer
+    Origin URL               http://gstreamer.net/
+
+    hailodevicestats: hailodevicestats element
+    hailonet: hailonet element
+    synchailonet: sync hailonet element
+
+    3 features:
+    +-- 3 elements
+
+Install hailo-rpi5-examples:
+
+.. code-block:: bash
+
+  git clone https://github.com/hailo-ai/hailo-rpi5-examples.git
+
+  cd hailo-rpi5-examples
+
+  ./install.sh
+
+Running the examples:
+
+.. code-block:: bash
+
+  $ source setup_env.sh
+
+  Setting up the environment...
+  Setting up the environment for hailo-tappas-core...
+  TAPPAS_VERSION is 3.31.0. Proceeding...
+  You are not in the venv_hailo_rpi5_examples virtual environment.
+  Virtual environment exists. Activating...
+  TAPPAS_POST_PROC_DIR set to /usr/lib/aarch64-linux-gnu/hailo/tappas/post_processes
+  DEVICE_ARCHITECTURE is set to: HAILO8L    
+
+To run the video detection example:
+
+.. code-block:: bash
+
+  python basic_pipelines/detection.py
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/hailo_1_CM5.webp
+    :align: center
+    :width: 800
+
+  *Hailo 8L on Chipsee PPC-CM5-101 Object Detection*
+  
+Running with USB camera input (webcam):
+
+.. code-block:: bash
+
+  python basic_pipelines/detection.py --input usb
