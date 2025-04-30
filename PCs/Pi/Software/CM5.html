@@ -277,6 +277,8 @@
         </li></ul>
             </nav>
         </li>
+        <li class="md-nav__item"><a href="#hailo-ai" class="md-nav__link">Hailo AI</a>
+        </li>
         <li class="md-nav__item"><a href="#faq" class="md-nav__link">FAQ</a>
         </li>
         <li class="md-nav__item"><a href="#disclaimer" class="md-nav__link">Disclaimer</a>
@@ -1560,6 +1562,121 @@ Second<span class="w"> </span>stage<span class="w"> </span>boot<span class="w"> 
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 </section>
+<section id="hailo-ai">
+<h2 id="hailo-ai">Hailo AI<a class="headerlink" href="#hailo-ai" title="Permalink to this heading">¶</a></h2>
+<p>The Chipsee CM5 products have a M.2 slot that supports Hailo AI module, you can buy the module from Chipsee or bring your own and install it by yourself.</p>
+<p>To use the Hailo AI module with Raspberry Pi of on CM5 product, you can follow the official Raspberry Pi Hailo documentation, or follow the guide below.</p>
+<p>As of the time writing (Apr 30, 2025), the Hailo 8L module has been tested on the Chipsee CM5 products, it works pretty much out of the box with only a few commands to install the driver and software kit.</p>
+<p>The main references for using Hailo AI module on CM5 is <a class="reference external" href="https://github.com/hailo-ai/hailo-rpi5-examples">Hailo’s official Github repo</a> and <a class="reference external" href="https://www.raspberrypi.com/documentation/computers/ai.html">Raspberry Pi’s official documentation</a></p>
+<p>Install the dependencies required to use the NPU:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>hailo-all
+</pre></div>
+</div>
+<p>Reboot your Raspberry Pi with <cite>sudo reboot</cite>.</p>
+<p>To ensure everything is running correctly:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pi@raspberrypi:~<span class="w"> </span>$<span class="w"> </span>hailortcli<span class="w"> </span>fw-control<span class="w"> </span>identify
+
+Executing<span class="w"> </span>on<span class="w"> </span>device:<span class="w"> </span><span class="m">0000</span>:01:00.0
+Identifying<span class="w"> </span>board
+Control<span class="w"> </span>Protocol<span class="w"> </span>Version:<span class="w"> </span><span class="m">2</span>
+Firmware<span class="w"> </span>Version:<span class="w"> </span><span class="m">4</span>.20.0<span class="w"> </span><span class="o">(</span>release,app,extended<span class="w"> </span>context<span class="w"> </span>switch<span class="w"> </span>buffer<span class="o">)</span>
+Logger<span class="w"> </span>Version:<span class="w"> </span><span class="m">0</span>
+Board<span class="w"> </span>Name:<span class="w"> </span>Hailo-8
+Device<span class="w"> </span>Architecture:<span class="w"> </span>HAILO8L
+Serial<span class="w"> </span>Number:<span class="w"> </span>HLDDLBB
+Part<span class="w"> </span>Number:<span class="w"> </span>HM21LB1C2LAE
+Product<span class="w"> </span>Name:<span class="w"> </span>HAILO-8L<span class="w"> </span>AI<span class="w"> </span>ACC<span class="w"> </span>M.2<span class="w"> </span>B+M<span class="w"> </span>KEY<span class="w"> </span>MODULE<span class="w"> </span>EXT<span class="w"> </span>TMP
+</pre></div>
+</div>
+<p>Test TAPPAS Core installation by running the following commands:</p>
+<p>Hailotools: (TAPPAS Gstreamer elements)</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="hll"><span class="linenos"> 1</span>pi@raspberrypi:~<span class="w"> </span>$<span class="w"> </span>gst-inspect-1.0<span class="w"> </span>hailotools
+</span><span class="linenos"> 2</span>
+<span class="linenos"> 3</span><span class="w">  </span>Plugin<span class="w"> </span>Details:
+<span class="linenos"> 4</span><span class="w">  </span>Name<span class="w">                     </span>hailotools
+<span class="linenos"> 5</span><span class="w">  </span>Description<span class="w">              </span>hailo<span class="w"> </span>tools<span class="w"> </span>plugin
+<span class="linenos"> 6</span><span class="w">  </span>Filename<span class="w">                 </span>/lib/aarch64-linux-gnu/gstreamer-1.0/libgsthailotools.so
+<span class="linenos"> 7</span><span class="w">  </span>Version<span class="w">                  </span><span class="m">3</span>.31.0
+<span class="linenos"> 8</span><span class="w">  </span>License<span class="w">                  </span>unknown
+<span class="linenos"> 9</span><span class="w">  </span>Source<span class="w"> </span>module<span class="w">            </span>gst-hailo-tools
+<span class="linenos">10</span><span class="w">  </span>Binary<span class="w"> </span>package<span class="w">           </span>gst-hailo-tools
+<span class="linenos">11</span><span class="w">  </span>Origin<span class="w"> </span>URL<span class="w">               </span>https://hailo.ai/
+<span class="linenos">12</span>
+<span class="linenos">13</span><span class="w">  </span>hailoaggregator:<span class="w"> </span>hailoaggregator<span class="w"> </span>-<span class="w"> </span>Cascading
+<span class="linenos">14</span><span class="w">  </span>hailocounter:<span class="w"> </span>hailocounter<span class="w"> </span>-<span class="w"> </span>postprocessing<span class="w"> </span>element
+<span class="linenos">15</span><span class="w">  </span>hailocropper:<span class="w"> </span>hailocropper
+<span class="linenos">16</span><span class="w">  </span>hailoexportfile:<span class="w"> </span>hailoexportfile<span class="w"> </span>-<span class="w"> </span><span class="nb">export</span><span class="w"> </span>element
+<span class="linenos">17</span><span class="w">  </span>hailoexportzmq:<span class="w"> </span>hailoexportzmq<span class="w"> </span>-<span class="w"> </span><span class="nb">export</span><span class="w"> </span>element
+<span class="linenos">18</span><span class="w">  </span>hailofilter:<span class="w"> </span>hailofilter<span class="w"> </span>-<span class="w"> </span>postprocessing<span class="w"> </span>element
+<span class="linenos">19</span><span class="w">  </span>hailogallery:<span class="w"> </span>Hailo<span class="w"> </span>gallery<span class="w"> </span>element
+<span class="linenos">20</span><span class="w">  </span>hailograytonv12:<span class="w"> </span>hailograytonv12<span class="w"> </span>-<span class="w"> </span>postprocessing<span class="w"> </span>element
+<span class="linenos">21</span><span class="w">  </span>hailoimportzmq:<span class="w"> </span>hailoimportzmq<span class="w"> </span>-<span class="w"> </span>import<span class="w"> </span>element
+<span class="linenos">22</span><span class="w">  </span>hailomuxer:<span class="w"> </span>Muxer<span class="w"> </span>pipeline<span class="w"> </span>merging
+<span class="linenos">23</span><span class="w">  </span>hailonv12togray:<span class="w"> </span>hailonv12togray<span class="w"> </span>-<span class="w"> </span>postprocessing<span class="w"> </span>element
+<span class="linenos">24</span><span class="w">  </span>hailonvalve:<span class="w"> </span>HailoNValve<span class="w"> </span>element
+<span class="linenos">25</span><span class="w">  </span>hailooverlay:<span class="w"> </span>hailooverlay<span class="w"> </span>-<span class="w"> </span>overlay<span class="w"> </span>element
+<span class="linenos">26</span><span class="w">  </span>hailoroundrobin:<span class="w"> </span>Input<span class="w"> </span>Round<span class="w"> </span>Robin<span class="w"> </span>element
+<span class="linenos">27</span><span class="w">  </span>hailostreamrouter:<span class="w"> </span>Hailo<span class="w"> </span>Stream<span class="w"> </span>Router
+<span class="linenos">28</span><span class="w">  </span>hailotileaggregator:<span class="w"> </span>hailotileaggregator
+<span class="linenos">29</span><span class="w">  </span>hailotilecropper:<span class="w"> </span>hailotilecropper<span class="w"> </span>-<span class="w"> </span>Tiling
+<span class="linenos">30</span><span class="w">  </span>hailotracker:<span class="w"> </span>Hailo<span class="w"> </span>object<span class="w"> </span>tracking<span class="w"> </span>element
+<span class="linenos">31</span>
+<span class="linenos">32</span><span class="w">  </span><span class="m">18</span><span class="w"> </span>features:
+<span class="linenos">33</span><span class="w">  </span>+--<span class="w"> </span><span class="m">18</span><span class="w"> </span>elements
+</pre></div>
+</div>
+<p>Hailonet: (HailoRT inference Gstreamer element)</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="hll"><span class="linenos"> 1</span>pi@raspberrypi:~<span class="w"> </span>$<span class="w"> </span>gst-inspect-1.0<span class="w"> </span>hailotools
+</span><span class="linenos"> 2</span>
+<span class="linenos"> 3</span><span class="w">  </span>Plugin<span class="w"> </span>Details:
+<span class="linenos"> 4</span><span class="w">  </span>Name<span class="w">                     </span>hailo
+<span class="linenos"> 5</span><span class="w">  </span>Description<span class="w">              </span>hailo<span class="w"> </span>gstreamer<span class="w"> </span>plugin
+<span class="linenos"> 6</span><span class="w">  </span>Filename<span class="w">                 </span>/lib/aarch64-linux-gnu/gstreamer-1.0/libgsthailo.so
+<span class="linenos"> 7</span><span class="w">  </span>Version<span class="w">                  </span><span class="m">1</span>.0
+<span class="linenos"> 8</span><span class="w">  </span>License<span class="w">                  </span>unknown
+<span class="linenos"> 9</span><span class="w">  </span>Source<span class="w"> </span>module<span class="w">            </span>hailo
+<span class="linenos">10</span><span class="w">  </span>Binary<span class="w"> </span>package<span class="w">           </span>GStreamer
+<span class="linenos">11</span><span class="w">  </span>Origin<span class="w"> </span>URL<span class="w">               </span>http://gstreamer.net/
+<span class="linenos">12</span>
+<span class="linenos">13</span><span class="w">  </span>hailodevicestats:<span class="w"> </span>hailodevicestats<span class="w"> </span>element
+<span class="linenos">14</span><span class="w">  </span>hailonet:<span class="w"> </span>hailonet<span class="w"> </span>element
+<span class="linenos">15</span><span class="w">  </span>synchailonet:<span class="w"> </span>sync<span class="w"> </span>hailonet<span class="w"> </span>element
+<span class="linenos">16</span>
+<span class="linenos">17</span><span class="w">  </span><span class="m">3</span><span class="w"> </span>features:
+<span class="linenos">18</span><span class="w">  </span>+--<span class="w"> </span><span class="m">3</span><span class="w"> </span>elements
+</pre></div>
+</div>
+<p>Install hailo-rpi5-examples:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/hailo-ai/hailo-rpi5-examples.git
+
+<span class="nb">cd</span><span class="w"> </span>hailo-rpi5-examples
+
+./install.sh
+</pre></div>
+</div>
+<p>Running the examples:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">source</span><span class="w"> </span>setup_env.sh
+
+Setting<span class="w"> </span>up<span class="w"> </span>the<span class="w"> </span>environment...
+Setting<span class="w"> </span>up<span class="w"> </span>the<span class="w"> </span>environment<span class="w"> </span><span class="k">for</span><span class="w"> </span>hailo-tappas-core...
+TAPPAS_VERSION<span class="w"> </span>is<span class="w"> </span><span class="m">3</span>.31.0.<span class="w"> </span>Proceeding...
+You<span class="w"> </span>are<span class="w"> </span>not<span class="w"> </span><span class="k">in</span><span class="w"> </span>the<span class="w"> </span>venv_hailo_rpi5_examples<span class="w"> </span>virtual<span class="w"> </span>environment.
+Virtual<span class="w"> </span>environment<span class="w"> </span>exists.<span class="w"> </span>Activating...
+TAPPAS_POST_PROC_DIR<span class="w"> </span><span class="nb">set</span><span class="w"> </span>to<span class="w"> </span>/usr/lib/aarch64-linux-gnu/hailo/tappas/post_processes
+DEVICE_ARCHITECTURE<span class="w"> </span>is<span class="w"> </span><span class="nb">set</span><span class="w"> </span>to:<span class="w"> </span>HAILO8L
+</pre></div>
+</div>
+<p>To run the video detection example:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>basic_pipelines/detection.py
+</pre></div>
+</div>
+<a class="text-center reference internal image-reference" href="../../../_images/hailo_1_CM5.webp"><img alt="../../../_images/hailo_1_CM5.webp" class="text-center align-center" src="../../../_images/hailo_1_CM5.webp" style="width: 800px;"/></a>
+<p class="text-center"><em>Hailo 8L on Chipsee PPC-CM5-101 Object Detection</em></p>
+<p>Running with USB camera input (webcam):</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>basic_pipelines/detection.py<span class="w"> </span>--input<span class="w"> </span>usb
+</pre></div>
+</div>
+</section>
 <section id="faq">
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Permalink to this heading">¶</a></h2>
 <p><strong>How to rotate the screen?</strong></p>
@@ -1633,7 +1750,7 @@ Second<span class="w"> </span>stage<span class="w"> </span>boot<span class="w"> 
               
           </div>
             Last updated on
-              Apr 28, 2025.
+              Apr 30, 2025.
             <br/>
         </div>
       </div>
