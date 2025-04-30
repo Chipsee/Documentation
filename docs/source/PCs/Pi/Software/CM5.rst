@@ -47,6 +47,8 @@
 
 .. include:: Resources_CM5/flash_os
 
+.. include:: Resources_CM5/hailo
+
 .. include:: Resources_CM5/faq
 
 .. include:: /PCs/Shared/support
