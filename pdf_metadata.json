@@ -616,6 +616,24 @@
             "pdf-filename": "PPC-A35-070",
             "pdf-type": "ipc"
         },
+        "PCs/ARM/STM32MP257F/Manuals/Hardware/CS12800-STMP25-101P": {
+            "pdf-title": "PPC-A35-101",
+            "pdf-subtitle": "PN: CS12800-STMP25-101P",
+            "pdf-filename": "PPC-A35-101",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/STM32MP257F/Manuals/Hardware/CS19108-STMP25-133P": {
+            "pdf-title": "PPC-A35-133",
+            "pdf-subtitle": "PN: CS19108-STMP25-133P",
+            "pdf-filename": "PPC-A35-133",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/STM32MP257F/Manuals/Hardware/CS19108-STMP25-156P": {
+            "pdf-title": "PPC-A35-156",
+            "pdf-subtitle": "PN: CS19108-STMP25-156P",
+            "pdf-filename": "PPC-A35-156",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/STM32MP257F/Manuals/Software/Yocto_Linux": {
             "pdf-title": "Yocto Linux OS on STM32MP257F User Manual",
             "pdf-subtitle": "For STM32MP257F Products",

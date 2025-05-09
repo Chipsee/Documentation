@@ -155,7 +155,9 @@
 
 .. include:: Resources/connectivity_3
 
-.. include:: Resources/BOX-070P-STMP25-Shared/gpio
+.. include:: Resources/gpio
+
+.. include:: Resources/BOX-070P-STMP25-Shared/gpio_table
 
 .. include:: Resources/USB
 
