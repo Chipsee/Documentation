@@ -3,9 +3,11 @@ PROG Button
 
 |Product| has one button on the board marked as PROG, as shown in the figure below. It controls how the device will be booted.
 
-To boot from SD card, press and hold the PROG button, then connect the power supply, after a few seconds, you can see the system boot from SD card, then you may release the button.
-
 When the button is not pressed while powering up, the |product| will boot normally from eMMC.
+
+To boot from USB-C port for flashing operating system image, press and hold the PROG button, then connect the power supply, hold the button for a few seconds, it will be boot to the flashing OS mode.
+
+By default the product doesn't support booting from Micro SD card, however if you need to boot from Micro SD card, you can contact us before placing an order.
 
 .. rst-class:: text-center
 

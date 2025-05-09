@@ -22,11 +22,68 @@ STM32MP257F(STMP25) / A35
 
 .. raw:: html
 
+   <div class="col">
+      <div class="index-item">
+
+10.1 Inch
+|PPC-A35-101|
+
+:ref:`PPC-A35-101<PPC-A35-101>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+13.3 Inch
+|PPC-A35-133|
+
+:ref:`PPC-A35-133<PPC-A35-133>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+15.6 Inch
+|PPC-A35-156|
+
+:ref:`PPC-A35-156<PPC-A35-156>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
    </div>
 
 .. |PPC-A35-070| image:: /Media/ARM/A35/CS10600-STMP25-070P/CS10600-STMP25-070P-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/ARM/STM32MP257F/Manuals/Hardware/CS10600-STMP25-070P.html
+
+.. |PPC-A35-101| image:: /Media/ARM/A35/CS12800-STMP25-101P/CS12800-STMP25-101P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/STM32MP257F/Manuals/Hardware/CS12800-STMP25-101P.html
+
+.. |PPC-A35-133| image:: /Media/ARM/A35/CS19108-STMP25-133P/CS19108-STMP25-133P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/STM32MP257F/Manuals/Hardware/CS19108-STMP25-133P.html
+
+.. |PPC-A35-156| image:: /Media/ARM/A35/CS19108-STMP25-156P/CS19108-STMP25-156P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/STM32MP257F/Manuals/Hardware/CS19108-STMP25-156P.html
 
 .. toctree::
    :maxdepth: 1
@@ -34,3 +91,6 @@ STM32MP257F(STMP25) / A35
    :hidden:
 
    PPC-A35-070 </PCs/ARM/STM32MP257F/Manuals/Hardware/CS10600-STMP25-070P>
+   PPC-A35-101 </PCs/ARM/STM32MP257F/Manuals/Hardware/CS12800-STMP25-101P>
+   PPC-A35-133 </PCs/ARM/STM32MP257F/Manuals/Hardware/CS19108-STMP25-133P>
+   PPC-A35-156 </PCs/ARM/STM32MP257F/Manuals/Hardware/CS19108-STMP25-156P>

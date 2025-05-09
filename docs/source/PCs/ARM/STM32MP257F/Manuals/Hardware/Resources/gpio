@@ -1,0 +1,22 @@
+GPIO Port
+---------
+
+|Product| features a |gpio_conn| that provides 8 x opto-isolated GPIO pins, of which 4 x are output, and 4 x are input pins. 
+The terminal also includes an isolated PSU input in the range of 5 to 24 VDC. The exact pinout is given in follow table.
+
+The GPIO **HIGH** output level corresponds to the voltage connected at the isolated Power Input, while the GPIO **LOW** output level corresponds to the 
+isolated Ground Input. Each GPIO output can drive loads up to 500mA, enough to drive various applications directly, such as relays or solenoid valves.
+
+.. include:: /PCs/Shared/Hardware/gpio_image
+
+.. attention::
+
+   + If the isolation is not a requirement, it is possible to use a non-isolated PSU instead on the Isolated Power Input.
+   + The GPIO has been Opt-Isolated and it uses the 24V Logic by default.
+   + The 4 output channels can drive at most 500mA current on each channel.
+
+.. rst-class:: text-center
+
+   |gpio_img|
+
+   *GPIO*

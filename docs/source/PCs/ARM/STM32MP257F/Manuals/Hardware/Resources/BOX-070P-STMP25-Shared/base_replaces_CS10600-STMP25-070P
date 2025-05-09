@@ -2,6 +2,8 @@
 
 .. |eMMC| replace:: 16GB
 
+.. |pcie| replace:: Not supported
+
 .. |USB| replace:: 2 x USB 2.0 HOST, 1 x USB Type-C
 
 .. |LAN| replace:: 2 x RJ45, GbE, including **1 x optional** Power over Ethernet (PoE) port
@@ -25,6 +27,8 @@
 .. |can_at_most| replace:: 2 x CAN FD
 
 .. |conn_terminal| replace:: **16-pin 3.81mm terminal**
+
+.. |gpio_conn| replace:: 10 Pin 3.81mm **GPIO Connector**
 
 .. |UART_Note| replace:: This product has 6 x CPU UART, the default configuration is 2 x RS232 and 3 x RS485, include 1 x RS232 debug port. There is 1 x CAN FD that can be configured to RS232.
 
