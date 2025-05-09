@@ -1,0 +1,45 @@
+.. |RAM| replace:: DDR4 4GB
+
+.. |eMMC| replace:: 16GB
+
+.. |pcie| replace:: 1 x PCIe2.0 x1, M.2 M-Key 2230/2242/2260/2280 socket
+
+.. |USB| replace:: 2 x USB 2.0 HOST, 1 x USB Type-C
+
+.. |LAN| replace:: 1 x RJ45, GbE, **optional** Power over Ethernet (PoE) port
+
+.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
+
+.. |opt1| replace:: Supported, Optional
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
+.. |vin_rng| replace:: From 15V to 30V (supports optional 24V ignition signal)
+
+.. |rs232| replace:: default 2 x RS232 (Optional 6 x RS232 at most, including 1 debug port)
+
+.. |rs485| replace:: default 2 x RS485 (Optional 3 x RS485 at most)
+
+.. |uart_at_most| replace:: 6 x UART terminals (RS232/RS485)
+
+.. |can_at_most| replace:: 2 x CAN FD
+
+.. |conn_terminal| replace:: **phoenix terminal**
+
+.. |gpio_conn| replace:: **phoenix connector**
+
+.. |UART_Note| replace:: This product has 6 x CPU UART, the default configuration is 2 x RS232 and 2 x RS485, including 1 x RS232 debug port. There are 2 x CAN FD that can be configured to RS232, or 1 x CAN FD that can be configured to RS485.
+
+.. |can| replace:: default 2 x CAN FD (2 x CAN FD can be configured to RS232 optionally or 1 x CAN FD can be configured to RS485 optionally)
+
+.. |poe| replace:: Supported, Optional
+
+.. |lan_poe| replace:: The LAN0 port supports **optional** Power over Ethernet (PoE) feature.
+
+.. |opt_feature_4g| replace:: Does not include the 4G/LTE module by default. The module is optional and can be selected at the Chipsee store during the ordering process.
+
+.. |mount_screws| replace:: **75 x 75** mm or **100 x 100** mm, 4 x **M4** (6mm) screws
+
+.. |screen_conn_type| replace:: USB
