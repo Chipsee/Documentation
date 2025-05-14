@@ -235,7 +235,13 @@
         </li></ul>
             </nav>
         </li>
-        <li class="md-nav__item"><a href="#gnss-gps" class="md-nav__link">GNSS/GPS</a>
+        <li class="md-nav__item"><a href="#gnss-gps" class="md-nav__link">GNSS/GPS</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#gps-cat-4-module" class="md-nav__link">GPS (CAT-4 Module)</a>
+        </li>
+        <li class="md-nav__item"><a href="#gps-cat-1-module" class="md-nav__link">GPS (CAT-1 Module)</a>
+        </li></ul>
+            </nav>
         </li>
         <li class="md-nav__item"><a href="#buzzer" class="md-nav__link">BUZZER</a>
         </li>
@@ -818,7 +824,9 @@ Device<span class="w"> </span><span class="s1">'wlan0'</span><span class="w"> </
 </section>
 <section id="gnss-gps">
 <h3 id="gnss-gps">GNSS/GPS<a class="headerlink" href="#gnss-gps" title="Permalink to this heading">¶</a></h3>
-<p>GPS is integrated in the CAT-4 4G/LTE Quectel EC25 module, if your product comes with the CAT-4 module, and a GPS antenna, you can enable the GPS feature.</p>
+<p>GPS is integrated in the CAT-1 SIM7670G-MNSV module and CAT-4 Quectel EC25 4G/LTE module, if your product comes with one of these module, and a GPS antenna, you can enable the GPS feature.</p>
+<section id="gps-cat-4-module">
+<h4 id="gps-cat-4-module">GPS (CAT-4 Module)<a class="headerlink" href="#gps-cat-4-module" title="Permalink to this heading">¶</a></h4>
 <p>You can test with the <em>Chipsee hardware test</em> program, click <strong>GPS Enable</strong> button, you should see some random code(GPS information) in the text box. Wait a few minutes for GPS to become stable.</p>
 <a class="text-center reference internal image-reference" href="../../../_images/gps_1_CM5.webp"><img alt="../../../_images/gps_1_CM5.webp" class="text-center align-center" src="../../../_images/gps_1_CM5.webp" style="width: 800px;"/></a>
 <p class="text-center"><em>Click GPS Enable</em></p>
@@ -857,7 +865,30 @@ quit
 </div>
 <a class="text-center reference internal image-reference" href="../../../_images/gps_3_CM5.webp"><img alt="../../../_images/gps_3_CM5.webp" class="text-center align-center" src="../../../_images/gps_3_CM5.webp" style="width: 480px;"/></a>
 <p class="text-center"><em>Quit from microcom</em></p>
+</section>
+<section id="gps-cat-1-module">
+<h4 id="gps-cat-1-module">GPS (CAT-1 Module)<a class="headerlink" href="#gps-cat-1-module" title="Permalink to this heading">¶</a></h4>
+<p>You can use GPS programmatically with serial port on the SIM7670G-MNSV module.</p>
+<p>GPS port: <strong>/dev/ttyACM0</strong></p>
+<p>AT port: <strong>/dev/ttyACM0</strong></p>
+<p>Serial port connection: Baudrate 9600 @ 8-N-1.</p>
+<p>You can use the CuteCom program to test AT commands:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>AT+SIMCOMATI<span class="w"> </span><span class="c1"># Check CAT-1 module info.</span>
+
+AT+CGNSSPWR<span class="o">=</span><span class="m">1</span><span class="w"> </span><span class="c1"># Enable GPS. Command is not persisted across reboot.</span>
+
+AT+CGNSSINFO<span class="w"> </span><span class="c1"># Query GPS infomation</span>
+</pre></div>
+</div>
+<p>After each AT command to query GPS, one response is returned.</p>
+<a class="text-center reference internal image-reference" href="../../../_images/gps_4_CM5.webp"><img alt="../../../_images/gps_4_CM5.webp" class="text-center align-center" src="../../../_images/gps_4_CM5.webp" style="width: 800px;"/></a>
+<p class="text-center"><em>GPS/GNSS on CAT-1 Module</em></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Ensure the antenna has clear view of the sky — GPS needs time to acquire satellites (can take 30s–2min cold start).</p>
+</div>
 <p><p class="page-break" style="margin: 0"></p></p>
+</section>
 </section>
 <section id="buzzer">
 <h3 id="buzzer">BUZZER<a class="headerlink" href="#buzzer" title="Permalink to this heading">¶</a></h3>
@@ -1750,7 +1781,7 @@ DEVICE_ARCHITECTURE<span class="w"> </span>is<span class="w"> </span><span class
               
           </div>
             Last updated on
-              May 09, 2025.
+              May 14, 2025.
             <br/>
         </div>
       </div>
