@@ -18,7 +18,7 @@ If you would like to purchase it with a CM5, you can select it at the Chipsee st
 Operating System
 ----------------
 
-This product comes with a pre-installed Raspberry Pi OS. Chipsee software engineers have created all the drivers, so every hardware feature is readily available for any standard development tool.
+This product comes with a pre-installed Raspberry Pi OS (:ref:`Software Documentation <cm5_os>`). Chipsee software engineers have created all the drivers, so every hardware feature is readily available for any standard development tool.
 
 If your project requires a different OS, please |contact|_, and we’ll make a |custom_order|_ that suits your needs.
 

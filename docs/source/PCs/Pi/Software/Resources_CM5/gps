@@ -1,7 +1,10 @@
 GNSS/GPS
 --------
 
-GPS is integrated in the CAT-4 4G/LTE Quectel EC25 module, if your product comes with the CAT-4 module, and a GPS antenna, you can enable the GPS feature.
+GPS is integrated in the CAT-1 SIM7670G-MNSV module and CAT-4 Quectel EC25 4G/LTE module, if your product comes with one of these module, and a GPS antenna, you can enable the GPS feature.
+
+GPS (CAT-4 Module)
+******************
 
 You can test with the *Chipsee hardware test* program, click **GPS Enable** button, you should see some random code(GPS information) in the text box. Wait a few minutes for GPS to become stable.
 
@@ -70,5 +73,43 @@ To exit microcom:
     :width: 480
 
   *Quit from microcom*  
+
+GPS (CAT-1 Module)
+******************
+
+You can use GPS programmatically with serial port on the SIM7670G-MNSV module.
+
+GPS port: **/dev/ttyACM0**
+
+AT port: **/dev/ttyACM0**
+
+Serial port connection: Baudrate 9600 @ 8-N-1.
+
+You can use the CuteCom program to test AT commands:
+
+.. code-block:: bash
+
+  AT+SIMCOMATI # Check CAT-1 module info.
+ 
+  AT+CGNSSPWR=1 # Enable GPS. Command is not persisted across reboot.
+  
+  AT+CGNSSINFO # Query GPS infomation
+
+After each AT command to query GPS, one response is returned.
+
+.. rst-class:: text-center
+
+  .. image:: /Media/Pi/Software/cm5/gps_4_CM5.webp
+    :align: center
+    :width: 800
+
+  *GPS/GNSS on CAT-1 Module*  
+
+.. note::
+
+  Ensure the antenna has clear view of the sky — GPS needs time to acquire satellites (can take 30s–2min cold start).
+
+
+
 
 :pagebreak:`True`
