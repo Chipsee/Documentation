@@ -30,7 +30,7 @@
 
 .. |vin_rng| replace:: 12V
 
-.. |cur| replace:: 700mA Max
+.. |cur| replace:: 700mA Max (12V)
 
 .. |pwr| replace:: 10W Typical
 
