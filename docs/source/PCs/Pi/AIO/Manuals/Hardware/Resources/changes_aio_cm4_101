@@ -1,0 +1,26 @@
+Product Changes
+===============
+
+Ver 1.2
+
+- Released on May 27, 2025
+
+- Changes on Power Input
+
+  .. note::
+
+    **Old**: 9-36V
+
+    **New**: 15-36V
+
+- Changes on Current / Power Consumption
+
+  .. note::
+
+    **Old**: 500mA(12V), 6W
+
+    **New**: 400mA(15V), 6W typical; 530mA(15V), 7.95W max
+
+Ver 1.1 
+
+- Initial Release
