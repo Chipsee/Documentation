@@ -38,7 +38,7 @@
 
 .. |camera_not_mount| replace:: The camera connector is supported but not mounted by default. Please contact us when placing an order if you need to use camera on the |product|.
 
-.. |USB_attention| replace:: 1\. These two USB host connectors can drive 500mA for each channel at most. |br| 2\. These two USB host connectors come from the same USB HUB.
+.. |USB_attention| replace:: These two USB host connectors can drive 500mA for each channel at most.
 
 .. |zigbee_des| replace:: No
 
