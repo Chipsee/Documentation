@@ -34,7 +34,7 @@
 
 .. |opt1| replace:: N/A
 
-.. |opt2| replace:: Integrated WiFi/BT Module
+.. |opt2| replace:: Integrated WiFi/BT Module (Bluetooth is functional on Yocto Linux, **not** functional on Android)
 
 .. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
 
