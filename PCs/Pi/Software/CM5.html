@@ -271,7 +271,7 @@
         </li>
         <li class="md-nav__item"><a href="#usbboot" class="md-nav__link">Usbboot</a><nav class="md-nav">
               <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#for-window" class="md-nav__link">For Window</a>
+        <li class="md-nav__item"><a href="#for-windows" class="md-nav__link">For Windows</a>
         </li>
         <li class="md-nav__item"><a href="#for-linux" class="md-nav__link">For Linux</a>
         </li>
@@ -1445,7 +1445,8 @@ gpiofind<span class="w"> </span><span class="c1"># determine the location of the
 <p>This part is mostly the same as the official <a class="reference external" href="https://www.raspberrypi.com/documentation/computers/compute-module.html#flash-compute-module-emmc">Raspberry Pi Compute Module documentation</a>, except that you need to press the “PROG_Button” before supplying power to the device, see details below.</p>
 <p>The Chipsee industrial Pi runs on the Raspberry Pi Compute Module, the module has an on-board eMMC. This guide explains how to flash (write) an operating system image to the eMMC storage of the device.</p>
 <p><strong>CM5 Lite</strong> does not have on-board eMMC. Instead, flash the OS just like a regular Raspberry Pi’s TF card (<a class="reference external" href="https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system">https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system</a>).</p>
-<section id="prerequisites">
+<p>Here is a video tutorial we made demonstrating the OS installation process: <a class="reference external" href="https://www.youtube.com/watch?v=hx0je3B1hds">https://www.youtube.com/watch?v=hx0je3B1hds</a></p>
+<div class="card text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/hx0je3B1hds" style="height:50vh;width:100%" title="Flash Chipsee CM5 Product OS Firmware"></iframe></div><section id="prerequisites">
 <h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this heading">¶</a></h3>
 <p>To flash an image, you need the following:</p>
 <ul class="simple">
@@ -1461,8 +1462,8 @@ gpiofind<span class="w"> </span><span class="c1"># determine the location of the
 <section id="usbboot">
 <h3 id="usbboot">Usbboot<a class="headerlink" href="#usbboot" title="Permalink to this heading">¶</a></h3>
 <p>In short, we will run a Raspberry Pi <cite>usbboot</cite> program on the host, it will recognize the Chipsee industrial Pi as a storage. After that we  press the PROG button on the device before supplying power, while pressing we plug the power cable, the device will boot as a storage, such that our host’s <cite>usbboot</cite> program can recognize it. Let see how to do it in different OS:</p>
-<section id="for-window">
-<h4 id="for-window">For Window<a class="headerlink" href="#for-window" title="Permalink to this heading">¶</a></h4>
+<section id="for-windows">
+<h4 id="for-windows">For Windows<a class="headerlink" href="#for-windows" title="Permalink to this heading">¶</a></h4>
 <p>To set up software on a Windows 10/11 host device:</p>
 <ol class="arabic">
 <li><p>Download the <a class="reference external" href="https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe">Windows installer</a> (or, alternatively, <a class="reference external" href="https://github.com/raspberrypi/usbboot">build Windows rpiboot from source</a>).</p></li>
@@ -1781,7 +1782,7 @@ DEVICE_ARCHITECTURE<span class="w"> </span>is<span class="w"> </span><span class
               
           </div>
             Last updated on
-              May 29, 2025.
+              May 31, 2025.
             <br/>
         </div>
       </div>
