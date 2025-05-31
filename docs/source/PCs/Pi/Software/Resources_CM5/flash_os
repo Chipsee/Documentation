@@ -7,6 +7,12 @@ The Chipsee industrial Pi runs on the Raspberry Pi Compute Module, the module ha
 
 **CM5 Lite** does not have on-board eMMC. Instead, flash the OS just like a regular Raspberry Pi's TF card (https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system).
 
+Here is a video tutorial we made demonstrating the OS installation process: https://www.youtube.com/watch?v=hx0je3B1hds
+
+.. raw:: html
+
+   <div class="card text-center"><iframe src="https://www.youtube.com/embed/hx0je3B1hds" style="height:50vh;width:100%" title="Flash Chipsee CM5 Product OS Firmware" frameborder="0" allowfullscreen></iframe></div>  
+
 Prerequisites
 -------------
 
@@ -27,8 +33,8 @@ Usbboot
 
 In short, we will run a Raspberry Pi `usbboot` program on the host, it will recognize the Chipsee industrial Pi as a storage. After that we  press the PROG button on the device before supplying power, while pressing we plug the power cable, the device will boot as a storage, such that our host's `usbboot` program can recognize it. Let see how to do it in different OS:
 
-For Window
-**********
+For Windows
+***********
 
 To set up software on a Windows 10/11 host device:
 
