@@ -1,0 +1,94 @@
+SD Card
+-------
+
+When a micro SD card (TF card) is inserted to the device, it will appear as **mmcblk1**, you can check it by **lsblk**, note the last line **mmcblk1      179:96   0 58.2G  0 disk** is the 64GB SD card:
+
+.. code-block:: bash
+  :linenos:
+  :emphasize-lines: 1, 18
+
+  root@imx8mp-eisd:~# lsblk
+
+  // Before insertion
+  NAME         MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+  mmcblk2      179:0    0 14.6G  0 disk 
+  |-mmcblk2p1  179:1    0 83.2M  0 part /run/media/mmcblk2p1
+  `-mmcblk2p2  179:2    0 14.5G  0 part /
+  mmcblk2boot0 179:32   0    4M  1 disk 
+  mmcblk2boot1 179:64   0    4M  1 disk 
+
+  // After insertion
+  NAME         MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+  mmcblk2      179:0    0 14.6G  0 disk 
+  |-mmcblk2p1  179:1    0 83.2M  0 part /run/media/mmcblk2p1
+  `-mmcblk2p2  179:2    0 14.5G  0 part /
+  mmcblk2boot0 179:32   0    4M  1 disk 
+  mmcblk2boot1 179:64   0    4M  1 disk 
+  mmcblk1      179:96   0 58.2G  0 disk
+
+Or with **fdisk -l**, the 64GB TF card appears as "Disk /dev/mmcblk1: 58.22 GiB":
+
+.. code-block:: bash
+  :linenos:
+  :emphasize-lines: 1, 13
+
+  root@imx8mp-eisd:~# fdisk -l
+  Disk /dev/mmcblk2: 14.56 GiB, 15634268160 bytes, 30535680 sectors
+  Units: sectors of 1 * 512 = 512 bytes
+  Sector size (logical/physical): 512 bytes / 512 bytes
+  I/O size (minimum/optimal): 512 bytes / 512 bytes
+  Disklabel type: dos
+  Disk identifier: 0xeda0e0c7
+
+  Device         Boot  Start      End  Sectors  Size Id Type
+  /dev/mmcblk2p1       16384   186775   170392 83.2M  c W95 FAT32 (LBA)
+  /dev/mmcblk2p2      196608 30535679 30339072 14.5G 83 Linux
+
+  Disk /dev/mmcblk1: 58.22 GiB, 62511906816 bytes, 122093568 sectors
+  Units: sectors of 1 * 512 = 512 bytes
+  Sector size (logical/physical): 512 bytes / 512 bytes
+  I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+You can mount the SD card to /run/media/sd1 with **mount** command:
+
+.. code-block:: bash
+  :linenos:
+  :emphasize-lines: 2, 10
+  
+  root@imx8mp-eisd:~# mkdir /run/media/sd1
+  root@imx8mp-eisd:~# mount --source /dev/mmcblk1 --target /run/media/sd1
+  root@imx8mp-eisd:~# lsblk
+  NAME         MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+  mmcblk2      179:0    0 14.6G  0 disk 
+  |-mmcblk2p1  179:1    0 83.2M  0 part /run/media/mmcblk2p1
+  `-mmcblk2p2  179:2    0 14.5G  0 part /
+  mmcblk2boot0 179:32   0    4M  1 disk 
+  mmcblk2boot1 179:64   0    4M  1 disk 
+  mmcblk1      179:96   0 58.2G  0 disk /run/media/sd1
+
+To unmount the SD card, use **umount** command:
+
+
+.. code-block:: bash
+  :linenos:
+  :emphasize-lines: 6, 15
+
+  root@imx8mp-eisd:~# cd /run/media/sd1/
+  root@imx8mp-eisd:/run/media/sd1# umount /run/media/sd1/
+  umount: /run/media/sd1/: target is busy.
+
+  root@imx8mp-eisd:/run/media/sd1# cd /
+  root@imx8mp-eisd:/# umount /run/media/sd1/
+
+  root@imx8mp-eisd:/# lsblk
+  NAME         MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+  mmcblk2      179:0    0 14.6G  0 disk 
+  |-mmcblk2p1  179:1    0 83.2M  0 part /run/media/mmcblk2p1
+  `-mmcblk2p2  179:2    0 14.5G  0 part /
+  mmcblk2boot0 179:32   0    4M  1 disk 
+  mmcblk2boot1 179:64   0    4M  1 disk 
+  mmcblk1      179:96   0 58.2G  0 disk 
+
+Then you can eject the SD card physically.
+
+:pagebreak:`True`

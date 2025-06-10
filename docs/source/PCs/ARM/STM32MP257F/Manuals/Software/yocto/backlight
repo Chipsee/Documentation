@@ -1,0 +1,16 @@
+Backlight
+---------
+
+You can use the following commands to turn on / turn off the backlight:
+
+* Turn on backlight:
+    .. code-block:: bash
+
+        echo 1 > /sys/class/backlight/panel-lvds-backlight/brightness
+
+* Turn off backlight (screen goes black):
+    .. code-block:: bash
+
+        echo 0 > /sys/class/backlight/panel-lvds-backlight/brightness
+
+:pagebreak:`True`

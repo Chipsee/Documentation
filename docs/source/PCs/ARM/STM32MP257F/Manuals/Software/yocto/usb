@@ -1,0 +1,56 @@
+USB Flash Drive
+---------------
+
+USB flash drive on the USB ports will be automatically detected on **/dev/sdX** (X is the usually a/b, e.g. /dev/sda or /dev/sdb, depending on the order it is inserted), you can check it with **lsblk**:
+
+.. code-block:: bash
+  :linenos:
+  :emphasize-lines: 1, 3
+
+  root@stm32mp2:~# lsblk
+  NAME         MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+  sda            8:0    1   59G  0 disk
+  `-sda1         8:1    1   59G  0 part
+  mmcblk1      179:0    0 14.6G  0 disk
+  |-mmcblk1p1  179:1    0  512K  0 part
+  |-mmcblk1p2  179:2    0  512K  0 part
+  |-mmcblk1p3  179:3    0    4M  0 part
+  |-mmcblk1p4  179:4    0    4M  0 part
+  |-mmcblk1p5  179:5    0  512K  0 part
+  |-mmcblk1p6  179:6    0   64M  0 part /boot
+  |-mmcblk1p7  179:7    0  183M  0 part /vendor
+  |-mmcblk1p8  179:8    0    3G  0 part /
+  `-mmcblk1p9  179:9    0 11.3G  0 part /usr/local
+  mmcblk1boot0 179:32   0    4M  1 disk
+  mmcblk1boot1 179:64   0    4M  1 disk
+
+In the example above, the USB drive is detected on /dev/sda.
+
+With two USB flash drive plugged in to the device, they will be detected on /dev/sda and /dev/sdb:
+
+.. code-block:: bash
+  :linenos:
+  :emphasize-lines: 1, 2, 5, 13
+
+  root@stm32mp2:~# fdisk -l
+  Disk /dev/mmcblk1: 14.56 GiB, 15634268160 bytes, 30535680 sectors
+  ...
+
+  Disk /dev/sda: 58.98 GiB, 63333990400 bytes, 123699200 sectors
+  Disk model: USB Flash Drive 
+  ...
+
+  Device     Boot Start       End   Sectors Size Id Type
+  /dev/sda1  *       64 123699199 123699136  59G  c W95 FAT32 (LBA)
+
+
+  Disk /dev/sdb: 28.65 GiB, 30765219840 bytes, 60088320 sectors
+  Disk model:  SanDisk 3.2Gen1
+  ...
+
+  Device     Boot Start      End  Sectors  Size Id Type
+  /dev/sdb4  *      256 60088319 60088064 28.7G  c W95 FAT32 (LBA)
+
+Note that the "Disk /dev/sda: 58.98 GiB" is a 64GB usb flash drive; "Disk /dev/sdb: 28.65 GiB" is a 32GB usb flash drive; "Disk /dev/mmcblk1: 14.56 GiB" is the internal eMMC storage.
+
+:pagebreak:`True`

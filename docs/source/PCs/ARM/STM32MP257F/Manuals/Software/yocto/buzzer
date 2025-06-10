@@ -1,0 +1,14 @@
+Buzzer
+------
+
+The |ipc| has one buzzer. You can control it with `gpiod` as follows:
+
+.. code:: bash
+
+    gpioset PJ10=1    # enable buzzer (be careful, it's really loud!)
+
+    gpioset PJ10=0    # disable buzzer
+
+    gpioset -t 500ms -c gpiochip9 10=active    # toggle the buzzer every 0.5 second
+
+:pagebreak:`True`

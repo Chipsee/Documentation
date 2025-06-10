@@ -1,0 +1,85 @@
+Setting Static IP
+-----------------
+
+WiFi
+****
+
+If you are using WiFi with the **/lib/systemd/network/51-wireless.network** file as configuration file, open it, update it to:
+
+.. code-block:: bash
+
+   [Match]
+   Name=wlan0
+   [Network]
+   DNS=192.168.50.1
+   Address=192.168.50.212/24
+   Gateway=192.168.50.1
+
+**DNS, Address, Gateway** should be different from yours, set them to the values you need it to be.
+
+Then,
+
+.. code-block:: bash
+
+   systemctl restart systemd-networkd.service
+
+Ethernet
+********
+
+If you are using Ethernet with the **/lib/systemd/network/80-wired.network** file as configuration file, open it, remove [DHCP] section, update the [network] section, like:
+
+.. code-block:: bash
+  
+   [Match]
+   Type=ether
+   Name=!veth*
+   KernelCommandLine=!nfsroot
+   KernelCommandLine=!ip
+
+   [Network]
+   DNS=192.168.50.1
+   Address=192.168.50.213/24
+   Gateway=192.168.50.1
+
+**DNS, Address, Gateway** should be different from yours, set them to the values you need it to be.
+
+Then,
+
+.. code-block:: bash
+
+   systemctl restart systemd-networkd.service
+
+Revert to DHCP
+**************
+
+To reverse to using **DHCP**:
+
+WiFi - /lib/systemd/network/51-wireless.network:
+
+.. code-block:: bash
+   
+   [Match]
+   Name=wlan0
+   [Network]
+   DHCP=ipv4
+
+
+Ethernet - /lib/systemd/network/80-wired.network:
+
+.. code-block:: bash
+
+   [Match]
+   Type=ether
+   Name=!veth*
+   KernelCommandLine=!nfsroot
+   KernelCommandLine=!ip
+
+   [Network]
+   DHCP=yes
+
+   [DHCP]              
+   UseMTU=yes          
+   RouteMetric=10      
+   ClientIdentifier=mac
+
+For more info, check the ST wiki.

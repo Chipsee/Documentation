@@ -6,7 +6,7 @@ Audio Card in OS
 
 We will use **aplay** and **arecord** to play or record audio, but first we need to check which audio card we need to use.
 
-The audio card in the device is **imx8mpnau8822**, first check it with **alist -l** (lower case "l"):
+The audio card in the device is **imx8mpnau8822**, first check it with **aplay -l** (lower case "l"):
 
 .. code-block:: bash
    :linenos:

@@ -1,0 +1,21 @@
+LED
+---
+
+There is a red LED beside power input port, you can control the LED by writing a file:
+
+.. code-block:: bash
+  	:emphasize-lines: 2, 7
+
+	# Turn on the red LED
+	echo 1 > /sys/class/leds/red:heartbeat/brightness
+	cat /sys/class/leds/red:heartbeat/brightness
+	1
+
+	# Turn off the red LED
+	echo 0 > /sys/class/leds/red:heartbeat/brightness
+	cat /sys/class/leds/red:heartbeat/brightness
+	0
+
+You can use your programming language to control it as well. Simply use the file (IO) system library to write this **/sys/class/leds/red:heartbeat/brightness** file.
+
+:pagebreak:`True`

@@ -1,0 +1,267 @@
+Flashing OS
+===========
+
+To flash an operating system image for the Chipsee STMP257F device, you will need to download the prebuilt firmware image from Chipsee, download STM32CubeProgrammer program from ST, use a USB-C cable to connect the device with your workstation. Here is how:
+
+Prepare For Flashing
+--------------------
+
+You need to prepare the following:
+
+* A USB-C cable (at least one side is USB Type C)
+* :ref:`Chipsee prebuilt image <STMP25_OSDownloads>` for STM32MP257F products.
+* A Windows/Linux/MacOS workstation.
+* Download and install **STM32CubeProgrammer** from ST: https://www.st.com/en/development-tools/stm32cubeprog.html
+
+Start Flashing
+--------------
+   
+#) Poweroff the device (unplug the power supply).
+
+#) Connect the USB-C cable, between the USB-C port on the device and your workstation.
+
+#) Push and hold the PROG button (the small round button beside Ethernet port), in the meantime, power on the device, for around 5 seconds. You should see the green LED beside the PROG button is on, and the screen is black.
+   
+#) Decompress the Chipsee prebuilt firmware image, you should see a bunch of files:
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A35/Software/FlashOS-2_ST.webp
+         :align: center
+         :width: 800
+
+      *Decompress the Prebuilt Firmware Image*
+
+Flashing with GUI
+*****************
+
+#) Open STM32CubeProgrammer, choose **USB**, click the **refresh** button like the image below, then select **USBX** (USB1 in the image), you should see a serial number appear, then click **Connect**.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A35/Software/FlashOS-1_ST.webp
+         :align: center
+         :width: 800
+
+      *Connect by USB*
+
+      .. image:: /Media/ARM/A35/Software/FlashOS-3_ST.webp
+         :align: center
+         :width: 800
+
+      *Choose USBX and Connect*
+
+#) STM32CubeProgrammer should show A35 MPU detected.
+
+   .. rst-class:: text-center
+   
+      .. image:: /Media/ARM/A35/Software/FlashOS-4_ST.webp
+         :align: center
+         :width: 800
+
+      *Displays A35 / STM32MP25 MPU*
+
+#) Click **Open File**, select **FlashLayout_emmc.tsv**:
+
+   .. rst-class:: text-center
+   
+      .. image:: /Media/ARM/A35/Software/FlashOS-5_ST.webp
+         :align: center
+         :width: 800
+
+      *Select FlashLayout_emmc*
+
+#) You should see a bunch of partitions listed, click **Download** to start flashing OS image.
+
+   .. rst-class:: text-center
+   
+      .. image:: /Media/ARM/A35/Software/FlashOS-6_ST.webp
+         :align: center
+         :width: 800
+
+      *Start Downloading*
+
+#) Your screen will turn white background with some scrolling texts. After around 5 minutes, flashing should be finished.
+
+   .. rst-class:: text-center
+   
+      .. image:: /Media/ARM/A35/Software/FlashOS-7_ST.webp
+         :align: center
+         :width: 800
+
+      *Finish Downloading*
+
+#) Now you can reboot the device, click **Disconnect** first, then unplug/plug the power supply to reboot the device, the system will boot from eMMC automatically.
+
+
+Flashing with CLI on Windows
+****************************
+
+You can use Windows **PowerShell** to run the **STM32_Programmer_CLI** program.
+
+.. code-block:: powershell
+
+   # In PowerShell
+   # Change the dir to where you install the STM32CubeProgrammer
+   cd 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeProgrammer\bin'
+
+   # Check STM32_Programmer_CLI is available:
+   .\STM32_Programmer_CLI.exe -h
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/FlashOS-12_ST.webp
+      :align: center
+      :width: 720
+
+   *Check STM32_Programmer_CLI is Available*
+
+.. code-block:: powershell
+
+   # Check ST device USB index:
+   .\STM32_Programmer_CLI.exe -l usb
+   # USB1 is what we need in the next step
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/FlashOS-13_ST.webp
+      :align: center
+      :width: 720
+
+   *Check Device USB Index (USB1 Here)*
+
+.. code-block:: powershell
+
+   # Start flashing
+   # Remember to change the path to where you extracted the Chipsee prebuilt OS firmware image's "FlashLayout_emmc.tsv"
+   # Change usb1 to what you got in the previous USB Index step
+   .\STM32_Programmer_CLI.exe -c port=usb1 -w your-path-to\prebuilt-stmp25-eisd-1280800-yocto\FlashLayout_emmc.tsv
+
+The flashing should be finished in a couple of minutes.
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/FlashOS-14_ST.webp
+      :align: center
+      :width: 720
+
+   *Finished Flashing*
+
+Now you can reboot the device, unplug/plug the power supply to reboot the device, the system will boot from eMMC automatically.
+
+Flashing with CLI on MacOS
+**************************
+
+.. code-block:: bash
+
+   # The CLI program is in the Contents of STM32CubeProgrammer.app, export the binary:
+   export PATH="/Applications/STMicroelectronics/STM32Cube/STM32CubeProgrammer/STM32CubeProgrammer.app/Contents/MacOs/bin:$PATH"
+   cd prebuilt-stmp25-eisd-1280800-yocto
+   # Check STM32_Programmer_CLI is available:
+   STM32_Programmer_CLI -h
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/FlashOS-8_ST.webp
+      :align: center
+      :width: 720
+
+   *Check STM32_Programmer_CLI is Available*
+
+.. code-block:: bash
+
+   # Check ST device USB index:
+   STM32_Programmer_CLI -l usb
+   # USB1 is what we need in the next step
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/FlashOS-9_ST.webp
+      :align: center
+      :width: 720
+
+   *Check Device USB Index (USB1 Here)*
+
+.. code-block:: bash
+
+   # Start flashing
+   # Change usb1 to what you got in the previous USB Index step
+
+   STM32_Programmer_CLI -c port=usb1 -w ./FlashLayout_emmc.tsv
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/FlashOS-10_ST.webp
+      :align: center
+      :width: 720
+
+   *Started Flashing*
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/FlashOS-11_ST.webp
+      :align: center
+      :width: 720
+
+   *Finished Flashing*
+
+Now you can reboot the device, unplug/plug the power supply to reboot the device, the system will boot from eMMC automatically.
+
+Flashing with CLI on Linux
+**************************
+
+.. code-block:: bash
+
+   cd ~/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin/
+   # Check STM32_Programmer_CLI is available:
+   sudo ./STM32_Programmer_CLI -h
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/FlashOS-15_ST.webp
+      :align: center
+      :width: 720
+
+   *Check STM32_Programmer_CLI is Available*
+
+.. code-block:: bash
+
+   # Check ST device USB index:
+   sudo ./STM32_Programmer_CLI -l usb
+   # USB1 is what we need in the next step
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/FlashOS-16_ST.webp
+      :align: center
+      :width: 720
+
+   *Check Device USB Index (USB1 Here)*
+
+.. code-block:: bash
+
+   # Start flashing
+   # Remember to change the path to where you extracted the Chipsee prebuilt OS firmware image's "FlashLayout_emmc.tsv"
+   # Change usb1 to what you got in the previous USB Index step
+   sudo ./STM32_Programmer_CLI -c port=usb1 -w your-path-to/prebuilt-stmp25-eisd-1280800-yocto/FlashLayout_emmc.tsv
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/FlashOS-17_ST.webp
+      :align: center
+      :width: 720
+
+   *Started Flashing*
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/FlashOS-18_ST.webp
+      :align: center
+      :width: 720
+
+   *Finished Flashing*
+
+
+Now you can reboot the device, unplug/plug the power supply to reboot the device, the system will boot from eMMC automatically.
+
+

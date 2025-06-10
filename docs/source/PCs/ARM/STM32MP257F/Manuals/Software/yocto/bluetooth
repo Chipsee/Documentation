@@ -1,0 +1,121 @@
+Bluetooth
+---------
+
+For more information check the official OpenSTLinux Wiki: https://wiki.st.com/stm32mpu/wiki/Category:Bluetooth
+
+First check if Bluetooth is enabled:
+
+.. code-block:: bash
+  :emphasize-lines: 1, 4
+
+  root@stm32mp2:~# hciconfig -a
+  hci0: Type: Primary  Bus: UART
+      BD Address: 14:5D:34:F2:E9:AB  ACL MTU: 1021:8  SCO MTU: 255:12
+      UP RUNNING 
+      RX bytes:2026 acl:0 sco:0 events:50 errors:0
+      TX bytes:3023 acl:0 sco:0 commands:52 errors:0
+      Features: 0xff 0xff 0xff 0xfa 0xdb 0xbd 0x7b 0x87
+      Packet type: DM1 DM3 DM5 DH1 DH3 DH5 HV1 HV2 HV3 
+      Link policy: RSWITCH HOLD SNIFF PARK 
+      Link mode: PERIPHERAL ACCEPT 
+      Name: 'stm32mp2'
+      Class: 0x0c0000
+      Service Classes: Rendering, Capturing
+      Device Class: Miscellaneous, 
+      HCI Version: 4.1 (0x7)  Revision: 0xbc6
+      LMP Version: 4.1 (0x7)  Subversion: 0xd607
+      Manufacturer: Realtek Semiconductor Corporation (93)
+
+If you see Bluetooth is "Down", to bring it up:
+
+.. code-block:: bash
+  :emphasize-lines: 8
+
+  root@stm32mp2:~# hciconfig hci0 down
+  root@stm32mp2:~# hciconfig -a
+  hci0: Type: Primary  Bus: UART
+    BD Address: 14:5D:34:F2:E9:AB  ACL MTU: 1021:8  SCO MTU: 255:12
+    DOWN 
+    ...
+
+  root@stm32mp2:~# hciconfig hci0 up
+  root@stm32mp2:~# hciconfig -a
+  hci0: Type: Primary  Bus: UART
+    BD Address: 14:5D:34:F2:E9:AB  ACL MTU: 1021:8  SCO MTU: 255:12
+    UP RUNNING 
+    ...
+
+Scan for Bluetooth device:
+
+.. code-block:: bash
+
+  root@stm32mp2:~# hcitool scan
+  Scanning ...
+
+Systemd provides a tool for Bluetooth management: bluetoothctl.
+Example session with bluetoothclt for scanning, pairing, connecting with a Bose QC35 headphone: 
+
+.. code-block:: text
+  :emphasize-lines: 1, 6, 9, 12, 15, 22, 26, 34, 42
+  :linenos:
+
+  root@stm32mp2:~# bluetoothctl
+
+  Agent registered
+  [CHG] Controller 14:5D:34:F2:E9:AB Pairable: yes
+
+  [bluetooth]# power on
+  Changing power on succeeded
+
+  [bluetooth]# agent on
+  Agent is already registered
+
+  [bluetooth]# default-agent
+  Default agent request successful
+
+  [bluetooth]# scan on
+  Discovery started
+  [CHG] Controller 14:5D:34:F2:E9:AB Discovering: yes
+  [NEW] Device 60:AB:D2:3D:E1:C3 Bose QC35 II
+  [CHG] Device 60:AB:D2:3D:E1:C3 TxPower: -10
+  ...
+
+  [bluetooth]# scan off
+  Discovery stopped
+  ...
+
+  [bluetooth]# pair 60:AB:D2:3D:E1:C3
+  Attempting to pair with 60:AB:D2:3D:E1:C3
+  [CHG] Device 60:AB:D2:3D:E1:C3 Connected: yes
+  [CHG] Device 60:AB:D2:3D:E1:C3 Bonded: yes
+  ...
+  [CHG] Device 60:AB:D2:3D:E1:C3 Paired: yes
+  Pairing successful
+
+  [Bose QC35 II]# connect 60:AB:D2:3D:E1:C3
+  Attempting to connect to 60:AB:D2:3D:E1:C3
+  [NEW] Endpoint /org/bluez/hci0/dev_60_AB_D2_3D_E1_C3/sep3 
+  ...
+  Connection successful
+  [NEW] Player /org/bluez/hci0/dev_60_AB_D2_3D_E1_C3/player0 [default]
+  [CHG] Transport /org/bluez/hci0/dev_60_AB_D2_3D_E1_C3/sep3/fd0 Volume: 0x0037 (55)
+
+  [Bose QC35 II]# quit
+
+Then your Bluetooth headphone is connected, you can test it by playing a video or music, there is a Video Playback Demo preinstalled in the ST Demo program.
+
+For more information, check the official ST Wiki: https://wiki.st.com/stm32mpu/wiki/How_to_scan_Bluetooth_devices
+
+Scan for Bluetooth LE device:
+
+.. code-block:: bash
+
+  root@stm32mp2:~# hcitool lescan
+  LE Scan ...
+  60:09:C3:AE:9A:01 (unknown)
+  C9:C8:8C:B1:E6:B3 (unknown)
+  60:AB:D2:3D:E1:C3 LE-Bose QC35 II
+
+For more information, check the official ST Wiki: https://wiki.st.com/stm32mpu/wiki/How_to_scan_BLE_devices
+
+:pagebreak:`True`

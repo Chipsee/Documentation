@@ -1,0 +1,29 @@
+Prepare for Developing
+======================
+
+To get started, you first need to power on the |ipc|, then you may want to connect to this PC from your own laptop or computer to control it. Let's prepare some hardware and software to start developing.
+
+Prepare the Hardware
+--------------------
+
+* For products with a screen of 7" and BOX product, a power adapter between 9V ~ 30V DC output is required.
+* For products with a screen of 10.1" or larger, you need a DC adapter with output between 15V ~ 30V.
+
+For example, you can use a switching power DC adapter; or use a laptop adapter with proper voltage such as 18.5V, 19V etc when developing; or use a 12V power adapter from a used router for small screen products when developing.
+
+To connect to the |ipc| from your workstation, you can use:
+
+#. A USB to serial cable (if you need serial debug, i.e. connect to RS232 serial debug port).
+#. An Ethernet cable (if you want to SSH into the |ipc|). You may also use WiFi if your |ipc| supports WiFi, in this case you don't need the Ethernet cable.
+#. A USB type-C cable (if you want to flash a new OS or backup your OS image).
+
+Prepare the Software
+--------------------
+
+*The software listed below are not mandatory, they're recommendations because we find them easy to use:*
+
+#. To SSH into a |ipc|, you may find **PuTTY** on Windows handy; for Linux and macOS users, a terminal app should come with your OS out of box, like **Terminal/iTerm2** on macOS and **xterm** on Linux.
+#. To flash OS firmware image to the product, you need STM32CubeProgrammer software: https://www.st.com/en/development-tools/stm32cubeprog.html. It supports Windows, Linux and macOS. It has both GUI and CLI mode.
+
+
+:pagebreak:`True`

@@ -1,0 +1,22 @@
+Supported Chipsee PCs: all Chipsee STM32MP257F based industrial PCs, including but not limited to:
+
+* PPC-A35-070 (PN: CS10600-STMP25-070P)
+* PPC-A35-101 (PN: CS12800-STMP25-101P)
+* PPC-A35-133 (PN: CS19108-STMP25-133P)
+* PPC-A35-156 (PN: CS19108-STMP25-156P)
+   
+When you develop software on the |ipc|, you can open the hardware manual beside this software manual, to aid you in wiring your devices.
+
+In this manual, main topics are:
+
+* How to connect to the device from your workstation.
+* How to use the hardware resources such as RS232, RS485, CAN and GPIO, etc.
+* How to play, record an audio, how to play a video.
+* How to connect and set WiFi/Ethernet network; how to connect Bluetooth.
+* How to flash OS firmware.
+
+.. note:: 
+
+  Unless specified, all commands are executed with **root** priviledge in this document. Default user is *weston*, you can type *su* to switch to root user.
+
+:pagebreak:`True`

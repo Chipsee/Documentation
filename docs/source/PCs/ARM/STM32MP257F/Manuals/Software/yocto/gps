@@ -1,0 +1,41 @@
+GPS
+---
+
+If your product shipped with a GPS module, and a GPS antenna, you can enable the GPS function.
+
+You can  use GPS from command line.
+
+Test the GPS function as follows, first, you listen to the GPS info serial port (/dev/ttyUSB5), then, you send AT commands to AT serial port (/dev/ttyUSB6). Finally, GPS information should appear on the info port. This means you will need two terminals opened, one for listening and the other for sending.
+
+**GPS Port**: /dev/ttyUSB5
+
+**AT port**: /dev/ttyUSB6
+
+In the first terminal, we use **cat** to listen for GPS info:
+
+.. code-block:: bash
+
+   cat /dev/ttyUSB5 
+   # hit Enter, the port will keep listening 
+   # until any information comes to the port(after you send AT command to AT port)
+
+In the second terminal, we send AT commands with microcom, you can also use other programs to send serial commands:
+
+.. code-block:: bash
+   
+   microcom /dev/ttyUSB6 -s 9600
+
+   ATE1 # Enable displaying. Hit Enter after you type ATE1
+   ATI # Print product info
+   AT+CSQ # Query Signal Level, return [+CSQ: current signal strength, channel bit error rate] e.g.: +CSQ: 19,99 means strength 19 with rate 99
+   AT+QGPSCFG="gpsnmeatype",31 # Turn on all output type, GGA/RMC/GSV/GSA/VTG, this setting will be saved to NVRAM, persists after reboot
+   AT+QGPS=1 # enable GPS, wait some minutes, you can get data from terminal.
+   AT+QGPSEND # disable GPS
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A53/Software/Yocto_63/gps-2.jpg
+    :align: center
+    :width: 960
+
+  *Left: /dev/ttyUSB5 GPS Port, Right: /dev/ttyUSB6 AT Port*

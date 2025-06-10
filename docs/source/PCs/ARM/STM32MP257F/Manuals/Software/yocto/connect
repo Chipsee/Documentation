@@ -1,0 +1,247 @@
+Connect to the Device
+=====================
+
+There are 2 ways to connect to the device from your workstation:
+
+#. From **Serial** RS232 port
+#. From **Ethernet** or **Wi-Fi** (SSH)
+
+Let's take a look at these connecting methods one by one.
+
+Connect From Serial Port
+------------------------
+
+[ Cheatsheet for experienced developers: username is **root**, **no** password, pin is |Dbg_pin| ]
+
+By default serial debug is enabled, you don't have to do anything to use the |dbg_pin| as a serial debug port.
+
+Connect the Wire
+****************
+
+In our pre-built |systemType| OS, the |dbg_pin| serves as a serial debug port. We can connect a RS232 cable between the |ipc| and our workstation, allowing us to control the |ipc| from our workstation.
+
+To get started, you need a USB to serial cable, we will use a USB Type-C to DB-9 cable as an example, you can use a USB-A cable as well, you need to plug the USB end to your workstation, and the serial end to the Chipsee device. 
+
+I will plug the USB Type-C port to a Mac (Windows and Linux work fine too), and then I would use three female to female dupont wires, to connect 3 of the DB-9 pins to GND and |dbg_pin| (RX and TX) pins of my |ipc|. 
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A35/Software/USB_Serial_Cable_ST.webp
+    :align: center
+    :width: 480
+
+  *Use a USB to Serial Cable to Connect the Chipsee Industrial PC with Your Workstation*
+
+Take a look at the image below, this is the 10.1" product, if your product has a different screen size, check out the hardware document to find out which pins are |dbg_pin| TX and RX.
+
+.. note::
+   
+  Each hardware doc has a "RS232/RS485/CAN" section, it lists which is the |dbg_pin| TX and RX in the image and the table of their respective docs. Find your model here (:ref:`PBSTM`) and scroll to the "RS232/RS485/CAN" section to check out.
+
+You should connect the DB-9's RX to the device's TX, and DB-9's TX to the device's RX, you should also connect their GNDs (the white wire).
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A35/Software/Serial_Connect_ST.webp
+    :align: center
+    :width: 480
+
+  *Connect 3 Pins with Dupont Wires (or with a phoenix connector)*
+
+Linux and MacOS
+***************
+
+1. For **MacOS and Linux** users, you will need a program called **screen**. It should be already installed on most MacOS and Linux distributions(if the screen program is not installed on your computer, you can search how to install it, for example, "apt install screen" on Debian). Open your terminal and type `screen -v`. If the *screen* program is already installed in your computer, you should see a version number, like that in the image below:
+
+   .. rst-class:: text-center
+
+    .. image:: /Media/ARM/A35/Software/Screen_Program-1_ST.png
+      :align: center
+      :width: 480
+
+    *Confirm You Have the Screen Program (MacOS & Linux)*
+
+2. Because the USB end of the cable is plugged into our workstation, we need to know which USB device it is in Linux/MacOS. We can find it out by testing:
+
+   .. code:: bash
+
+     ls /dev/tty*
+
+   You might see many *tty* devices listed in your terminal, and cannot decide which is your USB to RS232 cable. Here is a tip: you can unplug the cable first, type the command to see what is listed in the OS. Then you plug it back in, and test again, to see what has recently appeared. The difference between the two should be your cable. In the image below, we found the `/dev/tty.usbserial-10` is our USB to RS232 cable.
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/Cable_Finding_ST.png
+      :align: center
+      :width: 640
+
+   *Find Out Which Device is Your USB to Serial Cable*
+
+3. You can put the device name you found to the screen program as an argument. To connect to the device (115200 is the default baud rate of the device):
+
+   .. code:: bash
+
+      screen /dev/tty.usbserial-10 115200
+
+4. You will see a blank screen, press Enter, you will be logged in with root.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A35/Software/Screen_Program-2_ST.webp
+         :align: center
+         :width: 640
+
+      *The Screen Program Connects Your Workstation to the Industrial PC's Console*
+
+5. If you want to **exit** the screen program, you can press `Ctrl+A` then press `K`.
+
+   The program will ask you if you want to kill this window, then press `y` to exit the program.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A35/Software/Screen_Program-3_ST.webp
+         :align: center
+         :width: 640
+
+      *Press "Ctrl + A" Follow by a "K" to Exit the Program*
+
+Windows
+*******
+
+1. For **Windows** users, you don't need to install a specific "driver" kind of thing for Windows to recognize a Chipsee PC, but before proceeding, you should see a COM port appear/disappear when plug/unplug your USB to serial cable in Windows. 
+
+   Most USB to serial cables don't require driver installation on Windows10/11. But if you find your cable isn't recognizable by Windows, try checking the cable's manufacturer's website to learn more about it. Most of the time, simply doing a Windows update should do the trick, Windows can detect the cable's USB driver and install it for you.
+
+2. You could install a program called **PuTTY** (or XShell etc), here is a link to download the software: https://www.putty.org/. If you're comfortable with other clients other than PuTTY, you can use those as well.
+
+3. With PuTTY in your belt, let's find out which COM port your USB to RS232 cable is using. One tip is to check the *Microsoft Windows Device Manager* (right click Windows icon, select Device Manager). Check which COM port appears/disappears when you plug/unplug the USB to serial cable. And that COM port device should be your USB to RS232 cable. Keep a note of the COM port your serial cable is using, let's say it's "your-com", or "COM3" in this example.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/Shared/Software/Debug-Connection/serial-2.png
+         :align: center
+         :width: 640
+
+      *COM3 is the USB to Serial Cable*
+   
+4. Open the PuTTY program, select **Session**, choose **Serial** in the radio buttons, and fill the COM port(your-com, or **COM3** in this example) you found in the Microsoft Windows Device Manager, and choose **115200** as baud rate, then click **Open**.
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/Shared/Software/Debug-Connection/serial-1.png
+         :align: center
+         :width: 640
+
+      *Input your-com in the Serial Line field, in our case COM3*
+
+5. Now you should be able to connect from your workstation to the device through the serial port. You can hit Enter, then you should be logged in with root user:
+
+   .. code-block:: bash
+      :linenos:
+      :emphasize-lines: 1
+      
+      root@stm32mp2:~#
+
+:pagebreak:`True`
+
+
+Connect From Network (SSH)
+--------------------------
+
+*[Cheatsheet for experienced developers: username: root, no password]*
+
+By default SSH is enabled.
+
+You can SSH to the device when it's connected to the network, either through Wi-Fi or Ethernet.
+
+First make sure you're connected through WiFi or Ethernet (to learn how, jump to the Network section below. Ethernet can be automatically detected, WiFi needs some configuration). 
+
+Then you can check the IP address with **ifconfig**, Ethernet is **endX**, in the image below, it's **end1** (on 10.1" or larger variants is end1, on 7" variant is end1/end2):
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/Ifconfig_ST.webp
+      :align: center
+      :width: 640
+
+   *Check IP with ifconfig*
+
+.. code-block:: text
+   :linenos:
+   :emphasize-lines: 2, 3, 28
+
+   root@stm32mp2:~# ifconfig
+   end1      Link encap:Ethernet  HWaddr 5A:B9:32:40:FD:B8  
+             inet addr:192.168.50.123  Bcast:192.168.50.255  Mask:255.255.255.0
+             inet6 addr: fe80::58b9:32ff:fe40:fdb8/64 Scope:Link
+             UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+             RX packets:1095 errors:0 dropped:157 overruns:0 frame:0
+             TX packets:143 errors:0 dropped:0 overruns:0 carrier:0
+             collisions:0 txqueuelen:1000 
+             RX bytes:193587 (189.0 KiB)  TX bytes:19438 (18.9 KiB)
+             Interrupt:69 Base address:0x8000 
+
+   lo        Link encap:Local Loopback  
+             inet addr:127.0.0.1  Mask:255.0.0.0
+             inet6 addr: ::1/128 Scope:Host
+             UP LOOPBACK RUNNING  MTU:65536  Metric:1
+             RX packets:96 errors:0 dropped:0 overruns:0 frame:0
+             TX packets:96 errors:0 dropped:0 overruns:0 carrier:0
+             collisions:0 txqueuelen:1000 
+             RX bytes:8605 (8.4 KiB)  TX bytes:8605 (8.4 KiB)
+
+   usb0      Link encap:Ethernet  HWaddr B2:9E:A0:2A:B8:37  
+             UP BROADCAST MULTICAST  MTU:1500  Metric:1
+             RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+             TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+             collisions:0 txqueuelen:1000 
+             RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+   wlan0     Link encap:Ethernet  HWaddr 14:5D:34:F2:E9:AA  
+             UP BROADCAST MULTICAST  MTU:1500  Metric:1
+             RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+             TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+             collisions:0 txqueuelen:1000 
+             RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+**Your-ip** of end1(wired) and wlan0(wireless) will be displayed. In the case above the IP address is 192.168.50.123 through **end1**.
+
+Then we can ssh from our workstation with this IP address.
+
+Linux / MacOS
+*************
+
+For Linux and MacOS users, you can use your terminal and type:
+
+.. code-block:: bash
+
+   ssh root@your-ip
+   # In our case, your-ip is 192.168.50.123
+   ssh root@192.168.50.123
+
+The username is root, and no password.
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/SSH_Connect-1_ST.webp
+      :align: center
+      :width: 640
+
+   *SSH with your-ip*
+
+Windows
+*******
+
+For Windows users using PuTTY, you can choose Session, input **username@your-ip** (in our case *root@192.168.50.123*, yours should be different) in the Host Name field. Port Number should remain 22, choose SSH as the connection type in the radio buttons, click "Open". There is no password by default.
+
+.. rst-class:: text-center
+
+   .. image:: /Media/Shared/Software/Debug-Connection/ssh-2.png
+      :align: center
+      :width: 640
+
+   *Input username@your-ip in the Host Name field, in our case root@192.168.50.123*
+
+Now you have connected to the device through the network.
+
+:pagebreak:`True`

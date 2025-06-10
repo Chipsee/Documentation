@@ -1,0 +1,178 @@
+Backup OS Image
+===============
+
+You can backup your OS image to clone it to other machines, in another word, after you've finished developing your software on one machine, you may want to copy everything of this machine to multiple other machines.
+
+This chapter tells you how to backup your OS image and generate a prebuilt image file, then you can flash it to your other machines. Just like the prebuilt image we provide you when the product ships to you, except that now it is your own image with your configurations.
+
+Prepare
+-------
+
+#) Chipsee STMP25 device
+#) A X86/X86_64 Linux Host PC, such as a Ubuntu system
+#) A Type-C cable used to connect STMP25 and the Linux Host PC
+#) USB to RS232 debug cable
+
+Wire your cables like:
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A35/Software/Backup-OS-1_ST.webp
+    :align: center
+    :width: 960
+
+  *Wire the RS232 Cable and the Type-C Cable*
+
+You can refer to "Connect From Serial Port" section to connect the RS232 debug port, and **initiate the serial connection**.
+
+Enter Uboot
+-----------
+
+While the product boots, press any key on your workstation to let the product enter uboot. You can hit any key 5~10 times while the system boots until you see the prompt:
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A35/Software/Backup-OS-2_ST.webp
+    :align: center
+    :width: 480
+
+  *Hit Any Key (Like Enter) While Booting*
+
+Now the screen should be all white.
+
+Then let the eMMC be mounted as a USB mass storage by your workstation:
+
+.. code:: bash
+  
+  STM32MP> 
+  STM32MP> ums 0 mmc 1
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A35/Software/Backup-OS-3_ST.webp
+    :align: center
+    :width: 640
+
+  *Mount eMMC as USB Mass Storage to Workstation*  
+
+Then you can find your workstation now has a few more partitions:
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A35/Software/Backup-OS-4_ST.webp
+    :align: center
+    :width: 640
+
+  *Before ums 0 mmc 1*
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A35/Software/Backup-OS-5_ST.webp
+    :align: center
+    :width: 640
+
+  *After ums 0 mmc 1*  
+
+.. code:: bash
+
+  finn@ubuntu24:~$ ls -l /dev/disk/by-partlabel/
+  total 0
+  # lrwxrwxrwx 1 root root 15 Jun 21  2025 'Basic\x20data\x20partition' -> ../../nvme0n1p3
+  # lrwxrwxrwx 1 root root 15 Jun 21  2025 'EFI\x20system\x20partition' -> ../../nvme0n1p1
+  # lrwxrwxrwx 1 root root 15 Jun 21  2025 'Microsoft\x20reserved\x20partition' -> ../../nvme0n1p2
+  lrwxrwxrwx 1 root root 10 Jun 21 10:47  metadata1 -> ../../sdb1
+  lrwxrwxrwx 1 root root 10 Jun 21 10:47  metadata2 -> ../../sdb2
+  lrwxrwxrwx 1 root root 10 Jun 21 10:47  fip-a -> ../../sdb3
+  lrwxrwxrwx 1 root root 10 Jun 21 10:47  fip-b -> ../../sdb4
+  lrwxrwxrwx 1 root root 10 Jun 21 10:47  u-boot-env -> ../../sdb5
+  lrwxrwxrwx 1 root root 10 Jun 21 10:47  bootfs -> ../../sdb6
+  lrwxrwxrwx 1 root root 10 Jun 21 10:47  vendorfs -> ../../sdb7
+  lrwxrwxrwx 1 root root 10 Jun 21 10:47  rootfs -> ../../sdb8
+  lrwxrwxrwx 1 root root 10 Jun 21 10:47  userfs -> ../../sdb9
+
+
+These **sdbx** corespond to the names of the prebuilt image:
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A35/Software/Backup-OS-6_ST.webp
+    :align: center
+    :width: 640
+
+  *Prebuilt Image Layout eMMC (for Reference)*  
+
+User's data and configuration are in these four partitions, so we need to replace Chipsee's prebuilt OS image's data with your data:
+
+.. table:: User Data Partitions
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +----------------+-----------------------------------------------------------------------------------------+
+   | **Partition**  | **File in Prebuilt-xxx**                                                                |
+   +================+=========================================================================================+
+   | bootfs         | st-image-bootfs-openstlinux-weston-stm32mp2.ext4                                        |
+   +----------------+-----------------------------------------------------------------------------------------+
+   | vendorfs       | st-image-vendorfs-openstlinux-weston-stm32mp2.ext4                                      |
+   +----------------+-----------------------------------------------------------------------------------------+
+   | rootfs         | st-image-qt-openstlinux-weston-stm32mp2.ext4                                            |
+   +----------------+-----------------------------------------------------------------------------------------+
+   | userfs         | st-image-qt-userfs-openstlinux-weston-stm32mp2.ext4                                     |
+   +----------------+-----------------------------------------------------------------------------------------+
+
+
+mk-image.sh
+-----------
+
+We have a bash script called **mk-image.sh** to aid you copy the partitions to your workstation PC.
+
+For example, if your ST product's eMMC is mounted as **/dev/sdb** (like the example above), your can backup **userfs** with:
+
+.. code:: bash
+  
+  # on your X86 Linux workstation
+  mkdir STMP25-Backup
+  cd STMP25-Backup
+  wget -c https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/STMP25/Tools/mk-image.sh
+  ./mk-image.sh userfs /dev/sdb # change /dev/sdb to YOUR /dev/sdX path
+
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A35/Software/Backup-OS-7_ST.webp
+    :align: center
+    :width: 800
+
+  *Example: Backup userfs* 
+
+Then you can replace the userfs of the Chipsee prebuilt image with this one you get just now.
+
+To backup other partitions other than userfs:
+
+.. code:: bash
+
+  finn@ubuntu24:~/STMP25-Backup$ sudo ./mk-image.sh -h
+  Error: Two arguments are required!
+  Usage: ./mk-image.sh [bootfs|vendorfs|rootfs|userfs] [block_device]
+  Example: ./mk-image.sh rootfs /dev/sdd
+
+  # E.g:
+  # Change /dev/sdX to YOUR mount point
+  ./mk-image.sh userfs /dev/sdX
+  ./mk-image.sh vendorfs /dev/sdX
+  ./mk-image.sh rootfs /dev/sdX
+  ./mk-image.sh userfs /dev/sdX
+
+And now you can replace the ones you need to the Chipsee prebuilt OS image, to generate your own backup OS image.
+
+Exit
+----
+
+
+After you have finished backup the partitions, you can exit ST device's Uboot mode with:
+
+.. code:: bash
+
+  Ctrl+C # stop mounting eMMC as USB mass storage
+  reset # reboot the device
+  Ctrl+A followed by "K" # close the serial connection of screen program

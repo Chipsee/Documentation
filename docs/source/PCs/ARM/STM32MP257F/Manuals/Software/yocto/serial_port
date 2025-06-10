@@ -1,0 +1,30 @@
+Serial Port RS232 and RS485
+---------------------------
+
+Check the table below of the RS232/RS485 pin definition to wire your ports:
+
+**7 inch / Box products**
+
+* PPC-A35-070 (PN: CS10600-STMP25-070P)
+
+  .. include:: /PCs/ARM/STM32MP257F/Manuals/Hardware/Resources/BOX-070P-STMP25-Shared/connectivity_2
+
+**10.1 inch and above products**
+
+* PPC-A35-101 (PN: CS12800-STMP25-101P)
+* PPC-A35-133 (PN: CS19108-STMP25-133P)
+* PPC-A35-156 (PN: CS19108-STMP25-156P)
+  
+  .. rst-class:: text-center
+
+    .. image:: /Media/ARM/A35/CS12800-STMP25-101P/CS12800-STMP25-101P-RS232-RS485-CAN.jpg
+      :align: center
+      :width: 960
+
+  .. include:: /PCs/ARM/STM32MP257F/Manuals/Hardware/Resources/CS12800-STMP25-101P/connectivity_2
+
+The 120 Ohm match resistor is **NOT** mounted on the RS485 port. 
+
+RS485 ports are half-duplex, the hardware can switch the Tx/Rx direction automatically. RS232 ports are full-duplex.
+
+:pagebreak:`True`
