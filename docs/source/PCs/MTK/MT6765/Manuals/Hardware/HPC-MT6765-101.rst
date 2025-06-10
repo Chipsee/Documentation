@@ -41,7 +41,7 @@ Overview
 
 The device supports 1D/2D barcode scanner, it takes advantage of GPRS, 4G, WiFi, Bluetooth and other wireless communication channels to transmit data at a high speed efficiently. This portable handheld tablet complies with IP-65 protection level, it can be used in harsh environments.
 
-This tablet PC adopts a 1200 x 1920 capacitive 10 point touch screen, it supports Android 11 operating system. It is easy to use, meets various needs, responsive and efficient.
+This tablet PC adopts a 1200 x 1920 capacitive 10 point touch screen, it supports Android 11, Android 13, Android 14 operating system. It is easy to use, meets various needs, responsive and efficient.
 
 .. include:: /PCs/MTK/Shared/Resources/ordering
 
@@ -128,7 +128,7 @@ Hardware Specification
    +------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
    | **Sensors**            | G-sensor; magnetic sensor, gyroscope                                                                                                          |
    +------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-   | **OS**                 | Android 11                                                                                                                                    |
+   | **OS**                 | Android 11, Android 13, Android 14                                                                                                            |
    +------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
    | **Language**           | Multi Language                                                                                                                                |
    +------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
