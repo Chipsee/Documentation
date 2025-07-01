@@ -30,6 +30,8 @@
 
 .. |product_link| replace:: |product|
 
+.. |ver1.1_download| replace:: :download:`Download Archived Manual: PPC-J1900-133-C-ver1.1.pdf <PDF/PPC-J1900-133-C-ver1.1.pdf>`
+
 .. |Cover PNG| image:: /Media/Intel/J1900/133/PPC-J1900-133-C-Front.png
 
 .. |Front View| image:: /Media/Intel/J1900/133/PPC-J1900-133-C-Front.jpg
@@ -56,6 +58,8 @@
 .. include:: /PCs/Shared/four_main_images
 
 .. include:: Resources/overview
+
+.. include:: Resources/changes
 
 .. include:: Resources/ordering
 
