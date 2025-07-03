@@ -1,93 +1,145 @@
 SD Card
 -------
 
-When a micro SD card (TF card) is inserted to the device, it will appear as **mmcblk1**, you can check it by **lsblk**, note the last line **mmcblk1      179:96   0 58.2G  0 disk** is the 64GB SD card:
+When a micro SD card (TF card) is inserted to the device, it will appear as **mmcblk0**, you can check it by **lsblk**, note the last line **mmcblk0      179:96   0 29.7G  0 disk** is the 32GB SD card:
 
 .. code-block:: bash
   :linenos:
-  :emphasize-lines: 1, 18
+  :emphasize-lines: 1, 34
 
-  root@imx8mp-eisd:~# lsblk
+  root@stm32mp2:~# lsblk
 
   // Before insertion
+  root@stm32mp2:~# lsblk
   NAME         MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
-  mmcblk2      179:0    0 14.6G  0 disk 
-  |-mmcblk2p1  179:1    0 83.2M  0 part /run/media/mmcblk2p1
-  `-mmcblk2p2  179:2    0 14.5G  0 part /
-  mmcblk2boot0 179:32   0    4M  1 disk 
-  mmcblk2boot1 179:64   0    4M  1 disk 
+  mmcblk1      179:0    0 14.6G  0 disk
+  |-mmcblk1p1  179:1    0  512K  0 part
+  |-mmcblk1p2  179:2    0  512K  0 part
+  |-mmcblk1p3  179:3    0    4M  0 part
+  |-mmcblk1p4  179:4    0    4M  0 part
+  |-mmcblk1p5  179:5    0  512K  0 part
+  |-mmcblk1p6  179:6    0   64M  0 part /boot
+  |-mmcblk1p7  179:7    0  183M  0 part /vendor
+  |-mmcblk1p8  179:8    0    3G  0 part /
+  `-mmcblk1p9  179:9    0 11.3G  0 part /usr/local
+  mmcblk1boot0 179:32   0    4M  1 disk
+  mmcblk1boot1 179:64   0    4M  1 disk
 
   // After insertion
+  root@stm32mp2:~# lsblk
   NAME         MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
-  mmcblk2      179:0    0 14.6G  0 disk 
-  |-mmcblk2p1  179:1    0 83.2M  0 part /run/media/mmcblk2p1
-  `-mmcblk2p2  179:2    0 14.5G  0 part /
-  mmcblk2boot0 179:32   0    4M  1 disk 
-  mmcblk2boot1 179:64   0    4M  1 disk 
-  mmcblk1      179:96   0 58.2G  0 disk
+  mmcblk1      179:0    0 14.6G  0 disk
+  |-mmcblk1p1  179:1    0  512K  0 part
+  |-mmcblk1p2  179:2    0  512K  0 part
+  |-mmcblk1p3  179:3    0    4M  0 part
+  |-mmcblk1p4  179:4    0    4M  0 part
+  |-mmcblk1p5  179:5    0  512K  0 part
+  |-mmcblk1p6  179:6    0   64M  0 part /boot
+  |-mmcblk1p7  179:7    0  183M  0 part /vendor
+  |-mmcblk1p8  179:8    0    3G  0 part /
+  `-mmcblk1p9  179:9    0 11.3G  0 part /usr/local
+  mmcblk1boot0 179:32   0    4M  1 disk
+  mmcblk1boot1 179:64   0    4M  1 disk
+  mmcblk0      179:96   0 29.7G  0 disk
+  `-mmcblk0p1  179:97   0 29.7G  0 part
 
-Or with **fdisk -l**, the 64GB TF card appears as "Disk /dev/mmcblk1: 58.22 GiB":
+Or with **fdisk -l**, the 32GB TF card appears as "Disk /dev/mmcblk0: 29.72 GiB":
 
 .. code-block:: bash
   :linenos:
-  :emphasize-lines: 1, 13
+  :emphasize-lines: 1, 33
 
-  root@imx8mp-eisd:~# fdisk -l
-  Disk /dev/mmcblk2: 14.56 GiB, 15634268160 bytes, 30535680 sectors
+  root@stm32mp2:~# fdisk -l
+  Disk /dev/mmcblk1: 14.56 GiB, 15634268160 bytes, 30535680 sectors
+  Units: sectors of 1 * 512 = 512 bytes
+  Sector size (logical/physical): 512 bytes / 512 bytes
+  I/O size (minimum/optimal): 512 bytes / 512 bytes
+  Disklabel type: gpt
+  Disk identifier: FFB7903C-C81B-4767-976F-351B3853256D
+  
+  Device           Start      End  Sectors  Size Type
+  /dev/mmcblk1p1    1024     2047     1024  512K unknown
+  /dev/mmcblk1p2    2048     3071     1024  512K unknown
+  /dev/mmcblk1p3    3072    11263     8192    4M unknown
+  /dev/mmcblk1p4   11264    19455     8192    4M unknown
+  /dev/mmcblk1p5   19456    20479     1024  512K unknown
+  /dev/mmcblk1p6   20480   151551   131072   64M Linux filesystem
+  /dev/mmcblk1p7  151552   526335   374784  183M Linux filesystem
+  /dev/mmcblk1p8  526336  6817791  6291456    3G Linux filesystem
+  /dev/mmcblk1p9 6817792 30534655 23716864 11.3G Linux filesystem
+  
+  
+  Disk /dev/mmcblk1boot0: 4 MiB, 4194304 bytes, 8192 sectors
+  Units: sectors of 1 * 512 = 512 bytes
+  Sector size (logical/physical): 512 bytes / 512 bytes
+  I/O size (minimum/optimal): 512 bytes / 512 bytes
+  
+  
+  Disk /dev/mmcblk1boot1: 4 MiB, 4194304 bytes, 8192 sectors
+  Units: sectors of 1 * 512 = 512 bytes
+  Sector size (logical/physical): 512 bytes / 512 bytes
+  I/O size (minimum/optimal): 512 bytes / 512 bytes
+  
+  
+  Disk /dev/mmcblk0: 29.72 GiB, 31914983424 bytes, 62333952 sectors
   Units: sectors of 1 * 512 = 512 bytes
   Sector size (logical/physical): 512 bytes / 512 bytes
   I/O size (minimum/optimal): 512 bytes / 512 bytes
   Disklabel type: dos
-  Disk identifier: 0xeda0e0c7
-
-  Device         Boot  Start      End  Sectors  Size Id Type
-  /dev/mmcblk2p1       16384   186775   170392 83.2M  c W95 FAT32 (LBA)
-  /dev/mmcblk2p2      196608 30535679 30339072 14.5G 83 Linux
-
-  Disk /dev/mmcblk1: 58.22 GiB, 62511906816 bytes, 122093568 sectors
-  Units: sectors of 1 * 512 = 512 bytes
-  Sector size (logical/physical): 512 bytes / 512 bytes
-  I/O size (minimum/optimal): 512 bytes / 512 bytes
+  Disk identifier: 0xb585bdd7
+  
+  Device         Boot Start      End  Sectors  Size Id Type
+  /dev/mmcblk0p1       8192 62333951 62325760 29.7G  c W95 FAT32 (LBA)
 
 You can mount the SD card to /run/media/sd1 with **mount** command:
 
 .. code-block:: bash
   :linenos:
-  :emphasize-lines: 2, 10
+  :emphasize-lines: 2, 18
   
-  root@imx8mp-eisd:~# mkdir /run/media/sd1
-  root@imx8mp-eisd:~# mount --source /dev/mmcblk1 --target /run/media/sd1
-  root@imx8mp-eisd:~# lsblk
+  root@stm32mp2:~# mkdir /run/media/sd1 -p
+  root@stm32mp2:~# mount /dev/mmcblk0p1 /run/media/sd1
+  root@stm32mp2:~# lsblk
   NAME         MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
-  mmcblk2      179:0    0 14.6G  0 disk 
-  |-mmcblk2p1  179:1    0 83.2M  0 part /run/media/mmcblk2p1
-  `-mmcblk2p2  179:2    0 14.5G  0 part /
-  mmcblk2boot0 179:32   0    4M  1 disk 
-  mmcblk2boot1 179:64   0    4M  1 disk 
-  mmcblk1      179:96   0 58.2G  0 disk /run/media/sd1
+  mmcblk1      179:0    0 14.6G  0 disk
+  |-mmcblk1p1  179:1    0  512K  0 part
+  |-mmcblk1p2  179:2    0  512K  0 part
+  |-mmcblk1p3  179:3    0    4M  0 part
+  |-mmcblk1p4  179:4    0    4M  0 part
+  |-mmcblk1p5  179:5    0  512K  0 part
+  |-mmcblk1p6  179:6    0   64M  0 part /boot
+  |-mmcblk1p7  179:7    0  183M  0 part /vendor
+  |-mmcblk1p8  179:8    0    3G  0 part /
+  `-mmcblk1p9  179:9    0 11.3G  0 part /usr/local
+  mmcblk1boot0 179:32   0    4M  1 disk
+  mmcblk1boot1 179:64   0    4M  1 disk
+  mmcblk0      179:96   0 29.7G  0 disk
+  `-mmcblk0p1  179:97   0 29.7G  0 part /run/media/sd1
 
 To unmount the SD card, use **umount** command:
 
 
 .. code-block:: bash
   :linenos:
-  :emphasize-lines: 6, 15
+  :emphasize-lines: 1, 17
 
-  root@imx8mp-eisd:~# cd /run/media/sd1/
-  root@imx8mp-eisd:/run/media/sd1# umount /run/media/sd1/
-  umount: /run/media/sd1/: target is busy.
-
-  root@imx8mp-eisd:/run/media/sd1# cd /
-  root@imx8mp-eisd:/# umount /run/media/sd1/
-
-  root@imx8mp-eisd:/# lsblk
+  root@stm32mp2:~# umount /run/media/sd1/
+  root@stm32mp2:~# lsblk
   NAME         MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
-  mmcblk2      179:0    0 14.6G  0 disk 
-  |-mmcblk2p1  179:1    0 83.2M  0 part /run/media/mmcblk2p1
-  `-mmcblk2p2  179:2    0 14.5G  0 part /
-  mmcblk2boot0 179:32   0    4M  1 disk 
-  mmcblk2boot1 179:64   0    4M  1 disk 
-  mmcblk1      179:96   0 58.2G  0 disk 
+  mmcblk1      179:0    0 14.6G  0 disk
+  |-mmcblk1p1  179:1    0  512K  0 part
+  |-mmcblk1p2  179:2    0  512K  0 part
+  |-mmcblk1p3  179:3    0    4M  0 part
+  |-mmcblk1p4  179:4    0    4M  0 part
+  |-mmcblk1p5  179:5    0  512K  0 part
+  |-mmcblk1p6  179:6    0   64M  0 part /boot
+  |-mmcblk1p7  179:7    0  183M  0 part /vendor
+  |-mmcblk1p8  179:8    0    3G  0 part /
+  `-mmcblk1p9  179:9    0 11.3G  0 part /usr/local
+  mmcblk1boot0 179:32   0    4M  1 disk
+  mmcblk1boot1 179:64   0    4M  1 disk
+  mmcblk0      179:96   0 29.7G  0 disk
+  `-mmcblk0p1  179:97   0 29.7G  0 part
 
 Then you can eject the SD card physically.
 
