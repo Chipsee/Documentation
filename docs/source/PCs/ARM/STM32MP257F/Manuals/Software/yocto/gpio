@@ -91,7 +91,7 @@ We can also cross-compile `set_get_line_value_V2.c` on Ubuntu 20.04 or any other
     $ ${CC} set_get_line_value_V2.c -o set_get_line_value_V2 -lgpiod
 
 
-Then put the gpiotest to target Chipsee ARM board over ssh or other solutions you like. We use OUT1 and IN1 to demostrate it, we need to feed power 12V-24V between GND_ISO and VDD_ISO, then short OUT1 and IN1 to test.
+Then put the `set_get_line_value_V2` to target Chipsee ARM board over ssh or other solutions you like. We use OUT1 and IN1 to demostrate it, we need to feed power 12V~24V between `GND_ISO` and `VDD_ISO`, then short `OUT1` and `IN1` to test.
 
 .. code-block:: bash
 

@@ -6,11 +6,17 @@ You can use the following commands to turn on / turn off the backlight:
 * Turn on backlight:
     .. code-block:: bash
 
-        echo 1 > /sys/class/backlight/panel-lvds-backlight/brightness
+        echo 1 > /dev/brightness
 
 * Turn off backlight (screen goes black):
     .. code-block:: bash
 
-        echo 0 > /sys/class/backlight/panel-lvds-backlight/brightness
+        echo 0 > /dev/brightness
+
+
+.. warning::
+
+  | This product only supports to trun on / trun off the backlight, doesn't support to use PWM to control it.
+
 
 :pagebreak:`True`

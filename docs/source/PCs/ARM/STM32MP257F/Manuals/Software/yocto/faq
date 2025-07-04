@@ -1,28 +1,7 @@
 FAQ
 ===
 
-1. How to use eglfs on Yocto Linux XWayland?
-
-   .. code-block:: bash
-     
-      systemctl stop weston
-      export QT_QPA_EGLFS_KMS_CONFIG=/etc/eglfs.json
-      export QT_QPA_PLATFORM=eglfs
-      export QT_QPA_EGLFS_INTEGRATION=eglfs_viv
-      export QT_QPA_EGLFS_ALWAYS_SET_MODE=1
-
-   .. code-block:: text
-
-      # eglfs.json file content for PPC-A55-070 (7 inch 1024x600 resolution):
-
-      {
-         "device": "/dev/dri/card1",
-         "outputs":[
-            {"name": "DSI1","mode":"1024x600"}
-         ]
-      }
-
-2. How to set timezone?
+1. How to set timezone?
 
    .. code-block::
     
@@ -32,10 +11,6 @@ FAQ
       # OR
 
       ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-
-3. The Hardware Test program does not open after I connect an external display?
-
-   Remove this hardware test configuration file: **~/.config/Chipsee/hardwaretest.conf**, and test again.
 
 
 :pagebreak:`True`
