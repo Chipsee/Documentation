@@ -78,32 +78,24 @@ To detect GPIO event (rising edge and falling edge), e.g. on IN4:
    2446.084150884 falling  "PZ2"
 
 
-You can also use a programming language like C, which has libgpiod support to control the GPIOs.
+We can also cross-compile `set_get_line_value_V2.c` on Ubuntu 20.04 or any other Linux X86_64 system and execute the `set_get_line_value_V2` on the target Chipsee ARM board. In doing so, there's no requirement to install the `libgpiod` development packages on the target Chipsee ARM board system. However, we do need to install the SDK and configure the environment accordingly. Refer to `Development`_ chapter to install SDK.
 
 .. code-block:: bash
 
-   # TODO
-   # Get the libgpiod dev packages(run the following commands on the Chipsee target ARM board):
+    $ source /opt/st/stm32mp2/4.2.4-snapshot/environment-setup-cortexa35-ostl-linux
 
-   # Get the gpiotest.c file
-   # The gpiotest.c will setting OUT1 IO as one output pins and drive high/low in every 1 second
+    $ echo ${CC}
 
-   # Compile and run it
-   gcc gpiotest.c -o gpiotest -lgpiod
-   ./gpiotest
+    $ wget -c https://chipsee-tmp.s3.amazonaws.com/SourcesArchives/HARDWARETEST/set_get_line_value_V2.c
 
-We can also cross-compile `gpiotest.c` on Ubuntu 20.04 or any other Linux X86_64 system and execute the `gpiotest` on the target Chipsee ARM board. In doing so, there's no requirement to install the `libgpiod` development packages on the target Chipsee ARM board system. However, we do need to install the SDK and configure the environment accordingly. Refer to `Development`_ chapter to install SDK.
+    $ ${CC} set_get_line_value_V2.c -o set_get_line_value_V2 -lgpiod
 
-.. code-block:: bash
 
-   # TODO
-   root@stm32mp2:~#
-
-Then put the gpiotest to target Chipsee ARM board over ssh or other solutions you like.
+Then put the gpiotest to target Chipsee ARM board over ssh or other solutions you like. We use OUT1 and IN1 to demostrate it, we need to feed power 12V-24V between GND_ISO and VDD_ISO, then short OUT1 and IN1 to test.
 
 .. code-block:: bash
 
-   # TODO
-   root@stm32mp2:~#
+   root@stm32mp2:~# ./set_get_line_value_V2
+
 
 :pagebreak:`True`

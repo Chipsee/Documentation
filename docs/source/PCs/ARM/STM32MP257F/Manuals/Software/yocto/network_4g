@@ -13,7 +13,7 @@ To connect with an APN, there are 3 pre-configured APN profiles, 3gnet/ctnet/cmn
 
 .. rst-class:: text-center
 
-  .. image:: /Media/ARM/A53/Software/Yocto_63/4g-1.jpg
+  .. image:: /Media/ARM/A35/Software/4G_1_ST.jpg
     :align: center
     :width: 960
 
@@ -25,43 +25,28 @@ The Yocto Linux system pre-installed **quectel-CM** command, check available com
 
    quectel-CM --help
 
-To connect to an APN, e.g.: ctnet
+To connect to an APN, e.g.: 3gnet
 
 .. code-block:: bash
 
-   quectel-CM -s ctnet
+   quectel-CM -s 3gnet
 
 The program should acquire an IP address from your carrier automatically.
 
 .. rst-class:: text-center
 
-  .. image:: /Media/ARM/A53/Software/Yocto_63/4g-2.jpg
+  .. image:: /Media/ARM/A35/Software/4G_2_ST.jpg
     :align: center
     :width: 960
 
   *Connecting 4G/LTE Through Command Line*
 
-You can then ping an IP address to check you're connected, such as ping the Cloudflare DNS:
+You can then ping an IP address to check you're connected, such as ping the chipsee.com:
 
 .. rst-class:: text-center
 
-  .. image:: /Media/ARM/A53/Software/Yocto_63/4g-3.jpg
+  .. image:: /Media/ARM/A35/Software/4G_3_ST.jpg
     :align: center
     :width: 960
 
   *Ping an IP to Test Connectivity*
-
-Next, you'll need to configure the DNS server for resolving DNS queries. Since the system employs ConnMan to handle network management, the DNS service is managed by ConnMan as well. However, this setup conflicts with **systemd-resolved.service**. When **quectel-CM** is utilized, it utilizes **systemd-resolved.service** to offer DNS resolution. Therefore, we need to switch the default DNS service to **systemd-resolved.service**.
-
-.. code-block:: bash
-
-   ln -sf /etc/resolv-conf.systemd /etc/resolv.conf
-
-Additionally, you may notice that upon using **quectel-CM** to establish a 4G connection, the functionality of WiFi, Bluetooth, and Ethernet ceases due to a conflict between the **connman.service** and **systemd-resolved.service**. Consequently, the **connman.service** becomes inactive while the **systemd-resolved.service** becomes active. Disabling the 4G connection restores the functionality of the **connman.service**.
-
-.. code-block:: bash
-
-   ln -sf /etc/resolv-conf.connman /etc/resolv.conf
-   systemctl stop systemd-resolved.service
-   systemctl start connman.service
-
