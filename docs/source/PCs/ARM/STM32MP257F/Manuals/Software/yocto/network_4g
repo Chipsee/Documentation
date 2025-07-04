@@ -1,0 +1,52 @@
+4G/LTE
+------
+
+For products shipped with a 4G/LTE module, you can use Chipsee *hardwaretest* program and the **quectel-CM** tool to configure 4G/LTE network.
+
+.. note::
+
+   SIM card **does not** support hot plug, **power off** before inserting/removing SIM card. 
+
+In the Chipsee *hardware test* program, there is a **4G Enable** button, you can test the 4G function with this first. Then you can click "Netinfo" button, or "Refresh" button to check the 4G/LTE status.
+
+To connect with an APN, there are 3 pre-configured APN profiles, 3gnet/ctnet/cmnet, and a "custom" that you can configure yourself.
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A35/Software/4G_1_ST.jpg
+    :align: center
+    :width: 960
+
+  *4G/LTE Hardware Test Program*
+
+The Yocto Linux system pre-installed **quectel-CM** command, check available commands of **quectel-CM** and help:
+
+.. code-block:: bash
+
+   quectel-CM --help
+
+To connect to an APN, e.g.: 3gnet
+
+.. code-block:: bash
+
+   quectel-CM -s 3gnet
+
+The program should acquire an IP address from your carrier automatically.
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A35/Software/4G_2_ST.jpg
+    :align: center
+    :width: 960
+
+  *Connecting 4G/LTE Through Command Line*
+
+You can then ping an IP address to check you're connected, such as ping the chipsee.com:
+
+.. rst-class:: text-center
+
+  .. image:: /Media/ARM/A35/Software/4G_3_ST.jpg
+    :align: center
+    :width: 960
+
+  *Ping an IP to Test Connectivity*

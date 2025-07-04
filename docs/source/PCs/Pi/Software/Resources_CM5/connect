@@ -124,7 +124,7 @@ Linux and MacOS
          :align: center
          :width: 640
 
-      *The Screen Program Connects Your Workstation to the Industrial PC's Android Console*
+      *The Screen Program Connects Your Workstation to the Industrial PC's Console*
 
 6. If you want to **exit** the screen program, you can press `Ctrl+A` then press `K`.
 
@@ -225,7 +225,7 @@ Then you can check the IP address with **ifconfig**:
       :align: center
       :width: 640
 
-   *Hit Enter and Confirm to Enable SSH*
+   *Check IP with ifconfig*
 
 .. code-block:: text
    :linenos:

@@ -1,0 +1,49 @@
+Buzzer
+------
+
+The |ipc| has one buzzer. 
+
+Refer to the tables below for a detailed port definition:
+
+.. table:: Buzzer Device Node
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +-----------------------------+------------+----------------+-----------+
+   | Definition                  | GPIO       |  GPIOD Chip    |GPIOD Line |
+   +=============================+============+================+===========+
+   | Buzzer                      | PJ10       |  9             |   10      |
+   +-----------------------------+------------+----------------+-----------+
+
+You can control it with `gpiod` as follows:
+
+.. code:: bash
+
+    gpioset PJ10=1    # enable buzzer (be careful, it's really loud!)
+
+    gpioset PJ10=0    # disable buzzer
+
+    gpioset -t 500ms -c gpiochip9 10=active    # toggle the buzzer every 0.5 second
+
+
+We can also cross-compile `toggle_buzzer_value_V2.c` on Ubuntu 20.04 or any other Linux X86_64 system and execute the `toggle_buzzer_value_V2` on the target Chipsee ARM board. In doing so, there's no requirement to install the `libgpiod` development packages on the target Chipsee ARM board system. However, we do need to install the SDK and configure the environment accordingly. Refer to `Development`_ chapter to install SDK.
+
+.. code-block:: bash
+
+    $ source /opt/st/stm32mp2/4.2.4-snapshot/environment-setup-cortexa35-ostl-linux
+
+    $ echo ${CC}
+
+    $ wget -c https://chipsee-tmp.s3.amazonaws.com/SourcesArchives/HARDWARETEST/toggle_buzzer_value_V2.c
+
+    $ ${CC} toggle_buzzer_value_V2.c -o toggle_buzzer_value_V2 -lgpiod
+
+
+Then put the gpiotest to target Chipsee ARM board over ssh or other solutions you like.
+
+.. code-block:: bash
+
+   root@stm32mp2:~# ./toggle_buzzer_value_V2
+
+:pagebreak:`True`

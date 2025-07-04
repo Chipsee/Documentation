@@ -1,0 +1,101 @@
+WiFi
+----
+
+Scan WiFi SSID manually `iw dev wlan0 scan | grep SSID`:
+
+.. code-block:: bash
+   :linenos:
+   :emphasize-lines: 1, 3
+
+
+   root@stm32mp2:~# ifconfig wlan0 up
+
+   root@stm32mp2:~# iw dev wlan0 scan | grep SSID
+
+           SSID: chipsee_wifi
+           SSID: 
+
+Auto connect WiFi that persists across reboot:
+
+All the network configurations are stored on **/lib/systemd/network**, create the file dedicated to wireless interface "/lib/systemd/network/51-wireless.network":
+
+Firstly,
+
+.. code-block:: bash
+
+   echo "[Match]" > /lib/systemd/network/51-wireless.network
+   echo "Name=wlan0" >> /lib/systemd/network/51-wireless.network
+   echo "[Network]" >> /lib/systemd/network/51-wireless.network
+   echo "DHCP=ipv4" >>/lib/systemd/network/51-wireless.network
+
+Secondly, 
+
+.. code-block:: bash
+
+   mkdir -p /etc/wpa_supplicant/
+   echo "ctrl_interface=/var/run/wpa_supplicant" > /etc/wpa_supplicant/wpa_supplicant-wlan0.conf
+   echo "eapol_version=1" >> /etc/wpa_supplicant/wpa_supplicant-wlan0.conf
+   echo "ap_scan=1" >> /etc/wpa_supplicant/wpa_supplicant-wlan0.conf
+   echo "fast_reauth=1" >> /etc/wpa_supplicant/wpa_supplicant-wlan0.conf
+   echo "" >> /etc/wpa_supplicant/wpa_supplicant-wlan0.conf
+   wpa_passphrase SSID_OF_NETWORK PASSWORD_OF_NETWORK >> /etc/wpa_supplicant/wpa_supplicant-wlan0.conf
+
+Where **SSID_OF_NETWORK** **PASSWORD_OF_NETWORK** correspond to the SSID and password of wireless network.
+
+Finally, to enable and start the wireless configuration: 
+
+.. code-block:: bash
+
+   systemctl enable wpa_supplicant@wlan0.service
+   systemctl restart systemd-networkd.service
+   systemctl restart wpa_supplicant@wlan0.service
+
+To check the WiFi status:
+
+.. code-block:: bash
+
+   root@stm32mp2:/lib/systemd/network# iw wlan0 link
+
+   Connected to 04:42:1a:65:b3:10 (on wlan0)
+           SSID: chipsee
+           freq: 2457
+           RX: 252469 bytes (696 packets)
+           TX: 13808 bytes (75 packets)
+           signal: -60 dBm
+           rx bitrate: 65.0 MBit/s VHT-MCS 7 VHT-NSS 1
+           tx bitrate: 58.5 MBit/s VHT-MCS 6 VHT-NSS 1
+
+To disable WiFi with **rfkill**, persists across reboot:
+
+.. code-block:: bash
+   :emphasize-lines: 1, 2, 9, 19
+
+   root@stm32mp2:~# rfkill list
+   0: phy0: Wireless LAN
+      Soft blocked: no
+      Hard blocked: no
+   1: hci0: Bluetooth
+      Soft blocked: no
+      Hard blocked: no
+
+   root@stm32mp2:~# rfkill block 0
+
+   root@stm32mp2:~# rfkill list
+   0: phy0: Wireless LAN
+      Soft blocked: yes
+      Hard blocked: no
+   1: hci0: Bluetooth
+      Soft blocked: no
+      Hard blocked: no
+
+   root@stm32mp2:~# rfkill unblock 0
+
+   root@stm32mp2:~# rfkill list
+   0: phy0: Wireless LAN
+      Soft blocked: no
+      Hard blocked: no
+   1: hci0: Bluetooth
+      Soft blocked: no
+      Hard blocked: no
+
+:pagebreak:`True`

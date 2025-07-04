@@ -1,0 +1,88 @@
+Audio
+-----
+
+Audio Card in OS
+****************
+
+We will use **aplay** to play audio, first we need to check which audio card we need to use.
+
+The audio card in the device is **ES8388**, first check it with **aplay -l** (lower case "l"):
+
+.. code-block:: bash
+   :linenos:
+   :emphasize-lines: 1
+
+    root@stm32mp2:~# aplay -l
+    **** List of PLAYBACK Hardware Devices ****
+    card 0: ES8388 [ES8388], device 0: 400b0000.audio-controller-ES8323 HiFi ES8323 HiFi-0 [400b0000.audio-controller-ES8323 HiFi ES8323 HiFi-0]
+      Subdevices: 1/1
+      Subdevice #0: subdevice #0
+
+In the example, **card 0: ES8388 [ES8388]** is our audio card. We will need its **Subdevice #0**. It means we need to select **card 0** hardware's **subdevice 0**. It is **hw:0,0** in aplay.
+
+But the order of audio cards (if there are more than 1 audio cards) might change after each boot, so we'd better use its audio card name instead of its order.
+
+The audio card is **sysdefault:CARD=ES8388** in this case.
+
+
+Audio Playing
+*************
+
+By default the device plays audio from its integrated speaker. To play an audio file:
+
+.. code-block:: bash
+
+   # name based
+   aplay -D sysdefault:CARD=ES8388 /opt/hardware/test/multimedias/AudioTest.wav
+
+If a headphone is plugged into the audio jack, it will play audio from the headphone instead of its speaker.
+
+To set the volume:
+
+.. code-block:: bash
+
+   # Set volume to 50% (0~100%)
+   pactl set-sink-volume @DEFAULT_SINK@ 50%
+
+It will set volume for both speaker and headphone, and persists after reboot.
+
+To set the volume up or down a little bit:
+
+.. code-block:: bash
+   :linenos:
+   :emphasize-lines: 1, 4, 9
+
+    root@stm32mp2:~# pactl get-sink-volume @DEFAULT_SINK@
+    Volume: front-left: 45875 /  70% / -9.29 dB,   front-right: 45875 /  70% / -9.29 dB
+            balance 0.00
+    root@stm32mp2:~# pactl set-sink-volume @DEFAULT_SINK@ -17%
+    root@stm32mp2:~# pactl set-sink-volume @DEFAULT_SINK@ -17%
+    root@stm32mp2:~# pactl get-sink-volume @DEFAULT_SINK@
+    Volume: front-left: 23591 /  36% / -26.62 dB,   front-right: 23591 /  36% / -26.62 dB
+            balance 0.00
+    root@stm32mp2:~# pactl set-sink-volume @DEFAULT_SINK@ +47%
+    root@stm32mp2:~# pactl get-sink-volume @DEFAULT_SINK@
+    Volume: front-left: 54392 /  83% / -4.86 dB,   front-right: 54392 /  83% / -4.86 dB
+            balance 0.00
+
+
+Audio Recording
+***************
+
+You can use the 3.5mm audio jack to connect an external microphone for audio recording.
+
+The default recording device is **sysdefault:CARD=ES8388**
+
+.. code-block:: bash
+    :linenos:
+
+    # You can learn more about the options of arecord with
+    arecord -h
+
+    # specify capture device by name
+    arecord -D sysdefault:CARD=ES8388 -f cd -V stereo -d 18 mic.wav
+
+    # to play the audio you just recorded
+    aplay -D sysdefault:CARD=ES8388 mic.wav
+
+:pagebreak:`True`

@@ -1,0 +1,101 @@
+GPIO
+----
+
+There are 8 GPIOs, 4 Output, and 4 Input, they are all optical isolated. You can control the output or input pin voltage by feeding the VDD_ISO voltage. The pin voltage should be from 5V to 24V. You should use an external reliable power supply for the VDD_ISO and GND_ISO. 
+
+We **don't** recommend testing GPIO with the onboard +5V/GND (wiring the +5V to VDD_ISO and wiring GND to GND_ISO), in most cases we recommend using an external power source for VDD_ISO and GND_ISO.
+
+For:
+
+* 7 inch product: PPC-A35-070 (PN: CS10600-STMP25-070P)
+* 10.1+ inch products: 
+   * PPC-A35-101 (PN: CS12800-STMP25-101P)
+   * PPC-A35-133 (PN: CS19108-STMP25-133P)
+   * PPC-A35-156 (PN: CS19108-STMP25-156P)
+
+Refer to the tables below for a detailed port definition:
+
+.. table:: GPIO Device Node
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +-----------------------------+------------+----------------+-----------+
+   | Definition                  | GPIO       |  GPIOD Chip    |GPIOD Line |
+   +=============================+============+================+===========+
+   | OUT1                        | PZ6        |  11            |   6       |
+   +-----------------------------+------------+----------------+-----------+
+   | OUT2                        | PZ7        |  11            |   7       |
+   +-----------------------------+------------+----------------+-----------+
+   | OUT3                        | PZ8        |  11            |   8       |
+   +-----------------------------+------------+----------------+-----------+
+   | OUT4                        | PZ9        |  11            |   9       |
+   +-----------------------------+------------+----------------+-----------+
+   | IN1                         | PZ5        |  11            |   5       |
+   +-----------------------------+------------+----------------+-----------+
+   | IN2                         | PZ4        |  11            |   4       |
+   +-----------------------------+------------+----------------+-----------+
+   | IN3                         | PZ3        |  11            |   3       |
+   +-----------------------------+------------+----------------+-----------+
+   | IN4                         | PZ2        |  11            |   2       |
+   +-----------------------------+------------+----------------+-----------+   
+
+To set GPIO out to high with **gpiod**:
+
+.. code-block:: bash
+
+   # Set OUT1 to High (use "gpioinfo" to check GPIOD Chip and Line)
+   gpioset --chip 11 6=1
+
+   # Set OUT3 and OUT4 (PZ8 PZ9) to Low
+   gpioset PZ8=0 PZ9=0
+
+To get GPIO input:
+
+.. code-block:: bash
+
+   # Get the IN4 (PZ2) status:
+   gpioget PZ2
+
+To detect GPIO event (rising edge and falling edge), e.g. on IN4:
+
+.. code-block:: bash
+   :emphasize-lines: 1, 3
+
+   root@stm32mp2:~# gpioget PZ2
+   "PZ2"=inactive
+   root@stm32mp2:~# gpiomon PZ2
+   # Apply OUT1 to IN1 with a dupont wire ...
+   2441.458788046 rising   "PZ2"
+   2442.808019966 falling  "PZ2"
+   2444.466110745 rising   "PZ2"
+   2446.080942714 falling  "PZ2"
+   2446.082569984 rising   "PZ2"
+   2446.083678586 falling  "PZ2"
+   2446.083739979 rising   "PZ2"
+   2446.083874839 falling  "PZ2"
+   2446.083894112 rising   "PZ2"
+   2446.084150884 falling  "PZ2"
+
+
+We can also cross-compile `set_get_line_value_V2.c` on Ubuntu 20.04 or any other Linux X86_64 system and execute the `set_get_line_value_V2` on the target Chipsee ARM board. In doing so, there's no requirement to install the `libgpiod` development packages on the target Chipsee ARM board system. However, we do need to install the SDK and configure the environment accordingly. Refer to `Development`_ chapter to install SDK.
+
+.. code-block:: bash
+
+    $ source /opt/st/stm32mp2/4.2.4-snapshot/environment-setup-cortexa35-ostl-linux
+
+    $ echo ${CC}
+
+    $ wget -c https://chipsee-tmp.s3.amazonaws.com/SourcesArchives/HARDWARETEST/set_get_line_value_V2.c
+
+    $ ${CC} set_get_line_value_V2.c -o set_get_line_value_V2 -lgpiod
+
+
+Then put the `set_get_line_value_V2` to target Chipsee ARM board over ssh or other solutions you like. We use OUT1 and IN1 to demostrate it, we need to feed power 12V~24V between `GND_ISO` and `VDD_ISO`, then short `OUT1` and `IN1` to test.
+
+.. code-block:: bash
+
+   root@stm32mp2:~# ./set_get_line_value_V2
+
+
+:pagebreak:`True`

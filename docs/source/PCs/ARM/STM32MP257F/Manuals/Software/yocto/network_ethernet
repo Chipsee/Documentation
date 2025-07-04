@@ -1,0 +1,35 @@
+Ethernet
+--------
+
+When Ethernet cable is plugged in, it will be automatically configured for use, it will obtain an IP automatically from DHCP.
+
+**end1** is the interface of 10.1+ inch products.
+
+**end1**, **end2** are the interfaces of 7 inch product.
+
+To change the configuration, edit **/lib/systemd/network/80-wired.network**.
+
+.. code-block:: bash
+
+  root@stm32mp2:~# cat /lib/systemd/network/80-wired.network
+  [Match]
+  Type=ether
+  Name=!veth*
+  KernelCommandLine=!nfsroot
+  KernelCommandLine=!ip
+
+  [Network]
+  DHCP=yes
+
+  [DHCP]
+  UseMTU=yes
+  RouteMetric=10
+  ClientIdentifier=mac
+
+Check the logs of **systemd-networkd** with:
+
+.. code-block:: bash
+
+  journalctl -u systemd-networkd
+
+:pagebreak:`True`

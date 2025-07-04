@@ -1,0 +1,129 @@
+Controller Area Network (CAN)
+-----------------------------
+
+To use CAN, you must add one 120Ω resistor between CAN_H and CAN_L on one of the two devices, as shown in the figure below.
+
+.. note::
+
+   The |ipc| **doesn't** mount the 120Ω matched resistor on all CAN signals by default.
+
+.. figure:: /Media/Pi/Software/CAN.jpeg
+   :align: center
+   :figclass: align-center
+
+   *Connecting CAN*
+
+**7 inch product**
+
+* PPC-A35-070 (PN: CS10600-STMP25-070P)
+
+.. table:: CAN for **7 inch** product
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +----------------+----------------+---------------------------------------------------------+-------------+
+   | **Pin Number** | **Definition** | **Description**                                         | OS Node     |
+   +================+================+=========================================================+=============+
+   | Pin 16         | CAN1_H         | CPU CAN1 H signal                                       |             |
+   +----------------+----------------+---------------------------------------------------------+-------------+
+   | Pin 15         | CAN1_L         | CPU CAN1 L signal                                       | CAN1        |
+   +----------------+----------------+---------------------------------------------------------+-------------+
+   | Pin 14         | CAN0_H         | CPU CAN0 H signal                                       |             |
+   +----------------+----------------+---------------------------------------------------------+-------------+
+   | Pin 13         | CAN0_L         | CPU CAN0 L signal                                       | CAN0        |
+   +----------------+----------------+---------------------------------------------------------+-------------+
+
+**10.1+ inch products**
+
+* PPC-A35-101 (PN: CS12800-STMP25-101P)
+* PPC-A35-133 (PN: CS19108-STMP25-133P)
+* PPC-A35-156 (PN: CS19108-STMP25-156P)
+
+.. table:: CAN for **10.1+ inch** products
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +----------------+----------------+---------------------------------------------------------+-------------+
+   | **Pin Number** | **Definition** | **Description**                                         | OS Node     |
+   +================+================+=========================================================+=============+
+   | 2              | CAN1_H         | CPU CAN1 H signal                                       |             |
+   +----------------+----------------+---------------------------------------------------------+-------------+
+   | 4              | CAN1_L         | CPU CAN1 L signal                                       | CAN1        |
+   +----------------+----------------+---------------------------------------------------------+-------------+
+   | 1              | CAN0_H         | CPU CAN0 H signal                                       |             |
+   +----------------+----------------+---------------------------------------------------------+-------------+
+   | 3              | CAN0_L         | CPU CAN0 L signal                                       | CAN0        |
+   +----------------+----------------+---------------------------------------------------------+-------------+
+
+To check the CAN devices status with *ip link*, on the 10.1 inch device, there are two CAN devices (can0 and can1):
+
+.. code-block:: text
+
+   root@stm32mp2:~# ip link
+   ...
+   3: can0: <NOARP,ECHO> mtu 16 qdisc noop state DOWN mode DEFAULT group default qlen 10
+       link/can 
+   4: can1: <NOARP,ECHO> mtu 16 qdisc noop state DOWN mode DEFAULT group default qlen 10
+       link/can 
+   ...
+
+
+Here are a few examples to test CAN using CAN utils.
+
+Set the bit-rate to **1Mbits/sec** using the following command:
+   
+.. code-block:: bash
+
+   ip link set can0 down
+   ip link set can0 type can bitrate 1000000
+
+Bring up the device using the command:
+   
+.. code-block:: bash
+
+   ip link set can0 up
+
+Transfer packets
+    
+.. code-block:: bash
+
+   cansend can0 5A1#11.2233.44556677.88
+
+Receive data from CAN bus
+
+.. code-block:: bash
+
+   candump can0
+
+Bring down the device
+
+.. code-block:: bash
+
+   ip link set can0 down
+
+If your product has 2 CAN ports CAN0 and CAN1, you can test CAN by letting them talk to each other:
+
+
+.. code-block:: bash
+
+   // CAN0 console
+   root@stm32mp2:~# candump can0
+   // CAN1 console
+   root@stm32mp2:~# cansend can1 5A1#11.2233.44556677.88
+   root@stm32mp2:~# cansend can1 1F334455#1122334455667788
+   // CAN0 console
+   can0  5A1   [8]  11 22 33 44 55 66 77 88
+   can0  1F334455   [8]  11 22 33 44 55 66 77 88
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/CAN_ST.webp
+      :align: center
+      :width: 960
+
+   *CAN0 and CAN1 Talk to Each Other*
+
+:pagebreak:`True`
+

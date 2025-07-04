@@ -1,0 +1,246 @@
+Development
+===========
+
+In this chapter, you will learn how to set up a QT development environment, and develop the first QT application on the Chipsee industrial panel PCs.
+
+Host system requirements
+------------------------
+
+#) Ubuntu 20.04 LTS 64bit system should be installed on the host machine(your workstation).
+#) Qtcreator 10.0.2 is a tested Qtcreator version, other versions should also be ok.
+
+Preparation
+-----------
+
+#) Download `Qtcreator 10.0.2 <https://download.qt.io/archive/qtcreator/10.0/10.0.2/>`_ and install it on the Ubuntu 20.04 64bit Host PC. Other Qtcreator versions should also be ok. 
+
+   .. code-block:: bash
+         
+      $ wget -c https://download.qt.io/archive/qtcreator/10.0/10.0.2/qt-creator-opensource-linux-x86_64-10.0.2.run
+      $ chmod a+x qt-creator-opensource-linux-x86_64-10.0.2.run
+      $ ./qt-creator-opensource-linux-x86_64-10.0.2.run
+         
+   The default install directory is `/home/$USER/qtcreator-10.0.2`. 
+
+   You can install it in this directory or use another directory.
+   
+#) Install Chipsee SDK for STM32MP25 products. Download the SDK and install it with the following commands (on your workstation - Ubuntu 20.04 64bit Host PC):
+   
+   .. code-block:: bash
+
+      $ wget -c https://chipsee-tmp.s3.amazonaws.com/SDK/st-image-qt-openstlinux-weston-stm32mp2-x86_64-toolchain-4.2.4-snapshot.sh
+      $ chmod a+x st-image-qt-openstlinux-weston-stm32mp2-x86_64-toolchain-4.2.4-snapshot.sh
+      $ ./st-image-qt-openstlinux-weston-stm32mp2-x86_64-toolchain-4.2.4-snapshot.sh
+
+    
+   The default install directory is `/opt/st/stm32mp2/4.2.4-snapshot/`. 
+
+   You can install it in this directory or you also can use another directory.
+
+#) Use the following command to test SDK:
+   
+   .. code-block:: text
+      
+      ./st-image-qt-openstlinux-weston-stm32mp2-x86_64-toolchain-4.2.4-snapshot.sh
+      ST OpenSTLinux - Weston - (A Yocto Project Based Distro) SDK installer version 4.2.4-snapshot
+      =============================================================================================
+      Enter target directory for SDK (default: /opt/st/stm32mp2/4.2.4-snapshot):
+      You are about to install the SDK to "/opt/st/stm32mp2/4.2.4-snapshot". Proceed [Y/n]? y
+      Extracting
+      SDK..................done
+      Setting it up...done
+      SDK has been successfully set up and is ready to be used.
+      Each time you wish to use the SDK in a new shell session, you need to source the environment setup script e.g.
+      $ . /opt/st/stm32mp2/4.2.4-snapshot/environment-setup-cortexa35-ostl-linux
+      
+   Check the installation status:
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A35/Software/Qt-1_ST.webp
+        :align: center
+        :width: 960
+
+      *Check SDK Installation*
+
+#) Open the QtCreator, then click the menu Edit->Preferences. Config the QtCreator as shown in the images below.
+   
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A35/Software/Qt-2_ST.webp
+        :align: center
+        :width: 960
+
+      *Config QtCreator 1*
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A35/Software/Qt-3_ST.webp
+        :align: center
+        :width: 960
+
+      *Config QtCreator 2*
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A35/Software/Qt-4_ST.webp
+        :align: center
+        :width: 960
+
+      *Config QtCreator 3*
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A35/Software/Qt-5_ST.webp
+        :align: center
+        :width: 960
+
+      *Config QtCreator 4*
+
+   .. rst-class:: text-center
+
+      .. image:: /Media/ARM/A35/Software/Qt-6_ST.webp
+        :align: center
+        :width: 960
+
+      *Config QtCreator 5*
+
+:pagebreak:`True`
+
+Example — Develop a HelloWorld Program
+--------------------------------------
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/Qt-App-1_ST.webp
+     :align: center
+     :width: 960
+
+   *Qt Widgets Application*
+
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/Qt-App-2_ST.webp
+     :align: center
+     :width: 960
+
+   *Name*
+
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/Qt-App-3_ST.webp
+     :align: center
+     :width: 960
+
+   *Build System*
+
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/Qt-App-4_ST.webp
+     :align: center
+     :width: 960
+
+   *Class*
+
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/Qt-App-5_ST.webp
+     :align: center
+     :width: 960
+
+   *Kit Selection*
+
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/Qt-App-6_ST.webp
+     :align: center
+     :width: 960
+
+   *Finish*
+
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/Qt-App-7_ST.webp
+     :align: center
+     :width: 960
+
+   *Double Click UI File*
+
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/Qt-App-8_ST.webp
+     :align: center
+     :width: 960
+
+   *Add Label Widget*
+
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/Qt-App-9_ST.webp
+     :align: center
+     :width: 960
+
+   *Connect Device*
+
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/Qt-App-10_ST.webp
+     :align: center
+     :width: 960
+
+   *Test Device*
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/Qt-App-11_ST.webp
+     :align: center
+     :width: 960
+
+   *Build and Run App*
+
+.. rst-class:: text-center
+
+   .. image:: /Media/ARM/A35/Software/Qt-App-12_ST.webp
+     :align: center
+     :width: 960
+
+   *Done*
+
+Now you should be able to create, build and execute a Qt program on the Chipsee industrial panel PC.
+
+:pagebreak:`True`
+
+Compile Qt Program with CMAKE
+-----------------------------
+
+.. code-block:: text
+   
+   # Setup the environment of SDK
+   source /opt/st/stm32mp2/4.2.4-snapshot/environment-setup-cortexa35-ostl-linux
+   # Get the source code of KDBoatDemo
+   mkdir -p /opt/st/demos/Qt
+   cd /opt/st/demos/Qt
+   git clone https://github.com/KDABLabs/KDBoatDemo.git -b qt6
+   # Build the demo example
+   cd KDBoatDemo
+   cmake -S . -B config_default
+   cmake --build config_default --target all
+   # Copy the Example's binary into the connected board:
+   scp config_default/KDABBoatDemo root@192.168.7.1:/home/root/
+   # Connect to the running board:
+   ssh root@192.168.7.1
+   # Run the demo's example (windowed mode)
+   ./KDABBoatDemo
+   # Run the demo's example (full screen mode)
+   ./KDABBoatDemo --fullscreen
+
+:pagebreak:`True`
