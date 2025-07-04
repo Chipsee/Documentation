@@ -10,6 +10,21 @@ J1900
    <div class="col">
       <div class="index-item">
 
+10.1 Inch(Capacitive)
+|PPC-J1900-101|
+
+:ref:`PPC-J1900-101-C<PPC-J1900-101-C>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
 10.4 Inch(Resistive)
 |PPC-J1900-104|
 
@@ -41,51 +56,6 @@ J1900
    <div class="col">
       <div class="index-item">
 
-17.0 Inch(Resistive)
-|PPC-J1900-170|
-
-:ref:`PPC-J1900-170-R<PPC-J1900-170-R>`
-
-.. raw:: html
-
-     </div>
-   </div>
-
-.. raw:: html
-
-   <div class="col">
-      <div class="index-item">
-
-19.0 Inch(Resistive)
-|PPC-J1900-190|
-
-:ref:`PPC-J1900-190-R<PPC-J1900-190-R>`
-
-.. raw:: html
-
-     </div>
-   </div>
-
-
-.. raw:: html
-
-   <div class="col">
-      <div class="index-item">
-
-10.1 Inch(Capacitive)
-|PPC-J1900-101|
-
-:ref:`PPC-J1900-101-C<PPC-J1900-101-C>`
-
-.. raw:: html
-
-     </div>
-   </div>
-
-.. raw:: html
-
-   <div class="col">
-      <div class="index-item">
 
 13.3 Inch(Capacitive)
 |PPC-J1900-133|
@@ -102,6 +72,7 @@ J1900
 
    <div class="col">
       <div class="index-item">
+
 
 15.0 Inch(Capacitive)
 |PPC-J1900-150|
@@ -127,6 +98,37 @@ J1900
 
      </div>
    </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+17.0 Inch(Resistive)
+|PPC-J1900-170|
+
+:ref:`PPC-J1900-170-R<PPC-J1900-170-R>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+19.0 Inch(Resistive)
+|PPC-J1900-190|
+
+:ref:`PPC-J1900-190-R<PPC-J1900-190-R>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
 
 .. raw:: html
 
@@ -191,21 +193,15 @@ Box(6 COM)
 
      </div>
 
+.. |PPC-J1900-101| image:: /Media/Intel/J1900/101/PPC-J1900-101-C-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-101-C.html
 .. |PPC-J1900-104| image:: /Media/Intel/J1900/104/PPC-J1900-104-R-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-104-R.html
 .. |PPC-J1900-121| image:: /Media/Intel/J1900/121/PPC-J1900-121-R-Front-Low.jpg
-   :class: index-item-img
+   :class: index-item-img   
    :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-121-R.html
-.. |PPC-J1900-170| image:: /Media/Intel/J1900/170/PPC-J1900-170-R-Front-Low.jpg
-   :class: index-item-img
-   :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-170-R.html
-.. |PPC-J1900-190| image:: /Media/Intel/J1900/190/PPC-J1900-190-R-Front-Low.jpg
-   :class: index-item-img
-   :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-190-R.html
-.. |PPC-J1900-101| image:: /Media/Intel/J1900/101/PPC-J1900-101-C-Front-Low.jpg
-   :class: index-item-img
-   :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-101-C.html
 .. |PPC-J1900-133| image:: /Media/Intel/J1900/133/PPC-J1900-133-C-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-133-C.html
@@ -214,7 +210,13 @@ Box(6 COM)
    :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-150-C.html
 .. |PPC-J1900-156| image:: /Media/Intel/J1900/156/PPC-J1900-156-C-Front-Low.jpg
    :class: index-item-img
-   :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-156-C.html
+   :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-156-C.html   
+.. |PPC-J1900-170| image:: /Media/Intel/J1900/170/PPC-J1900-170-R-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-170-R.html
+.. |PPC-J1900-190| image:: /Media/Intel/J1900/190/PPC-J1900-190-R-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-190-R.html
 .. |PPC-J1900-215| image:: /Media/Intel/J1900/215/PPC-J1900-215-C-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/Intel/J1900/Manuals/Hardware/PPC-J1900-215-C.html

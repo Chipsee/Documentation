@@ -1,0 +1,39 @@
+.. |lan| replace:: 2
+
+.. |rs232| replace:: 4
+
+.. |rs485| replace:: 2
+
+.. |vga| replace:: N/A
+
+.. |hdmi| replace:: 1 x HDMI out
+
+.. |disp_conn| replace:: |hdmi| port
+
+.. |usb2| replace:: 3
+
+.. |usb3| replace:: 1
+
+.. |USB2_img| image:: /Media/Intel/J1900/104/PPC-J1900-104-R-USB2.jpg
+                   :align: middle
+                   :width: 640
+
+.. |USB3_img| image:: /Media/Intel/J1900/104/PPC-J1900-104-R-USB3.jpg
+                   :align: middle
+                   :width: 640
+
+.. |rs232_485_img| image:: /Media/Intel/J1900/104/PPC-J1900-104-R-Conn.jpg
+                   :align: middle
+                   :width: 960                   
+
+.. |lan_img| image:: /Media/Intel/J1900/104/PPC-J1900-104-R-LAN.jpg
+                   :align: middle
+                   :width: 640  
+
+.. |hdmi_img| image:: /Media/Intel/J1900/104/PPC-J1900-104-R-HDMI.jpg
+                   :align: middle
+                   :width: 640                     
+
+.. |power_img| image:: /Media/Intel/J1900/104/PPC-J1900-104-R-Power.jpg
+                   :align: middle
+                   :width: 640                    

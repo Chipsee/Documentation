@@ -6,6 +6,8 @@
 
 .. |PN| replace:: PN: |product|
 
+.. include:: Resources/J1900-V2/104/base_replaces
+
 .. |weight| replace:: 2300g
 
 .. |dim| replace:: 272 x 221 x 53mm
@@ -52,38 +54,38 @@
 |product|
 #########
 
-.. rubric:: *Version 1.1*
+.. rubric:: *Version 2.0*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images
 
-.. include:: Resources/overview
+.. include:: Resources/J1900-V2/overview
 
-.. include:: Resources/changes
+.. include:: Resources/J1900-V2/changes
 
-.. include:: Resources/ordering
+.. include:: Resources/J1900-V2/ordering
 
-.. include:: Resources/opt_features_1
+.. include:: Resources/J1900-V2/opt_features_1
 
-.. include:: Resources/HW_features
+.. include:: Resources/J1900-V2/HW_features
 
-.. include:: Resources/table
+.. include:: Resources/J1900-V2/table
 
-.. include:: Resources/power
+.. include:: Resources/J1900-V2/power
 
-.. include:: Resources/res_screen
+.. include:: Resources/J1900-V2/res_screen
 
-.. include:: Resources/connectivity
+.. include:: Resources/J1900-V2/104/connectivity_104
 
-.. include:: Resources/USB
+.. include:: Resources/J1900-V2/USB
 
-.. include:: Resources/LAN
+.. include:: Resources/J1900-V2/LAN
 
-.. include:: Resources/HDMI
+.. include:: Resources/J1900-V2/104/HDMI
 
-.. include:: Resources/mounting
+.. include:: Resources/J1900-V2/mounting
 
-.. include:: Resources/mechspecs
+.. include:: Resources/J1900-V2/mechspecs
 
 .. figure:: /Media/Intel/J1900/104/PPC-J1900-104-R-TD.jpg
    :align: center

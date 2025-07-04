@@ -1,0 +1,20 @@
+USB HOST
+--------
+
+|product| is equipped with |usb2| x USB 2.0 connectors and |usb3| x USB 3.0 HOST connectors.
+
+.. rst-class:: text-center
+
+  |USB2_img|
+
+  *USB 2.0 HOST Port*
+
+  |USB3_img|
+
+  *USB 3.0 HOST Port*
+
+.. warning::
+
+  Be careful not to touch surrounding electronic components accidentally while plugging USB devices into the embedded IPC version.
+   
+:pagebreak:`True`

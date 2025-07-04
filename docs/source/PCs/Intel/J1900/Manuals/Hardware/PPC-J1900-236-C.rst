@@ -6,6 +6,8 @@
 
 .. |PN| replace:: PN: |product|
 
+.. include:: Resources/J1900-V2/104/base_replaces
+
 .. |weight| replace:: 7700g
 
 .. |dim| replace:: 596 x 375 x 55mm
@@ -37,13 +39,13 @@
 .. |Front View| image:: /Media/Intel/J1900/236/PPC-J1900-236-C-Front.jpg
                   :class: product-img
 
-.. |Rear View| image:: /Media/Intel/J1900/236/PPC-J1900-236-C-Back.png
+.. |Rear View| image:: /Media/Intel/J1900/236/PPC-J1900-236-C-Back.jpg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/Intel/J1900/236/PPC-J1900-236-C-Bottom.png
+.. |Side View 1| image:: /Media/Intel/J1900/236/PPC-J1900-236-C-Side1.jpg
                   :class: product-img
 
-.. |Side View 2| image:: /Media/Intel/J1900/236/PPC-J1900-236-C-Side.png
+.. |Side View 2| image:: /Media/Intel/J1900/236/PPC-J1900-236-C-Side2.jpg
                   :class: product-img 
 
 .. _PPC-J1900-236-C:
@@ -52,38 +54,38 @@
 |product|
 #########
 
-.. rubric:: *Version 1.1*
+.. rubric:: *Version 2.0*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images
 
-.. include:: Resources/overview
+.. include:: Resources/J1900-V2/overview
 
-.. include:: Resources/changes
+.. include:: Resources/J1900-V2/changes
 
-.. include:: Resources/ordering
+.. include:: Resources/J1900-V2/ordering
 
-.. include:: Resources/opt_features_1
+.. include:: Resources/J1900-V2/opt_features_1
 
-.. include:: Resources/HW_features
+.. include:: Resources/J1900-V2/HW_features
 
-.. include:: Resources/table
+.. include:: Resources/J1900-V2/table
 
-.. include:: Resources/power
+.. include:: Resources/J1900-V2/power
 
-.. include:: Resources/cap_screen
+.. include:: Resources/J1900-V2/cap_screen
 
-.. include:: Resources/connectivity
+.. include:: Resources/J1900-V2/104/connectivity_104
 
-.. include:: Resources/USB
+.. include:: Resources/J1900-V2/USB
 
-.. include:: Resources/LAN
+.. include:: Resources/J1900-V2/LAN
 
-.. include:: Resources/HDMI
+.. include:: Resources/J1900-V2/104/HDMI
 
-.. include:: Resources/mounting
+.. include:: Resources/J1900-V2/mounting
 
-.. include:: Resources/mechspecs
+.. include:: Resources/J1900-V2/mechspecs
 
 .. figure:: /Media/Intel/J1900/236/PPC-J1900-236-C-TD.png
    :align: center
