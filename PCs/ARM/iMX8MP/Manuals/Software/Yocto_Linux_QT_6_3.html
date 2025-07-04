@@ -1181,7 +1181,7 @@ AT+QGPSEND<span class="w"> </span><span class="c1"># disable GPS</span>
 <section id="audio-card-in-os">
 <h4 id="audio-card-in-os">Audio Card in OS<a class="headerlink" href="#audio-card-in-os" title="Permalink to this heading">¶</a></h4>
 <p>We will use <strong>aplay</strong> and <strong>arecord</strong> to play or record audio, but first we need to check which audio card we need to use.</p>
-<p>The audio card in the device is <strong>imx8mpnau8822</strong>, first check it with <strong>alist -l</strong> (lower case “l”):</p>
+<p>The audio card in the device is <strong>imx8mpnau8822</strong>, first check it with <strong>aplay -l</strong> (lower case “l”):</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="hll"><span class="linenos"> 1</span>root@imx8mp-eisd:~#<span class="w"> </span>aplay<span class="w"> </span>-l
 </span><span class="linenos"> 2</span><span class="w">   </span>****<span class="w"> </span>List<span class="w"> </span>of<span class="w"> </span>PLAYBACK<span class="w"> </span>Hardware<span class="w"> </span>Devices<span class="w"> </span>****
 <span class="linenos"> 3</span>card<span class="w"> </span><span class="m">0</span>:<span class="w"> </span>audiohdmi<span class="w"> </span><span class="o">[</span>audio-hdmi<span class="o">]</span>,<span class="w"> </span>device<span class="w"> </span><span class="m">0</span>:<span class="w"> </span>i.MX<span class="w"> </span>HDMI<span class="w"> </span>i2s-hifi-0<span class="w"> </span><span class="o">[</span>i.MX<span class="w"> </span>HDMI<span class="w"> </span>i2s-hifi-0<span class="o">]</span>
@@ -1861,7 +1861,7 @@ $<span class="w"> </span>qmake<span class="w"> </span>-v
               
           </div>
             Last updated on
-              Jun 10, 2025.
+              Jul 04, 2025.
             <br/>
         </div>
       </div>
