@@ -22,48 +22,11 @@ In the example, **card 0: ES8388 [ES8388]** is our audio card. We will need its 
 
 But the order of audio cards (if there are more than 1 audio cards) might change after each boot, so we'd better use its audio card name instead of its order.
 
-We can check with **aplay -L** (upper case "L"):
-
-.. code-block:: bash
-   :linenos:
-   :emphasize-lines: 1, 25
-
-    root@stm32mp2:~# aplay -l
-    **** List of PLAYBACK Hardware Devices ****
-    card 0: ES8388 [ES8388], device 0: 400b0000.audio-controller-ES8323 HiFi ES8323 HiFi-0 [400b0000.audio-controller-ES8323 HiFi ES8323 HiFi-0]
-      Subdevices: 1/1
-      Subdevice #0: subdevice #0
-    root@stm32mp2:~# aplay -L
-    null
-        Discard all samples (playback) or generate zero samples (capture)
-    samplerate
-        Rate Converter Plugin Using Samplerate Library
-    speexrate
-        Rate Converter Plugin Using Speex Resampler
-    oss
-        Open Sound System
-    pipewire
-        PipeWire Sound Server
-    speex
-        Plugin using Speex DSP (resample, agc, denoise, echo, dereverb)
-    upmix
-        Plugin for channel upmix (4,6,8)
-    vdownmix
-        Plugin for channel downmix (stereo) with a simple spacialization
-    default
-        Default ALSA Output (currently PipeWire Media Server)
-    sysdefault:CARD=ES8388
-        ES8388, 400b0000.audio-controller-ES8323 HiFi ES8323 HiFi-0
-        Default Audio Device
-    usbstream:CARD=ES8388
-        ES8388
-        USB Stream Output
-
 The audio card is **sysdefault:CARD=ES8388** in this case.
+
 
 Audio Playing
 *************
-
 
 By default the device plays audio from its integrated speaker. To play an audio file:
 
@@ -71,8 +34,6 @@ By default the device plays audio from its integrated speaker. To play an audio 
 
    # name based
    aplay -D sysdefault:CARD=ES8388 /opt/hardware/test/multimedias/AudioTest.wav
-   # order based
-   aplay -D hw:0,0 /opt/hardware/test/multimedias/AudioTest.wav
 
 If a headphone is plugged into the audio jack, it will play audio from the headphone instead of its speaker.
 
@@ -110,39 +71,6 @@ Audio Recording
 
 You can use the 3.5mm audio jack to connect an external microphone for audio recording.
 
-Though USB microphone can be detected with lsusb, USB microphones don't gurantee to work.
-
-.. code-block:: bash
-    :linenos:
-    :emphasize-lines: 1, 20
-
-    root@stm32mp2:~# arecord -L
-    null
-        Discard all samples (playback) or generate zero samples (capture)
-    samplerate
-        Rate Converter Plugin Using Samplerate Library
-    speexrate
-        Rate Converter Plugin Using Speex Resampler
-    oss
-        Open Sound System
-    pipewire
-        PipeWire Sound Server
-    speex
-        Plugin using Speex DSP (resample, agc, denoise, echo, dereverb)
-    upmix
-        Plugin for channel upmix (4,6,8)
-    vdownmix
-        Plugin for channel downmix (stereo) with a simple spacialization
-    default
-        Default ALSA Output (currently PipeWire Media Server)
-    sysdefault:CARD=ES8388
-        ES8388, 400b0000.audio-controller-ES8323 HiFi ES8323 HiFi-0
-        Default Audio Device
-    usbstream:CARD=ES8388
-        ES8388
-        USB Stream Output
-
-
 The default recording device is **sysdefault:CARD=ES8388**
 
 .. code-block:: bash
@@ -152,10 +80,7 @@ The default recording device is **sysdefault:CARD=ES8388**
     arecord -h
 
     # specify capture device by name
-    arecord -D sysdefault:CARD=ES8388 -V stereo -c 2 -f S16_LE -r 48000 -t wav mic.wav
-
-    # specify capture device by order
-    arecord -D hw:0,0 -V mono -c 1 -f S16_LE -r 48000 -t wav mic.wav
+    arecord -D sysdefault:CARD=ES8388 -f cd -V stereo -d 18 mic.wav
 
     # to play the audio you just recorded
     aplay -D sysdefault:CARD=ES8388 mic.wav
