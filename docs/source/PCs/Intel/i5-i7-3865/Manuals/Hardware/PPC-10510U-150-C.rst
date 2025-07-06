@@ -57,11 +57,11 @@
 
 .. include:: Resources/overview
 
-.. include:: /PCs/Intel/J1900/Manuals/Hardware/Resources/ordering
+.. include:: Resources/CS86-BOX/ordering
 
 .. include:: Resources/opt_features
 
-.. include:: /PCs/Intel/J1900/Manuals/Hardware/Resources/HW_features
+.. include:: Resources/CS86-BOX/HW_features
 
 .. include:: Resources/table
 
@@ -77,9 +77,9 @@
 
 .. include:: Resources/HDMI
 
-.. include:: /PCs/Intel/J1900/Manuals/Hardware/Resources/mounting
+.. include:: Resources/CS86-BOX/mounting
 
-.. include:: /PCs/Intel/J1900/Manuals/Hardware/Resources/mechspecs
+.. include:: Resources/CS86-BOX/mechspecs
 
 .. figure:: /Media/Intel/i5-i7-3865/150/PPC-10510U-150-C-TD.jpg
    :align: center
