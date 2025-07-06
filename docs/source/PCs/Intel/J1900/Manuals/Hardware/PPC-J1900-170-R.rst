@@ -26,6 +26,10 @@
 
 .. |pwr| replace:: 26W
 
+.. |operating_temp| replace:: From 0°C to 60°C
+
+.. |storage_temp| replace:: From -20°C to 75°C
+
 .. |disp_des| replace:: |dispsize| resistive touch screen with a resolution of |res| pixels
 
 .. _product_link: https://chipsee.com/product/ppc-j1900-170-r/

@@ -32,6 +32,10 @@
 
 .. |bright| replace:: 350 |cd|
 
+.. |operating_temp| replace:: From -15°C to 60°C
+
+.. |storage_temp| replace:: From -20 °C to 70°C
+
 .. |tscreen| replace:: Capacitive Touch Screen
 
 .. |opt_1| replace:: Optional, module available from other manufacturers/stores
