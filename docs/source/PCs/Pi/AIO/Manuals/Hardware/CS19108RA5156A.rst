@@ -4,7 +4,7 @@
 
 .. |PN| replace:: PN: CS19108RA5156A
 
-.. |Product| replace:: The |product| all in one Pi PC
+.. |Product| replace:: The |product| all in one Raspberry Pi PC
 
 .. |dispsize| replace:: 15.6"
 
@@ -24,27 +24,35 @@
 
 .. |CM5_cpu| replace:: Raspberry Pi® CM5/CM5Lite; BCM2712 Quad(4) Core Cortex-A76 at 2.4GHz
 
-.. |pcie_desc| replace:: M.2 2280 M-key. PCIe Gen 2.0 x1; PCIe Gen 3.0 x1 (compatible but experimental)
+.. |pcie_desc| replace:: M.2 2280 M-key, PCIe Gen 2.0 x1 (PCIe Gen 3.0 x1 is compatible but experimental)
 
 .. |rtc_desc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional). 
 
 .. |USB| replace:: 2 x USB 3.0 Host, 1 x Type-C USB (Slave)
 
+.. |usbc_conflict| replace:: When you connect the Type-C to a device, it will disable the USB HOST.
+
 .. |LAN| replace:: 1 x Giga LAN
+
+.. |can| replace:: N/A
 
 .. |GPIO| replace:: 40-pin GPIO connector
 
+.. |buzzer| replace:: Internal Buzzer
+
 .. |opt1| replace:: N/A
 
-.. |vin_rng| replace:: 12V
+.. |vin_rng| replace:: 12V DC
 
 .. |cur| replace:: 1A Max, 800mA typical
 
 .. |pwr| replace:: 12W Max, 9.6W typical
 
+.. |power_conn_desc| replace:: The power input connector is a 2.1mm I.D x 5.5mm O.D x 9.5mm DC connector. For a proper DC power adapter, refer to the figure below.
+
 .. |temp| replace:: From 0°C to +50°C
 
-.. |storage| replace:: 1 x TF card slot for boot. Internal M.2 NVMe connector for SSD card (optional)
+.. |storage| replace:: Internal M.2 NVMe connector for SSD card (optional)
 
 .. |audio| replace:: 2W internal stereo speaker, 3.5mm audio Out connector
 
@@ -54,15 +62,15 @@
 
 .. |relay| replace:: N/A
 
-.. |zigbee| replace:: N/A
-
 .. |hdmi| replace:: HDMI 2.0 connector, can be driven up to 4K 60FPS
 
 .. |wifi_desc| replace:: WiFi/BT module comes with the CM5
 
 .. |hat| replace:: Standard Raspberry Pi 40-way HAT connector
 
-.. |sd_socket| replace:: For use only with CM5 Lite modules
+.. |sd_socket| replace:: 1 x TF(micro SD) card slot, **only** for CM5 Lite module to boot from TF
+
+.. |os| replace:: Raspberry Pi OS, Android
 
 .. |case_color| replace:: Black
 
@@ -70,7 +78,11 @@
 
 .. |product_link| replace:: AIO-CM5-156
 
-.. |power_conn_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Power.jpg
+.. |power_conn_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Power-Conn.jpg
+                          :align: middle
+                          :width: 480
+
+.. |power_adapter_img| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Power-Adapter.jpg
                           :align: middle
                           :width: 480
 
@@ -169,6 +181,8 @@
 .. include:: Resources_CM5/connectivity
 
 .. include:: Resources_CM5/usb
+
+.. include:: Resources_CM5/m2
 
 .. include:: Resources_CM5/lan
 

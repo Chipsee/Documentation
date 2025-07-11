@@ -1,0 +1,22 @@
+Optional Features
+-----------------
+
+|Product| does not include the 3G/4G/LTE/GPS module by default. This module is optional and can be selected at the Chipsee store during the ordering process.
+
+The product has a M.2 2230/2242 M-key slot, running at PCIe 2.0 x1 speed (PCIe 3.0 is possible but experimental for CM5), you can use it with your NVMe SSD or other modules that can fit in a m.2 2230/2242 M-key slot and supports the protocol. By default the NVMe SSD is not mounted.
+
+The product's RS232/RS485/CAN/Relay can be configured in the factory, these options are supported:
+
+* 2 x RS232, 1 x RS485, 0 x CAN, 1 x Relay **(default)**
+* 1 x RS232, 2 x RS485, 0 x CAN, 1 x Relay
+* 1 x RS232, 1 x RS485, 1 x CAN, 1 x Relay
+* 2 x RS232, 1 x RS485, 1 x CAN, 0 x Relay
+
+Please contact us if you need option 2,3 or 4.
+
+.. warning::   
+
+   | Installation, repair, and maintenance tasks should be performed by trained personnel only.
+   | Chipsee does not bear any responsibility for damage caused by inadequate handling of the product.
+
+:pagebreak:`True`
