@@ -1,0 +1,198 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: AIO-CM5-101
+
+.. |PN| replace:: PN: CS12800RA5101A
+
+.. |Product| replace:: The |product| all in one Raspberry Pi PC
+
+.. |dispsize| replace:: 10.1"
+
+.. |ram_desc| replace:: 2GB, 4GB, or 8GB SDRAM based on CM5
+
+.. |emmc_desc| replace:: 0GB, 16GB, 32GB, or 64GB based on CM5
+
+.. |res| replace:: 1280 x 800
+
+.. |bright| replace:: 400 |cd|
+
+.. |dim| replace:: 260.54 x 178.54 x 26.9mm
+
+.. |weight| replace:: 620g
+
+.. |tscreen| replace:: 10-point capacitive touch with 1.0mm Armored Glass
+
+.. |CM5_cpu| replace:: Raspberry Pi® CM5/CM5Lite; BCM2712 Quad(4) Core Cortex-A76 at 2.4GHz
+
+.. |pcie_desc| replace:: M.2 2230/2242 M-key, PCIe Gen 2.0 x 1(5Gbps) (PCIe Gen 3.0 x1 is compatible but experimental)
+
+.. |usbc_conflict| replace:: When you connect the Type-C to a device, it will disable 4G module.
+
+.. |rtc_desc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional). 
+
+.. |buzzer| replace:: Onboard Buzzer, driven by GPIO
+
+.. |USB| replace:: 2 x USB 3.0 type-A Host, 1 x USB type-C OTG
+
+.. |LAN| replace:: 1 x Giga LAN
+
+.. |GPIO| replace:: **(Optional)** 2 x 5V Logic GPIO Outputs, can be used as Wiegand signal
+
+.. |can| replace:: **Default** 0 x CAN; **Optional** 1 x CAN FD BUS. Arbitration Bit Rate up to 1Mbps, Data Bit Rate up to 8Mbps
+
+.. |opt1| replace:: Internal 4G/LTE module supported, not mounted by default
+
+.. |vin_rng| replace:: 15V to 30V DC
+
+.. |cur| replace:: 800mA max at 15V, 500mA typical at 15V
+
+.. |pwr| replace:: 12W Max, 7.5W typical
+
+.. |power_conn_desc| replace:: The power input connector is a 3.4mm O.D x 1.7mm I.D x 9.5mm DC connector, the products also ships with a 3.4x1.7mm to 5.5x2.1mm connector. You can use either 3.4x1.7 or 5.5x2.1 DC power plug. For a proper DC power adapter, refer to the figure below.
+
+.. |temp| replace:: From -20°C to +70°C
+
+.. |storage| replace:: Internal M.2 NVMe connector for SSD card (optional)
+
+.. |audio| replace:: 3.5mm Audio Out Connector, 2W Speaker Internal
+
+.. |rs232| replace:: 2 x RS232
+
+.. |rs485| replace:: **Default** 1 x RS485; up to 2 x RS485 **(optional)**
+
+.. |relay| replace:: 1 x relay with "Normally Connected" and "Normally Open" output
+
+.. |hdmi| replace:: N/A
+
+.. |wifi_desc| replace:: Optional (Depends on CM5)
+
+.. |hat| replace:: N/A
+
+.. |os| replace:: Raspberry Pi OS
+
+.. |sd_socket| replace:: 1 x TF(micro SD) card slot, **only** for CM5 Lite module to boot from TF
+
+.. |case_color| replace:: Black / White
+
+.. _product_link: https://chipsee.com/product/aio-cm5-101/
+
+.. |product_link| replace:: AIO-CM5-101
+
+.. |power_conn_img| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-Power-Conn.jpg
+                          :align: middle
+                          :width: 480
+
+.. |power_adapter_img| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-Power-Adapter.jpg
+                          :align: middle
+                          :width: 480
+
+.. |usb_img| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-USB.jpg
+                          :align: middle
+                          :width: 640
+
+.. |lan_img| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-LAN.jpg
+                          :align: middle
+                          :width: 640
+
+.. |sim_img| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-SIM.jpg
+                          :align: middle
+                          :width: 640
+
+.. |tf_img| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-TF.jpg
+                          :align: middle
+                          :width: 640
+
+.. |audio_img| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-Audio.jpg
+                          :align: middle
+                          :width: 640
+
+.. |rs232_485_img| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-Conn.jpg
+                          :align: middle
+                          :width: 640
+
+.. |status_led_img| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-Status.jpg
+                          :align: middle
+                          :width: 640
+
+.. |stand_mount_img| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-Mounting2.jpg
+                          :align: middle
+                          :width: 960
+
+.. |mount_img| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-Mounting.jpg
+                          :align: middle
+                          :width: 960
+
+.. |btn_img| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-Btn.jpg
+                          :align: middle
+                          :width: 360
+
+.. |td1_img| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-TD1.jpg
+                          :align: middle
+                          :width: 960
+
+.. |td2_img| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-TD2.jpg
+                          :align: middle
+                          :width: 960
+
+.. |Cover PNG| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-Front.png
+
+.. |Front View| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-Side2.jpg
+                  :class: product-img 
+                  
+.. _AIO-CM5-101:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources_CM5/overview
+
+.. include:: Resources_CM5/ordering
+
+.. include:: Resources_CM5/AIO-CM5-101/opt_features_aio_cm5_101
+
+.. include:: Resources_CM5/HW_features
+
+.. include:: Resources_CM5/table
+
+.. include:: Resources_CM5/power
+
+.. include:: Resources_CM5/connectivity
+
+.. include:: Resources_CM5/AIO-CM5-101/rs232_485
+
+.. include:: Resources_CM5/usb
+
+.. include:: Resources_CM5/m2
+
+.. include:: Resources_CM5/lan
+
+.. include:: Resources_CM5/AIO-CM5-101/4G_lte
+
+.. include:: Resources_CM5/tf
+
+.. include:: Resources_CM5/audio
+
+.. include:: Resources_CM5/AIO-CM5-101/btn_boot_aio_cm5_101
+
+.. include:: Resources_CM5/mounting
+
+.. include:: Resources_CM5/mechanical
+
+.. include:: /PCs/Shared/Hardware/three_d
+
+.. include:: /PCs/Shared/support
+

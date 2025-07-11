@@ -1318,6 +1318,12 @@
             "pdf-filename": "AIO-CM4-101",
             "pdf-type": "ipc"
         },
+        "PCs/Pi/AIO/Manuals/Hardware/CS12800RA5101A": {
+            "pdf-title": "AIO-CM5-101",
+            "pdf-subtitle": "PN: CS12800RA5101A",
+            "pdf-filename": "AIO-CM5-101",
+            "pdf-type": "ipc"
+        },
         "PCs/Pi/AIO/Manuals/Hardware/CS19108RA4156A": {
             "pdf-title": "AIO-CM4-156",
             "pdf-subtitle": "PN: CS19108RA4156A",
