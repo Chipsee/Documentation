@@ -1,0 +1,69 @@
+Buttons and Status LED
+======================
+
+Status LED
+----------
+
+This product has a status LED. The LED turns RED after power on, turns GREEN when the system is booted. It can be controlled by software to flash YELLOW when the CPU is working.
+
+.. rst-class:: text-center
+
+  |status_led_img|
+
+  *Status LED*
+
+:pagebreak:`True`
+
+Buttons
+-------
+
+There are 3 buttons on the back side:  Volume+, Volume- and PWR. as the image below shows.
+
+.. rst-class:: text-center
+
+  |btn_img|
+
+  *Buttons*
+
+What every button does:
+
+Vol+
+****
+
+Volume up and boot mode button.
+
+#) Before powering on, press and hold the Vol+ button, then apply power: the product will boot from USB-C port for flashing OS image.
+#) After powering on, adjust volume up. Turn on the screen (if screen is turned off to save power).
+
+Vol-
+****
+
+Volume down button.
+
+#) After powering on, adjust volume down. Turn on the screen (if screen is turned off to save power).
+
+
+PWR
+***
+
+Power button.
+
+#) Before powering on: press to power on the PC (if set to manual boot).
+#) After powering on: hold 5 seconds to force power off.
+
+
+.. note::
+  
+  **How to swap the Auto Boot and Manual Boot mode?**
+
+  By default the product boots automatically when apply power to it.
+
+  *To change from auto boot to manual boot:*
+
+  Press and hold **Vol+, Vol-** buttons, apply power, hold for 3 seconds, release. Then the product will be changed to manual boot mode.
+
+  *To change from manual boot to auto boot:*
+
+  Press and hold **Vol+, Vol-** buttons, apply power, tap PWR once to power on, hold Vol+, Vol- for 3 seconds, release. Then the product will be changed to auto boot mode.
+
+:pagebreak:`True`

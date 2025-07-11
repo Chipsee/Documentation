@@ -10,6 +10,21 @@ AIO-CM5
    <div class="col">
       <div class="index-item">
 
+10.1 Inch(All-in-one)
+|AIO-CM5-101|
+
+:ref:`AIO-CM5-101<AIO-CM5-101>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
 15.6 Inch(All-in-one)
 |AIO-CM5-156|
 
@@ -24,6 +39,10 @@ AIO-CM5
 
      </div>
 
+
+.. |AIO-CM5-101| image:: /Media/Pi/AIO/CS12800RA5101A/AIO-CM5-101-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/Pi/AIO/Manuals/Hardware/CS12800RA5101A.html
 .. |AIO-CM5-156| image:: /Media/Pi/AIO/CS19108RA5156A/AIO-CM5-156-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/Pi/AIO/Manuals/Hardware/CS19108RA5156A.html
@@ -33,4 +52,5 @@ AIO-CM5
    :titlesonly:
    :hidden:
 
+   AIO-CM5-101 </PCs/Pi/AIO/Manuals/Hardware/CS12800RA5101A>
    AIO-CM5-156 </PCs/Pi/AIO/Manuals/Hardware/CS19108RA5156A>

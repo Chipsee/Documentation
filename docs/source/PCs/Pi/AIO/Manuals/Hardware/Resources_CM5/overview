@@ -3,17 +3,18 @@ Product Overview
 
 |Product| (|PN|) is an all-in-one desktop computer based on Raspberry |Pi| CM5.
 
-Its case is plastic, very light to carry around, or mount it to a fixed place as a smart home control center. The case is available in black color.
+Its case is plastic, very light to carry around, or mount it to a fixed place as a smart home control center. The case is available in |case_color| color.
 
-This single board computer features a |dispsize| IPS display with a maximum brightness of |bright|. The touch screen is responsive capacitive screen Raspberry Pi Display and supports multi touch.
+This single board computer features a |dispsize| IPS display with a maximum brightness of |bright|. The touch screen is a responsive capacitive screen and supports multi touch.
 
-The product is easy to use, perfect for developers and makers accustomed to the Raspberry Pi and is looking for a computer they can use daily, it handles 1080P video streaming easily.
+The product is easy to use, perfect for developers and makers accustomed to the Raspberry Pi and is looking for a computer they can use daily, it handles 1080P video streaming easily and even 4K streaming, like the Raspberry Pi 5.
 
 It is also fully compatible with the Raspberry Pi OS.
 
 .. sidebar:: Key Applications
    
   + Human Machine Interface（HMI）
+  + Edge AI
   + Process Control
   + Process Monitoring
   + HMI
