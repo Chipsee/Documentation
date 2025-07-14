@@ -6,6 +6,8 @@
 
 .. |PN| replace:: PN: |product|
 
+.. include:: Resources/J1900-V2/104/base_replaces
+
 .. |weight| replace:: 4800g
 
 .. |dim| replace:: 409 x 344 x 55mm
@@ -24,11 +26,17 @@
 
 .. |pwr| replace:: 26W
 
+.. |operating_temp| replace:: From 0°C to 60°C
+
+.. |storage_temp| replace:: From -20°C to 75°C
+
 .. |disp_des| replace:: |dispsize| resistive touch screen with a resolution of |res| pixels
 
 .. _product_link: https://chipsee.com/product/ppc-j1900-170-r/
 
 .. |product_link| replace:: |product|
+
+.. |ver1.1_download| replace:: :download:`Download Archived Manual: PPC-J1900-170-R-ver1.1.pdf <PDF/PPC-J1900-170-R-ver1.1.pdf>`
 
 .. |Cover PNG| image:: /Media/Intel/J1900/170/PPC-J1900-170-R-Front.png
 
@@ -50,36 +58,38 @@
 |product|
 #########
 
-.. rubric:: *Version 1.1*
+.. rubric:: *Version 2.0*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images
 
-.. include:: Resources/overview
+.. include:: Resources/J1900-V2/overview
 
-.. include:: Resources/ordering
+.. include:: Resources/J1900-V2/changes
 
-.. include:: Resources/opt_features_1
+.. include:: Resources/J1900-V2/ordering
 
-.. include:: Resources/HW_features
+.. include:: Resources/J1900-V2/opt_features_1
 
-.. include:: Resources/table
+.. include:: Resources/J1900-V2/HW_features
 
-.. include:: Resources/power
+.. include:: Resources/J1900-V2/table
 
-.. include:: Resources/res_screen
+.. include:: Resources/J1900-V2/power
 
-.. include:: Resources/connectivity
+.. include:: Resources/J1900-V2/res_screen
 
-.. include:: Resources/USB
+.. include:: Resources/J1900-V2/104/connectivity_104
 
-.. include:: Resources/LAN
+.. include:: Resources/J1900-V2/USB
 
-.. include:: Resources/HDMI
+.. include:: Resources/J1900-V2/LAN
 
-.. include:: Resources/mounting
+.. include:: Resources/J1900-V2/104/HDMI
 
-.. include:: Resources/mechspecs
+.. include:: Resources/J1900-V2/mounting
+
+.. include:: Resources/J1900-V2/mechspecs
 
 .. figure:: /Media/Intel/J1900/170/PPC-J1900-170-R-TD.jpg
    :align: center

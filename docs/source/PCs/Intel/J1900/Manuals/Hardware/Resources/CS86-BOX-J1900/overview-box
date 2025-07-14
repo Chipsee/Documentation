@@ -1,0 +1,25 @@
+Product Overview
+=================
+
+The |product| is a fanless embedded industrial PC with |Intel| |Celeron| J1900 quad-core (4 threads) to meet a variety of requirements in harsh environments. Thanks to the fanless design, this single board computer is stable and reliable in client terminal, multimedia and other industry applications. In addition, its support for 2 x LAN, 2 x COM, 3 x USB2.0, 1 x USB3.0 ports can interconnect devices easily.
+
+.. sidebar:: Key Applications
+
+  + Industrial Automation
+  + Process Control
+  + Smart Grid Management
+  + CNC Manufacturing
+  + Environmental Monitoring
+  + Predictive Maintenance
+
+
+The offered CPU consumes very little power: its TDP is only 10W at the base clock frequency. From the ground-up, the CPU is built for low power consumption. As such, it is best suited for mobile and power-constrained industrial or field applications.
+
+A specially designed aluminum alloy housing with fins for increased heat dissipation serves as a passive cooler, eliminating the need for built-in fans.
+The fanless design reduces noise, as well as the maintenance costs and efforts, leading to increased reliability at the same time.
+
+.. caution::
+
+   Be careful when handling the product while it is operating: it might become hot under heavy CPU load.
+   
+:pagebreak:`True`

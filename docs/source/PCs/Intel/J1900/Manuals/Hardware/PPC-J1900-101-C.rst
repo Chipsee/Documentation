@@ -14,7 +14,27 @@
   
 .. |res| replace:: 1280 x 800
 
+.. |lan| replace:: 1
+
+.. |rs232| replace:: 5
+
+.. |rs485| replace:: 1
+
+.. |vga| replace:: 1 x VGA out
+
+.. |hdmi| replace:: N/A
+
+.. |usb2| replace:: 2
+
+.. |usb3| replace:: 2
+
+.. |disp_conn| replace:: |vga| port
+
 .. |bright| replace:: 350 |cd|
+
+.. |operating_temp| replace:: From -15°C to 60°C
+
+.. |storage_temp| replace:: From -20 °C to 70°C
 
 .. |tscreen| replace:: Capacitive Touch Screen
 
@@ -29,6 +49,32 @@
 .. _product_link: https://chipsee.com/product/ppc-j1900-101c/
 
 .. |product_link| replace:: |product|
+
+.. |ver1.1_download| replace:: :download:`Download Archived Manual: PPC-J1900-101-C-ver1.1.pdf <PDF/PPC-J1900-101-C-ver1.1.pdf>`
+
+.. |USB2_img| image:: /Media/Intel/J1900/101/PPC-J1900-101-C-USB2.jpg
+                   :align: middle
+                   :width: 640
+
+.. |USB3_img| image:: /Media/Intel/J1900/101/PPC-J1900-101-C-USB3.jpg
+                   :align: middle
+                   :width: 640
+
+.. |rs232_485_img| image:: /Media/Intel/J1900/101/PPC-J1900-101-C-Conn.jpg
+                   :align: middle
+                   :width: 960
+
+.. |lan_img| image:: /Media/Intel/J1900/101/PPC-J1900-101-C-LAN.jpg
+                   :align: middle
+                   :width: 640  
+
+.. |vga_img| image:: /Media/Intel/J1900/101/PPC-J1900-101-C-VGA.jpg
+                   :align: middle
+                   :width: 640 
+
+.. |power_img| image:: /Media/Intel/J1900/101/PPC-J1900-101-C-Power.jpg
+                   :align: middle
+                   :width: 640 
 
 .. |Cover PNG| image:: /Media/Intel/J1900/101/PPC-J1900-101-C-Front.png
 
@@ -50,36 +96,38 @@
 |product|
 #########
 
-.. rubric:: *Version 1.1*
+.. rubric:: *Version 2.0*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images
 
-.. include:: Resources/overview
+.. include:: Resources/J1900-V2/overview
 
-.. include:: Resources/ordering
+.. include:: Resources/J1900-V2/changes
 
-.. include:: Resources/opt_features_1
+.. include:: Resources/J1900-V2/ordering
 
-.. include:: Resources/HW_features
+.. include:: Resources/J1900-V2/opt_features_1
 
-.. include:: Resources/table
+.. include:: Resources/J1900-V2/HW_features
 
-.. include:: Resources/power
+.. include:: Resources/J1900-V2/table
 
-.. include:: Resources/cap_screen
+.. include:: Resources/J1900-V2/power
 
-.. include:: Resources/connectivity
+.. include:: Resources/J1900-V2/cap_screen
 
-.. include:: Resources/USB
+.. include:: Resources/J1900-V2/101/connectivity_101
 
-.. include:: Resources/LAN
+.. include:: Resources/J1900-V2/USB
 
-.. include:: Resources/HDMI
+.. include:: Resources/J1900-V2/LAN
 
-.. include:: Resources/mounting
+.. include:: Resources/J1900-V2/101/VGA
 
-.. include:: Resources/mechspecs
+.. include:: Resources/J1900-V2/mounting
+
+.. include:: Resources/J1900-V2/mechspecs
 
 .. figure:: /Media/Intel/J1900/101/PPC-J1900-101-C-TD.jpg
    :align: center

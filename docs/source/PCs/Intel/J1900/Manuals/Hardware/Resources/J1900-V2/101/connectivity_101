@@ -1,0 +1,20 @@
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial PC. It has 4 x USB Type A connectors configured as HOSTS, |disp_conn|, |lan| x RJ45 supporting Gigabit Ethernet (GbE), and |rs232| x RS232, |rs485| x RS485 connectors.
+
+RS232/RS485
+-----------
+
+|Product| has 1 x 9-pin D-sub connectors and 1 x 16-pin 3.81mm connector with pluggable terminal block. The 9-pin D-sub connector labeled as **COM1** is RS232.
+
+**COM 2/3/4/5** are RS232 and **COM6** is RS485:
+
+.. rst-class:: text-center
+
+  |rs232_485_img|
+
+  *RS232 / RS485 Interfaces*
+
+
+:pagebreak:`True`

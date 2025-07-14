@@ -1,0 +1,13 @@
+Optional Features
+-----------------
+
+|Product| does not include WiFi/BT and/or 3G/4G modules by default. The Wi-Fi/BT module is optional and can be selected during the ordering process.
+
+The 3G/4G module is a mini-PCIe module, WiFi/BT module is also a mini-PCIe module. There is only 1 mini-PCIe socket on the board, so only one (4G or WiFi) module can be installed. You may use a USB module together with the mini-PCIe module if you need both 4G and WiFi, though.
+
+.. warning::   
+
+   | Installation, repair, and maintenance tasks should be performed by trained personnel only.
+   | Chipsee does not bear any responsibility for damage caused by inadequate handling of the product.
+   
+:pagebreak:`True`
