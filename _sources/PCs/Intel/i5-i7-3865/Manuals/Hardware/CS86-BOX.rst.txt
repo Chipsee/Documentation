@@ -39,11 +39,11 @@
 
 .. include:: Resources/overview-box
 
-.. include:: /PCs/Intel/J1900/Manuals/Hardware/Resources/ordering
+.. include:: Resources/CS86-BOX/ordering
 
 .. include:: Resources/opt_features
 
-.. include:: /PCs/Intel/J1900/Manuals/Hardware/Resources/HW_features
+.. include:: Resources/CS86-BOX/HW_features
 
 .. include:: Resources/table-box
 
@@ -57,9 +57,9 @@
 
 .. include:: Resources/HDMI-box
     
-.. include:: /PCs/Intel/J1900/Manuals/Hardware/Resources/mounting
+.. include:: Resources/CS86-BOX/mounting
 
-.. include:: /PCs/Intel/J1900/Manuals/Hardware/Resources/mechspecs
+.. include:: Resources/CS86-BOX/mechspecs
 
 .. figure:: /Media/Intel/i5-i7-3865/CS86-BOX/CS86-BOX-TD.jpg
    :align: center

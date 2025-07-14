@@ -37,33 +37,33 @@
 
 .. include:: /PCs/Shared/four_main_images
 
-.. include:: Resources/overview-box
+.. include:: Resources/CS86-BOX-J1900/overview-box
 
-.. include:: Resources/ordering-box
+.. include:: Resources/CS86-BOX-J1900/ordering-box
 
-.. include:: Resources/opt_features_2
+.. include:: Resources/CS86-BOX-J1900/opt_features_2
 
-.. include:: Resources/HW_features
+.. include:: Resources/CS86-BOX-J1900/HW_features-box
 
-.. include:: Resources/table-box
+.. include:: Resources/CS86-BOX-J1900/table-box
 
-.. include:: Resources/power-box
+.. include:: Resources/CS86-BOX-J1900/power-box
 
-.. include:: Resources/connectivity-box
+.. include:: Resources/CS86-BOX-J1900/connectivity-box
 
-.. include:: Resources/USB-box
+.. include:: Resources/CS86-BOX-J1900/USB-box
 
-.. include:: Resources/LAN-box 
+.. include:: Resources/CS86-BOX-J1900/LAN-box 
 
-.. include:: Resources/HDMI-VGA-box
+.. include:: Resources/CS86-BOX-J1900/HDMI-VGA-box
 
-.. include:: Resources/audio-in-out-box 
+.. include:: Resources/CS86-BOX-J1900/audio-in-out-box 
 
-.. include:: Resources/WIFI-BT-box
+.. include:: Resources/CS86-BOX-J1900/WIFI-BT-box
 
-.. include:: Resources/mounting-box
+.. include:: Resources/CS86-BOX-J1900/mounting-box
 
-.. include:: Resources/mechspecs-box
+.. include:: Resources/CS86-BOX-J1900/mechspecs-box
 
 .. figure:: /Media/Intel/J1900/CS86-BOX-J1900/CS86-BOX-J1900-TD.jpg
    :align: center
