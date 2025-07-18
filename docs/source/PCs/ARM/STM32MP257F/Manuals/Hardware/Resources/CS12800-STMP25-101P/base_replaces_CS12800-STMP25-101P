@@ -2,7 +2,7 @@
 
 .. |eMMC| replace:: 32GB
 
-.. |pcie| replace:: 1 x PCIe2.0 x1, M.2 M-Key 2230/2242/2260/2280 socket
+.. |pcie| replace:: 1 x PCIe2.0 x1, M.2 M-Key 2230/2242/2260/2280 socket (**optional**)
 
 .. |USB| replace:: 2 x USB 2.0 HOST, 1 x USB Type-C
 
@@ -39,6 +39,8 @@
 .. |lan_poe| replace:: The LAN0 port supports **optional** Power over Ethernet (PoE) feature.
 
 .. |opt_feature_4g| replace:: Does not include the 4G/LTE module by default. The module is optional and can be selected at the Chipsee store during the ordering process.
+
+.. |opt_feature_m2| replace:: By default M.2 slot is not installed, please contact us before placing an order if you need M.2 slot or M.2 devices.
 
 .. |mount_screws| replace:: **75 x 75** mm or **100 x 100** mm, 4 x **M4** (6mm) screws
 
