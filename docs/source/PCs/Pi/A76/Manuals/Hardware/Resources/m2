@@ -1,7 +1,7 @@
 M.2 Module
 ----------
 
-|Product| has a M.2 slot, it supports NVME m.2 SSD or other m.2 modules such as an AI compute module. It's |pcie_desc|. The modules are **not included** in the product **by default**.
+|Product| has a an **optional** M.2 slot, it supports NVME m.2 SSD or other m.2 modules such as an AI compute module. It's |pcie_desc|. The modules are **not included** in the product **by default**. If you need the M.2 slot or M.2 devices please contact us before placing an order.
 
 .. rst-class:: text-center
 

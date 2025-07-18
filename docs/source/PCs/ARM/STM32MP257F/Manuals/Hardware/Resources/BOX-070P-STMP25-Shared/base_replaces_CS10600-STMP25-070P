@@ -40,4 +40,6 @@
 
 .. |opt_feature_4g| replace:: Does not include the 4G/LTE module by default. The module is optional and can be selected at the Chipsee store during the ordering process.
 
+.. |opt_feature_m2| replace:: Does not support M.2 devices.
+
 .. |mount_screws| replace:: **75 x 75** mm, 4 x **M4** (6mm) screws

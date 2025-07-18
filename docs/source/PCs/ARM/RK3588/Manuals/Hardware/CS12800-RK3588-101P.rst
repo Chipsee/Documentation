@@ -26,9 +26,9 @@
 
 .. |npu| replace:: Neural network acceleration engine with 6Tops int8, support Int4/8/16/FP16/BF16/TF32.
 
-.. |PCIe| replace:: 1 x PCIe3.0 x4, M.2 M-Key 2230/2242/2260/2280 socket 
+.. |PCIe| replace:: 1 x PCIe3.0 x4, M.2 M-Key 2230/2242/2260/2280 socket **(optional)** 
 
-.. |pcie_opt_feature| replace:: The product has |PCIe|, you can use it with a NVMe SSD or other modules such as a AI compute module that can fit in the slot and supports the protocol. By default, SSD or AI module is not included.
+.. |pcie_opt_feature| replace:: The product has |PCIe|, you can use it with a NVMe SSD or other modules such as a AI compute module that can fit in the slot and supports the protocol. By default, SSD or AI module is **not included**; by default M.2 slot is **not mounted**. Please **contact us** before placing an order if you need M.2 slot or M.2 devices.
 
 .. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 2 x RS485, including 1 debug port. CAN0 and CAN1 can be configured to RS232.
 
