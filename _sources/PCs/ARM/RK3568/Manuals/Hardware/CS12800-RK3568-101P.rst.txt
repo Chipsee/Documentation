@@ -30,10 +30,6 @@
 
 .. |temp| replace:: From -20°C to +70°C
 
-.. |RAM| replace:: Samsung 4GB LPDDR4X, 4266 Mbps
-
-.. |eMMC| replace:: 32GB
-
 .. |power_img| image:: /Media/ARM/A55/CS12800-RK3568-101P/Power-RK3568-101P.jpg
                   :align: middle
                   :width: 576
