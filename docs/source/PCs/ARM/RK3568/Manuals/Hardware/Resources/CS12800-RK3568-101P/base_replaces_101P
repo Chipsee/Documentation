@@ -1,3 +1,7 @@
+.. |RAM| replace:: Samsung 4GB LPDDR4X, 4266 Mbps
+
+.. |eMMC| replace:: 32GB
+
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
 
 .. |disp_table_des| replace:: |dispsize| LCD, |res|, High Brightness: |bright|

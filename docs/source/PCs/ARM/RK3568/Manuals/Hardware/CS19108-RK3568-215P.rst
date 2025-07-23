@@ -2,8 +2,6 @@
 
 .. include:: Resources/CS12800-RK3568-101P/base_replaces_101P
 
-.. include:: Resources/CS12800-RK3568-101P/ram_emmc_replaces_101P
-
 .. |product| replace:: PPC-A55-215
 
 .. |productP| replace:: PPC-A55-215
