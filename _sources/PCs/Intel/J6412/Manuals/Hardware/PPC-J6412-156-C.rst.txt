@@ -6,9 +6,9 @@
 
 .. |PN| replace:: PN: |product|
 
-.. |weight| replace:: 4200g
+.. |weight| replace:: 4500g
 
-.. |dim| replace:: 422 × 271 × 52.5mm
+.. |dim| replace:: 400 × 256 × 52.5mm
 
 .. |dispsize| replace:: 15.6"
   
@@ -51,7 +51,7 @@
 |product|
 #########
 
-.. rubric:: *Version 1.2*
+.. rubric:: *Version 1.3*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images
@@ -59,6 +59,10 @@
 .. include:: Resources/overview
 
 .. include:: Resources/changes
+
+.. include:: Resources/migrations/20251101_J6412_156
+
+.. include:: Resources/migrations/20240726_J6412_all
 
 .. include:: Resources/ordering
 
@@ -88,7 +92,7 @@
 
 .. include:: Resources/mechspecs
 
-.. figure:: /Media/Intel/J6412/PPC-J6412-156-C/PPC-J6412-156-C-TD.jpg
+.. figure:: /Media/Intel/J6412/PPC-J6412-156-C/PPC-J6412-156-C-TD.png
    :align: center
    :figclass: align-center
 
