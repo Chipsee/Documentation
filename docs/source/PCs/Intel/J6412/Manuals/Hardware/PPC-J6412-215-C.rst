@@ -62,6 +62,8 @@
 
 .. include:: Resources/changes
 
+.. include:: Resources/migrations/20240726_J6412_all
+
 .. include:: Resources/ordering
 
 .. include:: Resources/opt_features_1

@@ -8,9 +8,9 @@
 
 .. include:: Resources/J1900-V2/104/base_replaces
 
-.. |weight| replace:: 4200g
+.. |weight| replace:: 4500g
 
-.. |dim| replace:: 422 × 271 × 52.5mm
+.. |dim| replace:: 400 × 256 × 52.5mm
 
 .. |dispsize| replace:: 15.6"
   
@@ -58,7 +58,7 @@
 |product|
 #########
 
-.. rubric:: *Version 2.0*
+.. rubric:: *Version 2.1*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images
@@ -66,6 +66,10 @@
 .. include:: Resources/J1900-V2/overview
 
 .. include:: Resources/J1900-V2/changes
+
+.. include:: Resources/J1900-V2/migrations/20251102_J1900_156
+
+.. include:: Resources/J1900-V2/migrations/20250701_J1900_all
 
 .. include:: Resources/J1900-V2/ordering
 
@@ -91,7 +95,7 @@
 
 .. include:: Resources/J1900-V2/mechspecs
 
-.. figure:: /Media/Intel/J1900/156/PPC-J1900-156-C-TD.jpg
+.. figure:: /Media/Intel/J1900/156/PPC-J1900-156-C-TD.png
    :align: center
    :figclass: align-center
 
