@@ -1,0 +1,16 @@
+Ver 1.1
+
+- Released on Nov 6, 2025
+
+- Changes on the input voltage
+
+  .. note::
+
+    **Old**: 15-30V DC
+
+    **New**: 12V DC
+
+
+Ver 1.0 
+
+- Initial Release
