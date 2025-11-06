@@ -18,6 +18,8 @@
 
 .. |weightP| replace:: 3000g
 
+.. |vin_rng| replace:: From 15V to 30V (supports optional 24V ignition signal)
+
 .. |cur| replace:: 1100mA max at 15V, 900mA typical at 15V 
 
 .. |pwr| replace:: 16.5W max, 13.5W typical
@@ -121,6 +123,8 @@
 
 .. rubric:: *Version 1.0*
     :class: html-only
+
+.. include:: Resources/CS12800RA5101/base_includes_pre
 
 .. include:: Resources/CS12800RA5101/base_includes
 

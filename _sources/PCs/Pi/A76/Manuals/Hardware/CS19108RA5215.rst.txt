@@ -12,17 +12,19 @@
 
 .. |res| replace:: 1920 x 1080
 
-.. |bright| replace:: 250 |cd|
+.. |bright| replace:: 500 |cd|
 
 .. |dimP| replace:: 535 x 331 x 52.5mm
 
 .. |weightP| replace:: 5.5kg
 
-.. |cur| replace:: 1400mA max at 15V, 1200mA typical at 15V
+.. |vin_rng| replace:: 12V (supports optional 24V ignition signal)
 
-.. |pwr| replace:: 21W max, 18W typical
+.. |cur| replace:: 3200mA max at 12V, 2900mA typical at 12V
 
-.. |temp| replace:: From 0°C to +50°C
+.. |pwr| replace:: 38W max, 35W typical
+
+.. |temp| replace:: From -20°C to +70°C
 
 .. _product_link: https://chipsee.com/product/ppc-cm5-215/
 
@@ -119,8 +121,14 @@
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
     :class: html-only
+
+.. include:: Resources/CS12800RA5101/base_includes_pre
+
+.. include:: Resources/migrations/changes
+
+.. include:: Resources/migrations/20251106_CM5_215
 
 .. include:: Resources/CS12800RA5101/base_includes
 
