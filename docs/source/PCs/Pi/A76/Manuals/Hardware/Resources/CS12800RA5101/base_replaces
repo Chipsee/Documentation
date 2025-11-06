@@ -62,8 +62,6 @@
 
 .. |opt2| replace:: Optional (Depends on CM5)
 
-.. |vin_rng| replace:: From 15V to 30V (supports optional 24V ignition signal)
-
 .. |dim_desc| replace:: |productP|: |dimP|
 
 .. |weight_desc| replace:: |productP|: |weightP|

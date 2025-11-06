@@ -12,15 +12,17 @@
 
 .. |res| replace:: 1280 x 1024
 
-.. |bright| replace:: 370 |cd|
+.. |bright| replace:: 300 |cd|
 
 .. |dimP| replace:: 435 x 363 x 53.5mm
 
 .. |weightP| replace:: 5.4kg
 
-.. |cur| replace:: 1500mA max at 15V, 1300mA typical at 15V
+.. |vin_rng| replace:: From 15V to 30V (supports optional 24V ignition signal)
 
-.. |pwr| replace:: 23W max, 19.5W typical
+.. |cur| replace:: 1600mA max at 15V, 1400mA typical at 15V
+
+.. |pwr| replace:: 24W max, 21W typical
 
 .. |temp| replace:: From 0°C to +50°C
 
@@ -121,6 +123,8 @@
 
 .. rubric:: *Version 1.0*
     :class: html-only
+
+.. include:: Resources/CS12800RA5101/base_includes_pre
 
 .. include:: Resources/CS12800RA5101/base_includes
 
