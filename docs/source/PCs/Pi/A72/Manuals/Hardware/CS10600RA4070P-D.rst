@@ -44,6 +44,8 @@
 
 .. |pwr| replace:: 8.4W (max); 6.36W (maximum backlight, idle); 4.8W (minimum backlight, idle)
 
+.. |LAN| replace:: 2 x Giga LAN (**optional** PoE support for LAN0)
+
 .. _product_link: https://chipsee.com/product/ppc-cm4-070-d/
 
 .. |product_link| replace:: PPC-CM4-070-D
