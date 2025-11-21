@@ -34,6 +34,8 @@
 
 .. |pwr| replace:: 5.4W (max)
 
+.. |LAN| replace:: 2 x Giga LAN
+
 .. _product_link: https://chipsee.com/product/cs-cm4-box/
 
 .. |product_link| replace:: CSRA4BOX

@@ -56,9 +56,9 @@
 
 .. |can| replace:: default 2 x CAN FD
 
-.. |poe| replace:: Supported for 1 x **optional** POE RJ45
+.. |poe| replace:: N/A
 
-.. |LAN_des| replace:: 2 x RJ45 Ethernet (including 1 x **optional** POE port: LAN0)
+.. |LAN_des| replace:: 2 x RJ45 Ethernet
 
 .. |vesa_screws| replace:: **75 x 75** mm, 4 x **M4** (6mm)
 

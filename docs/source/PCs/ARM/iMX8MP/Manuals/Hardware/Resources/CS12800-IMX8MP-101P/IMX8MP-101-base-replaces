@@ -20,9 +20,9 @@
 
 .. |USB_3_USB_C_Note| replace:: USB3.0 port and USB-C port share one node and cannot be used together. In Linux USB3.0 HOST is enabled by default; in Android USB-C OTG is enabled by default. You can change this config by software in the operating systems, e.g.: disable USB3.0 HOST then enable USB-C OTG in Linux, or vice versa in Android.
 
-.. |LAN| replace:: 1 x RJ45, GbE **(default)**, Power over Ethernet(PoE) *(optional)*
+.. |LAN| replace:: 1 x RJ45, GbE
 
-.. |lan_poe| replace:: The LAN port supports **optional** Power over Ethernet (PoE) feature.
+.. |lan_poe| replace:: This product doesn't support PoE.
 
 .. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
 
@@ -42,7 +42,7 @@
 
 .. |can| replace:: Default to 2 x CAN. Optionally, these 2 x CAN can be configured to RS232.
 
-.. |poe| replace:: Supported, Optional
+.. |poe| replace:: N/A
 
 .. |opt_feature_4g| replace:: Does not include the 4G/LTE module by default. The module is optional and can be selected at the Chipsee store during the ordering process.
 
