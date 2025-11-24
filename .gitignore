@@ -156,3 +156,6 @@ docs/make_clean.bat
 docs/make_html.bat
 docs/Makefile
 docs/make_help.bat
+
+# Mise
+mise.toml

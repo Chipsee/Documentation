@@ -6,7 +6,7 @@
 
 .. |USB| replace:: 2 x USB 2.0 HOST, 1 x USB Type-C
 
-.. |LAN| replace:: 2 x RJ45, GbE
+.. |LAN| replace:: 2 x RJ45, GbE, including **1 x optional** Power over Ethernet (PoE) port
 
 .. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
 
@@ -34,9 +34,9 @@
 
 .. |can| replace:: default 2 x CAN FD (1 x CAN FD can be configured to RS232 optionally)
 
-.. |poe| replace:: N/A
+.. |poe| replace:: Supported, Optional
 
-.. |lan_poe| replace:: This product doesn't support PoE.
+.. |lan_poe| replace:: The LAN0 port supports **optional** Power over Ethernet (PoE) feature.
 
 .. |opt_feature_4g| replace:: Does not include the 4G/LTE module by default. The module is optional and can be selected at the Chipsee store during the ordering process.
 
