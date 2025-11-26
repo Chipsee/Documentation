@@ -1,5 +1,18 @@
-There are 8 GPIOs, 4 Output, and 4 Input, they are all isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V. Refer to the tables below for a detailed port definition:
+**For PPC-A55-101S**, you can use gpiod to configure and control the 6 CPU GPIO.
 
+.. include:: /PCs/ARM/RK3568/Manuals/Hardware/Resources/CS12800-RK3568B2-101P/conn_table
+
+.. code:: bash
+    
+    # Common gpiod commands
+    gpioinfo
+    gpioset
+    gpioget
+    gpiomon
+
+**For all other A55 products** check the documentation below.
+
+There are 8 GPIOs, 4 Output, and 4 Input, they are all isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V. Refer to the tables below for a detailed port definition:
 
 .. table:: GPIO Device Node
    :align: center

@@ -1,0 +1,35 @@
+4G/LTE Module
+-------------
+
+|Product| is equipped with a **mini-PCIe connector** that can connect a 4G/LTE module.
+The customer will also need a SIM Card Holder and a 4G/LTE Antenna Connector to ensure 4G/LTE works on the |product|. SIM card does **NOT** support hot plug. **Power off** before inserting or removing SIM card.
+
+.. figure:: /Media/ARM/A55/Others/4G_module.jpeg
+   :align: center
+   :figclass: align-center
+
+   *mini-PCIe Connector & 4G Module*
+
+.. figure:: /Media/ARM/A55/Others/4G_com.jpeg
+   :align: center
+   :figclass: align-center
+
+   *SIM Card Holder & 4G Antenna*
+
+.. rst-class:: text-center
+
+   |sim_img|
+
+   *SIM Card Direction*
+
+.. rst-class:: text-center
+
+  |4g_ant_img|
+
+  *4G Antenna SMA*
+
+.. attention::
+
+    The product does not come shipped with the 4G/LTE module by default. The customer can choose the 4G/LTE module option when placing an order, we will install all the necessary components.
+
+:pagebreak:`True`

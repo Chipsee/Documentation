@@ -1,0 +1,38 @@
+Power Input
+===========
+
+|Product| can be powered by a wide range of input voltages: |vin_rng| DC. The power input connector is a **2-pin, 3.81mm terminal**.
+
+.. rst-class:: text-center
+
+  |power_img|
+
+  *Power Input*
+
+Note that the "**+**" sign represents the positive power input. The "**-**" terminal is shorted to the ground.
+
+.. table:: Power Connector
+   :align: center
+   :width: 100%
+   :class: align-center
+   :widths: auto
+
+   +-------------------------------------------------------------------------+
+   | Power Input Definition                                                  |
+   +================+================+=======================================+
+   | **Pin Number** | **Definition** | **Description**                       |
+   +----------------+----------------+---------------------------------------+
+   | Pin 1          | Positive Input | DC Power **Positive Terminal**        |
+   +----------------+----------------+---------------------------------------+
+   | Pin 2          | Negative Input | DC Power **Negative Terminal**        |
+   +----------------+----------------+---------------------------------------+
+
+The POWER button can be used to switch the power ON or OFF.
+
+.. rst-class:: text-center
+
+  |power_btn_img|
+
+  *Power On/Off Button*
+
+:pagebreak:`True`

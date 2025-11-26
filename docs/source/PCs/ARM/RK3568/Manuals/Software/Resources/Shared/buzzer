@@ -1,4 +1,4 @@
-The |ipc| has one buzzer. We have created one symbol link to `/dev/buzzer`. You can control it as follows:
+The |ipc| (except PPC-A55-101S) has one buzzer. We have created one symbol link to `/dev/buzzer`. You can control it as follows:
 
 .. code:: bash
 
