@@ -24,7 +24,7 @@ The table below offers a detailed description of every pin:
 .. attention::
 
    + The 120Ω match resistor for **RS485** is **already mounted** by default.
-   + This product supports changing 2 x RS485 to 2 x RS232, providing up to 4 x RS232 (including one debug port).
+   + This product supports changing 2 x RS485 to 2 x RS232, providing up to 4 x RS232.
    + The GPIO is directly routed from CPU, it uses the 5V logic by default. You can use an external isolated power input but the power input range should be from 5V to 24V DC.
    + The GPIO output channels can drive at most 500mA current on each channel.
 

@@ -10,9 +10,9 @@
 
 .. |mounting_table| replace:: Panel, VESA, Wall, Desktop 
 
-.. |uart_des| replace:: This product has 4 x UART by default. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. The 2 x RS485 can be configured to RS232.
+.. |uart_des| replace:: This product has 4 x UART by default. The default configuration is 2 x RS232 and 2 x RS485. The 2 x RS485 can be configured to RS232. Serial debug is not available on this product.
 
-.. |SSD| replace:: Optional, supports M.2 2280 NVME SSD (PCI-E 3.0 x 2)
+.. |SSD| replace:: Optional, supports M.2 2280 NVME SSD (PCI-E 3.0 x 2). If you use SSD, 4G/LTE will be disabled.
 
 .. |tscreen| replace:: 10-point capacitive touch screen
 
@@ -28,7 +28,7 @@
 
 .. |GPIO| replace:: 6 channels non-isolated CPU GPIO, can be configured to IN or OUT by user
 
-.. |opt1| replace:: Supported, Optional
+.. |opt1| replace:: Supported, Optional. If you use 4G/LTE, SSD will be disabled.
 
 .. |opt2| replace:: Integrated WiFi/BT Module
 

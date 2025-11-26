@@ -5,4 +5,8 @@ There is a M.2 slot on the |product| that allows an optional SSD. The M.2 slot i
 
 If you don't need the SSD we usually don't solder the M.2 slot on the board. But if you want the M.2 slot available for your future expansions, please tell us when placing an order.
 
+.. attention::
+
+  If you use 4G/LTE, SSD will be disabled. You can only choose SSD or 4G/LTE module.
+
 :pagebreak:`True`

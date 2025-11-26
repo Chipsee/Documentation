@@ -5,10 +5,15 @@
 .. code:: bash
     
     # Common gpiod commands
-    gpioinfo
     gpioset
     gpioget
     gpiomon
+
+    # Set Pin6(GPIO2_D4) to High (use "gpioinfo" to check GPIOD Chip and Line)
+    gpioset --chip 2 28=1
+
+    # Get the Pin6(GPIO2_D4) status:
+    gpioget 2 28
 
 **For all other A55 products** check the documentation below.
 
