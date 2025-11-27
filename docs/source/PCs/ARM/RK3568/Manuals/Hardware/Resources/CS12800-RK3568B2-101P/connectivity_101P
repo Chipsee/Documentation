@@ -1,0 +1,31 @@
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial PC. It has 4 x USB Host, 1 x network connector (RJ45) supporting up to
+1 Gbps, 6 x GPIO and 4 x UART terminals (RS232/485).
+
+RS232+RS485+GPIO Connector
+--------------------------
+
+The serial communication interfaces (RS485, RS232) and GPIO are routed to a **16-pin 3.81mm terminal**, as illustrated in the figure below.
+
+Serial communication on both RS485 and RS232 interfaces can reach up to 115200 kbps.
+
+GPIO directions(input / output) can be configured by user, they use CPU GPIO, users can configure them with gpiod.
+
+.. rst-class:: text-center
+   
+   |io_pin_img|
+
+The table below offers a detailed description of every pin:
+
+.. include:: /PCs/ARM/RK3568/Manuals/Hardware/Resources/CS12800-RK3568B2-101P/conn_table
+
+.. attention::
+
+   + The 120Ω match resistor for **RS485** is **already mounted** by default.
+   + This product supports changing 2 x RS485 to 2 x RS232, providing up to 4 x RS232.
+   + The GPIO is directly routed from CPU, it uses the 5V logic by default. You can use an external isolated power input but the power input range should be from 5V to 24V DC.
+   + The GPIO output channels can drive at most 500mA current on each channel.
+
+:pagebreak:`True`

@@ -1,3 +1,5 @@
+.. |rk_soc| replace:: RK3568
+
 .. |RAM| replace:: Samsung 4GB LPDDR4X, 4266 Mbps
 
 .. |eMMC| replace:: 32GB
@@ -39,3 +41,11 @@
 .. |can| replace:: Default to 2 x CAN FD. Optionally, these 2 x CAN FD can be configured to RS232.
 
 .. |vesa_screws| replace:: **100 x 100** mm, 4 x **M4** (6mm)
+
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
+.. |buzzer| replace:: Yes
+
+.. |audio| replace:: 3.5mm Audio In/Out Connector, 2W Internal Speaker
+
+.. |storage| replace:: TF Card, Supports up to 128GB SDHC

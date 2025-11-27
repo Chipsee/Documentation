@@ -1,0 +1,15 @@
+Mounting Procedure
+==================
+
+
+You can mount |productP| with VESA mounting (:ref:`guide <vesa_mguide>`): |vesa_screws| screws.
+
+You can mount |productP| with panel mounting method (:ref:`guide <panel_mguide>`).
+
+You can also mount |productP| with wall mounting or desktop mounting method.
+
+.. attention::
+
+    Please make sure the display is not exposed to high pressure when mounting into an enclosure.
+
+You can find detailed information about mounting in the |mguide|.

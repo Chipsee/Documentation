@@ -8,6 +8,8 @@
 
 .. |Product| replace:: The |product| Industrial PC
 
+.. |rk_soc| replace:: RK3568
+
 .. |dispsize| replace:: N/A
 
 .. |disp_des| replace:: N/A
@@ -21,6 +23,14 @@
 .. |dimP| replace:: 209 x 125 x 37.3mm
 
 .. |weightP| replace:: 900g
+
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
+.. |buzzer| replace:: Yes
+
+.. |audio| replace:: 3.5mm Audio In/Out Connector, 2W Internal Speaker
+
+.. |storage| replace:: TF Card, Supports up to 128GB SDHC
 
 .. |RAM| replace:: 2GB LPDDR4
 

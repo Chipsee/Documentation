@@ -8,11 +8,21 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
+.. |rk_soc| replace:: RK3568
+
 .. |dispsize| replace:: 5"
 
 .. |res| replace:: 1280 x 720
 
 .. |bright| replace:: 400 |cd|
+
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
+.. |buzzer| replace:: Yes
+
+.. |audio| replace:: 3.5mm Audio In/Out Connector, 2W Internal Speaker
+
+.. |storage| replace:: TF Card, Supports up to 128GB SDHC
 
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 

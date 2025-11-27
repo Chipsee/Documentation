@@ -40,10 +40,25 @@ RK3568 / A55
    <div class="col">
       <div class="index-item">
 
-10.1 Inch
+10.1 Inch (RK3568)
 |PPC-A55-101|
 
 :ref:`PPC-A55-101<PPC-A55-101>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+10.1 Inch (RK3568B2)
+|PPC-A55-101S|
+
+:ref:`PPC-A55-101S<PPC-A55-101S>`
 
 .. raw:: html
 
@@ -216,6 +231,10 @@ Box
    :class: index-item-img
    :target: /PCs/ARM/RK3568/Manuals/Hardware/CS12800-RK3568-101P.html
 
+.. |PPC-A55-101S| image:: /Media/ARM/A55/CS12800-RK3568B2-101P/CS12800-RK3568B2-101P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3568/Manuals/Hardware/CS12800-RK3568B2-101P.html
+
 .. |PPC-A55-121| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/ARM/RK3568/Manuals/Hardware/CS10768-RK3568-121P.html
@@ -265,6 +284,7 @@ Box
    PPC-A55-050 </PCs/ARM/RK3568/Manuals/Hardware/CS12720-RK3568-050P>
    PPC-A55-070 </PCs/ARM/RK3568/Manuals/Hardware/CS10600-RK3568-070P>
    PPC-A55-101 </PCs/ARM/RK3568/Manuals/Hardware/CS12800-RK3568-101P>
+   PPC-A55-101S </PCs/ARM/RK3568/Manuals/Hardware/CS12800-RK3568B2-101P>
    PPC-A55-121 </PCs/ARM/RK3568/Manuals/Hardware/CS10768-RK3568-121P>
    PPC-A55-133 </PCs/ARM/RK3568/Manuals/Hardware/CS19108-RK3568-133P>
    PPC-A55-150 </PCs/ARM/RK3568/Manuals/Hardware/CS10768-RK3568-150P>

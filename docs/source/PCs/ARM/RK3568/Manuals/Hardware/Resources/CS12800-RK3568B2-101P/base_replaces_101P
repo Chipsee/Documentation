@@ -1,0 +1,51 @@
+.. |rk_soc| replace:: RK3568B2
+
+.. |RAM| replace:: 2GB LPDDR4X
+
+.. |eMMC| replace:: 16GB
+
+.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
+
+.. |disp_table_des| replace:: |dispsize| LCD, |res|, Brightness: |bright|
+
+.. |mounting_table| replace:: Panel, VESA, Wall, Desktop 
+
+.. |uart_des| replace:: This product has 4 x UART by default. The default configuration is 2 x RS232 and 2 x RS485. The 2 x RS485 can be configured to RS232. Serial debug is not available on this product.
+
+.. |SSD| replace:: Optional, supports M.2 2280 NVME SSD (PCI-E 3.0 x 2). If you use SSD, 4G/LTE will be disabled.
+
+.. |tscreen| replace:: 10-point capacitive touch screen
+
+.. |HDMI_des| replace:: 1 x HDMI OUT
+
+.. |USB| replace:: 2 x USB 2.0 HOST, 2 x USB 3.0 HOST(The upper USB 3.0 port close to front panel also serves as a download interface)
+
+.. |LAN| replace:: 1 x RJ45, GbE
+
+.. |LAN_des| replace:: 1 x RJ45
+
+.. |poe| replace:: N/A
+
+.. |GPIO| replace:: 6 channels non-isolated CPU GPIO, can be configured to IN or OUT by user
+
+.. |opt1| replace:: Supported, Optional. If you use 4G/LTE, SSD will be disabled.
+
+.. |opt2| replace:: Integrated WiFi/BT Module
+
+.. |vin_rng| replace:: From 12V to 36V
+
+.. |rtc| replace:: High accuracy RTC with lithium coin battery, can work 3 years after power off.
+
+.. |rs232| replace:: Default to 2 x RS232. Up to 4 x RS232.
+
+.. |rs485| replace:: Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232.
+
+.. |can| replace:: N/A
+
+.. |vesa_screws| replace:: **100 x 100** mm, 4 x **M4** (6mm)
+
+.. |buzzer| replace:: N/A
+
+.. |audio| replace:: 3.5mm Audio In/Out Connector, No Internal Speaker
+
+.. |storage| replace:: N/A

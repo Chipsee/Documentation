@@ -38,7 +38,7 @@ If you have successfully installed the Android Platform Tools, you can confirm t
 Connect From Serial Port
 ------------------------
 
-In our prebuilt |systemType| OS, the **RS232_2** serves as a serial debug port on the |chip| products of all screen sizes. We can connect a RS232 cable from the |ipc| to our workstation, allowing us to control the |ipc| from our workstation.
+In our prebuilt |systemType| OS, the **RS232_2** serves as a serial debug port (**serial debug is not available on PPC-A55-101S**) on the |chip| products of all screen sizes. We can connect a RS232 cable from the |ipc| to our workstation, allowing us to control the |ipc| from our workstation.
 
 To get started, except for the |ipc| and your computer, you also need a USB to serial cable, we will use a USB Type-C to DB-9 cable as an example. 
 

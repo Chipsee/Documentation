@@ -1,0 +1,17 @@
+USB Connectors
+--------------
+
+There are |USB| on board, as shown in the figures below.
+
+
+.. rst-class:: text-center
+
+  |USB_img|
+
+  *USB HOST Ports*
+
+  |USB_OS_img|
+
+  *USB For Flashing Operating System*
+
+:pagebreak:`True`

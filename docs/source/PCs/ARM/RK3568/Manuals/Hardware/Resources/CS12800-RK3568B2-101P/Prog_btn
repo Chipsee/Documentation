@@ -1,0 +1,19 @@
+PROG Button
+===========
+
+|Product| has one button on the board marked as PROG, as shown in the figure below.
+
+When the button is pressed before powering up, the |product| will enter Recovery mode(LOADER Mode). In this mode you can use a USB cable to upgrade its operating system. You can use this feature to flash another OS to the internal eMMC.
+
+When the button is not pressed before and during power up, the |product| will boot normally.
+
+There is no need to press the button during regular operation. However, if you need to flash the OS in Recovery mode, the button will be used. Please refer to the :ref:`software documents <RK3568_OS>` for more information.
+
+.. rst-class:: text-center
+
+    |PROG_btn_img|
+  
+    *PROG Button*
+
+
+:pagebreak:`True`
