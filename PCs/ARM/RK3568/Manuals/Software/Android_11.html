@@ -309,19 +309,20 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p>This is the software manual for RK3568 Chipsee industrial PC. If you’ve never developed on this hardware with an Android 11 OS, this manual can get you started quickly.</p>
 <p>Supported Chipsee PCs: all Chipsee RK3568 based industrial PCs, including but not limited to:</p>
 <ul class="simple">
-<li><p>CS12720-RK3568-050P</p></li>
-<li><p>CS10600-RK3568-070P</p></li>
-<li><p>CS12800-RK3568-101P</p></li>
-<li><p>CS10768-RK3568-121P</p></li>
-<li><p>CS19108-RK3568-133P</p></li>
-<li><p>CS10768-RK3568-150P</p></li>
-<li><p>CS19108-RK3568-156P</p></li>
-<li><p>CS12102-RK3568-170P</p></li>
-<li><p>CS19108-RK3568-185P</p></li>
-<li><p>CS12102-RK3568-190P</p></li>
-<li><p>CS12800-RK3568-215P</p></li>
-<li><p>CS19108-RK3568-236P</p></li>
-<li><p>CS-RK3568-BOX</p></li>
+<li><p>PPC-A55-050 (CS12720-RK3568-050P)</p></li>
+<li><p>PPC-A55-070 (CS10600-RK3568-070P)</p></li>
+<li><p>PPC-A55-101 (CS12800-RK3568-101P)</p></li>
+<li><p>PPC-A55-101S (CS12800-RK3568B2-101P)</p></li>
+<li><p>PPC-A55-121 (CS10768-RK3568-121P)</p></li>
+<li><p>PPC-A55-133 (CS19108-RK3568-133P)</p></li>
+<li><p>PPC-A55-150 (CS10768-RK3568-150P)</p></li>
+<li><p>PPC-A55-156 (CS19108-RK3568-156P)</p></li>
+<li><p>PPC-A55-170 (CS12102-RK3568-170P)</p></li>
+<li><p>PPC-A55-185 (CS19108-RK3568-185P)</p></li>
+<li><p>PPC-A55-190 (CS12102-RK3568-190P)</p></li>
+<li><p>PPC-A55-215 (CS12800-RK3568-215P)</p></li>
+<li><p>PPC-A55-236 (CS19108-RK3568-236P)</p></li>
+<li><p>CS-A55-BOX (CS-RK3568-BOX)</p></li>
 </ul>
 <p>When you develop software for the Chipsee industrial PC, you can open the hardware document beside this software document, to aid you in wiring your devices.</p>
 <p>In this document, main topics are:</p>
@@ -355,7 +356,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </section>
 <section id="connect-from-serial-port">
 <h3 id="connect-from-serial-port">Connect From Serial Port<a class="headerlink" href="#connect-from-serial-port" title="Permalink to this heading">¶</a></h3>
-<p>In our prebuilt Android 11 OS, the <strong>RS232_2</strong> serves as a serial debug port on the RK3568 products of all screen sizes. We can connect a RS232 cable from the Chipsee industrial PC to our workstation, allowing us to control the Chipsee industrial PC from our workstation.</p>
+<p>In our prebuilt Android 11 OS, the <strong>RS232_2</strong> serves as a serial debug port (<strong>serial debug is not available on PPC-A55-101S</strong>) on the RK3568 products of all screen sizes. We can connect a RS232 cable from the Chipsee industrial PC to our workstation, allowing us to control the Chipsee industrial PC from our workstation.</p>
 <p>To get started, except for the Chipsee industrial PC and your computer, you also need a USB to serial cable, we will use a USB Type-C to DB-9 cable as an example.</p>
 <p>I will plug the USB Type-C port to a Mac (Windows and Linux work fine too), and then I would use three female to female dupont wires, to connect 3 of the DB-9 pins to my Chipsee industrial PC ‘s GND and RS232_2 (RX and TX) pins. Take a look at the image below, it’s a 7-inch product, if your product has a different screen size, check out the hardware document to find out which pins are RS232_2 TX and RX. You should connect the DB-9 RX to Chipsee industrial PC’s TX, and TX to RX, you should also connect their GNDs (the white wire).</p>
 <a class="text-center reference internal image-reference" href="../../../../../_images/Serial_Connect.jpg"><img alt="../../../../../_images/Serial_Connect.jpg" class="text-center align-center" src="../../../../../_images/Serial_Connect.jpg" style="width: 480px;"/></a>
@@ -541,7 +542,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p>The RK3568 based Chipsee industrial PC supports RS232 and RS485, here are the mapping from the port name to the system tree device:</p>
 <p><strong>5 inch product</strong></p>
 <table id="id1" style="width: 100%">
-<caption><span class="caption-number">Table 230 </span><span class="caption-text">RS232/485 for <strong>5 inch</strong> product(CS12720-RK3568-050P)</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 237 </span><span class="caption-text">RS232/485 for <strong>5 inch</strong> product(CS12720-RK3568-050P)</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Name</p></th>
 <th class="head"><p>Node</p></th>
@@ -569,7 +570,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </table>
 <p><strong>7 inch product and Box product</strong></p>
 <table id="id2" style="width: 100%">
-<caption><span class="caption-number">Table 231 </span><span class="caption-text">RS232/485 for <strong>7 inch</strong> product(CS10600-RK3568-070P) and <strong>box</strong> product(CS-RK3568-BOX)</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 238 </span><span class="caption-text">RS232/485 for <strong>7 inch</strong> product(CS10600-RK3568-070P) and <strong>box</strong> product(CS-RK3568-BOX)</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Name</p></th>
 <th class="head"><p>Node</p></th>
@@ -599,9 +600,38 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </tr>
 </tbody>
 </table>
-<p><strong>10.1+ inch products</strong></p>
+<p><strong>10.1 inch</strong></p>
+<p>Only PPC-A55-101S (not PPC-A55-101).</p>
 <table id="id3" style="width: 100%">
-<caption><span class="caption-number">Table 232 </span><span class="caption-text">RS232/485 for <strong>10.1+ inch</strong> products(CS12800-RK3568-101P, CS10768-RK3568-121P, CS19108-RK3568-133P, CS10768-RK3568-150P, CS19108-RK3568-156P, CS12102-RK3568-170P, CS19108-RK3568-185P, CS12102-RK3568-190P, CS12800-RK3568-215P, CS19108-RK3568-236P)</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 239 </span><span class="caption-text">RS232/485 for <strong>10.1 inch</strong> product(CS12800-RK3568B2-101P)</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Node</p></th>
+<th class="head"><p>Protocol</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>RS232_1</p></td>
+<td><p>/dev/ttyS1</p></td>
+<td><p>RS232</p></td>
+</tr>
+<tr class="row-odd"><td><p>RS485_2</p></td>
+<td><p>/dev/ttyS2</p></td>
+<td><p>RS485</p></td>
+</tr>
+<tr class="row-even"><td><p>RS232_3</p></td>
+<td><p>/dev/ttyS3</p></td>
+<td><p>RS232</p></td>
+</tr>
+<tr class="row-odd"><td><p>RS485_4</p></td>
+<td><p>/dev/ttyS4</p></td>
+<td><p>RS485</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>10.1+ inch products</strong></p>
+<table id="id4" style="width: 100%">
+<caption><span class="caption-number">Table 240 </span><span class="caption-text">RS232/485 for <strong>10.1+ inch</strong> products(CS12800-RK3568-101P, CS10768-RK3568-121P, CS19108-RK3568-133P, CS10768-RK3568-150P, CS19108-RK3568-156P, CS12102-RK3568-170P, CS19108-RK3568-185P, CS12102-RK3568-190P, CS12800-RK3568-215P, CS19108-RK3568-236P)</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Name</p></th>
 <th class="head"><p>Node</p></th>
@@ -698,9 +728,117 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </section>
 <section id="gpio">
 <h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this heading">¶</a></h3>
+<p><strong>For PPC-A55-101S</strong>, you can use gpiod to configure and control the 6 CPU GPIO.</p>
+<table id="id5" style="width: 100%">
+<caption><span class="caption-number">Table 241 </span><span class="caption-text">Connectivity Section for PPC-A55-101S</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head" colspan="4"><p><strong>RS232 / RS485 / GPIO Pin Definition:</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Pin Number</strong></p></td>
+<td><p><strong>Definition</strong></p></td>
+<td><p><strong>Description</strong></p></td>
+<td><p><strong>OS Node</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>Pin 1</p></td>
+<td><p>GND</p></td>
+<td><p>GND</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Pin 2</p></td>
+<td><p>RS232_1_RX</p></td>
+<td><p>CPU UART1, RS232 RXD signal</p></td>
+<td><p>/dev/ttyS1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pin 3</p></td>
+<td><p>RS232_1_TX</p></td>
+<td><p>CPU UART1, RS232 TXD signal</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Pin 4</p></td>
+<td><p>RS485_2_A</p></td>
+<td><p>CPU UART2, RS485 +(A) signal</p></td>
+<td><p>/dev/ttyS2</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pin 5</p></td>
+<td><p>RS485_2_B</p></td>
+<td><p>CPU UART2, RS485 -(B) signal</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Pin 6</p></td>
+<td><p>GPIO2_D4</p></td>
+<td><p>CPU GPIO2 28</p></td>
+<td><p>gpiochip2 line28</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pin 7</p></td>
+<td><p>GPIO2_D6</p></td>
+<td><p>CPU GPIO2 30</p></td>
+<td><p>gpiochip2 line30</p></td>
+</tr>
+<tr class="row-even"><td><p>Pin 8</p></td>
+<td><p>GPIO1_B2</p></td>
+<td><p>CPU GPIO1 10</p></td>
+<td><p>gpiochip1 line10</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pin 9</p></td>
+<td><p>5V</p></td>
+<td><p>5V</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Pin 10</p></td>
+<td><p>RS232_3_RX</p></td>
+<td><p>CPU UART3, RS232 RXD signal</p></td>
+<td><p>/dev/ttyS3</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pin 11</p></td>
+<td><p>RS232_3_TX</p></td>
+<td><p>CPU UART3, RS232 TXD signal</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Pin 12</p></td>
+<td><p>RS485_4_A</p></td>
+<td><p>CPU UART4, RS485 +(A) signal</p></td>
+<td><p>/dev/ttyS4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pin 13</p></td>
+<td><p>RS485_4_B</p></td>
+<td><p>CPU UART4, RS485 -(B) signal</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Pin 14</p></td>
+<td><p>GPIO1_B0</p></td>
+<td><p>CPU GPIO1 8</p></td>
+<td><p>gpiochip1 line8</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pin 15</p></td>
+<td><p>GPIO2_D2</p></td>
+<td><p>CPU GPIO2 26</p></td>
+<td><p>gpiochip2 line26</p></td>
+</tr>
+<tr class="row-even"><td><p>Pin 16</p></td>
+<td><p>GPIO3_A1</p></td>
+<td><p>CPU GPIO3 1</p></td>
+<td><p>gpiochip3 line1</p></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Common gpiod commands</span>
+gpioset
+gpioget
+gpiomon
+
+<span class="c1"># Set Pin6(GPIO2_D4) to High (use "gpioinfo" to check GPIOD Chip and Line)</span>
+gpioset<span class="w"> </span>--chip<span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="nv">28</span><span class="o">=</span><span class="m">1</span>
+
+<span class="c1"># Get the Pin6(GPIO2_D4) status:</span>
+gpioget<span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="m">28</span>
+</pre></div>
+</div>
+<p><strong>For all other A55 products</strong> check the documentation below.</p>
 <p>There are 8 GPIOs, 4 Output, and 4 Input, they are all isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V. Refer to the tables below for a detailed port definition:</p>
-<table id="id4" style="width: 100%">
-<caption><span class="caption-number">Table 233 </span><span class="caption-text">GPIO Device Node</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<table id="id6" style="width: 100%">
+<caption><span class="caption-number">Table 242 </span><span class="caption-text">GPIO Device Node</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Function</p></th>
 <th class="head"><p>Device Node</p></th>
@@ -769,7 +907,7 @@ $<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><sp
 <section id="buzzer">
 <h3 id="buzzer">BUZZER<a class="headerlink" href="#buzzer" title="Permalink to this heading">¶</a></h3>
 <p>Inside ADB, you can <strong>echo</strong> 0 or 1 to control the buzzer.</p>
-<p>The Chipsee industrial PC has one buzzer. We have created one symbol link to <cite>/dev/buzzer</cite>. You can control it as follows:</p>
+<p>The Chipsee industrial PC (except PPC-A55-101S) has one buzzer. We have created one symbol link to <cite>/dev/buzzer</cite>. You can control it as follows:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="m">1</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/buzzer<span class="w">    </span><span class="c1"># enable buzzer</span>
 
 $<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="m">0</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/buzzer<span class="w">    </span><span class="c1"># disable buzzer</span>
@@ -946,7 +1084,7 @@ sudo<span class="w"> </span>./upgrade_tool_linux_x86-64<span class="w"> </span>u
               
           </div>
             Last updated on
-              Nov 25, 2025.
+              Nov 27, 2025.
             <br/>
         </div>
       </div>

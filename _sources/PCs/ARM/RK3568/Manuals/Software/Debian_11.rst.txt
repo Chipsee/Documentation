@@ -114,6 +114,8 @@ Serial Port Debugging
 
 [*Cheatsheet for experienced developer*: username: **linaro**, password **linaro**.]
 
+(**Serial debug is not available on PPC-A55-101S**)
+
 Physically, your laptop connects to your |ipc| with a USB to serial cable. To connect to the |ipc| in the terminal program, you first need to know what port your laptop or computer is using in the device tree.
 
 The best way to find this is check what **tty** devices you have before connecting the |ipc| to your computer, then find out what is changed after you connect it to your laptop or PC.
@@ -390,7 +392,7 @@ We use one PWM to control the backlight of |chip| boards, You can use the follow
 CAN Bus
 -------
 
-There are two CAN bus channels on the |chip| based |ipc|. You can install `can-utils` and use them to test CAN. But you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown on the figure below.
+There are two CAN bus channels (except PPC-A55-101S) on the |chip| based |ipc|. You can install `can-utils` and use them to test CAN. But you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown on the figure below.
 
 .. note::
 

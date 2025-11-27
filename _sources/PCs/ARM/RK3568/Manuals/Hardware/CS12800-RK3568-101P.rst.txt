@@ -112,6 +112,8 @@
 
 .. include:: Resources/overview
 
+.. include:: Resources/CS12800-RK3568B2-101P/comparison_101_b2_nob2
+
 .. include:: Resources/ordering
 
 .. include:: Resources/opt_features

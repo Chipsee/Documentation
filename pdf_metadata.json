@@ -496,6 +496,12 @@
             "pdf-filename": "PPC-A55-101",
             "pdf-type": "ipc"
         },
+        "PCs/ARM/RK3568/Manuals/Hardware/CS12800-RK3568B2-101P": {
+            "pdf-title": "PPC-A55-101S",
+            "pdf-subtitle": "PN: CS12800-RK3568B2-101P",
+            "pdf-filename": "PPC-A55-101S",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/RK3568/Manuals/Hardware/CS19108-RK3568-133P": {
             "pdf-title": "PPC-A55-133",
             "pdf-subtitle": "PN: CS19108-RK3568-133P",
