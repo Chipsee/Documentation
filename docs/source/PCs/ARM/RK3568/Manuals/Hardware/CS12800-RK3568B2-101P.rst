@@ -48,7 +48,7 @@
 
 .. |USB_OS_img| image:: /Media/ARM/A55/CS12800-RK3568B2-101P/CS12800-RK3568B2-101P-USB_OS.jpg
                    :align: middle
-                   :width: 960
+                   :width: 640
 
 .. |wifi_bt_img| image:: /Media/ARM/A55/CS12800-RK3568B2-101P/CS12800-RK3568B2-101P-WiFi.jpg
                   :align: middle
