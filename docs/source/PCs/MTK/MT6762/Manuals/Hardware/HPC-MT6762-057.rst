@@ -14,7 +14,7 @@
 
 .. |Cover PNG| image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Front.png
 
-.. |Front View| image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Front.png
+.. |Front View| image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Front.jpg
                   :class: product-img
 
 .. |Rear View| image:: /Media/MTK/MT6762/057/HPC-MT6762-057-Rear.jpg
