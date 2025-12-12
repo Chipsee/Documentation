@@ -1120,6 +1120,12 @@
         "PCs/MTK/MT6771/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
+        "PCs/MTK/MT6877/Manuals/Hardware/HPC-MT6877-080": {
+            "pdf-title": "HPC-MT6877-080",
+            "pdf-subtitle": "PN: HPC-MT6877-080",
+            "pdf-filename": "HPC-MT6877-080",
+            "pdf-type": "ipc"
+        },
         "PCs/MTK/MT8788/Manuals/Hardware/PTV-MT8788-215": {
             "pdf-build": "False"
         },
