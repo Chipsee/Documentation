@@ -1,0 +1,22 @@
+USB Connectors
+--------------
+
+There are 2 x **USB HOST** and 1 x **USB DEVICE** (for flashing OS) ports onboard: |USB|, as shown in the figures below.
+
+.. warning::
+
+  **Please unplug USB mouse/keyboard** from the USB3.0 port when flashing OS.
+
+|usb_usbc_conflict|
+
+.. rst-class:: text-center
+
+  |USBA_img|
+
+  *USB HOST Ports*
+
+  |USBC_img|
+  
+  *USB Type-C Port*
+
+:pagebreak:`True`

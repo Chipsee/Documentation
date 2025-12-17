@@ -1,0 +1,59 @@
+.. |rk_soc| replace:: RK3576
+
+.. |RAM| replace:: 4GB LPDDR5
+
+.. |eMMC| replace:: 64GB
+
+.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
+
+.. |disp_table_des| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
+
+.. |mounting_table| replace:: Panel, VESA
+
+.. |uart_des| replace:: This product has 4 x UART by default, 6 x UART channels at most. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. The 2 x CAN FD can be configured to RS232.
+
+.. |m2_spec| replace:: Optional, supports M.2 M-Key 2230/2242/2260/2280 NVME SSD (PCI-E 3.0 x1)
+
+.. |tscreen| replace:: 10-point capacitive touch screen
+
+.. |HDMI_des| replace:: 1 x HDMI OUT
+
+.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |USB_conflict| replace:: USB3.0 port and USB-C port cannot be used at the same time
+
+.. |usb_usbc_conflict| replace:: The USB3.0 type-A host and USB-C **can't be used** at the same time. Before boot into OS, USB-C is enabled for installing OS image; after boot into OS, USB-A is enabled but USB-C is disabled. |br| In Android, these can be configured, USB3.0 type A is enabled by default, but you can switch to using USB-C in the software for debugging; in Linux, these can't be configured.
+
+.. |LAN| replace:: 1 x RJ45, GbE
+
+.. |LAN_des| replace:: 1 x RJ45
+
+.. |npu| replace:: 6 TOPS(Sparsity)@INT8
+
+.. |poe| replace:: Optional, Power Over Ethernet 802.3af/at
+
+.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
+
+.. |gpio_conn| replace:: **phoenix connector**
+
+.. |opt1_4g| replace:: Supported, Optional
+
+.. |opt2_wifibt| replace:: Integrated WiFi/BT Module
+
+.. |vin_rng| replace:: From 15V to 30V
+
+.. |rs232| replace:: Default to 2 x RS232 (including 1 debug port). Up to 6 x RS232.
+
+.. |rs485| replace:: Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232.
+
+.. |can| replace:: Default to 2 x CAN FD. Optionally, these 2 x CAN FD can be configured to RS232.
+
+.. |vesa_screws| replace:: **100 x 100** mm, 4 x **M4** (6mm)
+
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
+.. |buzzer| replace:: Yes
+
+.. |audio| replace:: 3.5mm Audio In/Out Connector, 2W Internal Speaker
+
+.. |storage| replace:: TF Card, Supports up to 128GB SDHC

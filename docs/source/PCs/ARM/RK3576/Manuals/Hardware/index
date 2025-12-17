@@ -1,0 +1,97 @@
+RK3576
+######
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+10.1 Inch
+|PPC-RK3576-101|
+
+:ref:`PPC-RK3576-101<PPC-RK3576-101>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+12.1 Inch
+|PPC-RK3576-121|
+
+:ref:`PPC-RK3576-121<PPC-RK3576-121>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+13.3 Inch
+|PPC-RK3576-133|
+
+:ref:`PPC-RK3576-133<PPC-RK3576-133>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+15.6 Inch
+|PPC-RK3576-156|
+
+:ref:`PPC-RK3576-156<PPC-RK3576-156>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   </div>
+
+.. |PPC-RK3576-101| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3576/Manuals/Hardware/CS12800-RK3576-101P.html
+
+.. |PPC-RK3576-121| image:: /Media/ARM/RK3576/CS10768-RK3576-121P/CS10768-RK3576-121P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3576/Manuals/Hardware/CS10768-RK3576-121P.html
+
+.. |PPC-RK3576-133| image:: /Media/ARM/RK3576/CS19108-RK3576-133P/CS19108-RK3576-133P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-133P.html
+
+.. |PPC-RK3576-156| image:: /Media/ARM/RK3576/CS19108-RK3576-156P/CS19108-RK3576-156P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-156P.html
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+
+   PPC-RK3576-101 </PCs/ARM/RK3576/Manuals/Hardware/CS12800-RK3576-101P>
+   PPC-RK3576-121 </PCs/ARM/RK3576/Manuals/Hardware/CS10768-RK3576-121P>
+   PPC-RK3576-133 </PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-133P>
+   PPC-RK3576-156 </PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-156P>
