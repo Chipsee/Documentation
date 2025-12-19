@@ -1,0 +1,24 @@
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial PC. It has |USB|, 1 x network connector (RJ45) supporting up to
+1 Gbps, 8 x GPIO, 2 x CAN FD and 4 x UART terminals (RS232/485).
+
+RS232+RS485+CAN
+---------------
+
+The serial communication interfaces (RS485, RS232, and CAN FD) are routed to a **24-pin 3.81mm terminal**, as illustrated in the figure below.
+Serial communication on both RS485 and RS232 interfaces can reach up to 115200 kbps.
+
+.. rst-class:: text-center
+   
+   |can_232_485_img|
+
+.. attention::
+
+   + The 120Ω match resistor for **CAN** bus is **NOT mounted** by default.
+   + The 120Ω match resistor for **RS485** is **already mounted** by default.
+   + This product supports changing 2 x RS485 to 2 x RS232, supports changing 2 x CAN to 2 x RS232, providing up to 6 x RS232 (including one debug port).
+
+   
+The table below offers a detailed description of every pin:

@@ -50,6 +50,10 @@
 
 .. |standby| replace:: ≤ 2W
 
+.. |work_temp| replace:: From 0°C to +40°C, 90% RH
+
+.. |storage_temp| replace:: From -20°C to +60°C, 90% RH
+
 .. _product_link: https://chipsee.com/product/pim236c/
 
 .. |product_link| replace:: PIM-236-C

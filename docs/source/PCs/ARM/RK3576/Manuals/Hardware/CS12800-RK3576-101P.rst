@@ -1,0 +1,171 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. include:: Resources/CS12800-RK3576-101P/base_replaces_101P
+
+.. |product| replace:: PPC-RK3576-101
+
+.. |productP| replace:: PPC-RK3576-101
+
+.. |PN| replace:: PN: CS12800-RK3576-101P
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |dispsize| replace:: 10.1"
+
+.. |res| replace:: 1280 x 800
+
+.. |bright| replace:: 480 |cd|
+
+.. |dimE| replace:: NULL
+
+.. |dimP| replace:: 275.5 x 193.5 x 46.0mm
+
+.. |weightE| replace:: NULL
+
+.. |weightP| replace:: 1300g
+
+.. |cur| replace:: 600mA Max at 15V
+
+.. |pwr| replace:: 7.5W Typical
+
+.. |temp| replace:: From -20°C to +70°C
+
+.. |power_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-Power.jpg
+                  :align: middle
+                  :width: 576
+
+.. |can_232_485_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-IO.jpg
+                   :align: middle
+                   :width: 1024
+
+.. |gpio_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-GPIO.jpg
+                   :align: middle
+                   :width: 1024
+
+.. |USBA_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-USBA.jpg
+                   :align: middle
+                   :width: 480
+
+.. |USBC_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-USBC.jpg
+                   :align: middle
+                   :width: 480
+
+.. |wifi_bt_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-WiFiBT.jpg
+                  :align: middle
+                  :width: 480
+
+.. |sim_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-SIM.jpg
+                  :align: middle
+                  :width: 480
+
+.. |4g_ant_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-4G_Ant.jpg
+                  :align: middle
+                  :width: 480
+
+.. |LAN_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-LAN.jpg
+                  :align: middle
+                  :width: 480
+
+.. |TF_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-TF.jpg
+                  :align: middle
+                  :width: 480
+
+.. |audio_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-Audio.jpg
+                  :align: middle
+                  :width: 480
+
+.. |HDMI_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-HDMI.jpg
+                  :align: middle
+                  :width: 480
+
+.. |PROG_btn_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-Prog_Button.jpg
+                  :align: middle
+                  :width: 480
+
+.. |mounting_img| image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-TD.png
+                  :align: middle
+                  :width: 960
+
+.. _product_link: https://chipsee.com/product/ppc-rk3576-101/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-Front.png
+
+.. |Front View| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-Side2.jpg
+                  :class: product-img                 
+                  
+.. _PPC-RK3576-101:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/opt_features
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen_usb
+
+.. include:: Resources/CS12800-RK3576-101P/connectivity_101P
+
+.. include:: Resources/CS12800-RK3576-101P/connectivity_table_101P
+
+.. include:: Resources/gpio
+
+.. include:: Resources/CS12800-RK3576-101P/gpio_table_101P
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi_BT
+
+.. include:: Resources/4G_com
+
+.. include:: Resources/m2_slot
+
+.. include:: Resources/TF_Card
+
+.. include:: Resources/Audio_IO
+
+.. include:: Resources/HDMI
+
+.. include:: Resources/Prog_btn
+
+.. include:: Resources/mounting
+
+:pagebreak:`True`
+
+.. include:: Resources/mechanical
+
+.. rst-class:: text-center
+
+   |mounting_img|
+
+   *Panel mounting* (|product|)
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support
