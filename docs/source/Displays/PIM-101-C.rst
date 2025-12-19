@@ -50,6 +50,10 @@
 
 .. |vin_rng| replace:: 12V 3A DC(default), 9V-30V DC(optional)
 
+.. |work_temp| replace:: From -20°C to +70°C, 90% RH
+
+.. |storage_temp| replace:: From -30°C to +80°C, 90% RH
+
 .. _product_link: https://chipsee.com/product/pim-101-c/
 
 .. |product_link| replace:: PIM-101-C
