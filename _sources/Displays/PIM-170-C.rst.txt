@@ -50,6 +50,10 @@
 
 .. |vin_rng| replace:: 12V 3A DC
 
+.. |work_temp| replace:: From 0°C to +40°C, 90% RH
+
+.. |storage_temp| replace:: From -20°C to +60°C, 90% RH
+
 .. _product_link: https://chipsee.com/product/pim170c/
 
 .. |product_link| replace:: PIM-170-C
