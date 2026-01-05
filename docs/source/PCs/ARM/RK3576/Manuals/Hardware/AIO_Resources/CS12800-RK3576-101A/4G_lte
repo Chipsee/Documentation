@@ -1,0 +1,26 @@
+3G/4G/LTE/GPS Module
+--------------------
+
+|Product| is equipped with a **mini-PCIe connector** that can connect a 3G/4G/LTE module.
+
+4G/LTE module is **optional**. If you place an order with 4G module included, we will also add a SIM card holder and a 3G/4G/LTE antenna to ensure 3G/4G/LTE works on the |product|. 
+
+SIM card does **NOT** support hot plug. **Power off** before inserting or removing SIM card.
+
+The CAT-1 modules support 4G/LTE by default and GPS **optionally**, if you need GPS with a CAT-1 module, please contact us before placing an order.
+
+The CAT-4 Quectel EC25 module supports GPS. If you need GPS/GNSS feature please contact us before placing an order.
+
+.. rst-class:: text-center
+
+    |sim_img|
+
+    *SIM Card Direction*
+
+.. attention::
+
+    The product does not come shipped with the 3G/4G/LTE module by default. If you need to use 3G/4G/LTE, you can contact us when placing an order, we can install the necessary hardware for you.
+
+    USB-C shares signal with 4G/LTE module, please unplug the USB-C cable while using 4G/LTE module. If you have the USB-C occupied, the 4G/LTE module will be disabled by default.
+
+:pagebreak:`True`

@@ -1,0 +1,23 @@
+Product Overview
+=================
+
+|Product| (|PN|) is a Linux-based touchscreen Single Board Computer (SBC) powered by the Rockchip RK3576 CPU. It has a |npu| NPU. It is designed for industrial and embedded applications, especially those requiring reliability and flexibility.
+
+Its case is plastic, very light to mounted to a fixed place as a smart control center. The case is available in |case_color| color.
+
+This single board computer features a |dispsize| IPS display with a maximum brightness of |bright|. The touch screen is a responsive capacitive screen and supports multi touch. It can be used directly as a human-machine interface (HMI) or embedded control terminal.
+
+.. sidebar:: Key Applications
+   
+  + Human Machine Interface（HMI）
+  + Edge AI
+  + Process Control
+  + Process Monitoring
+  + HMI
+  + IIoT node
+  + Environmental Monitoring
+  + PLC
+  + Automotive applications
+  + Smart Home
+
+:pagebreak:`True`
