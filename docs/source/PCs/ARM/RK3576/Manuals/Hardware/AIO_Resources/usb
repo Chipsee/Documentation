@@ -1,0 +1,18 @@
+USB
+---
+
+There are |USB| onboard, as shown in the image below.
+
+.. rst-class:: text-center
+
+  |usb_img|
+  
+  *USB3.0 HOST and Type-C Connectors*
+
+.. note::
+
+    * External USB peripherals like a USB disk or USB mouse or keyboard can connect to the USB type-A HOST.
+    * You can download software to the Rockchip eMMC using the Type-C.
+    * USB-C can't be used together with USB-A 3.0 port. USB-C port is designed for flashing operating system image, USB-C will be disabled after entering operating system.
+
+:pagebreak:`True`

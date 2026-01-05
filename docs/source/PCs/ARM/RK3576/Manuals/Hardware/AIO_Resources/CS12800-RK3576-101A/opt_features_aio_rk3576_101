@@ -1,0 +1,39 @@
+Optional Features
+-----------------
+
+M.2 NVMe Module
+***************
+
+The product has a |m2_desc| slot for a NVMe SSD, M.2 SSD is optional and can be selected when placing an order.
+
+|Product| does not include the NVMe SSD by default.
+
+**Important note**: |m2_4g_conflict|.
+
+4G/LTE Module
+*************
+
+The product has a Mini-PCIe slot, you can install a 3G/4G/LTE/GPS module to it if you need 3G/4G/LTE/GPS.
+
+|Product| does not include the 3G/4G/LTE/GPS module by default. This module is optional and can be selected at the Chipsee store during the ordering process.
+
+**Important note**: |m2_4g_conflict|.
+
+RS232/RS485/CAN/Relay
+*********************
+
+The product's RS232/RS485/CAN/Relay can be configured in the factory, these options are supported:
+
+* 2 x RS232, 1 x RS485, 0 x CAN, 1 x Relay **(default)**
+* 1 x RS232, 2 x RS485, 0 x CAN, 1 x Relay
+* 1 x RS232, 1 x RS485, 1 x CAN, 1 x Relay
+* 2 x RS232, 1 x RS485, 1 x CAN, 0 x Relay
+
+Please contact us if you need option 2,3 or 4.
+
+.. warning::   
+
+   | Installation, repair, and maintenance tasks should be performed by trained personnel only.
+   | Chipsee does not bear any responsibility for damage caused by inadequate handling of the product.
+
+:pagebreak:`True`
