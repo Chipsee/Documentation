@@ -1,0 +1,201 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: AIO-RK3576-101
+
+.. |PN| replace:: PN: CS12800-RK3576-101A
+
+.. |Product| replace:: The |product| all in one PC
+
+.. |dispsize| replace:: 10.1"
+
+.. |ram_desc| replace:: 4GB LPDDR5
+
+.. |emmc_desc| replace:: 64GB
+
+.. |npu| replace:: 6 TOPS(Sparsity)@INT8
+
+.. |res| replace:: 1280 x 800
+
+.. |bright| replace:: 400 |cd|
+
+.. |dim| replace:: 260.54 x 178.54 x 26.9mm
+
+.. |weight| replace:: 620g
+
+.. |tscreen| replace:: 10-point capacitive touch with 1.0mm Armored Glass
+
+.. |rk_soc| replace:: RK3576
+
+.. |m2_desc| replace:: M.2 2230/2242 M-key, PCIe Gen 3.0 x1
+
+.. |m2_4g_conflict| replace:: M.2 NVMe SSD cannot be used with 4G/LTE together
+
+.. |rtc_desc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional). 
+
+.. |buzzer| replace:: Onboard Buzzer, driven by GPIO
+
+.. |USB| replace:: 1 x USB 3.0 type-A Host, 1 x USB 2.0 type-A Host, 1 x USB type-C OTG (USB-C can't be used together with USB-A 3.0 port)
+
+.. |LAN| replace:: 1 x Giga LAN (no support for PoE)
+
+.. |GPIO| replace:: N/A
+
+.. |can| replace:: **Default** 0 x CAN; **Optional** 1 x CAN FD BUS. Arbitration Bit Rate up to 1Mbps, Data Bit Rate up to 8Mbps
+
+.. |opt1| replace:: Internal 4G/LTE module supported, not mounted by default
+
+.. |vin_rng| replace:: 15V to 30V DC
+
+.. |cur| replace:: 600mA max at 15V, 500mA typical at 15V
+
+.. |pwr| replace:: 9W Max, 7.5W typical
+
+.. |power_conn_desc| replace:: The power input connector is a 3.4mm O.D x 1.7mm I.D x 9.5mm DC connector, the products also ships with a 3.4x1.7mm to 5.5x2.1mm connector. You can use either 3.4x1.7 or 5.5x2.1 DC power plug. For a proper DC power adapter, refer to the figure below.
+
+.. |temp| replace:: From -20°C to +70°C
+
+.. |storage| replace:: Internal M.2 NVMe connector for SSD (optional), MicroSD Card
+
+.. |audio| replace:: 3.5mm Audio In/Out Connector, 2W Speaker Internal, Internal Front Microphone 
+
+.. |rs232| replace:: 2 x RS232
+
+.. |rs485| replace:: **Default** 1 x RS485; up to 2 x RS485 **(optional)**
+
+.. |relay| replace:: 1 x relay with "Normally Connected" and "Normally Open" output
+
+.. |hdmi| replace:: N/A
+
+.. |wifi_desc| replace:: Integrated WiFi/BT Module
+
+.. |hat| replace:: N/A
+
+.. |os| replace:: Debian 12
+
+.. |sd_socket| replace:: 1 x TF(micro SD) card slot
+
+.. |case_color| replace:: Black / White
+
+.. _product_link: https://chipsee.com/product/aio-rk3576-101/
+
+.. |product_link| replace:: AIO-RK3576-101
+
+.. |power_conn_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-Power-Conn.jpg
+                          :align: middle
+                          :width: 640
+
+.. |power_adapter_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-Power-Adapter.jpg
+                          :align: middle
+                          :width: 450
+
+.. |usb_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-USB.jpg
+                          :align: middle
+                          :width: 640
+
+.. |lan_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-LAN.jpg
+                          :align: middle
+                          :width: 800
+
+.. |sim_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-SIM.jpg
+                          :align: middle
+                          :width: 640
+
+.. |tf_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-TF.jpg
+                          :align: middle
+                          :width: 640
+
+.. |audio_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-Audio.jpg
+                          :align: middle
+                          :width: 640
+
+.. |rs232_485_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-Conn.jpg
+                          :align: middle
+                          :width: 800
+
+.. |status_led_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-Status.jpg
+                          :align: middle
+                          :width: 640
+
+.. |stand_mount_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-Mounting2.jpg
+                          :align: middle
+                          :width: 960
+
+.. |mount_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-Mounting.jpg
+                          :align: middle
+                          :width: 960
+
+.. |btn_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-Btn.jpg
+                          :align: middle
+                          :width: 360
+
+.. |td1_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-TD1.jpg
+                          :align: middle
+                          :width: 960
+
+.. |td2_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-TD2.jpg
+                          :align: middle
+                          :width: 960
+
+.. |Cover PNG| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-Front.png
+
+.. |Front View| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/RK3576/CS12800-RK3576-101A/CS12800-RK3576-101A-Side2.jpg
+                  :class: product-img 
+                  
+.. _AIO-RK3576-101:
+
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: AIO_Resources/overview
+
+.. include:: AIO_Resources/ordering
+
+.. include:: AIO_Resources/CS12800-RK3576-101A/opt_features_aio_rk3576_101
+
+.. include:: AIO_Resources/HW_features
+
+.. include:: AIO_Resources/table
+
+.. include:: AIO_Resources/power
+
+.. include:: AIO_Resources/connectivity
+
+.. include:: AIO_Resources/CS12800-RK3576-101A/rs232_485
+
+.. include:: AIO_Resources/usb
+
+.. include:: AIO_Resources/m2
+
+.. include:: AIO_Resources/lan
+
+.. include:: AIO_Resources/CS12800-RK3576-101A/4G_lte
+
+.. include:: AIO_Resources/tf
+
+.. include:: AIO_Resources/audio
+
+.. include:: AIO_Resources/CS12800-RK3576-101A/btn_boot_aio_rk3576_101
+
+.. include:: AIO_Resources/mounting
+
+.. include:: AIO_Resources/mechanical
+
+.. include:: /PCs/Shared/Hardware/three_d
+
+.. include:: /PCs/Shared/support
+

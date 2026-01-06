@@ -580,6 +580,12 @@
             "pdf-filename": "PPC-RK3576-121",
             "pdf-type": "ipc"
         },
+        "PCs/ARM/RK3576/Manuals/Hardware/CS12800-RK3576-101A": {
+            "pdf-title": "AIO-RK3576-101",
+            "pdf-subtitle": "PN: CS12800-RK3576-101A",
+            "pdf-filename": "AIO-RK3576-101",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/RK3576/Manuals/Hardware/CS12800-RK3576-101P": {
             "pdf-title": "PPC-RK3576-101",
             "pdf-subtitle": "PN: CS12800-RK3576-101P",
