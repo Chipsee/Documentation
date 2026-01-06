@@ -1,0 +1,58 @@
+RS232/RS485/Relay Connector
+---------------------------
+
+The serial communication interfaces (RS485, RS232, and Relay) are routed to a **10-pin 2.5mm connector**, as illustrated on the figure below.
+
+.. rst-class:: text-center
+
+  |rs232_485_img|
+
+  *RS232/RS485/Relay Connector*
+
+The table below offers more detailed description of every pin and its definition:
+
+.. |pin4| replace:: |br| Can be set as CAN0_H or RS485_2+(A) 
+
+.. |pin5| replace:: |br| Can be set as CAN0_L or RS485_2-(B) 
+
+.. table:: RS232/RS485/Relay Connector
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | **RS232 / RS485 / Relay Pin Definition:**                                                                                                     |
+   +================+===============================+==============================================================+===============================+
+   | **Pin Number** | **Definition**                | **Description**                                              | **OS Node**                   |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 1          | GND                           | System Ground                                                |                               |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 2          | RS232_0_RXD                   | CPU UART0, RS232 RXD signal                                  | /dev/ttyFIQ                   |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 3          | RS232_0_TXD                   | CPU UART0, RS232 TXD signal                                  |                               |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 4          | RS232_2_RXD                   | CPU UART2, RS232 RXD signal |pin4|                           | /dev/ttyS2                    |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 5          | RS232_2_TXD                   | CPU UART2, RS232 TXD signal |pin5|                           |                               |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 6          | RS485_3+                      | CPU UART3, RS485 +(A) signal |br|                            | /dev/ttyS3                    |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 7          | RS485_3-                      | CPU UART3, RS485 –(B) signal |br|                            |                               |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 8          | Relay NO                      | Relay Normally Open                                          |                               |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 9          | Relay COM                     | GPIO4_A2, Relay Common |br| Can be set as CAN0 H             |  /dev/relay                   |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 10         | Relay NC                      | Relay Normally Connected  |br| Can be set as CAN0 L          |                               |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+
+.. attention::
+
+    #) The RS232_2 can be set as the RS485 signal (1 x RS232 + 2 x RS485 + 1 x Relay). If you need it to work as RS485, please |contact|_ before shipping.
+    #) The RS232_2 can be set as the CAN signal (1 x RS232 + 1 x RS485 + 1 x CAN + 1 x Relay). If you need it to work as CAN, please |contact|_ before shipping.
+    #) The Relay can be set as the CAN signal (2 x RS232 + 1 x RS485 + 1 x CAN + 0 x Relay). If you need it to work as CAN, please |contact|_ before shipping.
+    #) RS485_3 automatically controls input/output direction. It does not need software control.
+    #) The 120Ω match resistor for the RS485 is **not mounted** by default.
+    #) The Relay Max switching voltage is 125VAC or 60VDC. The maximum switching current is 1A. Rated load is 0.3A at 125VAC and 1A at 30VDC.
+
+:pagebreak:`True`

@@ -1,0 +1,23 @@
+Power Input
+===========
+
+|Product| can be powered by an input voltage of |vin_rng|.
+
+The total power consumption is about |pwr|, depending on the load and brightness. 
+
+|power_conn_desc|
+
+.. rst-class:: text-center
+
+  |power_conn_img|
+  
+  *Power Input*
+
+.. rst-class:: text-center
+
+  |power_adapter_img|
+  
+  *Power Adapter*
+
+:pagebreak:`True`
+
