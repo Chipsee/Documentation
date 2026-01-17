@@ -21,6 +21,6 @@ It is available as a device hosed in an aluminum casing with bezels, thus facili
 
 |Product| is based around the powerful |rk_soc| System on Chip (SoC), powered by the Rockchip |rk_soc| low-power processor which integrates a Quad-core Cortex-A72(1.6GHz) + Quad-core Cortex-A53(1.4GHz) processor, and a |npu| computing power NPU (neural processing unit).
 
-The |rk_soc| supports multi-format video decoders and has a high-performance |RAM| RAM capable of sustaining demanding memory bandwidths. It also provides a complete set of peripheral interfaces.
+The |rk_soc| supports multi-format video decoders and has a high-performance |RAM| RAM capable of sustaining demanding memory bandwidth. It also provides a complete set of peripheral interfaces.
 
 :pagebreak:`True`

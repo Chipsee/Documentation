@@ -12,8 +12,9 @@ Operating System
 
 This product comes with a pre-installed OS of your choice. Please see the list below for the supported OSes, which can also be obtained from the :ref:`Software Documentation <RK3576_OS>` section, along with the detailed installation instructions.
 
-* Debian 12
-* Buildroot Linux Qt 5.15
+- Android 14
+- Debian 12
+- Buildroot Linux Qt 5.15
 
 .. warning::
 

@@ -3,14 +3,13 @@ Touch Screen
 
 |Product| uses a |tscreen|. However, the Debian OS supports only One-Point touch.
 
-The figure below shows the capacitive touch screen connected to the motherboard via the **USB connector**.
+The figure below shows the capacitive touch screen connected to the motherboard via the |cap_screen_conn|.
 
-.. Figure:: /Media/ARM/RK3576/Shared-101/rk3576_USB_Touch.jpg
-  :figclass: align-center
-  :align: center
+.. rst-class:: text-center
+
+   |ts_con_img|
   
-  *Capacitive Touch Connector*
-
+   *Capacitive Touch Connector*
 
 .. attention::
 
