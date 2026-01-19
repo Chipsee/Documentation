@@ -2,6 +2,8 @@
 
 .. include:: Resources/CS12800-RK3576-101P/base_replaces_101P
 
+.. include:: Resources/CS12800-RK3576-101P/image_replaces_101P
+
 .. |product| replace:: PPC-RK3576-101
 
 .. |productP| replace:: PPC-RK3576-101
@@ -29,6 +31,8 @@
 .. |pwr| replace:: 7.5W Typical
 
 .. |temp| replace:: From -20°C to +70°C
+
+.. |vesa_screws| replace:: **75 x 75** mm, 4 x **M4** (6mm)
 
 .. |power_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-Power.jpg
                   :align: middle
@@ -126,7 +130,7 @@
 
 .. include:: Resources/power
 
-.. include:: Resources/cap_screen_usb
+.. include:: Resources/cap_screen
 
 .. include:: Resources/CS12800-RK3576-101P/connectivity_101P
 

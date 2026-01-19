@@ -574,6 +574,18 @@
         "PCs/ARM/RK3568/OS_Downloads/index": {
             "pdf-build": "False"
         },
+        "PCs/ARM/RK3576/Manuals/Hardware/CS-RK3576-BOX": {
+            "pdf-title": "CS-RK3576-BOX",
+            "pdf-subtitle": "PN: CS-RK3576-BOX",
+            "pdf-filename": "CS-RK3576-BOX",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3576/Manuals/Hardware/CS10600-RK3576-070P": {
+            "pdf-title": "PPC-RK3576-070",
+            "pdf-subtitle": "PN: CS10600-RK3576-070P",
+            "pdf-filename": "PPC-RK3576-070",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/RK3576/Manuals/Hardware/CS10768-RK3576-121P": {
             "pdf-title": "PPC-RK3576-121",
             "pdf-subtitle": "PN: CS10768-RK3576-121P",

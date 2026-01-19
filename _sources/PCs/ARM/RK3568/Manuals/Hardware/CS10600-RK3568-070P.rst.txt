@@ -30,7 +30,7 @@
 
 .. |weightE| replace:: NULL
 
-.. |weightP| replace:: null
+.. |weightP| replace:: 700g
 
 .. |RAM| replace:: 4GB LPDDR4
 

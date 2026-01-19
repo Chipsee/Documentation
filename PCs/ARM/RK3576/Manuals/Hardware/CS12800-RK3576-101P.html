@@ -209,13 +209,13 @@
         </li>
         <li class="md-nav__item"><a href="#lan-connector" class="md-nav__link">LAN Connector</a>
         </li>
-        <li class="md-nav__item"><a href="#wifi-bt-module" class="md-nav__link">WiFi & BT Module</a>
+        <li class="md-nav__item"><a href="#wifi-bluetooth-module" class="md-nav__link">WiFi & BlueTooth Module</a>
         </li>
         <li class="md-nav__item"><a href="#g-lte-module" class="md-nav__link">4G/LTE Module</a>
         </li></ul>
             </nav>
         </li>
-        <li class="md-nav__item"><a href="#m-2-ssd-slot" class="md-nav__link">M.2 SSD Slot</a>
+        <li class="md-nav__item"><a href="#m-2-slot" class="md-nav__link">M.2 Slot</a>
         </li>
         <li class="md-nav__item"><a href="#tf-card-slot" class="md-nav__link">TF Card Slot</a>
         </li>
@@ -310,7 +310,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <li><p>Integration with the existing equipment</p></li>
 </ul>
 <p>The PPC-RK3576-101 Industrial Panel PC is based around the powerful RK3576 System on Chip (SoC), powered by the Rockchip RK3576 low-power processor which integrates a Quad-core Cortex-A72(1.6GHz) + Quad-core Cortex-A53(1.4GHz) processor, and a 6 TOPS(Sparsity)@INT8 computing power NPU (neural processing unit).</p>
-<p>The RK3576 supports multi-format video decoders and has a high-performance 4GB LPDDR5 RAM capable of sustaining demanding memory bandwidths. It also provides a complete set of peripheral interfaces.</p>
+<p>The RK3576 supports multi-format video decoders and has a high-performance 4GB LPDDR5 RAM capable of sustaining demanding memory bandwidth. It also provides a complete set of peripheral interfaces.</p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="ordering-options">
@@ -324,6 +324,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <h3 id="operating-system">Operating System<a class="headerlink" href="#operating-system" title="Permalink to this heading">¶</a></h3>
 <p>This product comes with a pre-installed OS of your choice. Please see the list below for the supported OSes, which can also be obtained from the <a class="reference internal" href="../Software/index.html#rk3576-os"><span class="std std-ref">Software Documentation</span></a> section, along with the detailed installation instructions.</p>
 <ul class="simple">
+<li><p>Android 14</p></li>
 <li><p>Debian 12</p></li>
 <li><p>Buildroot Linux Qt 5.15</p></li>
 </ul>
@@ -373,17 +374,17 @@ Some of the key features are listed in the table below.</p>
 <tr class="row-even"><td><p><strong>Storage</strong></p></td>
 <td><p>TF Card, Supports up to 128GB SDHC</p></td>
 </tr>
-<tr class="row-odd"><td><p><strong>M.2</strong></p></td>
-<td><p>Optional, supports M.2 M-Key 2230/2242/2260/2280 NVME SSD (PCI-E 3.0 x1)</p></td>
+<tr class="row-odd"><td><p><strong>PCIe</strong></p></td>
+<td><p>Optional, supports M.2 M-Key 2230/2242/2260/2280 (PCI-E 3.0 x1) module</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>Display</strong></p></td>
 <td><p>10.1” LCD, 1280 x 800, High Brightness: 480 cd/m<sup>2</sup></p></td>
 </tr>
-<tr class="row-odd"><td><p><strong>HDMI</strong></p></td>
-<td><p>1 x HDMI OUT</p></td>
+<tr class="row-odd"><td><p><strong>Touch</strong></p></td>
+<td><p>10-point capacitive touch screen with 1mm Armored Glass</p></td>
 </tr>
-<tr class="row-even"><td><p><strong>Touch</strong></p></td>
-<td><p>10-point capacitive touch screen</p></td>
+<tr class="row-even"><td><p><strong>HDMI</strong></p></td>
+<td><p>1 x HDMI OUT</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>USB</strong></p></td>
 <td><p>1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C (USB3.0 port and USB-C port cannot be used at the same time)</p></td>
@@ -434,7 +435,7 @@ Some of the key features are listed in the table below.</p>
 <td><p>From -20°C to +70°C</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>OS</strong></p></td>
-<td><p>Debian12, Buildroot Linux Qt 5.15</p></td>
+<td><p>Android 14, Debian12, Buildroot Linux Qt 5.15</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>Dimensions</strong></p></td>
 <td><p>PPC-RK3576-101 (PN: CS12800-RK3576-101P): 275.5 x 193.5 x 46.0mm</p></td>
@@ -457,7 +458,8 @@ Some of the key features are listed in the table below.</p>
 </section>
 <section id="power-input">
 <h2 id="power-input">Power Input<a class="headerlink" href="#power-input" title="Permalink to this heading">¶</a></h2>
-<p>The PPC-RK3576-101 Industrial Panel PC can be powered by a wide range of input voltages: From 15V to 30V DC. The power input connector is a <strong>3-pin, 3.81mm terminal</strong>.</p>
+<p>The PPC-RK3576-101 Industrial Panel PC can be powered by a wide range of input voltages: From 15V to 30V DC.</p>
+<p>It is a <strong>3 Pin, 3.81mm screw terminal</strong> connector. As shown in the figure below.</p>
 <p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-RK3576-101P-Power.jpg"><img alt="power_img" class="align-middle" src="../../../../../_images/CS12800-RK3576-101P-Power.jpg" style="width: 576px;"/></a></p>
 <p class="text-center"><em>Power Input</em></p>
 <p>Note that the “<strong>+</strong>” sign represents the positive power input. The “<strong>-</strong>” terminal is shorted to the ground.</p>
@@ -494,14 +496,10 @@ Some of the key features are listed in the table below.</p>
 </section>
 <section id="touch-screen">
 <h2 id="touch-screen">Touch Screen<a class="headerlink" href="#touch-screen" title="Permalink to this heading">¶</a></h2>
-<p>The PPC-RK3576-101 Industrial Panel PC uses a 10-point capacitive touch screen. However, the Debian OS supports only One-Point touch.</p>
-<p>The figure below shows the capacitive touch screen connected to the motherboard via the <strong>USB connector</strong>.</p>
-<figure class="align-center" id="id5">
-<img alt="../../../../../_images/rk3576_USB_Touch.jpg" src="../../../../../_images/rk3576_USB_Touch.jpg"/>
-<figcaption>
-<p><span class="caption-text"><em>Capacitive Touch Connector</em></span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
+<p>The PPC-RK3576-101 Industrial Panel PC uses a 10-point capacitive touch screen with 1mm Armored Glass. However, the Debian OS supports only One-Point touch.</p>
+<p>The figure below shows the capacitive touch screen connected to the motherboard via the USB connector.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/rk3576_USB_Touch.jpg"><img alt="ts_con_img" class="align-middle" src="../../../../../_images/rk3576_USB_Touch.jpg" style="width: 480px;"/></a></p>
+<p class="text-center"><em>Capacitive Touch Connector</em></p>
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
 <p>A capacitive touch screen is susceptible to power noise and Electromagnetic Radiation (EMR). It may cause LCD ripples or even capacitive
@@ -534,8 +532,8 @@ Serial communication on both RS485 and RS232 interfaces can reach up to 115200 k
 </ul>
 </div>
 <p>The table below offers a detailed description of every pin:</p>
-<table id="id6" style="width: 100%">
-<caption><span class="caption-text">RS232/RS485/CAN</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
+<table id="id5" style="width: 100%">
+<caption><span class="caption-text">RS232/RS485/CAN</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head" colspan="5"><p><strong>RS232 / RS485 / CAN</strong></p></th>
 </tr>
@@ -653,8 +651,8 @@ Serial communication on both RS485 and RS232 interfaces can reach up to 115200 k
 <p class="text-center"><em>Isolated GPIO reduced schematic</em></p>
 <p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-RK3576-101P-GPIO.jpg"><img alt="gpio_img" class="align-middle" src="../../../../../_images/CS12800-RK3576-101P-GPIO.jpg" style="width: 1024px;"/></a></p>
 <p class="text-center"><em>GPIO Terminal</em></p>
-<table id="id7" style="width: 100%">
-<caption><span class="caption-text">GPIO Pinout</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
+<table id="id6" style="width: 100%">
+<caption><span class="caption-text">GPIO Pinout</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p><strong>Pin Number</strong></p></th>
 <th class="head"><p><strong>Definition</strong></p></th>
@@ -745,7 +743,7 @@ Serial communication on both RS485 and RS232 interfaces can reach up to 115200 k
 <section id="lan-connector">
 <h3 id="lan-connector">LAN Connector<a class="headerlink" href="#lan-connector" title="Permalink to this heading">¶</a></h3>
 <p><strong>LAN (RJ45) connector</strong> provides 1 x RJ45 Ethernet connectivity over standardized Ethernet cables as shown in the figure below. The integrated Ethernet interface supports up to 1 Gbps data throughput.</p>
-<p>This product also supports <strong>optional</strong> PoE(Power over Ethernet, 802.3af/at), it does not ship with PoE <strong>by default</strong>, if you need PoE, you can choose PoE in the official Chipsee store or contact us before placing an order.</p>
+<p>This product also supports optional PoE(Power over Ethernet, 802.3af/at), it does not ship with PoE by default, if you need PoE, you can choose PoE in the official Chipsee store or contact us before placing an order.</p>
 <p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-RK3576-101P-LAN.jpg"><img alt="LAN_img" class="align-middle" src="../../../../../_images/CS12800-RK3576-101P-LAN.jpg" style="width: 480px;"/></a></p>
 <p class="text-center"><em>RJ45 LAN Connector</em></p>
 <div class="admonition note">
@@ -754,8 +752,8 @@ Serial communication on both RS485 and RS232 interfaces can reach up to 115200 k
 </div>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
-<section id="wifi-bt-module">
-<h3 id="wifi-bt-module">WiFi &amp; BT Module<a class="headerlink" href="#wifi-bt-module" title="Permalink to this heading">¶</a></h3>
+<section id="wifi-bluetooth-module">
+<h3 id="wifi-bluetooth-module">WiFi &amp; BlueTooth Module<a class="headerlink" href="#wifi-bluetooth-module" title="Permalink to this heading">¶</a></h3>
 <p>The PPC-RK3576-101 Industrial Panel PC is equipped with the popular <strong>Realtek RTL8821CS WiFi/BT module</strong> which supports BT/BLE 2.1/3.0/4.2, as well as 802.11ac/abgn 433Mbps 2.4/5.8 GHz Wireless LAN (WLAN).</p>
 <a class="text-center reference internal image-reference" href="../../../../../_images/rk3576_WiFi_BT.jpg"><img alt="../../../../../_images/rk3576_WiFi_BT.jpg" class="text-center align-center" src="../../../../../_images/rk3576_WiFi_BT.jpg" style="width: 360px;"/></a>
 <p class="text-center"><em>RTL8821CS WiFi/BT Module</em></p>
@@ -766,8 +764,10 @@ Serial communication on both RS485 and RS232 interfaces can reach up to 115200 k
 </section>
 <section id="g-lte-module">
 <h3 id="g-lte-module">4G/LTE Module<a class="headerlink" href="#g-lte-module" title="Permalink to this heading">¶</a></h3>
-<p>The PPC-RK3576-101 Industrial Panel PC is equipped with a mini-PCIe connector (through USB CPU lane) that can connect an optional 4G/LTE module. The customer will also need a SIM Card Holder and a 4G/LTE antenna connector to ensure 4G/LTE works. SIM card does NOT support hot plug. Power off before inserting or removing SIM card.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/rk3576_4G_module.jpg"><img alt="../../../../../_images/rk3576_4G_module.jpg" class="text-center align-center" src="../../../../../_images/rk3576_4G_module.jpg" style="width: 240px;"/></a>
+<p>The PPC-RK3576-101 Industrial Panel PC is equipped with a mini-PCIe connector that can connect an optional 4G/LTE module. The customer will also need a SIM Card Holder and a 4G/LTE antenna connector to ensure 4G/LTE works.</p>
+<p>SIM card does <strong>NOT</strong> support hot plug. <strong>Power off</strong> before inserting or removing SIM card.</p>
+<p>M.2 PCIe and 4G/LTE (mini PCIe) can be used at the same time</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/rk3576_4G_module.jpg"><img alt="4g_module_image" class="align-middle" src="../../../../../_images/rk3576_4G_module.jpg" style="width: 480px;"/></a></p>
 <p class="text-center"><em>mini-PCIe Connector &amp; 4G Module</em></p>
 <p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-RK3576-101P-4G_Ant.jpg"><img alt="4g_ant_img" class="align-middle" src="../../../../../_images/CS12800-RK3576-101P-4G_Ant.jpg" style="width: 480px;"/></a></p>
 <p class="text-center"><em>4G/LTE Antenna</em></p>
@@ -780,12 +780,12 @@ Serial communication on both RS485 and RS232 interfaces can reach up to 115200 k
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 </section>
-<section id="m-2-ssd-slot">
-<h2 id="m-2-ssd-slot">M.2 SSD Slot<a class="headerlink" href="#m-2-ssd-slot" title="Permalink to this heading">¶</a></h2>
-<p>There is an <strong>optional</strong> M.2 slot on the PPC-RK3576-101 that allows an optional SSD. The M.2 slot is capable of holding a M.2 M-Key 2230/2242/2260/2280 NVME SSD (PCI-E 3.0 x1).</p>
-<p>The PPC-RK3576-101 does not come shipped with an SSD nor the M.2 slot by default. If you need the M.2 slot or M.2 devices please contact us before placing an order.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/rk3576_M2_Slot.jpg"><img alt="../../../../../_images/rk3576_M2_Slot.jpg" class="text-center align-center" src="../../../../../_images/rk3576_M2_Slot.jpg" style="width: 480px;"/></a>
-<p class="text-center"><em>M.2 2230/2242/2260/2280 Slot for PCI-E 3.0 x1 NVME SSD</em></p>
+<section id="m-2-slot">
+<h2 id="m-2-slot">M.2 Slot<a class="headerlink" href="#m-2-slot" title="Permalink to this heading">¶</a></h2>
+<p>There is an <strong>optional</strong> M.2 slot on the PPC-RK3576-101 that allows an optional SSD. The M.2 slot is capable of holding a M.2 M-Key 2230/2242/2260/2280 (PCI-E 3.0 x1) module. M.2 PCIe and 4G/LTE (mini PCIe) can be used at the same time.</p>
+<p>The PPC-RK3576-101 does not come shipped with an SSD nor an M.2 slot by default. If you need the M.2 slot or M.2 devices please contact us before placing an order.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/rk3576_M2_Slot.jpg"><img alt="m2_module_image" class="align-middle" src="../../../../../_images/rk3576_M2_Slot.jpg" style="width: 480px;"/></a></p>
+<p class="text-center"><em>M.2 Slot (PCIe 3.0 x1)</em></p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="tf-card-slot">
@@ -805,7 +805,7 @@ Serial communication on both RS485 and RS232 interfaces can reach up to 115200 k
 <p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-RK3576-101P-Audio.jpg"><img alt="audio_img" class="align-middle" src="../../../../../_images/CS12800-RK3576-101P-Audio.jpg" style="width: 480px;"/></a></p>
 <p class="text-center"><em>Audio Jack</em></p>
 <p>The miniature 2W embedded speaker is handy for audio reproduction, the small buzzer can play alarm/notification sounds.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/rk3576_buzzer_speaker.jpg"><img alt="../../../../../_images/rk3576_buzzer_speaker.jpg" class="text-center align-center" src="../../../../../_images/rk3576_buzzer_speaker.jpg" style="width: 480px;"/></a>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/rk3576_buzzer_speaker.jpg"><img alt="buzzer_img" class="align-middle" src="../../../../../_images/rk3576_buzzer_speaker.jpg" style="width: 480px;"/></a></p>
 <p class="text-center"><em>2W Micro Speaker and Buzzer</em></p>
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
@@ -832,7 +832,7 @@ Serial communication on both RS485 and RS232 interfaces can reach up to 115200 k
 </section>
 <section id="mounting-procedure">
 <h2 id="mounting-procedure">Mounting Procedure<a class="headerlink" href="#mounting-procedure" title="Permalink to this heading">¶</a></h2>
-<p>You can mount PPC-RK3576-101 with VESA mounting (<a class="reference internal" href="../../../../../TutorialGuide/mount_guide.html#vesa-mguide"><span class="std std-ref">guide</span></a>): <strong>100 x 100</strong> mm, 4 x <strong>M4</strong> (6mm) screws.</p>
+<p>You can mount PPC-RK3576-101 with VESA mounting (<a class="reference internal" href="../../../../../TutorialGuide/mount_guide.html#vesa-mguide"><span class="std std-ref">guide</span></a>): <strong>75 x 75</strong> mm, 4 x <strong>M4</strong> (6mm) screws.</p>
 <p>You can mount PPC-RK3576-101 with PANEL mounting (<a class="reference internal" href="../../../../../TutorialGuide/mount_guide.html#panel-mguide"><span class="std std-ref">guide</span></a>).</p>
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
@@ -883,7 +883,7 @@ Serial communication on both RS485 and RS232 interfaces can reach up to 115200 k
               
           </div>
             Last updated on
-              Jan 06, 2026.
+              Jan 19, 2026.
             <br/>
         </div>
       </div>
