@@ -5,7 +5,7 @@ Optional Features
 
 |Product| does not include M.2 NVMe SSD module by default. The module is optional and can be selected at the Chipsee store during the ordering process.
 
-|Product| does not include PoE(Power over Ethernet) module by default. The module is optional and can be selected at the Chipsee store during the ordering process.
+|Product| |poe_option|.
 
 .. warning::   
 

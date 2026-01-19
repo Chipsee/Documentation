@@ -1,0 +1,63 @@
+.. |rk_soc| replace:: RK3576
+
+.. |RAM| replace:: 4GB LPDDR5
+
+.. |eMMC| replace:: 64GB
+
+.. |uart_des| replace:: This product has 5 x UART by default, 6 x UART channels at most. The default configuration is 2 x RS232 and 3 x RS485, including 1 RS232 debug port. The 3 x RS485 + CAN1 can be configured to 4 x RS232.
+
+.. |m2_spec| replace:: Optional, supports |m2_slot_len| (|m2_4g_conflict|)
+
+.. |m2_desc| replace:: There is an **optional** M.2 slot on the |product| that allows an optional SSD. The M.2 slot is capable of holding a |m2_slot_len|. |m2_4g_conflict|.
+
+.. |m2_slot_len| replace:: M.2 M-Key 2230/2240 (PCI-E 3.0 x1) module 
+
+.. |m2_4g_conflict| replace:: **4G/LTE Mini PCIe cannot be used with M.2 PCIe at the same time**
+
+.. |HDMI_des| replace:: 1 x HDMI-D (Micro-HDMI) Out
+
+.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |USB_conflict| replace:: USB3.0 port and USB-C port cannot be used at the same time
+
+.. |usb_usbc_conflict| replace:: The USB3.0 type-A host and USB-C **can't be used** at the same time. Before boot into OS, USB-C is enabled for installing OS image; after boot into OS, USB-A is enabled but USB-C is disabled. |br| In Android, these can be configured, USB3.0 type A is enabled by default, but you can switch to using USB-C in the software for debugging; in Linux, these can't be configured.
+
+.. |LAN| replace:: 2 x RJ45, GbE
+
+.. |LAN_des| replace:: 2 x RJ45
+
+.. |npu| replace:: 6 TOPS(Sparsity)@INT8
+
+.. |poe| replace:: N/A
+
+.. |poe_option| replace:: does not support PoE
+
+.. |lan_poe_desc| replace:: This product does not support PoE(Power over Ethernet).
+
+.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
+
+.. |gpio_conn| replace:: 10 Pin 3.81mm connector
+
+.. |opt1_4g| replace:: Supported, Optional (|m2_4g_conflict|)
+
+.. |opt2_wifibt| replace:: Integrated WiFi/Bluetooth Module
+
+.. |vin_rng| replace:: From 9V to 30V
+
+.. |power_conn_desc| replace:: There are two DC input interfaces on this device: a **3-pin, 3.81mm screw terminal** connector, and a **2.1mm DC input head**.
+
+.. |rs232| replace:: Default to 2 x RS232 (including 1 debug port). Up to 6 x RS232 by swapping 3 x RS485 + CAN1 to 4 x RS232.
+
+.. |rs485| replace:: Default to 3 x RS485. Optionally, these 3 x RS485 can be configured to RS232.
+
+.. |can| replace:: Default to 2 x CAN FD. Optionally, 1 x CAN(CAN1) can be configured to RS232.
+
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
+.. |buzzer| replace:: Yes
+
+.. |audio| replace:: 3.5mm Audio In/Out Connector, 2W Internal Speaker
+
+.. |storage| replace:: TF Card, Supports up to 128GB SDHC
+
+.. |os_support| replace:: Android 14, Debian12, Buildroot Linux Qt 5.15

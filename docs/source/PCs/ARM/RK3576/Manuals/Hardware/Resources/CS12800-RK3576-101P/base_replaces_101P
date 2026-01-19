@@ -12,9 +12,15 @@
 
 .. |uart_des| replace:: This product has 4 x UART by default, 6 x UART channels at most. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. The 2 x CAN FD can be configured to RS232.
 
-.. |m2_spec| replace:: Optional, supports M.2 M-Key 2230/2242/2260/2280 NVME SSD (PCI-E 3.0 x1)
+.. |m2_spec| replace:: Optional, supports |m2_slot_len|
 
-.. |tscreen| replace:: 10-point capacitive touch screen
+.. |m2_desc| replace:: There is an **optional** M.2 slot on the |product| that allows an optional SSD. The M.2 slot is capable of holding a |m2_slot_len|. |m2_4g_conflict|.
+
+.. |m2_slot_len| replace:: M.2 M-Key 2230/2242/2260/2280 (PCI-E 3.0 x1) module
+
+.. |m2_4g_conflict| replace:: M.2 PCIe and 4G/LTE (mini PCIe) can be used at the same time
+
+.. |tscreen| replace:: 10-point capacitive touch screen with 1mm Armored Glass
 
 .. |HDMI_des| replace:: 1 x HDMI OUT
 
@@ -27,6 +33,10 @@
 .. |LAN| replace:: 1 x RJ45, GbE
 
 .. |LAN_des| replace:: 1 x RJ45
+
+.. |poe_option| replace:: does not include PoE(Power over Ethernet) module by default. The module is optional and can be selected at the Chipsee store during the ordering process
+
+.. |lan_poe_desc| replace:: This product also supports optional PoE(Power over Ethernet, 802.3af/at), it does not ship with PoE by default, if you need PoE, you can choose PoE in the official Chipsee store or contact us before placing an order.
 
 .. |npu| replace:: 6 TOPS(Sparsity)@INT8
 
@@ -42,13 +52,15 @@
 
 .. |vin_rng| replace:: From 15V to 30V
 
+.. |power_conn_desc| replace:: It is a **3 Pin, 3.81mm screw terminal** connector.
+
+.. |cap_screen_conn| replace:: USB connector
+
 .. |rs232| replace:: Default to 2 x RS232 (including 1 debug port). Up to 6 x RS232.
 
 .. |rs485| replace:: Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232.
 
 .. |can| replace:: Default to 2 x CAN FD. Optionally, these 2 x CAN FD can be configured to RS232.
-
-.. |vesa_screws| replace:: **100 x 100** mm, 4 x **M4** (6mm)
 
 .. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
 
@@ -57,3 +69,5 @@
 .. |audio| replace:: 3.5mm Audio In/Out Connector, 2W Internal Speaker
 
 .. |storage| replace:: TF Card, Supports up to 128GB SDHC
+
+.. |os_support| replace:: Android 14, Debian12, Buildroot Linux Qt 5.15

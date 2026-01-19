@@ -1,16 +1,14 @@
-M.2 SSD Slot
-============
+M.2 Slot
+========
 
-There is an **optional** M.2 slot on the |product| that allows an optional SSD. The M.2 slot is capable of holding a M.2 M-Key 2230/2242/2260/2280 NVME SSD (PCI-E 3.0 x1). 
+|m2_desc|
 
-The |product| does not come shipped with an SSD nor the M.2 slot by default. If you need the M.2 slot or M.2 devices please contact us before placing an order.
+The |product| does not come shipped with an SSD nor an M.2 slot by default. If you need the M.2 slot or M.2 devices please contact us before placing an order.
 
 .. rst-class:: text-center
 
-   .. image:: /Media/ARM/RK3576/Shared-101/rk3576_M2_Slot.jpg
-    :align: center
-    :width: 480
+   |m2_module_image|
    
-   *M.2 2230/2242/2260/2280 Slot for PCI-E 3.0 x1 NVME SSD*
+   *M.2 Slot (PCIe 3.0 x1)*
 
 :pagebreak:`True`

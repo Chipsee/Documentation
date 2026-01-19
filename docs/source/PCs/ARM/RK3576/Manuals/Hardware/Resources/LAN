@@ -3,7 +3,7 @@ LAN Connector
 
 **LAN (RJ45) connector** provides |LAN_des| Ethernet connectivity over standardized Ethernet cables as shown in the figure below. The integrated Ethernet interface supports up to 1 Gbps data throughput.
 
-This product also supports **optional** PoE(Power over Ethernet, 802.3af/at), it does not ship with PoE **by default**, if you need PoE, you can choose PoE in the official Chipsee store or contact us before placing an order.
+|lan_poe_desc|
 
 .. rst-class:: text-center
 
