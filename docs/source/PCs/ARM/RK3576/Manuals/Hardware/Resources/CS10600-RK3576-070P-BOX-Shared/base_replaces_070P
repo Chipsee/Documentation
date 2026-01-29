@@ -42,7 +42,7 @@
 
 .. |opt2_wifibt| replace:: Integrated WiFi/Bluetooth Module
 
-.. |vin_rng| replace:: From 9V to 30V
+.. |vin_rng| replace:: From 9V to 30V (supports optional 24V ignition signal)
 
 .. |power_conn_desc| replace:: There are two DC input interfaces on this device: a **3-pin, 3.81mm screw terminal** connector, and a **2.1mm DC input head**.
 

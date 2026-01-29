@@ -38,6 +38,10 @@
                   :align: middle
                   :width: 576
 
+.. |power_img_ignition| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-Ignition.jpg
+                  :align: middle
+                  :width: 640
+
 .. |can_232_485_img| image:: /Media/ARM/RK3576/CS12800-RK3576-101P/CS12800-RK3576-101P-IO.jpg
                    :align: middle
                    :width: 1024
@@ -129,6 +133,8 @@
 .. include:: Resources/table
 
 .. include:: Resources/power
+
+.. include:: Resources/CS12800-RK3576-101P/power_ignition_101P
 
 .. include:: Resources/cap_screen
 
