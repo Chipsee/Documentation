@@ -616,6 +616,12 @@
             "pdf-filename": "PPC-RK3576-156",
             "pdf-type": "ipc"
         },
+        "PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-185P": {
+            "pdf-title": "PPC-RK3576-185",
+            "pdf-subtitle": "PN: CS19108-RK3576-185P",
+            "pdf-filename": "PPC-RK3576-185",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/RK3576/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
