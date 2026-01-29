@@ -38,6 +38,10 @@
                   :align: middle
                   :width: 576
 
+.. |power_img_ignition| image:: /Media/ARM/RK3576/CS-RK3576-BOX/CS-RK3576-BOX-Ignition.jpg
+                  :align: middle
+                  :width: 480
+
 .. |dc_jack_img| image:: /Media/ARM/RK3576/CS-RK3576-BOX/CS-RK3576-BOX-DCJack.jpg
                   :align: middle
                   :width: 576
@@ -135,6 +139,8 @@
 .. include:: Resources/power
 
 .. include:: Resources/CS10600-RK3576-070P-BOX-Shared/power_jack_070P
+
+.. include:: Resources/CS10600-RK3576-070P-BOX-Shared/power_ignition_070P
 
 .. include:: Resources/CS10600-RK3576-070P-BOX-Shared/connectivity_070P
 

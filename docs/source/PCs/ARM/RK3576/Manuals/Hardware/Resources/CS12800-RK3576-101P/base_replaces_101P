@@ -50,7 +50,7 @@
 
 .. |opt2_wifibt| replace:: Integrated WiFi/BT Module
 
-.. |vin_rng| replace:: From 15V to 30V
+.. |vin_rng| replace:: From 15V to 30V (supports optional 24V ignition signal)
 
 .. |power_conn_desc| replace:: It is a **3 Pin, 3.81mm screw terminal** connector.
 
