@@ -163,8 +163,6 @@
 
 .. include:: Resources/mounting
 
-:pagebreak:`True`
-
 .. include:: Resources/mechanical
 
 :pagebreak:`True`
