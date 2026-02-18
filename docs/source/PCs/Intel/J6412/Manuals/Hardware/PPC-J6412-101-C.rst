@@ -26,7 +26,7 @@
 
 .. |pwr| replace:: 16W
 
-.. |disp_des| replace:: |dispsize| resistive touch screen with a resolution of |res| pixels
+.. |disp_des| replace:: |dispsize| capacitive touch screen with a resolution of |res| pixels
 
 .. |ver1.0_download| replace:: :download:`Download Archived Manual: PPC-J6412-101-C-ver1.0.pdf <PDF/PPC-J6412-101-C-ver1.0.pdf>`
 
