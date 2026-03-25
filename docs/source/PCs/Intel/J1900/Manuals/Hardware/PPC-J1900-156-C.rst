@@ -95,6 +95,8 @@
 
 .. include:: Resources/J1900-V2/mechspecs
 
+.. include:: /PCs/Shared/Hardware/cutout_156
+
 .. figure:: /Media/Intel/J1900/156/PPC-J1900-156-C-TD.png
    :align: center
    :figclass: align-center

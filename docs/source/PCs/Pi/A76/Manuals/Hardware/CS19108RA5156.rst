@@ -133,6 +133,8 @@
 
 .. include:: Resources/mechanical
 
+.. include:: /PCs/Shared/Hardware/cutout_156
+
 Please refer to the technical drawing in the figure below for details related to the specific product measurements.
 
 .. rst-class:: text-center

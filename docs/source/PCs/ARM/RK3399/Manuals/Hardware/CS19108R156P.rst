@@ -156,6 +156,8 @@
 
 .. include:: Resources/mechanical
 
+.. include:: /PCs/Shared/Hardware/cutout_156
+
 .. image:: /Media/ARM/A72/CS19108R156P/CS19108R156P-TD.png
    :align: center
    :alt: TD

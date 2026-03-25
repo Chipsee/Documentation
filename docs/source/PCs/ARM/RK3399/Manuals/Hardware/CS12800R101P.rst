@@ -169,6 +169,8 @@ Mechanical Specifications
 ----------
 For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
 
+.. include:: /PCs/Shared/Hardware/cutout_101
+
 :pagebreak:`True`
 
 .. include:: /PCs/Shared/Hardware/three_d
