@@ -167,6 +167,8 @@
 
 .. include:: Resources/mechanical
 
+.. include:: /PCs/Shared/Hardware/cutout_156
+
 .. image:: /Media/ARM/RK3576/CS19108-RK3576-156P/CS19108-RK3576-156P-TD.png
    :align: center
    :alt: TD

@@ -178,6 +178,8 @@
 
 .. include:: Resources/mechanical
 
+.. include:: /PCs/Shared/Hardware/cutout_101
+
 .. rst-class:: text-center
 
    |dimension_img|

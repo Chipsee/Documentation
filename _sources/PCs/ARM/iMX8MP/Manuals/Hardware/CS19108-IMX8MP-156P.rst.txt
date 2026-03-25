@@ -115,6 +115,8 @@
 
 .. include:: Resources/CS12800-IMX8MP-101P/IMX8MP-101-base-includes
 
+.. include:: /PCs/Shared/Hardware/cutout_156
+
 .. rst-class:: text-center
 
    |dimension_img|

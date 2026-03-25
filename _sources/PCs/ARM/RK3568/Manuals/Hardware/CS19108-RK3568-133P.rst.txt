@@ -147,6 +147,8 @@
 
 .. include:: Resources/mechanical
 
+.. include:: /PCs/Shared/Hardware/cutout_133
+
 :pagebreak:`True`
 
 .. include:: /PCs/Shared/support
