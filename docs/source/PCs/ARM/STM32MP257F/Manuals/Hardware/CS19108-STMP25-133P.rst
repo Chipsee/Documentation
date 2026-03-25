@@ -177,6 +177,8 @@
 
 .. include:: Resources/mechanical
 
+.. include:: /PCs/Shared/Hardware/cutout_133
+
 .. rst-class:: text-center
 
    |dimension_img|

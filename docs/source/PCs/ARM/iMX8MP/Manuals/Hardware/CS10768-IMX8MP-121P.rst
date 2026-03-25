@@ -112,6 +112,8 @@
 
 .. include:: Resources/CS12800-IMX8MP-101P/IMX8MP-101-base-includes
 
+.. include:: /PCs/Shared/Hardware/cutout_121
+
 :pagebreak:`True`
 
 Please refer to the technical drawing in the figure below for details related to the specific product measurements.

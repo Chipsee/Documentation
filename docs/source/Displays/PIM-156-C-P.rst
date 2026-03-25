@@ -80,6 +80,8 @@ Specification
 
 .. include:: Resources/mechspecs
 
+.. include:: /PCs/Shared/Hardware/cutout_156
+
 .. figure:: /Media/Displays/PIM-156-P/pim-156p-TD.png
    :figclass: align-center
    :class: no-scaled-link

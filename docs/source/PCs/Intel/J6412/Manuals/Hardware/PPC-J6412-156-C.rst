@@ -92,6 +92,8 @@
 
 .. include:: Resources/mechspecs
 
+.. include:: /PCs/Shared/Hardware/cutout_156
+
 .. figure:: /Media/Intel/J6412/PPC-J6412-156-C/PPC-J6412-156-C-TD.png
    :align: center
    :figclass: align-center
