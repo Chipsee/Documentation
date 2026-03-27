@@ -38,7 +38,7 @@
 
 .. |weightP| replace:: 310g
 
-.. |RAM| replace:: 2GB LPDDR4
+.. |RAM| replace:: 2GB LPDDR4X
 
 .. |SSD| replace:: N/A
 

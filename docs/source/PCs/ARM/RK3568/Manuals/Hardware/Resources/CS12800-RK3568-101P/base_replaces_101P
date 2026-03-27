@@ -1,8 +1,8 @@
 .. |rk_soc| replace:: RK3568
 
-.. |RAM| replace:: Samsung 4GB LPDDR4X, 4266 Mbps
+.. |RAM| replace:: 4GB LPDDR4X
 
-.. |eMMC| replace:: 32GB
+.. |eMMC| replace:: 64GB
 
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
 

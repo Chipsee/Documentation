@@ -36,7 +36,7 @@
 
 .. |SSD| replace:: N/A
 
-.. |eMMC| replace:: 32GB
+.. |eMMC| replace:: 64GB
 
 .. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
 

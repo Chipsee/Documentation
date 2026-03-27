@@ -1,8 +1,8 @@
 .. |rk_soc| replace:: RK3568B2
 
-.. |RAM| replace:: 2GB LPDDR4X
+.. |RAM| replace:: 2GB/4GB
 
-.. |eMMC| replace:: 16GB
+.. |eMMC| replace:: 16GB/64GB
 
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
 
