@@ -32,11 +32,11 @@
 
 .. |storage| replace:: TF Card, Supports up to 128GB SDHC
 
-.. |RAM| replace:: 2GB LPDDR4
+.. |RAM| replace:: 4GB LPDDR4X
 
 .. |SSD| replace:: N/A
 
-.. |eMMC| replace:: 16GB
+.. |eMMC| replace:: 64GB
 
 .. |tscreen| replace:: N/A
 
