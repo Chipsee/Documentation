@@ -24,7 +24,7 @@
 
 .. |storage| replace:: TF Card, Supports up to 128GB SDHC
 
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
+.. |disp_des| replace:: |dispsize| 5-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |disp_table_des| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
 

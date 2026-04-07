@@ -10,6 +10,21 @@ RK3576
    <div class="col">
       <div class="index-item">
 
+5 Inch
+|PPC-RK3576-050|
+
+:ref:`PPC-RK3576-050<PPC-RK3576-050>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
 7 Inch
 |PPC-RK3576-070|
 
@@ -139,6 +154,10 @@ BOX
 
    </div>
 
+.. |PPC-RK3576-050| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3576/Manuals/Hardware/CS12720-RK3576-050P.html
+
 .. |PPC-RK3576-070| image:: /Media/ARM/RK3576/CS10600-RK3576-070P/CS10600-RK3576-070P-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/ARM/RK3576/Manuals/Hardware/CS10600-RK3576-070P.html
@@ -176,6 +195,7 @@ BOX
    :titlesonly:
    :hidden:
 
+   PPC-RK3576-050 </PCs/ARM/RK3576/Manuals/Hardware/CS12720-RK3576-050P>
    PPC-RK3576-070 </PCs/ARM/RK3576/Manuals/Hardware/CS10600-RK3576-070P>
    PPC-RK3576-101 </PCs/ARM/RK3576/Manuals/Hardware/CS12800-RK3576-101P>
    AIO-RK3576-101 </PCs/ARM/RK3576/Manuals/Hardware/CS12800-RK3576-101A>

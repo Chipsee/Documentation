@@ -1,0 +1,224 @@
+.. include:: /PCs/Shared/pdf_options
+
+.. |product| replace:: PPC-RK3576-050
+
+.. |productP| replace:: PPC-RK3576-050
+
+.. |PN| replace:: PN: CS12720-RK3576-050P
+
+.. |Product| replace:: The |product| Industrial Panel PC
+
+.. |dispsize| replace:: 5.0"
+
+.. |res| replace:: 1280 x 720
+
+.. |bright| replace:: 400 |cd|
+
+.. |dimE| replace:: NULL
+
+.. |dimP| replace:: 138.55 x 84.70 x 27.10mm
+
+.. |tscreen| replace:: 5-point capacitive touch screen with 1mm Armored Glass
+
+.. |rk_soc| replace:: RK3576
+
+.. |RAM| replace:: 4GB LPDDR5
+
+.. |eMMC| replace:: 64GB
+
+.. |uart_des| replace:: This product has 4 x UART by default. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. The 2 x RS485 can be configured to 2 x RS232.
+
+.. |HDMI_des| replace:: 1 x HDMI-D (Micro-HDMI) Out
+
+.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
+
+.. |USB_conflict| replace:: USB 3.0 port and USB-C port cannot be used at the same time
+
+.. |usb_usbc_conflict| replace:: The USB 3.0 type-A host and USB-C **can't be used** at the same time. Before boot into OS, USB-C is enabled for installing OS image; after boot into OS, USB-A is enabled but USB-C is disabled. |br| In Android, these can be configured, USB3.0 type A is enabled by default, but you can switch to using USB-C in the software for debugging; in Linux, these can't be configured.
+
+.. |LAN| replace:: 1 x RJ45, GbE
+
+.. |LAN_des| replace:: 1 x RJ45
+
+.. |npu| replace:: 6 TOPS(Sparsity)@INT8
+
+.. |poe| replace:: N/A
+
+.. |poe_option| replace:: does not support PoE
+
+.. |lan_poe_desc| replace:: This product does not support PoE(Power over Ethernet).
+
+.. |opt1_4g| replace:: N/A
+
+.. |opt2_wifibt| replace:: Integrated WiFi/Bluetooth Module
+
+.. |vin_rng| replace:: From 9V to 30V
+
+.. |m2_spec| replace:: N/A
+
+.. |rs232| replace:: Default to 2 x RS232 (including 1 debug port). Up to 4 x RS232 by swapping 2 x RS485 to RS232.
+
+.. |rs485| replace:: Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232. Optionally, 1 x RS485 can be configured to CAN(CAN1)
+
+.. |can| replace:: Default to 1 x CAN FD. Optionally, 1 x RS485 can be configured to CAN(CAN1), providing up to 2 x CAN FD.
+
+.. |GPIO| replace:: N/A
+
+.. |power_conn_desc| replace:: There is a DC input interface on this device: a **3-pin, 3.81mm screw terminal** connector.
+
+.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
+
+.. |buzzer| replace:: Yes
+
+.. |audio| replace:: 3.5mm Audio In/Out Connector, 2W Internal Speaker
+
+.. |storage| replace:: TF Card, Supports up to 128GB SDHC
+
+.. |os_support| replace:: Android 14, Debian12, Buildroot Linux Qt 5.15
+
+.. |cap_screen_conn| replace:: FPC connector
+
+.. |disp_des| replace:: |dispsize| |tscreen| with a resolution of |res| pixels and a brightness of |bright|
+
+.. |disp_table_des| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
+
+.. |mounting_table| replace:: Panel, VESA
+
+.. |weightE| replace:: NULL
+
+.. |weightP| replace:: 310g
+
+.. |cur| replace:: 450mA Max at 15V
+
+.. |pwr| replace:: 5.4W Max
+
+.. |temp| replace:: From -20°C to +60°C
+
+.. |vesa_screws| replace:: **75 x 75** mm, 4 x **M4** (6mm)
+
+
+.. |buzzer_img| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-Buzzer-Speaker.jpg
+                  :align: middle
+                  :width: 480
+
+.. |power_img| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-Power.jpg
+                  :align: middle
+                  :width: 576
+
+.. |can_232_485_img| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-IO.jpg
+                   :align: middle
+                   :width: 800
+
+.. |USBA_img| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-USBA.jpg
+                   :align: middle
+                   :width: 480
+
+.. |USBC_img| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-USBC.jpg
+                   :align: middle
+                   :width: 480
+
+.. |wifi_bt_img| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-WiFiBT.jpg
+                  :align: middle
+                  :width: 480
+
+.. |LAN_img| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-LAN.jpg
+                  :align: middle
+                  :width: 480
+
+.. |TF_img| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-TF.jpg
+                  :align: middle
+                  :width: 480
+
+.. |audio_img| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-Audio.jpg
+                  :align: middle
+                  :width: 480
+
+.. |HDMI_img| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-HDMI.jpg
+                  :align: middle
+                  :width: 480
+
+.. |ts_con_img| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-Touch.jpg
+                  :align: middle
+                  :width: 240
+
+.. |PROG_btn_img| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-Prog_Button.jpg
+                  :align: middle
+                  :width: 480
+
+.. |td_img| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-TD.png
+                  :align: middle
+                  :width: 960
+
+.. _product_link: https://chipsee.com/product/ppc-rk3576-050/
+
+.. |product_link| replace:: |product|
+
+.. |Cover PNG| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-Front.png
+
+.. |Front View| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-Front.jpg
+                  :class: product-img
+
+.. |Rear View| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-Rear.jpg
+                  :class: product-img
+
+.. |Side View 1| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-Side1.jpg
+                  :class: product-img
+
+.. |Side View 2| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-Side2.jpg
+                  :class: product-img                 
+                  
+.. _PPC-RK3576-050:
+
+|product|
+#########
+
+.. rubric:: *Version 1.0*
+    :class: html-only
+
+.. include:: /PCs/Shared/four_main_images
+
+.. include:: Resources/overview
+
+.. include:: Resources/ordering
+
+.. include:: Resources/HW_features
+
+.. include:: Resources/table
+
+.. include:: Resources/power
+
+.. include:: Resources/cap_screen
+
+.. include:: Resources/CS12720-RK3576-050P/connectivity_050P
+
+.. include:: Resources/CS12720-RK3576-050P/connectivity_table_050P
+
+.. include:: Resources/USB
+
+.. include:: Resources/LAN
+
+.. include:: Resources/WiFi_BT
+
+.. include:: Resources/TF_Card
+
+.. include:: Resources/Audio_IO
+
+.. include:: Resources/HDMI
+
+.. include:: Resources/Prog_btn
+
+.. include:: Resources/mounting
+
+:pagebreak:`True`
+
+.. include:: Resources/mechanical
+
+.. rst-class:: text-center
+
+   |td_img|
+
+   *Technical Drawing* (|product|)
+
+:pagebreak:`True`
+
+.. include:: /PCs/Shared/support
