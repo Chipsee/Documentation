@@ -58,9 +58,9 @@
 
 .. |rs232| replace:: Default to 2 x RS232 (including 1 debug port). Up to 4 x RS232 by swapping 2 x RS485 to RS232.
 
-.. |rs485| replace:: Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232. Optionally, 1 x RS485 can be configured to CAN(CAN1)
+.. |rs485| replace:: Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232. Optionally, 1 x RS485 can be configured to CAN(CAN0)
 
-.. |can| replace:: Default to 1 x CAN FD. Optionally, 1 x RS485 can be configured to CAN(CAN1), providing up to 2 x CAN FD.
+.. |can| replace:: Default to 1 x CAN FD. Optionally, 1 x RS485 can be configured to CAN(CAN0), providing up to 2 x CAN FD.
 
 .. |GPIO| replace:: N/A
 
@@ -208,8 +208,6 @@
 .. include:: Resources/Prog_btn
 
 .. include:: Resources/mounting
-
-:pagebreak:`True`
 
 .. include:: Resources/mechanical
 
