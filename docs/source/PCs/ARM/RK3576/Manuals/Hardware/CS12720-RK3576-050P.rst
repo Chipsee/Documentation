@@ -88,7 +88,7 @@
 
 .. |weightP| replace:: 310g
 
-.. |cur| replace:: 450mA Max at 15V
+.. |cur| replace:: 450mA Max at 12V
 
 .. |pwr| replace:: 5.4W Max
 
