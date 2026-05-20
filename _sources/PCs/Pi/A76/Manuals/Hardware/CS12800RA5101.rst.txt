@@ -2,21 +2,13 @@
 
 .. include:: Resources/CS12800RA5101/base_replaces
 
+.. include:: /PCs/Shared/Hardware/basic/101
+
 .. |product| replace:: PPC-CM5-101
 
 .. |productP| replace:: CS12800RA5101P
 
 .. |PN| replace:: PN: CS12800RA5101
-
-.. |dispsize| replace:: 10.1"
-
-.. |res| replace:: 1280 x 800
-
-.. |bright| replace:: 400 |cd|
-
-.. |dimP| replace:: 276 x 194 x 46mm
-
-.. |weightP| replace:: 1600g
 
 .. |vin_rng| replace:: From 15V to 30V (supports optional 24V ignition signal)
 
@@ -132,7 +124,7 @@
 
 .. include:: Resources/mechanical
 
-.. include:: /PCs/Shared/Hardware/cutout_101
+.. include:: /PCs/Shared/Hardware/cutout/101
 
 Please refer to the technical drawing in the figure below for details related to the specific product measurements.
 

@@ -1,5 +1,7 @@
 .. include:: /PCs/Shared/pdf_options
 
+.. include:: /PCs/Shared/Hardware/basic/050
+
 .. |product| replace:: PPC-A55-050
 
 .. |productP| replace:: PPC-A55-050
@@ -9,12 +11,6 @@
 .. |Product| replace:: The |product| Industrial Panel PC
 
 .. |rk_soc| replace:: RK3568
-
-.. |dispsize| replace:: 5"
-
-.. |res| replace:: 1280 x 720
-
-.. |bright| replace:: 400 |cd|
 
 .. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
 
@@ -28,23 +24,11 @@
 
 .. |disp_table_des| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
 
-.. |mounting_table| replace:: Panel, VESA
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 138.55 x 84.70 x 27.10mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 310g
-
 .. |RAM| replace:: 2GB LPDDR4X
 
 .. |SSD| replace:: N/A
 
 .. |eMMC| replace:: 16GB
-
-.. |tscreen| replace:: 5-point capacitive touch screen
 
 .. |HDMI_des| replace:: 1 x HDMI-D 2.0 (Micro-HDMI) Out
 

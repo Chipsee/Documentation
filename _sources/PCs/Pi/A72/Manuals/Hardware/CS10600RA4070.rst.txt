@@ -42,7 +42,7 @@
 
 .. |weightP| replace:: 700g
 
-.. |tscreen| replace:: 5-point capacitive touch with 1mm Armored Glass
+.. |tscreen| replace:: 5-point capacitive touch with 1mm tempered glass
 
 .. |rs232_485_can_ter| replace:: 16-pin 3.81mm terminal
 

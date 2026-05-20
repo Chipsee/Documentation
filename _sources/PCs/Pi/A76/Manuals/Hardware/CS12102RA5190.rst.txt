@@ -2,21 +2,13 @@
 
 .. include:: Resources/CS12800RA5101/base_replaces
 
+.. include:: /PCs/Shared/Hardware/basic/190
+
 .. |product| replace:: PPC-CM5-190
 
 .. |productP| replace:: CS12102RA5190P
 
 .. |PN| replace:: PN: CS12102RA5190
-
-.. |dispsize| replace:: 19.0"
-
-.. |res| replace:: 1280 x 1024
-
-.. |bright| replace:: 300 |cd|
-
-.. |dimP| replace:: 435 x 363 x 53.5mm
-
-.. |weightP| replace:: 5.4kg
 
 .. |vin_rng| replace:: From 15V to 30V (supports optional 24V ignition signal)
 

@@ -2,21 +2,13 @@
 
 .. include:: Resources/CS12800RA5101/base_replaces
 
+.. include:: /PCs/Shared/Hardware/basic/236
+
 .. |product| replace:: PPC-CM5-236
 
 .. |productP| replace:: CS19108RA5236P
 
 .. |PN| replace:: PN: CS19108RA5236
-
-.. |dispsize| replace:: 23.6"
-
-.. |res| replace:: 1920 x 1080
-
-.. |bright| replace:: 250 |cd|
-
-.. |dimP| replace:: 595 x 374 x 57.25mm
-
-.. |weightP| replace:: 7500g
 
 .. |vin_rng| replace:: From 15V to 30V (supports optional 24V ignition signal)
 

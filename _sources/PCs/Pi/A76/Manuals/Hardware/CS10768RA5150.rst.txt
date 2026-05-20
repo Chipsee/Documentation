@@ -2,21 +2,13 @@
 
 .. include:: Resources/CS12800RA5101/base_replaces
 
+.. include:: /PCs/Shared/Hardware/basic/150
+
 .. |product| replace:: PPC-CM5-150
 
 .. |productP| replace:: CS10768RA5150P
 
 .. |PN| replace:: PN: CS10768RA5150
-
-.. |dispsize| replace:: 15.0"
-
-.. |res| replace:: 1024 x 768
-
-.. |bright| replace:: 400 |cd|
-
-.. |dimP| replace:: 376 x 300 x 57mm
-
-.. |weightP| replace:: 4500g
 
 .. |vin_rng| replace:: From 15V to 30V (supports optional 24V ignition signal)
 

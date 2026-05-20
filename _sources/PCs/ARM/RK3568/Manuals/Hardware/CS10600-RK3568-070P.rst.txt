@@ -1,5 +1,7 @@
 .. include:: /PCs/Shared/pdf_options
 
+.. include:: /PCs/Shared/Hardware/basic/070D
+
 .. |product| replace:: PPC-A55-070
 
 .. |productP| replace:: PPC-A55-070
@@ -10,12 +12,6 @@
 
 .. |rk_soc| replace:: RK3568
 
-.. |dispsize| replace:: 7"
-
-.. |res| replace:: 1024 x 600
-
-.. |bright| replace:: 500 |cd|
-
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |disp_table_des| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
@@ -23,12 +19,6 @@
 .. |mounting_table| replace:: Panel, VESA
 
 .. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 3 x RS485, include 1 debug port. 
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 188.05 x 123.11 x 33.20mm
-
-.. |weightE| replace:: NULL
 
 .. |weightP| replace:: 700g
 
@@ -46,7 +36,7 @@
 
 .. |storage| replace:: TF Card, Supports up to 128GB SDHC
 
-.. |tscreen| replace:: 5-point capacitive touch screen
+.. |tscreen| replace:: 5-point capacitive touch screen with |glass_thickness| tempered glass
 
 .. |HDMI_des| replace:: 1 x HDMI-D (Micro-HDMI) Out
 

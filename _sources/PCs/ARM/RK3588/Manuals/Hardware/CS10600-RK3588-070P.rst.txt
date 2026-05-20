@@ -4,15 +4,11 @@
 
 .. |productP| replace:: PPC-A76-070
 
+.. include:: /PCs/Shared/Hardware/basic/070D
+
 .. |PN| replace:: PN: CS10600-RK3588-070P
 
 .. |Product| replace:: The |product| Industrial Panel PC
-
-.. |dispsize| replace:: 7"
-
-.. |res| replace:: 1024 x 600
-
-.. |bright| replace:: 400 |cd|
 
 .. |disp_des| replace:: |dispsize| 5-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
@@ -30,12 +26,6 @@
 
 .. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 3 x RS485, including 1 debug port. CAN0 can be configured to RS232.
 
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 188.05 x 123.11 x 33.20mm
-
-.. |weightE| replace:: NULL
-
 .. |weightP| replace:: 700g
 
 .. |RAM| replace:: 8GB LPDDR4
@@ -44,7 +34,7 @@
 
 .. |eMMC| replace:: 64GB
 
-.. |tscreen| replace:: 5-point capacitive touch screen
+.. |tscreen| replace:: 5-point capacitive touch screen with |glass_thickness| tempered glass
 
 .. |HDMI_des| replace:: 1 x HDMI-D (Micro-HDMI) Out
 

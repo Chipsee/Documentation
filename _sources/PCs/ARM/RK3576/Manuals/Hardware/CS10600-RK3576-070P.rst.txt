@@ -4,6 +4,8 @@
 
 .. include:: Resources/CS10600-RK3576-070P-BOX-Shared/image_replaces_070P
 
+.. include:: /PCs/Shared/Hardware/basic/070D
+
 .. |product| replace:: PPC-RK3576-070
 
 .. |productP| replace:: PPC-RK3576-070
@@ -12,17 +14,7 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 7.0"
-
-.. |res| replace:: 1024 x 600
-
-.. |bright| replace:: 500 |cd|
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 188.05 x 123.11 x 33.20mm
-
-.. |tscreen| replace:: 5-point capacitive touch screen with 1mm Armored Glass
+.. |tscreen| replace:: 5-point capacitive touch screen with |glass_thickness| tempered glass
 
 .. |cap_screen_conn| replace:: FPC connector
 
@@ -31,8 +23,6 @@
 .. |disp_table_des| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
 
 .. |mounting_table| replace:: Panel, VESA
-
-.. |weightE| replace:: NULL
 
 .. |weightP| replace:: 610g
 

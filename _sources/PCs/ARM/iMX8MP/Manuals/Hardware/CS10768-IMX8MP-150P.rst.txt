@@ -2,23 +2,13 @@
 
 .. include:: Resources/CS12800-IMX8MP-101P/IMX8MP-101-base-replaces
 
+.. include:: /PCs/Shared/Hardware/basic/150
+
 .. |product| replace:: PPC-A53-150
 
 .. |productP| replace:: PPC-A53-150
 
 .. |PN| replace:: PN: CS10768-IMX8MP-150P
-
-.. |dispsize| replace:: 15.0"
-
-.. |res| replace:: 1024 x 768
-
-.. |bright| replace:: 400 |cd|
-
-.. |dimP| replace:: 376 x 300 x 57mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 4500g
 
 .. |cur| replace:: 1.60A Max at 12V
 

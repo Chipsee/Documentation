@@ -2,6 +2,8 @@
 
 .. include:: Resources/CS12800-STMP25-101P/base_replaces_CS12800-STMP25-101P
 
+.. include:: /PCs/Shared/Hardware/basic/156
+
 .. |product| replace:: PPC-A35-156
 
 .. |productP| replace:: PPC-A35-156
@@ -10,25 +12,11 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 15.6"
-
-.. |res| replace:: 1920 x 1080
-
-.. |bright| replace:: 400 |cd|
-
 .. |disp_des| replace:: |dispsize| 10-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
 
 .. |disp_table| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
 
 .. |mounting_table| replace:: Panel, VESA
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 400 × 256 × 52.5mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 4500g
 
 .. |temp| replace:: From -30°C to +85°C
 
@@ -36,7 +24,7 @@
 
 .. |pwr| replace:: 19.5W max, 18W typical
 
-.. |tscreen| replace:: 10-point capacitive touch screen
+.. |tscreen| replace:: 10-point capacitive touch screen with |glass_thickness| tempered glass
 
 .. |power_img| image:: /Media/ARM/A35/CS19108-STMP25-156P/CS19108-STMP25-156P-Power.jpg
                   :align: middle
@@ -177,7 +165,7 @@
 
 .. include:: Resources/mechanical
 
-.. include:: /PCs/Shared/Hardware/cutout_156
+.. include:: /PCs/Shared/Hardware/cutout/156
 
 .. rst-class:: text-center
 

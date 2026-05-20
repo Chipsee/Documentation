@@ -16,7 +16,7 @@
 
 .. |bright| replace:: 250 |cd|
 
-.. |disp_des| replace:: |dispsize| resistive touch screen with a resolution of |res| pixels and brightness of |bright|
+.. |disp_des| replace:: |dispsize| resistive touch (1.5mm tempered glass) screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |dimE| replace:: 190 x 112 x 28mm
 

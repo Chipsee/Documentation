@@ -2,27 +2,13 @@
 
 .. include:: Resources/CS12800RA4101/base_replaces_cs12800ra4101
 
-.. |product| replace:: PPC-CM4-170
+.. include:: /PCs/Shared/Hardware/basic/170
 
-.. |productE| replace:: CS12102RA4170E
+.. |product| replace:: PPC-CM4-170
 
 .. |productP| replace:: CS12102RA4170P
 
 .. |PN| replace:: PN: CS12102RA4170
-
-.. |dispsize| replace:: 17.0"
-
-.. |res| replace:: 1280 x 1024
-
-.. |bright| replace:: 340 |cd|
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 398 x 337 x 53.5mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 4.6kg
 
 .. |cur| replace:: 1.31A(12V, typical), 1.50A(12V, max)
 
@@ -30,9 +16,9 @@
 
 .. |temp| replace:: From 0°C to +50°C
 
-.. |dim_desc| replace:: |productP|: |dimP|
+.. |dim_desc| replace:: |dimP|
 
-.. |weight_desc| replace:: |productP|: |weightP|
+.. |weight_desc| replace:: |weightP|
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-170/
 

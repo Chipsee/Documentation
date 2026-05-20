@@ -2,6 +2,8 @@
 
 .. include:: Resources/CS10600-RK3576-070P-BOX-Shared/base_replaces_070P
 
+.. include:: /PCs/Shared/Hardware/basic/box
+
 .. include:: Resources/CS10600-RK3576-070P-BOX-Shared/image_replaces_070P
 
 .. |product| replace:: CS-RK3576-BOX
@@ -11,20 +13,9 @@
 .. |PN| replace:: PN: CS-RK3576-BOX
 
 .. |Product| replace:: The |product| Industrial Box PC
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 209 x 125 x 37.3mm
-
 .. |tscreen| replace:: N/A
 
 .. |disp_table_des| replace:: N/A
-
-.. |mounting_table| replace:: Rear, VESA
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 900g
 
 .. |cur| replace:: 400mA (max) at 15V
 

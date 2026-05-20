@@ -2,6 +2,8 @@
 
 .. include:: Resources/CS12800RA4101/base_replaces_cs12800ra4101
 
+.. include:: /PCs/Shared/Hardware/basic/236
+
 .. |product| replace:: PPC-CM4-236
 
 .. |productE| replace:: CS19108RA4236E
@@ -9,20 +11,6 @@
 .. |productP| replace:: CS19108RA4236P
 
 .. |PN| replace:: PN: CS19108RA4236
-
-.. |dispsize| replace:: 23.6"
-
-.. |res| replace:: 1920 x 1080
-
-.. |bright| replace:: 250 |cd|
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 595 x 374 x 57.25mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 7500g
 
 .. |cur| replace:: 1.96A Max at 12V
 

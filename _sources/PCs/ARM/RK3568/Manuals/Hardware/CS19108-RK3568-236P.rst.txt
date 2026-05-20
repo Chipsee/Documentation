@@ -2,6 +2,8 @@
 
 .. include:: Resources/CS12800-RK3568-101P/base_replaces_101P
 
+.. include:: /PCs/Shared/Hardware/basic/236
+
 .. |product| replace:: PPC-A55-236
 
 .. |productP| replace:: PPC-A55-236
@@ -9,20 +11,6 @@
 .. |PN| replace:: PN: CS19108-RK3568-236P
 
 .. |Product| replace:: The |product| Industrial Panel PC
-
-.. |dispsize| replace:: 23.6"
-
-.. |res| replace:: 1920 x 1080
-
-.. |bright| replace:: 250 |cd|
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 595 x 374 x 57.25mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 7500g
 
 .. |cur| replace:: 2A Max at 12V
 

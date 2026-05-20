@@ -16,7 +16,7 @@
 
 .. |bright| replace:: 500 |cd|
 
-.. |disp_des| replace:: |dispsize| five-point capacitive and four-wire resistive touch screen with a resolution of |res| pixels and brightness of |bright|
+.. |disp_des| replace:: |dispsize| five-point capacitive / four-wire resistive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |dimE| replace:: 190 x 107.8 x 29mm
 
@@ -30,7 +30,7 @@
 
 .. |eMMC| replace:: 4GB
 
-.. |tscreen| replace:: 5-point capacitive and resistive touch
+.. |tscreen| replace:: 5-point capacitive touch with 1mm tempered glass / 5-point resistive touch with 1.5mm tempered glass
 
 .. |USB| replace:: 2 x USB 2.0 Host
 

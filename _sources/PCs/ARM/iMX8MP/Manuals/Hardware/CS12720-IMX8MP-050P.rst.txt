@@ -1,5 +1,7 @@
 .. include:: /PCs/Shared/pdf_options
 
+.. include:: /PCs/Shared/Hardware/basic/050
+
 .. |product| replace:: PPC-A53-050
 
 .. |productP| replace:: PPC-A53-050
@@ -7,12 +9,6 @@
 .. |PN| replace:: PN: CS12720-IMX8MP-050P
 
 .. |Product| replace:: The |product| Industrial Panel PC
-
-.. |dispsize| replace:: 5"
-
-.. |res| replace:: 1280 x 720
-
-.. |bright| replace:: 400 |cd|
 
 .. |disp_des| replace:: |dispsize| 5-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
 
@@ -58,21 +54,9 @@
 
 .. |lan_poe| replace:: No support for Power over Ethernet (PoE) feature on this model.
 
-.. |mounting_table| replace:: Panel, VESA
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 138.55 x 84.70 x 27.10mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 310g
-
 .. |cur| replace:: Max brightness, max CPU load: 0.52A at 12V; Min brightness, idle: 0.25A at 12V.
 
 .. |pwr| replace:: Max brightness, max CPU load: 6.24W; Min brightness, idle: 3W.
-
-.. |tscreen| replace:: 5-point capacitive touch screen
 
 .. |screen_conn_type| replace:: I2C
 

@@ -1,5 +1,7 @@
 .. include:: /PCs/Shared/pdf_options
 
+.. include:: /PCs/Shared/Hardware/basic/101
+
 .. |product| replace:: PPC-A76-101
 
 .. |productP| replace:: PPC-A76-101
@@ -7,12 +9,6 @@
 .. |PN| replace:: PN: CS12800-RK3588-101P
 
 .. |Product| replace:: The |product| Industrial Panel PC
-
-.. |dispsize| replace:: 10.1"
-
-.. |res| replace:: 1280 x 800
-
-.. |bright| replace:: 400 |cd|
 
 .. |disp_des| replace:: |dispsize| 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
@@ -32,19 +28,11 @@
 
 .. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 2 x RS485, including 1 debug port. CAN0 and CAN1 can be configured to RS232.
 
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 275.5 x 193.5 x 46.0mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 1300g
-
 .. |RAM| replace:: 8GB LPDDR4
 
 .. |eMMC| replace:: 64GB
 
-.. |tscreen| replace:: 10-point capacitive touch screen
+.. |tscreen| replace:: 10-point capacitive touch screen with |glass_thickness| tempered glass
 
 .. |HDMI_des| replace:: 1 x HDMI 2.0 Out
 
@@ -231,7 +219,7 @@
 
 .. include:: Resources/mechanical
 
-.. include:: /PCs/Shared/Hardware/cutout_101
+.. include:: /PCs/Shared/Hardware/cutout/101
 
 Please refer to the technical drawing in the figure below for details related to the specific product measurements.
 

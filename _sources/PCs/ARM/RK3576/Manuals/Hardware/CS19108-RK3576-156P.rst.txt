@@ -4,6 +4,8 @@
 
 .. include:: Resources/CS12800-RK3576-101P/image_replaces_101P
 
+.. include:: /PCs/Shared/Hardware/basic/156
+
 .. |product| replace:: PPC-RK3576-156
 
 .. |productP| replace:: PPC-RK3576-156
@@ -11,20 +13,6 @@
 .. |PN| replace:: PN: CS19108-RK3576-156P
 
 .. |Product| replace:: The |product| Industrial Panel PC
-
-.. |dispsize| replace:: 15.6"
-
-.. |res| replace:: 1920 x 1080
-
-.. |bright| replace:: 450 |cd|
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 400 × 256 × 52.5mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 4500g
 
 .. |cur| replace:: 1.5A Max at 15V
 
@@ -167,7 +155,7 @@
 
 .. include:: Resources/mechanical
 
-.. include:: /PCs/Shared/Hardware/cutout_156
+.. include:: /PCs/Shared/Hardware/cutout/156
 
 .. image:: /Media/ARM/RK3576/CS19108-RK3576-156P/CS19108-RK3576-156P-TD.png
    :align: center

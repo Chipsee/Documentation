@@ -1,5 +1,7 @@
 .. include:: /PCs/Shared/pdf_options
 
+.. include:: /PCs/Shared/Hardware/basic/box
+
 .. |product| replace:: CS-A55-BOX
 
 .. |productP| replace:: CS-A55-BOX
@@ -14,15 +16,9 @@
 
 .. |disp_des| replace:: N/A
 
-.. |mounting_table| replace:: Rear, VESA
-
 .. |disp_table_des| replace:: N/A
 
 .. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 3 x RS485, include 1 debug port. 
-
-.. |dimP| replace:: 209 x 125 x 37.3mm
-
-.. |weightP| replace:: 900g
 
 .. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
 

@@ -6,21 +6,17 @@
 
 .. include:: Resources/BOX-070-070D-Shared/base_replaces_070D_BOX
 
-.. |dimP| replace:: 188.05 x 123.11 x 33.20mm
+.. include:: /PCs/Shared/Hardware/basic/070D
+
+.. |dim_desc| replace:: |dimP|
 
 .. |weightP| replace:: 700g
-
-.. |dispsize| replace:: 7"
-
-.. |res| replace:: 1024 x 600
-
-.. |bright| replace:: 500 |cd|
 
 .. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |disp_table| replace:: |dispsize| IPS LCD, |res| px, brightness |bright|
 
-.. |tscreen| replace:: 5-point capacitive touch with 1mm Armored Glass
+.. |tscreen| replace:: 5-point capacitive touch with |glass_thickness| tempered glass
 
 .. |cap_screen_conn| replace:: FPC connector
 
@@ -30,7 +26,7 @@
 
 .. |temp| replace:: From -10°C to +60°C
 
-.. |mounting_table| replace:: |productP|: Panel, VESA
+.. |mounting_table| replace:: Panel, VESA
 
 .. _product_link: https://chipsee.com/product/ppc-cm5-070-d/
 

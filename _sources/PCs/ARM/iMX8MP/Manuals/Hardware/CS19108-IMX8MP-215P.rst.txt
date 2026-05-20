@@ -2,23 +2,15 @@
 
 .. include:: Resources/CS12800-IMX8MP-101P/IMX8MP-101-base-replaces
 
+.. include:: /PCs/Shared/Hardware/basic/215
+
 .. |product| replace:: PPC-A53-215
 
 .. |productP| replace:: PPC-A53-215
 
 .. |PN| replace:: PN: CS19108-IMX8MP-215P
 
-.. |dispsize| replace:: 21.5"
-
-.. |res| replace:: 1920 x 1080
-
-.. |bright| replace:: 250 |cd|
-
-.. |dimP| replace:: 535 x 331 x 52.5mm
-
 .. |weightE| replace:: NULL
-
-.. |weightP| replace:: 5500g
 
 .. |cur| replace:: 2A Max at 12V
 
@@ -27,6 +19,8 @@
 .. |screen_conn_type| replace:: USB
 
 .. |temp| replace:: From 0°C to +50°C
+
+.. |bright| replace:: |bright_shared|
 
 .. |power_img| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-Power.jpg
                   :align: middle

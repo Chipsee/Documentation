@@ -2,27 +2,13 @@
 
 .. include:: Resources/CS12800RA4101/base_replaces_cs12800ra4101
 
-.. |product| replace:: PPC-CM4-215
+.. include:: /PCs/Shared/Hardware/basic/215
 
-.. |productE| replace:: CS19108RA4215E
+.. |product| replace:: PPC-CM4-215
 
 .. |productP| replace:: CS19108RA4215P
 
 .. |PN| replace:: PN: CS19108RA4215
-
-.. |dispsize| replace:: 21.5"
-
-.. |res| replace:: 1920 x 1080
-
-.. |bright| replace:: 250 |cd|
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 535 x 331 x 52.5mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 5500g
 
 .. |cur| replace:: 1500mA Max at 12V
 
@@ -30,9 +16,11 @@
 
 .. |temp| replace:: From 0°C to +50°C
 
-.. |dim_desc| replace:: |productP|: |dimP|
+.. |dim_desc| replace:: |dimP|
 
-.. |weight_desc| replace:: |productP|: |weightP|
+.. |weight_desc| replace:: |weightP|
+
+.. |bright| replace:: |bright_shared|
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-215/
 

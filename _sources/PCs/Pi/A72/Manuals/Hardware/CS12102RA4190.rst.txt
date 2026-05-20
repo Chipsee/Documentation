@@ -2,6 +2,8 @@
 
 .. include:: Resources/CS12800RA4101/base_replaces_cs12800ra4101
 
+.. include:: /PCs/Shared/Hardware/basic/190
+
 .. |product| replace:: PPC-CM4-190
 
 .. |productE| replace:: CS12102RA4190E
@@ -10,29 +12,15 @@
 
 .. |PN| replace:: PN: CS12102RA4190
 
-.. |dispsize| replace:: 19.0"
-
-.. |res| replace:: 1280 x 1024
-
-.. |bright| replace:: 370 |cd|
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 435 x 363 x 53.5mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 5.4kg
-
 .. |cur| replace:: 1.47A(12V, typical), 1.68A(12V, max)
 
 .. |pwr| replace:: 20.16W(max)
 
 .. |temp| replace:: From 0°C to +50°C
 
-.. |dim_desc| replace:: |productP|: |dimP|
+.. |dim_desc| replace:: |dimP|
 
-.. |weight_desc| replace:: |productP|: |weightP|
+.. |weight_desc| replace:: |weightP|
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-190/
 

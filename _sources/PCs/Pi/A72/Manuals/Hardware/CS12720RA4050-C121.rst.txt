@@ -1,8 +1,8 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. |product| replace:: PPC-CM4-050
+.. include:: /PCs/Shared/Hardware/basic/050
 
-.. |productE| replace:: NULL
+.. |product| replace:: PPC-CM4-050
 
 .. |productP| replace:: CS12720RA4050P
 
@@ -18,27 +18,9 @@
 
 .. |usb_hub_conflict| replace:: two USB host connectors
 
-.. |dispsize| replace:: 5"
-
-.. |res| replace:: 1280 x 720
-
-.. |bright| replace:: 400 |cd|
-
 .. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |disp_table| replace:: |dispsize| IPS LCD, |res| resolution \px, brightness |bright|
-
-.. |mounting_table| replace:: |productP|: Panel, VESA
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 138.55 x 84.70 x 27.10mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 310g
-
-.. |tscreen| replace:: 5-point capacitive touch with 1mm Armored Glass
 
 .. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
 
@@ -84,9 +66,9 @@
 
 .. |temp| replace:: From 0°C to +60°C
 
-.. |dim_desc| replace:: |productP|: |dimP|
+.. |dim_desc| replace:: |dimP|
 
-.. |weight_desc| replace:: |productP|: |weightP|
+.. |weight_desc| replace:: |weightP|
 
 .. _product_link: https://chipsee.com/product/ppc-cm4-050/
 

@@ -2,21 +2,13 @@
 
 .. include:: Resources/CS12800RA5101/base_replaces
 
+.. include:: /PCs/Shared/Hardware/basic/170
+
 .. |product| replace:: PPC-CM5-170
 
 .. |productP| replace:: CS12102RA5170P
 
 .. |PN| replace:: PN: CS12102RA5170
-
-.. |dispsize| replace:: 17.0"
-
-.. |res| replace:: 1280 x 1024
-
-.. |bright| replace:: 340 |cd|
-
-.. |dimP| replace:: 398 x 337 x 53.5mm
-
-.. |weightP| replace:: 4.6kg
 
 .. |vin_rng| replace:: From 15V to 30V (supports optional 24V ignition signal)
 

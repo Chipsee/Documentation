@@ -2,27 +2,13 @@
 
 .. include:: Resources/CS12800RA4101/base_replaces_cs12800ra4101
 
-.. |product| replace:: PPC-CM4-150
+.. include:: /PCs/Shared/Hardware/basic/150
 
-.. |productE| replace:: CS10768RA4150E
+.. |product| replace:: PPC-CM4-150
 
 .. |productP| replace:: CS10768RA4150P
 
 .. |PN| replace:: PN: CS10768RA4150
-
-.. |dispsize| replace:: 15"
-
-.. |res| replace:: 1024 x 768
-
-.. |bright| replace:: 400 |cd|
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 376 x 300 x 57mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 4500g
 
 .. |cur| replace:: 1400mA Max at 12V
 
@@ -30,10 +16,9 @@
 
 .. |temp| replace:: From 0°C to +80°C
 
-.. |dim_desc| replace:: |productP|: |dimP|
+.. |dim_desc| replace:: |dimP|
 
-.. |weight_desc| replace:: |productP|: |weightP|
-
+.. |weight_desc| replace:: |weightP|
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-150/
 

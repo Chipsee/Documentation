@@ -2,6 +2,8 @@
 
 .. include:: Resources/BOX-070D-070P-RA4-Shared/base_replaces_4070D
 
+.. include:: /PCs/Shared/Hardware/basic/box
+
 .. |product| replace:: CS-CM4-BOX
 
 .. |productP| replace:: |product|
@@ -9,24 +11,11 @@
 .. |PN| replace:: PN: CSRA4BOX
 
 .. |Product| replace:: The |product| industrial Pi PC
-
 .. |disp_table| replace:: N/A
-
-.. |mounting_table| replace:: |productP|: Rear, VESA
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 209 x 125 x 37.3mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 900g
 
 .. |tscreen| replace:: N/A
 
-.. |dim_desc| replace:: |productP|: |dimP|
-
-.. |weight_desc| replace:: |productP|: |weightP|
+.. |weight_desc| replace:: |weightP|
 
 .. |cap_screen_conn| replace:: FPC connector
 

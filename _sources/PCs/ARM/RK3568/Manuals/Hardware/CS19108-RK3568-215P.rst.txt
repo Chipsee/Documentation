@@ -2,6 +2,8 @@
 
 .. include:: Resources/CS12800-RK3568-101P/base_replaces_101P
 
+.. include:: /PCs/Shared/Hardware/basic/215
+
 .. |product| replace:: PPC-A55-215
 
 .. |productP| replace:: PPC-A55-215
@@ -10,25 +12,13 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 21.5"
-
-.. |res| replace:: 1920 x 1080
-
-.. |bright| replace:: 250 |cd|
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 535 x 331 x 52.5mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 5500g
-
 .. |cur| replace:: 2A Max at 12V
 
 .. |pwr| replace:: 9.6W Typical, 24W Max
 
 .. |temp| replace:: From 0°C to +50°C
+
+.. |bright| replace:: |bright_shared|
 
 .. |power_img| image:: /Media/ARM/A55/CS19108-RK3568-215P/Power.jpg
                   :align: middle

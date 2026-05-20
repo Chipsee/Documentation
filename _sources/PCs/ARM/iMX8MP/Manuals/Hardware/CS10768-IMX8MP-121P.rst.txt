@@ -2,23 +2,13 @@
 
 .. include:: Resources/CS12800-IMX8MP-101P/IMX8MP-101-base-replaces
 
+.. include:: /PCs/Shared/Hardware/basic/121
+
 .. |product| replace:: PPC-A53-121
 
 .. |productP| replace:: PPC-A53-121
 
 .. |PN| replace:: PN: CS10768-IMX8MP-121P
-
-.. |dispsize| replace:: 12.1"
-
-.. |res| replace:: 1024 x 768
-
-.. |bright| replace:: 400 |cd|
-
-.. |dimP| replace:: 320 * 260 * 55.5mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 3100g
 
 .. |cur| replace:: 1000mA Max at 12V
 
@@ -112,7 +102,7 @@
 
 .. include:: Resources/CS12800-IMX8MP-101P/IMX8MP-101-base-includes
 
-.. include:: /PCs/Shared/Hardware/cutout_121
+.. include:: /PCs/Shared/Hardware/cutout/121
 
 :pagebreak:`True`
 

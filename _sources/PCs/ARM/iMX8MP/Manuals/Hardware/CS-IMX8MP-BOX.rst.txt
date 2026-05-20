@@ -2,6 +2,8 @@
 
 .. include:: Resources/BOX-070P-IMX8MP-Shared/base_replaces_CS10600-IMX8MP-070P
 
+.. include:: /PCs/Shared/Hardware/basic/box
+
 .. |product| replace:: CS-A53-BOX
 
 .. |productP| replace:: CS-A53-BOX
@@ -9,16 +11,9 @@
 .. |PN| replace:: PN: CS-IMX8MP-BOX
 
 .. |Product| replace:: The |product| Industrial PC
-
 .. |disp_table| replace:: N/A
 
-.. |mounting_table| replace:: Rear, VESA
-
 .. |tscreen| replace:: N/A
-
-.. |dimP| replace:: 209 x 125 x 37.3mm
-
-.. |weightP| replace:: 900g
 
 .. |cur| replace:: 350mA (max) at 15V
 

@@ -18,7 +18,7 @@
 
 .. |pkg_size| replace:: N/A
 
-.. |glass_thickness| replace:: 3mm
+.. |glass_thickness| replace:: 2mm
 
 .. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
 

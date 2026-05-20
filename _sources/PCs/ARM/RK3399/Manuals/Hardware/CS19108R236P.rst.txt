@@ -1,5 +1,7 @@
 .. include:: /PCs/Shared/pdf_options
 
+.. include:: /PCs/Shared/Hardware/basic/236
+
 .. |product| replace:: PPC-A72-236
 
 .. |productP| replace:: PPC-A72-236
@@ -8,27 +10,13 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 23.6"
-
-.. |res| replace:: 1920 x 1080
-
-.. |bright| replace:: 250 |cd|
-
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 595 x 374 x 57.25mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 7500g
 
 .. |RAM| replace:: 4GB DDR3
 
 .. |eMMC| replace:: 16GB
 
-.. |tscreen| replace:: 10-point capacitive touch screen
+.. |tscreen| replace:: 10-point capacitive touch screen with |glass_thickness| tempered glass
 
 .. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
 

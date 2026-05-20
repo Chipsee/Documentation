@@ -1,5 +1,7 @@
 .. include:: /PCs/Shared/pdf_options
 
+.. include:: /PCs/Shared/Hardware/basic/156
+
 .. |product| replace:: PPC-A72-156-P
 
 .. |productP| replace:: PPC-A72-156-P
@@ -8,27 +10,13 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 15.6"
-
-.. |res| replace:: 1920 x 1080
-
-.. |bright| replace:: 400 |cd|
-
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 400 × 256 × 52.5mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 4500g
 
 .. |RAM| replace:: 4GB DDR3
 
 .. |eMMC| replace:: 16GB
 
-.. |tscreen| replace:: 10-point capacitive touch screen
+.. |tscreen| replace:: 10-point capacitive touch screen with |glass_thickness| tempered glass
 
 .. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
 
@@ -156,7 +144,7 @@
 
 .. include:: Resources/mechanical
 
-.. include:: /PCs/Shared/Hardware/cutout_156
+.. include:: /PCs/Shared/Hardware/cutout/156
 
 .. image:: /Media/ARM/A72/CS19108R156P/CS19108R156P-TD.png
    :align: center

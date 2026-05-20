@@ -1,34 +1,22 @@
 .. include:: /PCs/Shared/pdf_options
 
+.. include:: /PCs/Shared/Hardware/basic/215
+
 .. |product| replace:: PPC-A72-215-P
 
-.. |productP| replace:: PPC-A72-215-P
+.. |productP| replace:: |product|
 
 .. |PN| replace:: PN: CS19108R215P2
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 21.5"
-
-.. |res| replace:: 1920 x 1080
-
-.. |bright| replace:: 250 |cd|
-
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 535 x 331 × 52.5mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 5500g
 
 .. |RAM| replace:: 4GB DDR3
 
 .. |eMMC| replace:: 16GB
 
-.. |tscreen| replace:: 10-point capacitive touch screen
+.. |tscreen| replace:: 10-point capacitive touch screen with |glass_thickness| tempered glass
 
 .. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
 
@@ -47,6 +35,8 @@
 .. |pwr| replace:: 16W Typical, 26.4W Max
 
 .. |temp| replace:: From 0°C to +50°C
+
+.. |bright| replace:: |bright_shared|
 
 .. |rs232| replace:: 3 x RS232 (Optional 5 x RS232 at most, 1 debug port)
 

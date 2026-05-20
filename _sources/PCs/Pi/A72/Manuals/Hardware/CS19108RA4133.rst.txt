@@ -2,6 +2,8 @@
 
 .. include:: Resources/CS12800RA4101/base_replaces_cs12800ra4101
 
+.. include:: /PCs/Shared/Hardware/basic/133
+
 .. |product| replace:: PPC-CM4-133
 
 .. |productE| replace:: CS19108RA4133E
@@ -10,29 +12,15 @@
 
 .. |PN| replace:: PN: CS19108RA4133
 
-.. |dispsize| replace:: 13.3"
-
-.. |res| replace:: 1920 x 1080
-
-.. |bright| replace:: 400 |cd|
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 355 x 225 x 55mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 3000g
-
 .. |cur| replace:: 1333mA Max at 12V
 
 .. |pwr| replace:: 16W Typical
 
 .. |temp| replace:: From 0°C to +60°C
 
-.. |dim_desc| replace:: |productP|: |dimP|
+.. |dim_desc| replace:: |dimP|
 
-.. |weight_desc| replace:: |productP|: |weightP|
+.. |weight_desc| replace:: |weightP|
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-133/
 
@@ -118,7 +106,7 @@
 
 .. include:: Resources/mechanical
 
-.. include:: /PCs/Shared/Hardware/cutout_133
+.. include:: /PCs/Shared/Hardware/cutout/133
 
 :pagebreak:`True`
 

@@ -2,6 +2,8 @@
 
 .. include:: Resources/CS12800RA4101/base_replaces_cs12800ra4101
 
+.. include:: /PCs/Shared/Hardware/basic/101
+
 .. |product| replace:: PPC-CM4-101
 
 .. |productE| replace:: CS12800RA4101E
@@ -10,29 +12,15 @@
 
 .. |PN| replace:: PN: CS12800RA4101P
 
-.. |dispsize| replace:: 10.1"
-
-.. |res| replace:: 1280 x 800
-
-.. |bright| replace:: 400 |cd|
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 276 x 194 x 46mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 1600g
-
 .. |cur| replace:: 800mA Max at 12V
 
 .. |pwr| replace:: 9.6W Typical
 
 .. |temp| replace:: From 0°C to +60°C
 
-.. |dim_desc| replace:: |productP|: |dimP|
+.. |dim_desc| replace:: |dimP|
 
-.. |weight_desc| replace:: |productP|: |weightP|
+.. |weight_desc| replace:: |weightP|
 
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-101/
@@ -129,7 +117,7 @@
 
 .. include:: Resources/mechanical
 
-.. include:: /PCs/Shared/Hardware/cutout_101
+.. include:: /PCs/Shared/Hardware/cutout/101
 
 :pagebreak:`True`
 

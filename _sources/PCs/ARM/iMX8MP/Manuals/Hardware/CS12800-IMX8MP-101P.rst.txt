@@ -2,23 +2,13 @@
 
 .. include:: Resources/CS12800-IMX8MP-101P/IMX8MP-101-base-replaces
 
+.. include:: /PCs/Shared/Hardware/basic/101
+
 .. |product| replace:: PPC-A53-101
 
 .. |productP| replace:: PPC-A53-101
 
 .. |PN| replace:: PN: CS12800-IMX8MP-101P
-
-.. |dispsize| replace:: 10.1"
-
-.. |res| replace:: 1280 x 800
-
-.. |bright| replace:: 400 |cd|
-
-.. |dimP| replace:: 275.5 x 193.5 x 46.0mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 1300g
 
 .. |cur| replace:: Max brightness, max CPU load: 0.97A at 12V; Min brightness, idle: 0.58A at 12V.
 
@@ -115,7 +105,7 @@
 
 .. include:: Resources/CS12800-IMX8MP-101P/IMX8MP-101-base-includes
 
-.. include:: /PCs/Shared/Hardware/cutout_101
+.. include:: /PCs/Shared/Hardware/cutout/101
 
 .. rst-class:: text-center
 

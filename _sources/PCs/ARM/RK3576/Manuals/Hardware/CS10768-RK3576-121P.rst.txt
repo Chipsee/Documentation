@@ -4,6 +4,8 @@
 
 .. include:: Resources/CS12800-RK3576-101P/image_replaces_101P
 
+.. include:: /PCs/Shared/Hardware/basic/121
+
 .. |product| replace:: PPC-RK3576-121
 
 .. |productP| replace:: PPC-RK3576-121
@@ -11,20 +13,6 @@
 .. |PN| replace:: PN: CS10768-RK3576-121P
 
 .. |Product| replace:: The |product| Industrial Panel PC
-
-.. |dispsize| replace:: 12.1"
-
-.. |res| replace:: 1024 x 768
-
-.. |bright| replace:: 350 |cd|
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 320 * 260 * 55.5mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 3100g
 
 .. |cur| replace:: 850mA Max at 15V
 
@@ -166,7 +154,7 @@
 
 .. include:: Resources/mechanical
 
-.. include:: /PCs/Shared/Hardware/cutout_121
+.. include:: /PCs/Shared/Hardware/cutout/121
 
 Please refer to the technical drawing in the figure below for details related to the specific product measurements.
 

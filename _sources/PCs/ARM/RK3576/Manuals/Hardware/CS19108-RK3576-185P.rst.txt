@@ -4,6 +4,8 @@
 
 .. include:: Resources/CS12800-RK3576-101P/image_replaces_101P
 
+.. include:: /PCs/Shared/Hardware/basic/185
+
 .. |product| replace:: PPC-RK3576-185
 
 .. |productP| replace:: PPC-RK3576-185
@@ -12,19 +14,9 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 18.5"
-
-.. |res| replace:: 1920 x 1080
-
-.. |bright| replace:: 350 |cd|
-
 .. |dimE| replace:: NULL
 
-.. |dimP| replace:: 470 x 295 x 53.5mm
-
 .. |weightE| replace:: NULL
-
-.. |weightP| replace:: 5.2kg
 
 .. |cur| replace:: 1.2A Typical at 15V, 1.6A Max at 15V
 

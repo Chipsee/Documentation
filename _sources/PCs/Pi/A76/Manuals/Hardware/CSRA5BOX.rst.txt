@@ -1,16 +1,12 @@
 .. include:: /PCs/Shared/pdf_options
 
+.. include:: /PCs/Shared/Hardware/basic/box
+
 .. |product| replace:: CS-CM5-BOX
 
 .. |productP| replace:: CSRA5BOX
 
 .. include:: Resources/BOX-070-070D-Shared/base_replaces_070D_BOX
-
-.. |mounting_table| replace:: |productP|: Rear, VESA
-
-.. |dimP| replace:: 209 x 125 x 37.3mm
-
-.. |weightP| replace:: 900g
 
 .. |disp_table| replace:: N/A
 

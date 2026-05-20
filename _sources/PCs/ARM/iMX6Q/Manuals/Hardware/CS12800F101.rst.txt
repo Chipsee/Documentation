@@ -28,7 +28,7 @@
 
 .. |eMMC| replace:: 8GB
 
-.. |tscreen| replace:: Capacitive Multi-Point Touch Screen
+.. |tscreen| replace:: Capacitive Multi-Point Touch Screen with 1mm tempered glass
 
 .. |USB| replace:: 2 x USB 2.0 HOST, 1 x USB OTG
 

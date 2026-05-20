@@ -2,23 +2,13 @@
 
 .. include:: Resources/CS12800-IMX8MP-101P/IMX8MP-101-base-replaces
 
+.. include:: /PCs/Shared/Hardware/basic/156
+
 .. |product| replace:: PPC-A53-156
 
 .. |productP| replace:: PPC-A53-156
 
 .. |PN| replace:: PN: CS19108-IMX8MP-156P
-
-.. |dispsize| replace:: 15.6"
-
-.. |res| replace:: 1920 x 1080
-
-.. |bright| replace:: 400 |cd|
-
-.. |dimP| replace:: 400 × 256 × 52.5mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 4500g
 
 .. |cur| replace:: 1.95A Max at 12V
 
@@ -115,7 +105,7 @@
 
 .. include:: Resources/CS12800-IMX8MP-101P/IMX8MP-101-base-includes
 
-.. include:: /PCs/Shared/Hardware/cutout_156
+.. include:: /PCs/Shared/Hardware/cutout/156
 
 .. rst-class:: text-center
 

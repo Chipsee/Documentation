@@ -1,5 +1,7 @@
 .. include:: /PCs/Shared/pdf_options
 
+.. include:: /PCs/Shared/Hardware/basic/box
+
 .. |product| replace:: CS-A76-BOX
 
 .. |productP| replace:: CS-A76-BOX
@@ -14,8 +16,6 @@
 
 .. |dc_in_desc| replace:: There are two DC input interfaces on this device: a **3-pin, 3.81mm terminal**, and a **2.1mm I.D x 5.5mm O.D x 9.5mm DC connector**.
 
-.. |mounting_table| replace:: Rear, VESA
-
 .. |gpu| replace:: ARM Mali-G610 MC4. Up to 8K60 FPS video decoding, up to 8K30 FPS video encoding.
 
 .. |npu| replace:: Neural network acceleration engine with 6Tops int8, support Int4/8/16/FP16/BF16/TF32.
@@ -25,10 +25,6 @@
 .. |disp_table_des| replace:: N/A
 
 .. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 3 x RS485, including 1 debug port. CAN0 can be configured to RS232.
-
-.. |dimP| replace:: 209 x 125 x 37.3mm
-
-.. |weightP| replace:: 900g
 
 .. |RAM| replace:: 8GB LPDDR4
 

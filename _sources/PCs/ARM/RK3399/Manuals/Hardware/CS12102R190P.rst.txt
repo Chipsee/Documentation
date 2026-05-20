@@ -1,5 +1,7 @@
 .. include:: /PCs/Shared/pdf_options
 
+.. include:: /PCs/Shared/Hardware/basic/190
+
 .. |product| replace:: PPC-A72-190-C
 
 .. |productP| replace:: PPC-A72-190-C
@@ -8,27 +10,13 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 19.0"
-
-.. |res| replace:: 1280 x 1024
-
-.. |bright| replace:: 370 |cd|
-
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 435 x 363 x 53.5mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 5.4kg
 
 .. |RAM| replace:: 4GB DDR3
 
 .. |eMMC| replace:: 16GB
 
-.. |tscreen| replace:: 10-point capacitive touch screen
+.. |tscreen| replace:: 10-point capacitive touch screen with |glass_thickness| tempered glass
 
 .. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
 

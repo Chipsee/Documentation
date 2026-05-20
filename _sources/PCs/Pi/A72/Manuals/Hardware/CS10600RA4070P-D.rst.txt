@@ -2,9 +2,9 @@
 
 .. include:: Resources/BOX-070D-070P-RA4-Shared/base_replaces_4070D
 
-.. |product| replace:: PPC-CM4-070-D
+.. include:: /PCs/Shared/Hardware/basic/070D
 
-.. |productE| replace:: NULL
+.. |product| replace:: PPC-CM4-070-D
 
 .. |productP| replace:: CS10600RA4070P-D
 
@@ -12,31 +12,19 @@
 
 .. |Product| replace:: The |product| industrial Pi PC
 
-.. |dispsize| replace:: 7"
-
-.. |res| replace:: 1024 x 600
-
-.. |bright| replace:: 500 |cd|
-
 .. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |mounting_table| replace:: |productP|: Panel, VESA
+.. |mounting_table| replace:: Panel, VESA
 
 .. |disp_table| replace:: |dispsize| IPS LCD, |res| resolution \px, brightness |bright|
 
-.. |dimE| replace:: NULL
-
-.. |dimP| replace:: 188.05 x 123.11 x 33.20mm
-
-.. |weightE| replace:: NULL
-
 .. |weightP| replace:: 700g
 
-.. |tscreen| replace:: 5-point capacitive touch with 1mm Armored Glass
+.. |tscreen| replace:: 5-point capacitive touch with |glass_thickness| tempered glass
 
-.. |dim_desc| replace:: |productP|: |dimP|
+.. |dim_desc| replace:: |dimP|
 
-.. |weight_desc| replace:: |productP|: |weightP|
+.. |weight_desc| replace:: |weightP|
 
 .. |cap_screen_conn| replace:: FPC connector
 

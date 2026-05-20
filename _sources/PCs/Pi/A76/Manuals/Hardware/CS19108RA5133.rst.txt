@@ -2,21 +2,13 @@
 
 .. include:: Resources/CS12800RA5101/base_replaces
 
+.. include:: /PCs/Shared/Hardware/basic/133
+
 .. |product| replace:: PPC-CM5-133
 
 .. |productP| replace:: CS19108RA5133P
 
 .. |PN| replace:: PN: CS19108RA5133
-
-.. |dispsize| replace:: 13.3"
-
-.. |res| replace:: 1920 x 1080
-
-.. |bright| replace:: 400 |cd|
-
-.. |dimP| replace:: 355 x 225 x 55mm
-
-.. |weightP| replace:: 3000g
 
 .. |vin_rng| replace:: From 15V to 30V (supports optional 24V ignition signal)
 
@@ -132,7 +124,7 @@
 
 .. include:: Resources/mechanical
 
-.. include:: /PCs/Shared/Hardware/cutout_133
+.. include:: /PCs/Shared/Hardware/cutout/133
 
 Please refer to the technical drawing in the figure below for details related to the specific product measurements.
 
