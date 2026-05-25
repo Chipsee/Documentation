@@ -592,6 +592,24 @@
             "pdf-filename": "PPC-RK3576-121",
             "pdf-type": "ipc"
         },
+        "PCs/ARM/RK3576/Manuals/Hardware/CS10768-RK3576-150P": {
+            "pdf-title": "PPC-RK3576-150",
+            "pdf-subtitle": "PN: CS10768-RK3576-150P",
+            "pdf-filename": "PPC-RK3576-150",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3576/Manuals/Hardware/CS12102-RK3576-170P": {
+            "pdf-title": "PPC-RK3576-170",
+            "pdf-subtitle": "PN: CS12102-RK3576-170P",
+            "pdf-filename": "PPC-RK3576-170",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3576/Manuals/Hardware/CS12102-RK3576-190P": {
+            "pdf-title": "PPC-RK3576-190",
+            "pdf-subtitle": "PN: CS12102-RK3576-190P",
+            "pdf-filename": "PPC-RK3576-190",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/RK3576/Manuals/Hardware/CS12720-RK3576-050P": {
             "pdf-title": "PPC-RK3576-050",
             "pdf-subtitle": "PN: CS12720-RK3576-050P",
@@ -626,6 +644,12 @@
             "pdf-title": "PPC-RK3576-185",
             "pdf-subtitle": "PN: CS19108-RK3576-185P",
             "pdf-filename": "PPC-RK3576-185",
+            "pdf-type": "ipc"
+        },
+        "PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-215P": {
+            "pdf-title": "PPC-RK3576-215",
+            "pdf-subtitle": "PN: CS19108-RK3576-215P",
+            "pdf-filename": "PPC-RK3576-215",
             "pdf-type": "ipc"
         },
         "PCs/ARM/RK3576/Manuals/Hardware/index": {
