@@ -19,6 +19,8 @@
 
 .. |cap_screen_conn| replace:: FPC connector
 
+.. |vin_rng| replace:: From 9V to 30V
+
 .. |cur| replace:: 360mA (max) at 15V
 
 .. |pwr| replace:: 5.4W (max)
@@ -39,7 +41,7 @@
 
 .. |gpio_img| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-GPIO.jpg
                   :align: middle
-                  :width: 1024
+                  :width: 640
 
 .. |cpu_gpio_schema_img| image:: /Media/Pi/A72/CSRA4BOX/CSRA4BOX-cpu_gpio_schema.png
                   :align: middle
@@ -113,12 +115,16 @@
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images
 
 .. include:: Resources/CSRA4BOX/overview
+
+.. include:: /PCs/Shared/changes
+
+.. include:: Resources/migrations/20260528_power_input
 
 .. include:: Resources/ordering
 

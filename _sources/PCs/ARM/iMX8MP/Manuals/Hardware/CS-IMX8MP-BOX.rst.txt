@@ -19,6 +19,8 @@
 
 .. |pwr| replace:: 5.25W (max)
 
+.. |vin_rng| replace:: From 9V to 30V
+
 .. |temp| replace:: From -40°C to +85°C
 
 .. _product_link: https://chipsee.com/product/cs-a53-box/
@@ -108,12 +110,16 @@
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images
 
 .. include:: Resources/CS-IMX8MP-BOX/overview
+
+.. include:: /PCs/Shared/changes
+
+.. include:: Resources/migrations/20260528_power_input
 
 .. include:: Resources/ordering
 

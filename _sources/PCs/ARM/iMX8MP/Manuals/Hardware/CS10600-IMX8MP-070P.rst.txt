@@ -26,6 +26,8 @@
 
 .. |pwr| replace:: 7.2W Max, 5.4W Idle (Maximum brightness)
 
+.. |vin_rng| replace:: From 6V to 36V
+
 .. |tscreen| replace:: 5-point capacitive touch screen with |glass_thickness| tempered glass
 
 .. |screen_conn_type| replace:: I2C

@@ -39,11 +39,11 @@
 
 .. |can_232_485_img| image:: /Media/ARM/RK3576/CS-RK3576-BOX/CS-RK3576-BOX-IO.jpg
                    :align: middle
-                   :width: 1024
+                   :width: 800
 
 .. |gpio_img| image:: /Media/ARM/RK3576/CS-RK3576-BOX/CS-RK3576-BOX-GPIO.jpg
                    :align: middle
-                   :width: 1024
+                   :width: 768
 
 .. |USBA_img| image:: /Media/ARM/RK3576/CS-RK3576-BOX/CS-RK3576-BOX-USBA.jpg
                    :align: middle

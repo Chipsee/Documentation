@@ -78,7 +78,7 @@
 
 .. |power_img_ignition| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-Power-Ignition.jpg
                   :align: middle
-                  :width: 768
+                  :width: 480
 
 .. |dc_jack_img| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-DCJack.jpg
                   :align: middle

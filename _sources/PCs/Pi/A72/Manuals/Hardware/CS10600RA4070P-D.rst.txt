@@ -20,6 +20,8 @@
 
 .. |weightP| replace:: 700g
 
+.. |vin_rng| replace:: From 6V to 36V
+
 .. |tscreen| replace:: 5-point capacitive touch with |glass_thickness| tempered glass
 
 .. |dim_desc| replace:: |dimP|

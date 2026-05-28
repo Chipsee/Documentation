@@ -72,7 +72,7 @@
 
 .. |power_img_ignition| image:: /Media/Pi/A76/CSRA5BOX/CSRA5BOX-Ignition.jpg     
                   :align: middle
-                  :width: 640
+                  :width: 480
 
 .. |dc_jack_img| image:: /Media/Pi/A76/CSRA5BOX/CSRA5BOX-DCJack.jpg
                   :align: middle
