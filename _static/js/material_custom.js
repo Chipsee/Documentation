@@ -97,7 +97,7 @@ if (sidebar_item != null){
 }
 
 function getStaticBaseUrl() {
-    const script = document.currentScript || document.querySelector('script[src*="/_static/js/material_custom.js"], script[src$="_static/js/material_custom.js"]');
+    const script = document.currentScript || document.querySelector('script[src*="/_static/js/material_custom.fb5da575.js"], script[src$="_static/js/material_custom.fb5da575.js"]');
     return new URL("../", script.src);
 }
 
@@ -107,7 +107,7 @@ const threeDModelAliases = loadThreeDModelAliases();
 
 function loadThreeDModelAliases() {
     let xhr = new XMLHttpRequest();
-    xhr.open('GET', new URL('3d_models/aliases.json', staticBaseUrl).href, false);
+    xhr.open('GET', new URL('3d_models/aliases.43a8860f.json', staticBaseUrl).href, false);
     xhr.send();
     return xhr.status == 200 ? JSON.parse(xhr.responseText) : {};
 }
