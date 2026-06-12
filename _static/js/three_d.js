@@ -3,8 +3,17 @@ import * as THREE from "three";
 import {OrbitControls} from "three/addons/controls/OrbitControls.js";
 import {FBXLoader} from "three/addons/loaders/FBXLoader.js";
 
+async function loadThreeDModelAliases(staticBaseUrl) {
+  const response = await fetch(new URL("3d_models/aliases.json", staticBaseUrl));
+  return response.ok ? response.json() : {};
+}
+
+function resolveThreeDModelName(fbxName, threeDModelAliases) {
+  return threeDModelAliases[fbxName] || fbxName;
+}
+
 // Canvas
-document.onreadystatechange = () => {
+document.onreadystatechange = async () => {
   if (document.readyState === "complete") {
     // Remove this element from Sphinx template layout to make the canvas full screen
     document.querySelector(".md-tabs").remove();
@@ -14,7 +23,9 @@ document.onreadystatechange = () => {
     // the query parameter is used here, to let three.js to pick up the correct 3D model file in the _static folder.
     const urlSearchParams = new URLSearchParams(window.location.search);
     const params = Object.fromEntries(urlSearchParams.entries());
-    const fbx_file = "/docs/_static/3d_models/" + params.productModel + ".fbx";
+    const staticBaseUrl = new URL("../", import.meta.url);
+    const threeDModelAliases = await loadThreeDModelAliases(staticBaseUrl);
+    const fbx_file = new URL(`3d_models/${resolveThreeDModelName(params.productModel, threeDModelAliases)}.fbx`, staticBaseUrl).href;
 
     let camera, scene, renderer;
 

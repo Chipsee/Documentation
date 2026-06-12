@@ -40,11 +40,11 @@ function pr_carousel(indicators, inner) {
     pr_carousel += indicators;
     pr_carousel += inner;
     var btns = `<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" style="background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23EF3D30'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e)" aria-hidden="true"></span>
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
   <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" style="background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23EF3D30'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e)" aria-hidden="true"></span>
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button></div>`;
     pr_carousel += btns;
@@ -96,10 +96,30 @@ if (sidebar_item != null){
     sidebar_menu.style.backgroundColor = "#f4f7f7";
 }
 
+function getStaticBaseUrl() {
+    const script = document.currentScript || document.querySelector('script[src*="/_static/js/material_custom.js"], script[src$="_static/js/material_custom.js"]');
+    return new URL("../", script.src);
+}
+
+const staticBaseUrl = getStaticBaseUrl();
+const docsBaseUrl = new URL("../", staticBaseUrl);
+const threeDModelAliases = loadThreeDModelAliases();
+
+function loadThreeDModelAliases() {
+    let xhr = new XMLHttpRequest();
+    xhr.open('GET', new URL('3d_models/aliases.json', staticBaseUrl).href, false);
+    xhr.send();
+    return xhr.status == 200 ? JSON.parse(xhr.responseText) : {};
+}
+
+function resolveThreeDModelName(fbxName) {
+    return threeDModelAliases[fbxName] || fbxName;
+}
+
 // A helper to test if FBX 3D file exists, otherwise will remove the HTML link element in another function
 function fbxExists(fbxName) {
     let xhr = new XMLHttpRequest();
-    xhr.open('HEAD', `/docs/_static/3d_models/${fbxName}.fbx`, false);
+    xhr.open('HEAD', new URL(`3d_models/${resolveThreeDModelName(fbxName)}.fbx`, staticBaseUrl).href, false);
     xhr.send();
     return xhr.status == 200;
 }
@@ -122,7 +142,9 @@ function addParamToThreeD() {
         if (linkElem) {
             const pcName = `${pcType.toUpperCase()}-${productPN.textContent.split(' ')[0].split('-').slice(1, ).join('-')}`;
             if (fbxExists(pcName)) {
-                linkElem.href += `?productModel=${pcName}`;
+                const threeDUrl = new URL("ThreeD/three_d_model.html", docsBaseUrl);
+                threeDUrl.searchParams.set("productModel", pcName);
+                linkElem.href = threeDUrl.href;
             } else {
                 // For the three links, remove the ones that do not have actual fbx files.
                 linkElem.remove();
@@ -132,4 +154,3 @@ function addParamToThreeD() {
     });
 }
 addParamToThreeD();
-
