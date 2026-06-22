@@ -11,6 +11,7 @@ Operating System
 -----------------
 
 By default, |product| comes with the Linux operating system (OS) pre-installed. A different OS can be selected during the ordering process.
-|product| supports |os_support|. 
+
+Operating system options: |os_support|. 
 
 :pagebreak:`True`
