@@ -8,6 +8,8 @@
 
 .. |dim| replace:: 249.2 x 152 x 34mm
 
+.. |os_support| replace:: Linux(Default), Windows 10
+
 .. _product_link: https://chipsee.com/product/cs86-box-10510u/
 
 .. |product_link| replace:: |product|
