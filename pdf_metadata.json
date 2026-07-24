@@ -652,6 +652,12 @@
             "pdf-filename": "PPC-RK3576-215",
             "pdf-type": "ipc"
         },
+        "PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-236P": {
+            "pdf-title": "PPC-RK3576-236",
+            "pdf-subtitle": "PN: CS19108-RK3576-236P",
+            "pdf-filename": "PPC-RK3576-236",
+            "pdf-type": "ipc"
+        },
         "PCs/ARM/RK3576/Manuals/Hardware/index": {
             "pdf-build": "False"
         },
