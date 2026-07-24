@@ -176,6 +176,21 @@ RK3576
    <div class="col">
       <div class="index-item">
 
+23.6 Inch
+|PPC-RK3576-236|
+
+:ref:`PPC-RK3576-236<PPC-RK3576-236>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
 BOX
 |CS-RK3576-BOX|
 
@@ -262,6 +277,10 @@ BOX
    :class: index-item-img
    :target: /PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-215P.html
 
+.. |PPC-RK3576-236| image:: /Media/ARM/RK3576/CS19108-RK3576-236P/CS19108-RK3576-236P-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-236P.html
+
 .. |CS-RK3576-BOX| image:: /Media/ARM/RK3576/CS-RK3576-BOX/CS-RK3576-BOX-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/ARM/RK3576/Manuals/Hardware/CS-RK3576-BOX.html
@@ -283,5 +302,6 @@ BOX
    PPC-RK3576-185 </PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-185P>
    PPC-RK3576-190 </PCs/ARM/RK3576/Manuals/Hardware/CS12102-RK3576-190P>
    PPC-RK3576-215 </PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-215P>
+   PPC-RK3576-236 </PCs/ARM/RK3576/Manuals/Hardware/CS19108-RK3576-236P>
 
    CS-RK3576-BOX </PCs/ARM/RK3576/Manuals/Hardware/CS-RK3576-BOX>
