@@ -14,9 +14,9 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |cur| replace:: 1.4A Typical at 15V, 1.73A Max at 15V
+.. |cur| replace:: 1.2A Typical at 15V, 1.6A Max at 15V
 
-.. |pwr| replace:: 21W Typical, 26W Max
+.. |pwr| replace:: 18W Typical, 24W Max
 
 .. |temp| replace:: From -20°C to +60°C
 
