@@ -64,7 +64,7 @@
 
 .. |storage| replace:: TF Card, Supports up to 128GB SDHC
 
-.. |os_support| replace:: Android 14, Debian12, Buildroot Linux Qt 5.15
+.. |os_support| replace:: Android 14, Debian12, Buildroot Linux Qt 5.15, Ubuntu 22.04
 
 .. |cap_screen_conn| replace:: FPC connector
 
