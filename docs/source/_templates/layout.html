@@ -44,6 +44,25 @@
       ]
     }
     </script>
+    {%- if breadcrumb_items %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "@id": {{ (pageurl ~ "#breadcrumb")|tojson }},
+      "itemListElement": [
+        {%- for item in breadcrumb_items %}
+        {
+          "@type": "ListItem",
+          "position": {{ loop.index }},
+          "name": {{ item.name|striptags|tojson }}{% if item.url %},
+          "item": {{ item.url|tojson }}{% endif %}
+        }{% if not loop.last %},{% endif %}
+        {%- endfor %}
+      ]
+    }
+    </script>
+    {%- endif %}
 
     <script async src="{{ pathto('_static/vendor/es-module-shims/1.8.0/es-module-shims.js', 1) }}"></script>
 
