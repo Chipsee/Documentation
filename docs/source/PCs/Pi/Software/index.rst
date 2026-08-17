@@ -2,7 +2,7 @@
 
 .. _Pi_OS:
 
-Powered by Raspberry Pi
------------------------
+Powered by Raspberry Pi (Software)
+----------------------------------
 
 .. include:: index

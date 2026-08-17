@@ -2,7 +2,7 @@
 
 .. _IMX6Q_OS:
 
-Powered by NXP i.MX6Q
----------------------
+Powered by NXP i.MX6Q (Software)
+--------------------------------
 
 .. include:: index

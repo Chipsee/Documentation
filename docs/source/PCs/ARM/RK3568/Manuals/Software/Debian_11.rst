@@ -20,8 +20,8 @@
 
 .. include:: Resources/Shared/backup_note
 
-|systemType| OS
-###############
+|chip| |systemType| OS
+######################
 
 .. rst-class:: fs-3 fw-bold text-center
 

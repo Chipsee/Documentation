@@ -2,8 +2,8 @@
 
 .. _AM335X_OS:
 
-Powered by TI
--------------
+Powered by TI (Software)
+------------------------
 
 Software
 ########

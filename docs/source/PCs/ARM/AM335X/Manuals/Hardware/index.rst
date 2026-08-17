@@ -1,6 +1,6 @@
 :pdf-build: False
 
-Powered by TI
--------------
+Powered by TI (Hardware)
+------------------------
 
 .. include:: index

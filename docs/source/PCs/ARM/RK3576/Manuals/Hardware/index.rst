@@ -1,6 +1,6 @@
 :pdf-build: False
 
-Powered by Rockchip RK3576
---------------------------
+Powered by Rockchip RK3576 (Hardware)
+-------------------------------------
 
 .. include:: index
