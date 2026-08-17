@@ -2,7 +2,7 @@
 
 .. _RK3568_OS:
 
-Powered by Rockchip RK3568
---------------------------
+Powered by Rockchip RK3568 (Software)
+-------------------------------------
 
 .. include:: index

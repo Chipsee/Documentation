@@ -3,8 +3,8 @@
 
 .. _naming-rules-Intel:
 
-Product Naming Rules
-####################
+Product Naming Rules (Intel)
+############################
 
 .. raw:: html
 

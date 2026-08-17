@@ -11,7 +11,6 @@ Industrial PCs Powered by STMicroelectronics
 
 
 Software
-########
+========
 
 .. include:: /PCs/ARM/STM32MP257F/Manuals/Software/index
-

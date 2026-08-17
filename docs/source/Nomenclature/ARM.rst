@@ -3,8 +3,8 @@
 
 .. _naming-rules-Arm:
 
-Product Naming Rules
-####################
+Product Naming Rules (ARM)
+##########################
 
 .. raw:: html
 

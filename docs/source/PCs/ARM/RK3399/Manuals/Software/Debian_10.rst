@@ -22,8 +22,8 @@
                   :align: middle
                   :width: 720
 
-|systemType| OS
-###############
+|chip| |systemType| OS
+######################
 
 .. rst-class:: fs-3 fw-bold text-center
 

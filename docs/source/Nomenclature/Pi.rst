@@ -3,8 +3,8 @@
 
 .. _naming-rules-Pi:
 
-Product Naming Rules
-####################
+Product Naming Rules (Pi)
+#########################
 
 .. role:: underline
     :class: underline

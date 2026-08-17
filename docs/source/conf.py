@@ -6,6 +6,7 @@
 from pathlib import Path
 import hashlib
 import shutil
+from urllib.parse import urljoin
 
 from docutils.parsers.rst.directives.images import Image
 from sphinx.environment import BuildEnvironment
@@ -284,9 +285,29 @@ def fingerprint_static_assets(app, exception) -> None:
             _replace_static_references(asset_path, replacements)
 
 
+def add_breadcrumb_context(app, pagename, templatename, context, doctree) -> None:
+    context["breadcrumb_items"] = []
+    pageurl = context.get("pageurl")
+    if app.builder.name != "html" or doctree is None or pagename == "index" or not pageurl:
+        return
+
+    items = [{"name": "Chipsee Documentation", "url": html_baseurl}]
+    for parent in context.get("parents", []):
+        if parent.get("title") and parent.get("link"):
+            items.append({
+                "name": parent["title"],
+                "url": urljoin(pageurl, parent["link"]),
+            })
+
+    if context.get("title"):
+        items.append({"name": context["title"], "url": None})
+        context["breadcrumb_items"] = items
+
+
 def setup(app):
     # Override the existing image directive with our custom image directive
     app.add_directive("image", CustomImageDirective)
+    app.connect("html-page-context", add_breadcrumb_context)
     app.connect("build-finished", fingerprint_static_assets)
 
     return {

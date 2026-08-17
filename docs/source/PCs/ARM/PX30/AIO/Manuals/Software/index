@@ -1,5 +1,5 @@
 For PX30
-========
+~~~~~~~~
 
 .. raw:: html
 
@@ -75,4 +75,3 @@ Doc
    AIO-PX30-101 OS Downloads </PCs/ARM/PX30/AIO/OS_Downloads/index>
    Debian 10 </PCs/ARM/PX30/AIO/Manuals/Software/Debian_10>
    Buildroot Linux Qt 5.14 </PCs/ARM/PX30/AIO/Manuals/Software/Buildroot_Linux_Qt_5_14>
-

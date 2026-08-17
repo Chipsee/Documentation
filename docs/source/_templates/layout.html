@@ -23,6 +23,46 @@
     <meta name="twitter:title" content="{{ title|striptags|e }}">
     <meta name="twitter:description" content="Hardware and software manuals for Chipsee industrial panel PCs, embedded computers, displays and kiosks.">
     <meta name="twitter:image" content="https://chipsee.com/docs/_static/images/og-chipsee-docs.png">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://chipsee.com/#organization",
+      "name": "Chipsee",
+      "url": "https://chipsee.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://chipsee.com/docs/_static/images/logo_header.png",
+        "width": 300,
+        "height": 62
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/chipsee",
+        "https://twitter.com/ChipseeIPC",
+        "https://www.facebook.com/chipseeIPC",
+        "https://www.youtube.com/channel/UCLq5xGP_6Sbw5e0WzUlUgYQ"
+      ]
+    }
+    </script>
+    {%- if breadcrumb_items %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "@id": {{ (pageurl ~ "#breadcrumb")|tojson }},
+      "itemListElement": [
+        {%- for item in breadcrumb_items %}
+        {
+          "@type": "ListItem",
+          "position": {{ loop.index }},
+          "name": {{ item.name|striptags|tojson }}{% if item.url %},
+          "item": {{ item.url|tojson }}{% endif %}
+        }{% if not loop.last %},{% endif %}
+        {%- endfor %}
+      ]
+    }
+    </script>
+    {%- endif %}
 
     <script async src="{{ pathto('_static/vendor/es-module-shims/1.8.0/es-module-shims.js', 1) }}"></script>
 
