@@ -18,7 +18,7 @@ Industrial PCs Powered by Rockchip
 .. include:: /PCs/ARM/PX30/AIO/Manuals/Hardware/index
 
 Software
-########
+========
 
 .. include:: /PCs/ARM/RK3399/Manuals/Software/index
 
