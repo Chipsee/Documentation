@@ -5,8 +5,8 @@
 
 .. _imx6ul_os_linuxqt55:
 
-|systemType| OS
-###############
+i.MX6UL |systemType| OS
+#######################
 
 .. centered:: Chipsee |systemType| OS User Manual
 

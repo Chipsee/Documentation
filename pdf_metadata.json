@@ -1183,17 +1183,11 @@
             "pdf-filename": "HPC-MT6737-035",
             "pdf-type": "ipc"
         },
-        "PCs/MTK/MT6737/Manuals/Hardware/index": {
-            "pdf-build": "False"
-        },
         "PCs/MTK/MT6762/Manuals/Hardware/HPC-MT6762-057": {
             "pdf-title": "HPC-MT6762-057",
             "pdf-subtitle": "PN: HPC-MT6762-057",
             "pdf-filename": "HPC-MT6762-057",
             "pdf-type": "ipc"
-        },
-        "PCs/MTK/MT6762/Manuals/Hardware/index": {
-            "pdf-build": "False"
         },
         "PCs/MTK/MT6765/Manuals/Hardware/HPC-MT6765-101": {
             "pdf-title": "HPC-MT6765-101",
@@ -1206,9 +1200,6 @@
             "pdf-subtitle": "PN: HPC-MT6771-080",
             "pdf-filename": "HPC-MT6771-080",
             "pdf-type": "ipc"
-        },
-        "PCs/MTK/MT6771/Manuals/Hardware/index": {
-            "pdf-build": "False"
         },
         "PCs/MTK/MT6877/Manuals/Hardware/HPC-MT6877-080": {
             "pdf-title": "HPC-MT6877-080",

@@ -10,8 +10,8 @@
 .. |pswd| replace:: raspberry
 
 
-|systemType| OS
-###############
+Raspberry Pi CM3/CM4 OS User Manual
+###################################
 
 .. centered:: |systemType| OS User Manual
 

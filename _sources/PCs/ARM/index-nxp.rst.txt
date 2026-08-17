@@ -14,7 +14,7 @@ Industrial PCs Powered by NXP
 .. include:: /PCs/ARM/iMX6UL/Manuals/Hardware/index
 
 Software
-########
+========
 
 .. include:: /PCs/ARM/iMX8MP/Manuals/Software/index
 

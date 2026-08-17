@@ -128,8 +128,8 @@
 .. _PTV-MT8788-215:
 
 
-|p_title|
-#########
+|product| |p_title|
+#####################
 
 .. include:: /PCs/Shared/four_main_images
 

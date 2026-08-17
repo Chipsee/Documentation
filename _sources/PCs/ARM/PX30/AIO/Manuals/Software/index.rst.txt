@@ -2,7 +2,7 @@
 
 .. _PX30_OS:
 
-Powered by Rockchip PX30
-------------------------
+Powered by Rockchip PX30 (Software)
+-----------------------------------
 
 .. include:: index

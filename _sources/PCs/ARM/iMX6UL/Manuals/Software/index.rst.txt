@@ -2,7 +2,7 @@
 
 .. _CS10600U070_OS:
 
-Powered by NXP i.MX6UL
-----------------------
+Powered by NXP i.MX6UL (Software)
+---------------------------------
 
 .. include:: index

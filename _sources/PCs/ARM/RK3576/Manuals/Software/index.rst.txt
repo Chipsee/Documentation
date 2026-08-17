@@ -2,7 +2,7 @@
 
 .. _RK3576_OS:
 
-Powered by Rockchip RK3576
---------------------------
+Powered by Rockchip RK3576 (Software)
+-------------------------------------
 
 .. include:: index
