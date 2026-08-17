@@ -66,6 +66,8 @@ html_logo = "_static/images/logo-chipsee-white.png"
 html_favicon = "_static/images/favicon.webp"
 # Set link name generated in the top bar.
 html_title = "Chipsee"
+# Public URL used for canonical links and Open Graph page URLs.
+html_baseurl = "https://chipsee.com/docs/"
 # Material theme options (see theme.conf for more information)
 html_theme_options = {
     # Set the name of the project to appear in the navigation.
