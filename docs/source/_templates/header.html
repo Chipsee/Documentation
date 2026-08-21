@@ -37,6 +37,7 @@
               <li><a class="dropdown-item" href="{{ pathto('PCs/ARM/AM335X/index.html', 1) }}">Powered by TI</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="{{ pathto('PCs/Intel/index.html', 1) }}">Powered by INTEL</a></li>
+
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -46,6 +47,10 @@
             <ul class="dropdown-menu" id="nav-dropdown-secondary">
               <li>
                 <a class="dropdown-item" href="{{ pathto('PCs/Pi/index.html', 1) }}{% if current_page_name != 'PCs/Pi/index' %}#kiosks{% endif %}{% if current_page_name == 'PCs/Pi/index' %}kiosks{% endif %}">Kiosks</a>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <li><a class="dropdown-item" href="{{ pathto('PCs/ESP32/index.html', 1) }}">ESP32 Smart Display</a></li>
               </li>
               <li><hr class="dropdown-divider"></li>
               <li>

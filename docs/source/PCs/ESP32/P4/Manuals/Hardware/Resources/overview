@@ -1,0 +1,29 @@
+Product Overview
+=================
+
+|Product| (|PN|) is an all-in-one programmable capacitive touch smart display featuring an ESP32 P4 processor.
+
+The product features a lightweight plastic enclosure available in black or white. It can be used as a portable device or mounted in a fixed location.
+
+It features a |dispsize| IPS display with a maximum brightness of |bright|. The touch screen is a responsive capacitive screen and supports multi-touch.
+
+The product is powered by an ESP32-P4 processor, making it suitable for applications such as:
+
+• Smart Home
+• Industrial Automation
+• Healthcare
+• Consumer Electronics
+• Smart Agriculture
+• Retail Self-Service Terminals (POS, Vending Machines)
+• Service Robots
+• Multimedia Player
+• Cameras for Video Streaming
+• High-Speed USB Host and Device
+• Smart Voice Interaction Terminal
+• Edge Vision AI Processor
+• HMI Control Panel
+
+The product can be programmed with ESP-IDF, ESPHome and other ESP32 ecosystem tools and frameworks that support the ESP32-P4.
+
+
+:pagebreak:`True`

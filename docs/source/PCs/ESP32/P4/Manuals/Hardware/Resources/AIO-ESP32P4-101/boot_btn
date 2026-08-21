@@ -1,0 +1,52 @@
+Buttons and Status LED
+======================
+
+Status LED
+----------
+
+This product has a status LED. The LED turns RED after power on, turns GREEN when the system is booted.
+
+.. rst-class:: text-center
+
+  |status_led_img|
+
+  *Status LED*
+
+:pagebreak:`True`
+
+Buttons
+-------
+
+There are 3 buttons on the back side:  Power on/off, BOOT and RESET.
+
+.. rst-class:: text-center
+
+  |btn_img|
+
+  *Buttons*
+
+What every button does:
+
+- PWR: 
+
+  #) Before powering on: press to power on.
+  #) After powering on: hold 5 seconds to force power off.
+- BOOT Mode: Press the button before and while powering on: enter flashing mode to download program to the device.
+- RESET: Reboots the device.
+
+..
+  .. note::
+    
+    **How to swap the Auto Boot and Manual Boot mode?**
+
+    By default the product boots automatically when apply power to it.
+
+    *To change from auto boot to manual boot:*
+
+    Press and hold **Vol+, Vol-** buttons, apply power, hold for 3 seconds, release. Then the product will be changed to manual boot mode.
+
+    *To change from manual boot to auto boot:*
+
+    Press and hold **Vol+, Vol-** buttons, apply power, tap PWR once to power on, hold Vol+, Vol- for 3 seconds, release. Then the product will be changed to auto boot mode.
+
+:pagebreak:`True`

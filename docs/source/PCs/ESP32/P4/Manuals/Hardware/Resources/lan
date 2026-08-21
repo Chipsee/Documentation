@@ -1,0 +1,12 @@
+LAN
+---
+
+**LAN (RJ45) connector** provides Ethernet connectivity over standardized Ethernet cable. The integrated Ethernet interface supports up to 100 Mbps data throughput.
+
+.. rst-class:: text-center
+
+  |lan_img|
+
+  *RJ45 LAN Connector*
+
+:pagebreak:`True`
