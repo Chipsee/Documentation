@@ -1,0 +1,816 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="lang:clipboard.copy" content="Copy to clipboard">
+  <meta name="lang:clipboard.copied" content="Copied to clipboard">
+  <meta name="lang:search.language" content="en">
+  <meta name="lang:search.pipeline.stopwords" content="True">
+  <meta name="lang:search.pipeline.trimmer" content="True">
+  <meta name="lang:search.result.none" content="No matching documents">
+  <meta name="lang:search.result.one" content="1 matching document">
+  <meta name="lang:search.result.other" content="# matching documents">
+  <meta name="lang:search.tokenizer" content="[\s\-]+">
+
+  
+    <link href="../../../../../_static/vendor/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/application.css"/>
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/application-palette.css"/>
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/application-fixes.css"/>
+  
+  <link rel="stylesheet" href="../../../../../_static/fonts/material-icons.css"/>
+  
+  <meta name="theme-color" content="#3f51b5">
+  <script src="../../../../../_static/javascripts/modernizr.js"></script>
+  
+  
+  
+    <title>AIO-ESP32P4-101 &#8212; Chipsee</title>
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/material.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/css/material_custom.1f7cc54a.css" />
+    <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
+    <script src="../../../../../_static/jquery.js"></script>
+    <script src="../../../../../_static/underscore.js"></script>
+    <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../../../../_static/doctools.js"></script>
+    <script src="../../../../../_static/sphinx_highlight.js"></script>
+    <script src="../../../../../_static/clipboard.min.js"></script>
+    <script src="../../../../../_static/copybutton.js"></script>
+    <script src="../../../../../_static/design-tabs.js"></script>
+    <link rel="canonical" href="https://chipsee.com/docs/PCs/ESP32/P4/Manuals/Hardware/CS12800-ESP32P4-101A.html" />
+    <link rel="shortcut icon" href="../../../../../_static/favicon.webp"/>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Industrial Touch Displays" href="../../../../../Displays/index.html" />
+    <link rel="prev" title="Industrial Smart Displays Powered by Espressif" href="../../../index.html" />
+    
+  
+   
+
+    <meta name="description" content="Hardware and software manuals for Chipsee industrial panel PCs, embedded computers, displays and kiosks.">
+    <meta property="og:title" content="AIO-ESP32P4-101">
+    <meta property="og:description" content="Hardware and software manuals for Chipsee industrial panel PCs, embedded computers, displays and kiosks.">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Chipsee Documentation">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://chipsee.com/docs/_static/images/og-chipsee-docs.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://chipsee.com/docs/PCs/ESP32/P4/Manuals/Hardware/CS12800-ESP32P4-101A.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AIO-ESP32P4-101">
+    <meta name="twitter:description" content="Hardware and software manuals for Chipsee industrial panel PCs, embedded computers, displays and kiosks.">
+    <meta name="twitter:image" content="https://chipsee.com/docs/_static/images/og-chipsee-docs.png">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://chipsee.com/#organization",
+      "name": "Chipsee",
+      "url": "https://chipsee.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://chipsee.com/docs/_static/images/logo_header.png",
+        "width": 300,
+        "height": 62
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/chipsee",
+        "https://twitter.com/ChipseeIPC",
+        "https://www.facebook.com/chipseeIPC",
+        "https://www.youtube.com/channel/UCLq5xGP_6Sbw5e0WzUlUgYQ"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "@id": "https://chipsee.com/docs/PCs/ESP32/P4/Manuals/Hardware/CS12800-ESP32P4-101A.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Chipsee Documentation",
+          "item": "https://chipsee.com/docs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Industrial Panel \u0026 Embedded PCs",
+          "item": "https://chipsee.com/docs/PCs/index.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Industrial Smart Displays Powered by Espressif",
+          "item": "https://chipsee.com/docs/PCs/ESP32/index.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "AIO-ESP32P4-101"
+        }
+      ]
+    }
+    </script>
+
+    <script async src="../../../../../_static/vendor/es-module-shims/1.8.0/es-module-shims.js"></script>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "../../../../../_static/vendor/three/0.155/build/three.module.js",
+          "three/addons/": "../../../../../_static/vendor/three/0.155/examples/jsm/"
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MP6B40CSCF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-MP6B40CSCF');
+    </script>
+    <!-- Ends Google tag (gtag.js) -->
+
+  </head>
+  <body dir=ltr
+        data-md-color-primary=deep-orange data-md-color-accent=deep-orange>
+  
+  <svg class="md-svg">
+    <defs data-children-count="0">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+      
+    </defs>
+  </svg>
+  
+  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">
+  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">
+  <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+  <a href="#PCs/ESP32/P4/Manuals/Hardware/CS12800-ESP32P4-101A" tabindex="1" class="md-skip"> Skip to content </a>
+  <header>
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex navheader">
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+            <span class="md-header-nav__topic"> AIO-ESP32P4-101 </span>
+            <span class="md-header-nav__topic"> AIO-ESP32P4-101 </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-md-component="header">
+    <div class="container">
+      <a class="navbar-brand pt-0" href="../../../../../index.html">
+        <img src="../../../../../_static/images/logo_dark.png" height="30" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav fs-6 me-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Industrial PCs
+            </a>
+            <ul class="dropdown-menu" id="nav-dropdown">
+              <li><a class="dropdown-item" href="../../../../Pi/index.html">Powered by Raspberry Pi</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../ARM/index-rockchip.html">Powered by Rockchip</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../ARM/index-nxp.html">Powered by NXP</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../ARM/index-stm.html">Powered by STMicroelectronics</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../ARM/AM335X/index.html">Powered by TI</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../../../../Intel/index.html">Powered by INTEL</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Machines
+            </a>
+            <ul class="dropdown-menu" id="nav-dropdown-secondary">
+              <li>
+                <a class="dropdown-item" href="../../../../Pi/index.html#kiosks">Kiosks</a>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <li><a class="dropdown-item" href="../../../index.html">ESP32 Smart Display</a></li>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="../../../../MTK/index-ptv.html">Portable Touchscreen</a>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="../../../../MTK/index.html">Handhelds</a>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="../../../../../Displays/index.html">Displays</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item text-nowrap">
+            <a class="nav-link" href="https://chipsee.com" target="_blank">Shop
+              <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" style="margin-bottom: 3px;"><path d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" fill="gray"/></svg>
+            </a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" action="../../../../../search.html" method="GET">
+          <input class="form-control form-control-sm me-2" type="search" placeholder="Search" name="q" aria-label="Search">
+          <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+</header>
+
+  
+  <div class="md-container">
+    
+    
+    
+  <nav class="md-tabs" data-md-component="tabs">
+    <div class="md-tabs__inner md-grid">
+      <ul class="md-tabs__list">
+          <li class="md-tabs__item"><a href="../../../../../index.html" class="md-tabs__link">Chipsee</a></li>
+          <li class="md-tabs__item"><a href="../../../../index.html" class="md-tabs__link">Industrial Panel &amp; Embedded PCs</a></li>
+          <li class="md-tabs__item"><a href="../../../index.html" class="md-tabs__link">Industrial Smart Displays Powered by Espressif</a></li>
+      </ul>
+    </div>
+  </nav>
+    <main class="md-main">
+      <div class="md-main__inner md-grid" data-md-component="container">
+        
+          <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                
+<nav class="md-nav md-nav--secondary">
+    <label class="md-nav__title" for="__toc">ON THIS PAGE</label>
+  <ul class="md-nav__list" data-md-scrollfix="">
+        <li class="md-nav__item"><a href="#pcs-esp32-p4-manuals-hardware-cs12800-esp32p4-101a--page-root" class="md-nav__link">AIO-ESP32P4-101</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#product-overview" class="md-nav__link">Product Overview</a>
+        </li>
+        <li class="md-nav__item"><a href="#ordering-options" class="md-nav__link">Ordering Options</a>
+        </li>
+        <li class="md-nav__item"><a href="#hardware-features" class="md-nav__link">Hardware Features</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#optional-features" class="md-nav__link">Optional Features</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#power-input" class="md-nav__link">Power Input</a>
+        </li>
+        <li class="md-nav__item"><a href="#connectivity" class="md-nav__link">Connectivity</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#rs232-rs485-relay" class="md-nav__link">RS232/RS485/Relay</a>
+        </li>
+        <li class="md-nav__item"><a href="#usb" class="md-nav__link">USB</a>
+        </li>
+        <li class="md-nav__item"><a href="#lan" class="md-nav__link">LAN</a>
+        </li>
+        <li class="md-nav__item"><a href="#g-lte" class="md-nav__link">4G/LTE</a>
+        </li>
+        <li class="md-nav__item"><a href="#microsd-card" class="md-nav__link">MicroSD Card</a>
+        </li>
+        <li class="md-nav__item"><a href="#camera" class="md-nav__link">Camera</a>
+        </li>
+        <li class="md-nav__item"><a href="#audio" class="md-nav__link">Audio</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#mm-audio-output" class="md-nav__link">3.5 mm Audio Output</a>
+        </li>
+        <li class="md-nav__item"><a href="#internal-speaker" class="md-nav__link">Internal Speaker</a>
+        </li>
+        <li class="md-nav__item"><a href="#buzzer" class="md-nav__link">Buzzer</a>
+        </li>
+        <li class="md-nav__item"><a href="#microphone" class="md-nav__link">Microphone</a>
+        </li></ul>
+            </nav>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#buttons-and-status-led" class="md-nav__link">Buttons and Status LED</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#status-led" class="md-nav__link">Status LED</a>
+        </li>
+        <li class="md-nav__item"><a href="#buttons" class="md-nav__link">Buttons</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#mounting-procedure" class="md-nav__link">Mounting Procedure</a>
+        </li>
+        <li class="md-nav__item"><a href="#mechanical-specifications" class="md-nav__link">Mechanical Specifications</a>
+        </li>
+        <li class="md-nav__item"><a href="#disclaimer" class="md-nav__link">Disclaimer</a>
+        </li>
+        <li class="md-nav__item"><a href="#technical-support" class="md-nav__link">Technical Support</a>
+        </li></ul>
+            </nav>
+        </li>
+  </ul>
+</nav>
+              </div>
+            </div>
+          </div>
+          <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                
+              </div>
+            </div>
+          </div>
+        
+        <div class="md-content">
+          <article class="md-content__inner md-typeset" role="main"><a class="md-content__button md-icon" style="margin:0;float:right;" href="AIO-ESP32P4-101.pdf" download title="Download PDF"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="width:40px;height:40px;" viewBox="0 0 56 
+56"> <g><path style="fill:#E9E9E0;" d="M36.985,0H7.963C7.155,0,6.5,0.655,6.5,1.926V55c0,0.345,0.655,1,1.463,
+1h40.074 c0.808,0,1.463-0.655,1.463-1V12.978c0-0.696-0.093-0.92-0.257-1.085L37.607,0.257C37.442,0.093,37.218,0,
+36.985,0z"/> <polygon style="fill:#D9D7CA;" points="37.5,0.151 37.5,12 49.349,12 	"/> <path 
+style="fill:#CC4B4C;" d="M19.514,33.324L19.514,33.324c-0.348,0-0.682-0.113-0.967-0.326 
+c-1.041-0.781-1.181-1.65-1.115-2.242c0.182-1.628,2.195-3.332,5.985-5.068c1.504-3.296,2.935-7.357,3.788-10.75 
+c-0.998-2.172-1.968-4.99-1.261-6.643c0.248-0.579,0.557-1.023,1.134-1.215c0.228-0.076,0.804-0.172,1.016-0.172 
+c0.504,0,0.947,0.649,1.261,1.049c0.295,0.376,0.964,1.173-0.373,6.802c1.348,2.784,3.258,5.62,5.088,
+7.562 c1.311-0.237,2.439-0.358,3.358-0.358c1.566,0,2.515,0.365,2.902,1.117c0.32,0.622,0.189,1.349-0.39,
+2.16 c-0.557,0.779-1.325,1.191-2.22,1.191c-1.216,0-2.632-0.768-4.211-2.285c-2.837,0.593-6.15,1.651-8.828,
+2.822 c-0.836,1.774-1.637,3.203-2.383,4.251C21.273,32.654,20.389,33.324,19.514,33.324z M22.176,28.198 c-2.137,
+1.201-3.008,2.188-3.071,2.744c-0.01,0.092-0.037,0.334,0.431,0.692C19.685,31.587,20.555,31.19,22.176,
+28.198z M35.813,23.756c0.815,0.627,1.014,0.944,1.547,0.944c0.234,0,0.901-0.01,1.21-0.441c0.149-0.209,0.207-0.343,
+0.23-0.415 c-0.123-0.065-0.286-0.197-1.175-0.197C37.12,23.648,36.485,23.67,35.813,23.756z M28.343,17.174 c-0.715,
+2.474-1.659,5.145-2.674,7.564c2.09-0.811,4.362-1.519,6.496-2.02C30.815,21.15,29.466,19.192,28.343,
+17.174z M27.736,8.712c-0.098,0.033-1.33,1.757,0.096,3.216C28.781,9.813,27.779,8.698,27.736,8.712z"/> <path 
+style="fill:#CC4B4C;" d="M48.037,56H7.963C7.155,56,6.5,55.345,6.5,54.537V39h43v15.537C49.5,55.345,48.845,56,
+48.037,56z"/> <g><path style="fill:#FFFFFF;" d="M17.385,53h-1.641V42.924h2.898c0.428,0,0.852,0.068,1.271,
+0.205 c0.419,0.137,0.795,0.342,1.128,0.615c0.333,0.273,0.602,0.604,0.807,0.991s0.308,0.822,0.308,1.306 c0,
+0.511-0.087,0.973-0.26,1.388c-0.173,0.415-0.415,0.764-0.725,1.046c-0.31,0.282-0.684,0.501-1.121,0.656 s-0.921,
+0.232-1.449,0.232h-1.217V53z M17.385,44.168v3.992h1.504c0.2,0,0.398-0.034,0.595-0.103 c0.196-0.068,0.376-0.18,
+0.54-0.335c0.164-0.155,0.296-0.371,0.396-0.649c0.1-0.278,0.15-0.622,0.15-1.032 
+c0-0.164-0.023-0.354-0.068-0.567c-0.046-0.214-0.139-0.419-0.28-0.615c-0.142-0.196-0.34-0.36-0.595-0.492 
+c-0.255-0.132-0.593-0.198-1.012-0.198H17.385z"/> <path style="fill:#FFFFFF;" d="M32.219,47.682c0,0.829-0.089,
+1.538-0.267,2.126s-0.403,1.08-0.677,1.477s-0.581,0.709-0.923,0.937 s-0.672,0.398-0.991,0.513c-0.319,0.114-0.611,
+0.187-0.875,0.219C28.222,52.984,28.026,53,27.898,53h-3.814V42.924h3.035 c0.848,0,1.593,0.135,2.235,0.403s1.176,
+0.627,1.6,1.073s0.74,0.955,0.95,1.524C32.114,46.494,32.219,47.08,32.219,47.682z M27.352,51.797c1.112,0,
+1.914-0.355,2.406-1.066s0.738-1.741,0.738-3.09c0-0.419-0.05-0.834-0.15-1.244 
+c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-0.308h-0.957v7.629H27.352z"/> 
+<path style="fill:#FFFFFF;" d="M36.266,44.168v3.172h4.211v1.121h-4.211V53h-1.668V42.924H40.9v1.244H36.266z"/> 
+</g></g> </svg></a>
+            
+  <section id="product">
+<span id="aio-esp32p4-101"></span><h1 id="pcs-esp32-p4-manuals-hardware-cs12800-esp32p4-101a--page-root">AIO-ESP32P4-101<a class="headerlink" href="#pcs-esp32-p4-manuals-hardware-cs12800-esp32p4-101a--page-root" title="Permalink to this heading">¶</a></h1>
+<p class="html-only rubric"><em>Version 1.0</em></p>
+<div class="row html-only g-0" data-bs-target="#imageModal" data-bs-toggle="modal" id="gallery"><div class="col-12 col-md-6 col-xxl-3 html-only" style="cursor: pointer;"><p><img alt="Front View" class="product-img" src="../../../../../_images/CS12800-ESP32P4-101A-Front.jpg"/></p>
+</div><div class="col-12 col-md-6 col-xxl-3 html-only" style="cursor: pointer;"><p><img alt="Rear View" class="product-img" src="../../../../../_images/CS12800-ESP32P4-101A-Rear.jpg"/></p>
+</div><div class="col-12 col-md-6 col-xxl-3 html-only" style="cursor: pointer;"><p><img alt="Side View 1" class="product-img" src="../../../../../_images/CS12800-ESP32P4-101A-Side1.jpg"/></p>
+</div><div class="col-12 col-md-6 col-xxl-3 html-only" style="cursor: pointer;"><p><img alt="Side View 2" class="product-img" src="../../../../../_images/CS12800-ESP32P4-101A-Side2.jpg"/></p>
+</div></div><section id="product-overview">
+<h2 id="product-overview">Product Overview<a class="headerlink" href="#product-overview" title="Permalink to this heading">¶</a></h2>
+<p>The AIO-ESP32P4-101 Smart Display (PN: CS12800-ESP32P4-101A) is an all-in-one programmable capacitive touch smart display featuring an ESP32 P4 processor.</p>
+<p>The product features a lightweight plastic enclosure available in black or white. It can be used as a portable device or mounted in a fixed location.</p>
+<p>It features a 10.1” IPS display with a maximum brightness of 400 cd/m<sup>2</sup>. The touch screen is a responsive capacitive screen and supports multi-touch.</p>
+<p>The product is powered by an ESP32-P4 processor, making it suitable for applications such as:</p>
+<ul class="simple">
+<li><p>Smart Home</p></li>
+<li><p>Industrial Automation</p></li>
+<li><p>Healthcare</p></li>
+<li><p>Consumer Electronics</p></li>
+<li><p>Smart Agriculture</p></li>
+<li><p>Retail Self-Service Terminals (POS, Vending Machines)</p></li>
+<li><p>Service Robots</p></li>
+<li><p>Multimedia Player</p></li>
+<li><p>Cameras for Video Streaming</p></li>
+<li><p>High-Speed USB Host and Device</p></li>
+<li><p>Smart Voice Interaction Terminal</p></li>
+<li><p>Edge Vision AI Processor</p></li>
+<li><p>HMI Control Panel</p></li>
+</ul>
+<p>The product can be programmed with ESP-IDF, ESPHome and other ESP32 ecosystem tools and frameworks that support the ESP32-P4.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="ordering-options">
+<h2 id="ordering-options">Ordering Options<a class="headerlink" href="#ordering-options" title="Permalink to this heading">¶</a></h2>
+<p>Chipsee products can be customized during the ordering process. The product will be shipped with the pre-installed factory defaults if no extra requirements are specified. The table in the <a class="reference internal" href="#hardware-features">Hardware Features</a> section provides information about the default options bundled with the product.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can order <a class="reference external" href="https://chipsee.com/product/aio-esp32p4-101/">AIO-ESP32P4-101</a> from the official <a class="reference external" href="https://chipsee.com/">Chipsee Store</a> or from your nearest distributor.</p>
+</div>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="hardware-features">
+<h2 id="hardware-features">Hardware Features<a class="headerlink" href="#hardware-features" title="Permalink to this heading">¶</a></h2>
+<p>The AIO-ESP32P4-101 Smart Display offers a broad range of performance and connectivity features for flexible integration. Some of the key features are listed below.</p>
+<table id="id1" style="width: 100%">
+<caption><span class="caption-number">Table 503 </span><span class="caption-text">Key Features</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head" colspan="2"><p class="centered">
+<strong>AIO-ESP32P4-101</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>CPU</strong></p></td>
+<td><p>Dual-core 32-bit RISC-V, up to 400 MHz; single-core 32-bit LP RISC-V, up to 40 MHz</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Storage</strong></p></td>
+<td><p>32MB external SPI Flash</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>RAM</strong></p></td>
+<td><p>768 KB HP L2MEM + 32 KB LP SRAM + 8 KB SPM; 32MB in-package PSRAM</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Display</strong></p></td>
+<td><p>10.1” IPS LCD, 1280 x 800 px, brightness 400 cd/m<sup>2</sup></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Touch</strong></p></td>
+<td><p>10-point capacitive touch with 1.0mm armored glass</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>LAN</strong></p></td>
+<td><p>1 x 100Mbps LAN</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>WiFi/BT</strong></p></td>
+<td><p>WiFi 6, Bluetooth LE 5 <strong>(optional, ESP32-C6 is not mounted by default)</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>4G/LTE</strong></p></td>
+<td><p>Internal Cat 1 4G/LTE module, <strong>not mounted by default</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Audio</strong></p></td>
+<td><p>3.5mm audio out interface; internal dual channel speaker; front microphone</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Buzzer</strong></p></td>
+<td><p>Onboard buzzer, driven by GPIO</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Camera</strong></p></td>
+<td><p>1 x MIPI-CSI (2-lane) interface for connecting a MIPI-CSI (2-lane) 15-pin 1.0mm camera such as a Raspberry Pi camera <strong>(optional)</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>GPIO</strong></p></td>
+<td><p>0 x GPIO <strong>(default)</strong>, 8 x GPIO <strong>(optional,</strong> by configuring 2 x RS232, 1 x RS485 and 1 x Relay to 8 x GPIO)</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Relay</strong></p></td>
+<td><p>1 x relay with “Normally Closed” and “Normally Open” output; relay NC and NO can be configured to 1 x CAN FD <strong>(optional)</strong>; relay NC and NO can be configured to 2 x GPIO <strong>(optional)</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>RS232</strong></p></td>
+<td><p>2 x RS232 <strong>(default)</strong>; RS232_2 can be configured to RS485 <strong>(optional)</strong>; 2 x RS232 can be configured to 4 x GPIO <strong>(optional)</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>RS485</strong></p></td>
+<td><p>1 x RS485 <strong>(default)</strong>; up to 2 x RS485 <strong>(optional,</strong> by configuring RS232_2 to RS485); 1 x RS485 can be configured to 2 x GPIO <strong>(optional)</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>CAN</strong></p></td>
+<td><p>0 x CAN <strong>(default)</strong>; 1 x CAN FD bus, arbitration bit rate up to 1Mbps, data bit rate up to 8Mbps, by configuring 1 x relay to CAN <strong>(optional)</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>USB</strong></p></td>
+<td><p>2 x USB 2.0 Type-A high-speed host ports; 1 × USB 1.1 Type-C port for firmware flashing and debugging; does not support powering the device.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Micro SD card socket</strong></p></td>
+<td><p>1 x TF (micro SD) card slot</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>RTC</strong></p></td>
+<td><p>High-accuracy RTC with supercapacitor, can work 1 week after power off <strong>(default)</strong>. High accuracy RTC with lithium coin battery, can work 3 years after power off <strong>(optional)</strong>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Power Input</strong></p></td>
+<td><p>9V to 32V DC</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Current</strong></p></td>
+<td><p>260mA max at 15V, 200mA typical at 15V</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Power Consumption</strong></p></td>
+<td><p>4W max, 3W typical</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Operating Temp.</strong></p></td>
+<td><p>From -20°C to +70°C</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Dimensions</strong></p></td>
+<td><p>260.54 x 178.54 x 26.9mm</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Weight</strong></p></td>
+<td><p>620g</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Mounting</strong></p></td>
+<td><p>VESA, Stand</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Plastic Case Color</strong></p></td>
+<td><p>Black / White</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Certification</strong></p></td>
+<td><p>CE, RoHS</p></td>
+</tr>
+</tbody>
+</table>
+<p><p class="page-break" style="margin: 0"></p></p>
+<section id="optional-features">
+<h3 id="optional-features">Optional Features<a class="headerlink" href="#optional-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>WiFi/Bluetooth: If Wi-Fi/Bluetooth connectivity is required, an ESP32-C6 module can be installed at the factory. The ESP32-C6 is not populated by default.</p></li>
+<li><p>Camera: The product provides a 2-lane MIPI-CSI interface for compatible 15-pin camera modules such as Raspberry Pi cameras. The optional camera-related hardware is not populated by default. Please specify this requirement when placing your order.</p></li>
+<li><p>4G/LTE: 4G/LTE (Cat 1) module is supported on this product, it’s not mounted by default, if you need the interface or the 4G/LTE module you can contact us when you place an order.</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Installation, repair, and maintenance tasks should be performed by trained personnel only. Chipsee does not bear any responsibility for damage caused by inadequate handling of the product.</p>
+</div>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+</section>
+<section id="power-input">
+<h2 id="power-input">Power Input<a class="headerlink" href="#power-input" title="Permalink to this heading">¶</a></h2>
+<p>The AIO-ESP32P4-101 Smart Display can be powered by an input voltage of 9V to 32V DC.</p>
+<p>The total power consumption is about 4W max, 3W typical, depending on the load and brightness.</p>
+<p>The power input uses a DC connector with dimensions of 3.4 mm O.D. × 1.7 mm I.D. × 9.5 mm. The product also includes a 3.4 × 1.7 mm to 5.5 × 2.1 mm adapter, allowing either connector size to be used with a suitable DC power supply.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-Power-Adapter.jpg"><img alt="power connector 3.4mm x 1.7mm" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-Power-Adapter.jpg" style="width: 480px;"/></a></p>
+<p class="text-center"><em>Power Adapter</em></p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-Power-Conn.jpg"><img alt="power_conn_img" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-Power-Conn.jpg" style="width: 480px;"/></a></p>
+<p class="text-center"><em>Power Input</em></p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="connectivity">
+<h2 id="connectivity">Connectivity<a class="headerlink" href="#connectivity" title="Permalink to this heading">¶</a></h2>
+<p>There are many connectivity options available on the AIO-ESP32P4-101.</p>
+<section id="rs232-rs485-relay">
+<h3 id="rs232-rs485-relay">RS232/RS485/Relay<a class="headerlink" href="#rs232-rs485-relay" title="Permalink to this heading">¶</a></h3>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-Conn.jpg"><img alt="rs232_485_img" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-Conn.jpg" style="width: 640px;"/></a></p>
+<p class="text-center"><em>RS232/RS485/Relay Connector</em></p>
+<p>The table below provides a detailed description of each pin and its function.</p>
+<table id="id2" style="width: 100%">
+<caption><span class="caption-number">Table 504 </span><span class="caption-text">RS232/RS485/Relay Connector</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head" colspan="4"><p><strong>RS232 / RS485 / Relay Pin Definition:</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Pin Number</strong></p></td>
+<td><p><strong>Definition</strong></p></td>
+<td><p><strong>Description</strong></p></td>
+<td><p><strong>ESP32 P4 Pin</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>Pin 1</p></td>
+<td><p>GND</p></td>
+<td><p>System Ground</p></td>
+<td><p>GND</p></td>
+</tr>
+<tr class="row-even"><td><p>Pin 2</p></td>
+<td><p>RS232_0_RXD</p></td>
+<td><p>RS232 RXD signal</p></td>
+<td><p>GPIO38</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pin 3</p></td>
+<td><p>RS232_0_TXD</p></td>
+<td><p>RS232 TXD signal</p></td>
+<td><p>GPIO37</p></td>
+</tr>
+<tr class="row-even"><td><p>Pin 4</p></td>
+<td><p>RS232_2_RXD</p></td>
+<td><p>RS232 RXD signal <br/> Can be set as RS485_2+(A)</p></td>
+<td><p>GPIO2</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pin 5</p></td>
+<td><p>RS232_2_TXD</p></td>
+<td><p>RS232 TXD signal <br/> Can be set as RS485_2-(B)</p></td>
+<td><p>GPIO3</p></td>
+</tr>
+<tr class="row-even"><td><p>Pin 6</p></td>
+<td><p>RS485_3+</p></td>
+<td><p>RS485 +(A) signal</p></td>
+<td><p>GPIO4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pin 7</p></td>
+<td><p>RS485_3-</p></td>
+<td><p>RS485 –(B) signal</p></td>
+<td><p>GPIO5</p></td>
+</tr>
+<tr class="row-even"><td><p>Pin 8</p></td>
+<td><p>Relay NO</p></td>
+<td><p>Relay Normally Open</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Pin 9</p></td>
+<td><p>Relay COM</p></td>
+<td><p>Relay Common <br/> Can be set as CAN0 H</p></td>
+<td><p>GPIO22</p></td>
+</tr>
+<tr class="row-even"><td><p>Pin 10</p></td>
+<td><p>Relay NC</p></td>
+<td><p>Relay Normally Closed <br/> Can be set as CAN0 L</p></td>
+<td><p>GPIO21</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<ol class="arabic simple">
+<li><p>The RS232_2 can be set as the RS485 signal (1 x RS232 + 2 x RS485 + 1 x Relay). If you need it to work as RS485, please <a class="reference external" href="https://chipsee.com/contact/"><strong>Contact us</strong></a> before shipping.</p></li>
+<li><p>The Relay can be set as the CAN signal (2 x RS232 + 1 x RS485 + 1 x CAN + 0 x Relay). If you need it to work as CAN, please <a class="reference external" href="https://chipsee.com/contact/"><strong>Contact us</strong></a> before shipping.</p></li>
+<li><p>RS485_3 automatically controls input/output direction. It does not need software control.</p></li>
+<li><p>The 120 Ω termination resistor for the RS485 is <strong>not mounted</strong> by default.</p></li>
+<li><p>The relay’s maximum switching voltage is 125 VAC or 60 VDC. The maximum switching current is 1 A. Rated load is 0.3A at 125VAC and 1A at 30VDC.</p></li>
+<li><p>The RS232, RS485, and relay interfaces can optionally be configured as GPIOs, providing 0, 2, 4, 6, or 8 GPIOs depending on the configuration.</p></li>
+</ol>
+</div>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="usb">
+<h3 id="usb">USB<a class="headerlink" href="#usb" title="Permalink to this heading">¶</a></h3>
+<p>There are 2 x <strong>USB2.0 Type-A HOST connectors</strong> and 1 x <strong>Type-C connector</strong> onboard, as shown in the image below.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-USB.jpg"><img alt="usb_img" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-USB.jpg" style="width: 640px;"/></a></p>
+<p class="text-center"><em>USB2.0 Host and Type-C Ports</em></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>USB peripherals such as flash drives, mice, and keyboards can be connected to the USB 2.0 host ports.</p></li>
+<li><p>The USB Type-C port is used for debugging and firmware flashing. It cannot be used to power the product.</p></li>
+</ul>
+</div>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="lan">
+<h3 id="lan">LAN<a class="headerlink" href="#lan" title="Permalink to this heading">¶</a></h3>
+<p><strong>LAN (RJ45) connector</strong> provides Ethernet connectivity over standardized Ethernet cable. The integrated Ethernet interface supports up to 100 Mbps data throughput.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-LAN.jpg"><img alt="lan_img" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-LAN.jpg" style="width: 640px;"/></a></p>
+<p class="text-center"><em>RJ45 LAN Connector</em></p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="g-lte">
+<h3 id="g-lte">4G/LTE<a class="headerlink" href="#g-lte" title="Permalink to this heading">¶</a></h3>
+<p>4G/LTE Cat 1 module is <strong>optional</strong>. If you place an order with 4G module included, we will also add a SIM card holder and a 4G/LTE antenna to enable 4G/LTE connectivity.</p>
+<p>The SIM card slot does <strong>NOT</strong> support hot-swapping.. <strong>Power off</strong> the device before inserting or removing the SIM card.</p>
+<p>The Cat 1 module doesn’t support GPS.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-SIM.jpg"><img alt="sim_img" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-SIM.jpg" style="width: 640px;"/></a></p>
+<p class="text-center"><em>SIM Card Direction</em></p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>The product does not come shipped with the 4G/LTE module by default. If you need to use 4G/LTE, you can contact us when placing an order, we can install the necessary hardware for you.</p>
+</div>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="microsd-card">
+<h3 id="microsd-card">MicroSD Card<a class="headerlink" href="#microsd-card" title="Permalink to this heading">¶</a></h3>
+<p>The AIO-ESP32P4-101 Smart Display features 1 x <strong>TF Card (micro SD) slot</strong> (note the direction of the micro SD card). The product does not come shipped with the micro SD card by default.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-TF.jpg"><img alt="tf_img" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-TF.jpg" style="width: 640px;"/></a></p>
+<p class="text-center"><em>Micro SD Card Slot</em></p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="camera">
+<h3 id="camera">Camera<a class="headerlink" href="#camera" title="Permalink to this heading">¶</a></h3>
+<p>The product has 1 x MIPI-CSI (2-lane) interface for connecting a MIPI-CSI (2-lane) 15-pin 1.0mm camera such as a Raspberry Pi camera <strong>(optional)</strong>, such as OV5647. When you select a camera, please choose carefully because not all electrically compatible camera modules have mature software support for the ESP32-P4..</p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="audio">
+<h3 id="audio">Audio<a class="headerlink" href="#audio" title="Permalink to this heading">¶</a></h3>
+<section id="mm-audio-output">
+<h4 id="mm-audio-output">3.5 mm Audio Output<a class="headerlink" href="#mm-audio-output" title="Permalink to this heading">¶</a></h4>
+<p>The product features 3.5mm audio connector as shown in the image below.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-Audio.jpg"><img alt="audio_img" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-Audio.jpg" style="width: 640px;"/></a></p>
+<p class="text-center"><em>Audio Out Connector</em></p>
+</section>
+<section id="internal-speaker">
+<h4 id="internal-speaker">Internal Speaker<a class="headerlink" href="#internal-speaker" title="Permalink to this heading">¶</a></h4>
+<p>The product also has an internal dual channel 2W speaker, meaning you can play music without an earphone, the sound can be played from the product directly.</p>
+</section>
+<section id="buzzer">
+<h4 id="buzzer">Buzzer<a class="headerlink" href="#buzzer" title="Permalink to this heading">¶</a></h4>
+<p>The product has an internal buzzer, suitable for playing beep sounds for alarms.</p>
+</section>
+<section id="microphone">
+<h4 id="microphone">Microphone<a class="headerlink" href="#microphone" title="Permalink to this heading">¶</a></h4>
+<p>The product has a front microphone for audio input.</p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+</section>
+</section>
+<section id="buttons-and-status-led">
+<h2 id="buttons-and-status-led">Buttons and Status LED<a class="headerlink" href="#buttons-and-status-led" title="Permalink to this heading">¶</a></h2>
+<section id="status-led">
+<h3 id="status-led">Status LED<a class="headerlink" href="#status-led" title="Permalink to this heading">¶</a></h3>
+<p>This product has a status LED. The LED turns RED after power on, turns GREEN when the system is booted.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-Status.jpg"><img alt="status_led_img" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-Status.jpg" style="width: 640px;"/></a></p>
+<p class="text-center"><em>Status LED</em></p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="buttons">
+<h3 id="buttons">Buttons<a class="headerlink" href="#buttons" title="Permalink to this heading">¶</a></h3>
+<p>There are 3 buttons on the back side:  Power on/off, BOOT and RESET.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-Btn.jpg"><img alt="btn_img" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-Btn.jpg" style="width: 640px;"/></a></p>
+<p class="text-center"><em>Buttons</em></p>
+<p>What every button does:</p>
+<ul class="simple">
+<li><p>PWR:</p>
+<ol class="arabic simple">
+<li><p>Before powering on: press to power on.</p></li>
+<li><p>After powering on: hold 5 seconds to force power off.</p></li>
+</ol>
+</li>
+<li><p>BOOT Mode: Press the button before and while powering on: enter flashing mode to download program to the device.</p></li>
+<li><p>RESET: Reboots the device.</p></li>
+</ul>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+</section>
+<section id="mounting-procedure">
+<h2 id="mounting-procedure">Mounting Procedure<a class="headerlink" href="#mounting-procedure" title="Permalink to this heading">¶</a></h2>
+<p>You can mount AIO-ESP32P4-101 with VESA mounting (<a class="reference internal" href="../../../../../TutorialGuide/mount_guide.html#vesa-mguide"><span class="std std-ref">guide</span></a>): <strong>75 x 75</strong> mm, 4 x <strong>M4</strong> (6mm) screws.</p>
+<p>The AIO-ESP32P4-101 can also be mounted on the supplied desktop stand. A base stand is included by default. If you do not require the stand, please specify this when placing your order.</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Do not apply excessive mechanical pressure to the display when mounting it in an enclosure.</p>
+</div>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="mechanical-specifications">
+<h2 id="mechanical-specifications">Mechanical Specifications<a class="headerlink" href="#mechanical-specifications" title="Permalink to this heading">¶</a></h2>
+<p>The outer mechanical dimensions of AIO-ESP32P4-101 are 260.54 x 178.54 x 26.9mm (W × H × D). Please refer to the technical drawing in the figures below for details related to the specific
+product measurements.</p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-TD1.jpg"><img alt="td1_img" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-TD1.jpg" style="width: 960px;"/></a></p>
+<p class="text-center"><em>Front-View Mechanical Drawing</em></p>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-TD2.jpg"><img alt="td2_img" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-TD2.jpg" style="width: 960px;"/></a></p>
+<p class="text-center"><em>Side-View Mechanical Drawing</em></p>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
+<section id="disclaimer">
+<h2 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Permalink to this heading">¶</a></h2>
+<p><strong>This document is provided strictly for informational purposes. Its contents are subject to change without notice. Chipsee assumes no responsibility for any errors that may occur in this document. Furthermore, Chipsee reserves the right to alter the hardware, software, and/or specifications set forth herein at any time without prior notice and undertakes no obligation to update the information contained in this document.</strong></p>
+<p><strong>While every effort has been made to ensure the accuracy of the information contained herein, this document is not guaranteed to be error-free. Further, it does not offer any warranties or conditions, whether expressed orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular purpose. We specifically disclaim any liability with respect to this document, and no contractual obligations are formed either directly or indirectly by this document.</strong></p>
+<p><strong>Despite our best efforts to maintain the accuracy of the information in this document, we assume no responsibility for errors or omissions, nor for damages resulting from the use of the information herein. Please note that Chipsee products are not authorized for use as critical components in life support devices or systems.</strong></p>
+</section>
+<section id="technical-support">
+<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this heading">¶</a></h2>
+<p>If you encounter any difficulties or have questions related to this document, we encourage you to refer to our other documentation for potential solutions. If you cannot find the solution you’re looking for, feel free to contact us. Please email Chipsee Technical Support at <a class="reference external" href="mailto:support%40chipsee.com"><strong>support<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information. We value your queries and suggestions and are committed to providing you with the assistance you require.</p>
+</section>
+</section>
+
+
+          </article>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="md-footer">
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+          
+            <a href="../../../index.html" title="Industrial Smart Displays Powered by Espressif"
+               class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+               rel="prev">
+              <div class="md-flex__cell md-flex__cell--shrink">
+                <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+              </div>
+              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+                <span class="md-flex__ellipsis">
+                  <span
+                      class="md-footer-nav__direction"> Previous </span> Industrial Smart Displays Powered by Espressif </span>
+              </div>
+            </a>
+          
+          
+            <a href="../../../../../Displays/index.html" title="Industrial Touch Displays"
+               class="md-flex md-footer-nav__link md-footer-nav__link--next"
+               rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span
+                class="md-flex__ellipsis"> <span
+                class="md-footer-nav__direction"> Next </span> Industrial Touch Displays </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink"><i
+                class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          
+        </a>
+        
+      </nav>
+    </div>
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-footer-copyright">
+          <div class="md-footer-copyright__highlight">
+              &#169; Copyright 2026, Chipsee.
+              
+          </div>
+            Last updated on
+              Aug 21, 2026.
+            <br/>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script src="../../../../../_static/vendor/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script async src="../../../../../_static/js/material_custom.fb5da575.js"></script>
+
+    
+  <script src="../../../../../_static/javascripts/application.js"></script>
+  <script>app.initialize({version: "1.0.4", url: {base: ".."}})</script>
+  </body>
+</html>

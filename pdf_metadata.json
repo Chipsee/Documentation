@@ -1003,6 +1003,15 @@
             "pdf-build": "False",
             "orphan": ""
         },
+        "PCs/ESP32/P4/Manuals/Hardware/CS12800-ESP32P4-101A": {
+            "pdf-title": "AIO-ESP32P4-101",
+            "pdf-subtitle": "PN: CS12800-ESP32P4-101A",
+            "pdf-filename": "AIO-ESP32P4-101",
+            "pdf-type": "smart_disp"
+        },
+        "PCs/ESP32/index": {
+            "pdf-build": "False"
+        },
         "PCs/Intel/J1900/Manuals/Hardware/CS86-BOX-J1900": {
             "pdf-title": "CS86-BOX-J1900",
             "pdf-subtitle": "PN: CS86-BOX-J1900",
