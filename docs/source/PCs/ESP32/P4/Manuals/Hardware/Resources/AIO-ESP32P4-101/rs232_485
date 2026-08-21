@@ -1,0 +1,57 @@
+RS232/RS485/Relay
+-----------------
+
+.. rst-class:: text-center
+
+  |rs232_485_img|
+
+  *RS232/RS485/Relay Connector*
+
+The table below provides a detailed description of each pin and its function.
+
+
+.. |pin4| replace:: |br| Can be set as RS485_2+(A) 
+
+.. |pin5| replace:: |br| Can be set as RS485_2-(B) 
+
+.. table:: RS232/RS485/Relay Connector
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +-----------------------------------------------------------------------------------------------------------------------------------------------+
+   | **RS232 / RS485 / Relay Pin Definition:**                                                                                                     |
+   +================+===============================+==============================================================+===============================+
+   | **Pin Number** | **Definition**                | **Description**                                              | **ESP32 P4 Pin**              |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 1          | GND                           | System Ground                                                | GND                           |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 2          | RS232_0_RXD                   | RS232 RXD signal                                             | GPIO38                        |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 3          | RS232_0_TXD                   | RS232 TXD signal                                             | GPIO37                        |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 4          | RS232_2_RXD                   | RS232 RXD signal |pin4|                                      | GPIO2                         |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 5          | RS232_2_TXD                   | RS232 TXD signal |pin5|                                      | GPIO3                         |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 6          | RS485_3+                      | RS485 +(A) signal                                            | GPIO4                         |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 7          | RS485_3-                      | RS485 –(B) signal                                            | GPIO5                         |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 8          | Relay NO                      | Relay Normally Open                                          |                               |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 9          | Relay COM                     | Relay Common |br| Can be set as CAN0 H                       | GPIO22                        |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+   | Pin 10         | Relay NC                      | Relay Normally Closed |br| Can be set as CAN0 L              | GPIO21                        |
+   +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
+
+.. attention::
+
+    #) The RS232_2 can be set as the RS485 signal (1 x RS232 + 2 x RS485 + 1 x Relay). If you need it to work as RS485, please |contact|_ before shipping.
+    #) The Relay can be set as the CAN signal (2 x RS232 + 1 x RS485 + 1 x CAN + 0 x Relay). If you need it to work as CAN, please |contact|_ before shipping.
+    #) RS485_3 automatically controls input/output direction. It does not need software control.
+    #) The 120 Ω termination resistor for the RS485 is **not mounted** by default.
+    #) The relay's maximum switching voltage is 125 VAC or 60 VDC. The maximum switching current is 1 A. Rated load is 0.3A at 125VAC and 1A at 30VDC.
+    #) The RS232, RS485, and relay interfaces can optionally be configured as GPIOs, providing 0, 2, 4, 6, or 8 GPIOs depending on the configuration.
+
+:pagebreak:`True`

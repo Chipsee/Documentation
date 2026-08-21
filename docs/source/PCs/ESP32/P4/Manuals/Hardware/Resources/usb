@@ -1,0 +1,18 @@
+USB
+---
+
+There are 2 x **USB2.0 Type-A HOST connectors** and 1 x **Type-C connector** onboard, as shown in the image below.
+
+
+.. rst-class:: text-center
+
+  |usb_img|
+  
+  *USB2.0 Host and Type-C Ports*
+
+.. note::
+
+    * USB peripherals such as flash drives, mice, and keyboards can be connected to the USB 2.0 host ports.
+    * The USB Type-C port is used for debugging and firmware flashing. It cannot be used to power the product.
+
+:pagebreak:`True`
