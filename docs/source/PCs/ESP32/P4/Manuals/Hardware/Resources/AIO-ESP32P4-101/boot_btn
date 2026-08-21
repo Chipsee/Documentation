@@ -17,23 +17,22 @@ This product has a status LED. The LED turns RED after power on, turns GREEN whe
 Buttons
 -------
 
-There are 3 buttons on the back side:  RESET, BOOT and PWR.
+There are 3 buttons on the back side:  Power on/off, BOOT and RESET.
 
-..
-  .. rst-class:: text-center
+.. rst-class:: text-center
 
-    |btn_img|
+  |btn_img|
 
-    *Buttons*
+  *Buttons*
 
 What every button does:
 
-- RESET: Reboots the device.
-- BOOT: Press the button before and while powering on: enter flashing mode to download program to the device.
 - PWR: 
 
   #) Before powering on: press to power on.
   #) After powering on: hold 5 seconds to force power off.
+- BOOT Mode: Press the button before and while powering on: enter flashing mode to download program to the device.
+- RESET: Reboots the device.
 
 ..
   .. note::

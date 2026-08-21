@@ -2,9 +2,8 @@
 
 .. _PBESP:
 
-Smart Displays Powered by Espressif
-===================================
-
+Industrial Smart Displays Powered by Espressif
+==============================================
 
 .. raw:: html
 
@@ -29,13 +28,13 @@ Smart Displays Powered by Espressif
    
    </div>
 
-.. |AIO-ESP32P4-101| image:: /Media/ESP32/CS12800ESP32P4101A/CS12800ESP32P4101A-Front-Low.jpg
+.. |AIO-ESP32P4-101| image:: /Media/ESP32/CS12800-ESP32P4-101A/CS12800-ESP32P4-101A-Front-Low.jpg
    :class: index-item-img
-   :target: /PCs/ESP32/P4/Manuals/Hardware/CS12800ESP32P4101A.html
+   :target: /PCs/ESP32/P4/Manuals/Hardware/CS12800-ESP32P4-101A.html
 
 .. toctree::
    :maxdepth: 1
    :titlesonly:
    :hidden:
 
-   AIO-ESP32P4-101 </PCs/ESP32/P4/Manuals/Hardware/CS12800ESP32P4101A>
+   AIO-ESP32P4-101 </PCs/ESP32/P4/Manuals/Hardware/CS12800-ESP32P4-101A>
