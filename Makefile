@@ -23,4 +23,4 @@ rebuild: clean html
 
 watch:
 	@echo "Starting live auto-build with sphinx-autobuild..."
-	$(VENV) && sphinx-autobuild $(SOURCEDIR) $(BUILDDIR)/html -j 8
+	$(VENV) && sphinx-autobuild --host 0.0.0.0 --port 8000 $(SOURCEDIR) $(BUILDDIR)/html -j 8
