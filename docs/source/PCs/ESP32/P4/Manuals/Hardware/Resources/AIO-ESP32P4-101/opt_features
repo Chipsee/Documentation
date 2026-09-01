@@ -1,0 +1,12 @@
+Optional Features
+-----------------
+
+- WiFi/Bluetooth: If Wi-Fi/Bluetooth connectivity is required, an ESP32-C6 module can be installed at the factory. The ESP32-C6 is not populated by default.
+- Camera: The product provides a 2-lane MIPI-CSI interface for compatible 15-pin camera modules such as Raspberry Pi cameras. The optional camera-related hardware is not populated by default. Please specify this requirement when placing your order.
+- 4G/LTE: 4G/LTE (Cat 1) module is supported on this product, it's not mounted by default, if you need the interface or the 4G/LTE module you can contact us when you place an order.
+
+.. warning::   
+
+   Installation, repair, and maintenance tasks should be performed by trained personnel only. Chipsee does not bear any responsibility for damage caused by inadequate handling of the product.
+
+:pagebreak:`True`
