@@ -54,7 +54,7 @@
 .. |Side View 2| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-side.jpg
                   :class: product-img
 
-.. |power_img| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/PWR_INPUT.png
+.. |power_img| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-PWR_INPUT.png
                   :align: middle
                   :width: 300
 
@@ -106,7 +106,7 @@
 
 .. rst-class:: text-center
 
-    .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/TD.png
+    .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-TD.png
       :align: center
       :width: 1024
 

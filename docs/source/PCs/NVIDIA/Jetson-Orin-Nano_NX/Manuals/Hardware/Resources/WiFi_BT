@@ -5,7 +5,7 @@ WiFi & BlueTooth Module
 
 .. rst-class:: text-center
 
-  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/WIFI.jpg
+  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-WIFI.jpg
     :align: center
     :width: 200
 
@@ -15,7 +15,7 @@ The |product| includes an SMA connector for an external WiFi/BT antenna, as illu
 
 .. rst-class:: text-center
 
-  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/WIFI_ANT.png
+  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-WIFI_ANT.png
     :align: center
     :width: 200
 

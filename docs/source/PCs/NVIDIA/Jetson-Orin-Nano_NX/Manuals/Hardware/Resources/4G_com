@@ -7,7 +7,7 @@ SIM card does **NOT** support hot plug. **Power off** before inserting or removi
 
 .. rst-class:: text-center
 
-  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/4G.jpg
+  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-4G.jpg
      :align: center
      :width: 200
 
@@ -15,7 +15,7 @@ SIM card does **NOT** support hot plug. **Power off** before inserting or removi
 
 .. rst-class:: text-center
 
-  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/4G_ANT.png
+  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-4G_ANT.png
      :align: center
      :width: 200
 
@@ -23,7 +23,7 @@ SIM card does **NOT** support hot plug. **Power off** before inserting or removi
 
 .. rst-class:: text-center
 
-  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/SIM_CARD.png
+  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-SIM_CARD.png
      :align: center
      :width: 200
 
@@ -35,4 +35,3 @@ SIM card does **NOT** support hot plug. **Power off** before inserting or removi
 
 
 :pagebreak:`True`
-
