@@ -40,18 +40,18 @@
 
 .. |product_link| replace:: |product|
 
-.. |Cover PNG| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-front.jpg
+.. |Cover PNG| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-Front-Low.jpg
 
-.. |Front View| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-front.jpg
+.. |Front View| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-Front.jpg
                   :class: product-img
 
-.. |Rear View| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-back.jpg
+.. |Rear View| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-Rear.jpg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-side1.jpg
+.. |Side View 1| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-Side1.jpg
                   :class: product-img
 
-.. |Side View 2| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-side.jpg
+.. |Side View 2| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-Side2.jpg
                   :class: product-img
 
 .. |power_img| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-PWR_INPUT.png
