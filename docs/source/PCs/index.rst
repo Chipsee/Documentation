@@ -29,5 +29,6 @@ Handheld Rugged Tablet PCs
    Powered by Raspberry Pi <Pi/index>
    Powered by MTK <MTK/index>
    Powered by Espressif <ESP32/index>
+   Powered by Nvidia <NVIDIA/index>
 
    
