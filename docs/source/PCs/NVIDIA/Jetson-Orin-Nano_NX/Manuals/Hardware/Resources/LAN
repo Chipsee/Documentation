@@ -1,0 +1,19 @@
+LAN Connectors
+---------------
+
+2 x **LAN (RJ45) connectors** provide Ethernet connectivity over standardized Ethernet cables. The integrated two-port Ethernet interface supports 
+10/100/1000BASE-T/TX specifications with automatic speed negotiation feature. Power over Ethernet (PoE) is **not** supported. 
+
+.. rst-class:: text-center
+
+   .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/LAN.png
+      :align: center
+      :width: 200
+
+   *2 x RJ45 GbE LAN Connectors*
+
+.. note::
+  
+   Use CAT5 or better cables to achieve full data throughput over maximum distance defined by the 1000BASE-T standard (100m).
+   
+:pagebreak:`True`

@@ -1,0 +1,14 @@
+USB HOST Connectors 
+--------------------
+
+|product| is equipped with 7 USB connectors. One is a USB2.0 Type C connector supporting device, and USB Recovery. In addition, there are three, dual stacked USB 3.0 Type A connectors. Each connector supports host mode only.
+
+.. rst-class:: text-center
+
+   .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/USB.png
+      :align: center
+      :width: 200
+
+   *6 x USB3.0 HOST Connectors*
+
+:pagebreak:`True`

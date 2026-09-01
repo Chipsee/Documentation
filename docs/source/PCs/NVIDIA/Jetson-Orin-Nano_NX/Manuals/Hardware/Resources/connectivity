@@ -1,0 +1,47 @@
+Connectivity
+============
+
+There are many connectivity options available on the |product| industrial PC. It has 6 x USB Type A connectors configured as HOSTS, 1 x Type C connector, 2 x RJ45 connectors supporting 
+Gigabit Ethernet (GbE), and up to 2 x RS232 connectors(include 1 x Debug port), one of RS232 can be configured to 1 x RS485, 1 x Fakra-Mini connector.
+
+RS232/485/I2C/CAN Connectors
+----------------------------
+
+|Product| has 2 x 9-pin D-sub connectors and 2 x 8-pin 3.81mm connector with pluggable terminal block. 
+
+.. rst-class:: text-center
+
+  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/RS232_RS485_I2C_CAN.png
+    :align: center
+    :width: 300
+
+  *RS232,RS485,I2C,CAN*
+
++------+------------------+------+------------------+
+| Pin  | Signal Name      | Pin  | Signal Name      |
++======+==================+======+==================+
+| 1    | I2C7_SCL_3V3     | 2    | I2C7_SDA_3V3     |
++------+------------------+------+------------------+
+| 3    | I2C1_SCL_3V3     | 4    | I2C1_SDA_3V3     |
++------+------------------+------+------------------+
+| 5    | CAN1_L (-)       | 6    | CAN1_H (+)       |
++------+------------------+------+------------------+
+| 7    | CAN0_L (-)       | 8    | CAN0_H (+)       |
++------+------------------+------+------------------+
+| 9    | RS485_1+ (A)     | 10   | RS485_1- (B)     |
++------+------------------+------+------------------+
+| 11   | RS232_1_TXD      | 12   | RS232_1_RXD      |
++------+------------------+------+------------------+
+| 13   | RS232_2_TXD      | 14   | RS232_2_RXD      |
++------+------------------+------+------------------+
+| 15   | GND              | 16   | GND              |
++------+------------------+------+------------------+
+  
+.. attention::
+
+   + Pins 9/10 (RS485_1) and pins 11/12 (RS232_1) share one hardware multiplexed channel. **Only one interface can be selected for use at a time, cannot work simultaneously.**
+   + The RS232_1 is enabled and RS485_1 is disabled default.
+   + The 120Ω match resistor for **CAN** bus is **NOT mounted** by default.
+   + The 120Ω match resistor for **RS485** bus is **NOT mounted** by default.
+  
+:pagebreak:`True`
