@@ -7,11 +7,11 @@ Gigabit Ethernet (GbE), and up to 2 x RS232 connectors(include 1 x Debug port), 
 RS232/485/I2C/CAN Connectors
 ----------------------------
 
-|Product| has 2 x 9-pin D-sub connectors and 2 x 8-pin 3.81mm connector with pluggable terminal block. 
+|Product| has 2 x 8-pin 2.54mm connector with pluggable terminal block. 
 
 .. rst-class:: text-center
 
-  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-RS232_RS485_I2C_CAN.png
+  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-RS232_RS485_I2C_CAN.png
     :align: center
     :width: 300
 
