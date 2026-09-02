@@ -28,7 +28,7 @@
 
 .. |product_link| replace:: |product|
 
-.. |Cover PNG| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS-JETORIN-BOX/CS-JETORIN-BOX-Front.jpg
+.. |Cover PNG| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS-JETORIN-BOX/CS-JETORIN-BOX-Front.png
 
 .. |Front View| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS-JETORIN-BOX/CS-JETORIN-BOX-Front.jpg
                   :class: product-img
