@@ -15,9 +15,7 @@ The |product| includes an SMA connector for an external WiFi/BT antenna, as illu
 
 .. rst-class:: text-center
 
-  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-WIFI_ANT.png
-    :align: center
-    :width: 200
+  |wifi_ant_img|
 
   *WiFi+BT Antenna SMA*
 

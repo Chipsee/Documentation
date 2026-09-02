@@ -6,11 +6,9 @@ LAN Connectors
 
 .. rst-class:: text-center
 
-   .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-LAN.png
-      :align: center
-      :width: 200
+  |lan_img|
 
-   *2 x RJ45 GbE LAN Connectors*
+  *2 x RJ45 GbE LAN Connectors*
 
 .. note::
   

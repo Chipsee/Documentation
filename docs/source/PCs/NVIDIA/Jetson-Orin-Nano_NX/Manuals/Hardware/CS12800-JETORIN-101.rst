@@ -24,7 +24,7 @@
 
 .. |opt_1| replace:: Optional, module available from the Chipsee store
 
-.. |pwr| replace:: 30W Max
+.. |pwr| replace:: 30W Max with Nano 4GB/8GB, 45W Max with NX 4GB/8GB
 
 .. |pwr_in| replace:: from 15V to 48V DC
 
@@ -57,6 +57,34 @@
 .. |power_img| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-PWR_INPUT.png
                   :align: middle
                   :width: 300
+
+.. |fakra_img| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-FAKRA-Z.png
+                   :align: middle
+                   :width: 200
+
+.. |lan_img| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-LAN.png
+                :align: middle
+                :width: 200
+
+.. |connectivity_img| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-RS232_RS485_I2C_CAN.png
+                         :align: middle
+                         :width: 300
+
+.. |sim_img| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-SIM_CARD.png
+                :align: middle
+                :width: 200
+
+.. |sim_ant_img| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-4G_ANT.png
+                    :align: middle
+                    :width: 200
+
+.. |recovery_btn_img| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-RECOVERY.png
+                        :align: middle
+                        :width: 200
+
+.. |wifi_ant_img| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-WIFI_ANT.png
+                 :align: middle
+                 :width: 200
 
 .. _PPC-JETORIN-101:
 
