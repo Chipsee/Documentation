@@ -1225,6 +1225,12 @@
         "PCs/MTK/index-ptv": {
             "pdf-build": "False"
         },
+        "PCs/NVIDIA/Jetson-Orin-Nano_NX/Manuals/Hardware/CS-JETORIN-BOX": {
+            "pdf-title": "CS-JETORIN-BOX",
+            "pdf-subtitle": "PN: CS-JETORIN-BOX",
+            "pdf-filename": "CS-JETORIN-BOX",
+            "pdf-type": "ipc"
+        },
         "PCs/NVIDIA/Jetson-Orin-Nano_NX/Manuals/Hardware/CS12800-JETORIN-101": {
             "pdf-title": "PPC-JETORIN-101",
             "pdf-subtitle": "PN: PPC-JETORIN-101",
