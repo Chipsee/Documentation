@@ -15,17 +15,13 @@ SIM card does **NOT** support hot plug. **Power off** before inserting or removi
 
 .. rst-class:: text-center
 
-  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-4G_ANT.png
-     :align: center
-     :width: 200
+  |sim_ant_img|
 
   *4G/LTE Antenna*
 
 .. rst-class:: text-center
 
-  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-SIM_CARD.png
-     :align: center
-     :width: 200
+  |sim_img|
 
   *SIM Card Direction*
 

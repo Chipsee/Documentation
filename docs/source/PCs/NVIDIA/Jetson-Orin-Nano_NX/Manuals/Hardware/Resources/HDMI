@@ -6,10 +6,8 @@ can be configured by the software.
 
 .. rst-class:: text-center
 
-   .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/HDMI.png
-      :align: center
-      :width: 576
+  |hdmi_img|
 
-   *HDMI Connector*
+  *HDMI Connector*
    
 :pagebreak:`True`

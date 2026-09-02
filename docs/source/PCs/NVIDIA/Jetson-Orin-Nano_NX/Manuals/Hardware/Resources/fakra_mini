@@ -5,11 +5,9 @@ Fakra-Mini Connectors
 
 .. rst-class:: text-center
 
-   .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-FAKRA-Z.png
-      :align: center
-      :width: 200
+  |fakra_img|
 
-   *Fakra-Mini automotive Connectors*
+  *Fakra-Mini automotive Connectors*
 
 Fakra-Mini automotive connector, driven by MAX96724 GMSL-2 serializer chip.
 It outputs four independent GMSL-2 single-ended serial signals, used to connect remote automotive cameras via coaxial cables with PoC power-over-coax.

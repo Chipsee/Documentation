@@ -19,6 +19,21 @@ Jetson Orin Nano&NX
 
      </div>
    </div>
+   
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+BOX
+|CS-JETORIN-BOX|
+
+:ref:`CS-JETORIN-BOX <CS-JETORIN-BOX>`
+
+.. raw:: html
+
+     </div>
+   </div>
 
 .. raw:: html
 
@@ -28,6 +43,9 @@ Jetson Orin Nano&NX
    :class: index-item-img
    :target: /PCs/NVIDIA/Jetson-Orin-Nano_NX/Manuals/Hardware/CS12800-JETORIN-101.html
 
+.. |CS-JETORIN-BOX| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS-JETORIN-BOX/CS-JETORIN-BOX-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/NVIDIA/Jetson-Orin-Nano_NX/Manuals/Hardware/CS-JETORIN-BOX.html
 
 .. toctree::
    :maxdepth: 1
@@ -36,3 +54,4 @@ Jetson Orin Nano&NX
 
 
    PPC-JETORIN-101 </PCs/NVIDIA/Jetson-Orin-Nano_NX/Manuals/Hardware/CS12800-JETORIN-101>
+   CS-JETORIN-BOX </PCs/NVIDIA/Jetson-Orin-Nano_NX/Manuals/Hardware/CS-JETORIN-BOX>
