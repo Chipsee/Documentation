@@ -1,0 +1,15 @@
+HDMI Connector
+--------------
+
+|Product| is equipped with 1 x **HDMI** connector. The HDMI connector allows connecting an additional (external) monitor. HDMI output resolution 
+can be configured by the software.
+
+.. rst-class:: text-center
+
+   .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/HDMI.png
+      :align: center
+      :width: 576
+
+   *HDMI Connector*
+   
+:pagebreak:`True`

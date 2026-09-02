@@ -1,0 +1,37 @@
+4G/LTE Module
+-------------
+
+|Product| is equipped with a M.2 connector that can connect an optional 4G/LTE module. The customer will also need a SIM Card Holder and a 4G/LTE antenna connector to ensure 4G/LTE works. 
+
+SIM card does **NOT** support hot plug. **Power off** before inserting or removing SIM card.
+
+.. rst-class:: text-center
+
+  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-4G.jpg
+     :align: center
+     :width: 200
+
+  *M.2 Connector & 4G Module*
+
+.. rst-class:: text-center
+
+  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-4G_ANT.png
+     :align: center
+     :width: 200
+
+  *4G/LTE Antenna*
+
+.. rst-class:: text-center
+
+  .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-SIM_CARD.png
+     :align: center
+     :width: 200
+
+  *SIM Card Direction*
+
+.. attention::
+
+    The product does not come shipped with the 4G/LTE module by default. The customer can choose the 4G/LTE module option when placing an order, we will install all the necessary components. 
+
+
+:pagebreak:`True`

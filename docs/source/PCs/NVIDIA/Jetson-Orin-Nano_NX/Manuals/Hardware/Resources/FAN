@@ -1,0 +1,32 @@
+FAN Connectors
+==============
+
+|Product| supports 4 pin fan header as shown in the figure below.
+
+.. rst-class:: text-center
+
+   .. image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-V10-FAN.png
+      :align: center
+      :width: 200
+
+   *FAN Connectors*
+
+It serves as an external fan interface for connecting an off board fan, supporting PWM speed control and tachometer speed monitoring.
+Check the below table to know the pin description.
+
+.. table:: 4Pin Fan Connector Pinout
+    :widths: 8, 22, 45
+
+    +------+---------------------+----------------------------------------+
+    | Pin  | Net Name            | Description                            |
+    +======+=====================+========================================+
+    | 1    | GND                 | Power ground                           |
+    +------+---------------------+----------------------------------------+
+    | 2    | VDD_12V             | 12V fan power supply positive          |
+    +------+---------------------+----------------------------------------+
+    | 3    | TACH (FAN_TACH)     | Fan tachometer speed feedback signal   |
+    +------+---------------------+----------------------------------------+
+    | 4    | PWM (FAN_PWM)       | Fan speed PWM control signal           |
+    +------+---------------------+----------------------------------------+
+   
+:pagebreak:`True`
