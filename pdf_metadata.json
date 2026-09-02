@@ -1225,6 +1225,33 @@
         "PCs/MTK/index-ptv": {
             "pdf-build": "False"
         },
+        "PCs/NVIDIA/Jetson-Orin-Nano_NX/Manuals/Hardware/CS12800-JETORIN-101": {
+            "pdf-title": "PPC-JETORIN-101",
+            "pdf-subtitle": "PN: PPC-JETORIN-101",
+            "pdf-filename": "PPC-JETORIN-101",
+            "pdf-type": "ipc"
+        },
+        "PCs/NVIDIA/Jetson-Orin-Nano_NX/Manuals/Hardware/index": {
+            "pdf-build": "False"
+        },
+        "PCs/NVIDIA/Jetson-Orin-Nano_NX/Manuals/Software/Ubuntu_24": {
+            "pdf-title": "Ubuntu 24.04 OS on Jetson Orin Nano&NX User Manual",
+            "pdf-subtitle": "For Jetson Orin Nano&NX Products",
+            "pdf-filename": "Ubuntu 24.04 OS on Jetson Orin Nano&NX User Manual",
+            "pdf-type": "ipc"
+        },
+        "PCs/NVIDIA/Jetson-Orin-Nano_NX/Manuals/Software/index": {
+            "pdf-build": "False"
+        },
+        "PCs/NVIDIA/Jetson-Orin-Nano_NX/OS_Downloads/CS12800-JETORIN-101": {
+            "pdf-build": "False"
+        },
+        "PCs/NVIDIA/Jetson-Orin-Nano_NX/OS_Downloads/index": {
+            "pdf-build": "False"
+        },
+        "PCs/NVIDIA/index": {
+            "pdf-build": "False"
+        },
         "PCs/Pi/A53/Manuals/Hardware/CS10600RA070": {
             "pdf-title": "EPC/PPC-CM3-070",
             "pdf-subtitle": "PN: CS10600RA070",

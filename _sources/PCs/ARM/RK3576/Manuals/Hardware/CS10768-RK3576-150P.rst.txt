@@ -46,7 +46,7 @@
                    :align: middle
                    :width: 640
 
-.. |wifi_bt_img| image:: /Media/ARM/RK3576/CS10768-RK3576-150P/CS10768-RK3576-150P-WiFiBT.jpg
+.. |wifi_bt_img| image:: /Media/ARM/RK3576/CS10768-RK3576-150P/CS10768-RK3576-150P-WIFIBT.jpg
                   :align: middle
                   :width: 640
 
