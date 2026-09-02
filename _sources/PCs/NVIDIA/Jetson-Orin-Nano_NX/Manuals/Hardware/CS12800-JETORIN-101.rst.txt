@@ -40,7 +40,7 @@
 
 .. |product_link| replace:: |product|
 
-.. |Cover PNG| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-Front-Low.jpg
+.. |Cover PNG| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-Front.png
 
 .. |Front View| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS12800-JETORIN-101/CS12800-JETORIN-101-Front.jpg
                   :class: product-img
