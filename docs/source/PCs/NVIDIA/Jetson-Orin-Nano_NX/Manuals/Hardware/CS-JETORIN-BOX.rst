@@ -2,7 +2,7 @@
 
 .. |product| replace:: CS-JETORIN-BOX
 
-.. |Product| replace:: The |product| Industrial Panel PC 
+.. |Product| replace:: The |product| Industrial Box PC 
 
 .. |PN| replace:: PN: |product|
 
@@ -62,7 +62,7 @@
                 :align: middle
                 :width: 200
 
-.. |sim_ant_img| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS-JETORIN-BOX/NOK.png
+.. |sim_ant_img| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS-JETORIN-BOX/CS-JETORIN-BOX-NOK.png
                     :align: middle
                     :width: 200
 
@@ -70,13 +70,14 @@
                         :align: middle
                         :width: 200
 
-.. |wifi_ant_img| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS-JETORIN-BOX/NOK.png
+.. |wifi_ant_img| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS-JETORIN-BOX/CS-JETORIN-BOX-NOK.png
                  :align: middle
                  :width: 200
 
 .. |hdmi_img| image:: /Media/NVIDIA/Jetson-Orin-Nano_NX/CS-JETORIN-BOX/CS-JETORIN-BOX-HDMI.png
                  :align: middle
                  :width: 200
+
 
 .. _CS-JETORIN-BOX:
 
