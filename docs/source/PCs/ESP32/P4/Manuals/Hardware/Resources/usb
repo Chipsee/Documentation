@@ -12,7 +12,8 @@ There are 2 x **USB2.0 Type-A HOST connectors** and 1 x **Type-C connector** onb
 
 .. note::
 
-    * USB peripherals such as flash drives, mice, and keyboards can be connected to the USB 2.0 host ports.
-    * The USB Type-C port is used for debugging and firmware flashing. It cannot be used to power the product.
+    * USB peripherals such as high-speed flash drives can be connected to the USB 2.0 host ports. 
+    * Full/Low speed USB devices such as mice and keyboards **cannot** connect due to **the limitation of USB Hub Host software stack**, Espressif managed software stack doesn't support Transaction Translator layer yet.
+    * The USB Type-C port is used for debugging and firmware flashing and supports powering the product.
 
 :pagebreak:`True`

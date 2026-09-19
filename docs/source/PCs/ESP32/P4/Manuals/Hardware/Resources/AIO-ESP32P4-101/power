@@ -11,15 +11,13 @@ The total power consumption is about |pwr|, depending on the load and brightness
 
   |power_adapter_img|
   
-  *Power Adapter*
+  *Power Connector*
 
 .. rst-class:: text-center
 
   |power_conn_img|
   
   *Power Input*
-
-
 
 :pagebreak:`True`
 
