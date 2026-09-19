@@ -47,7 +47,7 @@
 
 .. |pwr| replace:: 4W max, 3W typical
 
-.. |poe| replace:: Optional, Power Over Ethernet 802.3af/at
+.. |poe| replace:: Power over Ethernet 802.3af/at, **optional, not mounted by default**
 
 .. |poe_desc| replace:: The product supports **optional** PoE (Power over Ethernet), it's **not** mounted by default.
 
