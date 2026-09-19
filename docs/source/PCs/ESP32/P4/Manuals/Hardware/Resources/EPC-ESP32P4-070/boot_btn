@@ -1,0 +1,28 @@
+Button and Status LED
+=====================
+
+Status LED
+----------
+
+This product has a status LED. The LED turns RED after power on and GREEN when the system is booted.
+
+.. rst-class:: text-center
+
+  |status_led_img|
+
+  *Status LED*
+
+:pagebreak:`True`
+
+Button
+------
+
+There is a PROG button for flashing firmware.
+
+.. rst-class:: text-center
+
+  |btn_img|
+
+  *Button*
+
+:pagebreak:`True`

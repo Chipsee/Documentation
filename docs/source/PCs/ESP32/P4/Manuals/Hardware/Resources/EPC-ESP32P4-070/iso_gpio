@@ -1,0 +1,51 @@
+Isolated GPIO
+-------------
+
+|Product| has 8 optically isolated I/O channels, as shown in the figure below. These are controlled through an I2C GPIO expander at address 0x21.
+
+.. table:: GPIO Connector Pin-out
+   :align: center
+   :width: 100%
+   :widths: auto
+
+   +---------------------------------------------------------------------------------------------------------------------------------+
+   | Isolated GPIO Connector Pin Definition                                                                                          |
+   +======================================+=============================+============================================================+
+   | **Pin Number**                       | **Definition**              | **Description**                                            |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 1                                | VDD_24V (VDD_ISO)           | Isolated Power +5V ~ +24V Input (Should not exceed 24V)    |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 2                                | GND_ISO                     | Isolated Ground                                            |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 3                                | OUT1                        | Isolated Output 1                                          |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 4                                | OUT2                        | Isolated Output 2                                          |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 5                                | OUT3                        | Isolated Output 3                                          |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 6                                | OUT4                        | Isolated Output 4                                          |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 7                                | IN1                         | Isolated Input 1                                           |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 8                                | IN2                         | Isolated Input 2                                           |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 9                                | IN3                         | Isolated Input 3                                           |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+   | Pin 10                               | IN4                         | Isolated Input 4                                           |
+   +--------------------------------------+-----------------------------+------------------------------------------------------------+
+
+.. rst-class:: text-center
+
+  |iso_gpio_img|
+
+  *Optical Isolated GPIO Connector*
+  
+.. attention::
+
+    #) In order to use the Isolated Output, you need to add an external Isolated Power to the VDD_ISO and GND_ISO (between 5V and 24V). The power voltage should not exceed 24V.
+    #) The output current can reach 500mA for every channel, but it also depends on the isolated source that supplies the power.
+    #) In order to use the Isolated Input, you need to add a signal to the IN_X and GND_ISO. A 2.4KΩ resistor, as R6, has been added to limit the input current, as shown in the figure below. This resistor should work well for the 5-24V input signal. If your input signal is less than 5V, please change this input resistor. The reduced schematic is for reference purposes, if you need the precise resistor schematic, please contact us.
+
+.. include:: /PCs/Shared/Hardware/gpio_image
+
+:pagebreak:`True`

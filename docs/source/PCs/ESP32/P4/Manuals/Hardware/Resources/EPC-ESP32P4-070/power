@@ -1,0 +1,48 @@
+Power Input
+===========
+
+|Product| can be powered by an input voltage of |vin_rng|.
+
+The total power consumption is about |pwr|, depending on the load and brightness. 
+
+|power_conn_desc|
+
+.. rst-class:: text-center
+
+  |power_adapter_img|
+  
+  *Power Connector*
+
+.. rst-class:: text-center
+
+  |power_conn_img|
+  
+  *USB Power Input*
+
+Note that the "**+**" sign represents the positive power input, the "**-**" terminal is shorted to the ground.
+
+.. table:: Power Connector
+   :align: center
+   :width: 100%
+   :widths: auto
+   :class: align-center
+
+   +-------------------------------------------------------------------------+
+   | Power Input Definition                                                  |
+   +================+================+=======================================+
+   | **Pin Number** | **Definition** | **Description**                       |
+   +----------------+----------------+---------------------------------------+
+   | Pin 1          | Positive Input | DC Power **Positive Terminal**        |
+   +----------------+----------------+---------------------------------------+
+   | Pin 2          | Negative Input | DC Power **Negative Terminal**        |
+   +----------------+----------------+---------------------------------------+
+   | Pin 3          | Ground         | **Power System Ground**               |
+   +----------------+----------------+---------------------------------------+
+
+.. note:: 
+
+  The system ground “**G**” is connected to power negative “**-**” on board.
+  
+  |poe_desc|
+
+:pagebreak:`True`
