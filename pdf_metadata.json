@@ -1003,11 +1003,17 @@
             "pdf-build": "False",
             "orphan": ""
         },
+        "PCs/ESP32/P4/Manuals/Hardware/CS10600-ESP32P4-070E": {
+            "pdf-title": "EPC-ESP32P4-070",
+            "pdf-subtitle": "PN: CS10600-ESP32P4-070E",
+            "pdf-filename": "EPC-ESP32P4-070",
+            "pdf-type": "hmi display"
+        },
         "PCs/ESP32/P4/Manuals/Hardware/CS12800-ESP32P4-101A": {
             "pdf-title": "AIO-ESP32P4-101",
             "pdf-subtitle": "PN: CS12800-ESP32P4-101A",
             "pdf-filename": "AIO-ESP32P4-101",
-            "pdf-type": "smart_disp"
+            "pdf-type": "hmi display"
         },
         "PCs/ESP32/index": {
             "pdf-build": "False"

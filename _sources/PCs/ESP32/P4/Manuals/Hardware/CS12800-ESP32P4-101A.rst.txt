@@ -1,13 +1,13 @@
 :pdf-title: |product|
 :pdf-subtitle: |PN|
 :pdf-filename: |product|
-:pdf-type: smart_disp
+:pdf-type: hmi display
 
 .. |product| replace:: AIO-ESP32P4-101
 
 .. |PN| replace:: PN: CS12800-ESP32P4-101A
 
-.. |Product| replace:: The |product| Smart Display
+.. |Product| replace:: The |product| HMI Display
 
 .. |dispsize| replace:: 10.1"
 
@@ -31,7 +31,7 @@
 
 .. |buzzer| replace:: Onboard buzzer, driven by GPIO
 
-.. |USB| replace:: 2 x USB 2.0 Type-A high-speed host ports; 1 × USB 1.1 Type-C port for firmware flashing and debugging; does not support powering the device.
+.. |USB| replace:: 2 x USB 2.0 Type-A high-speed host ports; 1 × USB 1.1 Type-C port for firmware flashing and debugging; the type-C port supports powering the device while programming
 
 .. |LAN| replace:: 1 x 100Mbps LAN
 
@@ -49,6 +49,8 @@
 
 .. |power_conn_desc| replace:: The power input uses a DC connector with dimensions of 3.4 mm O.D. × 1.7 mm I.D. × 9.5 mm. The product also includes a 3.4 × 1.7 mm to 5.5 × 2.1 mm adapter, allowing either connector size to be used with a suitable DC power supply.
 
+.. |poe_desc| replace:: The product doesn't support PoE (Power over Ethernet).
+
 .. |temp| replace:: From -20°C to +70°C
 
 .. |audio| replace:: 3.5mm audio out interface; internal dual channel speaker; front microphone
@@ -59,9 +61,9 @@
 
 .. |relay| replace:: 1 x relay with "Normally Closed" and "Normally Open" output; relay NC and NO can be configured to 1 x CAN FD **(optional)**; relay NC and NO can be configured to 2 x GPIO **(optional)**
 
-.. |camera| replace:: 1 x MIPI-CSI (2-lane) interface for connecting a MIPI-CSI (2-lane) 15-pin 1.0mm camera such as a Raspberry Pi camera **(optional)**
-
 .. |wifi_desc| replace:: WiFi 6, Bluetooth LE 5 **(optional, ESP32-C6 is not mounted by default)**
+
+.. |overview_desc| replace:: |Product| (|PN|) is an all-in-one programmable capacitive touch hmi display featuring an ESP32 P4 processor. The product features a lightweight plastic enclosure available in black or white. It can be used as a portable device or mounted in a fixed location.
 
 .. |sd_socket| replace:: 1 x TF (micro SD) card slot
 
@@ -152,9 +154,9 @@
 
 .. include:: Resources/AIO-ESP32P4-101/table
 
-.. include:: Resources/AIO-ESP32P4-101/opt_features
+.. include:: Resources/opt_features
 
-.. include:: Resources/power
+.. include:: Resources/AIO-ESP32P4-101/power
 
 .. include:: Resources/connectivity
 
@@ -164,19 +166,19 @@
 
 .. include:: Resources/lan
 
-.. include:: Resources/AIO-ESP32P4-101/4G_lte
+.. include:: Resources/4G_lte
 
 .. include:: Resources/tf
 
-.. include:: Resources/camera
-
-.. include:: Resources/audio
+.. include:: Resources/AIO-ESP32P4-101/audio
 
 .. include:: Resources/AIO-ESP32P4-101/boot_btn
 
 .. include:: Resources/mounting
 
 .. include:: Resources/mechanical
+
+.. include:: Resources/AIO-ESP32P4-101/mechanical_image
 
 .. include:: /PCs/Shared/support
 
