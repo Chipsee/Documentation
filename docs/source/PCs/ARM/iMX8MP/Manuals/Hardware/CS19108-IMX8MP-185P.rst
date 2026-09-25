@@ -10,7 +10,7 @@
 
 .. |PN| replace:: PN: CS19108-IMX8MP-185P
 
-.. |cur| replace:: 1.65A(12V, typical), 1.90A(12V, max)
+.. |cur| replace:: 1.32A(15V, typical), 1.52A(15V, max)
 
 .. |pwr| replace:: 22.80W(max)
 

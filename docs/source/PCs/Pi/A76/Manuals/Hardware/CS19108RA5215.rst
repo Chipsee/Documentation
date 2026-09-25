@@ -12,7 +12,7 @@
 
 .. |vin_rng| replace:: 15-30V (supports optional 24V ignition signal)
 
-.. |cur| replace:: 3200mA max at 12V, 2900mA typical at 12V
+.. |cur| replace:: 2.53A max at 15V, 2.33A typical at 15V
 
 .. |pwr| replace:: 38W max, 35W typical
 

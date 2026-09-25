@@ -12,7 +12,7 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |cur| replace:: 1.44A(12V, typical), 1.70A(12V, max)
+.. |cur| replace:: 1.15A(15V, typical), 1.36A(15V, max)
 
 .. |pwr| replace:: 20.40W(max)
 

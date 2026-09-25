@@ -30,7 +30,7 @@
 
 .. |vin_rng| replace:: From 15V to 36V
 
-.. |cur| replace:: 1500mA Max(15V)
+.. |cur| replace:: 1.20A Typical at 15V
 
 .. |pwr| replace:: 18W Typical
 
