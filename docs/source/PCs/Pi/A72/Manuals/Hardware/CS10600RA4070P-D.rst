@@ -181,7 +181,7 @@
 
 .. include:: Resources/mechanical
 
-.. figure:: /Media/ARM/A55/CS10600-RK3568-070P/SIZE_RK3568_070.jpg
+.. figure:: /Media/Shared/Hardware/CS10600-070-D-TD.webp
    :align: center
    :figclass: align-center
 
