@@ -28,9 +28,9 @@
 
 .. |opt2| replace:: Integrated WiFi/BT Module
 
-.. |vin_rng| replace:: From 12V to 36V
+.. |vin_rng| replace:: From 15V to 36V
 
-.. |cur| replace:: 1.78A(12V, typical), 2.02A(12V, max)
+.. |cur| replace:: 1.42A(15V, typical), 1.62A(15V, max)
 
 .. |pwr| replace:: 24.24W(max)
 

@@ -12,9 +12,9 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |cur| replace:: 2A Max at 12V
+.. |cur| replace:: 1.60A Max at 15V
 
-.. |pwr| replace:: 19.56W (12V x 1.63A) Typical, 24W (12V x 2A) Max
+.. |pwr| replace:: 19.56W (15V x 1.30A) Typical, 24W (15V x 1.60A) Max
 
 .. |temp| replace:: From -20°C to +60°C
 

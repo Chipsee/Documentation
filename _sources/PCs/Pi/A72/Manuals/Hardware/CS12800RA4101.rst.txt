@@ -12,7 +12,7 @@
 
 .. |PN| replace:: PN: CS12800RA4101P
 
-.. |cur| replace:: 800mA Max at 12V
+.. |cur| replace:: 0.64A Max at 15V
 
 .. |pwr| replace:: 9.6W Typical
 

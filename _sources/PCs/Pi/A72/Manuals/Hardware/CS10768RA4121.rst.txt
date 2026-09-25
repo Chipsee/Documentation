@@ -12,7 +12,7 @@
 
 .. |PN| replace:: PN: CS10768RA4121
 
-.. |cur| replace:: 1000mA Max at 12V
+.. |cur| replace:: 0.80A Max at 15V
 
 .. |pwr| replace:: 12W Typical
 

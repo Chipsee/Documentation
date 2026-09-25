@@ -10,7 +10,7 @@
 
 .. |PN| replace:: PN: CS12800-IMX8MP-101P
 
-.. |cur| replace:: Max brightness, max CPU load: 0.97A at 12V; Min brightness, idle: 0.58A at 12V.
+.. |cur| replace:: Max brightness, max CPU load: 0.78A at 15V; Min brightness, idle: 0.46A at 15V.
 
 .. |pwr| replace:: Max brightness, max CPU load: 11.64W; Min brightness, idle: 6.96W.
 

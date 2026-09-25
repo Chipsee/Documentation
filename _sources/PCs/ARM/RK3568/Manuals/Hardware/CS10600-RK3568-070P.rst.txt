@@ -205,7 +205,7 @@
 
 Please refer to the technical drawing in the figure below for details related to the specific product measurements.
 
-.. figure:: /Media/ARM/A55/CS10600-RK3568-070P/SIZE_RK3568_070.jpg
+.. figure:: /Media/Shared/Hardware/CS10600-070-D-TD.webp
    :align: center
    :figclass: align-center
 
