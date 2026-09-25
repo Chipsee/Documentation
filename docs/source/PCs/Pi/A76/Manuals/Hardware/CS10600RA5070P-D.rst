@@ -104,7 +104,7 @@
                   :align: middle
                   :width: 384
 
-.. |td_img| image:: /Media/Pi/A76/CS10600RA5070P-D/CS10600RA5070P-D-TD.jpg
+.. |td_img| image:: /Media/Shared/Hardware/CS10600-070-D-TD.webp
                   :align: middle
                   :width: 1024
 

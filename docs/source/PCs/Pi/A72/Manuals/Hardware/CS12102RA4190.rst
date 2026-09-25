@@ -12,7 +12,7 @@
 
 .. |PN| replace:: PN: CS12102RA4190
 
-.. |cur| replace:: 1.47A(12V, typical), 1.68A(12V, max)
+.. |cur| replace:: 1.18A(15V, typical), 1.34A(15V, max)
 
 .. |pwr| replace:: 20.16W(max)
 

@@ -12,9 +12,9 @@
 
 .. |PN| replace:: PN: CS19108RA4236
 
-.. |cur| replace:: 1.96A Max at 12V
+.. |cur| replace:: 1.57A Max at 15V
 
-.. |pwr| replace:: 19.92W (12V x 1.66A) Typical, 23.52W (12V x 1.96A) Max
+.. |pwr| replace:: 19.92W (15V x 1.33A) Typical, 23.52W (15V x 1.57A) Max
 
 .. |temp| replace:: From 0°C to +50°C
 

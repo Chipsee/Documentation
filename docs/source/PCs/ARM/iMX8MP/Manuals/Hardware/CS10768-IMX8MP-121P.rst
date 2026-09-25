@@ -10,7 +10,7 @@
 
 .. |PN| replace:: PN: CS10768-IMX8MP-121P
 
-.. |cur| replace:: 1000mA Max at 12V
+.. |cur| replace:: 0.80A Max at 15V
 
 .. |pwr| replace:: 12W Typical.
 

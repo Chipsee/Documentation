@@ -99,9 +99,9 @@
                   :align: middle
                   :width: 480
 
-.. |td_img| image:: /Media/ARM/RK3576/CS10600-RK3576-070P/CS10600-RK3576-070P-TD.jpg
+.. |td_img| image:: /Media/Shared/Hardware/CS10600-070-D-TD.webp
                   :align: middle
-                  :width: 960
+                  :width: 1024
 
 .. _product_link: https://chipsee.com/product/ppc-rk3576-070/
 

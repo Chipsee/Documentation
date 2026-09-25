@@ -16,7 +16,7 @@
 
 .. |weightE| replace:: NULL
 
-.. |cur| replace:: 1.23A(12V, typical), 1.46A(12V, max)
+.. |cur| replace:: 0.98A(15V, typical), 1.17A(15V, max)
 
 .. |pwr| replace:: 17.52W(max)
 

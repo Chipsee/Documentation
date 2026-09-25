@@ -10,7 +10,7 @@
 
 .. |PN| replace:: PN: CS19108-IMX8MP-156P
 
-.. |cur| replace:: 1.95A Max at 12V
+.. |cur| replace:: 1.56A Max at 15V
 
 .. |pwr| replace:: 9.6W Typical, 23.4W Max
 

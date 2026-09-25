@@ -10,7 +10,7 @@
 
 .. |PN| replace:: PN: CS19108RA4215
 
-.. |cur| replace:: 1500mA Max at 12V
+.. |cur| replace:: 1.20A Max at 15V
 
 .. |pwr| replace:: 18W Typical
 

@@ -32,7 +32,7 @@
 
 .. |opt2| replace:: Integrated WiFi/BT Module
 
-.. |vin_rng| replace:: From 12V to 36V
+.. |vin_rng| replace:: From 15V to 36V
 
 .. |rs232| replace:: Default to 2 x RS232 (including 1 debug port). Up to 6 x RS232.
 
