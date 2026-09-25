@@ -10,7 +10,7 @@
 
 .. |PN| replace:: PN: CS19108RA5215
 
-.. |vin_rng| replace:: 12-30V (supports optional 24V ignition signal)
+.. |vin_rng| replace:: 15-30V (supports optional 24V ignition signal)
 
 .. |cur| replace:: 3200mA max at 12V, 2900mA typical at 12V
 
