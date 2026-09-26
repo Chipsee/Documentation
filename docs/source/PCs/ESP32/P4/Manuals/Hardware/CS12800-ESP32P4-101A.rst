@@ -37,7 +37,7 @@
 
 .. |GPIO| replace:: 0 x GPIO **(default)**, 8 x GPIO **(optional,** by configuring 2 x RS232, 1 x RS485 and 1 x Relay to 8 x GPIO)
 
-.. |can| replace:: 0 x CAN **(default)**; 1 x CAN FD bus, arbitration bit rate up to 1Mbps, data bit rate up to 8Mbps, by configuring 1 x relay to CAN **(optional)**
+.. |can| replace:: 0 x CAN **(default)**; 1 x CAN bus (does not support CAN FD), arbitration bit rate up to 1Mbps, data bit rate up to 8Mbps, by configuring 1 x relay to CAN **(optional)**
 
 .. |4g_desc| replace:: Internal Cat 1 4G/LTE module, **not mounted by default**
 
@@ -59,7 +59,7 @@
 
 .. |rs485| replace:: 1 x RS485 **(default)**; up to 2 x RS485 **(optional,** by configuring RS232_2 to RS485); 1 x RS485 can be configured to 2 x GPIO **(optional)**
 
-.. |relay| replace:: 1 x relay with "Normally Closed" and "Normally Open" output; relay NC and NO can be configured to 1 x CAN FD **(optional)**; relay NC and NO can be configured to 2 x GPIO **(optional)**
+.. |relay| replace:: 1 x relay with "Normally Closed" and "Normally Open" output; relay NC and NO can be configured to 1 x CAN **(optional, does not support CAN FD)**; relay NC and NO can be configured to 2 x GPIO **(optional)**
 
 .. |wifi_desc| replace:: WiFi 6, Bluetooth LE 5 **(optional, ESP32-C6 is not mounted by default)**
 
