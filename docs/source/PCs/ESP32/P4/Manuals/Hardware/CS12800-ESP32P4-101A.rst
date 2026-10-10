@@ -17,6 +17,10 @@
 
 .. |ram_desc| replace:: 768 KB HP L2MEM + 32 KB LP SRAM + 8 KB SPM; 32MB in-package PSRAM
 
+.. |fram| replace:: Optional, not mounted by default
+
+.. |gyroscope| replace:: Optional, not mounted by default
+
 .. |res| replace:: 1280 x 800
 
 .. |bright| replace:: 400 |cd|
@@ -31,13 +35,13 @@
 
 .. |buzzer| replace:: Onboard buzzer, driven by GPIO
 
-.. |USB| replace:: 2 x USB 2.0 Type-A high-speed host ports; 1 × USB 1.1 Type-C port for firmware flashing and debugging; the type-C port supports powering the device while programming
+.. |USB| replace:: 2 x USB 2.0 Type-A high-speed host ports; 1 x USB 1.1 Type-C port for firmware flashing and debugging; the type-C port supports powering the device while programming
 
 .. |LAN| replace:: 1 x 100Mbps LAN
 
 .. |GPIO| replace:: 0 x GPIO **(default)**, 8 x GPIO **(optional,** by configuring 2 x RS232, 1 x RS485 and 1 x Relay to 8 x GPIO)
 
-.. |can| replace:: 0 x CAN **(default)**; 1 x CAN bus (does not support CAN FD), arbitration bit rate up to 1Mbps, data bit rate up to 8Mbps, by configuring 1 x relay to CAN **(optional)**
+.. |can| replace:: 0 x CAN **(default)**; 1 x CAN 2.0 (classic CAN, no CAN FD), up to 1Mbps, by configuring the relay to CAN (optional) **(optional)**
 
 .. |4g_desc| replace:: Internal Cat 1 4G/LTE module, **not mounted by default**
 
@@ -47,13 +51,13 @@
 
 .. |pwr| replace:: 4W max, 3W typical
 
-.. |power_conn_desc| replace:: The power input uses a DC connector with dimensions of 3.4 mm O.D. × 1.7 mm I.D. × 9.5 mm. The product also includes a 3.4 × 1.7 mm to 5.5 × 2.1 mm adapter, allowing either connector size to be used with a suitable DC power supply.
+.. |power_conn_desc| replace:: The power input uses a DC connector with dimensions of 3.4 mm O.D. x 1.7 mm I.D. x 9.5 mm. The product also includes a 3.4 x 1.7 mm to 5.5 x 2.1 mm adapter, allowing either connector size to be used with a suitable DC power supply.
 
 .. |poe_desc| replace:: The product doesn't support PoE (Power over Ethernet).
 
 .. |temp| replace:: From -20°C to +70°C
 
-.. |audio| replace:: 3.5mm audio out interface; internal dual channel speaker; front microphone
+.. |audio| replace:: 3.5mm headset jack (audio out + headset microphone in); internal dual-channel speaker; front microphone
 
 .. |rs232| replace:: 2 x RS232 **(default)**; RS232_2 can be configured to RS485 **(optional)**; 2 x RS232 can be configured to 4 x GPIO **(optional)**
 
@@ -63,7 +67,7 @@
 
 .. |wifi_desc| replace:: WiFi 6, Bluetooth LE 5 **(optional, ESP32-C6 is not mounted by default)**
 
-.. |overview_desc| replace:: |Product| (|PN|) is an all-in-one programmable capacitive touch hmi display featuring an ESP32 P4 processor. The product features a lightweight plastic enclosure available in black or white. It can be used as a portable device or mounted in a fixed location.
+.. |overview_desc| replace:: |Product| (|PN|) is an all-in-one programmable capacitive touch HMI display featuring an ESP32 P4 processor. The product features a lightweight plastic enclosure available in black or white. It can be used as a portable device or mounted in a fixed location.
 
 .. |sd_socket| replace:: 1 x TF (micro SD) card slot
 
@@ -82,6 +86,10 @@
                           :width: 480
                           :alt: power connector 3.4mm x 1.7mm
 
+.. |c6_img| image:: /Media/ESP32/CS12800-ESP32P4-101A/CS12800-ESP32P4-101A-C6.jpg
+                           :align: middle
+                           :width: 480
+                           
 .. |usb_img| image:: /Media/ESP32/CS12800-ESP32P4-101A/CS12800-ESP32P4-101A-USB.jpg
                           :align: middle
                           :width: 640
@@ -166,6 +174,8 @@
 
 .. include:: Resources/lan
 
+.. include:: Resources/wifi
+
 .. include:: Resources/4G_lte
 
 .. include:: Resources/tf
@@ -181,4 +191,3 @@
 .. include:: Resources/AIO-ESP32P4-101/mechanical_image
 
 .. include:: /PCs/Shared/support
-

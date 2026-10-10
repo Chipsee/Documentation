@@ -4,7 +4,11 @@ Button and Status LED
 Status LED
 ----------
 
-This product has a status LED. The LED turns RED after power on and GREEN when the system is booted.
+This product has a bi-color status LED. It is green whenever the product is powered on. The application can switch it to red through pin P16 of the on-board PCA9535 I/O expander (I2C address 0x21, on the I2C bus GPIO7 SDA / GPIO8 SCL): set P16 as an output and drive it low for red, high (or leave it as an input) for green only.
+
+P16 is bit 6 of port 1: configuration register 0x07, output register 0x03.
+
+The I/O expander also controls other on-board functions (touch reset, speaker enable, buzzer, isolated I/O). When changing P16, read the current register value first and change only bit 6.
 
 .. rst-class:: text-center
 

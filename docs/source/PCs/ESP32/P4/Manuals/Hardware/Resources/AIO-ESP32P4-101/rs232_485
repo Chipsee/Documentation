@@ -45,6 +45,8 @@ The table below provides a detailed description of each pin and its function.
    | Pin 10         | Relay NC                      | Relay Normally Closed |br| Can be set as CAN0 L              | GPIO21                        |
    +----------------+-------------------------------+--------------------------------------------------------------+-------------------------------+
 
+The relay is driven by GPIO20: high = energized (COM connected to NO), low = released (COM connected to NC).
+
 .. attention::
 
     #) The RS232_2 can be set as the RS485 signal (1 x RS232 + 2 x RS485 + 1 x Relay). If you need it to work as RS485, please |contact|_ before shipping.
