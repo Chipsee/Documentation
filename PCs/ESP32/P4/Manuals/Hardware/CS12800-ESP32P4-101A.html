@@ -294,6 +294,8 @@
         </li>
         <li class="md-nav__item"><a href="#lan" class="md-nav__link">LAN</a>
         </li>
+        <li class="md-nav__item"><a href="#wi-fi-and-bluetooth" class="md-nav__link">Wi-Fi and Bluetooth</a>
+        </li>
         <li class="md-nav__item"><a href="#g-lte" class="md-nav__link">4G/LTE</a>
         </li>
         <li class="md-nav__item"><a href="#microsd-card" class="md-nav__link">MicroSD Card</a>
@@ -385,7 +387,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </div><div class="col-12 col-md-6 col-xxl-3 html-only" style="cursor: pointer;"><p><img alt="Side View 2" class="product-img" src="../../../../../_images/CS12800-ESP32P4-101A-Side2.jpg"/></p>
 </div></div><section id="product-overview">
 <h2 id="product-overview">Product Overview<a class="headerlink" href="#product-overview" title="Permalink to this heading">¶</a></h2>
-<p>The AIO-ESP32P4-101 HMI Display (PN: CS12800-ESP32P4-101A) is an all-in-one programmable capacitive touch hmi display featuring an ESP32 P4 processor. The product features a lightweight plastic enclosure available in black or white. It can be used as a portable device or mounted in a fixed location.</p>
+<p>The AIO-ESP32P4-101 HMI Display (PN: CS12800-ESP32P4-101A) is an all-in-one programmable capacitive touch HMI display featuring an ESP32 P4 processor. The product features a lightweight plastic enclosure available in black or white. It can be used as a portable device or mounted in a fixed location.</p>
 <p>It features a 10.1” IPS display with a maximum brightness of 400 cd/m<sup>2</sup>. The touch screen is a responsive capacitive screen and supports multi-touch.</p>
 <p>The product is powered by an ESP32-P4 processor, making it suitable for applications such as:</p>
 <ul class="simple">
@@ -418,7 +420,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <h2 id="hardware-features">Hardware Features<a class="headerlink" href="#hardware-features" title="Permalink to this heading">¶</a></h2>
 <p>The AIO-ESP32P4-101 HMI Display offers a broad range of performance and connectivity features for flexible integration. Some of the key features are listed below.</p>
 <table id="id1" style="width: 100%">
-<caption><span class="caption-number">Table 507 </span><span class="caption-text">Key Features</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 514 </span><span class="caption-text">Key Features</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head" colspan="2"><p class="centered">
 <strong>AIO-ESP32P4-101</strong></p></th>
@@ -433,6 +435,12 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </tr>
 <tr class="row-even"><td><p><strong>RAM</strong></p></td>
 <td><p>768 KB HP L2MEM + 32 KB LP SRAM + 8 KB SPM; 32MB in-package PSRAM</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>FRAM</strong></p></td>
+<td><p>Optional, not mounted by default</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Gyroscope</strong></p></td>
+<td><p>Optional, not mounted by default</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>Display</strong></p></td>
 <td><p>10.1” IPS LCD, 1280 x 800 px, brightness 400 cd/m<sup>2</sup></p></td>
@@ -450,7 +458,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <td><p>Internal Cat 1 4G/LTE module, <strong>not mounted by default</strong></p></td>
 </tr>
 <tr class="row-even"><td><p><strong>Audio</strong></p></td>
-<td><p>3.5mm audio out interface; internal dual channel speaker; front microphone</p></td>
+<td><p>3.5mm headset jack (audio out + headset microphone in); internal dual-channel speaker; front microphone</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>Buzzer</strong></p></td>
 <td><p>Onboard buzzer, driven by GPIO</p></td>
@@ -468,10 +476,10 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <td><p>1 x RS485 <strong>(default)</strong>; up to 2 x RS485 <strong>(optional,</strong> by configuring RS232_2 to RS485); 1 x RS485 can be configured to 2 x GPIO <strong>(optional)</strong></p></td>
 </tr>
 <tr class="row-even"><td><p><strong>CAN</strong></p></td>
-<td><p>0 x CAN <strong>(default)</strong>; 1 x CAN bus (does not support CAN FD), arbitration bit rate up to 1Mbps, data bit rate up to 8Mbps, by configuring 1 x relay to CAN <strong>(optional)</strong></p></td>
+<td><p>0 x CAN <strong>(default)</strong>; 1 x CAN 2.0 (classic CAN, no CAN FD), up to 1Mbps, by configuring the relay to CAN (optional) <strong>(optional)</strong></p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>USB</strong></p></td>
-<td><p>2 x USB 2.0 Type-A high-speed host ports; 1 × USB 1.1 Type-C port for firmware flashing and debugging; the type-C port supports powering the device while programming</p></td>
+<td><p>2 x USB 2.0 Type-A high-speed host ports; 1 x USB 1.1 Type-C port for firmware flashing and debugging; the type-C port supports powering the device while programming</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>Micro SD card socket</strong></p></td>
 <td><p>1 x TF (micro SD) card slot</p></td>
@@ -514,6 +522,9 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <ul class="simple">
 <li><p>WiFi/Bluetooth: If Wi-Fi/Bluetooth connectivity is required, an ESP32-C6 module can be installed at the factory. The ESP32-C6 is not populated by default.</p></li>
 <li><p>4G/LTE: 4G/LTE (Cat 1) module is supported on this product, it’s not mounted by default, if you need the interface or the 4G/LTE module you can contact us when you place an order.</p></li>
+<li><p>Gyroscope is supported but not mounted by default, if you need gyroscope, contact us before placing an order.</p></li>
+<li><p>FRAM (Ferroelectric Random Access Memory) is supported but not mounted by default, if you need FRAM, contact us before placing an order.</p></li>
+<li><p>15 pin CSI camera interface is customizable, if you want to use a camera (like Raspberry Pi camera V1.3 OV5647) on the product, contact us.</p></li>
 </ul>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -526,7 +537,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <h2 id="power-input">Power Input<a class="headerlink" href="#power-input" title="Permalink to this heading">¶</a></h2>
 <p>The AIO-ESP32P4-101 HMI Display can be powered by an input voltage of 9V to 32V DC.</p>
 <p>The total power consumption is about 4W max, 3W typical, depending on the load and brightness.</p>
-<p>The power input uses a DC connector with dimensions of 3.4 mm O.D. × 1.7 mm I.D. × 9.5 mm. The product also includes a 3.4 × 1.7 mm to 5.5 × 2.1 mm adapter, allowing either connector size to be used with a suitable DC power supply.</p>
+<p>The power input uses a DC connector with dimensions of 3.4 mm O.D. x 1.7 mm I.D. x 9.5 mm. The product also includes a 3.4 x 1.7 mm to 5.5 x 2.1 mm adapter, allowing either connector size to be used with a suitable DC power supply.</p>
 <p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-Power-Adapter.jpg"><img alt="power connector 3.4mm x 1.7mm" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-Power-Adapter.jpg" style="width: 480px;"/></a></p>
 <p class="text-center"><em>Power Connector</em></p>
 <p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-Power-Conn.jpg"><img alt="power_conn_img" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-Power-Conn.jpg" style="width: 480px;"/></a></p>
@@ -542,7 +553,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p class="text-center"><em>RS232/RS485/Relay Connector</em></p>
 <p>The table below provides a detailed description of each pin and its function.</p>
 <table id="id2" style="width: 100%">
-<caption><span class="caption-number">Table 508 </span><span class="caption-text">RS232/RS485/Relay Connector</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 515 </span><span class="caption-text">RS232/RS485/Relay Connector</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head" colspan="4"><p><strong>RS232 / RS485 / Relay Pin Definition:</strong></p></th>
 </tr>
@@ -605,6 +616,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </tr>
 </tbody>
 </table>
+<p>The relay is driven by GPIO20: high = energized (COM connected to NO), low = released (COM connected to NC).</p>
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
 <ol class="arabic simple">
@@ -641,6 +653,71 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p class="text-center"><em>RJ45 LAN Connector</em></p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
+<section id="wi-fi-and-bluetooth">
+<h3 id="wi-fi-and-bluetooth">Wi-Fi and Bluetooth<a class="headerlink" href="#wi-fi-and-bluetooth" title="Permalink to this heading">¶</a></h3>
+<p>When the optional Wi-Fi/Bluetooth configuration is selected, an ESP32-C6 module provides Wi-Fi and Bluetooth connectivity to the ESP32-P4 through SDIO.</p>
+<p>The ESP32-C6 operates as a coprocessor.</p>
+<p>Espressif’s official ESP-Hosted Wi-Fi and Bluetooth firmware will be flashed at the factory before shipping.</p>
+<table id="id3" style="width: 100%">
+<caption><span class="caption-number">Table 516 </span><span class="caption-text">ESP32-C6 Programming Connector Pin Definition</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 20%"/>
+<col style="width: 30%"/>
+<col style="width: 50%"/>
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Pin Number</strong></p></th>
+<th class="head"><p><strong>Definition</strong></p></th>
+<th class="head"><p><strong>Description</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Pin 1</p></td>
+<td><p>C6_CHIP_PU</p></td>
+<td><p>ESP32-C6 chip enable/reset signal</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pin 2</p></td>
+<td><p>X</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Pin 3</p></td>
+<td><p>C6_U0TXD</p></td>
+<td><p>ESP32-C6 UART0 transmit signal</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pin 4</p></td>
+<td><p>GND</p></td>
+<td><p>System ground</p></td>
+</tr>
+<tr class="row-even"><td><p>Pin 5</p></td>
+<td><p>C6_U0RXD</p></td>
+<td><p>ESP32-C6 UART0 receive signal</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pin 6</p></td>
+<td><p>C6_IO9</p></td>
+<td><p>ESP32-C6 boot mode selection signal</p></td>
+</tr>
+</tbody>
+</table>
+<p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-C6.jpg"><img alt="c6_img" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-C6.jpg" style="width: 480px;"/></a></p>
+<p class="text-center"><em>ESP32-C6 Pin Definition</em></p>
+<p>You can flash the C6 firmware by yourself too. The process is the same as the official Espressif ESP32C6 firmware flashing guide.</p>
+<p>The ESP32-C6 firmware can be updated using either of the following methods:</p>
+<ul class="simple">
+<li><p><strong>UART flashing:</strong></p>
+<ol class="arabic simple">
+<li><p>Prepare a USB-UART (TTL level) cable, to connect the pins and your computer.</p></li>
+<li><p>Connect GND (Pin 4) to your UART cable’s GND, connect GND to C6_IO9 (Pin 6) to let C6 enter flash mode.</p></li>
+<li><p>Connect C6_U0TXD (Pin 3) to your cable’s RX pin.</p></li>
+<li><p>Connect C6_U0RXD (Pin 5) to your cable’s TX pin.</p></li>
+<li><p>Reset the product/C6 to enter download mode, you can unplug all power sources first and then connect USB-C to your power adapter as a reset.</p></li>
+<li><p>Remove the C6_IO9 (Pin 6) short to leave flash mode in the next reset.</p></li>
+<li><p>Reset the product/C6 after flashing to boot normally.</p></li>
+</ol>
+</li>
+<li><p><strong>Updates through the ESP32-P4:</strong> The ESP32-P4 can flash new firmware to the ESP32-C6 through SDIO using a firmware image if C6 already has a firmware (OTA). This is usually done with a MicroSD card.</p></li>
+</ul>
+<p><p class="page-break" style="margin: 0"></p></p>
+</section>
 <section id="g-lte">
 <h3 id="g-lte">4G/LTE<a class="headerlink" href="#g-lte" title="Permalink to this heading">¶</a></h3>
 <p>4G/LTE Cat 1 module is <strong>optional</strong>. If you place an order with 4G module included, we will also add a SIM card holder and a 4G/LTE antenna to enable 4G/LTE connectivity.</p>
@@ -665,9 +742,11 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <h3 id="audio">Audio<a class="headerlink" href="#audio" title="Permalink to this heading">¶</a></h3>
 <section id="mm-audio-output">
 <h4 id="mm-audio-output">3.5 mm Audio Output<a class="headerlink" href="#mm-audio-output" title="Permalink to this heading">¶</a></h4>
-<p>The product features 3.5mm audio connector as shown in the image below.</p>
+<p>The product features a 3.5mm audio connector as shown in the image below.</p>
 <p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-Audio.jpg"><img alt="audio_img" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-Audio.jpg" style="width: 640px;"/></a></p>
-<p class="text-center"><em>Audio Out Connector</em></p>
+<p class="text-center"><em>Audio Connector</em></p>
+<p>This connector supports both earphone output and microphone input (MIC2).</p>
+<p>After inserting a 3.5mm device, the on board speaker will be muted.</p>
 </section>
 <section id="internal-speaker">
 <h4 id="internal-speaker">Internal Speaker<a class="headerlink" href="#internal-speaker" title="Permalink to this heading">¶</a></h4>
@@ -679,7 +758,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </section>
 <section id="microphone">
 <h4 id="microphone">Microphone<a class="headerlink" href="#microphone" title="Permalink to this heading">¶</a></h4>
-<p>The product has a front microphone for audio input.</p>
+<p>The product has a front microphone for audio input (MIC1).</p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 </section>
@@ -688,7 +767,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <h2 id="buttons-and-status-led">Buttons and Status LED<a class="headerlink" href="#buttons-and-status-led" title="Permalink to this heading">¶</a></h2>
 <section id="status-led">
 <h3 id="status-led">Status LED<a class="headerlink" href="#status-led" title="Permalink to this heading">¶</a></h3>
-<p>This product has a status LED. The LED turns RED after power on, turns GREEN when the system is booted.</p>
+<p>This product has a bi-color status LED. It is green whenever the product is powered on. The application can switch it to red through GPIO32 (low = red), for example to signal an alarm or to blink as a heartbeat.</p>
 <p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-Status.jpg"><img alt="status_led_img" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-Status.jpg" style="width: 640px;"/></a></p>
 <p class="text-center"><em>Status LED</em></p>
 <p><p class="page-break" style="margin: 0"></p></p>
@@ -706,7 +785,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <li><p>After powering on: hold 5 seconds to force power off.</p></li>
 </ol>
 </li>
-<li><p>BOOT Mode: Press the button before and while powering on: enter flashing mode to download program to the device.</p></li>
+<li><p>BOOT: hold it while powering on (or while pressing RESET) to enter firmware download mode</p></li>
 <li><p>RESET: Reboots the device.</p></li>
 </ul>
 <p><p class="page-break" style="margin: 0"></p></p>
@@ -724,8 +803,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </section>
 <section id="mechanical-specifications">
 <h2 id="mechanical-specifications">Mechanical Specifications<a class="headerlink" href="#mechanical-specifications" title="Permalink to this heading">¶</a></h2>
-<p>The outer mechanical dimensions of AIO-ESP32P4-101 are 260.54 x 178.54 x 26.9mm (W × H × D). Please refer to the technical drawing in the figures below for details related to the specific
-product measurements.</p>
+<p>The outer mechanical dimensions of AIO-ESP32P4-101 are 260.54 x 178.54 x 26.9mm (W x H x D). Please refer to the technical drawing in the figures below for details related to the specific product measurements.</p>
 <p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-TD1.jpg"><img alt="td1_img" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-TD1.jpg" style="width: 960px;"/></a></p>
 <p class="text-center"><em>Front-View Mechanical Drawing</em></p>
 <p class="text-center"><a class="reference internal" href="../../../../../_images/CS12800-ESP32P4-101A-TD2.jpg"><img alt="td2_img" class="align-middle" src="../../../../../_images/CS12800-ESP32P4-101A-TD2.jpg" style="width: 960px;"/></a></p>
@@ -791,7 +869,7 @@ product measurements.</p>
               
           </div>
             Last updated on
-              Sep 26, 2026.
+              Oct 10, 2026.
             <br/>
         </div>
       </div>

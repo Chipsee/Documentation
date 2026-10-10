@@ -1009,6 +1009,12 @@
             "pdf-filename": "EPC-ESP32P4-070",
             "pdf-type": "hmi display"
         },
+        "PCs/ESP32/P4/Manuals/Hardware/CS12720-ESP32P4-050E": {
+            "pdf-title": "EPC-ESP32P4-050",
+            "pdf-subtitle": "PN: CS12720-ESP32P4-050E",
+            "pdf-filename": "EPC-ESP32P4-050",
+            "pdf-type": "hmi display"
+        },
         "PCs/ESP32/P4/Manuals/Hardware/CS12800-ESP32P4-101A": {
             "pdf-title": "AIO-ESP32P4-101",
             "pdf-subtitle": "PN: CS12800-ESP32P4-101A",

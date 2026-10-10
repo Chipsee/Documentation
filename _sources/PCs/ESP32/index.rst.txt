@@ -14,6 +14,21 @@ Industrial HMI Displays Powered by Espressif
    <div class="col">
       <div class="index-item">
 
+5 Inch
+|EPC-ESP32P4-050|
+
+:ref:`EPC-ESP32P4-050<EPC-ESP32P4-050>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
 7 Inch
 |EPC-ESP32P4-070|
 
@@ -43,6 +58,10 @@ Industrial HMI Displays Powered by Espressif
    
    </div>
 
+.. |EPC-ESP32P4-050| image:: /Media/ESP32/CS12720-ESP32P4-050E/CS12720-ESP32P4-050E-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/ESP32/P4/Manuals/Hardware/CS12720-ESP32P4-050E.html
+
 .. |EPC-ESP32P4-070| image:: /Media/ESP32/CS10600-ESP32P4-070E/CS10600-ESP32P4-070E-Front-Low.jpg
    :class: index-item-img
    :target: /PCs/ESP32/P4/Manuals/Hardware/CS10600-ESP32P4-070E.html
@@ -56,5 +75,6 @@ Industrial HMI Displays Powered by Espressif
    :titlesonly:
    :hidden:
 
+   EPC-ESP32P4-050 </PCs/ESP32/P4/Manuals/Hardware/CS12720-ESP32P4-050E>
    EPC-ESP32P4-070 </PCs/ESP32/P4/Manuals/Hardware/CS10600-ESP32P4-070E>
    AIO-ESP32P4-101 </PCs/ESP32/P4/Manuals/Hardware/CS12800-ESP32P4-101A>
