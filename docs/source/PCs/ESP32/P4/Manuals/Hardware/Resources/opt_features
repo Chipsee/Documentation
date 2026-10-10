@@ -3,6 +3,9 @@ Optional Features
 
 - WiFi/Bluetooth: If Wi-Fi/Bluetooth connectivity is required, an ESP32-C6 module can be installed at the factory. The ESP32-C6 is not populated by default.
 - 4G/LTE: 4G/LTE (Cat 1) module is supported on this product, it's not mounted by default, if you need the interface or the 4G/LTE module you can contact us when you place an order.
+- Gyroscope is supported but not mounted by default, if you need gyroscope, contact us before placing an order. 
+- FRAM (Ferroelectric Random Access Memory) is supported but not mounted by default, if you need FRAM, contact us before placing an order.
+- 15 pin CSI camera interface is customizable, if you want to use a camera (like Raspberry Pi camera V1.3 OV5647) on the product, contact us.
 
 .. warning::   
 

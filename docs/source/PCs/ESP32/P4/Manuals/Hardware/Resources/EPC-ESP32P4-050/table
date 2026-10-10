@@ -1,0 +1,68 @@
+.. list-table:: Key Features
+   :align: center
+   :width: 100%
+   :widths: 25 75
+   :class: align-center
+
+   * - **CPU**
+     - |cpu|
+   * - **Storage**
+     - |storage|
+   * - **RAM**
+     - |ram_desc|
+   * - **FRAM**
+     - |fram|
+   * - **Gyroscope**
+     - |gyroscope|
+   * - **Display**
+     - |dispsize| IPS LCD, |res| \px, brightness |bright|
+   * - **Touch**
+     - |tscreen|
+   * - **LAN**
+     - |LAN|
+   * - **PoE**
+     - |poe|
+   * - **WiFi/BT**
+     - |wifi_desc|
+   * - **4G/LTE**
+     - |4g_desc|
+   * - **Audio**
+     - |audio|
+   * - **Buzzer**
+     - |buzzer|
+   * - **Camera**
+     - |camera|
+   * - **GPIO**
+     - |gpio|
+   * - **RS232**
+     - |rs232|
+   * - **RS485**
+     - |rs485|
+   * - **CAN**
+     - |can|
+   * - **USB**
+     - |USB|
+   * - **I2C**
+     - |i2c|
+   * - **Micro SD card socket**
+     - |sd_socket|
+   * - **RTC**
+     - |rtc_desc|
+   * - **Power Input**
+     - |vin_rng|
+   * - **Current**
+     - |cur|
+   * - **Power Consumption**
+     - |pwr|
+   * - **Operating Temp.**
+     - |temp|
+   * - **Dimensions**
+     - |dim|
+   * - **Weight**
+     - |weight|
+   * - **Mounting**
+     - Embedded
+   * - **Certification**
+     - CE, RoHS
+
+:pagebreak:`True`

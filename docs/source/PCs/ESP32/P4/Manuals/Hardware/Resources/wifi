@@ -1,0 +1,59 @@
+Wi-Fi and Bluetooth
+-------------------
+
+When the optional Wi-Fi/Bluetooth configuration is selected, an ESP32-C6 module provides Wi-Fi and Bluetooth connectivity to the ESP32-P4 through SDIO. 
+
+The ESP32-C6 operates as a coprocessor.
+
+Espressif's official ESP-Hosted Wi-Fi and Bluetooth firmware will be flashed at the factory before shipping.
+
+.. list-table:: ESP32-C6 Programming Connector Pin Definition
+   :align: center
+   :width: 100%
+   :widths: 20 30 50
+   :header-rows: 1
+
+   * - **Pin Number**
+     - **Definition**
+     - **Description**
+   * - Pin 1
+     - C6_CHIP_PU
+     - ESP32-C6 chip enable/reset signal
+   * - Pin 2
+     - X
+     -
+   * - Pin 3
+     - C6_U0TXD
+     - ESP32-C6 UART0 transmit signal
+   * - Pin 4
+     - GND
+     - System ground
+   * - Pin 5
+     - C6_U0RXD
+     - ESP32-C6 UART0 receive signal
+   * - Pin 6
+     - C6_IO9
+     - ESP32-C6 boot mode selection signal
+
+.. rst-class:: text-center
+
+  |c6_img|
+  
+  *ESP32-C6 Pin Definition*
+
+You can flash the C6 firmware by yourself too. The process is the same as the official Espressif ESP32C6 firmware flashing guide.
+
+The ESP32-C6 firmware can be updated using either of the following methods:
+
+- **UART flashing:** 
+
+  1. Prepare a USB-UART (TTL level) cable, to connect the pins and your computer.
+  2. Connect GND (Pin 4) to your UART cable's GND, connect GND to C6_IO9 (Pin 6) to let C6 enter flash mode.
+  3. Connect C6_U0TXD (Pin 3) to your cable's RX pin.
+  4. Connect C6_U0RXD (Pin 5) to your cable's TX pin. 
+  5. Reset the product/C6 to enter download mode, you can unplug all power sources first and then connect USB-C to your power adapter as a reset. 
+  6. Remove the C6_IO9 (Pin 6) short to leave flash mode in the next reset.
+  7. Reset the product/C6 after flashing to boot normally.
+- **Updates through the ESP32-P4:** The ESP32-P4 can flash new firmware to the ESP32-C6 through SDIO using a firmware image if C6 already has a firmware (OTA). This is usually done with a MicroSD card.
+
+:pagebreak:`True`

@@ -1,0 +1,39 @@
+I2C
+---
+
+.. list-table:: I2C Connector — 4-pin 2.0mm Pitch Header
+   :align: center
+   :width: 100%
+   :widths: 15 15 55 15
+   :header-rows: 1
+
+   * - **Pin Number**
+     - **Definition**
+     - **Description**
+     - **P4**
+   * - Pin 1
+     - 3.3V/5V
+     - Power output: 3.3V by default; 5V available as a factory customization
+     - 
+   * - Pin 2
+     - SCL
+     - I2C clock signal
+     - GPIO8
+   * - Pin 3
+     - SDA
+     - I2C data signal
+     - GPIO7
+   * - Pin 4
+     - GND
+     - System ground
+     - 
+
+I2C is shared with other I2C devices on board like RTC/touch/audio IC etc. Try to avoid: 0x10 (audio), 0x14/0x5D (touch), 0x32 (RTC), 0x36 (camera, if fitted), 0x50 (FRAM, optional), 0x6A/0x6B (gyroscope, optional)
+
+.. rst-class:: text-center
+
+   |i2c_img|
+
+   *I2C*
+
+:pagebreak:`True`

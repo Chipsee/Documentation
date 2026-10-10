@@ -1,0 +1,40 @@
+GPIO
+----
+
+.. list-table:: GPIO Connector — 4-pin 2.0mm Pitch Header
+   :align: center
+   :width: 100%
+   :widths: 20 25 55
+   :header-rows: 1
+
+   * - **Pin Number**
+     - **Definition**
+     - **Description**
+   * - Pin 1
+     - 3.3V/5V
+     - Power output: 3.3V by default; 5V available as a factory customization
+   * - Pin 2
+     - GPIO53
+     - Direct ESP32-P4 GPIO53
+   * - Pin 3
+     - GPIO36
+     - Direct ESP32-P4 GPIO36
+   * - Pin 4
+     - GND
+     - System ground
+
+.. rst-class:: text-center
+
+   |gpio_img|
+
+   *CPU GPIO*
+
+GPIO36 is a strapping pin according to Espressif P4 design manual, 36 together with GPIO35 decides whether P4 is regular booted or enter firmware flashing mode. 
+
+GPIO36 is connected to a 10k Ohm pull up resistor on the board.
+
+After booted, GPIO36 can be used as a normal GPIO either as input or output. But note the P4 internal 3.3k Ohm pull down resistor might not be enough because of the 10k pull up on the board.
+
+Be sure not to pull down GPIO36 when reseting, also note that if you connect GPIO36 to your device, your device should be able to handle the 3.3V output from GPIO36 when P4 resets.
+
+:pagebreak:`True`

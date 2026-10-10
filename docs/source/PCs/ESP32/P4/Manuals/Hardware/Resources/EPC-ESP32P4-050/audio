@@ -1,0 +1,31 @@
+Audio
+-----
+
+3.5 mm Audio In/Out
+*******************
+
+The product features a 3.5mm audio connector as shown in the image below.
+
+.. rst-class:: text-center
+
+   |audio_img|
+
+   *Audio Connector*
+
+This connector supports both earphone output and microphone input. 
+
+There is no on board microphone for this product.
+
+After inserting a 3.5mm device, the on board speaker will be muted.
+
+Internal Speaker
+****************
+
+The product also has an internal 2W speaker, meaning you can play music without an earphone, the sound can be played from the product directly.
+
+Buzzer
+******
+
+The product has an internal buzzer, suitable for playing beep sounds for alarms.
+
+:pagebreak:`True`

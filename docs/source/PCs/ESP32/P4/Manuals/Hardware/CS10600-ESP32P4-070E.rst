@@ -17,6 +17,10 @@
 
 .. |ram_desc| replace:: 768 KB HP L2MEM + 32 KB LP SRAM + 8 KB SPM; 32MB in-package PSRAM
 
+.. |fram| replace:: Optional, not mounted by default
+
+.. |gyroscope| replace:: Optional, not mounted by default
+
 .. |res| replace:: 1024 x 600
 
 .. |bright| replace:: 400 |cd|
@@ -35,7 +39,7 @@
 
 .. |LAN| replace:: 1 x 100Mbps LAN
 
-.. |GPIO| replace:: 8 channels isolated I/O, 4 x input and 4 x output. 4 channels of non-isolated P4 direct out GPIO
+.. |GPIO| replace:: 8 channels isolated I/O, 4 x input and 4 x output. 4 x direct ESP32-P4 GPIO (non-isolated, 3.3V)
 
 .. |can| replace:: 1 x CAN **(default)**
 
@@ -55,7 +59,7 @@
 
 .. |temp| replace:: From -10°C to +60°C
 
-.. |audio| replace:: 3.5mm audio in/out interface; internal dual channel speaker
+.. |audio| replace:: 3.5mm audio in/out interface; 2W internal speaker
 
 .. |rs232| replace:: 2 x RS232 **(default)**; up to 4 x RS232 **(optional,** by configuring RS485 to RS232)
 
@@ -79,6 +83,10 @@
                            :align: middle
                            :width: 480
 
+.. |c6_img| image:: /Media/ESP32/CS10600-ESP32P4-070E/CS10600-ESP32P4-070E-C6.jpg
+                           :align: middle
+                           :width: 480
+                           
 .. |usb_img| image:: /Media/ESP32/CS10600-ESP32P4-070E/CS10600-ESP32P4-070E-USB.jpg
                            :align: middle
                            :width: 640
@@ -164,6 +172,8 @@
 .. include:: Resources/usb
 
 .. include:: Resources/lan
+
+.. include:: Resources/wifi
 
 .. include:: Resources/4G_lte
 
