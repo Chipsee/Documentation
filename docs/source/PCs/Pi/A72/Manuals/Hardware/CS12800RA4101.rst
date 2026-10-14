@@ -64,9 +64,9 @@
                   :align: middle
                   :width: 192
 
-.. |mounting_img| image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-TD.png
+.. |mounting_img| image:: /Media/Shared/Hardware/CS12800-101-TD.webp
                   :align: middle
-                  :width: 768
+                  :width: 960
 
 .. |sim_img| image:: /Media/Pi/A72/CS12800RA4101/TF_4G_101.jpg
                   :align: middle
@@ -109,15 +109,15 @@
 
 .. include:: Resources/CS12800RA4101/base_includes_cs12800ra4101
 
-.. rst-class:: text-center
-
-    |mounting_img|
-
-    *Panel mounting*
-
 .. include:: Resources/mechanical
 
 .. include:: /PCs/Shared/Hardware/cutout/101
+
+.. rst-class:: text-center
+
+   |mounting_img|
+
+   *Technical Drawing* (|product|)
 
 :pagebreak:`True`
 

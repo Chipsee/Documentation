@@ -129,24 +129,13 @@ There are 2 x **USB HOST connectors** onboard which includes |USB|
 Mounting Procedure
 ==================
 
-|Product| can be mounted with 4 x M4 screws, enabling simplified installation onto any standard mounting fixture.
+You can mount |productP| with VESA mounting (:ref:`guide <vesa_mguide>`): 100 x 100 mm, 4 x M4 (6mm) screws.
 
-|productP|
-----------
-You can mount |productP| with the Vesa (75 x 75mm) and Panel mounting methods, as shown on the figure below.
-
-.. Figure:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-TD.png
-  :align: center
-  :figclass: align-center
-
-  *Panel mounting*
+You can also mount |productP| with panel mounting method (:ref:`guide <panel_mguide>`).
 
 .. attention::
 
     Please make sure the display is not exposed to high pressure when mounting into an enclosure.
-
-You can find detailed information about mounting in the |mguide|.
-
 
 :pagebreak:`True`
 
@@ -158,6 +147,12 @@ Mechanical Specifications
 For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
 
 .. include:: /PCs/Shared/Hardware/cutout/101
+
+.. figure:: /Media/Shared/Hardware/CS12800-101-TD.webp
+   :align: center
+   :figclass: align-center
+
+   |productP| *Technical Drawing*
 
 :pagebreak:`True`
 
