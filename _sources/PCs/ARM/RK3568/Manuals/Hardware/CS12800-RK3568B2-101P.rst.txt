@@ -78,9 +78,6 @@
                   :align: middle
                   :width: 480
 
-.. |mounting_img| image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-TD.png
-                  :align: middle
-                  :width: 576
 
 .. _product_link: https://chipsee.com/product/ppc-a55-101s/
 

@@ -78,7 +78,7 @@
                   :align: middle
                   :width: 480
 
-.. |mounting_img| image:: /Media/Pi/A72/CS12800RA4101/CS12800RA4101P-TD.png
+.. |mounting_img| image:: /Media/Shared/Hardware/CS12800-101-TD.webp
                   :align: middle
                   :width: 960
 
@@ -164,7 +164,7 @@
 
    |mounting_img|
 
-   *Panel mounting* (|product|)
+   *Technical Drawing* (|product|)
 
 :pagebreak:`True`
 

@@ -201,7 +201,7 @@ Mechanical Specifications
 The outer mechanical dimensions of |productP| are |dimP| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
-.. figure:: /Media/Pi/A72/CS12720RA4050-C121/CS12720RA4050P-C121-Case-Size.png
+.. figure:: /Media/Shared/Hardware/CS12720-050-TD.webp
    :align: center
    :figclass: align-center
 
