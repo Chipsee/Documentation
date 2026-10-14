@@ -90,7 +90,7 @@
                   :align: middle
                   :width: 384
 
-.. |td_img| image:: /Media/Pi/A76/CS12800RA5101/CS12800RA5101-TD.png
+.. |td_img| image:: /Media/Shared/Hardware/CS12800-101-TD.webp
                   :align: middle
                   :width: 1024
 
@@ -137,4 +137,3 @@ Please refer to the technical drawing in the figure below for details related to
 :pagebreak:`True`
 
 .. include:: /PCs/Shared/support
-

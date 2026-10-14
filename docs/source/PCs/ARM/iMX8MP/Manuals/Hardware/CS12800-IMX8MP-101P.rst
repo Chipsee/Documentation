@@ -74,9 +74,9 @@
                   :align: middle
                   :width: 384
 
-.. |dimension_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-Dimension.png
+.. |dimension_img| image:: /Media/Shared/Hardware/CS12800-101-TD.webp
                   :align: middle
-                  :width: 800
+                  :width: 960
 
 .. _product_link: https://chipsee.com/product/ppc-a53-101/
 

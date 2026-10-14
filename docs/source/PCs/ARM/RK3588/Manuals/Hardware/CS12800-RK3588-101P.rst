@@ -140,7 +140,7 @@
                    :align: middle
                    :width: 384
 
-.. |td_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-TD.png
+.. |td_img| image:: /Media/Shared/Hardware/CS12800-101-TD.webp
                   :align: middle
                   :width: 1024
 
