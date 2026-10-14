@@ -128,7 +128,7 @@
                   :align: middle
                   :width: 480
 
-.. |td_img| image:: /Media/ARM/RK3576/CS12720-RK3576-050P/CS12720-RK3576-050P-TD.png
+.. |td_img| image:: /Media/Shared/Hardware/CS12720-050-TD.webp
                   :align: middle
                   :width: 960
 
