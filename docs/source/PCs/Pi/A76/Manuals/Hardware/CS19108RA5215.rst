@@ -10,14 +10,6 @@
 
 .. |PN| replace:: PN: CS19108RA5215
 
-.. |vin_rng| replace:: 15-30V (supports optional 24V ignition signal)
-
-.. |cur| replace:: 2.53A max at 15V, 2.33A typical at 15V
-
-.. |pwr| replace:: 38W max, 35W typical
-
-.. |temp| replace:: From -20°C to +70°C
-
 .. |bright| replace:: 500 |cd|
 
 .. _product_link: https://chipsee.com/product/ppc-cm5-215/

@@ -1,7 +1,7 @@
 Touch Screen
 ============
 
-|Product| uses a |tscreen| screen. The figure below shows the capacitive touch screen connected to the motherboard via the **FPC connector**.
+|Product| uses a |spec:Touch| screen. The figure below shows the capacitive touch screen connected to the motherboard via the **FPC connector**.
 
 .. Figure:: /Media/Pi/A53/Others/TS_CON.jpeg
   :figclass: align-center

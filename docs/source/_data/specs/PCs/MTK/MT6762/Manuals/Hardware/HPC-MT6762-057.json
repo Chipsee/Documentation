@@ -1,0 +1,145 @@
+{
+  "products": [
+    {
+      "id": 100,
+      "slug": "hpc-mt6762-057",
+      "title": "HPC-MT6762-057",
+      "pn": "",
+      "shop_url": "https://chipsee.com/product/hpc-mt6762-057/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Helio P22, MediaTek MT6762, Octa(8)-Core 2.0GHz, 4 x Cortex-A53 @ 1.5 GHz + 4 x Cortex-A53 @ 2.0 GHz"
+    },
+    {
+      "name": "GPU",
+      "value": "PowerVR GE8320"
+    },
+    {
+      "name": "RAM/Storage",
+      "value": "4GB+64GB"
+    },
+    {
+      "name": "Display",
+      "value": "5.7-inch(diagonal), 720x1520, 350 NIT, TFT"
+    },
+    {
+      "name": "Touch",
+      "value": "Capacitive, 5-point Multi Touch; Works with gloves and wet hands"
+    },
+    {
+      "name": "Camera",
+      "value": "13MP Main Rear Camera, 5MP Front Camera, 1000mA Flashlight, Autofocus"
+    },
+    {
+      "name": "Audio",
+      "value": "Internal Loudspeaker"
+    },
+    {
+      "name": "Microphone",
+      "value": "Noise Reduction Microphone"
+    },
+    {
+      "name": "USB",
+      "value": "1 x USB2.0 Type-C port, support for headphone, OTG"
+    },
+    {
+      "name": "Charging",
+      "value": "USB Type-C, 9V/2A"
+    },
+    {
+      "name": "Battery",
+      "value": "3.85V, 4500mAh, Removable Li-ion Polymer Battery"
+    },
+    {
+      "name": "Buttons",
+      "value": "Power Button, Volume+/- Buttons, 2 x Side Scanner Buttons"
+    },
+    {
+      "name": "TF/SIM Slot",
+      "value": "1 x SIM Slot, 1 x TF/SIM 2-in-1 Slot; Support for 1 x SIM + 1 x TF or 2 x SIM; TF card up to 128GB"
+    },
+    {
+      "name": "GSM/GPRS/EDGE",
+      "value": "B2/B3/B5/B8"
+    },
+    {
+      "name": "TD-SCDMA",
+      "value": "B34/B39"
+    },
+    {
+      "name": "WCDMA",
+      "value": "B1/B5/B8"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "FDD-LTE: B1/B3/B5/B7/B8/B20; TDD-LTE: B34/B38/B39/B40/B41"
+    },
+    {
+      "name": "WiFi",
+      "value": "Support for 802.11 a/b/g/n/ac, 2.4G+5G"
+    },
+    {
+      "name": "Bluetooth",
+      "value": "BT4.0, BLE, Backwards Compatible"
+    },
+    {
+      "name": "GPS",
+      "value": "Support for GPS/BeiDou/GLONASS/Galileo/A-GPS"
+    },
+    {
+      "name": "NFC",
+      "value": "Support for 13.56MHz NFC, ISO14443A, ISO14443B, ISO15693; Distance: 0-5 cm"
+    },
+    {
+      "name": "Scanner",
+      "value": "Support for integrated scanner"
+    },
+    {
+      "name": "Vibration",
+      "value": "Support for vibration motor"
+    },
+    {
+      "name": "Sensors",
+      "value": "Distance Sensor, Light Sensor, Geomagnetic Field Sensor, Gyroscope, Accelerometer"
+    },
+    {
+      "name": "OS",
+      "value": "Android 11"
+    },
+    {
+      "name": "Operating Temp.",
+      "value": "From -20°C to +60°C"
+    },
+    {
+      "name": "Storage Temp.",
+      "value": "From -40°C to +70°C"
+    },
+    {
+      "name": "Humidity",
+      "value": "0 to 95% (no condensation)"
+    },
+    {
+      "name": "Waterproof",
+      "value": "IP67"
+    },
+    {
+      "name": "Dropping Proof",
+      "value": "Multiple times of 1.5m dropping; 500 times of 0.5m rolling, equivalent to 1000 crash tests"
+    },
+    {
+      "name": "ESD Protection",
+      "value": "Withstanding up to ±8kV contact and ±15kV air-gap ESD"
+    },
+    {
+      "name": "Dimensions",
+      "value": "162 x 76.2 x 13.7 mm"
+    },
+    {
+      "name": "Weight",
+      "value": "300g"
+    }
+  ]
+}

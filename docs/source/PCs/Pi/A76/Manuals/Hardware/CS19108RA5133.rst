@@ -10,14 +10,6 @@
 
 .. |PN| replace:: PN: CS19108RA5133
 
-.. |vin_rng| replace:: From 15V to 30V (supports optional 24V ignition signal)
-
-.. |cur| replace:: 1100mA max at 15V, 900mA typical at 15V 
-
-.. |pwr| replace:: 16.5W max, 13.5W typical
-
-.. |temp| replace:: From 0°C to +80°C
-
 .. _product_link: https://chipsee.com/product/ppc-cm5-133/
 
 .. |product_link| replace:: PPC-CM5-133

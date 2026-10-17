@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": 54,
+      "slug": "ppc-a55-050",
+      "title": "PPC-A55-050",
+      "pn": "CS12720-RK3568-050P",
+      "shop_url": "https://chipsee.com/product/ppc-a55-050/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Rockchip RK3568, Quad-core Cortex-A55 (2.0GHz)"
+    },
+    {
+      "name": "RAM",
+      "value": "2GB LPDDR4X"
+    },
+    {
+      "name": "eMMC",
+      "value": "16GB"
+    },
+    {
+      "name": "SSD",
+      "value": "N/A"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 128GB SDHC"
+    },
+    {
+      "name": "Display",
+      "value": "5.0” LCD, 1280 x 720, High Brightness: 400 cd/m2"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI-D 2.0 (Micro-HDMI) Out"
+    },
+    {
+      "name": "Touch",
+      "value": "5-point capacitive touch screen with 1mm tempered glass"
+    },
+    {
+      "name": "USB",
+      "value": "1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x RJ45, GbE"
+    },
+    {
+      "name": "POE",
+      "value": "N/A"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, 2W Internal Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)."
+    },
+    {
+      "name": "RS232",
+      "value": "default 2 x RS232 (Optional 4 x RS232 at most, include 1 debug port)"
+    },
+    {
+      "name": "RS485",
+      "value": "2 x RS485 at most"
+    },
+    {
+      "name": "CAN",
+      "value": "default 1 x CAN FD (Optional 2 x CAN FD at most, by swapping RS485_4 to CAN FD)"
+    },
+    {
+      "name": "GPIO",
+      "value": "N/A"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "N/A"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 6V to 36V"
+    },
+    {
+      "name": "Current",
+      "value": "450mA Max at 12V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "5.4W Max"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -20°C to +60°C"
+    },
+    {
+      "name": "OS",
+      "value": "Android 11, Debian11, Buildroot Linux Qt 5.15"
+    },
+    {
+      "name": "Dimensions",
+      "value": "PPC-A55-050 (PN: CS12720-RK3568-050P): 139 x 85 x 27.1mm"
+    },
+    {
+      "name": "Weight",
+      "value": "PPC-A55-050 (PN: CS12720-RK3568-050P): 310g"
+    },
+    {
+      "name": "Mounting",
+      "value": "PPC-A55-050 (PN: CS12720-RK3568-050P): Panel, VESA"
+    }
+  ]
+}

@@ -10,13 +10,7 @@
 
 .. |PN| replace:: PN: CS12800-IMX8MP-101P
 
-.. |cur| replace:: Max brightness, max CPU load: 0.78A at 15V; Min brightness, idle: 0.46A at 15V.
-
-.. |pwr| replace:: Max brightness, max CPU load: 11.64W; Min brightness, idle: 6.96W.
-
 .. |screen_conn_type| replace:: I2C
-
-.. |temp| replace:: From -20°C to +70°C
 
 .. |power_img| image:: /Media/ARM/A53/CS12800-IMX8MP-101P/CS12800-IMX8MP-101P-Power.jpg
                   :align: middle

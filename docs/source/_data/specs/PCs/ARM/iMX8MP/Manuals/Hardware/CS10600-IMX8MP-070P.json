@@ -1,0 +1,121 @@
+{
+  "products": [
+    {
+      "id": 76,
+      "slug": "ppc-a53-070",
+      "title": "PPC-A53-070",
+      "pn": "CS10600-IMX8MP-070P",
+      "shop_url": "https://chipsee.com/product/ppc-a53-070/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "NXP i.MX8MP, Quad(4)-core Cortex-A53 (1.6GHz)"
+    },
+    {
+      "name": "RAM",
+      "value": "LPDDR4 4GB"
+    },
+    {
+      "name": "eMMC",
+      "value": "32GB"
+    },
+    {
+      "name": "SSD",
+      "value": "Not supported"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 128GB SDHC"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI-D(Micro HDMI) OUT"
+    },
+    {
+      "name": "Display",
+      "value": "7” LCD, 1024 x 600, High Brightness: 400 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "5-point capacitive touch screen with 1mm tempered glass"
+    },
+    {
+      "name": "USB",
+      "value": "1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C"
+    },
+    {
+      "name": "LAN",
+      "value": "2 x RJ45, GbE"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, 2W Internal Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)."
+    },
+    {
+      "name": "RS232",
+      "value": "default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port)"
+    },
+    {
+      "name": "RS485",
+      "value": "default 3 x RS485 at most"
+    },
+    {
+      "name": "CAN",
+      "value": "default 2 x CAN (1 x CAN can be configured to RS232 optionally)"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels Isolated IO, 4 x Input and 4 x Output"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module (Bluetooth is functional on Yocto Linux, not functional on Android)"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Supported, Optional"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 6V to 36V"
+    },
+    {
+      "name": "Current",
+      "value": "600mA Max at 12V, 450mA Idle at 12V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "7.2W Max, 5.4W Idle (Maximum brightness)"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -10°C to +60°C"
+    },
+    {
+      "name": "OS",
+      "value": "Android 12, Yocto Linux Qt 6.3"
+    },
+    {
+      "name": "Dimensions",
+      "value": "188.05 x 123.11 x 33.20mm"
+    },
+    {
+      "name": "Weight",
+      "value": "610g"
+    },
+    {
+      "name": "Mounting",
+      "value": "Panel, VESA"
+    }
+  ]
+}

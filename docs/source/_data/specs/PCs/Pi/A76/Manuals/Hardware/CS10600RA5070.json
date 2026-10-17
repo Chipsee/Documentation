@@ -1,0 +1,140 @@
+{
+  "products": [
+    {
+      "id": 151,
+      "slug": "ppc-cm5-070",
+      "title": "PPC-CM5-070",
+      "pn": "CS10600RA5070P",
+      "shop_url": "https://chipsee.com/product/ppc-cm5-070"
+    },
+    {
+      "id": 153,
+      "slug": "epc-cm5-070",
+      "title": "EPC-CM5-070",
+      "pn": "CS10600RA5070E",
+      "shop_url": "https://chipsee.com/product/epc-cm5-070/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Raspberry Pi® CM5/CM5Lite; BCM2712 Quad(4) Core Cortex-A76 at 2.4GHz"
+    },
+    {
+      "name": "RAM",
+      "value": "2GB, 4GB, or 8GB SDRAM based on CM5"
+    },
+    {
+      "name": "eMMC",
+      "value": "0GB, 16GB, 32GB, or 64GB based on CM5"
+    },
+    {
+      "name": "Display",
+      "value": "7” IPS LCD, 1024 x 600 px, brightness 500 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "5-point capacitive touch with 1mm tempered glass"
+    },
+    {
+      "name": "Storage",
+      "value": "Support for 1 x TF Card"
+    },
+    {
+      "name": "PCIe",
+      "value": "PCIe Gen 2 × 1 (5Gbps), M.2 M-Key 2230/2242 socket (optional)"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 3.0 type-A Host, 1 x USB type-C OTG"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x Giga LAN"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio Out Connector, 2W Speaker Internal"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Onboard Buzzer, driven by GPIO"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off"
+    },
+    {
+      "name": "RS232",
+      "value": "Default to 2 x RS232, up to 4 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "Default to 2 x RS485, these 2 x RS485 can be configured as 2 x RS232"
+    },
+    {
+      "name": "CAN",
+      "value": "1 x CAN FD BUS,  Arbitration Bit Rate up to 1Mbps, Data Bit Rate up to 8Mbps"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels, 4 Input, 4 Output"
+    },
+    {
+      "name": "I2C",
+      "value": "Not Supported"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Optional (Depends on CM5)"
+    },
+    {
+      "name": "ZIGBEE",
+      "value": "No"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI 2.0 out, can be driven up to 4K 60FPS"
+    },
+    {
+      "name": "3G/4G/LTE",
+      "value": "Supported, not mounted by default"
+    },
+    {
+      "name": "Camera",
+      "value": "Yes, not mounted by default. Available on the board in the embedded PC."
+    },
+    {
+      "name": "Power Input",
+      "value": "9V to 30V"
+    },
+    {
+      "name": "Current",
+      "value": "950mA max at 12V, 500mA typical at 12V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "11.4W max, 6W typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -10°C to +60°C"
+    },
+    {
+      "name": "OS",
+      "value": "Raspberry Pi OS"
+    },
+    {
+      "name": "Dimensions",
+      "value": "CS10600RA5070E: 190 × 107.8 × 27.7 mm; CS10600RA5070P: 206 x 135 x 30mm"
+    },
+    {
+      "name": "Weight",
+      "value": "CS10600RA5070E: 400g; CS10600RA5070P: 700g"
+    },
+    {
+      "name": "Mounting Method",
+      "value": "CS10600RA5070E: Embedded; CS10600RA5070P: Panel, VESA"
+    }
+  ]
+}

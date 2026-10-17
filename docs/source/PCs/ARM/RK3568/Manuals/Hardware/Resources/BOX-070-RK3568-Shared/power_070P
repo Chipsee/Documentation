@@ -1,7 +1,7 @@
 Power Input
 ===========
 
-|Product| can be powered by a wide range of input voltages: |vin_rng| DC. 
+|Product| can be powered by a wide range of input voltages: |spec:Power Input| DC. 
 
 There are two DC input interfaces on this device: a **3-pin, 3.81mm terminal**, and a **2.1mm I.D x 5.5mm O.D x 9.5mm DC connector**.
 

@@ -1,0 +1,133 @@
+{
+  "products": [
+    {
+      "id": 140,
+      "slug": "ppc-a76-070",
+      "title": "PPC-A76-070",
+      "pn": "CS10600-RK3588-070P",
+      "shop_url": "https://chipsee.com/product/PPC-A76-070/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Rockchip RK3588J, Quad(4)-core Cortex-A76 (2.0GHz) and Quad(4)-core Cortex-A55 (1.8GHz)"
+    },
+    {
+      "name": "GPU",
+      "value": "ARM Mali-G610 MC4. Up to 8K60 FPS video decoding, up to 8K30 FPS video encoding."
+    },
+    {
+      "name": "NPU",
+      "value": "Neural network acceleration engine with 6Tops int8, support Int4/8/16/FP16/BF16/TF32."
+    },
+    {
+      "name": "RAM",
+      "value": "8GB LPDDR4"
+    },
+    {
+      "name": "eMMC",
+      "value": "64GB"
+    },
+    {
+      "name": "PCIe",
+      "value": "N/A"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 128GB SDHC"
+    },
+    {
+      "name": "Display",
+      "value": "7” LCD, 1024 x 600, High Brightness: 400 cd/m2"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI-D (Micro-HDMI) Out"
+    },
+    {
+      "name": "Touch",
+      "value": "5-point capacitive touch screen with 1mm tempered glass"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 3.0 HOST, 1 x USB Type-C"
+    },
+    {
+      "name": "LAN",
+      "value": "2 x RJ45, GbE"
+    },
+    {
+      "name": "POE",
+      "value": "N/A"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, 2W Internal Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)."
+    },
+    {
+      "name": "RS232",
+      "value": "default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port)"
+    },
+    {
+      "name": "RS485",
+      "value": "default 3 x RS485 at most"
+    },
+    {
+      "name": "CAN",
+      "value": "default 2 x CAN FD"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels Isolated IO, 4 x Input and 4 x Output"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Supported, Optional"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 9V to 30V (supports optional 24V ignition signal)"
+    },
+    {
+      "name": "Current",
+      "value": "533mA (max) at 15V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "8W (max)"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -10°C to +60°C"
+    },
+    {
+      "name": "OS",
+      "value": "Debian11, Buildroot Linux Qt 5.15"
+    },
+    {
+      "name": "Dimensions",
+      "value": "PPC-A76-070 (PN: CS10600-RK3588-070P): 188.05 x 123.11 x 33.20mm"
+    },
+    {
+      "name": "Weight",
+      "value": "PPC-A76-070 (PN: CS10600-RK3588-070P): 700g"
+    },
+    {
+      "name": "Mounting",
+      "value": "PPC-A76-070 (PN: CS10600-RK3588-070P): Panel, VESA"
+    }
+  ]
+}

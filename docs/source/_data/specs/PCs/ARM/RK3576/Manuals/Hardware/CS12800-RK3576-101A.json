@@ -1,0 +1,141 @@
+{
+  "products": [
+    {
+      "id": 186,
+      "slug": "aio-rk3576-101",
+      "title": "AIO-RK3576-101",
+      "pn": "CS12800-RK3576-101A",
+      "shop_url": "https://chipsee.com/product/aio-rk3576-101"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Rockchip RK3576J, Quad-core Cortex-A72 (1.6GHz) + Quad-core Cortex-A53 (1.4GHz)"
+    },
+    {
+      "name": "RAM",
+      "value": "4GB LPDDR5"
+    },
+    {
+      "name": "eMMC",
+      "value": "64GB"
+    },
+    {
+      "name": "Storage",
+      "value": "Internal M.2 NVMe connector for SSD (optional), MicroSD Card"
+    },
+    {
+      "name": "M2",
+      "value": "M.2 2230/2242 M-key, PCIe Gen 3.0 x1 (optional)"
+    },
+    {
+      "name": "MicroSD card",
+      "value": "1 x TF(micro SD) card slot"
+    },
+    {
+      "name": "NPU",
+      "value": "6 TOPS(Sparsity)@INT8"
+    },
+    {
+      "name": "Display",
+      "value": "10.1” IPS LCD, 1280 x 800 px, brightness 400 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "10-point capacitive touch with 1.0mm Armored Glass"
+    },
+    {
+      "name": "USB",
+      "value": "1 x USB 3.0 type-A Host, 1 x USB 2.0 type-A Host, 1 x USB type-C OTG (USB-C can’t be used together with USB-A 3.0 port)"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x Giga LAN (no support for PoE)"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, 2W Speaker Internal, Internal Front Microphone"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Onboard Buzzer, driven by GPIO"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)."
+    },
+    {
+      "name": "GPIO",
+      "value": "N/A"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module"
+    },
+    {
+      "name": "HDMI",
+      "value": "N/A"
+    },
+    {
+      "name": "Power Input",
+      "value": "15V to 30V DC"
+    },
+    {
+      "name": "Current",
+      "value": "600mA max at 15V, 500mA typical at 15V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "9W Max, 7.5W typical"
+    },
+    {
+      "name": "Relay",
+      "value": "1 x relay with “Normally Connected” and “Normally Open” output"
+    },
+    {
+      "name": "RS232",
+      "value": "2 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "Default 1 x RS485; up to 2 x RS485 (optional)"
+    },
+    {
+      "name": "CAN",
+      "value": "Default 0 x CAN; Optional 1 x CAN FD BUS. Arbitration Bit Rate up to 1Mbps, Data Bit Rate up to 8Mbps"
+    },
+    {
+      "name": "3G/4G/LTE/GPS",
+      "value": "Internal 4G/LTE module supported, not mounted by default"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -20°C to +70°C"
+    },
+    {
+      "name": "OS",
+      "value": "Debian 12"
+    },
+    {
+      "name": "Dimensions",
+      "value": "260.54 x 178.54 x 26.9mm"
+    },
+    {
+      "name": "Weight",
+      "value": "620g"
+    },
+    {
+      "name": "Mounting",
+      "value": "VESA, Stand"
+    },
+    {
+      "name": "Plastic Case Color",
+      "value": "Black / White"
+    },
+    {
+      "name": "Certification",
+      "value": "CE, ROHS"
+    }
+  ]
+}

@@ -10,13 +10,7 @@
 
 .. |PN| replace:: PN: CS10768-IMX8MP-150P
 
-.. |cur| replace:: 1.28A Max at 15V
-
-.. |pwr| replace:: 9.6W Typical, 19.2W Max
-
 .. |screen_conn_type| replace:: USB
-
-.. |temp| replace:: From -20°C to +70°C
 
 .. |power_img| image:: /Media/ARM/A53/CS10768-IMX8MP-150P/CS10768-IMX8MP-150P-Power.jpg
                   :align: middle

@@ -6,25 +6,9 @@
 
 .. |PN| replace:: PN: |product|
 
-.. |weight| replace:: 5200g
-
-.. |dim| replace:: 447 x 371 x 55mm
-
 .. |dispsize| replace:: 19.0"
   
 .. |res| replace:: 1280 x 1024
-
-.. |bright| replace:: 400 |cd|
-
-.. |tscreen| replace:: Resistive touch screen
-
-.. |viewing_angle| replace:: (H)160/(V)160
-
-.. |opt_1| replace:: Optional, module available from other manufacturers/stores
-
-.. |opt_2| replace:: Optional, module available from the Chipsee store 
-
-.. |pwr| replace:: 35W
 
 .. |disp_des| replace:: |dispsize| resistive touch screen with a resolution of |res| pixels
 

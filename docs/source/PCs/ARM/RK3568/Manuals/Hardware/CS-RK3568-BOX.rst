@@ -12,61 +12,9 @@
 
 .. |rk_soc| replace:: RK3568
 
-.. |dispsize| replace:: N/A
-
-.. |disp_des| replace:: N/A
-
-.. |disp_table_des| replace:: N/A
-
 .. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 3 x RS485, include 1 debug port. 
 
-.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
-
-.. |buzzer| replace:: Yes
-
-.. |audio| replace:: 3.5mm Audio In/Out Connector, 2W Internal Speaker
-
-.. |storage| replace:: TF Card, Supports up to 128GB SDHC
-
-.. |RAM| replace:: 4GB LPDDR4X
-
-.. |SSD| replace:: N/A
-
-.. |eMMC| replace:: 64GB
-
-.. |tscreen| replace:: N/A
-
-.. |HDMI_des| replace:: 1 x HDMI-D (Micro-HDMI) Out
-
-.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
-
-.. |LAN| replace:: 2 x RJ45, GbE
-
-.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
-
-.. |opt1| replace:: Supported, Optional
-
-.. |opt2| replace:: Integrated WiFi/BT Module
-
-.. |vin_rng| replace:: From 9V to 30V
-
-.. |cur| replace:: 290mA (max) at 15V
-
-.. |pwr| replace:: 4.35W (max)
-
-.. |temp| replace:: From -40°C to +85°C
-
-.. |rs232| replace:: default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port)
-
-.. |rs485| replace:: default 3 x RS485 at most
-
-.. |can| replace:: default 2 x CAN FD
-
-.. |poe| replace:: N/A
-
 .. |LAN_des| replace:: 2 x RJ45 Ethernet
-
-.. |vesa_screws| replace:: **75 x 75** mm, 4 x **M4** (6mm)
 
 .. |power_img| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-Power.jpg
                   :align: middle

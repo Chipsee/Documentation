@@ -10,14 +10,6 @@
 
 .. |PN| replace:: PN: CS12102RA5190
 
-.. |vin_rng| replace:: From 15V to 30V (supports optional 24V ignition signal)
-
-.. |cur| replace:: 1600mA max at 15V, 1400mA typical at 15V
-
-.. |pwr| replace:: 24W max, 21W typical
-
-.. |temp| replace:: From 0°C to +50°C
-
 .. _product_link: https://chipsee.com/product/ppc-cm5-190/
 
 .. |product_link| replace:: PPC-CM5-190

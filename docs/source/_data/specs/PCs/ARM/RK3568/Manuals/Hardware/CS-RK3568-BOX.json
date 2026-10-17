@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": 48,
+      "slug": "cs-a55-box",
+      "title": "CS-A55-BOX",
+      "pn": "CS-RK3568-BOX",
+      "shop_url": "https://chipsee.com/product/cs-rk3568-box/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Rockchip RK3568, Quad-core Cortex-A55 (2.0GHz)"
+    },
+    {
+      "name": "RAM",
+      "value": "4GB LPDDR4X"
+    },
+    {
+      "name": "eMMC",
+      "value": "64GB"
+    },
+    {
+      "name": "SSD",
+      "value": "N/A"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 128GB SDHC"
+    },
+    {
+      "name": "Display",
+      "value": "N/A"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI-D (Micro-HDMI) Out"
+    },
+    {
+      "name": "Touch",
+      "value": "N/A"
+    },
+    {
+      "name": "USB",
+      "value": "1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C"
+    },
+    {
+      "name": "LAN",
+      "value": "2 x RJ45, GbE"
+    },
+    {
+      "name": "POE",
+      "value": "N/A"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, 2W Internal Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)."
+    },
+    {
+      "name": "RS232",
+      "value": "default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port)"
+    },
+    {
+      "name": "RS485",
+      "value": "default 3 x RS485 at most"
+    },
+    {
+      "name": "CAN",
+      "value": "default 2 x CAN FD"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels Isolated IO, 4 x Input and 4 x Output"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Supported, Optional"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 9V to 30V"
+    },
+    {
+      "name": "Current",
+      "value": "290mA (max) at 15V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "4.35W (max)"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -40°C to +85°C"
+    },
+    {
+      "name": "OS",
+      "value": "Android 11, Debian11, Buildroot Linux Qt 5.15"
+    },
+    {
+      "name": "Dimensions",
+      "value": "CS-A55-BOX (PN: CS-RK3568-BOX): 209 x 125 x 37.3mm"
+    },
+    {
+      "name": "Weight",
+      "value": "CS-A55-BOX (PN: CS-RK3568-BOX): 900g"
+    },
+    {
+      "name": "Mounting",
+      "value": "CS-A55-BOX (PN: CS-RK3568-BOX): Rear, VESA"
+    }
+  ]
+}

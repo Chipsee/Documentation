@@ -1,0 +1,133 @@
+{
+  "products": [
+    {
+      "id": 121,
+      "slug": "cs-cm4-box",
+      "title": "CS-CM4-BOX",
+      "pn": "CSRA4BOX",
+      "shop_url": "https://chipsee.com/product/cs-cm4-box/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Raspberry Pi® CM4, CM4 Lite; Quad Cortex-A72 at 1.5GHz"
+    },
+    {
+      "name": "Storage",
+      "value": "Support for 1 x TF Card"
+    },
+    {
+      "name": "RAM",
+      "value": "2/4/8 GB, Based on CM4"
+    },
+    {
+      "name": "eMMC",
+      "value": "16/32 GB, Based on CM4"
+    },
+    {
+      "name": "Display",
+      "value": "N/A"
+    },
+    {
+      "name": "Touch",
+      "value": "N/A"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 3.0 Host, 1 x USB Type-C OTG"
+    },
+    {
+      "name": "LAN",
+      "value": "2 x Giga LAN"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio Out Connector, 2W Speaker Internal"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Onboard Buzzer, driven by GPIO"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)."
+    },
+    {
+      "name": "RS232",
+      "value": "Default to 2 x RS232, up to 4 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "Default to 2 x RS485, these 2 x RS485 can be configured as 2 x RS232"
+    },
+    {
+      "name": "CAN",
+      "value": "1 x CAN-BUS"
+    },
+    {
+      "name": "GPIO",
+      "value": "Option 1: 4 x input, 4 x output from expander IC (optical isolated, DEFAULT).  Option 2: 6 x CM4 CPU GPIO (conflict with option 1)."
+    },
+    {
+      "name": "I2C",
+      "value": "Not Supported"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Supported but depending on the CM4 selected"
+    },
+    {
+      "name": "ZIGBEE",
+      "value": "Onboard Zigbee module, not mounted by default"
+    },
+    {
+      "name": "HDMI",
+      "value": "Yes"
+    },
+    {
+      "name": "SATA II",
+      "value": "Not Supported"
+    },
+    {
+      "name": "3G/4G/LTE",
+      "value": "Supported, not mounted by default"
+    },
+    {
+      "name": "Camera",
+      "value": "Yes, not mounted by default. Available on the board in the embedded PC.  Requires a customized case to be exposed in an enclosed PC."
+    },
+    {
+      "name": "Power Input",
+      "value": "From 9V to 30V"
+    },
+    {
+      "name": "Current",
+      "value": "360mA (max) at 15V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "5.4W (max)"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From 0°C to +60°C"
+    },
+    {
+      "name": "OS",
+      "value": "Raspberry Pi OS"
+    },
+    {
+      "name": "Dimensions",
+      "value": "209 x 125 x 37.3mm"
+    },
+    {
+      "name": "Weight",
+      "value": "900g"
+    },
+    {
+      "name": "Mounting Method",
+      "value": "Rear, VESA"
+    }
+  ]
+}

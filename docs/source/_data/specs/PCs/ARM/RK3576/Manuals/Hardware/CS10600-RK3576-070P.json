@@ -1,0 +1,133 @@
+{
+  "products": [
+    {
+      "id": 188,
+      "slug": "ppc-rk3576-070",
+      "title": "PPC-RK3576-070",
+      "pn": "CS10600-RK3576-070P",
+      "shop_url": "https://chipsee.com/product/ppc-rk3576-070"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Rockchip RK3576J, Quad-core Cortex-A72 (1.6GHz) + Quad-core Cortex-A53 (1.4GHz)"
+    },
+    {
+      "name": "GPU",
+      "value": "ARM Mali G52 MC3, supports OpenGL ES 1.1, 2.0 and 3.2, OpenCL 2.1, Vulkan 1.2, up to 4K 60fps video encoding, up to 4K 120fps video decoding"
+    },
+    {
+      "name": "RAM",
+      "value": "4GB LPDDR5"
+    },
+    {
+      "name": "NPU",
+      "value": "6 TOPS(Sparsity)@INT8"
+    },
+    {
+      "name": "eMMC",
+      "value": "64GB"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 128GB SDHC"
+    },
+    {
+      "name": "PCIe",
+      "value": "Optional, supports M.2 M-Key 2230/2240 (PCI-E 3.0 x1) module (4G/LTE Mini PCIe cannot be used with M.2 PCIe at the same time)"
+    },
+    {
+      "name": "Display",
+      "value": "7” LCD, 1024 x 600, High Brightness: 400 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "5-point capacitive touch screen with 1mm tempered glass"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI-D (Micro-HDMI) Out"
+    },
+    {
+      "name": "USB",
+      "value": "1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C (USB3.0 port and USB-C port cannot be used at the same time)"
+    },
+    {
+      "name": "LAN",
+      "value": "2 x RJ45, GbE"
+    },
+    {
+      "name": "POE",
+      "value": "N/A"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, 2W Internal Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)."
+    },
+    {
+      "name": "RS232",
+      "value": "Default to 2 x RS232 (including 1 debug port). Up to 6 x RS232 by swapping 3 x RS485 + CAN1 to 4 x RS232."
+    },
+    {
+      "name": "RS485",
+      "value": "Default to 3 x RS485. Optionally, these 3 x RS485 can be configured to RS232."
+    },
+    {
+      "name": "CAN",
+      "value": "Default to 2 x CAN FD. Optionally, 1 x CAN(CAN1) can be configured to RS232."
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels Isolated IO, 4 x Input and 4 x Output"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/Bluetooth Module"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Supported, Optional (4G/LTE Mini PCIe cannot be used with M.2 PCIe at the same time)"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 9V to 30V (supports optional 24V ignition signal)"
+    },
+    {
+      "name": "Current",
+      "value": "550mA Max at 15V, 300mA typical at 15V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "8.25W Max, 4W typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -10°C to +60°C"
+    },
+    {
+      "name": "OS",
+      "value": "Android 14, Debian12, Buildroot Linux Qt 5.15, Ubuntu 22.04"
+    },
+    {
+      "name": "Dimensions",
+      "value": "PPC-RK3576-070 (PN: CS10600-RK3576-070P): 188.05 x 123.11 x 33.20mm"
+    },
+    {
+      "name": "Weight",
+      "value": "PPC-RK3576-070 (PN: CS10600-RK3576-070P): 610g"
+    },
+    {
+      "name": "Mounting",
+      "value": "PPC-RK3576-070 (PN: CS10600-RK3576-070P): Panel, VESA"
+    }
+  ]
+}

@@ -6,21 +6,9 @@
 
 .. |product| replace:: PPC-CM4-190
 
-.. |productE| replace:: CS12102RA4190E
-
 .. |productP| replace:: CS12102RA4190P
 
 .. |PN| replace:: PN: CS12102RA4190
-
-.. |cur| replace:: 1.18A(15V, typical), 1.34A(15V, max)
-
-.. |pwr| replace:: 20.16W(max)
-
-.. |temp| replace:: From 0°C to +50°C
-
-.. |dim_desc| replace:: |dimP|
-
-.. |weight_desc| replace:: |weightP|
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-190/
 

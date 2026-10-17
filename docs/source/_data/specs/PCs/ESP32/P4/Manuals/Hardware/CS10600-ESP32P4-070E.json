@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": 200,
+      "slug": "epc-esp32p4-070",
+      "title": "EPC-ESP32P4-070",
+      "pn": "CS10600-ESP32P4-070E",
+      "shop_url": "https://chipsee.com/product/epc-esp32p4-070"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Dual-core 32-bit RISC-V, up to 400 MHz; single-core 32-bit LP RISC-V, up to 40 MHz"
+    },
+    {
+      "name": "Storage",
+      "value": "32MB external SPI Flash"
+    },
+    {
+      "name": "RAM",
+      "value": "768 KB HP L2MEM + 32 KB LP SRAM + 8 KB SPM; 32MB in-package PSRAM"
+    },
+    {
+      "name": "FRAM",
+      "value": "Optional, not mounted by default"
+    },
+    {
+      "name": "Gyroscope",
+      "value": "Optional, not mounted by default"
+    },
+    {
+      "name": "Display",
+      "value": "7” IPS LCD, 1024 x 600 px, brightness 400 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "5-point capacitive touch with 1.0mm tempered glass"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x 100Mbps LAN"
+    },
+    {
+      "name": "PoE",
+      "value": "Power over Ethernet 802.3af/at, optional, not mounted by default"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "WiFi 6, Bluetooth LE 5 (optional, ESP32-C6 is not mounted by default)"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Internal Cat 1 4G/LTE module, not mounted by default"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm audio in/out interface; 2W internal speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Onboard buzzer, driven by I2C expanded IO"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 channels isolated I/O, 4 x input and 4 x output. 4 x direct ESP32-P4 GPIO (non-isolated, 3.3V)"
+    },
+    {
+      "name": "RS232",
+      "value": "2 x RS232 (default); up to 4 x RS232 (optional, by configuring RS485 to RS232)"
+    },
+    {
+      "name": "RS485",
+      "value": "2 x RS485 (default); 2 x RS485 can be configured to 2 x RS232 (optional)"
+    },
+    {
+      "name": "CAN",
+      "value": "1 x CAN (default)"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 2.0 Type-A high-speed host ports; 1 x USB 1.1 Type-C port for firmware flashing and debugging; the type-C port supports powering the device while programming"
+    },
+    {
+      "name": "Micro SD card socket",
+      "value": "1 x TF (micro SD) card slot"
+    },
+    {
+      "name": "RTC",
+      "value": "High-accuracy RTC with supercapacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)."
+    },
+    {
+      "name": "Power Input",
+      "value": "9V to 32V DC"
+    },
+    {
+      "name": "Current",
+      "value": "260mA max at 15V, 200mA typical at 15V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "4W max, 3W typical"
+    },
+    {
+      "name": "Operating Temp.",
+      "value": "From -10°C to +60°C"
+    },
+    {
+      "name": "Dimensions",
+      "value": "190 x 107.8 x 27.7mm"
+    },
+    {
+      "name": "Weight",
+      "value": "400g"
+    },
+    {
+      "name": "Mounting",
+      "value": "Embedded"
+    },
+    {
+      "name": "Certification",
+      "value": "CE, RoHS"
+    }
+  ]
+}

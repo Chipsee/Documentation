@@ -10,13 +10,7 @@
 
 .. |PN| replace:: PN: CS19108-IMX8MP-133P
 
-.. |cur| replace:: 1.00A Max at 15V
-
-.. |pwr| replace:: 9.6W Typical, 15W Max
-
 .. |screen_conn_type| replace:: USB
-
-.. |temp| replace:: From 0°C to +80°C
 
 .. |power_img| image:: /Media/ARM/A53/CS19108-IMX8MP-133P/CS19108-IMX8MP-133P-Power.jpg
                   :align: middle

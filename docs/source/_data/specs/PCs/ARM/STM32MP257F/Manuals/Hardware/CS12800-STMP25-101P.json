@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": 174,
+      "slug": "ppc-a35-101",
+      "title": "PPC-A35-101",
+      "pn": "CS12800-STMP25-101P",
+      "shop_url": "https://chipsee.com/product/ppc-a35-101/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "STM32MP257F, Dual(2)-core Cortex-A35 (1.5GHz)"
+    },
+    {
+      "name": "GPU",
+      "value": "VeriSilicon GC8000UL - Open GL ES 3.2.8 - Vulkan 1.2, 900 MHz, up to 150 Mtriangle/s or 900 Mpixel/s"
+    },
+    {
+      "name": "NPU",
+      "value": "VeriSilicon GC8000UL - TensorFlowLite - ONNX - Linux NN, 900 MHz, 1.35 TOPS"
+    },
+    {
+      "name": "RAM",
+      "value": "DDR4 4GB"
+    },
+    {
+      "name": "eMMC",
+      "value": "16GB"
+    },
+    {
+      "name": "PCIe",
+      "value": "1 x PCIe2.0 x1, M.2 M-Key 2230/2242/2260/2280 socket (optional)"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 128GB SDHC"
+    },
+    {
+      "name": "Display",
+      "value": "10.1” LCD, 1280 x 800, High Brightness: 500 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "10-point capacitive touch screen with 1mm tempered glass"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 2.0 HOST, 1 x USB Type-C"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x RJ45, GbE, optional Power over Ethernet (PoE) port"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, 1W Internal Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)."
+    },
+    {
+      "name": "RS232",
+      "value": "default 2 x RS232 (Optional 6 x RS232 at most, including 1 debug port)"
+    },
+    {
+      "name": "RS485",
+      "value": "default 2 x RS485 (Optional 3 x RS485 at most)"
+    },
+    {
+      "name": "CAN",
+      "value": "default 2 x CAN FD (2 x CAN FD can be configured to RS232 optionally or 1 x CAN FD can be configured to RS485 optionally)"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels Isolated IO, 4 x Input and 4 x Output"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Supported, Optional"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 15V to 30V (supports optional 24V ignition signal)"
+    },
+    {
+      "name": "Current",
+      "value": "500mA max at 15V, 400mA typical at 15V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "7.5W max, 6W typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -20°C to +70°C"
+    },
+    {
+      "name": "OS",
+      "value": "Yocto Linux"
+    },
+    {
+      "name": "Dimensions",
+      "value": "PPC-A35-101 (PN: CS12800-STMP25-101P): 275.5 x 193.5 x 46.0mm"
+    },
+    {
+      "name": "Weight",
+      "value": "PPC-A35-101 (PN: CS12800-STMP25-101P): 1300g"
+    },
+    {
+      "name": "Mounting",
+      "value": "PPC-A35-101 (PN: CS12800-STMP25-101P): Panel, VESA"
+    }
+  ]
+}

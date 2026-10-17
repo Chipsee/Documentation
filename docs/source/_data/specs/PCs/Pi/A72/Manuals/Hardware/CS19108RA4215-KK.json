@@ -1,0 +1,133 @@
+{
+  "products": [
+    {
+      "id": 118,
+      "slug": "kiosk-cm4-215",
+      "title": "KIOSK-CM4-215",
+      "pn": "CS19108RA4215-KK",
+      "shop_url": "https://chipsee.com/product/KIOSK-CM4-215/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Raspberry Pi® CM4; Quad Cortex-A72 at 1.5GHz"
+    },
+    {
+      "name": "Storage",
+      "value": "Support for 1 x TF Card"
+    },
+    {
+      "name": "RAM",
+      "value": "2/4/8 GB, Based on CM4"
+    },
+    {
+      "name": "eMMC",
+      "value": "16/32 GB, Based on CM4"
+    },
+    {
+      "name": "Display",
+      "value": "21.5” IPS LCD, 1920 x 1080 resolution, brightness 500 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "10-point capacitive touch with 3mm tempered glass, single point touch in Raspberry Pi OS Software"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 3.0 Host, 1 x USB OTG"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x Giga LAN"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio Out Connector, 2W Speaker Internal"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Onboard Buzzer, driven by GPIO"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)."
+    },
+    {
+      "name": "RS232",
+      "value": "Default to 2 x RS232, up to 4 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "Default to 2 x RS485, these 2 x RS485 can be configured as 2 x RS232"
+    },
+    {
+      "name": "CAN",
+      "value": "1 x CAN-BUS"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels, 4 Input, 4 Output"
+    },
+    {
+      "name": "I2C",
+      "value": "Not Supported"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Supported but depending on the CM4 selected"
+    },
+    {
+      "name": "ZIGBEE",
+      "value": "Not supported"
+    },
+    {
+      "name": "HDMI",
+      "value": "Not Supported"
+    },
+    {
+      "name": "SATA II",
+      "value": "Not Supported"
+    },
+    {
+      "name": "3G/4G/LTE",
+      "value": "Supported, not mounted by default"
+    },
+    {
+      "name": "Camera",
+      "value": "No"
+    },
+    {
+      "name": "Power Input",
+      "value": "100-240V AC 50/60Hz"
+    },
+    {
+      "name": "Current",
+      "value": "Less than 1.5A"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "33W Typical, 45W Maximum"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From 0°C to +50°C"
+    },
+    {
+      "name": "OS",
+      "value": "Raspberry Pi OS"
+    },
+    {
+      "name": "Dimensions",
+      "value": "KIOSK-CM4-215: 826 x 380 x 138mm"
+    },
+    {
+      "name": "Weight",
+      "value": "KIOSK-CM4-215: 16.6kg"
+    },
+    {
+      "name": "Mounting Method",
+      "value": "Rear Mount"
+    }
+  ]
+}

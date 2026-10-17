@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": 179,
+      "slug": "ppc-a55-101s",
+      "title": "PPC-A55-101S",
+      "pn": "CS12800-RK3568B2-101P",
+      "shop_url": "https://chipsee.com/product/ppc-a55-101s"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Rockchip RK3568B2, Quad-core Cortex-A55 (2.0GHz)"
+    },
+    {
+      "name": "RAM",
+      "value": "2GB/4GB"
+    },
+    {
+      "name": "eMMC",
+      "value": "16GB/64GB"
+    },
+    {
+      "name": "SSD",
+      "value": "Optional, supports M.2 2280 NVME SSD (PCI-E 3.0 x 2). If you use SSD, 4G/LTE will be disabled."
+    },
+    {
+      "name": "Storage",
+      "value": "N/A"
+    },
+    {
+      "name": "Display",
+      "value": "10.1” LCD, 1280 x 800, Brightness: 260 cd/m2"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI OUT"
+    },
+    {
+      "name": "Touch",
+      "value": "10-point capacitive touch screen"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 2.0 HOST, 2 x USB 3.0 HOST(The upper USB 3.0 port close to front panel also serves as a download interface)"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x RJ45, GbE"
+    },
+    {
+      "name": "POE",
+      "value": "N/A"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, No Internal Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "N/A"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with lithium coin battery, can work 3 years after power off."
+    },
+    {
+      "name": "RS232",
+      "value": "Default to 2 x RS232. Up to 4 x RS232."
+    },
+    {
+      "name": "RS485",
+      "value": "Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232."
+    },
+    {
+      "name": "CAN",
+      "value": "N/A"
+    },
+    {
+      "name": "GPIO",
+      "value": "6 channels non-isolated CPU GPIO, can be configured to IN or OUT by user"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Supported, Optional. If you use 4G/LTE, SSD will be disabled."
+    },
+    {
+      "name": "Power Input",
+      "value": "From 15V to 36V"
+    },
+    {
+      "name": "Current",
+      "value": "300mA Typical, 500mA Max at 15V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "4.5W Typical, 7.5W Max"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From 0°C to +50°C"
+    },
+    {
+      "name": "OS",
+      "value": "Android 11, Debian11, Buildroot Linux Qt 5.15"
+    },
+    {
+      "name": "Dimensions",
+      "value": "PPC-A55-101S (PN: CS12800-RK3568B2-101P): 253.20 X 171.83 X 36mm"
+    },
+    {
+      "name": "Weight",
+      "value": "PPC-A55-101S (PN: CS12800-RK3568B2-101P): 1300g"
+    },
+    {
+      "name": "Mounting",
+      "value": "PPC-A55-101S (PN: CS12800-RK3568B2-101P): Panel, VESA, Wall, Desktop"
+    }
+  ]
+}

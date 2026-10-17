@@ -10,14 +10,6 @@
 
 .. |PN| replace:: PN: CS10768RA5121
 
-.. |vin_rng| replace:: From 15V to 30V (supports optional 24V ignition signal)
-
-.. |cur| replace:: 900mA max at 15V, 650mA typical at 15V
-
-.. |pwr| replace:: 13.5W max, 9.8W typical
-
-.. |temp| replace:: From -20°C to +70°C
-
 .. _product_link: https://chipsee.com/product/ppc-cm5-121/
 
 .. |product_link| replace:: PPC-CM5-121

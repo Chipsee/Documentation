@@ -1,0 +1,129 @@
+{
+  "products": [
+    {
+      "id": 65,
+      "slug": "ppc-a9-121-u-c",
+      "title": "PPC-A9-121-U-C",
+      "pn": "CS10768F121-U",
+      "shop_url": "https://chipsee.com/product/ppc-a9-121-u-c/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "iMX6Q, Arm® Cortex®-A9, 1GHz"
+    },
+    {
+      "name": "RAM",
+      "value": "2GB DDR3"
+    },
+    {
+      "name": "eMMC",
+      "value": "8GB"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 32GB SDHC"
+    },
+    {
+      "name": "Display",
+      "value": "12.1” LCD, 1024 x 768, High Brightness: 500|cd|"
+    },
+    {
+      "name": "Touch",
+      "value": "Capacitive Multi-Point Touch Screen"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 2.0 HOST, 1 x USB OTG"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x Channel 1000Mbps LAN"
+    },
+    {
+      "name": "Audio",
+      "value": "Mic input, 3.5mm Audio Out Connector, 2W Internal Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "Camera",
+      "value": "Yes, Front USB -500 ten thousand pixel"
+    },
+    {
+      "name": "Fingerprint",
+      "value": "Zaz-070S"
+    },
+    {
+      "name": "RTC",
+      "value": "Yes, Powered by CR2032 Button Battery"
+    },
+    {
+      "name": "RS232",
+      "value": "4 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "2 x RS485 (Optional)"
+    },
+    {
+      "name": "CAN",
+      "value": "2 x CAN (Optional)"
+    },
+    {
+      "name": "GPIO",
+      "value": "N/A"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI"
+    },
+    {
+      "name": "SATA",
+      "value": "1 x SATA II"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Optional, Not mounted by default"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 15V to 36V"
+    },
+    {
+      "name": "Current at 15V",
+      "value": "2000mA Max"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "10W Typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -20°C to +70°C"
+    },
+    {
+      "name": "OS",
+      "value": "Chipsee Linux, Android 4.3, Android 6.0, Android 8.0, Ubuntu 12.04, Ubuntu 14.04, Debian"
+    },
+    {
+      "name": "Dimensions",
+      "value": "359 x 274 x 23mm"
+    },
+    {
+      "name": "Weight",
+      "value": "4000g"
+    },
+    {
+      "name": "Mounting",
+      "value": "Panel & VESA"
+    }
+  ]
+}

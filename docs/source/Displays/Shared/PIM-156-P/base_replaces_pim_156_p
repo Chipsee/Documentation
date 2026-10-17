@@ -1,21 +1,3 @@
 .. |Product| replace:: The |product| industrial display
 
-.. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
-.. |in_res| replace:: |res| @ 60Hz
-
-.. |connector| replace:: VGA / HDMI
-
-.. |mount| replace:: VESA and PANEL
-
-.. |standby| replace:: ≤ 2W
-
-.. |vin_rng| replace:: 12V 3A DC(default), 9-30V (optional)
-
-.. |osd_lang| replace:: Multilingual Support
-
-.. |accessories| replace:: Mounting Clip / HDMI Cable / USB Cable / Power Adapter
-
-.. |multi_touch_support| replace:: Based on the operating system of the host PC
-
-.. |os| replace:: N/A
+.. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |spec:Display Resolution| pixels and brightness of |spec:Brightness|

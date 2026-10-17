@@ -8,16 +8,6 @@
 
 .. include:: Resources/BOX-070-070D-Shared/base_replaces_070D_BOX
 
-.. |disp_table| replace:: N/A
-
-.. |tscreen| replace:: N/A
-
-.. |cur| replace:: 800mA max at 12V, 500mA typical at 12V 
-
-.. |pwr| replace:: 9.6W max, 6W typical 
-
-.. |temp| replace:: From -20°C to +85°C
-
 .. _product_link: https://chipsee.com/product/cs-cm5-box/
 
 .. |product_link| replace:: CS-CM5-BOX

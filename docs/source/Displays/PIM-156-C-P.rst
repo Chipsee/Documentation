@@ -12,33 +12,7 @@
 
 .. |dispsize| replace:: 15.6"
 
-.. |res| replace:: 1920 x 1080 (16:9)
-
-.. |dim| replace:: 400 × 256 × 52.5mm
-
-.. |pkg_size| replace:: 440 x 325 x 90mm
-
 .. |glass_thickness| replace:: 3mm
-
-.. |con_ratio| replace:: 800:1
-
-.. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
-
-.. |weight| replace:: 4500g
-
-.. |bright| replace:: 450 |cd|
-
-.. |v_angle| replace::  Horizontal: 160°(min)~170°(typ) / Vertical: 160°(min)~170°(typ)
-
-.. |disp_col| replace:: 16.2M Colors
-
-.. |resp_time| replace:: 13ms
-
-.. |storage_temp| replace:: From -30°C to +85°C, 90% RH (No condensation)
-
-.. |working_temp| replace:: From -30°C to +85°C, 90% RH (No condensation)
-
-.. |pwr| replace:: ≤ 24W
 
 .. _product_link: https://chipsee.com/product/pim-156-p/
 

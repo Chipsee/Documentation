@@ -1,0 +1,120 @@
+{
+  "products": [
+    {
+      "id": 28,
+      "slug": "epc-a72-070-c",
+      "title": "EPC-A72-070-C",
+      "pn": "CS10600R070E",
+      "shop_url": "https://chipsee.com/product/epc-a72-070-c/"
+    },
+    {
+      "id": 29,
+      "slug": "ppc-a72-070-c",
+      "title": "PPC-A72-070-C",
+      "pn": "CS10600R070P",
+      "shop_url": "https://chipsee.com/product/epc-a72-070-c/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Rokchip RK3399, Dual-core Cortex-A72 (1.8GHz), Quad-core Cortex-A53 (1.4GHz)"
+    },
+    {
+      "name": "RAM",
+      "value": "4GB DDR3"
+    },
+    {
+      "name": "eMMC",
+      "value": "16GB"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 32GB SDHC"
+    },
+    {
+      "name": "Display",
+      "value": "7.0” LCD, 1024 x 600, High Brightness: 500 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "5-point capacitive touch screen"
+    },
+    {
+      "name": "USB",
+      "value": "1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x RJ45, GbE"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, 2W Internal Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "Yes"
+    },
+    {
+      "name": "RS232",
+      "value": "4 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "2 x RS485 (1 debug port)"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Not supported"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 12V to 36V"
+    },
+    {
+      "name": "Current at 15V",
+      "value": "800mA Max"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "8W Typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From 0°C to +60°C"
+    },
+    {
+      "name": "OS",
+      "value": "Android 7.1, Android 11, Buildroot Linux Qt5.14, Debian 10"
+    },
+    {
+      "name": "Dimensions",
+      "value": "EPC-A72-070-C (PN: CS10600R070E): 190 x 107 x 27.7mm; PPC-A72-070-C (PN: CS10600R070P): 205.5 x 135.5 x 27.5mm"
+    },
+    {
+      "name": "Weight",
+      "value": "EPC-A72-070-C (PN: CS10600R070E): 345g; PPC-A72-070-C (PN: CS10600R070P): 580g"
+    },
+    {
+      "name": "Mounting",
+      "value": "EPC-A72-070-C (PN: CS10600R070E): Embedded; PPC-A72-070-C (PN: CS10600R070P): Panel"
+    }
+  ]
+}

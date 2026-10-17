@@ -1,0 +1,121 @@
+{
+  "products": [
+    {
+      "id": 131,
+      "slug": "ppc-a53-133",
+      "title": "PPC-A53-133",
+      "pn": "CS19108-IMX8MP-133P",
+      "shop_url": "https://chipsee.com/product/ppc-a53-133/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "NXP i.MX8MP, Quad(4)-core Cortex-A53 (1.6GHz)"
+    },
+    {
+      "name": "RAM",
+      "value": "LPDDR4 4GB"
+    },
+    {
+      "name": "eMMC",
+      "value": "32GB"
+    },
+    {
+      "name": "SSD",
+      "value": "Not supported"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 128GB SDHC"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI OUT"
+    },
+    {
+      "name": "Display",
+      "value": "13.3” LCD, 1920 x 1080, High Brightness: 360 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "10-point capacitive touch screen"
+    },
+    {
+      "name": "USB",
+      "value": "1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x RJ45, GbE"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, 2W Internal Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)."
+    },
+    {
+      "name": "RS232",
+      "value": "Default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port)"
+    },
+    {
+      "name": "RS485",
+      "value": "Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232."
+    },
+    {
+      "name": "CAN",
+      "value": "Default to 2 x CAN. Optionally, these 2 x CAN can be configured to RS232."
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels Isolated IO, 4 x Input and 4 x Output"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module (Bluetooth is functional on Yocto Linux, not functional on Android)"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Supported, Optional"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 15V to 36V"
+    },
+    {
+      "name": "Current",
+      "value": "1.00A Max at 15V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "9.6W Typical, 15W Max"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From 0°C to +80°C"
+    },
+    {
+      "name": "OS",
+      "value": "Android 12, Yocto Linux Qt 6.3"
+    },
+    {
+      "name": "Dimensions",
+      "value": "355 x 225 x 55mm"
+    },
+    {
+      "name": "Weight",
+      "value": "3000g"
+    },
+    {
+      "name": "Mounting",
+      "value": "Panel, VESA"
+    }
+  ]
+}

@@ -11,69 +11,13 @@
 
 .. |dispsize| replace:: 5"
 
-.. |cpu| replace:: Dual-core 32-bit RISC-V, up to 400 MHz; single-core 32-bit LP RISC-V, up to 40 MHz
-
-.. |storage| replace:: 32MB external SPI Flash
-
-.. |ram_desc| replace:: 768 KB HP L2MEM + 32 KB LP SRAM + 8 KB SPM; 32MB in-package PSRAM
-
-.. |fram| replace:: Optional, not mounted by default
-
-.. |gyroscope| replace:: Optional, not mounted by default
-
-.. |res| replace:: 1280 x 720
-
 .. |bright| replace:: 400 |cd|
-
-.. |tscreen| replace:: 5-point capacitive touch with 1.0mm tempered glass
-
-.. |rtc_desc| replace:: High-accuracy RTC with supercapacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off **(optional, conflict with speaker)**.
-
-.. |buzzer| replace:: Onboard buzzer, driven by GPIO
-
-.. |USB| replace:: 2 x USB 2.0 Type-A high-speed host ports; 1 x USB 1.1 Type-C port for firmware flashing and debugging; the type-C port supports powering the device while programming
-
-.. |LAN| replace:: 1 x 100Mbps LAN
-
-.. |can| replace:: 1 x CAN **(default)**
-
-.. |4g_desc| replace:: Internal Cat 1 4G/LTE module, **not mounted by default**
-
-.. |vin_rng| replace:: 9V to 32V DC
-
-.. |poe| replace:: N/A
 
 .. |poe_desc| replace:: The product doesn't support PoE (Power over Ethernet).
 
 .. |power_conn_desc| replace:: The power input is **3-pin 3.81mm screw terminal**, you can also use the USB-C port to power the product while programming.
 
-.. |temp| replace:: From -20°C to +60°C
-
-.. |audio| replace:: 3.5mm audio in/out interface; 2W internal speaker
-
-.. |rs232| replace:: 2 x RS232 **(default)**; up to 4 x RS232 (**optional**, by configuring RS485 to RS232)
-
-.. |rs485| replace:: 2 x RS485 **(default)**; 2 x RS485 can be configured to 2 x RS232 **(optional)**
-
-.. |i2c| replace:: 1 x I2C (4 pin header)
-
-.. |gpio| replace:: N/A
-
-.. |camera| replace:: 1 x MIPI-CSI (2-lane) interface for connecting a MIPI-CSI (2-lane) 15-pin 1.0mm camera such as a Raspberry Pi (OV5647) Camera V1.3 (optional, not mounted by default)
-
-.. |cur| replace:: 200mA max at 15V, 133mA typical at 15V
-
-.. |pwr| replace:: 3W max, 2W typical
-
-.. |dim| replace:: 141.2 x 77.6 x 25.8mm
-
-.. |weight| replace:: 200g
-
 .. |overview_desc| replace:: |Product| (|PN|) is an embedded programmable capacitive touch HMI display featuring an ESP32 P4 processor. The product features an embedded mounting design, making it suitable for integration into existing equipment.
-
-.. |wifi_desc| replace:: WiFi 6, Bluetooth LE 5 **(optional, ESP32-C6 is not mounted by default)**
-
-.. |sd_socket| replace:: 1 x TF (micro SD) card slot
 
 .. _product_link: https://chipsee.com/epc-esp32p4-050
 

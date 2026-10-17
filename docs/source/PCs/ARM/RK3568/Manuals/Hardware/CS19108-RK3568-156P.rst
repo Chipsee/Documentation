@@ -12,12 +12,6 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |cur| replace:: 1.56A Max at 15V
-
-.. |pwr| replace:: 9.6W Typical, 23.4W Max
-
-.. |temp| replace:: From -30°C to +85°C
-
 .. |power_img| image:: /Media/ARM/A55/CS19108-RK3568-156P/Power-RK3568-156P.jpg
                   :align: middle
                   :width: 576

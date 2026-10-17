@@ -13,17 +13,6 @@
 .. |PN| replace:: PN: CS-RK3576-BOX
 
 .. |Product| replace:: The |product| Industrial Box PC
-.. |tscreen| replace:: N/A
-
-.. |disp_table_des| replace:: N/A
-
-.. |cur| replace:: 400mA (max) at 15V
-
-.. |pwr| replace:: 6W (max)
-
-.. |temp| replace:: From -40°C to +85°C
-
-.. |vesa_screws| replace:: **75 x 75** mm, 4 x **M4** (6mm)
 
 .. |power_img| image:: /Media/ARM/RK3576/CS-RK3576-BOX/CS-RK3576-BOX-Power.jpg
                   :align: middle

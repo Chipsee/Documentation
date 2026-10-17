@@ -10,67 +10,19 @@
 
 .. |Product| replace:: The |product| Industrial PC
 
-.. |dispsize| replace:: N/A
-
-.. |disp_des| replace:: N/A
-
 .. |dc_in_desc| replace:: There are two DC input interfaces on this device: a **3-pin, 3.81mm terminal**, and a **2.1mm I.D x 5.5mm O.D x 9.5mm DC connector**.
-
-.. |gpu| replace:: ARM Mali-G610 MC4. Up to 8K60 FPS video decoding, up to 8K30 FPS video encoding.
-
-.. |npu| replace:: Neural network acceleration engine with 6Tops int8, support Int4/8/16/FP16/BF16/TF32.
 
 .. |pcie_opt_feature| replace:: This product doesn't have M.2 PCIe socket.
 
-.. |disp_table_des| replace:: N/A
-
 .. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 3 x RS485, including 1 debug port. CAN0 can be configured to RS232.
 
-.. |RAM| replace:: 8GB LPDDR4
-
-.. |PCIe| replace:: N/A
-
-.. |eMMC| replace:: 64GB
-
-.. |tscreen| replace:: N/A
-
-.. |HDMI_des| replace:: 1 x HDMI-D (Micro-HDMI) Out
-
-.. |USB| replace:: 2 x USB 3.0 HOST, 1 x USB Type-C
-
-.. |LAN| replace:: 2 x RJ45, GbE
-
-.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
-
 .. |gpio_conn| replace:: **10-pin 3.81 mm terminal**
-
-.. |opt1| replace:: Supported, Optional
-
-.. |opt2| replace:: Integrated WiFi/BT Module
-
-.. |vin_rng| replace:: From 9V to 30V (supports **optional** 24V ignition signal)
-
-.. |cur| replace:: 290mA (max) at 15V
-
-.. |pwr| replace:: 4.35W (max)
-
-.. |temp| replace:: From -40°C to +85°C
-
-.. |rs232| replace:: default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port)
-
-.. |rs485| replace:: default 3 x RS485 at most
-
-.. |can| replace:: default 2 x CAN FD
-
-.. |poe| replace:: N/A
 
 .. |which_usb_usbc_conflict| replace:: near RJ45
 
 .. |usb_usbc_conflict| replace:: The USB-A host (near RJ45) and USB-C **can't be used** at the same time. Before boot into OS, USB-C is enabled for install OS image; after boot into OS, USB-A is enabled but USB-C is disabled. In Android, these can be configured; in Linux, these can't be configured.
 
 .. |LAN_des| replace:: 2 x RJ45 Ethernet
-
-.. |vesa_screws| replace:: **75 x 75** mm, 4 x **M4** (6mm)
 
 .. |power_img| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-Power.jpg
                   :align: middle

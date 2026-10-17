@@ -6,27 +6,11 @@
 
 .. |PN| replace:: PN: PPC-10510U-150-C
 
-.. |weight| replace:: 4500g
-
-.. |dim| replace:: 376 x 300 x 61.7mm
-
 .. |dispsize| replace:: 15.0"
 
 .. |res| replace:: 1024 x 768
 
-.. |bright| replace:: 350 |cd|
-
-.. |tscreen| replace:: Multi-point capacitive or resistive touch screen
-
-.. |opt_1| replace:: Optional, module available from the Chipsee store
-
-.. |opt_2| replace:: Optional, module available from the Chipsee store
-
-.. |pwr| replace:: 27W
-
 .. |disp_des| replace:: Touch sensitive |dispsize| with a resolution of |res| pixels
-
-.. |os_support| replace:: Linux(Default), Windows 10
 
 .. _product_link: https://chipsee.com/product/ppc-10510u-150-c/
 

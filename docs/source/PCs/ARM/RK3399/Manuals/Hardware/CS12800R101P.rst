@@ -12,34 +12,6 @@
 
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |RAM| replace:: 4GB DDR3
-
-.. |eMMC| replace:: 16GB
-
-.. |tscreen| replace:: 10-point capacitive touch screen with |glass_thickness| tempered glass
-
-.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
-
-.. |LAN| replace:: 1 x RJ45, GbE
-
-.. |GPIO| replace:: 8 Channels
-
-.. |opt1| replace:: Supported, Optional
-
-.. |opt2| replace:: Integrated WiFi/BT Module
-
-.. |vin_rng| replace:: From 15V to 36V
-
-.. |cur| replace:: 700mA Max(15V)
-
-.. |pwr| replace:: 12W Typical
-
-.. |temp| replace:: From 0°C to +60°C
-
-.. |rs232| replace:: 3 x RS232 (Optional 5 x RS232 at most, 1 debug port)
-
-.. |rs485| replace:: 2 x RS485
-
 .. _product_link: https://chipsee.com/product/ppc-a72-101/
 
 .. |product_link| replace:: |product|
@@ -87,7 +59,7 @@
 USB Connectors
 --------------
 
-There are 2 x **USB HOST connectors** onboard which includes |USB|
+There are 2 x **USB HOST connectors** onboard which includes |spec:USB|
 , as shown in the figures below.
 
 .. Figure:: /Media/ARM/A72/CS12800R101P/USB2.jpg
@@ -144,7 +116,7 @@ Mechanical Specifications
 
 |productP|
 ----------
-For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+For |productP|, the outer mechanical dimensions are |spec:Dimensions:P| (W x L x H).
 
 .. include:: /PCs/Shared/Hardware/cutout/101
 

@@ -1,0 +1,133 @@
+{
+  "products": [
+    {
+      "id": 113,
+      "slug": "ppc-cm4-050",
+      "title": "PPC-CM4-050",
+      "pn": "CS12720RA4050P",
+      "shop_url": "https://chipsee.com/product/ppc-cm4-050/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Raspberry Pi® CM4; Quad Cortex-A72 at 1.5GHz"
+    },
+    {
+      "name": "Storage",
+      "value": "Support for 1 x TF Card"
+    },
+    {
+      "name": "RAM",
+      "value": "2/4/8 GB, Based on CM4"
+    },
+    {
+      "name": "eMMC",
+      "value": "16/32 GB, Based on CM4"
+    },
+    {
+      "name": "Display",
+      "value": "5.0” IPS LCD, 1280 x 720 resolution px, brightness 400 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "5-point capacitive touch screen with 1mm tempered glass"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 2.0 Host, 1 x Type-C"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x Giga LAN"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio Out Connector, 2W Speaker Internal"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Onboard Buzzer, driven by GPIO"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)."
+    },
+    {
+      "name": "RS232",
+      "value": "Default to 2 x RS232, up to 4 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "Default to 2 x RS485, these 2 x RS485 can be configured as 2 x RS232"
+    },
+    {
+      "name": "CAN",
+      "value": "1 x CAN-BUS"
+    },
+    {
+      "name": "GPIO",
+      "value": "Not Supported"
+    },
+    {
+      "name": "I2C",
+      "value": "Not Supported"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Supported but depending on the CM4 selected"
+    },
+    {
+      "name": "ZIGBEE",
+      "value": "No"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI-D 2.0, can be driven upto 4Kp30"
+    },
+    {
+      "name": "SATA II",
+      "value": "Not Supported"
+    },
+    {
+      "name": "3G/4G/LTE",
+      "value": "Not Supported"
+    },
+    {
+      "name": "Camera",
+      "value": "Yes, not mounted by default. Available on the board in the embedded PC.  Requires a customized case to be exposed in an enclosed PC."
+    },
+    {
+      "name": "Power Input",
+      "value": "From 6V to 36V"
+    },
+    {
+      "name": "Current",
+      "value": "500mA Max at 12V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "6W Typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From 0°C to +60°C"
+    },
+    {
+      "name": "OS",
+      "value": "Raspberry Pi OS"
+    },
+    {
+      "name": "Dimensions",
+      "value": "139 x 85 x 27.1mm"
+    },
+    {
+      "name": "Weight",
+      "value": "310g"
+    },
+    {
+      "name": "Mounting Method",
+      "value": "Panel, VESA"
+    }
+  ]
+}

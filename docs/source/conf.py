@@ -44,6 +44,7 @@ extensions = [
     # sphinx-material's search page still calls jQuery, which Sphinx no longer ships.
     "sphinxcontrib.jquery",
     "pagebreak",
+    "specs",
 ]
 
 # sphinx-material injects functions into html_context, which Sphinx can't pickle.

@@ -1,0 +1,133 @@
+{
+  "products": [
+    {
+      "id": 201,
+      "slug": "epc-esp32p4-050",
+      "title": "EPC-ESP32P4-050",
+      "pn": "CS12720-ESP32P4-050E",
+      "shop_url": "https://chipsee.com/product/epc-esp32p4-050"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Dual-core 32-bit RISC-V, up to 400 MHz; single-core 32-bit LP RISC-V, up to 40 MHz"
+    },
+    {
+      "name": "Storage",
+      "value": "32MB external SPI Flash"
+    },
+    {
+      "name": "RAM",
+      "value": "768 KB HP L2MEM + 32 KB LP SRAM + 8 KB SPM; 32MB in-package PSRAM"
+    },
+    {
+      "name": "FRAM",
+      "value": "Optional, not mounted by default"
+    },
+    {
+      "name": "Gyroscope",
+      "value": "Optional, not mounted by default"
+    },
+    {
+      "name": "Display",
+      "value": "5” IPS LCD, 1280 x 720 px, brightness 400 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "5-point capacitive touch with 1.0mm tempered glass"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x 100Mbps LAN"
+    },
+    {
+      "name": "PoE",
+      "value": "N/A"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "WiFi 6, Bluetooth LE 5 (optional, ESP32-C6 is not mounted by default)"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Internal Cat 1 4G/LTE module, not mounted by default"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm audio in/out interface; 2W internal speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Onboard buzzer, driven by GPIO"
+    },
+    {
+      "name": "Camera",
+      "value": "1 x MIPI-CSI (2-lane) interface for connecting a MIPI-CSI (2-lane) 15-pin 1.0mm camera such as a Raspberry Pi (OV5647) Camera V1.3 (optional, not mounted by default)"
+    },
+    {
+      "name": "GPIO",
+      "value": "N/A"
+    },
+    {
+      "name": "RS232",
+      "value": "2 x RS232 (default); up to 4 x RS232 (optional, by configuring RS485 to RS232)"
+    },
+    {
+      "name": "RS485",
+      "value": "2 x RS485 (default); 2 x RS485 can be configured to 2 x RS232 (optional)"
+    },
+    {
+      "name": "CAN",
+      "value": "1 x CAN (default)"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 2.0 Type-A high-speed host ports; 1 x USB 1.1 Type-C port for firmware flashing and debugging; the type-C port supports powering the device while programming"
+    },
+    {
+      "name": "I2C",
+      "value": "1 x I2C (4 pin header)"
+    },
+    {
+      "name": "Micro SD card socket",
+      "value": "1 x TF (micro SD) card slot"
+    },
+    {
+      "name": "RTC",
+      "value": "High-accuracy RTC with supercapacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional, conflict with speaker)."
+    },
+    {
+      "name": "Power Input",
+      "value": "9V to 32V DC"
+    },
+    {
+      "name": "Current",
+      "value": "200mA max at 15V, 133mA typical at 15V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "3W max, 2W typical"
+    },
+    {
+      "name": "Operating Temp.",
+      "value": "From -20°C to +60°C"
+    },
+    {
+      "name": "Dimensions",
+      "value": "141.2 x 77.6 x 25.8mm"
+    },
+    {
+      "name": "Weight",
+      "value": "200g"
+    },
+    {
+      "name": "Mounting",
+      "value": "Embedded"
+    },
+    {
+      "name": "Certification",
+      "value": "CE, RoHS"
+    }
+  ]
+}
