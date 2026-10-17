@@ -6,6 +6,7 @@
 from pathlib import Path
 import hashlib
 import shutil
+import sys
 from urllib.parse import urljoin
 
 from docutils.parsers.rst.directives.images import Image
@@ -17,10 +18,7 @@ from sphinx.util.osutil import relpath
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-#
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, str(Path(__file__).parent.joinpath("_ext")))
 
 # -- Project information -----------------------------------------------------
 
@@ -43,8 +41,13 @@ extensions = [
     "sphinx_material",
     "sphinx_design",
     "sphinx_copybutton",
-    "sphinx_pdf_generate",
+    # sphinx-material's search page still calls jQuery, which Sphinx no longer ships.
+    "sphinxcontrib.jquery",
+    "pagebreak",
 ]
+
+# sphinx-material injects functions into html_context, which Sphinx can't pickle.
+suppress_warnings = ["config.cache"]
 
 
 # Add any paths that contain templates here, relative to this directory.
@@ -87,6 +90,12 @@ html_theme_options = {
     "globaltoc_includehidden": True,
     # 'html_minify': True,
     "css_minify": True,
+    # Sphinx 7.3+ keeps the quotes around these defaults in sphinx-material's theme.conf.
+    "localtoc_label_text": "Contents",
+    "nav_previous_text": "Previous",
+    "nav_next_text": "Next",
+    "search_placeholder_text": "Search",
+    "version_json": "versions.json",
 }
 html_sidebars = {
     "**": ["localtoc.html", "searchbox.html"],
@@ -100,7 +109,9 @@ file_insertion_enabled = True
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
-html_extra_path = ["./index.html", "./robots.txt"]
+html_extra_path = ["./robots.txt"]
+# The hand-written home page replaces the one generated from index.rst, see copy_home_page.
+home_page = "index.html"
 
 numfig = True
 numfig_secnum_depth = 1
@@ -109,7 +120,7 @@ numfig_format = {"figure": "Figure %s: "}
 html_show_sphinx = False  # shows sphinx footer link
 html_show_sourcelink = False  # shows link to rst file that generates page
 
-rst_epilog = """
+rst_epilog = r"""
 
 .. |Chipsee| replace:: Chipsee\ :sup:`®`
 
@@ -226,6 +237,13 @@ def _replace_static_references(file_path: Path, replacements: dict[str, str]) ->
         file_path.write_text(text, encoding="utf-8")
 
 
+def copy_home_page(app, exception) -> None:
+    # Sphinx 7+ copies html_extra_path before writing pages, so index.rst would overwrite it.
+    if exception is not None or app.builder.name != "html":
+        return
+    shutil.copyfile(Path(app.srcdir).joinpath(home_page), Path(app.outdir).joinpath(home_page))
+
+
 def fingerprint_static_assets(app, exception) -> None:
     if exception is not None or app.builder.name != "html":
         return
@@ -306,8 +324,10 @@ def add_breadcrumb_context(app, pagename, templatename, context, doctree) -> Non
 
 def setup(app):
     # Override the existing image directive with our custom image directive
-    app.add_directive("image", CustomImageDirective)
+    app.add_directive("image", CustomImageDirective, override=True)
     app.connect("html-page-context", add_breadcrumb_context)
+    # Before fingerprinting, which rewrites asset references in the home page too.
+    app.connect("build-finished", copy_home_page, priority=400)
     app.connect("build-finished", fingerprint_static_assets)
 
     return {

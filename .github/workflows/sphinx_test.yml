@@ -15,7 +15,11 @@ jobs:
   docs:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v4
+    - name: Set Up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.13"
     - name: Update pip
       run: |
         pip install -U wheel
@@ -35,6 +39,6 @@ jobs:
     - name: Install Requirements
       run: |
         pip install -r docs/source/requirements.txt
-    - name: Build Docs using Sphinx-PDF Generate
+    - name: Build Docs
       run: |
-        sphinx-pdf-generate -b html docs/source  /tmp/_build/html
+        sphinx-build -b html docs/source /tmp/_build/html -E -a -j auto -W --keep-going
