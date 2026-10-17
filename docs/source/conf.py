@@ -110,8 +110,6 @@ file_insertion_enabled = True
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 html_extra_path = ["./robots.txt"]
-# The hand-written home page replaces the one generated from index.rst, see copy_home_page.
-home_page = "index.html"
 
 numfig = True
 numfig_secnum_depth = 1
@@ -237,13 +235,6 @@ def _replace_static_references(file_path: Path, replacements: dict[str, str]) ->
         file_path.write_text(text, encoding="utf-8")
 
 
-def copy_home_page(app, exception) -> None:
-    # Sphinx 7+ copies html_extra_path before writing pages, so index.rst would overwrite it.
-    if exception is not None or app.builder.name != "html":
-        return
-    shutil.copyfile(Path(app.srcdir).joinpath(home_page), Path(app.outdir).joinpath(home_page))
-
-
 def fingerprint_static_assets(app, exception) -> None:
     if exception is not None or app.builder.name != "html":
         return
@@ -303,6 +294,15 @@ def fingerprint_static_assets(app, exception) -> None:
             _replace_static_references(asset_path, replacements)
 
 
+def render_home_page(app, pagename, templatename, context, doctree):
+    # index.rst only holds the root toctree; its page is the home page in _templates/home.html.
+    if pagename != app.config.root_doc:
+        return None
+    context["title"] = "Home"
+    context["pageurl"] = html_baseurl
+    return "home.html"
+
+
 def add_breadcrumb_context(app, pagename, templatename, context, doctree) -> None:
     context["breadcrumb_items"] = []
     pageurl = context.get("pageurl")
@@ -325,9 +325,8 @@ def add_breadcrumb_context(app, pagename, templatename, context, doctree) -> Non
 def setup(app):
     # Override the existing image directive with our custom image directive
     app.add_directive("image", CustomImageDirective, override=True)
+    app.connect("html-page-context", render_home_page)
     app.connect("html-page-context", add_breadcrumb_context)
-    # Before fingerprinting, which rewrites asset references in the home page too.
-    app.connect("build-finished", copy_home_page, priority=400)
     app.connect("build-finished", fingerprint_static_assets)
 
     return {
