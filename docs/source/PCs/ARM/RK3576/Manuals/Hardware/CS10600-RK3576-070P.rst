@@ -26,9 +26,9 @@
 
 .. |weightP| replace:: 610g
 
-.. |cur| replace:: 550mA Max at 15V
+.. |cur| replace:: 550mA Max at 15V, 300mA typical at 15V
 
-.. |pwr| replace:: 8.25W Max
+.. |pwr| replace:: 8.25W Max, 4W typical
 
 .. |temp| replace:: From -10°C to +60°C
 
