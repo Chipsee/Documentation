@@ -1,0 +1,49 @@
+{#- A PDF manual: cover, contents and the page's article, rendered by tools/build_pdfs.py. -#}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ title }}</title>
+  <meta name="author" content="Chipsee">
+  <meta name="description" content="{{ label }}{% if subtitle %}, {{ subtitle }}{% endif %}">
+  <meta name="generator" content="Chipsee Documentation">
+  <link rel="stylesheet" href="{{ pygments }}">
+  <link rel="stylesheet" href="{{ assets }}/manual.css">
+</head>
+<body>
+  <section class="cover" style="background-image: url('{{ assets }}/../_static/images/cover.png')">
+    <p class="cover-label">{{ label }}</p>
+    <p class="cover-title{% if title | length > 18 %} long{% elif title | length > 15 %} medium{% endif %}">{{ title }}</p>
+    {%- if image %}
+    <div class="cover-image{% if not cutout %} framed{% endif %}"><img src="{{ image }}" alt=""></div>
+    {%- endif %}
+    <div class="cover-details">
+      {%- if subtitle %}
+      <p class="cover-subtitle">{{ subtitle }}</p>
+      {%- endif %}
+      {%- if revision %}
+      <p class="cover-revision">Revision {{ revision }}</p>
+      {%- endif %}
+      <p class="cover-note">
+        Content can change at anytime, check our website for latest information of this product.<br>
+        <a href="{{ url }}">{{ url }}</a>
+      </p>
+    </div>
+  </section>
+
+  {%- if toc %}
+  <nav class="toc">
+    <h1>Contents</h1>
+    <ul>
+      {%- for item in toc %}
+      <li class="toc-{{ item.level }}"><a href="#{{ item.id }}"><span class="number">{{ item.number }}</span> {{ item.title }}</a></li>
+      {%- endfor %}
+    </ul>
+  </nav>
+  {%- endif %}
+
+  <main>
+    {{ body }}
+  </main>
+</body>
+</html>

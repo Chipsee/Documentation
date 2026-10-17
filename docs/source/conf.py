@@ -45,6 +45,7 @@ extensions = [
     "sphinxcontrib.jquery",
     "pagebreak",
     "specs",
+    "pdf",
 ]
 
 # sphinx-material injects functions into html_context, which Sphinx can't pickle.
@@ -110,7 +111,7 @@ file_insertion_enabled = True
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
-html_extra_path = ["./robots.txt"]
+html_extra_path = ["./robots.txt", "./index.php"]
 
 numfig = True
 numfig_secnum_depth = 1
@@ -165,28 +166,6 @@ rst_epilog = r"""
 
 html_last_updated_fmt = "%b %d, %Y"
 pygments_style = "perldoc"
-
-
-# Sphinx-PDF-Generate configurations
-pdfgen_verbose = False
-pdfgen_site_url = "https://docs.chipsee.com"
-# pdfgen_debug = True
-# pdfgen_debug_target = "PCs/ESP32/P4/Manuals/Hardware/CS12800-ESP32P4-101A.rst"
-# pdfgen_debug_target = "PCs/Pi/A72/Manuals/Hardware/CS19108RA4215-KK.rst"
-pdfgen_author = "Chipsee"
-pdfgen_copyright = copyright
-pdfgen_disclaimer = "Content can change at anytime. It's best to refer to website for latest information."
-pdfgen_cover = True
-# pdfgen_cover_title = ""
-# pdfgen_cover_subtitle = ""
-pdfgen_custom_template_path = "cover_templates"
-pdfgen_custom_css_path = "_static/css"
-pdfgen_toc = True
-pdfgen_toc_numbering = True
-pdfgen_toc_title = "Contents"
-pdfgen_toc_level = 6
-pdfgen_cover_images = {"default": "_static/images/cover.png"}
-pdfgen_plugin_handler_path = "custom_code.py"
 
 
 class CustomImageDirective(Image):

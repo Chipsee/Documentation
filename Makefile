@@ -3,7 +3,7 @@ SOURCEDIR = $(PROJECT)/source
 BUILDDIR = $(PROJECT)/build
 VENV = . venv/bin/activate
 
-.PHONY: help clean html rebuild watch pull-specs
+.PHONY: help clean html rebuild watch pull-specs pdf
 
 help:
 	@echo "Available targets:"
@@ -12,6 +12,7 @@ help:
 	@echo "  rebuild   - Clean and rebuild everything"
 	@echo "  watch     - Auto-build and serve with sphinx-autobuild"
 	@echo "  pull-specs - Pull product specs from the website into docs/source/_data/specs"
+	@echo "  pdf       - Build HTML, then the PDF manuals that changed"
 
 clean:
 	rm -rf $(BUILDDIR)/*
@@ -28,3 +29,6 @@ watch:
 
 pull-specs:
 	$(VENV) && python tools/pull_specs.py
+
+pdf: html
+	$(VENV) && python tools/build_pdfs.py $(BUILDDIR)/html

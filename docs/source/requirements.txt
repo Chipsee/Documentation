@@ -6,3 +6,7 @@ sphinx-substitution-extensions==2026.10.9
 sphinx_design==0.7.0
 sphinx-copybutton==0.5.2
 sphinxcontrib-jquery==4.1
+
+# PDF manuals, tools/build_pdfs.py
+weasyprint==70.0
+beautifulsoup4==4.15.0
