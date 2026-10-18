@@ -48,3 +48,4 @@ jobs:
     - name: Build PDFs
       run: |
         python tools/build_pdfs.py build/html --previous site
+

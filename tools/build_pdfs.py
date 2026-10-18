@@ -188,7 +188,7 @@ def prepare(html_dir: Path, page_url: str) -> tuple[Markup, list[dict], tuple[st
 def assets_used(html_dir: Path, page_url: str, body: str) -> list[Path]:
     page = html_dir / page_url
     files = [p for p in ASSETS.rglob("*") if p.is_file()]
-    files += [ROOT / "docs/source/_static/images/cover.png", Path(__file__).resolve()]
+    files += [ROOT / "docs/source/_static/images/cover.svg", ROOT / "docs/source/_static/images/logo_header.png", Path(__file__).resolve()]
     files += sorted(ASSETS.parent.joinpath("_static/vendor/google-fonts/files").glob("*.ttf"))
     files.append(html_dir / "_static" / "pygments.css")
     for src in re.findall(r'src="([^"]+)"', body):

@@ -1,6 +1,6 @@
 .. include:: /PCs/Shared/pdf_options_software
 
-.. |systemType| replace:: Raspberry Pi OS
+.. |systemType| replace:: Raspberry Pi
 .. |chip| replace:: AIO CM4
 
 .. _aio-cm4-156-pi-os:

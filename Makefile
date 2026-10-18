@@ -19,7 +19,7 @@ clean:
 
 html:
 	@echo "Building HTML with virtualenv..."
-	$(VENV) && sphinx-build -b html $(SOURCEDIR) $(BUILDDIR)/html -E -a -j auto
+	$(VENV) && sphinx-build -b html $(SOURCEDIR) $(BUILDDIR)/html -E -a -j auto -W --keep-going
 
 rebuild: clean html
 
