@@ -1,0 +1,83 @@
+# Pull the product specs from the Chipsee C3 website and open a pull request with the changes.
+# Run it from the Actions tab after changing specs on the website.
+
+name: Pull specs
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set Up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.13"
+        cache: pip
+        cache-dependency-path: docs/source/requirements.txt
+
+    # The public API, so only published products. Pull unpublished ones locally with a staff token.
+    - name: Pull specs
+      id: pull
+      run: |
+        mkdir -p build
+        python tools/pull_specs.py --summary build/summary.md
+        if [ -n "$(git status --porcelain docs/source/_data/specs)" ]; then
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+        else
+          echo "No spec changed"
+        fi
+
+    # A pull request opened by this workflow doesn't start the Docs Check, so the build is
+    # checked here and its result goes in the pull request.
+    - name: Build HTML
+      id: build
+      if: steps.pull.outputs.changed
+      continue-on-error: true
+      run: |
+        pip install -r docs/source/requirements.txt
+        sphinx-build -b html docs/source build/html -d build/doctrees -E -a -j auto -q -W --keep-going 2> build/warnings.txt
+
+    - name: Write pull request description
+      if: steps.pull.outputs.changed
+      run: |
+        {
+          echo "Specs pulled from the website by the [Pull specs]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID) workflow."
+          echo
+          cat build/summary.md
+          echo
+          if [ "${{ steps.build.outcome }}" = success ]; then
+            echo "✅ The docs build without warnings."
+          else
+            echo "❌ The docs don't build without warnings. Fix these before merging:"
+            echo
+            echo '```'
+            sed "s|$GITHUB_WORKSPACE/||" build/warnings.txt | head -n 100
+            echo '```'
+          fi
+        } > build/description.md
+
+    # Updates the same branch and pull request until it's merged.
+    - name: Open pull request
+      if: steps.pull.outputs.changed
+      uses: peter-evans/create-pull-request@v7
+      with:
+        branch: pull-specs
+        commit-message: Pull specs from the website
+        title: Pull specs from the website
+        body-path: build/description.md
+        add-paths: docs/source/_data/specs
+        delete-branch: true
+
+    - name: Fail if the docs have warnings
+      if: steps.build.outcome == 'failure'
+      run: |
+        cat build/warnings.txt
+        exit 1

@@ -63,8 +63,8 @@ Specs (the Key Features table and the spec values in the text) are maintained on
 
 1. Change the spec on the website.
 2. Pull the specs, either way:
-   - Run `make pull-specs`. With `CHIPSEE_API_TOKEN` set to a staff API token it also pulls unpublished products.
-   - Or run the **Pull specs** workflow on GitHub (Actions → Pull specs → Run workflow), which opens a pull request with the changes. It pulls published products only, so a product that isn't published yet loses its specs there; pull it locally instead.
+   - Run `make pull-specs`. With `CHIPSEE_API_TOKEN` set to a staff API token it also pulls unpublished products. It prints what changed, spec by spec.
+   - Or run the **Pull specs** workflow on GitHub (Actions → Pull specs → Run workflow), which opens a pull request listing what changed. It pulls published products only, so a product that isn't published yet loses its specs there; pull it locally instead.
 3. Review the diff of `docs/source/_data/specs/*.json` and commit it.
 
 Don't edit the JSON files by hand: the next pull overwrites them.
@@ -103,7 +103,7 @@ The PDF breaks pages by itself; `:pagebreak:` has no effect.
 | Build docs and update docs-build branch (`main.yml`) | Push to `main` | Builds the HTML and changed PDFs and publishes them to the `docs-build` branch, which chipsee.com/docs pulls. A Sphinx warning or a PDF that fails to render stops the deploy, and the site stays as it was. Run it by hand with **all_pdfs** to render every PDF again. |
 | Pull specs (`pull_specs.yml`) | By hand | Pulls the specs of published products and opens a pull request. |
 
-A pull request opened by the Pull specs workflow doesn't start the Docs Check by itself; close and reopen it to run the check.
+A pull request opened by the Pull specs workflow doesn't start the Docs Check, so the workflow builds the HTML itself and says in the pull request whether it builds without warnings. A spec page is removed when no published product's `doc_url` points to it any more; its manual page then has no specs and the build fails.
 
 ## Things to watch out for
 

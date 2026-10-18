@@ -28,7 +28,7 @@ watch:
 	$(VENV) && sphinx-autobuild --host 0.0.0.0 --port 8000 $(SOURCEDIR) $(BUILDDIR)/html -j 8
 
 pull-specs:
-	$(VENV) && python tools/pull_specs.py
+	$(VENV) && python tools/pull_specs.py --summary -
 
 pdf: html
 	$(VENV) && python tools/build_pdfs.py $(BUILDDIR)/html
