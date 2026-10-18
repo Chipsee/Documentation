@@ -12,55 +12,11 @@
 
 .. |rk_soc| replace:: RK3568
 
-.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
-
-.. |buzzer| replace:: Yes
-
-.. |audio| replace:: 3.5mm Audio In/Out Connector, 2W Internal Speaker
-
-.. |storage| replace:: TF Card, Supports up to 128GB SDHC
-
 .. |disp_des| replace:: |dispsize| 5-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
-.. |disp_table_des| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
-
-.. |RAM| replace:: 2GB LPDDR4X
-
-.. |SSD| replace:: N/A
-
-.. |eMMC| replace:: 16GB
-
-.. |HDMI_des| replace:: 1 x HDMI-D 2.0 (Micro-HDMI) Out
 
 .. |uart_des| replace:: This product has 4 x UART channels in total. The default configuration is 2 x RS232 and 2 x RS485, including 1 debug port.
 
-.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
-
-.. |LAN| replace:: 1 x RJ45, GbE
-
-.. |poe| replace:: N/A
-
 .. |LAN_des| replace:: 1 x RJ45
-
-.. |GPIO| replace:: N/A
-
-.. |opt1| replace:: N/A
-
-.. |opt2| replace:: Integrated WiFi/BT Module
-
-.. |vin_rng| replace:: From 6V to 36V
-
-.. |cur| replace:: 450mA Max at 12V
-
-.. |pwr| replace:: 5.4W Max
-
-.. |temp| replace:: From -20°C to +60°C
-
-.. |rs232| replace:: default 2 x RS232 (Optional 4 x RS232 at most, include 1 debug port)
-
-.. |rs485| replace:: 2 x RS485 at most
-
-.. |can| replace:: default 1 x CAN FD (Optional 2 x CAN FD at most, by swapping RS485_4 to CAN FD)
 
 .. |power_img| image:: /Media/ARM/A55/CS12800-RK3568-050P/CS12800-RK3568-050P-Power.jpg
                   :align: middle
@@ -198,7 +154,7 @@ Mechanical Specifications
 |productP|
 ----------
 
-The outer mechanical dimensions of |productP| are |dimP| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+The outer mechanical dimensions of |productP| are |spec:Dimensions:P| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
 .. figure:: /Media/Shared/Hardware/CS12720-050-TD.webp

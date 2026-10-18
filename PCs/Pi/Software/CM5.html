@@ -1,11 +1,10 @@
 
-
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" data-content_root="../../../">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -34,22 +33,21 @@
   
   
     <title>Raspberry Pi CM5 OS User Manual &#8212; Chipsee</title>
-    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/material.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/css/material_custom.1f7cc54a.css" />
-    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
-    <script src="../../../_static/jquery.js"></script>
-    <script src="../../../_static/underscore.js"></script>
-    <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="../../../_static/doctools.js"></script>
-    <script src="../../../_static/sphinx_highlight.js"></script>
-    <script src="../../../_static/clipboard.min.js"></script>
-    <script src="../../../_static/copybutton.js"></script>
-    <script src="../../../_static/design-tabs.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=83348fa5" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/material.css?v=79c92029" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/material_custom.1f7cc54a.css?v=ab886185" />
+    <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+    <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+    <script src="../../../_static/documentation_options.js?v=56dcb7b8"></script>
+    <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../../_static/design-tabs.js?v=f930bc37"></script>
     <link rel="canonical" href="https://chipsee.com/docs/PCs/Pi/Software/CM5.html" />
-    <link rel="shortcut icon" href="../../../_static/favicon.webp"/>
+    <link rel="icon" href="../../../_static/favicon.webp"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="AIO-CM4-156 Raspberry Pi OS Start Guide" href="AIO156StartGuide.html" />
@@ -394,43 +392,14 @@
           </div>
         
         <div class="md-content">
-          <article class="md-content__inner md-typeset" role="main"><a class="md-content__button md-icon" style="margin:0;float:right;" href="Raspberry_Pi_OS_on_Raspberry_Pi_CM5_User_Manual.pdf" download title="Download PDF"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="width:40px;height:40px;" viewBox="0 0 56 
-56"> <g><path style="fill:#E9E9E0;" d="M36.985,0H7.963C7.155,0,6.5,0.655,6.5,1.926V55c0,0.345,0.655,1,1.463,
-1h40.074 c0.808,0,1.463-0.655,1.463-1V12.978c0-0.696-0.093-0.92-0.257-1.085L37.607,0.257C37.442,0.093,37.218,0,
-36.985,0z"/> <polygon style="fill:#D9D7CA;" points="37.5,0.151 37.5,12 49.349,12 	"/> <path 
-style="fill:#CC4B4C;" d="M19.514,33.324L19.514,33.324c-0.348,0-0.682-0.113-0.967-0.326 
-c-1.041-0.781-1.181-1.65-1.115-2.242c0.182-1.628,2.195-3.332,5.985-5.068c1.504-3.296,2.935-7.357,3.788-10.75 
-c-0.998-2.172-1.968-4.99-1.261-6.643c0.248-0.579,0.557-1.023,1.134-1.215c0.228-0.076,0.804-0.172,1.016-0.172 
-c0.504,0,0.947,0.649,1.261,1.049c0.295,0.376,0.964,1.173-0.373,6.802c1.348,2.784,3.258,5.62,5.088,
-7.562 c1.311-0.237,2.439-0.358,3.358-0.358c1.566,0,2.515,0.365,2.902,1.117c0.32,0.622,0.189,1.349-0.39,
-2.16 c-0.557,0.779-1.325,1.191-2.22,1.191c-1.216,0-2.632-0.768-4.211-2.285c-2.837,0.593-6.15,1.651-8.828,
-2.822 c-0.836,1.774-1.637,3.203-2.383,4.251C21.273,32.654,20.389,33.324,19.514,33.324z M22.176,28.198 c-2.137,
-1.201-3.008,2.188-3.071,2.744c-0.01,0.092-0.037,0.334,0.431,0.692C19.685,31.587,20.555,31.19,22.176,
-28.198z M35.813,23.756c0.815,0.627,1.014,0.944,1.547,0.944c0.234,0,0.901-0.01,1.21-0.441c0.149-0.209,0.207-0.343,
-0.23-0.415 c-0.123-0.065-0.286-0.197-1.175-0.197C37.12,23.648,36.485,23.67,35.813,23.756z M28.343,17.174 c-0.715,
-2.474-1.659,5.145-2.674,7.564c2.09-0.811,4.362-1.519,6.496-2.02C30.815,21.15,29.466,19.192,28.343,
-17.174z M27.736,8.712c-0.098,0.033-1.33,1.757,0.096,3.216C28.781,9.813,27.779,8.698,27.736,8.712z"/> <path 
-style="fill:#CC4B4C;" d="M48.037,56H7.963C7.155,56,6.5,55.345,6.5,54.537V39h43v15.537C49.5,55.345,48.845,56,
-48.037,56z"/> <g><path style="fill:#FFFFFF;" d="M17.385,53h-1.641V42.924h2.898c0.428,0,0.852,0.068,1.271,
-0.205 c0.419,0.137,0.795,0.342,1.128,0.615c0.333,0.273,0.602,0.604,0.807,0.991s0.308,0.822,0.308,1.306 c0,
-0.511-0.087,0.973-0.26,1.388c-0.173,0.415-0.415,0.764-0.725,1.046c-0.31,0.282-0.684,0.501-1.121,0.656 s-0.921,
-0.232-1.449,0.232h-1.217V53z M17.385,44.168v3.992h1.504c0.2,0,0.398-0.034,0.595-0.103 c0.196-0.068,0.376-0.18,
-0.54-0.335c0.164-0.155,0.296-0.371,0.396-0.649c0.1-0.278,0.15-0.622,0.15-1.032 
-c0-0.164-0.023-0.354-0.068-0.567c-0.046-0.214-0.139-0.419-0.28-0.615c-0.142-0.196-0.34-0.36-0.595-0.492 
-c-0.255-0.132-0.593-0.198-1.012-0.198H17.385z"/> <path style="fill:#FFFFFF;" d="M32.219,47.682c0,0.829-0.089,
-1.538-0.267,2.126s-0.403,1.08-0.677,1.477s-0.581,0.709-0.923,0.937 s-0.672,0.398-0.991,0.513c-0.319,0.114-0.611,
-0.187-0.875,0.219C28.222,52.984,28.026,53,27.898,53h-3.814V42.924h3.035 c0.848,0,1.593,0.135,2.235,0.403s1.176,
-0.627,1.6,1.073s0.74,0.955,0.95,1.524C32.114,46.494,32.219,47.08,32.219,47.682z M27.352,51.797c1.112,0,
-1.914-0.355,2.406-1.066s0.738-1.741,0.738-3.09c0-0.419-0.05-0.834-0.15-1.244 
-c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-0.308h-0.957v7.629H27.352z"/> 
-<path style="fill:#FFFFFF;" d="M36.266,44.168v3.172h4.211v1.121h-4.211V53h-1.668V42.924H40.9v1.244H36.266z"/> 
-</g></g> </svg></a>
+          <article class="md-content__inner md-typeset" role="main">
             
-  <span class="target" id="cm5-os"></span><section id="chip-os-user-manual">
-<h1 id="pcs-pi-software-cm5--page-root">Raspberry Pi CM5 OS User Manual<a class="headerlink" href="#pcs-pi-software-cm5--page-root" title="Permalink to this heading">¶</a></h1>
+  <a class="md-content__button md-icon pdf-download" download="" href="Raspberry_Pi_OS_on_Raspberry_Pi_CM5_User_Manual.pdf" style="margin:0;float:right;" title="Download PDF"><img alt="Download PDF" height="40" src="../../../_static/images/pdf_download.svg" width="40"/></a><span class="target" id="cm5-os"></span><section id="chip-os-user-manual">
+<h1 id="pcs-pi-software-cm5--page-root">Raspberry Pi CM5 OS User Manual<a class="headerlink" href="#pcs-pi-software-cm5--page-root" title="Link to this heading">¶</a></h1>
 <p class="fs-3 fw-bold text-center">Chipsee CM5 Industrial PC</p>
 <p class="fs-3 fw-bold text-center">User Manual for Raspberry Pi OS</p>
-<a class="reference internal image-reference" href="../../../_images/Chipsee_Logo_Full.png"><img alt="chipsee-logo" class="align-center" src="../../../_images/Chipsee_Logo_Full.png" style="width: 320px;"/></a>
+<a class="reference internal image-reference" href="../../../_images/Chipsee_Logo_Full.png"><img alt="chipsee-logo" class="align-center" src="../../../_images/Chipsee_Logo_Full.png" width="320"/>
+</a>
 <p>This is the software manual for Chipsee Raspberry Pi CM5 industrial PC. If you’ve never developed on this hardware with a Raspberry Pi OS, this manual can get you started quickly.</p>
 <p>Supported Chipsee PCs: all Chipsee Raspberry Pi CM5 based industrial PCs, including but not limited to:</p>
 <ul class="simple">
@@ -455,10 +424,10 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </ul>
 <p><p class="page-break" style="margin: 0"></p></p>
 <section id="prepare-for-developing">
-<h2 id="prepare-for-developing">Prepare for Developing<a class="headerlink" href="#prepare-for-developing" title="Permalink to this heading">¶</a></h2>
+<h2 id="prepare-for-developing">Prepare for Developing<a class="headerlink" href="#prepare-for-developing" title="Link to this heading">¶</a></h2>
 <p>To power on the Chipsee industrial PC, you need a power adapter; then you may want to connect to this PC from your  laptop or computer. Let’s prepare some hardware and software.</p>
 <section id="prepare-the-hardware">
-<h3 id="prepare-the-hardware">Prepare the Hardware<a class="headerlink" href="#prepare-the-hardware" title="Permalink to this heading">¶</a></h3>
+<h3 id="prepare-the-hardware">Prepare the Hardware<a class="headerlink" href="#prepare-the-hardware" title="Link to this heading">¶</a></h3>
 <p>Power Adapter:</p>
 <ul class="simple">
 <li><p>For products with a screen of 5” or 7” and BOX product, a power adapter between 9V ~ 30V DC output is required.</p></li>
@@ -474,7 +443,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p>If you use the CM5 Lite module which doesn’t have built-in eMMC storage, you also need one TF(Micro SD) card, 16GB at least, to boot your system.</p>
 </section>
 <section id="prepare-the-software">
-<h3 id="prepare-the-software">Prepare the Software<a class="headerlink" href="#prepare-the-software" title="Permalink to this heading">¶</a></h3>
+<h3 id="prepare-the-software">Prepare the Software<a class="headerlink" href="#prepare-the-software" title="Link to this heading">¶</a></h3>
 <p>Thanks to the Raspberry Pi OS, developing on a Chipsee industrial PC isn’t really different from developing on a normal Raspberry Pi (except for optical isolated GPIO, RS232/485 serial ports and other hardware resources which a Pi doesn’t have), you can use any developer software you’re comfortable with.</p>
 <p><em>The software listed below are not mandatory, they’re recommendations because we find them easy to use:</em></p>
 <ol class="arabic simple">
@@ -494,7 +463,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </section>
 </section>
 <section id="connect-to-the-device">
-<h2 id="connect-to-the-device">Connect to the Device<a class="headerlink" href="#connect-to-the-device" title="Permalink to this heading">¶</a></h2>
+<h2 id="connect-to-the-device">Connect to the Device<a class="headerlink" href="#connect-to-the-device" title="Link to this heading">¶</a></h2>
 <p>There are 3 ways to connect to the device from your workstation:</p>
 <ol class="arabic simple">
 <li><p>From <strong>Serial</strong> RS232 port</p></li>
@@ -503,13 +472,14 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </ol>
 <p>Let’s take a look at these connecting methods one by one.</p>
 <section id="connect-from-serial-port">
-<h3 id="connect-from-serial-port">Connect From Serial Port<a class="headerlink" href="#connect-from-serial-port" title="Permalink to this heading">¶</a></h3>
+<h3 id="connect-from-serial-port">Connect From Serial Port<a class="headerlink" href="#connect-from-serial-port" title="Link to this heading">¶</a></h3>
 <p>[ Cheatsheet for experienced developers: username is <strong>pi</strong>, password is <strong>raspberry</strong>, pin is <strong>RS232_0</strong> ]</p>
 <section id="enable-disable-serial-debug-port">
-<h4 id="enable-disable-serial-debug-port">Enable/Disable Serial Debug Port<a class="headerlink" href="#enable-disable-serial-debug-port" title="Permalink to this heading">¶</a></h4>
+<h4 id="enable-disable-serial-debug-port">Enable/Disable Serial Debug Port<a class="headerlink" href="#enable-disable-serial-debug-port" title="Link to this heading">¶</a></h4>
 <p>By default serial debug is enabled, you don’t have to do anything to use the RS232_0 as a serial debug port. If you need to disable the debug function for this port to use a normal serial function instead, you could edit the <cite>/boot/firmware/cmdline.txt</cite> file in the Raspberry Pi OS.</p>
 <p>By default the file looks like this:</p>
-<a class="text-center reference internal image-reference" href="../../../_images/Disable_Serial_Debug_CM5.png"><img alt="../../../_images/Disable_Serial_Debug_CM5.png" class="text-center align-center" src="../../../_images/Disable_Serial_Debug_CM5.png" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/Disable_Serial_Debug_CM5.png"><img alt="../../../_images/Disable_Serial_Debug_CM5.png" class="align-center text-center" src="../../../_images/Disable_Serial_Debug_CM5.png" width="800"/>
+</a>
 <p>To disable debug: remove <cite>console=ttyAMA0,115200</cite>, reboot.</p>
 <p>To enable debug: add <cite>console=ttyAMA0,115200</cite> back, reboot.</p>
 <div class="admonition warning">
@@ -518,11 +488,12 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </div>
 </section>
 <section id="connect-the-wire">
-<h4 id="connect-the-wire">Connect the Wire<a class="headerlink" href="#connect-the-wire" title="Permalink to this heading">¶</a></h4>
+<h4 id="connect-the-wire">Connect the Wire<a class="headerlink" href="#connect-the-wire" title="Link to this heading">¶</a></h4>
 <p>In our pre-built Raspberry Pi OS, the RS232_0 serves as a serial debug port. We can connect a RS232 cable between the Chipsee industrial PC and our workstation, allowing us to control the Chipsee industrial PC from our workstation.</p>
 <p>To get started, you need a USB to serial cable, we will use a USB Type-C to DB-9 cable as an example, you can use a USB-A cable as well, you need to plug the USB end to your workstation, and the serial end to the Chipsee device.</p>
 <p>I will plug the USB Type-C port to a Mac (Windows and Linux work fine too), and then I would use three female to female dupont wires, to connect 3 of the DB-9 pins to GND and RS232_0 (RX and TX) pins of my Chipsee industrial PC.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/USB_Serial_Cable_CM5.webp"><img alt="../../../_images/USB_Serial_Cable_CM5.webp" class="text-center align-center" src="../../../_images/USB_Serial_Cable_CM5.webp" style="width: 480px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/USB_Serial_Cable_CM5.webp"><img alt="../../../_images/USB_Serial_Cable_CM5.webp" class="align-center text-center" src="../../../_images/USB_Serial_Cable_CM5.webp" width="480"/>
+</a>
 <p class="text-center"><em>Use a USB to Serial Cable to Connect the Chipsee Industrial PC with Your Workstation</em></p>
 <p>Take a look at the image below, this is the 10.1” product, if your product has a different screen size, check out the hardware document to find out which pins are RS232_0 TX and RX.</p>
 <div class="admonition note">
@@ -530,14 +501,16 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p>Each hardware doc has a “RS232/RS485/CAN” section, it lists which is the RS232_0 TX and RX in the image and the table of their respective docs. Find your model here (<a class="reference internal" href="../index.html#pbpi"><span class="std std-ref">Industrial PCs Powered by Raspberry Pi</span></a>) and scroll to the “RS232/RS485/CAN” section to check out.</p>
 </div>
 <p>You should connect the DB-9’s RX to the device’s TX, and DB-9’s TX to the device’s RX, you should also connect their GNDs (the white wire).</p>
-<a class="text-center reference internal image-reference" href="../../../_images/Serial_Connect_CM5.webp"><img alt="../../../_images/Serial_Connect_CM5.webp" class="text-center align-center" src="../../../_images/Serial_Connect_CM5.webp" style="width: 480px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/Serial_Connect_CM5.webp"><img alt="../../../_images/Serial_Connect_CM5.webp" class="align-center text-center" src="../../../_images/Serial_Connect_CM5.webp" width="480"/>
+</a>
 <p class="text-center"><em>Connect 3 Pins with Dupont Wires (or with a phoenix connector)</em></p>
 </section>
 <section id="linux-and-macos">
-<h4 id="linux-and-macos">Linux and MacOS<a class="headerlink" href="#linux-and-macos" title="Permalink to this heading">¶</a></h4>
+<h4 id="linux-and-macos">Linux and MacOS<a class="headerlink" href="#linux-and-macos" title="Link to this heading">¶</a></h4>
 <ol class="arabic">
 <li><p>For <strong>MacOS and Linux</strong> users, you will need a program called <strong>screen</strong>. It should be already installed on most MacOS and Linux distributions(if the screen program is not installed on your computer, you can search how to install it, for example, “apt install screen” on Debian). Open your terminal and type <cite>screen -v</cite>. If the <em>screen</em> program is already installed in your computer, you should see a version number, like that in the image below:</p>
-<a class="text-center reference internal image-reference" href="../../../_images/Screen_Program-1_CM5.png"><img alt="../../../_images/Screen_Program-1_CM5.png" class="text-center align-center" src="../../../_images/Screen_Program-1_CM5.png" style="width: 480px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/Screen_Program-1_CM5.png"><img alt="../../../_images/Screen_Program-1_CM5.png" class="align-center text-center" src="../../../_images/Screen_Program-1_CM5.png" width="480"/>
+</a>
 <p class="text-center"><em>Confirm You Have the Screen Program (MacOS &amp; Linux)</em></p>
 </li>
 <li><p>Because the USB end of the cable is plugged into our workstation, we need to know which USB device it is in Linux/MacOS. We can find it out by testing:</p>
@@ -547,7 +520,8 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p>You might see many <em>tty</em> devices listed in your terminal, and cannot decide which is your USB to RS232 cable. Here is a tip: you can unplug the cable first, type the command to see what is listed in the OS. Then you plug it back in, and test again, to see what has recently appeared. The difference between the two should be your cable. In the image below, we found the <cite>/dev/tty.usbserial-10</cite> is our USB to RS232 cable.</p>
 </li>
 </ol>
-<a class="text-center reference internal image-reference" href="../../../_images/Cable_Finding_CM5.png"><img alt="../../../_images/Cable_Finding_CM5.png" class="text-center align-center" src="../../../_images/Cable_Finding_CM5.png" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/Cable_Finding_CM5.png"><img alt="../../../_images/Cable_Finding_CM5.png" class="align-center text-center" src="../../../_images/Cable_Finding_CM5.png" width="640"/>
+</a>
 <p class="text-center"><em>Find Out Which Device is Your USB to Serial Cable</em></p>
 <ol class="arabic" start="3">
 <li><p>You can put the device name you found to the screen program as an argument. To connect to the device (115200 is the default baud rate of the device):</p>
@@ -565,29 +539,33 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </div>
 </li>
 <li><p>If there is a blank/white screen, you can hit Enter or type some commands to see if you can interact with the device. In the image below, the device responds to my <cite>ls</cite> command.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/Screen_Program-2_CM5.png"><img alt="../../../_images/Screen_Program-2_CM5.png" class="text-center align-center" src="../../../_images/Screen_Program-2_CM5.png" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/Screen_Program-2_CM5.png"><img alt="../../../_images/Screen_Program-2_CM5.png" class="align-center text-center" src="../../../_images/Screen_Program-2_CM5.png" width="640"/>
+</a>
 <p class="text-center"><em>The Screen Program Connects Your Workstation to the Industrial PC’s Console</em></p>
 </li>
 <li><p>If you want to <strong>exit</strong> the screen program, you can press <cite>Ctrl+A</cite> then press <cite>K</cite>.</p>
 <p>The program will ask you if you want to kill this window, then press <cite>y</cite> to exit the program.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/Screen_Program-3_CM5.png"><img alt="../../../_images/Screen_Program-3_CM5.png" class="text-center align-center" src="../../../_images/Screen_Program-3_CM5.png" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/Screen_Program-3_CM5.png"><img alt="../../../_images/Screen_Program-3_CM5.png" class="align-center text-center" src="../../../_images/Screen_Program-3_CM5.png" width="640"/>
+</a>
 <p class="text-center"><em>Press “Ctrl + A” Follow by a “K” to Exit the Program</em></p>
 </li>
 </ol>
 </section>
 <section id="windows">
-<h4 id="windows">Windows<a class="headerlink" href="#windows" title="Permalink to this heading">¶</a></h4>
+<h4 id="windows">Windows<a class="headerlink" href="#windows" title="Link to this heading">¶</a></h4>
 <ol class="arabic">
 <li><p>For <strong>Windows</strong> users, you don’t need to install a specific “driver” kind of thing for Windows to recognize a Chipsee PC, but before proceeding, you should see a COM port appear/disappear when plug/unplug your USB to serial cable in Windows.</p>
 <p>Most USB to serial cables don’t require driver installation on Windows10/11. But if you find your cable isn’t recognizable by Windows, try checking the cable’s manufacturer’s website to learn more about it. Most of the time, simply doing a Windows update should do the trick, Windows can detect the cable’s USB driver and install it for you.</p>
 </li>
 <li><p>You could install a program called <strong>PuTTY</strong> (or XShell etc), here is a link to download the software: <a class="reference external" href="https://www.putty.org/">https://www.putty.org/</a>. If you’re comfortable with other clients other than PuTTY, you can use those as well.</p></li>
 <li><p>With PuTTY in your belt, let’s find out which COM port your USB to RS232 cable is using. One tip is to check the <em>Microsoft Windows Device Manager</em> (right click Windows icon, select Device Manager). Check which COM port appears/disappears when you plug/unplug the USB to serial cable. And that COM port device should be your USB to RS232 cable. Keep a note of the COM port your serial cable is using, let’s say it’s “your-com”, or “COM3” in this example.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/serial-2.png"><img alt="../../../_images/serial-2.png" class="text-center align-center" src="../../../_images/serial-2.png" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/serial-2.png"><img alt="../../../_images/serial-2.png" class="align-center text-center" src="../../../_images/serial-2.png" width="640"/>
+</a>
 <p class="text-center"><em>COM3 is the USB to Serial Cable</em></p>
 </li>
 <li><p>Open the PuTTY program, select <strong>Session</strong>, choose <strong>Serial</strong> in the radio buttons, and fill the COM port(your-com, or <strong>COM3</strong> in this example) you found in the Microsoft Windows Device Manager, and choose <strong>115200</strong> as baud rate, then click <strong>Open</strong>.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/serial-1.png"><img alt="../../../_images/serial-1.png" class="text-center align-center" src="../../../_images/serial-1.png" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/serial-1.png"><img alt="../../../_images/serial-1.png" class="align-center text-center" src="../../../_images/serial-1.png" width="640"/>
+</a>
 <p class="text-center"><em>Input your-com in the Serial Line field, in our case COM3</em></p>
 </li>
 <li><p>Now you should be able to connect from your workstation to the device through the serial port. You can try to hit Enter, or type some commands, like <cite>ls</cite>, to see if the device replies to your commands. If the prompt asks you to login, type the user name <strong>pi</strong>, password is <strong>raspberry</strong>:</p>
@@ -604,23 +582,27 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </section>
 </section>
 <section id="connect-from-network-ssh">
-<h3 id="connect-from-network-ssh">Connect From Network (SSH)<a class="headerlink" href="#connect-from-network-ssh" title="Permalink to this heading">¶</a></h3>
+<h3 id="connect-from-network-ssh">Connect From Network (SSH)<a class="headerlink" href="#connect-from-network-ssh" title="Link to this heading">¶</a></h3>
 <p><em>[Cheatsheet for experienced developers: username: pi, password: raspberry]</em></p>
 <p>By default SSH and VNC are disabled for security reasons, you could enable them through:</p>
 <ul class="simple">
 <li><p>raspi-config</p></li>
 <li><p>A GUI of raspi-config</p></li>
 </ul>
-<a class="text-center reference internal image-reference" href="../../../_images/Enable_SSH_1_CM5.png"><img alt="../../../_images/Enable_SSH_1_CM5.png" class="text-center align-center" src="../../../_images/Enable_SSH_1_CM5.png" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/Enable_SSH_1_CM5.png"><img alt="../../../_images/Enable_SSH_1_CM5.png" class="align-center text-center" src="../../../_images/Enable_SSH_1_CM5.png" width="640"/>
+</a>
 <p class="text-center"><em>Go to TUI of raspi-config</em></p>
-<a class="text-center reference internal image-reference" href="../../../_images/Enable_SSH_2_CM5.png"><img alt="../../../_images/Enable_SSH_2_CM5.png" class="text-center align-center" src="../../../_images/Enable_SSH_2_CM5.png" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/Enable_SSH_2_CM5.png"><img alt="../../../_images/Enable_SSH_2_CM5.png" class="align-center text-center" src="../../../_images/Enable_SSH_2_CM5.png" width="640"/>
+</a>
 <p class="text-center"><em>Move to Interfaces</em></p>
-<a class="text-center reference internal image-reference" href="../../../_images/Enable_SSH_3_CM5.png"><img alt="../../../_images/Enable_SSH_3_CM5.png" class="text-center align-center" src="../../../_images/Enable_SSH_3_CM5.png" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/Enable_SSH_3_CM5.png"><img alt="../../../_images/Enable_SSH_3_CM5.png" class="align-center text-center" src="../../../_images/Enable_SSH_3_CM5.png" width="640"/>
+</a>
 <p class="text-center"><em>Hit Enter and Confirm to Enable SSH</em></p>
 <p>You can SSH to the device when it’s connected to the network, either through Wi-Fi or Ethernet.</p>
 <p>First make sure you’re connected through WiFi or Ethernet (to learn how, jump to the Network section below. Ethernet can be automatically detected, WiFi needs some configuration).</p>
 <p>Then you can check the IP address with <strong>ifconfig</strong>:</p>
-<a class="text-center reference internal image-reference" href="../../../_images/Ifconfig_CM5.webp"><img alt="../../../_images/Ifconfig_CM5.webp" class="text-center align-center" src="../../../_images/Ifconfig_CM5.webp" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/Ifconfig_CM5.webp"><img alt="../../../_images/Ifconfig_CM5.webp" class="align-center text-center" src="../../../_images/Ifconfig_CM5.webp" width="640"/>
+</a>
 <p class="text-center"><em>Check IP with ifconfig</em></p>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span>pi@raspberrypi:~ $ ifconfig
 <span class="hll"><span class="linenos"> 2</span>eth0: flags=4099&lt;UP,BROADCAST,MULTICAST&gt;  mtu 1500
@@ -664,7 +646,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p>If you’re using Ethernet, it should be one of eth0(line 2) and eth1(line 9), depending on your device model. For example, on the dual-lan 7 inch product, LAN0 port is eth0, LAN1 port is eth1.</p>
 <p>Then we can ssh from our workstation with this IP address.</p>
 <section id="linux-macos">
-<h4 id="linux-macos">Linux / MacOS<a class="headerlink" href="#linux-macos" title="Permalink to this heading">¶</a></h4>
+<h4 id="linux-macos">Linux / MacOS<a class="headerlink" href="#linux-macos" title="Link to this heading">¶</a></h4>
 <p>For Linux and MacOS users, you can use your terminal and type:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ssh<span class="w"> </span>pi@your-ip
 <span class="c1"># In our case, your-ip is 192.168.50.159</span>
@@ -672,31 +654,36 @@ ssh<span class="w"> </span>pi@192.168.50.159
 </pre></div>
 </div>
 <p>The username is pi, and the password is raspberry.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/SSH_Connect-1_CM5.webp"><img alt="../../../_images/SSH_Connect-1_CM5.webp" class="text-center align-center" src="../../../_images/SSH_Connect-1_CM5.webp" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/SSH_Connect-1_CM5.webp"><img alt="../../../_images/SSH_Connect-1_CM5.webp" class="align-center text-center" src="../../../_images/SSH_Connect-1_CM5.webp" width="640"/>
+</a>
 <p class="text-center"><em>SSH with your-ip</em></p>
 </section>
 <section id="id1">
-<h4 id="id1">Windows<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h4>
+<h4 id="id1">Windows<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h4>
 <p>For Windows users using PuTTY, you can choose Session, input <strong>username@your-ip</strong> (in our case <em>pi@192.168.50.159</em>, yours should be different) in the Host Name field. Port Number should remain 22, choose SSH as the connection type in the radio buttons, click “Open”. The password is raspberry.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/ssh-2.png"><img alt="../../../_images/ssh-2.png" class="text-center align-center" src="../../../_images/ssh-2.png" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/ssh-2.png"><img alt="../../../_images/ssh-2.png" class="align-center text-center" src="../../../_images/ssh-2.png" width="640"/>
+</a>
 <p class="text-center"><em>Input username@your-ip in the Host Name field, in our case pi@192.168.50.159</em></p>
 <p>Now you have connected to the device through the network.</p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 </section>
 <section id="connect-with-vnc-remote-desktop">
-<h3 id="connect-with-vnc-remote-desktop">Connect with VNC Remote Desktop<a class="headerlink" href="#connect-with-vnc-remote-desktop" title="Permalink to this heading">¶</a></h3>
+<h3 id="connect-with-vnc-remote-desktop">Connect with VNC Remote Desktop<a class="headerlink" href="#connect-with-vnc-remote-desktop" title="Link to this heading">¶</a></h3>
 <p>[<em>Cheatsheet for experienced developer</em>: username: <strong>pi</strong>, password: <strong>raspberry</strong>, IP check: <strong>ifconfig</strong>, VNC port: <strong>5900</strong> (default port).]</p>
 <p>We can have a graphical user interface if we use VNC to connect to our Chipsee industrial PC. This is handy if you’re developing an HMI and want to test from your own laptop or computer. Here is how:</p>
 <p>By default VNC is disabled, you can enable VNC from <strong>sudo raspi-config</strong> or in the GUI.</p>
 <p>In the previous SSH section there are images of how to enable them through TUI, but you can also use the GUI program:</p>
-<a class="text-center reference internal image-reference" href="../../../_images/Enable_VNC_1_CM5.webp"><img alt="../../../_images/Enable_VNC_1_CM5.webp" class="text-center align-center" src="../../../_images/Enable_VNC_1_CM5.webp" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/Enable_VNC_1_CM5.webp"><img alt="../../../_images/Enable_VNC_1_CM5.webp" class="align-center text-center" src="../../../_images/Enable_VNC_1_CM5.webp" width="640"/>
+</a>
 <p class="text-center"><em>Go to GUI of raspi-config</em></p>
-<a class="text-center reference internal image-reference" href="../../../_images/Enable_VNC_2_CM5.webp"><img alt="../../../_images/Enable_VNC_2_CM5.webp" class="text-center align-center" src="../../../_images/Enable_VNC_2_CM5.webp" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/Enable_VNC_2_CM5.webp"><img alt="../../../_images/Enable_VNC_2_CM5.webp" class="align-center text-center" src="../../../_images/Enable_VNC_2_CM5.webp" width="640"/>
+</a>
 <p class="text-center"><em>Enable VNC (or SSH if need so)</em></p>
 <p>After enabling the VNC service, refer to the previous section to learn how to use <strong>ifconfig</strong> to find out your Chipsee industrial PC’s IP address. In our case we get 192.168.50.159.</p>
 <p>Then, for either Windows, macOS or Linux users, please open the VNC Viewer software on your laptop or PC. In the input area, which has a placeholder “Enter a VNC server address or search”, you should input the IP address we obtained earlier: <strong>your-ip</strong>, in our case: 192.168.50.159 (<strong>yours should be different</strong>), and hit enter.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/vnc-1.png"><img alt="../../../_images/vnc-1.png" class="text-center align-center" src="../../../_images/vnc-1.png" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/vnc-1.png"><img alt="../../../_images/vnc-1.png" class="align-center text-center" src="../../../_images/vnc-1.png" width="640"/>
+</a>
 <p class="text-center"><em>Change the input to your-ip, in our case 192.168.50.159</em></p>
 <p>VNC Viewer might ask for your credentials, you should input our username and password, in our case: username: <strong>pi</strong>, password: <strong>raspberry</strong>. And then continue, VNC Viewer might tell you the connection is not encrypted, it’s OK if you’re in your local network.</p>
 <p>Now we should see our Chipsee industrial PC’s desktop GUI in the VNC Viewer software.</p>
@@ -704,10 +691,10 @@ ssh<span class="w"> </span>pi@192.168.50.159
 </section>
 </section>
 <section id="hardware-resources">
-<h2 id="hardware-resources">Hardware Resources<a class="headerlink" href="#hardware-resources" title="Permalink to this heading">¶</a></h2>
+<h2 id="hardware-resources">Hardware Resources<a class="headerlink" href="#hardware-resources" title="Link to this heading">¶</a></h2>
 <p>When you develop software for the Chipsee industrial PC, you can open the hardware document beside this software document, to aid you in wiring your devices.</p>
 <section id="network">
-<h3 id="network">Network<a class="headerlink" href="#network" title="Permalink to this heading">¶</a></h3>
+<h3 id="network">Network<a class="headerlink" href="#network" title="Link to this heading">¶</a></h3>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>If your product has a CAT-1 (Simcom 7670G) 4G/LTE modem, but SIM card is not inserted, WiFi/Ethernet traffic to the Internet will not be routed through Ethernet/WiFi by default. You can disable routing through 4G and use Ethernet/WiFi instead with:</p>
@@ -730,7 +717,7 @@ $<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>r
 </div>
 </div>
 <section id="general">
-<h4 id="general">General<a class="headerlink" href="#general" title="Permalink to this heading">¶</a></h4>
+<h4 id="general">General<a class="headerlink" href="#general" title="Link to this heading">¶</a></h4>
 <p>To check the network interface information:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span>$<span class="w"> </span>ifconfig
 <span class="linenos"> 2</span><span class="w">  </span>eth0:<span class="w"> </span><span class="nv">flags</span><span class="o">=</span><span class="m">4163</span>&lt;UP,BROADCAST,RUNNING,MULTICAST&gt;<span class="w">  </span>mtu<span class="w"> </span><span class="m">1500</span>
@@ -761,12 +748,14 @@ $<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>r
 </div>
 </section>
 <section id="g-lte-cat4-module">
-<h4 id="g-lte-cat4-module">4G/LTE (CAT4 Module)<a class="headerlink" href="#g-lte-cat4-module" title="Permalink to this heading">¶</a></h4>
+<h4 id="g-lte-cat4-module">4G/LTE (CAT4 Module)<a class="headerlink" href="#g-lte-cat4-module" title="Link to this heading">¶</a></h4>
 <p>For the CAT4 module (Quectel EC25).</p>
-<a class="text-center reference internal image-reference" href="../../../_images/4G_CAT4_0_CM5.webp"><img alt="../../../_images/4G_CAT4_0_CM5.webp" class="text-center align-center" src="../../../_images/4G_CAT4_0_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/4G_CAT4_0_CM5.webp"><img alt="../../../_images/4G_CAT4_0_CM5.webp" class="align-center text-center" src="../../../_images/4G_CAT4_0_CM5.webp" width="800"/>
+</a>
 <p class="text-center"><em>Checking Modem with mmcli</em></p>
 <p>If your product has a 4G modem, after inserting a SIM card, you can test the 4G/LTE with the <cite>Chipsee Hardware Test</cite> program first:</p>
-<a class="text-center reference internal image-reference" href="../../../_images/4G_CAT4_1_CM5.webp"><img alt="../../../_images/4G_CAT4_1_CM5.webp" class="text-center align-center" src="../../../_images/4G_CAT4_1_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/4G_CAT4_1_CM5.webp"><img alt="../../../_images/4G_CAT4_1_CM5.webp" class="align-center text-center" src="../../../_images/4G_CAT4_1_CM5.webp" width="800"/>
+</a>
 <p>In the Hardware Test program, click <cite>4G Enable</cite>, then <cite>Refresh</cite> to check your connection information, you can also open the browser to test you’re connected to the Internet.</p>
 <p>To programmatically enable 4G:</p>
 <p>In QMI mode you can use <cite>quectel-CM</cite> to enable 4G/LTE to connect to Internet:</p>
@@ -778,7 +767,8 @@ $<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>r
 </pre></div>
 </div>
 <p>The program will set your DNS automatically.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/4G_CAT4_2_CM5.webp"><img alt="../../../_images/4G_CAT4_2_CM5.webp" class="text-center align-center" src="../../../_images/4G_CAT4_2_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/4G_CAT4_2_CM5.webp"><img alt="../../../_images/4G_CAT4_2_CM5.webp" class="align-center text-center" src="../../../_images/4G_CAT4_2_CM5.webp" width="800"/>
+</a>
 <p class="text-center"><em>Run quectel-CM to Enable 4G and Connect to the Internet</em></p>
 <p>The <cite>quectel-CM</cite> program doesn’t persist across reboot, you may consider creating a systemd service to auto start the <cite>quectel-CM</cite> program on boot, or run the <cite>sudo quectel-CM &amp;</cite> command in your own application. There is a simple starting point:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># create a file /etc/systemd/system/quectel-cm.service</span>
@@ -821,7 +811,8 @@ sudo<span class="w"> </span>systemctl<span class="w"> </span>disable<span class=
 </pre></div>
 </div>
 <p>Then you could have 4G enabled that persists across reboot, you can edit the <cite>/etc/systemd/system/quectel-cm.service</cite> file to meet your needs.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/4G_CAT4_3_CM5.webp"><img alt="../../../_images/4G_CAT4_3_CM5.webp" class="text-center align-center" src="../../../_images/4G_CAT4_3_CM5.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/4G_CAT4_3_CM5.webp"><img alt="../../../_images/4G_CAT4_3_CM5.webp" class="align-center text-center" src="../../../_images/4G_CAT4_3_CM5.webp" width="960"/>
+</a>
 <p class="text-center"><em>Use Systemd to Auto Start quectel-cm Program on System Boot to Auto Connect 4G/LTE</em></p>
 <p>You can also use normal AT commands to check network information:</p>
 <p>First listen the response from <cite>/dev/ttyUSB2</cite>:</p>
@@ -853,11 +844,12 @@ sudo<span class="w"> </span>systemctl<span class="w"> </span>disable<span class=
 </div>
 </section>
 <section id="g-lte-cat1-module">
-<h4 id="g-lte-cat1-module">4G/LTE (CAT1 Module)<a class="headerlink" href="#g-lte-cat1-module" title="Permalink to this heading">¶</a></h4>
+<h4 id="g-lte-cat1-module">4G/LTE (CAT1 Module)<a class="headerlink" href="#g-lte-cat1-module" title="Link to this heading">¶</a></h4>
 <p>For the CAT1 module (Simcom 7670G).</p>
 <p>If your product has a 4G modem, after inserting a SIM card, the 4G function should work out of box. The product uses RNDIS (Remote Network Driver Interface Specification) for 4G modem.</p>
 <p>If you still have problems connecting with 4G, you can take a look at <cite>/opt/chipsee/test</cite> folder, unzip the <cite>/opt/chipsee/test/simcom-linux-4g</cite> with <cite>sudo tar -xzf simcom-linux-4g.tar.gz</cite>, there is a <strong>README</strong> file along with some scripts used to connect 4G.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/4G_Debug_1_CM5.webp"><img alt="../../../_images/4G_Debug_1_CM5.webp" class="text-center align-center" src="../../../_images/4G_Debug_1_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/4G_Debug_1_CM5.webp"><img alt="../../../_images/4G_Debug_1_CM5.webp" class="align-center text-center" src="../../../_images/4G_Debug_1_CM5.webp" width="800"/>
+</a>
 <p>You can check the status of your modem with <strong>mmcli</strong> (ModemManager):</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span>$<span class="w"> </span>mmcli<span class="w"> </span>-L
 <span class="linenos"> 2</span><span class="w">  </span>/org/freedesktop/ModemManager1/Modem/0<span class="w"> </span><span class="o">[</span>SIMCOM<span class="w"> </span>INCORPORATED<span class="o">]</span><span class="w"> </span>SIM7670G-LNGV
@@ -881,16 +873,19 @@ sudo<span class="w"> </span>systemctl<span class="w"> </span>disable<span class=
 </div>
 <p>In the highlighted lines, you can see that the 4G/LTE device is <strong>eth1</strong> on PPC-CM5-101 or larger screen models; in dual-lan PPC-CM5-070D the 4G will be <strong>eth2</strong>. The status shows the failed reason is “sim-missing” when a SIM card is not inserted.</p>
 <p>When a sim card is inserted, 4G should work automatically.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/4G_Debug_2_CM5.webp"><img alt="../../../_images/4G_Debug_2_CM5.webp" class="text-center align-center" src="../../../_images/4G_Debug_2_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/4G_Debug_2_CM5.webp"><img alt="../../../_images/4G_Debug_2_CM5.webp" class="align-center text-center" src="../../../_images/4G_Debug_2_CM5.webp" width="800"/>
+</a>
 <p class="text-center"><em>When 4G is connected, check Public IP with curl</em></p>
 </section>
 <section id="ethernet-and-wifi">
-<h4 id="ethernet-and-wifi">Ethernet and WiFi<a class="headerlink" href="#ethernet-and-wifi" title="Permalink to this heading">¶</a></h4>
+<h4 id="ethernet-and-wifi">Ethernet and WiFi<a class="headerlink" href="#ethernet-and-wifi" title="Link to this heading">¶</a></h4>
 <p>When you plug your Ethernet cable to the device, Ethernet should be connected automatically.</p>
 <p>For connecting to WiFi, it’s the same as normal Raspberry Pi’s, you can refer to the Raspberry Pi’s official documentation to learn how to use WiFi and Ethernet in the networking section: <a class="reference external" href="https://www.raspberrypi.com/documentation/computers/configuration.html#networking">https://www.raspberrypi.com/documentation/computers/configuration.html#networking</a>.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/Wifi_Conn_1_CM5.webp"><img alt="../../../_images/Wifi_Conn_1_CM5.webp" class="text-center align-center" src="../../../_images/Wifi_Conn_1_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/Wifi_Conn_1_CM5.webp"><img alt="../../../_images/Wifi_Conn_1_CM5.webp" class="align-center text-center" src="../../../_images/Wifi_Conn_1_CM5.webp" width="800"/>
+</a>
 <p class="text-center"><em>Method 1: Connecting WiFi from Desktop GUI</em></p>
-<a class="text-center reference internal image-reference" href="../../../_images/Wifi_Conn_2_CM5.webp"><img alt="../../../_images/Wifi_Conn_2_CM5.webp" class="text-center align-center" src="../../../_images/Wifi_Conn_2_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/Wifi_Conn_2_CM5.webp"><img alt="../../../_images/Wifi_Conn_2_CM5.webp" class="align-center text-center" src="../../../_images/Wifi_Conn_2_CM5.webp" width="800"/>
+</a>
 <p class="text-center"><em>Method 2: Connecting WiFi from raspi-config TUI’s System Options -&gt; S1 Wireless LAN</em></p>
 <p>From the terminal, you can use <strong>nmcli</strong> to configure the network, <strong>nmcli</strong> is the new default of Raspberry Pi OS. If the examples in the official Pi’s documentation is not enough, you can also refer to the documents of the <strong>nmcli</strong> program.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pi@raspberrypi:~<span class="w"> </span>$<span class="w"> </span>nmcli<span class="w"> </span>radio<span class="w"> </span>wifi
@@ -910,12 +905,13 @@ Device<span class="w"> </span><span class="s1">'wlan0'</span><span class="w"> </
 </section>
 </section>
 <section id="gnss-gps">
-<h3 id="gnss-gps">GNSS/GPS<a class="headerlink" href="#gnss-gps" title="Permalink to this heading">¶</a></h3>
+<h3 id="gnss-gps">GNSS/GPS<a class="headerlink" href="#gnss-gps" title="Link to this heading">¶</a></h3>
 <p>GPS is integrated in the CAT-1 SIM7670G-MNSV module and CAT-4 Quectel EC25 4G/LTE module, if your product comes with one of these module, and a GPS antenna, you can enable the GPS feature.</p>
 <section id="gps-cat-4-module">
-<h4 id="gps-cat-4-module">GPS (CAT-4 Module)<a class="headerlink" href="#gps-cat-4-module" title="Permalink to this heading">¶</a></h4>
+<h4 id="gps-cat-4-module">GPS (CAT-4 Module)<a class="headerlink" href="#gps-cat-4-module" title="Link to this heading">¶</a></h4>
 <p>You can test with the <em>Chipsee hardware test</em> program, click <strong>GPS Enable</strong> button, you should see some random code(GPS information) in the text box. Wait a few minutes for GPS to become stable.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/gps_1_CM5.webp"><img alt="../../../_images/gps_1_CM5.webp" class="text-center align-center" src="../../../_images/gps_1_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/gps_1_CM5.webp"><img alt="../../../_images/gps_1_CM5.webp" class="align-center text-center" src="../../../_images/gps_1_CM5.webp" width="800"/>
+</a>
 <p class="text-center"><em>Click GPS Enable</em></p>
 <p>You can also use GPS programmatically with serial port.</p>
 <p>GPS Port: <strong>/dev/ttyUSB1</strong></p>
@@ -937,7 +933,8 @@ AT+QGPS<span class="o">=</span><span class="m">1</span><span class="w"> </span><
 <p class="admonition-title">Note</p>
 <p>Ensure the antenna has clear view of the sky — GPS needs time to acquire satellites (can take 30s–2min cold start).</p>
 </div>
-<a class="text-center reference internal image-reference" href="../../../_images/gps_2_CM5.webp"><img alt="../../../_images/gps_2_CM5.webp" class="text-center align-center" src="../../../_images/gps_2_CM5.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/gps_2_CM5.webp"><img alt="../../../_images/gps_2_CM5.webp" class="align-center text-center" src="../../../_images/gps_2_CM5.webp" width="960"/>
+</a>
 <p class="text-center"><em>Read GPS from AT Command and NMEA Stream</em></p>
 <p>To disable GPS:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>AT+QGPSEND<span class="w"> </span><span class="c1"># disable GPS</span>
@@ -950,11 +947,12 @@ AT+QGPS<span class="o">=</span><span class="m">1</span><span class="w"> </span><
 quit
 </pre></div>
 </div>
-<a class="text-center reference internal image-reference" href="../../../_images/gps_3_CM5.webp"><img alt="../../../_images/gps_3_CM5.webp" class="text-center align-center" src="../../../_images/gps_3_CM5.webp" style="width: 480px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/gps_3_CM5.webp"><img alt="../../../_images/gps_3_CM5.webp" class="align-center text-center" src="../../../_images/gps_3_CM5.webp" width="480"/>
+</a>
 <p class="text-center"><em>Quit from microcom</em></p>
 </section>
 <section id="gps-cat-1-module">
-<h4 id="gps-cat-1-module">GPS (CAT-1 Module)<a class="headerlink" href="#gps-cat-1-module" title="Permalink to this heading">¶</a></h4>
+<h4 id="gps-cat-1-module">GPS (CAT-1 Module)<a class="headerlink" href="#gps-cat-1-module" title="Link to this heading">¶</a></h4>
 <p>You can use GPS programmatically with serial port on the SIM7670G-MNSV module.</p>
 <p>GPS port: <strong>/dev/ttyACM0</strong></p>
 <p>AT port: <strong>/dev/ttyACM0</strong></p>
@@ -968,7 +966,8 @@ AT+CGNSSINFO<span class="w"> </span><span class="c1"># Query GPS infomation</spa
 </pre></div>
 </div>
 <p>After each AT command to query GPS, one response is returned.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/gps_4_CM5.webp"><img alt="../../../_images/gps_4_CM5.webp" class="text-center align-center" src="../../../_images/gps_4_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/gps_4_CM5.webp"><img alt="../../../_images/gps_4_CM5.webp" class="align-center text-center" src="../../../_images/gps_4_CM5.webp" width="800"/>
+</a>
 <p class="text-center"><em>GPS/GNSS on CAT-1 Module</em></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -978,7 +977,7 @@ AT+CGNSSINFO<span class="w"> </span><span class="c1"># Query GPS infomation</spa
 </section>
 </section>
 <section id="buzzer">
-<h3 id="buzzer">BUZZER<a class="headerlink" href="#buzzer" title="Permalink to this heading">¶</a></h3>
+<h3 id="buzzer">BUZZER<a class="headerlink" href="#buzzer" title="Link to this heading">¶</a></h3>
 <p>The Chipsee industrial PC has one buzzer. We have created one symbol link to <cite>/dev/buzzer</cite>. You can control it as follows:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="m">1</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/buzzer<span class="w">    </span><span class="c1"># enable buzzer</span>
 
@@ -988,7 +987,7 @@ $<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><sp
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="backlight">
-<h3 id="backlight">Backlight<a class="headerlink" href="#backlight" title="Permalink to this heading">¶</a></h3>
+<h3 id="backlight">Backlight<a class="headerlink" href="#backlight" title="Link to this heading">¶</a></h3>
 <p>You can turn on or off backlight:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>pinctrl<span class="w"> </span>get<span class="w"> </span><span class="m">18</span><span class="w">         </span><span class="c1"># get current backlight status</span>
 <span class="c1"># 18: op dh pd | hi // GPIO18 = output</span>
@@ -1001,13 +1000,13 @@ $<span class="w"> </span>pinctrl<span class="w"> </span><span class="nb">set</sp
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="serial-port-rs232-and-rs485">
-<h3 id="serial-port-rs232-and-rs485">Serial Port RS232 and RS485<a class="headerlink" href="#serial-port-rs232-and-rs485" title="Permalink to this heading">¶</a></h3>
+<h3 id="serial-port-rs232-and-rs485">Serial Port RS232 and RS485<a class="headerlink" href="#serial-port-rs232-and-rs485" title="Link to this heading">¶</a></h3>
 <p>Check the table below of the RS232/RS485 pin definition to wire your ports:</p>
 <p><strong>5 inch product</strong></p>
 <ul>
 <li><p>PPC-CM5-050(CS12720RA5050P):</p>
 <table id="id2" style="width: 100%">
-<caption><span class="caption-number">Table 494 </span><span class="caption-text">RS232 / RS485 / CAN Pin Definition for 5 inch product</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 494 </span><span class="caption-text">RS232 / RS485 / CAN Pin Definition for 5 inch product</span><a class="headerlink" href="#id2" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p><strong>Pin Number</strong></p></th>
 <th class="head"><p><strong>Definition</strong></p></th>
@@ -1087,7 +1086,7 @@ $<span class="w"> </span>pinctrl<span class="w"> </span><span class="nb">set</sp
 <li><p>PPC-CM5-070-D (CS10600RA5070P-D)</p></li>
 <li><p>CS-CM5-BOX (CSRA5BOX):</p>
 <table id="id3" style="width: 100%">
-<caption><span class="caption-number">Table 495 </span><span class="caption-text">RS232 / RS485 / CAN Pin Definition for 7 inch/Box products</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 495 </span><span class="caption-text">RS232 / RS485 / CAN Pin Definition for 7 inch/Box products</span><a class="headerlink" href="#id3" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head" colspan="4"><p><strong>RS232 / RS485 / CAN Pin Definition:</strong></p></th>
 </tr>
@@ -1193,9 +1192,10 @@ $<span class="w"> </span>pinctrl<span class="w"> </span><span class="nb">set</sp
 <li><p>PPC-CM5-190 (CS12102RA5190)</p></li>
 <li><p>PPC-CM5-215 (CS19108RA5215)</p></li>
 <li><p>PPC-CM5-236 (CS19108RA5236)</p>
-<a class="text-center reference internal image-reference" href="../../../_images/CS12800RA5101-Conn.jpg"><img alt="../../../_images/CS12800RA5101-Conn.jpg" class="text-center align-center" src="../../../_images/CS12800RA5101-Conn.jpg" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/CS12800RA5101-Conn.jpg"><img alt="../../../_images/CS12800RA5101-Conn.jpg" class="align-center text-center" src="../../../_images/CS12800RA5101-Conn.jpg" width="960"/>
+</a>
 <table id="id4" style="width: 100%">
-<caption><span class="caption-number">Table 496 </span><span class="caption-text">RS232 / RS485 / CAN Pin Definition for 10.1 inch and above products</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 496 </span><span class="caption-text">RS232 / RS485 / CAN Pin Definition for 10.1 inch and above products</span><a class="headerlink" href="#id4" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p><strong>Pin Number</strong></p></th>
 <th class="head"><p><strong>Definition</strong></p></th>
@@ -1282,14 +1282,15 @@ $<span class="w"> </span>pinctrl<span class="w"> </span><span class="nb">set</sp
 <p>Apart from <strong>cutecom</strong>, you can also use the pre-installed HardwareTest program developed by Chipsee to test serial ports, for example, you’ve wired the serial cable on the RS232_0_RX, RS232_0_TX on the 10.1 inch product, then you can select “ttyAMA0” in “COM”, click “SerialOpen”.</p>
 <p>Then you can use your workstation or another Chipsee PC to communicate with this product.</p>
 <p>You may also wish to install a UART/COM Assistant software (such as COMTool) which has a GUI for testing.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/Serial_Test_1_CM5.webp"><img alt="../../../_images/Serial_Test_1_CM5.webp" class="text-center align-center" src="../../../_images/Serial_Test_1_CM5.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/Serial_Test_1_CM5.webp"><img alt="../../../_images/Serial_Test_1_CM5.webp" class="align-center text-center" src="../../../_images/Serial_Test_1_CM5.webp" width="960"/>
+</a>
 <p class="text-center"><em>Testing Serial Port with Your Workstation</em></p>
 <p>If you’re an experienced engineer, you can also use a programming language to test the serial ports, like C, C++, Python, Javascript. They have their libraries for controlling serial port devices.</p>
 <p>By the way, serial debugging is enabled (login from serial) by default, you can refer to the Enable/Disable Serial Debug Port section to change the RS232 port to a normal serial port.</p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="can-bus">
-<h3 id="can-bus">CAN Bus<a class="headerlink" href="#can-bus" title="Permalink to this heading">¶</a></h3>
+<h3 id="can-bus">CAN Bus<a class="headerlink" href="#can-bus" title="Link to this heading">¶</a></h3>
 <p>There is one CAN bus on the Raspberry Pi CM5 based Chipsee industrial PC. You can install <cite>can-utils</cite> and use them to test CAN. But you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown on the figure below.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -1298,7 +1299,7 @@ $<span class="w"> </span>pinctrl<span class="w"> </span><span class="nb">set</sp
 <figure class="align-center" id="id5">
 <img alt="../../../_images/CAN.jpeg" src="../../../_images/CAN.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 1020:  </span><span class="caption-text">Connecting CAN</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 1020:  </span><span class="caption-text">Connecting CAN</span><a class="headerlink" href="#id5" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <p>Here are a few examples to test CAN by using CAN units.</p>
@@ -1344,7 +1345,7 @@ $<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>l
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="gpio">
-<h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this heading">¶</a></h3>
+<h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Link to this heading">¶</a></h3>
 <p>There are 8 GPIOs, 4 output and 4 input. They are all optical isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V, while testing we usually use an external power supply to apply to GND_ISO and VDD_SIO.</p>
 <p>Refer to the tables below for a detailed port definition for:</p>
 <ul class="simple">
@@ -1362,7 +1363,7 @@ $<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>l
 <li><p>PPC-CM5-236 (CS19108RA5236)</p></li>
 </ul>
 <table id="id6" style="width: 100%">
-<caption><span class="caption-number">Table 497 </span><span class="caption-text">GPIO Device Node</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 497 </span><span class="caption-text">GPIO Device Node</span><a class="headerlink" href="#id6" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Function</p></th>
 <th class="head"><p>Device Node</p></th>
@@ -1424,12 +1425,13 @@ $<span class="w"> </span>sudo<span class="w"> </span>ip<span class="w"> </span>l
 </tbody>
 </table>
 <p>For 10.1 inch and above products:</p>
-<a class="text-center reference internal image-reference" href="../../../_images/CS12800RA5101-GPIO.jpg"><img alt="../../../_images/CS12800RA5101-GPIO.jpg" class="text-center align-center" src="../../../_images/CS12800RA5101-GPIO.jpg" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/CS12800RA5101-GPIO.jpg"><img alt="../../../_images/CS12800RA5101-GPIO.jpg" class="align-center text-center" src="../../../_images/CS12800RA5101-GPIO.jpg" width="960"/>
+</a>
 <p class="text-center"><em>GPIO of PPC-CM5-101 (and above screen size) products</em></p>
 <p>For other 7 inch products and box products, there are silk screen indicating the ports (IN 4,3,2,1 / OUT 4,3,2,1 / GND / VDD) on the product body. You can also check the images of GPIO in the hardware documents of your product.</p>
 <p>To control GPIO, you can choose between <cite>Chipsee GPIO</cite> (default) or <cite>gpiod</cite>.</p>
 <section id="chipsee-gpio">
-<h4 id="chipsee-gpio">Chipsee GPIO<a class="headerlink" href="#chipsee-gpio" title="Permalink to this heading">¶</a></h4>
+<h4 id="chipsee-gpio">Chipsee GPIO<a class="headerlink" href="#chipsee-gpio" title="Link to this heading">¶</a></h4>
 <p>Control <cite>OUT1</cite> by setting it high or low:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="m">1</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/chipsee-gpio1<span class="w">    </span><span class="c1"># set OUT1 to high</span>
 
@@ -1442,7 +1444,7 @@ $<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><sp
 </div>
 </section>
 <section id="gpiod">
-<h4 id="gpiod">GPIOD<a class="headerlink" href="#gpiod" title="Permalink to this heading">¶</a></h4>
+<h4 id="gpiod">GPIOD<a class="headerlink" href="#gpiod" title="Link to this heading">¶</a></h4>
 <p>By default the product is set to use Chipsee GPIO, to use libgpiod to control the GPIO, first open <cite>/opt/chipsee/chipsee-init.sh</cite> and comment the following lines to disable Chipsee-GPIO:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># comment out the following lines in /opt/chipsee/chipsee-init.sh first</span>
 <span class="c1"># GPIO</span>
@@ -1513,13 +1515,13 @@ gpiofind<span class="w"> </span><span class="c1"># determine the location of the
 </section>
 </section>
 <section id="camera">
-<h3 id="camera">Camera<a class="headerlink" href="#camera" title="Permalink to this heading">¶</a></h3>
+<h3 id="camera">Camera<a class="headerlink" href="#camera" title="Link to this heading">¶</a></h3>
 <p>The camera connector(if your product has one) is compatible with the official Raspberry Pi. Please refer to the following link to learn how to attach a camera: <a class="reference external" href="https://www.raspberrypi.com/documentation/computers/compute-module.html#attach-a-camera-module">https://www.raspberrypi.com/documentation/computers/compute-module.html#attach-a-camera-module</a></p>
 <p>The camera connector uses a 22-pin socket, you can check your product’s hardware document to find out the pin definition.</p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="chipsee-init-shell">
-<h3 id="chipsee-init-shell">Chipsee-init shell<a class="headerlink" href="#chipsee-init-shell" title="Permalink to this heading">¶</a></h3>
+<h3 id="chipsee-init-shell">Chipsee-init shell<a class="headerlink" href="#chipsee-init-shell" title="Link to this heading">¶</a></h3>
 <p>We use one <strong>chipsee-init.sh</strong> as an initial shell which is placed in <cite>/opt/chipsee/chipsee-init.sh</cite>.</p>
 <p>We initialize the GPIO/Buzzer and other configs in it. If you want to change it, please be careful.</p>
 <p>Do a backup first before you modify anything. This script will generaged one log file which is located on /var/log/chipsee-init.sh.log.</p>
@@ -1528,13 +1530,13 @@ gpiofind<span class="w"> </span><span class="c1"># determine the location of the
 </section>
 </section>
 <section id="flashing-an-image-to-the-compute-module">
-<h2 id="flashing-an-image-to-the-compute-module">Flashing an image to the Compute Module<a class="headerlink" href="#flashing-an-image-to-the-compute-module" title="Permalink to this heading">¶</a></h2>
+<h2 id="flashing-an-image-to-the-compute-module">Flashing an image to the Compute Module<a class="headerlink" href="#flashing-an-image-to-the-compute-module" title="Link to this heading">¶</a></h2>
 <p>This part is mostly the same as the official <a class="reference external" href="https://www.raspberrypi.com/documentation/computers/compute-module.html#flash-compute-module-emmc">Raspberry Pi Compute Module documentation</a>, except that you need to press the “PROG_Button” before supplying power to the device, see details below.</p>
 <p>The Chipsee industrial Pi runs on the Raspberry Pi Compute Module, the module has an on-board eMMC. This guide explains how to flash (write) an operating system image to the eMMC storage of the device.</p>
 <p><strong>CM5 Lite</strong> does not have on-board eMMC. Instead, flash the OS just like a regular Raspberry Pi’s TF card (<a class="reference external" href="https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system">https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system</a>).</p>
 <p>Here is a video tutorial we made demonstrating the OS installation process: <a class="reference external" href="https://www.youtube.com/watch?v=hx0je3B1hds">https://www.youtube.com/watch?v=hx0je3B1hds</a></p>
 <div class="card text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/hx0je3B1hds" style="height:50vh;width:100%" title="Flash Chipsee CM5 Product OS Firmware"></iframe></div><section id="prerequisites">
-<h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this heading">¶</a></h3>
+<h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Link to this heading">¶</a></h3>
 <p>To flash an image, you need the following:</p>
 <ul class="simple">
 <li><p>Download the <a class="reference download external" download="" href="https://github.com/Chipsee/industrial-pi#latest-system-images"><code class="xref download docutils literal notranslate"><span class="pre">Latest</span> <span class="pre">system</span> <span class="pre">image</span> <span class="pre">for</span> <span class="pre">Chipsee</span> <span class="pre">Industrial</span> <span class="pre">Pi</span> <span class="pre">products</span></code></a></p></li>
@@ -1547,10 +1549,10 @@ gpiofind<span class="w"> </span><span class="c1"># determine the location of the
 </div>
 </section>
 <section id="usbboot">
-<h3 id="usbboot">Usbboot<a class="headerlink" href="#usbboot" title="Permalink to this heading">¶</a></h3>
+<h3 id="usbboot">Usbboot<a class="headerlink" href="#usbboot" title="Link to this heading">¶</a></h3>
 <p>In short, we will run a Raspberry Pi <cite>usbboot</cite> program on the host, it will recognize the Chipsee industrial Pi as a storage. After that we  press the PROG button on the device before supplying power, while pressing we plug the power cable, the device will boot as a storage, such that our host’s <cite>usbboot</cite> program can recognize it. Let see how to do it in different OS:</p>
 <section id="for-windows">
-<h4 id="for-windows">For Windows<a class="headerlink" href="#for-windows" title="Permalink to this heading">¶</a></h4>
+<h4 id="for-windows">For Windows<a class="headerlink" href="#for-windows" title="Link to this heading">¶</a></h4>
 <p>To set up software on a Windows 10/11 host device:</p>
 <ol class="arabic">
 <li><p>Download the <a class="reference external" href="https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe">Windows installer</a> (or, alternatively, <a class="reference external" href="https://github.com/raspberrypi/usbboot">build Windows rpiboot from source</a>).</p></li>
@@ -1558,18 +1560,20 @@ gpiofind<span class="w"> </span><span class="c1"># determine the location of the
 <li><p>Reboot Windows.</p></li>
 <li><p>Connect the USB-C on the device to your host device.</p></li>
 <li><p>Run the <cite>rpiboot</cite> program installed by the Windows installer in the Windows Start menu.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/flash_os_windows_1_CM5.webp"><img alt="../../../_images/flash_os_windows_1_CM5.webp" class="text-center align-center" src="../../../_images/flash_os_windows_1_CM5.webp" style="width: 600px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/flash_os_windows_1_CM5.webp"><img alt="../../../_images/flash_os_windows_1_CM5.webp" class="align-center text-center" src="../../../_images/flash_os_windows_1_CM5.webp" width="600"/>
+</a>
 <p class="text-center"><em>Run the rpiboot-CM4-CM5 program</em></p>
 </li>
 <li><p>Press and hold the PROG button, then supply power to the device, keep holding the PROG button for 5 seconds, until you see the host machine’s command line has new text appearing, then release the button.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/flash_os_windows_2_CM5.webp"><img alt="../../../_images/flash_os_windows_2_CM5.webp" class="text-center align-center" src="../../../_images/flash_os_windows_2_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/flash_os_windows_2_CM5.webp"><img alt="../../../_images/flash_os_windows_2_CM5.webp" class="align-center text-center" src="../../../_images/flash_os_windows_2_CM5.webp" width="800"/>
+</a>
 <p class="text-center"><em>Successfully Configured eMMC as USB mass storage</em></p>
 </li>
 <li><p>Then you can enter the Flash the eMMC section below.</p></li>
 </ol>
 </section>
 <section id="for-linux">
-<h4 id="for-linux">For Linux<a class="headerlink" href="#for-linux" title="Permalink to this heading">¶</a></h4>
+<h4 id="for-linux">For Linux<a class="headerlink" href="#for-linux" title="Link to this heading">¶</a></h4>
 <p>To set up software on a Linux host device:</p>
 <ol class="arabic">
 <li><p>Run the following command to install rpiboot (or, alternatively, <a class="reference external" href="https://github.com/raspberrypi/usbboot?tab=readme-ov-file#linux--cygwin--wsl">build Linux rpiboot from source</a>):</p>
@@ -1580,10 +1584,12 @@ gpiofind<span class="w"> </span><span class="c1"># determine the location of the
 <p class="admonition-title">Note</p>
 <p>Whether or not to build rpiboot from source depends on your OS version, for example, on Ubuntu 24, the Ubuntu apt source’s rpiboot program is outdated, in this case you need to build from source to recognize CM5.</p>
 <p>After running <strong>rpiboot</strong>, if you see: <cite>Waiting for BCM2835/6/7/2711…</cite> It doesn’t have support for <cite>BCM2712</cite>, then it can’t recognize CM5.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/flash_os_linux_1_CM5.webp"><img alt="../../../_images/flash_os_linux_1_CM5.webp" class="text-center align-center" src="../../../_images/flash_os_linux_1_CM5.webp" style="width: 600px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/flash_os_linux_1_CM5.webp"><img alt="../../../_images/flash_os_linux_1_CM5.webp" class="align-center text-center" src="../../../_images/flash_os_linux_1_CM5.webp" width="600"/>
+</a>
 <p class="text-center"><em>Just BCM2835/6/7/2711, doesn’t support CM5</em></p>
 <p>If you see: <cite>Waiting for BCM2835/6/7/2711/2712…</cite>, then it supports BCM2712 (CM5).</p>
-<a class="text-center reference internal image-reference" href="../../../_images/flash_os_linux_2_CM5.webp"><img alt="../../../_images/flash_os_linux_2_CM5.webp" class="text-center align-center" src="../../../_images/flash_os_linux_2_CM5.webp" style="width: 600px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/flash_os_linux_2_CM5.webp"><img alt="../../../_images/flash_os_linux_2_CM5.webp" class="align-center text-center" src="../../../_images/flash_os_linux_2_CM5.webp" width="600"/>
+</a>
 <p class="text-center"><em>Has 2712, supports CM5</em></p>
 </div>
 </li>
@@ -1603,14 +1609,15 @@ Waiting<span class="w"> </span><span class="k">for</span><span class="w"> </span
 </li>
 <li><p>Press and hold the PROG button, then supply power to the device, keep holding the PROG button for 5 seconds, until you see the host machine’s command line has new text appearing, then release the button.</p></li>
 <li><p>After a few seconds, the Compute Module should appear as a mass storage device. You can see a <cite>bootfs, rootfs</cite> appear in Ubuntu Files sidebar like a external storage. Alternatively, run <strong>lsblk</strong> and search for a device with a storage capacity that matches the capacity of your Compute Module.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/flash_os_linux_3_CM5.webp"><img alt="../../../_images/flash_os_linux_3_CM5.webp" class="text-center align-center" src="../../../_images/flash_os_linux_3_CM5.webp" style="width: 400px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/flash_os_linux_3_CM5.webp"><img alt="../../../_images/flash_os_linux_3_CM5.webp" class="align-center text-center" src="../../../_images/flash_os_linux_3_CM5.webp" width="400"/>
+</a>
 <p class="text-center"><em>A 32GB eMMC appears as /dev/sdb</em></p>
 </li>
 <li><p>Then you can enter the Flash the eMMC section below.</p></li>
 </ol>
 </section>
 <section id="for-macos">
-<h4 id="for-macos">For MacOS<a class="headerlink" href="#for-macos" title="Permalink to this heading">¶</a></h4>
+<h4 id="for-macos">For MacOS<a class="headerlink" href="#for-macos" title="Link to this heading">¶</a></h4>
 <p>To set up software on a macOS host device:</p>
 <ol class="arabic">
 <li><p>First, <a class="reference external" href="https://github.com/raspberrypi/usbboot?tab=readme-ov-file#macos">build macOS rpiboot from source</a>.</p></li>
@@ -1651,13 +1658,14 @@ Second<span class="w"> </span>stage<span class="w"> </span>boot<span class="w"> 
 </div>
 </li>
 <li><p>When the command finishes running, you should see a <cite>bootfs</cite> disk in Finder. Your Compute Module should now appear as a mass storage device.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/flash_os_macos_CM5.webp"><img alt="../../../_images/flash_os_macos_CM5.webp" class="text-center align-center" src="../../../_images/flash_os_macos_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/flash_os_macos_CM5.webp"><img alt="../../../_images/flash_os_macos_CM5.webp" class="align-center text-center" src="../../../_images/flash_os_macos_CM5.webp" width="800"/>
+</a>
 </li>
 </ol>
 </section>
 </section>
 <section id="flash-the-emmc">
-<h3 id="flash-the-emmc">Flash the eMMC<a class="headerlink" href="#flash-the-emmc" title="Permalink to this heading">¶</a></h3>
+<h3 id="flash-the-emmc">Flash the eMMC<a class="headerlink" href="#flash-the-emmc" title="Link to this heading">¶</a></h3>
 <p>After the device’s eMMC has been detected as a USB mass storage, you can use <a class="reference external" href="https://www.raspberrypi.com/documentation/computers/getting-started.html#raspberry-pi-imager">Raspberry Pi Imager</a> or <a class="reference external" href="https://etcher.balena.io/">Balena Etcher</a> to flash an operating system image to a Compute Module.</p>
 <ol class="arabic">
 <li><p>First <strong>decompress</strong> the xxx-raspios-chipsee-xxx <strong>.img.xz</strong> file (around 1GB) you <a class="reference download external" download="" href="https://github.com/Chipsee/industrial-pi#latest-system-images"><code class="xref download docutils literal notranslate"><span class="pre">downloaded</span> <span class="pre">before</span></code></a>, the decompressed xxx-raspios-chipsee-xxx <strong>.img</strong> file should be around 6GB (with desktop) in file size.</p></li>
@@ -1665,16 +1673,20 @@ Second<span class="w"> </span>stage<span class="w"> </span>boot<span class="w"> 
 <ul class="simple">
 <li><p>If using Raspberry Pi Imager, select <cite>Raspberry 5 / Compute Module 5</cite> in Device; select <cite>Use custom -&gt; choose the decompressed .img file</cite> in Operating System; select the appeared <cite>mmcblk0 (bootfs)</cite> in Storage.</p></li>
 </ul>
-<a class="text-center reference internal image-reference" href="../../../_images/flash_os_pi_imager_1_CM5.webp"><img alt="../../../_images/flash_os_pi_imager_1_CM5.webp" class="text-center align-center" src="../../../_images/flash_os_pi_imager_1_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/flash_os_pi_imager_1_CM5.webp"><img alt="../../../_images/flash_os_pi_imager_1_CM5.webp" class="align-center text-center" src="../../../_images/flash_os_pi_imager_1_CM5.webp" width="800"/>
+</a>
 <p class="text-center"><em>Flash OS with Raspberry Pi Imager</em></p>
-<a class="text-center reference internal image-reference" href="../../../_images/flash_os_pi_imager_2_CM5.webp"><img alt="../../../_images/flash_os_pi_imager_2_CM5.webp" class="text-center align-center" src="../../../_images/flash_os_pi_imager_2_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/flash_os_pi_imager_2_CM5.webp"><img alt="../../../_images/flash_os_pi_imager_2_CM5.webp" class="align-center text-center" src="../../../_images/flash_os_pi_imager_2_CM5.webp" width="800"/>
+</a>
 <p class="text-center"><em>Clear Settings and Select No Customization Unless You Need Customization</em></p>
-<a class="text-center reference internal image-reference" href="../../../_images/flash_os_pi_imager_3_CM5.webp"><img alt="../../../_images/flash_os_pi_imager_3_CM5.webp" class="text-center align-center" src="../../../_images/flash_os_pi_imager_3_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/flash_os_pi_imager_3_CM5.webp"><img alt="../../../_images/flash_os_pi_imager_3_CM5.webp" class="align-center text-center" src="../../../_images/flash_os_pi_imager_3_CM5.webp" width="800"/>
+</a>
 <p class="text-center"><em>Successfully Flash OS with Raspberry Pi Imager</em></p>
 <ul class="simple">
 <li><p>If using Balena Etcher, choose <cite>Flash from File</cite> and select the decompress <strong>.img</strong> file; select the appeared <cite>mmcblk0</cite> (or similar capacity of your Compute Module) in <cite>Select Target</cite>, click <cite>Flash!</cite>.</p></li>
 </ul>
-<a class="text-center reference internal image-reference" href="../../../_images/flash_os_balena_CM5.webp"><img alt="../../../_images/flash_os_balena_CM5.webp" class="text-center align-center" src="../../../_images/flash_os_balena_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/flash_os_balena_CM5.webp"><img alt="../../../_images/flash_os_balena_CM5.webp" class="align-center text-center" src="../../../_images/flash_os_balena_CM5.webp" width="800"/>
+</a>
 </li>
 <li><p>At last, reboot the device. It could take a few minutes in the first boot, now you have a brand new Raspberry Pi OS.</p></li>
 </ol>
@@ -1682,7 +1694,7 @@ Second<span class="w"> </span>stage<span class="w"> </span>boot<span class="w"> 
 </section>
 </section>
 <section id="hailo-ai">
-<h2 id="hailo-ai">Hailo AI<a class="headerlink" href="#hailo-ai" title="Permalink to this heading">¶</a></h2>
+<h2 id="hailo-ai">Hailo AI<a class="headerlink" href="#hailo-ai" title="Link to this heading">¶</a></h2>
 <p>The Chipsee CM5 products have a M.2 slot that supports Hailo AI module, you can buy the module from Chipsee or bring your own and install it by yourself.</p>
 <p>To use the Hailo AI module with Raspberry Pi of on CM5 product, you can follow the official Raspberry Pi Hailo documentation, or follow the guide below.</p>
 <p>As of the time writing (Apr 30, 2025), the Hailo 8L module has been tested on the Chipsee CM5 products, it works pretty much out of the box with only a few commands to install the driver and software kit.</p>
@@ -1789,7 +1801,8 @@ DEVICE_ARCHITECTURE<span class="w"> </span>is<span class="w"> </span><span class
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>basic_pipelines/detection.py
 </pre></div>
 </div>
-<a class="text-center reference internal image-reference" href="../../../_images/hailo_1_CM5.webp"><img alt="../../../_images/hailo_1_CM5.webp" class="text-center align-center" src="../../../_images/hailo_1_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/hailo_1_CM5.webp"><img alt="../../../_images/hailo_1_CM5.webp" class="align-center text-center" src="../../../_images/hailo_1_CM5.webp" width="800"/>
+</a>
 <p class="text-center"><em>Hailo 8L on Chipsee PPC-CM5-101 Object Detection</em></p>
 <p>Running with USB camera input (webcam):</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>basic_pipelines/detection.py<span class="w"> </span>--input<span class="w"> </span>usb
@@ -1797,27 +1810,32 @@ DEVICE_ARCHITECTURE<span class="w"> </span>is<span class="w"> </span><span class
 </div>
 </section>
 <section id="faq">
-<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Permalink to this heading">¶</a></h2>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Link to this heading">¶</a></h2>
 <p><strong>How to rotate the screen?</strong></p>
 <p>Click top left menu, Preferences -&gt; Screen Configuration. Then right click (or long press if using touch screen) HDMI-A-1 grey area, Choose orientation, then select the rotate option. The touchscreen will be rotated along with the display.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/faq_1_CM5.webp"><img alt="../../../_images/faq_1_CM5.webp" class="text-center align-center" src="../../../_images/faq_1_CM5.webp" style="width: 800px;"/></a>
-<a class="text-center reference internal image-reference" href="../../../_images/faq_2_CM5.webp"><img alt="../../../_images/faq_2_CM5.webp" class="text-center align-center" src="../../../_images/faq_2_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/faq_1_CM5.webp"><img alt="../../../_images/faq_1_CM5.webp" class="align-center text-center" src="../../../_images/faq_1_CM5.webp" width="800"/>
+</a>
+<a class="text-center reference internal image-reference" href="../../../_images/faq_2_CM5.webp"><img alt="../../../_images/faq_2_CM5.webp" class="align-center text-center" src="../../../_images/faq_2_CM5.webp" width="800"/>
+</a>
 <p><strong>How to enable the on screen virtual keyboard?</strong></p>
 <p>Select Raspberry Pi Configuration, choose “Display”, in On-screen keyboard, select “Enabled Always”, then click OK to save.</p>
-<a class="text-center reference internal image-reference" href="../../../_images/faq_3_CM5.webp"><img alt="../../../_images/faq_3_CM5.webp" class="text-center align-center" src="../../../_images/faq_3_CM5.webp" style="width: 800px;"/></a>
-<a class="text-center reference internal image-reference" href="../../../_images/faq_4_CM5.webp"><img alt="../../../_images/faq_4_CM5.webp" class="text-center align-center" src="../../../_images/faq_4_CM5.webp" style="width: 800px;"/></a>
-<a class="text-center reference internal image-reference" href="../../../_images/faq_5_CM5.webp"><img alt="../../../_images/faq_5_CM5.webp" class="text-center align-center" src="../../../_images/faq_5_CM5.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../_images/faq_3_CM5.webp"><img alt="../../../_images/faq_3_CM5.webp" class="align-center text-center" src="../../../_images/faq_3_CM5.webp" width="800"/>
+</a>
+<a class="text-center reference internal image-reference" href="../../../_images/faq_4_CM5.webp"><img alt="../../../_images/faq_4_CM5.webp" class="align-center text-center" src="../../../_images/faq_4_CM5.webp" width="800"/>
+</a>
+<a class="text-center reference internal image-reference" href="../../../_images/faq_5_CM5.webp"><img alt="../../../_images/faq_5_CM5.webp" class="align-center text-center" src="../../../_images/faq_5_CM5.webp" width="800"/>
+</a>
 <p>The keyboard will automatically pop up when entering text.</p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="disclaimer">
-<h2 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Permalink to this heading">¶</a></h2>
+<h2 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Link to this heading">¶</a></h2>
 <p><strong>This document is provided strictly for informational purposes. Its contents are subject to change without notice. Chipsee assumes no responsibility for any errors that may occur in this document. Furthermore, Chipsee reserves the right to alter the hardware, software, and/or specifications set forth herein at any time without prior notice and undertakes no obligation to update the information contained in this document.</strong></p>
 <p><strong>While every effort has been made to ensure the accuracy of the information contained herein, this document is not guaranteed to be error-free. Further, it does not offer any warranties or conditions, whether expressed orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular purpose. We specifically disclaim any liability with respect to this document, and no contractual obligations are formed either directly or indirectly by this document.</strong></p>
 <p><strong>Despite our best efforts to maintain the accuracy of the information in this document, we assume no responsibility for errors or omissions, nor for damages resulting from the use of the information herein. Please note that Chipsee products are not authorized for use as critical components in life support devices or systems.</strong></p>
 </section>
 <section id="technical-support">
-<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this heading">¶</a></h2>
+<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Link to this heading">¶</a></h2>
 <p>If you encounter any difficulties or have questions related to this document, we encourage you to refer to our other documentation for potential solutions. If you cannot find the solution you’re looking for, feel free to contact us. Please email Chipsee Technical Support at <a class="reference external" href="mailto:support%40chipsee.com"><strong>support<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information. We value your queries and suggestions and are committed to providing you with the assistance you require.</p>
 </section>
 </section>
@@ -1869,7 +1887,7 @@ DEVICE_ARCHITECTURE<span class="w"> </span>is<span class="w"> </span><span class
               
           </div>
             Last updated on
-              Oct 17, 2026.
+              Oct 18, 2026.
             <br/>
         </div>
       </div>

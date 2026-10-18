@@ -11,17 +11,6 @@
 .. |PN| replace:: PN: CS-IMX8MP-BOX
 
 .. |Product| replace:: The |product| Industrial PC
-.. |disp_table| replace:: N/A
-
-.. |tscreen| replace:: N/A
-
-.. |cur| replace:: 350mA (max) at 15V
-
-.. |pwr| replace:: 5.25W (max)
-
-.. |vin_rng| replace:: From 9V to 30V
-
-.. |temp| replace:: From -40°C to +85°C
 
 .. _product_link: https://chipsee.com/product/cs-a53-box/
 

@@ -2,7 +2,6 @@
 
 .. |systemType| replace:: Buildroot Linux Qt 5.14
 .. |chip| replace:: RK3399
-.. |ipc| replace:: Chipsee industrial PC
 
 .. |rootfs_blk| replace:: **/dev/mmcblk2p8**
 

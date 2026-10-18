@@ -8,21 +8,7 @@
 
 .. |cvm| replace:: **NVIDIA Jetson Orin Nano 4GB/8GB and NVIDIA Jetson Orin NX 8GB/16GB**
 
-.. |weight| replace:: 1200g
-
-.. |dim| replace:: 158 X 118 X 68mm
-
-.. |viewing_angle| replace:: (H)160/(V)160
-
-.. |opt_1| replace:: Optional, module available from the Chipsee store
-
-.. |pwr| replace:: 30W Max with Nano 4GB/8GB, 45W Max with NX 4GB/8GB
-
-.. |pwr_in| replace:: from 15V to 48V DC
-
 .. |power_conn_desc| replace:: It is a **3 Pin, 3.81mm screw terminal** connector.
-
-.. |hdmi| replace:: 1 x HDMI 2.0 out
 
 .. _product_link: https://chipsee.com/product/cs-jetorin-box/
 

@@ -1,11 +1,10 @@
 
-
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" data-content_root="../../../../../">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -34,22 +33,21 @@
   
   
     <title>i.MX6Q Linux Qt 5.5 OS &#8212; Chipsee</title>
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/material.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/css/material_custom.1f7cc54a.css" />
-    <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
-    <script src="../../../../../_static/jquery.js"></script>
-    <script src="../../../../../_static/underscore.js"></script>
-    <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="../../../../../_static/doctools.js"></script>
-    <script src="../../../../../_static/sphinx_highlight.js"></script>
-    <script src="../../../../../_static/clipboard.min.js"></script>
-    <script src="../../../../../_static/copybutton.js"></script>
-    <script src="../../../../../_static/design-tabs.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=83348fa5" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/material.css?v=79c92029" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/css/material_custom.1f7cc54a.css?v=ab886185" />
+    <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+    <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+    <script src="../../../../../_static/documentation_options.js?v=56dcb7b8"></script>
+    <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../../../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../../../../_static/design-tabs.js?v=f930bc37"></script>
     <link rel="canonical" href="https://chipsee.com/docs/PCs/ARM/iMX6Q/Manuals/Software/Linux_Qt55.html" />
-    <link rel="shortcut icon" href="../../../../../_static/favicon.webp"/>
+    <link rel="icon" href="../../../../../_static/favicon.webp"/>
     <link rel="index" title="Index" href="../../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../../search.html" />
     <link rel="next" title="Ubuntu 12.04 OS" href="Ubuntu_12.html" />
@@ -395,40 +393,10 @@
           </div>
         
         <div class="md-content">
-          <article class="md-content__inner md-typeset" role="main"><a class="md-content__button md-icon" style="margin:0;float:right;" href="Linux_Qt_5.5_OS_on_iMX6Q_User_Manual.pdf" download title="Download PDF"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="width:40px;height:40px;" viewBox="0 0 56 
-56"> <g><path style="fill:#E9E9E0;" d="M36.985,0H7.963C7.155,0,6.5,0.655,6.5,1.926V55c0,0.345,0.655,1,1.463,
-1h40.074 c0.808,0,1.463-0.655,1.463-1V12.978c0-0.696-0.093-0.92-0.257-1.085L37.607,0.257C37.442,0.093,37.218,0,
-36.985,0z"/> <polygon style="fill:#D9D7CA;" points="37.5,0.151 37.5,12 49.349,12 	"/> <path 
-style="fill:#CC4B4C;" d="M19.514,33.324L19.514,33.324c-0.348,0-0.682-0.113-0.967-0.326 
-c-1.041-0.781-1.181-1.65-1.115-2.242c0.182-1.628,2.195-3.332,5.985-5.068c1.504-3.296,2.935-7.357,3.788-10.75 
-c-0.998-2.172-1.968-4.99-1.261-6.643c0.248-0.579,0.557-1.023,1.134-1.215c0.228-0.076,0.804-0.172,1.016-0.172 
-c0.504,0,0.947,0.649,1.261,1.049c0.295,0.376,0.964,1.173-0.373,6.802c1.348,2.784,3.258,5.62,5.088,
-7.562 c1.311-0.237,2.439-0.358,3.358-0.358c1.566,0,2.515,0.365,2.902,1.117c0.32,0.622,0.189,1.349-0.39,
-2.16 c-0.557,0.779-1.325,1.191-2.22,1.191c-1.216,0-2.632-0.768-4.211-2.285c-2.837,0.593-6.15,1.651-8.828,
-2.822 c-0.836,1.774-1.637,3.203-2.383,4.251C21.273,32.654,20.389,33.324,19.514,33.324z M22.176,28.198 c-2.137,
-1.201-3.008,2.188-3.071,2.744c-0.01,0.092-0.037,0.334,0.431,0.692C19.685,31.587,20.555,31.19,22.176,
-28.198z M35.813,23.756c0.815,0.627,1.014,0.944,1.547,0.944c0.234,0,0.901-0.01,1.21-0.441c0.149-0.209,0.207-0.343,
-0.23-0.415 c-0.123-0.065-0.286-0.197-1.175-0.197C37.12,23.648,36.485,23.67,35.813,23.756z M28.343,17.174 c-0.715,
-2.474-1.659,5.145-2.674,7.564c2.09-0.811,4.362-1.519,6.496-2.02C30.815,21.15,29.466,19.192,28.343,
-17.174z M27.736,8.712c-0.098,0.033-1.33,1.757,0.096,3.216C28.781,9.813,27.779,8.698,27.736,8.712z"/> <path 
-style="fill:#CC4B4C;" d="M48.037,56H7.963C7.155,56,6.5,55.345,6.5,54.537V39h43v15.537C49.5,55.345,48.845,56,
-48.037,56z"/> <g><path style="fill:#FFFFFF;" d="M17.385,53h-1.641V42.924h2.898c0.428,0,0.852,0.068,1.271,
-0.205 c0.419,0.137,0.795,0.342,1.128,0.615c0.333,0.273,0.602,0.604,0.807,0.991s0.308,0.822,0.308,1.306 c0,
-0.511-0.087,0.973-0.26,1.388c-0.173,0.415-0.415,0.764-0.725,1.046c-0.31,0.282-0.684,0.501-1.121,0.656 s-0.921,
-0.232-1.449,0.232h-1.217V53z M17.385,44.168v3.992h1.504c0.2,0,0.398-0.034,0.595-0.103 c0.196-0.068,0.376-0.18,
-0.54-0.335c0.164-0.155,0.296-0.371,0.396-0.649c0.1-0.278,0.15-0.622,0.15-1.032 
-c0-0.164-0.023-0.354-0.068-0.567c-0.046-0.214-0.139-0.419-0.28-0.615c-0.142-0.196-0.34-0.36-0.595-0.492 
-c-0.255-0.132-0.593-0.198-1.012-0.198H17.385z"/> <path style="fill:#FFFFFF;" d="M32.219,47.682c0,0.829-0.089,
-1.538-0.267,2.126s-0.403,1.08-0.677,1.477s-0.581,0.709-0.923,0.937 s-0.672,0.398-0.991,0.513c-0.319,0.114-0.611,
-0.187-0.875,0.219C28.222,52.984,28.026,53,27.898,53h-3.814V42.924h3.035 c0.848,0,1.593,0.135,2.235,0.403s1.176,
-0.627,1.6,1.073s0.74,0.955,0.95,1.524C32.114,46.494,32.219,47.08,32.219,47.682z M27.352,51.797c1.112,0,
-1.914-0.355,2.406-1.066s0.738-1.741,0.738-3.09c0-0.419-0.05-0.834-0.15-1.244 
-c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-0.308h-0.957v7.629H27.352z"/> 
-<path style="fill:#FFFFFF;" d="M36.266,44.168v3.172h4.211v1.121h-4.211V53h-1.668V42.924H40.9v1.244H36.266z"/> 
-</g></g> </svg></a>
+          <article class="md-content__inner md-typeset" role="main">
             
-  <section id="i-mx6q-systemtype-os">
-<span id="imx6q-os-linuxqt55"></span><h1 id="pcs-arm-imx6q-manuals-software-linux-qt55--page-root">i.MX6Q Linux Qt 5.5 OS<a class="headerlink" href="#pcs-arm-imx6q-manuals-software-linux-qt55--page-root" title="Permalink to this heading">¶</a></h1>
+  <a class="md-content__button md-icon pdf-download" download="" href="Linux_Qt_5.5_OS_on_iMX6Q_User_Manual.pdf" style="margin:0;float:right;" title="Download PDF"><img alt="Download PDF" height="40" src="../../../../../_static/images/pdf_download.svg" width="40"/></a><section id="i-mx6q-systemtype-os">
+<span id="imx6q-os-linuxqt55"></span><h1 id="pcs-arm-imx6q-manuals-software-linux-qt55--page-root">i.MX6Q Linux Qt 5.5 OS<a class="headerlink" href="#pcs-arm-imx6q-manuals-software-linux-qt55--page-root" title="Link to this heading">¶</a></h1>
 <p class="centered">
 <strong>Chipsee Linux Qt 5.5 OS User Manual</strong></p><img alt="../../../../../_images/Chipsee_Logo_Full.png" class="align-center" src="../../../../../_images/Chipsee_Logo_Full.png"/>
 <p>This manual provides users with a fast guide of Chipsee Industrial Computer (Abbreviate as IPC) about Linux Qt 5.5 OS development. Through this manual, users can quickly understand the hardware resources; users can build a complete compilation of Linux development environment; users can debug Linux Qt 5.5 OS via serial and Internet.</p>
@@ -504,7 +472,7 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </table>
 <p><p class="page-break" style="margin: 0"></p></p>
 <section id="preparation">
-<h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permalink to this heading">¶</a></h2>
+<h2 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Link to this heading">¶</a></h2>
 <p>You will need to prepare the following items before you can start using the Prebuilt Files Package to re-flash the system.</p>
 <p>Power Supply Unit (PSU) with the appropriate voltages, as follows:</p>
 <ul class="simple">
@@ -514,19 +482,21 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </ul>
 <p>You need to prepare the Power Adapter by yourself</p>
 <section id="hardware-requirements">
-<h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permalink to this heading">¶</a></h3>
+<h3 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>Chipsee Industrial PC</p></li>
 <li><p>PSU according to the instructions above</p></li>
 <li><p>USB-to-serial or other serial cable for debugging</p></li>
 <li><p>USB A-A cable (used only if the hardware configured as OTG)</p></li>
 <li><p>Windows 7 PC</p></li>
+</ul>
+<ul class="simple">
 <li><p>Mini-B USB OTG Cable</p></li>
 <li><p>TF Card (at least 4GB) and card reader</p></li>
 </ul>
 </section>
 <section id="software-requirements">
-<h3 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Permalink to this heading">¶</a></h3>
+<h3 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>Linux Qt 5.5 OS Prebuilt Files Package (from the link above)</p></li>
 <li><p><a class="reference external" href="https://xshell.en.softonic.com/">Xshell</a> or other terminal emulation software</p></li>
@@ -553,10 +523,10 @@ Below are the links to the prebuilt files for each industrial PC model.</p>
 </section>
 </section>
 <section id="debug">
-<h2 id="debug">Debug<a class="headerlink" href="#debug" title="Permalink to this heading">¶</a></h2>
+<h2 id="debug">Debug<a class="headerlink" href="#debug" title="Link to this heading">¶</a></h2>
 <p>In this document, we use Xshell to debug the Chipsee Industrial Computer. You can also use other tools such as Putty, Minicom, SecureCRT or any terminal emulation software.</p>
 <section id="serial-debug">
-<h3 id="serial-debug">Serial Debug<a class="headerlink" href="#serial-debug" title="Permalink to this heading">¶</a></h3>
+<h3 id="serial-debug">Serial Debug<a class="headerlink" href="#serial-debug" title="Link to this heading">¶</a></h3>
 <p>You can refer to the RS232/RS485/CAN Connector section under the <a class="reference internal" href="../Hardware/CS10600F070.html#epc-ppc-a9-070-c"><span class="std std-ref">EPC/PPC-A9-070-C</span></a> manual to understand the serial ports of the IPC.
 The debug serial port of Chipsee Industrial Computer is the first RS232 port. You can use it to debug directly, and the default user and password is [root/root].
 You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
@@ -567,19 +537,19 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 <dt>Open XShell and use the session properties as shown on the figure below.</dt><dd><figure class="align-center" id="id5">
 <img alt="../../../../../_images/Serial_Debug_1.jpeg" src="../../../../../_images/Serial_Debug_1.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 214:  </span><span class="caption-text"><em>Add Session</em></span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 214:  </span><span class="caption-text"><em>Add Session</em></span><a class="headerlink" href="#id5" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id6">
 <img alt="../../../../../_images/Serial_Debug1.jpeg" src="../../../../../_images/Serial_Debug1.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 215:  </span><span class="caption-text"><em>Session Properties</em></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 215:  </span><span class="caption-text"><em>Session Properties</em></span><a class="headerlink" href="#id6" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id7">
 <img alt="../../../../../_images/Serial_Debug_3.jpeg" src="../../../../../_images/Serial_Debug_3.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 216:  </span><span class="caption-text"><em>Serial Debug</em></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 216:  </span><span class="caption-text"><em>Serial Debug</em></span><a class="headerlink" href="#id7" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -589,7 +559,7 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="ssh-debug">
-<h3 id="ssh-debug">SSH Debug<a class="headerlink" href="#ssh-debug" title="Permalink to this heading">¶</a></h3>
+<h3 id="ssh-debug">SSH Debug<a class="headerlink" href="#ssh-debug" title="Link to this heading">¶</a></h3>
 <p>To perform SSH debugging on the Chipsee IPC, you must first connect the product to the Internet.</p>
 <p>Continue the debugging by follow these steps:</p>
 <ul>
@@ -599,7 +569,7 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 <dt>Open XShell and add a new session and set it as shown on the figure below.</dt><dd><figure class="align-center" id="id8">
 <img alt="../../../../../_images/SSH_Debug_1.jpeg" src="../../../../../_images/SSH_Debug_1.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 217:  </span><span class="caption-text"><em>SSH Setting</em></span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 217:  </span><span class="caption-text"><em>SSH Setting</em></span><a class="headerlink" href="#id8" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -607,9 +577,9 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 </li>
 <li><dl>
 <dt>Now we can perform SSH debugging using XShell.</dt><dd><figure class="align-center" id="id9">
-<img alt="../../../../../_images/SSH_Debug_2.jpeg" src="../../../../../_images/SSH_Debug_2.jpeg"/>
+<img alt="../../../../../_images/SSH_Debug_21.jpeg" src="../../../../../_images/SSH_Debug_21.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 218:  </span><span class="caption-text"><em>SSH Debug</em></span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 218:  </span><span class="caption-text"><em>SSH Debug</em></span><a class="headerlink" href="#id9" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -619,14 +589,14 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="vnc-debug">
-<h3 id="vnc-debug">VNC Debug<a class="headerlink" href="#vnc-debug" title="Permalink to this heading">¶</a></h3>
+<h3 id="vnc-debug">VNC Debug<a class="headerlink" href="#vnc-debug" title="Link to this heading">¶</a></h3>
 <p>You can use the VNC-Viewer software in Windows to control Chipsee IPC over Ethernet.</p>
 <ul>
 <li><dl>
 <dt>Open the VNC-Viewer software as shown on the figure below.</dt><dd><figure class="align-center" id="id10">
 <img alt="../../../../../_images/VNC_Debug_1.jpeg" src="../../../../../_images/VNC_Debug_1.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 219:  </span><span class="caption-text"><em>VNC Desktop</em></span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 219:  </span><span class="caption-text"><em>VNC Desktop</em></span><a class="headerlink" href="#id10" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -634,9 +604,9 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 </li>
 <li><dl>
 <dt>Click on the <strong>X11VNC</strong> icon to enable the X11VNC.</dt><dd><figure class="align-center" id="id11">
-<img alt="../../../../../_images/VNC_Debug_2.jpeg" src="../../../../../_images/VNC_Debug_2.jpeg"/>
+<img alt="../../../../../_images/VNC_Debug_21.jpeg" src="../../../../../_images/VNC_Debug_21.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 220:  </span><span class="caption-text"><em>X11VNC Enable</em></span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 220:  </span><span class="caption-text"><em>X11VNC Enable</em></span><a class="headerlink" href="#id11" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -644,15 +614,15 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 </li>
 <li><dl>
 <dt>Use VNC-Viewer in Windows to control it over Ethernet, as shown on the figure below.</dt><dd><figure class="align-center" id="id12">
-<img alt="../../../../../_images/VNC_Debug_3.jpeg" src="../../../../../_images/VNC_Debug_3.jpeg"/>
+<img alt="../../../../../_images/VNC_Debug_31.jpeg" src="../../../../../_images/VNC_Debug_31.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 221:  </span><span class="caption-text"><em>VNC-Viewer Connect</em></span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 221:  </span><span class="caption-text"><em>VNC-Viewer Connect</em></span><a class="headerlink" href="#id12" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id13">
-<img alt="../../../../../_images/VNC_Debug_4.jpeg" src="../../../../../_images/VNC_Debug_4.jpeg"/>
+<img alt="../../../../../_images/VNC_Debug_41.jpeg" src="../../../../../_images/VNC_Debug_41.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 222:  </span><span class="caption-text"><em>Authentications</em></span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 222:  </span><span class="caption-text"><em>Authentications</em></span><a class="headerlink" href="#id13" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -663,9 +633,9 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 </section>
 </section>
 <section id="downloading-images">
-<h2 id="downloading-images">Downloading images<a class="headerlink" href="#downloading-images" title="Permalink to this heading">¶</a></h2>
+<h2 id="downloading-images">Downloading images<a class="headerlink" href="#downloading-images" title="Link to this heading">¶</a></h2>
 <section id="boot-switch-configuration">
-<h3 id="boot-switch-configuration">Boot Switch Configuration<a class="headerlink" href="#boot-switch-configuration" title="Permalink to this heading">¶</a></h3>
+<h3 id="boot-switch-configuration">Boot Switch Configuration<a class="headerlink" href="#boot-switch-configuration" title="Link to this heading">¶</a></h3>
 <p>CS-IMX6 has a boot configuration select switch, as shown on the figure below. You can use the boot select switch to change between three modes, namely：</p>
 <ul class="simple">
 <li><p>TF Card</p></li>
@@ -673,13 +643,13 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 <li><p>Download</p></li>
 </ul>
 <figure class="align-center" id="id14">
-<img alt="../../../../../_images/BootSW.png" src="../../../../../_images/BootSW.png"/>
+<img alt="../../../../../_images/BootSW1.png" src="../../../../../_images/BootSW1.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 223:  </span><span class="caption-text">Boot Mode Setup</span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 223:  </span><span class="caption-text">Boot Mode Setup</span><a class="headerlink" href="#id14" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <table id="id15" style="width: 100%">
-<caption><span class="caption-number">Table 49 </span><span class="caption-text">Boot Configuration Selection</span><a class="headerlink" href="#id15" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 49 </span><span class="caption-text">Boot Configuration Selection</span><a class="headerlink" href="#id15" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p><strong>SW Mode</strong></p></th>
 <th class="head"><p><strong>1</strong></p></th>
@@ -716,13 +686,13 @@ You can use RS232_1_TXD, RS232_1_RXD, GND. <br/> <br/></p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="prebuilt-files-package">
-<h3 id="prebuilt-files-package">Prebuilt Files Package<a class="headerlink" href="#prebuilt-files-package" title="Permalink to this heading">¶</a></h3>
+<h3 id="prebuilt-files-package">Prebuilt Files Package<a class="headerlink" href="#prebuilt-files-package" title="Link to this heading">¶</a></h3>
 <p>You can get the Prebuilt Files Package for each model from links mentioned at the beginning of this documentation.
 You can also get the Prebuilt Files Package from the DVD in /Linux Qt 5.5/Prebuilds folder. However, it may be outdated so always
 compare the versions (the last number in the filename is the release date).</p>
 <p>The prebuilt package has the following content:</p>
 <table id="id16" style="width: 100%">
-<caption><span class="caption-number">Table 50 </span><span class="caption-text">Prebuilt Files Package</span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 50 </span><span class="caption-text">Prebuilt Files Package</span><a class="headerlink" href="#id16" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Contents</p></th>
 <th class="head"><p>Comment</p></th>
@@ -788,7 +758,7 @@ compare the versions (the last number in the filename is the release date).</p>
 </div>
 </section>
 <section id="downloading-images-by-using-mfgtool">
-<h3 id="downloading-images-by-using-mfgtool">Downloading Images by using MFGTool<a class="headerlink" href="#downloading-images-by-using-mfgtool" title="Permalink to this heading">¶</a></h3>
+<h3 id="downloading-images-by-using-mfgtool">Downloading Images by using MFGTool<a class="headerlink" href="#downloading-images-by-using-mfgtool" title="Link to this heading">¶</a></h3>
 <p>The <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K31452-V1.3.zip">MFGTools</a> can be used to download images into a target device.
 It is a quick and easy tool for downloading images.</p>
 <div class="admonition note">
@@ -797,7 +767,7 @@ It is a quick and easy tool for downloading images.</p>
 </div>
 <p>Before downloading images with the <a class="reference external" href="https://chipsee-tmp.s3.amazonaws.com/mksdcardfiles/IMX6Q/Tools/MFGTools/Mfgtools-K31452-V1.3.zip">MFGTools</a>, set the boot switch to download mode. (refer to <a class="reference internal" href="#boot-switch-configuration">Boot Switch Configuration</a> above)</p>
 <section id="configuring-mfgtool">
-<h4 id="configuring-mfgtool">Configuring MFGTool<a class="headerlink" href="#configuring-mfgtool" title="Permalink to this heading">¶</a></h4>
+<h4 id="configuring-mfgtool">Configuring MFGTool<a class="headerlink" href="#configuring-mfgtool" title="Link to this heading">¶</a></h4>
 <p>To configure MFGTool, follow these steps:</p>
 <ul class="simple">
 <li><p>Untar <code class="docutils literal notranslate"><span class="pre">Mfgtools-K31452-Vx.x.tar.gz</span></code> file.</p></li>
@@ -807,7 +777,7 @@ It is a quick and easy tool for downloading images.</p>
 <figure class="align-center" id="id17">
 <img alt="../../../../../_images/mfgtools_11.jpeg" src="../../../../../_images/mfgtools_11.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 224:  </span><span class="caption-text"><em>Cfg.ini file</em></span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 224:  </span><span class="caption-text"><em>Cfg.ini file</em></span><a class="headerlink" href="#id17" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -816,7 +786,7 @@ It is a quick and easy tool for downloading images.</p>
 Modify config <code class="docutils literal notranslate"><span class="pre">UICfg.ini</span></code> file. This file has only one line: <code class="docutils literal notranslate"><span class="pre">PortMgrDlg=1</span></code> that indicates you can download the images to one board at the same time. The max value is 4.</p>
 </div>
 <section id="copy-image-to-android-directory">
-<h5 id="copy-image-to-android-directory">Copy Image To Android Directory<a class="headerlink" href="#copy-image-to-android-directory" title="Permalink to this heading">¶</a></h5>
+<h5 id="copy-image-to-android-directory">Copy Image To Android Directory<a class="headerlink" href="#copy-image-to-android-directory" title="Link to this heading">¶</a></h5>
 <p>Follow these steps to copy image to Linux directory:</p>
 <ul class="simple">
 <li><p>Copy the images from <cite>prebuilt-xxx/emmc-flash/emmc/</cite> to <cite>Mfgtools-K31452-V1.0\Profiles\Linux\OS Firmware\files\linux</cite> directory.</p></li>
@@ -824,19 +794,19 @@ Modify config <code class="docutils literal notranslate"><span class="pre">UICfg
 <figure class="align-center" id="id18">
 <img alt="../../../../../_images/mfgtools_21.jpeg" src="../../../../../_images/mfgtools_21.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 225:  </span><span class="caption-text"><em>Prepare Images</em></span><a class="headerlink" href="#id18" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 225:  </span><span class="caption-text"><em>Prepare Images</em></span><a class="headerlink" href="#id18" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="using-mfgtool">
-<h5 id="using-mfgtool">Using MFGTool<a class="headerlink" href="#using-mfgtool" title="Permalink to this heading">¶</a></h5>
+<h5 id="using-mfgtool">Using MFGTool<a class="headerlink" href="#using-mfgtool" title="Link to this heading">¶</a></h5>
 <ol class="arabic">
 <li><p>Connect a USB OTG cable from a Windows PC to the USB OTG port on the IPC.</p></li>
 <li><dl>
 <dt>Change the boot select configuration to <strong>0 1 1 0</strong>, as shown on the figure below.</dt><dd><figure class="align-center" id="id19">
 <img alt="../../../../../_images/use_mfgtool_1.png" src="../../../../../_images/use_mfgtool_1.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 226:  </span><span class="caption-text"><em>Boot Switch Config</em></span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 226:  </span><span class="caption-text"><em>Boot Switch Config</em></span><a class="headerlink" href="#id19" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -847,13 +817,13 @@ Modify config <code class="docutils literal notranslate"><span class="pre">UICfg
 <dt>On your Windows PC, open the <code class="docutils literal notranslate"><span class="pre">Mfgtools-Rel-XXX_XXXXXX_MX6Q_UPDATER_VXX</span></code> directory and run the <code class="docutils literal notranslate"><span class="pre">MfgTool2.exe</span></code> file, as shown on the figure below.</dt><dd><figure class="align-center" id="id20">
 <img alt="../../../../../_images/use_mfgtool_21.png" src="../../../../../_images/use_mfgtool_21.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 227:  </span><span class="caption-text"><em>Run</em> <strong>MfgTools2.exe</strong> <em>file</em></span><a class="headerlink" href="#id20" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 227:  </span><span class="caption-text"><em>Run</em> <strong>MfgTools2.exe</strong> <em>file</em></span><a class="headerlink" href="#id20" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id21">
 <img alt="../../../../../_images/use_mfgtool_3.png" src="../../../../../_images/use_mfgtool_3.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 228:  </span><span class="caption-text"><em>Prepare to start</em></span><a class="headerlink" href="#id21" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 228:  </span><span class="caption-text"><em>Prepare to start</em></span><a class="headerlink" href="#id21" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -862,7 +832,7 @@ Modify config <code class="docutils literal notranslate"><span class="pre">UICfg
 <figure class="align-center" id="id22">
 <img alt="../../../../../_images/use_mfgtool_4.png" src="../../../../../_images/use_mfgtool_4.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 229:  </span><span class="caption-text"><em>The USB-OTG cable is not connected correctly.</em></span><a class="headerlink" href="#id22" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 229:  </span><span class="caption-text"><em>The USB-OTG cable is not connected correctly.</em></span><a class="headerlink" href="#id22" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </div>
@@ -873,7 +843,7 @@ Modify config <code class="docutils literal notranslate"><span class="pre">UICfg
 <dt>Click on <strong>Start</strong> button to download the Image.</dt><dd><figure class="align-center" id="id23">
 <img alt="../../../../../_images/use_mfgtool_5.png" src="../../../../../_images/use_mfgtool_5.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 230:  </span><span class="caption-text"><em>Downloading Images</em></span><a class="headerlink" href="#id23" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 230:  </span><span class="caption-text"><em>Downloading Images</em></span><a class="headerlink" href="#id23" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -882,7 +852,7 @@ Modify config <code class="docutils literal notranslate"><span class="pre">UICfg
 <figure class="align-center" id="id24">
 <img alt="../../../../../_images/use_mfgtool_6.png" src="../../../../../_images/use_mfgtool_6.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 231:  </span><span class="caption-text"><em>Cancel format disk</em></span><a class="headerlink" href="#id24" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 231:  </span><span class="caption-text"><em>Cancel format disk</em></span><a class="headerlink" href="#id24" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </div>
@@ -893,7 +863,7 @@ Modify config <code class="docutils literal notranslate"><span class="pre">UICfg
 <dt>When the process is complete, you click the <strong>Stop</strong> button to stop downloading Image and exit.</dt><dd><figure class="align-center" id="id25">
 <img alt="../../../../../_images/use_mfgtool_7.png" src="../../../../../_images/use_mfgtool_7.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 232:  </span><span class="caption-text"><em>Download Image is finished</em></span><a class="headerlink" href="#id25" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 232:  </span><span class="caption-text"><em>Download Image is finished</em></span><a class="headerlink" href="#id25" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -905,7 +875,7 @@ Modify config <code class="docutils literal notranslate"><span class="pre">UICfg
 </section>
 </section>
 <section id="downloading-images-by-using-the-tf-card">
-<h3 id="downloading-images-by-using-the-tf-card">Downloading Images by using the TF card<a class="headerlink" href="#downloading-images-by-using-the-tf-card" title="Permalink to this heading">¶</a></h3>
+<h3 id="downloading-images-by-using-the-tf-card">Downloading Images by using the TF card<a class="headerlink" href="#downloading-images-by-using-the-tf-card" title="Link to this heading">¶</a></h3>
 <p>Follow the steps below to download images onto the eMMC by using the TF Card:</p>
 <ol class="arabic">
 <li><p>Copy the Prebuilt Files Package to a Linux environment (such as Ubuntu 14.04).</p></li>
@@ -956,15 +926,15 @@ Modify config <code class="docutils literal notranslate"><span class="pre">UICfg
 </section>
 </section>
 <section id="system-resource">
-<h2 id="system-resource">System Resource<a class="headerlink" href="#system-resource" title="Permalink to this heading">¶</a></h2>
+<h2 id="system-resource">System Resource<a class="headerlink" href="#system-resource" title="Link to this heading">¶</a></h2>
 <section id="tf-card-usb-sata-disk">
-<h3 id="tf-card-usb-sata-disk">TF Card/USB/SATA Disk<a class="headerlink" href="#tf-card-usb-sata-disk" title="Permalink to this heading">¶</a></h3>
+<h3 id="tf-card-usb-sata-disk">TF Card/USB/SATA Disk<a class="headerlink" href="#tf-card-usb-sata-disk" title="Link to this heading">¶</a></h3>
 <p>The TF Card and USB Storage supports hot-plug but the SATA Disk does not support hot-plug.
 These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>, as shown in the figure.</p>
 <figure class="align-center" id="id26">
-<img alt="../../../../../_images/TF_Card3.jpeg" src="../../../../../_images/TF_Card3.jpeg"/>
+<img alt="../../../../../_images/TF_Card4.jpeg" src="../../../../../_images/TF_Card4.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 233:  </span><span class="caption-text"><em>TF Card</em></span><a class="headerlink" href="#id26" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 233:  </span><span class="caption-text"><em>TF Card</em></span><a class="headerlink" href="#id26" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -974,26 +944,26 @@ These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="network">
-<h3 id="network">Network<a class="headerlink" href="#network" title="Permalink to this heading">¶</a></h3>
+<h3 id="network">Network<a class="headerlink" href="#network" title="Link to this heading">¶</a></h3>
 <p>This system uses a networking service to control Ethernet and uses <code class="docutils literal notranslate"><span class="pre">wpa_supplicant</span></code> to control the WIFI network.</p>
 <section id="wired-ethernet">
-<h4 id="wired-ethernet">Wired Ethernet<a class="headerlink" href="#wired-ethernet" title="Permalink to this heading">¶</a></h4>
+<h4 id="wired-ethernet">Wired Ethernet<a class="headerlink" href="#wired-ethernet" title="Link to this heading">¶</a></h4>
 <p>You can get the IP address from the following application, as shown on the figure below.</p>
 <figure class="align-center" id="id27">
 <img alt="../../../../../_images/wired_1.jpeg" src="../../../../../_images/wired_1.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 234:  </span><span class="caption-text"><em>Wired Connection</em></span><a class="headerlink" href="#id27" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 234:  </span><span class="caption-text"><em>Wired Connection</em></span><a class="headerlink" href="#id27" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id28">
 <img alt="../../../../../_images/wired_2.jpeg" src="../../../../../_images/wired_2.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 235:  </span><span class="caption-text"><em>Ethernet Information</em></span><a class="headerlink" href="#id28" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 235:  </span><span class="caption-text"><em>Ethernet Information</em></span><a class="headerlink" href="#id28" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="wi-fi">
-<h4 id="wi-fi">Wi-Fi<a class="headerlink" href="#wi-fi" title="Permalink to this heading">¶</a></h4>
+<h4 id="wi-fi">Wi-Fi<a class="headerlink" href="#wi-fi" title="Link to this heading">¶</a></h4>
 <p>You can configure the Wi-Fi using these methods:</p>
 <ul class="simple">
 <li><p>Config Wi-Fi by GUI</p></li>
@@ -1013,7 +983,7 @@ These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>
 <figure class="align-center" id="id29">
 <img alt="../../../../../_images/wifi_config_1.jpeg" src="../../../../../_images/wifi_config_1.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 236:  </span><span class="caption-text"><em>Wi-Fi Config File</em></span><a class="headerlink" href="#id29" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 236:  </span><span class="caption-text"><em>Wi-Fi Config File</em></span><a class="headerlink" href="#id29" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <ul class="simple">
@@ -1022,7 +992,7 @@ These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>
 <figure class="align-center" id="id30">
 <img alt="../../../../../_images/wifi_config_2.jpeg" src="../../../../../_images/wifi_config_2.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 237:  </span><span class="caption-text"><em>Wi-Fi Enable</em></span><a class="headerlink" href="#id30" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 237:  </span><span class="caption-text"><em>Wi-Fi Enable</em></span><a class="headerlink" href="#id30" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <p><strong>Config Wi-Fi by Command</strong></p>
@@ -1079,16 +1049,16 @@ These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>
 </section>
 </section>
 <section id="multimedia">
-<h3 id="multimedia">Multimedia<a class="headerlink" href="#multimedia" title="Permalink to this heading">¶</a></h3>
+<h3 id="multimedia">Multimedia<a class="headerlink" href="#multimedia" title="Link to this heading">¶</a></h3>
 <p>This system supports NXP Gstreamer-imx Multimedia library and its various plugins.</p>
 <figure class="align-center" id="id31">
 <img alt="../../../../../_images/multimedia_1.jpeg" src="../../../../../_images/multimedia_1.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 238:  </span><span class="caption-text"><em>GStreamer Plugins</em></span><a class="headerlink" href="#id31" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 238:  </span><span class="caption-text"><em>GStreamer Plugins</em></span><a class="headerlink" href="#id31" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <section id="audio-test">
-<h4 id="audio-test">Audio Test<a class="headerlink" href="#audio-test" title="Permalink to this heading">¶</a></h4>
+<h4 id="audio-test">Audio Test<a class="headerlink" href="#audio-test" title="Link to this heading">¶</a></h4>
 <p>You can use the command below to record music. The <code class="docutils literal notranslate"><span class="pre">-d</span></code> parameter means <em>interrupt after # seconds</em>. In this example, <code class="docutils literal notranslate"><span class="pre">-d</span></code> is equal to 18 seconds.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w">  </span>arecord<span class="w">  </span>-N<span class="w">  </span>-M<span class="w">  </span>-r<span class="w">  </span><span class="m">44100</span><span class="w">  </span>-f<span class="w">  </span>S16_LE<span class="w">  </span>-c<span class="w">  </span><span class="m">2</span><span class="w">  </span>-d<span class="w">  </span><span class="m">18</span><span class="w">  </span>test.wav
 </pre></div>
@@ -1102,21 +1072,21 @@ These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>
 <figure class="align-center" id="id32">
 <img alt="../../../../../_images/multimedia_2.jpeg" src="../../../../../_images/multimedia_2.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 239:  </span><span class="caption-text"><em>Hardware Test</em></span><a class="headerlink" href="#id32" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 239:  </span><span class="caption-text"><em>Hardware Test</em></span><a class="headerlink" href="#id32" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <p>You can click the <strong>Audio</strong> button to playback audio. You can also click the <strong>Record</strong> button to record 18 seconds of audio then the application will playback the audio automatically.</p>
 <figure class="align-center" id="id33">
 <img alt="../../../../../_images/multimedia_3.jpeg" src="../../../../../_images/multimedia_3.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 240:  </span><span class="caption-text"><em>Audio Test</em></span><a class="headerlink" href="#id33" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 240:  </span><span class="caption-text"><em>Audio Test</em></span><a class="headerlink" href="#id33" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 </section>
 <section id="hdmi">
-<h3 id="hdmi">HDMI<a class="headerlink" href="#hdmi" title="Permalink to this heading">¶</a></h3>
+<h3 id="hdmi">HDMI<a class="headerlink" href="#hdmi" title="Link to this heading">¶</a></h3>
 <p>You can follow the steps below to display the IPC output onto an external display via HDMI.</p>
 <ul>
 <li><p>Power OFF IPC. Connect the external display to the IPC using an HDMI cable.</p></li>
@@ -1125,7 +1095,7 @@ These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>
 <dt>Power ON IPC. In XShell, hit any key to stop auto boot and input the uboot command mode, as shown on the figure below.</dt><dd><figure class="align-center" id="id34">
 <img alt="../../../../../_images/hdmi.jpeg" src="../../../../../_images/hdmi.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 241:  </span><span class="caption-text"><em>Uboot</em></span><a class="headerlink" href="#id34" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 241:  </span><span class="caption-text"><em>Uboot</em></span><a class="headerlink" href="#id34" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -1168,7 +1138,7 @@ These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>
 <figure class="align-center" id="id35">
 <img alt="../../../../../_images/hdmi_2.jpeg" src="../../../../../_images/hdmi_2.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 242:  </span><span class="caption-text"><em>HDMI Output Setting</em></span><a class="headerlink" href="#id35" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 242:  </span><span class="caption-text"><em>HDMI Output Setting</em></span><a class="headerlink" href="#id35" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -1188,12 +1158,12 @@ These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="serial-port">
-<h3 id="serial-port">Serial Port<a class="headerlink" href="#serial-port" title="Permalink to this heading">¶</a></h3>
+<h3 id="serial-port">Serial Port<a class="headerlink" href="#serial-port" title="Link to this heading">¶</a></h3>
 <p>There are five serial ports on the Chipsee IPC: 2 x RS232 and 3 x RS485 (can be customised). Refer to the table below for the available serial device nodes.</p>
 <p>The default serial port configuration is 2 x RS232, 2 x RS485, 1 x RS485 which is shared with Bluetooth. <br/>
 <strong>Contact us</strong> if you need help with changing the default serial port configuration</p>
 <table id="id36" style="width: 100%">
-<caption><span class="caption-number">Table 51 </span><span class="caption-text">Serial Ports Nodes on the System</span><a class="headerlink" href="#id36" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 51 </span><span class="caption-text">Serial Ports Nodes on the System</span><a class="headerlink" href="#id36" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Ports</p></th>
 <th class="head"><p>Device Node</p></th>
@@ -1225,25 +1195,25 @@ These devices will be automatically mounted on <cite>/run/media/mmcblk0P*</cite>
 <figure class="align-center" id="id37">
 <img alt="../../../../../_images/serial_1.jpeg" src="../../../../../_images/serial_1.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 243:  </span><span class="caption-text"><em>HT_Serial Test</em></span><a class="headerlink" href="#id37" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 243:  </span><span class="caption-text"><em>HT_Serial Test</em></span><a class="headerlink" href="#id37" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id38">
 <img alt="../../../../../_images/serial_2.jpeg" src="../../../../../_images/serial_2.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 244:  </span><span class="caption-text"><em>HT_Serial Test</em></span><a class="headerlink" href="#id38" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 244:  </span><span class="caption-text"><em>HT_Serial Test</em></span><a class="headerlink" href="#id38" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="can-bus">
-<h3 id="can-bus">CAN Bus<a class="headerlink" href="#can-bus" title="Permalink to this heading">¶</a></h3>
+<h3 id="can-bus">CAN Bus<a class="headerlink" href="#can-bus" title="Link to this heading">¶</a></h3>
 <p>Chipsee Industrial PC is equipped with two CAN busses (CAN1 and CAN2). Two devices can be interconnected.
 You can test the CAN buses by using the <strong>HT application</strong> but you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown on the figure below.</p>
 <figure class="align-center" id="id39">
 <img alt="../../../../../_images/CAN.jpeg" src="../../../../../_images/CAN.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 245:  </span><span class="caption-text"><em>CAN Connect</em></span><a class="headerlink" href="#id39" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 245:  </span><span class="caption-text"><em>CAN Connect</em></span><a class="headerlink" href="#id39" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -1320,16 +1290,16 @@ Follow these steps to perform the CAN test:</p>
 <figure class="align-center" id="id40">
 <img alt="../../../../../_images/can_1.jpeg" src="../../../../../_images/can_1.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 246:  </span><span class="caption-text"><em>CAN</em></span><a class="headerlink" href="#id40" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 246:  </span><span class="caption-text"><em>CAN</em></span><a class="headerlink" href="#id40" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="gpio">
-<h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this heading">¶</a></h3>
+<h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Link to this heading">¶</a></h3>
 <p>There are 8 GPIOs, 4 Output, and 4 Input, they are all isolated. You can control the output or input pin voltage by feeding the VDD_ISO suite voltage. The pin voltage should be from 5V to 24V. Refer to the tables below for a detailed port definition:</p>
 <table id="id41" style="width: 100%">
-<caption><span class="caption-number">Table 52 </span><span class="caption-text">CS80480F070 – V1.0 P11 Port</span><a class="headerlink" href="#id41" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 52 </span><span class="caption-text">CS80480F070 – V1.0 P11 Port</span><a class="headerlink" href="#id41" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Pin Number</p></th>
 <th class="head"><p>GPIO Number</p></th>
@@ -1363,7 +1333,7 @@ Follow these steps to perform the CAN test:</p>
 </tbody>
 </table>
 <table id="id42" style="width: 100%">
-<caption><span class="caption-number">Table 53 </span><span class="caption-text">CS10600F070 – V1.0 P21 Port</span><a class="headerlink" href="#id42" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 53 </span><span class="caption-text">CS10600F070 – V1.0 P21 Port</span><a class="headerlink" href="#id42" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Pin Number</p></th>
 <th class="head"><p>GPIO Number</p></th>
@@ -1397,7 +1367,7 @@ Follow these steps to perform the CAN test:</p>
 </tbody>
 </table>
 <table id="id43" style="width: 100%">
-<caption><span class="caption-number">Table 54 </span><span class="caption-text">CS10600F070 – V2.0 P21 Port</span><a class="headerlink" href="#id43" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 54 </span><span class="caption-text">CS10600F070 – V2.0 P21 Port</span><a class="headerlink" href="#id43" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Pin Number</p></th>
 <th class="head"><p>GPIO Number</p></th>
@@ -1431,7 +1401,7 @@ Follow these steps to perform the CAN test:</p>
 </tbody>
 </table>
 <table id="id44" style="width: 100%">
-<caption><span class="caption-number">Table 55 </span><span class="caption-text">CS12800F010 – V1.0 P28 Port</span><a class="headerlink" href="#id44" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-number">Table 55 </span><span class="caption-text">CS12800F010 – V1.0 P28 Port</span><a class="headerlink" href="#id44" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Pin Number</p></th>
 <th class="head"><p>GPIO Number</p></th>
@@ -1494,7 +1464,7 @@ Follow these steps to perform the GPIO test:</p>
 <figure class="align-center" id="id45">
 <img alt="../../../../../_images/gpio_1.jpeg" src="../../../../../_images/gpio_1.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 247:  </span><span class="caption-text"><em>GPIO Test</em></span><a class="headerlink" href="#id45" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 247:  </span><span class="caption-text"><em>GPIO Test</em></span><a class="headerlink" href="#id45" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -1504,7 +1474,7 @@ Follow these steps to perform the GPIO test:</p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="buzzer">
-<h3 id="buzzer">Buzzer<a class="headerlink" href="#buzzer" title="Permalink to this heading">¶</a></h3>
+<h3 id="buzzer">Buzzer<a class="headerlink" href="#buzzer" title="Link to this heading">¶</a></h3>
 <p>The buzzer is one GPIO, which has the GPIO Number as 80.</p>
 <p>You can test the buzzer with the following commands.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># echo  80  &gt; /sys/class/gpio/export                 //export gpio80</span>
@@ -1517,13 +1487,13 @@ Follow these steps to perform the GPIO test:</p>
 <figure class="align-center" id="id46">
 <img alt="../../../../../_images/buzzer.jpeg" src="../../../../../_images/buzzer.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 248:  </span><span class="caption-text"><em>Buzzer</em></span><a class="headerlink" href="#id46" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 248:  </span><span class="caption-text"><em>Buzzer</em></span><a class="headerlink" href="#id46" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="modify-logo">
-<h3 id="modify-logo">Modify Logo<a class="headerlink" href="#modify-logo" title="Permalink to this heading">¶</a></h3>
+<h3 id="modify-logo">Modify Logo<a class="headerlink" href="#modify-logo" title="Link to this heading">¶</a></h3>
 <p>This system supports changing the logo by yourself. There are two ways:</p>
 <ul class="simple">
 <li><p>Replace the logo file in prebuilt images packages, and download images.</p></li>
@@ -1534,11 +1504,11 @@ Follow these steps to perform the GPIO test:</p>
 <p>Logo file is one 32bpp, format is bmp.</p>
 </div>
 <section id="method-1-downloading-images">
-<h4 id="method-1-downloading-images">Method 1 - Downloading images<a class="headerlink" href="#method-1-downloading-images" title="Permalink to this heading">¶</a></h4>
+<h4 id="method-1-downloading-images">Method 1 - Downloading images<a class="headerlink" href="#method-1-downloading-images" title="Link to this heading">¶</a></h4>
 <p>Replace the <cite>prebuilt-xxx/emmc-flash/emmc/logo.bmp</cite> and reference <a class="reference internal" href="#downloading-images-by-using-mfgtool">Downloading Images by using MFGTool</a> to flash the image.</p>
 </section>
 <section id="method-2-don-t-download-images">
-<h4 id="method-2-don-t-download-images">Method 2 - Don’t Download Images<a class="headerlink" href="#method-2-don-t-download-images" title="Permalink to this heading">¶</a></h4>
+<h4 id="method-2-don-t-download-images">Method 2 - Don’t Download Images<a class="headerlink" href="#method-2-don-t-download-images" title="Link to this heading">¶</a></h4>
 <p>We will use <strong>MFGTools</strong> and the <strong>Logoflasher</strong> apps to change the logo.</p>
 <p><strong>Use MFGTools to Change LOGO</strong></p>
 <ul>
@@ -1547,7 +1517,7 @@ Follow these steps to perform the GPIO test:</p>
 <dt>Open and edit the <cite>Mfgtools-K31452-V1.0\cfg.ini</cite> file and set the <code class="docutils literal notranslate"><span class="pre">name</span></code> variable to <code class="docutils literal notranslate"><span class="pre">eMMC-Linux-Logo</span></code> as shown below.</dt><dd><figure class="align-center" id="id47">
 <img alt="../../../../../_images/logo_11.png" src="../../../../../_images/logo_11.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 249:  </span><span class="caption-text"><em>Change name</em></span><a class="headerlink" href="#id47" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 249:  </span><span class="caption-text"><em>Change name</em></span><a class="headerlink" href="#id47" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -1557,7 +1527,7 @@ Follow these steps to perform the GPIO test:</p>
 <figure class="align-center" id="id48">
 <img alt="../../../../../_images/logo_2.png" src="../../../../../_images/logo_2.png"/>
 <figcaption>
-<p><span class="caption-number">Figure 250:  </span><span class="caption-text"><em>Logo Modify with MFGTool</em></span><a class="headerlink" href="#id48" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 250:  </span><span class="caption-text"><em>Logo Modify with MFGTool</em></span><a class="headerlink" href="#id48" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <p><strong>Use Logoflasher to Change Logo</strong></p>
@@ -1582,17 +1552,17 @@ $<span class="w"> </span>sudo<span class="w">  </span>./mksdcard.sh<span class="
 </section>
 </section>
 <section id="development">
-<h2 id="development">Development<a class="headerlink" href="#development" title="Permalink to this heading">¶</a></h2>
+<h2 id="development">Development<a class="headerlink" href="#development" title="Link to this heading">¶</a></h2>
 <p>In this chapter, you will learn how to set up the QT development environment, and develop the first QT application on Chipsee IPC boards.</p>
 <section id="host-system-requirements">
-<h3 id="host-system-requirements">Host system requirements<a class="headerlink" href="#host-system-requirements" title="Permalink to this heading">¶</a></h3>
+<h3 id="host-system-requirements">Host system requirements<a class="headerlink" href="#host-system-requirements" title="Link to this heading">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Ubuntu 14.04 LTS 64bit system should be installed on the host machine.</p></li>
 <li><p>Qtcreator is optional to develop application, you can download QT5.5.1 which will install Qtcreator. Other Qt version should ok as we only need Qtcreator.</p></li>
 </ol>
 </section>
 <section id="id4">
-<h3 id="id4">Preparation<a class="headerlink" href="#id4" title="Permalink to this heading">¶</a></h3>
+<h3 id="id4">Preparation<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
 <ol class="arabic">
 <li><p>Download <a class="reference external" href="https://download.qt.io/new_archive/qt/5.5/5.5.1/">QT5.5.1</a> and install it on one X86_64 Linux Host PC system. Other Qt version should ok as we only need Qtcreator. Install it in the <cite>/home/&lt;user&gt;/program</cite> directory.</p></li>
 <li><dl>
@@ -1622,7 +1592,7 @@ $<span class="w"> </span>sudo<span class="w">  </span>./mksdcard.sh<span class="
 <figure class="align-center" id="id49">
 <img alt="../../../../../_images/app_dev_1.jpeg" src="../../../../../_images/app_dev_1.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 251:  </span><span class="caption-text"><em>Setting QtCreator</em></span><a class="headerlink" href="#id49" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 251:  </span><span class="caption-text"><em>Setting QtCreator</em></span><a class="headerlink" href="#id49" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -1643,25 +1613,25 @@ $<span class="w"> </span>sudo<span class="w">  </span>./mksdcard.sh<span class="
 <dt>Open the QtCreator Options, then click on Tools-&gt;Options-&gt;Build &amp; Run. Set the Debuggers/Compilers/Qt Versions/Kits as shown on the figures below.</dt><dd><figure class="align-center" id="id50">
 <img alt="../../../../../_images/app_dev_2.jpeg" src="../../../../../_images/app_dev_2.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 252:  </span><span class="caption-text"><em>Debuggers</em></span><a class="headerlink" href="#id50" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 252:  </span><span class="caption-text"><em>Debuggers</em></span><a class="headerlink" href="#id50" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id51">
 <img alt="../../../../../_images/app_dev_3.jpeg" src="../../../../../_images/app_dev_3.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 253:  </span><span class="caption-text"><em>Compilers</em></span><a class="headerlink" href="#id51" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 253:  </span><span class="caption-text"><em>Compilers</em></span><a class="headerlink" href="#id51" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id52">
 <img alt="../../../../../_images/app_dev_4.jpeg" src="../../../../../_images/app_dev_4.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 254:  </span><span class="caption-text"><em>Qt Versions</em></span><a class="headerlink" href="#id52" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 254:  </span><span class="caption-text"><em>Qt Versions</em></span><a class="headerlink" href="#id52" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id53">
 <img alt="../../../../../_images/app_dev_5.jpeg" src="../../../../../_images/app_dev_5.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 255:  </span><span class="caption-text"><em>Kits</em></span><a class="headerlink" href="#id53" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 255:  </span><span class="caption-text"><em>Kits</em></span><a class="headerlink" href="#id53" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -1671,13 +1641,13 @@ $<span class="w"> </span>sudo<span class="w">  </span>./mksdcard.sh<span class="
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="example-develop-a-helloworld-program">
-<h3 id="example-develop-a-helloworld-program">Example — Develop a <code class="docutils literal notranslate"><span class="pre">HelloWorld</span></code> Program<a class="headerlink" href="#example-develop-a-helloworld-program" title="Permalink to this heading">¶</a></h3>
+<h3 id="example-develop-a-helloworld-program">Example — Develop a <code class="docutils literal notranslate"><span class="pre">HelloWorld</span></code> Program<a class="headerlink" href="#example-develop-a-helloworld-program" title="Link to this heading">¶</a></h3>
 <ol class="arabic">
 <li><dl>
 <dt>Use QtCreator to create a new Qt Widgets Application, named <code class="docutils literal notranslate"><span class="pre">HelloWorld</span></code>, as shown on the figure below.</dt><dd><figure class="align-center" id="id54">
 <img alt="../../../../../_images/app_dev_6.jpeg" src="../../../../../_images/app_dev_6.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 256:  </span><span class="caption-text"><em>Qt Widgets Application</em></span><a class="headerlink" href="#id54" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 256:  </span><span class="caption-text"><em>Qt Widgets Application</em></span><a class="headerlink" href="#id54" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -1687,7 +1657,7 @@ $<span class="w"> </span>sudo<span class="w">  </span>./mksdcard.sh<span class="
 <dt>Select IMX kits, as shown on the figure below.</dt><dd><figure class="align-center" id="id55">
 <img alt="../../../../../_images/app_dev_7.jpeg" src="../../../../../_images/app_dev_7.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 257:  </span><span class="caption-text"><em>Kit Selection</em></span><a class="headerlink" href="#id55" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 257:  </span><span class="caption-text"><em>Kit Selection</em></span><a class="headerlink" href="#id55" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -1697,7 +1667,7 @@ $<span class="w"> </span>sudo<span class="w">  </span>./mksdcard.sh<span class="
 <dt>Use QMainWindow as the Base class, as shown on the figure below.</dt><dd><figure class="align-center" id="id56">
 <img alt="../../../../../_images/app_dev_8.jpeg" src="../../../../../_images/app_dev_8.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 258:  </span><span class="caption-text"><em>Base Class</em></span><a class="headerlink" href="#id56" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 258:  </span><span class="caption-text"><em>Base Class</em></span><a class="headerlink" href="#id56" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -1707,7 +1677,7 @@ $<span class="w"> </span>sudo<span class="w">  </span>./mksdcard.sh<span class="
 <dt>Click the <strong>Design</strong> icon to add one label widget, as shown on the figure below.</dt><dd><figure class="align-center" id="id57">
 <img alt="../../../../../_images/app_dev_9.jpeg" src="../../../../../_images/app_dev_9.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 259:  </span><span class="caption-text"><em>Add Label Widget</em></span><a class="headerlink" href="#id57" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 259:  </span><span class="caption-text"><em>Add Label Widget</em></span><a class="headerlink" href="#id57" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -1717,7 +1687,7 @@ $<span class="w"> </span>sudo<span class="w">  </span>./mksdcard.sh<span class="
 <dt>Click on the <strong>Build</strong> icon to build app, as shown on the figure below.</dt><dd><figure class="align-center" id="id58">
 <img alt="../../../../../_images/app_dev_10.jpeg" src="../../../../../_images/app_dev_10.jpeg"/>
 <figcaption>
-<p><span class="caption-number">Figure 260:  </span><span class="caption-text"><em>Build App</em></span><a class="headerlink" href="#id58" title="Permalink to this image">¶</a></p>
+<p><span class="caption-number">Figure 260:  </span><span class="caption-text"><em>Build App</em></span><a class="headerlink" href="#id58" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 </dd>
@@ -1737,10 +1707,10 @@ $<span class="w"> </span>sudo<span class="w">  </span>./mksdcard.sh<span class="
 </section>
 </section>
 <section id="q-a">
-<h2 id="q-a">Q&amp;A<a class="headerlink" href="#q-a" title="Permalink to this heading">¶</a></h2>
+<h2 id="q-a">Q&amp;A<a class="headerlink" href="#q-a" title="Link to this heading">¶</a></h2>
 <p>In this chapter, you can learn how to set up the QT development environment, and develop the first QT application on Chipsee IPC boards.</p>
 <section id="how-to-change-psplash-s">
-<h3 id="how-to-change-psplash-s">How to Change psplash’s<a class="headerlink" href="#how-to-change-psplash-s" title="Permalink to this heading">¶</a></h3>
+<h3 id="how-to-change-psplash-s">How to Change psplash’s<a class="headerlink" href="#how-to-change-psplash-s" title="Link to this heading">¶</a></h3>
 <ul>
 <li><dl>
 <dt>Install IMX SDK and some Packages. Reference the install SDK point under the <strong>Preparation</strong> section above to install IMX SDK and install some recommends packages using this command:</dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w">  </span>apt-get<span class="w">  </span>install<span class="w">  </span>autoconf<span class="w">  </span>libgdk-pixbuf2.0-dev
@@ -1805,13 +1775,13 @@ $<span class="w"> </span>make<span class="w">  </span>//<span class="w"> </span>
 </section>
 </section>
 <section id="disclaimer">
-<h2 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Permalink to this heading">¶</a></h2>
+<h2 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Link to this heading">¶</a></h2>
 <p><strong>This document is provided strictly for informational purposes. Its contents are subject to change without notice. Chipsee assumes no responsibility for any errors that may occur in this document. Furthermore, Chipsee reserves the right to alter the hardware, software, and/or specifications set forth herein at any time without prior notice and undertakes no obligation to update the information contained in this document.</strong></p>
 <p><strong>While every effort has been made to ensure the accuracy of the information contained herein, this document is not guaranteed to be error-free. Further, it does not offer any warranties or conditions, whether expressed orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular purpose. We specifically disclaim any liability with respect to this document, and no contractual obligations are formed either directly or indirectly by this document.</strong></p>
 <p><strong>Despite our best efforts to maintain the accuracy of the information in this document, we assume no responsibility for errors or omissions, nor for damages resulting from the use of the information herein. Please note that Chipsee products are not authorized for use as critical components in life support devices or systems.</strong></p>
 </section>
 <section id="technical-support">
-<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this heading">¶</a></h2>
+<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Link to this heading">¶</a></h2>
 <p>If you encounter any difficulties or have questions related to this document, we encourage you to refer to our other documentation for potential solutions. If you cannot find the solution you’re looking for, feel free to contact us. Please email Chipsee Technical Support at <a class="reference external" href="mailto:support%40chipsee.com"><strong>support<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information. We value your queries and suggestions and are committed to providing you with the assistance you require.</p>
 </section>
 </section>
@@ -1863,7 +1833,7 @@ $<span class="w"> </span>make<span class="w">  </span>//<span class="w"> </span>
               
           </div>
             Last updated on
-              Oct 17, 2026.
+              Oct 18, 2026.
             <br/>
         </div>
       </div>

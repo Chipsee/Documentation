@@ -6,21 +6,9 @@
 
 .. |product| replace:: PPC-CM4-133
 
-.. |productE| replace:: CS19108RA4133E
-
 .. |productP| replace:: CS19108RA4133P
 
 .. |PN| replace:: PN: CS19108RA4133
-
-.. |cur| replace:: 1.07A Max at 15V
-
-.. |pwr| replace:: 16W Typical
-
-.. |temp| replace:: From 0°C to +60°C
-
-.. |dim_desc| replace:: |dimP|
-
-.. |weight_desc| replace:: |weightP|
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-133/
 

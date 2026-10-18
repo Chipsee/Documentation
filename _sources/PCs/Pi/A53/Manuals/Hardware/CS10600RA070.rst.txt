@@ -18,34 +18,6 @@
 
 .. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |dimE| replace:: 190 x 107.8 x 27.7mm
-
-.. |dimP| replace:: 206 x 135 x 30.1mm
-
-.. |weightE| replace:: 400g
-
-.. |weightP| replace:: 700g
-
-.. |tscreen| replace:: 5-point capacitive touch
-
-.. |USB| replace:: 2 x USB 2.0 Host
-
-.. |LAN| replace:: 1 x Channel 100M LAN
-
-.. |GPIO| replace:: 8 Channels, 4 Input, 4 Output
-
-.. |opt1| replace:: Supported, not mounted by default
-
-.. |opt2| replace:: Onboard WiFi/BT
-
-.. |vin_rng| replace:: From 6V to 36V
-
-.. |cur| replace:: 700mA Max
-
-.. |pwr| replace:: 8.4W Typical
-
-.. |temp| replace:: From -20°C to +70°C
-
 .. _product_link: https://chipsee.com/
 
 .. |product_link| replace:: EPC/PPC-CM3-070
@@ -93,7 +65,7 @@
 Connectivity
 ============
 
-There are many connectivity options available on the |product| industrial Pi PC. It has |USB| (can be customized to Host or OTG), |LAN| (RJ45) Ethernet connector supporting up to
+There are many connectivity options available on the |product| industrial Pi PC. It has |spec:USB| (can be customized to Host or OTG), |spec:LAN| (RJ45) Ethernet connector supporting up to
 1 Gbps, and 2 x UART terminals (RS232/RS485).
 
 RS232/RS485
@@ -188,7 +160,7 @@ Mechanical Specifications
 |productE|
 ----------
 
-The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+The outer mechanical dimensions of |productE| are |spec:Dimensions:E| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
 .. figure:: /Media/Pi/A53/CS10600RA070/CS10600RA070E-TD.jpeg
@@ -199,7 +171,7 @@ product measurements.
 
 |productP|
 ----------
-For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+For |productP|, the outer mechanical dimensions are |spec:Dimensions:P| (W x L x H).
 
 :pagebreak:`True`
 

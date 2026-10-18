@@ -6,25 +6,9 @@
 
 .. |PN| replace:: PN: |product|
 
-.. |weight| replace:: 1200g
-
-.. |dim| replace:: 253.20 X 171.83 X 36mm
-
 .. |dispsize| replace:: 10.1"
 
 .. |res| replace:: 1280 x 800
-
-.. |bright| replace:: 350 |cd|
-
-.. |tscreen| replace:: Capacitive Touch Screen
-
-.. |viewing_angle| replace:: (H)160/(V)160
-
-.. |opt_1| replace:: Optional, module available from other manufacturers/stores
-
-.. |opt_2| replace:: Optional, module available from the Chipsee store
-
-.. |pwr| replace:: 16W
 
 .. |disp_des| replace:: |dispsize| capacitive touch screen with a resolution of |res| pixels
 

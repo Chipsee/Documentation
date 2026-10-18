@@ -14,23 +14,7 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |tscreen| replace:: 5-point capacitive touch screen with |glass_thickness| tempered glass
-
-.. |cap_screen_conn| replace:: FPC connector
-
-.. |disp_des| replace:: |dispsize| |tscreen| with a resolution of |res| pixels and a brightness of |bright|
-
-.. |disp_table_des| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
-
-.. |mounting_table| replace:: Panel, VESA
-
-.. |weightP| replace:: 610g
-
-.. |cur| replace:: 550mA Max at 15V, 300mA typical at 15V
-
-.. |pwr| replace:: 8.25W Max, 4W typical
-
-.. |temp| replace:: From -10°C to +60°C
+.. |disp_des| replace:: |dispsize| |spec:Touch| with a resolution of |res| pixels and a brightness of |bright|
 
 .. |vesa_screws| replace:: **75 x 75** mm, 4 x **M4** (6mm)
 

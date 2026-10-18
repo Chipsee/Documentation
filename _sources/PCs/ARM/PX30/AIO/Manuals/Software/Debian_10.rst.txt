@@ -2,7 +2,6 @@
 
 .. |systemType| replace:: Debian 10
 .. |chip| replace:: PX30
-.. |ipc| replace:: Chipsee industrial PC
 
 .. |rootfs_blk| replace:: **/dev/mmcblk2p8**
 

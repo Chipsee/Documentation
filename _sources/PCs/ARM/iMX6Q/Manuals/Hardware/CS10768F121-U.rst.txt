@@ -12,34 +12,6 @@
 
 .. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
 
-.. |dim| replace:: 359 x 274 x 23mm
-
-.. |weight| replace:: 4000g
-
-.. |RAM| replace:: 2GB DDR3
-
-.. |eMMC| replace:: 8GB
-
-.. |tscreen| replace:: Capacitive Multi-Point Touch Screen
-
-.. |USB| replace:: 2 x USB 2.0 HOST, 1 x USB OTG
-
-.. |LAN| replace:: 1 x Channel 1000Mbps LAN
-
-.. |GPIO| replace:: N/A
-
-.. |opt1| replace:: Optional, Not mounted by default
-
-.. |opt2| replace:: Integrated WiFi/BT Module
-
-.. |vin_rng| replace:: From 15V to 36V
-
-.. |cur| replace:: 2000mA Max
-
-.. |pwr| replace:: 10W Typical
-
-.. |temp| replace:: From -20°C to +70°C
-
 .. _product_link: https://chipsee.com/product/ppc-a9-121-u-c/
 
 .. |product_link| replace:: |product|
@@ -86,72 +58,11 @@ Optional Features
 
 .. include:: PPC_Resources/HW_features
 
-.. table:: Key Features
+.. spec-table::
+   :footnotes: RS485=at
    :align: center
    :width: 100%
    :widths: auto
-
-   +---------------------------------------------------------------------------------------+
-   | .. centered:: |product|                                                               |
-   +=========================+=============================================================+
-   | **CPU**                 | iMX6Q, |Arm| |Cortex|-A9, 1GHz                              |
-   +-------------------------+-------------------------------------------------------------+
-   | **RAM**                 | |RAM|                                                       |
-   +-------------------------+-------------------------------------------------------------+
-   | **eMMC**                | |eMMC|                                                      |
-   +-------------------------+-------------------------------------------------------------+
-   | **Storage**             | TF Card, Supports up to 32GB SDHC                           |
-   +-------------------------+-------------------------------------------------------------+
-   | **Display**             | |dispsize| LCD, |res|, High Brightness: 500|cd|             |
-   +-------------------------+-------------------------------------------------------------+
-   | **Touch**               | |tscreen|                                                   |
-   +-------------------------+-------------------------------------------------------------+
-   | **USB**                 | |USB|                                                       |
-   +-------------------------+-------------------------------------------------------------+
-   | **LAN**                 | |LAN|                                                       |
-   +-------------------------+-------------------------------------------------------------+
-   | **Audio**               | Mic input, 3.5mm Audio Out Connector, 2W Internal Speaker   |
-   +-------------------------+-------------------------------------------------------------+
-   | **Buzzer**              | Yes                                                         |
-   +-------------------------+-------------------------------------------------------------+
-   | **Camera**              | Yes, Front USB -500 ten thousand pixel                      |
-   +-------------------------+-------------------------------------------------------------+
-   | **Fingerprint**         | Zaz-070S                                                    |
-   +-------------------------+-------------------------------------------------------------+
-   | **RTC**                 | Yes, Powered by CR2032 Button Battery                       |
-   +-------------------------+-------------------------------------------------------------+
-   | **RS232**               | 4 x RS232                                                   |
-   +-------------------------+-------------------------------------------------------------+
-   | **RS485**               | 2 x RS485 (Optional)\ [#at]_                                |
-   +-------------------------+-------------------------------------------------------------+
-   | **CAN**                 | 2 x CAN (Optional)                                          |
-   +-------------------------+-------------------------------------------------------------+
-   | **GPIO**                | |GPIO|                                                      |
-   +-------------------------+-------------------------------------------------------------+
-   | **WiFi/BT**             | |opt2|                                                      |
-   +-------------------------+-------------------------------------------------------------+
-   | **HDMI**                | 1 x HDMI                                                    |
-   +-------------------------+-------------------------------------------------------------+
-   | **SATA**                | 1 x SATA II                                                 |
-   +-------------------------+-------------------------------------------------------------+
-   | **4G/LTE**              | |opt1|                                                      |
-   +-------------------------+-------------------------------------------------------------+
-   | **Power Input**         | |vin_rng|                                                   |
-   +-------------------------+-------------------------------------------------------------+
-   | **Current at 15V**      | |cur|                                                       |
-   +-------------------------+-------------------------------------------------------------+
-   | **Power Consumption**   | |pwr|                                                       |
-   +-------------------------+-------------------------------------------------------------+
-   | **Working Temperature** | |temp|                                                      |
-   +-------------------------+-------------------------------------------------------------+
-   | **OS**                  | Multiple Choices (`Operating System`_)                      |
-   +-------------------------+-------------------------------------------------------------+
-   | **Dimensions**          | |dim|                                                       |
-   +-------------------------+-------------------------------------------------------------+
-   | **Weight**              | |weight|                                                    |
-   +-------------------------+-------------------------------------------------------------+
-   | **Mounting**            | Panel & VESA                                                |
-   +-------------------------+-------------------------------------------------------------+
 
 -----
 
@@ -164,7 +75,7 @@ Optional Features
 Power Input
 ===========
 
-|Product| can be powered by a wide range of input voltages: |vin_rng| DC. The power input connector is a **3-pin, 3.81mm terminal**.
+|Product| can be powered by a wide range of input voltages: |spec:Power Input| DC. The power input connector is a **3-pin, 3.81mm terminal**.
 The polarity and the pinout is clearly marked on the housing of the product as shown on the figure below.
 
 .. Figure:: /Media/ARM/A9/CS10768F121-U/Power.jpeg
@@ -351,7 +262,7 @@ You can find detailed information about mounting in the |mguide|.
 Mechanical Specifications
 =========================
 
-The outer mechanical dimensions of |product| are |dim| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+The outer mechanical dimensions of |product| are |spec:Dimensions| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
 .. figure:: /Media/ARM/A9/CS10768F121-U/PPC-A9-121-U-C-TD.jpeg

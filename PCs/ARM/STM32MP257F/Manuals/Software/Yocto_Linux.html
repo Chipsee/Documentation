@@ -1,11 +1,10 @@
 
-
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" data-content_root="../../../../../">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -34,22 +33,21 @@
   
   
     <title>Yocto Linux OS &#8212; Chipsee</title>
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/material.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/css/material_custom.1f7cc54a.css" />
-    <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
-    <script src="../../../../../_static/jquery.js"></script>
-    <script src="../../../../../_static/underscore.js"></script>
-    <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="../../../../../_static/doctools.js"></script>
-    <script src="../../../../../_static/sphinx_highlight.js"></script>
-    <script src="../../../../../_static/clipboard.min.js"></script>
-    <script src="../../../../../_static/copybutton.js"></script>
-    <script src="../../../../../_static/design-tabs.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=83348fa5" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/material.css?v=79c92029" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/css/material_custom.1f7cc54a.css?v=ab886185" />
+    <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+    <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+    <script src="../../../../../_static/documentation_options.js?v=56dcb7b8"></script>
+    <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../../../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../../../../_static/design-tabs.js?v=f930bc37"></script>
     <link rel="canonical" href="https://chipsee.com/docs/PCs/ARM/STM32MP257F/Manuals/Software/Yocto_Linux.html" />
-    <link rel="shortcut icon" href="../../../../../_static/favicon.webp"/>
+    <link rel="icon" href="../../../../../_static/favicon.webp"/>
     <link rel="index" title="Index" href="../../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../../search.html" />
     
@@ -410,42 +408,13 @@
           </div>
         
         <div class="md-content">
-          <article class="md-content__inner md-typeset" role="main"><a class="md-content__button md-icon" style="margin:0;float:right;" href="Yocto_Linux_OS_on_STM32MP257F_User_Manual.pdf" download title="Download PDF"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="width:40px;height:40px;" viewBox="0 0 56 
-56"> <g><path style="fill:#E9E9E0;" d="M36.985,0H7.963C7.155,0,6.5,0.655,6.5,1.926V55c0,0.345,0.655,1,1.463,
-1h40.074 c0.808,0,1.463-0.655,1.463-1V12.978c0-0.696-0.093-0.92-0.257-1.085L37.607,0.257C37.442,0.093,37.218,0,
-36.985,0z"/> <polygon style="fill:#D9D7CA;" points="37.5,0.151 37.5,12 49.349,12 	"/> <path 
-style="fill:#CC4B4C;" d="M19.514,33.324L19.514,33.324c-0.348,0-0.682-0.113-0.967-0.326 
-c-1.041-0.781-1.181-1.65-1.115-2.242c0.182-1.628,2.195-3.332,5.985-5.068c1.504-3.296,2.935-7.357,3.788-10.75 
-c-0.998-2.172-1.968-4.99-1.261-6.643c0.248-0.579,0.557-1.023,1.134-1.215c0.228-0.076,0.804-0.172,1.016-0.172 
-c0.504,0,0.947,0.649,1.261,1.049c0.295,0.376,0.964,1.173-0.373,6.802c1.348,2.784,3.258,5.62,5.088,
-7.562 c1.311-0.237,2.439-0.358,3.358-0.358c1.566,0,2.515,0.365,2.902,1.117c0.32,0.622,0.189,1.349-0.39,
-2.16 c-0.557,0.779-1.325,1.191-2.22,1.191c-1.216,0-2.632-0.768-4.211-2.285c-2.837,0.593-6.15,1.651-8.828,
-2.822 c-0.836,1.774-1.637,3.203-2.383,4.251C21.273,32.654,20.389,33.324,19.514,33.324z M22.176,28.198 c-2.137,
-1.201-3.008,2.188-3.071,2.744c-0.01,0.092-0.037,0.334,0.431,0.692C19.685,31.587,20.555,31.19,22.176,
-28.198z M35.813,23.756c0.815,0.627,1.014,0.944,1.547,0.944c0.234,0,0.901-0.01,1.21-0.441c0.149-0.209,0.207-0.343,
-0.23-0.415 c-0.123-0.065-0.286-0.197-1.175-0.197C37.12,23.648,36.485,23.67,35.813,23.756z M28.343,17.174 c-0.715,
-2.474-1.659,5.145-2.674,7.564c2.09-0.811,4.362-1.519,6.496-2.02C30.815,21.15,29.466,19.192,28.343,
-17.174z M27.736,8.712c-0.098,0.033-1.33,1.757,0.096,3.216C28.781,9.813,27.779,8.698,27.736,8.712z"/> <path 
-style="fill:#CC4B4C;" d="M48.037,56H7.963C7.155,56,6.5,55.345,6.5,54.537V39h43v15.537C49.5,55.345,48.845,56,
-48.037,56z"/> <g><path style="fill:#FFFFFF;" d="M17.385,53h-1.641V42.924h2.898c0.428,0,0.852,0.068,1.271,
-0.205 c0.419,0.137,0.795,0.342,1.128,0.615c0.333,0.273,0.602,0.604,0.807,0.991s0.308,0.822,0.308,1.306 c0,
-0.511-0.087,0.973-0.26,1.388c-0.173,0.415-0.415,0.764-0.725,1.046c-0.31,0.282-0.684,0.501-1.121,0.656 s-0.921,
-0.232-1.449,0.232h-1.217V53z M17.385,44.168v3.992h1.504c0.2,0,0.398-0.034,0.595-0.103 c0.196-0.068,0.376-0.18,
-0.54-0.335c0.164-0.155,0.296-0.371,0.396-0.649c0.1-0.278,0.15-0.622,0.15-1.032 
-c0-0.164-0.023-0.354-0.068-0.567c-0.046-0.214-0.139-0.419-0.28-0.615c-0.142-0.196-0.34-0.36-0.595-0.492 
-c-0.255-0.132-0.593-0.198-1.012-0.198H17.385z"/> <path style="fill:#FFFFFF;" d="M32.219,47.682c0,0.829-0.089,
-1.538-0.267,2.126s-0.403,1.08-0.677,1.477s-0.581,0.709-0.923,0.937 s-0.672,0.398-0.991,0.513c-0.319,0.114-0.611,
-0.187-0.875,0.219C28.222,52.984,28.026,53,27.898,53h-3.814V42.924h3.035 c0.848,0,1.593,0.135,2.235,0.403s1.176,
-0.627,1.6,1.073s0.74,0.955,0.95,1.524C32.114,46.494,32.219,47.08,32.219,47.682z M27.352,51.797c1.112,0,
-1.914-0.355,2.406-1.066s0.738-1.741,0.738-3.09c0-0.419-0.05-0.834-0.15-1.244 
-c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-0.308h-0.957v7.629H27.352z"/> 
-<path style="fill:#FFFFFF;" d="M36.266,44.168v3.172h4.211v1.121h-4.211V53h-1.668V42.924H40.9v1.244H36.266z"/> 
-</g></g> </svg></a>
+          <article class="md-content__inner md-typeset" role="main">
             
-  <section id="systemtype-os">
-<span id="stmp25-os-yocto"></span><h1 id="pcs-arm-stm32mp257f-manuals-software-yocto-linux--page-root">Yocto Linux OS<a class="headerlink" href="#pcs-arm-stm32mp257f-manuals-software-yocto-linux--page-root" title="Permalink to this heading">¶</a></h1>
+  <a class="md-content__button md-icon pdf-download" download="" href="Yocto_Linux_OS_on_STM32MP257F_User_Manual.pdf" style="margin:0;float:right;" title="Download PDF"><img alt="Download PDF" height="40" src="../../../../../_static/images/pdf_download.svg" width="40"/></a><section id="systemtype-os">
+<span id="stmp25-os-yocto"></span><h1 id="pcs-arm-stm32mp257f-manuals-software-yocto-linux--page-root">Yocto Linux OS<a class="headerlink" href="#pcs-arm-stm32mp257f-manuals-software-yocto-linux--page-root" title="Link to this heading">¶</a></h1>
 <p class="fs-3 fw-bold text-center">Yocto Linux (OpenSTLinux) on STM32MP257F User Manual</p>
-<a class="reference internal image-reference" href="../../../../../_images/Chipsee_Logo_Full.png"><img alt="chipsee-logo" class="align-center" src="../../../../../_images/Chipsee_Logo_Full.png" style="width: 320px;"/></a>
+<a class="reference internal image-reference" href="../../../../../_images/Chipsee_Logo_Full.png"><img alt="chipsee-logo" class="align-center" src="../../../../../_images/Chipsee_Logo_Full.png" width="320"/>
+</a>
 <p>This is the software manual for STM32MP257F Chipsee industrial PC. If you’ve never developed on this hardware with a Yocto Linux OS, this manual can get you started quickly.</p>
 <p>Supported Chipsee PCs: all Chipsee STM32MP257F based industrial PCs, including but not limited to:</p>
 <ul class="simple">
@@ -469,7 +438,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </div>
 <p><p class="page-break" style="margin: 0"></p></p>
 <section id="system-information">
-<h2 id="system-information">System Information<a class="headerlink" href="#system-information" title="Permalink to this heading">¶</a></h2>
+<h2 id="system-information">System Information<a class="headerlink" href="#system-information" title="Link to this heading">¶</a></h2>
 <p class="rubric">Out of Box System</p>
 <table style="width: 100%">
 <thead>
@@ -507,10 +476,10 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="prepare-for-developing">
-<h2 id="prepare-for-developing">Prepare for Developing<a class="headerlink" href="#prepare-for-developing" title="Permalink to this heading">¶</a></h2>
+<h2 id="prepare-for-developing">Prepare for Developing<a class="headerlink" href="#prepare-for-developing" title="Link to this heading">¶</a></h2>
 <p>To get started, you first need to power on the Chipsee industrial PC, then you may want to connect to this PC from your own laptop or computer to control it. Let’s prepare some hardware and software to start developing.</p>
 <section id="prepare-the-hardware">
-<h3 id="prepare-the-hardware">Prepare the Hardware<a class="headerlink" href="#prepare-the-hardware" title="Permalink to this heading">¶</a></h3>
+<h3 id="prepare-the-hardware">Prepare the Hardware<a class="headerlink" href="#prepare-the-hardware" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>For products with a screen of 7” and BOX product, a power adapter between 9V ~ 30V DC output is required.</p></li>
 <li><p>For products with a screen of 10.1” or larger, you need a DC adapter with output between 15V ~ 30V.</p></li>
@@ -524,7 +493,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </ol>
 </section>
 <section id="prepare-the-software">
-<h3 id="prepare-the-software">Prepare the Software<a class="headerlink" href="#prepare-the-software" title="Permalink to this heading">¶</a></h3>
+<h3 id="prepare-the-software">Prepare the Software<a class="headerlink" href="#prepare-the-software" title="Link to this heading">¶</a></h3>
 <p><em>The software listed below are not mandatory, they’re recommendations because we find them easy to use:</em></p>
 <ol class="arabic simple">
 <li><p>To SSH into a Chipsee industrial PC, you may find <strong>PuTTY</strong> on Windows handy; for Linux and macOS users, a terminal app should come with your OS out of box, like <strong>Terminal/iTerm2</strong> on macOS and <strong>xterm</strong> on Linux.</p></li>
@@ -534,7 +503,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </section>
 </section>
 <section id="connect-to-the-device">
-<h2 id="connect-to-the-device">Connect to the Device<a class="headerlink" href="#connect-to-the-device" title="Permalink to this heading">¶</a></h2>
+<h2 id="connect-to-the-device">Connect to the Device<a class="headerlink" href="#connect-to-the-device" title="Link to this heading">¶</a></h2>
 <p>There are 2 ways to connect to the device from your workstation:</p>
 <ol class="arabic simple">
 <li><p>From <strong>Serial</strong> RS232 port</p></li>
@@ -542,15 +511,16 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </ol>
 <p>Let’s take a look at these connecting methods one by one.</p>
 <section id="connect-from-serial-port">
-<h3 id="connect-from-serial-port">Connect From Serial Port<a class="headerlink" href="#connect-from-serial-port" title="Permalink to this heading">¶</a></h3>
+<h3 id="connect-from-serial-port">Connect From Serial Port<a class="headerlink" href="#connect-from-serial-port" title="Link to this heading">¶</a></h3>
 <p>[ Cheatsheet for experienced developers: username is <strong>root</strong>, <strong>no</strong> password, pin is <strong>RS232_2</strong> ]</p>
 <p>By default serial debug is enabled, you don’t have to do anything to use the RS232_2 as a serial debug port.</p>
 <section id="connect-the-wire">
-<h4 id="connect-the-wire">Connect the Wire<a class="headerlink" href="#connect-the-wire" title="Permalink to this heading">¶</a></h4>
+<h4 id="connect-the-wire">Connect the Wire<a class="headerlink" href="#connect-the-wire" title="Link to this heading">¶</a></h4>
 <p>In our pre-built Yocto Linux OS, the RS232_2 serves as a serial debug port. We can connect a RS232 cable between the Chipsee industrial PC and our workstation, allowing us to control the Chipsee industrial PC from our workstation.</p>
 <p>To get started, you need a USB to serial cable, we will use a USB Type-C to DB-9 cable as an example, you can use a USB-A cable as well, you need to plug the USB end to your workstation, and the serial end to the Chipsee device.</p>
 <p>I will plug the USB Type-C port to a Mac (Windows and Linux work fine too), and then I would use three female to female dupont wires, to connect 3 of the DB-9 pins to GND and RS232_2 (RX and TX) pins of my Chipsee industrial PC.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/USB_Serial_Cable_ST.webp"><img alt="../../../../../_images/USB_Serial_Cable_ST.webp" class="text-center align-center" src="../../../../../_images/USB_Serial_Cable_ST.webp" style="width: 480px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/USB_Serial_Cable_ST.webp"><img alt="../../../../../_images/USB_Serial_Cable_ST.webp" class="align-center text-center" src="../../../../../_images/USB_Serial_Cable_ST.webp" width="480"/>
+</a>
 <p class="text-center"><em>Use a USB to Serial Cable to Connect the Chipsee Industrial PC with Your Workstation</em></p>
 <p>Take a look at the image below, this is the 10.1” product, if your product has a different screen size, check out the hardware document to find out which pins are RS232_2 TX and RX.</p>
 <div class="admonition note">
@@ -558,14 +528,16 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p>Each hardware doc has a “RS232/RS485/CAN” section, it lists which is the RS232_2 TX and RX in the image and the table of their respective docs. Find your model here (<a class="reference internal" href="../../../index-stm.html#pbstm"><span class="std std-ref">Industrial PCs Powered by STMicroelectronics</span></a>) and scroll to the “RS232/RS485/CAN” section to check out.</p>
 </div>
 <p>You should connect the DB-9’s RX to the device’s TX, and DB-9’s TX to the device’s RX, you should also connect their GNDs (the white wire).</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Serial_Connect_ST.webp"><img alt="../../../../../_images/Serial_Connect_ST.webp" class="text-center align-center" src="../../../../../_images/Serial_Connect_ST.webp" style="width: 480px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Serial_Connect_ST.webp"><img alt="../../../../../_images/Serial_Connect_ST.webp" class="align-center text-center" src="../../../../../_images/Serial_Connect_ST.webp" width="480"/>
+</a>
 <p class="text-center"><em>Connect 3 Pins with Dupont Wires (or with a phoenix connector)</em></p>
 </section>
 <section id="linux-and-macos">
-<h4 id="linux-and-macos">Linux and MacOS<a class="headerlink" href="#linux-and-macos" title="Permalink to this heading">¶</a></h4>
+<h4 id="linux-and-macos">Linux and MacOS<a class="headerlink" href="#linux-and-macos" title="Link to this heading">¶</a></h4>
 <ol class="arabic">
 <li><p>For <strong>MacOS and Linux</strong> users, you will need a program called <strong>screen</strong>. It should be already installed on most MacOS and Linux distributions(if the screen program is not installed on your computer, you can search how to install it, for example, “apt install screen” on Debian). Open your terminal and type <cite>screen -v</cite>. If the <em>screen</em> program is already installed in your computer, you should see a version number, like that in the image below:</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Screen_Program-1_ST.png"><img alt="../../../../../_images/Screen_Program-1_ST.png" class="text-center align-center" src="../../../../../_images/Screen_Program-1_ST.png" style="width: 480px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Screen_Program-1_ST.png"><img alt="../../../../../_images/Screen_Program-1_ST.png" class="align-center text-center" src="../../../../../_images/Screen_Program-1_ST.png" width="480"/>
+</a>
 <p class="text-center"><em>Confirm You Have the Screen Program (MacOS &amp; Linux)</em></p>
 </li>
 <li><p>Because the USB end of the cable is plugged into our workstation, we need to know which USB device it is in Linux/MacOS. We can find it out by testing:</p>
@@ -575,7 +547,8 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p>You might see many <em>tty</em> devices listed in your terminal, and cannot decide which is your USB to RS232 cable. Here is a tip: you can unplug the cable first, type the command to see what is listed in the OS. Then you plug it back in, and test again, to see what has recently appeared. The difference between the two should be your cable. In the image below, we found the <cite>/dev/tty.usbserial-10</cite> is our USB to RS232 cable.</p>
 </li>
 </ol>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Cable_Finding_ST.png"><img alt="../../../../../_images/Cable_Finding_ST.png" class="text-center align-center" src="../../../../../_images/Cable_Finding_ST.png" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Cable_Finding_ST.png"><img alt="../../../../../_images/Cable_Finding_ST.png" class="align-center text-center" src="../../../../../_images/Cable_Finding_ST.png" width="640"/>
+</a>
 <p class="text-center"><em>Find Out Which Device is Your USB to Serial Cable</em></p>
 <ol class="arabic" start="3">
 <li><p>You can put the device name you found to the screen program as an argument. To connect to the device (115200 is the default baud rate of the device):</p>
@@ -584,29 +557,33 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </div>
 </li>
 <li><p>You will see a blank screen, press Enter, you will be logged in with root.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Screen_Program-2_ST.webp"><img alt="../../../../../_images/Screen_Program-2_ST.webp" class="text-center align-center" src="../../../../../_images/Screen_Program-2_ST.webp" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Screen_Program-2_ST.webp"><img alt="../../../../../_images/Screen_Program-2_ST.webp" class="align-center text-center" src="../../../../../_images/Screen_Program-2_ST.webp" width="640"/>
+</a>
 <p class="text-center"><em>The Screen Program Connects Your Workstation to the Industrial PC’s Console</em></p>
 </li>
 <li><p>If you want to <strong>exit</strong> the screen program, you can press <cite>Ctrl+A</cite> then press <cite>K</cite>.</p>
 <p>The program will ask you if you want to kill this window, then press <cite>y</cite> to exit the program.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Screen_Program-3_ST.webp"><img alt="../../../../../_images/Screen_Program-3_ST.webp" class="text-center align-center" src="../../../../../_images/Screen_Program-3_ST.webp" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Screen_Program-3_ST.webp"><img alt="../../../../../_images/Screen_Program-3_ST.webp" class="align-center text-center" src="../../../../../_images/Screen_Program-3_ST.webp" width="640"/>
+</a>
 <p class="text-center"><em>Press “Ctrl + A” Follow by a “K” to Exit the Program</em></p>
 </li>
 </ol>
 </section>
 <section id="windows">
-<h4 id="windows">Windows<a class="headerlink" href="#windows" title="Permalink to this heading">¶</a></h4>
+<h4 id="windows">Windows<a class="headerlink" href="#windows" title="Link to this heading">¶</a></h4>
 <ol class="arabic">
 <li><p>For <strong>Windows</strong> users, you don’t need to install a specific “driver” kind of thing for Windows to recognize a Chipsee PC, but before proceeding, you should see a COM port appear/disappear when plug/unplug your USB to serial cable in Windows.</p>
 <p>Most USB to serial cables don’t require driver installation on Windows10/11. But if you find your cable isn’t recognizable by Windows, try checking the cable’s manufacturer’s website to learn more about it. Most of the time, simply doing a Windows update should do the trick, Windows can detect the cable’s USB driver and install it for you.</p>
 </li>
 <li><p>You could install a program called <strong>PuTTY</strong> (or XShell etc), here is a link to download the software: <a class="reference external" href="https://www.putty.org/">https://www.putty.org/</a>. If you’re comfortable with other clients other than PuTTY, you can use those as well.</p></li>
 <li><p>With PuTTY in your belt, let’s find out which COM port your USB to RS232 cable is using. One tip is to check the <em>Microsoft Windows Device Manager</em> (right click Windows icon, select Device Manager). Check which COM port appears/disappears when you plug/unplug the USB to serial cable. And that COM port device should be your USB to RS232 cable. Keep a note of the COM port your serial cable is using, let’s say it’s “your-com”, or “COM3” in this example.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/serial-2.png"><img alt="../../../../../_images/serial-2.png" class="text-center align-center" src="../../../../../_images/serial-2.png" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/serial-2.png"><img alt="../../../../../_images/serial-2.png" class="align-center text-center" src="../../../../../_images/serial-2.png" width="640"/>
+</a>
 <p class="text-center"><em>COM3 is the USB to Serial Cable</em></p>
 </li>
 <li><p>Open the PuTTY program, select <strong>Session</strong>, choose <strong>Serial</strong> in the radio buttons, and fill the COM port(your-com, or <strong>COM3</strong> in this example) you found in the Microsoft Windows Device Manager, and choose <strong>115200</strong> as baud rate, then click <strong>Open</strong>.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/serial-1.png"><img alt="../../../../../_images/serial-1.png" class="text-center align-center" src="../../../../../_images/serial-1.png" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/serial-1.png"><img alt="../../../../../_images/serial-1.png" class="align-center text-center" src="../../../../../_images/serial-1.png" width="640"/>
+</a>
 <p class="text-center"><em>Input your-com in the Serial Line field, in our case COM3</em></p>
 </li>
 <li><p>Now you should be able to connect from your workstation to the device through the serial port. You can hit Enter, then you should be logged in with root user:</p>
@@ -619,13 +596,14 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </section>
 </section>
 <section id="connect-from-network-ssh">
-<h3 id="connect-from-network-ssh">Connect From Network (SSH)<a class="headerlink" href="#connect-from-network-ssh" title="Permalink to this heading">¶</a></h3>
+<h3 id="connect-from-network-ssh">Connect From Network (SSH)<a class="headerlink" href="#connect-from-network-ssh" title="Link to this heading">¶</a></h3>
 <p><em>[Cheatsheet for experienced developers: username: root, no password]</em></p>
 <p>By default SSH is enabled.</p>
 <p>You can SSH to the device when it’s connected to the network, either through Wi-Fi or Ethernet.</p>
 <p>First make sure you’re connected through WiFi or Ethernet (to learn how, jump to the Network section below. Ethernet can be automatically detected, WiFi needs some configuration).</p>
 <p>Then you can check the IP address with <strong>ifconfig</strong>, Ethernet is <strong>endX</strong>, in the image below, it’s <strong>end1</strong> (on 10.1” or larger variants is end1, on 7” variant is end1/end2):</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Ifconfig_ST.webp"><img alt="../../../../../_images/Ifconfig_ST.webp" class="text-center align-center" src="../../../../../_images/Ifconfig_ST.webp" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Ifconfig_ST.webp"><img alt="../../../../../_images/Ifconfig_ST.webp" class="align-center text-center" src="../../../../../_images/Ifconfig_ST.webp" width="640"/>
+</a>
 <p class="text-center"><em>Check IP with ifconfig</em></p>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span>root@stm32mp2:~# ifconfig
 <span class="hll"><span class="linenos"> 2</span>end1      Link encap:Ethernet  HWaddr 5A:B9:32:40:FD:B8
@@ -665,7 +643,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p><strong>Your-ip</strong> of end1(wired) and wlan0(wireless) will be displayed. In the case above the IP address is 192.168.50.123 through <strong>end1</strong>.</p>
 <p>Then we can ssh from our workstation with this IP address.</p>
 <section id="linux-macos">
-<h4 id="linux-macos">Linux / MacOS<a class="headerlink" href="#linux-macos" title="Permalink to this heading">¶</a></h4>
+<h4 id="linux-macos">Linux / MacOS<a class="headerlink" href="#linux-macos" title="Link to this heading">¶</a></h4>
 <p>For Linux and MacOS users, you can use your terminal and type:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ssh<span class="w"> </span>root@your-ip
 <span class="c1"># In our case, your-ip is 192.168.50.123</span>
@@ -673,13 +651,15 @@ ssh<span class="w"> </span>root@192.168.50.123
 </pre></div>
 </div>
 <p>The username is root, and no password.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/SSH_Connect-1_ST.webp"><img alt="../../../../../_images/SSH_Connect-1_ST.webp" class="text-center align-center" src="../../../../../_images/SSH_Connect-1_ST.webp" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/SSH_Connect-1_ST.webp"><img alt="../../../../../_images/SSH_Connect-1_ST.webp" class="align-center text-center" src="../../../../../_images/SSH_Connect-1_ST.webp" width="640"/>
+</a>
 <p class="text-center"><em>SSH with your-ip</em></p>
 </section>
 <section id="id1">
-<h4 id="id1">Windows<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h4>
+<h4 id="id1">Windows<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h4>
 <p>For Windows users using PuTTY, you can choose Session, input <strong>username@your-ip</strong> (in our case <em>root@192.168.50.123</em>, yours should be different) in the Host Name field. Port Number should remain 22, choose SSH as the connection type in the radio buttons, click “Open”. There is no password by default.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/ssh-2.png"><img alt="../../../../../_images/ssh-2.png" class="text-center align-center" src="../../../../../_images/ssh-2.png" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/ssh-2.png"><img alt="../../../../../_images/ssh-2.png" class="align-center text-center" src="../../../../../_images/ssh-2.png" width="640"/>
+</a>
 <p class="text-center"><em>Input username@your-ip in the Host Name field, in our case root@192.168.50.123</em></p>
 <p>Now you have connected to the device through the network.</p>
 <p><p class="page-break" style="margin: 0"></p></p>
@@ -687,9 +667,9 @@ ssh<span class="w"> </span>root@192.168.50.123
 </section>
 </section>
 <section id="system-resources">
-<h2 id="system-resources">System Resources<a class="headerlink" href="#system-resources" title="Permalink to this heading">¶</a></h2>
+<h2 id="system-resources">System Resources<a class="headerlink" href="#system-resources" title="Link to this heading">¶</a></h2>
 <section id="sd-card">
-<h3 id="sd-card">SD Card<a class="headerlink" href="#sd-card" title="Permalink to this heading">¶</a></h3>
+<h3 id="sd-card">SD Card<a class="headerlink" href="#sd-card" title="Link to this heading">¶</a></h3>
 <p>When a micro SD card (TF card) is inserted to the device, it will appear as <strong>mmcblk0</strong>, you can check it by <strong>lsblk</strong>, note the last line <strong>mmcblk0      179:96   0 29.7G  0 disk</strong> is the 32GB SD card:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="hll"><span class="linenos"> 1</span>root@stm32mp2:~#<span class="w"> </span>lsblk
 </span><span class="linenos"> 2</span>
@@ -817,7 +797,7 @@ ssh<span class="w"> </span>root@192.168.50.123
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="usb-flash-drive">
-<h3 id="usb-flash-drive">USB Flash Drive<a class="headerlink" href="#usb-flash-drive" title="Permalink to this heading">¶</a></h3>
+<h3 id="usb-flash-drive">USB Flash Drive<a class="headerlink" href="#usb-flash-drive" title="Link to this heading">¶</a></h3>
 <p>USB flash drive on the USB ports will be automatically detected on <strong>/dev/sdX</strong> (X is the usually a/b, e.g. /dev/sda or /dev/sdb, depending on the order it is inserted), you can check it with <strong>lsblk</strong>:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="hll"><span class="linenos"> 1</span>root@stm32mp2:~#<span class="w"> </span>lsblk
 </span><span class="linenos"> 2</span>NAME<span class="w">         </span>MAJ:MIN<span class="w"> </span>RM<span class="w">  </span>SIZE<span class="w"> </span>RO<span class="w"> </span>TYPE<span class="w"> </span>MOUNTPOINTS
@@ -863,7 +843,7 @@ ssh<span class="w"> </span>root@192.168.50.123
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="backlight">
-<h3 id="backlight">Backlight<a class="headerlink" href="#backlight" title="Permalink to this heading">¶</a></h3>
+<h3 id="backlight">Backlight<a class="headerlink" href="#backlight" title="Link to this heading">¶</a></h3>
 <p>You can use the following commands to turn on / turn off the backlight:</p>
 <ul>
 <li><dl>
@@ -890,7 +870,7 @@ ssh<span class="w"> </span>root@192.168.50.123
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="led">
-<h3 id="led">LED<a class="headerlink" href="#led" title="Permalink to this heading">¶</a></h3>
+<h3 id="led">LED<a class="headerlink" href="#led" title="Link to this heading">¶</a></h3>
 <p>There is a red LED beside power input port, you can control the LED by writing a file:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Turn on the red LED</span>
 <span class="hll"><span class="nb">echo</span><span class="w"> </span><span class="m">1</span><span class="w"> </span>&gt;<span class="w"> </span>/sys/class/leds/red:heartbeat/brightness
@@ -907,11 +887,11 @@ ssh<span class="w"> </span>root@192.168.50.123
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="buzzer">
-<h3 id="buzzer">Buzzer<a class="headerlink" href="#buzzer" title="Permalink to this heading">¶</a></h3>
+<h3 id="buzzer">Buzzer<a class="headerlink" href="#buzzer" title="Link to this heading">¶</a></h3>
 <p>The Chipsee industrial PC has one buzzer.</p>
 <p>Refer to the tables below for a detailed port definition:</p>
 <table id="id4" style="width: 100%">
-<caption><span class="caption-text">Buzzer Device Node</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-text">Buzzer Device Node</span><a class="headerlink" href="#id4" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Definition</p></th>
 <th class="head"><p>GPIO</p></th>
@@ -952,13 +932,13 @@ $<span class="w"> </span><span class="si">${</span><span class="nv">CC</span><sp
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="serial-port-rs232-and-rs485">
-<h3 id="serial-port-rs232-and-rs485">Serial Port RS232 and RS485<a class="headerlink" href="#serial-port-rs232-and-rs485" title="Permalink to this heading">¶</a></h3>
+<h3 id="serial-port-rs232-and-rs485">Serial Port RS232 and RS485<a class="headerlink" href="#serial-port-rs232-and-rs485" title="Link to this heading">¶</a></h3>
 <p>Check the table below of the RS232/RS485 pin definition to wire your ports:</p>
 <p><strong>7 inch / Box products</strong></p>
 <ul>
 <li><p>PPC-A35-070 (PN: CS10600-STMP25-070P)</p>
 <table id="id5" style="width: 100%">
-<caption><span class="caption-text">RS232 / RS485 / CAN Pin Definition for 7inch/Box products</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-text">RS232 / RS485 / CAN Pin Definition for 7inch/Box products</span><a class="headerlink" href="#id5" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p><strong>Pin Number</strong></p></th>
 <th class="head"><p><strong>Definition</strong></p></th>
@@ -1056,9 +1036,10 @@ $<span class="w"> </span><span class="si">${</span><span class="nv">CC</span><sp
 <li><p>PPC-A35-101 (PN: CS12800-STMP25-101P)</p></li>
 <li><p>PPC-A35-133 (PN: CS19108-STMP25-133P)</p></li>
 <li><p>PPC-A35-156 (PN: CS19108-STMP25-156P)</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/CS12800-STMP25-101P-RS232-RS485-CAN.jpg"><img alt="../../../../../_images/CS12800-STMP25-101P-RS232-RS485-CAN.jpg" class="text-center align-center" src="../../../../../_images/CS12800-STMP25-101P-RS232-RS485-CAN.jpg" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/CS12800-STMP25-101P-RS232-RS485-CAN.jpg"><img alt="../../../../../_images/CS12800-STMP25-101P-RS232-RS485-CAN.jpg" class="align-center text-center" src="../../../../../_images/CS12800-STMP25-101P-RS232-RS485-CAN.jpg" width="960"/>
+</a>
 <table id="id6" style="width: 100%">
-<caption><span class="caption-text">RS232 / RS485 / CAN Pin Definition for 10.1 inch and above products</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-text">RS232 / RS485 / CAN Pin Definition for 10.1 inch and above products</span><a class="headerlink" href="#id6" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p><strong>Pin Number</strong></p></th>
 <th class="head"><p><strong>Definition</strong></p></th>
@@ -1146,7 +1127,7 @@ $<span class="w"> </span><span class="si">${</span><span class="nv">CC</span><sp
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="controller-area-network-can">
-<h3 id="controller-area-network-can">Controller Area Network (CAN)<a class="headerlink" href="#controller-area-network-can" title="Permalink to this heading">¶</a></h3>
+<h3 id="controller-area-network-can">Controller Area Network (CAN)<a class="headerlink" href="#controller-area-network-can" title="Link to this heading">¶</a></h3>
 <p>To use CAN, you must add one 120Ω resistor between CAN_H and CAN_L on one of the two devices, as shown in the figure below.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -1155,7 +1136,7 @@ $<span class="w"> </span><span class="si">${</span><span class="nv">CC</span><sp
 <figure class="align-center" id="id7">
 <img alt="../../../../../_images/CAN.jpeg" src="../../../../../_images/CAN.jpeg"/>
 <figcaption>
-<p><span class="caption-text"><em>Connecting CAN</em></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p><span class="caption-text"><em>Connecting CAN</em></span><a class="headerlink" href="#id7" title="Link to this image">¶</a></p>
 </figcaption>
 </figure>
 <p><strong>7 inch product</strong></p>
@@ -1163,7 +1144,7 @@ $<span class="w"> </span><span class="si">${</span><span class="nv">CC</span><sp
 <li><p>PPC-A35-070 (PN: CS10600-STMP25-070P)</p></li>
 </ul>
 <table id="id8" style="width: 100%">
-<caption><span class="caption-text">CAN for <strong>7 inch</strong> product</span><a class="headerlink" href="#id8" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-text">CAN for <strong>7 inch</strong> product</span><a class="headerlink" href="#id8" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p><strong>Pin Number</strong></p></th>
 <th class="head"><p><strong>Definition</strong></p></th>
@@ -1201,7 +1182,7 @@ $<span class="w"> </span><span class="si">${</span><span class="nv">CC</span><sp
 <li><p>PPC-A35-156 (PN: CS19108-STMP25-156P)</p></li>
 </ul>
 <table id="id9" style="width: 100%">
-<caption><span class="caption-text">CAN for <strong>10.1+ inch</strong> products</span><a class="headerlink" href="#id9" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-text">CAN for <strong>10.1+ inch</strong> products</span><a class="headerlink" href="#id9" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p><strong>Pin Number</strong></p></th>
 <th class="head"><p><strong>Definition</strong></p></th>
@@ -1275,12 +1256,13 @@ can0<span class="w">  </span>5A1<span class="w">   </span><span class="o">[</spa
 can0<span class="w">  </span>1F334455<span class="w">   </span><span class="o">[</span><span class="m">8</span><span class="o">]</span><span class="w">  </span><span class="m">11</span><span class="w"> </span><span class="m">22</span><span class="w"> </span><span class="m">33</span><span class="w"> </span><span class="m">44</span><span class="w"> </span><span class="m">55</span><span class="w"> </span><span class="m">66</span><span class="w"> </span><span class="m">77</span><span class="w"> </span><span class="m">88</span>
 </pre></div>
 </div>
-<a class="text-center reference internal image-reference" href="../../../../../_images/CAN_ST.webp"><img alt="../../../../../_images/CAN_ST.webp" class="text-center align-center" src="../../../../../_images/CAN_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/CAN_ST.webp"><img alt="../../../../../_images/CAN_ST.webp" class="align-center text-center" src="../../../../../_images/CAN_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>CAN0 and CAN1 Talk to Each Other</em></p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="gpio">
-<h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permalink to this heading">¶</a></h3>
+<h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Link to this heading">¶</a></h3>
 <p>There are 8 GPIOs, 4 Output, and 4 Input, they are all optical isolated. You can control the output or input pin voltage by feeding the VDD_ISO voltage. The pin voltage should be from 5V to 24V. You should use an external reliable power supply for the VDD_ISO and GND_ISO.</p>
 <p>We <strong>don’t</strong> recommend testing GPIO with the onboard +5V/GND (wiring the +5V to VDD_ISO and wiring GND to GND_ISO), in most cases we recommend using an external power source for VDD_ISO and GND_ISO.</p>
 <p>For:</p>
@@ -1298,7 +1280,7 @@ can0<span class="w">  </span>1F334455<span class="w">   </span><span class="o">[
 </ul>
 <p>Refer to the tables below for a detailed port definition:</p>
 <table id="id10" style="width: 100%">
-<caption><span class="caption-text">GPIO Device Node</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-text">GPIO Device Node</span><a class="headerlink" href="#id10" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Definition</p></th>
 <th class="head"><p>GPIO</p></th>
@@ -1396,7 +1378,7 @@ $<span class="w"> </span><span class="si">${</span><span class="nv">CC</span><sp
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="bluetooth">
-<h3 id="bluetooth">Bluetooth<a class="headerlink" href="#bluetooth" title="Permalink to this heading">¶</a></h3>
+<h3 id="bluetooth">Bluetooth<a class="headerlink" href="#bluetooth" title="Link to this heading">¶</a></h3>
 <p>For more information check the official OpenSTLinux Wiki: <a class="reference external" href="https://wiki.st.com/stm32mpu/wiki/Category:Bluetooth">https://wiki.st.com/stm32mpu/wiki/Category:Bluetooth</a></p>
 <p>First check if Bluetooth is enabled:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="hll">root@stm32mp2:~#<span class="w"> </span>hciconfig<span class="w"> </span>-a
@@ -1499,7 +1481,7 @@ C9:C8:8C:B1:E6:B3<span class="w"> </span><span class="o">(</span>unknown<span cl
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="gps">
-<h3 id="gps">GPS<a class="headerlink" href="#gps" title="Permalink to this heading">¶</a></h3>
+<h3 id="gps">GPS<a class="headerlink" href="#gps" title="Link to this heading">¶</a></h3>
 <p>If your product shipped with a GPS module, and a GPS antenna, you can enable the GPS function.</p>
 <p>You can  use GPS from command line.</p>
 <p>Test the GPS function as follows, first, you listen to the GPS info serial port (/dev/ttyUSB1), then, you send AT commands to AT serial port (/dev/ttyUSB2). Finally, GPS information should appear on the info port. This means you will need two terminals opened, one for listening and the other for sending.</p>
@@ -1522,13 +1504,14 @@ AT+QGPS<span class="o">=</span><span class="m">1</span><span class="w"> </span><
 AT+QGPSEND<span class="w"> </span><span class="c1"># disable GPS</span>
 </pre></div>
 </div>
-<a class="text-center reference internal image-reference" href="../../../../../_images/GPS_ST.png"><img alt="../../../../../_images/GPS_ST.png" class="text-center align-center" src="../../../../../_images/GPS_ST.png" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/GPS_ST.png"><img alt="../../../../../_images/GPS_ST.png" class="align-center text-center" src="../../../../../_images/GPS_ST.png" width="960"/>
+</a>
 <p class="text-center"><em>Left: /dev/ttyUSB1 GPS Port, Right: /dev/ttyUSB2 AT Port</em></p>
 </section>
 <section id="audio">
-<h3 id="audio">Audio<a class="headerlink" href="#audio" title="Permalink to this heading">¶</a></h3>
+<h3 id="audio">Audio<a class="headerlink" href="#audio" title="Link to this heading">¶</a></h3>
 <section id="audio-card-in-os">
-<h4 id="audio-card-in-os">Audio Card in OS<a class="headerlink" href="#audio-card-in-os" title="Permalink to this heading">¶</a></h4>
+<h4 id="audio-card-in-os">Audio Card in OS<a class="headerlink" href="#audio-card-in-os" title="Link to this heading">¶</a></h4>
 <p>We will use <strong>aplay</strong> to play audio, first we need to check which audio card we need to use.</p>
 <p>The audio card in the device is <strong>ES8388</strong>, first check it with <strong>aplay -l</strong> (lower case “l”):</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="hll"><span class="linenos">1</span><span class="w"> </span>root@stm32mp2:~#<span class="w"> </span>aplay<span class="w"> </span>-l
@@ -1543,7 +1526,7 @@ AT+QGPSEND<span class="w"> </span><span class="c1"># disable GPS</span>
 <p>The audio card is <strong>sysdefault:CARD=ES8388</strong> in this case.</p>
 </section>
 <section id="audio-playing">
-<h4 id="audio-playing">Audio Playing<a class="headerlink" href="#audio-playing" title="Permalink to this heading">¶</a></h4>
+<h4 id="audio-playing">Audio Playing<a class="headerlink" href="#audio-playing" title="Link to this heading">¶</a></h4>
 <p>By default the device plays audio from its integrated speaker. To play an audio file:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># name based</span>
 aplay<span class="w"> </span>-D<span class="w"> </span>sysdefault:CARD<span class="o">=</span>ES8388<span class="w"> </span>/opt/hardware/test/multimedias/AudioTest.wav
@@ -1573,7 +1556,7 @@ pactl<span class="w"> </span>set-sink-volume<span class="w"> </span>@DEFAULT_SIN
 </div>
 </section>
 <section id="audio-recording">
-<h4 id="audio-recording">Audio Recording<a class="headerlink" href="#audio-recording" title="Permalink to this heading">¶</a></h4>
+<h4 id="audio-recording">Audio Recording<a class="headerlink" href="#audio-recording" title="Link to this heading">¶</a></h4>
 <p>You can use the 3.5mm audio jack to connect an external microphone for audio recording.</p>
 <p>The default recording device is <strong>sysdefault:CARD=ES8388</strong></p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="c1"># You can learn more about the options of arecord with</span>
@@ -1590,7 +1573,7 @@ pactl<span class="w"> </span>set-sink-volume<span class="w"> </span>@DEFAULT_SIN
 </section>
 </section>
 <section id="video">
-<h3 id="video">Video<a class="headerlink" href="#video" title="Permalink to this heading">¶</a></h3>
+<h3 id="video">Video<a class="headerlink" href="#video" title="Link to this heading">¶</a></h3>
 <p>To play a video:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># gst-play-1.0 path-to-your-video-file</span>
 <span class="c1"># volume is from 0.0~1.0, 0.0 is silent, 1.0 is unchanged</span>
@@ -1604,14 +1587,14 @@ gst-launch-1.0<span class="w"> </span>playbin<span class="w"> </span><span class
 </section>
 </section>
 <section id="network">
-<h2 id="network">Network<a class="headerlink" href="#network" title="Permalink to this heading">¶</a></h2>
+<h2 id="network">Network<a class="headerlink" href="#network" title="Link to this heading">¶</a></h2>
 <p>You can refer to the official ST wiki to learn more about setting up:</p>
 <ul class="simple">
 <li><p>WiFi: <a class="reference external" href="https://wiki.st.com/stm32mpu/wiki/WLAN_overview">https://wiki.st.com/stm32mpu/wiki/WLAN_overview</a></p></li>
 <li><p>Ethernet: <a class="reference external" href="https://wiki.st.com/stm32mpu/wiki/How_to_configure_ethernet_interface">https://wiki.st.com/stm32mpu/wiki/How_to_configure_ethernet_interface</a></p></li>
 </ul>
 <section id="wifi">
-<h3 id="wifi">WiFi<a class="headerlink" href="#wifi" title="Permalink to this heading">¶</a></h3>
+<h3 id="wifi">WiFi<a class="headerlink" href="#wifi" title="Link to this heading">¶</a></h3>
 <p>Scan WiFi SSID manually <cite>iw dev wlan0 scan | grep SSID</cite>:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="hll"><span class="linenos">1</span>root@stm32mp2:~#<span class="w"> </span>ifconfig<span class="w"> </span>wlan0<span class="w"> </span>up
 </span><span class="linenos">2</span>
@@ -1693,7 +1676,7 @@ root@stm32mp2:~#<span class="w"> </span>rfkill<span class="w"> </span>list
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="ethernet">
-<h3 id="ethernet">Ethernet<a class="headerlink" href="#ethernet" title="Permalink to this heading">¶</a></h3>
+<h3 id="ethernet">Ethernet<a class="headerlink" href="#ethernet" title="Link to this heading">¶</a></h3>
 <p>When Ethernet cable is plugged in, it will be automatically configured for use, it will obtain an IP automatically from DHCP.</p>
 <p><strong>end1</strong> is the interface of 10.1+ inch products.</p>
 <p><strong>end1</strong>, <strong>end2</strong> are the interfaces of 7 inch product.</p>
@@ -1721,9 +1704,9 @@ root@stm32mp2:~#<span class="w"> </span>rfkill<span class="w"> </span>list
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="setting-static-ip">
-<h3 id="setting-static-ip">Setting Static IP<a class="headerlink" href="#setting-static-ip" title="Permalink to this heading">¶</a></h3>
+<h3 id="setting-static-ip">Setting Static IP<a class="headerlink" href="#setting-static-ip" title="Link to this heading">¶</a></h3>
 <section id="id2">
-<h4 id="id2">WiFi<a class="headerlink" href="#id2" title="Permalink to this heading">¶</a></h4>
+<h4 id="id2">WiFi<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h4>
 <p>If you are using WiFi with the <strong>/lib/systemd/network/51-wireless.network</strong> file as configuration file, open it, update it to:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">[</span>Match<span class="o">]</span>
 <span class="nv">Name</span><span class="o">=</span>wlan0
@@ -1740,7 +1723,7 @@ root@stm32mp2:~#<span class="w"> </span>rfkill<span class="w"> </span>list
 </div>
 </section>
 <section id="id3">
-<h4 id="id3">Ethernet<a class="headerlink" href="#id3" title="Permalink to this heading">¶</a></h4>
+<h4 id="id3">Ethernet<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h4>
 <p>If you are using Ethernet with the <strong>/lib/systemd/network/80-wired.network</strong> file as configuration file, open it, remove [DHCP] section, update the [network] section, like:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">[</span>Match<span class="o">]</span>
 <span class="nv">Type</span><span class="o">=</span>ether
@@ -1761,7 +1744,7 @@ root@stm32mp2:~#<span class="w"> </span>rfkill<span class="w"> </span>list
 </div>
 </section>
 <section id="revert-to-dhcp">
-<h4 id="revert-to-dhcp">Revert to DHCP<a class="headerlink" href="#revert-to-dhcp" title="Permalink to this heading">¶</a></h4>
+<h4 id="revert-to-dhcp">Revert to DHCP<a class="headerlink" href="#revert-to-dhcp" title="Link to this heading">¶</a></h4>
 <p>To reverse to using <strong>DHCP</strong>:</p>
 <p>WiFi - /lib/systemd/network/51-wireless.network:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">[</span>Match<span class="o">]</span>
@@ -1790,7 +1773,7 @@ root@stm32mp2:~#<span class="w"> </span>rfkill<span class="w"> </span>list
 </section>
 </section>
 <section id="g-lte">
-<h3 id="g-lte">4G/LTE<a class="headerlink" href="#g-lte" title="Permalink to this heading">¶</a></h3>
+<h3 id="g-lte">4G/LTE<a class="headerlink" href="#g-lte" title="Link to this heading">¶</a></h3>
 <p>For products shipped with a 4G/LTE module, you can use Chipsee <em>hardwaretest</em> program and the <strong>quectel-CM</strong> tool to configure 4G/LTE network.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -1798,7 +1781,8 @@ root@stm32mp2:~#<span class="w"> </span>rfkill<span class="w"> </span>list
 </div>
 <p>In the Chipsee <em>hardware test</em> program, there is a <strong>4G Enable</strong> button, you can test the 4G function with this first. Then you can click “Netinfo” button, or “Refresh” button to check the 4G/LTE status.</p>
 <p>To connect with an APN, there are 3 pre-configured APN profiles, 3gnet/ctnet/cmnet, and a “custom” that you can configure yourself.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/4G_1_ST.jpg"><img alt="../../../../../_images/4G_1_ST.jpg" class="text-center align-center" src="../../../../../_images/4G_1_ST.jpg" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/4G_1_ST.jpg"><img alt="../../../../../_images/4G_1_ST.jpg" class="align-center text-center" src="../../../../../_images/4G_1_ST.jpg" width="960"/>
+</a>
 <p class="text-center"><em>4G/LTE Hardware Test Program</em></p>
 <p>The Yocto Linux system pre-installed <strong>quectel-CM</strong> command, check available commands of <strong>quectel-CM</strong> and help:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>quectel-CM<span class="w"> </span>--help
@@ -1809,25 +1793,27 @@ root@stm32mp2:~#<span class="w"> </span>rfkill<span class="w"> </span>list
 </pre></div>
 </div>
 <p>The program should acquire an IP address from your carrier automatically.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/4G_2_ST.jpg"><img alt="../../../../../_images/4G_2_ST.jpg" class="text-center align-center" src="../../../../../_images/4G_2_ST.jpg" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/4G_2_ST.jpg"><img alt="../../../../../_images/4G_2_ST.jpg" class="align-center text-center" src="../../../../../_images/4G_2_ST.jpg" width="960"/>
+</a>
 <p class="text-center"><em>Connecting 4G/LTE Through Command Line</em></p>
 <p>You can then ping an IP address to check you’re connected, such as ping the chipsee.com:</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/4G_3_ST.jpg"><img alt="../../../../../_images/4G_3_ST.jpg" class="text-center align-center" src="../../../../../_images/4G_3_ST.jpg" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/4G_3_ST.jpg"><img alt="../../../../../_images/4G_3_ST.jpg" class="align-center text-center" src="../../../../../_images/4G_3_ST.jpg" width="960"/>
+</a>
 <p class="text-center"><em>Ping an IP to Test Connectivity</em></p>
 </section>
 </section>
 <section id="development">
-<h2 id="development">Development<a class="headerlink" href="#development" title="Permalink to this heading">¶</a></h2>
+<h2 id="development">Development<a class="headerlink" href="#development" title="Link to this heading">¶</a></h2>
 <p>In this chapter, you will learn how to set up a QT development environment, and develop the first QT application on the Chipsee industrial panel PCs.</p>
 <section id="host-system-requirements">
-<h3 id="host-system-requirements">Host system requirements<a class="headerlink" href="#host-system-requirements" title="Permalink to this heading">¶</a></h3>
+<h3 id="host-system-requirements">Host system requirements<a class="headerlink" href="#host-system-requirements" title="Link to this heading">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Ubuntu 20.04 LTS 64bit system should be installed on the host machine(your workstation).</p></li>
 <li><p>Qtcreator 10.0.2 is a tested Qtcreator version, other versions should also be ok.</p></li>
 </ol>
 </section>
 <section id="preparation">
-<h3 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permalink to this heading">¶</a></h3>
+<h3 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Link to this heading">¶</a></h3>
 <ol class="arabic">
 <li><p>Download <a class="reference external" href="https://download.qt.io/archive/qtcreator/10.0/10.0.2/">Qtcreator 10.0.2</a> and install it on the Ubuntu 20.04 64bit Host PC. Other Qtcreator versions should also be ok.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>wget<span class="w"> </span>-c<span class="w"> </span>https://download.qt.io/archive/qtcreator/10.0/10.0.2/qt-creator-opensource-linux-x86_64-10.0.2.run
@@ -1862,55 +1848,73 @@ $ . /opt/st/stm32mp2/4.2.4-snapshot/environment-setup-cortexa35-ostl-linux
 </pre></div>
 </div>
 <p>Check the installation status:</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-1_ST.webp"><img alt="../../../../../_images/Qt-1_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-1_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-1_ST.webp"><img alt="../../../../../_images/Qt-1_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-1_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Check SDK Installation</em></p>
 </li>
 <li><p>Open the QtCreator, then click the menu Edit-&gt;Preferences. Config the QtCreator as shown in the images below.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-2_ST.webp"><img alt="../../../../../_images/Qt-2_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-2_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-2_ST.webp"><img alt="../../../../../_images/Qt-2_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-2_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Config QtCreator 1</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-3_ST.webp"><img alt="../../../../../_images/Qt-3_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-3_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-3_ST.webp"><img alt="../../../../../_images/Qt-3_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-3_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Config QtCreator 2</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-4_ST.webp"><img alt="../../../../../_images/Qt-4_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-4_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-4_ST.webp"><img alt="../../../../../_images/Qt-4_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-4_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Config QtCreator 3</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-5_ST.webp"><img alt="../../../../../_images/Qt-5_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-5_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-5_ST.webp"><img alt="../../../../../_images/Qt-5_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-5_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Config QtCreator 4</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-6_ST.webp"><img alt="../../../../../_images/Qt-6_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-6_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-6_ST.webp"><img alt="../../../../../_images/Qt-6_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-6_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Config QtCreator 5</em></p>
 </li>
 </ol>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="example-develop-a-helloworld-program">
-<h3 id="example-develop-a-helloworld-program">Example — Develop a HelloWorld Program<a class="headerlink" href="#example-develop-a-helloworld-program" title="Permalink to this heading">¶</a></h3>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-1_ST.webp"><img alt="../../../../../_images/Qt-App-1_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-App-1_ST.webp" style="width: 960px;"/></a>
+<h3 id="example-develop-a-helloworld-program">Example — Develop a HelloWorld Program<a class="headerlink" href="#example-develop-a-helloworld-program" title="Link to this heading">¶</a></h3>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-1_ST.webp"><img alt="../../../../../_images/Qt-App-1_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-App-1_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Qt Widgets Application</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-2_ST.webp"><img alt="../../../../../_images/Qt-App-2_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-App-2_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-2_ST.webp"><img alt="../../../../../_images/Qt-App-2_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-App-2_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Name</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-3_ST.webp"><img alt="../../../../../_images/Qt-App-3_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-App-3_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-3_ST.webp"><img alt="../../../../../_images/Qt-App-3_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-App-3_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Build System</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-4_ST.webp"><img alt="../../../../../_images/Qt-App-4_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-App-4_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-4_ST.webp"><img alt="../../../../../_images/Qt-App-4_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-App-4_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Class</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-5_ST.webp"><img alt="../../../../../_images/Qt-App-5_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-App-5_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-5_ST.webp"><img alt="../../../../../_images/Qt-App-5_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-App-5_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Kit Selection</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-6_ST.webp"><img alt="../../../../../_images/Qt-App-6_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-App-6_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-6_ST.webp"><img alt="../../../../../_images/Qt-App-6_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-App-6_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Finish</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-7_ST.webp"><img alt="../../../../../_images/Qt-App-7_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-App-7_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-7_ST.webp"><img alt="../../../../../_images/Qt-App-7_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-App-7_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Double Click UI File</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-8_ST.webp"><img alt="../../../../../_images/Qt-App-8_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-App-8_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-8_ST.webp"><img alt="../../../../../_images/Qt-App-8_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-App-8_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Add Label Widget</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-9_ST.webp"><img alt="../../../../../_images/Qt-App-9_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-App-9_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-9_ST.webp"><img alt="../../../../../_images/Qt-App-9_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-App-9_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Connect Device</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-10_ST.webp"><img alt="../../../../../_images/Qt-App-10_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-App-10_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-10_ST.webp"><img alt="../../../../../_images/Qt-App-10_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-App-10_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Test Device</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-11_ST.webp"><img alt="../../../../../_images/Qt-App-11_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-App-11_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-11_ST.webp"><img alt="../../../../../_images/Qt-App-11_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-App-11_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Build and Run App</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-12_ST.webp"><img alt="../../../../../_images/Qt-App-12_ST.webp" class="text-center align-center" src="../../../../../_images/Qt-App-12_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Qt-App-12_ST.webp"><img alt="../../../../../_images/Qt-App-12_ST.webp" class="align-center text-center" src="../../../../../_images/Qt-App-12_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Done</em></p>
 <p>Now you should be able to create, build and execute a Qt program on the Chipsee industrial panel PC.</p>
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="compile-qt-program-with-cmake">
-<h3 id="compile-qt-program-with-cmake">Compile Qt Program with CMAKE<a class="headerlink" href="#compile-qt-program-with-cmake" title="Permalink to this heading">¶</a></h3>
+<h3 id="compile-qt-program-with-cmake">Compile Qt Program with CMAKE<a class="headerlink" href="#compile-qt-program-with-cmake" title="Link to this heading">¶</a></h3>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span># Setup the environment of SDK
 source /opt/st/stm32mp2/4.2.4-snapshot/environment-setup-cortexa35-ostl-linux
 # Get the source code of KDBoatDemo
@@ -1935,10 +1939,10 @@ ssh root@192.168.7.1
 </section>
 </section>
 <section id="flashing-os">
-<h2 id="flashing-os">Flashing OS<a class="headerlink" href="#flashing-os" title="Permalink to this heading">¶</a></h2>
+<h2 id="flashing-os">Flashing OS<a class="headerlink" href="#flashing-os" title="Link to this heading">¶</a></h2>
 <p>To flash an operating system image for the Chipsee STMP257F device, you will need to download the prebuilt firmware image from Chipsee, download STM32CubeProgrammer program from ST, use a USB-C cable to connect the device with your workstation. Here is how:</p>
 <section id="prepare-for-flashing">
-<h3 id="prepare-for-flashing">Prepare For Flashing<a class="headerlink" href="#prepare-for-flashing" title="Permalink to this heading">¶</a></h3>
+<h3 id="prepare-for-flashing">Prepare For Flashing<a class="headerlink" href="#prepare-for-flashing" title="Link to this heading">¶</a></h3>
 <p>You need to prepare the following:</p>
 <ul class="simple">
 <li><p>A USB-C cable (at least one side is USB Type C)</p></li>
@@ -1948,46 +1952,53 @@ ssh root@192.168.7.1
 </ul>
 </section>
 <section id="start-flashing">
-<h3 id="start-flashing">Start Flashing<a class="headerlink" href="#start-flashing" title="Permalink to this heading">¶</a></h3>
+<h3 id="start-flashing">Start Flashing<a class="headerlink" href="#start-flashing" title="Link to this heading">¶</a></h3>
 <ol class="arabic">
 <li><p>Poweroff the device (unplug the power supply).</p></li>
 <li><p>Connect the USB-C cable, between the USB-C port on the device and your workstation.</p></li>
 <li><p>Push and hold the PROG button (the small round button beside Ethernet port), in the meantime, power on the device, for around 5 seconds. You should see the green LED beside the PROG button is on, and the screen is black.</p></li>
 <li><p>Decompress the Chipsee prebuilt firmware image, you should see a bunch of files:</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-2_ST.webp"><img alt="../../../../../_images/FlashOS-2_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-2_ST.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-2_ST.webp"><img alt="../../../../../_images/FlashOS-2_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-2_ST.webp" width="800"/>
+</a>
 <p class="text-center"><em>Decompress the Prebuilt Firmware Image</em></p>
 </li>
 </ol>
 <section id="flashing-with-gui">
-<h4 id="flashing-with-gui">Flashing with GUI<a class="headerlink" href="#flashing-with-gui" title="Permalink to this heading">¶</a></h4>
+<h4 id="flashing-with-gui">Flashing with GUI<a class="headerlink" href="#flashing-with-gui" title="Link to this heading">¶</a></h4>
 <ol class="arabic">
 <li><p>Open STM32CubeProgrammer, choose <strong>USB</strong>, click the <strong>refresh</strong> button like the image below, then select <strong>USBX</strong> (USB1 in the image), you should see a serial number appear, then click <strong>Connect</strong>.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-1_ST.webp"><img alt="../../../../../_images/FlashOS-1_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-1_ST.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-1_ST.webp"><img alt="../../../../../_images/FlashOS-1_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-1_ST.webp" width="800"/>
+</a>
 <p class="text-center"><em>Connect by USB</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-3_ST.webp"><img alt="../../../../../_images/FlashOS-3_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-3_ST.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-3_ST.webp"><img alt="../../../../../_images/FlashOS-3_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-3_ST.webp" width="800"/>
+</a>
 <p class="text-center"><em>Choose USBX and Connect</em></p>
 </li>
 <li><p>STM32CubeProgrammer should show A35 MPU detected.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-4_ST.webp"><img alt="../../../../../_images/FlashOS-4_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-4_ST.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-4_ST.webp"><img alt="../../../../../_images/FlashOS-4_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-4_ST.webp" width="800"/>
+</a>
 <p class="text-center"><em>Displays A35 / STM32MP25 MPU</em></p>
 </li>
 <li><p>Click <strong>Open File</strong>, select <strong>FlashLayout_emmc.tsv</strong>:</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-5_ST.webp"><img alt="../../../../../_images/FlashOS-5_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-5_ST.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-5_ST.webp"><img alt="../../../../../_images/FlashOS-5_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-5_ST.webp" width="800"/>
+</a>
 <p class="text-center"><em>Select FlashLayout_emmc</em></p>
 </li>
 <li><p>You should see a bunch of partitions listed, click <strong>Download</strong> to start flashing OS image.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-6_ST.webp"><img alt="../../../../../_images/FlashOS-6_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-6_ST.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-6_ST.webp"><img alt="../../../../../_images/FlashOS-6_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-6_ST.webp" width="800"/>
+</a>
 <p class="text-center"><em>Start Downloading</em></p>
 </li>
 <li><p>Your screen will turn white background with some scrolling texts. After around 5 minutes, flashing should be finished.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-7_ST.webp"><img alt="../../../../../_images/FlashOS-7_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-7_ST.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-7_ST.webp"><img alt="../../../../../_images/FlashOS-7_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-7_ST.webp" width="800"/>
+</a>
 <p class="text-center"><em>Finish Downloading</em></p>
 </li>
 <li><p>Now you can reboot the device, click <strong>Disconnect</strong> first, then unplug/plug the power supply to reboot the device, the system will boot from eMMC automatically.</p></li>
 </ol>
 </section>
 <section id="flashing-with-cli-on-windows">
-<h4 id="flashing-with-cli-on-windows">Flashing with CLI on Windows<a class="headerlink" href="#flashing-with-cli-on-windows" title="Permalink to this heading">¶</a></h4>
+<h4 id="flashing-with-cli-on-windows">Flashing with CLI on Windows<a class="headerlink" href="#flashing-with-cli-on-windows" title="Link to this heading">¶</a></h4>
 <p>You can use Windows <strong>PowerShell</strong> to run the <strong>STM32_Programmer_CLI</strong> program.</p>
 <div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="c"># In PowerShell</span>
 <span class="c"># Change the dir to where you install the STM32CubeProgrammer</span>
@@ -1997,14 +2008,16 @@ ssh root@192.168.7.1
 <span class="p">.\</span><span class="n">STM32_Programmer_CLI</span><span class="p">.</span><span class="n">exe</span> <span class="n">-h</span>
 </pre></div>
 </div>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-12_ST.webp"><img alt="../../../../../_images/FlashOS-12_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-12_ST.webp" style="width: 720px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-12_ST.webp"><img alt="../../../../../_images/FlashOS-12_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-12_ST.webp" width="720"/>
+</a>
 <p class="text-center"><em>Check STM32_Programmer_CLI is Available</em></p>
 <div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="c"># Check ST device USB index:</span>
 <span class="p">.\</span><span class="n">STM32_Programmer_CLI</span><span class="p">.</span><span class="n">exe</span> <span class="n">-l</span> <span class="n">usb</span>
 <span class="c"># USB1 is what we need in the next step</span>
 </pre></div>
 </div>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-13_ST.webp"><img alt="../../../../../_images/FlashOS-13_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-13_ST.webp" style="width: 720px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-13_ST.webp"><img alt="../../../../../_images/FlashOS-13_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-13_ST.webp" width="720"/>
+</a>
 <p class="text-center"><em>Check Device USB Index (USB1 Here)</em></p>
 <div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="c"># Start flashing</span>
 <span class="c"># Remember to change the path to where you extracted the Chipsee prebuilt OS firmware image's "FlashLayout_emmc.tsv"</span>
@@ -2013,12 +2026,13 @@ ssh root@192.168.7.1
 </pre></div>
 </div>
 <p>The flashing should be finished in a couple of minutes.</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-14_ST.webp"><img alt="../../../../../_images/FlashOS-14_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-14_ST.webp" style="width: 720px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-14_ST.webp"><img alt="../../../../../_images/FlashOS-14_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-14_ST.webp" width="720"/>
+</a>
 <p class="text-center"><em>Finished Flashing</em></p>
 <p>Now you can reboot the device, unplug/plug the power supply to reboot the device, the system will boot from eMMC automatically.</p>
 </section>
 <section id="flashing-with-cli-on-macos">
-<h4 id="flashing-with-cli-on-macos">Flashing with CLI on MacOS<a class="headerlink" href="#flashing-with-cli-on-macos" title="Permalink to this heading">¶</a></h4>
+<h4 id="flashing-with-cli-on-macos">Flashing with CLI on MacOS<a class="headerlink" href="#flashing-with-cli-on-macos" title="Link to this heading">¶</a></h4>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># The CLI program is in the Contents of STM32CubeProgrammer.app, export the binary:</span>
 <span class="nb">export</span><span class="w"> </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">"/Applications/STMicroelectronics/STM32Cube/STM32CubeProgrammer/STM32CubeProgrammer.app/Contents/MacOs/bin:</span><span class="nv">$PATH</span><span class="s2">"</span>
 <span class="nb">cd</span><span class="w"> </span>prebuilt-stmp25-eisd-1280800-yocto
@@ -2026,14 +2040,16 @@ ssh root@192.168.7.1
 STM32_Programmer_CLI<span class="w"> </span>-h
 </pre></div>
 </div>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-8_ST.webp"><img alt="../../../../../_images/FlashOS-8_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-8_ST.webp" style="width: 720px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-8_ST.webp"><img alt="../../../../../_images/FlashOS-8_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-8_ST.webp" width="720"/>
+</a>
 <p class="text-center"><em>Check STM32_Programmer_CLI is Available</em></p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Check ST device USB index:</span>
 STM32_Programmer_CLI<span class="w"> </span>-l<span class="w"> </span>usb
 <span class="c1"># USB1 is what we need in the next step</span>
 </pre></div>
 </div>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-9_ST.webp"><img alt="../../../../../_images/FlashOS-9_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-9_ST.webp" style="width: 720px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-9_ST.webp"><img alt="../../../../../_images/FlashOS-9_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-9_ST.webp" width="720"/>
+</a>
 <p class="text-center"><em>Check Device USB Index (USB1 Here)</em></p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Start flashing</span>
 <span class="c1"># Change usb1 to what you got in the previous USB Index step</span>
@@ -2041,27 +2057,31 @@ STM32_Programmer_CLI<span class="w"> </span>-l<span class="w"> </span>usb
 STM32_Programmer_CLI<span class="w"> </span>-c<span class="w"> </span><span class="nv">port</span><span class="o">=</span>usb1<span class="w"> </span>-w<span class="w"> </span>./FlashLayout_emmc.tsv
 </pre></div>
 </div>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-10_ST.webp"><img alt="../../../../../_images/FlashOS-10_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-10_ST.webp" style="width: 720px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-10_ST.webp"><img alt="../../../../../_images/FlashOS-10_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-10_ST.webp" width="720"/>
+</a>
 <p class="text-center"><em>Started Flashing</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-11_ST.webp"><img alt="../../../../../_images/FlashOS-11_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-11_ST.webp" style="width: 720px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-11_ST.webp"><img alt="../../../../../_images/FlashOS-11_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-11_ST.webp" width="720"/>
+</a>
 <p class="text-center"><em>Finished Flashing</em></p>
 <p>Now you can reboot the device, unplug/plug the power supply to reboot the device, the system will boot from eMMC automatically.</p>
 </section>
 <section id="flashing-with-cli-on-linux">
-<h4 id="flashing-with-cli-on-linux">Flashing with CLI on Linux<a class="headerlink" href="#flashing-with-cli-on-linux" title="Permalink to this heading">¶</a></h4>
+<h4 id="flashing-with-cli-on-linux">Flashing with CLI on Linux<a class="headerlink" href="#flashing-with-cli-on-linux" title="Link to this heading">¶</a></h4>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>~/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin/
 <span class="c1"># Check STM32_Programmer_CLI is available:</span>
 sudo<span class="w"> </span>./STM32_Programmer_CLI<span class="w"> </span>-h
 </pre></div>
 </div>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-15_ST.webp"><img alt="../../../../../_images/FlashOS-15_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-15_ST.webp" style="width: 720px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-15_ST.webp"><img alt="../../../../../_images/FlashOS-15_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-15_ST.webp" width="720"/>
+</a>
 <p class="text-center"><em>Check STM32_Programmer_CLI is Available</em></p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Check ST device USB index:</span>
 sudo<span class="w"> </span>./STM32_Programmer_CLI<span class="w"> </span>-l<span class="w"> </span>usb
 <span class="c1"># USB1 is what we need in the next step</span>
 </pre></div>
 </div>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-16_ST.webp"><img alt="../../../../../_images/FlashOS-16_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-16_ST.webp" style="width: 720px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-16_ST.webp"><img alt="../../../../../_images/FlashOS-16_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-16_ST.webp" width="720"/>
+</a>
 <p class="text-center"><em>Check Device USB Index (USB1 Here)</em></p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Start flashing</span>
 <span class="c1"># Remember to change the path to where you extracted the Chipsee prebuilt OS firmware image's "FlashLayout_emmc.tsv"</span>
@@ -2069,20 +2089,22 @@ sudo<span class="w"> </span>./STM32_Programmer_CLI<span class="w"> </span>-l<spa
 sudo<span class="w"> </span>./STM32_Programmer_CLI<span class="w"> </span>-c<span class="w"> </span><span class="nv">port</span><span class="o">=</span>usb1<span class="w"> </span>-w<span class="w"> </span>your-path-to/prebuilt-stmp25-eisd-1280800-yocto/FlashLayout_emmc.tsv
 </pre></div>
 </div>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-17_ST.webp"><img alt="../../../../../_images/FlashOS-17_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-17_ST.webp" style="width: 720px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-17_ST.webp"><img alt="../../../../../_images/FlashOS-17_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-17_ST.webp" width="720"/>
+</a>
 <p class="text-center"><em>Started Flashing</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-18_ST.webp"><img alt="../../../../../_images/FlashOS-18_ST.webp" class="text-center align-center" src="../../../../../_images/FlashOS-18_ST.webp" style="width: 720px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/FlashOS-18_ST.webp"><img alt="../../../../../_images/FlashOS-18_ST.webp" class="align-center text-center" src="../../../../../_images/FlashOS-18_ST.webp" width="720"/>
+</a>
 <p class="text-center"><em>Finished Flashing</em></p>
 <p>Now you can reboot the device, unplug/plug the power supply to reboot the device, the system will boot from eMMC automatically.</p>
 </section>
 </section>
 </section>
 <section id="backup-os-image">
-<h2 id="backup-os-image">Backup OS Image<a class="headerlink" href="#backup-os-image" title="Permalink to this heading">¶</a></h2>
+<h2 id="backup-os-image">Backup OS Image<a class="headerlink" href="#backup-os-image" title="Link to this heading">¶</a></h2>
 <p>You can backup your OS image to clone it to other machines, in another word, after you’ve finished developing your software on one machine, you may want to copy everything of this machine to multiple other machines.</p>
 <p>This chapter tells you how to backup your OS image and generate a prebuilt image file, then you can flash it to your other machines. Just like the prebuilt image we provide you when the product ships to you, except that now it is your own image with your configurations.</p>
 <section id="prepare">
-<h3 id="prepare">Prepare<a class="headerlink" href="#prepare" title="Permalink to this heading">¶</a></h3>
+<h3 id="prepare">Prepare<a class="headerlink" href="#prepare" title="Link to this heading">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Chipsee STMP25 device</p></li>
 <li><p>A X86/X86_64 Linux Host PC, such as a Ubuntu system</p></li>
@@ -2090,14 +2112,16 @@ sudo<span class="w"> </span>./STM32_Programmer_CLI<span class="w"> </span>-c<spa
 <li><p>USB to RS232 debug cable</p></li>
 </ol>
 <p>Wire your cables like:</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Backup-OS-1_ST.webp"><img alt="../../../../../_images/Backup-OS-1_ST.webp" class="text-center align-center" src="../../../../../_images/Backup-OS-1_ST.webp" style="width: 960px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Backup-OS-1_ST.webp"><img alt="../../../../../_images/Backup-OS-1_ST.webp" class="align-center text-center" src="../../../../../_images/Backup-OS-1_ST.webp" width="960"/>
+</a>
 <p class="text-center"><em>Wire the RS232 Cable and the Type-C Cable</em></p>
 <p>You can refer to “Connect From Serial Port” section to connect the RS232 debug port, and <strong>initiate the serial connection</strong>.</p>
 </section>
 <section id="enter-uboot">
-<h3 id="enter-uboot">Enter Uboot<a class="headerlink" href="#enter-uboot" title="Permalink to this heading">¶</a></h3>
+<h3 id="enter-uboot">Enter Uboot<a class="headerlink" href="#enter-uboot" title="Link to this heading">¶</a></h3>
 <p>While the product boots, press any key on your workstation to let the product enter uboot. You can hit any key 5~10 times while the system boots until you see the prompt:</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Backup-OS-2_ST.webp"><img alt="../../../../../_images/Backup-OS-2_ST.webp" class="text-center align-center" src="../../../../../_images/Backup-OS-2_ST.webp" style="width: 480px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Backup-OS-2_ST.webp"><img alt="../../../../../_images/Backup-OS-2_ST.webp" class="align-center text-center" src="../../../../../_images/Backup-OS-2_ST.webp" width="480"/>
+</a>
 <p class="text-center"><em>Hit Any Key (Like Enter) While Booting</em></p>
 <p>Now the screen should be all white.</p>
 <p>Then let the eMMC be mounted as a USB mass storage by your workstation:</p>
@@ -2105,12 +2129,15 @@ sudo<span class="w"> </span>./STM32_Programmer_CLI<span class="w"> </span>-c<spa
 STM32MP&gt;<span class="w"> </span>ums<span class="w"> </span><span class="m">0</span><span class="w"> </span>mmc<span class="w"> </span><span class="m">1</span>
 </pre></div>
 </div>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Backup-OS-3_ST.webp"><img alt="../../../../../_images/Backup-OS-3_ST.webp" class="text-center align-center" src="../../../../../_images/Backup-OS-3_ST.webp" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Backup-OS-3_ST.webp"><img alt="../../../../../_images/Backup-OS-3_ST.webp" class="align-center text-center" src="../../../../../_images/Backup-OS-3_ST.webp" width="640"/>
+</a>
 <p class="text-center"><em>Mount eMMC as USB Mass Storage to Workstation</em></p>
 <p>Then you can find your workstation now has a few more partitions:</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Backup-OS-4_ST.webp"><img alt="../../../../../_images/Backup-OS-4_ST.webp" class="text-center align-center" src="../../../../../_images/Backup-OS-4_ST.webp" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Backup-OS-4_ST.webp"><img alt="../../../../../_images/Backup-OS-4_ST.webp" class="align-center text-center" src="../../../../../_images/Backup-OS-4_ST.webp" width="640"/>
+</a>
 <p class="text-center"><em>Before ums 0 mmc 1</em></p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Backup-OS-5_ST.webp"><img alt="../../../../../_images/Backup-OS-5_ST.webp" class="text-center align-center" src="../../../../../_images/Backup-OS-5_ST.webp" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Backup-OS-5_ST.webp"><img alt="../../../../../_images/Backup-OS-5_ST.webp" class="align-center text-center" src="../../../../../_images/Backup-OS-5_ST.webp" width="640"/>
+</a>
 <p class="text-center"><em>After ums 0 mmc 1</em></p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>finn@ubuntu24:~$<span class="w"> </span>ls<span class="w"> </span>-l<span class="w"> </span>/dev/disk/by-partlabel/
 total<span class="w"> </span><span class="m">0</span>
@@ -2129,11 +2156,12 @@ lrwxrwxrwx<span class="w"> </span><span class="m">1</span><span class="w"> </spa
 </pre></div>
 </div>
 <p>These <strong>sdbx</strong> corespond to the names of the prebuilt image:</p>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Backup-OS-6_ST.webp"><img alt="../../../../../_images/Backup-OS-6_ST.webp" class="text-center align-center" src="../../../../../_images/Backup-OS-6_ST.webp" style="width: 640px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Backup-OS-6_ST.webp"><img alt="../../../../../_images/Backup-OS-6_ST.webp" class="align-center text-center" src="../../../../../_images/Backup-OS-6_ST.webp" width="640"/>
+</a>
 <p class="text-center"><em>Prebuilt Image Layout eMMC (for Reference)</em></p>
 <p>User’s data and configuration are in these four partitions, so we need to replace Chipsee’s prebuilt OS image’s data with your data:</p>
 <table id="id11" style="width: 100%">
-<caption><span class="caption-text">User Data Partitions</span><a class="headerlink" href="#id11" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-text">User Data Partitions</span><a class="headerlink" href="#id11" title="Link to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p><strong>Partition</strong></p></th>
 <th class="head"><p><strong>File in Prebuilt-xxx</strong></p></th>
@@ -2156,7 +2184,7 @@ lrwxrwxrwx<span class="w"> </span><span class="m">1</span><span class="w"> </spa
 </table>
 </section>
 <section id="mk-image-sh">
-<h3 id="mk-image-sh">mk-image.sh<a class="headerlink" href="#mk-image-sh" title="Permalink to this heading">¶</a></h3>
+<h3 id="mk-image-sh">mk-image.sh<a class="headerlink" href="#mk-image-sh" title="Link to this heading">¶</a></h3>
 <p>We have a bash script called <strong>mk-image.sh</strong> to aid you copy the partitions to your workstation PC.</p>
 <p>For example, if your ST product’s eMMC is mounted as <strong>/dev/sdb</strong> (like the example above), your can backup <strong>userfs</strong> with:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># on your X86 Linux workstation</span>
@@ -2166,7 +2194,8 @@ wget<span class="w"> </span>-c<span class="w"> </span>https://chipsee-tmp.s3.ama
 ./mk-image.sh<span class="w"> </span>userfs<span class="w"> </span>/dev/sdb<span class="w"> </span><span class="c1"># change /dev/sdb to YOUR /dev/sdX path</span>
 </pre></div>
 </div>
-<a class="text-center reference internal image-reference" href="../../../../../_images/Backup-OS-7_ST.webp"><img alt="../../../../../_images/Backup-OS-7_ST.webp" class="text-center align-center" src="../../../../../_images/Backup-OS-7_ST.webp" style="width: 800px;"/></a>
+<a class="text-center reference internal image-reference" href="../../../../../_images/Backup-OS-7_ST.webp"><img alt="../../../../../_images/Backup-OS-7_ST.webp" class="align-center text-center" src="../../../../../_images/Backup-OS-7_ST.webp" width="800"/>
+</a>
 <p class="text-center"><em>Example: Backup userfs</em></p>
 <p>Then you can replace the userfs of the Chipsee prebuilt image with this one you get just now.</p>
 <p>To backup other partitions other than userfs:</p>
@@ -2186,7 +2215,7 @@ Example:<span class="w"> </span>./mk-image.sh<span class="w"> </span>rootfs<span
 <p>And now you can replace the ones you need to the Chipsee prebuilt OS image, to generate your own backup OS image.</p>
 </section>
 <section id="exit">
-<h3 id="exit">Exit<a class="headerlink" href="#exit" title="Permalink to this heading">¶</a></h3>
+<h3 id="exit">Exit<a class="headerlink" href="#exit" title="Link to this heading">¶</a></h3>
 <p>After you have finished backup the partitions, you can exit ST device’s Uboot mode with:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Ctrl+C<span class="w"> </span><span class="c1"># stop mounting eMMC as USB mass storage</span>
 reset<span class="w"> </span><span class="c1"># reboot the device</span>
@@ -2196,7 +2225,7 @@ Ctrl+A<span class="w"> </span>followed<span class="w"> </span>by<span class="w">
 </section>
 </section>
 <section id="faq">
-<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Permalink to this heading">¶</a></h2>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Link to this heading">¶</a></h2>
 <ol class="arabic">
 <li><p>How to set timezone?</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">timedatectl</span> <span class="nb">set</span><span class="o">-</span><span class="n">timezone</span> <span class="n">Asia</span><span class="o">/</span><span class="n">Shanghai</span>
@@ -2212,13 +2241,13 @@ Ctrl+A<span class="w"> </span>followed<span class="w"> </span>by<span class="w">
 <p><p class="page-break" style="margin: 0"></p></p>
 </section>
 <section id="disclaimer">
-<h2 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Permalink to this heading">¶</a></h2>
+<h2 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Link to this heading">¶</a></h2>
 <p><strong>This document is provided strictly for informational purposes. Its contents are subject to change without notice. Chipsee assumes no responsibility for any errors that may occur in this document. Furthermore, Chipsee reserves the right to alter the hardware, software, and/or specifications set forth herein at any time without prior notice and undertakes no obligation to update the information contained in this document.</strong></p>
 <p><strong>While every effort has been made to ensure the accuracy of the information contained herein, this document is not guaranteed to be error-free. Further, it does not offer any warranties or conditions, whether expressed orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular purpose. We specifically disclaim any liability with respect to this document, and no contractual obligations are formed either directly or indirectly by this document.</strong></p>
 <p><strong>Despite our best efforts to maintain the accuracy of the information in this document, we assume no responsibility for errors or omissions, nor for damages resulting from the use of the information herein. Please note that Chipsee products are not authorized for use as critical components in life support devices or systems.</strong></p>
 </section>
 <section id="technical-support">
-<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this heading">¶</a></h2>
+<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Link to this heading">¶</a></h2>
 <p>If you encounter any difficulties or have questions related to this document, we encourage you to refer to our other documentation for potential solutions. If you cannot find the solution you’re looking for, feel free to contact us. Please email Chipsee Technical Support at <a class="reference external" href="mailto:support%40chipsee.com"><strong>support<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information. We value your queries and suggestions and are committed to providing you with the assistance you require.</p>
 </section>
 </section>
@@ -2246,7 +2275,7 @@ Ctrl+A<span class="w"> </span>followed<span class="w"> </span>by<span class="w">
               
           </div>
             Last updated on
-              Oct 17, 2026.
+              Oct 18, 2026.
             <br/>
         </div>
       </div>

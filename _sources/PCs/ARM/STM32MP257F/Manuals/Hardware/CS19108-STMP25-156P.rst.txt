@@ -14,18 +14,6 @@
 
 .. |disp_des| replace:: |dispsize| 10-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
 
-.. |disp_table| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
-
-.. |mounting_table| replace:: Panel, VESA
-
-.. |temp| replace:: From -30°C to +85°C
-
-.. |cur| replace:: 1300mA max at 15V, 1200mA typical at 15V
-
-.. |pwr| replace:: 19.5W max, 18W typical
-
-.. |tscreen| replace:: 10-point capacitive touch screen with |glass_thickness| tempered glass
-
 .. |power_img| image:: /Media/ARM/A35/CS19108-STMP25-156P/CS19108-STMP25-156P-Power.jpg
                   :align: middle
                   :width: 576

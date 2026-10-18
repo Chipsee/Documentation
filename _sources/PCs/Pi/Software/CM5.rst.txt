@@ -7,8 +7,6 @@
 
 .. _cm5_os:
 
-.. |os_down_path| replace:: sdf
-
 .. |OS_Backup_img| image:: /Media/ARM/A55/Software/RK3568_OS_Backup_1.png
                   :align: middle
                   :width: 720

@@ -6,21 +6,9 @@
 
 .. |product| replace:: PPC-CM4-121
 
-.. |productE| replace:: CS10768RA4121E
-
 .. |productP| replace:: CS10768RA4121P
 
 .. |PN| replace:: PN: CS10768RA4121
-
-.. |cur| replace:: 0.80A Max at 15V
-
-.. |pwr| replace:: 12W Typical
-
-.. |temp| replace:: From 0°C to +60°C
-
-.. |dim_desc| replace:: |dimP|
-
-.. |weight_desc| replace:: |weightP|
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-121/
 

@@ -1,11 +1,10 @@
 
-
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" data-content_root="../../../../../">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -34,22 +33,21 @@
   
   
     <title>RK3399 Debian 10 OS &#8212; Chipsee</title>
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/material.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/css/material_custom.1f7cc54a.css" />
-    <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
-    <script src="../../../../../_static/jquery.js"></script>
-    <script src="../../../../../_static/underscore.js"></script>
-    <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="../../../../../_static/doctools.js"></script>
-    <script src="../../../../../_static/sphinx_highlight.js"></script>
-    <script src="../../../../../_static/clipboard.min.js"></script>
-    <script src="../../../../../_static/copybutton.js"></script>
-    <script src="../../../../../_static/design-tabs.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=83348fa5" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/material.css?v=79c92029" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/css/material_custom.1f7cc54a.css?v=ab886185" />
+    <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+    <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+    <script src="../../../../../_static/documentation_options.js?v=56dcb7b8"></script>
+    <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../../../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../../../../_static/design-tabs.js?v=f930bc37"></script>
     <link rel="canonical" href="https://chipsee.com/docs/PCs/ARM/RK3399/Manuals/Software/Debian_10.html" />
-    <link rel="shortcut icon" href="../../../../../_static/favicon.webp"/>
+    <link rel="icon" href="../../../../../_static/favicon.webp"/>
     <link rel="index" title="Index" href="../../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../../search.html" />
     
@@ -290,49 +288,20 @@
           </div>
         
         <div class="md-content">
-          <article class="md-content__inner md-typeset" role="main"><a class="md-content__button md-icon" style="margin:0;float:right;" href="Debian_10_OS_on_RK3399_User_Manual.pdf" download title="Download PDF"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="width:40px;height:40px;" viewBox="0 0 56 
-56"> <g><path style="fill:#E9E9E0;" d="M36.985,0H7.963C7.155,0,6.5,0.655,6.5,1.926V55c0,0.345,0.655,1,1.463,
-1h40.074 c0.808,0,1.463-0.655,1.463-1V12.978c0-0.696-0.093-0.92-0.257-1.085L37.607,0.257C37.442,0.093,37.218,0,
-36.985,0z"/> <polygon style="fill:#D9D7CA;" points="37.5,0.151 37.5,12 49.349,12 	"/> <path 
-style="fill:#CC4B4C;" d="M19.514,33.324L19.514,33.324c-0.348,0-0.682-0.113-0.967-0.326 
-c-1.041-0.781-1.181-1.65-1.115-2.242c0.182-1.628,2.195-3.332,5.985-5.068c1.504-3.296,2.935-7.357,3.788-10.75 
-c-0.998-2.172-1.968-4.99-1.261-6.643c0.248-0.579,0.557-1.023,1.134-1.215c0.228-0.076,0.804-0.172,1.016-0.172 
-c0.504,0,0.947,0.649,1.261,1.049c0.295,0.376,0.964,1.173-0.373,6.802c1.348,2.784,3.258,5.62,5.088,
-7.562 c1.311-0.237,2.439-0.358,3.358-0.358c1.566,0,2.515,0.365,2.902,1.117c0.32,0.622,0.189,1.349-0.39,
-2.16 c-0.557,0.779-1.325,1.191-2.22,1.191c-1.216,0-2.632-0.768-4.211-2.285c-2.837,0.593-6.15,1.651-8.828,
-2.822 c-0.836,1.774-1.637,3.203-2.383,4.251C21.273,32.654,20.389,33.324,19.514,33.324z M22.176,28.198 c-2.137,
-1.201-3.008,2.188-3.071,2.744c-0.01,0.092-0.037,0.334,0.431,0.692C19.685,31.587,20.555,31.19,22.176,
-28.198z M35.813,23.756c0.815,0.627,1.014,0.944,1.547,0.944c0.234,0,0.901-0.01,1.21-0.441c0.149-0.209,0.207-0.343,
-0.23-0.415 c-0.123-0.065-0.286-0.197-1.175-0.197C37.12,23.648,36.485,23.67,35.813,23.756z M28.343,17.174 c-0.715,
-2.474-1.659,5.145-2.674,7.564c2.09-0.811,4.362-1.519,6.496-2.02C30.815,21.15,29.466,19.192,28.343,
-17.174z M27.736,8.712c-0.098,0.033-1.33,1.757,0.096,3.216C28.781,9.813,27.779,8.698,27.736,8.712z"/> <path 
-style="fill:#CC4B4C;" d="M48.037,56H7.963C7.155,56,6.5,55.345,6.5,54.537V39h43v15.537C49.5,55.345,48.845,56,
-48.037,56z"/> <g><path style="fill:#FFFFFF;" d="M17.385,53h-1.641V42.924h2.898c0.428,0,0.852,0.068,1.271,
-0.205 c0.419,0.137,0.795,0.342,1.128,0.615c0.333,0.273,0.602,0.604,0.807,0.991s0.308,0.822,0.308,1.306 c0,
-0.511-0.087,0.973-0.26,1.388c-0.173,0.415-0.415,0.764-0.725,1.046c-0.31,0.282-0.684,0.501-1.121,0.656 s-0.921,
-0.232-1.449,0.232h-1.217V53z M17.385,44.168v3.992h1.504c0.2,0,0.398-0.034,0.595-0.103 c0.196-0.068,0.376-0.18,
-0.54-0.335c0.164-0.155,0.296-0.371,0.396-0.649c0.1-0.278,0.15-0.622,0.15-1.032 
-c0-0.164-0.023-0.354-0.068-0.567c-0.046-0.214-0.139-0.419-0.28-0.615c-0.142-0.196-0.34-0.36-0.595-0.492 
-c-0.255-0.132-0.593-0.198-1.012-0.198H17.385z"/> <path style="fill:#FFFFFF;" d="M32.219,47.682c0,0.829-0.089,
-1.538-0.267,2.126s-0.403,1.08-0.677,1.477s-0.581,0.709-0.923,0.937 s-0.672,0.398-0.991,0.513c-0.319,0.114-0.611,
-0.187-0.875,0.219C28.222,52.984,28.026,53,27.898,53h-3.814V42.924h3.035 c0.848,0,1.593,0.135,2.235,0.403s1.176,
-0.627,1.6,1.073s0.74,0.955,0.95,1.524C32.114,46.494,32.219,47.08,32.219,47.682z M27.352,51.797c1.112,0,
-1.914-0.355,2.406-1.066s0.738-1.741,0.738-3.09c0-0.419-0.05-0.834-0.15-1.244 
-c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-0.308h-0.957v7.629H27.352z"/> 
-<path style="fill:#FFFFFF;" d="M36.266,44.168v3.172h4.211v1.121h-4.211V53h-1.668V42.924H40.9v1.244H36.266z"/> 
-</g></g> </svg></a>
+          <article class="md-content__inner md-typeset" role="main">
             
-  <span class="target" id="rk3399-os-debian10"></span><section id="chip-systemtype-os">
-<h1 id="pcs-arm-rk3399-manuals-software-debian-10--page-root">RK3399 Debian 10 OS<a class="headerlink" href="#pcs-arm-rk3399-manuals-software-debian-10--page-root" title="Permalink to this heading">¶</a></h1>
+  <a class="md-content__button md-icon pdf-download" download="" href="Debian_10_OS_on_RK3399_User_Manual.pdf" style="margin:0;float:right;" title="Download PDF"><img alt="Download PDF" height="40" src="../../../../../_static/images/pdf_download.svg" width="40"/></a><span class="target" id="rk3399-os-debian10"></span><section id="chip-systemtype-os">
+<h1 id="pcs-arm-rk3399-manuals-software-debian-10--page-root">RK3399 Debian 10 OS<a class="headerlink" href="#pcs-arm-rk3399-manuals-software-debian-10--page-root" title="Link to this heading">¶</a></h1>
 <p class="fs-3 fw-bold text-center">Debian 10 OS on RK3399 User Manual</p>
-<a class="reference internal image-reference" href="../../../../../_images/Chipsee_Logo_Full.png"><img alt="chipsee-logo" class="align-center" src="../../../../../_images/Chipsee_Logo_Full.png" style="width: 320px;"/></a>
+<a class="reference internal image-reference" href="../../../../../_images/Chipsee_Logo_Full.png"><img alt="chipsee-logo" class="align-center" src="../../../../../_images/Chipsee_Logo_Full.png" width="320"/>
+</a>
 <p>This is the software manual for RK3399 Chipsee industrial PC. If you’ve never developed on this hardware with a Debian 10 OS, this manual can get you started quickly.</p>
 <p><p class="page-break" style="margin: 0"></p></p>
 <section id="backup-your-os-image-for-bulk-installation">
-<h2 id="backup-your-os-image-for-bulk-installation">Backup Your OS Image For Bulk Installation<a class="headerlink" href="#backup-your-os-image-for-bulk-installation" title="Permalink to this heading">¶</a></h2>
+<h2 id="backup-your-os-image-for-bulk-installation">Backup Your OS Image For Bulk Installation<a class="headerlink" href="#backup-your-os-image-for-bulk-installation" title="Link to this heading">¶</a></h2>
 <p>If you have finished developing your software, and plan to “copy” the whole system to many other Chipsee industrial PCs, you can backup the OS to an image file, just like the <strong>.img</strong> file you downloaded from Chipsee, or the OS we installed in the factory for you before shipping. And then you can flash it to many more devices.</p>
 <section id="prepare-for-backup">
-<h3 id="prepare-for-backup">Prepare for backup<a class="headerlink" href="#prepare-for-backup" title="Permalink to this heading">¶</a></h3>
+<h3 id="prepare-for-backup">Prepare for backup<a class="headerlink" href="#prepare-for-backup" title="Link to this heading">¶</a></h3>
 <p>We will use <strong>SDDiskTool</strong> to flash a bootable SD card, let your Chipsee PC boot from this SD card, then use this system to backup your OS image (the whole content on eMMC rootfs partition). You will need:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://chipsee-tmp.s3.us-east-1.amazonaws.com/Tools/SDDiskTool_v1.72.zip">SDDiskTool (Click to download)</a>.</p></li>
@@ -352,19 +321,20 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </div>
 </section>
 <section id="prepare-a-bootable-sd-card">
-<h3 id="prepare-a-bootable-sd-card">Prepare a Bootable SD Card<a class="headerlink" href="#prepare-a-bootable-sd-card" title="Permalink to this heading">¶</a></h3>
+<h3 id="prepare-a-bootable-sd-card">Prepare a Bootable SD Card<a class="headerlink" href="#prepare-a-bootable-sd-card" title="Link to this heading">¶</a></h3>
 <p>On your Windows PC, we open SD_Firmware_Tool.exe to process 1,2,3,4,5 steps to create a bootable SD card.</p>
 <p>You need to download the Chipsee prebuilt image as we mentioned earlier. Find the one that fits your screen size in <a class="reference internal" href="../../OS_Downloads/index.html#rk3399-osdownloads"><span class="std std-ref">Chipsee prebuilt image</span></a> page.</p>
 <p>Once the SD card is flashed, Windows will show a warning to let you format the unrecognized partition, <strong>ignore or cancel</strong> it because the SDDiskTool creates some partitions that Windows doesn’t recognize.</p>
-<a class="text-center mt-3 reference internal image-reference" href="../../../../../_images/SDDisktool_1.jpg"><img alt="../../../../../_images/SDDisktool_1.jpg" class="text-center mt-3 align-center" src="../../../../../_images/SDDisktool_1.jpg" style="width: 640px;"/></a>
+<a class="text-center mt-3 reference internal image-reference" href="../../../../../_images/SDDisktool_1.jpg"><img alt="../../../../../_images/SDDisktool_1.jpg" class="align-center text-center mt-3" src="../../../../../_images/SDDisktool_1.jpg" width="640"/>
+</a>
 <p class="text-center mt-3"><em>Follow the 5 steps on SDDisktool</em></p>
 </section>
 <section id="backup-your-emmc">
-<h3 id="backup-your-emmc">Backup Your eMMC<a class="headerlink" href="#backup-your-emmc" title="Permalink to this heading">¶</a></h3>
+<h3 id="backup-your-emmc">Backup Your eMMC<a class="headerlink" href="#backup-your-emmc" title="Link to this heading">¶</a></h3>
 <p>Insert this SD card into the SD slot of the Chipsee PC and power it on, the Chipsee PC will boot into the system on the SD card (may need to reboot multiple times to boot from SD card, because of a known bug in the eMMC firmware, we will release a firmware for SD card in the future), we can use this system to backup the whole contents on eMMC rootfs partitions.</p>
 <p>Use the way you like to execute the following commands, for example, serial debug or ssh. You can connect a keyboard and mouse to the Chipsee device and run them in the command line as well.</p>
 <p>The eMMC rootfs partition is <strong>/dev/mmcblk2p8</strong>. We will backup the contents in <strong>/dev/mmcblk2p8</strong>.</p>
-<p class="text-center mt-3"><a class="reference internal" href="../../../../../_images/RK3399_OS_Backup_Debian10_1.png"><img alt="OS_Backup_img" class="align-middle" src="../../../../../_images/RK3399_OS_Backup_Debian10_1.png" style="width: 720px;"/></a></p>
+<p class="text-center mt-3"><a class="reference internal" href="../../../../../_images/RK3399_OS_Backup_Debian10_1.png"><img alt="OS_Backup_img" class="align-middle" src="../../../../../_images/RK3399_OS_Backup_Debian10_1.png" width="720"/></a></p>
 <p class="text-center mt-3">eMMC rootfs partition is <strong>/dev/mmcblk2p8</strong></p>
 <pre class="literal-block">$ sudo su
 # export ROOTFS_DEV=<strong>/dev/mmcblk2p8</strong>
@@ -378,7 +348,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 <p>Now we have obtained the backup rootfs <strong>backuprootfs.tar.bz2</strong> in the SD card partition</p>
 </section>
 <section id="generate-new-image-file">
-<h3 id="generate-new-image-file">Generate New Image File<a class="headerlink" href="#generate-new-image-file" title="Permalink to this heading">¶</a></h3>
+<h3 id="generate-new-image-file">Generate New Image File<a class="headerlink" href="#generate-new-image-file" title="Link to this heading">¶</a></h3>
 <p>Poweroff the Chipsee PC. Put the SD card into your Linux HOST PC (or virtual machine).</p>
 <p>You should find a <strong>/dev/sdX</strong> in your Linux system, for example <strong>/dev/sdb</strong>, which is this SD card, <strong>you should use your actual /dev/sdX here</strong>, if you don’t know which sdX is it, check with <em>df -h</em> and see which one’s size is most likely your SD card.</p>
 <p>Now we mount /dev/sdb8 to find backuprootfs.tar.bz2</p>
@@ -411,13 +381,13 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
 </section>
 </section>
 <section id="disclaimer">
-<h2 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Permalink to this heading">¶</a></h2>
+<h2 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Link to this heading">¶</a></h2>
 <p><strong>This document is provided strictly for informational purposes. Its contents are subject to change without notice. Chipsee assumes no responsibility for any errors that may occur in this document. Furthermore, Chipsee reserves the right to alter the hardware, software, and/or specifications set forth herein at any time without prior notice and undertakes no obligation to update the information contained in this document.</strong></p>
 <p><strong>While every effort has been made to ensure the accuracy of the information contained herein, this document is not guaranteed to be error-free. Further, it does not offer any warranties or conditions, whether expressed orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular purpose. We specifically disclaim any liability with respect to this document, and no contractual obligations are formed either directly or indirectly by this document.</strong></p>
 <p><strong>Despite our best efforts to maintain the accuracy of the information in this document, we assume no responsibility for errors or omissions, nor for damages resulting from the use of the information herein. Please note that Chipsee products are not authorized for use as critical components in life support devices or systems.</strong></p>
 </section>
 <section id="technical-support">
-<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permalink to this heading">¶</a></h2>
+<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Link to this heading">¶</a></h2>
 <p>If you encounter any difficulties or have questions related to this document, we encourage you to refer to our other documentation for potential solutions. If you cannot find the solution you’re looking for, feel free to contact us. Please email Chipsee Technical Support at <a class="reference external" href="mailto:support%40chipsee.com"><strong>support<span>@</span>chipsee<span>.</span>com</strong></a>, providing all relevant information. We value your queries and suggestions and are committed to providing you with the assistance you require.</p>
 </section>
 </section>
@@ -445,7 +415,7 @@ c-0.101-0.41-0.294-0.781-0.581-1.114s-0.677-0.602-1.169-0.807s-1.13-0.308-1.914-
               
           </div>
             Last updated on
-              Oct 17, 2026.
+              Oct 18, 2026.
             <br/>
         </div>
       </div>

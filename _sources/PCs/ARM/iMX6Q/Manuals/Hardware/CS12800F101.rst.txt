@@ -16,42 +16,6 @@
 
 .. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
 
-.. |dimE| replace:: 245 x 155 x 11mm
-
-.. |dimP| replace:: 280 x 185.5 x 27.5mm
-
-.. |weightE| replace:: 600g
-
-.. |weightP| replace:: 1410g
-
-.. |RAM| replace:: 2GB DDR3
-
-.. |eMMC| replace:: 8GB
-
-.. |tscreen| replace:: Capacitive Multi-Point Touch Screen with 1mm tempered glass
-
-.. |USB| replace:: 2 x USB 2.0 HOST, 1 x USB OTG
-
-.. |LAN| replace:: 2 x RJ45: 1 x GbE, Optional PoE Support; 1 x 100Mbps, Optional
-
-.. |GPIO| replace:: 8 x General Purpose I/O (GPIO) channels
-
-.. |expansions| replace:: N/A
-
-.. |opt1| replace:: Optional, Not mounted by default
-
-.. |opt2| replace:: Integrated WiFi/BT Module
-
-.. |vin_rng| replace:: From 12V to 36V
-
-.. |cur| replace:: 600mA Max (w/o 4G Module)
-
-.. |pwr| replace:: 7W Typical
-
-.. |temp| replace:: From -20°C to +70°C
-
-.. |rs485| replace:: 3
-
 .. |gpio_img| image:: /Media/ARM/A9/CS12800F101/A9-101-C-GPIO.jpg
                   :align: middle
                   :width: 768
@@ -181,7 +145,7 @@ Mechanical Specifications
 |productE|
 ----------
 
-The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+The outer mechanical dimensions of |productE| are |spec:Dimensions:E| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
 .. figure:: /Media/ARM/A9/CS12800F101/EPC-A9-101-C-TD.jpeg
@@ -193,7 +157,7 @@ product measurements.
 
 |productP|
 ----------
-For |productP|, the outer mechanical dimensions are |dimP| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+For |productP|, the outer mechanical dimensions are |spec:Dimensions:P| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
 .. figure:: /Media/ARM/A9/CS12800F101/PPC-A9-101-C-TD.jpeg

@@ -14,20 +14,6 @@
 
 .. |disp_des| replace:: |dispsize| 5-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
 
-.. |disp_table| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
-
-.. |mounting_table| replace:: Panel, VESA
-
-.. |weightP| replace:: 700g
-
-.. |temp| replace:: From -10°C to +60°C
-
-.. |cur| replace:: 500mA Max at 12V
-
-.. |pwr| replace:: 6W Max
-
-.. |tscreen| replace:: 5-point capacitive touch screen with |glass_thickness| tempered glass
-
 .. |screen_conn_type| replace:: I2C
 
 .. |power_img| image:: /Media/ARM/A35/CS10600-STMP25-070P/CS10600-STMP25-070P-Power.jpg
