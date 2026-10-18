@@ -1593,8 +1593,8 @@
  },
  "PCs/Pi/Software/AIO156StartGuide": {
   "html": "PCs/Pi/Software/AIO156StartGuide.html",
-  "pdf": "PCs/Pi/Software/Raspberry_Pi_OS_OS_on_AIO_CM4_User_Manual.pdf",
-  "title": "Raspberry Pi OS OS on AIO CM4 User Manual",
+  "pdf": "PCs/Pi/Software/Raspberry_Pi_OS_on_AIO_CM4_User_Manual.pdf",
+  "title": "Raspberry Pi OS on AIO CM4 User Manual",
   "subtitle": "For AIO CM4 Products",
   "type": "ipc",
   "revision": ""
