@@ -47,14 +47,5 @@ jobs:
 
     - name: Build PDFs
       run: |
-        python tools/build_pdfs.py build/html --previous site --rendered build/changed-pdfs
+        python tools/build_pdfs.py build/html --previous site
 
-    # The PDFs this pull request changes, to download from the run's summary page.
-    - name: Upload changed PDFs
-      if: always()
-      uses: actions/upload-artifact@v4
-      with:
-        name: changed-pdfs
-        path: build/changed-pdfs
-        if-no-files-found: ignore
-        retention-days: 14

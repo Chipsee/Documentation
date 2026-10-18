@@ -268,7 +268,6 @@ def main() -> int:
     parser.add_argument("--only", help="render only pages matching this pattern, e.g. 'PCs/ESP32/*'")
     parser.add_argument("--force", action="store_true", help="render every PDF, even if unchanged")
     parser.add_argument("--keep-html", action="store_true", help="also write the print HTML next to each PDF, for debugging")
-    parser.add_argument("--rendered", type=Path, help="also copy the PDFs rendered this time here, e.g. to review a pull request's")
     args = parser.parse_args()
     args.html = args.html.resolve()
 
@@ -314,10 +313,6 @@ def main() -> int:
                 print(f"[{n}/{len(todo)}] FAILED {docname}: {error!r}", flush=True)
                 continue
             fingerprints[info["pdf"]] = digest
-            if args.rendered:
-                copy = args.rendered / info["pdf"]
-                copy.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copyfile(args.html / info["pdf"], copy)
             print(f"[{n}/{len(todo)}] {info['pdf']} ({seconds:.1f}s)", flush=True)
 
     fingerprints_path.write_text(json.dumps(dict(sorted(fingerprints.items())), indent=1) + "\n", encoding="utf-8")
