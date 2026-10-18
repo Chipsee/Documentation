@@ -53,9 +53,10 @@ jobs:
         sudo apt-get install -y libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0
         pip install -r docs/source/requirements.txt
 
+    # A warning stops the deploy, so the site stays on its last good build.
     - name: Build HTML
       run: |
-        sphinx-build -b html docs/source build/html -d build/doctrees -E -a -j auto
+        sphinx-build -b html docs/source build/html -d build/doctrees -E -a -j auto -W --keep-going
 
     - name: Build PDFs
       run: |

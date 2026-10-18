@@ -99,8 +99,8 @@ The PDF breaks pages by itself; `:pagebreak:` has no effect.
 
 | Workflow | When | What it does |
 |---|---|---|
-| Pull Request Docs Check (`sphinx_test.yml`) | Pull requests to `main` | Builds the HTML, failing on any warning, and renders the PDFs the pull request changes. Nothing is published. |
-| Build docs and update docs-build branch (`main.yml`) | Push to `main` | Builds the HTML and changed PDFs and publishes them to the `docs-build` branch, which chipsee.com/docs pulls. Run it by hand with **all_pdfs** to render every PDF again. |
+| Pull Request Docs Check (`sphinx_test.yml`) | Pull requests to `main` | Builds the HTML, failing on any warning. Nothing is published. |
+| Build docs and update docs-build branch (`main.yml`) | Push to `main` | Builds the HTML and changed PDFs and publishes them to the `docs-build` branch, which chipsee.com/docs pulls. A Sphinx warning or a PDF that fails to render stops the deploy, and the site stays as it was. Run it by hand with **all_pdfs** to render every PDF again. |
 | Pull specs (`pull_specs.yml`) | By hand | Pulls the specs of published products and opens a pull request. |
 
 A pull request opened by the Pull specs workflow doesn't start the Docs Check by itself; close and reopen it to run the check.
