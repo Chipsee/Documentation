@@ -1,0 +1,113 @@
+{
+  "products": [
+    {
+      "id": 31,
+      "slug": "ppc-a72-150-c",
+      "title": "PPC-A72-150-C",
+      "pn": "CS10768R150",
+      "shop_url": null
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Rokchip RK3399, Dual-core Cortex-A72 (1.8GHz), Quad-core Cortex-A53 (1.4GHz)"
+    },
+    {
+      "name": "RAM",
+      "value": "4GB DDR3"
+    },
+    {
+      "name": "eMMC",
+      "value": "16GB"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 32GB SDHC"
+    },
+    {
+      "name": "Display",
+      "value": "15” LCD, 1024 x 768, High Brightness: 350 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "10-point capacitive touch screen"
+    },
+    {
+      "name": "USB",
+      "value": "4 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x RJ45, GbE"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio Out Connector, 2W Internal Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "Yes"
+    },
+    {
+      "name": "RS232",
+      "value": "6 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "1 x RS485 (4 at most, 1 debug port)"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Supported, Optional"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 15V to 36V"
+    },
+    {
+      "name": "Current at 15V",
+      "value": "1000mA Max"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "15W Typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From 0°C to +70°C"
+    },
+    {
+      "name": "OS",
+      "value": "Android 7.1"
+    },
+    {
+      "name": "Dimensions",
+      "value": "377 x 307 x 58mm"
+    },
+    {
+      "name": "Weight",
+      "value": "4100g"
+    },
+    {
+      "name": "Mounting",
+      "value": "VESA & Panel methods"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "id": 47,
+      "slug": "ppc-a72-236",
+      "title": "PPC-A72-236",
+      "pn": "CS19108R236P",
+      "shop_url": "https://chipsee.com/product/ppc-a72-236/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Rockchip RK3399, Dual-core Cortex-A72 (1.8GHz), Quad-core Cortex-A53 (1.4GHz)"
+    },
+    {
+      "name": "RAM",
+      "value": "4GB DDR3"
+    },
+    {
+      "name": "eMMC",
+      "value": "16GB"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 128GB SDHC"
+    },
+    {
+      "name": "Display",
+      "value": "23.6” LCD, 1920 x 1080, High Brightness: 250 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "10-point capacitive touch screen with 2mm tempered glass"
+    },
+    {
+      "name": "USB",
+      "value": "1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x RJ45, GbE"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, 2W Internal Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "Yes"
+    },
+    {
+      "name": "RS232",
+      "value": "3 x RS232 (Optional 5 x RS232 at most, 1 debug port)"
+    },
+    {
+      "name": "RS485",
+      "value": "2 x RS485"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Supported, Optional"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 15V to 36V"
+    },
+    {
+      "name": "Current",
+      "value": "1.68A Max (15V)"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "19.56W (15V x 1.30A) Typical, 25.2W (15V x 1.68A) Max"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From 0°C to +50°C"
+    },
+    {
+      "name": "OS",
+      "value": "Android 7.1, Android 11, Buildroot Linux Qt5.14, Debian 10"
+    },
+    {
+      "name": "Dimensions",
+      "value": "PPC-A72-236 (PN: CS19108R236P): 595 x 374 x 57.25mm"
+    },
+    {
+      "name": "Weight",
+      "value": "PPC-A72-236 (PN: CS19108R236P): 7500g"
+    },
+    {
+      "name": "Mounting",
+      "value": "PPC-A72-236 (PN: CS19108R236P): Panel, VESA"
+    }
+  ]
+}

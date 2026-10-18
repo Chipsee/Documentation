@@ -18,42 +18,6 @@
 
 .. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |dimE| replace:: 190 x 107 x 27.7mm
-
-.. |dimP| replace:: 205.5 x 135.5 x 27.5mm
-
-.. |weightE| replace:: 345g
-
-.. |weightP| replace:: 580g
-
-.. |RAM| replace:: 4GB DDR3
-
-.. |eMMC| replace:: 16GB
-
-.. |tscreen| replace:: 5-point capacitive touch screen
-
-.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
-
-.. |LAN| replace:: 1 x RJ45, GbE
-
-.. |GPIO| replace:: 8 Channels
-
-.. |opt1| replace:: Not supported
-
-.. |opt2| replace:: Integrated WiFi/BT Module
-
-.. |vin_rng| replace:: From 12V to 36V
-
-.. |cur| replace:: 800mA Max
-
-.. |pwr| replace:: 8W Typical
-
-.. |temp| replace:: From 0°C to +60°C
-
-.. |rs232| replace:: 4 x RS232
-
-.. |rs485| replace:: 2 x RS485 (1 debug port)
-
 .. _product_link: https://chipsee.com/product/epc-a72-070-c/
 
 .. |product_link| replace:: |product|
@@ -178,7 +142,7 @@ Mechanical Specifications
 |productE|
 ----------
 
-The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+The outer mechanical dimensions of |productE| are |spec:Dimensions:E| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
 .. figure:: /Media/ARM/A72/CS10600R070/EPC-A72-070-C-TD.png
@@ -189,7 +153,7 @@ product measurements.
 
 |productP|
 ----------
-For |productP|, the outer mechanical dimensions are |dimP| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+For |productP|, the outer mechanical dimensions are |spec:Dimensions:P| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
 .. figure:: /Media/ARM/A72/CS10600R070/PPC-A72-070-C-TD.png

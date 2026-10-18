@@ -2,7 +2,6 @@
 
 .. |systemType| replace:: Ubuntu 24.04
 .. |chip| replace:: Jetson Orin Nano&NX
-.. |ipc| replace:: Chipsee industrial PC
 
 .. _jetson-orin-nano_nx_os_Ubuntu24:
 

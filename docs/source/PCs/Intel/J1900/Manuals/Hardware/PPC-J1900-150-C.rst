@@ -8,27 +8,9 @@
 
 .. include:: Resources/J1900-V2/104/base_replaces
 
-.. |weight| replace:: 4200g
-
-.. |dim| replace:: 376 x 300 x 57mm
-
 .. |dispsize| replace:: 15.0"
   
 .. |res| replace:: 1024 x 768
-
-.. |bright| replace:: 400 |cd|
-
-.. |tscreen| replace:: Multi-point capacitive touch screen
-
-.. |opt_1| replace:: Optional, module available from other manufacturers/stores
-
-.. |opt_2| replace:: Optional, module available from the Chipsee store
-
-.. |pwr| replace:: 12V, 1.7A (21W Max)
-
-.. |operating_temp| replace:: From 0°C to 60°C
-
-.. |storage_temp| replace:: From -20°C to 75°C
 
 .. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
 

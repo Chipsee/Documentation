@@ -1,0 +1,121 @@
+{
+  "products": [
+    {
+      "id": 75,
+      "slug": "cs-a53-box",
+      "title": "CS-A53-BOX",
+      "pn": "CS-IMX8MP-BOX",
+      "shop_url": "https://chipsee.com/product/cs-a53-box/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "NXP i.MX8MP, Quad(4)-core Cortex-A53 (1.6GHz)"
+    },
+    {
+      "name": "RAM",
+      "value": "LPDDR4 4GB"
+    },
+    {
+      "name": "eMMC",
+      "value": "32GB"
+    },
+    {
+      "name": "SSD",
+      "value": "Not supported"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 128GB SDHC"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI-D(Micro HDMI) OUT"
+    },
+    {
+      "name": "Display",
+      "value": "N/A"
+    },
+    {
+      "name": "Touch",
+      "value": "N/A"
+    },
+    {
+      "name": "USB",
+      "value": "1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C"
+    },
+    {
+      "name": "LAN",
+      "value": "2 x RJ45, GbE"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, 2W Internal Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)."
+    },
+    {
+      "name": "RS232",
+      "value": "default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port)"
+    },
+    {
+      "name": "RS485",
+      "value": "default 3 x RS485 at most"
+    },
+    {
+      "name": "CAN",
+      "value": "default 2 x CAN (1 x CAN can be configured to RS232 optionally)"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels Isolated IO, 4 x Input and 4 x Output"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module (Bluetooth is functional on Yocto Linux, not functional on Android)"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Supported, Optional"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 9V to 30V"
+    },
+    {
+      "name": "Current",
+      "value": "350mA (max) at 15V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "5.25W (max)"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -40°C to +85°C"
+    },
+    {
+      "name": "OS",
+      "value": "Android 12, Yocto Linux Qt 6.3"
+    },
+    {
+      "name": "Dimensions",
+      "value": "209 x 125 x 37.3mm"
+    },
+    {
+      "name": "Weight",
+      "value": "900g"
+    },
+    {
+      "name": "Mounting",
+      "value": "Rear, VESA"
+    }
+  ]
+}

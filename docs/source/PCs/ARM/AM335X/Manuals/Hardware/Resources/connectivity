@@ -1,7 +1,7 @@
 Connectivity
 ============
 
-There are many connectivity options available on the |product| industrial PC. It has |USB| (can be customized to Host or OTG), |LAN| (RJ45) Ethernet connector supporting up to
+There are many connectivity options available on the |product| industrial PC. It has |spec:USB| (can be customized to Host or OTG), |spec:LAN| (RJ45) Ethernet connector supporting up to
 1 Gbps, and 5 x UART terminals (RS232/RS485).
 
 RS232/RS485/CAN

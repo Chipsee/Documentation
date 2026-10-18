@@ -8,53 +8,7 @@
 
 .. |dispsize| replace:: 10.1"
 
-.. |res| replace:: 1280 x 800
-
 .. |bright| replace:: 350 |cd|
-
-.. |dim| replace:: 260.54 x 178.54 x 26.9mm
-
-.. |weight| replace:: 620g
-
-.. |tscreen| replace:: 10-point capacitive touch with 1.0mm Armored Glass
-
-.. |CM4_cpu| replace:: Raspberry |Pi| CM4; Quad Cortex-A72 at 1.5GHz
-
-.. |USB| replace:: 2 x USB 2.0 Host, 1 x USB TYPE-C
-
-.. |LAN| replace:: 1 x Giga LAN
-
-.. |GPIO| replace:: Two 5V Logic GPIO Outputs, can be used as Wiegand signal
-
-.. |opt1| replace:: Internal 4G/LTE module supported, not mounted by default
-
-.. |vin_rng| replace:: From 15V to 36V
-
-.. |cur| replace:: 400mA typical, 530mA max (15V)
-
-.. |pwr| replace:: 6W typical, 7.95W max
-
-.. |temp| replace:: From 0°C to +50°C
-
-.. |storage| replace:: 1 x TF card slot designed for storage expansion
-
-.. |audio| replace:: Mic input on the front panel, 2W internal stereo speaker, 3.5mm audio In/Out connector
-
-.. |rs232| replace:: 2 x RS232
-
-.. |rs485| replace:: 1 x RS485, 2 Channels at most. The RS485 circuit automatically controls the Input and Output direction (no need for software control)
-
-.. |relay| replace:: 1 x relay with "Normally Connected" and "Normally Open" output
-
-.. |zigbee| replace:: Internal Zigbee supported, not mounted by default
-
-.. |hdmi| replace:: N/A
-
-.. |hat| replace:: N/A
-
-.. |sd_socket| replace:: N/A
-
-.. |case_color| replace:: Black, White
 
 .. _product_link: https://chipsee.com/product/aio-cm4-101/
 
@@ -99,8 +53,8 @@
 Power Input
 ===========
 
-|Product| can be powered by a wide range of input voltages: |vin_rng| DC.
-Power consumption is |pwr|. For the power input connector, it's different from CS12800RA4101A_C111 and CS12800RA4101A_C121.
+|Product| can be powered by a wide range of input voltages: |spec:Power Input| DC.
+Power consumption is |spec:Power Consumption|. For the power input connector, it's different from CS12800RA4101A_C111 and CS12800RA4101A_C121.
 
 The power input connector is a 4.0-1.7mm DC connector for CS12800RA4101A_C111, it's 3.4-1.7mm for CS12800RA4101A_C121. For a proper DC power adapter, refer to the figure below.
 
@@ -147,7 +101,7 @@ If you use CS12800RA4101A_C121, the Boot Mode button had been changed to VOL+, y
 Connectivity
 ============
 
-There are many connectivity options available on the |product| industrial Pi PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to
+There are many connectivity options available on the |product| industrial Pi PC. It has |spec:USB|, |spec:LAN| (RJ45) Ethernet connector supporting up to
 1 Gbps, and RS232+RS485+Relay connector.
 
 USB HOST and USB TYPE-C
@@ -337,7 +291,7 @@ You can find detailed information about mounting in the |mguide|.
 Mechanical Specifications
 =========================
 
-The outer mechanical dimensions of |product| are |dim| (W x L x H). Please refer to the technical drawing in the figures below for details related to the specific
+The outer mechanical dimensions of |product| are |spec:Dimensions| (W x L x H). Please refer to the technical drawing in the figures below for details related to the specific
 product measurements.
 
 .. figure:: /Media/Pi/AIO/CS12800RA4101A/CS12800RA4101A-TD-Front.jpeg

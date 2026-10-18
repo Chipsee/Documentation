@@ -18,43 +18,7 @@
 
 .. |disp_des| replace:: |dispsize| resistive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |dimE| replace:: 226 x 172 x 28mm
-
-.. |dimP| replace:: 252 x 205 x 33mm
-
-.. |weightE| replace:: 610g
-
-.. |weightP| replace:: 1260g
-
-.. |RAM| replace:: 512MB DDR3
-
-.. |eMMC| replace:: 4GB
-
-.. |tscreen| replace:: 5-point capacitive touch screen
-
-.. |USB| replace:: 3 x USB 2.0 Host, 1 x USB OTG
-
-.. |LAN| replace:: 1 x Channel 100M LAN
-
-.. |GPIO| replace:: 8 Channels
-
 .. |gpio_desc| replace:: The GPIO has been Opt-Isolated and it uses the 24V Logic by default. The GPIO is driven by the on board VDD, you do not need an external isolated power input.
-
-.. |expansions| replace:: N/A
-
-.. |opt1| replace:: WCDMA+GPS Module (optional)
-
-.. |opt2| replace:: Onboard WiFi/BT (optional)
-
-.. |vin_rng| replace:: From 6V to 42V
-
-.. |cur| replace:: 800mA Max
-
-.. |pwr| replace:: 7W Typical
-
-.. |temp| replace:: From -20°C to +70°C
-
-.. |audio| replace:: 3.5mm output/input connector, 2W Internal Speaker
 
 .. _product_link: https://chipsee.com/product/epca897c/
 
@@ -108,7 +72,7 @@
 Connectivity
 ============
 
-There are many connectivity options available on the |product| industrial PC. It has |USB| (can be customized to 2 x Host), |LAN| (RJ45) Ethernet connector supporting up to
+There are many connectivity options available on the |product| industrial PC. It has |spec:USB| (can be customized to 2 x Host), |spec:LAN| (RJ45) Ethernet connector supporting up to
 1 Gbps, and 5 x UART terminals (RS232/RS485).
 
 RS232/RS485/CAN
@@ -211,7 +175,7 @@ Mechanical Specifications
 |productE|
 ----------
 
-The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+The outer mechanical dimensions of |productE| are |spec:Dimensions:E| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
 .. figure:: /Media/ARM/A8/CS10768T097/PPC-A8-097-C-TD.jpeg
@@ -224,7 +188,7 @@ product measurements.
 |productP|
 ----------
 
-For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+For |productP|, the outer mechanical dimensions are |spec:Dimensions:P| (W x L x H).
 
 .. include:: Resources/mount_set
 

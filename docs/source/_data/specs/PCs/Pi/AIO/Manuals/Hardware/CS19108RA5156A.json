@@ -1,0 +1,141 @@
+{
+  "products": [
+    {
+      "id": 150,
+      "slug": "aio-cm5-156",
+      "title": "AIO-CM5-156",
+      "pn": "CS19108RA5156A",
+      "shop_url": "https://chipsee.com/product/aio-cm5-156/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Raspberry Pi® CM5/CM5Lite; BCM2712 Quad(4) Core Cortex-A76 at 2.4GHz"
+    },
+    {
+      "name": "Storage",
+      "value": "Internal M.2 NVMe connector for SSD card (optional)"
+    },
+    {
+      "name": "RAM",
+      "value": "2GB, 4GB, or 8GB SDRAM based on CM5"
+    },
+    {
+      "name": "eMMC",
+      "value": "0GB, 16GB, 32GB, or 64GB based on CM5"
+    },
+    {
+      "name": "Display",
+      "value": "15.6” IPS LCD, 1920 x 1080 px, brightness 350 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "10-point capacitive touch with 1.1mm Armored Glass"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 3.0 Host, 1 x Type-C USB (Slave)"
+    },
+    {
+      "name": "PCIe",
+      "value": "M.2 2280 M-key, PCIe Gen 2.0 x1 (PCIe Gen 3.0 x1 is compatible but experimental) (optional)"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x Giga LAN"
+    },
+    {
+      "name": "Audio",
+      "value": "2W internal stereo speaker, 3.5mm audio Out connector"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Internal Buzzer"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)."
+    },
+    {
+      "name": "GPIO/Wiegand",
+      "value": "40-pin GPIO connector"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "WiFi/BT module comes with the CM5"
+    },
+    {
+      "name": "HAT Connector",
+      "value": "Standard Raspberry Pi 40-way HAT connector"
+    },
+    {
+      "name": "Micro SD card socket",
+      "value": "1 x TF(micro SD) card slot, only for CM5 Lite module to boot from TF"
+    },
+    {
+      "name": "HDMI",
+      "value": "HDMI 2.0 connector, can be driven up to 4K 60FPS"
+    },
+    {
+      "name": "Power Input",
+      "value": "12V DC"
+    },
+    {
+      "name": "Current",
+      "value": "1A Max, 800mA typical"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "12W Max, 9.6W typical"
+    },
+    {
+      "name": "Relay",
+      "value": "N/A"
+    },
+    {
+      "name": "RS232",
+      "value": "N/A"
+    },
+    {
+      "name": "RS485",
+      "value": "N/A"
+    },
+    {
+      "name": "CAN",
+      "value": "N/A"
+    },
+    {
+      "name": "3G/4G/LTE/GPS",
+      "value": "N/A"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From 0°C to +50°C"
+    },
+    {
+      "name": "OS",
+      "value": "Raspberry Pi OS, Android"
+    },
+    {
+      "name": "Dimensions",
+      "value": "374 x 238 x 33mm"
+    },
+    {
+      "name": "Weight",
+      "value": "1600g"
+    },
+    {
+      "name": "Mounting",
+      "value": "VESA, Stand"
+    },
+    {
+      "name": "Plastic Case Color",
+      "value": "Black"
+    },
+    {
+      "name": "Certification",
+      "value": "CE, ROHS"
+    }
+  ]
+}

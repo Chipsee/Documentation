@@ -14,45 +14,9 @@
 
 .. |dispsize| replace:: 12.5"
 
-.. |res| replace:: 1920 x 1080 (16:9)
-
-.. |bright| replace:: 220 |cd|
-
-.. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
-.. |con_ratio| replace:: 800:1
+.. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |spec:Display Resolution| pixels and brightness of |spec:Brightness|
 
 .. |glass_thickness| replace:: 3mm
-
-.. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
-
-.. |v_angle| replace:: 	Horizontal: 170° / Vertical: 170°
-
-.. |res_time| replace:: 35ms (GTG)
-
-.. |disp_col| replace:: 16.2M Colors
-
-.. |in_res| replace:: |res| @ 60Hz
-
-.. |connector| replace:: VGA / HDMI
-
-.. |dim| replace:: 305 x 185.4 x 29.5mm
-
-.. |pkg_size| replace:: 362 x 230 x 70mm
-
-.. |weight| replace:: 1540g
-
-.. |mount| replace:: VESA, MIS-D, 100, C
-
-.. |pwr| replace:: ≤ 15W
-
-.. |standby| replace:: ≤ 2W
-
-.. |vin_rng| replace:: 12V 3A DC
-
-.. |work_temp| replace:: From 0°C to +40°C, 90% RH
-
-.. |storage_temp| replace:: From -20°C to +60°C, 90% RH
 
 .. _product_link: https://chipsee.com/product/pim-125-c/
 

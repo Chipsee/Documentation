@@ -1,0 +1,140 @@
+{
+  "products": [
+    {
+      "id": 106,
+      "slug": "epc-cm4-070",
+      "title": "EPC-CM4-070",
+      "pn": "CS10600RA4070E",
+      "shop_url": "https://chipsee.com/product/PPC-CM4-070/"
+    },
+    {
+      "id": 107,
+      "slug": "ppc-cm4-070",
+      "title": "PPC-CM4-070",
+      "pn": "CS10600RA4070P",
+      "shop_url": "https://chipsee.com/product/PPC-CM4-070/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Raspberry Pi® CM4, CM4 Lite; Quad Cortex-A72 at 1.5GHz"
+    },
+    {
+      "name": "Storage",
+      "value": "Support for 2 x TF Card"
+    },
+    {
+      "name": "RAM",
+      "value": "2/4/8 GB, Based on CM4"
+    },
+    {
+      "name": "eMMC",
+      "value": "16/32 GB, Based on CM4"
+    },
+    {
+      "name": "Display",
+      "value": "7” IPS LCD, 1024 x 600 resolution px, brightness 500 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "5-point capacitive touch with 1mm tempered glass"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 2.0 Host, 1 x USB OTG"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x Giga LAN"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio Out Connector, 2W Speaker Internal"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Onboard Buzzer, driven by GPIO"
+    },
+    {
+      "name": "RTC",
+      "value": "Yes, High Accuracy RTC with Lithium Button Coin battery (lithium battery not included)"
+    },
+    {
+      "name": "RS232",
+      "value": "Default to 2 x RS232, up to 4 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "Default to 2 x RS485, these 2 x RS485 can be configured as 2 x RS232"
+    },
+    {
+      "name": "CAN",
+      "value": "1 x CAN-BUS"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels, 4 Input, 4 Output"
+    },
+    {
+      "name": "I2C",
+      "value": "Not Supported"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Supported but depending on the CM4 selected"
+    },
+    {
+      "name": "ZIGBEE",
+      "value": "Onboard Zigbee module, not mounted by default"
+    },
+    {
+      "name": "HDMI",
+      "value": "Yes"
+    },
+    {
+      "name": "SATA II",
+      "value": "Not Supported"
+    },
+    {
+      "name": "3G/4G/LTE",
+      "value": "Supported, not mounted by default"
+    },
+    {
+      "name": "Camera",
+      "value": "Yes, not mounted by default"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 6V to 36V"
+    },
+    {
+      "name": "Current",
+      "value": "420mA Max at 12V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "5W Typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From 0°C to +60°C"
+    },
+    {
+      "name": "OS",
+      "value": "Raspberry Pi OS"
+    },
+    {
+      "name": "Dimensions",
+      "value": "CS10600RA4070E: 190 × 107.8 × 27.7 mm; CS10600RA4070P: 206 x 135 x 30mm"
+    },
+    {
+      "name": "Weight",
+      "value": "CS10600RA4070E: 400g; CS10600RA4070P: 700g"
+    },
+    {
+      "name": "Mounting Method",
+      "value": "CS10600RA4070P: Panel, VESA; CS10600RA4070E: Embedded"
+    }
+  ]
+}

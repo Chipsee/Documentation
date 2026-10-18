@@ -4,7 +4,7 @@ Optional Features
 M.2 NVMe Module
 ***************
 
-The product has a |m2_desc| slot for a NVMe SSD, M.2 SSD is optional and can be selected when placing an order.
+The product has a |spec-bare:M2| slot for a NVMe SSD, M.2 SSD is optional and can be selected when placing an order.
 
 |Product| does not include the NVMe SSD by default.
 

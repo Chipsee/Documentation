@@ -8,8 +8,6 @@
 
 .. _BBB-EXP7H:
 
-.. |product_link| replace:: BBB-EXP7H
-
 .. |Cover PNG| image:: /Media/ARM/A8/BBB-EXP7H/BBB-EXP7H-Front.png
 
 .. |Front View| image:: /Media/ARM/A8/BBB-EXP7H/BBB-EXP7H-Front.jpg
@@ -25,30 +23,6 @@
                   :class: product-img 
 
 .. |sw_manual_download| replace:: :download:`Download Archived Software Manual: Chipsee_Beagle_Bone_Black_User_Manual_V1.0.2.pdf <PDF/Chipsee_Beagle_Bone_Black_User_Manual_V1.0.2.pdf>`
-
-.. |display| replace:: 7 Inch LCD, 1024*600 Pixel, 250nit Brightness by default (400 nit optional)
-
-.. |touch| replace:: Five Point Capacitive touch, Covered with Amorplate Glass (Or Reisistive Touch);
-
-.. |audio| replace:: On board Speaker(1W), 1 Audio out, 1 Mic In Connector (Can change to Line in by changing resistor)
-
-.. |rtc| replace:: Use Battery CR1220, Not Mounted by default.
-
-.. |rs232| replace:: 2 Channels, COM0 and COM1 
-
-.. |rs485| replace:: 2 Channels, COM2 and COM4
-
-.. |can| replace:: 1 Channel, CAN0 
-
-.. |buzzer| replace:: 1
-
-.. |key| replace:: 5 User defined keys, 1 Reset Key, 1 Power Key
-
-.. |led| replace:: 2 User defined LEDs
-
-.. |sensors| replace:: Three-Axis Digital Accelerometer
-
-.. |power| replace:: 5V, 3W power Consumption
 
 .. |img1| image:: /Media/ARM/A8/BBB-EXP7H/BBB-EXP7H-1.jpg
                   :align: middle
@@ -113,38 +87,10 @@ Hardware Features
 =================
 
 
-.. table:: Key Features
+.. spec-table::
    :align: center
    :width: 100%
    :widths: auto
-
-   +------------------------------------------------------------------------------+
-   | .. centered:: |product|                                                      |
-   +==============================================+===============================+
-   | **Display**                                  | |display|                     |
-   +----------------------------------------------+-------------------------------+
-   | **Touch**                                    | |touch|                       |
-   +----------------------------------------------+-------------------------------+
-   | **Audio**                                    | |audio|                       |
-   +----------------------------------------------+-------------------------------+
-   | **RTC**                                      | |rtc|                         |
-   +----------------------------------------------+-------------------------------+
-   | **RS232**                                    | |rs232|                       |
-   +----------------------------------------------+-------------------------------+
-   | **RS485**                                    | |rs485|                       |
-   +----------------------------------------------+-------------------------------+
-   | **CAN**                                      | |can|                         |
-   +----------------------------------------------+-------------------------------+
-   | **Buzzer**                                   | |buzzer|                      |
-   +----------------------------------------------+-------------------------------+
-   | **KEY**                                      | |key|                         |
-   +----------------------------------------------+-------------------------------+
-   | **LED**                                      | |led|                         |
-   +----------------------------------------------+-------------------------------+
-   | **Sensor**                                   | |sensors|                     |
-   +----------------------------------------------+-------------------------------+
-   | **Power**                                    | |power|                       |
-   +----------------------------------------------+-------------------------------+
 
 
 .. rst-class:: text-center

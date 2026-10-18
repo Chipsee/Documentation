@@ -8,53 +8,7 @@
 
 .. |dispsize| replace:: 15.6"
 
-.. |res| replace:: 1920 x 1080
-
 .. |bright| replace:: 350 |cd|
-
-.. |dim| replace:: 374 x 238 x 33mm
-
-.. |weight| replace:: 1600g
-
-.. |tscreen| replace:: Optional, 10-point capacitive touch with 1.1mm Armored Glass
-
-.. |CM4_cpu| replace:: Raspberry |Pi| CM4, CM4 Lite; Quad Cortex-A72 at 1.5GHz
-
-.. |USB| replace:: 2 x USB 3.0 Host, 1 x Type-C USB (Slave)
-
-.. |LAN| replace:: 1 x Channel Giga LAN
-
-.. |GPIO| replace:: 40-pin GPIO connector
-
-.. |opt1| replace:: N/A
-
-.. |vin_rng| replace:: 12V
-
-.. |cur| replace:: 700mA Max (12V)
-
-.. |pwr| replace:: 10W Typical
-
-.. |temp| replace:: From 0°C to +50°C
-
-.. |storage| replace:: 1 x TF card slot for boot. Optional, Internal M.2 NVMe connector for SSD card
-
-.. |audio| replace:: 2W internal stereo speaker, 3.5mm audio Out connector
-
-.. |rs232| replace:: N/A
-
-.. |rs485| replace:: N/A
-
-.. |relay| replace:: N/A
-
-.. |zigbee| replace:: N/A
-
-.. |hdmi| replace:: HDMI 2.0 connectors, slave HDMI port for CM4
-
-.. |hat| replace:: Standard Raspberry Pi 40-way HAT connector
-
-.. |sd_socket| replace:: For use only with CM4 Lite modules
-
-.. |case_color| replace:: Black
 
 .. _product_link: https://chipsee.com/product/aio-cm4-156/
 

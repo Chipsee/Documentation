@@ -10,13 +10,7 @@
 
 .. |PN| replace:: PN: CS19108-IMX8MP-185P
 
-.. |cur| replace:: 1.32A(15V, typical), 1.52A(15V, max)
-
-.. |pwr| replace:: 22.80W(max)
-
 .. |screen_conn_type| replace:: USB
-
-.. |temp| replace:: From -30°C to +80°C
 
 .. |power_img| image:: /Media/ARM/A53/CS19108-IMX8MP-185P/CS19108-IMX8MP-185P-Power.jpg
                   :align: middle

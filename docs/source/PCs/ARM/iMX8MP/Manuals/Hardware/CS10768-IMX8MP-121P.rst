@@ -10,13 +10,7 @@
 
 .. |PN| replace:: PN: CS10768-IMX8MP-121P
 
-.. |cur| replace:: 0.80A Max at 15V
-
-.. |pwr| replace:: 12W Typical.
-
 .. |screen_conn_type| replace:: USB
-
-.. |temp| replace:: From -20°C to +70°C
 
 .. |power_img| image:: /Media/ARM/A53/CS10768-IMX8MP-121P/CS10768-IMX8MP-121P-Power.jpg
                   :align: middle

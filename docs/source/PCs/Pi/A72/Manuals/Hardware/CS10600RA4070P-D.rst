@@ -14,27 +14,7 @@
 
 .. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |mounting_table| replace:: Panel, VESA
-
-.. |disp_table| replace:: |dispsize| IPS LCD, |res| resolution \px, brightness |bright|
-
-.. |weightP| replace:: 700g
-
-.. |vin_rng| replace:: From 6V to 36V
-
-.. |tscreen| replace:: 5-point capacitive touch with |glass_thickness| tempered glass
-
-.. |dim_desc| replace:: |dimP|
-
-.. |weight_desc| replace:: |weightP|
-
 .. |cap_screen_conn| replace:: FPC connector
-
-.. |cur| replace:: 700mA (max); 530mA (maximum backlight, idle); 400mA (minimum backlight, idle) at 12V
-
-.. |pwr| replace:: 8.4W (max); 6.36W (maximum backlight, idle); 4.8W (minimum backlight, idle)
-
-.. |LAN| replace:: 2 x Giga LAN (**optional** PoE support for LAN0)
 
 .. _product_link: https://chipsee.com/product/ppc-cm4-070-d/
 

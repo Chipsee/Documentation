@@ -7,10 +7,11 @@
 
 {%- block extrahead %}
     {{ super() }}
+    {%- set og_title = "Chipsee Documentation" if pagename == root_doc else title|striptags|e %}
     <meta name="description" content="Hardware and software manuals for Chipsee industrial panel PCs, embedded computers, displays and kiosks.">
-    <meta property="og:title" content="{{ title|striptags|e }}">
+    <meta property="og:title" content="{{ og_title }}">
     <meta property="og:description" content="Hardware and software manuals for Chipsee industrial panel PCs, embedded computers, displays and kiosks.">
-    <meta property="og:type" content="article">
+    <meta property="og:type" content="{{ "website" if pagename == root_doc else "article" }}">
     <meta property="og:site_name" content="Chipsee Documentation">
     <meta property="og:locale" content="en_US">
     <meta property="og:image" content="https://chipsee.com/docs/_static/images/og-chipsee-docs.png">
@@ -20,7 +21,7 @@
     <meta property="og:url" content="{{ pageurl|e }}">
     {%- endif %}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ title|striptags|e }}">
+    <meta name="twitter:title" content="{{ og_title }}">
     <meta name="twitter:description" content="Hardware and software manuals for Chipsee industrial panel PCs, embedded computers, displays and kiosks.">
     <meta name="twitter:image" content="https://chipsee.com/docs/_static/images/og-chipsee-docs.png">
     <script type="application/ld+json">

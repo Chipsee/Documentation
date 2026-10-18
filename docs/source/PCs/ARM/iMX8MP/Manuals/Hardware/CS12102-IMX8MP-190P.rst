@@ -10,13 +10,7 @@
 
 .. |PN| replace:: PN: CS12102-IMX8MP-190P
 
-.. |cur| replace:: 1.15A(15V, typical), 1.36A(15V, max)
-
-.. |pwr| replace:: 20.40W(max)
-
 .. |screen_conn_type| replace:: USB
-
-.. |temp| replace:: From 0°C to +50°C
 
 .. |power_img| image:: /Media/ARM/A53/CS12102-IMX8MP-190P/CS12102-IMX8MP-190P-Power.jpg
                   :align: middle

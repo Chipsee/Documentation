@@ -1,0 +1,132 @@
+{
+  "products": [
+    {
+      "id": 63,
+      "slug": "epc-a9-097-c",
+      "title": "EPC-A9-097-C",
+      "pn": "CS10768F097E",
+      "shop_url": "https://chipsee.com/product/ppc-a9-097-c/"
+    },
+    {
+      "id": 64,
+      "slug": "ppc-a9-097-c",
+      "title": "PPC-A9-097-C",
+      "pn": "CS10768F097P",
+      "shop_url": "https://chipsee.com/product/ppc-a9-097-c/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "iMX6Q, Arm® Cortex®-A9, 1GHz"
+    },
+    {
+      "name": "RAM",
+      "value": "2GB DDR3"
+    },
+    {
+      "name": "eMMC",
+      "value": "8GB"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 32GB SDHC"
+    },
+    {
+      "name": "Display",
+      "value": "9.7” LCD, 1024 x 768, High Brightness: 500cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "Capacitive Multi-Point Touch Screen"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 2.0 HOST, 1 x USB OTG"
+    },
+    {
+      "name": "LAN",
+      "value": "2 x RJ45: 1 x GbE, Optional PoE Support; 1 x 100Mbps, Optional"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, Internal 2W Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "Yes, Powered by CR2032 Button Battery"
+    },
+    {
+      "name": "RS232",
+      "value": "2 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "3 x RS485"
+    },
+    {
+      "name": "CAN",
+      "value": "2 x CAN"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 x General Purpose I/O (GPIO) channels"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI"
+    },
+    {
+      "name": "SATA",
+      "value": "1 x SATA II"
+    },
+    {
+      "name": "Expansion Port",
+      "value": "N/A"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Optional, Not mounted by default"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 12V to 36V"
+    },
+    {
+      "name": "Current at 15V",
+      "value": "600mA Max (w/o 4G Module)"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "7W Typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -20°C to +70°C"
+    },
+    {
+      "name": "OS",
+      "value": "Chipsee Linux, Android 4.3, Android 6.0, Android 8.0, Ubuntu 12.04, Ubuntu 14.04, Debian"
+    },
+    {
+      "name": "Dimensions",
+      "value": "EPC-A9-097-C (PN: CS10768F097E): 226 x 172 x 26mm; PPC-A9-097-C (PN: CS10768F097P): 256 x 207 x 29mm"
+    },
+    {
+      "name": "Weight",
+      "value": "EPC-A9-097-C (PN: CS10768F097E): 550g; PPC-A9-097-C (PN: CS10768F097P): 1370g"
+    },
+    {
+      "name": "Mounting",
+      "value": "EPC-A9-097-C (PN: CS10768F097E): Embedded; PPC-A9-097-C (PN: CS10768F097P): Panel"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "products": [
+    {
+      "id": 198,
+      "slug": "cs-jetorin-box",
+      "title": "CS-JETORIN-BOX",
+      "pn": "CS-JETORIN-BOX",
+      "shop_url": "https://chipsee.com/product/cs-jetorin-box/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "Display",
+      "value": "N/A"
+    },
+    {
+      "name": "Storage",
+      "value": "Default mSATA 128GB SSD"
+    },
+    {
+      "name": "Touch",
+      "value": "N/A"
+    },
+    {
+      "name": "Audio",
+      "value": "N/A"
+    },
+    {
+      "name": "USB",
+      "value": "6 x USB 3.0 Type A HOST and 1 x Type C port"
+    },
+    {
+      "name": "LAN",
+      "value": "2 x RJ45, 1Gbps"
+    },
+    {
+      "name": "UART",
+      "value": "Default 2 x RS232(include one debug port). 1 x RS232 can be configured to 1 x RS485(optional)"
+    },
+    {
+      "name": "GPIO",
+      "value": "N/A"
+    },
+    {
+      "name": "4G/5G",
+      "value": "Optional, module available from the Chipsee store"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Optional, module available from the Chipsee store"
+    },
+    {
+      "name": "I2C",
+      "value": "2 x I2C port"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI 2.0 out"
+    },
+    {
+      "name": "Power IN",
+      "value": "from 15V to 48V DC"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "30W Max with Nano 4GB/8GB, 45W Max with NX 4GB/8GB"
+    },
+    {
+      "name": "OS",
+      "value": "Ubuntu 24.04(default)"
+    },
+    {
+      "name": "Operating Temp.",
+      "value": "From 0°C to +60°C"
+    },
+    {
+      "name": "Storage Temp.",
+      "value": "From +18°C to +30°C"
+    },
+    {
+      "name": "Humidity",
+      "value": "From 5% to 95% relative humidity (no condensation)"
+    },
+    {
+      "name": "Dimensions",
+      "value": "158 X 118 X 68mm"
+    },
+    {
+      "name": "EMC",
+      "value": "CE/FCC/ROHS/ISO-9001"
+    },
+    {
+      "name": "Mounting",
+      "value": "VESA 100mm, Desktop"
+    },
+    {
+      "name": "Weight",
+      "value": "1200g"
+    }
+  ]
+}

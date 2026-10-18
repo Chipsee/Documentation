@@ -12,12 +12,6 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |cur| replace:: 0.80A Max at 15V
-
-.. |pwr| replace:: 12W Typical
-
-.. |temp| replace:: From -20°C to +70°C
-
 .. |power_img| image:: /Media/ARM/A55/CS10768-RK3568-121P/CS10768-RK3568-121P-Power.jpg
                   :align: middle
                   :width: 384

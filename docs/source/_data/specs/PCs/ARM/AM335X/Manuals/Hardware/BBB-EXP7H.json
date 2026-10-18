@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "id": 202,
+      "slug": "bbb-exp7h",
+      "title": "BBB-EXP7H",
+      "pn": "BBB-EXP7H",
+      "shop_url": "https://chipsee.com/product/bbb-exp7h/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "Display",
+      "value": "7 Inch LCD, 1024*600 Pixel, 250nit Brightness by default (400 nit optional)"
+    },
+    {
+      "name": "Touch",
+      "value": "Five Point Capacitive touch, Covered with Amorplate Glass (Or Reisistive Touch);"
+    },
+    {
+      "name": "Audio",
+      "value": "On board Speaker(1W), 1 Audio out, 1 Mic In Connector (Can change to Line in by changing resistor)"
+    },
+    {
+      "name": "RTC",
+      "value": "Use Battery CR1220, Not Mounted by default."
+    },
+    {
+      "name": "RS232",
+      "value": "2 Channels, COM0 and COM1"
+    },
+    {
+      "name": "RS485",
+      "value": "2 Channels, COM2 and COM4"
+    },
+    {
+      "name": "CAN",
+      "value": "1 Channel, CAN0"
+    },
+    {
+      "name": "Buzzer",
+      "value": "1"
+    },
+    {
+      "name": "KEY",
+      "value": "5 User defined keys, 1 Reset Key, 1 Power Key"
+    },
+    {
+      "name": "LED",
+      "value": "2 User defined LEDs"
+    },
+    {
+      "name": "Sensor",
+      "value": "Three-Axis Digital Accelerometer"
+    },
+    {
+      "name": "Power",
+      "value": "5V, 3W power Consumption"
+    }
+  ]
+}

@@ -10,15 +10,7 @@
 
 .. |PN| replace:: PN: CS19108-IMX8MP-215P
 
-.. |weightE| replace:: NULL
-
-.. |cur| replace:: 1.60A Max at 15V
-
-.. |pwr| replace:: 9.6W Typical, 24W Max
-
 .. |screen_conn_type| replace:: USB
-
-.. |temp| replace:: From 0°C to +50°C
 
 .. |bright| replace:: |bright_shared|
 

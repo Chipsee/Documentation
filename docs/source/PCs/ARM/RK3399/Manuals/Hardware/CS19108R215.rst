@@ -14,38 +14,6 @@
 
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |dim| replace:: 530 x 322 x 45mm
-
-.. |weight| replace:: 6000g
-
-.. |RAM| replace:: 4GB DDR3
-
-.. |eMMC| replace:: 16GB
-
-.. |tscreen| replace:: 10-point capacitive touch screen
-
-.. |USB| replace:: 4 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
-
-.. |LAN| replace:: 1 x RJ45, GbE
-
-.. |GPIO| replace:: 8 Channels
-
-.. |opt1| replace:: Supported, Optional
-
-.. |opt2| replace:: Integrated WiFi/BT Module
-
-.. |vin_rng| replace:: From 15V to 36V
-
-.. |cur| replace:: 1000mA Max
-
-.. |pwr| replace:: 15W Typical
-
-.. |temp| replace:: From 0°C to +70°C
-
-.. |rs232| replace:: 5 x RS232
-
-.. |rs485| replace:: 2 x RS485 (4 at most, 1 debug port)
-
 .. _product_link: https://chipsee.com/product/ppc-a72-215-c/
 
 .. |product_link| replace:: |product|
@@ -111,7 +79,7 @@
 Measurements and Mounting Procedure
 ===================================
 
-The outer mechanical dimensions of |product| are |dim| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+The outer mechanical dimensions of |product| are |spec:Dimensions| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
 .. Figure:: /Media/ARM/A72/CS19108R215/PPC-A72-215-C-TD.jpeg

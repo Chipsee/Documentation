@@ -12,33 +12,7 @@
 
 .. |dispsize| replace:: 21.5"
 
-.. |res| replace:: 1920 x 1080 (16:9)
-
-.. |dim| replace:: 535 x 331 x 52.5mm
-
-.. |pkg_size| replace:: N/A
-
 .. |glass_thickness| replace:: 2mm
-
-.. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
-
-.. |con_ratio| replace:: 1000:1
-
-.. |weight| replace:: 5.5kg
-
-.. |bright| replace:: 300 |cd|
-
-.. |v_angle| replace::  Horizontal: 170°(min)~178°(typ) / Vertical: 170°(min)~178°(typ)
-
-.. |disp_col| replace:: 16.7M Colors
-
-.. |resp_time| replace:: 14ms
-
-.. |pwr| replace:: ≤ 24W
-
-.. |storage_temp| replace:: From -20°C to +60°C, 90% RH (No condensation)
-
-.. |working_temp| replace:: From 0°C to +50°C, 90% RH (No condensation)
 
 .. _product_link: https://chipsee.com/product/pim-215-p/
 

@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "id": 144,
+      "slug": "cs86-box-5200u",
+      "title": "CS86-BOX-5200U",
+      "pn": "",
+      "shop_url": "https://chipsee.com/product/cs86-box-5200u"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Intel Core i5 5200U, Dual(2) Core 4 Threads, 2.2GHz Base Frequency, 2.7GHz Turbo Frequency"
+    },
+    {
+      "name": "Mother Board",
+      "value": "H81U Series, AMI BIOS"
+    },
+    {
+      "name": "GPU",
+      "value": "Intel® HD Graphics 5500 iGPU"
+    },
+    {
+      "name": "RAM",
+      "value": "4GB(1 x 4GB) DDR3L 1600MHz (default), Up to 16GB (dual channel, optional)"
+    },
+    {
+      "name": "Storage",
+      "value": "Default mSATA 128GB SSD (supports up to 2TB), supports 2.5” SATA HDD (SATA2.0)"
+    },
+    {
+      "name": "USB",
+      "value": "4 x USB3.0, 2 x USB2.0 HOST ports (Type A)"
+    },
+    {
+      "name": "PCIe",
+      "value": "1 x Full Size Mini PCIe"
+    },
+    {
+      "name": "Audio",
+      "value": "1 x Audio interface, Realtek ALC662 chip, supports dual channel, stereo, Lineout"
+    },
+    {
+      "name": "LAN",
+      "value": "2 x RJ45, GbE (Intel® i225), Wake on LAN (WoL) support"
+    },
+    {
+      "name": "UART",
+      "value": "Default 6 x RS232 (COM1 ~ COM4 can be configured to RS485 by using one internal RS232 to RS485 board)"
+    },
+    {
+      "name": "3G/4G",
+      "value": "N/A"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Optional"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI Out port, up to 2560x1600 60Hz, independent/identical display with VGA"
+    },
+    {
+      "name": "VGA",
+      "value": "1 x VGA Out port, up to 1920x1080 60Hz, independent/identical display with HDMI"
+    },
+    {
+      "name": "SATA",
+      "value": "1 x Full size mSATA, 1 x SATA"
+    },
+    {
+      "name": "Power IN",
+      "value": "12V 5A DC"
+    },
+    {
+      "name": "Current",
+      "value": "2.75A (100% CPU, 12V)"
+    },
+    {
+      "name": "OS",
+      "value": "Ubuntu 22 and above, CentOS 9 Linux, Windows 8/10 64bit"
+    },
+    {
+      "name": "Operating Temp.",
+      "value": "From -15°C to +80°C"
+    },
+    {
+      "name": "Dimensions",
+      "value": "235 * 137 * 51mm"
+    },
+    {
+      "name": "Shell Material",
+      "value": "Aluminum Alloy"
+    },
+    {
+      "name": "Mounting",
+      "value": "VESA, Desktop"
+    },
+    {
+      "name": "Weight",
+      "value": "1500g"
+    }
+  ]
+}

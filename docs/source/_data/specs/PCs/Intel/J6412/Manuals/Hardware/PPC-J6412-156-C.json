@@ -1,0 +1,113 @@
+{
+  "products": [
+    {
+      "id": 92,
+      "slug": "ppc-j6412-156-c",
+      "title": "PPC-J6412-156-C",
+      "pn": "",
+      "shop_url": "https://chipsee.com/product/ppc-j6412-156-c/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Intel® Celeron® J6412, 2GHz, Quad-Core, 1.5M Cache, TDP=10W"
+    },
+    {
+      "name": "GPU",
+      "value": "Intel® HD integrated GPU, 512MB shared memory"
+    },
+    {
+      "name": "RAM",
+      "value": "Default 4GB, maximum 32GB, 1 x DDR4 3200 SO-DIMM"
+    },
+    {
+      "name": "Display",
+      "value": "15.6” LCD, resolution 1920 x 1080 px, brightness 500 cd/m2"
+    },
+    {
+      "name": "Storage",
+      "value": "Default mSATA 64GB SSD; 1 x SATA2.5 HDD 1T; 1 x M.2 2280 NVMe PCI-E 3.0 x 2 Slot"
+    },
+    {
+      "name": "Touch",
+      "value": "Multi-point capacitive touch screen"
+    },
+    {
+      "name": "Audio",
+      "value": "Realtek High Definition Audio Codec, MIC/Line-Out, Amplifier"
+    },
+    {
+      "name": "USB",
+      "value": "4 x USB 3.0 Type A HOST"
+    },
+    {
+      "name": "LAN",
+      "value": "2 x RJ45, 1Gbps (Intel)"
+    },
+    {
+      "name": "UART",
+      "value": "Default 4 x RS232 and 2 x RS485. The 2 x RS485: COM5/6 can be configured to RS232(optional)"
+    },
+    {
+      "name": "GPIO",
+      "value": "N/A"
+    },
+    {
+      "name": "3G/4G/LTE/5G",
+      "value": "Optional, module available from other manufacturers/stores"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Optional, module available from the Chipsee store"
+    },
+    {
+      "name": "Expandability",
+      "value": "2 x Mini-PCIe (One for optional WiFi/BT/3G/4G/5G, one for mSATA)"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI out"
+    },
+    {
+      "name": "Power IN",
+      "value": "From 9V to 30V DC"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "28W"
+    },
+    {
+      "name": "OS",
+      "value": "Ubuntu 20.04(default), Windows 10, Windows 11"
+    },
+    {
+      "name": "Operating Temp.",
+      "value": "From -20°C to +60°C (with SSD)"
+    },
+    {
+      "name": "Storage Temp.",
+      "value": "From -30°C to +80°C"
+    },
+    {
+      "name": "Humidity",
+      "value": "From 5% to 95% relative humidity (no condensation)"
+    },
+    {
+      "name": "Dimensions",
+      "value": "400 × 256 × 52.5mm"
+    },
+    {
+      "name": "EMC",
+      "value": "CE/FCC/ROHS/ISO-9001"
+    },
+    {
+      "name": "Mounting",
+      "value": "VESA 100mm, Panel mounting with fixtures, Wall, Desktop"
+    },
+    {
+      "name": "Weight",
+      "value": "4500g"
+    }
+  ]
+}

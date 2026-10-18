@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": 25,
+      "slug": "epc-a8-080-r",
+      "title": "EPC-A8-080-R",
+      "pn": "CS80600T080E",
+      "shop_url": "https://chipsee.com/product/ppca8080r/"
+    },
+    {
+      "id": 26,
+      "slug": "ppc-a8-080-r",
+      "title": "PPC-A8-080-R",
+      "pn": "CS80600T080P",
+      "shop_url": "https://chipsee.com/product/ppca8080r/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "AM3354ZCZ100, Arm® Cortex®-A8, 1GHz"
+    },
+    {
+      "name": "RAM",
+      "value": "512MB DDR3"
+    },
+    {
+      "name": "eMMC",
+      "value": "4GB"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 32GB SDHC"
+    },
+    {
+      "name": "Display",
+      "value": "8.0” LCD, 800 x 600 resolution px, brightness 250 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "Resistive touch"
+    },
+    {
+      "name": "USB",
+      "value": "4 x USB 2.0 Host"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x Channel 100M LAN"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm output/input connector, 2W Internal Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "Yes"
+    },
+    {
+      "name": "RS232",
+      "value": "2 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "2 x RS485"
+    },
+    {
+      "name": "CAN",
+      "value": "1 x CAN"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels, 4 Input, 4 Output, 1000V DC Isolated"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Onboard WiFi/BT (optional)"
+    },
+    {
+      "name": "Expansion Port",
+      "value": "N/A"
+    },
+    {
+      "name": "3G/4G/LTE",
+      "value": "Onboard 3G (optional)"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 6V to 42V"
+    },
+    {
+      "name": "Current at 12V",
+      "value": "400mA Max"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "6W Typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -20°C to +70°C"
+    },
+    {
+      "name": "OS",
+      "value": "Android 4.1, Linux with Qt 4.8, Linux with Qt 5.5, Debian 7.4, Debian 8.4, Angstorm v2012.12"
+    },
+    {
+      "name": "Dimensions",
+      "value": "EPC-A8-080-R (PN: CS80600T080E): 199 x 149 x 29mm; PPC-A8-080-R (PN: CS80600T080P): 226 x 175 x 31mm"
+    },
+    {
+      "name": "Weight",
+      "value": "EPC-A8-080-R (PN: CS80600T080E): 580g; PPC-A8-080-R (PN: CS80600T080P): 1070g"
+    },
+    {
+      "name": "Mounting",
+      "value": "EPC-A8-080-R (PN: CS80600T080E): Embedded; PPC-A8-080-R (PN: CS80600T080P): Panel"
+    }
+  ]
+}

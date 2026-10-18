@@ -16,19 +16,7 @@
 
 .. |bright| replace:: 260 |cd|
 
-.. |dimE| replace:: NULL
-
 .. |dimP| replace:: 253.20 X 171.83 X 36mm
-
-.. |weightE| replace:: NULL
-
-.. |weightP| replace:: 1300g
-
-.. |cur| replace:: 300mA Typical, 500mA Max at 15V 
-
-.. |pwr| replace:: 4.5W Typical, 7.5W Max
-
-.. |temp| replace:: From 0°C to +50°C
 
 .. |power_img| image:: /Media/ARM/A55/CS12800-RK3568B2-101P/CS12800-RK3568B2-101P-Power.jpg
                   :align: middle

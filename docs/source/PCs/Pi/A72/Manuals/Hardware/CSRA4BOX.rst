@@ -11,21 +11,6 @@
 .. |PN| replace:: PN: CSRA4BOX
 
 .. |Product| replace:: The |product| industrial Pi PC
-.. |disp_table| replace:: N/A
-
-.. |tscreen| replace:: N/A
-
-.. |weight_desc| replace:: |weightP|
-
-.. |cap_screen_conn| replace:: FPC connector
-
-.. |vin_rng| replace:: From 9V to 30V
-
-.. |cur| replace:: 360mA (max) at 15V
-
-.. |pwr| replace:: 5.4W (max)
-
-.. |LAN| replace:: 2 x Giga LAN
 
 .. _product_link: https://chipsee.com/product/cs-cm4-box/
 

@@ -8,45 +8,7 @@
 
 .. |dispsize| replace:: 10.1"
 
-.. |res| replace:: 1280 x 800
-
 .. |bright| replace:: 350 |cd|
-
-.. |dim| replace:: 260.54 x 178.54 x 26.9mm
-
-.. |weight| replace:: 620g
-
-.. |tscreen| replace:: 10-point capacitive touch with 1.0mm Armored Glass
-
-.. |USB| replace:: 2 x USB 2.0 Host, 1 x mini USB OTG
-
-.. |LAN| replace:: 1 x Channel 100Mbps LAN
-
-.. |opt1| replace:: Internal 4G/LTE module supported, not mounted by default
-
-.. |vin_rng| replace:: 12V DC
-
-.. |cur| replace:: 500mA Max
-
-.. |pwr| replace:: 6W Typical
-
-.. |temp| replace:: From 0°C to +50°C
-
-.. |storage| replace:: 1 x TF card slot designed for storage expansion
-
-.. |audio| replace:: Mic input on the front panel, 2W internal stereo speaker, 3.5mm audio In/Out connector
-
-.. |rs232| replace:: 1 x RS232 default, 2 Channels at most.
-
-.. |rs485| replace:: 1 x RS485 default, 2 Channels at most. The RS485 circuit automatically controls the Input and Output direction (no need for software control)
-
-.. |can| replace:: 1 x CAN Bus.
-
-.. |relay| replace:: 1 x relay with "Normally Connected" and "Normally Open" output
-
-.. |zigbee| replace:: Internal Zigbee supported, not mounted by default
-
-.. |case_color| replace:: Black, White
 
 .. _product_link: https://chipsee.com/product/aio-px30-101/
 
@@ -91,7 +53,7 @@
 Power Input
 ===========
 
-|Product| can be powered by a wide range of input voltages: |vin_rng|.
+|Product| can be powered by a wide range of input voltages: |spec:Power Input|.
 The total power consumption is typically about 6W. The power input connector is a 3.4/1.7mm DC connector. For a proper DC power adapter, refer to the figure below.
 We also provide a customzied power cable of 3.4/1.7mm to 5.5/2.1mm for customer.
 
@@ -135,7 +97,7 @@ There are three (3) buttons on the backside of the case: Volume +, Volume -, and
 Connectivity
 ============
 
-There are many connectivity options available on the |product| industrial PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to
+There are many connectivity options available on the |product| industrial PC. It has |spec:USB|, |spec:LAN| (RJ45) Ethernet connector supporting up to
 100Mbps, and RS232+RS485+CAN+Relay connector.
 
 USB HOST and USB OTG
@@ -316,7 +278,7 @@ You can find detailed information about mounting in the |mguide|.
 Mechanical Specifications
 =========================
 
-The outer mechanical dimensions of |product| are |dim| (W x L x H). Please refer to the technical drawing in the figures below for details related to the specific
+The outer mechanical dimensions of |product| are |spec:Dimensions| (W x L x H). Please refer to the technical drawing in the figures below for details related to the specific
 product measurements.
 
 .. figure:: /Media/ARM/A35/AIO/CS12800PX101A/CS12800PX101A-TD-Front.jpeg

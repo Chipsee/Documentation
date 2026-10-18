@@ -12,59 +12,13 @@
 
 .. |disp_des| replace:: |dispsize| 5-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |disp_table_des| replace:: |dispsize| LCD, |res|, High Brightness: |bright|
-
 .. |dc_in_desc| replace:: There are two DC input interfaces on this device: a **3-pin, 3.81mm terminal**, and a **2.1mm I.D x 5.5mm O.D x 9.5mm DC connector**.
-
-.. |mounting_table| replace:: Panel, VESA
-
-.. |gpu| replace:: ARM Mali-G610 MC4. Up to 8K60 FPS video decoding, up to 8K30 FPS video encoding.
-
-.. |npu| replace:: Neural network acceleration engine with 6Tops int8, support Int4/8/16/FP16/BF16/TF32.
 
 .. |pcie_opt_feature| replace:: This product doesn't have M.2 PCIe socket.
 
 .. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 3 x RS485, including 1 debug port. CAN0 can be configured to RS232.
 
-.. |weightP| replace:: 700g
-
-.. |RAM| replace:: 8GB LPDDR4
-
-.. |PCIe| replace:: N/A
-
-.. |eMMC| replace:: 64GB
-
-.. |tscreen| replace:: 5-point capacitive touch screen with |glass_thickness| tempered glass
-
-.. |HDMI_des| replace:: 1 x HDMI-D (Micro-HDMI) Out
-
-.. |USB| replace:: 2 x USB 3.0 HOST, 1 x USB Type-C
-
-.. |LAN| replace:: 2 x RJ45, GbE
-
-.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
-
 .. |gpio_conn| replace:: **10-pin 3.81 mm terminal**
-
-.. |opt1| replace:: Supported, Optional
-
-.. |opt2| replace:: Integrated WiFi/BT Module
-
-.. |vin_rng| replace:: From 9V to 30V (supports **optional** 24V ignition signal)
-
-.. |cur| replace:: 533mA (max) at 15V
-
-.. |pwr| replace:: 8W (max)
-
-.. |temp| replace:: From -10°C to +60°C
-
-.. |rs232| replace:: default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port)
-
-.. |rs485| replace:: default 3 x RS485 at most
-
-.. |can| replace:: default 2 x CAN FD
-
-.. |poe| replace:: N/A
 
 .. |which_usb_usbc_conflict| replace:: near RJ45
 

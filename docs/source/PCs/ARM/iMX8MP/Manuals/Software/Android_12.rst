@@ -2,7 +2,6 @@
 
 .. |systemType| replace:: Android 12
 .. |chip| replace:: i.MX8MP
-.. |ipc| replace:: Chipsee industrial PC
 
 .. _imx8mp_os_android12:
 

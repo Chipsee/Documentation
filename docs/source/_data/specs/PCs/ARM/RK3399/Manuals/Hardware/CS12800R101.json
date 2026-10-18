@@ -1,0 +1,120 @@
+{
+  "products": [
+    {
+      "id": 35,
+      "slug": "epc-a72-101-c",
+      "title": "EPC-A72-101-C",
+      "pn": "CS12800R101E",
+      "shop_url": "https://chipsee.com/product/epc-a72-101/"
+    },
+    {
+      "id": 36,
+      "slug": "ppc-a72-101-c",
+      "title": "PPC-A72-101-C",
+      "pn": "CS12800R101P",
+      "shop_url": "https://chipsee.com/product/epc-a72-101/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Rokchip RK3399, Dual-core Cortex-A72 (1.8GHz), Quad-core Cortex-A53 (1.4GHz)"
+    },
+    {
+      "name": "RAM",
+      "value": "4GB DDR3"
+    },
+    {
+      "name": "eMMC",
+      "value": "16GB"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 32GB SDHC"
+    },
+    {
+      "name": "Display",
+      "value": "10.1” LCD, 1280 x 800, High Brightness: 250 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "10-point capacitive touch screen"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x RJ45, GbE"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, 2W Internal Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "Yes"
+    },
+    {
+      "name": "RS232",
+      "value": "5 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "2 x RS485 (Optional 4 x RS485 at most, 1 debug port)"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Supported, Optional"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 15V to 36V"
+    },
+    {
+      "name": "Current at 15V",
+      "value": "500mA Max"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "7.5W Typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -20°C to +70°C"
+    },
+    {
+      "name": "OS",
+      "value": "Android 7.1"
+    },
+    {
+      "name": "Dimensions",
+      "value": "EPC-A72-101-C (PN: CS12800R101E): 245 x 155 x 11mm; PPC-A72-101-C (PN: CS12800R101P): 280 x 185.5 x 27.5mm"
+    },
+    {
+      "name": "Weight",
+      "value": "EPC-A72-101-C (PN: CS12800R101E): 600g; PPC-A72-101-C (PN: CS12800R101P): 1500g"
+    },
+    {
+      "name": "Mounting",
+      "value": "EPC-A72-101-C (PN: CS12800R101E): Embedded; PPC-A72-101-C (PN: CS12800R101P): Panel"
+    }
+  ]
+}

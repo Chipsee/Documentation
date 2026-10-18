@@ -12,33 +12,7 @@
 
 .. |dispsize| replace:: 19.0"
 
-.. |res| replace:: 1280 x 1024 (5:4)
-
-.. |dim| replace:: 435 x 363 x 53.5mm
-
-.. |pkg_size| replace:: N/A
-
 .. |glass_thickness| replace:: 2mm
-
-.. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
-
-.. |con_ratio| replace:: 1000:1
-
-.. |weight| replace:: 5.4kg
-
-.. |bright| replace:: 250 |cd|
-
-.. |v_angle| replace::  Horizontal: 150°(min)~170°(typ) / Vertical: 140°(min)~160°(typ)
-
-.. |disp_col| replace:: 16.7M Colors
-
-.. |resp_time| replace:: 5ms
-
-.. |pwr| replace:: ≤ 24W
-
-.. |storage_temp| replace:: From -20°C to +60°C, 90% RH (No condensation)
-
-.. |working_temp| replace:: From 0°C to +50°C, 90% RH (No condensation)
 
 .. _product_link: https://chipsee.com/product/pim-190-p/
 

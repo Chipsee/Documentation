@@ -4,15 +4,9 @@
 
 .. |productE| replace:: CS12720RA4050E
 
-.. |productP| replace:: CS12720RA4050P(No-HDMI)
-
 .. |PN| replace:: PN: CS12720RA4050E
 
 .. |Product| replace:: The |product| industrial Pi PC
-
-.. |CM4_cpu| replace:: Raspberry |Pi| CM4; Quad Cortex-A72 at 1.5GHz
-
-.. |TFNum| replace:: 1
 
 .. |tf_des| replace:: Chipsee designed TF card slots for storage expansion, as the TF card for storage expansion use same pins with WiFi, it can't be used with WiFi at same time
 
@@ -24,39 +18,9 @@
 
 .. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |dimE| replace:: 141.2 x 77.6 x 25.8mm
-
-.. |dimP| replace:: 139 x 85 x 28mm
-
-.. |weightE| replace:: 200g
-
-.. |weightP| replace:: 310g
-
 .. |tscreen| replace:: 5-point capacitive touch
 
 .. |cap_screen_conn| replace:: FPC connector
-
-.. |USB| replace:: 2 x USB 2.0 Host, 1 x Type-C
-
-.. |LAN| replace:: 1 x Channel Giga LAN
-
-.. |GPIO| replace:: Not Supported
-
-.. |hdmi_des| replace:: Not Supported
-
-.. |sata_des| replace:: Not Supported
-
-.. |opt1| replace:: Not Supported
-
-.. |opt2| replace:: Supported but depending on the CM4 selected
-
-.. |vin_rng| replace:: From 9V to 36V
-
-.. |cur| replace:: 500mA Max
-
-.. |pwr| replace:: 6W Typical
-
-.. |temp| replace:: From 0°C to +60°C
 
 .. _product_link: https://chipsee.com/product/epc-cm4-050
 
@@ -145,7 +109,7 @@
 Connectivity
 ============
 
-There are many connectivity options available on the |product| industrial Pi PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to
+There are many connectivity options available on the |product| industrial Pi PC. It has |spec:USB|, |spec:LAN| (RJ45) Ethernet connector supporting up to
 1 Gbps, and 4 x UART terminals (RS232/RS485/CAN).
 
 RS232/RS485/CAN
@@ -314,7 +278,7 @@ Mechanical Specifications
 |productE|
 ----------
 
-The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+The outer mechanical dimensions of |productE| are |spec:Dimensions:E| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
 .. figure:: /Media/Pi/A72/CS12720RA4050/CS12720RA4050E-TD.jpeg

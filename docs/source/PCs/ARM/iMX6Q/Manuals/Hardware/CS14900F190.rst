@@ -12,34 +12,6 @@
 
 .. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
 
-.. |dim| replace:: 466 x 313 x 63mm
-
-.. |weight| replace:: 5200g
-
-.. |RAM| replace:: 2GB DDR3
-
-.. |eMMC| replace:: 8GB
-
-.. |tscreen| replace:: Capacitive Multi-Point Touch Screen
-
-.. |USB| replace:: 4 x USB 2.0 HOST, 1 x USB OTG
-
-.. |LAN| replace:: 1 x Channel 1000Mbps LAN
-
-.. |GPIO| replace:: 8 x Channels
-
-.. |opt1| replace:: Optional, Not mounted by default
-
-.. |opt2| replace:: Integrated WiFi/BT Module
-
-.. |vin_rng| replace:: From 15V to 36V
-
-.. |cur| replace:: 2000mA Max
-
-.. |pwr| replace:: 22W Typical
-
-.. |temp| replace:: From -20°C to +70°C
-
 .. |gpio_img| image:: /Media/ARM/A9/CS14900F190/GP_IO.jpeg
                   :align: middle
                   :width: 768
@@ -90,68 +62,11 @@ Optional Features
 
 .. include:: PPC_Resources/HW_features
 
-.. table:: Key Features
+.. spec-table::
+   :footnotes: RS485=at
    :align: center
    :width: 100%
    :widths: auto
-
-   +---------------------------------------------------------------------------------------+
-   | .. centered:: |product|                                                               |
-   +=========================+=============================================================+
-   | **CPU**                 | iMX6Q, |Arm| |Cortex|-A9, 1GHz                              |
-   +-------------------------+-------------------------------------------------------------+
-   | **RAM**                 | |RAM|                                                       |
-   +-------------------------+-------------------------------------------------------------+
-   | **eMMC**                | |eMMC|                                                      |
-   +-------------------------+-------------------------------------------------------------+
-   | **Storage**             | TF Card, Supports up to 32GB SDHC                           |
-   +-------------------------+-------------------------------------------------------------+
-   | **Display**             | |dispsize| LCD, |res|, High Brightness: 500cd/m\ :sup:`2`   |
-   +-------------------------+-------------------------------------------------------------+
-   | **Touch**               | |tscreen|                                                   |
-   +-------------------------+-------------------------------------------------------------+
-   | **USB**                 | |USB|                                                       |
-   +-------------------------+-------------------------------------------------------------+
-   | **LAN**                 | |LAN|                                                       |
-   +-------------------------+-------------------------------------------------------------+
-   | **Audio**               | 3.5mm Audio In/Out Connector, Internal 2W Speaker           |
-   +-------------------------+-------------------------------------------------------------+
-   | **Buzzer**              | Yes                                                         |
-   +-------------------------+-------------------------------------------------------------+
-   | **RTC**                 | Yes, Powered by CR2032 Button Battery                       |
-   +-------------------------+-------------------------------------------------------------+
-   | **RS232**               | 2 x RS232                                                   |
-   +-------------------------+-------------------------------------------------------------+
-   | **RS485**               | 3 x RS485\ [#at]_                                           |
-   +-------------------------+-------------------------------------------------------------+
-   | **CAN**                 | 2 x CAN                                                     |
-   +-------------------------+-------------------------------------------------------------+
-   | **GPIO**                | |GPIO|                                                      |
-   +-------------------------+-------------------------------------------------------------+
-   | **WiFi/BT**             | |opt2|                                                      |
-   +-------------------------+-------------------------------------------------------------+
-   | **HDMI**                | 1 x HDMI                                                    |
-   +-------------------------+-------------------------------------------------------------+
-   | **SATA**                | 1 x SATA II                                                 |
-   +-------------------------+-------------------------------------------------------------+
-   | **4G/LTE**              | |opt1|                                                      |
-   +-------------------------+-------------------------------------------------------------+
-   | **Power Input**         | |vin_rng|                                                   |
-   +-------------------------+-------------------------------------------------------------+
-   | **Current at 15V**      | |cur|                                                       |
-   +-------------------------+-------------------------------------------------------------+
-   | **Power Consumption**   | |pwr|                                                       |
-   +-------------------------+-------------------------------------------------------------+
-   | **Working Temperature** | |temp|                                                      |
-   +-------------------------+-------------------------------------------------------------+
-   | **OS**                  | Multiple Choices (`Operating System`_)                      |
-   +-------------------------+-------------------------------------------------------------+
-   | **Dimensions**          | |dim|                                                       |
-   +-------------------------+-------------------------------------------------------------+
-   | **Weight**              | |weight|                                                    |
-   +-------------------------+-------------------------------------------------------------+
-   | **Mounting**            | Panel                                                       |
-   +-------------------------+-------------------------------------------------------------+
 
 -----
 
@@ -164,7 +79,7 @@ Optional Features
 Power Input
 ===========
 
-|Product| can be powered by a wide range of input voltages: |vin_rng| DC. The power input connector is a **3-pin, 3.81mm terminal**.
+|Product| can be powered by a wide range of input voltages: |spec:Power Input| DC. The power input connector is a **3-pin, 3.81mm terminal**.
 The polarity and the pinout is clearly marked on the housing of the product as shown on the figure below.
 
 .. Figure:: /Media/ARM/A9/CS14900F190/Power.jpeg
@@ -301,7 +216,7 @@ can be configured by the software.
 Measurements and Mounting Procedure
 ===================================
 
-The outer mechanical dimensions of |product| are |dim| (W x L x H).
+The outer mechanical dimensions of |product| are |spec:Dimensions| (W x L x H).
 
 |Product| can be mounted with 8 x M4 screws or 4 x M4 screws using the VESA (100x100cm or 75x75cm) and Panel mounting methods, enabling simplified installation onto any standard mounting fixture.
 

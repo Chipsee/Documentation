@@ -10,12 +10,6 @@
                   
 .. |cpu_name| replace:: Celeron J1900
 
-.. |cpu_spec| replace:: Quad(4) Core 4 Threads, 2.0GHz
-
-.. |lan_ic| replace:: Intel® i211
-
-.. |os_support| replace:: Ubuntu 22 and above, CentOS 9 Linux, Windows 7/8/10
-
 .. _CS86-BOX-J1900-PRO:
 
 .. |Cover PNG| image:: /Media/Intel/J1900/CS86-BOX-J1900-PRO/CS86-BOX-J1900-PRO-Front.png

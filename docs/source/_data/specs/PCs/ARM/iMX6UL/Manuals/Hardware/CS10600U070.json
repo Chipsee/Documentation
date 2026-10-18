@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "id": 73,
+      "slug": "epc-a7-070hb-c",
+      "title": "EPC-A7-070HB-C",
+      "pn": "CS10600U070E",
+      "shop_url": "https://chipsee.com/product/epca7070hc/"
+    },
+    {
+      "id": 74,
+      "slug": "ppc-a7-070hb-c",
+      "title": "PPC-A7-070HB-C",
+      "pn": "CS10600U070P",
+      "shop_url": "https://chipsee.com/product/epca7070hc/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "i.MX6UL, Arm® Cortex®-A7, 528MHz"
+    },
+    {
+      "name": "RAM",
+      "value": "512MB DDR3"
+    },
+    {
+      "name": "eMMC",
+      "value": "4GB"
+    },
+    {
+      "name": "Storage",
+      "value": "TF card supports up to 32GB SDHC"
+    },
+    {
+      "name": "Display",
+      "value": "7.0” LCD, 1024 x 600 , High Brightness: 500cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "Capacitive Touch (Five-Point)"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 2.0 Host"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x RJ45, up to 100Mbps"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connectors, Internal 2W Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "Yes, Powered by CR2032 Button Battery"
+    },
+    {
+      "name": "RS232",
+      "value": "2 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "3 x RS485"
+    },
+    {
+      "name": "CAN",
+      "value": "2 x CAN"
+    },
+    {
+      "name": "GPIO",
+      "value": "4 x Input, 4 x Output, PSU, Isolated"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Optional On-Board WiFi (RTL8723)"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 6V to 36V"
+    },
+    {
+      "name": "Current at 12V",
+      "value": "500mA Max"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "5W Typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "-20°C to +70°C"
+    },
+    {
+      "name": "OS",
+      "value": "Linux, Debian"
+    },
+    {
+      "name": "Dimensions",
+      "value": "EPC-A7-070HB-C (CS10600U070E): 190 x 112 x 28mm; PPC-A7-070HB-C (CS10600U070P): 205 x 135 x 28mm"
+    },
+    {
+      "name": "Weight",
+      "value": "EPC-A7-070HB-C (CS10600U070E): 340g; PPC-A7-070HB-C (CS10600U070P): 730g"
+    },
+    {
+      "name": "Mounting",
+      "value": "EPC-A7-070HB-C (CS10600U070E): Embedded; PPC-A7-070HB-C (CS10600U070P): Panel"
+    }
+  ]
+}

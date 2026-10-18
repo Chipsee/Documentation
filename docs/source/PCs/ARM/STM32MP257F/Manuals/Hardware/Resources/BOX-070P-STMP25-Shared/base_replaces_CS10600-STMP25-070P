@@ -1,27 +1,3 @@
-.. |RAM| replace:: DDR4 4GB
-
-.. |eMMC| replace:: 16GB
-
-.. |pcie| replace:: Not supported
-
-.. |USB| replace:: 2 x USB 2.0 HOST, 1 x USB Type-C
-
-.. |LAN| replace:: 2 x RJ45, GbE
-
-.. |GPIO| replace:: 8 Channels Isolated IO, 4 x Input and 4 x Output
-
-.. |opt1| replace:: Supported, Optional
-
-.. |opt2| replace:: Integrated WiFi/BT Module
-
-.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off **(default)**. High accuracy RTC with lithium coin battery, can work 3 years after power off *(optional)*.
-
-.. |vin_rng| replace:: From 9V to 30V
-
-.. |rs232| replace:: default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port)
-
-.. |rs485| replace:: default 3 x RS485 at most
-
 .. |uart_at_most| replace:: 6 x UART terminals (RS232/RS485)
 
 .. |can_at_most| replace:: 2 x CAN FD
@@ -31,10 +7,6 @@
 .. |gpio_conn| replace:: 10 Pin 3.81mm **GPIO Connector**
 
 .. |UART_Note| replace:: This product has 6 x CPU UART, the default configuration is 2 x RS232 and 3 x RS485, include 1 x RS232 debug port. There is 1 x CAN FD that can be configured to RS232.
-
-.. |can| replace:: default 2 x CAN FD (1 x CAN FD can be configured to RS232 optionally)
-
-.. |poe| replace:: N/A
 
 .. |lan_poe| replace:: This product doesn't support PoE.
 

@@ -14,45 +14,9 @@
 
 .. |dispsize| replace:: 19"
 
-.. |res| replace:: 1440×900 (4:3)
-
-.. |bright| replace:: 250 |cd|
-
-.. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
-.. |con_ratio| replace:: 1000:1
+.. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |spec:Display Resolution| pixels and brightness of |spec:Brightness|
 
 .. |glass_thickness| replace:: 3mm
-
-.. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
-
-.. |v_angle| replace:: 	Horizontal: 170° / Vertical: 160°
-
-.. |res_time| replace:: 5ms (GTG)
-
-.. |disp_col| replace:: 16.7M Colors
-
-.. |in_res| replace:: |res| @ 60Hz
-
-.. |connector| replace:: VGA / DVI / HDMI
-
-.. |dim| replace:: 431 x 355.8 x 42.5mm
-
-.. |pkg_size| replace:: 680 x 450 x 150mm
-
-.. |weight| replace:: 4500g / 6500g
-
-.. |mount| replace:: VESA, MIS-D, 100, C
-
-.. |pwr| replace:: ≤ 16W
-
-.. |vin_rng| replace:: 12V 3A DC
-
-.. |standby| replace:: ≤ 2W
-
-.. |work_temp| replace:: From 0°C to +40°C, 90% RH
-
-.. |storage_temp| replace:: From -20°C to +60°C, 90% RH
 
 .. _product_link: https://chipsee.com/product/pim190c/
 
