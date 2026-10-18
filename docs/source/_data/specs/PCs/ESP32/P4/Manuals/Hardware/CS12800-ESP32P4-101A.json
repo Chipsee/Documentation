@@ -71,11 +71,11 @@
     },
     {
       "name": "RS485",
-      "value": "1 x RS485 (default); up to 2 x RS485 (optional, by configuring RS232_2 to RS485); 1 x RS485 can be configured to 2 x GPIO (optional)"
+      "value": "1 x RS485 (default); up to 2 x RS485 (optional, by configuring RS232_2 to RS485); 1 x RS485 can be configured to 2 x GPIO (optional), 120Ohm terminal resistor is not mounted by default, if you need it, please note us"
     },
     {
       "name": "CAN",
-      "value": "0 x CAN (default); 1 x CAN 2.0 (classic CAN, no CAN FD), up to 1Mbps, by configuring the relay to CAN (optional) (optional)"
+      "value": "0 x CAN (default); 1 x CAN 2.0 (classic CAN, no CAN FD), up to 1Mbps, by configuring the relay to CAN (optional), 120Ohm terminal resistor is not mounted by default, if you need it, please note us"
     },
     {
       "name": "USB",
