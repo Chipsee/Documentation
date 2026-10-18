@@ -75,11 +75,11 @@
     },
     {
       "name": "RS485",
-      "value": "2 x RS485 (default); 2 x RS485 can be configured to 2 x RS232 (optional)"
+      "value": "2 x RS485 (default); 2 x RS485 can be configured to 2 x RS232 (optional), 120Ohm terminal resistor is NOT mounted by default, if you need it, please note us"
     },
     {
       "name": "CAN",
-      "value": "1 x CAN (default)"
+      "value": "1 x CAN (default), bit rate up to 1Mbps, 120Ohm terminal resistor is NOT mounted by default, if you need it, please note us"
     },
     {
       "name": "USB",
