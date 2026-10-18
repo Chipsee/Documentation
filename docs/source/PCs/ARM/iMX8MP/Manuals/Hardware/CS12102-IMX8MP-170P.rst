@@ -10,13 +10,7 @@
 
 .. |PN| replace:: PN: CS12102-IMX8MP-170P
 
-.. |cur| replace:: 0.98A(15V, typical), 1.17A(15V, max)
-
-.. |pwr| replace:: 17.52W(max)
-
 .. |screen_conn_type| replace:: USB
-
-.. |temp| replace:: From 0°C to +50°C
 
 .. |power_img| image:: /Media/ARM/A53/CS12102-IMX8MP-170P/CS12102-IMX8MP-170P-Power.jpg
                   :align: middle

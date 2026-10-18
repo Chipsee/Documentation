@@ -18,42 +18,6 @@
 
 .. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |dimE| replace:: 245 x 155 x 11mm
-
-.. |dimP| replace:: 280 x 185.5 x 27.5mm
-
-.. |weightE| replace:: 600g
-
-.. |weightP| replace:: 1500g
-
-.. |RAM| replace:: 4GB DDR3
-
-.. |eMMC| replace:: 16GB
-
-.. |tscreen| replace:: 10-point capacitive touch screen
-
-.. |USB| replace:: 2 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
-
-.. |LAN| replace:: 1 x RJ45, GbE
-
-.. |GPIO| replace:: 8 Channels
-
-.. |opt1| replace:: Supported, Optional
-
-.. |opt2| replace:: Integrated WiFi/BT Module
-
-.. |vin_rng| replace:: From 15V to 36V
-
-.. |cur| replace:: 500mA Max
-
-.. |pwr| replace:: 7.5W Typical
-
-.. |temp| replace:: From -20°C to +70°C
-
-.. |rs232| replace:: 5 x RS232
-
-.. |rs485| replace:: 2 x RS485 (Optional 4 x RS485 at most, 1 debug port)
-
 .. _product_link: https://chipsee.com/product/epc-a72-101/
 
 .. |product_link| replace:: |product|
@@ -184,7 +148,7 @@ Mechanical Specifications
 |productE|
 ----------
 
-The outer mechanical dimensions of |productE| are |dimE| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+The outer mechanical dimensions of |productE| are |spec:Dimensions:E| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
 .. figure:: /Media/ARM/A72/CS12800R101/EPC-A72-101-C-TD.jpeg
@@ -195,7 +159,7 @@ product measurements.
 
 |productP|
 ----------
-For |productP|, the outer mechanical dimensions are |dimP| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
+For |productP|, the outer mechanical dimensions are |spec:Dimensions:P| (W x L x H). Please refer to the technical drawing in the figure below for details related to the specific
 product measurements.
 
 .. figure:: /Media/ARM/A72/CS12800R101/PPC-A72-101-C-TD.jpeg

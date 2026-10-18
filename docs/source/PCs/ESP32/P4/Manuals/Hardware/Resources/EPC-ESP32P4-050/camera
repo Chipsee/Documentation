@@ -1,7 +1,7 @@
 Camera
 ------
 
-The product has |camera|. 
+The product has |spec:Camera|. 
 
 Note: I2C address 0x10 is occupied by audio IC, which conflicts with Raspberry Pi Camera V2/V2.1 (Sony IMX219) module. When you select a camera, please choose carefully because not all electrically compatible camera modules have mature software support for the ESP32-P4.
 

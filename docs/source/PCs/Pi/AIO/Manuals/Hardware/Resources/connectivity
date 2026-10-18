@@ -1,5 +1,5 @@
 Connectivity
 ============
 
-There are many connectivity options available on the |product| industrial Pi PC. It has |USB|, |LAN| (RJ45) Ethernet connector supporting up to
+There are many connectivity options available on the |product| industrial Pi PC. It has |spec:USB|, |spec:LAN| (RJ45) Ethernet connector supporting up to
 1 Gbps, and RS232+RS485+Relay connector.

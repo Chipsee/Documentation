@@ -4,11 +4,7 @@
 
 .. |rs485| replace:: 2
 
-.. |vga| replace:: N/A
-
-.. |hdmi| replace:: 1 x HDMI out
-
-.. |disp_conn| replace:: |hdmi| port
+.. |disp_conn| replace:: |spec:HDMI| port
 
 .. |usb2| replace:: 3
 

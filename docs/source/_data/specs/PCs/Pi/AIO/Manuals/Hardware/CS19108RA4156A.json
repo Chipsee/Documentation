@@ -1,0 +1,133 @@
+{
+  "products": [
+    {
+      "id": 123,
+      "slug": "aio-cm4-156",
+      "title": "AIO-CM4-156",
+      "pn": "CS19108RA4156A",
+      "shop_url": "https://chipsee.com/product/aio-cm4-156/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Raspberry Pi® CM4, CM4 Lite; Quad Cortex-A72 at 1.5GHz"
+    },
+    {
+      "name": "Storage",
+      "value": "1 x TF card slot for boot. Optional, Internal M.2 NVMe connector for SSD card"
+    },
+    {
+      "name": "RAM",
+      "value": "2GB DDR"
+    },
+    {
+      "name": "eMMC",
+      "value": "16GB"
+    },
+    {
+      "name": "Display",
+      "value": "15.6” IPS LCD, 1920 x 1080 resolution px, brightness 350 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "Optional, 10-point capacitive touch with 1.1mm Armored Glass"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 3.0 Host, 1 x Type-C USB (Slave)"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x Channel Giga LAN"
+    },
+    {
+      "name": "Audio",
+      "value": "2W internal stereo speaker, 3.5mm audio Out connector"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Internal Buzzer"
+    },
+    {
+      "name": "RTC",
+      "value": "Yes, High accuracy internal RTC (keep track of time one week after power off)"
+    },
+    {
+      "name": "RS232",
+      "value": "N/A"
+    },
+    {
+      "name": "RS485",
+      "value": "N/A"
+    },
+    {
+      "name": "Relay",
+      "value": "N/A"
+    },
+    {
+      "name": "GPIO/Wiegand",
+      "value": "40-pin GPIO connector"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "WiFi/BT module comes with the CM4"
+    },
+    {
+      "name": "HAT Connector",
+      "value": "Standard Raspberry Pi 40-way HAT connector"
+    },
+    {
+      "name": "Micro SD card socket",
+      "value": "For use only with CM4 Lite modules"
+    },
+    {
+      "name": "ZIGBEE",
+      "value": "N/A"
+    },
+    {
+      "name": "HDMI",
+      "value": "HDMI 2.0 connectors, slave HDMI port for CM4"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "N/A"
+    },
+    {
+      "name": "Power Input",
+      "value": "12V"
+    },
+    {
+      "name": "Current",
+      "value": "700mA Max (12V)"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "10W Typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From 0°C to +50°C"
+    },
+    {
+      "name": "OS",
+      "value": "Raspberry Pi OS, Ubuntu"
+    },
+    {
+      "name": "Dimensions",
+      "value": "374 x 238 x 33mm"
+    },
+    {
+      "name": "Weight",
+      "value": "1600g"
+    },
+    {
+      "name": "Plastic Case Color",
+      "value": "Black"
+    },
+    {
+      "name": "Certification",
+      "value": "CE, ROHS"
+    }
+  ]
+}

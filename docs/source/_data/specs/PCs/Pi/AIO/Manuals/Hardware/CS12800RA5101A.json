@@ -1,0 +1,141 @@
+{
+  "products": [
+    {
+      "id": 178,
+      "slug": "aio-cm5-101",
+      "title": "AIO-CM5-101",
+      "pn": "CS12800RA5101A",
+      "shop_url": "https://chipsee.com/product/aio-cm5-101"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Raspberry Pi® CM5/CM5Lite; BCM2712 Quad(4) Core Cortex-A76 at 2.4GHz"
+    },
+    {
+      "name": "Storage",
+      "value": "Internal M.2 NVMe connector for SSD card (optional)"
+    },
+    {
+      "name": "RAM",
+      "value": "2GB, 4GB, or 8GB SDRAM based on CM5"
+    },
+    {
+      "name": "eMMC",
+      "value": "0GB, 16GB, 32GB, or 64GB based on CM5"
+    },
+    {
+      "name": "Display",
+      "value": "10.1” IPS LCD, 1280 x 800 px, brightness 400 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "10-point capacitive touch with 1.0mm Armored Glass"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 3.0 type-A Host, 1 x USB type-C OTG"
+    },
+    {
+      "name": "PCIe",
+      "value": "M.2 2230/2242 M-key, PCIe Gen 2.0 x 1(5Gbps) (PCIe Gen 3.0 x1 is compatible but experimental) (optional)"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x Giga LAN"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio Out Connector, 2W Speaker Internal"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Onboard Buzzer, driven by GPIO"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)."
+    },
+    {
+      "name": "GPIO/Wiegand",
+      "value": "(Optional) 2 x 5V Logic GPIO Outputs, can be used as Wiegand signal"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Optional (Depends on CM5)"
+    },
+    {
+      "name": "HAT Connector",
+      "value": "N/A"
+    },
+    {
+      "name": "Micro SD card socket",
+      "value": "1 x TF(micro SD) card slot, only for CM5 Lite module to boot from TF"
+    },
+    {
+      "name": "HDMI",
+      "value": "N/A"
+    },
+    {
+      "name": "Power Input",
+      "value": "15V to 30V DC"
+    },
+    {
+      "name": "Current",
+      "value": "800mA max at 15V, 500mA typical at 15V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "12W Max, 7.5W typical"
+    },
+    {
+      "name": "Relay",
+      "value": "1 x relay with “Normally Connected” and “Normally Open” output"
+    },
+    {
+      "name": "RS232",
+      "value": "2 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "Default 1 x RS485; up to 2 x RS485 (optional)"
+    },
+    {
+      "name": "CAN",
+      "value": "Default 0 x CAN; Optional 1 x CAN FD BUS. Arbitration Bit Rate up to 1Mbps, Data Bit Rate up to 8Mbps"
+    },
+    {
+      "name": "3G/4G/LTE/GPS",
+      "value": "Internal 4G/LTE module supported, not mounted by default"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -20°C to +70°C"
+    },
+    {
+      "name": "OS",
+      "value": "Raspberry Pi OS"
+    },
+    {
+      "name": "Dimensions",
+      "value": "260.54 x 178.54 x 26.9mm"
+    },
+    {
+      "name": "Weight",
+      "value": "620g"
+    },
+    {
+      "name": "Mounting",
+      "value": "VESA, Stand"
+    },
+    {
+      "name": "Plastic Case Color",
+      "value": "Black / White"
+    },
+    {
+      "name": "Certification",
+      "value": "CE, ROHS"
+    }
+  ]
+}

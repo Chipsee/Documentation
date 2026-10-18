@@ -1,0 +1,132 @@
+{
+  "products": [
+    {
+      "id": 61,
+      "slug": "epc-a9-070-c",
+      "title": "EPC-A9-070-C",
+      "pn": "CS10600F070E",
+      "shop_url": "https://chipsee.com/product/ppca9070c/"
+    },
+    {
+      "id": 62,
+      "slug": "ppc-a9-070-c",
+      "title": "PPC-A9-070-C",
+      "pn": "CS10600F070P",
+      "shop_url": "https://chipsee.com/product/ppca9070c/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "iMX6Q, Arm® Cortex®-A9, 1GHz"
+    },
+    {
+      "name": "RAM",
+      "value": "2GB DDR3"
+    },
+    {
+      "name": "eMMC",
+      "value": "8GB"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 32GB SDHC"
+    },
+    {
+      "name": "Display",
+      "value": "7.0” LCD, 1024 x 600, High Brightness: 500cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "Capacitive Multi-Point Touch Screen"
+    },
+    {
+      "name": "USB",
+      "value": "3 x USB 2.0 HOST, 1 x USB OTG"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x RJ45, GbE"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, Internal 2W Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "Yes, Powered by CR2032 Button Battery"
+    },
+    {
+      "name": "RS232",
+      "value": "2 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "2 x RS485"
+    },
+    {
+      "name": "CAN",
+      "value": "2 x CAN"
+    },
+    {
+      "name": "GPIO",
+      "value": "N/A"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI"
+    },
+    {
+      "name": "SATA",
+      "value": "1 x SATA II"
+    },
+    {
+      "name": "Expansion Port",
+      "value": "1 x 30-pin, 2.54mm DIL Header (PCB Footprint)"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "N/A"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 6V to 36V"
+    },
+    {
+      "name": "Current at 15V",
+      "value": "600mA Max"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "6W Typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -20°C to +70°C"
+    },
+    {
+      "name": "OS",
+      "value": "Chipsee Linux, Android 4.3, Android 6.0, Android 8.0, Ubuntu 12.04, Ubuntu 14.04, Debian"
+    },
+    {
+      "name": "Dimensions",
+      "value": "EPC-A9-070-C (PN: CS10600F070E): 190 x 107.8 x 27.7mm; PPC-A9-070-C (PN: CS10600F070P): 206 x 135 x 30.1mm"
+    },
+    {
+      "name": "Weight",
+      "value": "EPC-A9-070-C (PN: CS10600F070E): 380g; PPC-A9-070-C (PN: CS10600F070P): 680g"
+    },
+    {
+      "name": "Mounting",
+      "value": "EPC-A9-070-C (PN: CS10600F070E): Embedded; PPC-A9-070-C (PN: CS10600F070P): Panel"
+    }
+  ]
+}

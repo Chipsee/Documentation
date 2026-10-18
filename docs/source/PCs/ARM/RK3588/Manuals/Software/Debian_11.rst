@@ -2,7 +2,6 @@
 
 .. |systemType| replace:: Debian 11
 .. |chip| replace:: RK3588
-.. |ipc| replace:: Chipsee industrial PC
 
 .. _rk3588_os_debian11:
 

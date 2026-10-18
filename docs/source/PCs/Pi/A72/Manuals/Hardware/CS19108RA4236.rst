@@ -6,21 +6,9 @@
 
 .. |product| replace:: PPC-CM4-236
 
-.. |productE| replace:: CS19108RA4236E
-
 .. |productP| replace:: CS19108RA4236P
 
 .. |PN| replace:: PN: CS19108RA4236
-
-.. |cur| replace:: 1.57A Max at 15V
-
-.. |pwr| replace:: 19.92W (15V x 1.33A) Typical, 23.52W (15V x 1.57A) Max
-
-.. |temp| replace:: From 0°C to +50°C
-
-.. |dim_desc| replace:: |productP|: |dimP|
-
-.. |weight_desc| replace:: |productP|: |weightP|
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-236/
 

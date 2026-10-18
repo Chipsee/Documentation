@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": 98,
+      "slug": "ppc-10510u-150-c",
+      "title": "PPC-10510U-150-C",
+      "pn": "",
+      "shop_url": "https://chipsee.com/product/ppc-10510u-150-c/"
+    },
+    {
+      "id": 127,
+      "slug": "ppc-10210u-150-c",
+      "title": "PPC-10210U-150-C",
+      "pn": "",
+      "shop_url": "https://chipsee.com/product/ppc-10210u-150-c/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU Options",
+      "value": "Intel® Core™ i7 10510U / i5 10310U; TDP=15W"
+    },
+    {
+      "name": "GPU",
+      "value": "Intel® HD integrated GPU, shared memory (CPU-dependent)"
+    },
+    {
+      "name": "RAM",
+      "value": "Default 4GB, up to 16GB (1 x SO-DIMM DDR4L - CPU-dependent)"
+    },
+    {
+      "name": "Display",
+      "value": "15.0” LCD, resolution 1024 x 768px, brightness 300 cd/m2"
+    },
+    {
+      "name": "Storage",
+      "value": "Default mSATA 32GB SSD (supports up to 512GB)"
+    },
+    {
+      "name": "Touch",
+      "value": "Default Capacitive touch screen (resistive touch screen is optional)"
+    },
+    {
+      "name": "USB",
+      "value": "4 x USB 3.0 HOST ports (Type A)"
+    },
+    {
+      "name": "LAN",
+      "value": "2 x RJ45, GbE (Intel® I211), Wake on LAN (WoL) support"
+    },
+    {
+      "name": "UART",
+      "value": "Default 4 x RS232 (2 x RS485 optional)"
+    },
+    {
+      "name": "3G/4G",
+      "value": "Optional, modules available from the manufacturer"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Optional, modules available from the manufacturer"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI Out port"
+    },
+    {
+      "name": "SATA",
+      "value": "1 x mSATA, 1 x SATA"
+    },
+    {
+      "name": "Power Input",
+      "value": "12 to 24V DC"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "27W"
+    },
+    {
+      "name": "OS",
+      "value": "Linux(Default), Windows 10"
+    },
+    {
+      "name": "Operating Temp.",
+      "value": "From -20°C to +60°C"
+    },
+    {
+      "name": "Dimensions",
+      "value": "376 x 300 x 61.7mm"
+    },
+    {
+      "name": "Mounting",
+      "value": "VESA 100, Panel mounting with fixtures"
+    },
+    {
+      "name": "Weight",
+      "value": "4500g"
+    }
+  ]
+}

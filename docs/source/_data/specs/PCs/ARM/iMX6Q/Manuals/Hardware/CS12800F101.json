@@ -1,0 +1,132 @@
+{
+  "products": [
+    {
+      "id": 69,
+      "slug": "epc-a9-101-c",
+      "title": "EPC-A9-101-C",
+      "pn": "CS12800F101E",
+      "shop_url": "https://chipsee.com/product/ppca9101c/"
+    },
+    {
+      "id": 70,
+      "slug": "ppc-a9-101-c",
+      "title": "PPC-A9-101-C",
+      "pn": "CS12800F101P",
+      "shop_url": "https://chipsee.com/product/ppca9101c/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "iMX6Q, Arm® Cortex®-A9, 1GHz"
+    },
+    {
+      "name": "RAM",
+      "value": "2GB DDR3"
+    },
+    {
+      "name": "eMMC",
+      "value": "8GB"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 32GB SDHC"
+    },
+    {
+      "name": "Display",
+      "value": "10.1” LCD, 1280 x 800, High Brightness: 500cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "Capacitive Multi-Point Touch Screen with 1mm tempered glass"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 2.0 HOST, 1 x USB OTG"
+    },
+    {
+      "name": "LAN",
+      "value": "2 x RJ45: 1 x GbE, Optional PoE Support; 1 x 100Mbps, Optional"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, Internal 2W Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "Yes, Powered by CR2032 Button Battery"
+    },
+    {
+      "name": "RS232",
+      "value": "2 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "3 x RS485"
+    },
+    {
+      "name": "CAN",
+      "value": "2 x CAN"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 x General Purpose I/O (GPIO) channels"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI"
+    },
+    {
+      "name": "SATA",
+      "value": "1 x SATA II"
+    },
+    {
+      "name": "Expansion Port",
+      "value": "N/A"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Optional, Not mounted by default"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 12V to 36V"
+    },
+    {
+      "name": "Current at 15V",
+      "value": "600mA Max (w/o 4G Module)"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "7W Typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -20°C to +70°C"
+    },
+    {
+      "name": "OS",
+      "value": "Chipsee Linux, Android 4.3, Android 6.0, Android 8.0, Ubuntu 12.04, Ubuntu 14.04, Debian"
+    },
+    {
+      "name": "Dimensions",
+      "value": "EPC-A9-101-C (PN: CS12800F101E): 245 x 155 x 11mm; PPC-A9-101-C (PN: CS12800F101P): 280 x 185.5 x 27.5mm"
+    },
+    {
+      "name": "Weight",
+      "value": "EPC-A9-101-C (PN: CS12800F101E): 600g; PPC-A9-101-C (PN: CS12800F101P): 1410g"
+    },
+    {
+      "name": "Mounting",
+      "value": "EPC-A9-101-C (PN: CS12800F101E): Embedded; PPC-A9-101-C (PN: CS12800F101P): Panel"
+    }
+  ]
+}

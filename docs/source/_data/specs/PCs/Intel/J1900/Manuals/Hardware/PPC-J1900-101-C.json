@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "id": 78,
+      "slug": "ppc-j1900-101-c",
+      "title": "PPC-J1900-101-C",
+      "pn": "",
+      "shop_url": "https://chipsee.com/product/ppc-j1900-101c/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Intel® Celeron® J1900, 2GHz, Quad-Core, 2MB Cache, TDP=10W"
+    },
+    {
+      "name": "GPU",
+      "value": "Intel® HD integrated GPU, 512MB shared memory"
+    },
+    {
+      "name": "RAM",
+      "value": "Default 4GB, maximum 8GB, DDR3L 1333 SO-DIMM"
+    },
+    {
+      "name": "Display",
+      "value": "10.1” LCD, resolution 1280 x 800 px, brightness 350 cd/m2"
+    },
+    {
+      "name": "Storage",
+      "value": "Default mSATA 128GB SSD, supports 256/512GB"
+    },
+    {
+      "name": "Touch",
+      "value": "Capacitive Touch Screen"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 3.0 HOST, 2 x USB 2.0 HOST ports (Type A)"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x RJ45, 1 Gbps Ethernet Controller"
+    },
+    {
+      "name": "UART",
+      "value": "5 x RS232, 1 x RS485"
+    },
+    {
+      "name": "GPIO",
+      "value": "N/A"
+    },
+    {
+      "name": "3G/4G",
+      "value": "Optional, module available from other manufacturers/stores"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Optional, module available from the Chipsee store"
+    },
+    {
+      "name": "HDMI",
+      "value": "N/A"
+    },
+    {
+      "name": "VGA",
+      "value": "1 x VGA out"
+    },
+    {
+      "name": "mini-PCIe",
+      "value": "1 x mini PCIe"
+    },
+    {
+      "name": "Power IN",
+      "value": "12V DC"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "17W"
+    },
+    {
+      "name": "OS",
+      "value": "Ubuntu Linux (default), Windows 7 / 8 / 10 (optional)"
+    },
+    {
+      "name": "Operating Temp.",
+      "value": "From -15°C to 60°C (no condensation)"
+    },
+    {
+      "name": "Storage Temp.",
+      "value": "From -20 °C to 70°C (no condensation)"
+    },
+    {
+      "name": "Dimensions",
+      "value": "253.20 X 171.83 X 35mm"
+    },
+    {
+      "name": "Mounting",
+      "value": "VESA 100, Panel mounting with fixtures"
+    },
+    {
+      "name": "Weight",
+      "value": "1200g"
+    }
+  ]
+}

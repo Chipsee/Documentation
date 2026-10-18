@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": 147,
+      "slug": "ppc-a35-070",
+      "title": "PPC-A35-070",
+      "pn": "CS10600-STMP25-070P",
+      "shop_url": "https://chipsee.com/product/ppc-a35-070/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "STM32MP257F, Dual(2)-core Cortex-A35 (1.5GHz)"
+    },
+    {
+      "name": "GPU",
+      "value": "VeriSilicon GC8000UL - Open GL ES 3.2.8 - Vulkan 1.2, 900 MHz, up to 150 Mtriangle/s or 900 Mpixel/s"
+    },
+    {
+      "name": "NPU",
+      "value": "VeriSilicon GC8000UL - TensorFlowLite - ONNX - Linux NN, 900 MHz, 1.35 TOPS"
+    },
+    {
+      "name": "RAM",
+      "value": "DDR4 4GB"
+    },
+    {
+      "name": "eMMC",
+      "value": "16GB"
+    },
+    {
+      "name": "PCIe",
+      "value": "Not supported"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 128GB SDHC"
+    },
+    {
+      "name": "Display",
+      "value": "7” LCD, 1024 x 600, High Brightness: 400 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "5-point capacitive touch screen with 1mm tempered glass"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 2.0 HOST, 1 x USB Type-C"
+    },
+    {
+      "name": "LAN",
+      "value": "2 x RJ45, GbE"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, 1W Internal Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)."
+    },
+    {
+      "name": "RS232",
+      "value": "default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port)"
+    },
+    {
+      "name": "RS485",
+      "value": "default 3 x RS485 at most"
+    },
+    {
+      "name": "CAN",
+      "value": "default 2 x CAN FD (1 x CAN FD can be configured to RS232 optionally)"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels Isolated IO, 4 x Input and 4 x Output"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Supported, Optional"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 9V to 30V"
+    },
+    {
+      "name": "Current",
+      "value": "500mA Max at 12V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "6W Max"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -10°C to +60°C"
+    },
+    {
+      "name": "OS",
+      "value": "Yocto Linux"
+    },
+    {
+      "name": "Dimensions",
+      "value": "PPC-A35-070 (PN: CS10600-STMP25-070P): 188.05 x 123.11 x 33.20mm"
+    },
+    {
+      "name": "Weight",
+      "value": "PPC-A35-070 (PN: CS10600-STMP25-070P): 700g"
+    },
+    {
+      "name": "Mounting",
+      "value": "PPC-A35-070 (PN: CS10600-STMP25-070P): Panel, VESA"
+    }
+  ]
+}

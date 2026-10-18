@@ -12,42 +12,6 @@
 
 .. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
 
-.. |dim| replace:: 320 x 260 x 52mm
-
-.. |weight| replace:: 2800g
-
-.. |RAM| replace:: 2GB DDR3
-
-.. |eMMC| replace:: 8GB
-
-.. |tscreen| replace:: Capacitive Multi-Point Touch Screen
-
-.. |USB| replace:: 4 x USB 2.0 HOST, 1 x USB OTG
-
-.. |LAN| replace:: 1 x Channel 1000Mbps LAN
-
-.. |GPIO| replace:: Optional 4 x Channels Input and 4 x Channels Output
-
-.. |expansions| replace:: 10-pin expansion connector
-
-.. |opt1| replace:: Optional, Not mounted by default
-
-.. |opt2| replace:: Integrated WiFi/BT Module
-
-.. |vin_rng| replace:: From 15V to 36V
-
-.. |cur| replace:: 2000mA Max
-
-.. |pwr| replace:: 10W Typical
-
-.. |temp| replace:: From -20°C to +70°C
-
-.. |rs232| replace:: 4 x RS232
-
-.. |rs485| replace:: Optional 2 x RS485
-
-.. |can| replace:: Optional 2 x CAN 
-
 .. _product_link: https://chipsee.com/product/ppca9120c/
 
 .. |product_link| replace:: |product|
@@ -123,7 +87,7 @@ Optional Features
 Measurements and Mounting Procedure
 ===================================
 
-The outer mechanical dimensions of |product| are |dim| (W x L x H).
+The outer mechanical dimensions of |product| are |spec:Dimensions| (W x L x H).
 
 .. include:: /PCs/Shared/Hardware/cutout/121
 

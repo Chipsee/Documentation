@@ -14,12 +14,6 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |cur| replace:: 1.5A Max at 15V
-
-.. |pwr| replace:: 19.5W Typical
-
-.. |temp| replace:: From -30°C to +85°C
-
 .. |vesa_screws| replace:: **100 x 100** mm, 4 x **M4** (6mm)
 
 .. |power_img| image:: /Media/ARM/RK3576/CS19108-RK3576-156P/CS19108-RK3576-156P-Power.jpg

@@ -1,0 +1,145 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "slug": "pim-101-c",
+      "title": "PIM-101-C",
+      "pn": "CS-D101",
+      "shop_url": "https://chipsee.com/product/pim-101-c/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "Backlight",
+      "value": "Led"
+    },
+    {
+      "name": "Type of Pen",
+      "value": "Fingers, Hands with Gloves, Conductive Stylus"
+    },
+    {
+      "name": "Brightness",
+      "value": "350 cd/m2"
+    },
+    {
+      "name": "Waterproof",
+      "value": "Touch surfaces will not be affected by water droplets or steam"
+    },
+    {
+      "name": "Contrast Ratio",
+      "value": "600:1"
+    },
+    {
+      "name": "Calibration",
+      "value": "No Calibration Tool"
+    },
+    {
+      "name": "Viewing Angle",
+      "value": "Horizontal: 170° / Vertical: 170°"
+    },
+    {
+      "name": "Touch Response Time",
+      "value": "7ms to 12ms"
+    },
+    {
+      "name": "Response Time",
+      "value": "35ms (GTG)"
+    },
+    {
+      "name": "Connect",
+      "value": "1 x USB 2.0 (Type-B)"
+    },
+    {
+      "name": "Display Color",
+      "value": "16.2M Colors"
+    },
+    {
+      "name": "Multi Touch Protocol Support",
+      "value": "Windows"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "1280 x 800 (4:3)"
+    },
+    {
+      "name": "Operating System",
+      "value": "Windows 7/8, Android, Linux"
+    },
+    {
+      "name": "Refresh Frequency",
+      "value": "60Hz"
+    },
+    {
+      "name": "Dimensions",
+      "value": "253.20 x 171.8 x 35mm"
+    },
+    {
+      "name": "Input Resolution",
+      "value": "1280 x 800 (4:3) @ 60Hz"
+    },
+    {
+      "name": "Packaging Size",
+      "value": "332 x 225 x 60mm"
+    },
+    {
+      "name": "Connector",
+      "value": "VGA / DVI / HDMI"
+    },
+    {
+      "name": "Weight",
+      "value": "1.1kg"
+    },
+    {
+      "name": "Built-in Speaker",
+      "value": "N/A"
+    },
+    {
+      "name": "Mounting Methods",
+      "value": "VESA, Panel"
+    },
+    {
+      "name": "OSD Control",
+      "value": "Button"
+    },
+    {
+      "name": "Power Input",
+      "value": "12V 3A DC(default), 9V-30V DC(optional)"
+    },
+    {
+      "name": "OSD Language",
+      "value": "English, Chinese"
+    },
+    {
+      "name": "Power Supply",
+      "value": "≤ 14W"
+    },
+    {
+      "name": "Glass",
+      "value": "3mm Tempered Glass with Black Silk-screen"
+    },
+    {
+      "name": "Standby Power",
+      "value": "≤ 2W"
+    },
+    {
+      "name": "Touch Point",
+      "value": "10"
+    },
+    {
+      "name": "Work Environment (temp.)",
+      "value": "From -20°C to +70°C, 90% RH"
+    },
+    {
+      "name": "Touch Technology",
+      "value": "Projecting Capacitance (G+G)"
+    },
+    {
+      "name": "Storage Environment",
+      "value": "From -30°C to +80°C, 90% RH"
+    },
+    {
+      "name": "Accessories",
+      "value": "Bracket / Power Line / VGA Line / USB Line / Power Adapter"
+    }
+  ]
+}

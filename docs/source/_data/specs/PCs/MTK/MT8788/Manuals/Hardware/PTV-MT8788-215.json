@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": 146,
+      "slug": "portable-touchscreen",
+      "title": "Portable Touchscreen",
+      "pn": "",
+      "shop_url": "https://chipsee.com/product/ptv-mt8788-215/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "MTK8788 Octa(8)-core Cortex-A73 + Cortex-A53"
+    },
+    {
+      "name": "Storage",
+      "value": "64GB uFS2.1"
+    },
+    {
+      "name": "RAM",
+      "value": "4 GB LPDDR4x"
+    },
+    {
+      "name": "Operating Syetem",
+      "value": "Android 12"
+    },
+    {
+      "name": "WiFi",
+      "value": "Wi-Fi 802.11ac/b/g/n, 2.4GHz/5.8GHz"
+    },
+    {
+      "name": "Bluetooth",
+      "value": "Bluetooth 4.2"
+    },
+    {
+      "name": "Display",
+      "value": "1920 x 1080 60Hz, 16.7 million colors"
+    },
+    {
+      "name": "Touch Screen",
+      "value": "10 Point Capacitive Touch Screen"
+    },
+    {
+      "name": "Dimensions(screen)",
+      "value": "525.9 * 293.8 * 15 mm"
+    },
+    {
+      "name": "Weight",
+      "value": "15.7kg"
+    },
+    {
+      "name": "Height",
+      "value": "horizontal: 1140.5 mm, vertical: 1252.5 mm"
+    },
+    {
+      "name": "Base Size",
+      "value": "d400 x 40 mm"
+    },
+    {
+      "name": "Tilt",
+      "value": "U15° / W10°"
+    },
+    {
+      "name": "Rotate",
+      "value": "L90° / R90°"
+    },
+    {
+      "name": "Battery Life",
+      "value": "2H (6Ah battery)"
+    },
+    {
+      "name": "Battery Capacity",
+      "value": "6Ah"
+    },
+    {
+      "name": "Full Charge Time",
+      "value": "3H (6Ah battery)"
+    },
+    {
+      "name": "Additional Feature",
+      "value": "Gyroscope and gravity sensor, Google apps, wired screen mirroring input"
+    },
+    {
+      "name": "GPU",
+      "value": "ARM Mali-G72 MP3 700MHz"
+    },
+    {
+      "name": "Buttons",
+      "value": "Power, Volume +, Volume -"
+    },
+    {
+      "name": "Bezel",
+      "value": "23.7 / 23.7 / 16.8 / 16.8 mm"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI input"
+    },
+    {
+      "name": "USB",
+      "value": "1 x USB-C, 1 x USB-A(2.0)"
+    },
+    {
+      "name": "Audio",
+      "value": "TRS audio jack; 4 ohms, 5W x 2 internal speakers"
+    },
+    {
+      "name": "Accessories",
+      "value": "Charger x 1, Screwdriver x 1, Screws x 1 set, User Manual x 1"
+    },
+    {
+      "name": "Mic / Camera",
+      "value": "(Optional) 5MP HD wide-angle camera, Dual digital microphones"
+    },
+    {
+      "name": "Gross Weight",
+      "value": "20kg"
+    },
+    {
+      "name": "Mounting",
+      "value": "Stand-mounted, portable"
+    }
+  ]
+}

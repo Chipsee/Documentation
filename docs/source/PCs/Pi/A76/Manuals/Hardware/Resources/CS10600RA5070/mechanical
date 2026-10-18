@@ -3,7 +3,7 @@ Mechanical Specifications
 
 |productP|
 ----------
-For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
+For |productP|, the outer mechanical dimensions are |spec:Dimensions:P| (W x L x H).
 
 .. rst-class:: text-center
 
@@ -14,7 +14,7 @@ For |productP|, the outer mechanical dimensions are |dimP| (W x L x H).
 |productE|
 ----------
 
-For |productE|, the outer mechanical dimensions are |dimE| (W x L x H).
+For |productE|, the outer mechanical dimensions are |spec:Dimensions:E| (W x L x H).
 
 Please refer to the technical drawing in the figure below for details related to the specific product measurements.
 

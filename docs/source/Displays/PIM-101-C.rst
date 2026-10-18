@@ -14,45 +14,9 @@
 
 .. |dispsize| replace:: 10.1"
 
-.. |res| replace:: 1280 x 800 (4:3)
-
-.. |bright| replace:: 350 |cd|
-
-.. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
-.. |con_ratio| replace:: 600:1
+.. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |spec:Display Resolution| pixels and brightness of |spec:Brightness|
 
 .. |glass_thickness| replace:: 3mm
-
-.. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
-
-.. |v_angle| replace:: 	Horizontal: 170° / Vertical: 170°
-
-.. |res_time| replace:: 35ms (GTG)
-
-.. |disp_col| replace:: 16.2M Colors
-
-.. |in_res| replace:: |res| @ 60Hz
-
-.. |connector| replace:: VGA / DVI / HDMI
-
-.. |dim| replace:: 	253.20 x 171.8 x 35mm
-
-.. |pkg_size| replace:: 332 x 225 x 60mm
-
-.. |weight| replace:: 1.1kg
-
-.. |mount| replace:: VESA, Panel
-
-.. |pwr| replace:: ≤ 14W
-
-.. |standby| replace:: ≤ 2W
-
-.. |vin_rng| replace:: 12V 3A DC(default), 9V-30V DC(optional)
-
-.. |work_temp| replace:: From -20°C to +70°C, 90% RH
-
-.. |storage_temp| replace:: From -30°C to +80°C, 90% RH
 
 .. _product_link: https://chipsee.com/product/pim-101-c/
 

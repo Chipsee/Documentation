@@ -10,8 +10,6 @@
 
 .. |Product| replace:: The |product| industrial Pi PC
 
-.. |CM4_cpu| replace:: Raspberry |Pi| CM4, CM4 Lite; Quad Cortex-A72 at 1.5GHz
-
 .. |TFNum| replace:: 2
 
 .. |TF_boot| replace:: The **SD0** is used only for the Lite version of Compute Module 4 that has no internal eMMC. If you use CM4 with eMMC, this SD0 will be **disabled**. The **SD1** is used for storage extension, it **can’t** be used for system boot-up.
@@ -30,23 +28,9 @@
 
 .. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |mounting_table| replace:: |productP|: Panel, VESA; |productE|: Embedded
-
-.. |disp_table| replace:: |dispsize| IPS LCD, |res| resolution \px, brightness |bright|
-
-.. |dimE| replace:: 190 × 107.8 × 27.7 mm
-
 .. |dimP| replace:: 206 x 135 x 30mm
 
-.. |weightE| replace:: 400g
-
-.. |weightP| replace:: 700g
-
-.. |tscreen| replace:: 5-point capacitive touch with 1mm tempered glass
-
 .. |rs232_485_can_ter| replace:: 16-pin 3.81mm terminal
-
-.. |rtc| replace:: Yes, High Accuracy RTC with Lithium Button Coin battery (lithium battery not included)
 
 .. |cap_screen_conn| replace:: FPC connector
 
@@ -54,41 +38,11 @@
 
 .. |gpio_conn| replace:: 10 Pin 3.81mm **GPIO Connector**
 
-.. |camera_desc| replace:: Yes, not mounted by default
-
 .. |camera_not_mount| replace:: The camera is not mounted by default.
 
 .. |USB_attention| replace:: 1\. These two USB host connectors can drive 500mA for each channel at most. |br| 2\. These |usb_hub_conflict| come from the same USB HUB. |br| 3\. When you connect this product to the HOST PC through the Type-C port, the USB HUB will be disabled. As a result, the |usb_hub_conflict| will not work.
 
-.. |zigbee_des| replace:: Onboard Zigbee module, not mounted by default 
-
-.. |USB| replace:: 2 x USB 2.0 Host, 1 x USB OTG
-
-.. |LAN| replace:: 1 x Giga LAN
-
-.. |GPIO| replace:: 8 Channels, 4 Input, 4 Output
-
-.. |hdmi_des| replace:: Yes
-
-.. |sata_des| replace:: Not Supported
-
 .. |power_conn_desc| replace:: There are two types of power input connectors. One is a **3 Pin, 3.81mm screw terminal** connector, and the other is a **2.1mm DC input head**.
-
-.. |opt1| replace:: Supported, not mounted by default
-
-.. |opt2| replace:: Supported but depending on the CM4 selected
-
-.. |vin_rng| replace:: From 6V to 36V
-
-.. |cur| replace:: 420mA Max at 12V
-
-.. |pwr| replace:: 5W Typical
-
-.. |temp| replace:: From 0°C to +60°C
-
-.. |dim_desc| replace:: |productE|: |dimE|; |productP|: |dimP|
-
-.. |weight_desc| replace:: |productE|: |weightE|; |productP|: |weightP|
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-070/
 
@@ -235,7 +189,7 @@
 
 |productE|
 ----------
-For |productE|, the outer mechanical dimensions are |dimE| (W x L x H). 
+For |productE|, the outer mechanical dimensions are |spec:Dimensions:E| (W x L x H). 
 
 Please refer to the technical drawing in the figure below for details related to the specific product measurements.
 

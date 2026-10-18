@@ -1,0 +1,101 @@
+{
+  "products": [
+    {
+      "id": 166,
+      "slug": "cs86-box-7500t",
+      "title": "CS86-BOX-7500T",
+      "pn": "CS86-BOX-7500T",
+      "shop_url": "https://chipsee.com/product/cs86-box-7500t"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Intel Core i5 7500T, Quad(4) Core 4 Threads, 2.7GHz Base Frequency, 3.3GHz Turbo Frequency"
+    },
+    {
+      "name": "Mother Board",
+      "value": "Intel H110 Chipset"
+    },
+    {
+      "name": "GPU",
+      "value": "Intel® HD Graphics 630 integrated GPU, shared memory, supports dual HDMI display"
+    },
+    {
+      "name": "RAM",
+      "value": "Default 4GB (1 x single channel SO-DIMM 2133/2400/2666). Optional up to 64GB(2 x SO-DIMM)"
+    },
+    {
+      "name": "Storage",
+      "value": "Default 128GB, 1 x SATA3.0 7P Connector, 1 x M.2 M-KEY (SATA SSD)"
+    },
+    {
+      "name": "USB",
+      "value": "4 x USB 3.0 (Type A)"
+    },
+    {
+      "name": "PCIe",
+      "value": "1 x Mini-PCIe (WIFI/BT/4G)"
+    },
+    {
+      "name": "Audio",
+      "value": "Line in, line out, dual channel HD audio"
+    },
+    {
+      "name": "LAN",
+      "value": "2 x RJ45, 10/100/1000 Mbps (Intel i210)"
+    },
+    {
+      "name": "UART",
+      "value": "4 x RS232, 2 x RS485"
+    },
+    {
+      "name": "4G",
+      "value": "Optional, mini PCIe module available from the manufacturer"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Optional, mini PCIe module available from the manufacturer"
+    },
+    {
+      "name": "Display",
+      "value": "1 x HDMI Out , 1 x DP Out"
+    },
+    {
+      "name": "Power IN",
+      "value": "9-36V DC"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "40W"
+    },
+    {
+      "name": "OS",
+      "value": "Ubuntu Linux(default), Windows 8.1, Windows 10, Windows 11"
+    },
+    {
+      "name": "Temp.",
+      "value": "From -20°C to +60°C (Operational), From -30°C to +80°C (Storage)"
+    },
+    {
+      "name": "Humidity",
+      "value": "From 5% to 95% at 40°C relative humidity (no condensation)"
+    },
+    {
+      "name": "Dimensions",
+      "value": "260 x 187 x 52mm"
+    },
+    {
+      "name": "Structure",
+      "value": "Aluminum magnesium alloy"
+    },
+    {
+      "name": "Mounting",
+      "value": "VESA, Desktop, Wall, Embedded"
+    },
+    {
+      "name": "Weight",
+      "value": "2.85kg"
+    }
+  ]
+}

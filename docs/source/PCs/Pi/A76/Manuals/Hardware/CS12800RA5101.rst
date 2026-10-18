@@ -10,14 +10,6 @@
 
 .. |PN| replace:: PN: CS12800RA5101
 
-.. |vin_rng| replace:: From 15V to 30V (supports optional 24V ignition signal)
-
-.. |cur| replace:: 880mA max at 15V, 560mA typical at 15V
-
-.. |pwr| replace:: 13.3W max, 8.4W typical
-
-.. |temp| replace:: From -20°C to +70°C
-
 .. _product_link: https://chipsee.com/product/ppc-cm5-101/
 
 .. |product_link| replace:: PPC-CM5-101

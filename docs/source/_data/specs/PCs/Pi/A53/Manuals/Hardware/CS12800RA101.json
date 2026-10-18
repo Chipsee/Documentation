@@ -1,0 +1,128 @@
+{
+  "products": [
+    {
+      "id": 104,
+      "slug": "epc-cm3-101",
+      "title": "EPC-CM3-101",
+      "pn": "CS12800RA101E",
+      "shop_url": null
+    },
+    {
+      "id": 105,
+      "slug": "ppc-cm3-101",
+      "title": "PPC-CM3-101",
+      "pn": "CS12800RA101P",
+      "shop_url": null
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Raspberry Pi® CM3, CM3 Lite;  Raspberry Pi® CM3+, CM3+ Lite; 1.2GHZ"
+    },
+    {
+      "name": "Storage",
+      "value": "2 TF Cards slots"
+    },
+    {
+      "name": "RAM",
+      "value": "1GB DDR"
+    },
+    {
+      "name": "eMMC",
+      "value": "8GB"
+    },
+    {
+      "name": "Display",
+      "value": "10.1” IPS LCD, 1280 x 800 resolution px, brightness 500 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "5-point capacitive touch"
+    },
+    {
+      "name": "USB",
+      "value": "3 x USB 2.0 Host"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x Channel 100M LAN"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio Out Connector, 2W Speaker Internal"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "Yes, High Accuracy RTC with Lithium Button Coin battery (lithium battery not included)"
+    },
+    {
+      "name": "RS232",
+      "value": "4 x RS232 (1 debug port)"
+    },
+    {
+      "name": "RS485",
+      "value": "2 x RS485 (Optional 4 x RS485 at most)"
+    },
+    {
+      "name": "CAN",
+      "value": "1 x CAN"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels, 4 Input, 4 Output"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Onboard WiFi/BT"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 Channel"
+    },
+    {
+      "name": "SATA II",
+      "value": "1 Channel"
+    },
+    {
+      "name": "3G/4G/LTE",
+      "value": "Supported, not mounted by default"
+    },
+    {
+      "name": "Camera",
+      "value": "Yes, not mounted by default"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 6V to 36V"
+    },
+    {
+      "name": "Current at 12V",
+      "value": "700mA Max"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "7W Typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -20°C to +70°C"
+    },
+    {
+      "name": "OS",
+      "value": "Debian"
+    },
+    {
+      "name": "Dimensions",
+      "value": "CS12800RA101E: 245 x 155 x 11mm; CS12800RA101P: 280 x 185 x 27.5mm"
+    },
+    {
+      "name": "Weight",
+      "value": "CS12800RA101E: 600g; CS12800RA101P: 1500g"
+    }
+  ]
+}

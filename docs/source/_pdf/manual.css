@@ -1,0 +1,311 @@
+/* PDF manuals, rendered by WeasyPrint from _pdf/manual.html.j2. */
+
+@font-face { font-family: "Open Sans"; font-weight: 400; src: url("../_static/vendor/google-fonts/files/open-sans-400-normal.ttf"); }
+@font-face { font-family: "Open Sans"; font-weight: 700; src: url("../_static/vendor/google-fonts/files/open-sans-700-normal.ttf"); }
+@font-face { font-family: "Open Sans"; font-style: italic; src: url("../_static/vendor/google-fonts/files/open-sans-300-italic.ttf"); }
+@font-face { font-family: "Montserrat"; font-weight: 400; src: url("../_static/vendor/google-fonts/files/montserrat-400-normal.ttf"); }
+@font-face { font-family: "Montserrat"; font-weight: 700; src: url("../_static/vendor/google-fonts/files/montserrat-700-normal.ttf"); }
+
+:root {
+  --ink: #3a3f4b;
+  --heading: #1d2340;
+  --accent: #ef3d30;
+  --rule: #c9ced8;
+  --shade: #f1f3f7;
+  --muted: #6b7385;
+}
+
+/* Pages */
+
+@page {
+  size: A4;
+  margin: 20mm 16mm 18mm;
+
+  @top-left { content: string(title); font: 8pt "Open Sans"; color: var(--muted); }
+  @top-right { content: string(chapter, start); font: 8pt "Open Sans"; color: var(--muted); }
+  @bottom-left { content: "Chipsee"; font: 8pt "Open Sans"; color: var(--muted); }
+  @bottom-center { content: string(label); font: 700 8pt "Open Sans"; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  @bottom-right { content: "Page " counter(page) " of " counter(pages); font: 8pt "Open Sans"; color: var(--muted); }
+}
+
+@page cover {
+  margin: 0;
+  @top-left { content: none; }
+  @top-right { content: none; }
+  @bottom-left { content: none; }
+  @bottom-center { content: none; }
+  @bottom-right { content: none; }
+}
+
+@page toc {
+  @top-right { content: none; }
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 9.5pt;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+body { margin: 0; }
+
+a { color: var(--accent); text-decoration: none; }
+
+/* Cover */
+
+.cover {
+  page: cover;
+  position: relative;
+  height: 297mm;
+  background-size: 210mm 297mm;
+  background-repeat: no-repeat;
+  break-after: page;
+}
+
+.cover-label {
+  string-set: label content();
+  position: absolute;
+  top: 66mm;
+  left: 17mm;
+  margin: 0;
+  font-size: 18pt;
+  color: #2d445e;
+}
+
+.cover-title {
+  string-set: title content();
+  position: absolute;
+  top: 80mm;
+  left: 17mm;
+  right: 72mm;
+  margin: 0;
+  font: 700 34pt/1.15 "Open Sans";
+  color: var(--accent);
+}
+
+/* Software manuals have long titles. */
+.cover-title.medium { font-size: 28pt; }
+.cover-title.long { font-size: 24pt; }
+
+.cover-image {
+  position: absolute;
+  top: 125mm;
+  left: 30mm;
+  width: 125mm;
+  height: 95mm;
+  text-align: center;
+}
+
+.cover-image img {
+  max-width: 125mm;
+  max-height: 95mm;
+}
+
+/* A photo without a cut-out background sits on a card, so it doesn't cover the background. */
+.cover-image.framed img {
+  max-width: 115mm;
+  max-height: 85mm;
+  padding: 5mm;
+  background: #fff;
+  border-radius: 2mm;
+  border: .5pt solid #dde0e6;
+}
+
+.cover-details {
+  position: absolute;
+  left: 17mm;
+  right: 70mm;
+  bottom: 16mm;
+}
+
+.cover-details p { margin: 0 0 2mm; }
+.cover-subtitle { font-size: 13pt; color: #2d445e; }
+.cover-revision { font-weight: 700; color: #2d445e; }
+.cover-note { margin-top: 8mm !important; font-size: 8pt; }
+.cover-note a { font-weight: 700; }
+
+/* Contents */
+
+.toc {
+  page: toc;
+  break-after: page;
+}
+
+.toc h1 {
+  margin: 0 0 6mm;
+  padding-bottom: 2mm;
+  border-bottom: 1.5pt solid var(--heading);
+  bookmark-level: none;
+}
+
+.toc ul { margin: 0; padding: 0; list-style: none; }
+.toc li { margin: 0; }
+.toc a { display: block; color: var(--ink); padding: 1.2mm 0; border-bottom: .3pt dotted var(--rule); }
+.toc a::after { content: target-counter(attr(href), page); float: right; color: var(--muted); }
+.toc .number { color: var(--muted); }
+.toc-2 a { font-weight: 700; color: var(--heading); margin-top: 1.5mm; }
+.toc-3 a { padding-left: 6mm; }
+.toc-4 a { padding-left: 12mm; font-size: 9pt; }
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: var(--heading);
+  line-height: 1.25;
+  break-after: avoid;
+}
+
+h1 { font-size: 22pt; margin: 0 0 6mm; }
+h2 { font-size: 15pt; margin: 9mm 0 3mm; padding-bottom: 1.5mm; border-bottom: .75pt solid var(--rule); string-set: chapter attr(data-title); }
+h3 { font-size: 12pt; margin: 7mm 0 2.5mm; }
+h4 { font-size: 10.5pt; margin: 5mm 0 2mm; }
+h5, h6 { font-size: 9.5pt; margin: 4mm 0 2mm; }
+h2 .number, h3 .number, h4 .number { color: var(--accent); margin-right: 1mm; }
+h2, h3, h4 { bookmark-label: attr(data-bookmark); }
+
+main > section > h1 { bookmark-level: none; }
+main > section:first-child > h1 { margin-bottom: 4mm; }
+
+/* Text */
+
+p { margin: 0 0 2.5mm; orphans: 3; widows: 3; }
+ul, ol { margin: 0 0 3mm; padding-left: 6mm; }
+li { margin: .5mm 0; }
+li > p { margin: 0; }
+dl { margin: 0 0 3mm; }
+dt { font-weight: 700; }
+dd { margin: 0 0 2mm 6mm; }
+sup, sub { line-height: 0; }
+.centered, .text-center { text-align: center; }
+.rubric { font-weight: 700; margin-top: 4mm; }
+blockquote { margin: 0 0 3mm 6mm; }
+
+/* Product views, from the gallery at the top of a page */
+
+.views {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5mm;
+  margin: 0 0 4mm;
+  break-inside: avoid;
+}
+
+.views figure { margin: 0; text-align: center; }
+.views img { max-width: 100%; max-height: 62mm; }
+.views figcaption { font-size: 8.5pt; color: var(--muted); margin-top: 1mm; }
+
+/* Figures */
+
+img { max-width: 100%; height: auto; }
+img.align-center { display: block; margin-left: auto; margin-right: auto; }
+.figure { margin: 3mm 0 4mm; text-align: center; break-inside: avoid; }
+.figure p { margin: 0; }
+.figure img { max-height: 105mm; width: auto; }
+.figure .caption { margin-top: 1.5mm; font-size: 8.5pt; color: var(--muted); }
+.figure .caption em { font-style: normal; }
+
+/* Tables */
+
+table {
+  width: 100%;
+  margin: 3mm 0 5mm;
+  border-collapse: collapse;
+  font-size: 8.5pt;
+  line-height: 1.4;
+}
+
+table.align-center, table.align-default { margin-left: auto; margin-right: auto; }
+caption { caption-side: top; text-align: left; font-weight: 700; color: var(--heading); padding-bottom: 1.5mm; font-size: 9pt; }
+table.short { break-inside: avoid; }
+caption { break-after: avoid; }
+thead { display: table-header-group; }
+tr { break-inside: avoid; }
+th, td { border: .5pt solid var(--rule); padding: 1.3mm 2.2mm; vertical-align: middle; text-align: left; }
+th { background: #e3e7ee; color: var(--heading); }
+tbody tr:nth-child(even) td { background: var(--shade); }
+td > p, th > p { margin: 0; }
+td > p + p, th > p + p { margin-top: 1mm; }
+td strong:only-child { color: var(--heading); }
+td img { max-height: 40mm; }
+
+/* Notes, like the website's: a colored title bar with an icon over a white box. */
+
+.admonition {
+  margin: 4mm 0;
+  padding: 0 4mm 2.5mm;
+  border: .5pt solid #e3e5ea;
+  border-left: 2.5pt solid #448aff;
+  border-radius: .5mm;
+  background: #fff;
+  font-size: 9pt;
+  break-inside: avoid;
+}
+
+.admonition > :last-child { margin-bottom: 0; }
+
+.admonition-title {
+  margin: 0 -4mm 2mm;
+  padding: 1.5mm 4mm 1.5mm 10.5mm;
+  font-weight: 700;
+  color: var(--heading);
+  background-repeat: no-repeat;
+  background-position: 4mm center;
+  background-size: 4mm 4mm;
+}
+
+.admonition > .admonition-title {
+  background-color: rgba(68, 138, 255, .1);
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='%23448aff' d='M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z'/></svg>");
+}
+
+.admonition.warning, .admonition.attention, .admonition.caution { border-left-color: #ff9100; }
+.admonition.warning > .admonition-title, .admonition.attention > .admonition-title, .admonition.caution > .admonition-title {
+  background-color: rgba(255, 145, 0, .1);
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='%23ff9100' d='M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z'/></svg>");
+}
+
+.admonition.danger, .admonition.error { border-left-color: #ff1744; }
+.admonition.danger > .admonition-title, .admonition.error > .admonition-title {
+  background-color: rgba(255, 23, 68, .1);
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='%23ff1744' d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z'/></svg>");
+}
+
+.admonition.tip, .admonition.hint, .admonition.important { border-left-color: #00bfa5; }
+.admonition.tip > .admonition-title, .admonition.hint > .admonition-title, .admonition.important > .admonition-title {
+  background-color: rgba(0, 191, 165, .1);
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='%2300bfa5' d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z'/></svg>");
+}
+
+/* Code */
+
+.highlight { background: none; }
+.highlight .hll { display: block; margin: 0 -3mm; padding: 0 3mm; background-color: rgba(255, 235, 59, .5); }
+
+/* Like the website's code blocks (material_custom.css). */
+pre {
+  margin: 2mm 0 4mm;
+  padding: 2.5mm 3mm;
+  background: #2d445e1c;
+  border-radius: 1.2mm;
+  font: 8pt/1.45 "DejaVu Sans Mono", Menlo, monospace;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+code, kbd, .literal { font-family: "DejaVu Sans Mono", Menlo, monospace; font-size: .9em; }
+:not(pre) > code, :not(pre) > .literal { background: var(--shade); padding: 0 .8mm; }
+
+/* Footnotes */
+
+.footnote-list, aside.footnote { font-size: 8pt; color: var(--muted); }
+aside.footnote { display: block; margin: 1mm 0; }
+aside.footnote > .label { float: left; margin-right: 1.5mm; }
+
+/* Cards and grids */
+
+.row { display: flex; flex-wrap: wrap; gap: 3mm; }
+.sd-card { border: .5pt solid var(--rule); padding: 3mm; margin: 0 0 3mm; break-inside: avoid; }
+.video-link { font-style: italic; }

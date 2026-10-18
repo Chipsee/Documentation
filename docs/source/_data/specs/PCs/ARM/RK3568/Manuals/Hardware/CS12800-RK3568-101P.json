@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": 55,
+      "slug": "ppc-a55-101",
+      "title": "PPC-A55-101",
+      "pn": "CS12800-RK3568-101P",
+      "shop_url": "https://chipsee.com/product/ppc-a55-101/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Rockchip RK3568, Quad-core Cortex-A55 (2.0GHz)"
+    },
+    {
+      "name": "RAM",
+      "value": "4GB LPDDR4X"
+    },
+    {
+      "name": "eMMC",
+      "value": "64GB"
+    },
+    {
+      "name": "SSD",
+      "value": "Optional, supports M.2 2280 NVME SSD (PCI-E 3.0 x 2)"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 128GB SDHC"
+    },
+    {
+      "name": "Display",
+      "value": "10.1” LCD, 1280 x 800, High Brightness: 500 cd/m2"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI OUT"
+    },
+    {
+      "name": "Touch",
+      "value": "10-point capacitive touch screen with 1mm tempered glass"
+    },
+    {
+      "name": "USB",
+      "value": "1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x RJ45, GbE"
+    },
+    {
+      "name": "POE",
+      "value": "N/A"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, 2W Internal Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)."
+    },
+    {
+      "name": "RS232",
+      "value": "Default to 2 x RS232 (including 1 debug port). Up to 6 x RS232."
+    },
+    {
+      "name": "RS485",
+      "value": "Default to 2 x RS485. Optionally, these 2 x RS485 can be configured to RS232."
+    },
+    {
+      "name": "CAN",
+      "value": "Default to 2 x CAN FD. Optionally, these 2 x CAN FD can be configured to RS232."
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels Isolated IO, 4 x Input and 4 x Output"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Supported, Optional"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 15V to 36V"
+    },
+    {
+      "name": "Current",
+      "value": "0.64A Max at 15V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "9.6W Typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -20°C to +70°C"
+    },
+    {
+      "name": "OS",
+      "value": "Android 11, Debian11, Buildroot Linux Qt 5.15"
+    },
+    {
+      "name": "Dimensions",
+      "value": "PPC-A55-101 (PN: CS12800-RK3568-101P): 275.5 x 193.5 x 46.0mm"
+    },
+    {
+      "name": "Weight",
+      "value": "PPC-A55-101 (PN: CS12800-RK3568-101P): 1300g"
+    },
+    {
+      "name": "Mounting",
+      "value": "PPC-A55-101 (PN: CS12800-RK3568-101P): Panel, VESA"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 Power Input
 ===========
 
-|Product| can be powered by a wide range of input voltages: |vin_rng| DC. The power input connector is a **2-pin, 3.81mm terminal**.
+|Product| can be powered by a wide range of input voltages: |spec:Power Input| DC. The power input connector is a **2-pin, 3.81mm terminal**.
 
 .. rst-class:: text-center
 

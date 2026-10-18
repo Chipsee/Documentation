@@ -8,19 +8,11 @@
 
 .. |PN| replace:: PN: CS10600RA5070
 
-.. |cpu| replace:: Raspberry |Pi| CM5/CM5Lite; BCM2712 Quad(4) Core Cortex-A76 at 2.4GHz
-
-.. |ram_desc| replace:: 2GB, 4GB, or 8GB SDRAM based on CM5
-
-.. |emmc_desc| replace:: 0GB, 16GB, 32GB, or 64GB based on CM5
-
 .. |Product| replace:: The |product| industrial Pi PC
 
 .. |TFNum| replace:: 1
 
 .. |tf_des| replace:: TF card slot, **only** used with CM5 Lite to boot system, **cannot** be used as external storage for CM5
-
-.. |usb_hub_conflict| replace:: two USB host connectors
 
 .. |dispsize| replace:: 7"
 
@@ -30,69 +22,21 @@
 
 .. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |disp_table| replace:: |dispsize| IPS LCD, |res| px, brightness |bright|
-
-.. |mounting_table| replace:: |productE|: Embedded; |productP|: Panel, VESA
-
-.. |dimE| replace:: 190 × 107.8 × 27.7 mm
-
-.. |dimP| replace:: 206 x 135 x 30mm
-
-.. |weightE| replace:: 400g
-
-.. |weightP| replace:: 700g
-
-.. |can_desc| replace:: 1 x CAN FD BUS,  Arbitration Bit Rate up to 1Mbps, Data Bit Rate up to 8Mbps
-
-.. |tscreen| replace:: 5-point capacitive touch with 1mm tempered glass
-
-.. |rtc| replace:: High accuracy RTC with farad capacitor, can work 1 week after power off
-
 .. |rs232_485_can_ter| replace:: 16-pin 3.81mm terminal
 
 .. |rs232_rs485_conf| replace:: RS485_3 and RS232_3 share UART3 and can’t work at the same time; RS485_5 and RS232_5 share UART5 and can’t work at the same time. Meaning the product provides 4 x RS232 + 0 x RS485, or 2 x RS232 + 2 x RS485, or 3 x RS232 + 1 x RS485.
 
 .. |cap_screen_conn| replace:: FPC connector
 
-.. |camera_desc| replace:: Yes, not mounted by default. Available on the board in the embedded PC. 
-
 .. |camera_not_mount| replace:: The camera connector is supported but not mounted by default. Please contact us when placing an order if you need to use camera on the |product|.
 
 .. |USB_attention| replace:: These two USB host connectors can drive 500mA for each channel at most.
 
-.. |zigbee_des| replace:: No
-
-.. |USB| replace:: 2 x USB 3.0 type-A Host, 1 x USB type-C OTG
-
-.. |LAN| replace:: 1 x Giga LAN
-
 .. |TF_boot| replace:: The TF card cannot be used for memory extension. It is only used for system boot-up for CM5 LITE model.
-
-.. |GPIO| replace:: 8 Channels, 4 Input, 4 Output 
 
 .. |gpio_conn| replace:: 10 Pin 3.81mm **GPIO Connector**
 
-.. |hdmi_des| replace:: 1 x HDMI 2.0 out, can be driven up to 4K 60FPS
-
 .. |power_conn_desc| replace:: There are two types of power input connectors. One is a **3 Pin, 3.81mm screw terminal** connector, and the other is a **2.1mm DC input head**.
-
-.. |pcie_desc| replace:: PCIe Gen 2 × 1 (5Gbps), M.2 M-Key 2230/2242 socket
-
-.. |opt1| replace:: Supported, not mounted by default
-
-.. |opt2| replace:: Optional (Depends on CM5)
-
-.. |vin_rng| replace:: 9V to 30V
-
-.. |cur| replace:: 950mA max at 12V, 500mA typical at 12V
-
-.. |pwr| replace:: 11.4W max, 6W typical
-
-.. |temp| replace:: From -10°C to +60°C
-
-.. |dim_desc| replace:: |productE|: |dimE|; |productP|: |dimP|
-
-.. |weight_desc| replace:: |productE|: |weightE|; |productP|: |weightP|
 
 .. _product_link: https://chipsee.com/product/ppc-cm5-070/
 

@@ -1,0 +1,157 @@
+{
+  "products": [
+    {
+      "id": 101,
+      "slug": "hpc-mt6771-080",
+      "title": "HPC-MT6771-080",
+      "pn": "",
+      "shop_url": "https://chipsee.com/product/hpc-mt6771-080/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Helio P60, MediaTek MT6771, Octa(8)-Core 2.0GHz, 4 x Cortex-A53 + 4 x Cortex-A73 @ 2.0 GHz(Max)"
+    },
+    {
+      "name": "GPU",
+      "value": "Mali-G72, 800MHz(Max)"
+    },
+    {
+      "name": "RAM/Storage",
+      "value": "4GB+64GB / 6GB+128GB / 8GB+256GB Embedded Multi Chip Package(eMCP)"
+    },
+    {
+      "name": "Display",
+      "value": "8.0-inch(diagonal), 1200x1920, 400 NIT"
+    },
+    {
+      "name": "LCD",
+      "value": "IPS; Active Area: 107.64(H)x172.22(V)"
+    },
+    {
+      "name": "Touch",
+      "value": "Capacitive, 5-point Multi Touch, Surface Tempered Glass + Sensor Glass"
+    },
+    {
+      "name": "Camera",
+      "value": "13MP Main Rear Camera, 2MP Front Camera, Flashlight, Autofocus"
+    },
+    {
+      "name": "Audio",
+      "value": "1.5W/8Ω Internal Speaker; 1 x 3.5mm Audio Jack"
+    },
+    {
+      "name": "Microphone",
+      "value": "Sensitivity: -32±2dB, Output Impedance: 2.2kΩ"
+    },
+    {
+      "name": "USB",
+      "value": "1 x USB2.0 Type-A, 1 x USB Type C (Download, Charging)"
+    },
+    {
+      "name": "Charging",
+      "value": "DC 5V/3A 3.5 mm Terminal; USB Type-C"
+    },
+    {
+      "name": "Battery",
+      "value": "3.8V, 7800mAh, Unremovable Li-ion Polymer Battery, 15+ Hours Video Playback(70% Volume, 70 Brightness, 1080P Video Playback); 200 hours(idle)"
+    },
+    {
+      "name": "Buttons",
+      "value": "Power Button, Volume+/- Buttons, 1 x F Button(Scanner), 1 x P(No definition), 1 x H(No definition)"
+    },
+    {
+      "name": "SIM Slot",
+      "value": "1 x SIM Slot"
+    },
+    {
+      "name": "TF Slot",
+      "value": "1 x TF Slot"
+    },
+    {
+      "name": "GSM/GPRS/EDGE",
+      "value": "850/900/1800/1900"
+    },
+    {
+      "name": "TD-SCDMA",
+      "value": "B34/B35/B36/B37/B38/B39/B40/B41/B42/B43"
+    },
+    {
+      "name": "WCDMA",
+      "value": "B1, B2, B5, B8"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "FDD-LTE: B1/B2/B3/B4/B5/B7/B8/B10/B12/B13/B14/B17/B20/B23/B24/B25/B26; TDD-LTE: B34/B38/B39/B40/B41/B66"
+    },
+    {
+      "name": "Wired Ethernet",
+      "value": "Not Supported"
+    },
+    {
+      "name": "RS232",
+      "value": "1 x RS232 (Through MiniUSB)"
+    },
+    {
+      "name": "WiFi",
+      "value": "802.11 a/b/g/n/ac, 2.4G+5G"
+    },
+    {
+      "name": "Bluetooth",
+      "value": "BT4.0, BLE, Backwards Compatible"
+    },
+    {
+      "name": "GPS",
+      "value": "Support for GPS/BeiDou/GLONASS; Acquisition Sensitivity: -163dBm"
+    },
+    {
+      "name": "NFC",
+      "value": "Support for ISO/IEC14443, ISO/IEC15693, MIFARE, Felica; Distance: 3-5cm; Front NFC"
+    },
+    {
+      "name": "Barcode Scanner",
+      "value": "Support for integrated scanner"
+    },
+    {
+      "name": "Fingerprint Module",
+      "value": "Support for fingerprint module (optional)"
+    },
+    {
+      "name": "Sensors",
+      "value": "Air Pressure Sensor, Distance Sensor, Light Sensor, Electronic Compass, Gyroscope, Accelerometer"
+    },
+    {
+      "name": "OS",
+      "value": "Android 11"
+    },
+    {
+      "name": "Operating Temp.",
+      "value": "From -20°C to +60°C"
+    },
+    {
+      "name": "Storage Temp.",
+      "value": "From -25°C to +80°C"
+    },
+    {
+      "name": "Waterproof",
+      "value": "IP65; Designed for IP67"
+    },
+    {
+      "name": "Dropping Proof",
+      "value": "1.2m, Six Sides"
+    },
+    {
+      "name": "Dimensions",
+      "value": "234 x 144 x 16.8 mm"
+    },
+    {
+      "name": "Weight",
+      "value": "600g"
+    },
+    {
+      "name": "Accessories",
+      "value": "5V/3A Charger, USB Type-C Cable"
+    }
+  ]
+}

@@ -12,35 +12,7 @@
 
 .. |dispsize| replace:: 13.3"
 
-.. |res| replace:: 1920 x 1080 (16:9)
-
-.. |bright| replace:: 360 |cd|
-
-.. |con_ratio| replace:: 900:1
-
 .. |glass_thickness| replace:: 2mm
-
-.. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
-
-.. |v_angle| replace:: 	Horizontal: 140°(min)~170°(typ) / Vertical: 140°(min)~170°(typ)
-
-.. |res_time| replace:: 30ms (GTG)
-
-.. |disp_col| replace:: 16.7M Colors
-
-.. |dim| replace:: 355 × 225 × 55mm
-
-.. |pkg_size| replace:: 440 x 325 x 90mm
-
-.. |weight| replace:: 2920g
-
-.. |pwr| replace:: ≤ 16W
-
-.. |resp_time| replace:: 30ms
-
-.. |storage_temp| replace:: From -20°C to +80°C, 90% RH (No condensation)
-
-.. |working_temp| replace:: From 0°C to +80°C, 90% RH (No condensation)
 
 .. _product_link: https://chipsee.com/product/pim-133-p/
 

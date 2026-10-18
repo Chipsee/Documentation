@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": 67,
+      "slug": "ppc-a9-150-c",
+      "title": "PPC-A9-150-C",
+      "pn": "CS10768F150",
+      "shop_url": "https://chipsee.com/product/ppca9150c/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "iMX6Q, Arm® Cortex®-A9, 1GHz"
+    },
+    {
+      "name": "RAM",
+      "value": "2GB DDR3"
+    },
+    {
+      "name": "eMMC",
+      "value": "8GB"
+    },
+    {
+      "name": "Storage",
+      "value": "TF Card, Supports up to 32GB SDHC"
+    },
+    {
+      "name": "Display",
+      "value": "15” LCD, 1024 x 768, High Brightness: 500cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "Capacitive Multi-Point Touch Screen"
+    },
+    {
+      "name": "USB",
+      "value": "4 x USB 2.0 HOST, 1 x USB OTG"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x Channel 1000Mbps LAN"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio In/Out Connector, Internal 2W Speaker"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Yes"
+    },
+    {
+      "name": "RTC",
+      "value": "Yes, Powered by CR2032 Button Battery"
+    },
+    {
+      "name": "RS232",
+      "value": "4 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "Optional 2 x RS485"
+    },
+    {
+      "name": "CAN",
+      "value": "Optional 2 x CAN"
+    },
+    {
+      "name": "GPIO",
+      "value": "Optional 4 x Channels Input and 4 x Channels Output"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Integrated WiFi/BT Module"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI"
+    },
+    {
+      "name": "SATA",
+      "value": "1 x SATA II"
+    },
+    {
+      "name": "Expansion Port",
+      "value": "Optional, 10-pin expansion connector"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Optional, Not mounted by default"
+    },
+    {
+      "name": "Power Input",
+      "value": "From 15V to 36V"
+    },
+    {
+      "name": "Current at 15V",
+      "value": "2000mA Max"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "15W Typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From -20°C to +70°C"
+    },
+    {
+      "name": "OS",
+      "value": "Chipsee Linux, Android 4.3, Android 6.0, Android 8.0, Ubuntu 12.04, Ubuntu 14.04, Debian"
+    },
+    {
+      "name": "Dimensions",
+      "value": "359 x 283 x 46mm"
+    },
+    {
+      "name": "Weight",
+      "value": "3400g"
+    },
+    {
+      "name": "Mounting",
+      "value": "Panel & VESA"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 Connectivity
 ============
 
-There are many connectivity options available on the |product| industrial PC. It has |USB|; |LAN|; up to |uart_at_most|, up to |can_at_most|.
+There are many connectivity options available on the |product| industrial PC. It has |spec:USB|; |spec:LAN|; up to |uart_at_most|, up to |can_at_most|.
 
 RS232/RS485/CAN
 ---------------

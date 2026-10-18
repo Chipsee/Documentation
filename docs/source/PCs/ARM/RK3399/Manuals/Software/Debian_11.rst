@@ -2,7 +2,6 @@
 
 .. |systemType| replace:: Debian 11
 .. |chip| replace:: RK3399
-.. |ipc| replace:: Chipsee industrial PC
 
 .. |rootfs_blk| replace:: **/dev/mmcblk0p7**
 

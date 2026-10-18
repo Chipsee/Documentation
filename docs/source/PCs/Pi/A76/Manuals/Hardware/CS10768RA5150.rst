@@ -10,14 +10,6 @@
 
 .. |PN| replace:: PN: CS10768RA5150
 
-.. |vin_rng| replace:: From 15V to 30V (supports optional 24V ignition signal)
-
-.. |cur| replace:: 1100mA max at 15V, 800mA typical at 15V 
-
-.. |pwr| replace:: 16.5W max, 12W typical
-
-.. |temp| replace:: From -20°C to +70°C
-
 .. _product_link: https://chipsee.com/product/ppc-cm5-150/
 
 .. |product_link| replace:: PPC-CM5-150

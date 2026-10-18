@@ -1,0 +1,99 @@
+{
+  "products": [
+    {
+      "id": 97,
+      "slug": "cs86-box-10510u",
+      "title": "CS86-BOX-10510U",
+      "pn": "",
+      "shop_url": "https://chipsee.com/product/cs86-box-10510u/"
+    },
+    {
+      "id": 124,
+      "slug": "cs86-box-3855u",
+      "title": "CS86-BOX-3855U",
+      "pn": "",
+      "shop_url": "https://chipsee.com/product/cs86-box-3855u/"
+    },
+    {
+      "id": 125,
+      "slug": "cs86-box-10210u",
+      "title": "CS86-BOX-10210U",
+      "pn": "",
+      "shop_url": "https://chipsee.com/product/cs86-box-10210u/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU Options",
+      "value": "Intel® Core™ i7 10510U/i5 10310U/Intel Celeron® 3855U; TDP=15W"
+    },
+    {
+      "name": "GPU",
+      "value": "Intel® HD integrated GPU, shared memory (CPU-dependent)"
+    },
+    {
+      "name": "RAM",
+      "value": "Default 4GB, up to 16GB (1 x SO-DIMM DDR4L - CPU-dependent)"
+    },
+    {
+      "name": "Storage",
+      "value": "Default mSATA 32GB SSD (supports up to 512GB)"
+    },
+    {
+      "name": "USB",
+      "value": "4 x USB 3.0 HOST ports (Type A)"
+    },
+    {
+      "name": "LAN",
+      "value": "2 x RJ45, GbE (Intel® I211), Wake on LAN (WoL) support"
+    },
+    {
+      "name": "UART",
+      "value": "Default 2 x RS232 (RS485 optional)"
+    },
+    {
+      "name": "3G/4G",
+      "value": "Optional, modules available from the manufacturer"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Optional, modules available from the manufacturer"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI Out port"
+    },
+    {
+      "name": "SATA",
+      "value": "1 x mSATA, 1 x SATA"
+    },
+    {
+      "name": "Power IN",
+      "value": "12 to 24V DC"
+    },
+    {
+      "name": "Current max. (15V)",
+      "value": "800mA"
+    },
+    {
+      "name": "OS",
+      "value": "10510U/10310U: Linux(Default), Windows 10; 3855U: Linux(Default), Windows 7, Windows 10"
+    },
+    {
+      "name": "Operating Temp.",
+      "value": "From -20°C to +60°C"
+    },
+    {
+      "name": "Dimensions",
+      "value": "249.2 x 152 x 34mm"
+    },
+    {
+      "name": "Mounting",
+      "value": "Panel mounting with fixtures"
+    },
+    {
+      "name": "Weight",
+      "value": "1300g"
+    }
+  ]
+}

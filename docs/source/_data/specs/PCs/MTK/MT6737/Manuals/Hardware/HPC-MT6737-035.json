@@ -1,0 +1,93 @@
+{
+  "products": [
+    {
+      "id": 99,
+      "slug": "hpc-mt6737-035",
+      "title": "HPC-MT6737-035",
+      "pn": "",
+      "shop_url": "https://chipsee.com/product/hpc-mt6737-035/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "MediaTek MT6737, Quad(4)-Core, 4 x 1.3GHz ARM Cortex-A53"
+    },
+    {
+      "name": "GPU",
+      "value": "Mali-T720 MP2"
+    },
+    {
+      "name": "OS",
+      "value": "Android 7.0"
+    },
+    {
+      "name": "RAM/Storage",
+      "value": "2GB+16GB"
+    },
+    {
+      "name": "Display",
+      "value": "3.5 inch (diagonal), 320x480, capacitive touch"
+    },
+    {
+      "name": "Camera",
+      "value": "5MP Rear camera"
+    },
+    {
+      "name": "WiFi",
+      "value": "Support for 802.11 a/b/g/n WiFi"
+    },
+    {
+      "name": "Bluetooth",
+      "value": "Support for BT 4.0 (backwards compatible)"
+    },
+    {
+      "name": "GPS",
+      "value": "Support for GPS"
+    },
+    {
+      "name": "Cellular",
+      "value": "Support for 4G/LTE(B1, B3, B7, B8, B39, B40, B41), WCDMA, EDGE, GSM"
+    },
+    {
+      "name": "USB",
+      "value": "1 x USB2.0"
+    },
+    {
+      "name": "Keyboard",
+      "value": "Support for on device 29-key keyboard (incl. side keys)"
+    },
+    {
+      "name": "Audio",
+      "value": "Support for stereo speaker, microphone"
+    },
+    {
+      "name": "External Storage",
+      "value": "Support for up to 128GB TF(MicroSD)"
+    },
+    {
+      "name": "Weight",
+      "value": "300g"
+    },
+    {
+      "name": "Battery",
+      "value": "5000mAh removable battery, 7+ days standby time, 12+ hours operation time (depends on use case)"
+    },
+    {
+      "name": "Dimension",
+      "value": "185 x 71 x 35 mm"
+    },
+    {
+      "name": "Operating Temp.",
+      "value": "-15°C ~ 65°C"
+    },
+    {
+      "name": "Scanner",
+      "value": "Support for integrated 2D scanner"
+    },
+    {
+      "name": "Color",
+      "value": "Brilliant yellow + black"
+    }
+  ]
+}

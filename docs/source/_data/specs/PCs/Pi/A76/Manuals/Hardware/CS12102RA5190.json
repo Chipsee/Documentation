@@ -1,0 +1,133 @@
+{
+  "products": [
+    {
+      "id": 170,
+      "slug": "ppc-cm5-190",
+      "title": "PPC-CM5-190",
+      "pn": "CS12102RA5190",
+      "shop_url": "https://chipsee.com/product/ppc-cm5-190/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Raspberry Pi® CM5/CM5Lite; BCM2712 Quad(4) Core Cortex-A76 at 2.4GHz"
+    },
+    {
+      "name": "RAM",
+      "value": "2GB, 4GB, or 8GB SDRAM based on CM5"
+    },
+    {
+      "name": "eMMC",
+      "value": "0GB, 16GB, 32GB, or 64GB based on CM5"
+    },
+    {
+      "name": "Display",
+      "value": "19.0” IPS LCD, 1280 x 1024 px, brightness 370 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "10-point capacitive touch with 1mm Armored Glass"
+    },
+    {
+      "name": "Storage",
+      "value": "Support for 1 x TF Card"
+    },
+    {
+      "name": "PCIe",
+      "value": "PCIe Gen 2 × 1 (5Gbps), M.2 M-Key 2230/2242/2260/2280 socket (optional)"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 3.0 type-A Host, 1 x USB type-C OTG"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x Giga LAN"
+    },
+    {
+      "name": "Audio",
+      "value": "3.5mm Audio Out Connector, 2W Speaker Internal"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Onboard Buzzer, driven by GPIO"
+    },
+    {
+      "name": "RTC",
+      "value": "High accuracy RTC with farad capacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional)"
+    },
+    {
+      "name": "RS232",
+      "value": "Default to 2 x RS232, up to 4 x RS232"
+    },
+    {
+      "name": "RS485",
+      "value": "Default to 2 x RS485, these 2 x RS485 can be configured as 2 x RS232"
+    },
+    {
+      "name": "CAN",
+      "value": "1 x CAN FD BUS,  Arbitration Bit Rate up to 1Mbps, Data Bit Rate up to 8Mbps"
+    },
+    {
+      "name": "GPIO",
+      "value": "8 Channels, 4 Input, 4 Output"
+    },
+    {
+      "name": "I2C",
+      "value": "Not Supported"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Optional (Depends on CM5)"
+    },
+    {
+      "name": "ZIGBEE",
+      "value": "No"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI 2.0 out, can be driven up to 4K 60FPS"
+    },
+    {
+      "name": "3G/4G/LTE",
+      "value": "Supported, not mounted by default"
+    },
+    {
+      "name": "Camera",
+      "value": "Yes, not mounted by default."
+    },
+    {
+      "name": "Power Input",
+      "value": "From 15V to 30V (supports optional 24V ignition signal)"
+    },
+    {
+      "name": "Current",
+      "value": "1600mA max at 15V, 1400mA typical at 15V"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "24W max, 21W typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From 0°C to +50°C"
+    },
+    {
+      "name": "OS",
+      "value": "Raspberry Pi OS"
+    },
+    {
+      "name": "Dimensions",
+      "value": "CS12102RA5190P: 435 x 363 x 53.5mm"
+    },
+    {
+      "name": "Weight",
+      "value": "CS12102RA5190P: 5.4kg"
+    },
+    {
+      "name": "Mounting Method",
+      "value": "CS12102RA5190P: Panel, VESA"
+    }
+  ]
+}

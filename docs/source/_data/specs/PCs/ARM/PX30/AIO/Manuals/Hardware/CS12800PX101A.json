@@ -1,0 +1,121 @@
+{
+  "products": [
+    {
+      "id": 27,
+      "slug": "aio-px30-101",
+      "title": "AIO-PX30-101",
+      "pn": "CS12800PX101A",
+      "shop_url": "https://chipsee.com/product/aio-px30-101/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Rockchip PX30, Quad Cortex-A35 at 1.5GHz"
+    },
+    {
+      "name": "Storage",
+      "value": "1 x TF card slot designed for storage expansion"
+    },
+    {
+      "name": "RAM",
+      "value": "1GB DDR"
+    },
+    {
+      "name": "eMMC",
+      "value": "8GB"
+    },
+    {
+      "name": "Display",
+      "value": "10.1” IPS LCD, 1280 x 800 resolution px, brightness 350 cd/m2"
+    },
+    {
+      "name": "Touch",
+      "value": "10-point capacitive touch with 1.0mm Armored Glass"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 2.0 Host, 1 x mini USB OTG"
+    },
+    {
+      "name": "LAN",
+      "value": "1 x Channel 100Mbps LAN"
+    },
+    {
+      "name": "Audio",
+      "value": "Mic input on the front panel, 2W internal stereo speaker, 3.5mm audio In/Out connector"
+    },
+    {
+      "name": "Buzzer",
+      "value": "Internal Buzzer"
+    },
+    {
+      "name": "RTC",
+      "value": "Yes, High accuracy internal RTC (keep track of time one week after power off)"
+    },
+    {
+      "name": "RS232",
+      "value": "1 x RS232 default, 2 Channels at most."
+    },
+    {
+      "name": "RS485",
+      "value": "1 x RS485 default, 2 Channels at most. The RS485 circuit automatically controls the Input and Output direction (no need for software control)"
+    },
+    {
+      "name": "CAN",
+      "value": "1 x CAN Bus."
+    },
+    {
+      "name": "Relay",
+      "value": "1 x relay with “Normally Connected” and “Normally Open” output"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "WiFi/BT module"
+    },
+    {
+      "name": "ZIGBEE",
+      "value": "Internal Zigbee supported, not mounted by default"
+    },
+    {
+      "name": "4G/LTE",
+      "value": "Internal 4G/LTE module supported, not mounted by default"
+    },
+    {
+      "name": "Power Input",
+      "value": "12V DC"
+    },
+    {
+      "name": "Current at 12V",
+      "value": "500mA Max"
+    },
+    {
+      "name": "Power Consumption",
+      "value": "6W Typical"
+    },
+    {
+      "name": "Working Temperature",
+      "value": "From 0°C to +50°C"
+    },
+    {
+      "name": "OS",
+      "value": "Android, Debian"
+    },
+    {
+      "name": "Dimensions",
+      "value": "260.54 x 178.54 x 26.9mm"
+    },
+    {
+      "name": "Weight",
+      "value": "620g"
+    },
+    {
+      "name": "Plastic Case Color",
+      "value": "Black, White"
+    },
+    {
+      "name": "Certification",
+      "value": "CE, ROHS"
+    }
+  ]
+}

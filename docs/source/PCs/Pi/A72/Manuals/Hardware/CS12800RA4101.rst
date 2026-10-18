@@ -6,21 +6,9 @@
 
 .. |product| replace:: PPC-CM4-101
 
-.. |productE| replace:: CS12800RA4101E
-
 .. |productP| replace:: CS12800RA4101P
 
 .. |PN| replace:: PN: CS12800RA4101P
-
-.. |cur| replace:: 0.64A Max at 15V
-
-.. |pwr| replace:: 9.6W Typical
-
-.. |temp| replace:: From 0°C to +60°C
-
-.. |dim_desc| replace:: |dimP|
-
-.. |weight_desc| replace:: |weightP|
 
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-101/

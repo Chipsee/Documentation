@@ -6,6 +6,7 @@
 from pathlib import Path
 import hashlib
 import shutil
+import sys
 from urllib.parse import urljoin
 
 from docutils.parsers.rst.directives.images import Image
@@ -17,10 +18,7 @@ from sphinx.util.osutil import relpath
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-#
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, str(Path(__file__).parent.joinpath("_ext")))
 
 # -- Project information -----------------------------------------------------
 
@@ -43,8 +41,15 @@ extensions = [
     "sphinx_material",
     "sphinx_design",
     "sphinx_copybutton",
-    "sphinx_pdf_generate",
+    # sphinx-material's search page still calls jQuery, which Sphinx no longer ships.
+    "sphinxcontrib.jquery",
+    "pagebreak",
+    "specs",
+    "pdf",
 ]
+
+# sphinx-material injects functions into html_context, which Sphinx can't pickle.
+suppress_warnings = ["config.cache"]
 
 
 # Add any paths that contain templates here, relative to this directory.
@@ -87,6 +92,12 @@ html_theme_options = {
     "globaltoc_includehidden": True,
     # 'html_minify': True,
     "css_minify": True,
+    # Sphinx 7.3+ keeps the quotes around these defaults in sphinx-material's theme.conf.
+    "localtoc_label_text": "Contents",
+    "nav_previous_text": "Previous",
+    "nav_next_text": "Next",
+    "search_placeholder_text": "Search",
+    "version_json": "versions.json",
 }
 html_sidebars = {
     "**": ["localtoc.html", "searchbox.html"],
@@ -100,7 +111,7 @@ file_insertion_enabled = True
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
-html_extra_path = ["./index.html", "./robots.txt"]
+html_extra_path = ["./robots.txt", "./index.php"]
 
 numfig = True
 numfig_secnum_depth = 1
@@ -109,7 +120,7 @@ numfig_format = {"figure": "Figure %s: "}
 html_show_sphinx = False  # shows sphinx footer link
 html_show_sourcelink = False  # shows link to rst file that generates page
 
-rst_epilog = """
+rst_epilog = r"""
 
 .. |Chipsee| replace:: Chipsee\ :sup:`®`
 
@@ -155,28 +166,6 @@ rst_epilog = """
 
 html_last_updated_fmt = "%b %d, %Y"
 pygments_style = "perldoc"
-
-
-# Sphinx-PDF-Generate configurations
-pdfgen_verbose = False
-pdfgen_site_url = "https://docs.chipsee.com"
-# pdfgen_debug = True
-# pdfgen_debug_target = "PCs/ESP32/P4/Manuals/Hardware/CS12800-ESP32P4-101A.rst"
-# pdfgen_debug_target = "PCs/Pi/A72/Manuals/Hardware/CS19108RA4215-KK.rst"
-pdfgen_author = "Chipsee"
-pdfgen_copyright = copyright
-pdfgen_disclaimer = "Content can change at anytime. It's best to refer to website for latest information."
-pdfgen_cover = True
-# pdfgen_cover_title = ""
-# pdfgen_cover_subtitle = ""
-pdfgen_custom_template_path = "cover_templates"
-pdfgen_custom_css_path = "_static/css"
-pdfgen_toc = True
-pdfgen_toc_numbering = True
-pdfgen_toc_title = "Contents"
-pdfgen_toc_level = 6
-pdfgen_cover_images = {"default": "_static/images/cover.png"}
-pdfgen_plugin_handler_path = "custom_code.py"
 
 
 class CustomImageDirective(Image):
@@ -285,6 +274,15 @@ def fingerprint_static_assets(app, exception) -> None:
             _replace_static_references(asset_path, replacements)
 
 
+def render_home_page(app, pagename, templatename, context, doctree):
+    # index.rst only holds the root toctree; its page is the home page in _templates/home.html.
+    if pagename != app.config.root_doc:
+        return None
+    context["title"] = "Home"
+    context["pageurl"] = html_baseurl
+    return "home.html"
+
+
 def add_breadcrumb_context(app, pagename, templatename, context, doctree) -> None:
     context["breadcrumb_items"] = []
     pageurl = context.get("pageurl")
@@ -306,7 +304,8 @@ def add_breadcrumb_context(app, pagename, templatename, context, doctree) -> Non
 
 def setup(app):
     # Override the existing image directive with our custom image directive
-    app.add_directive("image", CustomImageDirective)
+    app.add_directive("image", CustomImageDirective, override=True)
+    app.connect("html-page-context", render_home_page)
     app.connect("html-page-context", add_breadcrumb_context)
     app.connect("build-finished", fingerprint_static_assets)
 

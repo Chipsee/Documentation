@@ -14,45 +14,9 @@
 
 .. |dispsize| replace:: 17"
 
-.. |res| replace:: 1280 x 1024 (4:3)
-
-.. |bright| replace:: 250 |cd|
-
-.. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
-.. |con_ratio| replace:: 1000:1
+.. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |spec:Display Resolution| pixels and brightness of |spec:Brightness|
 
 .. |glass_thickness| replace:: 3mm
-
-.. |glass| replace:: |glass_thickness| Tempered Glass with Black Silk-screen
-
-.. |v_angle| replace:: 	Horizontal: 170° / Vertical: 160°
-
-.. |res_time| replace:: 5ms (GTG)
-
-.. |disp_col| replace:: 16.7M Colors
-
-.. |in_res| replace:: |res| @ 60Hz
-
-.. |connector| replace:: VGA / DVI / HDMI
-
-.. |dim| replace:: 385.3 x 317.8 x 47.1mm
-
-.. |pkg_size| replace:: 505 x 460 x 165mm
-
-.. |weight| replace:: 5000g / 7000g
-
-.. |mount| replace:: VESA, MIS-D, 100, C
-
-.. |pwr| replace:: ≤ 15W
-
-.. |standby| replace:: ≤ 2W
-
-.. |vin_rng| replace:: 12V 3A DC
-
-.. |work_temp| replace:: From 0°C to +40°C, 90% RH
-
-.. |storage_temp| replace:: From -20°C to +60°C, 90% RH
 
 .. _product_link: https://chipsee.com/product/pim170c/
 

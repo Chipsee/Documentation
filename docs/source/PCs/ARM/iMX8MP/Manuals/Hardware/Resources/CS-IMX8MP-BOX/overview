@@ -12,10 +12,10 @@ The fanless embedded single board computer |product| (|PN|) is a |Cortex|-A53 se
   + Environmental Monitoring
   + Predictive Maintenance
 
-The offered CPU consumes very little power, around |pwr|. From the ground-up, the CPU is built for low power consumption. As such, it is best suited for mobile and power-constrained industrial or field applications. A specially designed aluminum alloy housing with fins for increased heat dissipation serves as a passive cooler, eliminating the need for built-in fans. The fanless design reduces noise, as well as the maintenance costs and efforts, leading to increased reliability at the same time.
+The offered CPU consumes very little power, around |spec:Power Consumption|. From the ground-up, the CPU is built for low power consumption. As such, it is best suited for mobile and power-constrained industrial or field applications. A specially designed aluminum alloy housing with fins for increased heat dissipation serves as a passive cooler, eliminating the need for built-in fans. The fanless design reduces noise, as well as the maintenance costs and efforts, leading to increased reliability at the same time.
 
 |Product| is based around the powerful i.MX8MP System on Chip (SoC), powered by the NXP i.MX8MP low-power processor which integrates a quad-core |Cortex|-A53 1.6GHz processor.
 
-The i.MX8MP supports multi-format video decoders and has a high-performance |RAM| RAM capable of sustaining demanding memory bandwidths. It also provides a complete set of peripheral interfaces.
+The i.MX8MP supports multi-format video decoders and has a high-performance |spec:RAM| RAM capable of sustaining demanding memory bandwidths. It also provides a complete set of peripheral interfaces.
 
 :pagebreak:`True`

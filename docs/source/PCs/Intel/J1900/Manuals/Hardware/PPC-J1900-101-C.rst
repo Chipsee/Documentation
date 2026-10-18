@@ -6,10 +6,6 @@
 
 .. |PN| replace:: PN: |product|
 
-.. |weight| replace:: 1200g
-
-.. |dim| replace:: 253.20 X 171.83 X 35mm
-
 .. |dispsize| replace:: 10.1"
   
 .. |res| replace:: 1280 x 800
@@ -20,29 +16,11 @@
 
 .. |rs485| replace:: 1
 
-.. |vga| replace:: 1 x VGA out
-
-.. |hdmi| replace:: N/A
-
 .. |usb2| replace:: 2
 
 .. |usb3| replace:: 2
 
-.. |disp_conn| replace:: |vga| port
-
-.. |bright| replace:: 350 |cd|
-
-.. |operating_temp| replace:: From -15°C to 60°C
-
-.. |storage_temp| replace:: From -20 °C to 70°C
-
-.. |tscreen| replace:: Capacitive Touch Screen
-
-.. |opt_1| replace:: Optional, module available from other manufacturers/stores
-
-.. |opt_2| replace:: Optional, module available from the Chipsee store
-
-.. |pwr| replace:: 17W
+.. |disp_conn| replace:: |spec:VGA| port
 
 .. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
 

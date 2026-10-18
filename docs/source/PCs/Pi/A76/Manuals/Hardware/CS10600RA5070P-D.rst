@@ -8,25 +8,9 @@
 
 .. include:: /PCs/Shared/Hardware/basic/070D
 
-.. |dim_desc| replace:: |dimP|
-
-.. |weightP| replace:: 700g
-
 .. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |disp_table| replace:: |dispsize| IPS LCD, |res| px, brightness |bright|
-
-.. |tscreen| replace:: 5-point capacitive touch with |glass_thickness| tempered glass
-
 .. |cap_screen_conn| replace:: FPC connector
-
-.. |cur| replace:: 950mA max at 12V, 500mA typical at 12V 
-
-.. |pwr| replace:: 11.4W max, 6W typical
-
-.. |temp| replace:: From -10°C to +60°C
-
-.. |mounting_table| replace:: Panel, VESA
 
 .. _product_link: https://chipsee.com/product/ppc-cm5-070-d/
 
