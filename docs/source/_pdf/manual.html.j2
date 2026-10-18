@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="{{ assets }}/manual.css">
 </head>
 <body>
-  <section class="cover" style="background-image: url('{{ assets }}/../_static/images/cover.png')">
+  <section class="cover" style="background-image: url('{{ assets }}/../_static/images/cover.svg')">
+    <img class="cover-logo" src="{{ assets }}/../_static/images/logo_header.png" alt="Chipsee">
     <p class="cover-label">{{ label }}</p>
     <p class="cover-title{% if title | length > 18 %} long{% elif title | length > 15 %} medium{% endif %}">{{ title }}</p>
     {%- if image %}

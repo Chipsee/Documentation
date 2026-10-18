@@ -63,6 +63,13 @@ a { color: var(--accent); text-decoration: none; }
   break-after: page;
 }
 
+.cover-logo {
+  position: absolute;
+  top: 12mm;
+  left: 17mm;
+  width: 50mm;
+}
+
 .cover-label {
   string-set: label content();
   position: absolute;
