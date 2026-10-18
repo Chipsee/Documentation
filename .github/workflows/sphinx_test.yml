@@ -1,5 +1,5 @@
-# Check that a pull request's docs still build: the HTML without warnings, and the PDFs.
-# Nothing is published.
+# Check that a pull request's docs still build without warnings. The PDFs are rendered only
+# when the change is deployed. Nothing is published.
 
 name: "Pull Request Docs Check"
 on:
@@ -20,13 +20,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    # The published site, so only the PDFs this pull request changes are rendered.
-    - name: Check out docs-build
-      uses: actions/checkout@v4
-      with:
-        ref: docs-build
-        path: site
-
     - name: Set Up Python
       uses: actions/setup-python@v5
       with:
@@ -36,16 +29,9 @@ jobs:
 
     - name: Install Requirements
       run: |
-        sudo apt-get update
-        sudo apt-get install -y libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0
         pip install -r docs/source/requirements.txt
 
     # -W fails the check on any Sphinx warning; --keep-going lists all of them first.
     - name: Build HTML
       run: |
         sphinx-build -b html docs/source build/html -d build/doctrees -E -a -j auto -W --keep-going
-
-    - name: Build PDFs
-      run: |
-        python tools/build_pdfs.py build/html --previous site
-
