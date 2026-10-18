@@ -59,11 +59,11 @@
     },
     {
       "name": "GPIO",
-      "value": "0 x GPIO (default), 8 x GPIO (optional, by configuring 2 x RS232, 1 x RS485 and 1 x Relay to 8 x GPIO)"
+      "value": "0 x GPIO (default), 8 x GPIO (optional, by configuring 2 x RS232, 1 x RS485 and 1 x CAN to 8 x GPIO)"
     },
     {
       "name": "Relay",
-      "value": "1 x relay with “Normally Closed” and “Normally Open” output; relay NC and NO can be configured to 1 x CAN (optional, does not support CAN FD); relay NC and NO can be configured to 2 x GPIO (optional)"
+      "value": "0 x relay (default), 1 x relay with “Normally Closed” and “Normally Open” output (optional), relay NC and NO can be configured from 1 x CAN"
     },
     {
       "name": "RS232",
@@ -75,7 +75,7 @@
     },
     {
       "name": "CAN",
-      "value": "0 x CAN (default); 1 x CAN 2.0 (classic CAN, no CAN FD), up to 1Mbps, by configuring the relay to CAN (optional), 120Ohm terminal resistor is not mounted by default, if you need it, please note us"
+      "value": "1 x CAN (default), CAN 2.0 (classic CAN, no CAN FD), up to 1Mbps, 120Ohm terminal resistor is not mounted by default, if you need it, please note us; 1 x CAN can by configured to 1 x relay (optional)"
     },
     {
       "name": "USB",
