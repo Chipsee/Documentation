@@ -2,8 +2,6 @@
 
 .. include:: Resources/CS10600-RK3576-070P-BOX-Shared/base_replaces_070P
 
-.. include:: /PCs/Shared/Hardware/basic/box
-
 .. include:: Resources/CS10600-RK3576-070P-BOX-Shared/image_replaces_070P
 
 .. |product| replace:: CS-RK3576-BOX

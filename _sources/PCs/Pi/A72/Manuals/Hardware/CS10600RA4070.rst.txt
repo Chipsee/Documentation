@@ -28,8 +28,6 @@
 
 .. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
-.. |dimP| replace:: 206 x 135 x 30mm
-
 .. |rs232_485_can_ter| replace:: 16-pin 3.81mm terminal
 
 .. |cap_screen_conn| replace:: FPC connector
