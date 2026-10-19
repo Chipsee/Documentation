@@ -13,8 +13,7 @@ A manual page with a data file gets:
       one product's part of a value listed per part number, like
       ``CS10600RA5070E: 190 x 108 x 28mm; CS10600RA5070P: 206 x 135 x 30mm``. The letter is the
       part number's last one (P panel, E embedded, A all in one). A value that isn't listed
-      per part number belongs to every product on the page, whose letter comes from its
-      name (PPC-, EPC-, AIO-).
+      per part number belongs to every product on the page, so it's there for every letter.
 
 Specs are plain text. A few typography rules are applied when they are rendered:
 ``®`` and the 2 in ``cd/m2`` are superscripted, and parentheses that start with ``optional``
@@ -81,7 +80,6 @@ def load_specs(app) -> None:
 
 def substitutions(data: dict) -> dict[str, str]:
     """Substitution name -> plain text, for every spec on a page."""
-    page_variants = {VARIANTS[p["title"].split("-")[0]] for p in data["products"] if p["title"].split("-")[0] in VARIANTS}
     subs = {}
     for spec in data["specs"]:
         name, value = spec["name"], spec["value"].strip()
@@ -97,8 +95,12 @@ def substitutions(data: dict) -> dict[str, str]:
                 subs[f"spec:{name}:{m['pn']}"] = m["value"]
                 if letters.count(m["pn"][-1]) == 1 and m["pn"][-1] in VARIANTS.values():
                     subs[f"spec:{name}:{m['pn'][-1]}"] = m["value"]
+            # A single part number is the page's only product, whatever letter it ends with.
+            if len(parts) == 1:
+                for letter in VARIANTS.values():
+                    subs[f"spec:{name}:{letter}"] = parts[0]["value"]
         else:
-            for letter in page_variants:
+            for letter in VARIANTS.values():
                 subs[f"spec:{name}:{letter}"] = value
     return subs
 

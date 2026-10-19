@@ -8,8 +8,6 @@
 
 .. |m2_4g_conflict| replace:: **4G/LTE Mini PCIe cannot be used with M.2 PCIe at the same time**
 
-.. |USB| replace:: 1 x USB 2.0 HOST, 1 x USB 3.0 HOST, 1 x USB Type-C
-
 .. |usb_usbc_conflict| replace:: The USB3.0 type-A host and USB-C **can't be used** at the same time. Before boot into OS, USB-C is enabled for installing OS image; after boot into OS, USB-A is enabled but USB-C is disabled. |br| In Android, these can be configured, USB3.0 type A is enabled by default, but you can switch to using USB-C in the software for debugging; in Linux, these can't be configured.
 
 .. |LAN_des| replace:: 2 x RJ45

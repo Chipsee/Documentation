@@ -12,8 +12,6 @@
 
 .. |bright| replace:: 500 |cd|
 
-.. |dimP| replace:: 826 x 380 x 138mm
-
 .. |Product| replace:: The |product| industrial Pi Kiosk
 
 .. |TFNum| replace:: 1

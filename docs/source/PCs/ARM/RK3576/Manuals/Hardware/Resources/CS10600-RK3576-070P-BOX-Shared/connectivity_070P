@@ -1,7 +1,7 @@
 Connectivity
 ============
 
-There are many connectivity options available on the |product| industrial PC. It has |USB|, 2 x network connectors (RJ45) supporting up to
+There are many connectivity options available on the |product| industrial PC. It has |spec:USB|, 2 x network connectors (RJ45) supporting up to
 1 Gbps, 2 x CAN FD and 5 x UART terminals (RS232/485).
 
 RS232+RS485+CAN

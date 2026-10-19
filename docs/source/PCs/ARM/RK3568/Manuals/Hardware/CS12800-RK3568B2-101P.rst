@@ -16,8 +16,6 @@
 
 .. |bright| replace:: 260 |cd|
 
-.. |dimP| replace:: 253.20 X 171.83 X 36mm
-
 .. |power_img| image:: /Media/ARM/A55/CS12800-RK3568B2-101P/CS12800-RK3568B2-101P-Power.jpg
                   :align: middle
                   :width: 576

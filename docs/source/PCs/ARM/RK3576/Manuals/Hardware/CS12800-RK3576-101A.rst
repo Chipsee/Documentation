@@ -12,8 +12,6 @@
 
 .. |m2_4g_conflict| replace:: M.2 NVMe SSD cannot be used with 4G/LTE together
 
-.. |USB| replace:: 1 x USB 3.0 type-A Host, 1 x USB 2.0 type-A Host, 1 x USB type-C OTG (USB-C can't be used together with USB-A 3.0 port)
-
 .. |power_conn_desc| replace:: The power input connector is a 3.4mm O.D x 1.7mm I.D x 9.5mm DC connector, the products also ships with a 3.4x1.7mm to 5.5x2.1mm connector. You can use either 3.4x1.7 or 5.5x2.1 DC power plug. For a proper DC power adapter, refer to the figure below.
 
 .. _product_link: https://chipsee.com/product/aio-rk3576-101/

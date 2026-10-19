@@ -1,7 +1,5 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. include:: /PCs/Shared/Hardware/basic/box
-
 .. |product| replace:: CS-CM5-BOX
 
 .. |productP| replace:: CSRA5BOX
