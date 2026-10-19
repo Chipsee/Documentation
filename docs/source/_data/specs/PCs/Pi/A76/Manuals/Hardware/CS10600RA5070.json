@@ -29,12 +29,32 @@
       "value": "0GB, 16GB, 32GB, or 64GB based on CM5"
     },
     {
-      "name": "Display",
-      "value": "7” IPS LCD, 1024 x 600 px, brightness 500 cd/m2"
+      "name": "Display Size",
+      "value": "7.0”"
     },
     {
-      "name": "Touch",
-      "value": "5-point capacitive touch with 1mm tempered glass"
+      "name": "Display Type",
+      "value": "IPS LCD"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "1024 x 600"
+    },
+    {
+      "name": "Brightness",
+      "value": "500 cd/m2"
+    },
+    {
+      "name": "Touch Technology",
+      "value": "Capacitive"
+    },
+    {
+      "name": "Touch Point",
+      "value": "5"
+    },
+    {
+      "name": "Glass",
+      "value": "1.0mm Tempered Glass"
     },
     {
       "name": "Storage",

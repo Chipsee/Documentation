@@ -1,7 +1,5 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. include:: /PCs/Shared/Hardware/basic/133
-
 .. |product| replace:: PPC-A72-133-P
 
 .. |productP| replace:: PPC-A72-133-P
@@ -9,8 +7,6 @@
 .. |PN| replace:: PN: CS19108R133P2
 
 .. |Product| replace:: The |product| Industrial Panel PC
-
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |power_img| image:: /Media/ARM/A72/CS19108R133P/Power-A72-133.jpg
                   :align: middle

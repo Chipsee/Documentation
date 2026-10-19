@@ -6,12 +6,6 @@
    
 .. |Product| replace:: The |product| Industrial Panel PC 
 
-.. |dispsize| replace:: 7.0"
-
-.. |res| replace:: 1024 x 600
-
-.. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
-
 .. _product_link: https://chipsee.com/product/epca7070hc/
 
 .. |product_link| replace:: |product|

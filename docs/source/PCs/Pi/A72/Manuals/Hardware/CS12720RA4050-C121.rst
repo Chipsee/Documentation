@@ -1,7 +1,5 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. include:: /PCs/Shared/Hardware/basic/050
-
 .. |product| replace:: PPC-CM4-050
 
 .. |productP| replace:: CS12720RA4050P
@@ -15,8 +13,6 @@
 .. |tf_des| replace:: Chipsee designed TF card slots for storage expansion, as the TF card for storage expansion use same pins with WiFi, it can't be used with WiFi at same time
 
 .. |usb_hub_conflict| replace:: two USB host connectors
-
-.. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |rs232_485_can_ter| replace:: 12-pin 3.81mm terminal
 

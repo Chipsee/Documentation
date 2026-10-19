@@ -10,14 +10,6 @@
 
 .. |Product| replace:: The |product| Industrial PC
 
-.. |dispsize| replace:: 7.0"
-
-.. |res| replace:: 800 x 480
-
-.. |bright| replace:: 400 |cd|
-
-.. |disp_des| replace:: |dispsize| resistive touch (1.5mm tempered glass) screen with a resolution of |res| pixels and brightness of |bright|
-
 .. |gpio_desc| replace:: The GPIO has been Opt-Isolated and it uses the 24V Logic by default. The GPIO is driven by the on board VDD, you do not need an external isolated power input.
 
 .. _product_link: https://chipsee.com/product/epca870hbr/

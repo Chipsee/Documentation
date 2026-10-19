@@ -81,7 +81,7 @@ def changes(name: str, old: dict | None, new: dict | None) -> str:
 def write_summary(path: str, sections: list[str]) -> None:
     text = f"{len(sections)} page{"s" * (len(sections) != 1)} changed.\n\n" if sections else "No spec changed.\n"
     for n, section in enumerate(sections):
-        if len(text) + len(section) > SUMMARY_LIMIT:
+        if path != "-" and len(text) + len(section) > SUMMARY_LIMIT:
             text += f"\n…and {len(sections) - n} more pages; see Files changed.\n"
             break
         text += section + "\n"

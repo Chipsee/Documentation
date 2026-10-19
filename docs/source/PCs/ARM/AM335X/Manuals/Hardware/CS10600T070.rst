@@ -10,14 +10,6 @@
 
 .. |Product| replace:: The |product| Industrial PC
 
-.. |dispsize| replace:: 7.0"
-
-.. |res| replace:: 1024 x 600
-
-.. |bright| replace:: 500 |cd|
-
-.. |disp_des| replace:: |dispsize| five-point capacitive / four-wire resistive touch screen with a resolution of |res| pixels and brightness of |bright|
-
 .. _product_link: https://chipsee.com/product/epca870hbc/
 
 .. |product_link| replace:: EPC/PPC-A8-070H-C

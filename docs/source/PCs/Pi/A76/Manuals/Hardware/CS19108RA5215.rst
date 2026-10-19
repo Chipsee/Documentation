@@ -2,15 +2,11 @@
 
 .. include:: Resources/CS12800RA5101/base_replaces
 
-.. include:: /PCs/Shared/Hardware/basic/215
-
 .. |product| replace:: PPC-CM5-215
 
 .. |productP| replace:: CS19108RA5215P
 
 .. |PN| replace:: PN: CS19108RA5215
-
-.. |bright| replace:: 500 |cd|
 
 .. _product_link: https://chipsee.com/product/ppc-cm5-215/
 

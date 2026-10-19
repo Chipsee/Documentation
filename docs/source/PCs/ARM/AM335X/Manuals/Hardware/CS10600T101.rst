@@ -10,14 +10,6 @@
 
 .. |Product| replace:: The |product| Industrial PC
 
-.. |dispsize| replace:: 10.1"
-
-.. |res| replace:: 1024 x 600
-
-.. |bright| replace:: 500 |cd|
-
-.. |disp_des| replace:: |dispsize| ten-point capacitive and resistive touch screen with a resolution of |res| pixels and brightness of |bright|
-
 .. |gpio_desc| replace:: The GPIO has been Opt-Isolated and it uses the 5V Logic by default. You can use an external isolated power input but the power input range should be from 5V to 24V DC.
 
 .. _product_link: https://chipsee.com/product/ppca8101r/

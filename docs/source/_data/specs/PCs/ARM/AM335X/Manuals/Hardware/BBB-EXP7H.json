@@ -10,12 +10,32 @@
   ],
   "specs": [
     {
-      "name": "Display",
-      "value": "7 Inch LCD, 1024*600 Pixel, 250nit Brightness by default (400 nit optional)"
+      "name": "Display Size",
+      "value": "7.0”"
     },
     {
-      "name": "Touch",
-      "value": "Five Point Capacitive touch, Covered with Amorplate Glass (Or Reisistive Touch);"
+      "name": "Display Type",
+      "value": "LCD"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "1024 x 600"
+    },
+    {
+      "name": "Brightness",
+      "value": "250 (default)/400 cd/m2"
+    },
+    {
+      "name": "Touch Technology",
+      "value": "Capacitive/Resistive"
+    },
+    {
+      "name": "Touch Point",
+      "value": "5/1"
+    },
+    {
+      "name": "Glass",
+      "value": "Amorplate Glass"
     },
     {
       "name": "Audio",

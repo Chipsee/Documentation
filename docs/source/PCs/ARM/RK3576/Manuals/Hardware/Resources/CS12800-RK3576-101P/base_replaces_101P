@@ -1,7 +1,5 @@
 .. |rk_soc| replace:: RK3576
 
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
-
 .. |uart_des| replace:: This product has 4 x UART by default, 6 x UART channels at most. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. The 2 x CAN FD can be configured to RS232.
 
 .. |m2_desc| replace:: There is an **optional** M.2 slot on the |product| that allows an optional SSD. The M.2 slot is capable of holding a |m2_slot_len|. |m2_4g_conflict|.

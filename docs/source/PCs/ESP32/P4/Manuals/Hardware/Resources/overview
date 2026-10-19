@@ -3,7 +3,7 @@ Product Overview
 
 |overview_desc|
 
-It features a |dispsize| IPS display with a maximum brightness of |bright|. The touch screen is a responsive capacitive screen and supports multi-touch.
+It features a |spec:Display Size| |spec:Display Type| with a maximum brightness of |spec:Brightness|. The touch screen is a responsive capacitive screen and supports multi-touch.
 
 The product is powered by an ESP32-P4 processor, making it suitable for applications such as:
 

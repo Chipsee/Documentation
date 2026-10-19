@@ -34,8 +34,28 @@
       "value": "Bluetooth 4.2"
     },
     {
-      "name": "Display",
-      "value": "1920 x 1080 60Hz, 16.7 million colors"
+      "name": "Display Size",
+      "value": "21.5”"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "1920 x 1080"
+    },
+    {
+      "name": "Refresh Frequency",
+      "value": "60Hz"
+    },
+    {
+      "name": "Display Color",
+      "value": "16.7M Colors"
+    },
+    {
+      "name": "Touch Technology",
+      "value": "Capacitive"
+    },
+    {
+      "name": "Touch Point",
+      "value": "10"
     },
     {
       "name": "Touch Screen",

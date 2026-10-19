@@ -6,14 +6,6 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 15.6"
-
-.. |res| replace:: 1920 x 1080
-
-.. |bright| replace:: 250 |cd|
-
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
 .. _product_link: https://chipsee.com/product/cs19108r156p/
 
 .. |product_link| replace:: |product|

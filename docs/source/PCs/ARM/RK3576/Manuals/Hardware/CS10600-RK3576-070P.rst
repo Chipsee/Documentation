@@ -4,8 +4,6 @@
 
 .. include:: Resources/CS10600-RK3576-070P-BOX-Shared/image_replaces_070P
 
-.. include:: /PCs/Shared/Hardware/basic/070D
-
 .. |product| replace:: PPC-RK3576-070
 
 .. |productP| replace:: PPC-RK3576-070
@@ -13,8 +11,6 @@
 .. |PN| replace:: PN: CS10600-RK3576-070P
 
 .. |Product| replace:: The |product| Industrial Panel PC
-
-.. |disp_des| replace:: |dispsize| |spec:Touch| with a resolution of |res| pixels and a brightness of |bright|
 
 .. |vesa_screws| replace:: **75 x 75** mm, 4 x **M4** (6mm)
 

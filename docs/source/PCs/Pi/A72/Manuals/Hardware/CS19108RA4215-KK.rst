@@ -6,19 +6,11 @@
 
 .. |PN| replace:: PN: CS19108RA4215-KK
 
-.. |dispsize| replace:: 21.5"
-
-.. |res| replace:: 1920 x 1080
-
-.. |bright| replace:: 500 |cd|
-
 .. |Product| replace:: The |product| industrial Pi Kiosk
 
 .. |TFNum| replace:: 1
 
 .. |tf_des| replace:: This TF card is designed for storage expansion, as the TF card uses the same pins with WiFi, it can't be used with WiFi at the same time
-
-.. |disp_des| replace:: |dispsize| ten-point(single point in Raspberry Pi OS) capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |rs232_485_can_ter| replace:: phoenix terminal
 
@@ -119,7 +111,7 @@
 Product Overview
 =================
 
-The |Cortex|-A72 Raspberry |Pi| series |product| (|PN|) is a high-quality KIOSK product. It features a |disp_des|.
+The |Cortex|-A72 Raspberry |Pi| series |product| (|PN|) is a high-quality KIOSK product. It features a |spec-text:Display|.
 
 .. sidebar:: Key Applications
    
@@ -341,7 +333,7 @@ Power Input
 Touch Screen
 ============
 
-|Product| uses a |spec:Touch| screen. However, the Raspberry Pi OS supports only One-Point touch. |br|
+|Product| uses a |spec-text:Touch|. However, the Raspberry Pi OS supports only One-Point touch. |br|
 The figure below shows the capacitive touch screen connected to the motherboard via the |cap_screen_conn|.
 
 .. rst-class:: text-center

@@ -26,12 +26,32 @@
       "value": "16/32 GB, Based on CM4"
     },
     {
-      "name": "Display",
-      "value": "13.3” IPS LCD, 1920 x 1080 resolution, brightness 360 cd/m2"
+      "name": "Display Size",
+      "value": "13.3”"
     },
     {
-      "name": "Touch",
-      "value": "10-point capacitive touch with 2mm tempered glass"
+      "name": "Display Type",
+      "value": "IPS LCD"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "1920 x 1080"
+    },
+    {
+      "name": "Brightness",
+      "value": "360 cd/m2"
+    },
+    {
+      "name": "Touch Technology",
+      "value": "Capacitive"
+    },
+    {
+      "name": "Touch Point",
+      "value": "10"
+    },
+    {
+      "name": "Glass",
+      "value": "2.0mm Tempered Glass"
     },
     {
       "name": "USB",

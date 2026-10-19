@@ -30,16 +30,32 @@
       "value": "N/A"
     },
     {
-      "name": "Display",
-      "value": "10.1” LCD, 1280 x 800, Brightness: 260 cd/m2"
+      "name": "Display Size",
+      "value": "10.1”"
+    },
+    {
+      "name": "Display Type",
+      "value": "LCD"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "1280 x 800"
+    },
+    {
+      "name": "Brightness",
+      "value": "260 cd/m2"
     },
     {
       "name": "HDMI",
       "value": "1 x HDMI OUT"
     },
     {
-      "name": "Touch",
-      "value": "10-point capacitive touch screen"
+      "name": "Touch Technology",
+      "value": "Capacitive"
+    },
+    {
+      "name": "Touch Point",
+      "value": "10"
     },
     {
       "name": "USB",

@@ -26,8 +26,20 @@
       "value": "2GB+16GB"
     },
     {
-      "name": "Display",
-      "value": "3.5 inch (diagonal), 320x480, capacitive touch"
+      "name": "Display Size",
+      "value": "3.5”"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "320 x 480"
+    },
+    {
+      "name": "Touch Technology",
+      "value": "Capacitive"
+    },
+    {
+      "name": "Touch Point",
+      "value": "Multi"
     },
     {
       "name": "Camera",

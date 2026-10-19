@@ -2,8 +2,6 @@
 
 .. include:: Resources/CS12800-IMX8MP-101P/IMX8MP-101-base-replaces
 
-.. include:: /PCs/Shared/Hardware/basic/215
-
 .. |product| replace:: PPC-A53-215
 
 .. |productP| replace:: PPC-A53-215
@@ -11,8 +9,6 @@
 .. |PN| replace:: PN: CS19108-IMX8MP-215P
 
 .. |screen_conn_type| replace:: USB
-
-.. |bright| replace:: |bright_shared|
 
 .. |power_img| image:: /Media/ARM/A53/CS19108-IMX8MP-215P/CS19108-IMX8MP-215P-Power.jpg
                   :align: middle

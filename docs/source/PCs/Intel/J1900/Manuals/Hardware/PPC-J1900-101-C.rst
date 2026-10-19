@@ -6,10 +6,6 @@
 
 .. |PN| replace:: PN: |product|
 
-.. |dispsize| replace:: 10.1"
-  
-.. |res| replace:: 1280 x 800
-
 .. |lan| replace:: 1
 
 .. |rs232| replace:: 5
@@ -21,8 +17,6 @@
 .. |usb3| replace:: 2
 
 .. |disp_conn| replace:: |spec:VGA| port
-
-.. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
 
 .. _product_link: https://chipsee.com/product/ppc-j1900-101c/
 

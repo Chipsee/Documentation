@@ -1,7 +1,7 @@
 Touch Screen
 ============
 
-|Product| uses a |tscreen| screen. However, the Debian OS supports only One-Point touch. |br|
+|Product| uses a |spec-text:Touch|. However, the Debian OS supports only One-Point touch. |br|
 The figure below shows the capacitive touch screen connected to the motherboard via the |cap_screen_conn|.
 
 .. rst-class:: text-center

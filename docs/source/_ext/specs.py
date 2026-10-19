@@ -14,6 +14,15 @@ A manual page with a data file gets:
       ``CS10600RA5070E: 190 x 108 x 28mm; CS10600RA5070P: 206 x 135 x 30mm``. The letter is the
       part number's last one (P panel, E embedded, A all in one). A value that isn't listed
       per part number belongs to every product on the page, so it's there for every letter.
+  ``|spec-text:Touch|``
+      the touch screen as a phrase, from Touch Point, Touch Technology and Glass:
+      ``10-point capacitive touch screen with 1.0mm tempered glass``.
+  ``|spec-text:Display|``
+      the display as a phrase, from Display Size, the touch screen, Display Resolution and
+      Brightness: ``10.1” 10-point capacitive touch screen with 1.0mm tempered glass, a
+      resolution of 1280 x 800 pixels and a brightness of 500 cd/m2``.
+
+  A phrase leaves out the specs a product doesn't have, and isn't there without Touch Technology.
 
 Specs are plain text. A few typography rules are applied when they are rendered:
 ``®`` and the 2 in ``cd/m2`` are superscripted, and parentheses that start with ``optional``
@@ -105,12 +114,31 @@ def substitutions(data: dict) -> dict[str, str]:
     return subs
 
 
+def phrases(subs: dict[str, str]) -> dict[str, str]:
+    """The display and touch screen as phrases for prose, from the specs they're split into."""
+    if "spec:Touch Technology" not in subs:
+        return {}
+    point = subs.get("spec:Touch Point", "")
+    touch = (f"{point.lower()}-point " if point else "") + subs["spec:Touch Technology"].lower() + " touch screen"
+    glass = subs.get("spec:Glass", "").lower()
+    details = [f"a resolution of {subs['spec:Display Resolution']} pixels"] if "spec:Display Resolution" in subs else []
+    details += [f"a brightness of {subs['spec:Brightness']}"] if "spec:Brightness" in subs else []
+    display = touch + (f" with {glass}," if glass and details else f" with {glass}" if glass else "")
+    if details:
+        display += (" with " if not glass else " ") + " and ".join(details)
+    if "spec:Display Size" in subs:
+        display = f"{subs['spec:Display Size']} {display}"
+    return {"spec-text:Touch": touch + (f" with {glass}" if glass else ""), "spec-text:Display": display}
+
+
 def add_substitutions(app, docname: str, source: list[str]) -> None:
     data = SPECS.get(docname)
     if data is None:
         return
     app.env.note_dependency(data_path(app, docname))
-    definitions = [f".. |{name}| replace:: {to_rst(value)}" for name, value in substitutions(data).items()]
+    subs = substitutions(data)
+    subs.update(phrases(subs))
+    definitions = [f".. |{name}| replace:: {to_rst(value)}" for name, value in subs.items()]
     source[0] += "\n\n" + "\n\n".join(definitions) + "\n"
 
 

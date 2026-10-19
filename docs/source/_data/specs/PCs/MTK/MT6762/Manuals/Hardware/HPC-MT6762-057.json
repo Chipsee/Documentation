@@ -22,12 +22,28 @@
       "value": "4GB+64GB"
     },
     {
-      "name": "Display",
-      "value": "5.7-inch(diagonal), 720x1520, 350 NIT, TFT"
+      "name": "Display Size",
+      "value": "5.7”"
     },
     {
-      "name": "Touch",
-      "value": "Capacitive, 5-point Multi Touch; Works with gloves and wet hands"
+      "name": "Display Type",
+      "value": "TFT"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "720 x 1520"
+    },
+    {
+      "name": "Brightness",
+      "value": "350 cd/m2"
+    },
+    {
+      "name": "Touch Technology",
+      "value": "Capacitive"
+    },
+    {
+      "name": "Touch Point",
+      "value": "5"
     },
     {
       "name": "Camera",

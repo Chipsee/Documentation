@@ -2,8 +2,6 @@
 
 .. include:: Resources/CS12800RA5101/base_replaces
 
-.. include:: /PCs/Shared/Hardware/basic/156
-
 .. |product| replace:: PPC-CM5-156
 
 .. |productP| replace:: CS19108RA5156P

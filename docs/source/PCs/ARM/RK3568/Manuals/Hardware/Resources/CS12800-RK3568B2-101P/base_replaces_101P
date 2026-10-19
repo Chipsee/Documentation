@@ -1,7 +1,5 @@
 .. |rk_soc| replace:: RK3568B2
 
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
-
 .. |uart_des| replace:: This product has 4 x UART by default. The default configuration is 2 x RS232 and 2 x RS485. The 2 x RS485 can be configured to RS232. Serial debug is not available on this product.
 
 .. |LAN_des| replace:: 1 x RJ45

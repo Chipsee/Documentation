@@ -6,12 +6,6 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 17"
-
-.. |res| replace:: 1280 x 1024
-
-.. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
-
 .. _product_link: https://chipsee.com/product/ppca9170c/
 
 .. |product_link| replace:: |product|

@@ -34,12 +34,32 @@
       "value": "1 x HDMI-D 2.0 (Micro-HDMI) Out"
     },
     {
-      "name": "Display",
-      "value": "5.0” LCD, 1280 x 720, High Brightness: 400 cd/m2"
+      "name": "Display Size",
+      "value": "5.0”"
     },
     {
-      "name": "Touch",
-      "value": "5-point capacitive touch screen with 1mm tempered glass"
+      "name": "Display Type",
+      "value": "LCD"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "1280 x 720"
+    },
+    {
+      "name": "Brightness",
+      "value": "400 cd/m2"
+    },
+    {
+      "name": "Touch Technology",
+      "value": "Capacitive"
+    },
+    {
+      "name": "Touch Point",
+      "value": "5"
+    },
+    {
+      "name": "Glass",
+      "value": "1.0mm Tempered Glass"
     },
     {
       "name": "USB",
