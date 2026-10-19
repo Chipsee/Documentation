@@ -2,8 +2,6 @@
 
 .. include:: Resources/BOX-070D-070P-RA4-Shared/base_replaces_4070D
 
-.. include:: /PCs/Shared/Hardware/basic/box
-
 .. |product| replace:: CS-CM4-BOX
 
 .. |productP| replace:: |product|

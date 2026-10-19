@@ -1,7 +1,5 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. include:: /PCs/Shared/Hardware/basic/box
-
 .. |product| replace:: CS-A55-BOX
 
 .. |productP| replace:: CS-A55-BOX

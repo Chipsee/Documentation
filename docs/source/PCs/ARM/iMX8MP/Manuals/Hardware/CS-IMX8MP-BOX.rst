@@ -2,8 +2,6 @@
 
 .. include:: Resources/BOX-070P-IMX8MP-Shared/base_replaces_CS10600-IMX8MP-070P
 
-.. include:: /PCs/Shared/Hardware/basic/box
-
 .. |product| replace:: CS-A53-BOX
 
 .. |productP| replace:: CS-A53-BOX
