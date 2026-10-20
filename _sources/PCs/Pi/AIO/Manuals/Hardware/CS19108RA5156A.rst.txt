@@ -6,10 +6,6 @@
 
 .. |Product| replace:: The |product| all in one Raspberry Pi PC
 
-.. |dispsize| replace:: 15.6"
-
-.. |bright| replace:: 350 |cd|
-
 .. |usbc_conflict| replace:: When you connect the Type-C to a device, it will disable the USB HOST.
 
 .. |power_conn_desc| replace:: The power input connector is a 2.1mm I.D x 5.5mm O.D x 9.5mm DC connector. For a proper DC power adapter, refer to the figure below.

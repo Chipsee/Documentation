@@ -6,10 +6,6 @@
 
 .. include:: Resources/BOX-070-070D-Shared/base_replaces_070D_BOX
 
-.. include:: /PCs/Shared/Hardware/basic/070D
-
-.. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
 .. |cap_screen_conn| replace:: FPC connector
 
 .. _product_link: https://chipsee.com/product/ppc-cm5-070-d/

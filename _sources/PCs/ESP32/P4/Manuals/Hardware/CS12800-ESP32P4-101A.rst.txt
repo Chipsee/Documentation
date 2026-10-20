@@ -9,10 +9,6 @@
 
 .. |Product| replace:: The |product| HMI Display
 
-.. |dispsize| replace:: 10.1"
-
-.. |bright| replace:: 400 |cd|
-
 .. |power_conn_desc| replace:: The power input uses a DC connector with dimensions of 3.4 mm O.D. x 1.7 mm I.D. x 9.5 mm. The product also includes a 3.4 x 1.7 mm to 5.5 x 2.1 mm adapter, allowing either connector size to be used with a suitable DC power supply.
 
 .. |poe_desc| replace:: The product doesn't support PoE (Power over Ethernet).

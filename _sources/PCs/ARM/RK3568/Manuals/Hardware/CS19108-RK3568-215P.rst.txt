@@ -2,8 +2,6 @@
 
 .. include:: Resources/CS12800-RK3568-101P/base_replaces_101P
 
-.. include:: /PCs/Shared/Hardware/basic/215
-
 .. |product| replace:: PPC-A55-215
 
 .. |productP| replace:: PPC-A55-215
@@ -11,8 +9,6 @@
 .. |PN| replace:: PN: CS19108-RK3568-215P
 
 .. |Product| replace:: The |product| Industrial Panel PC
-
-.. |bright| replace:: |bright_shared|
 
 .. |power_img| image:: /Media/ARM/A55/CS19108-RK3568-215P/Power.jpg
                   :align: middle

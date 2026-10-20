@@ -1,7 +1,5 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. include:: /PCs/Shared/Hardware/basic/070D
-
 .. |product| replace:: PPC-A55-070
 
 .. |productP| replace:: PPC-A55-070
@@ -11,8 +9,6 @@
 .. |Product| replace:: The |product| Industrial Panel PC
 
 .. |rk_soc| replace:: RK3568
-
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 3 x RS485, include 1 debug port. 
 

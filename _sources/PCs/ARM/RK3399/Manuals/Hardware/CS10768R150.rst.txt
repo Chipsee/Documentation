@@ -6,14 +6,6 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 15"
-
-.. |res| replace:: 1024 x 768
-
-.. |bright| replace:: 350 |cd|
-
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
 .. _product_link: https://chipsee.com/
 
 .. |product_link| replace:: |product|

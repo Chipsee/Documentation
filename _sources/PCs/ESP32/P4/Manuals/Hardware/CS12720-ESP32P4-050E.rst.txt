@@ -9,10 +9,6 @@
 
 .. |Product| replace:: The |product| Embedded HMI Display
 
-.. |dispsize| replace:: 5"
-
-.. |bright| replace:: 400 |cd|
-
 .. |poe_desc| replace:: The product doesn't support PoE (Power over Ethernet).
 
 .. |power_conn_desc| replace:: The power input is **3-pin 3.81mm screw terminal**, you can also use the USB-C port to power the product while programming.

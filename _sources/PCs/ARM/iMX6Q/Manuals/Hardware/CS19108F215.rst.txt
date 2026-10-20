@@ -6,12 +6,6 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 21.5"
-
-.. |res| replace:: 1920 x 1080
-
-.. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
-
 .. _product_link: https://chipsee.com/product/ppca9215c/
 
 .. |product_link| replace:: |product|
@@ -89,7 +83,7 @@ Measurements and Mounting Procedure
 
 The outer mechanical dimensions of |product| are |spec:Dimensions| (W x L x H).
 
-|Product| can be mounted with 8 x M4 screws or 4 x M4 screws using the VESA (100x100cm or 75x75cm) and Panel mounting methods, enabling simplified installation onto any standard mounting fixture.
+|Product| can be mounted with 8 x M4 screws or 4 x M4 screws using the VESA (100 x 100mm or 75 x 75mm) and Panel mounting methods, enabling simplified installation onto any standard mounting fixture.
 
 .. Figure:: /Media/ARM/A9/CS19108F215/PPC-A9-215-C-TD.jpeg
   :align: center

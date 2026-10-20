@@ -6,12 +6,6 @@
 
 .. |PN| replace:: PN: |product|
 
-.. |dispsize| replace:: 10.1"
-
-.. |res| replace:: 1280 x 800
-
-.. |disp_des| replace:: |dispsize| capacitive touch screen with a resolution of |res| pixels
-
 .. |ver1.0_download| replace:: :download:`Download Archived Manual: PPC-J6412-101-C-ver1.0.pdf <PDF/PPC-J6412-101-C-ver1.0.pdf>`
 
 .. _product_link: https://chipsee.com/product/ppc-j6412-101-c/

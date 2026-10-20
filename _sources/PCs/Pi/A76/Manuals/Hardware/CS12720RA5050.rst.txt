@@ -1,7 +1,5 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. include:: /PCs/Shared/Hardware/basic/050
-
 .. |product| replace:: PPC-CM5-050
 
 .. |productP| replace:: CS12720RA5050
@@ -13,8 +11,6 @@
 .. |TFNum| replace:: 1
 
 .. |tf_des| replace:: TF card slot, **only** used with CM5 Lite to boot system, **cannot** be used as external storage for CM5
-
-.. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |rs232_485_can_ter| replace:: 12-pin 3.81mm terminal
 

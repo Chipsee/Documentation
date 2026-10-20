@@ -2,8 +2,6 @@
 
 .. include:: Resources/BOX-070P-STMP25-Shared/base_replaces_CS10600-STMP25-070P
 
-.. include:: /PCs/Shared/Hardware/basic/070D
-
 .. |product| replace:: PPC-A35-070
 
 .. |productP| replace:: PPC-A35-070
@@ -11,8 +9,6 @@
 .. |PN| replace:: PN: CS10600-STMP25-070P
 
 .. |Product| replace:: The |product| Industrial Panel PC
-
-.. |disp_des| replace:: |dispsize| 5-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
 
 .. |screen_conn_type| replace:: I2C
 

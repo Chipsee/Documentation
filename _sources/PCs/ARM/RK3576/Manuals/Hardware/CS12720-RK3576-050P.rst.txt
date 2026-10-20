@@ -1,7 +1,5 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. include:: /PCs/Shared/Hardware/basic/050
-
 .. |product| replace:: PPC-RK3576-050
 
 .. |productP| replace:: PPC-RK3576-050
@@ -21,8 +19,6 @@
 .. |lan_poe_desc| replace:: This product does not support PoE(Power over Ethernet).
 
 .. |power_conn_desc| replace:: There is a DC input interface on this device: a **3-pin, 3.81mm screw terminal** connector.
-
-.. |disp_des| replace:: |dispsize| |spec:Touch| with a resolution of |res| pixels and a brightness of |bright|
 
 .. |vesa_screws| replace:: **75 x 75** mm, 4 x **M4** (6mm)
 

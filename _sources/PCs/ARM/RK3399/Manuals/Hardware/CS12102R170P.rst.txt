@@ -1,7 +1,5 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. include:: /PCs/Shared/Hardware/basic/170
-
 .. |product| replace:: PPC-A72-170-C
 
 .. |productP| replace:: PPC-A72-170-C
@@ -9,8 +7,6 @@
 .. |PN| replace:: PN: CS12102R170P
 
 .. |Product| replace:: The |product| Industrial Panel PC
-
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |power_img| image:: /Media/ARM/A72/CS12102R170P/CS12102R170P-Power.jpg
                   :align: middle

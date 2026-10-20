@@ -20,14 +20,6 @@
 
 .. |usb_hub_conflict| replace:: two USB host connectors, Zigbee and 4G/LTE
 
-.. |dispsize| replace:: 7"
-
-.. |res| replace:: 1024 x 600
-
-.. |bright| replace:: 500 |cd|
-
-.. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
 .. |rs232_485_can_ter| replace:: 16-pin 3.81mm terminal
 
 .. |cap_screen_conn| replace:: FPC connector

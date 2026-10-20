@@ -6,12 +6,6 @@
 
 .. |PN| replace:: PN: |product|
 
-.. |dispsize| replace:: 15.0"
-  
-.. |res| replace:: 1024 x 768
-
-.. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
-
 .. |ver1.0_download| replace:: :download:`Download Archived Manual: PPC-J6412-150-C-ver1.0.pdf <PDF/PPC-J6412-150-C-ver1.0.pdf>`
 
 .. _product_link: https://chipsee.com/product/ppc-j6412-150-c/

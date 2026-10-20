@@ -10,16 +10,6 @@
 
 .. |tf_des| replace:: Chipsee designed TF card slots for storage expansion, as the TF card for storage expansion use same pins with WiFi, it can't be used with WiFi at same time
 
-.. |dispsize| replace:: 5"
-
-.. |res| replace:: 1280 x 720
-
-.. |bright| replace:: 400 |cd|
-
-.. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
-.. |tscreen| replace:: 5-point capacitive touch
-
 .. |cap_screen_conn| replace:: FPC connector
 
 .. _product_link: https://chipsee.com/product/epc-cm4-050
