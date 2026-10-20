@@ -10,10 +10,6 @@
 
 .. |PN| replace:: PN: CS-D156P
 
-.. |dispsize| replace:: 15.6"
-
-.. |glass_thickness| replace:: 3mm
-
 .. _product_link: https://chipsee.com/product/pim-156-p/
 
 .. |product_link| replace:: PIM-156-P
