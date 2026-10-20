@@ -26,6 +26,10 @@
       "value": "8.0”"
     },
     {
+      "name": "Display Type",
+      "value": "IPS LCD"
+    },
+    {
       "name": "Display Resolution",
       "value": "1200 x 1920"
     },
@@ -34,8 +38,8 @@
       "value": "400 cd/m2"
     },
     {
-      "name": "LCD",
-      "value": "IPS; Active Area: 107.64(H)x172.22(V)"
+      "name": "Display Active Area",
+      "value": "107.64 x 172.22mm"
     },
     {
       "name": "Touch Technology",

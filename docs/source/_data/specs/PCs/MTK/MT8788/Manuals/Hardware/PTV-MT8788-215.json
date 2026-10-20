@@ -22,7 +22,7 @@
       "value": "4 GB LPDDR4x"
     },
     {
-      "name": "Operating Syetem",
+      "name": "OS",
       "value": "Android 12"
     },
     {
@@ -58,11 +58,7 @@
       "value": "10"
     },
     {
-      "name": "Touch Screen",
-      "value": "10 Point Capacitive Touch Screen"
-    },
-    {
-      "name": "Dimensions(screen)",
+      "name": "Dimensions",
       "value": "525.9 * 293.8 * 15 mm"
     },
     {
