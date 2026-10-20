@@ -10,10 +10,6 @@
 
 .. |PN| replace:: PN: CS-D170P
 
-.. |dispsize| replace:: 17.0"
-
-.. |glass_thickness| replace:: 2mm
-
 .. _product_link: https://chipsee.com/product/pim-170-p/
 
 .. |product_link| replace:: PIM-170-P

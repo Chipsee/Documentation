@@ -58,6 +58,10 @@
       "value": "N/A"
     },
     {
+      "name": "Display Size",
+      "value": "17.0”"
+    },
+    {
       "name": "Display Resolution",
       "value": "1280 x 1024 (5:4)"
     },
@@ -115,7 +119,7 @@
     },
     {
       "name": "Glass",
-      "value": "2mm Tempered Glass with Black Silk-screen"
+      "value": "2.0mm Tempered Glass with Black Silk-screen"
     },
     {
       "name": "Work Environment (temp.)",

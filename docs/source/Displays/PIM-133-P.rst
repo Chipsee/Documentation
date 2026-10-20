@@ -10,10 +10,6 @@
 
 .. |PN| replace:: PN: CS-D133P
 
-.. |dispsize| replace:: 13.3"
-
-.. |glass_thickness| replace:: 2mm
-
 .. _product_link: https://chipsee.com/product/pim-133-p/
 
 .. |product_link| replace:: PIM-133-P

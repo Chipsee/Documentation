@@ -12,12 +12,6 @@
 
 .. |Product| replace:: The |product| industrial display
 
-.. |dispsize| replace:: 27"
-
-.. |disp_des| replace:: |dispsize| industrial display that features a 10-point capacitive touch screen with a resolution of |spec:Display Resolution| pixels and brightness of |spec:Brightness|
-
-.. |glass_thickness| replace:: 3mm
-
 .. _product_link: https://chipsee.com/product/pim270c/
 
 .. |product_link| replace:: PIM-270-C

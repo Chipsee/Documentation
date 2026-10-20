@@ -58,6 +58,10 @@
       "value": "Windows"
     },
     {
+      "name": "Display Size",
+      "value": "12.5”"
+    },
+    {
       "name": "Display Resolution",
       "value": "1920 x 1080 (16:9)"
     },
@@ -115,7 +119,7 @@
     },
     {
       "name": "Glass",
-      "value": "3mm Tempered Glass with Black Silk-screen"
+      "value": "3.0mm Tempered Glass with Black Silk-screen"
     },
     {
       "name": "Standby Power",

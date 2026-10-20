@@ -10,10 +10,6 @@
 
 .. |PN| replace:: PN: CS-D185P
 
-.. |dispsize| replace:: 18.5"
-
-.. |glass_thickness| replace:: 2mm
-
 .. _product_link: https://chipsee.com/product/pim-185-p/
 
 .. |product_link| replace:: PIM-185-P
