@@ -33,12 +33,28 @@
       "value": "TF card supports up to 32GB SDHC"
     },
     {
-      "name": "Display",
-      "value": "7.0” LCD, 1024 x 600 , High Brightness: 500cd/m2"
+      "name": "Display Size",
+      "value": "7.0”"
     },
     {
-      "name": "Touch",
-      "value": "Capacitive Touch (Five-Point)"
+      "name": "Display Type",
+      "value": "LCD"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "1024 x 600"
+    },
+    {
+      "name": "Brightness",
+      "value": "500 cd/m2"
+    },
+    {
+      "name": "Touch Technology",
+      "value": "Capacitive"
+    },
+    {
+      "name": "Touch Point",
+      "value": "5"
     },
     {
       "name": "USB",

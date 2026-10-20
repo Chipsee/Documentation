@@ -8,12 +8,6 @@
 
 .. include:: Resources/J1900-V2/104/base_replaces
 
-.. |dispsize| replace:: 15.6"
-  
-.. |res| replace:: 1920 x 1080
-
-.. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
-
 .. _product_link: https://chipsee.com/product/ppc-j1900-156c/
 
 .. |product_link| replace:: |product|

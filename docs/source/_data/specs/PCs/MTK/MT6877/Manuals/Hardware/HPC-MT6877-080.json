@@ -22,12 +22,24 @@
       "value": "8GB+256GB Embedded Multi Chip Package(eMCP)"
     },
     {
-      "name": "Display",
-      "value": "8.0-inch(diagonal), 1200x1920, 400 NIT"
+      "name": "Display Size",
+      "value": "8.0”"
     },
     {
-      "name": "Touch",
-      "value": "Capacitive, 10-point Multi Touch"
+      "name": "Display Resolution",
+      "value": "1200 x 1920"
+    },
+    {
+      "name": "Brightness",
+      "value": "400 cd/m2"
+    },
+    {
+      "name": "Touch Technology",
+      "value": "Capacitive"
+    },
+    {
+      "name": "Touch Point",
+      "value": "10"
     },
     {
       "name": "Camera",

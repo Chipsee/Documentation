@@ -4,8 +4,6 @@
 
 .. |tf_des| replace:: TF card slot, **only** used with CM5 Lite to boot system, **cannot** be used as external storage for CM5
 
-.. |disp_des| replace:: |dispsize| ten-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
 .. |rs232_485_can_ter| replace:: phoenix terminal
 
 .. |rs232_rs485_conf| replace:: The 2 x RS485 can be configured to 2 x RS232, if you want a custom configuration, you can contact us when placing an order.

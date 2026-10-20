@@ -22,16 +22,28 @@
       "value": "Default 4GB, maximum 32GB, 1 x DDR4 3200 SO-DIMM"
     },
     {
-      "name": "Display",
-      "value": "10.4” LCD, resolution 1024 x 768 px, brightness 400 cd/m2"
+      "name": "Display Size",
+      "value": "10.4”"
+    },
+    {
+      "name": "Display Type",
+      "value": "LCD"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "1024 x 768"
+    },
+    {
+      "name": "Brightness",
+      "value": "400 cd/m2"
     },
     {
       "name": "Storage",
       "value": "Default mSATA 64GB SSD; 1 x SATA2.5 HDD 1T; 1 x M.2 2280 NVMe PCI-E 3.0 x 2 Slot"
     },
     {
-      "name": "Touch",
-      "value": "Resistive touch screen"
+      "name": "Touch Technology",
+      "value": "Resistive"
     },
     {
       "name": "Audio",

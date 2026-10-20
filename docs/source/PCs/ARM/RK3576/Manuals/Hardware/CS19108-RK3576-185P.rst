@@ -4,8 +4,6 @@
 
 .. include:: Resources/CS12800-RK3576-101P/image_replaces_101P
 
-.. include:: /PCs/Shared/Hardware/basic/185
-
 .. |product| replace:: PPC-RK3576-185
 
 .. |productP| replace:: PPC-RK3576-185

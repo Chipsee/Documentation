@@ -5,7 +5,7 @@ Product Overview
 
 Its case is plastic, very light to mounted to a fixed place as a smart control center. The case is available in |spec:Plastic Case Color| color.
 
-This single board computer features a |dispsize| IPS display with a maximum brightness of |bright|. The touch screen is a responsive capacitive screen and supports multi touch. It can be used directly as a human-machine interface (HMI) or embedded control terminal.
+This single board computer features a |spec:Display Size| |spec:Display Type| with a maximum brightness of |spec:Brightness|. The touch screen is a responsive capacitive screen and supports multi touch. It can be used directly as a human-machine interface (HMI) or embedded control terminal.
 
 .. sidebar:: Key Applications
    

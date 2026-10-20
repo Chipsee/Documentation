@@ -10,12 +10,6 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 10.1"
-
-.. |res| replace:: 1280 x 800
-
-.. |bright| replace:: 260 |cd|
-
 .. |power_img| image:: /Media/ARM/A55/CS12800-RK3568B2-101P/CS12800-RK3568B2-101P-Power.jpg
                   :align: middle
                   :width: 576

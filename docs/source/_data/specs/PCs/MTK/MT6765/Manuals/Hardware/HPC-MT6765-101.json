@@ -26,8 +26,28 @@
       "value": "10.1 inch, 1200 x 1920, TFT, 350nits(TYP) 400nits(MAX)"
     },
     {
-      "name": "Touch",
-      "value": "10-point touch, supports stylus"
+      "name": "Display Size",
+      "value": "10.1”"
+    },
+    {
+      "name": "Display Type",
+      "value": "LCD"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "1200 x 1920"
+    },
+    {
+      "name": "Brightness",
+      "value": "350 cd/m2"
+    },
+    {
+      "name": "Touch Technology",
+      "value": "Capacitive"
+    },
+    {
+      "name": "Touch Point",
+      "value": "10"
     },
     {
       "name": "Camera",

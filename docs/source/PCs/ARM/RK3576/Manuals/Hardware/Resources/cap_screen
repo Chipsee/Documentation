@@ -1,7 +1,7 @@
 Touch Screen
 ============
 
-|Product| uses a |spec:Touch|. However, the Debian OS supports only One-Point touch.
+|Product| uses a |spec-text:Touch|. However, the Debian OS supports only One-Point touch.
 
 .. rst-class:: text-center
 

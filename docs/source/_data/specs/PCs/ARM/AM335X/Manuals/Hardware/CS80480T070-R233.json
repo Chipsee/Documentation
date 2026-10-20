@@ -33,12 +33,28 @@
       "value": "TF Card, Supports up to 32GB SDHC"
     },
     {
-      "name": "Display",
-      "value": "7.0” LCD, 800 x 480 resolution px, brightness 400 cd/m2"
+      "name": "Display Size",
+      "value": "7.0”"
     },
     {
-      "name": "Touch",
-      "value": "Resistive touch"
+      "name": "Display Type",
+      "value": "LCD"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "800 x 480"
+    },
+    {
+      "name": "Brightness",
+      "value": "400 cd/m2"
+    },
+    {
+      "name": "Touch Technology",
+      "value": "Resistive"
+    },
+    {
+      "name": "Glass",
+      "value": "1.5mm Tempered Glass"
     },
     {
       "name": "USB",

@@ -2,8 +2,6 @@
 
 .. include:: Resources/CS12800-STMP25-101P/base_replaces_CS12800-STMP25-101P
 
-.. include:: /PCs/Shared/Hardware/basic/133
-
 .. |product| replace:: PPC-A35-133
 
 .. |productP| replace:: PPC-A35-133
@@ -11,8 +9,6 @@
 .. |PN| replace:: PN: CS19108-STMP25-133P
 
 .. |Product| replace:: The |product| Industrial Panel PC
-
-.. |disp_des| replace:: |dispsize| 10-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
 
 .. |power_img| image:: /Media/ARM/A35/CS19108-STMP25-133P/CS19108-STMP25-133P-Power.jpg
                   :align: middle

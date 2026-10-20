@@ -4,8 +4,6 @@
 
 .. include:: Resources/CS12800-RK3576-101P/image_replaces_101P
 
-.. include:: /PCs/Shared/Hardware/basic/215
-
 .. |product| replace:: PPC-RK3576-215
 
 .. |productP| replace:: PPC-RK3576-215
@@ -13,8 +11,6 @@
 .. |PN| replace:: PN: CS19108-RK3576-215P
 
 .. |Product| replace:: The |product| Industrial Panel PC
-
-.. |bright| replace:: |bright_shared|
 
 .. |vesa_screws| replace:: **100 x 100** mm, 4 x **M4** (6mm)
 

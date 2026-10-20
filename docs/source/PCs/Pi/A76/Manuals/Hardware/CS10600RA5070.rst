@@ -14,14 +14,6 @@
 
 .. |tf_des| replace:: TF card slot, **only** used with CM5 Lite to boot system, **cannot** be used as external storage for CM5
 
-.. |dispsize| replace:: 7"
-
-.. |res| replace:: 1024 x 600
-
-.. |bright| replace:: 500 |cd|
-
-.. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
 .. |rs232_485_can_ter| replace:: 16-pin 3.81mm terminal
 
 .. |rs232_rs485_conf| replace:: RS485_3 and RS232_3 share UART3 and can’t work at the same time; RS485_5 and RS232_5 share UART5 and can’t work at the same time. Meaning the product provides 4 x RS232 + 0 x RS485, or 2 x RS232 + 2 x RS485, or 3 x RS232 + 1 x RS485.

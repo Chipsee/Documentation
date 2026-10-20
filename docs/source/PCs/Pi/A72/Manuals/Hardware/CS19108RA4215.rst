@@ -2,15 +2,11 @@
 
 .. include:: Resources/CS12800RA4101/base_replaces_cs12800ra4101
 
-.. include:: /PCs/Shared/Hardware/basic/215
-
 .. |product| replace:: PPC-CM4-215
 
 .. |productP| replace:: CS19108RA4215P
 
 .. |PN| replace:: PN: CS19108RA4215
-
-.. |bright| replace:: |bright_shared|
 
 .. _product_link: https://chipsee.com/product/PPC-CM4-215/
 

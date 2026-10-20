@@ -26,12 +26,32 @@
       "value": "8GB"
     },
     {
-      "name": "Display",
-      "value": "10.1” IPS LCD, 1280 x 800 resolution px, brightness 350 cd/m2"
+      "name": "Display Size",
+      "value": "10.1”"
     },
     {
-      "name": "Touch",
-      "value": "10-point capacitive touch with 1.0mm Armored Glass"
+      "name": "Display Type",
+      "value": "IPS LCD"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "1280 x 800"
+    },
+    {
+      "name": "Brightness",
+      "value": "350 cd/m2"
+    },
+    {
+      "name": "Touch Technology",
+      "value": "Capacitive"
+    },
+    {
+      "name": "Touch Point",
+      "value": "10"
+    },
+    {
+      "name": "Glass",
+      "value": "1.0mm Armored Glass"
     },
     {
       "name": "USB",

@@ -59,6 +59,10 @@
     },
     {
       "name": "Display",
+      "value": "N/A"
+    },
+    {
+      "name": "Video Output",
       "value": "1 x HDMI Out , 1 x DP Out"
     },
     {

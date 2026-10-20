@@ -6,10 +6,6 @@
 
 .. |Product| replace:: The |product| industrial Pi PC
 
-.. |dispsize| replace:: 15.6"
-
-.. |bright| replace:: 350 |cd|
-
 .. _product_link: https://chipsee.com/product/aio-cm4-156/
 
 .. |product_link| replace:: AIO-CM4-156

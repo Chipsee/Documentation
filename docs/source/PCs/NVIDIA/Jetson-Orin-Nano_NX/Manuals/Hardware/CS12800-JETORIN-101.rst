@@ -8,13 +8,7 @@
 
 .. |cvm| replace:: **NVIDIA Jetson Orin Nano 4GB/8GB and NVIDIA Jetson Orin NX 8GB/16GB**
 
-.. |dispsize| replace:: 10.1"
-
-.. |res| replace:: 1280 x 800
-
 .. |power_conn_desc| replace:: It is a **3 Pin, 3.81mm screw terminal** connector.
-
-.. |disp_des| replace:: |dispsize| capacitive touch screen with a resolution of |res| pixels
 
 .. _product_link: https://chipsee.com/product/ppc-jetorin-101/
 

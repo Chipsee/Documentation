@@ -10,12 +10,6 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 10.1"
-
-.. |res| replace:: 1280 x 800
-
-.. |disp_des| replace:: |dispsize| multi-point capacitive touch screen with a resolution of |res| pixels
-
 .. |gpio_img| image:: /Media/ARM/A9/CS12800F101/A9-101-C-GPIO.jpg
                   :align: middle
                   :width: 768

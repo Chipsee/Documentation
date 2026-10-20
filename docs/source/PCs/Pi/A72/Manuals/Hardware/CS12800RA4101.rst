@@ -2,8 +2,6 @@
 
 .. include:: Resources/CS12800RA4101/base_replaces_cs12800ra4101
 
-.. include:: /PCs/Shared/Hardware/basic/101
-
 .. |product| replace:: PPC-CM4-101
 
 .. |productP| replace:: CS12800RA4101P

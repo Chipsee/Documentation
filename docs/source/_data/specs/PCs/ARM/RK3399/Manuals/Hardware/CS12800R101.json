@@ -33,12 +33,28 @@
       "value": "TF Card, Supports up to 32GB SDHC"
     },
     {
-      "name": "Display",
-      "value": "10.1” LCD, 1280 x 800, High Brightness: 250 cd/m2"
+      "name": "Display Size",
+      "value": "10.1”"
     },
     {
-      "name": "Touch",
-      "value": "10-point capacitive touch screen"
+      "name": "Display Type",
+      "value": "LCD"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "1280 x 800"
+    },
+    {
+      "name": "Brightness",
+      "value": "250 cd/m2"
+    },
+    {
+      "name": "Touch Technology",
+      "value": "Capacitive"
+    },
+    {
+      "name": "Touch Point",
+      "value": "10"
     },
     {
       "name": "USB",

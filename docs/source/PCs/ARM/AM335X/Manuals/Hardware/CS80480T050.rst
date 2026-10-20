@@ -10,14 +10,6 @@
 
 .. |Product| replace:: The |product| Industrial PC
 
-.. |dispsize| replace:: 5.0"
-
-.. |res| replace:: 800 x 480
-
-.. |bright| replace:: 250 |cd|
-
-.. |disp_des| replace:: |dispsize| ten-point capacitive and resistive touch screen with a resolution of |res| pixels and brightness of |bright|
-
 .. _product_link: https://chipsee.com/product/epca850c/
 
 .. |product_link| replace:: EPC/PPC-A8-050-C

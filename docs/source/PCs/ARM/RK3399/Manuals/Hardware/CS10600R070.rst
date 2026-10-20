@@ -10,14 +10,6 @@
 
 .. |Product| replace:: The |product| Industrial Panel PC
 
-.. |dispsize| replace:: 7.0"
-
-.. |res| replace:: 1024 x 600
-
-.. |bright| replace:: 500 |cd|
-
-.. |disp_des| replace:: |dispsize| five-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
-
 .. _product_link: https://chipsee.com/product/epc-a72-070-c/
 
 .. |product_link| replace:: |product|

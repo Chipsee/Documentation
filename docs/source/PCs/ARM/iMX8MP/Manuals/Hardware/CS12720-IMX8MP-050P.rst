@@ -1,7 +1,5 @@
 .. include:: /PCs/Shared/pdf_options
 
-.. include:: /PCs/Shared/Hardware/basic/050
-
 .. |product| replace:: PPC-A53-050
 
 .. |productP| replace:: PPC-A53-050
@@ -9,8 +7,6 @@
 .. |PN| replace:: PN: CS12720-IMX8MP-050P
 
 .. |Product| replace:: The |product| Industrial Panel PC
-
-.. |disp_des| replace:: |dispsize| 5-point capacitive touch screen with a resolution of |res| pixels and a brightness of |bright|
 
 .. |USB_3_USB_C_Note| replace:: USB3.0 port and USB-C port share one node and cannot be used together. In Linux USB3.0 HOST is enabled by default; in Android USB-C OTG is enabled by default. You can change this config by software in the operating systems, e.g.: disable USB3.0 HOST then enable USB-C OTG in Linux, or vice versa in Android.
 

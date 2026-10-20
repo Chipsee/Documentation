@@ -26,12 +26,28 @@
       "value": "TF Card, Supports up to 32GB SDHC"
     },
     {
-      "name": "Display",
-      "value": "19” LCD, 1440 x 900, High Brightness: 500cd/m2"
+      "name": "Display Size",
+      "value": "19.0”"
     },
     {
-      "name": "Touch",
-      "value": "Capacitive Multi-Point Touch Screen"
+      "name": "Display Type",
+      "value": "LCD"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "1440 x 900"
+    },
+    {
+      "name": "Brightness",
+      "value": "500 cd/m2"
+    },
+    {
+      "name": "Touch Technology",
+      "value": "Capacitive"
+    },
+    {
+      "name": "Touch Point",
+      "value": "10"
     },
     {
       "name": "USB",

@@ -4,13 +4,9 @@
 
 .. |productP| replace:: PPC-A76-070
 
-.. include:: /PCs/Shared/Hardware/basic/070D
-
 .. |PN| replace:: PN: CS10600-RK3588-070P
 
 .. |Product| replace:: The |product| Industrial Panel PC
-
-.. |disp_des| replace:: |dispsize| 5-point capacitive touch screen with a resolution of |res| pixels and brightness of |bright|
 
 .. |dc_in_desc| replace:: There are two DC input interfaces on this device: a **3-pin, 3.81mm terminal**, and a **2.1mm I.D x 5.5mm O.D x 9.5mm DC connector**.
 

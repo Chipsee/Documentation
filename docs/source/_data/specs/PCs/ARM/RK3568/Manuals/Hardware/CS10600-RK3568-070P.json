@@ -30,16 +30,36 @@
       "value": "TF Card, Supports up to 128GB SDHC"
     },
     {
-      "name": "Display",
-      "value": "7” LCD, 1024 x 600, High Brightness: 400 cd/m2"
+      "name": "Display Size",
+      "value": "7.0”"
+    },
+    {
+      "name": "Display Type",
+      "value": "LCD"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "1024 x 600"
+    },
+    {
+      "name": "Brightness",
+      "value": "400 cd/m2"
     },
     {
       "name": "HDMI",
       "value": "1 x HDMI-D (Micro-HDMI) Out"
     },
     {
-      "name": "Touch",
-      "value": "5-point capacitive touch screen with 1mm tempered glass"
+      "name": "Touch Technology",
+      "value": "Capacitive"
+    },
+    {
+      "name": "Touch Point",
+      "value": "5"
+    },
+    {
+      "name": "Glass",
+      "value": "1.0mm Tempered Glass"
     },
     {
       "name": "USB",

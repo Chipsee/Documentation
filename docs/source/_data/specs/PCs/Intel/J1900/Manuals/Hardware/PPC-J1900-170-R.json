@@ -22,16 +22,28 @@
       "value": "Default 4GB, maximum 8GB, DDR3L 1333 SO-DIMM"
     },
     {
-      "name": "Display",
-      "value": "17.0” LCD, resolution 1280 x 1024 px, brightness 400 cd/m2"
+      "name": "Display Size",
+      "value": "17.0”"
+    },
+    {
+      "name": "Display Type",
+      "value": "LCD"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "1280 x 1024"
+    },
+    {
+      "name": "Brightness",
+      "value": "400 cd/m2"
     },
     {
       "name": "Storage",
       "value": "Default mSATA 128GB SSD, supports 256/512GB"
     },
     {
-      "name": "Touch",
-      "value": "Resistive touch screen"
+      "name": "Touch Technology",
+      "value": "Resistive"
     },
     {
       "name": "USB",

@@ -2,8 +2,6 @@
 
 .. include:: Resources/CS12800-IMX8MP-101P/IMX8MP-101-base-replaces
 
-.. include:: /PCs/Shared/Hardware/basic/133
-
 .. |product| replace:: PPC-A53-133
 
 .. |productP| replace:: PPC-A53-133
