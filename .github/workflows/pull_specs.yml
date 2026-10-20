@@ -58,6 +58,8 @@ jobs:
           echo
           cat build/summary.md
           echo
+          echo "The docs build was checked by the workflow above. The Pull Request Docs Check on this pull request waits for a maintainer's approval, since GitHub doesn't run it for a pull request opened by a workflow; there's no need to approve it."
+          echo
           if [ "${{ steps.build.outcome }}" = success ]; then
             echo "✅ The docs build without warnings."
           else
