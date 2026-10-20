@@ -10,10 +10,6 @@
 
 .. |PN| replace:: PN: CS-D215P
 
-.. |dispsize| replace:: 21.5"
-
-.. |glass_thickness| replace:: 2mm
-
 .. _product_link: https://chipsee.com/product/pim-215-p/
 
 .. |product_link| replace:: PIM-215-P

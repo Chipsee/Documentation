@@ -10,10 +10,6 @@
 
 .. |PN| replace:: PN: CS-D190P
 
-.. |dispsize| replace:: 19.0"
-
-.. |glass_thickness| replace:: 2mm
-
 .. _product_link: https://chipsee.com/product/pim-190-p/
 
 .. |product_link| replace:: PIM-190-P
