@@ -11,7 +11,7 @@
   "specs": [
     {
       "name": "CPU",
-      "value": "MTK MT6765 Octa Core 2.3GHz(4 x Cortex-A53 @ 1.8GHz, 4 x Cortext-A53 @ 2.3GHz)"
+      "value": "MTK MT6765 Octa Core 2.3GHz(4 x Cortex-A53 @ 1.8GHz, 4 x Cortex-A53 @ 2.3GHz)"
     },
     {
       "name": "GPU",
@@ -22,16 +22,12 @@
       "value": "4GB+64GB"
     },
     {
-      "name": "LCD",
-      "value": "10.1 inch, 1200 x 1920, TFT, 350nits(TYP) 400nits(MAX)"
-    },
-    {
       "name": "Display Size",
       "value": "10.1”"
     },
     {
       "name": "Display Type",
-      "value": "LCD"
+      "value": "TFT LCD"
     },
     {
       "name": "Display Resolution",
@@ -39,7 +35,7 @@
     },
     {
       "name": "Brightness",
-      "value": "350 cd/m2"
+      "value": "350 cd/m2 (typical), 400 cd/m2 (max)"
     },
     {
       "name": "Touch Technology",
