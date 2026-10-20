@@ -10,54 +10,6 @@
   ],
   "specs": [
     {
-      "name": "Backlight",
-      "value": "Led"
-    },
-    {
-      "name": "Type of Pen",
-      "value": "Fingers, Hands with Gloves, Conductive Stylus"
-    },
-    {
-      "name": "Brightness",
-      "value": "300 cd/m2"
-    },
-    {
-      "name": "Waterproof",
-      "value": "Touch surfaces will not be affected by water droplets or steam"
-    },
-    {
-      "name": "Contrast Ratio",
-      "value": "1500:1"
-    },
-    {
-      "name": "Calibration",
-      "value": "No Calibration Tool"
-    },
-    {
-      "name": "Viewing Angle",
-      "value": "Horizontal: 170° / Vertical: 170°"
-    },
-    {
-      "name": "Touch Response Time",
-      "value": "7ms to 12ms"
-    },
-    {
-      "name": "Response Time",
-      "value": "35ms (GTG)"
-    },
-    {
-      "name": "Connect",
-      "value": "1 x USB 2.0 (Type-B)"
-    },
-    {
-      "name": "Display Color",
-      "value": "16.2M Colors"
-    },
-    {
-      "name": "Multi Touch Protocol Support",
-      "value": "Windows"
-    },
-    {
       "name": "Display Size",
       "value": "15.0”"
     },
@@ -66,76 +18,124 @@
       "value": "1024 x 768 (4:3)"
     },
     {
-      "name": "Operating System",
-      "value": "Windows 7/8, Android, Linux"
+      "name": "Brightness",
+      "value": "300 cd/m2"
+    },
+    {
+      "name": "Contrast Ratio",
+      "value": "1500:1"
+    },
+    {
+      "name": "Viewing Angle",
+      "value": "Horizontal: 170° / Vertical: 170°"
+    },
+    {
+      "name": "Display Color",
+      "value": "16.2M Colors"
+    },
+    {
+      "name": "Response Time",
+      "value": "35ms (GTG)"
     },
     {
       "name": "Refresh Frequency",
       "value": "60Hz"
     },
     {
-      "name": "Dimensions",
-      "value": "352 x 276 x 47mm"
-    },
-    {
-      "name": "Input Resolution",
-      "value": "1024 x 768 (4:3) @ 60Hz"
-    },
-    {
-      "name": "Packaging Size",
-      "value": "440 x 325 x 90mm"
-    },
-    {
-      "name": "Connector",
-      "value": "VGA / DVI / HDMI"
-    },
-    {
-      "name": "Weight",
-      "value": "3500g / 4500g"
-    },
-    {
-      "name": "Built-in Speaker",
-      "value": "N/A"
-    },
-    {
-      "name": "Mounting Methods",
-      "value": "VESA, MIS-D, 100, C"
-    },
-    {
-      "name": "OSD Control",
-      "value": "Button"
-    },
-    {
-      "name": "Power Input",
-      "value": "12V 3A DC"
-    },
-    {
-      "name": "OSD Language",
-      "value": "English, Chinese"
-    },
-    {
-      "name": "Power Supply",
-      "value": "≤ 14W"
+      "name": "Backlight",
+      "value": "LED"
     },
     {
       "name": "Glass",
       "value": "3.0mm Tempered Glass with Black Silk-screen"
     },
     {
-      "name": "Standby Power",
-      "value": "≤ 2W"
+      "name": "Touch Technology",
+      "value": "Projecting Capacitance (G+G)"
     },
     {
       "name": "Touch Point",
       "value": "10"
     },
     {
-      "name": "Work Environment (temp.)",
-      "value": "From 0°C to +40°C, 90% RH"
+      "name": "Touch Response Time",
+      "value": "7ms to 12ms"
     },
     {
-      "name": "Touch Technology",
-      "value": "Projecting Capacitance (G+G)"
+      "name": "Type of Pen",
+      "value": "Fingers, Hands with Gloves, Conductive Stylus"
+    },
+    {
+      "name": "Waterproof",
+      "value": "Touch surfaces will not be affected by water droplets or steam"
+    },
+    {
+      "name": "Calibration",
+      "value": "No Calibration Tool"
+    },
+    {
+      "name": "Multi Touch Protocol Support",
+      "value": "Windows"
+    },
+    {
+      "name": "Connect",
+      "value": "1 x USB 2.0 (Type-B)"
+    },
+    {
+      "name": "Connector",
+      "value": "VGA / DVI / HDMI"
+    },
+    {
+      "name": "Input Resolution",
+      "value": "1024 x 768 (4:3) @ 60Hz"
+    },
+    {
+      "name": "Operating System",
+      "value": "Windows 7/8, Android, Linux"
+    },
+    {
+      "name": "Built-in Speaker",
+      "value": "N/A"
+    },
+    {
+      "name": "OSD Control",
+      "value": "Button"
+    },
+    {
+      "name": "OSD Language",
+      "value": "English, Chinese"
+    },
+    {
+      "name": "Power Input",
+      "value": "12V 3A DC"
+    },
+    {
+      "name": "Power Supply",
+      "value": "≤ 14W"
+    },
+    {
+      "name": "Standby Power",
+      "value": "≤ 2W"
+    },
+    {
+      "name": "Dimensions",
+      "value": "352 x 276 x 47mm"
+    },
+    {
+      "name": "Weight",
+      "value": "3500g / 4500g"
+    },
+    {
+      "name": "Mounting Methods",
+      "value": "VESA, MIS-D, 100, C"
+    },
+    {
+      "name": "Packaging Size",
+      "value": "440 x 325 x 90mm"
+    },
+    {
+      "name": "Work Environment (temp.)",
+      "value": "From 0°C to +40°C, 90% RH"
     },
     {
       "name": "Storage Environment",
