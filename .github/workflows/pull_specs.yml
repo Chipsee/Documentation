@@ -6,6 +6,11 @@ name: Pull specs
 on:
   workflow_dispatch:
 
+# Runs requested close together wait for each other, since they push to the same branch.
+concurrency:
+  group: pull-specs
+  cancel-in-progress: false
+
 permissions:
   contents: write
   pull-requests: write
