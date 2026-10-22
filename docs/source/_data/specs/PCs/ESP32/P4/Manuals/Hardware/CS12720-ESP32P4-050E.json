@@ -115,7 +115,7 @@
     },
     {
       "name": "RTC",
-      "value": "High-accuracy RTC with supercapacitor, can work 1 week after power off (default). High accuracy RTC with lithium coin battery, can work 3 years after power off (optional, conflict with speaker)."
+      "value": "High-accuracy RTC with supercapacitor, can work 1 week after power off"
     },
     {
       "name": "Power Input",
