@@ -16,7 +16,7 @@
     <p class="cover-label">{{ label }}</p>
     <p class="cover-title{% if title | length > 18 %} long{% elif title | length > 15 %} medium{% endif %}">{{ title }}</p>
     {%- if image %}
-    <div class="cover-image{% if not cutout %} framed{% endif %}"><img src="{{ image }}" alt=""></div>
+    <div class="cover-image"><img src="{{ image }}" alt=""></div>
     {%- endif %}
     <div class="cover-details">
       {%- if subtitle %}

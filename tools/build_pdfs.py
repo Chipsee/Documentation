@@ -67,25 +67,15 @@ def media_pngs() -> dict[str, Path]:
     return {path.name: path for path in SOURCE.joinpath("Media").rglob("*.png")}
 
 
-@cache
-def transparent(path: Path) -> bool:
-    from PIL import Image
-
-    with Image.open(path) as image:
-        return image.mode in ("RGBA", "LA", "P") and image.convert("RGBA").getextrema()[3][0] < 255
-
-
-def cover_image(page: Path, src: str) -> tuple[str, bool]:
-    """The cover's product image, and whether it has a transparent background.
+def cover_image(src: str) -> str:
+    """The cover's product image, shown as it is.
 
     The gallery shows a photo, e.g. CS12800RA5101P-Front-Low.jpg; the cover prefers the
-    product's cut-out PNG, CS12800RA5101P-Front.png, which shows the cover's background.
+    product's PNG, CS12800RA5101P-Front.png, if there is one.
     """
     stem = re.sub(r"(-Low)?\.\w+$", "", posixpath.basename(unquote(src)))
     png = media_pngs().get(stem + ".png")
-    if png is not None and transparent(png):
-        return png.as_uri(), True
-    return src, False
+    return png.as_uri() if png is not None else src
 
 
 def wrap_figures(main: Tag) -> None:
@@ -182,7 +172,7 @@ def prepare(html_dir: Path, page_url: str) -> tuple[Markup, list[dict], tuple[st
         heading["data-bookmark"] = f"{number} {title}"
         toc.append({"level": level + 2, "id": anchor, "number": number, "title": title})
 
-    return Markup(main.decode_contents()), toc, cover_image(page, views[0][0]) if views else None
+    return Markup(main.decode_contents()), toc, cover_image(views[0][0]) if views else None
 
 
 def assets_used(html_dir: Path, page_url: str, body: str) -> list[Path]:
@@ -230,8 +220,7 @@ def document(html_dir: Path, info: dict) -> tuple[str, list[Path]]:
         subtitle=info["subtitle"],
         revision=info["revision"],
         label=LABELS.get(info["type"].lower(), f"Industrial {info['type'].title()}"),
-        image=image[0] if image else None,
-        cutout=bool(image and image[1]),
+        image=image,
         url="www.chipsee.com",
         toc=toc,
         body=body,

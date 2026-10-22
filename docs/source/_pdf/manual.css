@@ -109,16 +109,6 @@ a { color: var(--accent); text-decoration: none; }
   max-height: 95mm;
 }
 
-/* A photo without a cut-out background sits on a card, so it doesn't cover the background. */
-.cover-image.framed img {
-  max-width: 115mm;
-  max-height: 85mm;
-  padding: 5mm;
-  background: #fff;
-  border-radius: 2mm;
-  border: .5pt solid #dde0e6;
-}
-
 .cover-details {
   position: absolute;
   left: 17mm;
