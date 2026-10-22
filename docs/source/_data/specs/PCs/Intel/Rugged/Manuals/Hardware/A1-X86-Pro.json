@@ -1,0 +1,173 @@
+{
+  "products": [
+    {
+      "id": 203,
+      "slug": "a1-x86-pro",
+      "title": "A1-X86-Pro",
+      "pn": "",
+      "shop_url": "https://chipsee.com/product/a1-x86-pro/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "Intel® Core™ i7-1255U, 10 cores / 12 threads, 12MB cache, up to 4.7GHz"
+    },
+    {
+      "name": "GPU",
+      "value": "Intel® Iris® Xe Graphics eligible"
+    },
+    {
+      "name": "RAM",
+      "value": "1 x SO-DIMM DDR4, up to 32GB"
+    },
+    {
+      "name": "Storage",
+      "value": "1 x M.2 2280 SSD (SATA), 512GB / 1TB / 2TB"
+    },
+    {
+      "name": "Display Size",
+      "value": "10.1”"
+    },
+    {
+      "name": "Display Type",
+      "value": "Sunlight-readable LCD"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "1920 x 1200 (16:10)"
+    },
+    {
+      "name": "Brightness",
+      "value": "Up to 1000 cd/m2"
+    },
+    {
+      "name": "Touch Technology",
+      "value": "Capacitive multi-touch"
+    },
+    {
+      "name": "Glass",
+      "value": "Tempered glass"
+    },
+    {
+      "name": "USB",
+      "value": "2 x USB 3.0 Type-A"
+    },
+    {
+      "name": "LAN",
+      "value": "2 x RJ45, 10/100/1000Mbps auto-sensing"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI Out"
+    },
+    {
+      "name": "Serial Port",
+      "value": "1 x DB9, RS232/RS422/RS485, up to 115200bps"
+    },
+    {
+      "name": "Audio",
+      "value": "Speakers, microphone, 1 x 3.5mm combo audio jack"
+    },
+    {
+      "name": "TF/SIM Slot",
+      "value": "1 x TF/Nano SIM combo card slot"
+    },
+    {
+      "name": "Antenna",
+      "value": "3 x MCX antenna signal enhancement ports"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Wi-Fi, Bluetooth (optional)"
+    },
+    {
+      "name": "4G/5G",
+      "value": "5G/4G LTE (optional)"
+    },
+    {
+      "name": "GPS",
+      "value": "GPS, GLONASS, BeiDou (optional)"
+    },
+    {
+      "name": "Camera",
+      "value": "5MP front and 5MP rear HD cameras (optional)"
+    },
+    {
+      "name": "Fingerprint Module",
+      "value": "Fingerprint reader (optional)"
+    },
+    {
+      "name": "Expansion Port",
+      "value": "Quick-release I/O expansion module: 2 x USB 2.0, 1 x GbE and 1 x COM, or 2 x USB 2.0, 1 x GbE and 1 x scanner (optional)"
+    },
+    {
+      "name": "Buttons",
+      "value": "9 function buttons: Brightness+, Brightness-, Volume+, Volume-, Start menu, Mute, Power, and P1 and P2 with customizable functions"
+    },
+    {
+      "name": "LED Indicator",
+      "value": "1 x battery indicator"
+    },
+    {
+      "name": "Battery",
+      "value": "14.4V, 7000mAh, 100.8Wh Li-ion battery"
+    },
+    {
+      "name": "Power Input",
+      "value": "120W AC/DC power adapter, 19V DC output"
+    },
+    {
+      "name": "OS",
+      "value": "Windows 10/11 Pro 64-bit, KylinOS V10, Linux"
+    },
+    {
+      "name": "Dimensions",
+      "value": "From 280.0 x 201.0 x 35.0mm"
+    },
+    {
+      "name": "Weight",
+      "value": "From 2.5kg, with Li-ion battery"
+    },
+    {
+      "name": "Operating Temp.",
+      "value": "From -20°C to +55°C (system unit, excluding battery)"
+    },
+    {
+      "name": "Storage Temp.",
+      "value": "From -40°C to +60°C"
+    },
+    {
+      "name": "Shell Material",
+      "value": "Aluminum alloy"
+    },
+    {
+      "name": "Waterproof",
+      "value": "IP65 (IEC 60529 compliant)"
+    },
+    {
+      "name": "Humidity",
+      "value": "95% RH, non-condensing"
+    },
+    {
+      "name": "Vibration",
+      "value": "5 to 500Hz, 1.5Grms"
+    },
+    {
+      "name": "Shock",
+      "value": "20G peak acceleration (11ms duration)"
+    },
+    {
+      "name": "Environmental Resistance",
+      "value": "Mold, salt spray and damp heat (optional)"
+    },
+    {
+      "name": "Mechanical Protection",
+      "value": "Transportation vibration, vibration and shock (optional)"
+    },
+    {
+      "name": "EMC",
+      "value": "CE101, CE102, CS101, RE101, RE102 (optional)"
+    }
+  ]
+}

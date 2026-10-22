@@ -6,8 +6,8 @@ the cover and the file name:
 ``:pdf-title:``, ``:pdf-subtitle:``
     the cover's title and subtitle, the page title by default.
 ``:pdf-type:``
-    the kind of product, shown on the cover and in the footer: ``ipc``, ``displays`` or
-    ``hmi display``.
+    the kind of product, shown on the cover and in the footer: ``ipc``, ``displays``,
+    ``hmi display``, ``rugged tablet`` or ``rugged laptop``.
 ``:pdf-revision:``
     a revision shown on the cover.
 ``:pdf-filename:``
