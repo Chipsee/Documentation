@@ -1,0 +1,57 @@
+Rugged
+######
+
+
+.. raw:: html
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center fw-bold fs-6 gy-3 gx-1 mb-5">
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+10.1 Inch Rugged Tablet PC
+|A1-X86-Pro|
+
+:ref:`A1-X86-Pro<A1-X86-Pro>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+   <div class="col">
+      <div class="index-item">
+
+15.6 Inch Rugged Laptop
+|B1-X86-Pro|
+
+:ref:`B1-X86-Pro<B1-X86-Pro>`
+
+.. raw:: html
+
+     </div>
+   </div>
+
+.. raw:: html
+
+     </div>
+
+.. |A1-X86-Pro| image:: /Media/Intel/Rugged/A1-X86-Pro/A1-X86-Pro-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/Intel/Rugged/Manuals/Hardware/A1-X86-Pro.html
+.. |B1-X86-Pro| image:: /Media/Intel/Rugged/B1-X86-Pro/B1-X86-Pro-Front-Low.jpg
+   :class: index-item-img
+   :target: /PCs/Intel/Rugged/Manuals/Hardware/B1-X86-Pro.html
+
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   A1-X86-Pro </PCs/Intel/Rugged/Manuals/Hardware/A1-X86-Pro>
+   B1-X86-Pro </PCs/Intel/Rugged/Manuals/Hardware/B1-X86-Pro>
