@@ -91,7 +91,7 @@
     },
     {
       "name": "Camera",
-      "value": "Yes, not mounted by default."
+      "value": "No"
     },
     {
       "name": "Power Input",
