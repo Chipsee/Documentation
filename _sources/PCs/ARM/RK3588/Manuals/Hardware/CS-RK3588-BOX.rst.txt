@@ -2,6 +2,10 @@
 
 .. |product| replace:: CS-A76-BOX
 
+.. |can_removed_ver| replace:: 1.3
+
+.. |can_previous_manual| replace:: :download:`Download Archived Manual: CS-A76-BOX-ver1.2.pdf <PDF/CS-A76-BOX-ver1.2.pdf>`
+
 .. |productP| replace:: CS-A76-BOX
 
 .. |PN| replace:: PN: CS-RK3588-BOX
@@ -12,7 +16,7 @@
 
 .. |pcie_opt_feature| replace:: This product doesn't have M.2 PCIe socket.
 
-.. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 3 x RS485, including 1 debug port. CAN0 can be configured to RS232.
+.. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 3 x RS485, including 1 debug port. Pin 13 and Pin 14, not connected by default, can be configured to RS232.
 
 .. |gpio_conn| replace:: **10-pin 3.81 mm terminal**
 
@@ -62,7 +66,7 @@
                   :align: middle
                   :width: 640
 
-.. |can_232_485_img| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-RS232-RS485-CAN.jpg
+.. |rs232_485_img| image:: /Media/ARM/A76/CS-RK3588-BOX/CS-RK3588-BOX-RS232-RS485.jpg
                   :align: middle
                   :width: 640 
 
@@ -118,12 +122,16 @@
 |product|
 #########
 
-.. rubric:: *Version 1.2*
+.. rubric:: *Version 1.3*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images
 
 .. include:: Resources/CS-RK3588-BOX/overview
+
+.. include:: /PCs/Shared/changes
+
+.. include:: /PCs/Shared/migrations/20261029_can_removed
 
 .. include:: Resources/ordering
 

@@ -4,6 +4,10 @@
 
 .. |product| replace:: PPC-A55-121
 
+.. |can_removed_ver| replace:: 1.2
+
+.. |can_previous_manual| replace:: :download:`Download Archived Manual: PPC-A55-121-ver1.1.pdf <PDF/PPC-A55-121-ver1.1.pdf>`
+
 .. |productP| replace:: PPC-A55-121
 
 .. |PN| replace:: PN: CS10768-RK3568-121P
@@ -81,12 +85,16 @@
 |product|
 #########
 
-.. rubric:: *Version 1.1*
+.. rubric:: *Version 1.2*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images
 
 .. include:: Resources/overview
+
+.. include:: /PCs/Shared/changes
+
+.. include:: /PCs/Shared/migrations/20261029_can_removed
 
 .. include:: Resources/ordering
 
