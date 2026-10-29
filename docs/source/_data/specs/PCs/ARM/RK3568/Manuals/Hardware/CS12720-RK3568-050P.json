@@ -95,7 +95,7 @@
     },
     {
       "name": "CAN",
-      "value": "default 1 x CAN FD (Optional 2 x CAN FD at most, by swapping RS485_4 to CAN FD)"
+      "value": "N/A"
     },
     {
       "name": "GPIO",

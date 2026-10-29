@@ -2,6 +2,10 @@
 
 .. |product| replace:: PPC-A76-101
 
+.. |can_removed_ver| replace:: 1.1
+
+.. |can_previous_manual| replace:: :download:`Download Archived Manual: PPC-A76-101-ver1.0.pdf <PDF/PPC-A76-101-ver1.0.pdf>`
+
 .. |productP| replace:: PPC-A76-101
 
 .. |PN| replace:: PN: CS12800-RK3588-101P
@@ -12,7 +16,7 @@
 
 .. |pcie_opt_feature| replace:: The product has |spec:PCIe|, you can use it with a NVMe SSD or other modules such as a AI compute module that can fit in the slot and supports the protocol. By default, SSD or AI module is **not included**; by default M.2 slot is **not mounted**. Please **contact us** before placing an order if you need M.2 slot or M.2 devices.
 
-.. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 2 x RS485, including 1 debug port. CAN0 and CAN1 can be configured to RS232.
+.. |uart_des| replace:: This product has 6 x UART channels in total. The default configuration is 2 x RS232 and 2 x RS485, including 1 debug port. Pin 1 to Pin 4, not connected by default, can be configured to 2 x RS232.
 
 .. |gpio_conn| replace:: **phoenix connector**
 
@@ -60,7 +64,7 @@
                   :align: middle
                   :width: 640
 
-.. |can_232_485_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-Conn.jpg
+.. |rs232_485_img| image:: /Media/ARM/A76/CS12800-RK3588-101P/CS12800-RK3588-101P-Conn.jpg
                   :align: middle
                   :width: 1024 
 
@@ -120,12 +124,16 @@
 |product|
 #########
 
-.. rubric:: *Version 1.0*
+.. rubric:: *Version 1.1*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images
 
 .. include:: Resources/overview
+
+.. include:: /PCs/Shared/changes
+
+.. include:: /PCs/Shared/migrations/20261029_can_removed
 
 .. include:: Resources/ordering
 

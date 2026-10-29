@@ -95,7 +95,7 @@
     },
     {
       "name": "CAN",
-      "value": "Default to 2 x CAN FD. Optionally, these 2 x CAN FD can be configured to RS232."
+      "value": "N/A"
     },
     {
       "name": "GPIO",

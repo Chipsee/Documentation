@@ -1,0 +1,13 @@
+Ver |can_removed_ver|
+
+- Released on Oct 29, 2026
+
+- Changes on CAN
+
+  .. note::
+
+    **Old**: CAN FD supported
+
+    **New**: CAN is no longer supported; the former CAN pins are not connected (NC)
+
+- The manual of the previous version, with CAN: |can_previous_manual|

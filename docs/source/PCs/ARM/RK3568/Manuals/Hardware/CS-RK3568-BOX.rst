@@ -2,6 +2,10 @@
 
 .. |product| replace:: CS-A55-BOX
 
+.. |can_removed_ver| replace:: 1.2
+
+.. |can_previous_manual| replace:: :download:`Download Archived Manual: CS-A55-BOX-ver1.1.pdf <PDF/CS-A55-BOX-ver1.1.pdf>`
+
 .. |productP| replace:: CS-A55-BOX
 
 .. |PN| replace:: PN: CS-RK3568-BOX
@@ -42,7 +46,7 @@
                   :align: middle
                   :width: 640
 
-.. |can_232_485_img| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-RS232-RS485-CAN.jpg
+.. |rs232_485_img| image:: /Media/ARM/A55/CS-RK3568-BOX/CS-RK3568-BOX-RS232-RS485.jpg
                   :align: middle
                   :width: 640 
 
@@ -94,7 +98,7 @@
 |product|
 #########
 
-.. rubric:: *Version 1.1*
+.. rubric:: *Version 1.2*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images
@@ -102,6 +106,8 @@
 .. include:: Resources/CS-RK3568-BOX/overview
 
 .. include:: /PCs/Shared/changes
+
+.. include:: /PCs/Shared/migrations/20261029_can_removed
 
 .. include:: Resources/migrations/20260528_power_input
 

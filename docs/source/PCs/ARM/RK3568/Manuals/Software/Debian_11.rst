@@ -392,7 +392,11 @@ We use one PWM to control the backlight of |chip| boards, You can use the follow
 CAN Bus
 -------
 
-There are two CAN bus channels (except PPC-A55-101S) on the |chip| based |ipc|. You can install `can-utils` and use them to test CAN. But you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown on the figure below.
+.. attention::
+
+   Since Oct 29, 2026, the |chip| based |ipc| no longer supports CAN, and the former CAN pins are not connected (NC). This section only applies to the products bought before that, see the Product Changes section of the product's hardware manual.
+
+There are two CAN bus channels (except PPC-A55-101S) on the |chip| based |ipc| bought before Oct 29, 2026. You can install `can-utils` and use them to test CAN. But you must add one 120Ω resistor between CAN_H and CAN_L on one of the two Boards, as shown on the figure below.
 
 .. note::
 

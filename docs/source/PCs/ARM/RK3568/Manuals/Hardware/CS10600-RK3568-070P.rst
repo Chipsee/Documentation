@@ -2,6 +2,10 @@
 
 .. |product| replace:: PPC-A55-070
 
+.. |can_removed_ver| replace:: 1.2
+
+.. |can_previous_manual| replace:: :download:`Download Archived Manual: PPC-A55-070-ver1.1.pdf <PDF/PPC-A55-070-ver1.1.pdf>`
+
 .. |productP| replace:: PPC-A55-070
 
 .. |PN| replace:: PN: CS10600-RK3568-070P
@@ -44,7 +48,7 @@
                   :align: middle
                   :width: 640
 
-.. |can_232_485_img| image:: /Media/ARM/A55/CS10600-RK3568-070P/RS232_RS485_CAN_RK3568_070.jpg
+.. |rs232_485_img| image:: /Media/ARM/A55/CS10600-RK3568-070P/RS232_RS485_RK3568_070.jpg
                   :align: middle
                   :width: 640 
 
@@ -96,12 +100,16 @@
 |product|
 #########
 
-.. rubric:: *Version 1.1*
+.. rubric:: *Version 1.2*
     :class: html-only
 
 .. include:: /PCs/Shared/four_main_images
 
 .. include:: Resources/overview
+
+.. include:: /PCs/Shared/changes
+
+.. include:: /PCs/Shared/migrations/20261029_can_removed
 
 .. include:: Resources/ordering
 

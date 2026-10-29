@@ -2,12 +2,12 @@ Connectivity
 ============
 
 There are many connectivity options available on the |product| industrial PC. It has |spec:USB|, 1 x network connector (RJ45) supporting up to
-1 Gbps, 8 x GPIO, 2 x CAN FD and 4 x UART terminals (RS232/485).
+1 Gbps, 8 x GPIO and 4 x UART terminals (RS232/485).
 
-RS232+RS485+CAN+GPIO Connector
-------------------------------
+RS232+RS485+GPIO Connector
+--------------------------
 
-The serial communication interfaces (RS485, RS232, and CAN FD) are routed to a **24-pin 3.81mm terminal**, as illustrated in the figure below.
+The serial communication interfaces (RS485 and RS232) are routed to a **24-pin 3.81mm terminal**, as illustrated in the figure below.
 Serial communication on both RS485 and RS232 interfaces can reach up to 115200 kbps.
 
 .. include:: /PCs/Shared/Hardware/gpio_image
@@ -24,17 +24,17 @@ The table below offers a detailed description of every pin:
    :widths: auto
 
    +----------------+----------------+---------------------------------------+
-   |          **RS232 / RS485 / CAN / GPIO Pin Definition:**                 |
+   |          **RS232 / RS485 / GPIO Pin Definition:**                       |
    +================+================+=======================================+
    | **Pin Number** | **Definition** | **Description**                       |
    +----------------+----------------+---------------------------------------+
-   | Pin 1          | CAN0_H         | CAN H signal                          |
+   | Pin 1          | NC             | Not connected                         |
    +----------------+----------------+---------------------------------------+
-   | Pin 2          | CAN1_H         | CAN H signal                          |
+   | Pin 2          | NC             | Not connected                         |
    +----------------+----------------+---------------------------------------+
-   | Pin 3          | CAN0_L         | CAN L signal                          |
+   | Pin 3          | NC             | Not connected                         |
    +----------------+----------------+---------------------------------------+
-   | Pin 4          | CAN1_L         | CAN L signal                          |
+   | Pin 4          | NC             | Not connected                         |
    +----------------+----------------+---------------------------------------+
    | Pin 5          | RS485_4-       | CPU UART4, RS485 -(B) signal          |
    +----------------+----------------+---------------------------------------+
@@ -79,9 +79,9 @@ The table below offers a detailed description of every pin:
 
 .. attention::
 
-   + The 120Ω match resistor for **CAN** bus is **NOT mounted** by default.
+   + Pin 1 to Pin 4 are not connected (NC).
    + The 120Ω match resistor for **RS485** is **already mounted** by default.
-   + This product supports changing 2 x RS485 to 2 x RS232, supports changing 2 x CAN to 2 x RS232, providing up to 6 x RS232 (including one debug port).
+   + This product supports changing 2 x RS485 to 2 x RS232, supports changing Pin 1 to Pin 4 to 2 x RS232, providing up to 6 x RS232 (including one debug port).
    + The GPIO has been optical isolated and it uses the 24V logic by default. You can use an external isolated power input but the power input range should be from 5V to 24V DC.
    + The 4 GPIO output channels can drive at most 500mA current on each channel.
 
