@@ -1,6 +1,6 @@
 .. |rk_soc| replace:: RK3568
 
-.. |uart_des| replace:: This product has 4 x UART by default, 6 x UART channels at most. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. The 2 x CAN FD can be configured to RS232.
+.. |uart_des| replace:: This product has 4 x UART by default, 6 x UART channels at most. The default configuration is 2 x RS232 and 2 x RS485, including 1 RS232 debug port. Pin 1 to Pin 4, not connected by default, can be configured to 2 x RS232.
 
 .. |LAN_des| replace:: 1 x RJ45
 

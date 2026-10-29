@@ -87,7 +87,7 @@
     },
     {
       "name": "RS232",
-      "value": "default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port, by swapping 3 x RS485 + CAN0 to 4 x RS232)"
+      "value": "default 2 x RS232 (Optional 6 x RS232 at most, include 1 debug port, by swapping 3 x RS485 + NC to 4 x RS232)"
     },
     {
       "name": "RS485",
@@ -95,7 +95,7 @@
     },
     {
       "name": "CAN",
-      "value": "default 2 x CAN FD (CAN0 can be configured to RS232)"
+      "value": "N/A"
     },
     {
       "name": "GPIO",

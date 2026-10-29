@@ -103,7 +103,7 @@
     },
     {
       "name": "CAN",
-      "value": "default 2 x CAN FD"
+      "value": "N/A"
     },
     {
       "name": "GPIO",

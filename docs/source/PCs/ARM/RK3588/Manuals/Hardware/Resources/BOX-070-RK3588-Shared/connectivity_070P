@@ -1,26 +1,26 @@
 Connectivity
 ============
 
-There are many connectivity options available on the |product| industrial PC. It has |spec:USB|, |spec:LAN| (RJ45) Ethernet connector supporting up to 1 Gbps, and 5 x UART terminals (RS232/RS485), 2 x CAN FD.
+There are many connectivity options available on the |product| industrial PC. It has |spec:USB|, |spec:LAN| (RJ45) Ethernet connector supporting up to 1 Gbps, and 5 x UART terminals (RS232/RS485).
 
-RS232/RS485/CAN
----------------
+RS232/RS485
+-----------
 
-The serial communication interfaces (RS485, RS232, and CAN FD) are routed to a **16-pin 3.81mm terminal**, as illustrated on the figure below.
+The serial communication interfaces (RS485 and RS232) are routed to a **16-pin 3.81mm terminal**, as illustrated on the figure below.
 
 Serial communication on both RS485 and RS232 interfaces can reach up to 115200 kbps.
 
 .. attention::
 
-    #) The 120Ω match resistor for the CAN bus is NOT mounted by default.
+    #) Pin 13 to Pin 16 are not connected (NC). Pin 13 and Pin 14 can be configured to RS232 **(optional)**.
     #) The 120Ω match resistor for the RS485 is mounted by default.
     #) RS485_3, RS485_4 and RS485_5 can control the input and output direction automatically. There’s no need to control it from within the software.
 
 .. rst-class:: text-center
 
-  |can_232_485_img|
+  |rs232_485_img|
 
-  *RS232 RS485 CAN Pins*
+  *RS232 RS485 Pins*
 
 The table below offers more detailed description of every pin and its definition:
   
