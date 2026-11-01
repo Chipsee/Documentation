@@ -63,7 +63,7 @@
     },
     {
       "name": "PoE",
-      "value": "Power over Ethernet 802.3af/at, optional, not mounted by default"
+      "value": "Power over Ethernet 802.3af, optional, not mounted by default"
     },
     {
       "name": "WiFi/BT",
