@@ -95,7 +95,7 @@
     },
     {
       "name": "CAN",
-      "value": "1 x CAN (default), CAN 2.0 (classic CAN, no CAN FD), up to 1Mbps, 120Ohm terminal resistor is not mounted by default, if you need it, please note us; 1 x CAN can by configured to 1 x relay (optional)"
+      "value": "1 x CAN (default), CAN 2.0 (classic CAN, no CAN FD), up to 1Mbps, 120Ohm terminal resistor is not mounted by default, if you need it, please note us; 1 x CAN can be configured to 1 x relay (optional)"
     },
     {
       "name": "USB",
