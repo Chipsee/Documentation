@@ -35,7 +35,13 @@ SOURCE = ROOT / "docs" / "source"
 ASSETS = SOURCE / "_pdf"
 BASE_URL = "https://chipsee.com/docs/"
 FINGERPRINTS = "pdf_fingerprints.json"
-LABELS = {"ipc": "Industrial PC", "displays": "Industrial Display", "hmi display": "Industrial HMI Display"}
+LABELS = {
+    "ipc": "Industrial PC",
+    "displays": "Industrial Display",
+    "hmi display": "Industrial HMI Display",
+    "rugged tablet": "Rugged Tablet PC",
+    "rugged laptop": "Rugged Laptop",
+}
 TOC_LEVELS = ("h2", "h3", "h4")
 # Images are embedded at no more than this resolution, which is plenty for print.
 DPI = 200

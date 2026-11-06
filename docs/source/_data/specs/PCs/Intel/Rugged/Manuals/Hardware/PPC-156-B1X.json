@@ -1,0 +1,161 @@
+{
+  "products": [
+    {
+      "id": 204,
+      "slug": "b1-x86-pro",
+      "title": "B1-X86-Pro",
+      "pn": "",
+      "shop_url": "https://chipsee.com/product/b1-x86-pro/"
+    }
+  ],
+  "specs": [
+    {
+      "name": "CPU",
+      "value": "12th to 14th Gen Intel® Core™ i3, i5, i7 or i9"
+    },
+    {
+      "name": "GPU",
+      "value": "Intel® UHD Graphics, NVIDIA® RTX 3050 8GB or RTX 3060 12GB GDDR6 (optional)"
+    },
+    {
+      "name": "RAM",
+      "value": "16GB DDR5 SO-DIMM, 2 slots, up to 64GB"
+    },
+    {
+      "name": "Storage",
+      "value": "1 x M.2 2280 SSD (NVMe/SATA), 512GB / 1TB / 2TB / 4TB / 8TB, and 1 x mSATA SSD, 512GB / 1TB / 2TB"
+    },
+    {
+      "name": "Display Size",
+      "value": "15.6”"
+    },
+    {
+      "name": "Display Type",
+      "value": "Sunlight-readable LCD"
+    },
+    {
+      "name": "Display Resolution",
+      "value": "1920 x 1080 (16:9)"
+    },
+    {
+      "name": "Brightness",
+      "value": "Up to 1000 cd/m2"
+    },
+    {
+      "name": "Touch Technology",
+      "value": "Capacitive multi-touch (optional)"
+    },
+    {
+      "name": "Glass",
+      "value": "Tempered glass"
+    },
+    {
+      "name": "USB",
+      "value": "4 x USB 3.0 Type-A, 2 x USB 2.0 Type-A"
+    },
+    {
+      "name": "LAN",
+      "value": "2 x RJ45, 10/100/1000Mbps auto-sensing"
+    },
+    {
+      "name": "HDMI",
+      "value": "1 x HDMI Out"
+    },
+    {
+      "name": "Serial Port",
+      "value": "3 x DB9, RS232/RS422/RS485, up to 115200bps"
+    },
+    {
+      "name": "Audio",
+      "value": "Speakers, microphone, 1 x 3.5mm combo audio jack"
+    },
+    {
+      "name": "WiFi/BT",
+      "value": "Wi-Fi 6E, Bluetooth 5.2 (optional)"
+    },
+    {
+      "name": "4G/5G",
+      "value": "5G/4G LTE (optional)"
+    },
+    {
+      "name": "GPS",
+      "value": "GPS, BeiDou (optional)"
+    },
+    {
+      "name": "Camera",
+      "value": "5MP HD camera (optional)"
+    },
+    {
+      "name": "Fingerprint Module",
+      "value": "Fingerprint reader (optional)"
+    },
+    {
+      "name": "Keyboard",
+      "value": "LED-backlit waterproof membrane keyboard with numeric keypad, touchpad"
+    },
+    {
+      "name": "LED Indicator",
+      "value": "NumLock, CapsLock, battery, power"
+    },
+    {
+      "name": "Battery",
+      "value": "21.6V, 10500mAh, 226.8Wh Li-ion battery"
+    },
+    {
+      "name": "Power Input",
+      "value": "350W AC/DC power adapter, 28V DC output (450W optional)"
+    },
+    {
+      "name": "OS",
+      "value": "Windows 10/11 Pro 64-bit"
+    },
+    {
+      "name": "Dimensions",
+      "value": "From 390.0 x 270.0 x 58.5mm"
+    },
+    {
+      "name": "Weight",
+      "value": "From 6.5kg, with Li-ion battery"
+    },
+    {
+      "name": "Operating Temp.",
+      "value": "From -40°C to +55°C (system unit, excluding battery)"
+    },
+    {
+      "name": "Storage Temp.",
+      "value": "From -50°C to +60°C"
+    },
+    {
+      "name": "Shell Material",
+      "value": "Aluminum alloy"
+    },
+    {
+      "name": "Waterproof",
+      "value": "IP65 (IEC 60529 compliant)"
+    },
+    {
+      "name": "Humidity",
+      "value": "95% RH, non-condensing"
+    },
+    {
+      "name": "Vibration",
+      "value": "5 to 500Hz, 1.5Grms"
+    },
+    {
+      "name": "Shock",
+      "value": "20G peak acceleration (11ms duration)"
+    },
+    {
+      "name": "Environmental Resistance",
+      "value": "Mold, salt spray and damp heat (optional)"
+    },
+    {
+      "name": "Mechanical Protection",
+      "value": "Transportation vibration, vibration and shock (optional)"
+    },
+    {
+      "name": "EMC",
+      "value": "CE101, CE102, CS101, RE101, RE102 (optional)"
+    }
+  ]
+}
