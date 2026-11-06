@@ -11,7 +11,7 @@
   "specs": [
     {
       "name": "CPU",
-      "value": "Intel® Core™ i7-1255U, 10 cores / 12 threads, 12MB cache, up to 4.7GHz"
+      "value": "Intel® Core™ i7-1255U, 10 cores / 12 threads, 12MB cache, up to 4.7GHz or i5-1235U"
     },
     {
       "name": "GPU",

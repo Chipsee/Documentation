@@ -12,9 +12,9 @@ Rugged
       <div class="index-item">
 
 10.1 Inch Rugged Tablet PC
-|A1-X86-Pro|
+|PPC-101-A1X|
 
-:ref:`A1-X86-Pro<A1-X86-Pro>`
+:ref:`PPC-101-A1X<PPC-101-A1X>`
 
 .. raw:: html
 
@@ -27,9 +27,9 @@ Rugged
       <div class="index-item">
 
 15.6 Inch Rugged Laptop
-|B1-X86-Pro|
+|PPC-156-B1X|
 
-:ref:`B1-X86-Pro<B1-X86-Pro>`
+:ref:`PPC-156-B1X<PPC-156-B1X>`
 
 .. raw:: html
 
@@ -40,12 +40,12 @@ Rugged
 
      </div>
 
-.. |A1-X86-Pro| image:: /Media/Intel/Rugged/A1-X86-Pro/A1-X86-Pro-Front-Low.jpg
+.. |PPC-101-A1X| image:: /Media/Intel/Rugged/PPC-101-A1X/PPC-101-A1X-Front-Low.jpg
    :class: index-item-img
-   :target: /PCs/Intel/Rugged/Manuals/Hardware/A1-X86-Pro.html
-.. |B1-X86-Pro| image:: /Media/Intel/Rugged/B1-X86-Pro/B1-X86-Pro-Front-Low.jpg
+   :target: /PCs/Intel/Rugged/Manuals/Hardware/PPC-101-A1X.html
+.. |PPC-156-B1X| image:: /Media/Intel/Rugged/PPC-156-B1X/PPC-156-B1X-Front-Low.jpg
    :class: index-item-img
-   :target: /PCs/Intel/Rugged/Manuals/Hardware/B1-X86-Pro.html
+   :target: /PCs/Intel/Rugged/Manuals/Hardware/PPC-156-B1X.html
 
 
 .. toctree::
@@ -53,5 +53,5 @@ Rugged
    :titlesonly:
    :hidden:
 
-   A1-X86-Pro </PCs/Intel/Rugged/Manuals/Hardware/A1-X86-Pro>
-   B1-X86-Pro </PCs/Intel/Rugged/Manuals/Hardware/B1-X86-Pro>
+   PPC-101-A1X </PCs/Intel/Rugged/Manuals/Hardware/PPC-101-A1X>
+   PPC-156-B1X </PCs/Intel/Rugged/Manuals/Hardware/PPC-156-B1X>

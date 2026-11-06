@@ -3,23 +3,28 @@
 :pdf-filename: |product|
 :pdf-type: rugged laptop
 
-.. |product| replace:: B1-X86-Pro
+.. |product| replace:: PPC-156-B1X
 
 .. |Product| replace:: The |product| fully rugged laptop
 
-.. |Front View| image:: /Media/Intel/Rugged/B1-X86-Pro/B1-X86-Pro-Front.jpg
+.. _product_link: https://chipsee.com/product/ppc-156-b1x/
+
+.. |product_link| replace:: |product|
+
+.. |Front View| image:: /Media/Intel/Rugged/PPC-156-B1X/PPC-156-B1X-Front.jpg
                   :class: product-img
 
-.. |Rear View| image:: /Media/Intel/Rugged/B1-X86-Pro/B1-X86-Pro-Rear.jpg
+.. |Rear View| image:: /Media/Intel/Rugged/PPC-156-B1X/PPC-156-B1X-Rear.jpg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/Intel/Rugged/B1-X86-Pro/B1-X86-Pro-Side1.jpg
+.. |Side View 1| image:: /Media/Intel/Rugged/PPC-156-B1X/PPC-156-B1X-Side1.jpg
                   :class: product-img
 
-.. |Side View 2| image:: /Media/Intel/Rugged/B1-X86-Pro/B1-X86-Pro-Side2.jpg
+.. |Side View 2| image:: /Media/Intel/Rugged/PPC-156-B1X/PPC-156-B1X-Side2.jpg
                   :class: product-img
 
-.. _B1-X86-Pro:
+
+.. _PPC-156-B1X:
 
 |product|
 #########
@@ -42,6 +47,11 @@ Ordering Options
 ================
 
 Most of the Chipsee products can be customized during the ordering process. The product will be shipped with the factory defaults if no extra requirements are specified. The table in the `Hardware Features`_ section lists the default and optional features of the product.
+
+.. note::
+  
+  You can order |product_link|_ from the official |cstore|_ or from your nearest distributor.
+
 
 Operating System
 ----------------
@@ -85,7 +95,7 @@ The figure below shows the interfaces of |product|.
 
 .. rst-class:: text-center
 
-    .. image:: /Media/Intel/Rugged/B1-X86-Pro/B1-X86-Pro-Interfaces.jpg
+    .. image:: /Media/Intel/Rugged/PPC-156-B1X/PPC-156-B1X-Interfaces.jpg
       :align: center
       :width: 1024
 

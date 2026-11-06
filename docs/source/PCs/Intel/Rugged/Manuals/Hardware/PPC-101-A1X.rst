@@ -3,23 +3,27 @@
 :pdf-filename: |product|
 :pdf-type: rugged tablet
 
-.. |product| replace:: A1-X86-Pro
+.. |product| replace:: PPC-101-A1X
 
 .. |Product| replace:: The |product| fully rugged tablet PC
 
-.. |Front View| image:: /Media/Intel/Rugged/A1-X86-Pro/A1-X86-Pro-Front.jpg
+.. _product_link: https://chipsee.com/product/ppc-101-a1x/
+
+.. |product_link| replace:: |product|
+
+.. |Front View| image:: /Media/Intel/Rugged/PPC-101-A1X/PPC-101-A1X-Front.jpg
                   :class: product-img
 
-.. |Rear View| image:: /Media/Intel/Rugged/A1-X86-Pro/A1-X86-Pro-Rear.jpg
+.. |Rear View| image:: /Media/Intel/Rugged/PPC-101-A1X/PPC-101-A1X-Rear.jpg
                   :class: product-img
 
-.. |Side View 1| image:: /Media/Intel/Rugged/A1-X86-Pro/A1-X86-Pro-Side1.jpg
+.. |Side View 1| image:: /Media/Intel/Rugged/PPC-101-A1X/PPC-101-A1X-Side1.jpg
                   :class: product-img
 
-.. |Side View 2| image:: /Media/Intel/Rugged/A1-X86-Pro/A1-X86-Pro-Side2.jpg
+.. |Side View 2| image:: /Media/Intel/Rugged/PPC-101-A1X/PPC-101-A1X-Side2.jpg
                   :class: product-img
 
-.. _A1-X86-Pro:
+.. _PPC-101-A1X:
 
 |product|
 #########
@@ -42,6 +46,10 @@ Ordering Options
 ================
 
 Most of the Chipsee products can be customized during the ordering process. The product will be shipped with the factory defaults if no extra requirements are specified. The table in the `Hardware Features`_ section lists the default and optional features of the product.
+
+.. note::
+  
+  You can order |product_link|_ from the official |cstore|_ or from your nearest distributor.
 
 Operating System
 ----------------
@@ -85,7 +93,7 @@ The figure below shows the interfaces of |product|.
 
 .. rst-class:: text-center
 
-    .. image:: /Media/Intel/Rugged/A1-X86-Pro/A1-X86-Pro-Interfaces.jpg
+    .. image:: /Media/Intel/Rugged/PPC-101-A1X/PPC-101-A1X-Interfaces.jpg
       :align: center
       :width: 1024
 
