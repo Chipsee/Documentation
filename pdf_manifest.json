@@ -1199,6 +1199,22 @@
   "type": "ipc",
   "revision": ""
  },
+ "PCs/Intel/Rugged/Manuals/Hardware/PPC-101-A1X": {
+  "html": "PCs/Intel/Rugged/Manuals/Hardware/PPC-101-A1X.html",
+  "pdf": "PCs/Intel/Rugged/Manuals/Hardware/PPC-101-A1X.pdf",
+  "title": "PPC-101-A1X",
+  "subtitle": "10.1” Fully Rugged Tablet PC",
+  "type": "rugged tablet",
+  "revision": ""
+ },
+ "PCs/Intel/Rugged/Manuals/Hardware/PPC-156-B1X": {
+  "html": "PCs/Intel/Rugged/Manuals/Hardware/PPC-156-B1X.html",
+  "pdf": "PCs/Intel/Rugged/Manuals/Hardware/PPC-156-B1X.pdf",
+  "title": "PPC-156-B1X",
+  "subtitle": "15.6” Fully Rugged Laptop",
+  "type": "rugged laptop",
+  "revision": ""
+ },
  "PCs/Intel/i5-i7-3865/Manuals/Hardware/CS86-BOX": {
   "html": "PCs/Intel/i5-i7-3865/Manuals/Hardware/CS86-BOX.html",
   "pdf": "PCs/Intel/i5-i7-3865/Manuals/Hardware/CS86-BOX.pdf",
