@@ -70,6 +70,10 @@
       "value": "Internal Cat 1 4G/LTE module, not mounted by default"
     },
     {
+      "name": "GPS/GNSS",
+      "value": "Optional, not mounted by default, through 4G/LTE module"
+    },
+    {
       "name": "Audio",
       "value": "3.5mm headset jack (audio out + headset microphone in); internal dual-channel speaker; front microphone"
     },

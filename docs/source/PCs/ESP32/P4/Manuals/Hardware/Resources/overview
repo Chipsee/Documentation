@@ -20,7 +20,7 @@ The product is powered by an ESP32-P4 processor, making it suitable for applicat
 • Edge Vision AI Processor
 • HMI Control Panel
 
-The product can be programmed with ESP-IDF, ESPHome and other ESP32 ecosystem tools and frameworks that support the ESP32-P4.
+The product can be programmed with ESP-IDF, ESPHome and other ESP32 ecosystem tools and frameworks that support the ESP32-P4. We  provide the firmware source code written in ESP-IDF to customers who need it.
 
 
 :pagebreak:`True`
