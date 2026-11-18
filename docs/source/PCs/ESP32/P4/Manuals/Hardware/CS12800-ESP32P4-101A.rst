@@ -62,7 +62,7 @@
 
 .. |btn_img| image:: /Media/ESP32/CS12800-ESP32P4-101A/CS12800-ESP32P4-101A-Btn.jpg
                           :align: middle
-                          :width: 640
+                          :width: 1080
 
 .. |td1_img| image:: /Media/ESP32/CS12800-ESP32P4-101A/CS12800-ESP32P4-101A-TD1.jpg
                           :align: middle
@@ -119,6 +119,8 @@
 .. include:: Resources/wifi
 
 .. include:: Resources/4G_lte
+
+.. include:: Resources/gps
 
 .. include:: Resources/tf
 
