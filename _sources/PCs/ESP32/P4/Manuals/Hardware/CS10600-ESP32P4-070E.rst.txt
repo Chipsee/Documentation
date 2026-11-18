@@ -121,6 +121,8 @@
 
 .. include:: Resources/4G_lte
 
+.. include:: Resources/gps
+
 .. include:: Resources/tf
 
 .. include:: Resources/EPC-ESP32P4-070/audio
